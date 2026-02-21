@@ -29,13 +29,10 @@ SOURCE_PRIORITY = ["IGN", "GameSpot", "Blue's News"]
 MAX_POSTS_PER_RUN = int(os.getenv("MAX_POSTS_PER_RUN", "12"))
 TITLE_FUZZY_THRESHOLD = int(os.getenv("TITLE_FUZZY_THRESHOLD", "92"))
 
-# If BREAKING_MODE=1 (set in breaking.yml), the bot will ONLY post "high-importance" items.
 BREAKING_MODE = os.getenv("BREAKING_MODE", "0").strip() == "1"
+# Make breaking slightly less brittle; still strict on keywords + relevance
+BREAKING_MAX_AGE_HOURS = int(os.getenv("BREAKING_MAX_AGE_HOURS", "72"))
 
-# In breaking mode, only consider items this recent (hours)
-BREAKING_MAX_AGE_HOURS = int(os.getenv("BREAKING_MAX_AGE_HOURS", "24"))
-
-# Balanced (gaming + adjacent), but strict: NO listicles/guides/deals/rumors.
 GAME_TERMS = [
     "video game", "videogame", "game", "gaming",
     "xbox", "playstation", "ps5", "ps4", "nintendo", "switch",
@@ -57,7 +54,7 @@ ADJACENT_TERMS = [
     "vr", "virtual reality", "meta quest",
 ]
 
-# HARD BLOCKS (no-fluff)
+# HARD BLOCKS
 LISTICLE_GUIDE_BLOCK = [
     "best ", "top ", "ranked", "ranking", "tier list",
     "everything you need to know", "explained",
@@ -65,17 +62,27 @@ LISTICLE_GUIDE_BLOCK = [
     "guide", "walkthrough", "tips", "tricks",
 ]
 
+# Evergreen/SEO refresh content (your “History of Resident Evil (2026 Update)” case)
+EVERGREEN_BLOCK = [
+    "history of", "timeline", "retrospective", "complete history",
+    "recap", "ending explained", "lore", "beginner's guide",
+    "what we know so far",
+]
+
 DEALS_BLOCK = [
-    "deal", "deals", "sale", "discount", "save ", "coupon", "promo code",
-    "price drop", "for just $", "buy now", "shop", "bundle",
+    "deal", "deals", "sale", "discount", "save ",
+    "coupon", "promo code", "price drop", "drops to", "lowest price",
+    "now %", "% off", "off)", "limited-time",
+    "for just $", "for only $",
     "woot", "amazon", "best buy", "walmart", "target", "newegg",
+    # common deal-item terms that leak in
+    "power bank", "mAh", "charger", "charging", "usb-c",
 ]
 
 RUMOR_BLOCK = [
     "rumor", "rumour", "leak", "leaked", "leaks",
     "speculation", "speculate", "reportedly", "allegedly",
-    "could", "might", "may", "possibly",
-    "insider", "according to sources", "unconfirmed",
+    "unconfirmed", "according to sources", "insider",
 ]
 
 NON_GAME_ENTERTAINMENT_BLOCK = [
@@ -85,7 +92,6 @@ NON_GAME_ENTERTAINMENT_BLOCK = [
     "anime",
 ]
 
-# Breaking News keywords: only these are allowed in BREAKING_MODE
 BREAKING_KEYWORDS = [
     "shut down", "shutdown", "closed", "closing", "closure",
     "layoff", "layoffs",
@@ -101,7 +107,6 @@ BREAKING_KEYWORDS = [
     "retire", "retirement",
 ]
 
-# Allow repeats only when it's truly an update
 UPDATE_KEYWORDS = [
     "update", "updated", "new details", "more details", "confirmed",
     "statement", "responds", "clarifies", "patch", "hotfix",
@@ -109,7 +114,7 @@ UPDATE_KEYWORDS = [
 
 STATE_FILE = "state.json"
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.4")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.5")
 
 TRACKING_PARAMS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
@@ -206,22 +211,31 @@ def game_or_adjacent(title: str, summary: str) -> bool:
     return contains_any(hay, GAME_TERMS) or contains_any(hay, ADJACENT_TERMS)
 
 
+def has_money_signals(text: str) -> bool:
+    # catches: $39.99, 60% Off, etc.
+    return bool(re.search(r"(\$\d)|(\d+\s*%(\s*off)?)", text, flags=re.IGNORECASE))
+
+
 def hard_block(title: str, summary: str) -> bool:
     hay = f"{title} {summary}".lower()
 
-    # Kill listicles/guides/reviews
+    # kill listicles/guides/reviews
     if contains_any(hay, LISTICLE_GUIDE_BLOCK):
         return True
 
-    # Kill deals / shopping posts
-    if contains_any(hay, DEALS_BLOCK):
+    # kill evergreen/SEO refresh content
+    if contains_any(hay, EVERGREEN_BLOCK):
         return True
 
-    # Kill rumors/speculation
+    # kill deals/shopping content (including money signals)
+    if contains_any(hay, DEALS_BLOCK) or has_money_signals(hay):
+        return True
+
+    # kill rumors/speculation
     if contains_any(hay, RUMOR_BLOCK):
         return True
 
-    # Kill non-game entertainment/comics unless it’s clearly gaming/adjacent
+    # kill non-game entertainment unless it’s clearly game/adjacent
     if contains_any(hay, NON_GAME_ENTERTAINMENT_BLOCK) and not game_or_adjacent(title, summary):
         return True
 
@@ -229,7 +243,6 @@ def hard_block(title: str, summary: str) -> bool:
 
 
 def is_relevant(title: str, summary: str) -> bool:
-    # Must be game or adjacent AND not hard-blocked
     if not game_or_adjacent(title, summary):
         return False
     if hard_block(title, summary):
@@ -238,16 +251,12 @@ def is_relevant(title: str, summary: str) -> bool:
 
 
 def is_breaking(title: str, summary: str, published_at: datetime) -> bool:
-    # Age gate
-    max_age = timedelta(hours=BREAKING_MAX_AGE_HOURS)
-    if utcnow() - published_at > max_age:
+    if utcnow() - published_at > timedelta(hours=BREAKING_MAX_AGE_HOURS):
         return False
-
-    # Must be relevant AND include breaking keywords
-    hay = f"{title} {summary}".lower()
     if not is_relevant(title, summary):
         return False
 
+    hay = f"{title} {summary}".lower()
     if not contains_any(hay, BREAKING_KEYWORDS):
         return False
 
@@ -369,18 +378,13 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Item]:
 
 def pick_best_source(cluster: List[Item]) -> Item:
     priority = {name: i for i, name in enumerate(SOURCE_PRIORITY)}
-    cluster_sorted = sorted(
-        cluster,
-        key=lambda x: (priority.get(x.source, 999), -x.published_at.timestamp())
-    )
-    return cluster_sorted[0]
+    return sorted(cluster, key=lambda x: (priority.get(x.source, 999), -x.published_at.timestamp()))[0]
 
 
 def cluster_items(items: List[Item]) -> List[Item]:
     buckets: Dict[str, List[Item]] = {}
     for it in items:
         buckets.setdefault(it.story_key, []).append(it)
-
     chosen = [pick_best_source(group) for group in buckets.values()]
     chosen.sort(key=lambda x: x.published_at, reverse=True)
     return chosen
@@ -399,7 +403,6 @@ def is_duplicate_or_allowed_update(item: Item, state: Dict) -> bool:
     for seen in state["seen_titles"][-500:]:
         if fuzz.ratio(title_norm, seen) >= TITLE_FUZZY_THRESHOLD and not is_update:
             return True
-
     return False
 
 
@@ -435,14 +438,12 @@ def discord_post(item: Item) -> None:
         "timestamp": item.published_at.isoformat(),
         "footer": {"text": f"Source: {item.source}"},
     }
-
     if summary:
         embed["description"] = summary
     if image_url:
         embed["image"] = {"url": image_url}
 
-    payload = {"embeds": [embed]}
-    resp = requests.post(DISCORD_WEBHOOK_URL, json=payload, timeout=20)
+    resp = requests.post(DISCORD_WEBHOOK_URL, json={"embeds": [embed]}, timeout=20)
     resp.raise_for_status()
 
 
@@ -456,7 +457,6 @@ def main():
         except Exception as e:
             print(f"[WARN] Feed fetch failed: {f['name']} -> {e}")
 
-    # Filter + (optional) breaking gate
     filtered: List[Item] = []
     for it in all_items:
         if BREAKING_MODE:
@@ -466,14 +466,12 @@ def main():
             if is_relevant(it.title, it.summary):
                 filtered.append(it)
 
-    # Cluster across sources
     clustered = cluster_items(filtered)
 
     posted = 0
     for item in clustered:
         if posted >= MAX_POSTS_PER_RUN:
             break
-
         if is_duplicate_or_allowed_update(item, state):
             continue
 
