@@ -30,7 +30,6 @@ MAX_POSTS_PER_RUN = int(os.getenv("MAX_POSTS_PER_RUN", "12"))
 TITLE_FUZZY_THRESHOLD = int(os.getenv("TITLE_FUZZY_THRESHOLD", "92"))
 
 BREAKING_MODE = os.getenv("BREAKING_MODE", "0").strip() == "1"
-# Make breaking slightly less brittle; still strict on keywords + relevance
 BREAKING_MAX_AGE_HOURS = int(os.getenv("BREAKING_MAX_AGE_HOURS", "72"))
 
 GAME_TERMS = [
@@ -54,7 +53,6 @@ ADJACENT_TERMS = [
     "vr", "virtual reality", "meta quest",
 ]
 
-# HARD BLOCKS
 LISTICLE_GUIDE_BLOCK = [
     "best ", "top ", "ranked", "ranking", "tier list",
     "everything you need to know", "explained",
@@ -62,7 +60,6 @@ LISTICLE_GUIDE_BLOCK = [
     "guide", "walkthrough", "tips", "tricks",
 ]
 
-# Evergreen/SEO refresh content (your “History of Resident Evil (2026 Update)” case)
 EVERGREEN_BLOCK = [
     "history of", "timeline", "retrospective", "complete history",
     "recap", "ending explained", "lore", "beginner's guide",
@@ -75,7 +72,6 @@ DEALS_BLOCK = [
     "now %", "% off", "off)", "limited-time",
     "for just $", "for only $",
     "woot", "amazon", "best buy", "walmart", "target", "newegg",
-    # common deal-item terms that leak in
     "power bank", "mAh", "charger", "charging", "usb-c",
 ]
 
@@ -92,19 +88,30 @@ NON_GAME_ENTERTAINMENT_BLOCK = [
     "anime",
 ]
 
+# EXPANDED: breaking also includes game announcements / reveals / drops
 BREAKING_KEYWORDS = [
+    # big-impact operational / business / legal
     "shut down", "shutdown", "closed", "closing", "closure",
     "layoff", "layoffs",
     "canceled", "cancelled",
     "delay", "delayed",
-    "release date", "launch date", "launch",
-    "patch", "hotfix", "update",
     "outage", "servers down", "service down",
     "security", "breach", "vulnerability",
     "price increase", "price hike",
     "acquisition", "acquired", "merger",
     "lawsuit", "sued",
     "retire", "retirement",
+
+    # releases / live changes
+    "release date", "launch date", "launch",
+    "patch", "hotfix", "update",
+
+    # NEW: announcements / reveals / drops
+    "announced", "announcement",
+    "revealed", "reveal",
+    "debut", "premiere",
+    "drops today", "drops", "available now", "out now", "live now",
+    "shadow drop", "shadowdrop",
 ]
 
 UPDATE_KEYWORDS = [
@@ -114,7 +121,7 @@ UPDATE_KEYWORDS = [
 
 STATE_FILE = "state.json"
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.5")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.6")
 
 TRACKING_PARAMS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
@@ -212,30 +219,20 @@ def game_or_adjacent(title: str, summary: str) -> bool:
 
 
 def has_money_signals(text: str) -> bool:
-    # catches: $39.99, 60% Off, etc.
     return bool(re.search(r"(\$\d)|(\d+\s*%(\s*off)?)", text, flags=re.IGNORECASE))
 
 
 def hard_block(title: str, summary: str) -> bool:
     hay = f"{title} {summary}".lower()
 
-    # kill listicles/guides/reviews
     if contains_any(hay, LISTICLE_GUIDE_BLOCK):
         return True
-
-    # kill evergreen/SEO refresh content
     if contains_any(hay, EVERGREEN_BLOCK):
         return True
-
-    # kill deals/shopping content (including money signals)
     if contains_any(hay, DEALS_BLOCK) or has_money_signals(hay):
         return True
-
-    # kill rumors/speculation
     if contains_any(hay, RUMOR_BLOCK):
         return True
-
-    # kill non-game entertainment unless it’s clearly game/adjacent
     if contains_any(hay, NON_GAME_ENTERTAINMENT_BLOCK) and not game_or_adjacent(title, summary):
         return True
 
