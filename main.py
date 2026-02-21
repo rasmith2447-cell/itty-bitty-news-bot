@@ -19,11 +19,7 @@ from rapidfuzz import fuzz
 FEEDS = [
     {"name": "IGN", "url": "http://feeds.ign.com/ign/all"},
     {"name": "GameSpot", "url": "http://www.gamespot.com/feeds/mashup/"},
-    # Blue's News has multiple feed options listed here:
-    # https://www.bluesnews.com/feeds
-    # For now we will skip it until you paste a specific feed URL.
-    # You can add it later by replacing the line below with the real URL.
-    # {"name": "Blue's News", "url": "PASTE_BLUES_NEWS_FEED_URL_HERE"},
+    {"name": "Blue's News", "url": "https://www.bluesnews.com/news/news_1_0.rdf"},
 ]
 
 MAX_POSTS_PER_RUN = int(os.getenv("MAX_POSTS_PER_RUN", "12"))
@@ -78,7 +74,7 @@ def safe_parse_date(entry) -> datetime:
     if getattr(entry, "updated_parsed", None):
         return datetime.fromtimestamp(time.mktime(entry.updated_parsed), tz=timezone.utc)
 
-    for key in ["published", "updated", "created"]:
+    for key in ["published", "updated", "created", "date"]:
         val = getattr(entry, key, None)
         if val:
             try:
@@ -115,6 +111,14 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Item]:
     for entry in parsed.entries[:50]:
         title = (getattr(entry, "title", "") or "").strip()
         link = (getattr(entry, "link", "") or "").strip()
+
+        # Some RSS/RDF feeds may store links differently; feedparser usually populates .link,
+        # but this fallback helps in edge cases.
+        if not link:
+            links = getattr(entry, "links", None)
+            if links and isinstance(links, list) and len(links) > 0:
+                link = (links[0].get("href") or "").strip()
+
         if not title or not link:
             continue
 
@@ -171,8 +175,6 @@ def main():
 
     all_items: List[Item] = []
     for f in FEEDS:
-        if "PASTE_" in f["url"]:
-            continue
         try:
             items = fetch_feed(f["name"], f["url"])
             all_items.extend(items)
