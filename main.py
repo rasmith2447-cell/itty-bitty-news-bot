@@ -2,9 +2,10 @@ import json
 import os
 import re
 import time
+import hashlib
 from dataclasses import dataclass
 from datetime import datetime, timezone
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Optional
 from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
 
 import feedparser
@@ -23,58 +24,71 @@ FEEDS = [
     {"name": "Blue's News", "url": "https://www.bluesnews.com/news/news_1_0.rdf"},
 ]
 
+# Prefer one source when the same story appears across multiple sources
+SOURCE_PRIORITY = ["IGN", "GameSpot", "Blue's News"]
+
 MAX_POSTS_PER_RUN = int(os.getenv("MAX_POSTS_PER_RUN", "12"))
 TITLE_FUZZY_THRESHOLD = int(os.getenv("TITLE_FUZZY_THRESHOLD", "92"))
 
 # Balanced filter: Gaming + adjacent
-# Strong gaming terms = always relevant
 STRONG_GAME_TERMS = [
-    # general gaming language
     "video game", "videogame", "game", "gaming",
-    # platforms/stores
     "xbox", "playstation", "ps5", "ps4", "nintendo", "switch", "steam", "epic games", "gog", "game pass",
     "pc gaming", "console", "handheld",
-    # releases/updates/business
     "release date", "launch", "early access", "beta", "alpha", "demo",
     "patch", "update", "hotfix", "season", "battle pass", "dlc", "expansion", "roadmap",
     "servers", "crossplay", "cross-play",
     "preorder", "pre-order", "price", "pricing",
     "studio", "developer", "publisher",
-    # esports + streaming (still “strong” for your brand)
     "esports", "tournament", "championship",
+
+    # Important “news” terms (helps catch stories like Bluepoint closure)
+    "closed", "closing", "closure", "shut down", "shutdown",
+    "layoff", "layoffs", "cut", "cuts",
+    "canceled", "cancelled", "delayed", "delay",
+    "acquired", "acquisition", "merger",
+    "lawsuit", "sued",
+    "retire", "retirement",
+    "playstation studios",
+
+    # Specific studios/franchises you care about (add more anytime)
+    "bluepoint",
 ]
 
-# Adjacent terms = relevant, but should not be pure entertainment
 ADJACENT_TERMS = [
-    # hardware/pc ecosystem
     "gpu", "graphics card", "nvidia", "amd", "intel", "driver", "dlss", "fsr",
     "steam deck", "rog ally", "handheld pc",
-    # engines/tools/tech
     "unity", "unreal engine", "unreal", "engine", "mod", "mods", "modding",
     "discord", "twitch", "youtube gaming", "streaming",
     "vr", "virtual reality", "meta quest",
 ]
 
-# Content types that tend to be "fluff" for a no-fluff news feed
+# “No fluff” blockers
 CONTENT_TYPE_BLOCK = [
     "review", "preview", "impressions",
     "guide", "walkthrough", "tips", "tricks",
-    "best", "top ", "ranked", "ranking", "tier list",
+    "best ", "top ", "ranked", "ranking", "tier list",
     "everything you need to know", "explained",
 ]
 
-# Entertainment-only signals we want to avoid (unless strong gaming signals are present)
+# Entertainment-only signals we want to avoid unless strong gaming terms are present
 ENTERTAINMENT_BLOCK = [
     "movie", "film", "tv", "television", "series", "episode", "season finale",
     "netflix", "hulu", "disney", "paramount", "max", "hbo",
     "box office", "actor", "actress", "cast", "celebrity", "red carpet",
-    "trailer reaction", "soundtrack", "music video",
     "anime",
+]
+
+# If a story was already posted, only allow a repeat if the title contains an “update” keyword.
+UPDATE_KEYWORDS = [
+    "update", "updated", "new details", "more details", "confirmed", "now",
+    "patch", "hotfix", "statement", "responds", "clarifies", "report",
+    "finally", "release date", "launch date",
 ]
 
 STATE_FILE = "state.json"
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.2")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.3")
 
 TRACKING_PARAMS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
@@ -95,6 +109,7 @@ class Item:
     published_at: datetime
     summary: str = ""
     image_url: str = ""
+    story_key: str = ""  # used for clustering & dedupe
 
 
 def utcnow() -> datetime:
@@ -102,12 +117,19 @@ def utcnow() -> datetime:
 
 
 def normalize_url(url: str) -> str:
+    """Remove tracking params + fragments; normalize scheme/hostname casing."""
     try:
-        parsed = urlparse(url)
+        parsed = urlparse(url.strip())
+        # strip tracking params
         query = [(k, v) for (k, v) in parse_qsl(parsed.query, keep_blank_values=True)
                  if k.lower() not in TRACKING_PARAMS]
         new_query = urlencode(query, doseq=True)
         parsed = parsed._replace(query=new_query, fragment="")
+
+        # normalize netloc casing
+        netloc = parsed.netloc.lower()
+        parsed = parsed._replace(netloc=netloc)
+
         return urlunparse(parsed).strip()
     except Exception:
         return url.strip()
@@ -149,9 +171,12 @@ def safe_parse_date(entry) -> datetime:
 
 def load_state() -> Dict:
     if not os.path.exists(STATE_FILE):
-        return {"seen_urls": [], "seen_titles": []}
+        return {"seen_urls": [], "seen_titles": [], "seen_story_keys": []}
     with open(STATE_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+        state = json.load(f)
+    # backward compatible with older state.json
+    state.setdefault("seen_story_keys", [])
+    return state
 
 
 def save_state(state: Dict) -> None:
@@ -160,21 +185,10 @@ def save_state(state: Dict) -> None:
 
 
 def _count_hits(hay: str, terms: List[str]) -> int:
-    hits = 0
-    for t in terms:
-        if t in hay:
-            hits += 1
-    return hits
+    return sum(1 for t in terms if t in hay)
 
 
 def is_relevant(title: str, summary: str) -> bool:
-    """
-    Balanced rule:
-    - Accept if there is at least 1 strong gaming hit
-    - OR accept if there are 2+ adjacent hits AND entertainment-block hits are 0
-    - Reject if it's mostly listicle/guide content unless strong gaming hits outweigh it
-    - Reject entertainment content unless strong gaming hit exists
-    """
     hay = f"{title} {summary}".lower()
 
     strong = _count_hits(hay, [t.lower() for t in STRONG_GAME_TERMS])
@@ -182,24 +196,44 @@ def is_relevant(title: str, summary: str) -> bool:
     entertainment = _count_hits(hay, [t.lower() for t in ENTERTAINMENT_BLOCK])
     fluff = _count_hits(hay, [t.lower() for t in CONTENT_TYPE_BLOCK])
 
-    # Hard block: entertainment-only unless clearly gaming
+    # Entertainment-only: reject unless clearly gaming news
     if entertainment > 0 and strong == 0:
         return False
 
-    # Reduce guides/listicles unless it's very clearly news
-    # (Example: "Best weapons in..." -> filtered)
+    # No-fluff: reject guides/listicles unless clearly gaming news
     if fluff > 0 and strong == 0:
         return False
 
-    # Primary allow rules
+    # Accept if strong gaming signal exists
     if strong >= 1:
         return True
 
+    # Accept adjacent-only if it’s clearly gaming-adjacent (2+ hits, not entertainment, not fluff)
     if adjacent >= 2 and entertainment == 0 and fluff == 0:
         return True
 
-    # If it mentions “game” once but is vague, be conservative
     return False
+
+
+def contains_update_keyword(title: str, summary: str) -> bool:
+    hay = f"{title} {summary}".lower()
+    return any(k.lower() in hay for k in UPDATE_KEYWORDS)
+
+
+def make_story_key(title: str) -> str:
+    """
+    Story key used for clustering:
+    - normalize title
+    - remove punctuation / extra whitespace
+    - hash it
+    """
+    t = title.lower()
+    t = re.sub(r"https?://\S+", "", t)
+    t = re.sub(r"[^a-z0-9\s]", " ", t)
+    t = re.sub(r"\s+", " ", t).strip()
+    # shorten titles that have trailing site labels etc.
+    t = re.sub(r"\s+\-\s+\w+$", "", t).strip()
+    return hashlib.sha1(t.encode("utf-8")).hexdigest()
 
 
 def extract_from_entry(entry) -> Tuple[str, str]:
@@ -262,9 +296,7 @@ def fetch_open_graph(url: str) -> Tuple[str, str]:
     desc = meta("og:description") or meta("description") or meta("twitter:description")
     img = meta("og:image") or meta("twitter:image") or meta("twitter:image:src")
 
-    desc = strip_html(desc)
-    img = (img or "").strip()
-    return desc, img
+    return strip_html(desc), (img or "").strip()
 
 
 def fetch_feed(feed_name: str, feed_url: str) -> List[Item]:
@@ -275,7 +307,7 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Item]:
     parsed = feedparser.parse(resp.text)
 
     items: List[Item] = []
-    for entry in parsed.entries[:70]:
+    for entry in parsed.entries[:80]:
         title = (getattr(entry, "title", "") or "").strip()
         link = (getattr(entry, "link", "") or "").strip()
 
@@ -298,20 +330,37 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Item]:
             url=url,
             published_at=published_at,
             summary=entry_summary,
-            image_url=entry_image
+            image_url=entry_image,
+            story_key=make_story_key(title)
         ))
 
     return items
 
 
-def is_duplicate(item: Item, state: Dict) -> bool:
+def is_duplicate_or_allowed_update(item: Item, state: Dict) -> bool:
+    """
+    Skip if:
+      - URL already posted
+      - OR story_key already posted AND not an update
+      - OR fuzzy-title matches already posted AND not an update
+    Allow repeat only if title/summary includes update keywords.
+    """
+    # exact URL seen
     if item.url in state["seen_urls"]:
         return True
 
+    is_update = contains_update_keyword(item.title, item.summary)
+
+    # story_key seen
+    if item.story_key in state["seen_story_keys"] and not is_update:
+        return True
+
+    # fuzzy title seen (extra safety)
     title_norm = re.sub(r"\s+", " ", item.title.strip().lower())
-    for seen in state["seen_titles"][-300:]:
-        if fuzz.ratio(title_norm, seen) >= TITLE_FUZZY_THRESHOLD:
+    for seen in state["seen_titles"][-400:]:
+        if fuzz.ratio(title_norm, seen) >= TITLE_FUZZY_THRESHOLD and not is_update:
             return True
+
     return False
 
 
@@ -319,9 +368,41 @@ def remember(item: Item, state: Dict) -> None:
     state["seen_urls"].append(item.url)
     title_norm = re.sub(r"\s+", " ", item.title.strip().lower())
     state["seen_titles"].append(title_norm)
+    state["seen_story_keys"].append(item.story_key)
 
-    state["seen_urls"] = state["seen_urls"][-2000:]
-    state["seen_titles"] = state["seen_titles"][-2000:]
+    # keep state bounded
+    state["seen_urls"] = state["seen_urls"][-4000:]
+    state["seen_titles"] = state["seen_titles"][-4000:]
+    state["seen_story_keys"] = state["seen_story_keys"][-4000:]
+
+
+def pick_best_source(cluster: List[Item]) -> Item:
+    """
+    Pick the best item from a cluster using SOURCE_PRIORITY.
+    """
+    priority = {name: i for i, name in enumerate(SOURCE_PRIORITY)}
+    cluster_sorted = sorted(
+        cluster,
+        key=lambda x: (priority.get(x.source, 999), -x.published_at.timestamp())
+    )
+    return cluster_sorted[0]
+
+
+def cluster_items(items: List[Item]) -> List[Item]:
+    """
+    Cluster by story_key, then pick one source per cluster.
+    """
+    buckets: Dict[str, List[Item]] = {}
+    for it in items:
+        buckets.setdefault(it.story_key, []).append(it)
+
+    chosen: List[Item] = []
+    for key, group in buckets.items():
+        chosen.append(pick_best_source(group))
+
+    # newest first
+    chosen.sort(key=lambda x: x.published_at, reverse=True)
+    return chosen
 
 
 def discord_post(item: Item) -> None:
@@ -331,7 +412,7 @@ def discord_post(item: Item) -> None:
     summary = item.summary or ""
     image_url = item.image_url or ""
 
-    # If missing, pull from the article page’s metadata
+    # If missing, pull from the article metadata
     if not summary or not image_url:
         og_desc, og_img = fetch_open_graph(item.url)
         if not summary and og_desc:
@@ -339,7 +420,7 @@ def discord_post(item: Item) -> None:
         if not image_url and og_img:
             image_url = og_img
 
-    summary = shorten(summary, 280)
+    summary = shorten(summary, 320)
 
     embed = {
         "title": item.title,
@@ -364,23 +445,23 @@ def main():
     all_items: List[Item] = []
     for f in FEEDS:
         try:
-            items = fetch_feed(f["name"], f["url"])
-            all_items.extend(items)
+            all_items.extend(fetch_feed(f["name"], f["url"]))
         except Exception as e:
             print(f"[WARN] Feed fetch failed: {f['name']} -> {e}")
 
-    all_items.sort(key=lambda x: x.published_at, reverse=True)
+    # First apply relevancy filter (all sources)
+    filtered = [it for it in all_items if is_relevant(it.title, it.summary)]
+
+    # Then cluster to avoid multi-source repeats
+    clustered = cluster_items(filtered)
 
     posted = 0
-    for item in all_items:
+    for item in clustered:
         if posted >= MAX_POSTS_PER_RUN:
             break
 
-        # Apply the gaming + adjacent filter to ALL sources
-        if not is_relevant(item.title, item.summary):
-            continue
-
-        if is_duplicate(item, state):
+        # Avoid reposts unless it's an update
+        if is_duplicate_or_allowed_update(item, state):
             continue
 
         try:
