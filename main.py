@@ -15,7 +15,7 @@ from dateutil import parser as dateparser
 from rapidfuzz import fuzz
 
 # ----------------------------
-# BEGINNER CONFIG SECTION
+# CONFIG
 # ----------------------------
 
 FEEDS = [
@@ -31,6 +31,10 @@ TITLE_FUZZY_THRESHOLD = int(os.getenv("TITLE_FUZZY_THRESHOLD", "92"))
 
 BREAKING_MODE = os.getenv("BREAKING_MODE", "0").strip() == "1"
 BREAKING_MAX_AGE_HOURS = int(os.getenv("BREAKING_MAX_AGE_HOURS", "72"))
+
+# If MODE=DIGEST, bot posts top N items without affecting state (for your private Content Board)
+MODE = os.getenv("MODE", "RAW").strip().upper()  # RAW | DIGEST
+SKIP_STATE_UPDATE = os.getenv("SKIP_STATE_UPDATE", "0").strip() == "1"
 
 GAME_TERMS = [
     "video game", "videogame", "game", "gaming",
@@ -88,9 +92,7 @@ NON_GAME_ENTERTAINMENT_BLOCK = [
     "anime",
 ]
 
-# EXPANDED: breaking also includes game announcements / reveals / drops
 BREAKING_KEYWORDS = [
-    # big-impact operational / business / legal
     "shut down", "shutdown", "closed", "closing", "closure",
     "layoff", "layoffs",
     "canceled", "cancelled",
@@ -101,12 +103,8 @@ BREAKING_KEYWORDS = [
     "acquisition", "acquired", "merger",
     "lawsuit", "sued",
     "retire", "retirement",
-
-    # releases / live changes
     "release date", "launch date", "launch",
     "patch", "hotfix", "update",
-
-    # NEW: announcements / reveals / drops
     "announced", "announcement",
     "revealed", "reveal",
     "debut", "premiere",
@@ -121,17 +119,13 @@ UPDATE_KEYWORDS = [
 
 STATE_FILE = "state.json"
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.6")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.7")
 
 TRACKING_PARAMS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
     "utm_id", "utm_name", "utm_reader", "utm_referrer",
     "gclid", "fbclid", "mc_cid", "mc_eid", "ref", "source"
 }
-
-# ----------------------------
-# END BEGINNER CONFIG SECTION
-# ----------------------------
 
 
 @dataclass
@@ -213,13 +207,13 @@ def contains_any(hay: str, terms: List[str]) -> bool:
     return any(t.lower() in hay for t in terms)
 
 
+def has_money_signals(text: str) -> bool:
+    return bool(re.search(r"(\$\d)|(\d+\s*%(\s*off)?)", text, flags=re.IGNORECASE))
+
+
 def game_or_adjacent(title: str, summary: str) -> bool:
     hay = f"{title} {summary}".lower()
     return contains_any(hay, GAME_TERMS) or contains_any(hay, ADJACENT_TERMS)
-
-
-def has_money_signals(text: str) -> bool:
-    return bool(re.search(r"(\$\d)|(\d+\s*%(\s*off)?)", text, flags=re.IGNORECASE))
 
 
 def hard_block(title: str, summary: str) -> bool:
@@ -254,10 +248,7 @@ def is_breaking(title: str, summary: str, published_at: datetime) -> bool:
         return False
 
     hay = f"{title} {summary}".lower()
-    if not contains_any(hay, BREAKING_KEYWORDS):
-        return False
-
-    return True
+    return contains_any(hay, BREAKING_KEYWORDS)
 
 
 def contains_update_keyword(title: str, summary: str) -> bool:
@@ -413,6 +404,65 @@ def remember(item: Item, state: Dict) -> None:
     state["seen_titles"] = state["seen_titles"][-5000:]
 
 
+def make_tags(title: str, summary: str) -> List[str]:
+    hay = f"{title} {summary}".lower()
+    tags: List[str] = []
+
+    # content type / urgency
+    if contains_any(hay, ["announced", "announcement", "revealed", "reveal", "debut", "premiere"]):
+        tags.append("ANNOUNCEMENT")
+    if contains_any(hay, ["drops today", "available now", "out now", "live now", "shadow drop", "shadowdrop"]):
+        tags.append("DROP")
+    if contains_any(hay, ["patch", "hotfix", "update"]):
+        tags.append("PATCH")
+    if contains_any(hay, ["delay", "delayed"]):
+        tags.append("DELAY")
+    if contains_any(hay, ["layoff", "layoffs"]):
+        tags.append("LAYOFFS")
+    if contains_any(hay, ["shut down", "shutdown", "closed", "closing", "closure"]):
+        tags.append("SHUTDOWN")
+    if contains_any(hay, ["acquisition", "acquired", "merger"]):
+        tags.append("M&A")
+    if contains_any(hay, ["lawsuit", "sued"]):
+        tags.append("LEGAL")
+    if contains_any(hay, ["retire", "retirement"]):
+        tags.append("RETIREMENT")
+    if contains_any(hay, ["outage", "servers down", "service down"]):
+        tags.append("OUTAGE")
+    if contains_any(hay, ["security", "breach", "vulnerability"]):
+        tags.append("SECURITY")
+
+    # platform tags
+    if contains_any(hay, ["playstation", "ps5", "ps4"]):
+        tags.append("PLAYSTATION")
+    if contains_any(hay, ["xbox", "game pass"]):
+        tags.append("XBOX")
+    if contains_any(hay, ["nintendo", "switch"]):
+        tags.append("NINTENDO")
+    if contains_any(hay, ["steam", "pc gaming", "pc "]):
+        tags.append("PC")
+
+    # tech adjacency tags
+    if contains_any(hay, ["nvidia", "amd", "intel", "gpu", "graphics card", "driver", "dlss", "fsr"]):
+        tags.append("HARDWARE")
+    if contains_any(hay, ["unreal", "unity", "engine"]):
+        tags.append("DEV/ENGINE")
+    if contains_any(hay, ["esports", "tournament", "championship"]):
+        tags.append("ESPORTS")
+    if contains_any(hay, ["steam deck", "rog ally", "handheld pc"]):
+        tags.append("HANDHELD")
+
+    # cap tags to keep embed clean
+    # preserve order, de-dup
+    seen = set()
+    out = []
+    for t in tags:
+        if t not in seen:
+            out.append(t)
+            seen.add(t)
+    return out[:8]
+
+
 def discord_post(item: Item) -> None:
     if not DISCORD_WEBHOOK_URL:
         raise RuntimeError("DISCORD_WEBHOOK_URL is not set")
@@ -428,6 +478,7 @@ def discord_post(item: Item) -> None:
             image_url = og_img
 
     summary = shorten(summary, 320)
+    tags = make_tags(item.title, summary)
 
     embed = {
         "title": item.title,
@@ -435,8 +486,13 @@ def discord_post(item: Item) -> None:
         "timestamp": item.published_at.isoformat(),
         "footer": {"text": f"Source: {item.source}"},
     }
+
     if summary:
         embed["description"] = summary
+
+    if tags:
+        embed["fields"] = [{"name": "Tags", "value": " ".join([f"`{t}`" for t in tags]), "inline": False}]
+
     if image_url:
         embed["image"] = {"url": image_url}
 
@@ -469,19 +525,28 @@ def main():
     for item in clustered:
         if posted >= MAX_POSTS_PER_RUN:
             break
-        if is_duplicate_or_allowed_update(item, state):
-            continue
+
+        # In DIGEST mode, do not apply state-based skipping (you want a “board” view),
+        # but still respect relevance/breaking filters.
+        if MODE != "DIGEST":
+            if is_duplicate_or_allowed_update(item, state):
+                continue
 
         try:
             discord_post(item)
-            remember(item, state)
             posted += 1
             print(f"[POSTED] {item.source}: {item.title}")
+
+            if MODE != "DIGEST" and not SKIP_STATE_UPDATE:
+                remember(item, state)
+
         except Exception as e:
             print(f"[ERROR] Post failed: {item.title} -> {e}")
 
-    save_state(state)
-    print(f"Done. Posted {posted} item(s). BREAKING_MODE={BREAKING_MODE}")
+    if MODE != "DIGEST" and not SKIP_STATE_UPDATE:
+        save_state(state)
+
+    print(f"Done. Posted {posted} item(s). MODE={MODE} BREAKING_MODE={BREAKING_MODE}")
 
 
 if __name__ == "__main__":
