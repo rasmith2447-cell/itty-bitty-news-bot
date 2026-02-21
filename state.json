@@ -1,4 +1,30 @@
 {
-  "seen_urls": [],
-  "seen_titles": []
+  "seen_urls": [
+    "https://www.ign.com/articles/where-to-buy-marvel-super-heroes-collector-boosters-for-magic-fans",
+    "https://www.ign.com/articles/what-happened-to-xbox-president-sarah-bond-amid-phil-spencers-retirement-and-asha-sharmas-promotion-long-term-protg-resigns",
+    "https://www.ign.com/articles/no-tolerance-for-bad-ai-new-xbox-boss-responds-to-concerns-around-her-microsoft-background",
+    "https://www.ign.com/articles/industry-vets-react-to-xbox-leaders-phil-spencer-and-sarah-bond-departing-bond-gives-her-statement",
+    "https://www.gamespot.com/videos/why-the-playstation-6-will-be-delayed/2300-6466729/",
+    "https://www.gamespot.com/articles/ys-memoire-revelations-in-celceta-buyin-guide/1100-6538250/?ftag=CAD-01-10abi2f",
+    "https://www.bluesnews.com/s/294796/phil-spencer-retires-from-microsoft",
+    "https://www.bluesnews.com/s/294795/super-battle-golf-released",
+    "https://www.bluesnews.com/s/294794/demos-and-freebies",
+    "https://www.bluesnews.com/s/294793/roadmaps-and-plans",
+    "https://www.bluesnews.com/s/294792/on-sale",
+    "https://www.bluesnews.com/s/294790/engagement-ring"
+  ],
+  "seen_titles": [
+    "where to buy marvel super heroes collector boosters for magic fans",
+    "what happened to xbox president sarah bond? amid phil spencer's retirement and asha sharma's promotion, long-term protégé resigns",
+    "'no tolerance for bad ai': new xbox boss responds to concerns around her microsoft background",
+    "industry vets react to xbox leaders phil spencer and sarah bond departing, bond gives her statement",
+    "why the playstation 6 will be delayed",
+    "ys memoire: revelations in celceta switch preorders include a bunch of extras",
+    "phil spencer retires from microsoft",
+    "super battle golf released",
+    "demos and freebies",
+    "roadmaps and plans",
+    "on sale",
+    "engagement ring"
+  ]
 }
