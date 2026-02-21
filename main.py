@@ -4,11 +4,12 @@ import re
 import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
-from typing import List, Dict
+from typing import List, Dict, Tuple
 from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
 
 import feedparser
 import requests
+from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
 from rapidfuzz import fuzz
 
@@ -25,12 +26,56 @@ FEEDS = [
 MAX_POSTS_PER_RUN = int(os.getenv("MAX_POSTS_PER_RUN", "12"))
 TITLE_FUZZY_THRESHOLD = int(os.getenv("TITLE_FUZZY_THRESHOLD", "92"))
 
-# You do NOT need to change this.
+# Balanced filter: Gaming + adjacent
+# Strong gaming terms = always relevant
+STRONG_GAME_TERMS = [
+    # general gaming language
+    "video game", "videogame", "game", "gaming",
+    # platforms/stores
+    "xbox", "playstation", "ps5", "ps4", "nintendo", "switch", "steam", "epic games", "gog", "game pass",
+    "pc gaming", "console", "handheld",
+    # releases/updates/business
+    "release date", "launch", "early access", "beta", "alpha", "demo",
+    "patch", "update", "hotfix", "season", "battle pass", "dlc", "expansion", "roadmap",
+    "servers", "crossplay", "cross-play",
+    "preorder", "pre-order", "price", "pricing",
+    "studio", "developer", "publisher",
+    # esports + streaming (still “strong” for your brand)
+    "esports", "tournament", "championship",
+]
+
+# Adjacent terms = relevant, but should not be pure entertainment
+ADJACENT_TERMS = [
+    # hardware/pc ecosystem
+    "gpu", "graphics card", "nvidia", "amd", "intel", "driver", "dlss", "fsr",
+    "steam deck", "rog ally", "handheld pc",
+    # engines/tools/tech
+    "unity", "unreal engine", "unreal", "engine", "mod", "mods", "modding",
+    "discord", "twitch", "youtube gaming", "streaming",
+    "vr", "virtual reality", "meta quest",
+]
+
+# Content types that tend to be "fluff" for a no-fluff news feed
+CONTENT_TYPE_BLOCK = [
+    "review", "preview", "impressions",
+    "guide", "walkthrough", "tips", "tricks",
+    "best", "top ", "ranked", "ranking", "tier list",
+    "everything you need to know", "explained",
+]
+
+# Entertainment-only signals we want to avoid (unless strong gaming signals are present)
+ENTERTAINMENT_BLOCK = [
+    "movie", "film", "tv", "television", "series", "episode", "season finale",
+    "netflix", "hulu", "disney", "paramount", "max", "hbo",
+    "box office", "actor", "actress", "cast", "celebrity", "red carpet",
+    "trailer reaction", "soundtrack", "music video",
+    "anime",
+]
+
 STATE_FILE = "state.json"
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.0")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.2")
 
-# Remove common tracking parameters so duplicates are easier to detect
 TRACKING_PARAMS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
     "utm_id", "utm_name", "utm_reader", "utm_referrer",
@@ -48,6 +93,8 @@ class Item:
     title: str
     url: str
     published_at: datetime
+    summary: str = ""
+    image_url: str = ""
 
 
 def utcnow() -> datetime:
@@ -55,7 +102,6 @@ def utcnow() -> datetime:
 
 
 def normalize_url(url: str) -> str:
-    """Remove tracking params and fragments from URLs."""
     try:
         parsed = urlparse(url)
         query = [(k, v) for (k, v) in parse_qsl(parsed.query, keep_blank_values=True)
@@ -67,8 +113,21 @@ def normalize_url(url: str) -> str:
         return url.strip()
 
 
+def strip_html(text: str) -> str:
+    if not text:
+        return ""
+    soup = BeautifulSoup(text, "html.parser")
+    return re.sub(r"\s+", " ", soup.get_text(" ", strip=True)).strip()
+
+
+def shorten(text: str, max_len: int = 280) -> str:
+    text = (text or "").strip()
+    if len(text) <= max_len:
+        return text
+    return text[: max_len - 1].rstrip() + "…"
+
+
 def safe_parse_date(entry) -> datetime:
-    """Try to get a published date from RSS. Fallback to now."""
     if getattr(entry, "published_parsed", None):
         return datetime.fromtimestamp(time.mktime(entry.published_parsed), tz=timezone.utc)
     if getattr(entry, "updated_parsed", None):
@@ -100,6 +159,114 @@ def save_state(state: Dict) -> None:
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
+def _count_hits(hay: str, terms: List[str]) -> int:
+    hits = 0
+    for t in terms:
+        if t in hay:
+            hits += 1
+    return hits
+
+
+def is_relevant(title: str, summary: str) -> bool:
+    """
+    Balanced rule:
+    - Accept if there is at least 1 strong gaming hit
+    - OR accept if there are 2+ adjacent hits AND entertainment-block hits are 0
+    - Reject if it's mostly listicle/guide content unless strong gaming hits outweigh it
+    - Reject entertainment content unless strong gaming hit exists
+    """
+    hay = f"{title} {summary}".lower()
+
+    strong = _count_hits(hay, [t.lower() for t in STRONG_GAME_TERMS])
+    adjacent = _count_hits(hay, [t.lower() for t in ADJACENT_TERMS])
+    entertainment = _count_hits(hay, [t.lower() for t in ENTERTAINMENT_BLOCK])
+    fluff = _count_hits(hay, [t.lower() for t in CONTENT_TYPE_BLOCK])
+
+    # Hard block: entertainment-only unless clearly gaming
+    if entertainment > 0 and strong == 0:
+        return False
+
+    # Reduce guides/listicles unless it's very clearly news
+    # (Example: "Best weapons in..." -> filtered)
+    if fluff > 0 and strong == 0:
+        return False
+
+    # Primary allow rules
+    if strong >= 1:
+        return True
+
+    if adjacent >= 2 and entertainment == 0 and fluff == 0:
+        return True
+
+    # If it mentions “game” once but is vague, be conservative
+    return False
+
+
+def extract_from_entry(entry) -> Tuple[str, str]:
+    summary = ""
+    for key in ["summary", "description", "subtitle"]:
+        val = getattr(entry, key, None)
+        if val:
+            summary = strip_html(val)
+            break
+
+    image_url = ""
+
+    media_content = getattr(entry, "media_content", None)
+    if media_content and isinstance(media_content, list):
+        for m in media_content:
+            u = (m.get("url") or "").strip()
+            if u:
+                image_url = u
+                break
+
+    if not image_url:
+        media_thumbnail = getattr(entry, "media_thumbnail", None)
+        if media_thumbnail and isinstance(media_thumbnail, list):
+            for m in media_thumbnail:
+                u = (m.get("url") or "").strip()
+                if u:
+                    image_url = u
+                    break
+
+    if not image_url:
+        enclosures = getattr(entry, "enclosures", None)
+        if enclosures and isinstance(enclosures, list):
+            for e in enclosures:
+                u = (e.get("href") or e.get("url") or "").strip()
+                t = (e.get("type") or "").lower()
+                if u and ("image" in t or u.lower().endswith((".jpg", ".jpeg", ".png", ".webp"))):
+                    image_url = u
+                    break
+
+    return summary, image_url
+
+
+def fetch_open_graph(url: str) -> Tuple[str, str]:
+    headers = {"User-Agent": USER_AGENT}
+    try:
+        resp = requests.get(url, headers=headers, timeout=15)
+        resp.raise_for_status()
+        html = resp.text
+    except Exception:
+        return "", ""
+
+    soup = BeautifulSoup(html, "html.parser")
+
+    def meta(name: str) -> str:
+        tag = soup.find("meta", attrs={"property": name}) or soup.find("meta", attrs={"name": name})
+        if tag and tag.get("content"):
+            return tag["content"].strip()
+        return ""
+
+    desc = meta("og:description") or meta("description") or meta("twitter:description")
+    img = meta("og:image") or meta("twitter:image") or meta("twitter:image:src")
+
+    desc = strip_html(desc)
+    img = (img or "").strip()
+    return desc, img
+
+
 def fetch_feed(feed_name: str, feed_url: str) -> List[Item]:
     headers = {"User-Agent": USER_AGENT}
     resp = requests.get(feed_url, headers=headers, timeout=20)
@@ -108,12 +275,10 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Item]:
     parsed = feedparser.parse(resp.text)
 
     items: List[Item] = []
-    for entry in parsed.entries[:50]:
+    for entry in parsed.entries[:70]:
         title = (getattr(entry, "title", "") or "").strip()
         link = (getattr(entry, "link", "") or "").strip()
 
-        # Some RSS/RDF feeds may store links differently; feedparser usually populates .link,
-        # but this fallback helps in edge cases.
         if not link:
             links = getattr(entry, "links", None)
             if links and isinstance(links, list) and len(links) > 0:
@@ -122,12 +287,20 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Item]:
         if not title or not link:
             continue
 
+        url = normalize_url(link)
+        published_at = safe_parse_date(entry)
+
+        entry_summary, entry_image = extract_from_entry(entry)
+
         items.append(Item(
             source=feed_name,
             title=title,
-            url=normalize_url(link),
-            published_at=safe_parse_date(entry)
+            url=url,
+            published_at=published_at,
+            summary=entry_summary,
+            image_url=entry_image
         ))
+
     return items
 
 
@@ -155,17 +328,32 @@ def discord_post(item: Item) -> None:
     if not DISCORD_WEBHOOK_URL:
         raise RuntimeError("DISCORD_WEBHOOK_URL is not set")
 
-    payload = {
-        "embeds": [
-            {
-                "title": item.title,
-                "url": item.url,
-                "description": f"Source: **{item.source}**",
-                "timestamp": item.published_at.isoformat(),
-            }
-        ]
+    summary = item.summary or ""
+    image_url = item.image_url or ""
+
+    # If missing, pull from the article page’s metadata
+    if not summary or not image_url:
+        og_desc, og_img = fetch_open_graph(item.url)
+        if not summary and og_desc:
+            summary = og_desc
+        if not image_url and og_img:
+            image_url = og_img
+
+    summary = shorten(summary, 280)
+
+    embed = {
+        "title": item.title,
+        "url": item.url,
+        "timestamp": item.published_at.isoformat(),
+        "footer": {"text": f"Source: {item.source}"},
     }
 
+    if summary:
+        embed["description"] = summary
+    if image_url:
+        embed["image"] = {"url": image_url}
+
+    payload = {"embeds": [embed]}
     resp = requests.post(DISCORD_WEBHOOK_URL, json=payload, timeout=20)
     resp.raise_for_status()
 
@@ -187,6 +375,11 @@ def main():
     for item in all_items:
         if posted >= MAX_POSTS_PER_RUN:
             break
+
+        # Apply the gaming + adjacent filter to ALL sources
+        if not is_relevant(item.title, item.summary):
+            continue
+
         if is_duplicate(item, state):
             continue
 
