@@ -4,8 +4,8 @@ import re
 import time
 import hashlib
 from dataclasses import dataclass
-from datetime import datetime, timezone
-from typing import List, Dict, Tuple, Optional
+from datetime import datetime, timezone, timedelta
+from typing import List, Dict, Tuple
 from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
 
 import feedparser
@@ -24,71 +24,92 @@ FEEDS = [
     {"name": "Blue's News", "url": "https://www.bluesnews.com/news/news_1_0.rdf"},
 ]
 
-# Prefer one source when the same story appears across multiple sources
 SOURCE_PRIORITY = ["IGN", "GameSpot", "Blue's News"]
 
 MAX_POSTS_PER_RUN = int(os.getenv("MAX_POSTS_PER_RUN", "12"))
 TITLE_FUZZY_THRESHOLD = int(os.getenv("TITLE_FUZZY_THRESHOLD", "92"))
 
-# Balanced filter: Gaming + adjacent
-STRONG_GAME_TERMS = [
+# If BREAKING_MODE=1 (set in breaking.yml), the bot will ONLY post "high-importance" items.
+BREAKING_MODE = os.getenv("BREAKING_MODE", "0").strip() == "1"
+
+# In breaking mode, only consider items this recent (hours)
+BREAKING_MAX_AGE_HOURS = int(os.getenv("BREAKING_MAX_AGE_HOURS", "24"))
+
+# Balanced (gaming + adjacent), but strict: NO listicles/guides/deals/rumors.
+GAME_TERMS = [
     "video game", "videogame", "game", "gaming",
-    "xbox", "playstation", "ps5", "ps4", "nintendo", "switch", "steam", "epic games", "gog", "game pass",
+    "xbox", "playstation", "ps5", "ps4", "nintendo", "switch",
+    "steam", "epic games", "gog", "game pass",
     "pc gaming", "console", "handheld",
+    "dlc", "expansion", "season", "battle pass",
+    "patch", "update", "hotfix",
     "release date", "launch", "early access", "beta", "alpha", "demo",
-    "patch", "update", "hotfix", "season", "battle pass", "dlc", "expansion", "roadmap",
-    "servers", "crossplay", "cross-play",
-    "preorder", "pre-order", "price", "pricing",
     "studio", "developer", "publisher",
-    "esports", "tournament", "championship",
-
-    # Important “news” terms (helps catch stories like Bluepoint closure)
-    "closed", "closing", "closure", "shut down", "shutdown",
-    "layoff", "layoffs", "cut", "cuts",
-    "canceled", "cancelled", "delayed", "delay",
-    "acquired", "acquisition", "merger",
-    "lawsuit", "sued",
-    "retire", "retirement",
-    "playstation studios",
-
-    # Specific studios/franchises you care about (add more anytime)
-    "bluepoint",
+    "esports", "tournament",
+    "bluepoint", "playstation studios",
 ]
 
 ADJACENT_TERMS = [
     "gpu", "graphics card", "nvidia", "amd", "intel", "driver", "dlss", "fsr",
     "steam deck", "rog ally", "handheld pc",
-    "unity", "unreal engine", "unreal", "engine", "mod", "mods", "modding",
+    "unity", "unreal engine", "unreal",
     "discord", "twitch", "youtube gaming", "streaming",
     "vr", "virtual reality", "meta quest",
 ]
 
-# “No fluff” blockers
-CONTENT_TYPE_BLOCK = [
-    "review", "preview", "impressions",
-    "guide", "walkthrough", "tips", "tricks",
+# HARD BLOCKS (no-fluff)
+LISTICLE_GUIDE_BLOCK = [
     "best ", "top ", "ranked", "ranking", "tier list",
     "everything you need to know", "explained",
+    "review", "preview", "impressions",
+    "guide", "walkthrough", "tips", "tricks",
 ]
 
-# Entertainment-only signals we want to avoid unless strong gaming terms are present
-ENTERTAINMENT_BLOCK = [
-    "movie", "film", "tv", "television", "series", "episode", "season finale",
+DEALS_BLOCK = [
+    "deal", "deals", "sale", "discount", "save ", "coupon", "promo code",
+    "price drop", "for just $", "buy now", "shop", "bundle",
+    "woot", "amazon", "best buy", "walmart", "target", "newegg",
+]
+
+RUMOR_BLOCK = [
+    "rumor", "rumour", "leak", "leaked", "leaks",
+    "speculation", "speculate", "reportedly", "allegedly",
+    "could", "might", "may", "possibly",
+    "insider", "according to sources", "unconfirmed",
+]
+
+NON_GAME_ENTERTAINMENT_BLOCK = [
+    "movie", "film", "tv", "television", "series", "episode",
     "netflix", "hulu", "disney", "paramount", "max", "hbo",
-    "box office", "actor", "actress", "cast", "celebrity", "red carpet",
+    "comic", "comics", "dc ", "marvel", "green arrow", "catwoman",
     "anime",
 ]
 
-# If a story was already posted, only allow a repeat if the title contains an “update” keyword.
+# Breaking News keywords: only these are allowed in BREAKING_MODE
+BREAKING_KEYWORDS = [
+    "shut down", "shutdown", "closed", "closing", "closure",
+    "layoff", "layoffs",
+    "canceled", "cancelled",
+    "delay", "delayed",
+    "release date", "launch date", "launch",
+    "patch", "hotfix", "update",
+    "outage", "servers down", "service down",
+    "security", "breach", "vulnerability",
+    "price increase", "price hike",
+    "acquisition", "acquired", "merger",
+    "lawsuit", "sued",
+    "retire", "retirement",
+]
+
+# Allow repeats only when it's truly an update
 UPDATE_KEYWORDS = [
-    "update", "updated", "new details", "more details", "confirmed", "now",
-    "patch", "hotfix", "statement", "responds", "clarifies", "report",
-    "finally", "release date", "launch date",
+    "update", "updated", "new details", "more details", "confirmed",
+    "statement", "responds", "clarifies", "patch", "hotfix",
 ]
 
 STATE_FILE = "state.json"
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.3")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.4")
 
 TRACKING_PARAMS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
@@ -109,7 +130,7 @@ class Item:
     published_at: datetime
     summary: str = ""
     image_url: str = ""
-    story_key: str = ""  # used for clustering & dedupe
+    story_key: str = ""
 
 
 def utcnow() -> datetime:
@@ -117,19 +138,12 @@ def utcnow() -> datetime:
 
 
 def normalize_url(url: str) -> str:
-    """Remove tracking params + fragments; normalize scheme/hostname casing."""
     try:
         parsed = urlparse(url.strip())
-        # strip tracking params
         query = [(k, v) for (k, v) in parse_qsl(parsed.query, keep_blank_values=True)
                  if k.lower() not in TRACKING_PARAMS]
-        new_query = urlencode(query, doseq=True)
-        parsed = parsed._replace(query=new_query, fragment="")
-
-        # normalize netloc casing
-        netloc = parsed.netloc.lower()
-        parsed = parsed._replace(netloc=netloc)
-
+        parsed = parsed._replace(query=urlencode(query, doseq=True), fragment="")
+        parsed = parsed._replace(netloc=parsed.netloc.lower())
         return urlunparse(parsed).strip()
     except Exception:
         return url.strip()
@@ -142,7 +156,7 @@ def strip_html(text: str) -> str:
     return re.sub(r"\s+", " ", soup.get_text(" ", strip=True)).strip()
 
 
-def shorten(text: str, max_len: int = 280) -> str:
+def shorten(text: str, max_len: int = 320) -> str:
     text = (text or "").strip()
     if len(text) <= max_len:
         return text
@@ -174,7 +188,6 @@ def load_state() -> Dict:
         return {"seen_urls": [], "seen_titles": [], "seen_story_keys": []}
     with open(STATE_FILE, "r", encoding="utf-8") as f:
         state = json.load(f)
-    # backward compatible with older state.json
     state.setdefault("seen_story_keys", [])
     return state
 
@@ -184,55 +197,73 @@ def save_state(state: Dict) -> None:
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
-def _count_hits(hay: str, terms: List[str]) -> int:
-    return sum(1 for t in terms if t in hay)
+def contains_any(hay: str, terms: List[str]) -> bool:
+    return any(t.lower() in hay for t in terms)
 
 
-def is_relevant(title: str, summary: str) -> bool:
+def game_or_adjacent(title: str, summary: str) -> bool:
+    hay = f"{title} {summary}".lower()
+    return contains_any(hay, GAME_TERMS) or contains_any(hay, ADJACENT_TERMS)
+
+
+def hard_block(title: str, summary: str) -> bool:
     hay = f"{title} {summary}".lower()
 
-    strong = _count_hits(hay, [t.lower() for t in STRONG_GAME_TERMS])
-    adjacent = _count_hits(hay, [t.lower() for t in ADJACENT_TERMS])
-    entertainment = _count_hits(hay, [t.lower() for t in ENTERTAINMENT_BLOCK])
-    fluff = _count_hits(hay, [t.lower() for t in CONTENT_TYPE_BLOCK])
-
-    # Entertainment-only: reject unless clearly gaming news
-    if entertainment > 0 and strong == 0:
-        return False
-
-    # No-fluff: reject guides/listicles unless clearly gaming news
-    if fluff > 0 and strong == 0:
-        return False
-
-    # Accept if strong gaming signal exists
-    if strong >= 1:
+    # Kill listicles/guides/reviews
+    if contains_any(hay, LISTICLE_GUIDE_BLOCK):
         return True
 
-    # Accept adjacent-only if it’s clearly gaming-adjacent (2+ hits, not entertainment, not fluff)
-    if adjacent >= 2 and entertainment == 0 and fluff == 0:
+    # Kill deals / shopping posts
+    if contains_any(hay, DEALS_BLOCK):
+        return True
+
+    # Kill rumors/speculation
+    if contains_any(hay, RUMOR_BLOCK):
+        return True
+
+    # Kill non-game entertainment/comics unless it’s clearly gaming/adjacent
+    if contains_any(hay, NON_GAME_ENTERTAINMENT_BLOCK) and not game_or_adjacent(title, summary):
         return True
 
     return False
 
 
+def is_relevant(title: str, summary: str) -> bool:
+    # Must be game or adjacent AND not hard-blocked
+    if not game_or_adjacent(title, summary):
+        return False
+    if hard_block(title, summary):
+        return False
+    return True
+
+
+def is_breaking(title: str, summary: str, published_at: datetime) -> bool:
+    # Age gate
+    max_age = timedelta(hours=BREAKING_MAX_AGE_HOURS)
+    if utcnow() - published_at > max_age:
+        return False
+
+    # Must be relevant AND include breaking keywords
+    hay = f"{title} {summary}".lower()
+    if not is_relevant(title, summary):
+        return False
+
+    if not contains_any(hay, BREAKING_KEYWORDS):
+        return False
+
+    return True
+
+
 def contains_update_keyword(title: str, summary: str) -> bool:
     hay = f"{title} {summary}".lower()
-    return any(k.lower() in hay for k in UPDATE_KEYWORDS)
+    return contains_any(hay, UPDATE_KEYWORDS)
 
 
 def make_story_key(title: str) -> str:
-    """
-    Story key used for clustering:
-    - normalize title
-    - remove punctuation / extra whitespace
-    - hash it
-    """
     t = title.lower()
     t = re.sub(r"https?://\S+", "", t)
     t = re.sub(r"[^a-z0-9\s]", " ", t)
     t = re.sub(r"\s+", " ", t).strip()
-    # shorten titles that have trailing site labels etc.
-    t = re.sub(r"\s+\-\s+\w+$", "", t).strip()
     return hashlib.sha1(t.encode("utf-8")).hexdigest()
 
 
@@ -321,7 +352,6 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Item]:
 
         url = normalize_url(link)
         published_at = safe_parse_date(entry)
-
         entry_summary, entry_image = extract_from_entry(entry)
 
         items.append(Item(
@@ -331,55 +361,13 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Item]:
             published_at=published_at,
             summary=entry_summary,
             image_url=entry_image,
-            story_key=make_story_key(title)
+            story_key=make_story_key(title),
         ))
 
     return items
 
 
-def is_duplicate_or_allowed_update(item: Item, state: Dict) -> bool:
-    """
-    Skip if:
-      - URL already posted
-      - OR story_key already posted AND not an update
-      - OR fuzzy-title matches already posted AND not an update
-    Allow repeat only if title/summary includes update keywords.
-    """
-    # exact URL seen
-    if item.url in state["seen_urls"]:
-        return True
-
-    is_update = contains_update_keyword(item.title, item.summary)
-
-    # story_key seen
-    if item.story_key in state["seen_story_keys"] and not is_update:
-        return True
-
-    # fuzzy title seen (extra safety)
-    title_norm = re.sub(r"\s+", " ", item.title.strip().lower())
-    for seen in state["seen_titles"][-400:]:
-        if fuzz.ratio(title_norm, seen) >= TITLE_FUZZY_THRESHOLD and not is_update:
-            return True
-
-    return False
-
-
-def remember(item: Item, state: Dict) -> None:
-    state["seen_urls"].append(item.url)
-    title_norm = re.sub(r"\s+", " ", item.title.strip().lower())
-    state["seen_titles"].append(title_norm)
-    state["seen_story_keys"].append(item.story_key)
-
-    # keep state bounded
-    state["seen_urls"] = state["seen_urls"][-4000:]
-    state["seen_titles"] = state["seen_titles"][-4000:]
-    state["seen_story_keys"] = state["seen_story_keys"][-4000:]
-
-
 def pick_best_source(cluster: List[Item]) -> Item:
-    """
-    Pick the best item from a cluster using SOURCE_PRIORITY.
-    """
     priority = {name: i for i, name in enumerate(SOURCE_PRIORITY)}
     cluster_sorted = sorted(
         cluster,
@@ -389,20 +377,40 @@ def pick_best_source(cluster: List[Item]) -> Item:
 
 
 def cluster_items(items: List[Item]) -> List[Item]:
-    """
-    Cluster by story_key, then pick one source per cluster.
-    """
     buckets: Dict[str, List[Item]] = {}
     for it in items:
         buckets.setdefault(it.story_key, []).append(it)
 
-    chosen: List[Item] = []
-    for key, group in buckets.items():
-        chosen.append(pick_best_source(group))
-
-    # newest first
+    chosen = [pick_best_source(group) for group in buckets.values()]
     chosen.sort(key=lambda x: x.published_at, reverse=True)
     return chosen
+
+
+def is_duplicate_or_allowed_update(item: Item, state: Dict) -> bool:
+    if item.url in state["seen_urls"]:
+        return True
+
+    is_update = contains_update_keyword(item.title, item.summary)
+
+    if item.story_key in state["seen_story_keys"] and not is_update:
+        return True
+
+    title_norm = re.sub(r"\s+", " ", item.title.strip().lower())
+    for seen in state["seen_titles"][-500:]:
+        if fuzz.ratio(title_norm, seen) >= TITLE_FUZZY_THRESHOLD and not is_update:
+            return True
+
+    return False
+
+
+def remember(item: Item, state: Dict) -> None:
+    state["seen_urls"].append(item.url)
+    state["seen_story_keys"].append(item.story_key)
+    state["seen_titles"].append(re.sub(r"\s+", " ", item.title.strip().lower()))
+
+    state["seen_urls"] = state["seen_urls"][-5000:]
+    state["seen_story_keys"] = state["seen_story_keys"][-5000:]
+    state["seen_titles"] = state["seen_titles"][-5000:]
 
 
 def discord_post(item: Item) -> None:
@@ -412,7 +420,6 @@ def discord_post(item: Item) -> None:
     summary = item.summary or ""
     image_url = item.image_url or ""
 
-    # If missing, pull from the article metadata
     if not summary or not image_url:
         og_desc, og_img = fetch_open_graph(item.url)
         if not summary and og_desc:
@@ -449,10 +456,17 @@ def main():
         except Exception as e:
             print(f"[WARN] Feed fetch failed: {f['name']} -> {e}")
 
-    # First apply relevancy filter (all sources)
-    filtered = [it for it in all_items if is_relevant(it.title, it.summary)]
+    # Filter + (optional) breaking gate
+    filtered: List[Item] = []
+    for it in all_items:
+        if BREAKING_MODE:
+            if is_breaking(it.title, it.summary, it.published_at):
+                filtered.append(it)
+        else:
+            if is_relevant(it.title, it.summary):
+                filtered.append(it)
 
-    # Then cluster to avoid multi-source repeats
+    # Cluster across sources
     clustered = cluster_items(filtered)
 
     posted = 0
@@ -460,7 +474,6 @@ def main():
         if posted >= MAX_POSTS_PER_RUN:
             break
 
-        # Avoid reposts unless it's an update
         if is_duplicate_or_allowed_update(item, state):
             continue
 
@@ -473,7 +486,7 @@ def main():
             print(f"[ERROR] Post failed: {item.title} -> {e}")
 
     save_state(state)
-    print(f"Done. Posted {posted} item(s).")
+    print(f"Done. Posted {posted} item(s). BREAKING_MODE={BREAKING_MODE}")
 
 
 if __name__ == "__main__":
