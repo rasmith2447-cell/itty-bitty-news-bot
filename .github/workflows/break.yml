@@ -24,10 +24,10 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           BREAKING_MODE: "1"
-          BREAKING_MAX_AGE_HOURS: "24"
-          MAX_POSTS_PER_RUN: "2"
+          BREAKING_MAX_AGE_HOURS: "72"
+          MAX_POSTS_PER_RUN: "4"
           TITLE_FUZZY_THRESHOLD: "93"
-          USER_AGENT: "IttyBittyGamingNewsBot/1.4-breaking"
+          USER_AGENT: "IttyBittyGamingNewsBot/1.6-breaking"
         run: python main.py
 
       - name: Commit updated state.json
