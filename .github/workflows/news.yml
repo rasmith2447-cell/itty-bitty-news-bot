@@ -1,0 +1,41 @@
+name: Itty Bitty Gaming News Bot
+
+on:
+  schedule:
+    # GitHub Actions cron is UTC.
+    # 8:00am PT (UTC-8) = 16:00 UTC
+    - cron: "0 16 * * *"
+    # 6:00pm PT (UTC-8) = 02:00 UTC (next day)
+    - cron: "0 2 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run bot
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          MAX_POSTS_PER_RUN: "12"
+          TITLE_FUZZY_THRESHOLD: "92"
+          USER_AGENT: "IttyBittyGamingNewsBot/1.0"
+        run: python main.py
+
+      - name: Commit updated state.json
+        run: |
+          git config user.name "itty-bitty-bot"
+          git config user.email "itty-bitty-bot@users.noreply.github.com"
+          git add state.json
+          git diff --cached --quiet || git commit -m "Update state"
+          git push
