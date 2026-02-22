@@ -32,9 +32,11 @@ TITLE_FUZZY_THRESHOLD = int(os.getenv("TITLE_FUZZY_THRESHOLD", "92"))
 BREAKING_MODE = os.getenv("BREAKING_MODE", "0").strip() == "1"
 BREAKING_MAX_AGE_HOURS = int(os.getenv("BREAKING_MAX_AGE_HOURS", "72"))
 
-# If MODE=DIGEST, bot posts top N items without affecting state (for your private Content Board)
 MODE = os.getenv("MODE", "RAW").strip().upper()  # RAW | DIGEST
 SKIP_STATE_UPDATE = os.getenv("SKIP_STATE_UPDATE", "0").strip() == "1"
+
+# If DEBUG=1, we print why items are being filtered out.
+DEBUG = os.getenv("DEBUG", "0").strip() == "1"
 
 GAME_TERMS = [
     "video game", "videogame", "game", "gaming",
@@ -119,7 +121,7 @@ UPDATE_KEYWORDS = [
 
 STATE_FILE = "state.json"
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.7")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.8")
 
 TRACKING_PARAMS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
@@ -158,6 +160,9 @@ def normalize_url(url: str) -> str:
 def strip_html(text: str) -> str:
     if not text:
         return ""
+    # Silence BeautifulSoup “looks like a filename” noise by only parsing when it contains markup-like chars.
+    if "<" not in text and ">" not in text and "&" not in text:
+        return re.sub(r"\s+", " ", text).strip()
     soup = BeautifulSoup(text, "html.parser")
     return re.sub(r"\s+", " ", soup.get_text(" ", strip=True)).strip()
 
@@ -216,29 +221,26 @@ def game_or_adjacent(title: str, summary: str) -> bool:
     return contains_any(hay, GAME_TERMS) or contains_any(hay, ADJACENT_TERMS)
 
 
-def hard_block(title: str, summary: str) -> bool:
+def block_reason(title: str, summary: str) -> str:
     hay = f"{title} {summary}".lower()
 
+    if not game_or_adjacent(title, summary):
+        return "NOT_GAME_OR_ADJACENT"
     if contains_any(hay, LISTICLE_GUIDE_BLOCK):
-        return True
+        return "LISTICLE/GUIDE/REVIEW"
     if contains_any(hay, EVERGREEN_BLOCK):
-        return True
+        return "EVERGREEN/SEO_REFRESH"
     if contains_any(hay, DEALS_BLOCK) or has_money_signals(hay):
-        return True
+        return "DEALS/SHOPPING"
     if contains_any(hay, RUMOR_BLOCK):
-        return True
+        return "RUMOR/SPECULATION"
     if contains_any(hay, NON_GAME_ENTERTAINMENT_BLOCK) and not game_or_adjacent(title, summary):
-        return True
-
-    return False
+        return "NON_GAME_ENTERTAINMENT"
+    return ""
 
 
 def is_relevant(title: str, summary: str) -> bool:
-    if not game_or_adjacent(title, summary):
-        return False
-    if hard_block(title, summary):
-        return False
-    return True
+    return block_reason(title, summary) == ""
 
 
 def is_breaking(title: str, summary: str, published_at: datetime) -> bool:
@@ -246,7 +248,6 @@ def is_breaking(title: str, summary: str, published_at: datetime) -> bool:
         return False
     if not is_relevant(title, summary):
         return False
-
     hay = f"{title} {summary}".lower()
     return contains_any(hay, BREAKING_KEYWORDS)
 
@@ -273,7 +274,6 @@ def extract_from_entry(entry) -> Tuple[str, str]:
             break
 
     image_url = ""
-
     media_content = getattr(entry, "media_content", None)
     if media_content and isinstance(media_content, list):
         for m in media_content:
@@ -323,7 +323,6 @@ def fetch_open_graph(url: str) -> Tuple[str, str]:
 
     desc = meta("og:description") or meta("description") or meta("twitter:description")
     img = meta("og:image") or meta("twitter:image") or meta("twitter:image:src")
-
     return strip_html(desc), (img or "").strip()
 
 
@@ -335,7 +334,8 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Item]:
     parsed = feedparser.parse(resp.text)
 
     items: List[Item] = []
-    for entry in parsed.entries[:80]:
+    # Increase window so strict filtering is less likely to yield 0
+    for entry in parsed.entries[:200]:
         title = (getattr(entry, "title", "") or "").strip()
         link = (getattr(entry, "link", "") or "").strip()
 
@@ -398,69 +398,9 @@ def remember(item: Item, state: Dict) -> None:
     state["seen_urls"].append(item.url)
     state["seen_story_keys"].append(item.story_key)
     state["seen_titles"].append(re.sub(r"\s+", " ", item.title.strip().lower()))
-
     state["seen_urls"] = state["seen_urls"][-5000:]
     state["seen_story_keys"] = state["seen_story_keys"][-5000:]
     state["seen_titles"] = state["seen_titles"][-5000:]
-
-
-def make_tags(title: str, summary: str) -> List[str]:
-    hay = f"{title} {summary}".lower()
-    tags: List[str] = []
-
-    # content type / urgency
-    if contains_any(hay, ["announced", "announcement", "revealed", "reveal", "debut", "premiere"]):
-        tags.append("ANNOUNCEMENT")
-    if contains_any(hay, ["drops today", "available now", "out now", "live now", "shadow drop", "shadowdrop"]):
-        tags.append("DROP")
-    if contains_any(hay, ["patch", "hotfix", "update"]):
-        tags.append("PATCH")
-    if contains_any(hay, ["delay", "delayed"]):
-        tags.append("DELAY")
-    if contains_any(hay, ["layoff", "layoffs"]):
-        tags.append("LAYOFFS")
-    if contains_any(hay, ["shut down", "shutdown", "closed", "closing", "closure"]):
-        tags.append("SHUTDOWN")
-    if contains_any(hay, ["acquisition", "acquired", "merger"]):
-        tags.append("M&A")
-    if contains_any(hay, ["lawsuit", "sued"]):
-        tags.append("LEGAL")
-    if contains_any(hay, ["retire", "retirement"]):
-        tags.append("RETIREMENT")
-    if contains_any(hay, ["outage", "servers down", "service down"]):
-        tags.append("OUTAGE")
-    if contains_any(hay, ["security", "breach", "vulnerability"]):
-        tags.append("SECURITY")
-
-    # platform tags
-    if contains_any(hay, ["playstation", "ps5", "ps4"]):
-        tags.append("PLAYSTATION")
-    if contains_any(hay, ["xbox", "game pass"]):
-        tags.append("XBOX")
-    if contains_any(hay, ["nintendo", "switch"]):
-        tags.append("NINTENDO")
-    if contains_any(hay, ["steam", "pc gaming", "pc "]):
-        tags.append("PC")
-
-    # tech adjacency tags
-    if contains_any(hay, ["nvidia", "amd", "intel", "gpu", "graphics card", "driver", "dlss", "fsr"]):
-        tags.append("HARDWARE")
-    if contains_any(hay, ["unreal", "unity", "engine"]):
-        tags.append("DEV/ENGINE")
-    if contains_any(hay, ["esports", "tournament", "championship"]):
-        tags.append("ESPORTS")
-    if contains_any(hay, ["steam deck", "rog ally", "handheld pc"]):
-        tags.append("HANDHELD")
-
-    # cap tags to keep embed clean
-    # preserve order, de-dup
-    seen = set()
-    out = []
-    for t in tags:
-        if t not in seen:
-            out.append(t)
-            seen.add(t)
-    return out[:8]
 
 
 def discord_post(item: Item) -> None:
@@ -478,7 +418,6 @@ def discord_post(item: Item) -> None:
             image_url = og_img
 
     summary = shorten(summary, 320)
-    tags = make_tags(item.title, summary)
 
     embed = {
         "title": item.title,
@@ -486,13 +425,8 @@ def discord_post(item: Item) -> None:
         "timestamp": item.published_at.isoformat(),
         "footer": {"text": f"Source: {item.source}"},
     }
-
     if summary:
         embed["description"] = summary
-
-    if tags:
-        embed["fields"] = [{"name": "Tags", "value": " ".join([f"`{t}`" for t in tags]), "inline": False}]
-
     if image_url:
         embed["image"] = {"url": image_url}
 
@@ -503,33 +437,47 @@ def discord_post(item: Item) -> None:
 def main():
     state = load_state()
 
+    per_feed_counts = {}
     all_items: List[Item] = []
     for f in FEEDS:
         try:
-            all_items.extend(fetch_feed(f["name"], f["url"]))
+            fetched = fetch_feed(f["name"], f["url"])
+            per_feed_counts[f["name"]] = len(fetched)
+            all_items.extend(fetched)
         except Exception as e:
+            per_feed_counts[f["name"]] = 0
             print(f"[WARN] Feed fetch failed: {f['name']} -> {e}")
 
     filtered: List[Item] = []
+    reasons: Dict[str, int] = {}
+
     for it in all_items:
         if BREAKING_MODE:
-            if is_breaking(it.title, it.summary, it.published_at):
+            ok = is_breaking(it.title, it.summary, it.published_at)
+            if ok:
                 filtered.append(it)
+            else:
+                r = block_reason(it.title, it.summary) or "NOT_BREAKING_KEYWORD_OR_TOO_OLD"
+                reasons[r] = reasons.get(r, 0) + 1
         else:
-            if is_relevant(it.title, it.summary):
+            r = block_reason(it.title, it.summary)
+            if r == "":
                 filtered.append(it)
+            else:
+                reasons[r] = reasons.get(r, 0) + 1
 
     clustered = cluster_items(filtered)
 
     posted = 0
+    skipped_dupe = 0
+
     for item in clustered:
         if posted >= MAX_POSTS_PER_RUN:
             break
 
-        # In DIGEST mode, do not apply state-based skipping (you want a “board” view),
-        # but still respect relevance/breaking filters.
         if MODE != "DIGEST":
             if is_duplicate_or_allowed_update(item, state):
+                skipped_dupe += 1
                 continue
 
         try:
@@ -546,8 +494,26 @@ def main():
     if MODE != "DIGEST" and not SKIP_STATE_UPDATE:
         save_state(state)
 
-    print(f"Done. Posted {posted} item(s). MODE={MODE} BREAKING_MODE={BREAKING_MODE}")
+    # Always print an easy summary (so “0 posts” doesn’t feel mysterious)
+    print("---- SUMMARY ----")
+    print(f"MODE={MODE} BREAKING_MODE={BREAKING_MODE}")
+    print(f"Fetched per feed: {per_feed_counts}")
+    print(f"Total fetched: {len(all_items)}")
+    print(f"Eligible after filters: {len(filtered)}")
+    print(f"After clustering: {len(clustered)}")
+    print(f"Skipped as duplicates (RAW only): {skipped_dupe}")
+    if reasons:
+        top = sorted(reasons.items(), key=lambda x: x[1], reverse=True)[:8]
+        print("Top filter reasons:")
+        for k, v in top:
+            print(f"  - {k}: {v}")
+    print(f"Done. Posted {posted} item(s).")
 
+    # Optional: show a small sample in debug mode
+    if DEBUG and posted == 0:
+        print("DEBUG: sample of latest titles (first 20 fetched):")
+        for it in all_items[:20]:
+            print(f"  - [{it.source}] {it.title}")
 
 if __name__ == "__main__":
     main()
