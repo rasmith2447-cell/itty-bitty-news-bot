@@ -21,12 +21,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Post Content Board digest (Top 10, no state changes)
+      - name: Post Evening Recap Digest (Top 5)
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
-          MODE: "DIGEST"
-          SKIP_STATE_UPDATE: "1"
-          MAX_POSTS_PER_RUN: "10"
-          TITLE_FUZZY_THRESHOLD: "92"
-          USER_AGENT: "IttyBittyGamingNewsBot/ContentBoard"
-        run: python main.py
+          DIGEST_TOP_N: "5"
+          DIGEST_WINDOW_HOURS: "24"
+          USER_AGENT: "IttyBittyGamingNewsBot/ContentBoardDigest"
+        run: python digest.py
