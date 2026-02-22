@@ -1,6 +1,11 @@
-name: Itty Bitty Gaming News Bot (TEST DIGEST)
+name: Itty Bitty Gaming News Bot
 
 on:
+  schedule:
+    # GitHub cron uses UTC (PT assumed UTC-8 for MVP)
+    - cron: "0 16 * * *"  # 8:00am PT
+    - cron: "0 21 * * *"  # 1:00pm PT
+    - cron: "0 2 * * *"   # 6:00pm PT
   workflow_dispatch: {}
 
 jobs:
@@ -18,12 +23,18 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run bot (digest test – does NOT update state)
+      - name: Run bot
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          MODE: "DIGEST"
-          SKIP_STATE_UPDATE: "1"
-          MAX_POSTS_PER_RUN: "5"
+          MAX_POSTS_PER_RUN: "12"
           TITLE_FUZZY_THRESHOLD: "92"
-          USER_AGENT: "IttyBittyGamingNewsBot/TEST"
+          USER_AGENT: "IttyBittyGamingNewsBot/1.7"
         run: python main.py
+
+      - name: Commit updated state.json
+        run: |
+          git config user.name "itty-bitty-bot"
+          git config user.email "itty-bitty-bot@users.noreply.github.com"
+          git add state.json
+          git diff --cached --quiet || git commit -m "Update state"
+          git push
