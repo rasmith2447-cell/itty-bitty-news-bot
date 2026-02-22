@@ -22,8 +22,6 @@ FEEDS = [
     {"name": "IGN", "url": "http://feeds.ign.com/ign/all"},
     {"name": "GameSpot", "url": "http://www.gamespot.com/feeds/mashup/"},
     {"name": "Blue's News", "url": "https://www.bluesnews.com/news/news_1_0.rdf"},
-
-    # Higher-signal news feeds
     {"name": "VGC", "url": "https://www.videogameschronicle.com/category/news/feed/"},
     {"name": "Gematsu", "url": "https://www.gematsu.com/feed"},
     {"name": "Polygon", "url": "https://www.polygon.com/rss/news/index.xml"},
@@ -31,37 +29,24 @@ FEEDS = [
     {"name": "PC Gamer", "url": "https://www.pcgamer.com/rss"},
 ]
 
-# Prefer one source when the same story appears across multiple feeds
 SOURCE_PRIORITY = [
-    "IGN",
-    "GameSpot",
-    "VGC",
-    "Gematsu",
-    "Polygon",
-    "Nintendo Life",
-    "PC Gamer",
-    "Blue's News",
+    "IGN", "GameSpot", "VGC", "Gematsu",
+    "Polygon", "Nintendo Life", "PC Gamer", "Blue's News",
 ]
 
 MAX_POSTS_PER_RUN = int(os.getenv("MAX_POSTS_PER_RUN", "12"))
 TITLE_FUZZY_THRESHOLD = int(os.getenv("TITLE_FUZZY_THRESHOLD", "92"))
 
-# Modes
-# RAW   = respect dedupe state (normal scheduled runs)
-# DIGEST= ignore dedupe state (manual batch pulls / content board)
-MODE = os.getenv("MODE", "RAW").strip().upper()
+MODE = os.getenv("MODE", "RAW").strip().upper()          # RAW | DIGEST
 SKIP_STATE_UPDATE = os.getenv("SKIP_STATE_UPDATE", "0").strip() == "1"
+DEBUG = os.getenv("DEBUG", "0").strip() == "1"
 
-# Breaking behavior
 BREAKING_MODE = os.getenv("BREAKING_MODE", "0").strip() == "1"
 BREAKING_MAX_AGE_HOURS = int(os.getenv("BREAKING_MAX_AGE_HOURS", "72"))
 
-# Debug output
-DEBUG = os.getenv("DEBUG", "0").strip() == "1"
-
 STATE_FILE = "state.json"
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/2.1")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/2.2")
 
 TRACKING_PARAMS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
@@ -107,6 +92,16 @@ EVERGREEN_BLOCK = [
     "what we know so far",
 ]
 
+# NEW: block community/opinion/mailbag/polls (Nintendo Life “Mailbox/Letters/Poll” stuff)
+COMMUNITY_OPINION_BLOCK = [
+    "poll:", "poll -", "poll —", "poll ",
+    "mailbox:", "letters", "letter:", "community",
+    "what's your favourite", "what's your favorite",
+    "favourite", "favorite gen", "which is your",
+    "fun with strangers", "sterility",  # Nintendo Life Letters recurring titles
+    "quiz:", "commentary", "opinion:", "editorial:",
+]
+
 DEALS_BLOCK = [
     "deal", "deals", "sale", "discount", "save ",
     "coupon", "promo code", "price drop", "drops to", "lowest price",
@@ -130,7 +125,6 @@ NON_GAME_ENTERTAINMENT_BLOCK = [
 ]
 
 BREAKING_KEYWORDS = [
-    # big-impact
     "shut down", "shutdown", "closed", "closing", "closure",
     "layoff", "layoffs",
     "canceled", "cancelled",
@@ -141,12 +135,8 @@ BREAKING_KEYWORDS = [
     "acquisition", "acquired", "merger",
     "lawsuit", "sued",
     "retire", "retirement",
-
-    # releases / updates
     "release date", "launch date", "launch",
     "patch", "hotfix", "update",
-
-    # announcements / reveals / drops
     "announced", "announcement",
     "revealed", "reveal",
     "debut", "premiere",
@@ -193,7 +183,6 @@ def normalize_url(url: str) -> str:
 def strip_html(text: str) -> str:
     if not text:
         return ""
-    # Avoid BS warning on plain strings
     if "<" not in text and ">" not in text and "&" not in text:
         return re.sub(r"\s+", " ", text).strip()
     soup = BeautifulSoup(text, "html.parser")
@@ -242,7 +231,8 @@ def save_state(state: Dict) -> None:
 
 
 def contains_any(hay: str, terms: List[str]) -> bool:
-    return any(t.lower() in hay for t in terms)
+    h = hay.lower()
+    return any(t.lower() in h for t in terms)
 
 
 def has_money_signals(text: str) -> bool:
@@ -259,6 +249,8 @@ def hard_block(title: str, summary: str) -> str:
 
     if not game_or_adjacent(title, summary):
         return "NOT_GAME_OR_ADJACENT"
+    if contains_any(hay, COMMUNITY_OPINION_BLOCK):
+        return "COMMUNITY/OPINION"
     if contains_any(hay, LISTICLE_GUIDE_BLOCK):
         return "LISTICLE/GUIDE/REVIEW"
     if contains_any(hay, EVERGREEN_BLOCK):
@@ -269,7 +261,6 @@ def hard_block(title: str, summary: str) -> str:
         return "RUMOR/SPECULATION"
     if contains_any(hay, NON_GAME_ENTERTAINMENT_BLOCK) and not game_or_adjacent(title, summary):
         return "NON_GAME_ENTERTAINMENT"
-
     return ""
 
 
@@ -358,7 +349,6 @@ def fetch_open_graph(url: str) -> Tuple[str, str]:
 
     desc = meta("og:description") or meta("description") or meta("twitter:description")
     img = meta("og:image") or meta("twitter:image") or meta("twitter:image:src")
-
     return strip_html(desc), (img or "").strip()
 
 
@@ -433,7 +423,6 @@ def remember(item: Item, state: Dict) -> None:
     state["seen_urls"].append(item.url)
     state["seen_story_keys"].append(item.story_key)
     state["seen_titles"].append(re.sub(r"\s+", " ", item.title.strip().lower()))
-
     state["seen_urls"] = state["seen_urls"][-5000:]
     state["seen_story_keys"] = state["seen_story_keys"][-5000:]
     state["seen_titles"] = state["seen_titles"][-5000:]
@@ -443,7 +432,6 @@ def make_tags(title: str, summary: str) -> List[str]:
     hay = f"{title} {summary}".lower()
     tags: List[str] = []
 
-    # content type / urgency
     if contains_any(hay, ["announced", "announcement", "revealed", "reveal", "debut", "premiere"]):
         tags.append("ANNOUNCEMENT")
     if contains_any(hay, ["drops today", "available now", "out now", "live now", "shadow drop", "shadowdrop"]):
@@ -467,7 +455,6 @@ def make_tags(title: str, summary: str) -> List[str]:
     if contains_any(hay, ["security", "breach", "vulnerability"]):
         tags.append("SECURITY")
 
-    # platform tags
     if contains_any(hay, ["playstation", "ps5", "ps4"]):
         tags.append("PLAYSTATION")
     if contains_any(hay, ["xbox", "game pass"]):
@@ -477,7 +464,6 @@ def make_tags(title: str, summary: str) -> List[str]:
     if contains_any(hay, ["steam", "pc gaming", " pc "]):
         tags.append("PC")
 
-    # tech adjacency tags
     if contains_any(hay, ["nvidia", "amd", "intel", "gpu", "graphics card", "driver", "dlss", "fsr"]):
         tags.append("HARDWARE")
     if contains_any(hay, ["unreal", "unity", "engine"]):
@@ -487,9 +473,7 @@ def make_tags(title: str, summary: str) -> List[str]:
     if contains_any(hay, ["steam deck", "rog ally", "handheld pc"]):
         tags.append("HANDHELD")
 
-    # de-dupe + cap
-    out = []
-    seen = set()
+    out, seen = [], set()
     for t in tags:
         if t not in seen:
             out.append(t)
@@ -504,7 +488,6 @@ def discord_post(item: Item) -> None:
     summary = item.summary or ""
     image_url = item.image_url or ""
 
-    # enrich missing summary/image
     if not summary or not image_url:
         og_desc, og_img = fetch_open_graph(item.url)
         if not summary and og_desc:
@@ -521,17 +504,14 @@ def discord_post(item: Item) -> None:
         "timestamp": item.published_at.isoformat(),
         "footer": {"text": f"Source: {item.source}"},
     }
-
     if summary:
         embed["description"] = summary
-
     if tags:
         embed["fields"] = [{
             "name": "Tags",
             "value": " ".join([f"`{t}`" for t in tags]),
             "inline": False
         }]
-
     if image_url:
         embed["image"] = {"url": image_url}
 
@@ -542,15 +522,11 @@ def discord_post(item: Item) -> None:
 def main():
     state = load_state()
 
-    per_feed_counts: Dict[str, int] = {}
     all_items: List[Item] = []
     for f in FEEDS:
         try:
-            fetched = fetch_feed(f["name"], f["url"])
-            per_feed_counts[f["name"]] = len(fetched)
-            all_items.extend(fetched)
+            all_items.extend(fetch_feed(f["name"], f["url"]))
         except Exception as e:
-            per_feed_counts[f["name"]] = 0
             print(f"[WARN] Feed fetch failed: {f['name']} -> {e}")
 
     reasons: Dict[str, int] = {}
@@ -600,22 +576,17 @@ def main():
 
     print("---- SUMMARY ----")
     print(f"MODE={MODE} BREAKING_MODE={BREAKING_MODE}")
-    print(f"Fetched per feed: {per_feed_counts}")
-    print(f"Total fetched: {len(all_items)}")
     print(f"Eligible after filters: {len(filtered)}")
     print(f"After clustering: {len(clustered)}")
-    print(f"Skipped as duplicates (RAW only): {skipped_dupe}")
+    print(f"Skipped duplicates (RAW only): {skipped_dupe}")
     if reasons:
         top = sorted(reasons.items(), key=lambda x: x[1], reverse=True)[:10]
         print("Top filter reasons:")
         for k, v in top:
             print(f"  - {k}: {v}")
     print(f"Done. Posted {posted} item(s).")
-
-    if DEBUG and posted == 0:
-        print("DEBUG: sample titles (first 25 fetched):")
-        for it in all_items[:25]:
-            print(f"  - [{it.source}] {it.title}")
+    if DEBUG:
+        print("DEBUG enabled.")
 
 
 if __name__ == "__main__":
