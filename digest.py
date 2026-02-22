@@ -1,0 +1,345 @@
+import os
+import re
+import time
+from datetime import datetime, timezone, timedelta
+from typing import List, Dict, Tuple
+from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
+
+import feedparser
+import requests
+from bs4 import BeautifulSoup
+from dateutil import parser as dateparser
+
+# Uses the same feeds and filtering philosophy as main.py, but produces ONE recap message.
+
+FEEDS = [
+    {"name": "IGN", "url": "http://feeds.ign.com/ign/all"},
+    {"name": "GameSpot", "url": "http://www.gamespot.com/feeds/mashup/"},
+    {"name": "Blue's News", "url": "https://www.bluesnews.com/news/news_1_0.rdf"},
+    {"name": "VGC", "url": "https://www.videogameschronicle.com/category/news/feed/"},
+    {"name": "Gematsu", "url": "https://www.gematsu.com/feed"},
+    {"name": "Polygon", "url": "https://www.polygon.com/rss/news/index.xml"},
+    {"name": "Nintendo Life", "url": "https://www.nintendolife.com/feeds/latest"},
+    {"name": "PC Gamer", "url": "https://www.pcgamer.com/rss"},
+]
+
+SOURCE_PRIORITY = [
+    "IGN", "GameSpot", "VGC", "Gematsu",
+    "Polygon", "Nintendo Life", "PC Gamer", "Blue's News",
+]
+
+DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/Digest2.2")
+
+# Recap window (hours)
+WINDOW_HOURS = int(os.getenv("DIGEST_WINDOW_HOURS", "24"))
+TOP_N = int(os.getenv("DIGEST_TOP_N", "5"))
+
+TRACKING_PARAMS = {
+    "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
+    "utm_id", "utm_name", "utm_reader", "utm_referrer",
+    "gclid", "fbclid", "mc_cid", "mc_eid", "ref", "source"
+}
+
+GAME_TERMS = [
+    "video game", "videogame", "game", "gaming",
+    "xbox", "playstation", "ps5", "ps4", "nintendo", "switch",
+    "steam", "epic games", "gog", "game pass",
+    "pc gaming", "console", "handheld",
+    "dlc", "expansion", "season", "battle pass",
+    "patch", "update", "hotfix",
+    "release date", "launch", "early access", "beta", "alpha", "demo",
+    "studio", "developer", "publisher",
+    "esports", "tournament",
+    "playstation studios", "bluepoint",
+]
+
+ADJACENT_TERMS = [
+    "gpu", "graphics card", "nvidia", "amd", "intel", "driver", "dlss", "fsr",
+    "steam deck", "rog ally", "handheld pc",
+    "unity", "unreal engine", "unreal",
+    "discord", "twitch", "youtube gaming", "streaming",
+    "vr", "virtual reality", "meta quest",
+]
+
+LISTICLE_GUIDE_BLOCK = [
+    "best ", "top ", "ranked", "ranking", "tier list",
+    "everything you need to know", "explained",
+    "review", "preview", "impressions",
+    "guide", "walkthrough", "tips", "tricks",
+]
+
+EVERGREEN_BLOCK = [
+    "history of", "timeline", "retrospective", "complete history",
+    "recap", "ending explained", "lore", "beginner's guide",
+    "what we know so far",
+]
+
+COMMUNITY_OPINION_BLOCK = [
+    "poll:", "poll -", "poll —", "poll ",
+    "mailbox:", "letters", "letter:", "community",
+    "what's your favourite", "what's your favorite",
+    "favourite", "favorite gen", "which is your",
+    "quiz:", "commentary", "opinion:", "editorial:",
+]
+
+DEALS_BLOCK = [
+    "deal", "deals", "sale", "discount", "save ",
+    "coupon", "promo code", "price drop", "drops to", "lowest price",
+    "now %", "% off", "off)", "limited-time",
+    "for just $", "for only $",
+    "woot", "amazon", "best buy", "walmart", "target", "newegg",
+    "power bank", "mah", "charger", "charging", "usb-c",
+]
+
+RUMOR_BLOCK = [
+    "rumor", "rumour", "leak", "leaked", "leaks",
+    "speculation", "speculate", "reportedly", "allegedly",
+    "unconfirmed", "according to sources", "insider",
+]
+
+NON_GAME_ENTERTAINMENT_BLOCK = [
+    "movie", "film", "tv", "television", "series", "episode",
+    "netflix", "hulu", "disney", "paramount", "max", "hbo",
+    "comic", "comics", "dc ", "marvel", "green arrow", "catwoman",
+    "anime",
+]
+
+BREAKING_HINTS = [
+    "announced", "announcement", "revealed", "reveal",
+    "launch", "release date", "out now", "available now",
+    "delay", "layoff", "shutdown", "acquisition", "lawsuit",
+    "patch", "hotfix", "update",
+]
+
+def utcnow() -> datetime:
+    return datetime.now(timezone.utc)
+
+def normalize_url(url: str) -> str:
+    try:
+        parsed = urlparse(url.strip())
+        query = [(k, v) for (k, v) in parse_qsl(parsed.query, keep_blank_values=True)
+                 if k.lower() not in TRACKING_PARAMS]
+        parsed = parsed._replace(query=urlencode(query, doseq=True), fragment="")
+        parsed = parsed._replace(netloc=parsed.netloc.lower())
+        return urlunparse(parsed).strip()
+    except Exception:
+        return url.strip()
+
+def strip_html(text: str) -> str:
+    if not text:
+        return ""
+    if "<" not in text and ">" not in text and "&" not in text:
+        return re.sub(r"\s+", " ", text).strip()
+    soup = BeautifulSoup(text, "html.parser")
+    return re.sub(r"\s+", " ", soup.get_text(" ", strip=True)).strip()
+
+def shorten(text: str, max_len: int = 240) -> str:
+    text = (text or "").strip()
+    if len(text) <= max_len:
+        return text
+    return text[: max_len - 1].rstrip() + "…"
+
+def safe_parse_date(entry) -> datetime:
+    if getattr(entry, "published_parsed", None):
+        return datetime.fromtimestamp(time.mktime(entry.published_parsed), tz=timezone.utc)
+    if getattr(entry, "updated_parsed", None):
+        return datetime.fromtimestamp(time.mktime(entry.updated_parsed), tz=timezone.utc)
+
+    for key in ["published", "updated", "created", "date"]:
+        val = getattr(entry, key, None)
+        if val:
+            try:
+                dt = dateparser.parse(val)
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                return dt.astimezone(timezone.utc)
+            except Exception:
+                pass
+    return utcnow()
+
+def contains_any(hay: str, terms: List[str]) -> bool:
+    h = hay.lower()
+    return any(t.lower() in h for t in terms)
+
+def has_money_signals(text: str) -> bool:
+    return bool(re.search(r"(\$\d)|(\d+\s*%(\s*off)?)", text, flags=re.IGNORECASE))
+
+def game_or_adjacent(title: str, summary: str) -> bool:
+    hay = f"{title} {summary}".lower()
+    return contains_any(hay, GAME_TERMS) or contains_any(hay, ADJACENT_TERMS)
+
+def block_reason(title: str, summary: str) -> str:
+    hay = f"{title} {summary}".lower()
+    if not game_or_adjacent(title, summary):
+        return "NOT_GAME_OR_ADJACENT"
+    if contains_any(hay, COMMUNITY_OPINION_BLOCK):
+        return "COMMUNITY/OPINION"
+    if contains_any(hay, LISTICLE_GUIDE_BLOCK):
+        return "LISTICLE/GUIDE/REVIEW"
+    if contains_any(hay, EVERGREEN_BLOCK):
+        return "EVERGREEN/SEO_REFRESH"
+    if contains_any(hay, DEALS_BLOCK) or has_money_signals(hay):
+        return "DEALS/SHOPPING"
+    if contains_any(hay, RUMOR_BLOCK):
+        return "RUMOR/SPECULATION"
+    if contains_any(hay, NON_GAME_ENTERTAINMENT_BLOCK) and not game_or_adjacent(title, summary):
+        return "NON_GAME_ENTERTAINMENT"
+    return ""
+
+def fetch_open_graph(url: str) -> Tuple[str, str]:
+    headers = {"User-Agent": USER_AGENT}
+    try:
+        resp = requests.get(url, headers=headers, timeout=15)
+        resp.raise_for_status()
+        html = resp.text
+    except Exception:
+        return "", ""
+
+    soup = BeautifulSoup(html, "html.parser")
+
+    def meta(name: str) -> str:
+        tag = soup.find("meta", attrs={"property": name}) or soup.find("meta", attrs={"name": name})
+        if tag and tag.get("content"):
+            return tag["content"].strip()
+        return ""
+
+    desc = meta("og:description") or meta("description") or meta("twitter:description")
+    img = meta("og:image") or meta("twitter:image") or meta("twitter:image:src")
+    return strip_html(desc), (img or "").strip()
+
+def fetch_feed(feed_name: str, feed_url: str) -> List[Dict]:
+    headers = {"User-Agent": USER_AGENT}
+    resp = requests.get(feed_url, headers=headers, timeout=20)
+    resp.raise_for_status()
+
+    parsed = feedparser.parse(resp.text)
+    out = []
+
+    for entry in parsed.entries[:200]:
+        title = (getattr(entry, "title", "") or "").strip()
+        link = (getattr(entry, "link", "") or "").strip()
+        if not title or not link:
+            continue
+
+        url = normalize_url(link)
+        published_at = safe_parse_date(entry)
+
+        summary = ""
+        for key in ["summary", "description", "subtitle"]:
+            val = getattr(entry, key, None)
+            if val:
+                summary = strip_html(val)
+                break
+
+        image_url = ""
+        media_content = getattr(entry, "media_content", None)
+        if media_content and isinstance(media_content, list):
+            for m in media_content:
+                u = (m.get("url") or "").strip()
+                if u:
+                    image_url = u
+                    break
+
+        out.append({
+            "source": feed_name,
+            "title": title,
+            "url": url,
+            "published_at": published_at,
+            "summary": summary,
+            "image_url": image_url,
+        })
+    return out
+
+def score_item(item: Dict) -> float:
+    # Simple, predictable “top stories” score:
+    # - newer is better
+    # - higher priority source is better
+    # - “breaking-ish” keywords add a boost
+    prio = {s: i for i, s in enumerate(SOURCE_PRIORITY)}
+    p = prio.get(item["source"], 999)
+    age_hours = max(0.0, (utcnow() - item["published_at"]).total_seconds() / 3600.0)
+    recency_score = max(0.0, 48.0 - age_hours)  # fades after ~48 hours
+    source_score = max(0.0, 10.0 - (p * 0.8))
+    hay = f'{item["title"]} {item["summary"]}'.lower()
+    hint = 6.0 if contains_any(hay, BREAKING_HINTS) else 0.0
+    return recency_score + source_score + hint
+
+def main():
+    if not DISCORD_WEBHOOK_URL:
+        raise RuntimeError("DISCORD_WEBHOOK_URL is not set")
+
+    cutoff = utcnow() - timedelta(hours=WINDOW_HOURS)
+
+    items: List[Dict] = []
+    for f in FEEDS:
+        try:
+            items.extend(fetch_feed(f["name"], f["url"]))
+        except Exception as e:
+            print(f"[WARN] Feed fetch failed: {f['name']} -> {e}")
+
+    # Filter + time window
+    kept = []
+    for it in items:
+        if it["published_at"] < cutoff:
+            continue
+        r = block_reason(it["title"], it["summary"])
+        if r != "":
+            continue
+        kept.append(it)
+
+    # De-dupe by normalized title (very simple)
+    seen_titles = set()
+    deduped = []
+    for it in sorted(kept, key=lambda x: x["published_at"], reverse=True):
+        key = re.sub(r"\s+", " ", re.sub(r"[^a-z0-9\s]", " ", it["title"].lower())).strip()
+        if key in seen_titles:
+            continue
+        seen_titles.add(key)
+        deduped.append(it)
+
+    # Score and pick top N
+    ranked = sorted(deduped, key=score_item, reverse=True)[:TOP_N]
+
+    # Enrich summaries/images (OG fallback)
+    for it in ranked:
+        if not it["summary"] or not it["image_url"]:
+            desc, img = fetch_open_graph(it["url"])
+            if not it["summary"] and desc:
+                it["summary"] = desc
+            if not it["image_url"] and img:
+                it["image_url"] = img
+        it["summary"] = shorten(it["summary"], 240)
+
+    # Build one conversational recap message + 5 embeds
+    now = utcnow()
+    headline = f"🗞️ **Itty Bitty Gaming News — Evening Recap** ({now.strftime('%b %d')} UTC)\n"
+    opener = "Here are the **top 5** stories worth your time today — quick hits, no fluff:\n"
+    content = headline + opener
+
+    embeds = []
+    for idx, it in enumerate(ranked, start=1):
+        embed = {
+            "title": f"{idx}) {it['title']}",
+            "url": it["url"],
+            "description": it["summary"] or "",
+            "footer": {"text": f"Source: {it['source']}"},
+            "timestamp": it["published_at"].isoformat(),
+        }
+        if it["image_url"]:
+            embed["image"] = {"url": it["image_url"]}
+        embeds.append(embed)
+
+    if not embeds:
+        content = headline + "Quiet day — nothing met the strict news filters in the last 24 hours."
+
+    resp = requests.post(
+        DISCORD_WEBHOOK_URL,
+        json={"content": content, "embeds": embeds},
+        timeout=20
+    )
+    resp.raise_for_status()
+    print(f"Digest posted. Items: {len(embeds)}")
+
+if __name__ == "__main__":
+    main()
