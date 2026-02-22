@@ -22,9 +22,19 @@ FEEDS = [
     {"name": "IGN", "url": "http://feeds.ign.com/ign/all"},
     {"name": "GameSpot", "url": "http://www.gamespot.com/feeds/mashup/"},
     {"name": "Blue's News", "url": "https://www.bluesnews.com/news/news_1_0.rdf"},
+
+    # Higher-signal news feeds
+    {"name": "VGC", "url": "https://www.videogameschronicle.com/category/news/feed/"},
+    {"name": "Gematsu", "url": "https://www.gematsu.com/feed"},
+    {"name": "Polygon", "url": "https://www.polygon.com/rss/news/index.xml"},
+    {"name": "Nintendo Life", "url": "https://www.nintendolife.com/feeds/latest"},
+    {"name": "PC Gamer", "url": "https://www.pcgamer.com/rss"},
 ]
 
-SOURCE_PRIORITY = ["IGN", "GameSpot", "Blue's News"]
+SOURCE_PRIORITY = [
+    "IGN", "GameSpot", "VGC", "Gematsu",
+    "Polygon", "Nintendo Life", "PC Gamer", "Blue's News"
+]
 
 MAX_POSTS_PER_RUN = int(os.getenv("MAX_POSTS_PER_RUN", "12"))
 TITLE_FUZZY_THRESHOLD = int(os.getenv("TITLE_FUZZY_THRESHOLD", "92"))
@@ -32,103 +42,71 @@ TITLE_FUZZY_THRESHOLD = int(os.getenv("TITLE_FUZZY_THRESHOLD", "92"))
 BREAKING_MODE = os.getenv("BREAKING_MODE", "0").strip() == "1"
 BREAKING_MAX_AGE_HOURS = int(os.getenv("BREAKING_MAX_AGE_HOURS", "72"))
 
-MODE = os.getenv("MODE", "RAW").strip().upper()  # RAW | DIGEST
+MODE = os.getenv("MODE", "RAW").strip().upper()
 SKIP_STATE_UPDATE = os.getenv("SKIP_STATE_UPDATE", "0").strip() == "1"
-
-# If DEBUG=1, we print why items are being filtered out.
 DEBUG = os.getenv("DEBUG", "0").strip() == "1"
 
+STATE_FILE = "state.json"
+DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/2.0")
+
+# ----------------------------
+# FILTER TERMS
+# ----------------------------
+
 GAME_TERMS = [
-    "video game", "videogame", "game", "gaming",
-    "xbox", "playstation", "ps5", "ps4", "nintendo", "switch",
-    "steam", "epic games", "gog", "game pass",
-    "pc gaming", "console", "handheld",
-    "dlc", "expansion", "season", "battle pass",
+    "game", "gaming", "video game", "videogame",
+    "playstation", "ps5", "ps4", "xbox", "nintendo", "switch",
+    "steam", "epic games", "game pass",
     "patch", "update", "hotfix",
-    "release date", "launch", "early access", "beta", "alpha", "demo",
-    "studio", "developer", "publisher",
-    "esports", "tournament",
-    "bluepoint", "playstation studios",
+    "release", "launch",
+    "developer", "studio", "publisher",
 ]
 
-ADJACENT_TERMS = [
-    "gpu", "graphics card", "nvidia", "amd", "intel", "driver", "dlss", "fsr",
-    "steam deck", "rog ally", "handheld pc",
-    "unity", "unreal engine", "unreal",
-    "discord", "twitch", "youtube gaming", "streaming",
-    "vr", "virtual reality", "meta quest",
-]
-
-LISTICLE_GUIDE_BLOCK = [
-    "best ", "top ", "ranked", "ranking", "tier list",
-    "everything you need to know", "explained",
+LISTICLE_BLOCK = [
+    "best ", "top ", "ranked", "ranking",
     "review", "preview", "impressions",
     "guide", "walkthrough", "tips", "tricks",
 ]
 
 EVERGREEN_BLOCK = [
-    "history of", "timeline", "retrospective", "complete history",
-    "recap", "ending explained", "lore", "beginner's guide",
-    "what we know so far",
+    "history of", "timeline", "recap", "retrospective",
+    "what we know so far", "ending explained",
 ]
 
 DEALS_BLOCK = [
-    "deal", "deals", "sale", "discount", "save ",
-    "coupon", "promo code", "price drop", "drops to", "lowest price",
-    "now %", "% off", "off)", "limited-time",
-    "for just $", "for only $",
-    "woot", "amazon", "best buy", "walmart", "target", "newegg",
-    "power bank", "mAh", "charger", "charging", "usb-c",
+    "deal", "deals", "discount", "sale",
+    "drops to", "lowest price",
+    "save ", "% off", "$",
+    "woot", "amazon", "best buy", "newegg",
 ]
 
 RUMOR_BLOCK = [
-    "rumor", "rumour", "leak", "leaked", "leaks",
-    "speculation", "speculate", "reportedly", "allegedly",
-    "unconfirmed", "according to sources", "insider",
-]
-
-NON_GAME_ENTERTAINMENT_BLOCK = [
-    "movie", "film", "tv", "television", "series", "episode",
-    "netflix", "hulu", "disney", "paramount", "max", "hbo",
-    "comic", "comics", "dc ", "marvel", "green arrow", "catwoman",
-    "anime",
+    "rumor", "rumour", "leak", "leaked",
+    "speculation", "reportedly", "allegedly",
 ]
 
 BREAKING_KEYWORDS = [
-    "shut down", "shutdown", "closed", "closing", "closure",
-    "layoff", "layoffs",
-    "canceled", "cancelled",
+    "announced", "revealed", "announcement",
+    "patch", "update", "hotfix",
     "delay", "delayed",
-    "outage", "servers down", "service down",
-    "security", "breach", "vulnerability",
-    "price increase", "price hike",
-    "acquisition", "acquired", "merger",
-    "lawsuit", "sued",
-    "retire", "retirement",
-    "release date", "launch date", "launch",
-    "patch", "hotfix", "update",
-    "announced", "announcement",
-    "revealed", "reveal",
-    "debut", "premiere",
-    "drops today", "drops", "available now", "out now", "live now",
-    "shadow drop", "shadowdrop",
+    "layoff", "layoffs",
+    "acquisition", "merger",
+    "shutdown", "closed",
+    "out now", "available now", "live now",
 ]
 
-UPDATE_KEYWORDS = [
-    "update", "updated", "new details", "more details", "confirmed",
-    "statement", "responds", "clarifies", "patch", "hotfix",
-]
-
-STATE_FILE = "state.json"
-DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.8")
+UPDATE_KEYWORDS = ["update", "hotfix", "patch"]
 
 TRACKING_PARAMS = {
-    "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
-    "utm_id", "utm_name", "utm_reader", "utm_referrer",
-    "gclid", "fbclid", "mc_cid", "mc_eid", "ref", "source"
+    "utm_source", "utm_medium", "utm_campaign",
+    "utm_term", "utm_content", "gclid",
+    "fbclid", "ref", "source"
 }
 
+# ----------------------------
+# DATA STRUCTURE
+# ----------------------------
 
 @dataclass
 class Item:
@@ -141,379 +119,198 @@ class Item:
     story_key: str = ""
 
 
-def utcnow() -> datetime:
+# ----------------------------
+# UTILITIES
+# ----------------------------
+
+def utcnow():
     return datetime.now(timezone.utc)
 
 
 def normalize_url(url: str) -> str:
     try:
-        parsed = urlparse(url.strip())
-        query = [(k, v) for (k, v) in parse_qsl(parsed.query, keep_blank_values=True)
+        parsed = urlparse(url)
+        query = [(k, v) for (k, v) in parse_qsl(parsed.query)
                  if k.lower() not in TRACKING_PARAMS]
-        parsed = parsed._replace(query=urlencode(query, doseq=True), fragment="")
-        parsed = parsed._replace(netloc=parsed.netloc.lower())
-        return urlunparse(parsed).strip()
+        parsed = parsed._replace(query=urlencode(query), fragment="")
+        return urlunparse(parsed)
     except Exception:
-        return url.strip()
+        return url
 
 
 def strip_html(text: str) -> str:
     if not text:
         return ""
-    # Silence BeautifulSoup “looks like a filename” noise by only parsing when it contains markup-like chars.
-    if "<" not in text and ">" not in text and "&" not in text:
+    if "<" not in text:
         return re.sub(r"\s+", " ", text).strip()
     soup = BeautifulSoup(text, "html.parser")
     return re.sub(r"\s+", " ", soup.get_text(" ", strip=True)).strip()
 
 
-def shorten(text: str, max_len: int = 320) -> str:
-    text = (text or "").strip()
-    if len(text) <= max_len:
-        return text
-    return text[: max_len - 1].rstrip() + "…"
+def make_story_key(title: str) -> str:
+    t = re.sub(r"[^a-z0-9\s]", " ", title.lower())
+    t = re.sub(r"\s+", " ", t).strip()
+    return hashlib.sha1(t.encode()).hexdigest()
 
 
-def safe_parse_date(entry) -> datetime:
-    if getattr(entry, "published_parsed", None):
-        return datetime.fromtimestamp(time.mktime(entry.published_parsed), tz=timezone.utc)
-    if getattr(entry, "updated_parsed", None):
-        return datetime.fromtimestamp(time.mktime(entry.updated_parsed), tz=timezone.utc)
-
-    for key in ["published", "updated", "created", "date"]:
-        val = getattr(entry, key, None)
-        if val:
-            try:
-                dt = dateparser.parse(val)
-                if dt.tzinfo is None:
-                    dt = dt.replace(tzinfo=timezone.utc)
-                return dt.astimezone(timezone.utc)
-            except Exception:
-                pass
-
-    return utcnow()
+def contains_any(text: str, terms: List[str]) -> bool:
+    return any(term in text for term in terms)
 
 
-def load_state() -> Dict:
-    if not os.path.exists(STATE_FILE):
-        return {"seen_urls": [], "seen_titles": [], "seen_story_keys": []}
-    with open(STATE_FILE, "r", encoding="utf-8") as f:
-        state = json.load(f)
-    state.setdefault("seen_story_keys", [])
-    return state
+# ----------------------------
+# FILTER LOGIC
+# ----------------------------
 
+def block_reason(title, summary):
+    hay = (title + " " + summary).lower()
 
-def save_state(state: Dict) -> None:
-    with open(STATE_FILE, "w", encoding="utf-8") as f:
-        json.dump(state, f, ensure_ascii=False, indent=2)
+    if not contains_any(hay, GAME_TERMS):
+        return "NOT_GAME"
 
+    if contains_any(hay, LISTICLE_BLOCK):
+        return "LISTICLE"
 
-def contains_any(hay: str, terms: List[str]) -> bool:
-    return any(t.lower() in hay for t in terms)
-
-
-def has_money_signals(text: str) -> bool:
-    return bool(re.search(r"(\$\d)|(\d+\s*%(\s*off)?)", text, flags=re.IGNORECASE))
-
-
-def game_or_adjacent(title: str, summary: str) -> bool:
-    hay = f"{title} {summary}".lower()
-    return contains_any(hay, GAME_TERMS) or contains_any(hay, ADJACENT_TERMS)
-
-
-def block_reason(title: str, summary: str) -> str:
-    hay = f"{title} {summary}".lower()
-
-    if not game_or_adjacent(title, summary):
-        return "NOT_GAME_OR_ADJACENT"
-    if contains_any(hay, LISTICLE_GUIDE_BLOCK):
-        return "LISTICLE/GUIDE/REVIEW"
     if contains_any(hay, EVERGREEN_BLOCK):
-        return "EVERGREEN/SEO_REFRESH"
-    if contains_any(hay, DEALS_BLOCK) or has_money_signals(hay):
-        return "DEALS/SHOPPING"
+        return "EVERGREEN"
+
+    if contains_any(hay, DEALS_BLOCK):
+        return "DEALS"
+
     if contains_any(hay, RUMOR_BLOCK):
-        return "RUMOR/SPECULATION"
-    if contains_any(hay, NON_GAME_ENTERTAINMENT_BLOCK) and not game_or_adjacent(title, summary):
-        return "NON_GAME_ENTERTAINMENT"
+        return "RUMOR"
+
     return ""
 
 
-def is_relevant(title: str, summary: str) -> bool:
-    return block_reason(title, summary) == ""
-
-
-def is_breaking(title: str, summary: str, published_at: datetime) -> bool:
+def is_breaking(title, summary, published_at):
     if utcnow() - published_at > timedelta(hours=BREAKING_MAX_AGE_HOURS):
         return False
-    if not is_relevant(title, summary):
-        return False
-    hay = f"{title} {summary}".lower()
+    hay = (title + " " + summary).lower()
     return contains_any(hay, BREAKING_KEYWORDS)
 
 
-def contains_update_keyword(title: str, summary: str) -> bool:
-    hay = f"{title} {summary}".lower()
-    return contains_any(hay, UPDATE_KEYWORDS)
+# ----------------------------
+# FETCHING
+# ----------------------------
 
-
-def make_story_key(title: str) -> str:
-    t = title.lower()
-    t = re.sub(r"https?://\S+", "", t)
-    t = re.sub(r"[^a-z0-9\s]", " ", t)
-    t = re.sub(r"\s+", " ", t).strip()
-    return hashlib.sha1(t.encode("utf-8")).hexdigest()
-
-
-def extract_from_entry(entry) -> Tuple[str, str]:
-    summary = ""
-    for key in ["summary", "description", "subtitle"]:
-        val = getattr(entry, key, None)
-        if val:
-            summary = strip_html(val)
-            break
-
-    image_url = ""
-    media_content = getattr(entry, "media_content", None)
-    if media_content and isinstance(media_content, list):
-        for m in media_content:
-            u = (m.get("url") or "").strip()
-            if u:
-                image_url = u
-                break
-
-    if not image_url:
-        media_thumbnail = getattr(entry, "media_thumbnail", None)
-        if media_thumbnail and isinstance(media_thumbnail, list):
-            for m in media_thumbnail:
-                u = (m.get("url") or "").strip()
-                if u:
-                    image_url = u
-                    break
-
-    if not image_url:
-        enclosures = getattr(entry, "enclosures", None)
-        if enclosures and isinstance(enclosures, list):
-            for e in enclosures:
-                u = (e.get("href") or e.get("url") or "").strip()
-                t = (e.get("type") or "").lower()
-                if u and ("image" in t or u.lower().endswith((".jpg", ".jpeg", ".png", ".webp"))):
-                    image_url = u
-                    break
-
-    return summary, image_url
-
-
-def fetch_open_graph(url: str) -> Tuple[str, str]:
-    headers = {"User-Agent": USER_AGENT}
-    try:
-        resp = requests.get(url, headers=headers, timeout=15)
-        resp.raise_for_status()
-        html = resp.text
-    except Exception:
-        return "", ""
-
-    soup = BeautifulSoup(html, "html.parser")
-
-    def meta(name: str) -> str:
-        tag = soup.find("meta", attrs={"property": name}) or soup.find("meta", attrs={"name": name})
-        if tag and tag.get("content"):
-            return tag["content"].strip()
-        return ""
-
-    desc = meta("og:description") or meta("description") or meta("twitter:description")
-    img = meta("og:image") or meta("twitter:image") or meta("twitter:image:src")
-    return strip_html(desc), (img or "").strip()
-
-
-def fetch_feed(feed_name: str, feed_url: str) -> List[Item]:
+def fetch_feed(feed_name, feed_url):
     headers = {"User-Agent": USER_AGENT}
     resp = requests.get(feed_url, headers=headers, timeout=20)
     resp.raise_for_status()
 
     parsed = feedparser.parse(resp.text)
+    items = []
 
-    items: List[Item] = []
-    # Increase window so strict filtering is less likely to yield 0
     for entry in parsed.entries[:200]:
-        title = (getattr(entry, "title", "") or "").strip()
-        link = (getattr(entry, "link", "") or "").strip()
-
-        if not link:
-            links = getattr(entry, "links", None)
-            if links and isinstance(links, list) and len(links) > 0:
-                link = (links[0].get("href") or "").strip()
-
+        title = getattr(entry, "title", "").strip()
+        link = getattr(entry, "link", "").strip()
         if not title or not link:
             continue
 
-        url = normalize_url(link)
-        published_at = safe_parse_date(entry)
-        entry_summary, entry_image = extract_from_entry(entry)
+        summary = strip_html(getattr(entry, "summary", ""))
+        published = utcnow()
 
         items.append(Item(
             source=feed_name,
             title=title,
-            url=url,
-            published_at=published_at,
-            summary=entry_summary,
-            image_url=entry_image,
+            url=normalize_url(link),
+            published_at=published,
+            summary=summary,
             story_key=make_story_key(title),
         ))
 
     return items
 
 
-def pick_best_source(cluster: List[Item]) -> Item:
-    priority = {name: i for i, name in enumerate(SOURCE_PRIORITY)}
-    return sorted(cluster, key=lambda x: (priority.get(x.source, 999), -x.published_at.timestamp()))[0]
+# ----------------------------
+# POSTING
+# ----------------------------
 
-
-def cluster_items(items: List[Item]) -> List[Item]:
-    buckets: Dict[str, List[Item]] = {}
-    for it in items:
-        buckets.setdefault(it.story_key, []).append(it)
-    chosen = [pick_best_source(group) for group in buckets.values()]
-    chosen.sort(key=lambda x: x.published_at, reverse=True)
-    return chosen
-
-
-def is_duplicate_or_allowed_update(item: Item, state: Dict) -> bool:
-    if item.url in state["seen_urls"]:
-        return True
-
-    is_update = contains_update_keyword(item.title, item.summary)
-
-    if item.story_key in state["seen_story_keys"] and not is_update:
-        return True
-
-    title_norm = re.sub(r"\s+", " ", item.title.strip().lower())
-    for seen in state["seen_titles"][-500:]:
-        if fuzz.ratio(title_norm, seen) >= TITLE_FUZZY_THRESHOLD and not is_update:
-            return True
-    return False
-
-
-def remember(item: Item, state: Dict) -> None:
-    state["seen_urls"].append(item.url)
-    state["seen_story_keys"].append(item.story_key)
-    state["seen_titles"].append(re.sub(r"\s+", " ", item.title.strip().lower()))
-    state["seen_urls"] = state["seen_urls"][-5000:]
-    state["seen_story_keys"] = state["seen_story_keys"][-5000:]
-    state["seen_titles"] = state["seen_titles"][-5000:]
-
-
-def discord_post(item: Item) -> None:
-    if not DISCORD_WEBHOOK_URL:
-        raise RuntimeError("DISCORD_WEBHOOK_URL is not set")
-
-    summary = item.summary or ""
-    image_url = item.image_url or ""
-
-    if not summary or not image_url:
-        og_desc, og_img = fetch_open_graph(item.url)
-        if not summary and og_desc:
-            summary = og_desc
-        if not image_url and og_img:
-            image_url = og_img
-
-    summary = shorten(summary, 320)
-
+def discord_post(item: Item):
     embed = {
         "title": item.title,
         "url": item.url,
-        "timestamp": item.published_at.isoformat(),
-        "footer": {"text": f"Source: {item.source}"},
+        "description": item.summary[:300],
+        "footer": {"text": f"Source: {item.source}"}
     }
-    if summary:
-        embed["description"] = summary
-    if image_url:
-        embed["image"] = {"url": image_url}
 
-    resp = requests.post(DISCORD_WEBHOOK_URL, json={"embeds": [embed]}, timeout=20)
+    resp = requests.post(
+        DISCORD_WEBHOOK_URL,
+        json={"embeds": [embed]},
+        timeout=15
+    )
     resp.raise_for_status()
 
 
-def main():
-    state = load_state()
+# ----------------------------
+# MAIN
+# ----------------------------
 
-    per_feed_counts = {}
-    all_items: List[Item] = []
+def main():
+    state = {"seen_story_keys": []}
+    if os.path.exists(STATE_FILE):
+        with open(STATE_FILE) as f:
+            state = json.load(f)
+
+    all_items = []
     for f in FEEDS:
         try:
             fetched = fetch_feed(f["name"], f["url"])
-            per_feed_counts[f["name"]] = len(fetched)
             all_items.extend(fetched)
         except Exception as e:
-            per_feed_counts[f["name"]] = 0
-            print(f"[WARN] Feed fetch failed: {f['name']} -> {e}")
+            print(f"[WARN] Feed failed: {f['name']} -> {e}")
 
-    filtered: List[Item] = []
-    reasons: Dict[str, int] = {}
+    eligible = []
+    reasons = {}
 
-    for it in all_items:
-        if BREAKING_MODE:
-            ok = is_breaking(it.title, it.summary, it.published_at)
-            if ok:
-                filtered.append(it)
-            else:
-                r = block_reason(it.title, it.summary) or "NOT_BREAKING_KEYWORD_OR_TOO_OLD"
-                reasons[r] = reasons.get(r, 0) + 1
-        else:
-            r = block_reason(it.title, it.summary)
-            if r == "":
-                filtered.append(it)
-            else:
-                reasons[r] = reasons.get(r, 0) + 1
+    for item in all_items:
+        r = block_reason(item.title, item.summary)
+        if r:
+            reasons[r] = reasons.get(r, 0) + 1
+            continue
 
-    clustered = cluster_items(filtered)
+        if BREAKING_MODE and not is_breaking(
+            item.title, item.summary, item.published_at
+        ):
+            continue
+
+        eligible.append(item)
+
+    clustered = {}
+    for item in eligible:
+        clustered.setdefault(item.story_key, []).append(item)
+
+    final_items = [v[0] for v in clustered.values()]
+    final_items = sorted(final_items, key=lambda x: x.source)
 
     posted = 0
-    skipped_dupe = 0
-
-    for item in clustered:
+    for item in final_items:
         if posted >= MAX_POSTS_PER_RUN:
             break
 
         if MODE != "DIGEST":
-            if is_duplicate_or_allowed_update(item, state):
-                skipped_dupe += 1
+            if item.story_key in state.get("seen_story_keys", []):
                 continue
 
         try:
             discord_post(item)
             posted += 1
-            print(f"[POSTED] {item.source}: {item.title}")
-
-            if MODE != "DIGEST" and not SKIP_STATE_UPDATE:
-                remember(item, state)
-
+            if MODE != "DIGEST":
+                state.setdefault("seen_story_keys", []).append(item.story_key)
         except Exception as e:
-            print(f"[ERROR] Post failed: {item.title} -> {e}")
+            print(f"[ERROR] {item.title} -> {e}")
 
-    if MODE != "DIGEST" and not SKIP_STATE_UPDATE:
-        save_state(state)
+    if MODE != "DIGEST":
+        with open(STATE_FILE, "w") as f:
+            json.dump(state, f)
 
-    # Always print an easy summary (so “0 posts” doesn’t feel mysterious)
     print("---- SUMMARY ----")
-    print(f"MODE={MODE} BREAKING_MODE={BREAKING_MODE}")
-    print(f"Fetched per feed: {per_feed_counts}")
-    print(f"Total fetched: {len(all_items)}")
-    print(f"Eligible after filters: {len(filtered)}")
-    print(f"After clustering: {len(clustered)}")
-    print(f"Skipped as duplicates (RAW only): {skipped_dupe}")
-    if reasons:
-        top = sorted(reasons.items(), key=lambda x: x[1], reverse=True)[:8]
-        print("Top filter reasons:")
-        for k, v in top:
-            print(f"  - {k}: {v}")
-    print(f"Done. Posted {posted} item(s).")
+    print(f"Fetched: {len(all_items)}")
+    print(f"Eligible: {len(eligible)}")
+    print(f"After clustering: {len(final_items)}")
+    print(f"Posted: {posted}")
+    print(f"Blocked reasons: {reasons}")
 
-    # Optional: show a small sample in debug mode
-    if DEBUG and posted == 0:
-        print("DEBUG: sample of latest titles (first 20 fetched):")
-        for it in all_items[:20]:
-            print(f"  - [{it.source}] {it.title}")
 
 if __name__ == "__main__":
     main()
