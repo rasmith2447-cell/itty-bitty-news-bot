@@ -31,10 +31,13 @@ SOURCE_PRIORITY = [
 ]
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/Digest2.3")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/NewsletterDigest2.4")
 
 WINDOW_HOURS = int(os.getenv("DIGEST_WINDOW_HOURS", "24"))
 TOP_N = int(os.getenv("DIGEST_TOP_N", "5"))
+
+# If you want the digest to always have 5, you can widen the window later to 36 or 48
+# DIGEST_WINDOW_HOURS="36"
 
 TRACKING_PARAMS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
@@ -43,7 +46,7 @@ TRACKING_PARAMS = {
 }
 
 # ----------------------------
-# FILTERS (match main.py philosophy)
+# FILTERS (news-only)
 # ----------------------------
 
 GAME_TERMS = [
@@ -84,10 +87,8 @@ COMMUNITY_OPINION_BLOCK = [
     "opinion:", "editorial:", "commentary", "column:", "feature:",
     "roundtable", "debate:", "discussion:", "hot take",
     "poll:", "quiz:", "mailbox:", "mailbag", "letters", "community",
-
-    # first-person / essay signals
-    "i only needed", "my go-to", "when i can't", "i can't get", "goat", "goats",
-    "favorite", "favourite", "most popular to cosplay", "cosplay?",
+    "i only needed", "my go-to", "when i can't", "i can't get",
+    "goat", "goats", "favorite", "favourite", "most popular to cosplay", "cosplay?",
 ]
 
 DEALS_BLOCK = [
@@ -112,12 +113,12 @@ NON_GAME_ENTERTAINMENT_BLOCK = [
     "anime",
 ]
 
-# boosts “news-ness”
 NEWS_HINTS = [
     "announced", "announcement", "revealed", "reveal",
-    "launch", "release date", "out now", "available now",
+    "launch", "release date", "out now", "available now", "live now",
     "delay", "delayed", "layoff", "layoffs",
-    "shutdown", "closed", "acquisition", "merger", "lawsuit",
+    "shutdown", "closed", "acquisition", "acquired", "merger",
+    "lawsuit", "sued",
     "patch", "hotfix", "update",
 ]
 
@@ -147,7 +148,7 @@ def strip_html(text: str) -> str:
     soup = BeautifulSoup(text, "html.parser")
     return re.sub(r"\s+", " ", soup.get_text(" ", strip=True)).strip()
 
-def shorten(text: str, max_len: int = 260) -> str:
+def shorten(text: str, max_len: int = 420) -> str:
     text = (text or "").strip()
     if len(text) <= max_len:
         return text
@@ -158,7 +159,6 @@ def safe_parse_date(entry) -> datetime:
         return datetime.fromtimestamp(time.mktime(entry.published_parsed), tz=timezone.utc)
     if getattr(entry, "updated_parsed", None):
         return datetime.fromtimestamp(time.mktime(entry.updated_parsed), tz=timezone.utc)
-
     for key in ["published", "updated", "created", "date"]:
         val = getattr(entry, key, None)
         if val:
@@ -184,7 +184,6 @@ def game_or_adjacent(title: str, summary: str) -> bool:
 
 def block_reason(title: str, summary: str) -> str:
     hay = f"{title} {summary}".lower()
-
     if not game_or_adjacent(title, summary):
         return "NOT_GAME_OR_ADJACENT"
     if contains_any(hay, COMMUNITY_OPINION_BLOCK):
@@ -199,13 +198,12 @@ def block_reason(title: str, summary: str) -> str:
         return "RUMOR/SPECULATION"
     if contains_any(hay, NON_GAME_ENTERTAINMENT_BLOCK) and not game_or_adjacent(title, summary):
         return "NON_GAME_ENTERTAINMENT"
-
     return ""
 
 def fetch_open_graph(url: str) -> Tuple[str, str]:
     headers = {"User-Agent": USER_AGENT}
     try:
-        resp = requests.get(url, headers=headers, timeout=15)
+        resp = requests.get(url, headers=headers, timeout=18)
         resp.raise_for_status()
         html = resp.text
     except Exception:
@@ -230,7 +228,6 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Dict]:
 
     parsed = feedparser.parse(resp.text)
     out = []
-
     for entry in parsed.entries[:200]:
         title = (getattr(entry, "title", "") or "").strip()
         link = (getattr(entry, "link", "") or "").strip()
@@ -264,29 +261,70 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Dict]:
             "summary": summary,
             "image_url": image_url,
         })
-
     return out
 
 def score_item(item: Dict) -> float:
+    # predictable score:
+    # - recency
+    # - source priority
+    # - boost if “news-y” keywords appear
     prio = {s: i for i, s in enumerate(SOURCE_PRIORITY)}
     p = prio.get(item["source"], 999)
+
     age_hours = max(0.0, (utcnow() - item["published_at"]).total_seconds() / 3600.0)
-
-    # newer is better; fades after ~30 hours
-    recency_score = max(0.0, 30.0 - age_hours)
-
-    # higher-priority source is better
+    recency_score = max(0.0, 36.0 - age_hours)  # fades after ~36h
     source_score = max(0.0, 10.0 - (p * 0.8))
 
     hay = f'{item["title"]} {item["summary"]}'.lower()
-    hint = 7.0 if contains_any(hay, NEWS_HINTS) else 0.0
+    hint = 8.0 if contains_any(hay, NEWS_HINTS) else 0.0
 
     return recency_score + source_score + hint
 
+def normalize_title_key(title: str) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9\s]", " ", title.lower())).strip()
+
+def sentence_split(text: str) -> List[str]:
+    t = re.sub(r"\s+", " ", (text or "").strip())
+    if not t:
+        return []
+    # light sentence split, good enough for newsletter blurbs
+    parts = re.split(r"(?<=[.!?])\s+", t)
+    parts = [p.strip() for p in parts if p.strip()]
+    return parts
+
+def build_story_summary(title: str, summary: str, source: str) -> str:
+    """
+    Newsletter-style: 2–3 tight sentences, no fluff.
+    Uses feed/OG summary and trims hard.
+    """
+    sents = sentence_split(summary)
+    if not sents:
+        return f"{source} posted a new update on this story. Hit the source link for the full details."
+
+    # take up to 3 sentences, keep tight
+    out = []
+    for s in sents[:3]:
+        # remove obvious boilerplate
+        s = re.sub(r"^Read more.*$", "", s, flags=re.IGNORECASE).strip()
+        s = re.sub(r"\s*\(.*?click.*?\)\s*", " ", s, flags=re.IGNORECASE).strip()
+        if len(s) < 20:
+            continue
+        out.append(s)
+
+    if not out:
+        return shorten(summary, 260)
+
+    # final tighten
+    joined = " ".join(out)
+    return shorten(joined, 360)
+
 def md_link(title: str, url: str) -> str:
-    # Discord supports markdown links in many clients; if it fails it still shows plain text.
     safe_title = title.replace("[", "(").replace("]", ")")
     return f"[{safe_title}]({url})"
+
+# ----------------------------
+# MAIN
+# ----------------------------
 
 def main():
     if not DISCORD_WEBHOOK_URL:
@@ -294,6 +332,7 @@ def main():
 
     cutoff = utcnow() - timedelta(hours=WINDOW_HOURS)
 
+    # 1) Fetch
     items: List[Dict] = []
     for f in FEEDS:
         try:
@@ -301,29 +340,29 @@ def main():
         except Exception as e:
             print(f"[WARN] Feed fetch failed: {f['name']} -> {e}")
 
-    # Filter + time window
+    # 2) Filter + window
     kept = []
     for it in items:
         if it["published_at"] < cutoff:
             continue
-        r = block_reason(it["title"], it["summary"])
-        if r != "":
+        if block_reason(it["title"], it["summary"]) != "":
             continue
         kept.append(it)
 
-    # De-dupe by normalized title
-    seen_titles = set()
+    # 3) De-dupe by normalized title
+    seen = set()
     deduped = []
     for it in sorted(kept, key=lambda x: x["published_at"], reverse=True):
-        key = re.sub(r"\s+", " ", re.sub(r"[^a-z0-9\s]", " ", it["title"].lower())).strip()
-        if key in seen_titles:
+        key = normalize_title_key(it["title"])
+        if key in seen:
             continue
-        seen_titles.add(key)
+        seen.add(key)
         deduped.append(it)
 
+    # 4) Rank + select top 5
     ranked = sorted(deduped, key=score_item, reverse=True)[:TOP_N]
 
-    # Enrich summaries/images (OG fallback)
+    # 5) Enrich each story with OG summary/image when needed
     for it in ranked:
         if not it["summary"] or not it["image_url"]:
             desc, img = fetch_open_graph(it["url"])
@@ -331,49 +370,49 @@ def main():
                 it["summary"] = desc
             if not it["image_url"] and img:
                 it["image_url"] = img
-        it["summary"] = shorten(it["summary"], 260)
 
-    # Build forward-facing recap copy (2 paragraphs + linked rundown)
+        it["summary"] = build_story_summary(it["title"], strip_html(it["summary"]), it["source"])
+
+    # ----------------------------
+    # NEWSLETTER BODY (email-ready)
+    # ----------------------------
     now = utcnow()
-    date_label = now.strftime("%b %d")
+    date_label = now.strftime("%A, %b %d")
+    header = f"🗞️ **Itty Bitty Gaming News — Evening Recap**\n**{date_label}**\n"
+    intro = (
+        "\nToday’s news, trimmed down to the signal. "
+        "Here are the **5 biggest stories** from the last 24 hours — each with a quick summary and the original source.\n"
+    )
 
     if not ranked:
-        content = (
-            f"🗞️ **Itty Bitty Gaming News — Evening Recap ({date_label})**\n\n"
-            "Quiet day — nothing met the strict **news-only** filters in the last 24 hours.\n"
-            "If you want this to always publish, we can widen the window or add more straight-news feeds."
-        )
+        content = header + intro + "\nNothing hit the strict **news-only** filters today. (No rumors, no deals, no opinion.)"
         embeds = []
     else:
-        # paragraph 1: what the recap is
-        p1 = (
-            f"🗞️ **Itty Bitty Gaming News — Evening Recap ({date_label})**\n\n"
-            "Here’s what actually mattered today — **hard news only** (no polls, no opinion, no shopping posts)."
-        )
-
-        # paragraph 2: short “what to expect” + tease
-        lead = ranked[0]
-        p2 = (
-            f"\n\nTop headline: **{lead['title']}** ({lead['source']}). "
-            "Full details and source links below."
-        )
-
-        # linked rundown (supporting links)
-        rundown_lines = ["\n\n**Top 5 (with sources):**"]
+        # Write like a newsletter: numbered sections with summary + source link
+        sections = []
         for i, it in enumerate(ranked, start=1):
-            rundown_lines.append(
-                f"{i}. {md_link(it['title'], it['url'])} — *{it['source']}*"
+            sections.append(
+                f"\n**{i}) {it['title']}**\n"
+                f"{it['summary']}\n"
+                f"Source: {md_link(it['source'], it['url'])}\n"
             )
 
-        content = p1 + p2 + "\n" + "\n".join(rundown_lines)
+        outro = (
+            "\n—\n"
+            "That’s the recap. Want the **morning version** too (same format), or keep it evenings only?\n"
+        )
 
-        # embeds with images + short summaries
+        content = header + intro + "".join(sections) + outro
+
+        # ----------------------------
+        # DISCORD EMBEDS (images + quick view)
+        # ----------------------------
         embeds = []
-        for idx, it in enumerate(ranked, start=1):
+        for i, it in enumerate(ranked, start=1):
             embed = {
-                "title": f"{idx}) {it['title']}",
+                "title": f"{i}) {it['title']}",
                 "url": it["url"],
-                "description": it["summary"] or "",
+                "description": shorten(it["summary"], 260),
                 "footer": {"text": f"Source: {it['source']}"},
                 "timestamp": it["published_at"].isoformat(),
             }
@@ -381,13 +420,14 @@ def main():
                 embed["image"] = {"url": it["image_url"]}
             embeds.append(embed)
 
+    # 6) Post one newsletter-style message
     resp = requests.post(
         DISCORD_WEBHOOK_URL,
         json={"content": content, "embeds": embeds},
         timeout=20
     )
     resp.raise_for_status()
-    print(f"Digest posted. Items: {len(embeds)}")
+    print(f"Newsletter digest posted. Items: {len(embeds)}")
 
 if __name__ == "__main__":
     main()
