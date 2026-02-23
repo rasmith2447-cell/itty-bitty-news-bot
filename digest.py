@@ -32,7 +32,7 @@ SOURCE_PRIORITY = [
 ]
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNews/Digest2.9")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNews/Digest3.0")
 
 WINDOW_HOURS = int(os.getenv("DIGEST_WINDOW_HOURS", "24"))
 TOP_N = int(os.getenv("DIGEST_TOP_N", "5"))
@@ -413,44 +413,68 @@ def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int)
 # FEATURED VIDEO (Adilo latest)
 # ----------------------------
 
-def find_latest_adilo_video(channel_url: str) -> Optional[str]:
-    """
-    Best-effort: scrape the channel page and grab the first /watch/ or /video/ link.
-    If nothing found, return None.
-    """
+def url_is_ok(url: str) -> bool:
+    """Return True if URL returns HTTP 200-ish (not 404/410/etc)."""
     headers = {"User-Agent": USER_AGENT}
     try:
-        r = requests.get(channel_url, headers=headers, timeout=25)
-        r.raise_for_status()
-    except Exception as e:
-        print(f"[WARN] Featured video: failed to fetch channel page: {e}")
-        return None
+        r = requests.get(url, headers=headers, timeout=20, allow_redirects=True)
+        return 200 <= r.status_code < 300
+    except Exception:
+        return False
 
-    soup = BeautifulSoup(r.text, "html.parser")
+def extract_video_candidates(html: str, base_url: str) -> List[str]:
+    """
+    Pull likely video URLs from anchor tags and also from raw HTML via regex,
+    then make absolute and normalize.
+    """
+    soup = BeautifulSoup(html, "html.parser")
 
-    # Collect candidate links
-    candidates = []
+    found = set()
+
+    # 1) Anchor tags
     for a in soup.find_all("a", href=True):
         href = a["href"].strip()
         if not href:
             continue
-        abs_url = urljoin(channel_url, href)
-        if "/watch/" in abs_url or "/video/" in abs_url:
-            candidates.append(abs_url)
+        abs_url = urljoin(base_url, href)
+        if any(p in abs_url for p in ["/watch/", "/video/"]):
+            found.add(normalize_url(abs_url))
 
-    # Prefer /watch/ over /video/
-    for u in candidates:
-        if "/watch/" in u:
-            return normalize_url(u)
-    if candidates:
-        return normalize_url(candidates[0])
+    # 2) Regex scan (handles SPA pages where links exist in embedded JSON)
+    patterns = [
+        r"https?://[^\s\"']+/watch/[A-Za-z0-9_-]+",
+        r"https?://[^\s\"']+/video/[A-Za-z0-9_-]+",
+        r"(/watch/[A-Za-z0-9_-]+)",
+        r"(/video/[A-Za-z0-9_-]+)",
+    ]
+    for pat in patterns:
+        for m in re.findall(pat, html):
+            if m.startswith("http"):
+                found.add(normalize_url(m))
+            else:
+                found.add(normalize_url(urljoin(base_url, m)))
 
-    # As a fallback, some pages expose og:url for the first playable item (rare)
-    og = soup.find("meta", attrs={"property": "og:url"})
-    if og and og.get("content"):
-        u = og["content"].strip()
-        if "/watch/" in u or "/video/" in u:
-            return normalize_url(u)
+    # Prefer /watch/ first
+    watch = [u for u in found if "/watch/" in u]
+    video = [u for u in found if "/video/" in u]
+    return watch + video
+
+def find_latest_adilo_video(channel_url: str) -> Optional[str]:
+    headers = {"User-Agent": USER_AGENT}
+    try:
+        r = requests.get(channel_url, headers=headers, timeout=25)
+        r.raise_for_status()
+        html = r.text
+    except Exception as e:
+        print(f"[WARN] Featured video: failed to fetch channel page: {e}")
+        return None
+
+    candidates = extract_video_candidates(html, channel_url)
+
+    # Validate candidates so we don't post 404 links
+    for u in candidates[:25]:  # cap attempts
+        if url_is_ok(u):
+            return u
 
     return None
 
@@ -549,12 +573,16 @@ def main():
     date_line = pn.strftime("%B %d, %Y")
     header = f"{date_line}\n\n**In Tonight’s Edition of Itty Bitty Gaming News…**\n"
 
+    featured_video_url = resolve_featured_video_url()
+    featured_video_block = ""
+    if featured_video_url:
+        featured_video_block = (
+            "\n**📺 Featured Video**\n"
+            f"{md_link(FEATURED_VIDEO_TITLE, featured_video_url)}\n"
+        )
+
     if not ranked:
-        featured_video_url = resolve_featured_video_url()
-        video_block = ""
-        if featured_video_url:
-            video_block = f"\n**📺 Featured Video**\n{md_link(FEATURED_VIDEO_TITLE, featured_video_url)}\n"
-        content = header + "\n► 🎮 Quiet night — nothing cleared the news-only filter.\n" + video_block + "\nThat’s it for tonight’s Itty Bitty. 🫡"
+        content = header + "\n► 🎮 Quiet night — nothing cleared the news-only filter.\n" + featured_video_block + "\nThat’s it for tonight’s Itty Bitty. 🫡"
         post_to_discord(content, [])
         print("Newsletter digest posted. Items: 0")
         return
@@ -579,14 +607,6 @@ def main():
             f"\n**{i}) {it['title']}**\n"
             f"{it['summary']}\n"
             f"Source: {md_link(it['source'], it['url'])}\n"
-        )
-
-    featured_video_url = resolve_featured_video_url()
-    featured_video_block = ""
-    if featured_video_url:
-        featured_video_block = (
-            "\n**📺 Featured Video**\n"
-            f"{md_link(FEATURED_VIDEO_TITLE, featured_video_url)}\n"
         )
 
     outro = (
