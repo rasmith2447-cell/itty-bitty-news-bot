@@ -25,19 +25,20 @@ FEEDS = [
     {"name": "PC Gamer", "url": "https://www.pcgamer.com/rss"},
 ]
 
+# Priority for tie-breaks. Blue's is last on purpose.
 SOURCE_PRIORITY = [
     "IGN", "GameSpot", "VGC", "Gematsu",
     "Polygon", "Nintendo Life", "PC Gamer", "Blue's News",
 ]
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/NewsletterDigest2.4")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/NewsletterDigest2.5")
 
 WINDOW_HOURS = int(os.getenv("DIGEST_WINDOW_HOURS", "24"))
 TOP_N = int(os.getenv("DIGEST_TOP_N", "5"))
 
-# If you want the digest to always have 5, you can widen the window later to 36 or 48
-# DIGEST_WINDOW_HOURS="36"
+# Variety control: maximum number of stories from the same source in the Top 5
+MAX_PER_SOURCE = int(os.getenv("DIGEST_MAX_PER_SOURCE", "2"))
 
 TRACKING_PARAMS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
@@ -263,11 +264,46 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Dict]:
         })
     return out
 
+def normalize_title_key(title: str) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9\s]", " ", title.lower())).strip()
+
+def sentence_split(text: str) -> List[str]:
+    t = re.sub(r"\s+", " ", (text or "").strip())
+    if not t:
+        return []
+    parts = re.split(r"(?<=[.!?])\s+", t)
+    return [p.strip() for p in parts if p.strip()]
+
+def build_story_summary(summary: str, source: str) -> str:
+    sents = sentence_split(summary)
+    if not sents:
+        return f"{source} posted an update on this story—hit the source link for full details."
+    out = []
+    for s in sents[:3]:
+        s = re.sub(r"^Read more.*$", "", s, flags=re.IGNORECASE).strip()
+        if len(s) < 20:
+            continue
+        out.append(s)
+    if not out:
+        return shorten(summary, 260)
+    return shorten(" ".join(out), 360)
+
+def md_link(text: str, url: str) -> str:
+    safe = text.replace("[", "(").replace("]", ")")
+    return f"[{safe}]({url})"
+
+# ----------------------------
+# SCORING + VARIETY SELECTION
+# ----------------------------
+
 def score_item(item: Dict) -> float:
-    # predictable score:
-    # - recency
-    # - source priority
-    # - boost if “news-y” keywords appear
+    """
+    Predictable ranking:
+    - recency
+    - source priority
+    - boost for “news-y” keywords
+    - slight penalty for Blue's News so it doesn't dominate volume days
+    """
     prio = {s: i for i, s in enumerate(SOURCE_PRIORITY)}
     p = prio.get(item["source"], 999)
 
@@ -278,49 +314,62 @@ def score_item(item: Dict) -> float:
     hay = f'{item["title"]} {item["summary"]}'.lower()
     hint = 8.0 if contains_any(hay, NEWS_HINTS) else 0.0
 
-    return recency_score + source_score + hint
+    blues_penalty = 2.0 if item["source"] == "Blue's News" else 0.0
 
-def normalize_title_key(title: str) -> str:
-    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9\s]", " ", title.lower())).strip()
+    return recency_score + source_score + hint - blues_penalty
 
-def sentence_split(text: str) -> List[str]:
-    t = re.sub(r"\s+", " ", (text or "").strip())
-    if not t:
-        return []
-    # light sentence split, good enough for newsletter blurbs
-    parts = re.split(r"(?<=[.!?])\s+", t)
-    parts = [p.strip() for p in parts if p.strip()]
-    return parts
-
-def build_story_summary(title: str, summary: str, source: str) -> str:
+def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int) -> List[Dict]:
     """
-    Newsletter-style: 2–3 tight sentences, no fluff.
-    Uses feed/OG summary and trims hard.
+    Variety-first selection:
+    1) Take the single best story from as many different sources as possible.
+    2) Fill remaining slots by score, respecting max_per_source.
     """
-    sents = sentence_split(summary)
-    if not sents:
-        return f"{source} posted a new update on this story. Hit the source link for the full details."
+    # group by source
+    by_source: Dict[str, List[Dict]] = {}
+    for it in candidates:
+        by_source.setdefault(it["source"], []).append(it)
 
-    # take up to 3 sentences, keep tight
-    out = []
-    for s in sents[:3]:
-        # remove obvious boilerplate
-        s = re.sub(r"^Read more.*$", "", s, flags=re.IGNORECASE).strip()
-        s = re.sub(r"\s*\(.*?click.*?\)\s*", " ", s, flags=re.IGNORECASE).strip()
-        if len(s) < 20:
+    # sort each source bucket by score
+    for s in by_source:
+        by_source[s].sort(key=score_item, reverse=True)
+
+    # pass 1: one per source (best-of)
+    picked: List[Dict] = []
+    used_title_keys = set()
+    counts: Dict[str, int] = {}
+
+    # order sources by priority (so we spread with intent)
+    for s in SOURCE_PRIORITY:
+        if len(picked) >= top_n:
+            break
+        if s not in by_source or not by_source[s]:
             continue
-        out.append(s)
+        candidate = by_source[s][0]
+        k = normalize_title_key(candidate["title"])
+        if k in used_title_keys:
+            continue
+        picked.append(candidate)
+        used_title_keys.add(k)
+        counts[s] = counts.get(s, 0) + 1
 
-    if not out:
-        return shorten(summary, 260)
+    # pass 2: fill remaining by global score, respecting caps
+    if len(picked) < top_n:
+        remaining = sorted(candidates, key=score_item, reverse=True)
+        for it in remaining:
+            if len(picked) >= top_n:
+                break
+            s = it["source"]
+            if counts.get(s, 0) >= max_per_source:
+                continue
+            k = normalize_title_key(it["title"])
+            if k in used_title_keys:
+                continue
+            picked.append(it)
+            used_title_keys.add(k)
+            counts[s] = counts.get(s, 0) + 1
 
-    # final tighten
-    joined = " ".join(out)
-    return shorten(joined, 360)
-
-def md_link(title: str, url: str) -> str:
-    safe_title = title.replace("[", "(").replace("]", ")")
-    return f"[{safe_title}]({url})"
+    # final sort for nice “top story first”
+    return sorted(picked, key=score_item, reverse=True)
 
 # ----------------------------
 # MAIN
@@ -359,10 +408,10 @@ def main():
         seen.add(key)
         deduped.append(it)
 
-    # 4) Rank + select top 5
-    ranked = sorted(deduped, key=score_item, reverse=True)[:TOP_N]
+    # 4) Variety-aware top 5
+    ranked = choose_with_variety(deduped, TOP_N, MAX_PER_SOURCE)
 
-    # 5) Enrich each story with OG summary/image when needed
+    # 5) Enrich each story with OG summary/image when needed; build newsletter summaries
     for it in ranked:
         if not it["summary"] or not it["image_url"]:
             desc, img = fetch_open_graph(it["url"])
@@ -371,24 +420,24 @@ def main():
             if not it["image_url"] and img:
                 it["image_url"] = img
 
-        it["summary"] = build_story_summary(it["title"], strip_html(it["summary"]), it["source"])
+        it["summary"] = build_story_summary(strip_html(it["summary"]), it["source"])
 
     # ----------------------------
-    # NEWSLETTER BODY (email-ready)
+    # NEWSLETTER BODY (front-facing + email-ready)
     # ----------------------------
     now = utcnow()
     date_label = now.strftime("%A, %b %d")
     header = f"🗞️ **Itty Bitty Gaming News — Evening Recap**\n**{date_label}**\n"
+
+    # Cleaner intro: no “instructions,” just newsletter voice.
     intro = (
-        "\nToday’s news, trimmed down to the signal. "
-        "Here are the **5 biggest stories** from the last 24 hours — each with a quick summary and the original source.\n"
+        "\nQuick hits from today — the stuff that moves the needle.\n"
     )
 
     if not ranked:
-        content = header + intro + "\nNothing hit the strict **news-only** filters today. (No rumors, no deals, no opinion.)"
+        content = header + intro + "\nNothing cleared the news-only filter today."
         embeds = []
     else:
-        # Write like a newsletter: numbered sections with summary + source link
         sections = []
         for i, it in enumerate(ranked, start=1):
             sections.append(
@@ -399,14 +448,12 @@ def main():
 
         outro = (
             "\n—\n"
-            "That’s the recap. Want the **morning version** too (same format), or keep it evenings only?\n"
+            "Catch the full show on **Itty Bitty Gaming News** for the snackable rundown.\n"
         )
 
         content = header + intro + "".join(sections) + outro
 
-        # ----------------------------
-        # DISCORD EMBEDS (images + quick view)
-        # ----------------------------
+        # Discord embeds for visuals
         embeds = []
         for i, it in enumerate(ranked, start=1):
             embed = {
@@ -420,7 +467,6 @@ def main():
                 embed["image"] = {"url": it["image_url"]}
             embeds.append(embed)
 
-    # 6) Post one newsletter-style message
     resp = requests.post(
         DISCORD_WEBHOOK_URL,
         json={"content": content, "embeds": embeds},
