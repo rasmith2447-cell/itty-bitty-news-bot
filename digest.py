@@ -26,23 +26,23 @@ FEEDS = [
     {"name": "PC Gamer", "url": "https://www.pcgamer.com/rss"},
 ]
 
-# Priority for tie-breaks. Blue's is last on purpose.
 SOURCE_PRIORITY = [
     "IGN", "GameSpot", "VGC", "Gematsu",
     "Polygon", "Nintendo Life", "PC Gamer", "Blue's News",
 ]
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNews/Digest2.7")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNews/Digest2.8")
 
 WINDOW_HOURS = int(os.getenv("DIGEST_WINDOW_HOURS", "24"))
 TOP_N = int(os.getenv("DIGEST_TOP_N", "5"))
-
-# Variety control
 MAX_PER_SOURCE = int(os.getenv("DIGEST_MAX_PER_SOURCE", "2"))
 
+# Optional Featured Video (set these in workflow env when you're ready)
+FEATURED_VIDEO_URL = os.getenv("FEATURED_VIDEO_URL", "").strip()
+FEATURED_VIDEO_TITLE = os.getenv("FEATURED_VIDEO_TITLE", "Featured Video").strip()
+
 # Discord safety
-DISCORD_CONTENT_LIMIT = 2000
 DISCORD_SAFE_CONTENT = 1850
 EMBED_DESC_LIMIT = 900
 
@@ -56,8 +56,11 @@ TRACKING_PARAMS = {
 # FILTERS (news-only)
 # ----------------------------
 
+# NOTE: We intentionally removed the generic word "game" from the keyword list
+# to avoid false positives (e.g., "endgame", "mind game", "game changer", etc.)
+# We'll treat gaming coverage as platform/publisher/studio/game-title signals instead.
 GAME_TERMS = [
-    "video game", "videogame", "game", "gaming",
+    "video game", "videogame", "gaming",
     "xbox", "playstation", "ps5", "ps4", "nintendo", "switch",
     "steam", "epic games", "gog", "game pass",
     "pc gaming", "console", "handheld",
@@ -67,6 +70,8 @@ GAME_TERMS = [
     "studio", "developer", "publisher",
     "esports", "tournament",
     "playstation studios", "bluepoint",
+    "ubisoft", "ea", "activision", "blizzard", "bethesda", "capcom", "bandai namco",
+    "square enix", "sega", "take-two", "2k", "rockstar", "valve",
 ]
 
 ADJACENT_TERMS = [
@@ -113,9 +118,13 @@ RUMOR_BLOCK = [
     "unconfirmed", "according to sources", "insider",
 ]
 
-NON_GAME_ENTERTAINMENT_BLOCK = [
+# Strong non-gaming entertainment / theme park / animation stuff: block ALWAYS.
+NON_GAMING_ENTERTAINMENT_BLOCK = [
+    "walt disney world", "disney world", "disneyland", "disney's hollywood studios",
+    "audio-animatronics", "animation academy", "olaf", "frozen",
+    "theme park", "theme-park", "ride", "attraction",
     "movie", "film", "tv", "television", "series", "episode",
-    "netflix", "hulu", "disney", "paramount", "max", "hbo",
+    "netflix", "hulu", "disney", "disney+", "paramount", "max", "hbo",
     "comic", "comics", "dc ", "marvel", "green arrow", "catwoman",
     "anime",
 ]
@@ -188,14 +197,44 @@ def contains_any(hay: str, terms: List[str]) -> bool:
 def has_money_signals(text: str) -> bool:
     return bool(re.search(r"(\$\d)|(\d+\s*%(\s*off)?)", text, flags=re.IGNORECASE))
 
+def looks_like_a_specific_game_title(title: str) -> bool:
+    """
+    Lightweight heuristic:
+    - Titles that include a colon or dash often indicate a game title/subtitle
+    - e.g., "Elden Ring: Shadow of the Erdtree" or "Hades II - Patch Notes"
+    """
+    t = title.strip()
+    if len(t) < 12:
+        return False
+    return (":" in t) or (" - " in t)
+
 def game_or_adjacent(title: str, summary: str) -> bool:
     hay = f"{title} {summary}".lower()
-    return contains_any(hay, GAME_TERMS) or contains_any(hay, ADJACENT_TERMS)
+
+    # hard-kill obvious non-gaming entertainment/theme-park content
+    if contains_any(hay, NON_GAMING_ENTERTAINMENT_BLOCK):
+        return False
+
+    # match stronger gaming terms OR adjacent tech terms
+    if contains_any(hay, GAME_TERMS) or contains_any(hay, ADJACENT_TERMS):
+        return True
+
+    # allow some titles that look like real game-news headings
+    if looks_like_a_specific_game_title(title):
+        # but still must not be entertainment/theme park
+        return True
+
+    return False
 
 def block_reason(title: str, summary: str) -> str:
     hay = f"{title} {summary}".lower()
+
+    if contains_any(hay, NON_GAMING_ENTERTAINMENT_BLOCK):
+        return "NON_GAMING_ENTERTAINMENT"
+
     if not game_or_adjacent(title, summary):
         return "NOT_GAME_OR_ADJACENT"
+
     if contains_any(hay, COMMUNITY_OPINION_BLOCK):
         return "COMMUNITY/OPINION"
     if contains_any(hay, LISTICLE_GUIDE_BLOCK):
@@ -206,8 +245,7 @@ def block_reason(title: str, summary: str) -> str:
         return "DEALS/SHOPPING"
     if contains_any(hay, RUMOR_BLOCK):
         return "RUMOR/SPECULATION"
-    if contains_any(hay, NON_GAME_ENTERTAINMENT_BLOCK) and not game_or_adjacent(title, summary):
-        return "NON_GAME_ENTERTAINMENT"
+
     return ""
 
 def fetch_open_graph(url: str) -> Tuple[str, str]:
@@ -283,14 +321,9 @@ def sentence_split(text: str) -> List[str]:
     return [p.strip() for p in parts if p.strip()]
 
 def build_story_summary(raw_summary: str, source: str, featured: bool = False) -> str:
-    """
-    Energetic gamer-news voice, still factual.
-    featured=True gets a slightly longer summary.
-    """
     sents = sentence_split(raw_summary)
     if not sents:
-        return f"{source} dropped an update on this — hit the source link for the full details."
-
+        return f"{source} dropped an update on this — hit the source link for full details."
     target = 5 if featured else 3
     out = []
     for s in sents[:target]:
@@ -298,12 +331,9 @@ def build_story_summary(raw_summary: str, source: str, featured: bool = False) -
         if len(s) < 20:
             continue
         out.append(s)
-
     if not out:
-        return shorten(raw_summary, 360 if featured else 260)
-
-    joined = " ".join(out)
-    return shorten(joined, 520 if featured else 360)
+        return shorten(raw_summary, 520 if featured else 360)
+    return shorten(" ".join(out), 520 if featured else 360)
 
 def md_link(text: str, url: str) -> str:
     safe = text.replace("[", "(").replace("]", ")")
@@ -350,9 +380,7 @@ def score_item(item: Dict) -> float:
     hay = f'{item["title"]} {item["summary"]}'.lower()
     hint = 8.0 if contains_any(hay, NEWS_HINTS) else 0.0
 
-    # reduce dominance of Blue's News on high-volume days
     blues_penalty = 2.5 if item["source"] == "Blue's News" else 0.0
-
     return recency_score + source_score + hint - blues_penalty
 
 def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int) -> List[Dict]:
@@ -409,17 +437,15 @@ def post_to_discord(content: str, embeds: List[Dict]) -> None:
 
     content = (content or "").strip()
     parts = []
-
     remaining = content
+
     while remaining:
         if len(remaining) <= DISCORD_SAFE_CONTENT:
             parts.append(remaining)
             break
-
         cut = remaining.rfind("\n\n", 0, DISCORD_SAFE_CONTENT)
         if cut == -1 or cut < 200:
             cut = DISCORD_SAFE_CONTENT
-
         parts.append(remaining[:cut].rstrip())
         remaining = remaining[cut:].lstrip()
 
@@ -444,7 +470,6 @@ def main():
 
     cutoff = utcnow() - timedelta(hours=WINDOW_HOURS)
 
-    # Fetch
     items: List[Dict] = []
     for f in FEEDS:
         try:
@@ -452,7 +477,6 @@ def main():
         except Exception as e:
             print(f"[WARN] Feed fetch failed: {f['name']} -> {e}")
 
-    # Filter + window
     kept = []
     for it in items:
         if it["published_at"] < cutoff:
@@ -461,7 +485,6 @@ def main():
             continue
         kept.append(it)
 
-    # Dedup by normalized title
     seen = set()
     deduped = []
     for it in sorted(kept, key=lambda x: x["published_at"], reverse=True):
@@ -471,10 +494,8 @@ def main():
         seen.add(key)
         deduped.append(it)
 
-    # Pick top N with variety
     ranked = choose_with_variety(deduped, TOP_N, MAX_PER_SOURCE)
 
-    # Enrich + write summaries
     for idx, it in enumerate(ranked):
         if not it["summary"] or not it["image_url"]:
             desc, img = fetch_open_graph(it["url"])
@@ -482,12 +503,7 @@ def main():
                 it["summary"] = desc
             if not it["image_url"] and img:
                 it["image_url"] = img
-
         it["summary"] = build_story_summary(strip_html(it["summary"]), it["source"], featured=(idx == 0))
-
-    # ----------------------------
-    # NEWSLETTER BODY (front-facing)
-    # ----------------------------
 
     pn = pacific_now()
     date_line = pn.strftime("%B %d, %Y")
@@ -496,23 +512,19 @@ def main():
 
     if not ranked:
         content = header + "\n► 🎮 Quiet night — nothing cleared the news-only filter.\n\nThat’s it for tonight’s Itty Bitty. 🫡"
-        embeds = []
-        post_to_discord(content, embeds)
+        post_to_discord(content, [])
         print("Newsletter digest posted. Items: 0")
         return
 
-    # Teaser bullets (top 3)
     teaser = []
     for it in ranked[:3]:
         emoji = story_emoji(it["title"], it["summary"])
         teaser.append(f"► {emoji} {it['title']}")
 
-    # Energetic intro (no “instructions”)
     hook = (
-        "\n\nWhat a day. The industry kept the pressure on — and yeah, it’s the kind of news cycle that makes you refresh twice.\n"
+        "\n\nOkay, gamers… today did *not* chill. Here are the headlines worth your attention.\n"
     )
 
-    # Featured + top stories sections
     featured = ranked[0]
     featured_block = (
         "\n\n**FEATURED STORY**\n"
@@ -529,17 +541,21 @@ def main():
             f"Source: {md_link(it['source'], it['url'])}\n"
         )
 
+    featured_video_block = ""
+    if FEATURED_VIDEO_URL:
+        featured_video_block = (
+            "\n**📺 Featured Video**\n"
+            f"{md_link(FEATURED_VIDEO_TITLE, FEATURED_VIDEO_URL)}\n"
+        )
+
     outro = (
         "\n—\n"
-        "Rant over. 😄\n\n"
+        "That’s it for tonight’s Itty Bitty. 😄\n"
         "Catch the snackable breakdown on **Itty Bitty Gaming News** tomorrow.\n"
     )
 
-    content = header + "\n".join(teaser) + hook + featured_block + top_stories_block + outro
+    content = header + "\n".join(teaser) + hook + featured_block + top_stories_block + featured_video_block + "\n" + outro
 
-    # ----------------------------
-    # DISCORD EMBEDS (images)
-    # ----------------------------
     embeds = []
     for i, it in enumerate(ranked, start=1):
         embed = {
