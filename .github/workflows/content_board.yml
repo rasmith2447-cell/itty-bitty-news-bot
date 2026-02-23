@@ -2,7 +2,7 @@ name: Itty Bitty Gaming News — Evening Digest
 
 on:
   schedule:
-    # 7:00 PM Pacific (DST safe via dual UTC triggers handled in digest.py)
+    # 7:00 PM Pacific (DST-safe by running both possible UTC hours)
     - cron: "0 2 * * *"   # 7pm PDT
     - cron: "0 3 * * *"   # 7pm PST
   workflow_dispatch: {}
@@ -25,9 +25,19 @@ jobs:
 
       - name: Run Itty Bitty Gaming News Digest
         env:
+          # Discord webhook for your public-facing content board channel
           DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
+
+          # Digest settings
           DIGEST_WINDOW_HOURS: "24"
           DIGEST_TOP_N: "5"
+
+          # Variety: keep it mixed across sources
           DIGEST_MAX_PER_SOURCE: "1"
+
+          # Featured video (drives traffic to Adilo)
+          FEATURED_VIDEO_URL: "https://adilo.bigcommand.com/c/ittybittygamingnew/home"
+          FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
+
           USER_AGENT: "IttyBittyGamingNews/Digest"
         run: python digest.py
