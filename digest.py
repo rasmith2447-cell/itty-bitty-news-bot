@@ -433,7 +433,7 @@ def post_to_discord(content: str, embeds: List[Dict]) -> None:
 
 
 # ----------------------------
-# ADILO FEATURED VIDEO (FIXED: ACTUALLY NEWEST)
+# ADILO FEATURED VIDEO (PAGINATED TO END)
 # ----------------------------
 
 def adilo_headers() -> Dict[str, str]:
@@ -473,60 +473,119 @@ def url_ok(url: str) -> bool:
     except Exception:
         return False
 
+def _meta_total(meta_obj: Any) -> Optional[int]:
+    """
+    Adilo response includes top-level 'meta'. We try common total-count keys.
+    """
+    if not isinstance(meta_obj, dict):
+        return None
+    for k in ["total", "Total", "totalCount", "total_count", "TotalCount", "records", "recordCount", "record_count"]:
+        v = meta_obj.get(k)
+        if v is None:
+            continue
+        try:
+            return int(v)
+        except Exception:
+            pass
+    # sometimes nested
+    for k in ["pagination", "Paging", "paging"]:
+        v = meta_obj.get(k)
+        if isinstance(v, dict):
+            t = _meta_total(v)
+            if t is not None:
+                return t
+    return None
+
+def _fetch_files_page(project_id: str, from_i: int, to_i: int) -> Tuple[List[Dict[str, Any]], Optional[int]]:
+    url = f"{ADILO_API_BASE}/projects/{project_id}/files?From={from_i}&To={to_i}"
+    data = adilo_get_json(url)
+
+    total = None
+    if isinstance(data, dict):
+        total = _meta_total(data.get("meta"))
+        payload = data.get("payload")
+        if isinstance(payload, list):
+            return [x for x in payload if isinstance(x, dict)], total
+
+    return [], total
+
 def resolve_featured_adilo_watch_url() -> str:
     """
-    Pulls up to 50 items from the project files payload list.
-    Fetches meta for each file id to get upload_date.
-    Picks newest upload_date -> https://adilo.bigcommand.com/watch/<file_id>
+    Your project has hundreds of videos.
+    Adilo is returning oldest-first for From=1&To=50.
+    So we:
+      1) fetch the first page to read total count from 'meta'
+      2) fetch the LAST page (last 50)
+      3) also fetch the page BEFORE last (backup)
+      4) pick newest by files/{id}/meta upload_date
     """
     if not (ADILO_PUBLIC_KEY and ADILO_SECRET_KEY and ADILO_PROJECT_ID):
         return FEATURED_VIDEO_FALLBACK_URL
 
     try:
-        files_url = f"{ADILO_API_BASE}/projects/{ADILO_PROJECT_ID}/files?From=1&To=50"
-        data = adilo_get_json(files_url)
+        # Step 1: fetch a small page just to learn total
+        first_page, total = _fetch_files_page(ADILO_PROJECT_ID, 1, 50)
+        print(f"[ADILO] First page items={len(first_page)} total={total}")
 
-        if not isinstance(data, dict):
-            print("[ADILO] files response not a dict; fallback")
+        if not total or total <= 0:
+            # no total returned; fallback to best effort on first page
+            candidates = first_page
+        else:
+            # Step 2: fetch last page window
+            last_from = max(1, total - 49)
+            last_to = total
+            last_page, _ = _fetch_files_page(ADILO_PROJECT_ID, last_from, last_to)
+            print(f"[ADILO] Last page From={last_from} To={last_to} items={len(last_page)}")
+
+            # Step 3: fetch previous page window as backup (if it exists)
+            prev_candidates: List[Dict[str, Any]] = []
+            if last_from > 1:
+                prev_from = max(1, last_from - 50)
+                prev_to = last_from - 1
+                prev_page, _ = _fetch_files_page(ADILO_PROJECT_ID, prev_from, prev_to)
+                print(f"[ADILO] Prev page From={prev_from} To={prev_to} items={len(prev_page)}")
+                prev_candidates = prev_page
+
+            candidates = last_page + prev_candidates
+
+        if not candidates:
+            print("[ADILO] No candidates from pages; fallback.")
             return FEATURED_VIDEO_FALLBACK_URL
 
-        payload = data.get("payload")
-        if not isinstance(payload, list) or not payload:
-            print("[ADILO] No payload list in files response; fallback.")
-            return FEATURED_VIDEO_FALLBACK_URL
-
-        # Collect all file IDs from the payload
+        # Collect ids (dedupe)
         ids: List[str] = []
-        for it in payload:
-            if not isinstance(it, dict):
-                continue
+        seen = set()
+        for it in candidates:
             fid = it.get("id")
-            if fid:
-                ids.append(str(fid))
+            if not fid:
+                continue
+            fid = str(fid)
+            if fid in seen:
+                continue
+            seen.add(fid)
+            ids.append(fid)
 
         if not ids:
-            print("[ADILO] No file ids found; fallback.")
+            print("[ADILO] No file ids in candidates; fallback.")
             return FEATURED_VIDEO_FALLBACK_URL
 
         newest_id: Optional[str] = None
         newest_dt: Optional[datetime] = None
 
-        # Fetch meta for all ids (up to 50). Small delay to be polite.
-        for fid in ids[:50]:
+        # Newest selection by upload_date across last ~100 items
+        for fid in ids:
             meta_url = f"{ADILO_API_BASE}/files/{fid}/meta"
             meta = adilo_get_json(meta_url)
-
             mp = meta.get("payload") if isinstance(meta, dict) else None
             upload_date = mp.get("upload_date") if isinstance(mp, dict) else None
             dt = parse_dt_any(upload_date)
-
             print(f"[ADILO] meta file_id={fid} upload_date={upload_date}")
 
             if dt and (newest_dt is None or dt > newest_dt):
                 newest_dt = dt
                 newest_id = fid
 
-            time.sleep(0.08)
+            time.sleep(0.06)
 
         if not newest_id:
             print("[ADILO] Could not determine newest by upload_date; fallback.")
@@ -545,7 +604,7 @@ def resolve_featured_adilo_watch_url() -> str:
 
 
 # ----------------------------
-# MAIN
+# MAIN (digest)
 # ----------------------------
 
 def main():
