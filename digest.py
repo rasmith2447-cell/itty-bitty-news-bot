@@ -12,10 +12,6 @@ from dateutil import parser as dateparser
 from zoneinfo import ZoneInfo
 
 
-# ----------------------------
-# CONFIG
-# ----------------------------
-
 FEEDS = [
     {"name": "IGN", "url": "http://feeds.ign.com/ign/all"},
     {"name": "GameSpot", "url": "http://www.gamespot.com/feeds/mashup/"},
@@ -39,7 +35,6 @@ WINDOW_HOURS = int(os.getenv("DIGEST_WINDOW_HOURS", "24"))
 TOP_N = int(os.getenv("DIGEST_TOP_N", "5"))
 MAX_PER_SOURCE = int(os.getenv("DIGEST_MAX_PER_SOURCE", "1"))
 
-# Featured video (Adilo)
 FEATURED_VIDEO_TITLE = os.getenv("FEATURED_VIDEO_TITLE", "Watch today’s Itty Bitty Gaming News").strip()
 FEATURED_VIDEO_FALLBACK_URL = os.getenv(
     "FEATURED_VIDEO_FALLBACK_URL",
@@ -51,7 +46,6 @@ ADILO_SECRET_KEY = os.getenv("ADILO_SECRET_KEY", "").strip()
 ADILO_PROJECT_ID = os.getenv("ADILO_PROJECT_ID", "").strip()
 ADILO_API_BASE = "https://adilo-api.bigcommand.com/v1"
 
-# Discord
 DISCORD_SAFE_CONTENT = 1850
 EMBED_DESC_LIMIT = 900
 
@@ -61,10 +55,6 @@ TRACKING_PARAMS = {
     "gclid", "fbclid", "mc_cid", "mc_eid", "ref", "source"
 }
 
-
-# ----------------------------
-# FILTERS (news-only)
-# ----------------------------
 
 GAME_TERMS = [
     "video game", "videogame", "gaming",
@@ -143,10 +133,6 @@ NEWS_HINTS = [
     "retire", "retirement", "steps down", "stepping down", "resigns", "resignation",
 ]
 
-
-# ----------------------------
-# UTIL
-# ----------------------------
 
 def utcnow() -> datetime:
     return datetime.now(timezone.utc)
@@ -265,10 +251,6 @@ def md_link(text: str, url: str) -> str:
     return f"[{safe}]({url})"
 
 
-# ----------------------------
-# OPEN GRAPH
-# ----------------------------
-
 def fetch_open_graph(url: str) -> Tuple[str, str]:
     headers = {"User-Agent": USER_AGENT}
     try:
@@ -289,10 +271,6 @@ def fetch_open_graph(url: str) -> Tuple[str, str]:
     img = meta("og:image") or meta("twitter:image") or meta("twitter:image:src")
     return strip_html(desc), (img or "").strip()
 
-
-# ----------------------------
-# FEEDS
-# ----------------------------
 
 def fetch_feed(feed_name: str, feed_url: str) -> List[Dict]:
     headers = {"User-Agent": USER_AGENT}
@@ -336,10 +314,6 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Dict]:
         })
     return out
 
-
-# ----------------------------
-# SCORING + VARIETY
-# ----------------------------
 
 def score_item(item: Dict) -> float:
     prio = {s: i for i, s in enumerate(SOURCE_PRIORITY)}
@@ -398,10 +372,6 @@ def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int)
     return sorted(picked, key=score_item, reverse=True)
 
 
-# ----------------------------
-# DISCORD
-# ----------------------------
-
 def post_to_discord(content: str, embeds: List[Dict]) -> None:
     if not DISCORD_WEBHOOK_URL:
         raise RuntimeError("DISCORD_WEBHOOK_URL is not set")
@@ -433,7 +403,7 @@ def post_to_discord(content: str, embeds: List[Dict]) -> None:
 
 
 # ----------------------------
-# ADILO FEATURED VIDEO (PAGINATED TO END)
+# ADILO FEATURED VIDEO: last-page + verify newest public
 # ----------------------------
 
 def adilo_headers() -> Dict[str, str]:
@@ -474,9 +444,6 @@ def url_ok(url: str) -> bool:
         return False
 
 def _meta_total(meta_obj: Any) -> Optional[int]:
-    """
-    Adilo response includes top-level 'meta'. We try common total-count keys.
-    """
     if not isinstance(meta_obj, dict):
         return None
     for k in ["total", "Total", "totalCount", "total_count", "TotalCount", "records", "recordCount", "record_count"]:
@@ -487,13 +454,6 @@ def _meta_total(meta_obj: Any) -> Optional[int]:
             return int(v)
         except Exception:
             pass
-    # sometimes nested
-    for k in ["pagination", "Paging", "paging"]:
-        v = meta_obj.get(k)
-        if isinstance(v, dict):
-            t = _meta_total(v)
-            if t is not None:
-                return t
     return None
 
 def _fetch_files_page(project_id: str, from_i: int, to_i: int) -> Tuple[List[Dict[str, Any]], Optional[int]]:
@@ -510,49 +470,33 @@ def _fetch_files_page(project_id: str, from_i: int, to_i: int) -> Tuple[List[Dic
     return [], total
 
 def resolve_featured_adilo_watch_url() -> str:
-    """
-    Your project has hundreds of videos.
-    Adilo is returning oldest-first for From=1&To=50.
-    So we:
-      1) fetch the first page to read total count from 'meta'
-      2) fetch the LAST page (last 50)
-      3) also fetch the page BEFORE last (backup)
-      4) pick newest by files/{id}/meta upload_date
-    """
     if not (ADILO_PUBLIC_KEY and ADILO_SECRET_KEY and ADILO_PROJECT_ID):
         return FEATURED_VIDEO_FALLBACK_URL
 
     try:
-        # Step 1: fetch a small page just to learn total
         first_page, total = _fetch_files_page(ADILO_PROJECT_ID, 1, 50)
         print(f"[ADILO] First page items={len(first_page)} total={total}")
-
         if not total or total <= 0:
-            # no total returned; fallback to best effort on first page
-            candidates = first_page
-        else:
-            # Step 2: fetch last page window
-            last_from = max(1, total - 49)
-            last_to = total
-            last_page, _ = _fetch_files_page(ADILO_PROJECT_ID, last_from, last_to)
-            print(f"[ADILO] Last page From={last_from} To={last_to} items={len(last_page)}")
-
-            # Step 3: fetch previous page window as backup (if it exists)
-            prev_candidates: List[Dict[str, Any]] = []
-            if last_from > 1:
-                prev_from = max(1, last_from - 50)
-                prev_to = last_from - 1
-                prev_page, _ = _fetch_files_page(ADILO_PROJECT_ID, prev_from, prev_to)
-                print(f"[ADILO] Prev page From={prev_from} To={prev_to} items={len(prev_page)}")
-                prev_candidates = prev_page
-
-            candidates = last_page + prev_candidates
-
-        if not candidates:
-            print("[ADILO] No candidates from pages; fallback.")
             return FEATURED_VIDEO_FALLBACK_URL
 
-        # Collect ids (dedupe)
+        last_from = max(1, total - 49)
+        last_to = total
+        last_page, _ = _fetch_files_page(ADILO_PROJECT_ID, last_from, last_to)
+        print(f"[ADILO] Last page From={last_from} To={last_to} items={len(last_page)}")
+
+        prev_candidates: List[Dict[str, Any]] = []
+        if last_from > 1:
+            prev_from = max(1, last_from - 50)
+            prev_to = last_from - 1
+            prev_page, _ = _fetch_files_page(ADILO_PROJECT_ID, prev_from, prev_to)
+            print(f"[ADILO] Prev page From={prev_from} To={prev_to} items={len(prev_page)}")
+            prev_candidates = prev_page
+
+        candidates = last_page + prev_candidates
+        if not candidates:
+            return FEATURED_VIDEO_FALLBACK_URL
+
+        # Collect IDs
         ids: List[str] = []
         seen = set()
         for it in candidates:
@@ -565,14 +509,8 @@ def resolve_featured_adilo_watch_url() -> str:
             seen.add(fid)
             ids.append(fid)
 
-        if not ids:
-            print("[ADILO] No file ids in candidates; fallback.")
-            return FEATURED_VIDEO_FALLBACK_URL
-
-        newest_id: Optional[str] = None
-        newest_dt: Optional[datetime] = None
-
-        # Newest selection by upload_date across last ~100 items
+        # Pull meta for each to get upload_date
+        dated: List[Tuple[datetime, str]] = []
         for fid in ids:
             meta_url = f"{ADILO_API_BASE}/files/{fid}/meta"
             meta = adilo_get_json(meta_url)
@@ -580,32 +518,31 @@ def resolve_featured_adilo_watch_url() -> str:
             upload_date = mp.get("upload_date") if isinstance(mp, dict) else None
             dt = parse_dt_any(upload_date)
             print(f"[ADILO] meta file_id={fid} upload_date={upload_date}")
+            if dt:
+                dated.append((dt, fid))
+            time.sleep(0.05)
 
-            if dt and (newest_dt is None or dt > newest_dt):
-                newest_dt = dt
-                newest_id = fid
-
-            time.sleep(0.06)
-
-        if not newest_id:
-            print("[ADILO] Could not determine newest by upload_date; fallback.")
+        if not dated:
             return FEATURED_VIDEO_FALLBACK_URL
 
-        watch_url = f"https://adilo.bigcommand.com/watch/{newest_id}"
-        if url_ok(watch_url):
-            return watch_url
+        # Sort newest-first
+        dated.sort(key=lambda x: x[0], reverse=True)
 
-        print("[ADILO] Watch URL not reachable; fallback.")
-        return FEATURED_VIDEO_FALLBACK_URL
+        # Try the top 10 newest; pick first that is publicly reachable
+        for dt, fid in dated[:10]:
+            watch_url = f"https://adilo.bigcommand.com/watch/{fid}"
+            print(f"[ADILO] Candidate watch_url={watch_url} dt={dt.isoformat()}")
+            if url_ok(watch_url):
+                return watch_url
+
+        # Fallback to the newest even if it didn’t verify
+        newest_id = dated[0][1]
+        return f"https://adilo.bigcommand.com/watch/{newest_id}"
 
     except Exception as e:
         print("[ADILO] Featured video resolver failed:", e)
         return FEATURED_VIDEO_FALLBACK_URL
 
-
-# ----------------------------
-# MAIN (digest)
-# ----------------------------
 
 def main():
     cutoff = utcnow() - timedelta(hours=WINDOW_HOURS)
@@ -649,7 +586,6 @@ def main():
 
     pn = pacific_now()
     date_line = pn.strftime("%B %d, %Y")
-
     header = f"{date_line}\n\n**In Tonight’s Edition of Itty Bitty Gaming News…**\n"
 
     if not ranked:
