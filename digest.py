@@ -2,8 +2,8 @@ import os
 import re
 import time
 from datetime import datetime, timezone, timedelta
-from typing import List, Dict, Tuple
-from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
+from typing import List, Dict, Tuple, Optional
+from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse, urljoin
 
 import feedparser
 import requests
@@ -32,15 +32,20 @@ SOURCE_PRIORITY = [
 ]
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNews/Digest2.8")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNews/Digest2.9")
 
 WINDOW_HOURS = int(os.getenv("DIGEST_WINDOW_HOURS", "24"))
 TOP_N = int(os.getenv("DIGEST_TOP_N", "5"))
-MAX_PER_SOURCE = int(os.getenv("DIGEST_MAX_PER_SOURCE", "2"))
+MAX_PER_SOURCE = int(os.getenv("DIGEST_MAX_PER_SOURCE", "1"))
 
-# Optional Featured Video (set these in workflow env when you're ready)
+# Featured Video:
+# - If FEATURED_VIDEO_URL is set, it wins.
+# - Else if FEATURED_VIDEO_CHANNEL_URL is set, we try to scrape the latest video link from it.
+# - Else no featured video block.
 FEATURED_VIDEO_URL = os.getenv("FEATURED_VIDEO_URL", "").strip()
-FEATURED_VIDEO_TITLE = os.getenv("FEATURED_VIDEO_TITLE", "Featured Video").strip()
+FEATURED_VIDEO_CHANNEL_URL = os.getenv("FEATURED_VIDEO_CHANNEL_URL", "").strip()
+FEATURED_VIDEO_FALLBACK_URL = os.getenv("FEATURED_VIDEO_FALLBACK_URL", "").strip()
+FEATURED_VIDEO_TITLE = os.getenv("FEATURED_VIDEO_TITLE", "Watch today’s Itty Bitty Gaming News").strip()
 
 # Discord safety
 DISCORD_SAFE_CONTENT = 1850
@@ -56,9 +61,6 @@ TRACKING_PARAMS = {
 # FILTERS (news-only)
 # ----------------------------
 
-# NOTE: We intentionally removed the generic word "game" from the keyword list
-# to avoid false positives (e.g., "endgame", "mind game", "game changer", etc.)
-# We'll treat gaming coverage as platform/publisher/studio/game-title signals instead.
 GAME_TERMS = [
     "video game", "videogame", "gaming",
     "xbox", "playstation", "ps5", "ps4", "nintendo", "switch",
@@ -118,7 +120,6 @@ RUMOR_BLOCK = [
     "unconfirmed", "according to sources", "insider",
 ]
 
-# Strong non-gaming entertainment / theme park / animation stuff: block ALWAYS.
 NON_GAMING_ENTERTAINMENT_BLOCK = [
     "walt disney world", "disney world", "disneyland", "disney's hollywood studios",
     "audio-animatronics", "animation academy", "olaf", "frozen",
@@ -198,11 +199,6 @@ def has_money_signals(text: str) -> bool:
     return bool(re.search(r"(\$\d)|(\d+\s*%(\s*off)?)", text, flags=re.IGNORECASE))
 
 def looks_like_a_specific_game_title(title: str) -> bool:
-    """
-    Lightweight heuristic:
-    - Titles that include a colon or dash often indicate a game title/subtitle
-    - e.g., "Elden Ring: Shadow of the Erdtree" or "Hades II - Patch Notes"
-    """
     t = title.strip()
     if len(t) < 12:
         return False
@@ -210,31 +206,20 @@ def looks_like_a_specific_game_title(title: str) -> bool:
 
 def game_or_adjacent(title: str, summary: str) -> bool:
     hay = f"{title} {summary}".lower()
-
-    # hard-kill obvious non-gaming entertainment/theme-park content
     if contains_any(hay, NON_GAMING_ENTERTAINMENT_BLOCK):
         return False
-
-    # match stronger gaming terms OR adjacent tech terms
     if contains_any(hay, GAME_TERMS) or contains_any(hay, ADJACENT_TERMS):
         return True
-
-    # allow some titles that look like real game-news headings
     if looks_like_a_specific_game_title(title):
-        # but still must not be entertainment/theme park
         return True
-
     return False
 
 def block_reason(title: str, summary: str) -> str:
     hay = f"{title} {summary}".lower()
-
     if contains_any(hay, NON_GAMING_ENTERTAINMENT_BLOCK):
         return "NON_GAMING_ENTERTAINMENT"
-
     if not game_or_adjacent(title, summary):
         return "NOT_GAME_OR_ADJACENT"
-
     if contains_any(hay, COMMUNITY_OPINION_BLOCK):
         return "COMMUNITY/OPINION"
     if contains_any(hay, LISTICLE_GUIDE_BLOCK):
@@ -245,7 +230,6 @@ def block_reason(title: str, summary: str) -> str:
         return "DEALS/SHOPPING"
     if contains_any(hay, RUMOR_BLOCK):
         return "RUMOR/SPECULATION"
-
     return ""
 
 def fetch_open_graph(url: str) -> Tuple[str, str]:
@@ -366,7 +350,7 @@ def story_emoji(title: str, summary: str) -> str:
     return "🎮"
 
 # ----------------------------
-# SCORING + VARIETY SELECTION
+# SCORING + VARIETY
 # ----------------------------
 
 def score_item(item: Dict) -> float:
@@ -395,7 +379,6 @@ def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int)
     used_title_keys = set()
     counts: Dict[str, int] = {}
 
-    # pass 1: one per source in priority order
     for s in SOURCE_PRIORITY:
         if len(picked) >= top_n:
             break
@@ -409,7 +392,6 @@ def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int)
         used_title_keys.add(k)
         counts[s] = counts.get(s, 0) + 1
 
-    # pass 2: fill remaining by score, respecting caps
     if len(picked) < top_n:
         remaining = sorted(candidates, key=score_item, reverse=True)
         for it in remaining:
@@ -426,6 +408,64 @@ def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int)
             counts[s] = counts.get(s, 0) + 1
 
     return sorted(picked, key=score_item, reverse=True)
+
+# ----------------------------
+# FEATURED VIDEO (Adilo latest)
+# ----------------------------
+
+def find_latest_adilo_video(channel_url: str) -> Optional[str]:
+    """
+    Best-effort: scrape the channel page and grab the first /watch/ or /video/ link.
+    If nothing found, return None.
+    """
+    headers = {"User-Agent": USER_AGENT}
+    try:
+        r = requests.get(channel_url, headers=headers, timeout=25)
+        r.raise_for_status()
+    except Exception as e:
+        print(f"[WARN] Featured video: failed to fetch channel page: {e}")
+        return None
+
+    soup = BeautifulSoup(r.text, "html.parser")
+
+    # Collect candidate links
+    candidates = []
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        if not href:
+            continue
+        abs_url = urljoin(channel_url, href)
+        if "/watch/" in abs_url or "/video/" in abs_url:
+            candidates.append(abs_url)
+
+    # Prefer /watch/ over /video/
+    for u in candidates:
+        if "/watch/" in u:
+            return normalize_url(u)
+    if candidates:
+        return normalize_url(candidates[0])
+
+    # As a fallback, some pages expose og:url for the first playable item (rare)
+    og = soup.find("meta", attrs={"property": "og:url"})
+    if og and og.get("content"):
+        u = og["content"].strip()
+        if "/watch/" in u or "/video/" in u:
+            return normalize_url(u)
+
+    return None
+
+def resolve_featured_video_url() -> str:
+    if FEATURED_VIDEO_URL:
+        return FEATURED_VIDEO_URL
+
+    if FEATURED_VIDEO_CHANNEL_URL:
+        latest = find_latest_adilo_video(FEATURED_VIDEO_CHANNEL_URL)
+        if latest:
+            return latest
+        # fallback to channel page if scrape fails
+        return FEATURED_VIDEO_FALLBACK_URL or FEATURED_VIDEO_CHANNEL_URL
+
+    return ""
 
 # ----------------------------
 # DISCORD POSTING (safe split)
@@ -507,23 +547,23 @@ def main():
 
     pn = pacific_now()
     date_line = pn.strftime("%B %d, %Y")
-
     header = f"{date_line}\n\n**In Tonight’s Edition of Itty Bitty Gaming News…**\n"
 
     if not ranked:
-        content = header + "\n► 🎮 Quiet night — nothing cleared the news-only filter.\n\nThat’s it for tonight’s Itty Bitty. 🫡"
+        featured_video_url = resolve_featured_video_url()
+        video_block = ""
+        if featured_video_url:
+            video_block = f"\n**📺 Featured Video**\n{md_link(FEATURED_VIDEO_TITLE, featured_video_url)}\n"
+        content = header + "\n► 🎮 Quiet night — nothing cleared the news-only filter.\n" + video_block + "\nThat’s it for tonight’s Itty Bitty. 🫡"
         post_to_discord(content, [])
         print("Newsletter digest posted. Items: 0")
         return
 
     teaser = []
     for it in ranked[:3]:
-        emoji = story_emoji(it["title"], it["summary"])
-        teaser.append(f"► {emoji} {it['title']}")
+        teaser.append(f"► {story_emoji(it['title'], it['summary'])} {it['title']}")
 
-    hook = (
-        "\n\nOkay, gamers… today did *not* chill. Here are the headlines worth your attention.\n"
-    )
+    hook = "\n\nOkay, gamers… today did *not* chill. Here are the headlines worth your attention.\n"
 
     featured = ranked[0]
     featured_block = (
@@ -541,11 +581,12 @@ def main():
             f"Source: {md_link(it['source'], it['url'])}\n"
         )
 
+    featured_video_url = resolve_featured_video_url()
     featured_video_block = ""
-    if FEATURED_VIDEO_URL:
+    if featured_video_url:
         featured_video_block = (
             "\n**📺 Featured Video**\n"
-            f"{md_link(FEATURED_VIDEO_TITLE, FEATURED_VIDEO_URL)}\n"
+            f"{md_link(FEATURED_VIDEO_TITLE, featured_video_url)}\n"
         )
 
     outro = (
