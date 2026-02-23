@@ -266,7 +266,7 @@ def md_link(text: str, url: str) -> str:
 
 
 # ----------------------------
-# SCRAPE OG IMAGE/DESCRIPTION (optional)
+# OPEN GRAPH
 # ----------------------------
 
 def fetch_open_graph(url: str) -> Tuple[str, str]:
@@ -367,7 +367,6 @@ def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int)
     used_title_keys = set()
     counts: Dict[str, int] = {}
 
-    # First pass: one per source in priority order
     for s in SOURCE_PRIORITY:
         if len(picked) >= top_n:
             break
@@ -381,7 +380,6 @@ def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int)
         used_title_keys.add(k)
         counts[s] = counts.get(s, 0) + 1
 
-    # Fill remaining
     if len(picked) < top_n:
         remaining = sorted(candidates, key=score_item, reverse=True)
         for it in remaining:
@@ -401,7 +399,7 @@ def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int)
 
 
 # ----------------------------
-# DISCORD POSTING
+# DISCORD
 # ----------------------------
 
 def post_to_discord(content: str, embeds: List[Dict]) -> None:
@@ -435,7 +433,7 @@ def post_to_discord(content: str, embeds: List[Dict]) -> None:
 
 
 # ----------------------------
-# ADILO FEATURED VIDEO (FINAL)
+# ADILO FEATURED VIDEO (FIXED: ACTUALLY NEWEST)
 # ----------------------------
 
 def adilo_headers() -> Dict[str, str]:
@@ -477,12 +475,9 @@ def url_ok(url: str) -> bool:
 
 def resolve_featured_adilo_watch_url() -> str:
     """
-    Uses your working discovery:
-      - /projects/{project_id}/files -> { status, message, payload(list), meta }
-      - /files/{id}/meta -> { status, message, payload{..., upload_date...} }
-
-    Picks newest by upload_date among the first N items.
-    Builds: https://adilo.bigcommand.com/watch/<file_id>
+    Pulls up to 50 items from the project files payload list.
+    Fetches meta for each file id to get upload_date.
+    Picks newest upload_date -> https://adilo.bigcommand.com/watch/<file_id>
     """
     if not (ADILO_PUBLIC_KEY and ADILO_SECRET_KEY and ADILO_PROJECT_ID):
         return FEATURED_VIDEO_FALLBACK_URL
@@ -490,48 +485,54 @@ def resolve_featured_adilo_watch_url() -> str:
     try:
         files_url = f"{ADILO_API_BASE}/projects/{ADILO_PROJECT_ID}/files?From=1&To=50"
         data = adilo_get_json(files_url)
-        payload = data.get("payload") if isinstance(data, dict) else None
+
+        if not isinstance(data, dict):
+            print("[ADILO] files response not a dict; fallback")
+            return FEATURED_VIDEO_FALLBACK_URL
+
+        payload = data.get("payload")
         if not isinstance(payload, list) or not payload:
             print("[ADILO] No payload list in files response; fallback.")
             return FEATURED_VIDEO_FALLBACK_URL
 
-        # Check first 15 items (keeps API calls low)
-        candidates = []
-        for it in payload[:15]:
+        # Collect all file IDs from the payload
+        ids: List[str] = []
+        for it in payload:
             if not isinstance(it, dict):
                 continue
             fid = it.get("id")
-            title = it.get("title") or it.get("name") or ""
-            if not fid:
-                continue
-            candidates.append((str(fid), str(title)))
+            if fid:
+                ids.append(str(fid))
 
-        if not candidates:
+        if not ids:
             print("[ADILO] No file ids found; fallback.")
             return FEATURED_VIDEO_FALLBACK_URL
 
-        newest_id = None
-        newest_dt = None
+        newest_id: Optional[str] = None
+        newest_dt: Optional[datetime] = None
 
-        for fid, title in candidates:
+        # Fetch meta for all ids (up to 50). Small delay to be polite.
+        for fid in ids[:50]:
             meta_url = f"{ADILO_API_BASE}/files/{fid}/meta"
             meta = adilo_get_json(meta_url)
+
             mp = meta.get("payload") if isinstance(meta, dict) else None
             upload_date = mp.get("upload_date") if isinstance(mp, dict) else None
             dt = parse_dt_any(upload_date)
-            print(f"[ADILO] meta file_id={fid} title={title[:60]} upload_date={upload_date}")
+
+            print(f"[ADILO] meta file_id={fid} upload_date={upload_date}")
 
             if dt and (newest_dt is None or dt > newest_dt):
                 newest_dt = dt
                 newest_id = fid
+
+            time.sleep(0.08)
 
         if not newest_id:
             print("[ADILO] Could not determine newest by upload_date; fallback.")
             return FEATURED_VIDEO_FALLBACK_URL
 
         watch_url = f"https://adilo.bigcommand.com/watch/{newest_id}"
-
-        # sanity check so we never post a 404
         if url_ok(watch_url):
             return watch_url
 
@@ -565,7 +566,6 @@ def main():
             continue
         kept.append(it)
 
-    # Dedup by normalized title
     seen = set()
     deduped = []
     for it in sorted(kept, key=lambda x: x["published_at"], reverse=True):
@@ -577,7 +577,6 @@ def main():
 
     ranked = choose_with_variety(deduped, TOP_N, MAX_PER_SOURCE)
 
-    # Fill missing summary/image via OpenGraph, then generate clean summaries
     for idx, it in enumerate(ranked):
         if not it["summary"] or not it["image_url"]:
             desc, img = fetch_open_graph(it["url"])
@@ -587,7 +586,6 @@ def main():
                 it["image_url"] = img
         it["summary"] = build_story_summary(strip_html(it["summary"]), it["source"], featured=(idx == 0))
 
-    # Featured video: API-driven
     featured_video_url = resolve_featured_adilo_watch_url()
 
     pn = pacific_now()
