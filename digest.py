@@ -25,20 +25,22 @@ FEEDS = [
     {"name": "PC Gamer", "url": "https://www.pcgamer.com/rss"},
 ]
 
-# Priority for tie-breaks. Blue's is last on purpose.
 SOURCE_PRIORITY = [
     "IGN", "GameSpot", "VGC", "Gematsu",
     "Polygon", "Nintendo Life", "PC Gamer", "Blue's News",
 ]
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/NewsletterDigest2.5")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/NewsletterDigest2.6")
 
 WINDOW_HOURS = int(os.getenv("DIGEST_WINDOW_HOURS", "24"))
 TOP_N = int(os.getenv("DIGEST_TOP_N", "5"))
-
-# Variety control: maximum number of stories from the same source in the Top 5
 MAX_PER_SOURCE = int(os.getenv("DIGEST_MAX_PER_SOURCE", "2"))
+
+# Discord limits (keep under hard limits)
+DISCORD_CONTENT_LIMIT = 2000
+DISCORD_SAFE_CONTENT = 1850  # buffer
+EMBED_DESC_LIMIT = 900       # safe, under 4096
 
 TRACKING_PARAMS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
@@ -149,7 +151,7 @@ def strip_html(text: str) -> str:
     soup = BeautifulSoup(text, "html.parser")
     return re.sub(r"\s+", " ", soup.get_text(" ", strip=True)).strip()
 
-def shorten(text: str, max_len: int = 420) -> str:
+def shorten(text: str, max_len: int) -> str:
     text = (text or "").strip()
     if len(text) <= max_len:
         return text
@@ -209,7 +211,6 @@ def fetch_open_graph(url: str) -> Tuple[str, str]:
         html = resp.text
     except Exception:
         return "", ""
-
     soup = BeautifulSoup(html, "html.parser")
 
     def meta(name: str) -> str:
@@ -277,7 +278,7 @@ def sentence_split(text: str) -> List[str]:
 def build_story_summary(summary: str, source: str) -> str:
     sents = sentence_split(summary)
     if not sents:
-        return f"{source} posted an update on this story—hit the source link for full details."
+        return f"{source} posted an update—hit the source link for details."
     out = []
     for s in sents[:3]:
         s = re.sub(r"^Read more.*$", "", s, flags=re.IGNORECASE).strip()
@@ -297,62 +298,46 @@ def md_link(text: str, url: str) -> str:
 # ----------------------------
 
 def score_item(item: Dict) -> float:
-    """
-    Predictable ranking:
-    - recency
-    - source priority
-    - boost for “news-y” keywords
-    - slight penalty for Blue's News so it doesn't dominate volume days
-    """
     prio = {s: i for i, s in enumerate(SOURCE_PRIORITY)}
     p = prio.get(item["source"], 999)
 
     age_hours = max(0.0, (utcnow() - item["published_at"]).total_seconds() / 3600.0)
-    recency_score = max(0.0, 36.0 - age_hours)  # fades after ~36h
+    recency_score = max(0.0, 36.0 - age_hours)
     source_score = max(0.0, 10.0 - (p * 0.8))
 
     hay = f'{item["title"]} {item["summary"]}'.lower()
     hint = 8.0 if contains_any(hay, NEWS_HINTS) else 0.0
 
     blues_penalty = 2.0 if item["source"] == "Blue's News" else 0.0
-
     return recency_score + source_score + hint - blues_penalty
 
 def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int) -> List[Dict]:
-    """
-    Variety-first selection:
-    1) Take the single best story from as many different sources as possible.
-    2) Fill remaining slots by score, respecting max_per_source.
-    """
-    # group by source
     by_source: Dict[str, List[Dict]] = {}
     for it in candidates:
         by_source.setdefault(it["source"], []).append(it)
 
-    # sort each source bucket by score
     for s in by_source:
         by_source[s].sort(key=score_item, reverse=True)
 
-    # pass 1: one per source (best-of)
     picked: List[Dict] = []
     used_title_keys = set()
     counts: Dict[str, int] = {}
 
-    # order sources by priority (so we spread with intent)
+    # pass 1: one per source, in priority order
     for s in SOURCE_PRIORITY:
         if len(picked) >= top_n:
             break
         if s not in by_source or not by_source[s]:
             continue
-        candidate = by_source[s][0]
-        k = normalize_title_key(candidate["title"])
+        it = by_source[s][0]
+        k = normalize_title_key(it["title"])
         if k in used_title_keys:
             continue
-        picked.append(candidate)
+        picked.append(it)
         used_title_keys.add(k)
         counts[s] = counts.get(s, 0) + 1
 
-    # pass 2: fill remaining by global score, respecting caps
+    # pass 2: fill remaining by score
     if len(picked) < top_n:
         remaining = sorted(candidates, key=score_item, reverse=True)
         for it in remaining:
@@ -368,8 +353,50 @@ def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int)
             used_title_keys.add(k)
             counts[s] = counts.get(s, 0) + 1
 
-    # final sort for nice “top story first”
     return sorted(picked, key=score_item, reverse=True)
+
+# ----------------------------
+# DISCORD POSTING (safe)
+# ----------------------------
+
+def post_to_discord(content: str, embeds: List[Dict]) -> None:
+    """
+    Posts in a Discord-safe way:
+    - If content > 1850 chars, split into multiple messages.
+    - Embeds are posted with the first message only.
+    """
+    if not DISCORD_WEBHOOK_URL:
+        raise RuntimeError("DISCORD_WEBHOOK_URL is not set")
+
+    content = content or ""
+    parts = []
+
+    # split on paragraph boundaries when possible
+    remaining = content.strip()
+    while remaining:
+        if len(remaining) <= DISCORD_SAFE_CONTENT:
+            parts.append(remaining)
+            break
+
+        cut = remaining.rfind("\n\n", 0, DISCORD_SAFE_CONTENT)
+        if cut == -1 or cut < 200:
+            cut = DISCORD_SAFE_CONTENT
+
+        parts.append(remaining[:cut].rstrip())
+        remaining = remaining[cut:].lstrip()
+
+    # message 1 includes embeds
+    payload1 = {"content": parts[0] if parts else ""}
+    if embeds:
+        payload1["embeds"] = embeds
+
+    r1 = requests.post(DISCORD_WEBHOOK_URL, json=payload1, timeout=20)
+    r1.raise_for_status()
+
+    # remaining messages are content-only
+    for p in parts[1:]:
+        r = requests.post(DISCORD_WEBHOOK_URL, json={"content": p}, timeout=20)
+        r.raise_for_status()
 
 # ----------------------------
 # MAIN
@@ -381,7 +408,6 @@ def main():
 
     cutoff = utcnow() - timedelta(hours=WINDOW_HOURS)
 
-    # 1) Fetch
     items: List[Dict] = []
     for f in FEEDS:
         try:
@@ -389,7 +415,6 @@ def main():
         except Exception as e:
             print(f"[WARN] Feed fetch failed: {f['name']} -> {e}")
 
-    # 2) Filter + window
     kept = []
     for it in items:
         if it["published_at"] < cutoff:
@@ -398,7 +423,6 @@ def main():
             continue
         kept.append(it)
 
-    # 3) De-dupe by normalized title
     seen = set()
     deduped = []
     for it in sorted(kept, key=lambda x: x["published_at"], reverse=True):
@@ -408,10 +432,8 @@ def main():
         seen.add(key)
         deduped.append(it)
 
-    # 4) Variety-aware top 5
     ranked = choose_with_variety(deduped, TOP_N, MAX_PER_SOURCE)
 
-    # 5) Enrich each story with OG summary/image when needed; build newsletter summaries
     for it in ranked:
         if not it["summary"] or not it["image_url"]:
             desc, img = fetch_open_graph(it["url"])
@@ -419,20 +441,12 @@ def main():
                 it["summary"] = desc
             if not it["image_url"] and img:
                 it["image_url"] = img
-
         it["summary"] = build_story_summary(strip_html(it["summary"]), it["source"])
 
-    # ----------------------------
-    # NEWSLETTER BODY (front-facing + email-ready)
-    # ----------------------------
     now = utcnow()
     date_label = now.strftime("%A, %b %d")
     header = f"🗞️ **Itty Bitty Gaming News — Evening Recap**\n**{date_label}**\n"
-
-    # Cleaner intro: no “instructions,” just newsletter voice.
-    intro = (
-        "\nQuick hits from today — the stuff that moves the needle.\n"
-    )
+    intro = "\nQuick hits from today — the stuff that moves the needle.\n"
 
     if not ranked:
         content = header + intro + "\nNothing cleared the news-only filter today."
@@ -453,13 +467,12 @@ def main():
 
         content = header + intro + "".join(sections) + outro
 
-        # Discord embeds for visuals
         embeds = []
         for i, it in enumerate(ranked, start=1):
             embed = {
                 "title": f"{i}) {it['title']}",
                 "url": it["url"],
-                "description": shorten(it["summary"], 260),
+                "description": shorten(it["summary"], EMBED_DESC_LIMIT),
                 "footer": {"text": f"Source: {it['source']}"},
                 "timestamp": it["published_at"].isoformat(),
             }
@@ -467,12 +480,10 @@ def main():
                 embed["image"] = {"url": it["image_url"]}
             embeds.append(embed)
 
-    resp = requests.post(
-        DISCORD_WEBHOOK_URL,
-        json={"content": content, "embeds": embeds},
-        timeout=20
-    )
-    resp.raise_for_status()
+    # Safety caps
+    content = shorten(content, 8000)  # we'll split further below anyway
+
+    post_to_discord(content, embeds)
     print(f"Newsletter digest posted. Items: {len(embeds)}")
 
 if __name__ == "__main__":
