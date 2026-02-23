@@ -31,9 +31,9 @@ jobs:
           DIGEST_TOP_N: "5"
           DIGEST_MAX_PER_SOURCE: "1"
 
-          # Featured video: pull the newest episode from your Adilo hub automatically
-          FEATURED_VIDEO_CHANNEL_URL: "https://adilo.bigcommand.com/c/ittybittygamingnew/home"
-          FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnew/home"
+          # Featured video: scrape newest episode from your Adilo hub
+          FEATURED_VIDEO_CHANNEL_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
+          FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
           FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
 
           USER_AGENT: "IttyBittyGamingNews/Digest"
