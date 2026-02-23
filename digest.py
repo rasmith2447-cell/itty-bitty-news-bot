@@ -17,7 +17,7 @@ FEATURED_VIDEO_FALLBACK_URL = os.getenv(
     "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 ).strip()
 
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNews/AdiloMultiEndpoint").strip()
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNews/AdiloPayloadAware").strip()
 
 
 def post_to_discord(text: str) -> None:
@@ -36,7 +36,7 @@ def adilo_headers() -> Dict[str, str]:
     }
 
 
-def safe_snippet(s: Any, max_len: int = 1100) -> str:
+def safe_snippet(s: Any, max_len: int = 900) -> str:
     out = str(s)
     if ADILO_PUBLIC_KEY:
         out = out.replace(ADILO_PUBLIC_KEY, "[REDACTED_PUBLIC_KEY]")
@@ -61,26 +61,13 @@ def adilo_get_json(url: str) -> Tuple[int, Any]:
         return r.status_code, None
 
 
-def normalize_list_from_response(data: Any) -> List[Dict[str, Any]]:
-    if data is None:
-        return []
-    if isinstance(data, list):
-        return [x for x in data if isinstance(x, dict)]
-    if isinstance(data, dict):
-        for key in ["data", "files", "videos", "results", "items", "contents"]:
-            val = data.get(key)
-            if isinstance(val, list):
-                return [x for x in val if isinstance(x, dict)]
-        d = data.get("data")
-        if isinstance(d, dict):
-            for key in ["files", "videos", "results", "items", "contents"]:
-                val = d.get(key)
-                if isinstance(val, list):
-                    return [x for x in val if isinstance(x, dict)]
-    return []
-
-
 def extract_watch_id_from_any(obj: Any) -> Optional[str]:
+    """
+    Find a watch id from:
+      - /watch/<id>
+      - ?id=<id>
+    Also scan common fields.
+    """
     if obj is None:
         return None
 
@@ -107,98 +94,112 @@ def extract_watch_id_from_any(obj: Any) -> Optional[str]:
             "video_id", "videoId",
             "share_id", "shareId",
             "watch_url", "watchUrl",
-            "url", "link"
+            "url", "link",
+            "embed", "embed_url", "embedUrl",
         ]:
             if k in obj:
                 got = extract_watch_id_from_any(obj.get(k))
                 if got:
                     return got
+
         for v in obj.values():
             got = extract_watch_id_from_any(v)
             if got:
                 return got
+
     return None
 
 
-def try_endpoints_for_items(project_id: str) -> Tuple[str, List[Dict[str, Any]]]:
+def find_list_anywhere(obj: Any) -> List[Dict[str, Any]]:
     """
-    Try multiple likely endpoints for "videos/files under project".
-    Returns (endpoint_used, items)
+    Recursively find the FIRST list-of-dicts that looks like a file list.
+    This handles Adilo wrapping inside: {status, message, payload:{...}}
     """
-    endpoints = [
-        f"{ADILO_API_BASE}/projects/{project_id}/files?From=1&To=50",
-        f"{ADILO_API_BASE}/projects/{project_id}/videos?From=1&To=50",
-        f"{ADILO_API_BASE}/projects/{project_id}/contents?From=1&To=50",
-        f"{ADILO_API_BASE}/projects/{project_id}/media?From=1&To=50",
-        # reverse paging attempts (some APIs interpret From/To as offsets)
-        f"{ADILO_API_BASE}/projects/{project_id}/files?From=0&To=50",
-        f"{ADILO_API_BASE}/projects/{project_id}/videos?From=0&To=50",
-    ]
+    if obj is None:
+        return []
 
-    for url in endpoints:
-        _, data = adilo_get_json(url)
-        items = normalize_list_from_response(data)
-        print(f"[ADILO] Items from endpoint: {len(items)}")
-        if items:
-            return url, items
+    if isinstance(obj, list):
+        # If it's already a list of dicts, return it
+        if obj and all(isinstance(x, dict) for x in obj):
+            return obj  # type: ignore
+        # Otherwise search within
+        for x in obj:
+            got = find_list_anywhere(x)
+            if got:
+                return got
+        return []
 
-    return "(none)", []
+    if isinstance(obj, dict):
+        # Most likely keys
+        for key in ["files", "items", "results", "data", "videos", "contents"]:
+            val = obj.get(key)
+            if isinstance(val, list) and val and all(isinstance(x, dict) for x in val):
+                return val  # type: ignore
+
+        # Common Adilo wrapper
+        if "payload" in obj:
+            got = find_list_anywhere(obj.get("payload"))
+            if got:
+                return got
+
+        # Search all values
+        for v in obj.values():
+            got = find_list_anywhere(v)
+            if got:
+                return got
+
+    return []
 
 
-def try_project_detail(project_id: str) -> Dict[str, Any]:
-    url = f"{ADILO_API_BASE}/projects/{project_id}"
-    _, data = adilo_get_json(url)
+def debug_payload_shape(label: str, data: Any) -> None:
     if isinstance(data, dict):
-        return data
-    return {}
-
-
-def try_file_meta(file_id: str) -> Optional[str]:
-    url = f"{ADILO_API_BASE}/files/{file_id}/meta"
-    _, data = adilo_get_json(url)
-    wid = extract_watch_id_from_any(data)
-    if wid:
-        return f"https://adilo.bigcommand.com/watch/{wid}"
-    return None
+        print(f"[ADILO] {label} top-level keys:", ", ".join(list(data.keys())[:40]))
+        payload = data.get("payload")
+        if isinstance(payload, dict):
+            print(f"[ADILO] {label} payload keys:", ", ".join(list(payload.keys())[:40]))
+        elif payload is not None:
+            print(f"[ADILO] {label} payload type:", type(payload).__name__)
+    else:
+        print(f"[ADILO] {label} type:", type(data).__name__)
 
 
 def get_latest_watch_url(project_id: str) -> Optional[str]:
-    used, items = try_endpoints_for_items(project_id)
-    if items:
-        print(f"[ADILO] Using endpoint: {used}")
+    # This endpoint is documented and is the one returning JSON for you
+    url = f"{ADILO_API_BASE}/projects/{project_id}/files?From=1&To=50"
+    _, data = adilo_get_json(url)
+    debug_payload_shape("FILES", data)
 
-        # Try to find watch id in the first 20 items
-        for i, it in enumerate(items[:20], start=1):
-            wid = extract_watch_id_from_any(it)
-            item_id = it.get("id") if isinstance(it, dict) else None
-            title = ""
-            if isinstance(it, dict):
-                title = it.get("title") or it.get("name") or ""
-            print(f"[ADILO]  - item#{i} id={item_id} title={safe_snippet(title, 120)} watch_id_found={bool(wid)}")
-            if wid:
-                return f"https://adilo.bigcommand.com/watch/{wid}"
+    # First: try to extract a watch id anywhere in the response
+    wid = extract_watch_id_from_any(data)
+    if wid:
+        print("[ADILO] Found watch id directly in files response.")
+        return f"https://adilo.bigcommand.com/watch/{wid}"
 
-        # If no watch id in list objects, try meta calls for first few item IDs
-        for it in items[:10]:
-            if not isinstance(it, dict):
-                continue
-            fid = it.get("id")
-            if not fid:
-                continue
-            w = try_file_meta(str(fid))
-            if w:
-                return w
+    # Second: try to locate a list of file dicts inside payload
+    items = find_list_anywhere(data)
+    print(f"[ADILO] Items found by recursive search: {len(items)}")
 
-        return None
+    # Log a few items safely + attempt to extract watch id from each
+    for i, it in enumerate(items[:15], start=1):
+        fid = it.get("id")
+        title = it.get("title") or it.get("name") or ""
+        wid2 = extract_watch_id_from_any(it)
+        print(f"[ADILO]  - item#{i} id={fid} title={safe_snippet(title, 120)} watch_id_found={bool(wid2)}")
+        if wid2:
+            return f"https://adilo.bigcommand.com/watch/{wid2}"
 
-    # If list endpoints returned nothing, inspect project detail to discover related links/ids
-    detail = try_project_detail(project_id)
-    if detail:
-        print("[ADILO] Project detail keys:", ", ".join(list(detail.keys())[:40]))
-        # Sometimes detail includes a different id for content listing. We'll scan for IDs/URLs.
-        wid = extract_watch_id_from_any(detail)
-        if wid:
-            return f"https://adilo.bigcommand.com/watch/{wid}"
+    # Third: if items exist but no watch id is present, try meta endpoint on first few ids
+    for it in items[:10]:
+        fid = it.get("id")
+        if not fid:
+            continue
+        meta_url = f"{ADILO_API_BASE}/files/{fid}/meta"
+        _, meta = adilo_get_json(meta_url)
+        debug_payload_shape(f"META file_id={fid}", meta)
+        wid3 = extract_watch_id_from_any(meta)
+        if wid3:
+            print("[ADILO] Found watch id via file meta.")
+            return f"https://adilo.bigcommand.com/watch/{wid3}"
 
     return None
 
