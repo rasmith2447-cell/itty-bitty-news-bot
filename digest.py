@@ -1,6 +1,6 @@
 import os
 import re
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 import requests
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
@@ -17,7 +17,7 @@ FEATURED_VIDEO_FALLBACK_URL = os.getenv(
     "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 ).strip()
 
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNews/AdiloProjectIdMode").strip()
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNews/AdiloMultiEndpoint").strip()
 
 
 def post_to_discord(text: str) -> None:
@@ -36,7 +36,7 @@ def adilo_headers() -> Dict[str, str]:
     }
 
 
-def safe_snippet(s: Any, max_len: int = 900) -> str:
+def safe_snippet(s: Any, max_len: int = 1100) -> str:
     out = str(s)
     if ADILO_PUBLIC_KEY:
         out = out.replace(ADILO_PUBLIC_KEY, "[REDACTED_PUBLIC_KEY]")
@@ -48,39 +48,32 @@ def safe_snippet(s: Any, max_len: int = 900) -> str:
     return out
 
 
-def adilo_get_json(url: str) -> Any:
+def adilo_get_json(url: str) -> Tuple[int, Any]:
     r = requests.get(url, headers=adilo_headers(), timeout=30)
     print(f"[ADILO] GET {url} -> HTTP {r.status_code}")
     if r.status_code >= 400:
         print("[ADILO] Error body snippet:", safe_snippet(r.text, 1200))
-        r.raise_for_status()
+        return r.status_code, None
     try:
-        return r.json()
+        return r.status_code, r.json()
     except Exception:
         print("[ADILO] Non-JSON response snippet:", safe_snippet(r.text, 1200))
-        raise
+        return r.status_code, None
 
 
 def normalize_list_from_response(data: Any) -> List[Dict[str, Any]]:
-    """
-    Accept common shapes:
-      - {"data": [...]}
-      - {"files": [...]}
-      - {"results": [...]}
-      - {"data": {"items": [...]}}, etc
-      - [...] (list root)
-    """
+    if data is None:
+        return []
     if isinstance(data, list):
         return [x for x in data if isinstance(x, dict)]
-
     if isinstance(data, dict):
-        for key in ["data", "files", "results", "items"]:
+        for key in ["data", "files", "videos", "results", "items", "contents"]:
             val = data.get(key)
             if isinstance(val, list):
                 return [x for x in val if isinstance(x, dict)]
         d = data.get("data")
         if isinstance(d, dict):
-            for key in ["files", "results", "items"]:
+            for key in ["files", "videos", "results", "items", "contents"]:
                 val = d.get(key)
                 if isinstance(val, list):
                     return [x for x in val if isinstance(x, dict)]
@@ -88,12 +81,6 @@ def normalize_list_from_response(data: Any) -> List[Dict[str, Any]]:
 
 
 def extract_watch_id_from_any(obj: Any) -> Optional[str]:
-    """
-    Find a watch id from:
-      - /watch/<id>
-      - ?id=<id>
-    Or scan common fields.
-    """
     if obj is None:
         return None
 
@@ -130,40 +117,88 @@ def extract_watch_id_from_any(obj: Any) -> Optional[str]:
             got = extract_watch_id_from_any(v)
             if got:
                 return got
-
     return None
 
 
-def get_latest_watch_url_from_project(project_id: str) -> Optional[str]:
-    # This endpoint is documented: GET /v1/projects/{project_id}/files
-    url = f"{ADILO_API_BASE}/projects/{project_id}/files?From=1&To=50"
-    data = adilo_get_json(url)
+def try_endpoints_for_items(project_id: str) -> Tuple[str, List[Dict[str, Any]]]:
+    """
+    Try multiple likely endpoints for "videos/files under project".
+    Returns (endpoint_used, items)
+    """
+    endpoints = [
+        f"{ADILO_API_BASE}/projects/{project_id}/files?From=1&To=50",
+        f"{ADILO_API_BASE}/projects/{project_id}/videos?From=1&To=50",
+        f"{ADILO_API_BASE}/projects/{project_id}/contents?From=1&To=50",
+        f"{ADILO_API_BASE}/projects/{project_id}/media?From=1&To=50",
+        # reverse paging attempts (some APIs interpret From/To as offsets)
+        f"{ADILO_API_BASE}/projects/{project_id}/files?From=0&To=50",
+        f"{ADILO_API_BASE}/projects/{project_id}/videos?From=0&To=50",
+    ]
 
-    files = normalize_list_from_response(data)
-    print(f"[ADILO] Files returned: {len(files)} for project_id={project_id}")
+    for url in endpoints:
+        _, data = adilo_get_json(url)
+        items = normalize_list_from_response(data)
+        print(f"[ADILO] Items from endpoint: {len(items)}")
+        if items:
+            return url, items
 
-    # Try the first 15 items for a watch id
-    for i, f in enumerate(files[:15], start=1):
-        wid = extract_watch_id_from_any(f)
-        fid = f.get("id")
-        title = f.get("title") or f.get("name") or "(no title)"
-        print(f"[ADILO]  - file#{i} id={fid} title={safe_snippet(title, 140)} watch_id_found={bool(wid)}")
+    return "(none)", []
+
+
+def try_project_detail(project_id: str) -> Dict[str, Any]:
+    url = f"{ADILO_API_BASE}/projects/{project_id}"
+    _, data = adilo_get_json(url)
+    if isinstance(data, dict):
+        return data
+    return {}
+
+
+def try_file_meta(file_id: str) -> Optional[str]:
+    url = f"{ADILO_API_BASE}/files/{file_id}/meta"
+    _, data = adilo_get_json(url)
+    wid = extract_watch_id_from_any(data)
+    if wid:
+        return f"https://adilo.bigcommand.com/watch/{wid}"
+    return None
+
+
+def get_latest_watch_url(project_id: str) -> Optional[str]:
+    used, items = try_endpoints_for_items(project_id)
+    if items:
+        print(f"[ADILO] Using endpoint: {used}")
+
+        # Try to find watch id in the first 20 items
+        for i, it in enumerate(items[:20], start=1):
+            wid = extract_watch_id_from_any(it)
+            item_id = it.get("id") if isinstance(it, dict) else None
+            title = ""
+            if isinstance(it, dict):
+                title = it.get("title") or it.get("name") or ""
+            print(f"[ADILO]  - item#{i} id={item_id} title={safe_snippet(title, 120)} watch_id_found={bool(wid)}")
+            if wid:
+                return f"https://adilo.bigcommand.com/watch/{wid}"
+
+        # If no watch id in list objects, try meta calls for first few item IDs
+        for it in items[:10]:
+            if not isinstance(it, dict):
+                continue
+            fid = it.get("id")
+            if not fid:
+                continue
+            w = try_file_meta(str(fid))
+            if w:
+                return w
+
+        return None
+
+    # If list endpoints returned nothing, inspect project detail to discover related links/ids
+    detail = try_project_detail(project_id)
+    if detail:
+        print("[ADILO] Project detail keys:", ", ".join(list(detail.keys())[:40]))
+        # Sometimes detail includes a different id for content listing. We'll scan for IDs/URLs.
+        wid = extract_watch_id_from_any(detail)
         if wid:
             return f"https://adilo.bigcommand.com/watch/{wid}"
-
-    # If watch id wasn’t present in list items, try meta endpoint on the first few
-    for f in files[:10]:
-        fid = f.get("id")
-        if not fid:
-            continue
-        meta_url = f"{ADILO_API_BASE}/files/{fid}/meta"
-        try:
-            meta = adilo_get_json(meta_url)
-            wid2 = extract_watch_id_from_any(meta)
-            if wid2:
-                return f"https://adilo.bigcommand.com/watch/{wid2}"
-        except Exception as e:
-            print(f"[ADILO] meta fetch failed for file_id={fid}: {e}")
 
     return None
 
@@ -171,15 +206,14 @@ def get_latest_watch_url_from_project(project_id: str) -> Optional[str]:
 def main():
     if not ADILO_PUBLIC_KEY or not ADILO_SECRET_KEY:
         raise RuntimeError("Missing ADILO_PUBLIC_KEY / ADILO_SECRET_KEY (GitHub repo secrets).")
-
     if not ADILO_PROJECT_ID:
-        raise RuntimeError("Missing ADILO_PROJECT_ID. Set it in the workflow env to the project id (e.g., yz8kq5M8).")
+        raise RuntimeError("Missing ADILO_PROJECT_ID (set it in workflow env).")
 
     watch_url = None
     try:
-        watch_url = get_latest_watch_url_from_project(ADILO_PROJECT_ID)
+        watch_url = get_latest_watch_url(ADILO_PROJECT_ID)
     except Exception as e:
-        print("[ADILO] Failed to load project files:", e)
+        print("[ADILO] Unexpected error:", e)
 
     final_url = watch_url or FEATURED_VIDEO_FALLBACK_URL
     post_to_discord(f"📺 [{FEATURED_VIDEO_TITLE}]({final_url})")
