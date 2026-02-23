@@ -25,18 +25,15 @@ jobs:
 
       - name: Run Itty Bitty Gaming News Digest
         env:
-          # Discord webhook for your public-facing content board channel
           DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
 
-          # Digest settings
           DIGEST_WINDOW_HOURS: "24"
           DIGEST_TOP_N: "5"
-
-          # Variety: keep it mixed across sources
           DIGEST_MAX_PER_SOURCE: "1"
 
-          # Featured video (drives traffic to Adilo)
-          FEATURED_VIDEO_URL: "https://adilo.bigcommand.com/c/ittybittygamingnew/home"
+          # Featured video: pull the newest episode from your Adilo hub automatically
+          FEATURED_VIDEO_CHANNEL_URL: "https://adilo.bigcommand.com/c/ittybittygamingnew/home"
+          FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnew/home"
           FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
 
           USER_AGENT: "IttyBittyGamingNews/Digest"
