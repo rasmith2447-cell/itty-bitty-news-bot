@@ -32,7 +32,7 @@ SOURCE_PRIORITY = [
 ]
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNews/Digest3.0")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNews/Digest3.1")
 
 WINDOW_HOURS = int(os.getenv("DIGEST_WINDOW_HOURS", "24"))
 TOP_N = int(os.getenv("DIGEST_TOP_N", "5"))
@@ -40,8 +40,7 @@ MAX_PER_SOURCE = int(os.getenv("DIGEST_MAX_PER_SOURCE", "1"))
 
 # Featured Video:
 # - If FEATURED_VIDEO_URL is set, it wins.
-# - Else if FEATURED_VIDEO_CHANNEL_URL is set, we try to scrape the latest video link from it.
-# - Else no featured video block.
+# - Else if FEATURED_VIDEO_CHANNEL_URL is set, we scrape it for the latest video id and link to /watch/<id>.
 FEATURED_VIDEO_URL = os.getenv("FEATURED_VIDEO_URL", "").strip()
 FEATURED_VIDEO_CHANNEL_URL = os.getenv("FEATURED_VIDEO_CHANNEL_URL", "").strip()
 FEATURED_VIDEO_FALLBACK_URL = os.getenv("FEATURED_VIDEO_FALLBACK_URL", "").strip()
@@ -414,7 +413,6 @@ def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int)
 # ----------------------------
 
 def url_is_ok(url: str) -> bool:
-    """Return True if URL returns HTTP 200-ish (not 404/410/etc)."""
     headers = {"User-Agent": USER_AGENT}
     try:
         r = requests.get(url, headers=headers, timeout=20, allow_redirects=True)
@@ -422,44 +420,41 @@ def url_is_ok(url: str) -> bool:
     except Exception:
         return False
 
-def extract_video_candidates(html: str, base_url: str) -> List[str]:
+def _extract_adilo_ids_from_html(html: str) -> List[str]:
     """
-    Pull likely video URLs from anchor tags and also from raw HTML via regex,
-    then make absolute and normalize.
+    Pull video IDs from patterns like:
+    - /c/<channel>/video?id=K4AxdfCP
+    - /watch/K4AxdfCP
+    - https://adilo.bigcommand.com/watch/K4AxdfCP
     """
-    soup = BeautifulSoup(html, "html.parser")
+    ids = []
 
-    found = set()
+    # Primary: the exact share pattern you gave
+    for m in re.findall(r"[?&]id=([A-Za-z0-9_-]{6,})", html):
+        ids.append(m)
 
-    # 1) Anchor tags
-    for a in soup.find_all("a", href=True):
-        href = a["href"].strip()
-        if not href:
+    # Direct watch links
+    for m in re.findall(r"/watch/([A-Za-z0-9_-]{6,})", html):
+        ids.append(m)
+
+    # Dedup, keep order
+    seen = set()
+    out = []
+    for x in ids:
+        if x in seen:
             continue
-        abs_url = urljoin(base_url, href)
-        if any(p in abs_url for p in ["/watch/", "/video/"]):
-            found.add(normalize_url(abs_url))
+        seen.add(x)
+        out.append(x)
+    return out
 
-    # 2) Regex scan (handles SPA pages where links exist in embedded JSON)
-    patterns = [
-        r"https?://[^\s\"']+/watch/[A-Za-z0-9_-]+",
-        r"https?://[^\s\"']+/video/[A-Za-z0-9_-]+",
-        r"(/watch/[A-Za-z0-9_-]+)",
-        r"(/video/[A-Za-z0-9_-]+)",
-    ]
-    for pat in patterns:
-        for m in re.findall(pat, html):
-            if m.startswith("http"):
-                found.add(normalize_url(m))
-            else:
-                found.add(normalize_url(urljoin(base_url, m)))
-
-    # Prefer /watch/ first
-    watch = [u for u in found if "/watch/" in u]
-    video = [u for u in found if "/video/" in u]
-    return watch + video
-
-def find_latest_adilo_video(channel_url: str) -> Optional[str]:
+def find_latest_adilo_watch_url(channel_url: str) -> Optional[str]:
+    """
+    Best-effort:
+    1) Fetch hub page HTML
+    2) Extract likely video ids
+    3) Convert to fast watch URLs: https://adilo.bigcommand.com/watch/<id>
+    4) Validate first one that returns 200
+    """
     headers = {"User-Agent": USER_AGENT}
     try:
         r = requests.get(channel_url, headers=headers, timeout=25)
@@ -469,12 +464,30 @@ def find_latest_adilo_video(channel_url: str) -> Optional[str]:
         print(f"[WARN] Featured video: failed to fetch channel page: {e}")
         return None
 
-    candidates = extract_video_candidates(html, channel_url)
+    ids = _extract_adilo_ids_from_html(html)
 
-    # Validate candidates so we don't post 404 links
-    for u in candidates[:25]:  # cap attempts
-        if url_is_ok(u):
-            return u
+    # If hub page is JS-rendered, ids may be empty. Still try a couple of heuristic extractions.
+    if not ids:
+        soup = BeautifulSoup(html, "html.parser")
+        # sometimes the id appears in data-* attributes
+        for tag in soup.find_all(attrs=True):
+            for k, v in tag.attrs.items():
+                if isinstance(v, str) and "id=" in v:
+                    ids.extend(_extract_adilo_ids_from_html(v))
+        # re-dedup
+        seen = set()
+        ids2 = []
+        for x in ids:
+            if x in seen:
+                continue
+            seen.add(x)
+            ids2.append(x)
+        ids = ids2
+
+    for vid in ids[:25]:
+        watch_url = f"https://adilo.bigcommand.com/watch/{vid}"
+        if url_is_ok(watch_url):
+            return watch_url
 
     return None
 
@@ -483,10 +496,9 @@ def resolve_featured_video_url() -> str:
         return FEATURED_VIDEO_URL
 
     if FEATURED_VIDEO_CHANNEL_URL:
-        latest = find_latest_adilo_video(FEATURED_VIDEO_CHANNEL_URL)
-        if latest:
-            return latest
-        # fallback to channel page if scrape fails
+        latest_watch = find_latest_adilo_watch_url(FEATURED_VIDEO_CHANNEL_URL)
+        if latest_watch:
+            return latest_watch
         return FEATURED_VIDEO_FALLBACK_URL or FEATURED_VIDEO_CHANNEL_URL
 
     return ""
