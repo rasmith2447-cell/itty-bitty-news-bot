@@ -10,7 +10,9 @@ import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
 
-# Uses the same feeds and filtering philosophy as main.py, but produces ONE recap message.
+# ----------------------------
+# DIGEST CONFIG
+# ----------------------------
 
 FEEDS = [
     {"name": "IGN", "url": "http://feeds.ign.com/ign/all"},
@@ -29,9 +31,8 @@ SOURCE_PRIORITY = [
 ]
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/Digest2.2")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/Digest2.3")
 
-# Recap window (hours)
 WINDOW_HOURS = int(os.getenv("DIGEST_WINDOW_HOURS", "24"))
 TOP_N = int(os.getenv("DIGEST_TOP_N", "5"))
 
@@ -40,6 +41,10 @@ TRACKING_PARAMS = {
     "utm_id", "utm_name", "utm_reader", "utm_referrer",
     "gclid", "fbclid", "mc_cid", "mc_eid", "ref", "source"
 }
+
+# ----------------------------
+# FILTERS (match main.py philosophy)
+# ----------------------------
 
 GAME_TERMS = [
     "video game", "videogame", "game", "gaming",
@@ -76,11 +81,13 @@ EVERGREEN_BLOCK = [
 ]
 
 COMMUNITY_OPINION_BLOCK = [
-    "poll:", "poll -", "poll —", "poll ",
-    "mailbox:", "letters", "letter:", "community",
-    "what's your favourite", "what's your favorite",
-    "favourite", "favorite gen", "which is your",
-    "quiz:", "commentary", "opinion:", "editorial:",
+    "opinion:", "editorial:", "commentary", "column:", "feature:",
+    "roundtable", "debate:", "discussion:", "hot take",
+    "poll:", "quiz:", "mailbox:", "mailbag", "letters", "community",
+
+    # first-person / essay signals
+    "i only needed", "my go-to", "when i can't", "i can't get", "goat", "goats",
+    "favorite", "favourite", "most popular to cosplay", "cosplay?",
 ]
 
 DEALS_BLOCK = [
@@ -105,12 +112,18 @@ NON_GAME_ENTERTAINMENT_BLOCK = [
     "anime",
 ]
 
-BREAKING_HINTS = [
+# boosts “news-ness”
+NEWS_HINTS = [
     "announced", "announcement", "revealed", "reveal",
     "launch", "release date", "out now", "available now",
-    "delay", "layoff", "shutdown", "acquisition", "lawsuit",
+    "delay", "delayed", "layoff", "layoffs",
+    "shutdown", "closed", "acquisition", "merger", "lawsuit",
     "patch", "hotfix", "update",
 ]
+
+# ----------------------------
+# UTIL
+# ----------------------------
 
 def utcnow() -> datetime:
     return datetime.now(timezone.utc)
@@ -134,7 +147,7 @@ def strip_html(text: str) -> str:
     soup = BeautifulSoup(text, "html.parser")
     return re.sub(r"\s+", " ", soup.get_text(" ", strip=True)).strip()
 
-def shorten(text: str, max_len: int = 240) -> str:
+def shorten(text: str, max_len: int = 260) -> str:
     text = (text or "").strip()
     if len(text) <= max_len:
         return text
@@ -171,6 +184,7 @@ def game_or_adjacent(title: str, summary: str) -> bool:
 
 def block_reason(title: str, summary: str) -> str:
     hay = f"{title} {summary}".lower()
+
     if not game_or_adjacent(title, summary):
         return "NOT_GAME_OR_ADJACENT"
     if contains_any(hay, COMMUNITY_OPINION_BLOCK):
@@ -185,6 +199,7 @@ def block_reason(title: str, summary: str) -> str:
         return "RUMOR/SPECULATION"
     if contains_any(hay, NON_GAME_ENTERTAINMENT_BLOCK) and not game_or_adjacent(title, summary):
         return "NON_GAME_ENTERTAINMENT"
+
     return ""
 
 def fetch_open_graph(url: str) -> Tuple[str, str]:
@@ -249,21 +264,29 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Dict]:
             "summary": summary,
             "image_url": image_url,
         })
+
     return out
 
 def score_item(item: Dict) -> float:
-    # Simple, predictable “top stories” score:
-    # - newer is better
-    # - higher priority source is better
-    # - “breaking-ish” keywords add a boost
     prio = {s: i for i, s in enumerate(SOURCE_PRIORITY)}
     p = prio.get(item["source"], 999)
     age_hours = max(0.0, (utcnow() - item["published_at"]).total_seconds() / 3600.0)
-    recency_score = max(0.0, 48.0 - age_hours)  # fades after ~48 hours
+
+    # newer is better; fades after ~30 hours
+    recency_score = max(0.0, 30.0 - age_hours)
+
+    # higher-priority source is better
     source_score = max(0.0, 10.0 - (p * 0.8))
+
     hay = f'{item["title"]} {item["summary"]}'.lower()
-    hint = 6.0 if contains_any(hay, BREAKING_HINTS) else 0.0
+    hint = 7.0 if contains_any(hay, NEWS_HINTS) else 0.0
+
     return recency_score + source_score + hint
+
+def md_link(title: str, url: str) -> str:
+    # Discord supports markdown links in many clients; if it fails it still shows plain text.
+    safe_title = title.replace("[", "(").replace("]", ")")
+    return f"[{safe_title}]({url})"
 
 def main():
     if not DISCORD_WEBHOOK_URL:
@@ -288,7 +311,7 @@ def main():
             continue
         kept.append(it)
 
-    # De-dupe by normalized title (very simple)
+    # De-dupe by normalized title
     seen_titles = set()
     deduped = []
     for it in sorted(kept, key=lambda x: x["published_at"], reverse=True):
@@ -298,7 +321,6 @@ def main():
         seen_titles.add(key)
         deduped.append(it)
 
-    # Score and pick top N
     ranked = sorted(deduped, key=score_item, reverse=True)[:TOP_N]
 
     # Enrich summaries/images (OG fallback)
@@ -309,29 +331,55 @@ def main():
                 it["summary"] = desc
             if not it["image_url"] and img:
                 it["image_url"] = img
-        it["summary"] = shorten(it["summary"], 240)
+        it["summary"] = shorten(it["summary"], 260)
 
-    # Build one conversational recap message + 5 embeds
+    # Build forward-facing recap copy (2 paragraphs + linked rundown)
     now = utcnow()
-    headline = f"🗞️ **Itty Bitty Gaming News — Evening Recap** ({now.strftime('%b %d')} UTC)\n"
-    opener = "Here are the **top 5** stories worth your time today — quick hits, no fluff:\n"
-    content = headline + opener
+    date_label = now.strftime("%b %d")
 
-    embeds = []
-    for idx, it in enumerate(ranked, start=1):
-        embed = {
-            "title": f"{idx}) {it['title']}",
-            "url": it["url"],
-            "description": it["summary"] or "",
-            "footer": {"text": f"Source: {it['source']}"},
-            "timestamp": it["published_at"].isoformat(),
-        }
-        if it["image_url"]:
-            embed["image"] = {"url": it["image_url"]}
-        embeds.append(embed)
+    if not ranked:
+        content = (
+            f"🗞️ **Itty Bitty Gaming News — Evening Recap ({date_label})**\n\n"
+            "Quiet day — nothing met the strict **news-only** filters in the last 24 hours.\n"
+            "If you want this to always publish, we can widen the window or add more straight-news feeds."
+        )
+        embeds = []
+    else:
+        # paragraph 1: what the recap is
+        p1 = (
+            f"🗞️ **Itty Bitty Gaming News — Evening Recap ({date_label})**\n\n"
+            "Here’s what actually mattered today — **hard news only** (no polls, no opinion, no shopping posts)."
+        )
 
-    if not embeds:
-        content = headline + "Quiet day — nothing met the strict news filters in the last 24 hours."
+        # paragraph 2: short “what to expect” + tease
+        lead = ranked[0]
+        p2 = (
+            f"\n\nTop headline: **{lead['title']}** ({lead['source']}). "
+            "Full details and source links below."
+        )
+
+        # linked rundown (supporting links)
+        rundown_lines = ["\n\n**Top 5 (with sources):**"]
+        for i, it in enumerate(ranked, start=1):
+            rundown_lines.append(
+                f"{i}. {md_link(it['title'], it['url'])} — *{it['source']}*"
+            )
+
+        content = p1 + p2 + "\n" + "\n".join(rundown_lines)
+
+        # embeds with images + short summaries
+        embeds = []
+        for idx, it in enumerate(ranked, start=1):
+            embed = {
+                "title": f"{idx}) {it['title']}",
+                "url": it["url"],
+                "description": it["summary"] or "",
+                "footer": {"text": f"Source: {it['source']}"},
+                "timestamp": it["published_at"].isoformat(),
+            }
+            if it["image_url"]:
+                embed["image"] = {"url": it["image_url"]}
+            embeds.append(embed)
 
     resp = requests.post(
         DISCORD_WEBHOOK_URL,
