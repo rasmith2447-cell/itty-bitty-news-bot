@@ -9,6 +9,7 @@ import feedparser
 import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
+from zoneinfo import ZoneInfo
 
 # ----------------------------
 # DIGEST CONFIG
@@ -25,22 +26,25 @@ FEEDS = [
     {"name": "PC Gamer", "url": "https://www.pcgamer.com/rss"},
 ]
 
+# Priority for tie-breaks. Blue's is last on purpose.
 SOURCE_PRIORITY = [
     "IGN", "GameSpot", "VGC", "Gematsu",
     "Polygon", "Nintendo Life", "PC Gamer", "Blue's News",
 ]
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/NewsletterDigest2.6")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNews/Digest2.7")
 
 WINDOW_HOURS = int(os.getenv("DIGEST_WINDOW_HOURS", "24"))
 TOP_N = int(os.getenv("DIGEST_TOP_N", "5"))
+
+# Variety control
 MAX_PER_SOURCE = int(os.getenv("DIGEST_MAX_PER_SOURCE", "2"))
 
-# Discord limits (keep under hard limits)
+# Discord safety
 DISCORD_CONTENT_LIMIT = 2000
-DISCORD_SAFE_CONTENT = 1850  # buffer
-EMBED_DESC_LIMIT = 900       # safe, under 4096
+DISCORD_SAFE_CONTENT = 1850
+EMBED_DESC_LIMIT = 900
 
 TRACKING_PARAMS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
@@ -131,6 +135,9 @@ NEWS_HINTS = [
 
 def utcnow() -> datetime:
     return datetime.now(timezone.utc)
+
+def pacific_now() -> datetime:
+    return datetime.now(ZoneInfo("America/Los_Angeles"))
 
 def normalize_url(url: str) -> str:
     try:
@@ -275,23 +282,58 @@ def sentence_split(text: str) -> List[str]:
     parts = re.split(r"(?<=[.!?])\s+", t)
     return [p.strip() for p in parts if p.strip()]
 
-def build_story_summary(summary: str, source: str) -> str:
-    sents = sentence_split(summary)
+def build_story_summary(raw_summary: str, source: str, featured: bool = False) -> str:
+    """
+    Energetic gamer-news voice, still factual.
+    featured=True gets a slightly longer summary.
+    """
+    sents = sentence_split(raw_summary)
     if not sents:
-        return f"{source} posted an update—hit the source link for details."
+        return f"{source} dropped an update on this — hit the source link for the full details."
+
+    target = 5 if featured else 3
     out = []
-    for s in sents[:3]:
+    for s in sents[:target]:
         s = re.sub(r"^Read more.*$", "", s, flags=re.IGNORECASE).strip()
         if len(s) < 20:
             continue
         out.append(s)
+
     if not out:
-        return shorten(summary, 260)
-    return shorten(" ".join(out), 360)
+        return shorten(raw_summary, 360 if featured else 260)
+
+    joined = " ".join(out)
+    return shorten(joined, 520 if featured else 360)
 
 def md_link(text: str, url: str) -> str:
     safe = text.replace("[", "(").replace("]", ")")
     return f"[{safe}]({url})"
+
+def story_emoji(title: str, summary: str) -> str:
+    hay = f"{title} {summary}".lower()
+    if contains_any(hay, ["security", "breach", "hack", "bomb threat", "threat", "evacuated", "evacuation"]):
+        return "🚨"
+    if contains_any(hay, ["lawsuit", "sued", "court", "supreme court", "judge", "ruling", "tariff"]):
+        return "⚖️"
+    if contains_any(hay, ["retire", "retirement", "steps down", "stepping down", "resigns", "resignation", "president", "ceo"]):
+        return "🧑‍💼"
+    if contains_any(hay, ["delay", "delayed"]):
+        return "⏳"
+    if contains_any(hay, ["patch", "hotfix", "update"]):
+        return "🛠️"
+    if contains_any(hay, ["announced", "announcement", "revealed", "reveal", "debut", "premiere"]):
+        return "🎬"
+    if contains_any(hay, ["out now", "available now", "live now", "drops", "shadow drop", "shadowdrop"]):
+        return "🟢"
+    if contains_any(hay, ["xbox", "game pass"]):
+        return "🟩"
+    if contains_any(hay, ["playstation", "ps5", "ps4"]):
+        return "🟦"
+    if contains_any(hay, ["nintendo", "switch"]):
+        return "🔴"
+    if contains_any(hay, ["pc", "steam"]):
+        return "💻"
+    return "🎮"
 
 # ----------------------------
 # SCORING + VARIETY SELECTION
@@ -308,7 +350,9 @@ def score_item(item: Dict) -> float:
     hay = f'{item["title"]} {item["summary"]}'.lower()
     hint = 8.0 if contains_any(hay, NEWS_HINTS) else 0.0
 
-    blues_penalty = 2.0 if item["source"] == "Blue's News" else 0.0
+    # reduce dominance of Blue's News on high-volume days
+    blues_penalty = 2.5 if item["source"] == "Blue's News" else 0.0
+
     return recency_score + source_score + hint - blues_penalty
 
 def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int) -> List[Dict]:
@@ -323,7 +367,7 @@ def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int)
     used_title_keys = set()
     counts: Dict[str, int] = {}
 
-    # pass 1: one per source, in priority order
+    # pass 1: one per source in priority order
     for s in SOURCE_PRIORITY:
         if len(picked) >= top_n:
             break
@@ -337,7 +381,7 @@ def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int)
         used_title_keys.add(k)
         counts[s] = counts.get(s, 0) + 1
 
-    # pass 2: fill remaining by score
+    # pass 2: fill remaining by score, respecting caps
     if len(picked) < top_n:
         remaining = sorted(candidates, key=score_item, reverse=True)
         for it in remaining:
@@ -356,23 +400,17 @@ def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int)
     return sorted(picked, key=score_item, reverse=True)
 
 # ----------------------------
-# DISCORD POSTING (safe)
+# DISCORD POSTING (safe split)
 # ----------------------------
 
 def post_to_discord(content: str, embeds: List[Dict]) -> None:
-    """
-    Posts in a Discord-safe way:
-    - If content > 1850 chars, split into multiple messages.
-    - Embeds are posted with the first message only.
-    """
     if not DISCORD_WEBHOOK_URL:
         raise RuntimeError("DISCORD_WEBHOOK_URL is not set")
 
-    content = content or ""
+    content = (content or "").strip()
     parts = []
 
-    # split on paragraph boundaries when possible
-    remaining = content.strip()
+    remaining = content
     while remaining:
         if len(remaining) <= DISCORD_SAFE_CONTENT:
             parts.append(remaining)
@@ -385,7 +423,6 @@ def post_to_discord(content: str, embeds: List[Dict]) -> None:
         parts.append(remaining[:cut].rstrip())
         remaining = remaining[cut:].lstrip()
 
-    # message 1 includes embeds
     payload1 = {"content": parts[0] if parts else ""}
     if embeds:
         payload1["embeds"] = embeds
@@ -393,7 +430,6 @@ def post_to_discord(content: str, embeds: List[Dict]) -> None:
     r1 = requests.post(DISCORD_WEBHOOK_URL, json=payload1, timeout=20)
     r1.raise_for_status()
 
-    # remaining messages are content-only
     for p in parts[1:]:
         r = requests.post(DISCORD_WEBHOOK_URL, json={"content": p}, timeout=20)
         r.raise_for_status()
@@ -408,6 +444,7 @@ def main():
 
     cutoff = utcnow() - timedelta(hours=WINDOW_HOURS)
 
+    # Fetch
     items: List[Dict] = []
     for f in FEEDS:
         try:
@@ -415,6 +452,7 @@ def main():
         except Exception as e:
             print(f"[WARN] Feed fetch failed: {f['name']} -> {e}")
 
+    # Filter + window
     kept = []
     for it in items:
         if it["published_at"] < cutoff:
@@ -423,6 +461,7 @@ def main():
             continue
         kept.append(it)
 
+    # Dedup by normalized title
     seen = set()
     deduped = []
     for it in sorted(kept, key=lambda x: x["published_at"], reverse=True):
@@ -432,56 +471,87 @@ def main():
         seen.add(key)
         deduped.append(it)
 
+    # Pick top N with variety
     ranked = choose_with_variety(deduped, TOP_N, MAX_PER_SOURCE)
 
-    for it in ranked:
+    # Enrich + write summaries
+    for idx, it in enumerate(ranked):
         if not it["summary"] or not it["image_url"]:
             desc, img = fetch_open_graph(it["url"])
             if not it["summary"] and desc:
                 it["summary"] = desc
             if not it["image_url"] and img:
                 it["image_url"] = img
-        it["summary"] = build_story_summary(strip_html(it["summary"]), it["source"])
 
-    now = utcnow()
-    date_label = now.strftime("%A, %b %d")
-    header = f"🗞️ **Itty Bitty Gaming News — Evening Recap**\n**{date_label}**\n"
-    intro = "\nQuick hits from today — the stuff that moves the needle.\n"
+        it["summary"] = build_story_summary(strip_html(it["summary"]), it["source"], featured=(idx == 0))
+
+    # ----------------------------
+    # NEWSLETTER BODY (front-facing)
+    # ----------------------------
+
+    pn = pacific_now()
+    date_line = pn.strftime("%B %d, %Y")
+
+    header = f"{date_line}\n\n**In Tonight’s Edition of Itty Bitty Gaming News…**\n"
 
     if not ranked:
-        content = header + intro + "\nNothing cleared the news-only filter today."
+        content = header + "\n► 🎮 Quiet night — nothing cleared the news-only filter.\n\nThat’s it for tonight’s Itty Bitty. 🫡"
         embeds = []
-    else:
-        sections = []
-        for i, it in enumerate(ranked, start=1):
-            sections.append(
-                f"\n**{i}) {it['title']}**\n"
-                f"{it['summary']}\n"
-                f"Source: {md_link(it['source'], it['url'])}\n"
-            )
+        post_to_discord(content, embeds)
+        print("Newsletter digest posted. Items: 0")
+        return
 
-        outro = (
-            "\n—\n"
-            "Catch the full show on **Itty Bitty Gaming News** for the snackable rundown.\n"
+    # Teaser bullets (top 3)
+    teaser = []
+    for it in ranked[:3]:
+        emoji = story_emoji(it["title"], it["summary"])
+        teaser.append(f"► {emoji} {it['title']}")
+
+    # Energetic intro (no “instructions”)
+    hook = (
+        "\n\nWhat a day. The industry kept the pressure on — and yeah, it’s the kind of news cycle that makes you refresh twice.\n"
+    )
+
+    # Featured + top stories sections
+    featured = ranked[0]
+    featured_block = (
+        "\n\n**FEATURED STORY**\n"
+        f"**{featured['title']}**\n"
+        f"{featured['summary']}\n"
+        f"Source: {md_link(featured['source'], featured['url'])}\n"
+    )
+
+    top_stories_block = "\n**Tonight’s Top Stories**\n"
+    for i, it in enumerate(ranked[1:], start=2):
+        top_stories_block += (
+            f"\n**{i}) {it['title']}**\n"
+            f"{it['summary']}\n"
+            f"Source: {md_link(it['source'], it['url'])}\n"
         )
 
-        content = header + intro + "".join(sections) + outro
+    outro = (
+        "\n—\n"
+        "Rant over. 😄\n\n"
+        "Catch the snackable breakdown on **Itty Bitty Gaming News** tomorrow.\n"
+    )
 
-        embeds = []
-        for i, it in enumerate(ranked, start=1):
-            embed = {
-                "title": f"{i}) {it['title']}",
-                "url": it["url"],
-                "description": shorten(it["summary"], EMBED_DESC_LIMIT),
-                "footer": {"text": f"Source: {it['source']}"},
-                "timestamp": it["published_at"].isoformat(),
-            }
-            if it["image_url"]:
-                embed["image"] = {"url": it["image_url"]}
-            embeds.append(embed)
+    content = header + "\n".join(teaser) + hook + featured_block + top_stories_block + outro
 
-    # Safety caps
-    content = shorten(content, 8000)  # we'll split further below anyway
+    # ----------------------------
+    # DISCORD EMBEDS (images)
+    # ----------------------------
+    embeds = []
+    for i, it in enumerate(ranked, start=1):
+        embed = {
+            "title": f"{i}) {it['title']}",
+            "url": it["url"],
+            "description": shorten(it["summary"], EMBED_DESC_LIMIT),
+            "footer": {"text": f"Source: {it['source']}"},
+            "timestamp": it["published_at"].isoformat(),
+        }
+        if it.get("image_url"):
+            embed["image"] = {"url": it["image_url"]}
+        embeds.append(embed)
 
     post_to_discord(content, embeds)
     print(f"Newsletter digest posted. Items: {len(embeds)}")
