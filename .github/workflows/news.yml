@@ -3,7 +3,7 @@ name: Itty Bitty Gaming News Bot
 on:
   schedule:
     # GitHub cron uses UTC (PT assumed UTC-8 for MVP)
-    - cron: "0 16 * * *"  # 8:00am PT
+    - cron: "0 15 * * *"  # 7:00am PT
     - cron: "0 21 * * *"  # 1:00pm PT
     - cron: "0 2 * * *"   # 6:00pm PT
   workflow_dispatch: {}
