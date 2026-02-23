@@ -27,16 +27,15 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
 
-          DIGEST_WINDOW_HOURS: "24"
-          DIGEST_TOP_N: "5"
-          DIGEST_MAX_PER_SOURCE: "1"
-
           FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
           FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 
+          # Adilo API (repo secrets)
           ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
           ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
-          ADILO_PROJECT_SEARCH: "Itty Bitty Gaming News"
+
+          # IMPORTANT: use your actual project id from the backend URL
+          ADILO_PROJECT_ID: "yz8kq5M8"
 
           USER_AGENT: "IttyBittyGamingNews/Digest"
         run: python digest.py
