@@ -46,7 +46,7 @@ BREAKING_MAX_AGE_HOURS = int(os.getenv("BREAKING_MAX_AGE_HOURS", "72"))
 
 STATE_FILE = "state.json"
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
-USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/2.2")
+USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/2.3")
 
 TRACKING_PARAMS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
@@ -92,14 +92,17 @@ EVERGREEN_BLOCK = [
     "what we know so far",
 ]
 
-# NEW: block community/opinion/mailbag/polls (Nintendo Life “Mailbox/Letters/Poll” stuff)
+# Stronger “not-news” blocks (community / opinion / debate / features / first-person essays)
 COMMUNITY_OPINION_BLOCK = [
-    "poll:", "poll -", "poll —", "poll ",
-    "mailbox:", "letters", "letter:", "community",
-    "what's your favourite", "what's your favorite",
-    "favourite", "favorite gen", "which is your",
-    "fun with strangers", "sterility",  # Nintendo Life Letters recurring titles
-    "quiz:", "commentary", "opinion:", "editorial:",
+    # obvious labels
+    "opinion:", "editorial:", "commentary", "column:", "columns:",
+    "feature:", "features:", "roundtable", "debate:", "discussion:",
+    "hot take", "take:", "we asked", "letters", "mailbag", "mailbox:",
+    "poll:", "quiz:", "reader", "community",
+
+    # first-person / essay vibes that tend to be non-news
+    "i only needed", "my go-to", "when i can't", "i can't get", "i love", "i hate",
+    "goat", "goats", "favorite", "favourite", "most popular to cosplay", "cosplay?",
 ]
 
 DEALS_BLOCK = [
@@ -212,7 +215,6 @@ def safe_parse_date(entry) -> datetime:
                 return dt.astimezone(timezone.utc)
             except Exception:
                 pass
-
     return utcnow()
 
 
@@ -261,6 +263,7 @@ def hard_block(title: str, summary: str) -> str:
         return "RUMOR/SPECULATION"
     if contains_any(hay, NON_GAME_ENTERTAINMENT_BLOCK) and not game_or_adjacent(title, summary):
         return "NON_GAME_ENTERTAINMENT"
+
     return ""
 
 
@@ -299,7 +302,6 @@ def extract_from_entry(entry) -> Tuple[str, str]:
             break
 
     image_url = ""
-
     media_content = getattr(entry, "media_content", None)
     if media_content and isinstance(media_content, list):
         for m in media_content:
@@ -358,17 +360,11 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Item]:
     resp.raise_for_status()
 
     parsed = feedparser.parse(resp.text)
-
     items: List[Item] = []
+
     for entry in parsed.entries[:200]:
         title = (getattr(entry, "title", "") or "").strip()
         link = (getattr(entry, "link", "") or "").strip()
-
-        if not link:
-            links = getattr(entry, "links", None)
-            if links and isinstance(links, list) and len(links) > 0:
-                link = (links[0].get("href") or "").strip()
-
         if not title or not link:
             continue
 
@@ -450,10 +446,6 @@ def make_tags(title: str, summary: str) -> List[str]:
         tags.append("LEGAL")
     if contains_any(hay, ["retire", "retirement"]):
         tags.append("RETIREMENT")
-    if contains_any(hay, ["outage", "servers down", "service down"]):
-        tags.append("OUTAGE")
-    if contains_any(hay, ["security", "breach", "vulnerability"]):
-        tags.append("SECURITY")
 
     if contains_any(hay, ["playstation", "ps5", "ps4"]):
         tags.append("PLAYSTATION")
@@ -463,15 +455,6 @@ def make_tags(title: str, summary: str) -> List[str]:
         tags.append("NINTENDO")
     if contains_any(hay, ["steam", "pc gaming", " pc "]):
         tags.append("PC")
-
-    if contains_any(hay, ["nvidia", "amd", "intel", "gpu", "graphics card", "driver", "dlss", "fsr"]):
-        tags.append("HARDWARE")
-    if contains_any(hay, ["unreal", "unity", "engine"]):
-        tags.append("DEV/ENGINE")
-    if contains_any(hay, ["esports", "tournament", "championship"]):
-        tags.append("ESPORTS")
-    if contains_any(hay, ["steam deck", "rog ally", "handheld pc"]):
-        tags.append("HANDHELD")
 
     out, seen = [], set()
     for t in tags:
@@ -585,8 +568,6 @@ def main():
         for k, v in top:
             print(f"  - {k}: {v}")
     print(f"Done. Posted {posted} item(s).")
-    if DEBUG:
-        print("DEBUG enabled.")
 
 
 if __name__ == "__main__":
