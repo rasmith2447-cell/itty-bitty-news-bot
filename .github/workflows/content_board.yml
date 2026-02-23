@@ -1,14 +1,16 @@
-name: Itty Bitty Content Board Digest (7pm PST)
+name: Itty Bitty Gaming News — Evening Digest
 
 on:
   schedule:
-    # 7:00pm PST (UTC-8) = 03:00 UTC (next day)
-    - cron: "0 3 * * *"
+    # 7:00 PM Pacific (DST safe via dual UTC triggers handled in digest.py)
+    - cron: "0 2 * * *"   # 7pm PDT
+    - cron: "0 3 * * *"   # 7pm PST
   workflow_dispatch: {}
 
 jobs:
   run-digest:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,10 +23,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Post Evening Recap Digest (Top 5)
+      - name: Run Itty Bitty Gaming News Digest
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
-          DIGEST_TOP_N: "5"
           DIGEST_WINDOW_HOURS: "24"
-          USER_AGENT: "IttyBittyGamingNewsBot/ContentBoardDigest"
+          DIGEST_TOP_N: "5"
+          DIGEST_MAX_PER_SOURCE: "1"
+          USER_AGENT: "IttyBittyGamingNews/Digest"
         run: python digest.py
