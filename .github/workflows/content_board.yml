@@ -1,40 +1,39 @@
-name: Itty Bitty Gaming News — DEBUG Secrets Check
+name: IBGN - Debug Secrets Check
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 jobs:
   debug-secrets:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Debug: Confirm secrets are present (does NOT print secret values)
+      - name: Debug - Confirm secrets are present (values not printed)
         env:
           ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
           ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
           CONTENT_BOARD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
         run: |
-          echo "=== SECRET PRESENCE CHECK (values hidden) ==="
+          echo "SECRET PRESENCE CHECK (values hidden)"
 
           if [ -z "$ADILO_PUBLIC_KEY" ]; then
-            echo "ADILO_PUBLIC_KEY: EMPTY ❌"
+            echo "ADILO_PUBLIC_KEY=EMPTY"
           else
-            echo "ADILO_PUBLIC_KEY: PRESENT ✅"
+            echo "ADILO_PUBLIC_KEY=PRESENT"
           fi
 
           if [ -z "$ADILO_SECRET_KEY" ]; then
-            echo "ADILO_SECRET_KEY: EMPTY ❌"
+            echo "ADILO_SECRET_KEY=EMPTY"
           else
-            echo "ADILO_SECRET_KEY: PRESENT ✅"
+            echo "ADILO_SECRET_KEY=PRESENT"
           fi
 
           if [ -z "$CONTENT_BOARD_WEBHOOK_URL" ]; then
-            echo "CONTENT_BOARD_WEBHOOK_URL: EMPTY ❌"
+            echo "CONTENT_BOARD_WEBHOOK_URL=EMPTY"
           else
-            echo "CONTENT_BOARD_WEBHOOK_URL: PRESENT ✅"
+            echo "CONTENT_BOARD_WEBHOOK_URL=PRESENT"
           fi
 
-          echo "=== END CHECK ==="
+          echo "DONE"
