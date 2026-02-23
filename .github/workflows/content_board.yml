@@ -1,39 +1,42 @@
-name: IBGN - Debug Secrets Check
+name: Itty Bitty Gaming News — Evening Digest
 
 on:
+  schedule:
+    # 7:00 PM Pacific (DST-safe by running both possible UTC hours)
+    - cron: "0 2 * * *"   # 7pm PDT
+    - cron: "0 3 * * *"   # 7pm PST
   workflow_dispatch:
 
 jobs:
-  debug-secrets:
+  run-digest:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Debug - Confirm secrets are present (values not printed)
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run digest
         env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
+
+          DIGEST_WINDOW_HOURS: "24"
+          DIGEST_TOP_N: "5"
+          DIGEST_MAX_PER_SOURCE: "1"
+
+          FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
+          FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
+
           ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
           ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
-          CONTENT_BOARD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
-        run: |
-          echo "SECRET PRESENCE CHECK (values hidden)"
+          ADILO_PROJECT_SEARCH: "Itty Bitty Gaming News"
 
-          if [ -z "$ADILO_PUBLIC_KEY" ]; then
-            echo "ADILO_PUBLIC_KEY=EMPTY"
-          else
-            echo "ADILO_PUBLIC_KEY=PRESENT"
-          fi
-
-          if [ -z "$ADILO_SECRET_KEY" ]; then
-            echo "ADILO_SECRET_KEY=EMPTY"
-          else
-            echo "ADILO_SECRET_KEY=PRESENT"
-          fi
-
-          if [ -z "$CONTENT_BOARD_WEBHOOK_URL" ]; then
-            echo "CONTENT_BOARD_WEBHOOK_URL=EMPTY"
-          else
-            echo "CONTENT_BOARD_WEBHOOK_URL=PRESENT"
-          fi
-
-          echo "DONE"
+          USER_AGENT: "IttyBittyGamingNews/Digest"
+        run: python digest.py
