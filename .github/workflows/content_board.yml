@@ -2,7 +2,6 @@ name: Content Board (Nightly Digest)
 
 on:
   workflow_dispatch:
-
   # DST-safe scheduling:
   # - 7pm PT is 03:00 UTC during PST (winter)
   # - 7pm PT is 02:00 UTC during PDT (summer)
@@ -29,25 +28,21 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install requests
 
-      # ---------
-      # AUTO: Resolve latest YouTube upload by scraping /videos (no API key, no RSS)
-      # Then use YouTube oEmbed to get the title cleanly.
-      # ---------
+      # -------------------------
+      # AUTO: Latest YouTube upload (scrape /videos + oEmbed for title)
+      # -------------------------
       - name: Resolve latest YouTube video (scrape)
         env:
           YT_VIDEOS_URL: "https://www.youtube.com/@smitty-2447/videos"
-          USER_AGENT: "Mozilla/5.0 (compatible; IttyBittyGamingNewsBot/1.0; +https://adilo.bigcommand.com/c/ittybittygamingnews/home)"
+          USER_AGENT: "Mozilla/5.0 (compatible; IttyBittyGamingNewsBot/1.0)"
         run: |
           python - << 'PY'
-          import os, re, sys, json
+          import os, re, sys
           import requests
 
           videos_url = os.getenv("YT_VIDEOS_URL", "").strip()
           ua = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.0").strip()
-          headers = {
-              "User-Agent": ua,
-              "Accept-Language": "en-US,en;q=0.9",
-          }
+          headers = {"User-Agent": ua, "Accept-Language": "en-US,en;q=0.9"}
 
           if not videos_url:
               print("[YT] Missing YT_VIDEOS_URL", file=sys.stderr)
@@ -61,8 +56,6 @@ jobs:
               print(f"[YT] Failed to fetch videos page: {e}", file=sys.stderr)
               sys.exit(0)
 
-          # Find the first videoId on the /videos page.
-          # This is usually the newest upload in the grid.
           m = re.search(r'"videoId"\s*:\s*"([A-Za-z0-9_-]{11})"', html)
           if not m:
               print("[YT] Could not find videoId in /videos HTML. Skipping YouTube auto.", file=sys.stderr)
@@ -71,7 +64,6 @@ jobs:
           video_id = m.group(1)
           watch_url = f"https://www.youtube.com/watch?v={video_id}"
 
-          # Get the real title via oEmbed (no API key)
           title = ""
           try:
               oembed = requests.get(
@@ -81,17 +73,9 @@ jobs:
                   timeout=20,
               )
               oembed.raise_for_status()
-              data = oembed.json()
-              title = (data.get("title") or "").strip()
+              title = (oembed.json().get("title") or "").strip()
           except Exception as e:
-              # If oEmbed fails, fallback to a basic title regex near the first videoId.
-              print(f"[YT] oEmbed failed (will fallback): {e}", file=sys.stderr)
-              # This fallback isn’t perfect but better than nothing:
-              # look for the first occurrence of a text title nearby.
-              # Keep it safe and short.
-              t = re.search(r'"title"\s*:\s*\{\s*"runs"\s*:\s*\[\s*\{\s*"text"\s*:\s*"([^"]+)"', html)
-              if t:
-                  title = t.group(1).strip()
+              print(f"[YT] oEmbed failed (title may be blank): {e}", file=sys.stderr)
 
           env_path = os.getenv("GITHUB_ENV")
           if not env_path:
@@ -108,15 +92,17 @@ jobs:
           print(f"[YT] latest_title={title}")
           PY
 
-      # ---------
-      # AUTO: Resolve latest Adilo upload by scraping your public "latest video" page
-      # and setting FEATURED_VIDEO_FORCE_ID every run.
-      # This avoids API ordering quirks and prevents home-hub fallback.
-      # ---------
-      - name: Resolve latest Adilo video (scrape)
+      # -------------------------
+      # AUTO: Latest Adilo upload (scrape public latest page)
+      #
+      # IMPORTANT:
+      # - We HARD FAIL if we can’t extract a watch id.
+      # - That prevents posting the home hub.
+      # -------------------------
+      - name: Resolve latest Adilo video (scrape + fail if missing)
         env:
           ADILO_LATEST_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
-          USER_AGENT: "Mozilla/5.0 (compatible; IttyBittyGamingNewsBot/1.0; +https://adilo.bigcommand.com/c/ittybittygamingnews/home)"
+          USER_AGENT: "Mozilla/5.0 (compatible; IttyBittyGamingNewsBot/1.0)"
         run: |
           python - << 'PY'
           import os, re, sys
@@ -124,60 +110,70 @@ jobs:
 
           latest_url = os.getenv("ADILO_LATEST_URL", "").strip()
           ua = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.0").strip()
+
           headers = {
               "User-Agent": ua,
+              "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
               "Accept-Language": "en-US,en;q=0.9",
+              "Cache-Control": "no-cache",
+              "Pragma": "no-cache",
+              "Referer": "https://adilo.bigcommand.com/",
           }
 
           if not latest_url:
               print("[ADILO] Missing ADILO_LATEST_URL", file=sys.stderr)
-              sys.exit(0)
+              sys.exit(1)
 
           try:
-              r = requests.get(latest_url, headers=headers, timeout=25)
+              r = requests.get(latest_url, headers=headers, timeout=30)
               r.raise_for_status()
               html = r.text
           except Exception as e:
               print(f"[ADILO] Failed to fetch latest page: {e}", file=sys.stderr)
-              sys.exit(0)
+              sys.exit(1)
 
-          # Try several patterns:
-          # 1) /watch/<id>
-          # 2) video?id=<id>
+          # Aggressive patterns (Adilo pages sometimes escape / as \/ inside JS blobs)
+          patterns = [
+              r'adilo\.bigcommand\.com/watch/([A-Za-z0-9_-]+)',
+              r'["\']\/watch\/([A-Za-z0-9_-]+)["\']',
+              r'\\\/watch\\\/([A-Za-z0-9_-]+)',
+              r'watch\/([A-Za-z0-9_-]+)',  # last resort, catches plain watch/ID
+              r'video\?id=([A-Za-z0-9_-]+)',
+              r'video\?id\\u003d([A-Za-z0-9_-]+)',  # sometimes = is escaped
+              r'["\']watchId["\']\s*:\s*["\']([A-Za-z0-9_-]+)["\']',
+              r'["\']id["\']\s*:\s*["\']([A-Za-z0-9_-]+)["\']',
+          ]
+
           watch_id = None
+          for pat in patterns:
+              m = re.search(pat, html)
+              if m:
+                  watch_id = m.group(1)
+                  break
 
-          m1 = re.search(r'https?://adilo\.bigcommand\.com/watch/([A-Za-z0-9_-]+)', html)
-          if m1:
-              watch_id = m1.group(1)
-
-          if not watch_id:
-              m2 = re.search(r'video\?id=([A-Za-z0-9_-]+)', html)
-              if m2:
-                  watch_id = m2.group(1)
-
-          # Sometimes the page includes JSON with an id; grab common id-ish tokens
-          if not watch_id:
-              m3 = re.search(r'"id"\s*:\s*"([A-Za-z0-9_-]{6,})"', html)
-              if m3:
-                  watch_id = m3.group(1)
+          # Sanity: ignore obviously wrong short IDs
+          if watch_id and len(watch_id) < 6:
+              watch_id = None
 
           if not watch_id:
-              print("[ADILO] Could not extract latest watch id from HTML. Skipping force id.", file=sys.stderr)
-              sys.exit(0)
+              snippet = html[:800].replace("\n", " ").replace("\r", " ")
+              print("[ADILO] Could not extract latest watch id from HTML.", file=sys.stderr)
+              print(f"[ADILO] Page status={r.status_code} url={latest_url}", file=sys.stderr)
+              print(f"[ADILO] HTML snippet={snippet}", file=sys.stderr)
+              sys.exit(1)
 
           watch_url = f"https://adilo.bigcommand.com/watch/{watch_id}"
 
           env_path = os.getenv("GITHUB_ENV")
           if not env_path:
               print("[ADILO] Missing GITHUB_ENV (unexpected).", file=sys.stderr)
-              sys.exit(0)
+              sys.exit(1)
 
           with open(env_path, "a", encoding="utf-8") as f:
-              # Your digest.py already supports this and it’s the most reliable approach.
               f.write(f"FEATURED_VIDEO_FORCE_ID={watch_id}\n")
-              f.write(f"FEATURED_VIDEO_FORCE_URL={watch_url}\n")
 
-          print(f"[ADILO] latest_watch_url={watch_url}")
+          print(f"[ADILO] extracted_watch_id={watch_id}")
+          print(f"[ADILO] watch_url={watch_url}")
           PY
 
       - name: Run digest
@@ -203,19 +199,18 @@ jobs:
           FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
           FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 
-          # Force the newest Adilo every run (set by the scrape step)
+          # FORCE Adilo newest (scraped)
           FEATURED_VIDEO_FORCE_ID: ${{ env.FEATURED_VIDEO_FORCE_ID }}
 
-          # Adilo API (keep these; your digest may still use them for thumbs/metadata)
+          # Adilo API (keep)
           ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
           ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
           ADILO_PROJECT_ID: "yz8kq5M8"
 
-          # Adilo public pages (scrape fallback)
           ADILO_PUBLIC_LATEST_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
           ADILO_PUBLIC_HOME_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 
-          # YouTube (set by the scrape step)
+          # YouTube (scraped)
           YOUTUBE_FEATURED_URL: ${{ env.YOUTUBE_FEATURED_URL }}
           YOUTUBE_FEATURED_TITLE: ${{ env.YOUTUBE_FEATURED_TITLE }}
 
