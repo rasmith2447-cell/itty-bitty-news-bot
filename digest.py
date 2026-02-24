@@ -12,6 +12,10 @@ from dateutil import parser as dateparser
 from zoneinfo import ZoneInfo
 
 
+# ----------------------------
+# CONFIG
+# ----------------------------
+
 FEEDS = [
     {"name": "IGN", "url": "http://feeds.ign.com/ign/all"},
     {"name": "GameSpot", "url": "http://www.gamespot.com/feeds/mashup/"},
@@ -41,20 +45,16 @@ FEATURED_VIDEO_FALLBACK_URL = os.getenv(
     "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 ).strip()
 
-# Prefer scraping the "video" listing page first (often lighter/faster)
-ADILO_PUBLIC_SCRAPE_URLS = [
-    os.getenv("ADILO_PUBLIC_VIDEO_URL", "https://adilo.bigcommand.com/c/ittybittygamingnews/video").strip(),
-    os.getenv("ADILO_PUBLIC_CHANNEL_URL", "https://adilo.bigcommand.com/c/ittybittygamingnews/home").strip(),
-]
-
-# Optional emergency override (set in workflow env if you need)
+# Optional safety override — if set, we will always post this video:
 FEATURED_VIDEO_FORCE_ID = os.getenv("FEATURED_VIDEO_FORCE_ID", "").strip()
 
+# Adilo API
 ADILO_PUBLIC_KEY = os.getenv("ADILO_PUBLIC_KEY", "").strip()
 ADILO_SECRET_KEY = os.getenv("ADILO_SECRET_KEY", "").strip()
 ADILO_PROJECT_ID = os.getenv("ADILO_PROJECT_ID", "").strip()
 ADILO_API_BASE = "https://adilo-api.bigcommand.com/v1"
 
+# Discord
 DISCORD_SAFE_CONTENT = 1850
 EMBED_DESC_LIMIT = 900
 
@@ -64,6 +64,10 @@ TRACKING_PARAMS = {
     "gclid", "fbclid", "mc_cid", "mc_eid", "ref", "source"
 }
 
+
+# ----------------------------
+# FILTERS (news-only)
+# ----------------------------
 
 GAME_TERMS = [
     "video game", "videogame", "gaming",
@@ -143,6 +147,10 @@ NEWS_HINTS = [
 ]
 
 
+# ----------------------------
+# UTIL
+# ----------------------------
+
 def utcnow() -> datetime:
     return datetime.now(timezone.utc)
 
@@ -163,7 +171,7 @@ def normalize_url(url: str) -> str:
 def strip_html(text: str) -> str:
     if not text:
         return ""
-    soup = BeautifulSoup(text, "html.parser")
+    soup = BeautifulSoup(str(text), "html.parser")
     return re.sub(r"\s+", " ", soup.get_text(" ", strip=True)).strip()
 
 def shorten(text: str, max_len: int) -> str:
@@ -260,6 +268,10 @@ def md_link(text: str, url: str) -> str:
     return f"[{safe}]({url})"
 
 
+# ----------------------------
+# OPEN GRAPH
+# ----------------------------
+
 def fetch_open_graph(url: str) -> Tuple[str, str]:
     headers = {"User-Agent": USER_AGENT}
     try:
@@ -280,6 +292,10 @@ def fetch_open_graph(url: str) -> Tuple[str, str]:
     img = meta("og:image") or meta("twitter:image") or meta("twitter:image:src")
     return strip_html(desc), (img or "").strip()
 
+
+# ----------------------------
+# FEEDS
+# ----------------------------
 
 def fetch_feed(feed_name: str, feed_url: str) -> List[Dict]:
     headers = {"User-Agent": USER_AGENT}
@@ -323,6 +339,10 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Dict]:
         })
     return out
 
+
+# ----------------------------
+# SCORING + VARIETY
+# ----------------------------
 
 def score_item(item: Dict) -> float:
     prio = {s: i for i, s in enumerate(SOURCE_PRIORITY)}
@@ -381,6 +401,10 @@ def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int)
     return sorted(picked, key=score_item, reverse=True)
 
 
+# ----------------------------
+# DISCORD
+# ----------------------------
+
 def post_to_discord(content: str, embeds: List[Dict]) -> None:
     if not DISCORD_WEBHOOK_URL:
         raise RuntimeError("DISCORD_WEBHOOK_URL is not set")
@@ -412,7 +436,7 @@ def post_to_discord(content: str, embeds: List[Dict]) -> None:
 
 
 # ----------------------------
-# ADILO: robust scrape with retries
+# ADILO (API probe)
 # ----------------------------
 
 def adilo_headers() -> Dict[str, str]:
@@ -445,13 +469,6 @@ def parse_dt_any(val: Any) -> Optional[datetime]:
     except Exception:
         return None
 
-def url_ok(url: str) -> bool:
-    try:
-        r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=15, allow_redirects=True)
-        return 200 <= r.status_code < 300
-    except Exception:
-        return False
-
 def _meta_total(meta_obj: Any) -> Optional[int]:
     if not isinstance(meta_obj, dict):
         return None
@@ -465,132 +482,109 @@ def _meta_total(meta_obj: Any) -> Optional[int]:
             pass
     return None
 
-def _fetch_files_page(project_id: str, from_i: int, to_i: int) -> Tuple[List[Dict[str, Any]], Optional[int]]:
-    url = f"{ADILO_API_BASE}/projects/{project_id}/files?From={from_i}&To={to_i}"
+def _fetch_files_page_custom(project_id: str, from_i: int, to_i: int, extra_qs: str) -> Tuple[List[Dict[str, Any]], Optional[int], str]:
+    url = f"{ADILO_API_BASE}/projects/{project_id}/files?From={from_i}&To={to_i}{extra_qs}"
     data = adilo_get_json(url)
     total = None
+    payload_list: List[Dict[str, Any]] = []
     if isinstance(data, dict):
         total = _meta_total(data.get("meta"))
         payload = data.get("payload")
         if isinstance(payload, list):
-            return [x for x in payload if isinstance(x, dict)], total
-    return [], total
+            payload_list = [x for x in payload if isinstance(x, dict)]
+    return payload_list, total, url
 
-def scrape_latest_watch_id() -> Optional[str]:
-    """
-    Robust scrape:
-      - try 3 times per URL
-      - 10s timeout per attempt
-      - parse /watch/<id> OR video?id=<id>
-      - returns first match found
-    """
-    urls = [u for u in ADILO_PUBLIC_SCRAPE_URLS if u]
-    for base_url in urls:
-        for attempt in range(1, 4):
-            try:
-                print(f"[ADILO] SCRAPE {base_url} attempt={attempt}")
-                r = requests.get(base_url, headers={"User-Agent": USER_AGENT}, timeout=10)
-                print(f"[ADILO] SCRAPE status={r.status_code}")
-                if r.status_code >= 400:
-                    time.sleep(1.2 * attempt)
-                    continue
-
-                html = r.text
-
-                # prefer explicit "video?id=" pattern
-                m = re.search(r"video\?id=([A-Za-z0-9_-]{6,})", html)
-                if m:
-                    return m.group(1)
-
-                # then /watch/<id>
-                m = re.search(r"/watch/([A-Za-z0-9_-]{6,})", html)
-                if m:
-                    return m.group(1)
-
-                # last resort
-                m = re.search(r"watch/([A-Za-z0-9_-]{6,})", html)
-                if m:
-                    return m.group(1)
-
-                time.sleep(1.2 * attempt)
-            except Exception as e:
-                print(f"[ADILO] SCRAPE error: {e}")
-                time.sleep(1.2 * attempt)
-    return None
+def _meta_upload_date(file_id: str) -> Optional[datetime]:
+    meta = adilo_get_json(f"{ADILO_API_BASE}/files/{file_id}/meta")
+    mp = meta.get("payload") if isinstance(meta, dict) else None
+    upload_date = mp.get("upload_date") if isinstance(mp, dict) else None
+    dt = parse_dt_any(upload_date)
+    print(f"[ADILO] meta file_id={file_id} upload_date={upload_date}")
+    return dt
 
 def resolve_featured_adilo_watch_url() -> str:
-    # emergency override
+    # 0) Emergency override
     if FEATURED_VIDEO_FORCE_ID:
         forced = f"https://adilo.bigcommand.com/watch/{FEATURED_VIDEO_FORCE_ID}"
         print("[ADILO] Using FEATURED_VIDEO_FORCE_ID:", forced)
         return forced
 
-    # API attempt (known stale, but keep it)
-    if ADILO_PUBLIC_KEY and ADILO_SECRET_KEY and ADILO_PROJECT_ID:
+    # If secrets missing, just fall back
+    if not (ADILO_PUBLIC_KEY and ADILO_SECRET_KEY and ADILO_PROJECT_ID):
+        print("[ADILO] Missing Adilo settings; falling back.")
+        return FEATURED_VIDEO_FALLBACK_URL
+
+    # 1) Probe different sort/order query params
+    PROBES = [
+        "",  # baseline
+        "&Sort=desc",
+        "&Sort=DESC",
+        "&sort=desc",
+        "&Order=desc",
+        "&order=desc",
+        "&OrderBy=upload_date&Order=desc",
+        "&orderBy=upload_date&order=desc",
+        "&SortBy=upload_date&SortOrder=desc",
+        "&sort=upload_date&direction=desc",
+        "&SortColumn=upload_date&SortType=desc",
+        "&SortColumn=UploadDate&SortType=desc",
+        "&OrderBy=UploadDate&Order=desc",
+    ]
+
+    best_dt = None
+    best_id = None
+    best_probe = None
+
+    for extra in PROBES:
         try:
-            _, total = _fetch_files_page(ADILO_PROJECT_ID, 1, 50)
-            print(f"[ADILO] total={total}")
-            if total and total > 0:
-                last_from = max(1, total - 49)
-                last_to = total
-                last_page, _ = _fetch_files_page(ADILO_PROJECT_ID, last_from, last_to)
-                print(f"[ADILO] Last page From={last_from} To={last_to} items={len(last_page)}")
+            # We try the first page for each probe
+            items, total, url_used = _fetch_files_page_custom(ADILO_PROJECT_ID, 1, 50, extra)
+            print(f"[ADILO] PROBE extra='{extra}' items={len(items)} total={total} url={url_used}")
 
-                prev_candidates: List[Dict[str, Any]] = []
-                if last_from > 1:
-                    prev_from = max(1, last_from - 50)
-                    prev_to = last_from - 1
-                    prev_page, _ = _fetch_files_page(ADILO_PROJECT_ID, prev_from, prev_to)
-                    print(f"[ADILO] Prev page From={prev_from} To={prev_to} items={len(prev_page)}")
-                    prev_candidates = prev_page
+            if not items:
+                continue
 
-                candidates = last_page + prev_candidates
+            # Sample a handful of IDs from the page and pick newest upload_date among them
+            sample_ids = []
+            for it in items[:12]:
+                fid = it.get("id")
+                if fid:
+                    sample_ids.append(str(fid))
 
-                ids = []
-                seen = set()
-                for it in candidates:
-                    fid = it.get("id")
-                    if not fid:
-                        continue
-                    fid = str(fid)
-                    if fid in seen:
-                        continue
-                    seen.add(fid)
-                    ids.append(fid)
+            newest_dt_probe = None
+            newest_id_probe = None
 
-                newest_dt = None
-                newest_id = None
+            for fid in sample_ids:
+                dt = _meta_upload_date(fid)
+                if dt and (newest_dt_probe is None or dt > newest_dt_probe):
+                    newest_dt_probe = dt
+                    newest_id_probe = fid
+                time.sleep(0.03)
 
-                for fid in ids:
-                    meta = adilo_get_json(f"{ADILO_API_BASE}/files/{fid}/meta")
-                    mp = meta.get("payload") if isinstance(meta, dict) else None
-                    upload_date = mp.get("upload_date") if isinstance(mp, dict) else None
-                    dt = parse_dt_any(upload_date)
-                    print(f"[ADILO] meta file_id={fid} upload_date={upload_date}")
-                    if dt and (newest_dt is None or dt > newest_dt):
-                        newest_dt = dt
-                        newest_id = fid
-                    time.sleep(0.03)
+            if newest_dt_probe and newest_id_probe:
+                print(f"[ADILO] PROBE RESULT extra='{extra}' newest_id={newest_id_probe} newest_dt={newest_dt_probe.isoformat()}")
 
-                if newest_id and newest_dt:
-                    watch_url = f"https://adilo.bigcommand.com/watch/{newest_id}"
-                    print(f"[ADILO] API newest candidate: {watch_url} dt={newest_dt.isoformat()}")
+                if best_dt is None or newest_dt_probe > best_dt:
+                    best_dt = newest_dt_probe
+                    best_id = newest_id_probe
+                    best_probe = extra
 
-                    # only trust if within 30 days
-                    if newest_dt > (utcnow() - timedelta(days=30)) and url_ok(watch_url):
-                        return watch_url
+            # If we found something within the last 90 days, that's probably correct — stop early
+            if newest_dt_probe and newest_dt_probe > (utcnow() - timedelta(days=90)):
+                break
 
-                    print("[ADILO] API appears stale. Falling back to scrape.")
         except Exception as e:
-            print("[ADILO] API resolution failed:", e)
+            print(f"[ADILO] PROBE failed extra='{extra}': {e}")
 
-    # Scrape fallback (now with retries + faster timeouts)
-    watch_id = scrape_latest_watch_id()
-    if watch_id:
-        url = f"https://adilo.bigcommand.com/watch/{watch_id}"
-        print("[ADILO] Scrape watch url:", url)
-        if url_ok(url):
-            return url
+    if best_id and best_dt:
+        watch_url = f"https://adilo.bigcommand.com/watch/{best_id}"
+        print(f"[ADILO] Selected from probe extra='{best_probe}' watch_url={watch_url} dt={best_dt.isoformat()}")
+
+        # If it's reasonably recent, trust it
+        if best_dt > (utcnow() - timedelta(days=365)):
+            return watch_url
+
+        print("[ADILO] Probe only found very old items; falling back.")
 
     return FEATURED_VIDEO_FALLBACK_URL
 
@@ -653,6 +647,7 @@ def main():
         )
         post_to_discord(content, [])
         print("Digest posted. Items: 0")
+        print("Featured video:", featured_video_url)
         return
 
     teaser = []
