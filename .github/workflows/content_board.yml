@@ -23,17 +23,21 @@ jobs:
       DIGEST_TOP_N: 5
       DIGEST_MAX_PER_SOURCE: 1
 
-      # Featured video presentation
+      # Featured video presentation (Adilo)
       FEATURED_VIDEO_TITLE: Watch today’s Itty Bitty Gaming News
       FEATURED_VIDEO_FALLBACK_URL: https://adilo.bigcommand.com/c/ittybittygamingnews/home
 
-      # If API probe fails, we still post *this* (update this value whenever you want)
+      # If API probe fails, we still post this Adilo watch ID (update anytime)
       FEATURED_VIDEO_FALLBACK_ID: K4AxdfCP
 
-      # Adilo API (stored in GitHub Secrets)
+      # Adilo API (GitHub Secrets)
       ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
       ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
       ADILO_PROJECT_ID: yz8kq5M8
+
+      # YouTube auto-embed (latest upload)
+      YOUTUBE_CHANNEL_URL: https://youtube.com/@smitty-2447
+      YOUTUBE_LATEST_LABEL: Also on YouTube (latest episode)
 
       # DST-safe guard (local time)
       DIGEST_GUARD_TZ: America/Los_Angeles
