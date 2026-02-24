@@ -45,14 +45,23 @@ FEATURED_VIDEO_FALLBACK_URL = os.getenv(
     "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 ).strip()
 
-# Optional safety override — if set, we will always post this video:
-FEATURED_VIDEO_FORCE_ID = os.getenv("FEATURED_VIDEO_FORCE_ID", "").strip()
+# IMPORTANT:
+# This is NOT "force every time".
+# It's only used if the API probe fails.
+FEATURED_VIDEO_FALLBACK_ID = os.getenv("FEATURED_VIDEO_FALLBACK_ID", "").strip()
 
 # Adilo API
 ADILO_PUBLIC_KEY = os.getenv("ADILO_PUBLIC_KEY", "").strip()
 ADILO_SECRET_KEY = os.getenv("ADILO_SECRET_KEY", "").strip()
 ADILO_PROJECT_ID = os.getenv("ADILO_PROJECT_ID", "").strip()
 ADILO_API_BASE = "https://adilo-api.bigcommand.com/v1"
+
+# DST-safe schedule guard:
+# Run workflow at both 02:00 UTC and 03:00 UTC.
+# Only POST if local time matches the guard hour.
+DIGEST_GUARD_TZ = os.getenv("DIGEST_GUARD_TZ", "America/Los_Angeles").strip()
+DIGEST_GUARD_LOCAL_HOUR = int(os.getenv("DIGEST_GUARD_LOCAL_HOUR", "19"))  # 7pm PT by default
+DIGEST_GUARD_WINDOW_MINUTES = int(os.getenv("DIGEST_GUARD_WINDOW_MINUTES", "15"))
 
 # Discord
 DISCORD_SAFE_CONTENT = 1850
@@ -154,8 +163,8 @@ NEWS_HINTS = [
 def utcnow() -> datetime:
     return datetime.now(timezone.utc)
 
-def pacific_now() -> datetime:
-    return datetime.now(ZoneInfo("America/Los_Angeles"))
+def local_now() -> datetime:
+    return datetime.now(ZoneInfo(DIGEST_GUARD_TZ))
 
 def normalize_url(url: str) -> str:
     try:
@@ -169,9 +178,15 @@ def normalize_url(url: str) -> str:
         return url.strip()
 
 def strip_html(text: str) -> str:
-    if not text:
+    """
+    Avoid BeautifulSoup 'MarkupResemblesLocatorWarning' by:
+    - forcing string conversion
+    - wrapping in a minimal HTML element so BS never thinks it's a filename
+    """
+    if text is None:
         return ""
-    soup = BeautifulSoup(str(text), "html.parser")
+    s = str(text)
+    soup = BeautifulSoup(f"<div>{s}</div>", "html.parser")
     return re.sub(r"\s+", " ", soup.get_text(" ", strip=True)).strip()
 
 def shorten(text: str, max_len: int) -> str:
@@ -503,18 +518,17 @@ def _meta_upload_date(file_id: str) -> Optional[datetime]:
     return dt
 
 def resolve_featured_adilo_watch_url() -> str:
-    # 0) Emergency override
-    if FEATURED_VIDEO_FORCE_ID:
-        forced = f"https://adilo.bigcommand.com/watch/{FEATURED_VIDEO_FORCE_ID}"
-        print("[ADILO] Using FEATURED_VIDEO_FORCE_ID:", forced)
-        return forced
+    fallback_url = ""
+    if FEATURED_VIDEO_FALLBACK_ID:
+        fallback_url = f"https://adilo.bigcommand.com/watch/{FEATURED_VIDEO_FALLBACK_ID}"
 
-    # If secrets missing, just fall back
     if not (ADILO_PUBLIC_KEY and ADILO_SECRET_KEY and ADILO_PROJECT_ID):
         print("[ADILO] Missing Adilo settings; falling back.")
+        if fallback_url:
+            print("[ADILO] Using FEATURED_VIDEO_FALLBACK_ID:", fallback_url)
+            return fallback_url
         return FEATURED_VIDEO_FALLBACK_URL
 
-    # 1) Probe different sort/order query params
     PROBES = [
         "",  # baseline
         "&Sort=desc",
@@ -537,14 +551,12 @@ def resolve_featured_adilo_watch_url() -> str:
 
     for extra in PROBES:
         try:
-            # We try the first page for each probe
             items, total, url_used = _fetch_files_page_custom(ADILO_PROJECT_ID, 1, 50, extra)
             print(f"[ADILO] PROBE extra='{extra}' items={len(items)} total={total} url={url_used}")
 
             if not items:
                 continue
 
-            # Sample a handful of IDs from the page and pick newest upload_date among them
             sample_ids = []
             for it in items[:12]:
                 fid = it.get("id")
@@ -569,7 +581,6 @@ def resolve_featured_adilo_watch_url() -> str:
                     best_id = newest_id_probe
                     best_probe = extra
 
-            # If we found something within the last 90 days, that's probably correct — stop early
             if newest_dt_probe and newest_dt_probe > (utcnow() - timedelta(days=90)):
                 break
 
@@ -580,13 +591,34 @@ def resolve_featured_adilo_watch_url() -> str:
         watch_url = f"https://adilo.bigcommand.com/watch/{best_id}"
         print(f"[ADILO] Selected from probe extra='{best_probe}' watch_url={watch_url} dt={best_dt.isoformat()}")
 
-        # If it's reasonably recent, trust it
         if best_dt > (utcnow() - timedelta(days=365)):
             return watch_url
 
-        print("[ADILO] Probe only found very old items; falling back.")
+        print("[ADILO] Probe only found very old items; using fallback if available.")
+
+    if fallback_url:
+        print("[ADILO] Using FEATURED_VIDEO_FALLBACK_ID:", fallback_url)
+        return fallback_url
 
     return FEATURED_VIDEO_FALLBACK_URL
+
+
+# ----------------------------
+# SCHEDULE GUARD (DST safe)
+# ----------------------------
+
+def should_run_now() -> bool:
+    """
+    Only run during the first DIGEST_GUARD_WINDOW_MINUTES minutes of DIGEST_GUARD_LOCAL_HOUR
+    in DIGEST_GUARD_TZ. This lets the workflow schedule run at two UTC times for DST,
+    without double-posting.
+    """
+    now = local_now()
+    if now.hour != DIGEST_GUARD_LOCAL_HOUR:
+        return False
+    if now.minute >= DIGEST_GUARD_WINDOW_MINUTES:
+        return False
+    return True
 
 
 # ----------------------------
@@ -594,6 +626,13 @@ def resolve_featured_adilo_watch_url() -> str:
 # ----------------------------
 
 def main():
+    # If launched by a schedule run, guard; but allow manual workflow_dispatch to always run
+    event = os.getenv("GITHUB_EVENT_NAME", "").strip()
+    if event == "schedule" and not should_run_now():
+        ln = local_now().strftime("%Y-%m-%d %H:%M:%S %Z")
+        print(f"[GUARD] Not within posting window. Local now: {ln}. Exiting without posting.")
+        return
+
     cutoff = utcnow() - timedelta(hours=WINDOW_HOURS)
 
     items: List[Dict] = []
@@ -633,8 +672,8 @@ def main():
 
     featured_video_url = resolve_featured_adilo_watch_url()
 
-    pn = pacific_now()
-    date_line = pn.strftime("%B %d, %Y")
+    ln = local_now()
+    date_line = ln.strftime("%B %d, %Y")
     header = f"{date_line}\n\n**In Tonight’s Edition of Itty Bitty Gaming News…**\n"
 
     if not ranked:
@@ -654,7 +693,8 @@ def main():
     for it in ranked[:3]:
         teaser.append(f"► 🎮 {it['title']}")
 
-    hook = "\n\nHere are the 5 biggest stories from the last 24 hours — each with a quick summary and the original source.\n"
+    # Keep it newsletter-ish without meta-instructions
+    hook = "\n\nThe 5 biggest stories from the last 24 hours:\n"
 
     featured = ranked[0]
     featured_block = (
