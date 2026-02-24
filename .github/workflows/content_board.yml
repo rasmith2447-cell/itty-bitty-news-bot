@@ -1,15 +1,47 @@
-name: Itty Bitty Gaming News — Evening Digest
+name: Content Board Digest (Itty Bitty Gaming News)
 
 on:
-  schedule:
-    # 7:00 PM Pacific (DST-safe by running both possible UTC hours)
-    - cron: "0 2 * * *"   # 7pm PDT
-    - cron: "0 3 * * *"   # 7pm PST
   workflow_dispatch:
+  schedule:
+    # DST-safe approach:
+    # - 02:00 UTC matches 7pm PDT (UTC-7)
+    # - 03:00 UTC matches 7pm PST (UTC-8)
+    # digest.py includes a guard so it only posts during 7pm PT window and won't double-post.
+    - cron: "0 2 * * *"
+    - cron: "0 3 * * *"
 
 jobs:
-  run-digest:
+  digest:
     runs-on: ubuntu-latest
+
+    env:
+      # Discord
+      DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
+
+      # Digest controls
+      DIGEST_WINDOW_HOURS: 24
+      DIGEST_TOP_N: 5
+      DIGEST_MAX_PER_SOURCE: 1
+
+      # Featured video presentation
+      FEATURED_VIDEO_TITLE: Watch today’s Itty Bitty Gaming News
+      FEATURED_VIDEO_FALLBACK_URL: https://adilo.bigcommand.com/c/ittybittygamingnews/home
+
+      # If API probe fails, we still post *this* (update this value whenever you want)
+      FEATURED_VIDEO_FALLBACK_ID: K4AxdfCP
+
+      # Adilo API (stored in GitHub Secrets)
+      ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
+      ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
+      ADILO_PROJECT_ID: yz8kq5M8
+
+      # DST-safe guard (local time)
+      DIGEST_GUARD_TZ: America/Los_Angeles
+      DIGEST_GUARD_LOCAL_HOUR: 19
+      DIGEST_GUARD_WINDOW_MINUTES: 15
+
+      # UA
+      USER_AGENT: IttyBittyGamingNews/Digest
 
     steps:
       - name: Checkout
@@ -21,25 +53,10 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser requests beautifulsoup4 python-dateutil
 
       - name: Run digest
-        env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
-
-          FEATURED_VIDEO_FORCE_ID: K4AxdfCP
-
-          FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
-          FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
-
-          ADILO_PUBLIC_CHANNEL_URL: https://adilo.bigcommand.com/c/ittybittygamingnews/home
-
-          # Adilo API (repo secrets)
-          ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
-          ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
-
-          # IMPORTANT: use your actual project id from the backend URL
-          ADILO_PROJECT_ID: "yz8kq5M8"
-
-          USER_AGENT: "IttyBittyGamingNews/Digest"
-        run: python digest.py
+        run: |
+          python digest.py
