@@ -30,6 +30,8 @@ jobs:
           FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
           FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 
+          ADILO_PUBLIC_CHANNEL_URL: https://adilo.bigcommand.com/c/ittybittygamingnews/home
+
           # Adilo API (repo secrets)
           ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
           ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
