@@ -39,9 +39,8 @@ WINDOW_HOURS = int(os.getenv("DIGEST_WINDOW_HOURS", "24"))
 TOP_N = int(os.getenv("DIGEST_TOP_N", "5"))
 MAX_PER_SOURCE = int(os.getenv("DIGEST_MAX_PER_SOURCE", "1"))
 
-# Brand / voice knobs (safe defaults)
 NEWSLETTER_NAME = os.getenv("NEWSLETTER_NAME", "Itty Bitty Gaming News").strip()
-NEWSLETTER_TAGLINE = os.getenv("NEWSLETTER_TAGLINE", "Snackable. No fluff. Just the signal.").strip()
+NEWSLETTER_TAGLINE = os.getenv("NEWSLETTER_TAGLINE", "Snackable daily gaming news — five days a week.").strip()
 
 FEATURED_VIDEO_TITLE = os.getenv("FEATURED_VIDEO_TITLE", "Watch today’s Itty Bitty Gaming News").strip()
 FEATURED_VIDEO_FALLBACK_URL = os.getenv(
@@ -49,6 +48,9 @@ FEATURED_VIDEO_FALLBACK_URL = os.getenv(
     "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 ).strip()
 FEATURED_VIDEO_FALLBACK_ID = os.getenv("FEATURED_VIDEO_FALLBACK_ID", "").strip()
+
+# If set, we will ALWAYS use it (this is what can “stick” to an older video)
+FEATURED_VIDEO_FORCE_ID = os.getenv("FEATURED_VIDEO_FORCE_ID", "").strip()
 
 # YouTube featured (same episode)
 YOUTUBE_FEATURED_URL = os.getenv("YOUTUBE_FEATURED_URL", "").strip()
@@ -59,6 +61,16 @@ ADILO_PUBLIC_KEY = os.getenv("ADILO_PUBLIC_KEY", "").strip()
 ADILO_SECRET_KEY = os.getenv("ADILO_SECRET_KEY", "").strip()
 ADILO_PROJECT_ID = os.getenv("ADILO_PROJECT_ID", "").strip()
 ADILO_API_BASE = "https://adilo-api.bigcommand.com/v1"
+
+# Public pages to scrape if API seems stale
+ADILO_PUBLIC_LATEST_PAGE = os.getenv(
+    "ADILO_PUBLIC_LATEST_PAGE",
+    "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
+).strip()
+ADILO_PUBLIC_HOME_PAGE = os.getenv(
+    "ADILO_PUBLIC_HOME_PAGE",
+    "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
+).strip()
 
 # DST-safe schedule guard
 DIGEST_GUARD_TZ = os.getenv("DIGEST_GUARD_TZ", "America/Los_Angeles").strip()
@@ -280,6 +292,35 @@ def md_link(text: str, url: str) -> str:
 
 
 # ----------------------------
+# TAGGING (IBGN)
+# ----------------------------
+
+def classify_tag(title: str, summary: str) -> str:
+    hay = f"{title} {summary}".lower()
+
+    if contains_any(hay, ["out now", "available now", "live now", "launch", "release date", "releases", "released"]):
+        return "🗓️ Launch/Release"
+    if contains_any(hay, ["update", "patch", "hotfix", "season", "expansion", "dlc"]):
+        return "🛠️ Update/Patch"
+    if contains_any(hay, ["announce", "announced", "announcement", "revealed", "reveal", "first look", "trailer"]):
+        return "🧩 Reveal/Announcement"
+    if contains_any(hay, ["layoff", "layoffs", "shutdown", "closed", "acquisition", "acquired", "merger", "union"]):
+        return "🏢 Business/Industry"
+    if contains_any(hay, ["lawsuit", "sued", "court", "legal", "tariff", "regulation"]):
+        return "⚖️ Legal/Policy"
+    if contains_any(hay, ["hack", "hacked", "breach", "security", "ransomware", "ddos"]):
+        return "🔐 Security"
+    if contains_any(hay, ["steps down", "stepping down", "resigns", "resignation", "retire", "retirement", "depart", "leaves"]):
+        return "🧠 People/Leadership"
+    if contains_any(hay, ["gpu", "nvidia", "amd", "intel", "driver", "hardware", "console", "steam deck", "rog ally"]):
+        return "🖥️ Tech/Hardware"
+    if contains_any(hay, ["esports", "tournament", "championship", "finals"]):
+        return "🎯 Esports"
+
+    return "🎮 Gaming News"
+
+
+# ----------------------------
 # OPEN GRAPH
 # ----------------------------
 
@@ -305,7 +346,7 @@ def fetch_open_graph(url: str) -> Tuple[str, str]:
 
 
 # ----------------------------
-# ADILO (API probe)
+# ADILO (API + scrape fallback)
 # ----------------------------
 
 def adilo_headers() -> Dict[str, str]:
@@ -371,52 +412,95 @@ def _meta_upload_date(file_id: str) -> Optional[datetime]:
     print(f"[ADILO] meta file_id={file_id} upload_date={upload_date}")
     return dt
 
+def scrape_latest_adilo_id() -> Optional[str]:
+    headers = {"User-Agent": USER_AGENT}
+    candidates = [ADILO_PUBLIC_LATEST_PAGE, ADILO_PUBLIC_HOME_PAGE]
+    for url in candidates:
+        for attempt in range(1, 4):
+            try:
+                print(f"[ADILO] SCRAPE {url} attempt={attempt}")
+                r = requests.get(url, headers=headers, timeout=18)
+                print(f"[ADILO] SCRAPE status={r.status_code}")
+                if r.status_code >= 400:
+                    continue
+                html = r.text
+
+                # Try video?id=XXXX first
+                m = re.search(r"video\?id=([A-Za-z0-9_-]{6,})", html)
+                if m:
+                    return m.group(1)
+
+                # Try /watch/XXXX
+                m2 = re.search(r"/watch/([A-Za-z0-9_-]{6,})", html)
+                if m2:
+                    return m2.group(1)
+
+            except Exception as e:
+                print(f"[ADILO] SCRAPE error: {e}")
+                time.sleep(0.5)
+    return None
+
 def resolve_featured_adilo_watch_url() -> str:
+    # 1) If force ID is set, ALWAYS use it.
+    if FEATURED_VIDEO_FORCE_ID:
+        print(f"[ADILO] Using FEATURED_VIDEO_FORCE_ID: https://adilo.bigcommand.com/watch/{FEATURED_VIDEO_FORCE_ID}")
+        return f"https://adilo.bigcommand.com/watch/{FEATURED_VIDEO_FORCE_ID}"
+
     fallback_watch_url = ""
     if FEATURED_VIDEO_FALLBACK_ID:
         fallback_watch_url = f"https://adilo.bigcommand.com/watch/{FEATURED_VIDEO_FALLBACK_ID}"
 
-    if not (ADILO_PUBLIC_KEY and ADILO_SECRET_KEY and ADILO_PROJECT_ID):
-        print("[ADILO] Missing Adilo settings; falling back.")
-        return fallback_watch_url or FEATURED_VIDEO_FALLBACK_URL
+    # 2) Try API
+    if ADILO_PUBLIC_KEY and ADILO_SECRET_KEY and ADILO_PROJECT_ID:
+        PROBES = ["", "&Sort=desc", "&sort=desc", "&OrderBy=upload_date&Order=desc", "&OrderBy=UploadDate&Order=desc"]
+        best_dt = None
+        best_id = None
 
-    PROBES = ["", "&Sort=desc", "&sort=desc", "&OrderBy=upload_date&Order=desc", "&OrderBy=UploadDate&Order=desc"]
+        for extra in PROBES:
+            try:
+                items, total, url_used = _fetch_files_page_custom(ADILO_PROJECT_ID, 1, 50, extra)
+                print(f"[ADILO] PROBE extra='{extra}' items={len(items)} total={total} url={url_used}")
+                if not items:
+                    continue
 
-    best_dt = None
-    best_id = None
+                sample_ids = [str(it.get("id")) for it in items[:15] if it.get("id")]
+                newest_dt_probe = None
+                newest_id_probe = None
 
-    for extra in PROBES:
-        try:
-            items, total, url_used = _fetch_files_page_custom(ADILO_PROJECT_ID, 1, 50, extra)
-            print(f"[ADILO] PROBE extra='{extra}' items={len(items)} total={total} url={url_used}")
-            if not items:
-                continue
+                for fid in sample_ids:
+                    dt = _meta_upload_date(fid)
+                    if dt and (newest_dt_probe is None or dt > newest_dt_probe):
+                        newest_dt_probe = dt
+                        newest_id_probe = fid
+                    time.sleep(0.03)
 
-            sample_ids = [str(it.get("id")) for it in items[:12] if it.get("id")]
-            newest_dt_probe = None
-            newest_id_probe = None
+                if newest_dt_probe and newest_id_probe:
+                    if best_dt is None or newest_dt_probe > best_dt:
+                        best_dt = newest_dt_probe
+                        best_id = newest_id_probe
 
-            for fid in sample_ids:
-                dt = _meta_upload_date(fid)
-                if dt and (newest_dt_probe is None or dt > newest_dt_probe):
-                    newest_dt_probe = dt
-                    newest_id_probe = fid
-                time.sleep(0.03)
+                # If API result looks reasonably fresh, accept it immediately
+                if newest_dt_probe and newest_dt_probe > (utcnow() - timedelta(days=14)):
+                    return f"https://adilo.bigcommand.com/watch/{newest_id_probe}"
 
-            if newest_dt_probe and newest_id_probe:
-                if best_dt is None or newest_dt_probe > best_dt:
-                    best_dt = newest_dt_probe
-                    best_id = newest_id_probe
+            except Exception as e:
+                print(f"[ADILO] PROBE failed extra='{extra}': {e}")
 
-            if newest_dt_probe and newest_dt_probe > (utcnow() - timedelta(days=90)):
-                break
-        except Exception as e:
-            print(f"[ADILO] PROBE failed extra='{extra}': {e}")
+        # If API found something but it looks stale, fall through to scrape
+        if best_id and best_dt:
+            candidate = f"https://adilo.bigcommand.com/watch/{best_id}"
+            print(f"[ADILO] API newest candidate: {candidate} dt={best_dt.isoformat()}")
+            print("[ADILO] API appears stale. Falling back to scrape.")
+        else:
+            print("[ADILO] API did not return usable items. Falling back to scrape.")
+    else:
+        print("[ADILO] Missing Adilo API settings. Falling back to scrape.")
 
-    if best_id and best_dt:
-        watch_url = f"https://adilo.bigcommand.com/watch/{best_id}"
-        if best_dt > (utcnow() - timedelta(days=365)):
-            return watch_url
+    # 3) Scrape latest from public page
+    latest_id = scrape_latest_adilo_id()
+    if latest_id:
+        print(f"[ADILO] SCRAPE newest id: {latest_id}")
+        return f"https://adilo.bigcommand.com/watch/{latest_id}"
 
     return fallback_watch_url or FEATURED_VIDEO_FALLBACK_URL
 
@@ -470,30 +554,29 @@ def should_run_now() -> bool:
 # NEWSLETTER COPY (IBGN voice)
 # ----------------------------
 
-def build_header(date_line: str, teasers: List[str]) -> str:
-    teaser_lines = "\n".join([f"► 🎮 {t}" for t in teasers])
+def build_header(date_line: str, teaser_lines: List[str]) -> str:
+    teaser_block = "\n".join(teaser_lines)
     return (
         f"{date_line}\n\n"
         f"**{NEWSLETTER_NAME} — Nightly Recap**\n"
         f"*{NEWSLETTER_TAGLINE}*\n\n"
         "**Tonight’s quick bites:**\n"
-        f"{teaser_lines}\n\n"
+        f"{teaser_block}\n\n"
         "Now, the full top 5:\n"
     )
 
-def build_story_text(i: int, title: str, summary: str, source: str, url: str) -> str:
-    # newsletter-y but distinct: short, direct, “what happened / why it matters”
-    # We keep a clean, consistent pattern.
+def build_story_text(i: int, tag: str, title: str, summary: str, source: str, url: str) -> str:
     return (
-        f"**{i}) {title}**\n"
+        f"**{i}) {tag} — {title}**\n"
         f"{summary}\n"
         f"Source: {md_link(source, url)}"
     )
 
 def build_footer() -> str:
+    # removed “just the signal” line per your note
     return (
         "—\n"
-        "That’s the recap. No fluff — just the signal.\n"
+        "That’s the recap.\n"
         f"See you tomorrow on **{NEWSLETTER_NAME}**."
     )
 
@@ -562,7 +645,6 @@ def main():
             continue
         kept.append(it)
 
-    # Deduplicate by title
     seen = set()
     deduped = []
     for it in sorted(kept, key=lambda x: x["published_at"], reverse=True):
@@ -623,7 +705,7 @@ def main():
 
     ranked = sorted(picked, key=score_item, reverse=True)
 
-    # Enrich summaries/images
+    # Enrich summaries/images + tags
     for idx, it in enumerate(ranked):
         if not it["summary"] or not it["image_url"]:
             desc, img = fetch_open_graph(it["url"])
@@ -631,7 +713,9 @@ def main():
                 it["summary"] = desc
             if not it["image_url"] and img:
                 it["image_url"] = img
+
         it["summary"] = build_story_summary(strip_html(it["summary"]), it["source"], featured=(idx == 0))
+        it["tag"] = classify_tag(it["title"], it["summary"])
 
     # Resolve Adilo
     featured_adilo_url = resolve_featured_adilo_watch_url()
@@ -652,14 +736,15 @@ def main():
             "Nothing cleared the news-only filters tonight. Quiet one.\n"
         )
     else:
-        teasers = [it["title"] for it in ranked[:3]]
-        discord_post_long_text(build_header(date_line, teasers))
+        teasers = ranked[:3]
+        teaser_lines = [f"► {t['tag']} — {t['title']}" for t in teasers]
+        discord_post_long_text(build_header(date_line, teaser_lines))
 
         for i, it in enumerate(ranked, start=1):
-            story_text = build_story_text(i, it["title"], it["summary"], it["source"], it["url"])
+            story_text = build_story_text(i, it["tag"], it["title"], it["summary"], it["source"], it["url"])
 
             embed = {
-                "title": f"{i}) {it['title']}",
+                "title": f"{i}) {it['tag']} — {it['title']}",
                 "url": it["url"],
                 "description": shorten(it["summary"], EMBED_DESC_LIMIT),
                 "footer": {"text": f"Source: {it['source']}"},
@@ -670,7 +755,7 @@ def main():
 
             discord_post(story_text, embeds=[embed])
 
-    # Video section (YouTube first — raw link line for auto-embed)
+    # Videos: YouTube first (raw URL line so Discord embeds it), then Adilo with thumbnail embed
     if YOUTUBE_FEATURED_URL:
         youtube_msg = (
             "**▶️ Featured Video (YouTube)**\n"
@@ -697,6 +782,8 @@ def main():
 
     print(f"Digest posted. Items: {len(ranked)}")
     print("Featured Adilo video:", featured_adilo_url)
+    if FEATURED_VIDEO_FORCE_ID:
+        print("FEATURED_VIDEO_FORCE_ID is set -> forced video used.")
     if YOUTUBE_FEATURED_URL:
         print("YouTube featured:", YOUTUBE_FEATURED_URL)
 
