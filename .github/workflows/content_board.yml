@@ -26,8 +26,6 @@ jobs:
       # Featured video presentation (Adilo)
       FEATURED_VIDEO_TITLE: Watch today’s Itty Bitty Gaming News
       FEATURED_VIDEO_FALLBACK_URL: https://adilo.bigcommand.com/c/ittybittygamingnews/home
-
-      # If API probe fails, we still post this Adilo watch ID (update anytime)
       FEATURED_VIDEO_FALLBACK_ID: K4AxdfCP
 
       # Adilo API (GitHub Secrets)
@@ -35,9 +33,9 @@ jobs:
       ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
       ADILO_PROJECT_ID: yz8kq5M8
 
-      # YouTube auto-embed (latest upload)
-      YOUTUBE_CHANNEL_URL: https://youtube.com/@smitty-2447
-      YOUTUBE_LATEST_LABEL: Also on YouTube (latest episode)
+      # YouTube (explicit “same episode” link + title)
+      YOUTUBE_FEATURED_URL: https://www.youtube.com/watch?v=gZY2eM2d14k
+      YOUTUBE_FEATURED_TITLE: The Remnant Update Is HERE! No Man's Sky's Wildest Feature Yet!
 
       # DST-safe guard (local time)
       DIGEST_GUARD_TZ: America/Los_Angeles
