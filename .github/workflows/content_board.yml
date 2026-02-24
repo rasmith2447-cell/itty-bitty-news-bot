@@ -30,6 +30,10 @@ jobs:
 
       # ---------
       # AUTO: Fetch latest YouTube upload (no API key)
+      # Uses handle page -> extracts channel id (UC...)
+      # Then tries RSS:
+      #   1) channel_id feed
+      #   2) uploads playlist feed (playlist_id=UU... fallback)
       # ---------
       - name: Resolve latest YouTube video (auto)
         env:
@@ -43,64 +47,85 @@ jobs:
 
           handle_url = os.getenv("YT_HANDLE_URL", "").strip()
           ua = os.getenv("USER_AGENT", "IttyBittyGamingNews/Workflow").strip()
-
-          if not handle_url:
-            print("Missing YT_HANDLE_URL", file=sys.stderr)
-            sys.exit(0)
-
           headers = {"User-Agent": ua}
 
-          # 1) Fetch the handle page and extract channel id (UC...)
-          try:
-            r = requests.get(handle_url, headers=headers, timeout=25)
-            r.raise_for_status()
-            html = r.text
-          except Exception as e:
-            print(f"[YT] Failed to fetch handle page: {e}", file=sys.stderr)
-            sys.exit(0)
+          if not handle_url:
+              print("[YT] Missing YT_HANDLE_URL", file=sys.stderr)
+              sys.exit(0)
 
-          # Common patterns where channel id appears
+          # 1) Fetch handle page and extract channel id (UC...)
+          try:
+              r = requests.get(handle_url, headers=headers, timeout=25)
+              r.raise_for_status()
+              html = r.text
+          except Exception as e:
+              print(f"[YT] Failed to fetch handle page: {e}", file=sys.stderr)
+              sys.exit(0)
+
           patterns = [
-            r'"channelId"\s*:\s*"(?P<id>UC[a-zA-Z0-9_-]{10,})"',
-            r'"browseId"\s*:\s*"(?P<id>UC[a-zA-Z0-9_-]{10,})"',
-            r'<meta\s+property="og:url"\s+content="https://www\.youtube\.com/channel/(?P<id>UC[a-zA-Z0-9_-]{10,})"',
-            r'https://www\.youtube\.com/channel/(?P<id>UC[a-zA-Z0-9_-]{10,})',
+              r'"channelId"\s*:\s*"(?P<id>UC[a-zA-Z0-9_-]{10,})"',
+              r'"browseId"\s*:\s*"(?P<id>UC[a-zA-Z0-9_-]{10,})"',
+              r'<meta\s+property="og:url"\s+content="https://www\.youtube\.com/channel/(?P<id>UC[a-zA-Z0-9_-]{10,})"',
+              r'https://www\.youtube\.com/channel/(?P<id>UC[a-zA-Z0-9_-]{10,})',
           ]
 
           channel_id = None
           for pat in patterns:
-            m = re.search(pat, html)
-            if m:
-              channel_id = m.group("id")
-              break
+              m = re.search(pat, html)
+              if m:
+                  channel_id = m.group("id")
+                  break
 
           if not channel_id:
-            print("[YT] Could not extract channel id from handle page HTML. Skipping YouTube auto.", file=sys.stderr)
-            sys.exit(0)
+              print("[YT] Could not extract channel id from handle page HTML. Skipping YouTube auto.", file=sys.stderr)
+              sys.exit(0)
 
           print(f"[YT] channel_id={channel_id}")
 
-          # 2) Pull latest upload from RSS
-          rss_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
-          try:
-            rr = requests.get(rss_url, headers=headers, timeout=25)
-            rr.raise_for_status()
-            xml_text = rr.text
-          except Exception as e:
-            print(f"[YT] Failed to fetch RSS: {e}", file=sys.stderr)
-            sys.exit(0)
+          # 2) Try RSS endpoints in order
+          # A) channel_id feed
+          # B) uploads playlist feed (UU... fallback)
+          uploads_playlist_id = "UU" + channel_id[2:] if channel_id.startswith("UC") else ""
+          rss_candidates = [
+              f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}",
+          ]
+          if uploads_playlist_id:
+              rss_candidates.append(f"https://www.youtube.com/feeds/videos.xml?playlist_id={uploads_playlist_id}")
 
+          xml_text = None
+          used_rss = None
+
+          for rss_url in rss_candidates:
+              try:
+                  rr = requests.get(rss_url, headers=headers, timeout=25)
+                  if rr.status_code == 404:
+                      print(f"[YT] RSS 404 (will try fallback): {rss_url}")
+                      continue
+                  rr.raise_for_status()
+                  xml_text = rr.text
+                  used_rss = rss_url
+                  break
+              except Exception as e:
+                  print(f"[YT] RSS fetch failed (will try fallback): {rss_url} -> {e}", file=sys.stderr)
+
+          if not xml_text:
+              print("[YT] Could not fetch any RSS feed (channel_id + uploads playlist). Skipping YouTube auto.", file=sys.stderr)
+              sys.exit(0)
+
+          print(f"[YT] using_rss={used_rss}")
+
+          # 3) Parse RSS and take first entry
           try:
-            root = ET.fromstring(xml_text)
+              root = ET.fromstring(xml_text)
           except Exception as e:
-            print(f"[YT] RSS parse failed: {e}", file=sys.stderr)
-            sys.exit(0)
+              print(f"[YT] RSS parse failed: {e}", file=sys.stderr)
+              sys.exit(0)
 
           ns = {"a": "http://www.w3.org/2005/Atom"}
           entry = root.find("a:entry", ns)
           if entry is None:
-            print("[YT] RSS had no entries. Skipping YouTube auto.", file=sys.stderr)
-            sys.exit(0)
+              print("[YT] RSS had no entries. Skipping YouTube auto.", file=sys.stderr)
+              sys.exit(0)
 
           title_el = entry.find("a:title", ns)
           link_el = entry.find("a:link", ns)
@@ -108,20 +133,19 @@ jobs:
           href = (link_el.attrib.get("href") or "").strip() if link_el is not None else ""
 
           if not href:
-            print("[YT] RSS entry missing link href. Skipping YouTube auto.", file=sys.stderr)
-            sys.exit(0)
+              print("[YT] RSS entry missing link href. Skipping YouTube auto.", file=sys.stderr)
+              sys.exit(0)
 
-          # Write values into GITHUB_ENV for downstream steps
           env_path = os.getenv("GITHUB_ENV")
           if not env_path:
-            print("[YT] Missing GITHUB_ENV (unexpected).", file=sys.stderr)
-            sys.exit(0)
+              print("[YT] Missing GITHUB_ENV (unexpected).", file=sys.stderr)
+              sys.exit(0)
+
+          safe_title = title.replace("\n", " ").replace("\r", " ").strip()
 
           with open(env_path, "a", encoding="utf-8") as f:
-            f.write(f"YOUTUBE_FEATURED_URL={href}\n")
-            # Avoid breaking env file with newlines
-            safe_title = title.replace("\n", " ").replace("\r", " ").strip()
-            f.write(f"YOUTUBE_FEATURED_TITLE={safe_title}\n")
+              f.write(f"YOUTUBE_FEATURED_URL={href}\n")
+              f.write(f"YOUTUBE_FEATURED_TITLE={safe_title}\n")
 
           print(f"[YT] latest_url={href}")
           print(f"[YT] latest_title={title}")
@@ -160,11 +184,9 @@ jobs:
           ADILO_PUBLIC_HOME_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 
           # YouTube values are set automatically by the previous step into GITHUB_ENV
-          # and will be available here as environment variables.
           YOUTUBE_FEATURED_URL: ${{ env.YOUTUBE_FEATURED_URL }}
           YOUTUBE_FEATURED_TITLE: ${{ env.YOUTUBE_FEATURED_TITLE }}
 
-          # User-Agent (polite scraping + debugging clarity)
           USER_AGENT: "IttyBittyGamingNews/Digest"
 
         run: |
