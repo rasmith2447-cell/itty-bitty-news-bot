@@ -4,11 +4,9 @@ on:
   workflow_dispatch:
 
   # DST-safe scheduling:
-  # - GitHub cron is UTC
   # - 7pm PT is 03:00 UTC during PST (winter)
   # - 7pm PT is 02:00 UTC during PDT (summer)
-  # We run every 10 minutes during BOTH UTC hours 02 and 03,
-  # and digest.py's local-time guard ensures it only posts once.
+  # Run every 10 minutes during BOTH hours; digest.py guard posts only once.
   schedule:
     - cron: "*/10 2,3 * * *"
 
@@ -29,6 +27,105 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      # ---------
+      # AUTO: Fetch latest YouTube upload (no API key)
+      # ---------
+      - name: Resolve latest YouTube video (auto)
+        env:
+          YT_HANDLE_URL: "https://www.youtube.com/@smitty-2447"
+          USER_AGENT: "IttyBittyGamingNews/Workflow"
+        run: |
+          python - << 'PY'
+          import os, re, sys
+          import xml.etree.ElementTree as ET
+          import requests
+
+          handle_url = os.getenv("YT_HANDLE_URL", "").strip()
+          ua = os.getenv("USER_AGENT", "IttyBittyGamingNews/Workflow").strip()
+
+          if not handle_url:
+            print("Missing YT_HANDLE_URL", file=sys.stderr)
+            sys.exit(0)
+
+          headers = {"User-Agent": ua}
+
+          # 1) Fetch the handle page and extract channel id (UC...)
+          try:
+            r = requests.get(handle_url, headers=headers, timeout=25)
+            r.raise_for_status()
+            html = r.text
+          except Exception as e:
+            print(f"[YT] Failed to fetch handle page: {e}", file=sys.stderr)
+            sys.exit(0)
+
+          # Common patterns where channel id appears
+          patterns = [
+            r'"channelId"\s*:\s*"(?P<id>UC[a-zA-Z0-9_-]{10,})"',
+            r'"browseId"\s*:\s*"(?P<id>UC[a-zA-Z0-9_-]{10,})"',
+            r'<meta\s+property="og:url"\s+content="https://www\.youtube\.com/channel/(?P<id>UC[a-zA-Z0-9_-]{10,})"',
+            r'https://www\.youtube\.com/channel/(?P<id>UC[a-zA-Z0-9_-]{10,})',
+          ]
+
+          channel_id = None
+          for pat in patterns:
+            m = re.search(pat, html)
+            if m:
+              channel_id = m.group("id")
+              break
+
+          if not channel_id:
+            print("[YT] Could not extract channel id from handle page HTML. Skipping YouTube auto.", file=sys.stderr)
+            sys.exit(0)
+
+          print(f"[YT] channel_id={channel_id}")
+
+          # 2) Pull latest upload from RSS
+          rss_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+          try:
+            rr = requests.get(rss_url, headers=headers, timeout=25)
+            rr.raise_for_status()
+            xml_text = rr.text
+          except Exception as e:
+            print(f"[YT] Failed to fetch RSS: {e}", file=sys.stderr)
+            sys.exit(0)
+
+          try:
+            root = ET.fromstring(xml_text)
+          except Exception as e:
+            print(f"[YT] RSS parse failed: {e}", file=sys.stderr)
+            sys.exit(0)
+
+          ns = {"a": "http://www.w3.org/2005/Atom"}
+          entry = root.find("a:entry", ns)
+          if entry is None:
+            print("[YT] RSS had no entries. Skipping YouTube auto.", file=sys.stderr)
+            sys.exit(0)
+
+          title_el = entry.find("a:title", ns)
+          link_el = entry.find("a:link", ns)
+          title = (title_el.text or "").strip() if title_el is not None else ""
+          href = (link_el.attrib.get("href") or "").strip() if link_el is not None else ""
+
+          if not href:
+            print("[YT] RSS entry missing link href. Skipping YouTube auto.", file=sys.stderr)
+            sys.exit(0)
+
+          # Write values into GITHUB_ENV for downstream steps
+          env_path = os.getenv("GITHUB_ENV")
+          if not env_path:
+            print("[YT] Missing GITHUB_ENV (unexpected).", file=sys.stderr)
+            sys.exit(0)
+
+          with open(env_path, "a", encoding="utf-8") as f:
+            f.write(f"YOUTUBE_FEATURED_URL={href}\n")
+            # Avoid breaking env file with newlines
+            safe_title = title.replace("\n", " ").replace("\r", " ").strip()
+            f.write(f"YOUTUBE_FEATURED_TITLE={safe_title}\n")
+
+          print(f"[YT] latest_url={href}")
+          print(f"[YT] latest_title={title}")
+          PY
 
       - name: Run digest
         env:
@@ -62,9 +159,10 @@ jobs:
           ADILO_PUBLIC_LATEST_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
           ADILO_PUBLIC_HOME_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 
-          # YouTube (auto-embed: Discord embeds when URL is on its own line)
-          YOUTUBE_FEATURED_URL: "https://www.youtube.com/watch?v=gZY2eM2d14k"
-          YOUTUBE_FEATURED_TITLE: "The Remnant Update Is HERE! No Man's Sky's Wildest Feature Yet!"
+          # YouTube values are set automatically by the previous step into GITHUB_ENV
+          # and will be available here as environment variables.
+          YOUTUBE_FEATURED_URL: ${{ env.YOUTUBE_FEATURED_URL }}
+          YOUTUBE_FEATURED_TITLE: ${{ env.YOUTUBE_FEATURED_TITLE }}
 
           # User-Agent (polite scraping + debugging clarity)
           USER_AGENT: "IttyBittyGamingNews/Digest"
