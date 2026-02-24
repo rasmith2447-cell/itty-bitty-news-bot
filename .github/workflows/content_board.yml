@@ -27,114 +27,71 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install requests
 
       # ---------
-      # AUTO: Fetch latest YouTube upload (no API key)
-      # Uses handle page -> extracts channel id (UC...)
-      # Then tries RSS:
-      #   1) channel_id feed
-      #   2) uploads playlist feed (playlist_id=UU... fallback)
+      # AUTO: Resolve latest YouTube upload by scraping /videos (no API key, no RSS)
+      # Then use YouTube oEmbed to get the title cleanly.
       # ---------
-      - name: Resolve latest YouTube video (auto)
+      - name: Resolve latest YouTube video (scrape)
         env:
-          YT_HANDLE_URL: "https://www.youtube.com/@smitty-2447"
-          USER_AGENT: "IttyBittyGamingNews/Workflow"
+          YT_VIDEOS_URL: "https://www.youtube.com/@smitty-2447/videos"
+          USER_AGENT: "Mozilla/5.0 (compatible; IttyBittyGamingNewsBot/1.0; +https://adilo.bigcommand.com/c/ittybittygamingnews/home)"
         run: |
           python - << 'PY'
-          import os, re, sys
-          import xml.etree.ElementTree as ET
+          import os, re, sys, json
           import requests
 
-          handle_url = os.getenv("YT_HANDLE_URL", "").strip()
-          ua = os.getenv("USER_AGENT", "IttyBittyGamingNews/Workflow").strip()
-          headers = {"User-Agent": ua}
+          videos_url = os.getenv("YT_VIDEOS_URL", "").strip()
+          ua = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.0").strip()
+          headers = {
+              "User-Agent": ua,
+              "Accept-Language": "en-US,en;q=0.9",
+          }
 
-          if not handle_url:
-              print("[YT] Missing YT_HANDLE_URL", file=sys.stderr)
+          if not videos_url:
+              print("[YT] Missing YT_VIDEOS_URL", file=sys.stderr)
               sys.exit(0)
 
-          # 1) Fetch handle page and extract channel id (UC...)
           try:
-              r = requests.get(handle_url, headers=headers, timeout=25)
+              r = requests.get(videos_url, headers=headers, timeout=25)
               r.raise_for_status()
               html = r.text
           except Exception as e:
-              print(f"[YT] Failed to fetch handle page: {e}", file=sys.stderr)
+              print(f"[YT] Failed to fetch videos page: {e}", file=sys.stderr)
               sys.exit(0)
 
-          patterns = [
-              r'"channelId"\s*:\s*"(?P<id>UC[a-zA-Z0-9_-]{10,})"',
-              r'"browseId"\s*:\s*"(?P<id>UC[a-zA-Z0-9_-]{10,})"',
-              r'<meta\s+property="og:url"\s+content="https://www\.youtube\.com/channel/(?P<id>UC[a-zA-Z0-9_-]{10,})"',
-              r'https://www\.youtube\.com/channel/(?P<id>UC[a-zA-Z0-9_-]{10,})',
-          ]
-
-          channel_id = None
-          for pat in patterns:
-              m = re.search(pat, html)
-              if m:
-                  channel_id = m.group("id")
-                  break
-
-          if not channel_id:
-              print("[YT] Could not extract channel id from handle page HTML. Skipping YouTube auto.", file=sys.stderr)
+          # Find the first videoId on the /videos page.
+          # This is usually the newest upload in the grid.
+          m = re.search(r'"videoId"\s*:\s*"([A-Za-z0-9_-]{11})"', html)
+          if not m:
+              print("[YT] Could not find videoId in /videos HTML. Skipping YouTube auto.", file=sys.stderr)
               sys.exit(0)
 
-          print(f"[YT] channel_id={channel_id}")
+          video_id = m.group(1)
+          watch_url = f"https://www.youtube.com/watch?v={video_id}"
 
-          # 2) Try RSS endpoints in order
-          # A) channel_id feed
-          # B) uploads playlist feed (UU... fallback)
-          uploads_playlist_id = "UU" + channel_id[2:] if channel_id.startswith("UC") else ""
-          rss_candidates = [
-              f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}",
-          ]
-          if uploads_playlist_id:
-              rss_candidates.append(f"https://www.youtube.com/feeds/videos.xml?playlist_id={uploads_playlist_id}")
-
-          xml_text = None
-          used_rss = None
-
-          for rss_url in rss_candidates:
-              try:
-                  rr = requests.get(rss_url, headers=headers, timeout=25)
-                  if rr.status_code == 404:
-                      print(f"[YT] RSS 404 (will try fallback): {rss_url}")
-                      continue
-                  rr.raise_for_status()
-                  xml_text = rr.text
-                  used_rss = rss_url
-                  break
-              except Exception as e:
-                  print(f"[YT] RSS fetch failed (will try fallback): {rss_url} -> {e}", file=sys.stderr)
-
-          if not xml_text:
-              print("[YT] Could not fetch any RSS feed (channel_id + uploads playlist). Skipping YouTube auto.", file=sys.stderr)
-              sys.exit(0)
-
-          print(f"[YT] using_rss={used_rss}")
-
-          # 3) Parse RSS and take first entry
+          # Get the real title via oEmbed (no API key)
+          title = ""
           try:
-              root = ET.fromstring(xml_text)
+              oembed = requests.get(
+                  "https://www.youtube.com/oembed",
+                  params={"url": watch_url, "format": "json"},
+                  headers=headers,
+                  timeout=20,
+              )
+              oembed.raise_for_status()
+              data = oembed.json()
+              title = (data.get("title") or "").strip()
           except Exception as e:
-              print(f"[YT] RSS parse failed: {e}", file=sys.stderr)
-              sys.exit(0)
-
-          ns = {"a": "http://www.w3.org/2005/Atom"}
-          entry = root.find("a:entry", ns)
-          if entry is None:
-              print("[YT] RSS had no entries. Skipping YouTube auto.", file=sys.stderr)
-              sys.exit(0)
-
-          title_el = entry.find("a:title", ns)
-          link_el = entry.find("a:link", ns)
-          title = (title_el.text or "").strip() if title_el is not None else ""
-          href = (link_el.attrib.get("href") or "").strip() if link_el is not None else ""
-
-          if not href:
-              print("[YT] RSS entry missing link href. Skipping YouTube auto.", file=sys.stderr)
-              sys.exit(0)
+              # If oEmbed fails, fallback to a basic title regex near the first videoId.
+              print(f"[YT] oEmbed failed (will fallback): {e}", file=sys.stderr)
+              # This fallback isn’t perfect but better than nothing:
+              # look for the first occurrence of a text title nearby.
+              # Keep it safe and short.
+              t = re.search(r'"title"\s*:\s*\{\s*"runs"\s*:\s*\[\s*\{\s*"text"\s*:\s*"([^"]+)"', html)
+              if t:
+                  title = t.group(1).strip()
 
           env_path = os.getenv("GITHUB_ENV")
           if not env_path:
@@ -144,11 +101,83 @@ jobs:
           safe_title = title.replace("\n", " ").replace("\r", " ").strip()
 
           with open(env_path, "a", encoding="utf-8") as f:
-              f.write(f"YOUTUBE_FEATURED_URL={href}\n")
+              f.write(f"YOUTUBE_FEATURED_URL={watch_url}\n")
               f.write(f"YOUTUBE_FEATURED_TITLE={safe_title}\n")
 
-          print(f"[YT] latest_url={href}")
+          print(f"[YT] latest_url={watch_url}")
           print(f"[YT] latest_title={title}")
+          PY
+
+      # ---------
+      # AUTO: Resolve latest Adilo upload by scraping your public "latest video" page
+      # and setting FEATURED_VIDEO_FORCE_ID every run.
+      # This avoids API ordering quirks and prevents home-hub fallback.
+      # ---------
+      - name: Resolve latest Adilo video (scrape)
+        env:
+          ADILO_LATEST_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
+          USER_AGENT: "Mozilla/5.0 (compatible; IttyBittyGamingNewsBot/1.0; +https://adilo.bigcommand.com/c/ittybittygamingnews/home)"
+        run: |
+          python - << 'PY'
+          import os, re, sys
+          import requests
+
+          latest_url = os.getenv("ADILO_LATEST_URL", "").strip()
+          ua = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.0").strip()
+          headers = {
+              "User-Agent": ua,
+              "Accept-Language": "en-US,en;q=0.9",
+          }
+
+          if not latest_url:
+              print("[ADILO] Missing ADILO_LATEST_URL", file=sys.stderr)
+              sys.exit(0)
+
+          try:
+              r = requests.get(latest_url, headers=headers, timeout=25)
+              r.raise_for_status()
+              html = r.text
+          except Exception as e:
+              print(f"[ADILO] Failed to fetch latest page: {e}", file=sys.stderr)
+              sys.exit(0)
+
+          # Try several patterns:
+          # 1) /watch/<id>
+          # 2) video?id=<id>
+          watch_id = None
+
+          m1 = re.search(r'https?://adilo\.bigcommand\.com/watch/([A-Za-z0-9_-]+)', html)
+          if m1:
+              watch_id = m1.group(1)
+
+          if not watch_id:
+              m2 = re.search(r'video\?id=([A-Za-z0-9_-]+)', html)
+              if m2:
+                  watch_id = m2.group(1)
+
+          # Sometimes the page includes JSON with an id; grab common id-ish tokens
+          if not watch_id:
+              m3 = re.search(r'"id"\s*:\s*"([A-Za-z0-9_-]{6,})"', html)
+              if m3:
+                  watch_id = m3.group(1)
+
+          if not watch_id:
+              print("[ADILO] Could not extract latest watch id from HTML. Skipping force id.", file=sys.stderr)
+              sys.exit(0)
+
+          watch_url = f"https://adilo.bigcommand.com/watch/{watch_id}"
+
+          env_path = os.getenv("GITHUB_ENV")
+          if not env_path:
+              print("[ADILO] Missing GITHUB_ENV (unexpected).", file=sys.stderr)
+              sys.exit(0)
+
+          with open(env_path, "a", encoding="utf-8") as f:
+              # Your digest.py already supports this and it’s the most reliable approach.
+              f.write(f"FEATURED_VIDEO_FORCE_ID={watch_id}\n")
+              f.write(f"FEATURED_VIDEO_FORCE_URL={watch_url}\n")
+
+          print(f"[ADILO] latest_watch_url={watch_url}")
           PY
 
       - name: Run digest
@@ -174,7 +203,10 @@ jobs:
           FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
           FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 
-          # Adilo API
+          # Force the newest Adilo every run (set by the scrape step)
+          FEATURED_VIDEO_FORCE_ID: ${{ env.FEATURED_VIDEO_FORCE_ID }}
+
+          # Adilo API (keep these; your digest may still use them for thumbs/metadata)
           ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
           ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
           ADILO_PROJECT_ID: "yz8kq5M8"
@@ -183,7 +215,7 @@ jobs:
           ADILO_PUBLIC_LATEST_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
           ADILO_PUBLIC_HOME_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 
-          # YouTube values are set automatically by the previous step into GITHUB_ENV
+          # YouTube (set by the scrape step)
           YOUTUBE_FEATURED_URL: ${{ env.YOUTUBE_FEATURED_URL }}
           YOUTUBE_FEATURED_TITLE: ${{ env.YOUTUBE_FEATURED_TITLE }}
 
