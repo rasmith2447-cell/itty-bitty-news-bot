@@ -39,6 +39,10 @@ WINDOW_HOURS = int(os.getenv("DIGEST_WINDOW_HOURS", "24"))
 TOP_N = int(os.getenv("DIGEST_TOP_N", "5"))
 MAX_PER_SOURCE = int(os.getenv("DIGEST_MAX_PER_SOURCE", "1"))
 
+# Brand / voice knobs (safe defaults)
+NEWSLETTER_NAME = os.getenv("NEWSLETTER_NAME", "Itty Bitty Gaming News").strip()
+NEWSLETTER_TAGLINE = os.getenv("NEWSLETTER_TAGLINE", "Snackable. No fluff. Just the signal.").strip()
+
 FEATURED_VIDEO_TITLE = os.getenv("FEATURED_VIDEO_TITLE", "Watch today’s Itty Bitty Gaming News").strip()
 FEATURED_VIDEO_FALLBACK_URL = os.getenv(
     "FEATURED_VIDEO_FALLBACK_URL",
@@ -433,7 +437,6 @@ def discord_post(content: str = "", embeds: Optional[List[Dict]] = None) -> None
     r.raise_for_status()
 
 def discord_post_long_text(text: str) -> None:
-    # split long content into safe chunks (no embeds)
     remaining = (text or "").strip()
     if not remaining:
         return
@@ -461,6 +464,38 @@ def should_run_now() -> bool:
     if now.minute >= DIGEST_GUARD_WINDOW_MINUTES:
         return False
     return True
+
+
+# ----------------------------
+# NEWSLETTER COPY (IBGN voice)
+# ----------------------------
+
+def build_header(date_line: str, teasers: List[str]) -> str:
+    teaser_lines = "\n".join([f"► 🎮 {t}" for t in teasers])
+    return (
+        f"{date_line}\n\n"
+        f"**{NEWSLETTER_NAME} — Nightly Recap**\n"
+        f"*{NEWSLETTER_TAGLINE}*\n\n"
+        "**Tonight’s quick bites:**\n"
+        f"{teaser_lines}\n\n"
+        "Now, the full top 5:\n"
+    )
+
+def build_story_text(i: int, title: str, summary: str, source: str, url: str) -> str:
+    # newsletter-y but distinct: short, direct, “what happened / why it matters”
+    # We keep a clean, consistent pattern.
+    return (
+        f"**{i}) {title}**\n"
+        f"{summary}\n"
+        f"Source: {md_link(source, url)}"
+    )
+
+def build_footer() -> str:
+    return (
+        "—\n"
+        "That’s the recap. No fluff — just the signal.\n"
+        f"See you tomorrow on **{NEWSLETTER_NAME}**."
+    )
 
 
 # ----------------------------
@@ -537,7 +572,6 @@ def main():
         seen.add(key)
         deduped.append(it)
 
-    # Score with variety
     def score_item(item: Dict) -> float:
         prio = {s: i for i, s in enumerate(SOURCE_PRIORITY)}
         p = prio.get(item["source"], 999)
@@ -559,7 +593,6 @@ def main():
     used = set()
     counts: Dict[str, int] = {}
 
-    # Pass 1: grab best from each source in priority order
     for s in SOURCE_PRIORITY:
         if len(picked) >= TOP_N:
             break
@@ -573,7 +606,6 @@ def main():
         used.add(k)
         counts[s] = counts.get(s, 0) + 1
 
-    # Pass 2: fill remaining with best overall, respecting MAX_PER_SOURCE
     if len(picked) < TOP_N:
         remaining = sorted(deduped, key=score_item, reverse=True)
         for it in remaining:
@@ -601,42 +633,30 @@ def main():
                 it["image_url"] = img
         it["summary"] = build_story_summary(strip_html(it["summary"]), it["source"], featured=(idx == 0))
 
-    # Resolve Adilo video + its OG thumbnail/desc
+    # Resolve Adilo
     featured_adilo_url = resolve_featured_adilo_watch_url()
     adilo_desc, adilo_img = fetch_open_graph(featured_adilo_url)
 
     # ----------------------------
-    # POSTING: newsletter header, then story-by-story embeds, then videos
+    # POST: header → story-by-story (embed matches) → YouTube → Adilo → footer
     # ----------------------------
 
     ln = local_now()
     date_line = ln.strftime("%B %d, %Y")
 
     if not ranked:
-        header = (
+        discord_post_long_text(
             f"{date_line}\n\n"
-            "**In Tonight’s Edition of Itty Bitty Gaming News…**\n"
-            "► 🎮 Quiet night — nothing cleared the news-only filter.\n"
+            f"**{NEWSLETTER_NAME} — Nightly Recap**\n"
+            f"*{NEWSLETTER_TAGLINE}*\n\n"
+            "Nothing cleared the news-only filters tonight. Quiet one.\n"
         )
-        discord_post_long_text(header)
     else:
-        teaser = "\n".join([f"► 🎮 {it['title']}" for it in ranked[:3]])
-        header = (
-            f"{date_line}\n\n"
-            "**In Tonight’s Edition of Itty Bitty Gaming News…**\n"
-            f"{teaser}\n\n"
-            "Here are the 5 biggest stories from the last 24 hours:\n"
-        )
-        discord_post_long_text(header)
+        teasers = [it["title"] for it in ranked[:3]]
+        discord_post_long_text(build_header(date_line, teasers))
 
-        # Post each story as its own message so the embed sits under its number
         for i, it in enumerate(ranked, start=1):
-            # story text (newsletter style)
-            story_text = (
-                f"**{i}) {it['title']}**\n"
-                f"{it['summary']}\n"
-                f"Source: {md_link(it['source'], it['url'])}"
-            )
+            story_text = build_story_text(i, it["title"], it["summary"], it["source"], it["url"])
 
             embed = {
                 "title": f"{i}) {it['title']}",
@@ -650,14 +670,13 @@ def main():
 
             discord_post(story_text, embeds=[embed])
 
-    # Videos: YouTube FIRST (raw URL line so it embeds), then Adilo with thumbnail embed card
+    # Video section (YouTube first — raw link line for auto-embed)
     if YOUTUBE_FEATURED_URL:
         youtube_msg = (
             "**▶️ Featured Video (YouTube)**\n"
             f"{YOUTUBE_FEATURED_TITLE}\n"
             f"{YOUTUBE_FEATURED_URL}"
         )
-        # no embeds needed — Discord will auto-embed the raw URL
         discord_post_long_text(youtube_msg)
 
     adilo_msg = (
@@ -674,12 +693,7 @@ def main():
 
     discord_post(adilo_msg, embeds=[adilo_embed])
 
-    footer = (
-        "—\n"
-        "That’s it for tonight’s Itty Bitty. 😄\n"
-        "Catch the snackable breakdown on **Itty Bitty Gaming News** tomorrow."
-    )
-    discord_post_long_text(footer)
+    discord_post_long_text(build_footer())
 
     print(f"Digest posted. Items: {len(ranked)}")
     print("Featured Adilo video:", featured_adilo_url)
