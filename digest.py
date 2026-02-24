@@ -44,8 +44,6 @@ FEATURED_VIDEO_FALLBACK_URL = os.getenv(
     "FEATURED_VIDEO_FALLBACK_URL",
     "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 ).strip()
-
-# Fallback-only ID (used only if API probing can't find something recent)
 FEATURED_VIDEO_FALLBACK_ID = os.getenv("FEATURED_VIDEO_FALLBACK_ID", "").strip()
 
 # Explicit YouTube featured video (same episode)
@@ -58,7 +56,7 @@ ADILO_SECRET_KEY = os.getenv("ADILO_SECRET_KEY", "").strip()
 ADILO_PROJECT_ID = os.getenv("ADILO_PROJECT_ID", "").strip()
 ADILO_API_BASE = "https://adilo-api.bigcommand.com/v1"
 
-# DST-safe schedule guard:
+# DST-safe schedule guard
 DIGEST_GUARD_TZ = os.getenv("DIGEST_GUARD_TZ", "America/Los_Angeles").strip()
 DIGEST_GUARD_LOCAL_HOUR = int(os.getenv("DIGEST_GUARD_LOCAL_HOUR", "19"))  # 7pm PT
 DIGEST_GUARD_WINDOW_MINUTES = int(os.getenv("DIGEST_GUARD_WINDOW_MINUTES", "15"))
@@ -72,7 +70,6 @@ TRACKING_PARAMS = {
     "utm_id", "utm_name", "utm_reader", "utm_referrer",
     "gclid", "fbclid", "mc_cid", "mc_eid", "ref", "source"
 }
-
 
 # ----------------------------
 # FILTERS (news-only)
@@ -117,8 +114,7 @@ COMMUNITY_OPINION_BLOCK = [
     "opinion:", "editorial:", "commentary", "column:", "feature:",
     "roundtable", "debate:", "discussion:", "hot take",
     "poll:", "quiz:", "mailbox:", "mailbag", "letters", "community",
-    "favorite", "favourite", "most popular to cosplay",
-    "i only needed", "my go-to",
+    "favorite", "favourite",
 ]
 
 DEALS_BLOCK = [
@@ -154,7 +150,6 @@ NEWS_HINTS = [
     "patch", "hotfix", "update",
     "retire", "retirement", "steps down", "stepping down", "resigns", "resignation",
 ]
-
 
 # ----------------------------
 # UTIL
@@ -379,11 +374,7 @@ def resolve_featured_adilo_watch_url() -> str:
         print("[ADILO] Missing Adilo settings; falling back.")
         return fallback_watch_url or FEATURED_VIDEO_FALLBACK_URL
 
-    PROBES = [
-        "", "&Sort=desc", "&sort=desc",
-        "&OrderBy=upload_date&Order=desc",
-        "&OrderBy=UploadDate&Order=desc",
-    ]
+    PROBES = ["", "&Sort=desc", "&sort=desc", "&OrderBy=upload_date&Order=desc", "&OrderBy=UploadDate&Order=desc"]
 
     best_dt = None
     best_id = None
@@ -542,7 +533,6 @@ def main():
         seen.add(key)
         deduped.append(it)
 
-    # Sort by score with variety
     def score_item(item: Dict) -> float:
         prio = {s: i for i, s in enumerate(SOURCE_PRIORITY)}
         p = prio.get(item["source"], 999)
@@ -603,7 +593,6 @@ def main():
                 it["image_url"] = img
         it["summary"] = build_story_summary(strip_html(it["summary"]), it["source"], featured=(idx == 0))
 
-    # Featured Adilo video (with thumbnail card)
     featured_adilo_url = resolve_featured_adilo_watch_url()
     adilo_desc, adilo_img = fetch_open_graph(featured_adilo_url)
 
@@ -633,16 +622,15 @@ def main():
                 f"Source: {md_link(it['source'], it['url'])}\n"
             )
 
-    # Video section: Adilo link + YouTube link
-    content += (
-        "\n**📺 Featured Video (Adilo)**\n"
-        f"{md_link(FEATURED_VIDEO_TITLE, featured_adilo_url)}\n"
-    )
+    # Video section
+    content += "\n**📺 Featured Video (Adilo)**\n"
+    content += f"{md_link(FEATURED_VIDEO_TITLE, featured_adilo_url)}\n"
+
+    # Force Discord auto-embed: raw YouTube URL on its own line (no markdown)
     if YOUTUBE_FEATURED_URL:
-        content += (
-            "\n**▶️ YouTube**\n"
-            f"{md_link(YOUTUBE_FEATURED_TITLE, YOUTUBE_FEATURED_URL)}\n"
-        )
+        content += "\n**▶️ YouTube (same episode)**\n"
+        content += f"{YOUTUBE_FEATURED_TITLE}\n"
+        content += f"{YOUTUBE_FEATURED_URL}\n"
 
     content += (
         "\n—\n"
@@ -652,7 +640,6 @@ def main():
 
     embeds = []
 
-    # Story embeds
     for i, it in enumerate(ranked, start=1):
         embed = {
             "title": f"{i}) {it['title']}",
@@ -665,7 +652,6 @@ def main():
             embed["image"] = {"url": it["image_url"]}
         embeds.append(embed)
 
-    # Adilo embed card with thumbnail
     adilo_embed = {
         "title": f"{FEATURED_VIDEO_TITLE} (Adilo)",
         "url": featured_adilo_url,
@@ -674,8 +660,6 @@ def main():
     if adilo_img:
         adilo_embed["image"] = {"url": adilo_img}
     embeds.append(adilo_embed)
-
-    # YouTube: Discord will auto-embed the link in the message content.
 
     post_to_discord(content, embeds)
     print(f"Digest posted. Items: {len(ranked)}")
