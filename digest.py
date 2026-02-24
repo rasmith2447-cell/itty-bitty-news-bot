@@ -45,10 +45,12 @@ FEATURED_VIDEO_FALLBACK_URL = os.getenv(
     "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 ).strip()
 
-# IMPORTANT:
-# This is NOT "force every time".
-# It's only used if the API probe fails.
+# Fallback-only ID (used only if API probing can't find something recent)
 FEATURED_VIDEO_FALLBACK_ID = os.getenv("FEATURED_VIDEO_FALLBACK_ID", "").strip()
+
+# YouTube (optional): we’ll auto-embed the latest video
+YOUTUBE_CHANNEL_URL = os.getenv("YOUTUBE_CHANNEL_URL", "").strip()  # e.g. https://youtube.com/@smitty-2447
+YOUTUBE_LATEST_LABEL = os.getenv("YOUTUBE_LATEST_LABEL", "Also on YouTube (latest episode)").strip()
 
 # Adilo API
 ADILO_PUBLIC_KEY = os.getenv("ADILO_PUBLIC_KEY", "").strip()
@@ -57,13 +59,11 @@ ADILO_PROJECT_ID = os.getenv("ADILO_PROJECT_ID", "").strip()
 ADILO_API_BASE = "https://adilo-api.bigcommand.com/v1"
 
 # DST-safe schedule guard:
-# Run workflow at both 02:00 UTC and 03:00 UTC.
-# Only POST if local time matches the guard hour.
 DIGEST_GUARD_TZ = os.getenv("DIGEST_GUARD_TZ", "America/Los_Angeles").strip()
-DIGEST_GUARD_LOCAL_HOUR = int(os.getenv("DIGEST_GUARD_LOCAL_HOUR", "19"))  # 7pm PT by default
+DIGEST_GUARD_LOCAL_HOUR = int(os.getenv("DIGEST_GUARD_LOCAL_HOUR", "19"))  # 7pm PT
 DIGEST_GUARD_WINDOW_MINUTES = int(os.getenv("DIGEST_GUARD_WINDOW_MINUTES", "15"))
 
-# Discord
+# Discord limits
 DISCORD_SAFE_CONTENT = 1850
 EMBED_DESC_LIMIT = 900
 
@@ -178,11 +178,7 @@ def normalize_url(url: str) -> str:
         return url.strip()
 
 def strip_html(text: str) -> str:
-    """
-    Avoid BeautifulSoup 'MarkupResemblesLocatorWarning' by:
-    - forcing string conversion
-    - wrapping in a minimal HTML element so BS never thinks it's a filename
-    """
+    # Avoid BeautifulSoup 'MarkupResemblesLocatorWarning' by wrapping in an element.
     if text is None:
         return ""
     s = str(text)
@@ -306,6 +302,63 @@ def fetch_open_graph(url: str) -> Tuple[str, str]:
     desc = meta("og:description") or meta("description") or meta("twitter:description")
     img = meta("og:image") or meta("twitter:image") or meta("twitter:image:src")
     return strip_html(desc), (img or "").strip()
+
+
+# ----------------------------
+# YOUTUBE (latest video)
+# ----------------------------
+
+def youtube_latest_video_url(channel_url: str) -> str:
+    """
+    Given a YouTube channel URL (including @handle), attempt to:
+      1) resolve channelId (UC...)
+      2) pull latest entry from channel RSS
+    Returns "" if it fails.
+    """
+    if not channel_url:
+        return ""
+    headers = {"User-Agent": USER_AGENT}
+
+    # Normalize URL
+    u = channel_url.strip()
+    if u.startswith("http://"):
+        u = "https://" + u[len("http://"):]
+    if not u.startswith("http"):
+        u = "https://" + u.lstrip("/")
+
+    try:
+        r = requests.get(u, headers=headers, timeout=20)
+        r.raise_for_status()
+        html = r.text
+    except Exception as e:
+        print(f"[YOUTUBE] Failed to load channel page: {e}")
+        return ""
+
+    # channelId often appears in JSON as "channelId":"UCxxxx"
+    m = re.search(r'"channelId"\s*:\s*"(?P<cid>UC[a-zA-Z0-9_-]{20,})"', html)
+    if not m:
+        # Fallback pattern
+        m = re.search(r'channelId["\']\s*[:=]\s*["\'](?P<cid>UC[a-zA-Z0-9_-]{20,})["\']', html)
+    if not m:
+        print("[YOUTUBE] Could not find channelId on page.")
+        return ""
+
+    cid = m.group("cid").strip()
+    feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}"
+    try:
+        resp = requests.get(feed_url, headers=headers, timeout=20)
+        resp.raise_for_status()
+        parsed = feedparser.parse(resp.text)
+        if parsed.entries:
+            link = getattr(parsed.entries[0], "link", "") or ""
+            link = link.strip()
+            print(f"[YOUTUBE] Latest video: {link}")
+            return link
+    except Exception as e:
+        print(f"[YOUTUBE] Failed to load RSS: {e}")
+        return ""
+
+    return ""
 
 
 # ----------------------------
@@ -518,15 +571,15 @@ def _meta_upload_date(file_id: str) -> Optional[datetime]:
     return dt
 
 def resolve_featured_adilo_watch_url() -> str:
-    fallback_url = ""
+    fallback_watch_url = ""
     if FEATURED_VIDEO_FALLBACK_ID:
-        fallback_url = f"https://adilo.bigcommand.com/watch/{FEATURED_VIDEO_FALLBACK_ID}"
+        fallback_watch_url = f"https://adilo.bigcommand.com/watch/{FEATURED_VIDEO_FALLBACK_ID}"
 
     if not (ADILO_PUBLIC_KEY and ADILO_SECRET_KEY and ADILO_PROJECT_ID):
         print("[ADILO] Missing Adilo settings; falling back.")
-        if fallback_url:
-            print("[ADILO] Using FEATURED_VIDEO_FALLBACK_ID:", fallback_url)
-            return fallback_url
+        if fallback_watch_url:
+            print("[ADILO] Using FEATURED_VIDEO_FALLBACK_ID:", fallback_watch_url)
+            return fallback_watch_url
         return FEATURED_VIDEO_FALLBACK_URL
 
     PROBES = [
@@ -596,9 +649,9 @@ def resolve_featured_adilo_watch_url() -> str:
 
         print("[ADILO] Probe only found very old items; using fallback if available.")
 
-    if fallback_url:
-        print("[ADILO] Using FEATURED_VIDEO_FALLBACK_ID:", fallback_url)
-        return fallback_url
+    if fallback_watch_url:
+        print("[ADILO] Using FEATURED_VIDEO_FALLBACK_ID:", fallback_watch_url)
+        return fallback_watch_url
 
     return FEATURED_VIDEO_FALLBACK_URL
 
@@ -608,11 +661,6 @@ def resolve_featured_adilo_watch_url() -> str:
 # ----------------------------
 
 def should_run_now() -> bool:
-    """
-    Only run during the first DIGEST_GUARD_WINDOW_MINUTES minutes of DIGEST_GUARD_LOCAL_HOUR
-    in DIGEST_GUARD_TZ. This lets the workflow schedule run at two UTC times for DST,
-    without double-posting.
-    """
     now = local_now()
     if now.hour != DIGEST_GUARD_LOCAL_HOUR:
         return False
@@ -626,7 +674,6 @@ def should_run_now() -> bool:
 # ----------------------------
 
 def main():
-    # If launched by a schedule run, guard; but allow manual workflow_dispatch to always run
     event = os.getenv("GITHUB_EVENT_NAME", "").strip()
     if event == "schedule" and not should_run_now():
         ln = local_now().strftime("%Y-%m-%d %H:%M:%S %Z")
@@ -670,7 +717,14 @@ def main():
                 it["image_url"] = img
         it["summary"] = build_story_summary(strip_html(it["summary"]), it["source"], featured=(idx == 0))
 
-    featured_video_url = resolve_featured_adilo_watch_url()
+    # Featured video (Adilo)
+    featured_adilo_url = resolve_featured_adilo_watch_url()
+    adilo_desc, adilo_img = fetch_open_graph(featured_adilo_url)
+
+    # Latest YouTube video (optional)
+    youtube_url = ""
+    if YOUTUBE_CHANNEL_URL:
+        youtube_url = youtube_latest_video_url(YOUTUBE_CHANNEL_URL)
 
     ln = local_now()
     date_line = ln.strftime("%B %d, %Y")
@@ -680,20 +734,35 @@ def main():
         content = (
             header
             + "\n► 🎮 Quiet night — nothing cleared the news-only filter.\n\n"
-            + "**📺 Featured Video**\n"
-            + f"{md_link(FEATURED_VIDEO_TITLE, featured_video_url)}\n\n"
-            + "That’s it for tonight’s Itty Bitty. 🫡"
+            + "**📺 Featured Video (Adilo)**\n"
+            + f"{md_link(FEATURED_VIDEO_TITLE, featured_adilo_url)}\n"
         )
-        post_to_discord(content, [])
+        if youtube_url:
+            content += "\n**▶️ YouTube**\n" + f"{md_link(YOUTUBE_LATEST_LABEL, youtube_url)}\n"
+        content += "\nThat’s it for tonight’s Itty Bitty. 🫡"
+
+        embeds = []
+        # Adilo embed card with thumbnail
+        adilo_embed = {
+            "title": f"{FEATURED_VIDEO_TITLE} (Adilo)",
+            "url": featured_adilo_url,
+            "description": shorten(adilo_desc or "Watch the latest episode on Adilo.", 500),
+        }
+        if adilo_img:
+            adilo_embed["image"] = {"url": adilo_img}
+        embeds.append(adilo_embed)
+
+        post_to_discord(content, embeds)
         print("Digest posted. Items: 0")
-        print("Featured video:", featured_video_url)
+        print("Featured video:", featured_adilo_url)
+        if youtube_url:
+            print("YouTube latest:", youtube_url)
         return
 
     teaser = []
     for it in ranked[:3]:
         teaser.append(f"► 🎮 {it['title']}")
 
-    # Keep it newsletter-ish without meta-instructions
     hook = "\n\nThe 5 biggest stories from the last 24 hours:\n"
 
     featured = ranked[0]
@@ -713,9 +782,14 @@ def main():
         )
 
     featured_video_block = (
-        "\n**📺 Featured Video**\n"
-        f"{md_link(FEATURED_VIDEO_TITLE, featured_video_url)}\n"
+        "\n**📺 Featured Video (Adilo)**\n"
+        f"{md_link(FEATURED_VIDEO_TITLE, featured_adilo_url)}\n"
     )
+    if youtube_url:
+        featured_video_block += (
+            "\n**▶️ YouTube**\n"
+            f"{md_link(YOUTUBE_LATEST_LABEL, youtube_url)}\n"
+        )
 
     outro = (
         "\n—\n"
@@ -726,6 +800,8 @@ def main():
     content = header + "\n".join(teaser) + hook + featured_block + top_stories_block + featured_video_block + "\n" + outro
 
     embeds = []
+
+    # Story embeds (with images)
     for i, it in enumerate(ranked, start=1):
         embed = {
             "title": f"{i}) {it['title']}",
@@ -738,9 +814,23 @@ def main():
             embed["image"] = {"url": it["image_url"]}
         embeds.append(embed)
 
+    # Adilo featured video embed card (thumbnail from OG image)
+    adilo_embed = {
+        "title": f"{FEATURED_VIDEO_TITLE} (Adilo)",
+        "url": featured_adilo_url,
+        "description": shorten(adilo_desc or "Watch the latest episode on Adilo.", 500),
+    }
+    if adilo_img:
+        adilo_embed["image"] = {"url": adilo_img}
+    embeds.append(adilo_embed)
+
+    # YouTube link will auto-embed as a playable card by Discord; no special embed needed.
     post_to_discord(content, embeds)
-    print(f"Digest posted. Items: {len(embeds)}")
-    print("Featured video:", featured_video_url)
+
+    print(f"Digest posted. Items: {len(ranked)} + featured video embed")
+    print("Featured Adilo video:", featured_adilo_url)
+    if youtube_url:
+        print("YouTube latest:", youtube_url)
 
 
 if __name__ == "__main__":
