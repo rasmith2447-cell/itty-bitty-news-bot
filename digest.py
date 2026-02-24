@@ -48,9 +48,9 @@ FEATURED_VIDEO_FALLBACK_URL = os.getenv(
 # Fallback-only ID (used only if API probing can't find something recent)
 FEATURED_VIDEO_FALLBACK_ID = os.getenv("FEATURED_VIDEO_FALLBACK_ID", "").strip()
 
-# YouTube (optional): we’ll auto-embed the latest video
-YOUTUBE_CHANNEL_URL = os.getenv("YOUTUBE_CHANNEL_URL", "").strip()  # e.g. https://youtube.com/@smitty-2447
-YOUTUBE_LATEST_LABEL = os.getenv("YOUTUBE_LATEST_LABEL", "Also on YouTube (latest episode)").strip()
+# Explicit YouTube featured video (same episode)
+YOUTUBE_FEATURED_URL = os.getenv("YOUTUBE_FEATURED_URL", "").strip()
+YOUTUBE_FEATURED_TITLE = os.getenv("YOUTUBE_FEATURED_TITLE", "").strip() or "Watch on YouTube"
 
 # Adilo API
 ADILO_PUBLIC_KEY = os.getenv("ADILO_PUBLIC_KEY", "").strip()
@@ -178,7 +178,6 @@ def normalize_url(url: str) -> str:
         return url.strip()
 
 def strip_html(text: str) -> str:
-    # Avoid BeautifulSoup 'MarkupResemblesLocatorWarning' by wrapping in an element.
     if text is None:
         return ""
     s = str(text)
@@ -305,205 +304,6 @@ def fetch_open_graph(url: str) -> Tuple[str, str]:
 
 
 # ----------------------------
-# YOUTUBE (latest video)
-# ----------------------------
-
-def youtube_latest_video_url(channel_url: str) -> str:
-    """
-    Given a YouTube channel URL (including @handle), attempt to:
-      1) resolve channelId (UC...)
-      2) pull latest entry from channel RSS
-    Returns "" if it fails.
-    """
-    if not channel_url:
-        return ""
-    headers = {"User-Agent": USER_AGENT}
-
-    # Normalize URL
-    u = channel_url.strip()
-    if u.startswith("http://"):
-        u = "https://" + u[len("http://"):]
-    if not u.startswith("http"):
-        u = "https://" + u.lstrip("/")
-
-    try:
-        r = requests.get(u, headers=headers, timeout=20)
-        r.raise_for_status()
-        html = r.text
-    except Exception as e:
-        print(f"[YOUTUBE] Failed to load channel page: {e}")
-        return ""
-
-    # channelId often appears in JSON as "channelId":"UCxxxx"
-    m = re.search(r'"channelId"\s*:\s*"(?P<cid>UC[a-zA-Z0-9_-]{20,})"', html)
-    if not m:
-        # Fallback pattern
-        m = re.search(r'channelId["\']\s*[:=]\s*["\'](?P<cid>UC[a-zA-Z0-9_-]{20,})["\']', html)
-    if not m:
-        print("[YOUTUBE] Could not find channelId on page.")
-        return ""
-
-    cid = m.group("cid").strip()
-    feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}"
-    try:
-        resp = requests.get(feed_url, headers=headers, timeout=20)
-        resp.raise_for_status()
-        parsed = feedparser.parse(resp.text)
-        if parsed.entries:
-            link = getattr(parsed.entries[0], "link", "") or ""
-            link = link.strip()
-            print(f"[YOUTUBE] Latest video: {link}")
-            return link
-    except Exception as e:
-        print(f"[YOUTUBE] Failed to load RSS: {e}")
-        return ""
-
-    return ""
-
-
-# ----------------------------
-# FEEDS
-# ----------------------------
-
-def fetch_feed(feed_name: str, feed_url: str) -> List[Dict]:
-    headers = {"User-Agent": USER_AGENT}
-    resp = requests.get(feed_url, headers=headers, timeout=20)
-    resp.raise_for_status()
-
-    parsed = feedparser.parse(resp.text)
-    out = []
-    for entry in parsed.entries[:200]:
-        title = (getattr(entry, "title", "") or "").strip()
-        link = (getattr(entry, "link", "") or "").strip()
-        if not title or not link:
-            continue
-
-        url = normalize_url(link)
-        published_at = safe_parse_date(entry)
-
-        summary = ""
-        for key in ["summary", "description", "subtitle"]:
-            val = getattr(entry, key, None)
-            if val:
-                summary = strip_html(val)
-                break
-
-        image_url = ""
-        media_content = getattr(entry, "media_content", None)
-        if media_content and isinstance(media_content, list):
-            for m in media_content:
-                u = (m.get("url") or "").strip()
-                if u:
-                    image_url = u
-                    break
-
-        out.append({
-            "source": feed_name,
-            "title": title,
-            "url": url,
-            "published_at": published_at,
-            "summary": summary,
-            "image_url": image_url,
-        })
-    return out
-
-
-# ----------------------------
-# SCORING + VARIETY
-# ----------------------------
-
-def score_item(item: Dict) -> float:
-    prio = {s: i for i, s in enumerate(SOURCE_PRIORITY)}
-    p = prio.get(item["source"], 999)
-
-    age_hours = max(0.0, (utcnow() - item["published_at"]).total_seconds() / 3600.0)
-    recency_score = max(0.0, 36.0 - age_hours)
-    source_score = max(0.0, 10.0 - (p * 0.8))
-
-    hay = f'{item["title"]} {item["summary"]}'.lower()
-    hint = 8.0 if contains_any(hay, NEWS_HINTS) else 0.0
-
-    blues_penalty = 2.5 if item["source"] == "Blue's News" else 0.0
-    return recency_score + source_score + hint - blues_penalty
-
-def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int) -> List[Dict]:
-    by_source: Dict[str, List[Dict]] = {}
-    for it in candidates:
-        by_source.setdefault(it["source"], []).append(it)
-
-    for s in by_source:
-        by_source[s].sort(key=score_item, reverse=True)
-
-    picked: List[Dict] = []
-    used_title_keys = set()
-    counts: Dict[str, int] = {}
-
-    for s in SOURCE_PRIORITY:
-        if len(picked) >= top_n:
-            break
-        if s not in by_source or not by_source[s]:
-            continue
-        it = by_source[s][0]
-        k = normalize_title_key(it["title"])
-        if k in used_title_keys:
-            continue
-        picked.append(it)
-        used_title_keys.add(k)
-        counts[s] = counts.get(s, 0) + 1
-
-    if len(picked) < top_n:
-        remaining = sorted(candidates, key=score_item, reverse=True)
-        for it in remaining:
-            if len(picked) >= top_n:
-                break
-            s = it["source"]
-            if counts.get(s, 0) >= max_per_source:
-                continue
-            k = normalize_title_key(it["title"])
-            if k in used_title_keys:
-                continue
-            picked.append(it)
-            used_title_keys.add(k)
-            counts[s] = counts.get(s, 0) + 1
-
-    return sorted(picked, key=score_item, reverse=True)
-
-
-# ----------------------------
-# DISCORD
-# ----------------------------
-
-def post_to_discord(content: str, embeds: List[Dict]) -> None:
-    if not DISCORD_WEBHOOK_URL:
-        raise RuntimeError("DISCORD_WEBHOOK_URL is not set")
-
-    content = (content or "").strip()
-    parts = []
-    remaining = content
-
-    while remaining:
-        if len(remaining) <= DISCORD_SAFE_CONTENT:
-            parts.append(remaining)
-            break
-        cut = remaining.rfind("\n\n", 0, DISCORD_SAFE_CONTENT)
-        if cut == -1 or cut < 200:
-            cut = DISCORD_SAFE_CONTENT
-        parts.append(remaining[:cut].rstrip())
-        remaining = remaining[cut:].lstrip()
-
-    payload1 = {"content": parts[0] if parts else ""}
-    if embeds:
-        payload1["embeds"] = embeds
-
-    r1 = requests.post(DISCORD_WEBHOOK_URL, json=payload1, timeout=20)
-    r1.raise_for_status()
-
-    for p in parts[1:]:
-        r = requests.post(DISCORD_WEBHOOK_URL, json={"content": p}, timeout=20)
-        r.raise_for_status()
-
-
-# ----------------------------
 # ADILO (API probe)
 # ----------------------------
 
@@ -577,45 +377,25 @@ def resolve_featured_adilo_watch_url() -> str:
 
     if not (ADILO_PUBLIC_KEY and ADILO_SECRET_KEY and ADILO_PROJECT_ID):
         print("[ADILO] Missing Adilo settings; falling back.")
-        if fallback_watch_url:
-            print("[ADILO] Using FEATURED_VIDEO_FALLBACK_ID:", fallback_watch_url)
-            return fallback_watch_url
-        return FEATURED_VIDEO_FALLBACK_URL
+        return fallback_watch_url or FEATURED_VIDEO_FALLBACK_URL
 
     PROBES = [
-        "",  # baseline
-        "&Sort=desc",
-        "&Sort=DESC",
-        "&sort=desc",
-        "&Order=desc",
-        "&order=desc",
+        "", "&Sort=desc", "&sort=desc",
         "&OrderBy=upload_date&Order=desc",
-        "&orderBy=upload_date&order=desc",
-        "&SortBy=upload_date&SortOrder=desc",
-        "&sort=upload_date&direction=desc",
-        "&SortColumn=upload_date&SortType=desc",
-        "&SortColumn=UploadDate&SortType=desc",
         "&OrderBy=UploadDate&Order=desc",
     ]
 
     best_dt = None
     best_id = None
-    best_probe = None
 
     for extra in PROBES:
         try:
             items, total, url_used = _fetch_files_page_custom(ADILO_PROJECT_ID, 1, 50, extra)
             print(f"[ADILO] PROBE extra='{extra}' items={len(items)} total={total} url={url_used}")
-
             if not items:
                 continue
 
-            sample_ids = []
-            for it in items[:12]:
-                fid = it.get("id")
-                if fid:
-                    sample_ids.append(str(fid))
-
+            sample_ids = [str(it.get("id")) for it in items[:12] if it.get("id")]
             newest_dt_probe = None
             newest_id_probe = None
 
@@ -627,33 +407,55 @@ def resolve_featured_adilo_watch_url() -> str:
                 time.sleep(0.03)
 
             if newest_dt_probe and newest_id_probe:
-                print(f"[ADILO] PROBE RESULT extra='{extra}' newest_id={newest_id_probe} newest_dt={newest_dt_probe.isoformat()}")
-
                 if best_dt is None or newest_dt_probe > best_dt:
                     best_dt = newest_dt_probe
                     best_id = newest_id_probe
-                    best_probe = extra
 
             if newest_dt_probe and newest_dt_probe > (utcnow() - timedelta(days=90)):
                 break
-
         except Exception as e:
             print(f"[ADILO] PROBE failed extra='{extra}': {e}")
 
     if best_id and best_dt:
         watch_url = f"https://adilo.bigcommand.com/watch/{best_id}"
-        print(f"[ADILO] Selected from probe extra='{best_probe}' watch_url={watch_url} dt={best_dt.isoformat()}")
-
         if best_dt > (utcnow() - timedelta(days=365)):
             return watch_url
 
-        print("[ADILO] Probe only found very old items; using fallback if available.")
+    return fallback_watch_url or FEATURED_VIDEO_FALLBACK_URL
 
-    if fallback_watch_url:
-        print("[ADILO] Using FEATURED_VIDEO_FALLBACK_ID:", fallback_watch_url)
-        return fallback_watch_url
 
-    return FEATURED_VIDEO_FALLBACK_URL
+# ----------------------------
+# DISCORD
+# ----------------------------
+
+def post_to_discord(content: str, embeds: List[Dict]) -> None:
+    if not DISCORD_WEBHOOK_URL:
+        raise RuntimeError("DISCORD_WEBHOOK_URL is not set")
+
+    content = (content or "").strip()
+    parts = []
+    remaining = content
+
+    while remaining:
+        if len(remaining) <= DISCORD_SAFE_CONTENT:
+            parts.append(remaining)
+            break
+        cut = remaining.rfind("\n\n", 0, DISCORD_SAFE_CONTENT)
+        if cut == -1 or cut < 200:
+            cut = DISCORD_SAFE_CONTENT
+        parts.append(remaining[:cut].rstrip())
+        remaining = remaining[cut:].lstrip()
+
+    payload1 = {"content": parts[0] if parts else ""}
+    if embeds:
+        payload1["embeds"] = embeds
+
+    r1 = requests.post(DISCORD_WEBHOOK_URL, json=payload1, timeout=20)
+    r1.raise_for_status()
+
+    for p in parts[1:]:
+        r = requests.post(DISCORD_WEBHOOK_URL, json={"content": p}, timeout=20)
+        r.raise_for_status()
 
 
 # ----------------------------
@@ -685,7 +487,41 @@ def main():
     items: List[Dict] = []
     for f in FEEDS:
         try:
-            items.extend(fetch_feed(f["name"], f["url"]))
+            resp = requests.get(f["url"], headers={"User-Agent": USER_AGENT}, timeout=20)
+            resp.raise_for_status()
+            parsed = feedparser.parse(resp.text)
+            for entry in parsed.entries[:200]:
+                title = (getattr(entry, "title", "") or "").strip()
+                link = (getattr(entry, "link", "") or "").strip()
+                if not title or not link:
+                    continue
+                url = normalize_url(link)
+                published_at = safe_parse_date(entry)
+
+                summary = ""
+                for key in ["summary", "description", "subtitle"]:
+                    val = getattr(entry, key, None)
+                    if val:
+                        summary = strip_html(val)
+                        break
+
+                image_url = ""
+                media_content = getattr(entry, "media_content", None)
+                if media_content and isinstance(media_content, list):
+                    for m in media_content:
+                        u = (m.get("url") or "").strip()
+                        if u:
+                            image_url = u
+                            break
+
+                items.append({
+                    "source": f["name"],
+                    "title": title,
+                    "url": url,
+                    "published_at": published_at,
+                    "summary": summary,
+                    "image_url": image_url,
+                })
         except Exception as e:
             print(f"[WARN] Feed fetch failed: {f['name']} -> {e}")
 
@@ -706,7 +542,57 @@ def main():
         seen.add(key)
         deduped.append(it)
 
-    ranked = choose_with_variety(deduped, TOP_N, MAX_PER_SOURCE)
+    # Sort by score with variety
+    def score_item(item: Dict) -> float:
+        prio = {s: i for i, s in enumerate(SOURCE_PRIORITY)}
+        p = prio.get(item["source"], 999)
+        age_hours = max(0.0, (utcnow() - item["published_at"]).total_seconds() / 3600.0)
+        recency_score = max(0.0, 36.0 - age_hours)
+        source_score = max(0.0, 10.0 - (p * 0.8))
+        hay = f'{item["title"]} {item["summary"]}'.lower()
+        hint = 8.0 if contains_any(hay, NEWS_HINTS) else 0.0
+        blues_penalty = 2.5 if item["source"] == "Blue's News" else 0.0
+        return recency_score + source_score + hint - blues_penalty
+
+    by_source: Dict[str, List[Dict]] = {}
+    for it in deduped:
+        by_source.setdefault(it["source"], []).append(it)
+    for s in by_source:
+        by_source[s].sort(key=score_item, reverse=True)
+
+    picked: List[Dict] = []
+    used = set()
+    counts: Dict[str, int] = {}
+
+    for s in SOURCE_PRIORITY:
+        if len(picked) >= TOP_N:
+            break
+        if s not in by_source or not by_source[s]:
+            continue
+        it = by_source[s][0]
+        k = normalize_title_key(it["title"])
+        if k in used:
+            continue
+        picked.append(it)
+        used.add(k)
+        counts[s] = counts.get(s, 0) + 1
+
+    if len(picked) < TOP_N:
+        remaining = sorted(deduped, key=score_item, reverse=True)
+        for it in remaining:
+            if len(picked) >= TOP_N:
+                break
+            s = it["source"]
+            if counts.get(s, 0) >= MAX_PER_SOURCE:
+                continue
+            k = normalize_title_key(it["title"])
+            if k in used:
+                continue
+            picked.append(it)
+            used.add(k)
+            counts[s] = counts.get(s, 0) + 1
+
+    ranked = sorted(picked, key=score_item, reverse=True)
 
     for idx, it in enumerate(ranked):
         if not it["summary"] or not it["image_url"]:
@@ -717,91 +603,56 @@ def main():
                 it["image_url"] = img
         it["summary"] = build_story_summary(strip_html(it["summary"]), it["source"], featured=(idx == 0))
 
-    # Featured video (Adilo)
+    # Featured Adilo video (with thumbnail card)
     featured_adilo_url = resolve_featured_adilo_watch_url()
     adilo_desc, adilo_img = fetch_open_graph(featured_adilo_url)
-
-    # Latest YouTube video (optional)
-    youtube_url = ""
-    if YOUTUBE_CHANNEL_URL:
-        youtube_url = youtube_latest_video_url(YOUTUBE_CHANNEL_URL)
 
     ln = local_now()
     date_line = ln.strftime("%B %d, %Y")
     header = f"{date_line}\n\n**In Tonight’s Edition of Itty Bitty Gaming News…**\n"
 
     if not ranked:
-        content = (
-            header
-            + "\n► 🎮 Quiet night — nothing cleared the news-only filter.\n\n"
-            + "**📺 Featured Video (Adilo)**\n"
-            + f"{md_link(FEATURED_VIDEO_TITLE, featured_adilo_url)}\n"
-        )
-        if youtube_url:
-            content += "\n**▶️ YouTube**\n" + f"{md_link(YOUTUBE_LATEST_LABEL, youtube_url)}\n"
-        content += "\nThat’s it for tonight’s Itty Bitty. 🫡"
+        content = header + "\n► 🎮 Quiet night — nothing cleared the news-only filter.\n"
+    else:
+        teaser = [f"► 🎮 {it['title']}" for it in ranked[:3]]
+        content = header + "\n".join(teaser) + "\n\nThe 5 biggest stories from the last 24 hours:\n"
 
-        embeds = []
-        # Adilo embed card with thumbnail
-        adilo_embed = {
-            "title": f"{FEATURED_VIDEO_TITLE} (Adilo)",
-            "url": featured_adilo_url,
-            "description": shorten(adilo_desc or "Watch the latest episode on Adilo.", 500),
-        }
-        if adilo_img:
-            adilo_embed["image"] = {"url": adilo_img}
-        embeds.append(adilo_embed)
-
-        post_to_discord(content, embeds)
-        print("Digest posted. Items: 0")
-        print("Featured video:", featured_adilo_url)
-        if youtube_url:
-            print("YouTube latest:", youtube_url)
-        return
-
-    teaser = []
-    for it in ranked[:3]:
-        teaser.append(f"► 🎮 {it['title']}")
-
-    hook = "\n\nThe 5 biggest stories from the last 24 hours:\n"
-
-    featured = ranked[0]
-    featured_block = (
-        "\n\n**FEATURED STORY**\n"
-        f"**{featured['title']}**\n"
-        f"{featured['summary']}\n"
-        f"Source: {md_link(featured['source'], featured['url'])}\n"
-    )
-
-    top_stories_block = "\n**Tonight’s Top Stories**\n"
-    for i, it in enumerate(ranked[1:], start=2):
-        top_stories_block += (
-            f"\n**{i}) {it['title']}**\n"
-            f"{it['summary']}\n"
-            f"Source: {md_link(it['source'], it['url'])}\n"
+        featured = ranked[0]
+        content += (
+            "\n\n**FEATURED STORY**\n"
+            f"**{featured['title']}**\n"
+            f"{featured['summary']}\n"
+            f"Source: {md_link(featured['source'], featured['url'])}\n"
         )
 
-    featured_video_block = (
+        content += "\n**Tonight’s Top Stories**\n"
+        for i, it in enumerate(ranked[1:], start=2):
+            content += (
+                f"\n**{i}) {it['title']}**\n"
+                f"{it['summary']}\n"
+                f"Source: {md_link(it['source'], it['url'])}\n"
+            )
+
+    # Video section: Adilo link + YouTube link
+    content += (
         "\n**📺 Featured Video (Adilo)**\n"
         f"{md_link(FEATURED_VIDEO_TITLE, featured_adilo_url)}\n"
     )
-    if youtube_url:
-        featured_video_block += (
+    if YOUTUBE_FEATURED_URL:
+        content += (
             "\n**▶️ YouTube**\n"
-            f"{md_link(YOUTUBE_LATEST_LABEL, youtube_url)}\n"
+            f"{md_link(YOUTUBE_FEATURED_TITLE, YOUTUBE_FEATURED_URL)}\n"
         )
 
-    outro = (
+    content += (
         "\n—\n"
         "That’s it for tonight’s Itty Bitty. 😄\n"
         "Catch the snackable breakdown on **Itty Bitty Gaming News** tomorrow.\n"
     )
 
-    content = header + "\n".join(teaser) + hook + featured_block + top_stories_block + featured_video_block + "\n" + outro
-
     embeds = []
 
-    # Story embeds (with images)
+    # Story embeds
     for i, it in enumerate(ranked, start=1):
         embed = {
             "title": f"{i}) {it['title']}",
@@ -814,7 +665,7 @@ def main():
             embed["image"] = {"url": it["image_url"]}
         embeds.append(embed)
 
-    # Adilo featured video embed card (thumbnail from OG image)
+    # Adilo embed card with thumbnail
     adilo_embed = {
         "title": f"{FEATURED_VIDEO_TITLE} (Adilo)",
         "url": featured_adilo_url,
@@ -824,13 +675,13 @@ def main():
         adilo_embed["image"] = {"url": adilo_img}
     embeds.append(adilo_embed)
 
-    # YouTube link will auto-embed as a playable card by Discord; no special embed needed.
-    post_to_discord(content, embeds)
+    # YouTube: Discord will auto-embed the link in the message content.
 
-    print(f"Digest posted. Items: {len(ranked)} + featured video embed")
+    post_to_discord(content, embeds)
+    print(f"Digest posted. Items: {len(ranked)}")
     print("Featured Adilo video:", featured_adilo_url)
-    if youtube_url:
-        print("YouTube latest:", youtube_url)
+    if YOUTUBE_FEATURED_URL:
+        print("YouTube featured:", YOUTUBE_FEATURED_URL)
 
 
 if __name__ == "__main__":
