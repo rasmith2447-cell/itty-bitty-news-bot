@@ -46,7 +46,7 @@ FEATURED_VIDEO_FALLBACK_URL = os.getenv(
 ).strip()
 FEATURED_VIDEO_FALLBACK_ID = os.getenv("FEATURED_VIDEO_FALLBACK_ID", "").strip()
 
-# Explicit YouTube featured video (same episode)
+# YouTube featured (same episode)
 YOUTUBE_FEATURED_URL = os.getenv("YOUTUBE_FEATURED_URL", "").strip()
 YOUTUBE_FEATURED_TITLE = os.getenv("YOUTUBE_FEATURED_TITLE", "").strip() or "Watch on YouTube"
 
@@ -70,6 +70,7 @@ TRACKING_PARAMS = {
     "utm_id", "utm_name", "utm_reader", "utm_referrer",
     "gclid", "fbclid", "mc_cid", "mc_eid", "ref", "source"
 }
+
 
 # ----------------------------
 # FILTERS (news-only)
@@ -150,6 +151,7 @@ NEWS_HINTS = [
     "patch", "hotfix", "update",
     "retire", "retirement", "steps down", "stepping down", "resigns", "resignation",
 ]
+
 
 # ----------------------------
 # UTIL
@@ -416,37 +418,36 @@ def resolve_featured_adilo_watch_url() -> str:
 
 
 # ----------------------------
-# DISCORD
+# DISCORD POSTING (multi-message so embeds align)
 # ----------------------------
 
-def post_to_discord(content: str, embeds: List[Dict]) -> None:
+def discord_post(content: str = "", embeds: Optional[List[Dict]] = None) -> None:
     if not DISCORD_WEBHOOK_URL:
         raise RuntimeError("DISCORD_WEBHOOK_URL is not set")
 
-    content = (content or "").strip()
-    parts = []
-    remaining = content
+    payload: Dict[str, Any] = {"content": (content or "").strip()}
+    if embeds:
+        payload["embeds"] = embeds
+
+    r = requests.post(DISCORD_WEBHOOK_URL, json=payload, timeout=20)
+    r.raise_for_status()
+
+def discord_post_long_text(text: str) -> None:
+    # split long content into safe chunks (no embeds)
+    remaining = (text or "").strip()
+    if not remaining:
+        return
 
     while remaining:
         if len(remaining) <= DISCORD_SAFE_CONTENT:
-            parts.append(remaining)
+            discord_post(remaining)
             break
         cut = remaining.rfind("\n\n", 0, DISCORD_SAFE_CONTENT)
         if cut == -1 or cut < 200:
             cut = DISCORD_SAFE_CONTENT
-        parts.append(remaining[:cut].rstrip())
+        chunk = remaining[:cut].rstrip()
+        discord_post(chunk)
         remaining = remaining[cut:].lstrip()
-
-    payload1 = {"content": parts[0] if parts else ""}
-    if embeds:
-        payload1["embeds"] = embeds
-
-    r1 = requests.post(DISCORD_WEBHOOK_URL, json=payload1, timeout=20)
-    r1.raise_for_status()
-
-    for p in parts[1:]:
-        r = requests.post(DISCORD_WEBHOOK_URL, json={"content": p}, timeout=20)
-        r.raise_for_status()
 
 
 # ----------------------------
@@ -481,11 +482,13 @@ def main():
             resp = requests.get(f["url"], headers={"User-Agent": USER_AGENT}, timeout=20)
             resp.raise_for_status()
             parsed = feedparser.parse(resp.text)
+
             for entry in parsed.entries[:200]:
                 title = (getattr(entry, "title", "") or "").strip()
                 link = (getattr(entry, "link", "") or "").strip()
                 if not title or not link:
                     continue
+
                 url = normalize_url(link)
                 published_at = safe_parse_date(entry)
 
@@ -524,6 +527,7 @@ def main():
             continue
         kept.append(it)
 
+    # Deduplicate by title
     seen = set()
     deduped = []
     for it in sorted(kept, key=lambda x: x["published_at"], reverse=True):
@@ -533,6 +537,7 @@ def main():
         seen.add(key)
         deduped.append(it)
 
+    # Score with variety
     def score_item(item: Dict) -> float:
         prio = {s: i for i, s in enumerate(SOURCE_PRIORITY)}
         p = prio.get(item["source"], 999)
@@ -554,6 +559,7 @@ def main():
     used = set()
     counts: Dict[str, int] = {}
 
+    # Pass 1: grab best from each source in priority order
     for s in SOURCE_PRIORITY:
         if len(picked) >= TOP_N:
             break
@@ -567,6 +573,7 @@ def main():
         used.add(k)
         counts[s] = counts.get(s, 0) + 1
 
+    # Pass 2: fill remaining with best overall, respecting MAX_PER_SOURCE
     if len(picked) < TOP_N:
         remaining = sorted(deduped, key=score_item, reverse=True)
         for it in remaining:
@@ -584,6 +591,7 @@ def main():
 
     ranked = sorted(picked, key=score_item, reverse=True)
 
+    # Enrich summaries/images
     for idx, it in enumerate(ranked):
         if not it["summary"] or not it["image_url"]:
             desc, img = fetch_open_graph(it["url"])
@@ -593,65 +601,69 @@ def main():
                 it["image_url"] = img
         it["summary"] = build_story_summary(strip_html(it["summary"]), it["source"], featured=(idx == 0))
 
+    # Resolve Adilo video + its OG thumbnail/desc
     featured_adilo_url = resolve_featured_adilo_watch_url()
     adilo_desc, adilo_img = fetch_open_graph(featured_adilo_url)
 
+    # ----------------------------
+    # POSTING: newsletter header, then story-by-story embeds, then videos
+    # ----------------------------
+
     ln = local_now()
     date_line = ln.strftime("%B %d, %Y")
-    header = f"{date_line}\n\n**In Tonight’s Edition of Itty Bitty Gaming News…**\n"
 
     if not ranked:
-        content = header + "\n► 🎮 Quiet night — nothing cleared the news-only filter.\n"
-    else:
-        teaser = [f"► 🎮 {it['title']}" for it in ranked[:3]]
-        content = header + "\n".join(teaser) + "\n\nThe 5 biggest stories from the last 24 hours:\n"
-
-        featured = ranked[0]
-        content += (
-            "\n\n**FEATURED STORY**\n"
-            f"**{featured['title']}**\n"
-            f"{featured['summary']}\n"
-            f"Source: {md_link(featured['source'], featured['url'])}\n"
+        header = (
+            f"{date_line}\n\n"
+            "**In Tonight’s Edition of Itty Bitty Gaming News…**\n"
+            "► 🎮 Quiet night — nothing cleared the news-only filter.\n"
         )
+        discord_post_long_text(header)
+    else:
+        teaser = "\n".join([f"► 🎮 {it['title']}" for it in ranked[:3]])
+        header = (
+            f"{date_line}\n\n"
+            "**In Tonight’s Edition of Itty Bitty Gaming News…**\n"
+            f"{teaser}\n\n"
+            "Here are the 5 biggest stories from the last 24 hours:\n"
+        )
+        discord_post_long_text(header)
 
-        content += "\n**Tonight’s Top Stories**\n"
-        for i, it in enumerate(ranked[1:], start=2):
-            content += (
-                f"\n**{i}) {it['title']}**\n"
+        # Post each story as its own message so the embed sits under its number
+        for i, it in enumerate(ranked, start=1):
+            # story text (newsletter style)
+            story_text = (
+                f"**{i}) {it['title']}**\n"
                 f"{it['summary']}\n"
-                f"Source: {md_link(it['source'], it['url'])}\n"
+                f"Source: {md_link(it['source'], it['url'])}"
             )
 
-    # Video section
-    content += "\n**📺 Featured Video (Adilo)**\n"
-    content += f"{md_link(FEATURED_VIDEO_TITLE, featured_adilo_url)}\n"
+            embed = {
+                "title": f"{i}) {it['title']}",
+                "url": it["url"],
+                "description": shorten(it["summary"], EMBED_DESC_LIMIT),
+                "footer": {"text": f"Source: {it['source']}"},
+                "timestamp": it["published_at"].isoformat(),
+            }
+            if it.get("image_url"):
+                embed["image"] = {"url": it["image_url"]}
 
-    # Force Discord auto-embed: raw YouTube URL on its own line (no markdown)
+            discord_post(story_text, embeds=[embed])
+
+    # Videos: YouTube FIRST (raw URL line so it embeds), then Adilo with thumbnail embed card
     if YOUTUBE_FEATURED_URL:
-        content += "\n**▶️ YouTube (same episode)**\n"
-        content += f"{YOUTUBE_FEATURED_TITLE}\n"
-        content += f"{YOUTUBE_FEATURED_URL}\n"
+        youtube_msg = (
+            "**▶️ Featured Video (YouTube)**\n"
+            f"{YOUTUBE_FEATURED_TITLE}\n"
+            f"{YOUTUBE_FEATURED_URL}"
+        )
+        # no embeds needed — Discord will auto-embed the raw URL
+        discord_post_long_text(youtube_msg)
 
-    content += (
-        "\n—\n"
-        "That’s it for tonight’s Itty Bitty. 😄\n"
-        "Catch the snackable breakdown on **Itty Bitty Gaming News** tomorrow.\n"
+    adilo_msg = (
+        "**📺 Featured Video (Adilo)**\n"
+        f"{md_link(FEATURED_VIDEO_TITLE, featured_adilo_url)}"
     )
-
-    embeds = []
-
-    for i, it in enumerate(ranked, start=1):
-        embed = {
-            "title": f"{i}) {it['title']}",
-            "url": it["url"],
-            "description": shorten(it["summary"], EMBED_DESC_LIMIT),
-            "footer": {"text": f"Source: {it['source']}"},
-            "timestamp": it["published_at"].isoformat(),
-        }
-        if it.get("image_url"):
-            embed["image"] = {"url": it["image_url"]}
-        embeds.append(embed)
-
     adilo_embed = {
         "title": f"{FEATURED_VIDEO_TITLE} (Adilo)",
         "url": featured_adilo_url,
@@ -659,9 +671,16 @@ def main():
     }
     if adilo_img:
         adilo_embed["image"] = {"url": adilo_img}
-    embeds.append(adilo_embed)
 
-    post_to_discord(content, embeds)
+    discord_post(adilo_msg, embeds=[adilo_embed])
+
+    footer = (
+        "—\n"
+        "That’s it for tonight’s Itty Bitty. 😄\n"
+        "Catch the snackable breakdown on **Itty Bitty Gaming News** tomorrow."
+    )
+    discord_post_long_text(footer)
+
     print(f"Digest posted. Items: {len(ranked)}")
     print("Featured Adilo video:", featured_adilo_url)
     if YOUTUBE_FEATURED_URL:
