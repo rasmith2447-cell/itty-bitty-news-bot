@@ -1,49 +1,23 @@
-name: Content Board Digest (Itty Bitty Gaming News)
+name: Content Board (Nightly Digest)
 
 on:
   workflow_dispatch:
+
+  # DST-safe scheduling:
+  # - GitHub cron is UTC
+  # - 7pm PT is 03:00 UTC during PST (winter)
+  # - 7pm PT is 02:00 UTC during PDT (summer)
+  # We run every 10 minutes during BOTH UTC hours 02 and 03,
+  # and digest.py's local-time guard ensures it only posts once.
   schedule:
-    # DST-safe approach:
-    # - 02:00 UTC matches 7pm PDT (UTC-7)
-    # - 03:00 UTC matches 7pm PST (UTC-8)
-    # digest.py includes a guard so it only posts during 7pm PT window and won't double-post.
-    - cron: "0 2 * * *"
-    - cron: "0 3 * * *"
+    - cron: "*/10 2,3 * * *"
 
 jobs:
-  digest:
+  post_digest:
     runs-on: ubuntu-latest
 
-    env:
-      # Discord
-      DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
-
-      # Digest controls
-      DIGEST_WINDOW_HOURS: 24
-      DIGEST_TOP_N: 5
-      DIGEST_MAX_PER_SOURCE: 1
-
-      # Featured video presentation (Adilo)
-      FEATURED_VIDEO_TITLE: Watch today’s Itty Bitty Gaming News
-      FEATURED_VIDEO_FALLBACK_URL: https://adilo.bigcommand.com/c/ittybittygamingnews/home
-      FEATURED_VIDEO_FALLBACK_ID: K4AxdfCP
-
-      # Adilo API (GitHub Secrets)
-      ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
-      ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
-      ADILO_PROJECT_ID: yz8kq5M8
-
-
-      # DST-safe guard (local time)
-      DIGEST_GUARD_TZ: America/Los_Angeles
-      DIGEST_GUARD_LOCAL_HOUR: 19
-      DIGEST_GUARD_WINDOW_MINUTES: 15
-
-      # UA
-      USER_AGENT: IttyBittyGamingNews/Digest
-
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -54,8 +28,46 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install feedparser requests beautifulsoup4 python-dateutil
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Run digest
+        env:
+          # Discord webhook for the forward-facing "content board" channel
+          DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
+
+          # Digest behavior
+          DIGEST_WINDOW_HOURS: "24"
+          DIGEST_TOP_N: "5"
+          DIGEST_MAX_PER_SOURCE: "1"
+
+          # Time guard (7pm PT) + DST handling
+          DIGEST_GUARD_TZ: "America/Los_Angeles"
+          DIGEST_GUARD_LOCAL_HOUR: "19"
+          DIGEST_GUARD_WINDOW_MINUTES: "15"
+
+          # Branding
+          NEWSLETTER_NAME: "Itty Bitty Gaming News"
+          NEWSLETTER_TAGLINE: "Snackable daily gaming news — five days a week."
+
+          # Featured video section labels
+          FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
+          FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
+
+          # Adilo API
+          ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
+          ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
+          ADILO_PROJECT_ID: "yz8kq5M8"
+
+          # Adilo public pages (scrape fallback)
+          ADILO_PUBLIC_LATEST_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
+          ADILO_PUBLIC_HOME_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
+
+          # YouTube (auto-embed: Discord embeds when URL is on its own line)
+          YOUTUBE_FEATURED_URL: "https://www.youtube.com/watch?v=gZY2eM2d14k"
+          YOUTUBE_FEATURED_TITLE: "The Remnant Update Is HERE! No Man's Sky's Wildest Feature Yet!"
+
+          # User-Agent (polite scraping + debugging clarity)
+          USER_AGENT: "IttyBittyGamingNews/Digest"
+
         run: |
           python digest.py
