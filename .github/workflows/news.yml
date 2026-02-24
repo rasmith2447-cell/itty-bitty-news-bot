@@ -3,18 +3,15 @@ name: Itty Bitty Gaming News Bot (3x Daily Pulls)
 on:
   workflow_dispatch:
   schedule:
-    # We run "hourly-ish" only at the UTC hours that could map to 7am/1pm/6pm PT
-    # across DST changes. A guard step below prevents double-posting.
-    #
-    # 7am PT -> 14:00 UTC (PDT) or 15:00 UTC (PST)
+    # 7:00am PT -> 14:00 UTC (PDT) or 15:00 UTC (PST)
     - cron: "0 14 * * *"
     - cron: "0 15 * * *"
 
-    # 1pm PT -> 20:00 UTC (PDT) or 21:00 UTC (PST)
+    # 1:00pm PT -> 20:00 UTC (PDT) or 21:00 UTC (PST)
     - cron: "0 20 * * *"
     - cron: "0 21 * * *"
 
-    # 6pm PT -> 01:00 UTC (PDT) or 02:00 UTC (PST)
+    # 6:00pm PT -> 01:00 UTC (PDT) or 02:00 UTC (PST)
     - cron: "0 1 * * *"
     - cron: "0 2 * * *"
 
@@ -23,17 +20,12 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      # IMPORTANT: if your repo uses a different secret name for the main bot channel,
-      # swap it here. This is the standard name used in the scripts we've been running.
       DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-
-      # Keep your existing behavior (RAW mode pull/post)
       MODE: RAW
       BREAKING_MODE: "False"
-
       USER_AGENT: IttyBittyGamingNews/NewsPull
 
-      # DST Guard settings (prevents double-posting when both UTC crons run)
+      # DST guard configuration
       GUARD_TZ: America/Los_Angeles
       GUARD_WINDOW_MINUTES: "15"
 
@@ -41,30 +33,35 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Guard (DST-safe: only run at 7am, 1pm, 6pm PT)
+      - name: Guard (DST-safe, schedule only)
         if: ${{ github.event_name == 'schedule' }}
         run: |
-          echo "Running DST guard…"
-          TZ="${GUARD_TZ}" date
+          python - <<'PY'
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          import os, sys
 
-          HH="$(TZ="${GUARD_TZ}" date +%H)"
-          MM="$(TZ="${GUARD_TZ}" date +%M)"
+          tz = os.getenv("GUARD_TZ", "America/Los_Angeles")
+          window = int(os.getenv("GUARD_WINDOW_MINUTES", "15"))
 
-          echo "Local time (${GUARD_TZ}) is HH=${HH} MM=${MM}"
+          now = datetime.now(ZoneInfo(tz))
+          hh = now.strftime("%H")
+          mm = int(now.strftime("%M"))
 
-          # Only allow if within the first N minutes of the target hour.
-          # Target hours: 07, 13, 18 (7am, 1pm, 6pm PT)
-          if [ "${MM}" -ge "${GUARD_WINDOW_MINUTES}" ]; then
-            echo "Outside guard minute window. Exiting without posting."
-            exit 0
-          fi
+          print(f"[GUARD] Local time in {tz}: {now.strftime('%Y-%m-%d %H:%M:%S %Z')}")
 
-          if [ "${HH}" != "07" ] && [ "${HH}" != "13" ] && [ "${HH}" != "18" ]; then
-            echo "Not a target posting hour (07/13/18). Exiting without posting."
-            exit 0
-          fi
+          # Only allow first N minutes of the target hours
+          if mm >= window:
+              print("[GUARD] Outside minute window. Exiting without posting.")
+              sys.exit(0)
 
-          echo "Guard passed. Continuing."
+          # Target hours: 07, 13, 18 (7am, 1pm, 6pm)
+          if hh not in ("07", "13", "18"):
+              print("[GUARD] Not a target hour (07/13/18). Exiting without posting.")
+              sys.exit(0)
+
+          print("[GUARD] Passed. Continuing.")
+          PY
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -76,6 +73,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install feedparser requests beautifulsoup4 python-dateutil
 
-      - name: Run main bot pull
+      - name: Run main bot
         run: |
           python main.py
