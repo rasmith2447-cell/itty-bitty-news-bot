@@ -12,10 +12,6 @@ from dateutil import parser as dateparser
 from zoneinfo import ZoneInfo
 
 
-# ----------------------------
-# CONFIG
-# ----------------------------
-
 FEEDS = [
     {"name": "IGN", "url": "http://feeds.ign.com/ign/all"},
     {"name": "GameSpot", "url": "http://www.gamespot.com/feeds/mashup/"},
@@ -39,20 +35,19 @@ WINDOW_HOURS = int(os.getenv("DIGEST_WINDOW_HOURS", "24"))
 TOP_N = int(os.getenv("DIGEST_TOP_N", "5"))
 MAX_PER_SOURCE = int(os.getenv("DIGEST_MAX_PER_SOURCE", "1"))
 
-# Featured video (Adilo)
 FEATURED_VIDEO_TITLE = os.getenv("FEATURED_VIDEO_TITLE", "Watch today’s Itty Bitty Gaming News").strip()
 FEATURED_VIDEO_FALLBACK_URL = os.getenv(
     "FEATURED_VIDEO_FALLBACK_URL",
     "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 ).strip()
 
-# Public channel URL we will scrape if the API is stale / incomplete
-ADILO_PUBLIC_CHANNEL_URL = os.getenv(
-    "ADILO_PUBLIC_CHANNEL_URL",
-    "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
-).strip()
+# Prefer scraping the "video" listing page first (often lighter/faster)
+ADILO_PUBLIC_SCRAPE_URLS = [
+    os.getenv("ADILO_PUBLIC_VIDEO_URL", "https://adilo.bigcommand.com/c/ittybittygamingnews/video").strip(),
+    os.getenv("ADILO_PUBLIC_CHANNEL_URL", "https://adilo.bigcommand.com/c/ittybittygamingnews/home").strip(),
+]
 
-# If you ever want to force a specific video ID temporarily:
+# Optional emergency override (set in workflow env if you need)
 FEATURED_VIDEO_FORCE_ID = os.getenv("FEATURED_VIDEO_FORCE_ID", "").strip()
 
 ADILO_PUBLIC_KEY = os.getenv("ADILO_PUBLIC_KEY", "").strip()
@@ -60,7 +55,6 @@ ADILO_SECRET_KEY = os.getenv("ADILO_SECRET_KEY", "").strip()
 ADILO_PROJECT_ID = os.getenv("ADILO_PROJECT_ID", "").strip()
 ADILO_API_BASE = "https://adilo-api.bigcommand.com/v1"
 
-# Discord
 DISCORD_SAFE_CONTENT = 1850
 EMBED_DESC_LIMIT = 900
 
@@ -70,10 +64,6 @@ TRACKING_PARAMS = {
     "gclid", "fbclid", "mc_cid", "mc_eid", "ref", "source"
 }
 
-
-# ----------------------------
-# FILTERS (news-only)
-# ----------------------------
 
 GAME_TERMS = [
     "video game", "videogame", "gaming",
@@ -152,10 +142,6 @@ NEWS_HINTS = [
     "retire", "retirement", "steps down", "stepping down", "resigns", "resignation",
 ]
 
-
-# ----------------------------
-# UTIL
-# ----------------------------
 
 def utcnow() -> datetime:
     return datetime.now(timezone.utc)
@@ -274,10 +260,6 @@ def md_link(text: str, url: str) -> str:
     return f"[{safe}]({url})"
 
 
-# ----------------------------
-# OPEN GRAPH (for news embeds)
-# ----------------------------
-
 def fetch_open_graph(url: str) -> Tuple[str, str]:
     headers = {"User-Agent": USER_AGENT}
     try:
@@ -298,10 +280,6 @@ def fetch_open_graph(url: str) -> Tuple[str, str]:
     img = meta("og:image") or meta("twitter:image") or meta("twitter:image:src")
     return strip_html(desc), (img or "").strip()
 
-
-# ----------------------------
-# FEEDS
-# ----------------------------
 
 def fetch_feed(feed_name: str, feed_url: str) -> List[Dict]:
     headers = {"User-Agent": USER_AGENT}
@@ -345,10 +323,6 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Dict]:
         })
     return out
 
-
-# ----------------------------
-# SCORING + VARIETY
-# ----------------------------
 
 def score_item(item: Dict) -> float:
     prio = {s: i for i, s in enumerate(SOURCE_PRIORITY)}
@@ -407,10 +381,6 @@ def choose_with_variety(candidates: List[Dict], top_n: int, max_per_source: int)
     return sorted(picked, key=score_item, reverse=True)
 
 
-# ----------------------------
-# DISCORD
-# ----------------------------
-
 def post_to_discord(content: str, embeds: List[Dict]) -> None:
     if not DISCORD_WEBHOOK_URL:
         raise RuntimeError("DISCORD_WEBHOOK_URL is not set")
@@ -442,7 +412,7 @@ def post_to_discord(content: str, embeds: List[Dict]) -> None:
 
 
 # ----------------------------
-# ADILO FEATURED VIDEO (API + Public scrape fallback)
+# ADILO: robust scrape with retries
 # ----------------------------
 
 def adilo_headers() -> Dict[str, str]:
@@ -477,7 +447,7 @@ def parse_dt_any(val: Any) -> Optional[datetime]:
 
 def url_ok(url: str) -> bool:
     try:
-        r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=20, allow_redirects=True)
+        r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=15, allow_redirects=True)
         return 200 <= r.status_code < 300
     except Exception:
         return False
@@ -506,52 +476,56 @@ def _fetch_files_page(project_id: str, from_i: int, to_i: int) -> Tuple[List[Dic
             return [x for x in payload if isinstance(x, dict)], total
     return [], total
 
-def scrape_latest_watch_id_from_public_channel() -> Optional[str]:
+def scrape_latest_watch_id() -> Optional[str]:
     """
-    Scrapes the public channel page and pulls the first watch id it can find.
-    This works even if the API is stale/incomplete.
+    Robust scrape:
+      - try 3 times per URL
+      - 10s timeout per attempt
+      - parse /watch/<id> OR video?id=<id>
+      - returns first match found
     """
-    try:
-        r = requests.get(ADILO_PUBLIC_CHANNEL_URL, headers={"User-Agent": USER_AGENT}, timeout=25)
-        print(f"[ADILO] SCRAPE {ADILO_PUBLIC_CHANNEL_URL} -> HTTP {r.status_code}")
-        if r.status_code >= 400:
-            return None
-        html = r.text
+    urls = [u for u in ADILO_PUBLIC_SCRAPE_URLS if u]
+    for base_url in urls:
+        for attempt in range(1, 4):
+            try:
+                print(f"[ADILO] SCRAPE {base_url} attempt={attempt}")
+                r = requests.get(base_url, headers={"User-Agent": USER_AGENT}, timeout=10)
+                print(f"[ADILO] SCRAPE status={r.status_code}")
+                if r.status_code >= 400:
+                    time.sleep(1.2 * attempt)
+                    continue
 
-        # Most common: /watch/<id>
-        m = re.search(r"/watch/([A-Za-z0-9_-]{6,})", html)
-        if m:
-            return m.group(1)
+                html = r.text
 
-        # Sometimes: video?id=<id>
-        m = re.search(r"video\?id=([A-Za-z0-9_-]{6,})", html)
-        if m:
-            return m.group(1)
+                # prefer explicit "video?id=" pattern
+                m = re.search(r"video\?id=([A-Za-z0-9_-]{6,})", html)
+                if m:
+                    return m.group(1)
 
-        # Last-resort: look for JSON-ish strings containing "watch/"
-        m = re.search(r"watch/([A-Za-z0-9_-]{6,})", html)
-        if m:
-            return m.group(1)
+                # then /watch/<id>
+                m = re.search(r"/watch/([A-Za-z0-9_-]{6,})", html)
+                if m:
+                    return m.group(1)
 
-        return None
-    except Exception as e:
-        print("[ADILO] SCRAPE failed:", e)
-        return None
+                # last resort
+                m = re.search(r"watch/([A-Za-z0-9_-]{6,})", html)
+                if m:
+                    return m.group(1)
+
+                time.sleep(1.2 * attempt)
+            except Exception as e:
+                print(f"[ADILO] SCRAPE error: {e}")
+                time.sleep(1.2 * attempt)
+    return None
 
 def resolve_featured_adilo_watch_url() -> str:
-    """
-    Priority:
-      0) If FEATURED_VIDEO_FORCE_ID is set -> use it
-      1) Try API last pages -> pick newest upload_date
-      2) If API newest is stale (older than 30 days), scrape public channel page for newest watch id
-    """
-    # Manual override (optional)
+    # emergency override
     if FEATURED_VIDEO_FORCE_ID:
         forced = f"https://adilo.bigcommand.com/watch/{FEATURED_VIDEO_FORCE_ID}"
         print("[ADILO] Using FEATURED_VIDEO_FORCE_ID:", forced)
         return forced
 
-    # API attempt
+    # API attempt (known stale, but keep it)
     if ADILO_PUBLIC_KEY and ADILO_SECRET_KEY and ADILO_PROJECT_ID:
         try:
             _, total = _fetch_files_page(ADILO_PROJECT_ID, 1, 50)
@@ -571,6 +545,7 @@ def resolve_featured_adilo_watch_url() -> str:
                     prev_candidates = prev_page
 
                 candidates = last_page + prev_candidates
+
                 ids = []
                 seen = set()
                 for it in candidates:
@@ -595,29 +570,28 @@ def resolve_featured_adilo_watch_url() -> str:
                     if dt and (newest_dt is None or dt > newest_dt):
                         newest_dt = dt
                         newest_id = fid
-                    time.sleep(0.04)
+                    time.sleep(0.03)
 
                 if newest_id and newest_dt:
                     watch_url = f"https://adilo.bigcommand.com/watch/{newest_id}"
                     print(f"[ADILO] API newest candidate: {watch_url} dt={newest_dt.isoformat()}")
 
-                    # If API newest is "recent enough", trust it
+                    # only trust if within 30 days
                     if newest_dt > (utcnow() - timedelta(days=30)) and url_ok(watch_url):
                         return watch_url
 
-                    print("[ADILO] API appears stale (or candidate not reachable). Falling back to public scrape.")
+                    print("[ADILO] API appears stale. Falling back to scrape.")
         except Exception as e:
             print("[ADILO] API resolution failed:", e)
 
-    # Public scrape fallback (this should find K4AxdfCP)
-    watch_id = scrape_latest_watch_id_from_public_channel()
+    # Scrape fallback (now with retries + faster timeouts)
+    watch_id = scrape_latest_watch_id()
     if watch_id:
         url = f"https://adilo.bigcommand.com/watch/{watch_id}"
-        print("[ADILO] Public scrape watch url:", url)
+        print("[ADILO] Scrape watch url:", url)
         if url_ok(url):
             return url
 
-    # Final fallback
     return FEATURED_VIDEO_FALLBACK_URL
 
 
