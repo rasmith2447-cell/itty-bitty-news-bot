@@ -1,19 +1,70 @@
-name: Itty Bitty Gaming News Bot
+name: Itty Bitty Gaming News Bot (3x Daily Pulls)
 
 on:
+  workflow_dispatch:
   schedule:
-    # GitHub cron uses UTC (PT assumed UTC-8 for MVP)
-    - cron: "0 15 * * *"  # 7:00am PT
-    - cron: "0 21 * * *"  # 1:00pm PT
-    - cron: "0 2 * * *"   # 6:00pm PT
-  workflow_dispatch: {}
+    # We run "hourly-ish" only at the UTC hours that could map to 7am/1pm/6pm PT
+    # across DST changes. A guard step below prevents double-posting.
+    #
+    # 7am PT -> 14:00 UTC (PDT) or 15:00 UTC (PST)
+    - cron: "0 14 * * *"
+    - cron: "0 15 * * *"
+
+    # 1pm PT -> 20:00 UTC (PDT) or 21:00 UTC (PST)
+    - cron: "0 20 * * *"
+    - cron: "0 21 * * *"
+
+    # 6pm PT -> 01:00 UTC (PDT) or 02:00 UTC (PST)
+    - cron: "0 1 * * *"
+    - cron: "0 2 * * *"
 
 jobs:
-  run-bot:
+  pull_and_post:
     runs-on: ubuntu-latest
+
+    env:
+      # IMPORTANT: if your repo uses a different secret name for the main bot channel,
+      # swap it here. This is the standard name used in the scripts we've been running.
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+      # Keep your existing behavior (RAW mode pull/post)
+      MODE: RAW
+      BREAKING_MODE: "False"
+
+      USER_AGENT: IttyBittyGamingNews/NewsPull
+
+      # DST Guard settings (prevents double-posting when both UTC crons run)
+      GUARD_TZ: America/Los_Angeles
+      GUARD_WINDOW_MINUTES: "15"
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Guard (DST-safe: only run at 7am, 1pm, 6pm PT)
+        if: ${{ github.event_name == 'schedule' }}
+        run: |
+          echo "Running DST guard…"
+          TZ="${GUARD_TZ}" date
+
+          HH="$(TZ="${GUARD_TZ}" date +%H)"
+          MM="$(TZ="${GUARD_TZ}" date +%M)"
+
+          echo "Local time (${GUARD_TZ}) is HH=${HH} MM=${MM}"
+
+          # Only allow if within the first N minutes of the target hour.
+          # Target hours: 07, 13, 18 (7am, 1pm, 6pm PT)
+          if [ "${MM}" -ge "${GUARD_WINDOW_MINUTES}" ]; then
+            echo "Outside guard minute window. Exiting without posting."
+            exit 0
+          fi
+
+          if [ "${HH}" != "07" ] && [ "${HH}" != "13" ] && [ "${HH}" != "18" ]; then
+            echo "Not a target posting hour (07/13/18). Exiting without posting."
+            exit 0
+          fi
+
+          echo "Guard passed. Continuing."
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -21,20 +72,10 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Run bot
-        env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          MAX_POSTS_PER_RUN: "12"
-          TITLE_FUZZY_THRESHOLD: "92"
-          USER_AGENT: "IttyBittyGamingNewsBot/1.7"
-        run: python main.py
-
-      - name: Commit updated state.json
         run: |
-          git config user.name "itty-bitty-bot"
-          git config user.email "itty-bitty-bot@users.noreply.github.com"
-          git add state.json
-          git diff --cached --quiet || git commit -m "Update state"
-          git push
+          python -m pip install --upgrade pip
+          pip install feedparser requests beautifulsoup4 python-dateutil
+
+      - name: Run main bot pull
+        run: |
+          python main.py
