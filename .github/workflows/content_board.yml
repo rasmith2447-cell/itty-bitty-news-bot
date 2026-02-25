@@ -3,7 +3,6 @@ name: Itty Bitty Gaming News - Digest
 on:
   workflow_dispatch:
   schedule:
-    # Run every 30 minutes; digest.py guard allows posting near 7pm PT only.
     - cron: "*/30 * * * *"
 
 jobs:
@@ -32,7 +31,7 @@ jobs:
 
       - name: Run digest (posts to Gaming News)
         env:
-          # ✅ digest.py only reads DISCORD_WEBHOOK_URL, so we map your secret into it.
+          # Digest channel webhook
           DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
 
           # Manual runs should always post immediately
@@ -54,18 +53,12 @@ jobs:
           # YouTube RSS (your channel id)
           YOUTUBE_RSS_URL: "https://www.youtube.com/feeds/videos.xml?channel_id=UC0SJd4h7GQqoYTVjlDnSzqQ"
 
-          # Optional manual overrides (repo variables)
-          YOUTUBE_FEATURED_URL: ${{ vars.YOUTUBE_FEATURED_URL }}
-          YOUTUBE_FEATURED_TITLE: ${{ vars.YOUTUBE_FEATURED_TITLE }}
-
-          # Adilo settings
+          # Adilo: force the latest video id you provided
+          FEATURED_VIDEO_FORCE_ID: "_cOM6_Yy"
           FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
           ADILO_PUBLIC_LATEST_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
           ADILO_PUBLIC_HOME_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
           FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
-
-          # Stable override (recommended if scrape times out)
-          FEATURED_VIDEO_FORCE_ID: ${{ vars.FEATURED_VIDEO_FORCE_ID }}
 
           # Feed list (optional repo variable)
           FEED_URLS: ${{ vars.FEED_URLS }}
