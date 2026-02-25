@@ -2,6 +2,16 @@ name: Content Board (Nightly Digest)
 
 on:
   workflow_dispatch:
+    inputs:
+      force_post:
+        description: "Force post (bypass guard + dedupe) for manual runs"
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+  # DST-safe schedule (7pm PT = 2am UTC in PDT, 3am UTC in PST)
   schedule:
     - cron: "*/10 2,3 * * *"
 
@@ -24,6 +34,21 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install requests
 
+      - name: Secret presence check (values hidden)
+        env:
+          CONTENT_BOARD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
+          ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
+          ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
+        run: |
+          echo "SECRET PRESENCE CHECK (values hidden)"
+          if [ -n "$CONTENT_BOARD_WEBHOOK_URL" ]; then echo "CONTENT_BOARD_WEBHOOK_URL=PRESENT"; else echo "CONTENT_BOARD_WEBHOOK_URL=MISSING"; fi
+          if [ -n "$ADILO_PUBLIC_KEY" ]; then echo "ADILO_PUBLIC_KEY=PRESENT"; else echo "ADILO_PUBLIC_KEY=MISSING"; fi
+          if [ -n "$ADILO_SECRET_KEY" ]; then echo "ADILO_SECRET_KEY=PRESENT"; else echo "ADILO_SECRET_KEY=MISSING"; fi
+          echo "DONE"
+
+      # -------------------------
+      # Latest YouTube upload (scrape /videos) — filters out Shorts
+      # -------------------------
       - name: Resolve latest YouTube video (scrape, no shorts)
         env:
           YT_VIDEOS_URL: "https://www.youtube.com/@smitty-2447/videos"
@@ -88,20 +113,18 @@ jobs:
               print(f"[YT] oEmbed failed (title may be blank): {e}", file=sys.stderr)
 
           env_path = os.getenv("GITHUB_ENV")
-          if not env_path:
-              print("[YT] Missing GITHUB_ENV (unexpected).", file=sys.stderr)
-              sys.exit(0)
-
-          safe_title = title.replace("\n", " ").replace("\r", " ").strip()
-
-          with open(env_path, "a", encoding="utf-8") as f:
-              f.write(f"YOUTUBE_FEATURED_URL={watch_url}\n")
-              f.write(f"YOUTUBE_FEATURED_TITLE={safe_title}\n")
+          if env_path:
+              with open(env_path, "a", encoding="utf-8") as f:
+                  f.write(f"YOUTUBE_FEATURED_URL={watch_url}\n")
+                  f.write(f"YOUTUBE_FEATURED_TITLE={title.replace(chr(10),' ').replace(chr(13),' ').strip()}\n")
 
           print(f"[YT] latest_url={watch_url}")
           print(f"[YT] latest_title={title}")
           PY
 
+      # -------------------------
+      # Latest Adilo upload (scrape public latest page)
+      # -------------------------
       - name: Resolve latest Adilo video (scrape + fail if missing)
         env:
           ADILO_LATEST_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
@@ -123,10 +146,6 @@ jobs:
               "Referer": "https://adilo.bigcommand.com/",
           }
 
-          if not latest_url:
-              print("[ADILO] Missing ADILO_LATEST_URL", file=sys.stderr)
-              sys.exit(1)
-
           try:
               r = requests.get(latest_url, headers=headers, timeout=30)
               r.raise_for_status()
@@ -139,11 +158,9 @@ jobs:
               r'adilo\.bigcommand\.com/watch/([A-Za-z0-9_-]+)',
               r'["\']\/watch\/([A-Za-z0-9_-]+)["\']',
               r'\\\/watch\\\/([A-Za-z0-9_-]+)',
-              r'watch\/([A-Za-z0-9_-]+)',
               r'video\?id=([A-Za-z0-9_-]+)',
               r'video\?id\\u003d([A-Za-z0-9_-]+)',
               r'["\']watchId["\']\s*:\s*["\']([A-Za-z0-9_-]+)["\']',
-              r'["\']id["\']\s*:\s*["\']([A-Za-z0-9_-]+)["\']',
           ]
 
           watch_id = None
@@ -153,21 +170,14 @@ jobs:
                   watch_id = m.group(1)
                   break
 
-          if watch_id and len(watch_id) < 6:
-              watch_id = None
-
-          if not watch_id:
+          if not watch_id or len(watch_id) < 6:
               snippet = html[:800].replace("\n", " ").replace("\r", " ")
               print("[ADILO] Could not extract latest watch id from HTML.", file=sys.stderr)
-              print(f"[ADILO] Page status={r.status_code} url={latest_url}", file=sys.stderr)
-              print(f"[ADILO] HTML snippet={snippet}", file=sys.stderr)
+              print(f"[ADILO] url={latest_url} status={r.status_code}", file=sys.stderr)
+              print(f"[ADILO] snippet={snippet}", file=sys.stderr)
               sys.exit(1)
 
           env_path = os.getenv("GITHUB_ENV")
-          if not env_path:
-              print("[ADILO] Missing GITHUB_ENV (unexpected).", file=sys.stderr)
-              sys.exit(1)
-
           with open(env_path, "a", encoding="utf-8") as f:
               f.write(f"FEATURED_VIDEO_FORCE_ID={watch_id}\n")
 
@@ -178,6 +188,9 @@ jobs:
       - name: Run digest
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
+
+          # Manual run override
+          DIGEST_FORCE_POST: ${{ github.event.inputs.force_post }}
 
           DIGEST_WINDOW_HOURS: "24"
           DIGEST_TOP_N: "5"
