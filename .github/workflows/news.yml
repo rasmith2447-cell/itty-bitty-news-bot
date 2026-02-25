@@ -1,67 +1,25 @@
-name: Itty Bitty Gaming News Bot (3x Daily Pulls)
+name: Itty Bitty Gaming News Bot (3x Daily)
 
 on:
   workflow_dispatch:
   schedule:
-    # 7:00am PT -> 14:00 UTC (PDT) or 15:00 UTC (PST)
-    - cron: "0 14 * * *"
-    - cron: "0 15 * * *"
-
-    # 1:00pm PT -> 20:00 UTC (PDT) or 21:00 UTC (PST)
-    - cron: "0 20 * * *"
-    - cron: "0 21 * * *"
-
-    # 6:00pm PT -> 01:00 UTC (PDT) or 02:00 UTC (PST)
-    - cron: "0 1 * * *"
-    - cron: "0 2 * * *"
+    # 3x daily: 7:00am, 12:30pm, 6:00pm Pacific
+    # GitHub Actions uses UTC in cron.
+    # PST (UTC-8): 7:00 -> 15:00 UTC, 12:30 -> 20:30 UTC, 18:00 -> 02:00 UTC next day
+    # PDT (UTC-7): 7:00 -> 14:00 UTC, 12:30 -> 19:30 UTC, 18:00 -> 01:00 UTC next day
+    # We'll run more frequently and let your script’s own de-dupe + filters handle repeats.
+    - cron: "0 14,15 * * *"
+    - cron: "30 19,20 * * *"
+    - cron: "0 1,2 * * *"
 
 jobs:
-  pull_and_post:
+  raw_bot:
     runs-on: ubuntu-latest
-
-    env:
-      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-      MODE: RAW
-      BREAKING_MODE: "False"
-      USER_AGENT: IttyBittyGamingNews/NewsPull
-
-      # DST guard configuration
-      GUARD_TZ: America/Los_Angeles
-      GUARD_WINDOW_MINUTES: "15"
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Guard (DST-safe, schedule only)
-        if: ${{ github.event_name == 'schedule' }}
-        run: |
-          python - <<'PY'
-          from datetime import datetime
-          from zoneinfo import ZoneInfo
-          import os, sys
-
-          tz = os.getenv("GUARD_TZ", "America/Los_Angeles")
-          window = int(os.getenv("GUARD_WINDOW_MINUTES", "15"))
-
-          now = datetime.now(ZoneInfo(tz))
-          hh = now.strftime("%H")
-          mm = int(now.strftime("%M"))
-
-          print(f"[GUARD] Local time in {tz}: {now.strftime('%Y-%m-%d %H:%M:%S %Z')}")
-
-          if mm >= window:
-              print("[GUARD] Outside minute window. Exiting without posting.")
-              sys.exit(0)
-
-          if hh not in ("07", "13", "18"):
-              print("[GUARD] Not a target hour (07/13/18). Exiting without posting.")
-              sys.exit(0)
-
-          print("[GUARD] Passed. Continuing.")
-          PY
-
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -69,8 +27,15 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install feedparser requests beautifulsoup4 python-dateutil rapidfuzz
+          pip install -r requirements.txt
 
-      - name: Run main bot
+      - name: Run RAW bot (Gaming Blerbs)
+        env:
+          # ✅ RAW channel webhook
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+          USER_AGENT: "IttyBittyGamingNews/Bot"
+          MODE: "RAW"
+          BREAKING_MODE: "False"
         run: |
           python main.py
