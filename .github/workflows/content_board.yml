@@ -1,29 +1,23 @@
-name: Content Board (Nightly Digest)
+name: Itty Bitty Gaming News - Bot + Digest
 
 on:
   workflow_dispatch:
-    inputs:
-      force_post:
-        description: "Force post (bypass guard + dedupe) for manual runs"
-        required: true
-        default: "false"
-        type: choice
-        options:
-          - "false"
-          - "true"
-  # DST-safe schedule (7pm PT = 2am UTC in PDT, 3am UTC in PST)
   schedule:
-    - cron: "*/10 2,3 * * *"
+    # Run frequently; each script decides what to do.
+    # - main.py will post new items when found
+    # - digest.py will only post once per local day near 7pm PT (guarded)
+    - cron: "*/30 * * * *"
 
 jobs:
-  post_digest:
+  news_bot:
+    name: News Pull + Content Board
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -31,195 +25,80 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          pip install requests
+          # main.py requirements (adjust if you add more libs later)
+          pip install requests beautifulsoup4 lxml rapidfuzz
 
-      - name: Secret presence check (values hidden)
+      - name: Run news bot (main.py)
         env:
+          # Webhooks (secrets)
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           CONTENT_BOARD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
-          ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
-          ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
+
+          # General
+          USER_AGENT: "IttyBittyGamingNews/Bot"
+
+          # Optional: your bot modes if you use them
+          MODE: "RAW"
+          BREAKING_MODE: "False"
+
         run: |
-          echo "SECRET PRESENCE CHECK (values hidden)"
-          if [ -n "$CONTENT_BOARD_WEBHOOK_URL" ]; then echo "CONTENT_BOARD_WEBHOOK_URL=PRESENT"; else echo "CONTENT_BOARD_WEBHOOK_URL=MISSING"; fi
-          if [ -n "$ADILO_PUBLIC_KEY" ]; then echo "ADILO_PUBLIC_KEY=PRESENT"; else echo "ADILO_PUBLIC_KEY=MISSING"; fi
-          if [ -n "$ADILO_SECRET_KEY" ]; then echo "ADILO_SECRET_KEY=PRESENT"; else echo "ADILO_SECRET_KEY=MISSING"; fi
-          echo "DONE"
+          python main.py
 
-      # -------------------------
-      # Latest YouTube upload (scrape /videos) — filters out Shorts
-      # -------------------------
-      - name: Resolve latest YouTube video (scrape, no shorts)
-        env:
-          YT_VIDEOS_URL: "https://www.youtube.com/@smitty-2447/videos"
-          USER_AGENT: "Mozilla/5.0 (compatible; IttyBittyGamingNewsBot/1.0)"
+      # OPTIONAL: If your bot needs to commit state.json updates, keep your existing git commit step here.
+      # If you already have a commit step in your current workflow, copy it below this comment and keep it as-is.
+
+  digest:
+    name: Evening Digest Newsletter
+    runs-on: ubuntu-latest
+    needs: news_bot
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
         run: |
-          python - << 'PY'
-          import os, re, sys
-          import requests
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml python-dateutil
 
-          videos_url = os.getenv("YT_VIDEOS_URL", "").strip()
-          ua = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.0").strip()
-          headers = {"User-Agent": ua, "Accept-Language": "en-US,en;q=0.9"}
-
-          if not videos_url:
-              print("[YT] Missing YT_VIDEOS_URL", file=sys.stderr)
-              sys.exit(0)
-
-          try:
-              r = requests.get(videos_url, headers=headers, timeout=25)
-              r.raise_for_status()
-              html = r.text
-          except Exception as e:
-              print(f"[YT] Failed to fetch videos page: {e}", file=sys.stderr)
-              sys.exit(0)
-
-          url_pat = re.compile(r'"url"\s*:\s*"(?P<url>\/watch\?v=[A-Za-z0-9_-]{11}|\/shorts\/[A-Za-z0-9_-]{11})"')
-          seen = set()
-          ordered_urls = []
-          for m in url_pat.finditer(html):
-              u = m.group("url")
-              if u in seen:
-                  continue
-              seen.add(u)
-              ordered_urls.append(u)
-
-          watch_url = None
-          for u in ordered_urls:
-              if u.startswith("/watch?v="):
-                  watch_url = "https://www.youtube.com" + u
-                  break
-
-          if not watch_url:
-              m = re.search(r'"videoId"\s*:\s*"([A-Za-z0-9_-]{11})"', html)
-              if m:
-                  watch_url = f"https://www.youtube.com/watch?v={m.group(1)}"
-
-          if not watch_url:
-              print("[YT] Could not find a suitable /watch video. Skipping YouTube auto.", file=sys.stderr)
-              sys.exit(0)
-
-          title = ""
-          try:
-              oembed = requests.get(
-                  "https://www.youtube.com/oembed",
-                  params={"url": watch_url, "format": "json"},
-                  headers=headers,
-                  timeout=20,
-              )
-              oembed.raise_for_status()
-              title = (oembed.json().get("title") or "").strip()
-          except Exception as e:
-              print(f"[YT] oEmbed failed (title may be blank): {e}", file=sys.stderr)
-
-          env_path = os.getenv("GITHUB_ENV")
-          if env_path:
-              with open(env_path, "a", encoding="utf-8") as f:
-                  f.write(f"YOUTUBE_FEATURED_URL={watch_url}\n")
-                  f.write(f"YOUTUBE_FEATURED_TITLE={title.replace(chr(10),' ').replace(chr(13),' ').strip()}\n")
-
-          print(f"[YT] latest_url={watch_url}")
-          print(f"[YT] latest_title={title}")
-          PY
-
-      # -------------------------
-      # Latest Adilo upload (scrape public latest page)
-      # -------------------------
-      - name: Resolve latest Adilo video (scrape + fail if missing)
+      - name: Run digest (digest.py)
         env:
-          ADILO_LATEST_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
-          USER_AGENT: "Mozilla/5.0 (compatible; IttyBittyGamingNewsBot/1.0)"
-        run: |
-          python - << 'PY'
-          import os, re, sys
-          import requests
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
-          latest_url = os.getenv("ADILO_LATEST_URL", "").strip()
-          ua = os.getenv("USER_AGENT", "IttyBittyGamingNewsBot/1.0").strip()
-
-          headers = {
-              "User-Agent": ua,
-              "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-              "Accept-Language": "en-US,en;q=0.9",
-              "Cache-Control": "no-cache",
-              "Pragma": "no-cache",
-              "Referer": "https://adilo.bigcommand.com/",
-          }
-
-          try:
-              r = requests.get(latest_url, headers=headers, timeout=30)
-              r.raise_for_status()
-              html = r.text
-          except Exception as e:
-              print(f"[ADILO] Failed to fetch latest page: {e}", file=sys.stderr)
-              sys.exit(1)
-
-          patterns = [
-              r'adilo\.bigcommand\.com/watch/([A-Za-z0-9_-]+)',
-              r'["\']\/watch\/([A-Za-z0-9_-]+)["\']',
-              r'\\\/watch\\\/([A-Za-z0-9_-]+)',
-              r'video\?id=([A-Za-z0-9_-]+)',
-              r'video\?id\\u003d([A-Za-z0-9_-]+)',
-              r'["\']watchId["\']\s*:\s*["\']([A-Za-z0-9_-]+)["\']',
-          ]
-
-          watch_id = None
-          for pat in patterns:
-              m = re.search(pat, html)
-              if m:
-                  watch_id = m.group(1)
-                  break
-
-          if not watch_id or len(watch_id) < 6:
-              snippet = html[:800].replace("\n", " ").replace("\r", " ")
-              print("[ADILO] Could not extract latest watch id from HTML.", file=sys.stderr)
-              print(f"[ADILO] url={latest_url} status={r.status_code}", file=sys.stderr)
-              print(f"[ADILO] snippet={snippet}", file=sys.stderr)
-              sys.exit(1)
-
-          env_path = os.getenv("GITHUB_ENV")
-          with open(env_path, "a", encoding="utf-8") as f:
-              f.write(f"FEATURED_VIDEO_FORCE_ID={watch_id}\n")
-
-          print(f"[ADILO] extracted_watch_id={watch_id}")
-          print(f"[ADILO] watch_url=https://adilo.bigcommand.com/watch/{watch_id}")
-          PY
-
-      - name: Run digest
-        env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
-
-          # Manual run override
-          DIGEST_FORCE_POST: ${{ github.event.inputs.force_post }}
-
+          # Digest settings
           DIGEST_WINDOW_HOURS: "24"
           DIGEST_TOP_N: "5"
           DIGEST_MAX_PER_SOURCE: "1"
 
+          # Guard settings (DST-safe)
           DIGEST_GUARD_TZ: "America/Los_Angeles"
           DIGEST_GUARD_LOCAL_HOUR: "19"
           DIGEST_GUARD_LOCAL_MINUTE: "0"
-          DIGEST_GUARD_WINDOW_MINUTES: "360"
+          DIGEST_GUARD_WINDOW_MINUTES: "120"
 
+          # Branding
           NEWSLETTER_NAME: "Itty Bitty Gaming News"
           NEWSLETTER_TAGLINE: "Snackable daily gaming news — five days a week."
+          USER_AGENT: "IttyBittyGamingNews/Digest"
 
-          FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
-          FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
-
-          FEATURED_VIDEO_FORCE_ID: ${{ env.FEATURED_VIDEO_FORCE_ID }}
-
-          ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
-          ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
-          ADILO_PROJECT_ID: "yz8kq5M8"
-
+          # Adilo
           ADILO_PUBLIC_LATEST_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
           ADILO_PUBLIC_HOME_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
+          FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
+          FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
+          FEATURED_VIDEO_FORCE_ID: ${{ vars.FEATURED_VIDEO_FORCE_ID }}
 
-          YOUTUBE_FEATURED_URL: ${{ env.YOUTUBE_FEATURED_URL }}
-          YOUTUBE_FEATURED_TITLE: ${{ env.YOUTUBE_FEATURED_TITLE }}
+          # YouTube (auto if your content_board step sets these repo vars; otherwise optional)
+          YOUTUBE_FEATURED_URL: ${{ vars.YOUTUBE_FEATURED_URL }}
+          YOUTUBE_FEATURED_TITLE: ${{ vars.YOUTUBE_FEATURED_TITLE }}
 
-          USER_AGENT: "IttyBittyGamingNews/Digest"
+          # Optional: override feeds via repo variable (one URL per line)
+          FEED_URLS: ${{ vars.FEED_URLS }}
 
         run: |
           python digest.py
