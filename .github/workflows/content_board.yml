@@ -27,9 +27,8 @@ jobs:
             requests \
             beautifulsoup4 \
             lxml \
-            rapidfuzz \
-            feedparser \
-            python-dateutil
+            python-dateutil \
+            feedparser
 
       - name: Run news bot (main.py)
         env:
