@@ -4,6 +4,7 @@
 import os
 import re
 import time
+import json
 import random
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
@@ -20,7 +21,6 @@ from email.utils import parsedate_to_datetime
 # =========================
 
 USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNews/Digest").strip()
-
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
 
 NEWSLETTER_NAME = os.getenv("NEWSLETTER_NAME", "Itty Bitty Gaming News").strip()
@@ -52,8 +52,7 @@ DEFAULT_FEEDS = [
 
 # YouTube auto
 YOUTUBE_CHANNEL_ID = os.getenv("YOUTUBE_CHANNEL_ID", "").strip()
-YOUTUBE_FEATURED_URL = os.getenv("YOUTUBE_FEATURED_URL", "").strip()   # optional override
-YOUTUBE_FEATURED_TITLE = os.getenv("YOUTUBE_FEATURED_TITLE", "").strip()  # optional override
+YOUTUBE_FEATURED_URL = os.getenv("YOUTUBE_FEATURED_URL", "").strip()
 
 # Adilo public pages
 ADILO_PUBLIC_LATEST_PAGE = os.getenv(
@@ -63,15 +62,12 @@ ADILO_PUBLIC_HOME_PAGE = os.getenv(
     "ADILO_PUBLIC_HOME_PAGE", "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 ).strip()
 
-# Debug override (ONLY use if you're forcing)
-FEATURED_VIDEO_FORCE_ID = os.getenv("FEATURED_VIDEO_FORCE_ID", "").strip()
-
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": USER_AGENT})
 
 
 # =========================
-# SMALL UTILITIES
+# UTILITIES
 # =========================
 
 def clamp(s: str, max_len: int) -> str:
@@ -261,7 +257,8 @@ def fetch_feed_items() -> list[dict]:
             resp.raise_for_status()
             parsed = feedparser.parse(resp.content)
             if getattr(parsed, "bozo", 0):
-                print(f"[RSS] bozo=1 for {url}: {getattr(parsed, 'bozo_exception', '')}")
+                # don't fail hard on bozo; many feeds are still usable
+                pass
 
             for e in parsed.entries:
                 title = (getattr(e, "title", "") or "").strip()
@@ -391,11 +388,11 @@ def build_story_embed(item: dict) -> dict:
 
 
 # =========================
-# YOUTUBE (PLAYER IN DISCORD)
+# YOUTUBE
 # =========================
 
 def get_latest_youtube_url() -> str:
-    # If you manually override it, use that.
+    # If you hardcode/override, respect it.
     if YOUTUBE_FEATURED_URL:
         return YOUTUBE_FEATURED_URL
 
@@ -405,6 +402,8 @@ def get_latest_youtube_url() -> str:
     rss_candidates = [
         f"https://www.youtube.com/feeds/videos.xml?channel_id={YOUTUBE_CHANNEL_ID}",
     ]
+
+    # Uploads playlist fallback (UU + channel id without UC)
     if YOUTUBE_CHANNEL_ID.startswith("UC") and len(YOUTUBE_CHANNEL_ID) > 2:
         rss_candidates.append(f"https://www.youtube.com/feeds/videos.xml?playlist_id=UU{YOUTUBE_CHANNEL_ID[2:]}")
 
@@ -423,7 +422,7 @@ def get_latest_youtube_url() -> str:
 
 
 # =============================
-# ADILO (MORE RELIABLE "LATEST")
+# ADILO (RELIABLE MOST RECENT)
 # =============================
 
 def _adilo_http_get(url: str, timeout: int = 20) -> str:
@@ -439,134 +438,214 @@ def _adilo_http_get(url: str, timeout: int = 20) -> str:
     return r.text
 
 
-def _adilo_pick_best_watch_url(html: str) -> str:
+def _dedup_keep_order(xs: list[str]) -> list[str]:
+    seen = set()
+    out = []
+    for x in xs:
+        if x and x not in seen:
+            seen.add(x)
+            out.append(x)
+    return out
+
+
+def _extract_adilo_ids_from_html(html: str) -> tuple[list[str], list[str]]:
     """
-    Priority:
-      1) og:url pointing to /watch/<id>
-      2) canonical /watch/<id>
-      3) last /watch/<id> found in DOM/text (often newest on listing pages)
+    Returns:
+      - ids_any: ids found anywhere (watch/, stage/, video?id=)
+      - ids_from_video_id_links: ids found specifically from video?id=... links (these are high-signal)
     """
-    soup = BeautifulSoup(str(html), "html.parser")
+    text = str(html)
+    soup = BeautifulSoup(text, "html.parser")
 
-    # 1) og:url
-    og_url = ""
-    og_tag = soup.find("meta", attrs={"property": "og:url"})
-    if og_tag and og_tag.get("content"):
-        og_url = og_tag.get("content", "").strip()
-        m = re.search(r"adilo\.bigcommand\.com/watch/([A-Za-z0-9_-]{6,})", og_url)
-        if m:
-            return f"https://adilo.bigcommand.com/watch/{m.group(1)}"
+    ids_any = []
+    ids_video_id = []
 
-    # 2) canonical
-    can = soup.find("link", attrs={"rel": "canonical"})
-    if can and can.get("href"):
-        href = can.get("href", "").strip()
-        m = re.search(r"adilo\.bigcommand\.com/watch/([A-Za-z0-9_-]{6,})", href)
-        if m:
-            return f"https://adilo.bigcommand.com/watch/{m.group(1)}"
+    # 1) Strongest signal: explicit video?id=XXXX in href/src/text
+    for m in re.finditer(r"video\?id=([A-Za-z0-9_-]{6,})", text):
+        ids_any.append(m.group(1))
+        ids_video_id.append(m.group(1))
 
-    # 3) collect ALL ids in DOM order
-    ids = []
+    # 2) Watch links
+    for m in re.finditer(r"/watch/([A-Za-z0-9_-]{6,})", text):
+        ids_any.append(m.group(1))
 
-    # first: anchors and iframes and meta contents in DOM order
-    for tag in soup.find_all(["a", "iframe", "meta"]):
-        val = ""
-        if tag.name == "a":
-            val = tag.get("href") or ""
-        elif tag.name == "iframe":
-            val = tag.get("src") or ""
-        elif tag.name == "meta":
-            val = tag.get("content") or ""
+    # 3) Stage links
+    for m in re.finditer(r"/stage/videos/([A-Za-z0-9_-]{6,})", text):
+        ids_any.append(m.group(1))
 
+    # Also check actual attributes where React apps sometimes stash URLs
+    for tag in soup.find_all(["a", "iframe"]):
+        val = (tag.get("href") or tag.get("src") or "").strip()
         if not val:
             continue
-
-        # watch
-        for m in re.finditer(r"/watch/([A-Za-z0-9_-]{6,})", val):
-            ids.append(m.group(1))
-
-        # full watch
-        for m in re.finditer(r"adilo\.bigcommand\.com/watch/([A-Za-z0-9_-]{6,})", val):
-            ids.append(m.group(1))
-
-        # video id param
         for m in re.finditer(r"video\?id=([A-Za-z0-9_-]{6,})", val):
-            ids.append(m.group(1))
-
-        # stage/videos
+            ids_any.append(m.group(1))
+            ids_video_id.append(m.group(1))
+        for m in re.finditer(r"/watch/([A-Za-z0-9_-]{6,})", val):
+            ids_any.append(m.group(1))
         for m in re.finditer(r"/stage/videos/([A-Za-z0-9_-]{6,})", val):
-            ids.append(m.group(1))
+            ids_any.append(m.group(1))
 
-    # also scan raw html as fallback
-    raw = str(html)
-    for m in re.finditer(r"adilo\.bigcommand\.com/watch/([A-Za-z0-9_-]{6,})", raw):
-        ids.append(m.group(1))
-    for m in re.finditer(r"/watch/([A-Za-z0-9_-]{6,})", raw):
-        ids.append(m.group(1))
-
-    # dedupe while preserving order
-    seen = set()
-    ordered = []
-    for vid in ids:
-        if vid not in seen:
-            seen.add(vid)
-            ordered.append(vid)
-
-    if ordered:
-        # KEY CHANGE: pick LAST id (often newest), not first
-        picked = ordered[-1]
-        return f"https://adilo.bigcommand.com/watch/{picked}"
-
-    return ""
+    return _dedup_keep_order(ids_any), _dedup_keep_order(ids_video_id)
 
 
-def scrape_latest_adilo_watch_url() -> str:
-    if FEATURED_VIDEO_FORCE_ID:
-        forced = f"https://adilo.bigcommand.com/watch/{FEATURED_VIDEO_FORCE_ID}"
-        print(f"[ADILO] Using FEATURED_VIDEO_FORCE_ID: {forced}")
-        return forced
+def _parse_best_datetime_from_watch_html(html: str) -> datetime | None:
+    """
+    Try to detect a date from a watch page.
+    Works across a bunch of common patterns; returns newest detected.
+    """
+    text = str(html)
+    candidates: list[datetime] = []
 
-    base = ADILO_PUBLIC_LATEST_PAGE.rstrip("/")
+    # ISO timestamps like 2026-02-25T03:18:22Z
+    for m in re.finditer(r"(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z)", text):
+        try:
+            candidates.append(datetime.fromisoformat(m.group(1).replace("Z", "+00:00")))
+        except Exception:
+            pass
+
+    # upload_date / createdAt etc: 2026-02-25 03:18:22 or 2026-02-25
+    for m in re.finditer(
+        r"(?:upload_date|uploadDate|created_at|createdAt|published_at|publishedAt)[^0-9]{0,25}"
+        r"(\d{4}-\d{2}-\d{2}(?:[ T]\d{2}:\d{2}:\d{2})?)",
+        text,
+        flags=re.I,
+    ):
+        s = m.group(1)
+        try:
+            if " " in s or "T" in s:
+                s2 = s.replace(" ", "T")
+                dt = datetime.fromisoformat(s2)
+                candidates.append(dt.replace(tzinfo=timezone.utc))
+            else:
+                candidates.append(datetime.fromisoformat(s).replace(tzinfo=timezone.utc))
+        except Exception:
+            pass
+
+    # Meta tags sometimes help
+    soup = BeautifulSoup(text, "html.parser")
+    for prop in ["article:published_time", "og:updated_time", "og:published_time"]:
+        tag = soup.find("meta", attrs={"property": prop})
+        if tag and tag.get("content"):
+            c = tag.get("content", "").strip()
+            try:
+                candidates.append(datetime.fromisoformat(c.replace("Z", "+00:00")))
+            except Exception:
+                pass
+
+    if not candidates:
+        return None
+
+    norm = []
+    for dt in candidates:
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        norm.append(dt.astimezone(timezone.utc))
+
+    return max(norm)
+
+
+def _adilo_watch_url(vid: str) -> str:
+    return f"https://adilo.bigcommand.com/watch/{vid}"
+
+
+def _adilo_public_video_url(vid: str) -> str:
+    return f"{ADILO_PUBLIC_LATEST_PAGE}?id={vid}"
+
+
+def scrape_latest_adilo_url() -> str:
+    """
+    Reliable strategy:
+      1) Fetch the public latest page with cache-busters.
+      2) Extract all candidate IDs.
+      3) Prefer candidates found in video?id=... links.
+      4) Verify candidates by requesting watch pages and picking the newest detected datetime.
+      5) If datetime detection fails, fall back to the last *video?id* candidate, else last any-candidate.
+    """
+    base_latest = ADILO_PUBLIC_LATEST_PAGE.rstrip("/")
+    base_home = ADILO_PUBLIC_HOME_PAGE.rstrip("/")
     cb = f"cb={int(time.time())}{random.randint(100,999)}"
 
-    candidates = [
-        base,
-        f"{base}?{cb}",
-        f"{base}/?{cb}",
-        f"{base}?video=latest&{cb}",
-        # home sometimes loads more reliably (but contains many IDs)
-        ADILO_PUBLIC_HOME_PAGE.rstrip("/"),
-        f"{ADILO_PUBLIC_HOME_PAGE.rstrip('/')}?{cb}",
+    pages = [
+        base_latest,
+        f"{base_latest}?{cb}",
+        f"{base_latest}/?{cb}",
+        f"{base_latest}?video=latest&{cb}",
+        base_home,
+        f"{base_home}?{cb}",
     ]
 
     attempts = [
         {"timeout": 25, "sleep": 0.0},
-        {"timeout": 18, "sleep": 1.2},
-        {"timeout": 12, "sleep": 1.8},
+        {"timeout": 18, "sleep": 1.0},
+        {"timeout": 12, "sleep": 1.6},
     ]
+
+    ids_any: list[str] = []
+    ids_video_id: list[str] = []
 
     for i, att in enumerate(attempts, start=1):
         timeout = att["timeout"]
         if att["sleep"]:
             time.sleep(att["sleep"])
 
-        for url in candidates:
+        for url in pages:
             try:
                 print(f"[ADILO] SCRAPE attempt={i} timeout={timeout} url={url}")
                 html = _adilo_http_get(url, timeout=timeout)
-                watch = _adilo_pick_best_watch_url(html)
-                if watch:
-                    m = re.search(r"/watch/([A-Za-z0-9_-]{6,})", watch)
-                    vid = m.group(1) if m else "UNKNOWN"
-                    print(f"[ADILO] Found candidate id={vid} -> {watch}")
-                    return watch
+                any_ids, video_ids = _extract_adilo_ids_from_html(html)
+                if any_ids:
+                    ids_any.extend(any_ids)
+                if video_ids:
+                    ids_video_id.extend(video_ids)
             except requests.exceptions.ReadTimeout:
                 print(f"[ADILO] Timeout url={url} (timeout={timeout})")
             except Exception as ex:
                 print(f"[ADILO] Error url={url}: {ex}")
 
-    print(f"[ADILO] Falling back: {ADILO_PUBLIC_HOME_PAGE}")
-    return ADILO_PUBLIC_HOME_PAGE
+        ids_any = _dedup_keep_order(ids_any)
+        ids_video_id = _dedup_keep_order(ids_video_id)
+
+        if ids_any or ids_video_id:
+            break
+
+    if not ids_any and not ids_video_id:
+        print(f"[ADILO] No IDs found. Falling back: {ADILO_PUBLIC_HOME_PAGE}")
+        return ADILO_PUBLIC_HOME_PAGE
+
+    # Probe: verify newest by watch-page datetime.
+    # Priority: video?id candidates first, then any candidates.
+    probe_pool = _dedup_keep_order(list(reversed(ids_video_id)) + list(reversed(ids_any)))
+    probe_pool = probe_pool[:12]  # don’t hammer Adilo
+
+    best: tuple[datetime, str] | None = None
+
+    for vid in probe_pool:
+        watch_url = _adilo_watch_url(vid)
+        try:
+            html = _adilo_http_get(watch_url, timeout=12)
+            dt = _parse_best_datetime_from_watch_html(html)
+            if dt:
+                if (best is None) or (dt > best[0]):
+                    best = (dt, watch_url)
+            time.sleep(0.25)
+        except Exception:
+            continue
+
+    if best:
+        print(f"[ADILO] Picked newest by watch-page datetime: {best[1]} dt={best[0].isoformat()}")
+        return best[1]
+
+    # No dates detected: fall back to strongest heuristic:
+    # prefer the last-seen video?id candidate (usually “current/latest selection”)
+    if ids_video_id:
+        fallback = _adilo_public_video_url(ids_video_id[-1])
+        print(f"[ADILO] No datetime found. Falling back to video?id heuristic: {fallback}")
+        return fallback
+
+    fallback = _adilo_watch_url(ids_any[-1]) if ids_any else ADILO_PUBLIC_HOME_PAGE
+    print(f"[ADILO] No datetime found. Falling back to newest-id heuristic: {fallback}")
+    return fallback
 
 
 def build_adilo_embed(url: str) -> dict:
@@ -650,26 +729,24 @@ def main():
     intro_lines.append("Tonight’s Top Stories")
 
     discord_post("\n".join(intro_lines).strip())
-    time.sleep(1.2)
+    time.sleep(1.1)
 
-    # One story at a time (keeps "card under story" behavior)
     for i, it in enumerate(stories, start=1):
         text = clamp(format_story_text(i, it), 1800)
         embed = build_story_embed(it)
         discord_post(text, embeds=[embed])
-        time.sleep(1.2)
+        time.sleep(1.1)
 
-    # Featured videos: YouTube should be playable => DO NOT attach custom embed.
+    # YouTube: post URL alone for Discord inline player
     yt_url = get_latest_youtube_url()
     if yt_url:
-        # Put URL on its own line so Discord unfurls with player
         discord_post("▶️ YouTube (latest)")
-        time.sleep(0.8)
-        discord_post(yt_url)  # <-- this is what makes the inline player appear
-        time.sleep(1.2)
+        time.sleep(0.7)
+        discord_post(yt_url)
+        time.sleep(1.0)
 
-    # Adilo: we post an embed with thumbnail + link
-    adilo_url = scrape_latest_adilo_watch_url()
+    # Adilo: scrape + verify newest
+    adilo_url = scrape_latest_adilo_url()
     adilo_embed = build_adilo_embed(adilo_url)
     discord_post("📺 Adilo (latest)\n" + adilo_url, embeds=[adilo_embed])
 
