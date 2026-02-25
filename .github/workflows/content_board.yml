@@ -3,7 +3,7 @@ name: Itty Bitty Gaming News - Digest
 on:
   workflow_dispatch:
   schedule:
-    # Run every 30 minutes; digest.py guard will only allow posting near 7pm PT.
+    # Run every 30 minutes; digest.py guard allows posting near 7pm PT only.
     - cron: "*/30 * * * *"
 
 jobs:
@@ -24,12 +24,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run digest (Gaming News)
+      - name: Run digest (Gaming News channel)
         env:
-          # ✅ DIGEST channel webhook (this is what was missing)
+          # ✅ This is the key fix: provide the digest channel webhook
           DISCORD_WEBHOOK_URL: ${{ secrets.DIGEST_WEBHOOK_URL }}
 
-          # If you manually click "Run workflow", force a post
+          # Manual runs should always post immediately
           DIGEST_FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && 'true' || '' }}
 
           DIGEST_WINDOW_HOURS: "24"
