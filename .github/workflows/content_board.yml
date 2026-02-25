@@ -8,7 +8,6 @@ on:
 jobs:
   digest:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -23,16 +22,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: SECRET PRESENCE CHECK (digest channel webhook)
-        env:
-          CONTENT_BOARD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
-        run: |
-          echo "CONTENT_BOARD_WEBHOOK_URL=$([ -n "$CONTENT_BOARD_WEBHOOK_URL" ] && echo PRESENT || echo MISSING)"
-
       - name: Run digest (posts to Gaming News)
         env:
-          # ✅ Use the secret you already have and that is PRESENT
-          DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DIGEST_WEBHOOK_URL }}
 
           DIGEST_FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && 'true' || '' }}
 
@@ -49,9 +41,19 @@ jobs:
           NEWSLETTER_TAGLINE: "Snackable daily gaming news — five days a week."
           USER_AGENT: "IttyBittyGamingNews/Digest"
 
-          FEATURED_VIDEO_FORCE_ID: ${{ vars.FEATURED_VIDEO_FORCE_ID }}
+          # YouTube auto-latest (set this as a Repo Variable)
+          YOUTUBE_RSS_URL: ${{ vars.YOUTUBE_RSS_URL }}
+
+          # Optional manual override
           YOUTUBE_FEATURED_URL: ${{ vars.YOUTUBE_FEATURED_URL }}
           YOUTUBE_FEATURED_TITLE: ${{ vars.YOUTUBE_FEATURED_TITLE }}
+
+          # Adilo
+          FEATURED_VIDEO_FORCE_ID: ${{ vars.FEATURED_VIDEO_FORCE_ID }}
+          ADILO_PUBLIC_LATEST_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
+          ADILO_PUBLIC_HOME_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
+          FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
+          FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
 
           FEED_URLS: ${{ vars.FEED_URLS }}
 
