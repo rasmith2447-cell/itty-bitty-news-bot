@@ -4,11 +4,10 @@
 import os
 import re
 import json
-import time
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
-from typing import List, Dict, Optional
+from typing import List, Dict
 from urllib.parse import urlparse
 
 import requests
@@ -38,9 +37,7 @@ DIGEST_FORCE_POST = os.getenv("DIGEST_FORCE_POST", "").strip().lower() in ("1", 
 
 # Featured video
 FEATURED_VIDEO_TITLE = os.getenv("FEATURED_VIDEO_TITLE", "Watch today’s Itty Bitty Gaming News").strip()
-ADILO_PUBLIC_LATEST_PAGE = os.getenv("ADILO_PUBLIC_LATEST_PAGE", "https://adilo.bigcommand.com/c/ittybittygamingnews/video").strip()
-ADILO_PUBLIC_HOME_PAGE = os.getenv("ADILO_PUBLIC_HOME_PAGE", "https://adilo.bigcommand.com/c/ittybittygamingnews/home").strip()
-FEATURED_VIDEO_FALLBACK_URL = os.getenv("FEATURED_VIDEO_FALLBACK_URL", ADILO_PUBLIC_HOME_PAGE).strip()
+FEATURED_VIDEO_FALLBACK_URL = os.getenv("FEATURED_VIDEO_FALLBACK_URL", "https://adilo.bigcommand.com/c/ittybittygamingnews/home").strip()
 FEATURED_VIDEO_FORCE_ID = os.getenv("FEATURED_VIDEO_FORCE_ID", "").strip()
 
 # YouTube
@@ -60,12 +57,10 @@ DEFAULT_FEED_URLS = [
 _env_feeds = os.getenv("FEED_URLS", "").strip()
 FEED_URLS = [f.strip() for f in _env_feeds.splitlines() if f.strip()] if _env_feeds else DEFAULT_FEED_URLS
 
-HEADERS = {
-    "User-Agent": USER_AGENT,
-    "Accept": "application/rss+xml, application/xml;q=0.9, text/xml;q=0.9, */*;q=0.8",
-}
-
 DIGEST_POST_STATE_FILE = "digest_post_state.json"
+
+# Discord hard limit is 2000 chars; stay safely below
+DISCORD_CHAR_LIMIT = 1900
 
 
 # =========================
@@ -77,8 +72,8 @@ class Item:
     url: str
     source: str
     published_utc: datetime
-    summary: str = ""
-    tags: List[str] = None
+    summary: str
+    tags: List[str]
 
 
 # =========================
@@ -114,7 +109,7 @@ def source_from_url(u: str) -> str:
     except Exception:
         return "Source"
 
-def clean_html(text: str) -> str:
+def clean_html(text: str, max_len: int = 420) -> str:
     if not text:
         return ""
     try:
@@ -123,8 +118,8 @@ def clean_html(text: str) -> str:
     except Exception:
         s = text
     s = re.sub(r"\s+", " ", s).strip()
-    if len(s) > 420:
-        s = s[:417].rstrip() + "…"
+    if len(s) > max_len:
+        s = s[: max_len - 1].rstrip() + "…"
     return s
 
 def looks_like_non_news(title: str, summary: str) -> bool:
@@ -152,7 +147,6 @@ def looks_like_non_news(title: str, summary: str) -> bool:
         "studio", "developer", "patch", "update", "launch", "reveal", "announced", "trailer",
         "dlc", "expansion", "demo", "early access", "game pass", "ps plus",
     ]
-    # must contain at least one gaming signal
     if not any(sig in blob for sig in gaming_signals):
         return True
 
@@ -229,21 +223,21 @@ def guard_should_post_now() -> bool:
 def discord_post(content: str):
     if not DISCORD_WEBHOOK_URL:
         raise RuntimeError("Missing DISCORD_WEBHOOK_URL")
-    r = requests.post(
-        DISCORD_WEBHOOK_URL,
-        json={"content": content},
-        headers={"User-Agent": USER_AGENT},
-        timeout=25
-    )
+
+    payload = {"content": content}
+    r = requests.post(DISCORD_WEBHOOK_URL, json=payload, headers={"User-Agent": USER_AGENT}, timeout=25)
+
+    # Helpful debug if Discord rejects
+    if r.status_code >= 400:
+        log(f"[DISCORD] HTTP {r.status_code} response: {r.text[:300]}")
     r.raise_for_status()
 
 
 # =========================
-# RSS FETCH (feedparser)
+# RSS FETCH
 # =========================
 def fetch_feed_items(feed_url: str) -> List[Item]:
     log(f"[RSS] GET {feed_url}")
-
     fp = feedparser.parse(feed_url, request_headers={"User-Agent": USER_AGENT})
 
     if getattr(fp, "bozo", 0):
@@ -263,7 +257,6 @@ def fetch_feed_items(feed_url: str) -> List[Item]:
                 dt = dateparser.parse(published)
             except Exception:
                 dt = None
-
         if dt is None:
             dt = datetime.now(ZoneInfo("UTC"))
         if dt.tzinfo is None:
@@ -271,7 +264,7 @@ def fetch_feed_items(feed_url: str) -> List[Item]:
         dt_utc = dt.astimezone(ZoneInfo("UTC"))
 
         summary = getattr(e, "summary", "") or getattr(e, "description", "") or ""
-        summary = clean_html(summary)
+        summary = clean_html(summary, max_len=420)
 
         url = normalize_url(link)
         source = source_from_url(url)
@@ -319,37 +312,65 @@ def pick_top(items: List[Item]) -> List[Item]:
 def adilo_latest_watch_url() -> str:
     if FEATURED_VIDEO_FORCE_ID:
         return f"https://adilo.bigcommand.com/watch/{FEATURED_VIDEO_FORCE_ID}"
-    # If you’re not forcing, keep a simple fallback (your existing scrape/Adilo API logic can live elsewhere)
     return FEATURED_VIDEO_FALLBACK_URL
 
-def build_message(items: List[Item]) -> str:
+
+# =========================
+# DISCORD MESSAGE BUILD + SAFE TRIM
+# =========================
+def build_message(items: List[Item], summary_max_len: int = 260) -> str:
     date_line = now_local().strftime("%B %d, %Y")
 
-    teaser = ""
+    teaser_lines = []
     for it in items[:3]:
-        teaser += f"► 🎮 {it.title}\n"
+        teaser_lines.append(f"► 🎮 {it.title}")
 
-    body = f"**{date_line}**\n\n**In Tonight’s Edition of {NEWSLETTER_NAME}…**\n{teaser}\n"
-    body += "## Tonight’s Top Stories\n\n"
+    header = (
+        f"**{date_line}**\n\n"
+        f"**In Tonight’s Edition of {NEWSLETTER_NAME}…**\n"
+        + "\n".join(teaser_lines)
+        + "\n\n"
+        f"## Tonight’s Top Stories\n\n"
+    )
+
+    parts = [header]
 
     for idx, it in enumerate(items, start=1):
         it.tags = build_tags(it.title, it.summary)
         tag_line = (" " + " ".join(it.tags)) if it.tags else ""
-        body += f"**{idx}) {it.title}**{tag_line}\n"
-        if it.summary:
-            body += f"{it.summary}\n"
-        body += f"Source: {it.source} — {it.url}\n\n"
 
-    # Featured video blocks
+        sm = clean_html(it.summary or "", max_len=summary_max_len)
+        parts.append(f"**{idx}) {it.title}**{tag_line}\n{sm}\nSource: {it.source} — {it.url}\n\n")
+
+    # Featured video blocks (YouTube above Adilo)
     if YOUTUBE_FEATURED_URL:
         yt_title = YOUTUBE_FEATURED_TITLE or "Latest episode on YouTube"
-        body += f"## ▶️ YouTube (same episode)\n**{yt_title}**\n{YOUTUBE_FEATURED_URL}\n\n"
+        parts.append(f"## ▶️ YouTube (same episode)\n**{yt_title}**\n{YOUTUBE_FEATURED_URL}\n\n")
 
     adilo_url = adilo_latest_watch_url()
-    body += f"## 📺 Featured Video (Adilo)\n**{FEATURED_VIDEO_TITLE}**\n{adilo_url}\n\n"
+    parts.append(f"## 📺 Featured Video (Adilo)\n**{FEATURED_VIDEO_TITLE}**\n{adilo_url}\n\n")
 
-    body += "—\nThat’s it for tonight’s Itty Bitty.\nCatch the snackable breakdown tomorrow.\n"
-    return body
+    parts.append("—\nThat’s it for tonight’s Itty Bitty.\nCatch the snackable breakdown tomorrow.\n")
+    return "".join(parts)
+
+def fit_to_discord(items: List[Item]) -> str:
+    # Try with full-ish summaries, then progressively shrink.
+    for max_len in (320, 260, 200, 140, 100):
+        msg = build_message(items, summary_max_len=max_len)
+        if len(msg) <= DISCORD_CHAR_LIMIT:
+            log(f"[DISCORD] Message size OK: {len(msg)} chars (summary_max_len={max_len})")
+            return msg
+
+    # Still too big: drop story 5 if necessary, then re-fit.
+    if len(items) > 4:
+        log("[DISCORD] Still too long. Dropping story #5 to fit Discord limits.")
+        return fit_to_discord(items[:4])
+
+    # Absolute last resort: hard truncate.
+    msg = build_message(items, summary_max_len=80)
+    if len(msg) > DISCORD_CHAR_LIMIT:
+        msg = msg[: DISCORD_CHAR_LIMIT - 1] + "…"
+    return msg
 
 
 def main():
@@ -388,7 +409,7 @@ def main():
 
     top = pick_top(filtered)
 
-    msg = build_message(top)
+    msg = fit_to_discord(top)
     discord_post(msg)
     mark_posted_today()
 
