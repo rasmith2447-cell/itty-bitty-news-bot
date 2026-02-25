@@ -3,7 +3,6 @@ name: Itty Bitty Gaming News - Digest
 on:
   workflow_dispatch:
   schedule:
-    # Run every 30 minutes; digest.py guard allows posting near 7pm PT only.
     - cron: "*/30 * * * *"
 
 jobs:
@@ -24,9 +23,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run digest (Gaming News channel)
+      - name: SECRET PRESENCE CHECK (digest webhook)
         env:
-          # ✅ This is the key fix: provide the digest channel webhook
+          DIGEST_WEBHOOK_URL: ${{ secrets.DIGEST_WEBHOOK_URL }}
+        run: |
+          echo "DIGEST_WEBHOOK_URL=$([ -n "$DIGEST_WEBHOOK_URL" ] && echo PRESENT || echo MISSING)"
+
+      - name: Run digest (posts to Gaming News)
+        env:
+          # ✅ This is the only webhook digest.py will read
           DISCORD_WEBHOOK_URL: ${{ secrets.DIGEST_WEBHOOK_URL }}
 
           # Manual runs should always post immediately
