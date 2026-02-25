@@ -2,10 +2,6 @@ name: Content Board (Nightly Digest)
 
 on:
   workflow_dispatch:
-  # DST-safe scheduling:
-  # - 7pm PT is 03:00 UTC during PST (winter)
-  # - 7pm PT is 02:00 UTC during PDT (summer)
-  # Run every 10 minutes during BOTH hours; digest.py guard posts only once.
   schedule:
     - cron: "*/10 2,3 * * *"
 
@@ -28,10 +24,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install requests
 
-      # -------------------------
-      # AUTO: Latest YouTube upload (scrape /videos + oEmbed for title)
-      # -------------------------
-      - name: Resolve latest YouTube video (scrape)
+      - name: Resolve latest YouTube video (scrape, no shorts)
         env:
           YT_VIDEOS_URL: "https://www.youtube.com/@smitty-2447/videos"
           USER_AGENT: "Mozilla/5.0 (compatible; IttyBittyGamingNewsBot/1.0)"
@@ -56,13 +49,30 @@ jobs:
               print(f"[YT] Failed to fetch videos page: {e}", file=sys.stderr)
               sys.exit(0)
 
-          m = re.search(r'"videoId"\s*:\s*"([A-Za-z0-9_-]{11})"', html)
-          if not m:
-              print("[YT] Could not find videoId in /videos HTML. Skipping YouTube auto.", file=sys.stderr)
-              sys.exit(0)
+          url_pat = re.compile(r'"url"\s*:\s*"(?P<url>\/watch\?v=[A-Za-z0-9_-]{11}|\/shorts\/[A-Za-z0-9_-]{11})"')
+          seen = set()
+          ordered_urls = []
+          for m in url_pat.finditer(html):
+              u = m.group("url")
+              if u in seen:
+                  continue
+              seen.add(u)
+              ordered_urls.append(u)
 
-          video_id = m.group(1)
-          watch_url = f"https://www.youtube.com/watch?v={video_id}"
+          watch_url = None
+          for u in ordered_urls:
+              if u.startswith("/watch?v="):
+                  watch_url = "https://www.youtube.com" + u
+                  break
+
+          if not watch_url:
+              m = re.search(r'"videoId"\s*:\s*"([A-Za-z0-9_-]{11})"', html)
+              if m:
+                  watch_url = f"https://www.youtube.com/watch?v={m.group(1)}"
+
+          if not watch_url:
+              print("[YT] Could not find a suitable /watch video. Skipping YouTube auto.", file=sys.stderr)
+              sys.exit(0)
 
           title = ""
           try:
@@ -92,13 +102,6 @@ jobs:
           print(f"[YT] latest_title={title}")
           PY
 
-      # -------------------------
-      # AUTO: Latest Adilo upload (scrape public latest page)
-      #
-      # IMPORTANT:
-      # - We HARD FAIL if we can’t extract a watch id.
-      # - That prevents posting the home hub.
-      # -------------------------
       - name: Resolve latest Adilo video (scrape + fail if missing)
         env:
           ADILO_LATEST_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
@@ -132,14 +135,13 @@ jobs:
               print(f"[ADILO] Failed to fetch latest page: {e}", file=sys.stderr)
               sys.exit(1)
 
-          # Aggressive patterns (Adilo pages sometimes escape / as \/ inside JS blobs)
           patterns = [
               r'adilo\.bigcommand\.com/watch/([A-Za-z0-9_-]+)',
               r'["\']\/watch\/([A-Za-z0-9_-]+)["\']',
               r'\\\/watch\\\/([A-Za-z0-9_-]+)',
-              r'watch\/([A-Za-z0-9_-]+)',  # last resort, catches plain watch/ID
+              r'watch\/([A-Za-z0-9_-]+)',
               r'video\?id=([A-Za-z0-9_-]+)',
-              r'video\?id\\u003d([A-Za-z0-9_-]+)',  # sometimes = is escaped
+              r'video\?id\\u003d([A-Za-z0-9_-]+)',
               r'["\']watchId["\']\s*:\s*["\']([A-Za-z0-9_-]+)["\']',
               r'["\']id["\']\s*:\s*["\']([A-Za-z0-9_-]+)["\']',
           ]
@@ -151,7 +153,6 @@ jobs:
                   watch_id = m.group(1)
                   break
 
-          # Sanity: ignore obviously wrong short IDs
           if watch_id and len(watch_id) < 6:
               watch_id = None
 
@@ -162,8 +163,6 @@ jobs:
               print(f"[ADILO] HTML snippet={snippet}", file=sys.stderr)
               sys.exit(1)
 
-          watch_url = f"https://adilo.bigcommand.com/watch/{watch_id}"
-
           env_path = os.getenv("GITHUB_ENV")
           if not env_path:
               print("[ADILO] Missing GITHUB_ENV (unexpected).", file=sys.stderr)
@@ -173,36 +172,29 @@ jobs:
               f.write(f"FEATURED_VIDEO_FORCE_ID={watch_id}\n")
 
           print(f"[ADILO] extracted_watch_id={watch_id}")
-          print(f"[ADILO] watch_url={watch_url}")
+          print(f"[ADILO] watch_url=https://adilo.bigcommand.com/watch/{watch_id}")
           PY
 
       - name: Run digest
         env:
-          # Discord webhook for the forward-facing "content board" channel
           DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
 
-          # Digest behavior
           DIGEST_WINDOW_HOURS: "24"
           DIGEST_TOP_N: "5"
           DIGEST_MAX_PER_SOURCE: "1"
 
-          # Time guard (7pm PT) + DST handling
           DIGEST_GUARD_TZ: "America/Los_Angeles"
           DIGEST_GUARD_LOCAL_HOUR: "19"
-          DIGEST_GUARD_WINDOW_MINUTES: "15"
+          DIGEST_GUARD_WINDOW_MINUTES: "60"
 
-          # Branding
           NEWSLETTER_NAME: "Itty Bitty Gaming News"
           NEWSLETTER_TAGLINE: "Snackable daily gaming news — five days a week."
 
-          # Featured video section labels
           FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
           FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 
-          # FORCE Adilo newest (scraped)
           FEATURED_VIDEO_FORCE_ID: ${{ env.FEATURED_VIDEO_FORCE_ID }}
 
-          # Adilo API (keep)
           ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
           ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
           ADILO_PROJECT_ID: "yz8kq5M8"
@@ -210,7 +202,6 @@ jobs:
           ADILO_PUBLIC_LATEST_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
           ADILO_PUBLIC_HOME_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 
-          # YouTube (scraped)
           YOUTUBE_FEATURED_URL: ${{ env.YOUTUBE_FEATURED_URL }}
           YOUTUBE_FEATURED_TITLE: ${{ env.YOUTUBE_FEATURED_TITLE }}
 
