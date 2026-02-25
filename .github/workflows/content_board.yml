@@ -54,6 +54,8 @@ jobs:
           # YouTube latest (RSS)
           YOUTUBE_RSS_URL: "https://www.youtube.com/feeds/videos.xml?channel_id=UC0SJd4h7GQqoYTVjlDnSzqQ"
 
+          YOUTUBE_CHANNEL_ID: "UC0SJd4h7GQqoYTVjlDnSzqQ"
+          
           # Adilo latest page to scrape (DO NOT FORCE ID)
           ADILO_PUBLIC_LATEST_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
           ADILO_PUBLIC_HOME_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
