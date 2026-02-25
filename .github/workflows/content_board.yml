@@ -2,10 +2,6 @@ name: Content Board (Nightly Digest)
 
 on:
   workflow_dispatch:
-  # DST-safe scheduling:
-  # - 7pm PT is 03:00 UTC during PST (winter)
-  # - 7pm PT is 02:00 UTC during PDT (summer)
-  # Run every 10 minutes during BOTH hours; guard logic handles drift.
   schedule:
     - cron: "*/10 2,3 * * *"
 
@@ -28,13 +24,6 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install requests
 
-      # -------------------------
-      # AUTO: Latest YouTube upload (scrape /videos)
-      # FILTER OUT SHORTS:
-      # - Prefer first /watch?v=... link found
-      # - Ignore /shorts/... links
-      # - Use oEmbed for title (no API key)
-      # -------------------------
       - name: Resolve latest YouTube video (scrape, no shorts)
         env:
           YT_VIDEOS_URL: "https://www.youtube.com/@smitty-2447/videos"
@@ -113,10 +102,6 @@ jobs:
           print(f"[YT] latest_title={title}")
           PY
 
-      # -------------------------
-      # AUTO: Latest Adilo upload (scrape public latest page)
-      # HARD FAIL if no watch id (prevents home hub fallback)
-      # -------------------------
       - name: Resolve latest Adilo video (scrape + fail if missing)
         env:
           ADILO_LATEST_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
@@ -198,11 +183,10 @@ jobs:
           DIGEST_TOP_N: "5"
           DIGEST_MAX_PER_SOURCE: "1"
 
-          # Robust guard inputs (digest.py will allow late starts)
           DIGEST_GUARD_TZ: "America/Los_Angeles"
           DIGEST_GUARD_LOCAL_HOUR: "19"
           DIGEST_GUARD_LOCAL_MINUTE: "0"
-          DIGEST_GUARD_WINDOW_MINUTES: "180"
+          DIGEST_GUARD_WINDOW_MINUTES: "360"
 
           NEWSLETTER_NAME: "Itty Bitty Gaming News"
           NEWSLETTER_TAGLINE: "Snackable daily gaming news — five days a week."
