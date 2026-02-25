@@ -3,9 +3,7 @@ name: Itty Bitty Gaming News - Bot + Digest
 on:
   workflow_dispatch:
   schedule:
-    # Run frequently; each script decides what to do.
-    # - main.py will post new items when found
-    # - digest.py will only post once per local day near 7pm PT (guarded)
+    # Run frequently; digest.py will only post once per local day near 7pm PT (guarded).
     - cron: "*/30 * * * *"
 
 jobs:
@@ -35,22 +33,13 @@ jobs:
 
       - name: Run news bot (main.py)
         env:
-          # Webhooks (secrets)
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           CONTENT_BOARD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
-
-          # General
           USER_AGENT: "IttyBittyGamingNews/Bot"
-
-          # Optional: your bot modes if you use them
           MODE: "RAW"
           BREAKING_MODE: "False"
-
         run: |
           python main.py
-
-      # OPTIONAL: If your bot needs to commit state.json updates, keep your existing git commit step here.
-      # If you already have a commit step in your current workflow, copy it below this comment and keep it as-is.
 
   digest:
     name: Evening Digest Newsletter
@@ -71,9 +60,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml python-dateutil
 
+      - name: Debug trigger mode
+        run: |
+          echo "Event name: ${{ github.event_name }}"
+          echo "If this is workflow_dispatch, digest will FORCE POST."
+
       - name: Run digest (digest.py)
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+          # FORCE POST when manually run (workflow_dispatch), otherwise guard normally
+          DIGEST_FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && 'true' || '' }}
 
           # Digest settings
           DIGEST_WINDOW_HOURS: "24"
@@ -98,11 +95,11 @@ jobs:
           FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
           FEATURED_VIDEO_FORCE_ID: ${{ vars.FEATURED_VIDEO_FORCE_ID }}
 
-          # YouTube (auto if your content_board step sets these repo vars; otherwise optional)
+          # YouTube (optional)
           YOUTUBE_FEATURED_URL: ${{ vars.YOUTUBE_FEATURED_URL }}
           YOUTUBE_FEATURED_TITLE: ${{ vars.YOUTUBE_FEATURED_TITLE }}
 
-          # Optional: override feeds via repo variable (one URL per line)
+          # Optional: override feeds (one per line) via repo variable FEED_URLS
           FEED_URLS: ${{ vars.FEED_URLS }}
 
         run: |
