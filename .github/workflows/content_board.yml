@@ -3,11 +3,13 @@ name: Itty Bitty Gaming News - Digest
 on:
   workflow_dispatch:
   schedule:
+    # Run every 30 minutes; digest.py's guard will only allow posting near 7pm PT
     - cron: "*/30 * * * *"
 
 jobs:
   digest:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -22,10 +24,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: SECRET PRESENCE CHECK (Digest webhook)
+        env:
+          DIGEST_WEBHOOK_URL: ${{ secrets.DIGEST_WEBHOOK_URL }}
+        run: |
+          echo "DIGEST_WEBHOOK_URL=$([ -n "$DIGEST_WEBHOOK_URL" ] && echo PRESENT || echo MISSING)"
+
       - name: Run digest (posts to Gaming News)
         env:
+          # ✅ This is the ONLY env var digest.py requires for Discord posting
           DISCORD_WEBHOOK_URL: ${{ secrets.DIGEST_WEBHOOK_URL }}
 
+          # Manual runs should always post immediately
           DIGEST_FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && 'true' || '' }}
 
           DIGEST_WINDOW_HOURS: "24"
@@ -41,20 +51,23 @@ jobs:
           NEWSLETTER_TAGLINE: "Snackable daily gaming news — five days a week."
           USER_AGENT: "IttyBittyGamingNews/Digest"
 
-          # YouTube auto-latest (set this as a Repo Variable)
-          YOUTUBE_RSS_URL: ${{ vars.YOUTUBE_RSS_URL }}
+          # ✅ YouTube latest via RSS (your channel id)
+          YOUTUBE_RSS_URL: "https://www.youtube.com/feeds/videos.xml?channel_id=UC0SJd4h7GQqoYTVjlDnSzqQ"
 
-          # Optional manual override
+          # Optional manual override (only if you set these repo variables)
           YOUTUBE_FEATURED_URL: ${{ vars.YOUTUBE_FEATURED_URL }}
           YOUTUBE_FEATURED_TITLE: ${{ vars.YOUTUBE_FEATURED_TITLE }}
 
-          # Adilo
-          FEATURED_VIDEO_FORCE_ID: ${{ vars.FEATURED_VIDEO_FORCE_ID }}
+          # Adilo settings
+          FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
           ADILO_PUBLIC_LATEST_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
           ADILO_PUBLIC_HOME_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
           FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
-          FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
 
+          # If you have a stable force id variable, keep using it (recommended)
+          FEATURED_VIDEO_FORCE_ID: ${{ vars.FEATURED_VIDEO_FORCE_ID }}
+
+          # Feeds (optional repo variable; if empty, digest.py uses defaults)
           FEED_URLS: ${{ vars.FEED_URLS }}
 
         run: |
