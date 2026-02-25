@@ -1,13 +1,13 @@
-name: Itty Bitty Gaming News - Bot + Digest
+name: Itty Bitty Gaming News - Digest
 
 on:
   workflow_dispatch:
   schedule:
-    # Runs frequently; digest.py has its own 7pm guard so it only posts at the right time.
+    # Run every 30 minutes; digest.py guard will only allow posting near 7pm PT.
     - cron: "*/30 * * * *"
 
 jobs:
-  bot_and_digest:
+  digest:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,29 +24,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # =========================
-      # RAW STORIES -> Gaming Blerbs
-      # =========================
-      - name: Run RAW bot (posts to Gaming Blerbs)
+      - name: Run digest (Gaming News)
         env:
-          # ✅ Gaming Blerbs webhook (raw stories)
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-
-          USER_AGENT: "IttyBittyGamingNews/Bot"
-          MODE: "RAW"
-          BREAKING_MODE: "False"
-        run: |
-          python main.py
-
-      # =========================
-      # DIGEST -> Gaming News
-      # =========================
-      - name: Run DIGEST (posts to Gaming News)
-        env:
-          # ✅ Gaming News webhook (digest/newsletter)
+          # ✅ DIGEST channel webhook (this is what was missing)
           DISCORD_WEBHOOK_URL: ${{ secrets.DIGEST_WEBHOOK_URL }}
 
-          # Allow manual runs to post immediately (otherwise guard controls posting)
+          # If you manually click "Run workflow", force a post
           DIGEST_FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && 'true' || '' }}
 
           DIGEST_WINDOW_HOURS: "24"
@@ -62,12 +45,11 @@ jobs:
           NEWSLETTER_TAGLINE: "Snackable daily gaming news — five days a week."
           USER_AGENT: "IttyBittyGamingNews/Digest"
 
-          # Featured video controls (your existing setup)
           FEATURED_VIDEO_FORCE_ID: ${{ vars.FEATURED_VIDEO_FORCE_ID }}
           YOUTUBE_FEATURED_URL: ${{ vars.YOUTUBE_FEATURED_URL }}
           YOUTUBE_FEATURED_TITLE: ${{ vars.YOUTUBE_FEATURED_TITLE }}
 
-          # Optional override if you are using it
           FEED_URLS: ${{ vars.FEED_URLS }}
+
         run: |
           python digest.py
