@@ -3,7 +3,7 @@ name: Itty Bitty Gaming News - Bot + Digest
 on:
   workflow_dispatch:
   schedule:
-    # Run frequently; digest.py will only post once per local day near 7pm PT (guarded).
+    # Run frequently; the digest has a guard for 7pm PT, and manual runs force post.
     - cron: "*/30 * * * *"
 
 jobs:
@@ -20,15 +20,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install dependencies (from requirements.txt)
         run: |
           python -m pip install --upgrade pip
-          pip install \
-            requests \
-            beautifulsoup4 \
-            lxml \
-            python-dateutil \
-            feedparser
+          pip install -r requirements.txt
 
       - name: Run news bot (main.py)
         env:
@@ -54,21 +49,16 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install dependencies (from requirements.txt)
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 lxml python-dateutil
-
-      - name: Debug trigger mode
-        run: |
-          echo "Event name: ${{ github.event_name }}"
-          echo "If this is workflow_dispatch, digest will FORCE POST."
+          pip install -r requirements.txt
 
       - name: Run digest (digest.py)
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
-          # FORCE POST when manually run (workflow_dispatch), otherwise guard normally
+          # Force posting when you click "Run workflow"
           DIGEST_FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && 'true' || '' }}
 
           # Digest settings
@@ -76,7 +66,7 @@ jobs:
           DIGEST_TOP_N: "5"
           DIGEST_MAX_PER_SOURCE: "1"
 
-          # Guard settings (DST-safe)
+          # Guard settings (7:00pm PT, DST-safe)
           DIGEST_GUARD_TZ: "America/Los_Angeles"
           DIGEST_GUARD_LOCAL_HOUR: "19"
           DIGEST_GUARD_LOCAL_MINUTE: "0"
@@ -87,18 +77,12 @@ jobs:
           NEWSLETTER_TAGLINE: "Snackable daily gaming news — five days a week."
           USER_AGENT: "IttyBittyGamingNews/Digest"
 
-          # Adilo
-          ADILO_PUBLIC_LATEST_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
-          ADILO_PUBLIC_HOME_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
-          FEATURED_VIDEO_FALLBACK_URL: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
-          FEATURED_VIDEO_TITLE: "Watch today’s Itty Bitty Gaming News"
+          # Adilo + YouTube inputs (kept optional)
           FEATURED_VIDEO_FORCE_ID: ${{ vars.FEATURED_VIDEO_FORCE_ID }}
-
-          # YouTube (optional)
           YOUTUBE_FEATURED_URL: ${{ vars.YOUTUBE_FEATURED_URL }}
           YOUTUBE_FEATURED_TITLE: ${{ vars.YOUTUBE_FEATURED_TITLE }}
 
-          # Optional: override feeds (one per line) via repo variable FEED_URLS
+          # Optional: override feed URLs (one per line) in repo variable FEED_URLS
           FEED_URLS: ${{ vars.FEED_URLS }}
 
         run: |
