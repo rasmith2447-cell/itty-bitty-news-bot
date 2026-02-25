@@ -23,18 +23,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: SECRET PRESENCE CHECK (digest webhook)
+      - name: SECRET PRESENCE CHECK (digest channel webhook)
         env:
-          DIGEST_WEBHOOK_URL: ${{ secrets.DIGEST_WEBHOOK_URL }}
+          CONTENT_BOARD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
         run: |
-          echo "DIGEST_WEBHOOK_URL=$([ -n "$DIGEST_WEBHOOK_URL" ] && echo PRESENT || echo MISSING)"
+          echo "CONTENT_BOARD_WEBHOOK_URL=$([ -n "$CONTENT_BOARD_WEBHOOK_URL" ] && echo PRESENT || echo MISSING)"
 
       - name: Run digest (posts to Gaming News)
         env:
-          # ✅ This is the only webhook digest.py will read
-          DISCORD_WEBHOOK_URL: ${{ secrets.DIGEST_WEBHOOK_URL }}
+          # ✅ Use the secret you already have and that is PRESENT
+          DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
 
-          # Manual runs should always post immediately
           DIGEST_FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && 'true' || '' }}
 
           DIGEST_WINDOW_HOURS: "24"
