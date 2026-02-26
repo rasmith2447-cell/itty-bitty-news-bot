@@ -3,7 +3,6 @@ import os
 import re
 import json
 import time
-import html
 import hashlib
 from dataclasses import dataclass
 from datetime import datetime, timedelta
@@ -15,7 +14,7 @@ import feedparser
 from bs4 import BeautifulSoup
 
 # =========================================================
-# SETTINGS / ENV
+# ENV / SETTINGS
 # =========================================================
 
 DEFAULT_FEEDS = [
@@ -29,6 +28,7 @@ DEFAULT_FEEDS = [
 ]
 
 CACHE_PATH = ".digest_cache.json"
+
 USER_AGENT = os.getenv("USER_AGENT", "IttyBittyGamingNews/Digest").strip()
 
 NEWSLETTER_NAME = os.getenv("NEWSLETTER_NAME", "Itty Bitty Gaming News").strip()
@@ -61,13 +61,13 @@ ADILO_PUBLIC_HOME_PAGE = os.getenv(
     "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 ).strip()
 
-# DO NOT set this unless you want to force a specific video
+# Optional hard force (leave blank for normal operation)
 FEATURED_VIDEO_FORCE_ID = os.getenv("FEATURED_VIDEO_FORCE_ID", "").strip()
 
 FEED_URLS_ENV = os.getenv("FEED_URLS", "").strip()
 
 # =========================================================
-# DATA
+# TYPES
 # =========================================================
 
 @dataclass
@@ -78,17 +78,9 @@ class FeedItem:
     published: Optional[datetime]
     summary: str
 
-
 # =========================================================
-# HELPERS
+# BASIC HELPERS
 # =========================================================
-
-def http_get(url: str, timeout: int = 20) -> requests.Response:
-    headers = {
-        "User-Agent": USER_AGENT,
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    }
-    return requests.get(url, headers=headers, timeout=timeout, allow_redirects=True)
 
 def load_cache() -> Dict[str, Any]:
     if not os.path.exists(CACHE_PATH):
@@ -103,8 +95,49 @@ def save_cache(cache: Dict[str, Any]) -> None:
     with open(CACHE_PATH, "w", encoding="utf-8") as f:
         json.dump(cache, f, indent=2, sort_keys=True)
 
+def clean_text(s: str) -> str:
+    return re.sub(r"\s+", " ", (s or "")).strip()
+
+def shorten(s: str, max_len: int) -> str:
+    s = clean_text(s)
+    if len(s) <= max_len:
+        return s
+    return s[: max_len - 1].rstrip() + "…"
+
+def normalize_source(url: str) -> str:
+    m = re.search(r"https?://([^/]+)/", url or "")
+    if not m:
+        return url
+    host = m.group(1).lower().replace("www.", "")
+    return host
+
+def story_key(title: str, url: str) -> str:
+    base = (title.strip().lower() + "|" + url.strip().lower()).encode("utf-8", errors="ignore")
+    return hashlib.sha1(base).hexdigest()
+
+def parse_dt(entry: Any) -> Optional[datetime]:
+    for key in ("published_parsed", "updated_parsed"):
+        st = getattr(entry, key, None)
+        if st:
+            try:
+                return datetime(*st[:6], tzinfo=ZoneInfo("UTC"))
+            except Exception:
+                pass
+    return None
+
+def http_get(url: str, timeout: int = 25) -> requests.Response:
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    }
+    return requests.get(url, headers=headers, timeout=timeout, allow_redirects=True)
+
 def now_local() -> datetime:
     return datetime.now(ZoneInfo(DIGEST_GUARD_TZ))
+
+# =========================================================
+# GUARD
+# =========================================================
 
 def guard_should_post_now() -> bool:
     if DIGEST_FORCE_POST:
@@ -139,40 +172,6 @@ def guard_should_post_now() -> bool:
         f"Delta={delta_min:.1f}min > {DIGEST_GUARD_WINDOW_MINUTES}min. Exiting without posting."
     )
     return False
-
-def clean_text(s: str) -> str:
-    s = re.sub(r"\s+", " ", s or "").strip()
-    return s
-
-def shorten(s: str, max_len: int) -> str:
-    s = clean_text(s)
-    if len(s) <= max_len:
-        return s
-    return s[: max_len - 1].rstrip() + "…"
-
-def parse_dt(entry: Any) -> Optional[datetime]:
-    for key in ("published_parsed", "updated_parsed"):
-        st = getattr(entry, key, None)
-        if st:
-            try:
-                return datetime(*st[:6], tzinfo=ZoneInfo("UTC"))
-            except Exception:
-                pass
-    return None
-
-def normalize_source(url: str) -> str:
-    try:
-        m = re.search(r"https?://([^/]+)/", url)
-        if not m:
-            return url
-        host = m.group(1).lower().replace("www.", "")
-        return host
-    except Exception:
-        return url
-
-def story_key(title: str, url: str) -> str:
-    base = (title.strip().lower() + "|" + url.strip().lower()).encode("utf-8", errors="ignore")
-    return hashlib.sha1(base).hexdigest()
 
 # =========================================================
 # RSS
@@ -250,8 +249,10 @@ def select_top_items(items: List[FeedItem]) -> List[FeedItem]:
     return selected
 
 # =========================================================
-# YOUTUBE LATEST
+# YOUTUBE
 # =========================================================
+
+YOUTUBE_WATCH_RE = re.compile(r"(?:v=|youtu\.be/)([A-Za-z0-9_\-]{6,})")
 
 def youtube_latest_url_title() -> Tuple[str, str]:
     rss = YOUTUBE_RSS_URL
@@ -268,13 +269,20 @@ def youtube_latest_url_title() -> Tuple[str, str]:
         e = fp.entries[0]
         url = getattr(e, "link", "") or ""
         title = clean_text(getattr(e, "title", "") or "")
+
+        # Normalize to youtu.be (Discord tends to unfurl consistently)
+        m = YOUTUBE_WATCH_RE.search(url)
+        if m:
+            vid = m.group(1)
+            url = f"https://youtu.be/{vid}"
+
         return (url, title)
     except Exception as ex:
         print(f"[YT] RSS failed: {ex}")
         return ("", "")
 
 # =========================================================
-# ADILO LATEST (PUBLIC SCRAPE)
+# ADILO (public scrape)
 # =========================================================
 
 ADILO_ID_RE = re.compile(r"(?:/watch/|video\?id=|/stage/videos/)([A-Za-z0-9_\-]{6,})")
@@ -282,10 +290,40 @@ ADILO_ID_RE = re.compile(r"(?:/watch/|video\?id=|/stage/videos/)([A-Za-z0-9_\-]{
 def adilo_watch_url_from_id(vid: str) -> str:
     return f"https://adilo.bigcommand.com/watch/{vid}"
 
-def adilo_scrape_candidates(html_text: str) -> List[str]:
-    ids = []
+def _recursive_find_ids(obj: Any, out: List[str]) -> None:
+    if obj is None:
+        return
+    if isinstance(obj, str):
+        for m in ADILO_ID_RE.finditer(obj):
+            out.append(m.group(1))
+        return
+    if isinstance(obj, dict):
+        for _, v in obj.items():
+            _recursive_find_ids(v, out)
+        return
+    if isinstance(obj, list):
+        for v in obj:
+            _recursive_find_ids(v, out)
+        return
+
+def adilo_scrape_ids_from_html(html_text: str) -> List[str]:
+    ids: List[str] = []
+
+    # 1) direct regex scan
     for m in ADILO_ID_RE.finditer(html_text or ""):
         ids.append(m.group(1))
+
+    # 2) __NEXT_DATA__ JSON (common for React/Next apps)
+    try:
+        soup = BeautifulSoup(str(html_text), "html.parser")
+        script = soup.find("script", id="__NEXT_DATA__")
+        if script and script.string:
+            data = json.loads(script.string)
+            _recursive_find_ids(data, ids)
+    except Exception:
+        pass
+
+    # de-dupe preserve order
     seen = set()
     out = []
     for x in ids:
@@ -296,7 +334,6 @@ def adilo_scrape_candidates(html_text: str) -> List[str]:
     return out
 
 def adilo_best_latest_url() -> str:
-    # If forced, use it (you do NOT want this normally)
     if FEATURED_VIDEO_FORCE_ID:
         forced = adilo_watch_url_from_id(FEATURED_VIDEO_FORCE_ID)
         print(f"[ADILO] Using FEATURED_VIDEO_FORCE_ID: {forced}")
@@ -305,24 +342,21 @@ def adilo_best_latest_url() -> str:
     base = ADILO_PUBLIC_LATEST_PAGE.rstrip("/")
     cb = str(int(time.time() * 1000))
 
-    # These are the variants that have historically produced IDs even when /video is JS-heavy
     probe_urls = [
         f"{base}?cb={cb}",
         base,
         f"{base}?id=&cb={cb}",
-        f"{base}?id=&_={cb}",           # alt cache-buster
-        f"{base}?id=latest&cb={cb}",    # sometimes works
-        f"{base}?video=latest&cb={cb}", # sometimes works
+        f"{base}?id=&_={cb}",
+        f"{base}?id=latest&cb={cb}",
+        f"{base}?video=latest&cb={cb}",
     ]
 
-    html_text = ""
     for u in probe_urls:
         try:
             print(f"[ADILO] SCRAPE attempt=1 timeout=25 url={u}")
             r = http_get(u, timeout=25)
             if r.status_code == 200 and r.text:
-                html_text = r.text
-                ids = adilo_scrape_candidates(html_text)
+                ids = adilo_scrape_ids_from_html(r.text)
                 if ids:
                     best = adilo_watch_url_from_id(ids[0])
                     print(f"[ADILO] Found candidate id={ids[0]} -> {best}")
@@ -332,20 +366,18 @@ def adilo_best_latest_url() -> str:
         except Exception as ex:
             print(f"[ADILO] SCRAPE error url={u}: {ex}")
 
-    # If we got here, /video didn’t contain any IDs (often JS-rendered).
-    # Try the slower-but-more-reliable "video?id=" pattern with longer timeout and retries.
+    # slower retry
     slow_urls = [
-        f"{base}?id=&cb={cb}",
         f"{base}?id=&cb={cb}&n=1",
         f"{base}?id=&cb={cb}&n=2",
+        f"{base}?id=&cb={cb}&n=3",
     ]
-
     for u in slow_urls:
         try:
             print(f"[ADILO] SCRAPE attempt=2 timeout=45 url={u}")
             r = http_get(u, timeout=45)
             if r.status_code == 200 and r.text:
-                ids = adilo_scrape_candidates(r.text)
+                ids = adilo_scrape_ids_from_html(r.text)
                 if ids:
                     best = adilo_watch_url_from_id(ids[0])
                     print(f"[ADILO] Found candidate id={ids[0]} -> {best}")
@@ -355,21 +387,37 @@ def adilo_best_latest_url() -> str:
         except Exception as ex:
             print(f"[ADILO] SCRAPE error url={u}: {ex}")
 
-    # Final fallback: link the latest page itself (better than dumping to home)
-    print(f"[ADILO] No IDs found on latest page; falling back to latest page link: {base}")
+    print(f"[ADILO] No IDs found; falling back to latest page link: {base}")
     return base
 
 # =========================================================
-# DISCORD POST
+# DISCORD (embeds)
 # =========================================================
 
-def discord_post(content: str) -> None:
+def discord_post(content: str, embeds: List[Dict[str, Any]]) -> None:
     if not DISCORD_WEBHOOK_URL:
         raise RuntimeError("Missing DISCORD_WEBHOOK_URL")
 
-    payload: Dict[str, Any] = {"content": content}
+    # Discord limits
+    # - content: 2000 chars
+    # - embeds: max 10
+    # - embed.description: 4096
+    # - embed.title: 256
+    # We'll keep it safe.
+    content = (content or "").strip()
+    if len(content) > 2000:
+        content = content[:1990] + "…"
 
-    r = requests.post(DISCORD_WEBHOOK_URL, json=payload, headers={"User-Agent": USER_AGENT}, timeout=25)
+    embeds = embeds[:10]
+
+    payload: Dict[str, Any] = {"content": content, "embeds": embeds}
+
+    r = requests.post(
+        DISCORD_WEBHOOK_URL,
+        json=payload,
+        headers={"User-Agent": USER_AGENT},
+        timeout=25
+    )
     r.raise_for_status()
 
 # =========================================================
@@ -392,87 +440,52 @@ def main() -> None:
         print("[DIGEST] No items selected. Exiting without posting.")
         return
 
-    bullets = [it.title for it in items[:3]]
     date_str = now_local().strftime("%B %d, %Y")
 
     yt_url, yt_title = youtube_latest_url_title()
     adilo_url = adilo_best_latest_url()
 
-    # Build message where:
-    # - story link sits directly under its story
-    # - YouTube comes before Adilo
-    # - links are on their own lines for Discord to auto-unfurl
-    lines = []
-    lines.append(NEWSLETTER_TAGLINE)
-    lines.append("")
-    lines.append(date_str)
-    lines.append("")
-    lines.append(f"In Tonight’s Edition of {NEWSLETTER_NAME}…")
+    # Content header ONLY (no story URLs in content)
+    bullets = [it.title for it in items[:3]]
+    header_lines = []
+    header_lines.append(NEWSLETTER_TAGLINE)
+    header_lines.append("")
+    header_lines.append(date_str)
+    header_lines.append("")
+    header_lines.append(f"In Tonight’s Edition of {NEWSLETTER_NAME}…")
     for b in bullets[:3]:
-        lines.append(f"► 🎮 {b}")
-    lines.append("")
-    lines.append("Tonight’s Top Stories")
-    lines.append("")
+        header_lines.append(f"► 🎮 {b}")
+    header_lines.append("")
+    header_lines.append("Tonight’s Top Stories")
+    header = "\n".join(header_lines).strip()
 
-    # Stories with links directly beneath
+    embeds: List[Dict[str, Any]] = []
+
+    # Story embeds (cards appear under their story)
     for idx, it in enumerate(items, start=1):
-        lines.append(f"{idx}) {it.title}")
-        if it.summary:
-            lines.append(shorten(it.summary, 260))
-        lines.append(f"Source: {it.source}")
-        lines.append(it.url)  # put URL alone on a line for unfurl
-        lines.append("")
+        embeds.append({
+            "title": f"{idx}) {shorten(it.title, 256)}",
+            "url": it.url,
+            "description": shorten(it.summary, 260) if it.summary else "",
+            "footer": {"text": f"Source: {it.source}"},
+        })
 
-    # Featured video section
-    if yt_url or adilo_url:
-        if yt_url:
-            lines.append("▶️ YouTube (latest)")
-            # Put URL alone on a line for the playable preview
-            lines.append(yt_url)
-            if yt_title:
-                lines.append(yt_title)
-            lines.append("")
-        if adilo_url:
-            lines.append("📺 Adilo (latest)")
-            # Put URL alone on a line for card/preview
-            lines.append(adilo_url)
-            lines.append("")
+    # Video embeds (YouTube first)
+    if yt_url:
+        embeds.append({
+            "title": "▶️ YouTube (latest)",
+            "url": yt_url,
+            "description": shorten(yt_title, 200) if yt_title else "",
+        })
 
-    content = "\n".join([x for x in lines if x is not None]).strip() + "\n"
+    if adilo_url:
+        embeds.append({
+            "title": "📺 Adilo (latest)",
+            "url": adilo_url,
+            "description": "Watch the latest episode on Adilo.",
+        })
 
-    # Discord hard limit: 2000 chars
-    if len(content) > 2000:
-        # Keep the videos intact; trim earlier story summaries first by dropping summaries entirely if needed.
-        # Fast approach: rebuild without summaries.
-        lines2 = []
-        lines2.append(NEWSLETTER_TAGLINE)
-        lines2.append("")
-        lines2.append(date_str)
-        lines2.append("")
-        lines2.append(f"In Tonight’s Edition of {NEWSLETTER_NAME}…")
-        for b in bullets[:3]:
-            lines2.append(f"► 🎮 {b}")
-        lines2.append("")
-        lines2.append("Tonight’s Top Stories")
-        lines2.append("")
-        for idx, it in enumerate(items, start=1):
-            lines2.append(f"{idx}) {it.title}")
-            lines2.append(f"Source: {it.source}")
-            lines2.append(it.url)
-            lines2.append("")
-        if yt_url:
-            lines2.append("▶️ YouTube (latest)")
-            lines2.append(yt_url)
-            lines2.append("")
-        if adilo_url:
-            lines2.append("📺 Adilo (latest)")
-            lines2.append(adilo_url)
-            lines2.append("")
-        content = "\n".join(lines2).strip() + "\n"
-        if len(content) > 2000:
-            content = content[:1990] + "…\n"
-
-    discord_post(content)
+    discord_post(header, embeds)
 
     cache["last_youtube_url"] = yt_url
     cache["last_adilo_url"] = adilo_url
@@ -482,7 +495,6 @@ def main() -> None:
     print("[DONE] Digest posted.")
     print(f"[DONE] YouTube: {yt_url}")
     print(f"[DONE] Featured Adilo video: {adilo_url}")
-
 
 if __name__ == "__main__":
     main()
