@@ -7,7 +7,6 @@ import traceback
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from typing import List, Dict, Optional, Tuple
-from urllib.parse import urlparse, parse_qs
 
 import requests
 import feedparser
@@ -44,21 +43,17 @@ DIGEST_GUARD_LOCAL_HOUR = int(os.getenv("DIGEST_GUARD_LOCAL_HOUR", "19").strip()
 DIGEST_GUARD_LOCAL_MINUTE = int(os.getenv("DIGEST_GUARD_LOCAL_MINUTE", "0").strip())
 DIGEST_GUARD_WINDOW_MINUTES = int(os.getenv("DIGEST_GUARD_WINDOW_MINUTES", "120").strip())
 
-# YouTube latest via RSS
 YOUTUBE_RSS_URL = (os.getenv("YOUTUBE_RSS_URL") or "").strip()
 YOUTUBE_CHANNEL_ID = (os.getenv("YOUTUBE_CHANNEL_ID") or "").strip()
 
-# Adilo scrape pages
 ADILO_PUBLIC_LATEST_PAGE = os.getenv("ADILO_PUBLIC_LATEST_PAGE", "https://adilo.bigcommand.com/c/ittybittygamingnews/video").strip()
 ADILO_PUBLIC_HOME_PAGE = os.getenv("ADILO_PUBLIC_HOME_PAGE", "https://adilo.bigcommand.com/c/ittybittygamingnews/home").strip()
 
-# Adilo API (preferred for reliability)
 ADILO_API_BASE = "https://adilo-api.bigcommand.com/v1"
 ADILO_PUBLIC_KEY = (os.getenv("ADILO_PUBLIC_KEY") or "").strip()
 ADILO_SECRET_KEY = (os.getenv("ADILO_SECRET_KEY") or "").strip()
 ADILO_PROJECT_ID = (os.getenv("ADILO_PROJECT_ID") or "").strip()
 
-# optional: force id ONLY if you explicitly set it
 FEATURED_VIDEO_FORCE_ID = (os.getenv("FEATURED_VIDEO_FORCE_ID") or "").strip()
 
 # =========================
@@ -112,6 +107,7 @@ def safe_text(s: str) -> str:
 
 def domain_of(url: str) -> str:
     try:
+        from urllib.parse import urlparse
         return urlparse(url).netloc.lower().replace("www.", "")
     except Exception:
         return ""
@@ -166,7 +162,6 @@ def fetch_all_items() -> List[Dict]:
         try:
             d = feedparser.parse(url)
             if not getattr(d, "entries", None):
-                print(f"[RSS] No entries for {url}")
                 continue
 
             for e in d.entries:
@@ -174,7 +169,6 @@ def fetch_all_items() -> List[Dict]:
                 link = safe_text(getattr(e, "link", ""))
                 if not title or not link:
                     continue
-
                 if is_probably_short(title, link):
                     continue
 
@@ -240,8 +234,7 @@ def youtube_latest() -> Tuple[Optional[str], Optional[str]]:
             print("[YT] No entries in RSS.")
             return None, None
 
-        # Find first non-short
-        for e in d.entries[:15]:
+        for e in d.entries[:25]:
             title = safe_text(getattr(e, "title", ""))
             link = safe_text(getattr(e, "link", ""))
             if not link:
@@ -260,121 +253,131 @@ def youtube_latest() -> Tuple[Optional[str], Optional[str]]:
 # Adilo latest (API-first, then scrape)
 # =========================
 
-ADILO_ID_RE = re.compile(r"(?:video\?id=|/watch/)([A-Za-z0-9_\-]{6,})")
-
-def _adilo_api_headers() -> Dict[str, str]:
-    # This is intentionally conservative; if your API expects different header names,
-    # keep them here so we only change one place.
-    return {
-        "User-Agent": USER_AGENT,
-        "Accept": "application/json",
-        "X-Public-Key": ADILO_PUBLIC_KEY,
-        "X-Secret-Key": ADILO_SECRET_KEY,
-    }
-
-
-def _adilo_api_get_json(url: str, timeout: int = 25) -> Optional[Dict]:
-    try:
-        r = requests.get(url, headers=_adilo_api_headers(), timeout=timeout)
-        r.raise_for_status()
-        return r.json()
-    except Exception:
-        return None
-
-
 def _parse_upload_date(s: str) -> Optional[datetime]:
-    # Example seen: "2023-12-15 21:24:04"
     if not s:
         return None
     s = s.strip()
     for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S"):
         try:
-            # Adilo dates are typically UTC-ish; treat as UTC for ordering
             return datetime.strptime(s, fmt).replace(tzinfo=ZoneInfo("UTC"))
         except Exception:
             pass
     return None
 
 
+def _adilo_try_get_json(url: str, timeout: int = 25) -> Optional[Dict]:
+    """
+    Adilo auth can vary by account; try a few common patterns.
+    If any works, return json.
+    """
+    attempts = []
+
+    # (A) No auth (some endpoints may allow it)
+    attempts.append(("no-auth", {}, None))
+
+    # (B) Possible header names
+    if ADILO_PUBLIC_KEY and ADILO_SECRET_KEY:
+        attempts.append(("X-Public-Key/X-Secret-Key", {
+            "X-Public-Key": ADILO_PUBLIC_KEY,
+            "X-Secret-Key": ADILO_SECRET_KEY,
+        }, None))
+        attempts.append(("X-API-KEY/X-API-SECRET", {
+            "X-API-KEY": ADILO_PUBLIC_KEY,
+            "X-API-SECRET": ADILO_SECRET_KEY,
+        }, None))
+        attempts.append(("X-ADILO-PUBLIC-KEY/X-ADILO-SECRET-KEY", {
+            "X-ADILO-PUBLIC-KEY": ADILO_PUBLIC_KEY,
+            "X-ADILO-SECRET-KEY": ADILO_SECRET_KEY,
+        }, None))
+
+        # (C) HTTP basic auth
+        attempts.append(("basic-auth", {}, (ADILO_PUBLIC_KEY, ADILO_SECRET_KEY)))
+
+    for label, extra_headers, basic in attempts:
+        try:
+            headers = {
+                "User-Agent": USER_AGENT,
+                "Accept": "application/json",
+                **extra_headers,
+            }
+            r = requests.get(url, headers=headers, timeout=timeout, auth=basic)
+            if r.status_code == 200:
+                return r.json()
+        except Exception:
+            continue
+
+    return None
+
+
 def adilo_latest_via_api() -> Optional[str]:
-    """
-    More reliable than scraping when keys are present.
-    Strategy:
-      - get total count
-      - fetch 3 pages (first, last, and middle)
-      - sample up to 12 items per page and fetch /files/{id}/meta for upload_date
-      - pick best dt; then expand to check +/- 2 pages around the best page
-    """
-    if not (ADILO_PUBLIC_KEY and ADILO_SECRET_KEY and ADILO_PROJECT_ID):
+    if not (ADILO_PROJECT_ID and ADILO_PUBLIC_KEY and ADILO_SECRET_KEY):
+        print("[ADILO] API not attempted (missing ADILO_PROJECT_ID / ADILO_PUBLIC_KEY / ADILO_SECRET_KEY).")
         return None
 
-    # Fetch first page to learn total
+    print("[ADILO] API attempting newest-by-upload_date…")
+
     first_url = f"{ADILO_API_BASE}/projects/{ADILO_PROJECT_ID}/files?From=1&To=50"
-    j = _adilo_api_get_json(first_url, timeout=25)
-    if not j or "meta" not in j:
+    j = _adilo_try_get_json(first_url, timeout=25)
+    if not j:
+        print("[ADILO] API failed to fetch first page (auth mismatch or network).")
         return None
 
     meta = j.get("meta") or {}
     total = int(meta.get("total") or 0)
     if total <= 0:
+        print("[ADILO] API total=0.")
         return None
 
-    def page_bounds(page_index: int, page_size: int = 50) -> Tuple[int, int]:
+    page_size = 50
+    last_page_index = max(0, (total - 1) // page_size)
+
+    def page_bounds(page_index: int) -> Tuple[int, int]:
         start = page_index * page_size + 1
         end = min(total, (page_index + 1) * page_size)
         return start, end
 
-    page_size = 50
-    last_page_index = max(0, (total - 1) // page_size)
-    mid_page_index = last_page_index // 2
+    pages = sorted(set([0, last_page_index, last_page_index // 2]))
 
-    pages_to_probe = sorted(set([0, mid_page_index, last_page_index]))
+    best_dt = None
+    best_id = None
 
-    best = {"dt": None, "file_id": None, "page": None}
-
-    def probe_page(page_index: int) -> None:
-        nonlocal best
-        frm, to = page_bounds(page_index, page_size)
+    def probe_page(pi: int) -> None:
+        nonlocal best_dt, best_id
+        frm, to = page_bounds(pi)
         url = f"{ADILO_API_BASE}/projects/{ADILO_PROJECT_ID}/files?From={frm}&To={to}"
-        j2 = _adilo_api_get_json(url, timeout=25)
-        if not j2:
+        jj = _adilo_try_get_json(url, timeout=25)
+        if not jj:
             return
-        payload = j2.get("payload")
+        payload = jj.get("payload")
         if not isinstance(payload, list) or not payload:
             return
 
-        # sample a chunk from start of page (often newer or older depending on ordering)
-        sample = payload[: min(12, len(payload))]
+        sample = payload[: min(20, len(payload))]
         for it in sample:
             fid = (it.get("id") or "").strip()
             if not fid:
                 continue
-            meta_url = f"{ADILO_API_BASE}/files/{fid}/meta"
-            jm = _adilo_api_get_json(meta_url, timeout=25)
+            murl = f"{ADILO_API_BASE}/files/{fid}/meta"
+            jm = _adilo_try_get_json(murl, timeout=25)
             if not jm:
                 continue
             p = jm.get("payload") or {}
             dt = _parse_upload_date(p.get("upload_date") or "")
             if not dt:
                 continue
-            if best["dt"] is None or dt > best["dt"]:
-                best = {"dt": dt, "file_id": fid, "page": page_index}
+            if best_dt is None or dt > best_dt:
+                best_dt = dt
+                best_id = fid
 
-    for pi in pages_to_probe:
+    for pi in pages:
         probe_page(pi)
 
-    if not best["file_id"]:
+    if not best_id:
+        print("[ADILO] API could not determine newest file.")
         return None
 
-    # Expand around winning page to avoid missing newer items due to ordering quirks
-    for pi in range(max(0, best["page"] - 2), min(last_page_index, best["page"] + 2) + 1):
-        probe_page(pi)
-
-    if not best["file_id"]:
-        return None
-
-    watch_url = f"https://adilo.bigcommand.com/watch/{best['file_id']}"
-    print(f"[ADILO] API newest candidate: {watch_url} dt={best['dt'].isoformat()}")
+    watch_url = f"https://adilo.bigcommand.com/watch/{best_id}"
+    print(f"[ADILO] API newest candidate: {watch_url} dt={best_dt.isoformat()}")
     return watch_url
 
 
@@ -397,20 +400,20 @@ def adilo_latest_via_scrape() -> Optional[str]:
         ADILO_PUBLIC_HOME_PAGE,
     ]
 
+    ids_vid_re = re.compile(r"video\?id=([A-Za-z0-9_\-]{6,})")
+    ids_watch_re = re.compile(r"/watch/([A-Za-z0-9_\-]{6,})")
+
     for url in candidates:
         try:
             print(f"[ADILO] SCRAPE attempt=1 timeout=25 url={url}")
             r = sess.get(url, timeout=25, allow_redirects=True)
             text = r.text or ""
 
-            ids_vid = re.findall(r"video\?id=([A-Za-z0-9_\-]{6,})", text)
-            ids_watch = re.findall(r"/watch/([A-Za-z0-9_\-]{6,})", text)
+            ids_vid = ids_vid_re.findall(text)
+            ids_watch = ids_watch_re.findall(text)
 
             all_ids = []
-            for x in ids_vid:
-                if x and x not in all_ids:
-                    all_ids.append(x)
-            for x in ids_watch:
+            for x in ids_vid + ids_watch:
                 if x and x not in all_ids:
                     all_ids.append(x)
 
@@ -432,7 +435,6 @@ def adilo_latest_via_scrape() -> Optional[str]:
 
 
 def scrape_adilo_latest() -> Optional[str]:
-    # Only honor forced ID if YOU explicitly set it (we're not hard-locking automatically)
     if FEATURED_VIDEO_FORCE_ID:
         forced = FEATURED_VIDEO_FORCE_ID.strip()
         if forced.startswith("http"):
@@ -442,12 +444,12 @@ def scrape_adilo_latest() -> Optional[str]:
         print(f"[ADILO] Using FEATURED_VIDEO_FORCE_ID: {url}")
         return url
 
-    # 1) API-first
+    # API-first
     api_url = adilo_latest_via_api()
     if api_url:
         return api_url
 
-    # 2) Public scrape fallback
+    # Fallback
     return adilo_latest_via_scrape()
 
 
@@ -510,7 +512,7 @@ def main() -> None:
         print("[DIGEST] No items found in window. Exiting without posting.")
         return
 
-    yt_url, yt_title = youtube_latest()
+    yt_url, _yt_title = youtube_latest()
     adilo_url = scrape_adilo_latest()
 
     today_str = now_local().strftime("%B %d, %Y")
@@ -535,7 +537,6 @@ def main() -> None:
     for i, it in enumerate(items, start=1):
         embeds.append(build_story_embed(i, it))
 
-    # Adilo embed card
     if adilo_url:
         adilo_embed = {
             "title": "📺 Adilo (latest)",
@@ -551,10 +552,10 @@ def main() -> None:
 
     embeds = embeds[:10]
 
-    # Post digest (stories + adilo card)
+    # Post digest with embeds
     discord_post(content, embeds)
 
-    # Post YouTube as its own raw-url message to force playable card
+    # Force YouTube playable card by posting as standalone raw URL
     if yt_url:
         discord_post(yt_url, None)
 
