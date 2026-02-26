@@ -24,15 +24,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: SECRET PRESENCE CHECK (content board webhook)
+      - name: SECRET PRESENCE CHECK (digest webhook + key envs)
         env:
           CONTENT_BOARD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
+          FEED_URLS: ${{ vars.FEED_URLS }}
         run: |
           echo "CONTENT_BOARD_WEBHOOK_URL=$([ -n "$CONTENT_BOARD_WEBHOOK_URL" ] && echo PRESENT || echo MISSING)"
+          echo "FEED_URLS=$([ -n "$FEED_URLS" ] && echo PRESENT || echo EMPTY)"
 
       - name: Run digest (posts to Gaming News)
         env:
-          # ✅ This is your Digest (Gaming News) channel webhook secret
+          # ✅ Digest (Gaming News) channel webhook secret
           DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
 
           # Manual runs should always post immediately
@@ -53,9 +55,8 @@ jobs:
 
           # YouTube latest (RSS)
           YOUTUBE_RSS_URL: "https://www.youtube.com/feeds/videos.xml?channel_id=UC0SJd4h7GQqoYTVjlDnSzqQ"
-
           YOUTUBE_CHANNEL_ID: "UC0SJd4h7GQqoYTVjlDnSzqQ"
-          
+
           # Adilo latest page to scrape (DO NOT FORCE ID)
           ADILO_PUBLIC_LATEST_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
           ADILO_PUBLIC_HOME_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
