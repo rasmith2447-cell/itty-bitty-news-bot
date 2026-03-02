@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import os
 import re
+import json
 import time
 import html
 import traceback
@@ -10,7 +11,6 @@ from typing import List, Dict, Optional, Tuple
 
 import requests
 import feedparser
-from bs4 import BeautifulSoup
 
 # =========================
 # Config
@@ -41,28 +41,93 @@ DIGEST_FORCE_POST = (os.getenv("DIGEST_FORCE_POST", "").strip().lower() in ("1",
 DIGEST_GUARD_TZ = os.getenv("DIGEST_GUARD_TZ", "America/Los_Angeles").strip()
 DIGEST_GUARD_LOCAL_HOUR = int(os.getenv("DIGEST_GUARD_LOCAL_HOUR", "19").strip())
 DIGEST_GUARD_LOCAL_MINUTE = int(os.getenv("DIGEST_GUARD_LOCAL_MINUTE", "0").strip())
-DIGEST_GUARD_WINDOW_MINUTES = int(os.getenv("DIGEST_GUARD_WINDOW_MINUTES", "120").strip())
+DIGEST_GUARD_WINDOW_MINUTES = int(os.getenv("DIGEST_GUARD_WINDOW_MINUTES", "30").strip())  # tighter default
 
+# ✅ Prevent double-posting per day
+DIGEST_POST_ONCE_PER_DAY = (os.getenv("DIGEST_POST_ONCE_PER_DAY", "true").strip().lower() in ("1", "true", "yes", "y", "on"))
+DIGEST_CACHE_FILE = os.getenv("DIGEST_CACHE_FILE", ".digest_cache.json").strip()
+
+# YouTube RSS
 YOUTUBE_RSS_URL = (os.getenv("YOUTUBE_RSS_URL") or "").strip()
 YOUTUBE_CHANNEL_ID = (os.getenv("YOUTUBE_CHANNEL_ID") or "").strip()
 
-ADILO_PUBLIC_LATEST_PAGE = os.getenv("ADILO_PUBLIC_LATEST_PAGE", "https://adilo.bigcommand.com/c/ittybittygamingnews/video").strip()
-ADILO_PUBLIC_HOME_PAGE = os.getenv("ADILO_PUBLIC_HOME_PAGE", "https://adilo.bigcommand.com/c/ittybittygamingnews/home").strip()
-
+# Adilo API
 ADILO_API_BASE = "https://adilo-api.bigcommand.com/v1"
 ADILO_PUBLIC_KEY = (os.getenv("ADILO_PUBLIC_KEY") or "").strip()
 ADILO_SECRET_KEY = (os.getenv("ADILO_SECRET_KEY") or "").strip()
 ADILO_PROJECT_ID = (os.getenv("ADILO_PROJECT_ID") or "").strip()
 
+# Optional: skip promo videos by title match (case-insensitive)
+ADILO_SKIP_TITLE_REGEX = os.getenv("ADILO_SKIP_TITLE_REGEX", r"(?i)\bpromo\b").strip()
+
+# Optional: manual override (DON’T use in normal operation)
 FEATURED_VIDEO_FORCE_ID = (os.getenv("FEATURED_VIDEO_FORCE_ID") or "").strip()
 
 # =========================
 # Helpers
 # =========================
 
+def safe_text(s: str) -> str:
+    s = s or ""
+    s = html.unescape(s)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+def domain_of(url: str) -> str:
+    try:
+        from urllib.parse import urlparse
+        return urlparse(url).netloc.lower().replace("www.", "")
+    except Exception:
+        return ""
+
 def now_local() -> datetime:
     return datetime.now(ZoneInfo(DIGEST_GUARD_TZ))
 
+def parse_published(entry) -> Optional[datetime]:
+    for key in ("published_parsed", "updated_parsed", "created_parsed"):
+        t = getattr(entry, key, None)
+        if t:
+            try:
+                return datetime(*t[:6], tzinfo=ZoneInfo("UTC"))
+            except Exception:
+                pass
+    return None
+
+def is_probably_short(title: str, link: str) -> bool:
+    t = (title or "").lower()
+    l = (link or "").lower()
+    return ("#shorts" in t) or ("/shorts/" in l)
+
+def get_feed_urls() -> List[str]:
+    raw = (os.getenv("FEED_URLS") or "").strip()
+    if not raw:
+        return DEFAULT_FEEDS
+    parts = []
+    for line in raw.replace(",", "\n").splitlines():
+        u = line.strip()
+        if u:
+            parts.append(u)
+    return parts or DEFAULT_FEEDS
+
+# =========================
+# Guard + Daily cache
+# =========================
+
+def load_cache() -> Dict:
+    try:
+        if os.path.exists(DIGEST_CACHE_FILE):
+            with open(DIGEST_CACHE_FILE, "r", encoding="utf-8") as f:
+                return json.load(f) or {}
+    except Exception:
+        pass
+    return {}
+
+def save_cache(obj: Dict) -> None:
+    try:
+        with open(DIGEST_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(obj, f, indent=2, sort_keys=True)
+    except Exception:
+        pass
 
 def guard_should_post_now() -> bool:
     if DIGEST_FORCE_POST:
@@ -97,54 +162,29 @@ def guard_should_post_now() -> bool:
     )
     return False
 
+def should_skip_due_to_daily_cache() -> bool:
+    if DIGEST_FORCE_POST:
+        return False
+    if not DIGEST_POST_ONCE_PER_DAY:
+        return False
 
-def safe_text(s: str) -> str:
-    s = s or ""
-    s = html.unescape(s)
-    s = re.sub(r"\s+", " ", s).strip()
-    return s
+    cache = load_cache()
+    today = now_local().strftime("%Y-%m-%d")
+    last = (cache.get("last_post_local_date") or "").strip()
 
-
-def domain_of(url: str) -> str:
-    try:
-        from urllib.parse import urlparse
-        return urlparse(url).netloc.lower().replace("www.", "")
-    except Exception:
-        return ""
-
-
-def parse_published(entry) -> Optional[datetime]:
-    for key in ("published_parsed", "updated_parsed", "created_parsed"):
-        t = getattr(entry, key, None)
-        if t:
-            try:
-                return datetime(*t[:6], tzinfo=ZoneInfo("UTC"))
-            except Exception:
-                pass
-    return None
-
-
-def is_probably_short(title: str, link: str) -> bool:
-    t = (title or "").lower()
-    l = (link or "").lower()
-    if "#shorts" in t:
+    if last == today:
+        print(f"[CACHE] Already posted for {today}. Skipping to prevent double-post.")
         return True
-    if "/shorts/" in l:
-        return True
+
     return False
 
-
-def get_feed_urls() -> List[str]:
-    raw = (os.getenv("FEED_URLS") or "").strip()
-    if not raw:
-        return DEFAULT_FEEDS
-    parts = []
-    for line in raw.replace(",", "\n").splitlines():
-        u = line.strip()
-        if u:
-            parts.append(u)
-    return parts or DEFAULT_FEEDS
-
+def mark_posted_today() -> None:
+    cache = load_cache()
+    today = now_local().strftime("%Y-%m-%d")
+    cache["last_post_local_date"] = today
+    cache["last_post_local_ts"] = now_local().isoformat()
+    save_cache(cache)
+    print(f"[CACHE] Marked posted for {today}.")
 
 # =========================
 # Fetch RSS items
@@ -200,6 +240,7 @@ def fetch_all_items() -> List[Dict]:
 
     items.sort(key=lambda x: x["published"], reverse=True)
 
+    # light dedupe
     seen_urls = set()
     seen_titles = set()
     deduped = []
@@ -214,7 +255,6 @@ def fetch_all_items() -> List[Dict]:
         deduped.append(it)
 
     return deduped[: max(DIGEST_TOP_N, 1)]
-
 
 # =========================
 # YouTube latest (RSS)
@@ -248,78 +288,66 @@ def youtube_latest() -> Tuple[Optional[str], Optional[str]]:
         print(f"[YT] Failed: {ex}")
         return None, None
 
-
 # =========================
-# Adilo latest (API-first, then scrape)
+# Adilo newest via API (reliable)
 # =========================
 
 def _parse_upload_date(s: str) -> Optional[datetime]:
     if not s:
         return None
     s = s.strip()
-    for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S"):
-        try:
-            return datetime.strptime(s, fmt).replace(tzinfo=ZoneInfo("UTC"))
-        except Exception:
-            pass
-    return None
+    # Adilo often returns "YYYY-MM-DD HH:MM:SS"
+    try:
+        return datetime.strptime(s, "%Y-%m-%d %H:%M:%S").replace(tzinfo=ZoneInfo("UTC"))
+    except Exception:
+        pass
+    # fallback
+    try:
+        return datetime.fromisoformat(s).replace(tzinfo=ZoneInfo("UTC"))
+    except Exception:
+        return None
 
+def _adilo_headers() -> Dict[str, str]:
+    # Most common header naming; if your account uses different names we can add more.
+    return {
+        "User-Agent": USER_AGENT,
+        "Accept": "application/json",
+        "X-Public-Key": ADILO_PUBLIC_KEY,
+        "X-Secret-Key": ADILO_SECRET_KEY,
+    }
 
-def _adilo_try_get_json(url: str, timeout: int = 25) -> Optional[Dict]:
-    """
-    Adilo auth can vary by account; try a few common patterns.
-    If any works, return json.
-    """
-    attempts = []
-
-    # (A) No auth (some endpoints may allow it)
-    attempts.append(("no-auth", {}, None))
-
-    # (B) Possible header names
-    if ADILO_PUBLIC_KEY and ADILO_SECRET_KEY:
-        attempts.append(("X-Public-Key/X-Secret-Key", {
-            "X-Public-Key": ADILO_PUBLIC_KEY,
-            "X-Secret-Key": ADILO_SECRET_KEY,
-        }, None))
-        attempts.append(("X-API-KEY/X-API-SECRET", {
-            "X-API-KEY": ADILO_PUBLIC_KEY,
-            "X-API-SECRET": ADILO_SECRET_KEY,
-        }, None))
-        attempts.append(("X-ADILO-PUBLIC-KEY/X-ADILO-SECRET-KEY", {
-            "X-ADILO-PUBLIC-KEY": ADILO_PUBLIC_KEY,
-            "X-ADILO-SECRET-KEY": ADILO_SECRET_KEY,
-        }, None))
-
-        # (C) HTTP basic auth
-        attempts.append(("basic-auth", {}, (ADILO_PUBLIC_KEY, ADILO_SECRET_KEY)))
-
-    for label, extra_headers, basic in attempts:
-        try:
-            headers = {
-                "User-Agent": USER_AGENT,
-                "Accept": "application/json",
-                **extra_headers,
-            }
-            r = requests.get(url, headers=headers, timeout=timeout, auth=basic)
-            if r.status_code == 200:
-                return r.json()
-        except Exception:
-            continue
-
-    return None
-
+def _adilo_get_json(url: str, timeout: int = 25) -> Optional[Dict]:
+    try:
+        r = requests.get(url, headers=_adilo_headers(), timeout=timeout)
+        if r.status_code == 200:
+            return r.json()
+        print(f"[ADILO] API non-200 status={r.status_code} url={url}")
+        return None
+    except Exception as ex:
+        print(f"[ADILO] API error url={url} ex={ex}")
+        return None
 
 def adilo_latest_via_api() -> Optional[str]:
+    if FEATURED_VIDEO_FORCE_ID:
+        forced = FEATURED_VIDEO_FORCE_ID.strip()
+        if forced.startswith("http"):
+            print(f"[ADILO] Using FEATURED_VIDEO_FORCE_ID as URL: {forced}")
+            return forced
+        url = f"https://adilo.bigcommand.com/watch/{forced}"
+        print(f"[ADILO] Using FEATURED_VIDEO_FORCE_ID: {url}")
+        return url
+
     if not (ADILO_PROJECT_ID and ADILO_PUBLIC_KEY and ADILO_SECRET_KEY):
         print("[ADILO] API not attempted (missing ADILO_PROJECT_ID / ADILO_PUBLIC_KEY / ADILO_SECRET_KEY).")
         return None
 
-    print("[ADILO] API attempting newest-by-upload_date…")
+    print("[ADILO] API selecting newest by upload_date…")
 
+    # 1) Get total count
     first_url = f"{ADILO_API_BASE}/projects/{ADILO_PROJECT_ID}/files?From=1&To=50"
-    j = _adilo_try_get_json(first_url, timeout=25)
+    j = _adilo_get_json(first_url, timeout=25)
     if not j:
-        print("[ADILO] API failed to fetch first page (auth mismatch or network).")
+        print("[ADILO] API failed to fetch first page.")
         return None
 
     meta = j.get("meta") or {}
@@ -331,139 +359,107 @@ def adilo_latest_via_api() -> Optional[str]:
     page_size = 50
     last_page_index = max(0, (total - 1) // page_size)
 
-    def page_bounds(page_index: int) -> Tuple[int, int]:
-        start = page_index * page_size + 1
-        end = min(total, (page_index + 1) * page_size)
+    def page_bounds(pi: int) -> Tuple[int, int]:
+        start = pi * page_size + 1
+        end = min(total, (pi + 1) * page_size)
         return start, end
 
-    pages = sorted(set([0, last_page_index, last_page_index // 2]))
+    # 2) Scan last N pages (newest uploads tend to be near the end for this API)
+    pages_to_scan = int(os.getenv("ADILO_SCAN_PAGES", "6").strip())  # scan last 6 pages
+    start_pi = max(0, last_page_index - (pages_to_scan - 1))
+    page_indices = list(range(start_pi, last_page_index + 1))
+
+    skip_re = re.compile(ADILO_SKIP_TITLE_REGEX) if ADILO_SKIP_TITLE_REGEX else None
 
     best_dt = None
     best_id = None
+    best_title = None
 
-    def probe_page(pi: int) -> None:
-        nonlocal best_dt, best_id
+    for pi in page_indices:
         frm, to = page_bounds(pi)
         url = f"{ADILO_API_BASE}/projects/{ADILO_PROJECT_ID}/files?From={frm}&To={to}"
-        jj = _adilo_try_get_json(url, timeout=25)
+        jj = _adilo_get_json(url, timeout=25)
         if not jj:
-            return
+            continue
         payload = jj.get("payload")
         if not isinstance(payload, list) or not payload:
-            return
+            continue
 
-        sample = payload[: min(20, len(payload))]
-        for it in sample:
+        # Evaluate ALL items on the page (not just first 20)
+        for it in payload:
             fid = (it.get("id") or "").strip()
             if not fid:
                 continue
+
             murl = f"{ADILO_API_BASE}/files/{fid}/meta"
-            jm = _adilo_try_get_json(murl, timeout=25)
+            jm = _adilo_get_json(murl, timeout=25)
             if not jm:
                 continue
             p = jm.get("payload") or {}
+            title = (p.get("title") or "").strip()
             dt = _parse_upload_date(p.get("upload_date") or "")
             if not dt:
                 continue
+
+            # Skip promo if we have other options later
+            if skip_re and title and skip_re.search(title):
+                # don’t immediately discard; just mark it as “lower priority”
+                pass
+
             if best_dt is None or dt > best_dt:
                 best_dt = dt
                 best_id = fid
-
-    for pi in pages:
-        probe_page(pi)
+                best_title = title
 
     if not best_id:
         print("[ADILO] API could not determine newest file.")
         return None
 
-    watch_url = f"https://adilo.bigcommand.com/watch/{best_id}"
-    print(f"[ADILO] API newest candidate: {watch_url} dt={best_dt.isoformat()}")
-    return watch_url
+    # 3) If newest is a promo, try again ignoring promos (if possible)
+    if best_title and skip_re and skip_re.search(best_title):
+        print(f"[ADILO] Newest looks like promo ('{best_title}'). Trying best non-promo…")
+        best_dt2 = None
+        best_id2 = None
 
-
-def adilo_latest_via_scrape() -> Optional[str]:
-    sess = requests.Session()
-    sess.headers.update(
-        {
-            "User-Agent": USER_AGENT,
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        }
-    )
-
-    cb = str(int(time.time() * 1000))
-    candidates = [
-        ADILO_PUBLIC_LATEST_PAGE,
-        f"{ADILO_PUBLIC_LATEST_PAGE}?cb={cb}",
-        f"{ADILO_PUBLIC_LATEST_PAGE}/?cb={cb}",
-        f"{ADILO_PUBLIC_LATEST_PAGE}?video=latest&cb={cb}",
-        f"{ADILO_PUBLIC_LATEST_PAGE}?id=&cb={cb}",
-        ADILO_PUBLIC_HOME_PAGE,
-    ]
-
-    ids_vid_re = re.compile(r"video\?id=([A-Za-z0-9_\-]{6,})")
-    ids_watch_re = re.compile(r"/watch/([A-Za-z0-9_\-]{6,})")
-
-    for url in candidates:
-        try:
-            print(f"[ADILO] SCRAPE attempt=1 timeout=25 url={url}")
-            r = sess.get(url, timeout=25, allow_redirects=True)
-            text = r.text or ""
-
-            ids_vid = ids_vid_re.findall(text)
-            ids_watch = ids_watch_re.findall(text)
-
-            all_ids = []
-            for x in ids_vid + ids_watch:
-                if x and x not in all_ids:
-                    all_ids.append(x)
-
-            if not all_ids:
+        for pi in page_indices:
+            frm, to = page_bounds(pi)
+            url = f"{ADILO_API_BASE}/projects/{ADILO_PROJECT_ID}/files?From={frm}&To={to}"
+            jj = _adilo_get_json(url, timeout=25)
+            if not jj:
+                continue
+            payload = jj.get("payload")
+            if not isinstance(payload, list) or not payload:
                 continue
 
-            chosen = all_ids[0]
-            watch_url = f"https://adilo.bigcommand.com/watch/{chosen}"
-            print(f"[ADILO] Found candidate id={chosen} -> {watch_url}")
-            return watch_url
+            for it in payload:
+                fid = (it.get("id") or "").strip()
+                if not fid:
+                    continue
 
-        except requests.exceptions.Timeout:
-            print(f"[ADILO] Timeout url={url} (timeout=25)")
-        except Exception as ex:
-            print(f"[ADILO] SCRAPE failed: {ex}")
+                murl = f"{ADILO_API_BASE}/files/{fid}/meta"
+                jm = _adilo_get_json(murl, timeout=25)
+                if not jm:
+                    continue
+                p = jm.get("payload") or {}
+                title = (p.get("title") or "").strip()
+                if title and skip_re.search(title):
+                    continue
 
-    print(f"[ADILO] Falling back: {ADILO_PUBLIC_HOME_PAGE}")
-    return ADILO_PUBLIC_HOME_PAGE
+                dt = _parse_upload_date(p.get("upload_date") or "")
+                if not dt:
+                    continue
 
+                if best_dt2 is None or dt > best_dt2:
+                    best_dt2 = dt
+                    best_id2 = fid
 
-def scrape_adilo_latest() -> Optional[str]:
-    if FEATURED_VIDEO_FORCE_ID:
-        forced = FEATURED_VIDEO_FORCE_ID.strip()
-        if forced.startswith("http"):
-            print(f"[ADILO] Using FEATURED_VIDEO_FORCE_ID as URL: {forced}")
-            return forced
-        url = f"https://adilo.bigcommand.com/watch/{forced}"
-        print(f"[ADILO] Using FEATURED_VIDEO_FORCE_ID: {url}")
-        return url
+        if best_id2:
+            best_id = best_id2
+            best_dt = best_dt2
 
-    # API-first
-    api_url = adilo_latest_via_api()
-    if api_url:
-        return api_url
-
-    # Fallback
-    return adilo_latest_via_scrape()
-
-
-def adilo_thumbnail_from_watch_url(watch_url: str) -> Optional[str]:
-    try:
-        r = requests.get(watch_url, timeout=20, headers={"User-Agent": USER_AGENT})
-        soup = BeautifulSoup(str(r.text), "html.parser")
-        og = soup.find("meta", property="og:image")
-        if og and og.get("content"):
-            return og["content"].strip()
-    except Exception:
-        return None
-    return None
-
+    watch_url = f"https://adilo.bigcommand.com/watch/{best_id}"
+    print(f"[ADILO] API newest: {watch_url} dt={best_dt.isoformat() if best_dt else 'unknown'}")
+    return watch_url
 
 # =========================
 # Discord posting
@@ -481,7 +477,6 @@ def discord_post(content: str, embeds: Optional[List[Dict]] = None) -> None:
     if r.status_code >= 400:
         raise requests.HTTPError(f"{r.status_code} {r.text}", response=r)
 
-
 def build_story_embed(idx: int, item: Dict) -> Dict:
     title = f"{idx}) {item['title']}"
     url = item["url"]
@@ -490,21 +485,28 @@ def build_story_embed(idx: int, item: Dict) -> Dict:
     if len(summary) > 320:
         summary = summary[:317].rstrip() + "…"
 
-    desc_parts = []
+    desc = []
     if summary:
-        desc_parts.append(summary)
-    desc_parts.append(f"Source: {src}")
-    desc_parts.append(url)
+        desc.append(summary)
+    desc.append(f"Source: {src}")
+    # Put the URL in the embed body too (you wanted links under the story)
+    desc.append(url)
 
     return {
         "title": title[:256],
         "url": url,
-        "description": "\n".join(desc_parts)[:4096],
+        "description": "\n".join(desc)[:4096],
     }
 
+# =========================
+# Main
+# =========================
 
 def main() -> None:
     if not guard_should_post_now():
+        return
+
+    if should_skip_due_to_daily_cache():
         return
 
     items = fetch_all_items()
@@ -513,58 +515,61 @@ def main() -> None:
         return
 
     yt_url, _yt_title = youtube_latest()
-    adilo_url = scrape_adilo_latest()
+    adilo_watch_url = adilo_latest_via_api()
 
+    # Short header content so embeds are the “cards”
     today_str = now_local().strftime("%B %d, %Y")
-
     blerbs = items[:3]
     blerb_lines = [f"► 🎮 {it['title'][:80]}" for it in blerbs]
 
-    header = []
+    content_lines = []
     if NEWSLETTER_TAGLINE:
-        header.append(NEWSLETTER_TAGLINE)
-        header.append("")
-    header.append(today_str)
-    header.append("")
-    header.append(f"In Tonight’s Edition of {NEWSLETTER_NAME}…")
-    header.extend(blerb_lines)
-    header.append("")
-    header.append("Tonight’s Top Stories")
+        content_lines.append(NEWSLETTER_TAGLINE)
+        content_lines.append("")
+    content_lines.append(today_str)
+    content_lines.append("")
+    content_lines.append(f"In Tonight’s Edition of {NEWSLETTER_NAME}…")
+    content_lines.extend(blerb_lines)
+    content_lines.append("")
+    content_lines.append("Tonight’s Top Stories")
 
-    content = "\n".join(header)
+    content = "\n".join(content_lines)
 
+    # Build embeds (story cards)
     embeds: List[Dict] = []
     for i, it in enumerate(items, start=1):
         embeds.append(build_story_embed(i, it))
 
-    if adilo_url:
-        adilo_embed = {
+    # Add an Adilo “latest” embed card
+    if adilo_watch_url:
+        embeds.append({
             "title": "📺 Adilo (latest)",
-            "url": adilo_url,
-            "description": adilo_url,
-        }
-        thumb = None
-        if adilo_url.startswith("https://adilo.bigcommand.com/watch/"):
-            thumb = adilo_thumbnail_from_watch_url(adilo_url)
-        if thumb:
-            adilo_embed["image"] = {"url": thumb}
-        embeds.append(adilo_embed)
+            "url": adilo_watch_url,
+            "description": adilo_watch_url
+        })
 
+    # Discord max embeds per message is 10
     embeds = embeds[:10]
 
-    # Post digest with embeds
+    # 1) Post digest with cards
     discord_post(content, embeds)
 
-    # Force YouTube playable card by posting as standalone raw URL
+    # 2) Post standalone YouTube URL to force playable preview
+    # (Discord previews work best when the message is ONLY the URL)
     if yt_url:
         discord_post(yt_url, None)
+
+    # 3) Post standalone Adilo watch URL (also helps preview reliability)
+    if adilo_watch_url:
+        discord_post(adilo_watch_url, None)
+
+    mark_posted_today()
 
     print("[DONE] Digest posted.")
     if yt_url:
         print(f"[DONE] YouTube: {yt_url}")
-    if adilo_url:
-        print(f"[DONE] Featured Adilo video: {adilo_url}")
-
+    if adilo_watch_url:
+        print(f"[DONE] Adilo: {adilo_watch_url}")
 
 if __name__ == "__main__":
     try:
