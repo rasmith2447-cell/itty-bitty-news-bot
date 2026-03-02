@@ -47,8 +47,11 @@ jobs:
           DIGEST_GUARD_TZ: "America/Los_Angeles"
           DIGEST_GUARD_LOCAL_HOUR: "19"
           DIGEST_GUARD_LOCAL_MINUTE: "0"
-          DIGEST_GUARD_WINDOW_MINUTES: "120"
+          DIGEST_GUARD_WINDOW_MINUTES: "30"
 
+          DIGEST_POST_ONCE_PER_DAY: "true"
+          DIGEST_CACHE_FILE: ".digest_cache.json"
+          
           NEWSLETTER_NAME: "Itty Bitty Gaming News"
           NEWSLETTER_TAGLINE: "Snackable daily gaming news — five days a week."
           USER_AGENT: "IttyBittyGamingNews/Digest"
