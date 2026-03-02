@@ -3,13 +3,8 @@ name: Itty Bitty Gaming News - Digest
 on:
   workflow_dispatch:
   schedule:
-    # 7:00 PM America/Los_Angeles
-    # PST = UTC-8  => 03:00 UTC
-    # PDT = UTC-7  => 02:00 UTC
-    #
-    # ✅ This is PST-safe for winter months (like March 2, 2026 shown in your log).
-    # If you want DST-safe year-round, we can add a second cron + let the guard decide.
-    - cron: "0 3 * * *"
+    # Run every 30 minutes; digest.py time guard controls posting time.
+    - cron: "*/30 * * * *"
 
 jobs:
   digest:
@@ -37,6 +32,7 @@ jobs:
 
       - name: Run digest (posts to Gaming News)
         env:
+          # ✅ Digest channel webhook
           DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
 
           # Manual runs should always post immediately
@@ -49,11 +45,9 @@ jobs:
           DIGEST_GUARD_TZ: "America/Los_Angeles"
           DIGEST_GUARD_LOCAL_HOUR: "19"
           DIGEST_GUARD_LOCAL_MINUTE: "0"
+          DIGEST_GUARD_WINDOW_MINUTES: "30"
 
-          # ✅ Keep this tight now that cron runs once/day
-          DIGEST_GUARD_WINDOW_MINUTES: "20"
-
-          # ✅ Prevent double-posts if you manually run near the scheduled time
+          # Prevent double posts in the same day (plus cache)
           DIGEST_POST_ONCE_PER_DAY: "true"
           DIGEST_CACHE_FILE: ".digest_cache.json"
 
@@ -61,19 +55,20 @@ jobs:
           NEWSLETTER_TAGLINE: "Snackable daily gaming news — five days a week."
           USER_AGENT: "IttyBittyGamingNews/Digest"
 
+          # YouTube latest (RSS)
           YOUTUBE_RSS_URL: "https://www.youtube.com/feeds/videos.xml?channel_id=UC0SJd4h7GQqoYTVjlDnSzqQ"
-          YOUTUBE_CHANNEL_ID: "UC0SJd4h7GQqoYTVjlDnSzqQ"
 
-          # (Even if digest.py no longer uses these, leaving them doesn't hurt)
+          # Adilo
+          ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
+          ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
+          ADILO_PROJECT_ID: "yz8kq5M8"
+
+          # Public pages for fallback scrape
           ADILO_PUBLIC_LATEST_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
           ADILO_PUBLIC_HOME_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 
+          # Feeds (optional repo variable; if empty digest.py has defaults)
           FEED_URLS: ${{ vars.FEED_URLS }}
-
-          # ✅ Needed for Adilo API (if your digest.py uses API)
-          ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
-          ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
-          ADILO_PROJECT_ID: ${{ secrets.ADILO_PROJECT_ID }}
 
         run: |
           python digest.py
