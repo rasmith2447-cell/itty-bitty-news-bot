@@ -3,7 +3,7 @@ name: Itty Bitty Gaming News - Digest
 on:
   workflow_dispatch:
   schedule:
-    # Run every 30 minutes; digest.py time guard controls posting time.
+    # Run every 30 minutes; digest.py guard will only allow posting near 7pm PT
     - cron: "*/30 * * * *"
 
 jobs:
@@ -24,19 +24,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: SECRET PRESENCE CHECK (content board webhook)
+      - name: SECRET PRESENCE CHECK (Discord + OnlySocial)
         env:
           CONTENT_BOARD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
+          ONLYSOCIAL_TOKEN: ${{ secrets.ONLYSOCIAL_TOKEN }}
+          ONLYSOCIAL_WORKSPACE_UUID: ${{ secrets.ONLYSOCIAL_WORKSPACE_UUID }}
+          ONLYSOCIAL_ACCOUNT_UUIDS: ${{ secrets.ONLYSOCIAL_ACCOUNT_UUIDS }}
         run: |
           echo "CONTENT_BOARD_WEBHOOK_URL=$([ -n "$CONTENT_BOARD_WEBHOOK_URL" ] && echo PRESENT || echo MISSING)"
+          echo "ONLYSOCIAL_TOKEN=$([ -n "$ONLYSOCIAL_TOKEN" ] && echo PRESENT || echo MISSING)"
+          echo "ONLYSOCIAL_WORKSPACE_UUID=$([ -n "$ONLYSOCIAL_WORKSPACE_UUID" ] && echo PRESENT || echo MISSING)"
+          echo "ONLYSOCIAL_ACCOUNT_UUIDS=$([ -n "$ONLYSOCIAL_ACCOUNT_UUIDS" ] && echo PRESENT || echo EMPTY)"
 
-      - name: Run digest (posts to Gaming News)
+      - name: Run digest (posts to Gaming News + exports text)
         env:
-          # ✅ Digest channel webhook
+          # Discord webhook for the DIGEST channel (Gaming News)
           DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
 
-          FILTER_YT_SHORTS: "true"
-          
           # Manual runs should always post immediately
           DIGEST_FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && 'true' || '' }}
 
@@ -49,28 +53,34 @@ jobs:
           DIGEST_GUARD_LOCAL_MINUTE: "0"
           DIGEST_GUARD_WINDOW_MINUTES: "30"
 
-          # Prevent double posts in the same day (plus cache)
+          # Optional: once-per-day + cache
           DIGEST_POST_ONCE_PER_DAY: "true"
           DIGEST_CACHE_FILE: ".digest_cache.json"
 
           NEWSLETTER_NAME: "Itty Bitty Gaming News"
-          NEWSLETTER_TAGLINE: "Your snackable daily gaming news!"
+          NEWSLETTER_TAGLINE: "Snackable daily gaming news — five days a week."
           USER_AGENT: "IttyBittyGamingNews/Digest"
 
           # YouTube latest (RSS)
           YOUTUBE_RSS_URL: "https://www.youtube.com/feeds/videos.xml?channel_id=UC0SJd4h7GQqoYTVjlDnSzqQ"
 
-          # Adilo
-          ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
-          ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
-          ADILO_PROJECT_ID: "yz8kq5M8"
-
-          # Public pages for fallback scrape
+          # Adilo public pages (scrape)
           ADILO_PUBLIC_LATEST_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
           ADILO_PUBLIC_HOME_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
 
-          # Feeds (optional repo variable; if empty digest.py has defaults)
           FEED_URLS: ${{ vars.FEED_URLS }}
 
+          # Tell digest where to export the final newsletter text (OnlySocial will read this)
+          DIGEST_EXPORT_FILE: "digest_latest.txt"
         run: |
           python digest.py
+
+      - name: Post digest to OnlySocial (public)
+        env:
+          ONLYSOCIAL_TOKEN: ${{ secrets.ONLYSOCIAL_TOKEN }}
+          ONLYSOCIAL_WORKSPACE_UUID: ${{ secrets.ONLYSOCIAL_WORKSPACE_UUID }}
+          ONLYSOCIAL_ACCOUNT_UUIDS: ${{ secrets.ONLYSOCIAL_ACCOUNT_UUIDS }}
+          DIGEST_EXPORT_FILE: "digest_latest.txt"
+          USER_AGENT: "IttyBittyGamingNews/OnlySocial"
+        run: |
+          python onlysocial_post.py
