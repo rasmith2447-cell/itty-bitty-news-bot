@@ -35,6 +35,8 @@ jobs:
           # ✅ Digest channel webhook
           DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
 
+          FILTER_YT_SHORTS: "true"
+          
           # Manual runs should always post immediately
           DIGEST_FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && 'true' || '' }}
 
@@ -52,7 +54,7 @@ jobs:
           DIGEST_CACHE_FILE: ".digest_cache.json"
 
           NEWSLETTER_NAME: "Itty Bitty Gaming News"
-          NEWSLETTER_TAGLINE: "Snackable daily gaming news — five days a week."
+          NEWSLETTER_TAGLINE: "Your snackable daily gaming news!"
           USER_AGENT: "IttyBittyGamingNews/Digest"
 
           # YouTube latest (RSS)
