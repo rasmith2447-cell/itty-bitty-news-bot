@@ -166,7 +166,6 @@ def mark_posted_today(cache: Dict) -> None:
 # Fetch RSS stories
 # ----------------------------
 def parse_published(entry) -> Optional[datetime]:
-    # feedparser sets .published_parsed or .updated_parsed
     for attr in ("published_parsed", "updated_parsed"):
         st = getattr(entry, attr, None)
         if st:
@@ -183,7 +182,6 @@ def extract_tags(entry) -> List[str]:
         term = getattr(t, "term", None)
         if term:
             tags.append(str(term).strip())
-    # de-dupe, preserve order
     out = []
     seen = set()
     for x in tags:
@@ -197,7 +195,6 @@ def extract_tags(entry) -> List[str]:
 def clean_summary(html_or_text: str) -> str:
     if not html_or_text:
         return ""
-    # Strip HTML and collapse whitespace
     soup = BeautifulSoup(str(html_or_text), "html.parser")
     txt = soup.get_text(" ", strip=True)
     txt = re.sub(r"\s+", " ", txt).strip()
@@ -207,7 +204,6 @@ def clean_summary(html_or_text: str) -> str:
 def load_feed_urls() -> List[str]:
     raw = getenv("FEED_URLS", "").strip()
     if raw:
-        # support comma or newline separated
         parts = []
         for chunk in re.split(r"[\n,]+", raw):
             u = chunk.strip()
@@ -229,12 +225,10 @@ def fetch_stories() -> List[Story]:
     for url in urls:
         try:
             print(f"[RSS] GET {url}")
-            # feedparser can fetch itself, but we supply our own request for UA control
             r = requests.get(url, headers=headers, timeout=REQ_TIMEOUT)
             r.raise_for_status()
             feed = feedparser.parse(r.content)
 
-            # Even if bozo=1, entries often still parse fine; don't hard-fail.
             if getattr(feed, "bozo", 0) == 1:
                 bozo_exc = getattr(feed, "bozo_exception", None)
                 print(f"[RSS] bozo=1 for {url}: {bozo_exc}")
@@ -265,24 +259,14 @@ def fetch_stories() -> List[Story]:
         except Exception as ex:
             print(f"[RSS] Feed failed: {url} ({ex})")
 
-    # Filter by cutoff again if entries had no pub date
-    recent = []
-    for s in all_stories:
-        if s.published is None:
-            # keep undated items (some feeds omit date); they will be sorted later
-            recent.append(s)
-        else:
-            recent.append(s)
-
-    print(f"[DIGEST] After {window_hours}h window filter: {len(recent)} item(s)")
-    return recent
+    print(f"[DIGEST] After {window_hours}h window filter: {len(all_stories)} item(s)")
+    return all_stories
 
 
 def pick_top_stories(stories: List[Story]) -> List[Story]:
     top_n = int(getenv("DIGEST_TOP_N", "5").strip())
     max_per_source = int(getenv("DIGEST_MAX_PER_SOURCE", "1").strip())
 
-    # Sort: newest first; undated go last
     def sort_key(s: Story):
         if s.published is None:
             return (0, datetime(1970, 1, 1, tzinfo=ZoneInfo("UTC")))
@@ -318,7 +302,6 @@ def pick_top_stories(stories: List[Story]) -> List[Story]:
 def youtube_latest() -> Optional[Tuple[str, str]]:
     rss = getenv("YOUTUBE_RSS_URL", "").strip()
     if not rss:
-        # optional: build from channel id
         cid = getenv("YOUTUBE_CHANNEL_ID", "").strip()
         if cid:
             rss = f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}"
@@ -332,46 +315,36 @@ def youtube_latest() -> Optional[Tuple[str, str]]:
         print(f"[YT] Fetch RSS: {rss}")
         r = requests.get(rss, headers=headers, timeout=REQ_TIMEOUT)
         r.raise_for_status()
-
-        # Simple parse: find first <entry>, then <yt:videoId> and <title>
-        # We avoid extra deps; regex is enough for this feed format.
         text = r.text
 
-        # Grab first entry block
-        m_entry = re.search(r"<entry\b.*?</entry>", text, flags=re.DOTALL)
-        if not m_entry:
-            return None
-        entry = m_entry.group(0)
-
-        m_vid = re.search(r"<yt:videoId>([^<]+)</yt:videoId>", entry)
-        m_title = re.search(r"<title>([^<]+)</title>", entry)
-        if not m_vid:
+        entries = re.findall(r"<entry\b.*?</entry>", text, flags=re.DOTALL)
+        if not entries:
             return None
 
-        vid = m_vid.group(1).strip()
-        title = (m_title.group(1).strip() if m_title else "Latest video").strip()
+        def entry_to_video(ent: str) -> Optional[Tuple[str, str]]:
+            m_vid = re.search(r"<yt:videoId>([^<]+)</yt:videoId>", ent)
+            m_title = re.search(r"<title>([^<]+)</title>", ent)
+            if not m_vid:
+                return None
+            vid = m_vid.group(1).strip()
+            title = (m_title.group(1).strip() if m_title else "Latest video").strip()
+            return (vid, title)
 
-        # Filter shorts by title heuristic (best we can do via RSS)
-        if getenv("YOUTUBE_FILTER_SHORTS", "true").strip().lower() in ("1", "true", "yes", "y"):
-            t = title.lower()
-            if "#shorts" in t or "shorts" in t or "short" in t and "shortage" not in t:
-                # If first is a short, try next entry
-                entries = re.findall(r"<entry\b.*?</entry>", text, flags=re.DOTALL)
-                for ent in entries[1:10]:
-                    m_vid2 = re.search(r"<yt:videoId>([^<]+)</yt:videoId>", ent)
-                    m_title2 = re.search(r"<title>([^<]+)</title>", ent)
-                    if not m_vid2:
-                        continue
-                    vid2 = m_vid2.group(1).strip()
-                    title2 = (m_title2.group(1).strip() if m_title2 else "Latest video").strip()
-                    t2 = title2.lower()
-                    if "#shorts" in t2 or "shorts" in t2 or ("short" in t2 and "shortage" not in t2):
-                        continue
-                    vid, title = vid2, title2
-                    break
+        filter_shorts = getenv("YOUTUBE_FILTER_SHORTS", "true").strip().lower() in ("1", "true", "yes", "y")
 
-        url = f"https://www.youtube.com/watch?v={vid}"
-        return (url, title)
+        for ent in entries[:25]:
+            parsed = entry_to_video(ent)
+            if not parsed:
+                continue
+            vid, title = parsed
+            if filter_shorts:
+                t = title.lower()
+                # simple heuristic
+                if "#shorts" in t or " shorts" in t or t.endswith("shorts"):
+                    continue
+            return (f"https://www.youtube.com/watch?v={vid}", title)
+
+        return None
     except Exception as ex:
         print(f"[YT] Failed to fetch RSS: {ex}")
         return None
@@ -391,8 +364,6 @@ def adilo_latest_via_api() -> Optional[str]:
     base = "https://adilo-api.bigcommand.com/v1"
     url = f"{base}/projects/{pid}/files?From=1&To=50"
     try:
-        # NOTE: I don't know Adilo's exact auth header scheme; this mirrors what *often* works:
-        # If your API still returns 401, scrape will take over.
         headers = {
             "User-Agent": getenv("USER_AGENT", UA_DEFAULT),
             "Accept": "application/json",
@@ -403,10 +374,8 @@ def adilo_latest_via_api() -> Optional[str]:
         r.raise_for_status()
         data = r.json()
         payload = data.get("payload", [])
-        # If the API returns newest first, first item is latest. If not, we could meta-probe, but keep simple.
         if not payload:
             return None
-
         file_id = payload[0].get("id") or ""
         if not file_id:
             return None
@@ -420,25 +389,22 @@ def extract_adilo_ids_from_html(html: str) -> List[str]:
     if not html:
         return []
 
-    ids = []
+    ids: List[str] = []
 
-    # Patterns we have seen / likely:
-    # - /watch/<id>
-    # - video?id=<id>
-    # - stage/videos/<id>
     patterns = [
         r"/watch/([A-Za-z0-9_-]{6,})",
         r"video\?id=([A-Za-z0-9_-]{6,})",
         r"/stage/videos/([A-Za-z0-9_-]{6,})",
         r'"id"\s*:\s*"([A-Za-z0-9_-]{6,})"',
+        r'"videoId"\s*:\s*"([A-Za-z0-9_-]{6,})"',
+        r"data-video-id=['\"]([A-Za-z0-9_-]{6,})['\"]",
     ]
 
     for pat in patterns:
         for m in re.findall(pat, html):
             ids.append(m)
 
-    # De-dupe preserve order
-    out = []
+    out: List[str] = []
     seen = set()
     for x in ids:
         if x not in seen:
@@ -447,14 +413,17 @@ def extract_adilo_ids_from_html(html: str) -> List[str]:
     return out
 
 
-def scrape_url_text(url: str, headers: Dict[str, str], timeout: int) -> Optional[str]:
+def scrape_url_text(url: str, headers: Dict[str, str], timeout: int) -> Tuple[Optional[str], str]:
+    """
+    Returns (text, final_url). final_url is the resolved URL after redirects.
+    """
     try:
-        r = requests.get(url, headers=headers, timeout=timeout)
+        r = requests.get(url, headers=headers, timeout=timeout, allow_redirects=True)
         r.raise_for_status()
-        return r.text
+        return r.text, (r.url or url)
     except Exception as ex:
         print(f"[ADILO] SCRAPE failed: {ex}")
-        return None
+        return None, url
 
 
 def adilo_latest_via_scrape(cache: Dict) -> Optional[str]:
@@ -476,37 +445,40 @@ def adilo_latest_via_scrape(cache: Dict) -> Optional[str]:
         f"{latest_page}?cb={cb}",
         f"{latest_page}/?cb={cb}",
         f"{latest_page}?video=latest&cb={cb}",
-        f"{latest_page}?id=&cb={cb}",  # sometimes redirects or renders latest
+        f"{latest_page}?id=&cb={cb}",
+        # (some sites redirect you to ?id=<latest>)
+        f"{latest_page}?id=latest&cb={cb}",
     ]
 
     for u in candidates:
         print(f"[ADILO] SCRAPE attempt=1 timeout={REQ_TIMEOUT} url={u}")
-        text = scrape_url_text(u, headers, REQ_TIMEOUT)
+        text, final_url = scrape_url_text(u, headers, REQ_TIMEOUT)
         if not text:
             continue
 
-        ids = extract_adilo_ids_from_html(text)
-        if ids:
-            # Best guess: first ID tends to be newest on these pages when it works
-            vid = ids[0]
-            watch = f"https://adilo.bigcommand.com/watch/{vid}"
-            print(f"[ADILO] Found candidate id={vid} -> {watch}")
-            cache["last_good_adilo_watch_url"] = watch
-            return watch
+        # 1) If redirects landed on ?id=..., use it
+        q = parse_qs(urlparse(final_url).query)
+        if "id" in q and q["id"]:
+            vid = q["id"][0].strip()
+            if vid and vid.lower() not in ("", "latest"):
+                watch = f"https://adilo.bigcommand.com/watch/{vid}"
+                print(f"[ADILO] Redirect/URL contained id={vid} -> {watch}")
+                cache["last_good_adilo_watch_url"] = watch
+                return watch
 
-        # Also try to parse canonical/og:url for a direct video URL
+        # 2) Parse og:url/canonical if present
         soup = BeautifulSoup(text, "html.parser")
         og = soup.find("meta", property="og:url")
         if og and og.get("content"):
             ogu = og["content"].strip()
-            # If it contains a video id, convert to watch URL
-            q = parse_qs(urlparse(ogu).query)
-            if "id" in q and q["id"]:
-                vid = q["id"][0]
-                watch = f"https://adilo.bigcommand.com/watch/{vid}"
-                print(f"[ADILO] Found og:url id={vid} -> {watch}")
-                cache["last_good_adilo_watch_url"] = watch
-                return watch
+            q2 = parse_qs(urlparse(ogu).query)
+            if "id" in q2 and q2["id"]:
+                vid = q2["id"][0].strip()
+                if vid:
+                    watch = f"https://adilo.bigcommand.com/watch/{vid}"
+                    print(f"[ADILO] Found og:url id={vid} -> {watch}")
+                    cache["last_good_adilo_watch_url"] = watch
+                    return watch
             m = re.search(r"/watch/([A-Za-z0-9_-]{6,})", ogu)
             if m:
                 vid = m.group(1)
@@ -515,7 +487,16 @@ def adilo_latest_via_scrape(cache: Dict) -> Optional[str]:
                 cache["last_good_adilo_watch_url"] = watch
                 return watch
 
-    # If scrape failed, use last-good from cache before falling back to home
+        # 3) Fallback: extract many IDs from HTML and choose the LAST one (newest-ish)
+        ids = extract_adilo_ids_from_html(text)
+        if ids:
+            vid = ids[-1]  # <-- key change: pick last, not first
+            watch = f"https://adilo.bigcommand.com/watch/{vid}"
+            print(f"[ADILO] Found candidate id={vid} -> {watch}")
+            cache["last_good_adilo_watch_url"] = watch
+            return watch
+
+    # Use last-good from cache before falling back to home
     last_good = cache.get("last_good_adilo_watch_url")
     if last_good:
         print(f"[ADILO] Using cached last-good Adilo URL: {last_good}")
@@ -526,7 +507,6 @@ def adilo_latest_via_scrape(cache: Dict) -> Optional[str]:
 
 
 def adilo_latest(cache: Dict) -> str:
-    # Prefer API if it works; else scrape; always avoid hard-locking IDs.
     api_url = adilo_latest_via_api()
     if api_url:
         cache["last_good_adilo_watch_url"] = api_url
@@ -564,11 +544,9 @@ def build_story_embed(idx: int, story: Story) -> Dict:
         desc_parts.append(safe_trunc(story.summary, 320))
 
     if story.tags:
-        # show up to 6 tags
         shown = story.tags[:6]
         desc_parts.append("**Tags:** " + ", ".join(shown))
 
-    # Put source + link in embed (this is what makes “cards under story” work)
     desc_parts.append(f"**Source:** {story.source}")
 
     desc = "\n".join([p for p in desc_parts if p]).strip()
@@ -576,13 +554,11 @@ def build_story_embed(idx: int, story: Story) -> Dict:
 
     embed = {
         "title": title,
-        "url": story.url,  # clickable title -> story
+        "url": story.url,
         "description": desc,
     }
 
-    # If we have published time, show it
     if story.published:
-        # Discord expects ISO 8601
         embed["timestamp"] = story.published.astimezone(ZoneInfo("UTC")).isoformat()
 
     return embed
@@ -606,19 +582,7 @@ def build_digest_text(top_titles: List[str]) -> str:
         lines.append(f"► 🎮 {t}")
     lines.append("")
     lines.append("Tonight’s Top Stories")
-    # NOTE: story embeds will appear directly under this message
     return "\n".join(lines).strip()
-
-
-def maybe_export_digest(content: str, path: str) -> None:
-    if not path:
-        return
-    try:
-        with open(path, "w", encoding="utf-8") as f:
-            f.write(content)
-        print(f"[EXPORT] Wrote {path}")
-    except Exception as ex:
-        print(f"[EXPORT] Failed to write {path}: {ex}")
 
 
 # ----------------------------
@@ -629,7 +593,6 @@ def main() -> None:
     cache = load_cache(cache_file)
 
     if not guard_should_post_now():
-        # Exit success so Actions doesn't show failure
         return
 
     if not guard_once_per_day(cache):
@@ -645,40 +608,30 @@ def main() -> None:
         print("[DIGEST] No items selected. Exiting without posting.")
         return
 
-    # Build digest message + story embeds
-    top_titles = [s.title for s in top]
-    digest_text = build_digest_text(top_titles)
+    digest_text = build_digest_text([s.title for s in top])
     embeds = [build_story_embed(i + 1, s) for i, s in enumerate(top)]
-
-    export_path = getenv("DIGEST_EXPORT_FILE", "").strip()
-    if export_path:
-        maybe_export_digest(digest_text, export_path)
 
     # 1) Post digest message (text + story embeds)
     post_webhook(content=digest_text, embeds=embeds)
 
-    # 2) Post Adilo standalone URL (for best chance at unfurl/card)
+    # 2) Post Adilo standalone URL (unfurl chance)
     adilo_url = adilo_latest(cache)
-    # Avoid posting pure hub/home if we can
-    if adilo_url and "/home" not in adilo_url:
+    if adilo_url and "/watch/" in adilo_url:
         post_webhook(content=adilo_url, embeds=None)
     else:
-        # If it's home, only post if there's no cached last-good
         last_good = cache.get("last_good_adilo_watch_url")
-        if last_good and "/home" not in last_good:
+        if last_good and "/watch/" in last_good:
             post_webhook(content=last_good, embeds=None)
             adilo_url = last_good
         else:
-            # Don't spam home; skip
             print(f"[ADILO] Using fallback/no-video URL. Not posting standalone: {adilo_url}")
 
-    # 3) Post YouTube standalone URL LAST (per your preference)
+    # 3) Post YouTube standalone URL LAST (your preference)
     yt = youtube_latest()
     yt_url = yt[0] if yt else ""
     if yt_url:
         post_webhook(content=yt_url, embeds=None)
 
-    # Mark posted
     mark_posted_today(cache)
     save_cache(cache_file, cache)
 
