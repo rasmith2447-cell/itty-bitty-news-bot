@@ -585,10 +585,23 @@ def fetch_feed(feed_name: str, feed_url: str) -> List[Item]:
     return items
 
 
-def fetch_all_feeds(feed_list: Optional[List[Dict]] = None) -> Tuple[List[Item], Dict[str, int]]:
+def fetch_all_feeds(
+    feed_list: Optional[List[Dict]] = None,
+    breaking_mode: bool = False,
+    breaking_max_age_hours: int = 72,
+) -> Tuple[List[Item], Dict[str, int]]:
     """
-    Fetch all feeds, apply hard filters, cluster duplicates.
+    Fetch all feeds, apply filters, cluster duplicates.
     Returns (clustered_items, filter_reason_counts).
+
+    breaking_mode=True:
+      - Skips hard_block (so rumor/opinion filters don't kill breaking stories)
+      - Only keeps items that pass is_breaking() — must have a breaking keyword
+        AND be within breaking_max_age_hours
+      - Game/adjacent check is still enforced so pure non-gaming stories are excluded
+
+    breaking_mode=False (default / RAW):
+      - Full hard_block filter pipeline
     """
     feed_list = feed_list or FEEDS
     raw_items: List[Item] = []
@@ -605,11 +618,23 @@ def fetch_all_feeds(feed_list: Optional[List[Dict]] = None) -> Tuple[List[Item],
     filtered: List[Item] = []
 
     for it in raw_items:
-        r = hard_block(it.title, it.summary)
-        if r == "":
-            filtered.append(it)
+        if breaking_mode:
+            # Must be game/adjacent first
+            if not game_or_adjacent(it.title, it.summary):
+                reasons["NOT_GAME_OR_ADJACENT"] = reasons.get("NOT_GAME_OR_ADJACENT", 0) + 1
+                continue
+            # Must have a breaking keyword and be recent enough
+            if is_breaking(it.title, it.summary, it.published_at, breaking_max_age_hours):
+                filtered.append(it)
+            else:
+                r = "NOT_BREAKING_KEYWORD_OR_TOO_OLD"
+                reasons[r] = reasons.get(r, 0) + 1
         else:
-            reasons[r] = reasons.get(r, 0) + 1
+            r = hard_block(it.title, it.summary)
+            if r == "":
+                filtered.append(it)
+            else:
+                reasons[r] = reasons.get(r, 0) + 1
 
     clustered = cluster_items(filtered)
     return clustered, reasons
