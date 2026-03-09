@@ -47,18 +47,13 @@ def main() -> None:
     state = load_state()
 
     # --- Fetch + filter + cluster ---
-    all_items, reasons = fetch_all_feeds(FEEDS)
-
-    # In BREAKING mode re-filter by breaking signal after clustering
-    if BREAKING_MODE:
-        eligible: List[Item] = []
-        for it in all_items:
-            if is_breaking(it.title, it.summary, it.published_at, BREAKING_MAX_AGE_HOURS):
-                eligible.append(it)
-            else:
-                r = hard_block(it.title, it.summary) or "NOT_BREAKING_KEYWORD_OR_TOO_OLD"
-                reasons[r] = reasons.get(r, 0) + 1
-        all_items = eligible
+    # In breaking mode, fetch_all_feeds skips hard_block and filters by
+    # breaking keywords + age instead, so stories are never wrongly excluded.
+    all_items, reasons = fetch_all_feeds(
+        FEEDS,
+        breaking_mode=BREAKING_MODE,
+        breaking_max_age_hours=BREAKING_MAX_AGE_HOURS,
+    )
 
     # --- Post loop ---
     posted       = 0
