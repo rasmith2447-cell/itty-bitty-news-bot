@@ -412,10 +412,36 @@ def _adilo_via_scrape(cache: Dict) -> Optional[str]:
 
 
 def adilo_latest(cache: Dict) -> str:
-    result = _adilo_via_api() or _adilo_via_scrape(cache)
-    if result and "/watch/" in result:
+    """
+    Resolution order:
+      1. Adilo API (if keys configured)
+      2. Scrape latest page
+      3. Last-good URL from cache
+      4. Home page (always postable, shows the channel)
+    Always returns a non-empty string.
+    """
+    # 1. API
+    result = _adilo_via_api()
+    if result:
+        print(f"[ADILO] Resolved via API: {result}")
         cache["last_good_adilo_watch_url"] = result
-    return result or ADILO_HOME_PAGE
+        return result
+
+    # 2. Scrape (also updates cache internally)
+    result = _adilo_via_scrape(cache)
+    if result and result != ADILO_HOME_PAGE:
+        print(f"[ADILO] Resolved via scrape: {result}")
+        return result
+
+    # 3. Last-good cache
+    last_good = cache.get("last_good_adilo_watch_url", "")
+    if last_good:
+        print(f"[ADILO] Using cached last-good: {last_good}")
+        return last_good
+
+    # 4. Home page fallback
+    print(f"[ADILO] All methods failed — using home page: {ADILO_HOME_PAGE}")
+    return ADILO_HOME_PAGE
 
 
 # ---------------------------------------------------------------------------
@@ -466,18 +492,23 @@ def main() -> None:
         content = "" if i > 0 else None
         post_webhook(DISCORD_WEBHOOK_URL, content="", embeds=chunk)
 
-    # --- Video links (unfurl as separate messages) ---
+    # --- Video links (Adilo first, then YouTube) ---
+    # Adilo: try API → scrape → last-good cache → home page fallback
     adilo_url = adilo_latest(cache)
-    if adilo_url and "/watch/" in adilo_url:
+    if adilo_url:
+        print(f"[ADILO] Posting: {adilo_url}")
         post_webhook(DISCORD_WEBHOOK_URL, content=f"🎬 **Tonight's Video Edition:**\n{adilo_url}")
     else:
-        print(f"[ADILO] No valid watch URL — skipping standalone post.")
+        print("[ADILO] No URL resolved — skipping.")
 
+    # YouTube: always attempt; skip only if channel not configured
     yt = youtube_latest()
     if yt:
         yt_url, yt_title = yt
+        print(f"[YT] Posting: {yt_url}")
         post_webhook(DISCORD_WEBHOOK_URL, content=f"📺 **Latest on YouTube — {yt_title}:**\n{yt_url}")
-        print(f"[DONE] YouTube: {yt_url}")
+    else:
+        print("[YT] No video found or channel not configured — skipping.")
 
     # --- Finalise ---
     mark_posted_today(cache)
