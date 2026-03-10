@@ -12,11 +12,9 @@ import re
 import time
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Tuple
-from urllib.parse import parse_qs, urlparse
 from zoneinfo import ZoneInfo
 
 import requests
-from bs4 import BeautifulSoup
 
 from shared import (
     FEEDS,
@@ -51,8 +49,8 @@ NEWSLETTER_NAME    = getenv("NEWSLETTER_NAME", "Itty Bitty Gaming News")
 NEWSLETTER_TAGLINE = getenv("NEWSLETTER_TAGLINE", "Your snackable video game news.")
 NEWSLETTER_EMOJI   = getenv("NEWSLETTER_EMOJI", "🎮")
 
-YOUTUBE_CHANNEL_ID  = getenv("YOUTUBE_CHANNEL_ID")
-YOUTUBE_RSS_URL     = getenv("YOUTUBE_RSS_URL")
+YOUTUBE_CHANNEL_ID    = getenv("YOUTUBE_CHANNEL_ID")
+YOUTUBE_RSS_URL       = getenv("YOUTUBE_RSS_URL")
 YOUTUBE_FILTER_SHORTS = getenv("YOUTUBE_FILTER_SHORTS", "true").lower() in ("1", "true", "yes", "y")
 
 UA = getenv("USER_AGENT", "IttyBittyGamingNews/Digest")
@@ -97,10 +95,10 @@ def guard_posting_window() -> bool:
     delta_min  = abs((now - closest).total_seconds()) / 60.0
 
     if delta_min <= DIGEST_GUARD_WINDOW:
-        print(f"[GUARD] ✅ Within posting window. Now={now:%H:%M %Z} | Target={closest:%H:%M %Z} | Δ={delta_min:.1f}min")
+        print(f"[GUARD] Within posting window. Now={now:%H:%M %Z} | Target={closest:%H:%M %Z} | delta={delta_min:.1f}min")
         return True
 
-    print(f"[GUARD] ⏸️  Outside window. Now={now:%H:%M %Z} | Target={closest:%H:%M %Z} | Δ={delta_min:.1f}min")
+    print(f"[GUARD] Outside window. Now={now:%H:%M %Z} | Target={closest:%H:%M %Z} | delta={delta_min:.1f}min")
     return False
 
 
@@ -119,34 +117,20 @@ def mark_posted_today(cache: Dict) -> None:
     cache.setdefault("posted_dates", [])
     if today not in cache["posted_dates"]:
         cache["posted_dates"].append(today)
-        cache["posted_dates"] = cache["posted_dates"][-90:]  # keep 90 days
+        cache["posted_dates"] = cache["posted_dates"][-90:]
 
 
 # ---------------------------------------------------------------------------
-# STORY SELECTION  (smarter than pure recency)
+# STORY SELECTION
 # ---------------------------------------------------------------------------
 
 def pick_top_stories(items: List[Item]) -> List[Item]:
-    """
-    Score every item, apply topic-similarity penalty, then pick top-N.
-
-    Topic penalty: once a story is picked, any remaining candidate that
-    is about the same topic (similarity >= TOPIC_SIMILARITY_THRESHOLD)
-    gets a score penalty. This means the newsletter will prefer diverse
-    stories over 4 variations of the same Mario movie trailer.
-
-    Threshold 72 is intentionally loose — catches near-duplicates like
-    'Donald Glover confirmed as Yoshi' appearing from 4 different outlets,
-    while still allowing genuinely different angles on the same franchise
-    (e.g. a Zelda delay AND a Zelda DLC announcement on the same day).
-    """
     TOPIC_SIMILARITY_THRESHOLD = 72
-    TOPIC_PENALTY = 40  # subtracted from score for each similar picked story
+    TOPIC_PENALTY = 40
 
     cutoff = utcnow() - timedelta(hours=DIGEST_WINDOW_HOURS)
     recent = [it for it in items if it.published_at >= cutoff]
 
-    # Compute base scores
     for it in recent:
         it.score = compute_score(it)
 
@@ -154,15 +138,12 @@ def pick_top_stories(items: List[Item]) -> List[Item]:
     per_source: Dict[str, int] = {}
     seen_urls: set = set()
 
-    # We loop up to top_n * 6 times to allow re-sorting after penalties
-    # without an infinite loop risk.
     max_iterations = DIGEST_TOP_N * 6
     iterations = 0
 
     while len(picked) < DIGEST_TOP_N and iterations < max_iterations:
         iterations += 1
 
-        # Re-sort after each pick (penalties may have reshuffled the queue)
         recent.sort(key=lambda x: (x.score, x.published_at.timestamp()), reverse=True)
 
         advanced = False
@@ -174,12 +155,10 @@ def pick_top_stories(items: List[Item]) -> List[Item]:
             if per_source[it.source] >= DIGEST_MAX_PER_SOURCE:
                 continue
 
-            # Pick this story
             seen_urls.add(it.url)
             per_source[it.source] += 1
             picked.append(it)
 
-            # Apply similarity penalty to remaining candidates
             for other in recent:
                 if other.url in seen_urls:
                     continue
@@ -194,53 +173,47 @@ def pick_top_stories(items: List[Item]) -> List[Item]:
             break
 
         if not advanced:
-            break  # No more eligible stories
+            break
 
     return picked
 
 
 # ---------------------------------------------------------------------------
-# NEWSLETTER FORMATTING  (bold, gamer-y, scannable)
+# NEWSLETTER FORMATTING
 # ---------------------------------------------------------------------------
 
-# Emoji map for tags → colourful Discord display
 TAG_DISPLAY = {
-    "📣 ANNOUNCEMENT": "📣",
-    "🚀 OUT NOW":      "🚀",
-    "🔧 PATCH":        "🔧",
-    "🔄 UPDATE":       "🔄",
-    "⏳ DELAY":        "⏳",
-    "💼 LAYOFFS":      "💼",
-    "🔒 SHUTDOWN":     "🔒",
-    "🤝 M&A":          "🤝",
-    "⚖️ LEGAL":        "⚖️",
-    "🎖️ RETIREMENT":   "🎖️",
-    "💸 PRICE CHANGE": "💸",
-    "📅 DATE CONFIRMED":"📅",
-    "🆓 FREE":         "🆓",
+    "ANNOUNCEMENT": "📣",
+    "OUT NOW":      "🚀",
+    "PATCH":        "🔧",
+    "UPDATE":       "🔄",
+    "DELAY":        "⏳",
+    "LAYOFFS":      "💼",
+    "SHUTDOWN":     "🔒",
+    "M&A":          "🤝",
+    "LEGAL":        "⚖️",
+    "RETIREMENT":   "🎖️",
+    "PRICE CHANGE": "💸",
+    "DATE CONFIRMED":"📅",
+    "FREE":         "🆓",
 }
 
-SECTION_DIVIDER = "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
-
+SECTION_DIVIDER = "--------------------"
 STORY_ICONS = ["🥇", "🥈", "🥉", "4️⃣", "5️⃣"]
 
 
 def _tag_badges(tags: List[str]) -> str:
-    """Convert tag list to compact emoji badges."""
     badges = []
     for t in tags[:4]:
-        badges.append(TAG_DISPLAY.get(t, t))
+        key = t.split()[-1] if t else t
+        badges.append(TAG_DISPLAY.get(t, TAG_DISPLAY.get(key, t)))
     return "  ".join(badges)
 
 
 def build_header_embed(top_stories: List[Item]) -> Dict:
-    """
-    Big splash embed: newsletter title, date, teaser headlines.
-    """
-    tz     = ZoneInfo(DIGEST_GUARD_TZ)
-    today  = datetime.now(tz).strftime("%A, %B %d, %Y")
+    tz    = ZoneInfo(DIGEST_GUARD_TZ)
+    today = datetime.now(tz).strftime("%A, %B %d, %Y")
 
-    # Teaser lines — top 3 headlines as bullet teasers
     teaser_lines = []
     for i, s in enumerate(top_stories[:3]):
         icon = ["🔥", "⚡", "🎯"][i]
@@ -262,30 +235,22 @@ def build_header_embed(top_stories: List[Item]) -> Dict:
     return {
         "title":       f"{NEWSLETTER_EMOJI} {NEWSLETTER_NAME}",
         "description": desc,
-        "color":       0x7C3AED,   # bold purple — feels gamer-y
+        "color":       0x7C3AED,
     }
 
 
 def build_story_embed(rank: int, story: Item) -> Dict:
-    """
-    Individual story embed with rich formatting.
-    rank is 0-indexed.
-    """
     icon  = STORY_ICONS[rank] if rank < len(STORY_ICONS) else f"{rank + 1}."
     title = f"{icon}  {story.title}"[:256]
 
-    # Build description block
     parts = []
 
-    # Summary
     if story.summary:
         parts.append(f"*{shorten(story.summary, 280)}*")
 
-    # Tag badges
     if story.tags:
         parts.append(_tag_badges(story.tags))
 
-    # Source + score debug (score only shown if DEBUG)
     source_line = f"📰 **{story.source}**"
     if story.published_at:
         source_line += f"  ·  🕐 <t:{int(story.published_at.timestamp())}:R>"
@@ -310,13 +275,11 @@ def build_story_embed(rank: int, story: Item) -> Dict:
 
 
 def _rank_color(rank: int) -> int:
-    """Gold → silver → bronze → neutral palette."""
     colors = [0xFFD700, 0xC0C0C0, 0xCD7F32, 0x5865F2, 0x57F287]
     return colors[rank] if rank < len(colors) else 0x5865F2
 
 
 def build_footer_embed(story_count: int) -> Dict:
-    """Closing embed with subscribe nudge."""
     tz    = ZoneInfo(DIGEST_GUARD_TZ)
     today = datetime.now(tz).strftime("%B %d, %Y")
 
@@ -338,6 +301,63 @@ def build_footer_embed(story_count: int) -> Dict:
 
 
 # ---------------------------------------------------------------------------
+# YOUTUBE
+# ---------------------------------------------------------------------------
+
+def youtube_latest() -> Optional[Tuple[str, str]]:
+    rss = YOUTUBE_RSS_URL
+    if not rss and YOUTUBE_CHANNEL_ID:
+        rss = f"https://www.youtube.com/feeds/videos.xml?channel_id={YOUTUBE_CHANNEL_ID}"
+    if not rss:
+        print("[YT] No channel ID or RSS URL configured.")
+        return None
+
+    yt_headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/124.0.0.0 Safari/537.36"
+        ),
+        "Accept": "application/atom+xml,application/xml,text/xml,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+
+    last_error = None
+    for attempt in range(1, 4):
+        try:
+            print(f"[YT] Fetching RSS (attempt {attempt}): {rss}")
+            r = requests.get(rss, headers=yt_headers, timeout=25)
+            r.raise_for_status()
+
+            entries = re.findall(r"<entry\b.*?</entry>", r.text, flags=re.DOTALL)
+            if not entries:
+                print("[YT] Feed returned no entries.")
+                return None
+
+            for ent in entries[:25]:
+                m_vid   = re.search(r"<yt:videoId>([^<]+)</yt:videoId>", ent)
+                m_title = re.search(r"<title>([^<]+)</title>", ent)
+                if not m_vid:
+                    continue
+                vid   = m_vid.group(1).strip()
+                title = m_title.group(1).strip() if m_title else "Latest video"
+                if YOUTUBE_FILTER_SHORTS:
+                    t = title.lower()
+                    if "#shorts" in t or " shorts" in t or t.endswith("shorts"):
+                        continue
+                print(f"[YT] Found latest video: {title}")
+                return (f"https://www.youtube.com/watch?v={vid}", title)
+
+        except Exception as ex:
+            last_error = ex
+            print(f"[YT] Attempt {attempt} failed: {ex}")
+            if attempt < 3:
+                time.sleep(3)
+
+    print(f"[YT] All attempts failed. Last error: {last_error}")
+    return None
+
+
 # ---------------------------------------------------------------------------
 # MAIN
 # ---------------------------------------------------------------------------
@@ -353,8 +373,8 @@ def main() -> None:
     if not guard_once_per_day(cache):
         return
 
-    # --- Fetch + filter + cluster ---
-    print("[DIGEST] Fetching feeds…")
+    # --- Fetch + filter ---
+    print("[DIGEST] Fetching feeds...")
     all_items, reasons = fetch_all_feeds(FEEDS)
 
     if not all_items:
@@ -383,8 +403,9 @@ def main() -> None:
     CHUNK = 10
     for i in range(0, len(all_embeds), CHUNK):
         chunk = all_embeds[i:i + CHUNK]
-        content = "" if i > 0 else None
-    # YouTube: always attempt; skip only if channel not configured
+        post_webhook(DISCORD_WEBHOOK_URL, content="", embeds=chunk)
+
+    # --- YouTube link ---
     yt = youtube_latest()
     if yt:
         yt_url, yt_title = yt
@@ -397,15 +418,15 @@ def main() -> None:
     mark_posted_today(cache)
     save_cache(cache)
 
-    print("\n════════════════════════════════")
+    print("\n================================")
     print(f"  {NEWSLETTER_NAME} digest posted!")
     print(f"  Stories: {len(top)}")
     if reasons:
         top_reasons = sorted(reasons.items(), key=lambda x: x[1], reverse=True)[:5]
         print("  Top filter reasons:")
         for k, v in top_reasons:
-            print(f"    • {k}: {v}")
-    print("════════════════════════════════\n")
+            print(f"    * {k}: {v}")
+    print("================================\n")
 
 
 if __name__ == "__main__":
