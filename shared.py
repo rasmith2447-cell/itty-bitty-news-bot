@@ -358,12 +358,30 @@ def compute_score(item: Item) -> int:
     return score
 
 
+def topic_similarity(title_a: str, title_b: str) -> int:
+    """
+    Returns a fuzzy similarity score 0-100 between two titles.
+    Used by digest to penalise stories covering the same topic.
+    Strips common noise words first for a cleaner match.
+    """
+    noise = re.compile(
+        r"\b(the|a|an|is|are|was|were|has|have|its|it|in|on|at|to|of|for|and|or|but|"
+        r"with|new|first|last|final|latest|official|full|big|review|trailer|"
+        r"video|watch|exclusive|breaking|report|says|get|gets|will|what|how|"
+        r"why|who|when|where|that|this|these|those)\b",
+        re.IGNORECASE,
+    )
+    a = re.sub(r"\s+", " ", noise.sub(" ", title_a.lower())).strip()
+    b = re.sub(r"\s+", " ", noise.sub(" ", title_b.lower())).strip()
+    return fuzz.token_set_ratio(a, b)
+
+
+
 # ---------------------------------------------------------------------------
 # TAGGING
 # ---------------------------------------------------------------------------
 
-def make_tags(title: str, summary: str) -> List[str]:
-    hay = f"{title} {summary}".lower()
+def make_tags(title: str, summary: str) -> List[str]:    hay = f"{title} {summary}".lower()
     tags: List[str] = []
 
     tag_rules = [
