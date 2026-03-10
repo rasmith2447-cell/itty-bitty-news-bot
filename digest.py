@@ -26,6 +26,7 @@ from shared import (
     getenv,
     post_webhook,
     shorten,
+    topic_similarity,
     utcnow,
 )
 
@@ -134,36 +135,73 @@ def mark_posted_today(cache: Dict) -> None:
 
 def pick_top_stories(items: List[Item]) -> List[Item]:
     """
-    Score every item, then pick top-N with per-source cap.
-    Items within the digest window only.
+    Score every item, apply topic-similarity penalty, then pick top-N.
+
+    Topic penalty: once a story is picked, any remaining candidate that
+    is about the same topic (similarity >= TOPIC_SIMILARITY_THRESHOLD)
+    gets a score penalty. This means the newsletter will prefer diverse
+    stories over 4 variations of the same Mario movie trailer.
+
+    Threshold 72 is intentionally loose — catches near-duplicates like
+    'Donald Glover confirmed as Yoshi' appearing from 4 different outlets,
+    while still allowing genuinely different angles on the same franchise
+    (e.g. a Zelda delay AND a Zelda DLC announcement on the same day).
     """
+    TOPIC_SIMILARITY_THRESHOLD = 72
+    TOPIC_PENALTY = 40  # subtracted from score for each similar picked story
+
     cutoff = utcnow() - timedelta(hours=DIGEST_WINDOW_HOURS)
     recent = [it for it in items if it.published_at >= cutoff]
 
-    # Compute scores
+    # Compute base scores
     for it in recent:
         it.score = compute_score(it)
-
-    # Sort by score descending, then by recency as tiebreaker
-    recent.sort(key=lambda x: (x.score, x.published_at.timestamp()), reverse=True)
 
     picked: List[Item] = []
     per_source: Dict[str, int] = {}
     seen_urls: set = set()
 
-    for it in recent:
-        if len(picked) >= DIGEST_TOP_N:
+    # We loop up to top_n * 6 times to allow re-sorting after penalties
+    # without an infinite loop risk.
+    max_iterations = DIGEST_TOP_N * 6
+    iterations = 0
+
+    while len(picked) < DIGEST_TOP_N and iterations < max_iterations:
+        iterations += 1
+
+        # Re-sort after each pick (penalties may have reshuffled the queue)
+        recent.sort(key=lambda x: (x.score, x.published_at.timestamp()), reverse=True)
+
+        advanced = False
+        for it in recent:
+            if it.url in seen_urls:
+                continue
+
+            per_source.setdefault(it.source, 0)
+            if per_source[it.source] >= DIGEST_MAX_PER_SOURCE:
+                continue
+
+            # Pick this story
+            seen_urls.add(it.url)
+            per_source[it.source] += 1
+            picked.append(it)
+
+            # Apply similarity penalty to remaining candidates
+            for other in recent:
+                if other.url in seen_urls:
+                    continue
+                sim = topic_similarity(it.title, other.title)
+                if sim >= TOPIC_SIMILARITY_THRESHOLD:
+                    penalty = TOPIC_PENALTY + int((sim - TOPIC_SIMILARITY_THRESHOLD) * 0.5)
+                    other.score -= penalty
+                    if other.score < 0:
+                        other.score = 0
+
+            advanced = True
             break
-        if it.url in seen_urls:
-            continue
-        seen_urls.add(it.url)
 
-        per_source.setdefault(it.source, 0)
-        if per_source[it.source] >= DIGEST_MAX_PER_SOURCE:
-            continue
-
-        per_source[it.source] += 1
-        picked.append(it)
+        if not advanced:
+            break  # No more eligible stories
 
     return picked
 
@@ -396,9 +434,12 @@ def _adilo_via_api() -> Optional[str]:
         print("[ADILO] Could not determine project ID — API skipped.")
         return None
 
-    # Fetch files for this project, sorted newest first
+    # Fetch files — request more to ensure we see the newest.
+    # Adilo API order is not guaranteed; we try to find the newest by
+    # checking both ends of the list and picking the one with the
+    # highest created_at / uploaded_at timestamp if available.
     try:
-        url = f"{base}/projects/{pid}/files?From=1&To=10"
+        url = f"{base}/projects/{pid}/files?From=1&To=50"
         r = requests.get(url, headers=api_headers, timeout=25)
         r.raise_for_status()
         data = r.json()
@@ -406,17 +447,36 @@ def _adilo_via_api() -> Optional[str]:
         if isinstance(data, list):
             payload = data
         print(f"[ADILO] API returned {len(payload)} file(s) for project {pid}")
-        if payload:
-            # First item = newest
-            fid = payload[0].get("id") or payload[0].get("uuid") or payload[0].get("file_id") or ""
-            if fid:
-                url = f"https://adilo.bigcommand.com/watch/{fid}"
-                print(f"[ADILO] API resolved latest video: {url}")
-                return url
-            else:
-                print(f"[ADILO] First file has no id/uuid. Keys: {list(payload[0].keys())}")
-        else:
+
+        if not payload:
             print("[ADILO] API returned empty file list.")
+            return None
+
+        # Try to sort by created_at / uploaded_at if the field exists
+        date_keys = ["created_at", "uploaded_at", "date_created", "date_uploaded", "createdAt", "uploadedAt"]
+        for dk in date_keys:
+            if payload[0].get(dk):
+                try:
+                    payload = sorted(payload, key=lambda x: x.get(dk, ""), reverse=True)
+                    print(f"[ADILO] Sorted {len(payload)} files by '{dk}' descending.")
+                    break
+                except Exception:
+                    pass
+
+        # Try last item first (often newest when no date field), then first item
+        candidates = [payload[-1], payload[0]]
+        for candidate in candidates:
+            fid = (
+                candidate.get("id") or candidate.get("uuid") or
+                candidate.get("file_id") or candidate.get("fileId") or ""
+            )
+            if fid:
+                watch_url = f"https://adilo.bigcommand.com/watch/{fid}"
+                print(f"[ADILO] API resolved latest video: {watch_url}")
+                print(f"[ADILO] File keys available: {list(candidate.keys())}")
+                return watch_url
+
+        print(f"[ADILO] No usable ID found in payload items.")
     except Exception as ex:
         print(f"[ADILO] Files API failed: {ex}")
 
