@@ -377,16 +377,29 @@ def youtube_latest() -> Optional[Tuple[str, str]]:
     return None
 
 
+def _adilo_via_auto_variable() -> Optional[str]:
+    """
+    Check ADILO_CURRENT_VIDEO_ID — the repo variable automatically
+    kept up to date by update_adilo.py / the Update Adilo workflow.
+    This is the primary resolution method when the updater is running.
+    """
+    vid = getenv("ADILO_CURRENT_VIDEO_ID", "").strip()
+    if vid:
+        url = f"https://adilo.bigcommand.com/watch/{vid}"
+        print(f"[ADILO] Using auto-managed video ID (ADILO_CURRENT_VIDEO_ID): {url}")
+        return url
+    return None
+
+
 def _adilo_via_manual_override() -> Optional[str]:
     """
-    Highest-priority override: set ADILO_VIDEO_ID in GitHub secrets/vars
-    to always post a specific video (useful when scrape can't reach latest).
-    Example: ADILO_VIDEO_ID=abc123xyz
+    Manual fallback: set ADILO_VIDEO_ID in GitHub secrets to force a
+    specific video. Only used if ADILO_CURRENT_VIDEO_ID is not set.
     """
     vid = getenv("ADILO_VIDEO_ID", "").strip()
     if vid:
         url = f"https://adilo.bigcommand.com/watch/{vid}"
-        print(f"[ADILO] Manual override via ADILO_VIDEO_ID: {url}")
+        print(f"[ADILO] Using manual override (ADILO_VIDEO_ID): {url}")
         return url
     return None
 
@@ -576,42 +589,49 @@ def _adilo_via_scrape(cache: Dict) -> Optional[str]:
 def adilo_latest(cache: Dict) -> str:
     """
     Resolution order:
-      1. ADILO_VIDEO_ID manual override (GitHub secret — set this for instant fix)
-      2. Adilo API (auto-detects project if ADILO_PROJECT_ID missing)
-      3. Scrape channel page
-      4. Last-good URL from cache
-      5. Hardcoded known-good video (https://adilo.bigcommand.com/watch/9u7iHmrc)
+      1. ADILO_CURRENT_VIDEO_ID repo variable (auto-updated daily by update_adilo.py)
+      2. ADILO_VIDEO_ID manual secret override (emergency fallback)
+      3. Adilo API direct call
+      4. Scrape channel page
+      5. Last-good URL from cache
+      6. Hardcoded known-good video (9u7iHmrc)
 
     Always returns a postable URL — never None or empty.
-    Update the hardcoded known-good whenever you publish a new video.
     """
-    # 1. Manual override
+    # 1. Auto-managed variable (kept fresh by update_adilo.py workflow)
+    result = _adilo_via_auto_variable()
+    if result:
+        cache["last_good_adilo_watch_url"] = result
+        return result
+
+    # 2. Manual override secret
     result = _adilo_via_manual_override()
     if result:
         cache["last_good_adilo_watch_url"] = result
         return result
 
-    # 2. API
+    # 3. API direct call
     result = _adilo_via_api()
     if result:
         cache["last_good_adilo_watch_url"] = result
         return result
 
-    # 3. Scrape
+    # 4. Scrape
     result = _adilo_via_scrape(cache)
     if result:
         return result
 
-    # 4. Last-good cache
+    # 5. Last-good cache
     last_good = cache.get("last_good_adilo_watch_url", "")
     if last_good:
         print(f"[ADILO] Using cached last-good: {last_good}")
         return last_good
 
-    # 5. Hardcoded known-good video (last manually confirmed URL)
+    # 6. Hardcoded known-good
     known_good = "https://adilo.bigcommand.com/watch/9u7iHmrc"
     print(f"[ADILO] Using hardcoded known-good video: {known_good}")
     return known_good
+
 
 
 # ---------------------------------------------------------------------------
