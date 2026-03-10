@@ -381,7 +381,8 @@ def topic_similarity(title_a: str, title_b: str) -> int:
 # TAGGING
 # ---------------------------------------------------------------------------
 
-def make_tags(title: str, summary: str) -> List[str]:    hay = f"{title} {summary}".lower()
+def make_tags(title: str, summary: str) -> List[str]:
+    hay = f"{title} {summary}".lower()
     tags: List[str] = []
 
     tag_rules = [
