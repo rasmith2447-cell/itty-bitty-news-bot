@@ -59,6 +59,7 @@ ADILO_SECRET_KEY    = getenv("ADILO_SECRET_KEY")
 ADILO_PROJECT_ID    = getenv("ADILO_PROJECT_ID")
 ADILO_LATEST_PAGE   = getenv("ADILO_PUBLIC_LATEST_PAGE", "https://adilo.bigcommand.com/c/ittybittygamingnews/video")
 ADILO_HOME_PAGE     = getenv("ADILO_PUBLIC_HOME_PAGE", "https://adilo.bigcommand.com/c/ittybittygamingnews/home")
+ADILO_FALLBACK_VIDEO = getenv("ADILO_FALLBACK_VIDEO", "https://adilo.bigcommand.com/watch/9u7iHmrc")
 
 UA = getenv("USER_AGENT", "IttyBittyGamingNews/Digest")
 
@@ -338,110 +339,219 @@ def youtube_latest() -> Optional[Tuple[str, str]]:
     return None
 
 
+def _adilo_via_manual_override() -> Optional[str]:
+    """
+    Highest-priority override: set ADILO_VIDEO_ID in GitHub secrets/vars
+    to always post a specific video (useful when scrape can't reach latest).
+    Example: ADILO_VIDEO_ID=abc123xyz
+    """
+    vid = getenv("ADILO_VIDEO_ID", "").strip()
+    if vid:
+        url = f"https://adilo.bigcommand.com/watch/{vid}"
+        print(f"[ADILO] Manual override via ADILO_VIDEO_ID: {url}")
+        return url
+    return None
+
+
 def _adilo_via_api() -> Optional[str]:
-    if not (ADILO_PUBLIC_KEY and ADILO_SECRET_KEY and ADILO_PROJECT_ID):
+    """
+    Try Adilo API. Requires ADILO_PUBLIC_KEY + ADILO_SECRET_KEY.
+    ADILO_PROJECT_ID is optional — if missing, we list all projects first.
+    """
+    pub = getenv("ADILO_PUBLIC_KEY", "").strip()
+    sec = getenv("ADILO_SECRET_KEY", "").strip()
+    if not (pub and sec):
+        print("[ADILO] API skipped — ADILO_PUBLIC_KEY or ADILO_SECRET_KEY not set.")
         return None
-    url = f"https://adilo-api.bigcommand.com/v1/projects/{ADILO_PROJECT_ID}/files?From=1&To=50"
+
+    api_headers = {
+        "User-Agent": UA,
+        "Accept": "application/json",
+        "X-Public-Key": pub,
+        "X-Secret-Key": sec,
+    }
+    base = "https://adilo-api.bigcommand.com/v1"
+
+    # If no project ID, list projects and use the first one
+    pid = getenv("ADILO_PROJECT_ID", "").strip()
+    if not pid:
+        print("[ADILO] ADILO_PROJECT_ID not set — attempting to list projects to find it...")
+        try:
+            r = requests.get(f"{base}/projects", headers=api_headers, timeout=25)
+            r.raise_for_status()
+            data = r.json()
+            print(f"[ADILO] Projects response keys: {list(data.keys()) if isinstance(data, dict) else type(data)}")
+            projects = data.get("payload") or data.get("data") or data.get("projects") or []
+            if isinstance(data, list):
+                projects = data
+            if projects:
+                pid = projects[0].get("id") or projects[0].get("uuid") or ""
+                print(f"[ADILO] Auto-detected project ID: {pid}")
+                print(f"[ADILO] TIP: Set ADILO_PROJECT_ID={pid} in your GitHub secrets to skip this lookup.")
+        except Exception as ex:
+            print(f"[ADILO] Project list failed: {ex}")
+            return None
+
+    if not pid:
+        print("[ADILO] Could not determine project ID — API skipped.")
+        return None
+
+    # Fetch files for this project, sorted newest first
     try:
-        r = requests.get(url, headers={
-            "User-Agent": UA,
-            "Accept": "application/json",
-            "X-Public-Key": ADILO_PUBLIC_KEY,
-            "X-Secret-Key": ADILO_SECRET_KEY,
-        }, timeout=25)
+        url = f"{base}/projects/{pid}/files?From=1&To=10"
+        r = requests.get(url, headers=api_headers, timeout=25)
         r.raise_for_status()
-        payload = r.json().get("payload", [])
+        data = r.json()
+        payload = data.get("payload") or data.get("data") or data.get("files") or []
+        if isinstance(data, list):
+            payload = data
+        print(f"[ADILO] API returned {len(payload)} file(s) for project {pid}")
         if payload:
-            fid = payload[0].get("id", "")
+            # First item = newest
+            fid = payload[0].get("id") or payload[0].get("uuid") or payload[0].get("file_id") or ""
             if fid:
-                return f"https://adilo.bigcommand.com/watch/{fid}"
+                url = f"https://adilo.bigcommand.com/watch/{fid}"
+                print(f"[ADILO] API resolved latest video: {url}")
+                return url
+            else:
+                print(f"[ADILO] First file has no id/uuid. Keys: {list(payload[0].keys())}")
+        else:
+            print("[ADILO] API returned empty file list.")
     except Exception as ex:
-        print(f"[ADILO] API failed: {ex}")
+        print(f"[ADILO] Files API failed: {ex}")
+
     return None
 
 
 def _adilo_via_scrape(cache: Dict) -> Optional[str]:
+    """
+    Scrape the Adilo channel page for video IDs.
+    NOTE: Adilo is a JS-rendered SPA — raw HTML often won't contain /watch/ IDs.
+    This catches cases where the page does embed IDs in its initial HTML/JSON payload.
+    """
     headers = {
         "User-Agent": UA,
         "Accept": "text/html,application/xhtml+xml,*/*;q=0.8",
         "Cache-Control": "no-cache",
     }
-    cb = int(time.time() * 1000)
-    candidates = [ADILO_LATEST_PAGE, f"{ADILO_LATEST_PAGE}?cb={cb}"]
 
-    for u in candidates:
+    for u in [ADILO_LATEST_PAGE, ADILO_HOME_PAGE]:
         try:
+            print(f"[ADILO] Scraping: {u}")
             r = requests.get(u, headers=headers, timeout=25, allow_redirects=True)
             r.raise_for_status()
-            # Check redirect URL for ?id=
-            q = parse_qs(urlparse(r.url).query)
+            html = r.text
+            final_url = r.url
+
+            print(f"[ADILO] Final URL after redirects: {final_url}")
+            print(f"[ADILO] HTML size: {len(html)} chars")
+
+            # 1. Check redirect URL for ?id= or /watch/
+            q = parse_qs(urlparse(final_url).query)
             if q.get("id"):
                 vid = q["id"][0].strip()
                 if vid and vid.lower() not in ("", "latest"):
                     watch = f"https://adilo.bigcommand.com/watch/{vid}"
+                    print(f"[ADILO] Found ID in redirect URL: {watch}")
                     cache["last_good_adilo_watch_url"] = watch
                     return watch
 
-            # Try og:url
-            soup = BeautifulSoup(r.text, "html.parser")
-            og   = soup.find("meta", property="og:url")
-            if og and og.get("content"):
-                ogu = og["content"].strip()
-                m   = re.search(r"/watch/([A-Za-z0-9_-]{6,})", ogu)
-                if m:
-                    watch = f"https://adilo.bigcommand.com/watch/{m.group(1)}"
-                    cache["last_good_adilo_watch_url"] = watch
-                    return watch
-
-            # Fallback: scrape IDs from page
-            ids = re.findall(r"/watch/([A-Za-z0-9_-]{6,})", r.text)
-            if ids:
-                watch = f"https://adilo.bigcommand.com/watch/{ids[-1]}"
+            m = re.search(r"/watch/([A-Za-z0-9_-]{6,})", final_url)
+            if m:
+                watch = f"https://adilo.bigcommand.com/watch/{m.group(1)}"
+                print(f"[ADILO] Found /watch/ in redirect URL: {watch}")
                 cache["last_good_adilo_watch_url"] = watch
                 return watch
+
+            # 2. og:url / og:video meta tags
+            soup = BeautifulSoup(html, "html.parser")
+            for prop in ("og:url", "og:video", "og:video:url"):
+                tag = soup.find("meta", property=prop)
+                if tag and tag.get("content"):
+                    m = re.search(r"/watch/([A-Za-z0-9_-]{6,})", tag["content"])
+                    if m:
+                        watch = f"https://adilo.bigcommand.com/watch/{m.group(1)}"
+                        print(f"[ADILO] Found ID in {prop}: {watch}")
+                        cache["last_good_adilo_watch_url"] = watch
+                        return watch
+
+            # 3. JSON blobs embedded in page (SPA initial state)
+            json_blobs = re.findall(r'\{[^{}]{20,}\}', html)
+            for blob in json_blobs:
+                m = re.search(r'"(?:id|videoId|file_id|uuid)"\s*:\s*"([A-Za-z0-9_-]{6,})"', blob)
+                if m:
+                    vid = m.group(1)
+                    # Sanity check: not a generic UUID-like token
+                    if len(vid) >= 6 and not vid.startswith("UC"):
+                        watch = f"https://adilo.bigcommand.com/watch/{vid}"
+                        print(f"[ADILO] Found ID in JSON blob: {watch}")
+                        cache["last_good_adilo_watch_url"] = watch
+                        return watch
+
+            # 4. Direct /watch/ href anywhere in HTML
+            ids = re.findall(r'href=["\'][^"\']*?/watch/([A-Za-z0-9_-]{6,})["\']', html)
+            if ids:
+                watch = f"https://adilo.bigcommand.com/watch/{ids[0]}"
+                print(f"[ADILO] Found /watch/ href in HTML: {watch}")
+                cache["last_good_adilo_watch_url"] = watch
+                return watch
+
+            # 5. Any /watch/ pattern at all in raw HTML
+            ids = re.findall(r'/watch/([A-Za-z0-9_-]{6,})', html)
+            if ids:
+                watch = f"https://adilo.bigcommand.com/watch/{ids[-1]}"
+                print(f"[ADILO] Found /watch/ pattern in raw HTML: {watch}")
+                cache["last_good_adilo_watch_url"] = watch
+                return watch
+
+            print(f"[ADILO] No video IDs found in scraped HTML from {u}")
+            print(f"[ADILO] First 500 chars of HTML: {html[:500]}")
 
         except Exception as ex:
             print(f"[ADILO] Scrape failed ({u}): {ex}")
 
-    last_good = cache.get("last_good_adilo_watch_url")
-    if last_good:
-        print(f"[ADILO] Using cached URL: {last_good}")
-        return last_good
-
-    return ADILO_HOME_PAGE
+    return None
 
 
 def adilo_latest(cache: Dict) -> str:
     """
     Resolution order:
-      1. Adilo API (if keys configured)
-      2. Scrape latest page
-      3. Last-good URL from cache
-      4. Home page (always postable, shows the channel)
-    Always returns a non-empty string.
+      1. ADILO_VIDEO_ID manual override (GitHub secret — set this for instant fix)
+      2. Adilo API (auto-detects project if ADILO_PROJECT_ID missing)
+      3. Scrape channel page
+      4. Last-good URL from cache
+      5. Hardcoded known-good video (https://adilo.bigcommand.com/watch/9u7iHmrc)
+
+    Always returns a postable URL — never None or empty.
+    Update the hardcoded known-good whenever you publish a new video.
     """
-    # 1. API
-    result = _adilo_via_api()
+    # 1. Manual override
+    result = _adilo_via_manual_override()
     if result:
-        print(f"[ADILO] Resolved via API: {result}")
         cache["last_good_adilo_watch_url"] = result
         return result
 
-    # 2. Scrape (also updates cache internally)
-    result = _adilo_via_scrape(cache)
-    if result and result != ADILO_HOME_PAGE:
-        print(f"[ADILO] Resolved via scrape: {result}")
+    # 2. API
+    result = _adilo_via_api()
+    if result:
+        cache["last_good_adilo_watch_url"] = result
         return result
 
-    # 3. Last-good cache
+    # 3. Scrape
+    result = _adilo_via_scrape(cache)
+    if result:
+        return result
+
+    # 4. Last-good cache
     last_good = cache.get("last_good_adilo_watch_url", "")
     if last_good:
         print(f"[ADILO] Using cached last-good: {last_good}")
         return last_good
 
-    # 4. Home page fallback
-    print(f"[ADILO] All methods failed — using home page: {ADILO_HOME_PAGE}")
-    return ADILO_HOME_PAGE
+    # 5. Hardcoded known-good video (last manually confirmed URL)
+    known_good = "https://adilo.bigcommand.com/watch/9u7iHmrc"
+    print(f"[ADILO] Using hardcoded known-good video: {known_good}")
+    return known_good
 
 
 # ---------------------------------------------------------------------------
