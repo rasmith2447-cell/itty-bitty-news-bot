@@ -392,6 +392,16 @@ def main() -> None:
     for i, s in enumerate(top):
         print(f"  {i+1}. [{s.score:>3}pts] {s.source}: {s.title}")
 
+    # --- Export stories for OnlySocial ---
+    export_file = getenv("DIGEST_EXPORT_FILE", "digest_latest.json")
+    try:
+        export_data = [{"title": s.title, "url": s.url, "source": s.source} for s in top]
+        with open(export_file, "w", encoding="utf-8") as f:
+            json.dump(export_data, f, indent=2)
+        print(f"[DIGEST] Exported {len(export_data)} stories to {export_file}")
+    except Exception as ex:
+        print(f"[DIGEST] Export failed (non-fatal): {ex}")
+
     # --- Build Discord payload ---
     header_embed = build_header_embed(top)
     story_embeds = [build_story_embed(i, s) for i, s in enumerate(top)]
