@@ -1,74 +1,61 @@
 name: Itty Bitty Gaming News - Digest
-
 on:
   workflow_dispatch:
   schedule:
     # Run every 30 minutes; digest.py guard allows posting near 7pm PT only.
     - cron: "*/30 * * * *"
-
 jobs:
   digest:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
       - name: SECRET PRESENCE CHECK (Digest webhook)
         env:
           CONTENT_BOARD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
         run: |
           echo "CONTENT_BOARD_WEBHOOK_URL=$([ -n "$CONTENT_BOARD_WEBHOOK_URL" ] && echo PRESENT || echo MISSING)"
-
       - name: Run digest (posts to Gaming News)
         env:
           # Digest channel webhook
           DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
-
           # Manual runs should always post immediately
           DIGEST_FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && 'true' || '' }}
-
           DIGEST_WINDOW_HOURS: "24"
           DIGEST_TOP_N: "5"
           DIGEST_MAX_PER_SOURCE: "1"
-
           DIGEST_GUARD_TZ: "America/Los_Angeles"
           DIGEST_GUARD_LOCAL_HOUR: "19"
           DIGEST_GUARD_LOCAL_MINUTE: "0"
           DIGEST_GUARD_WINDOW_MINUTES: "30"
-
           DIGEST_POST_ONCE_PER_DAY: "true"
           DIGEST_CACHE_FILE: ".digest_cache.json"
-
           NEWSLETTER_NAME: "Itty Bitty Gaming News"
           NEWSLETTER_TAGLINE: "Your snackable video game news."
           USER_AGENT: "IttyBittyGamingNews/Digest"
-
           # YouTube latest (RSS)
           YOUTUBE_CHANNEL_ID: "UC0SJd4h7GQqoYTVjlDnSzqQ"
           YOUTUBE_RSS_URL: "https://www.youtube.com/feeds/videos.xml?channel_id=UC0SJd4h7GQqoYTVjlDnSzqQ"
           YOUTUBE_FILTER_SHORTS: "true"
-
-          # Adilo (API optional + scrape fallback)
+          # Adilo — auto-managed variable (kept fresh by Update Adilo workflow)
+          ADILO_CURRENT_VIDEO_ID: ${{ vars.ADILO_CURRENT_VIDEO_ID }}
+          # Adilo — manual override secret (emergency fallback only)
+          ADILO_VIDEO_ID: ${{ secrets.ADILO_VIDEO_ID }}
+          # Adilo API credentials
           ADILO_PUBLIC_KEY: ${{ secrets.ADILO_PUBLIC_KEY }}
           ADILO_SECRET_KEY: ${{ secrets.ADILO_SECRET_KEY }}
           ADILO_PROJECT_ID: ${{ secrets.ADILO_PROJECT_ID }}
-
           ADILO_PUBLIC_LATEST_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/video"
           ADILO_PUBLIC_HOME_PAGE: "https://adilo.bigcommand.com/c/ittybittygamingnews/home"
-
           # Feeds (optional repo variable; if empty digest.py uses defaults)
           FEED_URLS: ${{ vars.FEED_URLS }}
-
         run: |
           python digest.py
