@@ -354,26 +354,56 @@ def youtube_latest() -> Optional[Tuple[str, str]]:
     if not rss and YOUTUBE_CHANNEL_ID:
         rss = f"https://www.youtube.com/feeds/videos.xml?channel_id={YOUTUBE_CHANNEL_ID}"
     if not rss:
+        print("[YT] No channel ID or RSS URL configured.")
         return None
 
-    try:
-        r = requests.get(rss, headers={"User-Agent": UA}, timeout=25)
-        r.raise_for_status()
-        entries = re.findall(r"<entry\b.*?</entry>", r.text, flags=re.DOTALL)
-        for ent in entries[:25]:
-            m_vid   = re.search(r"<yt:videoId>([^<]+)</yt:videoId>", ent)
-            m_title = re.search(r"<title>([^<]+)</title>", ent)
-            if not m_vid:
-                continue
-            vid   = m_vid.group(1).strip()
-            title = m_title.group(1).strip() if m_title else "Latest video"
-            if YOUTUBE_FILTER_SHORTS:
-                t = title.lower()
-                if "#shorts" in t or " shorts" in t or t.endswith("shorts"):
+    # YouTube blocks generic bot user-agents from GitHub Actions IPs.
+    # Use a realistic browser UA to avoid 404s.
+    yt_headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/124.0.0.0 Safari/537.36"
+        ),
+        "Accept": "application/atom+xml,application/xml,text/xml,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+
+    # Try up to 3 times with a short backoff — YouTube RSS can be flaky
+    last_error = None
+    for attempt in range(1, 4):
+        try:
+            print(f"[YT] Fetching RSS (attempt {attempt}): {rss}")
+            r = requests.get(rss, headers=yt_headers, timeout=25)
+            r.raise_for_status()
+
+            entries = re.findall(r"<entry\b.*?</entry>", r.text, flags=re.DOTALL)
+            if not entries:
+                print("[YT] Feed returned no entries.")
+                return None
+
+            for ent in entries[:25]:
+                m_vid   = re.search(r"<yt:videoId>([^<]+)</yt:videoId>", ent)
+                m_title = re.search(r"<title>([^<]+)</title>", ent)
+                if not m_vid:
                     continue
-            return (f"https://www.youtube.com/watch?v={vid}", title)
-    except Exception as ex:
-        print(f"[YT] Failed: {ex}")
+                vid   = m_vid.group(1).strip()
+                title = m_title.group(1).strip() if m_title else "Latest video"
+                if YOUTUBE_FILTER_SHORTS:
+                    t = title.lower()
+                    if "#shorts" in t or " shorts" in t or t.endswith("shorts"):
+                        continue
+                print(f"[YT] Found latest video: {title}")
+                return (f"https://www.youtube.com/watch?v={vid}", title)
+
+        except Exception as ex:
+            last_error = ex
+            print(f"[YT] Attempt {attempt} failed: {ex}")
+            if attempt < 3:
+                import time as _time
+                _time.sleep(3)
+
+    print(f"[YT] All attempts failed. Last error: {last_error}")
     return None
 
 
