@@ -1,247 +1,411 @@
 #!/usr/bin/env python3
 """
-update_adilo.py — Itty Bitty Gaming News
-Detects the most recently uploaded video in the Adilo project and
-updates the GitHub Actions repository variable ADILO_CURRENT_VIDEO_ID.
-
-Strategy: fetch from a high page offset to get the newest videos.
-The list is oldest-first, so newest videos are at the end.
-We fetch the last 50 files by starting at a high offset and working
-backwards until we find videos, then pick the last one.
+digest.py — Itty Bitty Gaming News
+Daily newsletter digest: scores stories intelligently, posts a bold
+gamer-flavoured newsletter to Discord with a YouTube video link.
+All feed/filter/fetch logic lives in shared.py.
 """
 
+import json
 import os
-import sys
+import re
+import time
+from datetime import datetime, timedelta
+from typing import Dict, List, Optional, Tuple
+from urllib.parse import parse_qs, urlparse
+from zoneinfo import ZoneInfo
+
 import requests
+from bs4 import BeautifulSoup
+
+from shared import (
+    FEEDS,
+    Item,
+    compute_score,
+    fetch_all_feeds,
+    getenv,
+    post_webhook,
+    shorten,
+    topic_similarity,
+    utcnow,
+)
 
 # ---------------------------------------------------------------------------
 # CONFIG
 # ---------------------------------------------------------------------------
 
-def env(name: str, default: str = "") -> str:
-    return os.getenv(name, default).strip()
+DISCORD_WEBHOOK_URL = getenv("DISCORD_WEBHOOK_URL")
+DIGEST_TOP_N        = int(getenv("DIGEST_TOP_N", "5"))
+DIGEST_MAX_PER_SOURCE = int(getenv("DIGEST_MAX_PER_SOURCE", "2"))
+DIGEST_WINDOW_HOURS = int(getenv("DIGEST_WINDOW_HOURS", "24"))
+DIGEST_CACHE_FILE   = getenv("DIGEST_CACHE_FILE", ".digest_cache.json")
+DIGEST_FORCE_POST   = getenv("DIGEST_FORCE_POST", "").lower() in ("1", "true", "yes", "y")
+DIGEST_POST_ONCE_PER_DAY = getenv("DIGEST_POST_ONCE_PER_DAY", "").lower() in ("1", "true", "yes", "y")
+
+DIGEST_GUARD_TZ      = getenv("DIGEST_GUARD_TZ", "America/Los_Angeles")
+DIGEST_GUARD_HOUR    = int(getenv("DIGEST_GUARD_LOCAL_HOUR", "19"))
+DIGEST_GUARD_MINUTE  = int(getenv("DIGEST_GUARD_LOCAL_MINUTE", "0"))
+DIGEST_GUARD_WINDOW  = int(getenv("DIGEST_GUARD_WINDOW_MINUTES", "30"))
+
+NEWSLETTER_NAME    = getenv("NEWSLETTER_NAME", "Itty Bitty Gaming News")
+NEWSLETTER_TAGLINE = getenv("NEWSLETTER_TAGLINE", "Your snackable video game news.")
+NEWSLETTER_EMOJI   = getenv("NEWSLETTER_EMOJI", "🎮")
+
+YOUTUBE_CHANNEL_ID  = getenv("YOUTUBE_CHANNEL_ID")
+YOUTUBE_RSS_URL     = getenv("YOUTUBE_RSS_URL")
+YOUTUBE_FILTER_SHORTS = getenv("YOUTUBE_FILTER_SHORTS", "true").lower() in ("1", "true", "yes", "y")
+
+UA = getenv("USER_AGENT", "IttyBittyGamingNews/Digest")
+
+# ---------------------------------------------------------------------------
+# CACHE
+# ---------------------------------------------------------------------------
+
+def load_cache() -> Dict:
+    try:
+        with open(DIGEST_CACHE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
 
 
-ADILO_PUBLIC_KEY = env("ADILO_PUBLIC_KEY")
-ADILO_SECRET_KEY = env("ADILO_SECRET_KEY")
-ADILO_PROJECT_ID = env("ADILO_PROJECT_ID")
-ADILO_API_BASE   = "https://adilo-api.bigcommand.com/v1"
-ADILO_WATCH_BASE = "https://adilo.bigcommand.com/watch"
-
-GH_PAT           = env("GH_PAT")
-GH_REPO          = env("GITHUB_REPOSITORY")
-GH_API_BASE      = "https://api.github.com"
-VARIABLE_NAME    = "ADILO_CURRENT_VIDEO_ID"
-
-# Start fetching from this offset. Set higher than your total video count
-# so we land near the end of the list where newest videos are.
-# Override with repo variable ADILO_FETCH_FROM if needed.
-FETCH_FROM       = int(env("ADILO_FETCH_FROM", "500"))
-PAGE_SIZE        = 50
+def save_cache(cache: Dict) -> None:
+    try:
+        with open(DIGEST_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(cache, f, indent=2, sort_keys=True)
+    except Exception as e:
+        print(f"[CACHE] Save failed: {e}")
 
 
 # ---------------------------------------------------------------------------
-# ADILO API
+# SCHEDULING GUARDS
 # ---------------------------------------------------------------------------
 
-def adilo_headers() -> dict:
+def now_local() -> datetime:
+    return datetime.now(ZoneInfo(DIGEST_GUARD_TZ))
+
+
+def guard_posting_window() -> bool:
+    if DIGEST_FORCE_POST:
+        print("[GUARD] DIGEST_FORCE_POST — bypassing time guard.")
+        return True
+
+    now    = now_local()
+    target = now.replace(hour=DIGEST_GUARD_HOUR, minute=DIGEST_GUARD_MINUTE, second=0, microsecond=0)
+    candidates = [target - timedelta(days=1), target, target + timedelta(days=1)]
+    closest    = min(candidates, key=lambda t: abs((now - t).total_seconds()))
+    delta_min  = abs((now - closest).total_seconds()) / 60.0
+
+    if delta_min <= DIGEST_GUARD_WINDOW:
+        print(f"[GUARD] ✅ Within posting window. Now={now:%H:%M %Z} | Target={closest:%H:%M %Z} | Δ={delta_min:.1f}min")
+        return True
+
+    print(f"[GUARD] ⏸️  Outside window. Now={now:%H:%M %Z} | Target={closest:%H:%M %Z} | Δ={delta_min:.1f}min")
+    return False
+
+
+def guard_once_per_day(cache: Dict) -> bool:
+    if DIGEST_FORCE_POST or not DIGEST_POST_ONCE_PER_DAY:
+        return True
+    today = now_local().strftime("%Y-%m-%d")
+    if today in cache.get("posted_dates", []):
+        print(f"[GUARD] Already posted for {today}. Skipping.")
+        return False
+    return True
+
+
+def mark_posted_today(cache: Dict) -> None:
+    today = now_local().strftime("%Y-%m-%d")
+    cache.setdefault("posted_dates", [])
+    if today not in cache["posted_dates"]:
+        cache["posted_dates"].append(today)
+        cache["posted_dates"] = cache["posted_dates"][-90:]  # keep 90 days
+
+
+# ---------------------------------------------------------------------------
+# STORY SELECTION  (smarter than pure recency)
+# ---------------------------------------------------------------------------
+
+def pick_top_stories(items: List[Item]) -> List[Item]:
+    """
+    Score every item, apply topic-similarity penalty, then pick top-N.
+
+    Topic penalty: once a story is picked, any remaining candidate that
+    is about the same topic (similarity >= TOPIC_SIMILARITY_THRESHOLD)
+    gets a score penalty. This means the newsletter will prefer diverse
+    stories over 4 variations of the same Mario movie trailer.
+
+    Threshold 72 is intentionally loose — catches near-duplicates like
+    'Donald Glover confirmed as Yoshi' appearing from 4 different outlets,
+    while still allowing genuinely different angles on the same franchise
+    (e.g. a Zelda delay AND a Zelda DLC announcement on the same day).
+    """
+    TOPIC_SIMILARITY_THRESHOLD = 72
+    TOPIC_PENALTY = 40  # subtracted from score for each similar picked story
+
+    cutoff = utcnow() - timedelta(hours=DIGEST_WINDOW_HOURS)
+    recent = [it for it in items if it.published_at >= cutoff]
+
+    # Compute base scores
+    for it in recent:
+        it.score = compute_score(it)
+
+    picked: List[Item] = []
+    per_source: Dict[str, int] = {}
+    seen_urls: set = set()
+
+    # We loop up to top_n * 6 times to allow re-sorting after penalties
+    # without an infinite loop risk.
+    max_iterations = DIGEST_TOP_N * 6
+    iterations = 0
+
+    while len(picked) < DIGEST_TOP_N and iterations < max_iterations:
+        iterations += 1
+
+        # Re-sort after each pick (penalties may have reshuffled the queue)
+        recent.sort(key=lambda x: (x.score, x.published_at.timestamp()), reverse=True)
+
+        advanced = False
+        for it in recent:
+            if it.url in seen_urls:
+                continue
+
+            per_source.setdefault(it.source, 0)
+            if per_source[it.source] >= DIGEST_MAX_PER_SOURCE:
+                continue
+
+            # Pick this story
+            seen_urls.add(it.url)
+            per_source[it.source] += 1
+            picked.append(it)
+
+            # Apply similarity penalty to remaining candidates
+            for other in recent:
+                if other.url in seen_urls:
+                    continue
+                sim = topic_similarity(it.title, other.title)
+                if sim >= TOPIC_SIMILARITY_THRESHOLD:
+                    penalty = TOPIC_PENALTY + int((sim - TOPIC_SIMILARITY_THRESHOLD) * 0.5)
+                    other.score -= penalty
+                    if other.score < 0:
+                        other.score = 0
+
+            advanced = True
+            break
+
+        if not advanced:
+            break  # No more eligible stories
+
+    return picked
+
+
+# ---------------------------------------------------------------------------
+# NEWSLETTER FORMATTING  (bold, gamer-y, scannable)
+# ---------------------------------------------------------------------------
+
+# Emoji map for tags → colourful Discord display
+TAG_DISPLAY = {
+    "📣 ANNOUNCEMENT": "📣",
+    "🚀 OUT NOW":      "🚀",
+    "🔧 PATCH":        "🔧",
+    "🔄 UPDATE":       "🔄",
+    "⏳ DELAY":        "⏳",
+    "💼 LAYOFFS":      "💼",
+    "🔒 SHUTDOWN":     "🔒",
+    "🤝 M&A":          "🤝",
+    "⚖️ LEGAL":        "⚖️",
+    "🎖️ RETIREMENT":   "🎖️",
+    "💸 PRICE CHANGE": "💸",
+    "📅 DATE CONFIRMED":"📅",
+    "🆓 FREE":         "🆓",
+}
+
+SECTION_DIVIDER = "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+
+STORY_ICONS = ["🥇", "🥈", "🥉", "4️⃣", "5️⃣"]
+
+
+def _tag_badges(tags: List[str]) -> str:
+    """Convert tag list to compact emoji badges."""
+    badges = []
+    for t in tags[:4]:
+        badges.append(TAG_DISPLAY.get(t, t))
+    return "  ".join(badges)
+
+
+def build_header_embed(top_stories: List[Item]) -> Dict:
+    """
+    Big splash embed: newsletter title, date, teaser headlines.
+    """
+    tz     = ZoneInfo(DIGEST_GUARD_TZ)
+    today  = datetime.now(tz).strftime("%A, %B %d, %Y")
+
+    # Teaser lines — top 3 headlines as bullet teasers
+    teaser_lines = []
+    for i, s in enumerate(top_stories[:3]):
+        icon = ["🔥", "⚡", "🎯"][i]
+        teaser_lines.append(f"{icon} {s.title}")
+
+    desc = "\n".join([
+        f"*{NEWSLETTER_TAGLINE}*",
+        "",
+        f"**📅 {today}**",
+        "",
+        SECTION_DIVIDER,
+        "**Tonight's Headlines**",
+        SECTION_DIVIDER,
+        "\n".join(teaser_lines),
+        "",
+        "⬇️ *Full stories below*",
+    ])
+
     return {
-        "User-Agent": "IttyBittyGamingNews/AdiloUpdater",
-        "Accept": "application/json",
-        "X-Public-Key": ADILO_PUBLIC_KEY,
-        "X-Secret-Key": ADILO_SECRET_KEY,
+        "title":       f"{NEWSLETTER_EMOJI} {NEWSLETTER_NAME}",
+        "description": desc,
+        "color":       0x7C3AED,   # bold purple — feels gamer-y
     }
 
 
-def fetch_page(from_idx: int, to_idx: int) -> list:
-    """Fetch a single page of files."""
-    url = f"{ADILO_API_BASE}/projects/{ADILO_PROJECT_ID}/files?From={from_idx}&To={to_idx}"
-    try:
-        r = requests.get(url, headers=adilo_headers(), timeout=30)
-        r.raise_for_status()
-        data = r.json()
-        payload = (
-            data.get("payload") or data.get("data") or
-            data.get("files") or (data if isinstance(data, list) else [])
-        )
-        return payload
-    except Exception as ex:
-        print(f"[ADILO] Request failed ({from_idx}-{to_idx}): {ex}")
-        return []
-
-
-def find_newest_video() -> str:
+def build_story_embed(rank: int, story: Item) -> Dict:
     """
-    Walk backwards from FETCH_FROM in 50-file pages until we find
-    a non-empty page. The last item on the last non-empty page
-    is the newest video.
+    Individual story embed with rich formatting.
+    rank is 0-indexed.
     """
-    if not (ADILO_PUBLIC_KEY and ADILO_SECRET_KEY and ADILO_PROJECT_ID):
-        print("[ADILO] Missing credentials.")
-        return ""
+    icon  = STORY_ICONS[rank] if rank < len(STORY_ICONS) else f"{rank + 1}."
+    title = f"{icon}  {story.title}"[:256]
 
-    # Try pages walking backwards from FETCH_FROM until we find files
-    # Start high, step down by PAGE_SIZE each time if page is empty
-    from_idx = FETCH_FROM
-    last_good_files = []
-    attempts = 0
-    max_attempts = 10  # safety limit
+    # Build description block
+    parts = []
 
-    while attempts < max_attempts:
-        to_idx = from_idx + PAGE_SIZE - 1
-        print(f"[ADILO] Trying page {from_idx}–{to_idx}...")
-        files = fetch_page(from_idx, to_idx)
+    # Summary
+    if story.summary:
+        parts.append(f"*{shorten(story.summary, 280)}*")
 
-        if files:
-            print(f"[ADILO] Got {len(files)} file(s).")
-            last_good_files = files
+    # Tag badges
+    if story.tags:
+        parts.append(_tag_badges(story.tags))
 
-            # If we got a full page, there might be more ahead — try next page
-            if len(files) == PAGE_SIZE:
-                from_idx += PAGE_SIZE
-                attempts += 1
-                continue
-            else:
-                # Partial page = this is the last page, stop here
-                print(f"[ADILO] Partial page — this is the end of the list.")
-                break
-        else:
-            # Empty page — step back if we haven't found anything yet
-            if not last_good_files:
-                from_idx = max(1, from_idx - PAGE_SIZE)
-                print(f"[ADILO] Empty page — stepping back to {from_idx}.")
-                attempts += 1
-                continue
-            else:
-                # We already have a good page, empty means we went too far
-                print(f"[ADILO] Empty page after good data — using last good page.")
-                break
+    # Source + score debug (score only shown if DEBUG)
+    source_line = f"📰 **{story.source}**"
+    if story.published_at:
+        source_line += f"  ·  🕐 <t:{int(story.published_at.timestamp())}:R>"
+    parts.append(source_line)
 
-    if not last_good_files:
-        print("[ADILO] Could not find any files. Falling back to page 1.")
-        last_good_files = fetch_page(1, PAGE_SIZE)
+    desc = "\n\n".join(p for p in parts if p)[:4096]
 
-    if not last_good_files:
-        return ""
+    embed: Dict = {
+        "title":       title,
+        "url":         story.url,
+        "description": desc,
+        "color":       _rank_color(rank),
+    }
 
-    # Log the files we found
-    print(f"\n[ADILO] -- Final page ({len(last_good_files)} files) --")
-    for i, f in enumerate(last_good_files):
-        fid   = f.get("id") or f.get("uuid") or "???"
-        name  = f.get("name") or f.get("title") or "(no name)"
-        ftype = f.get("type") or ""
-        print(f"  [{i:>2}] id={fid:<12}  type={ftype:<10}  name={name}")
-    print(f"[ADILO] ----------------------------------\n")
+    if story.image_url:
+        embed["image"] = {"url": story.image_url}
 
-    # Newest = last item on the last page (oldest-first ordering confirmed)
-    video_files = [
-        f for f in last_good_files
-        if f.get("type", "").lower() not in ("folder", "image", "audio")
-    ] or last_good_files
+    if story.published_at:
+        embed["timestamp"] = story.published_at.isoformat()
 
-    candidate = video_files[-1]
-    fid = (
-        candidate.get("id") or candidate.get("uuid") or
-        candidate.get("file_id") or candidate.get("fileId") or ""
-    ).strip()
-
-    if fid:
-        name = candidate.get("name") or candidate.get("title") or "?"
-        print(f"[ADILO] Picked newest: id={fid}  name={name}")
-
-    return fid
+    return embed
 
 
-# ---------------------------------------------------------------------------
-# GITHUB API
-# ---------------------------------------------------------------------------
+def _rank_color(rank: int) -> int:
+    """Gold → silver → bronze → neutral palette."""
+    colors = [0xFFD700, 0xC0C0C0, 0xCD7F32, 0x5865F2, 0x57F287]
+    return colors[rank] if rank < len(colors) else 0x5865F2
 
-def gh_headers() -> dict:
+
+def build_footer_embed(story_count: int) -> Dict:
+    """Closing embed with subscribe nudge."""
+    tz    = ZoneInfo(DIGEST_GUARD_TZ)
+    today = datetime.now(tz).strftime("%B %d, %Y")
+
+    desc = "\n".join([
+        SECTION_DIVIDER,
+        f"That's your **{NEWSLETTER_NAME}** for **{today}**!",
+        "",
+        "📺 Subscribe on YouTube for daily gaming clips",
+        "💬 Drop your reactions below — what story had you talking?",
+        "",
+        "*Stay small. Stay mighty. Itty Bitty Gaming News.*",
+    ])
+
     return {
-        "Authorization": f"Bearer {GH_PAT}",
-        "Accept": "application/vnd.github+json",
-        "X-GitHub-Api-Version": "2022-11-28",
+        "description": desc,
+        "color":       0x7C3AED,
+        "footer":      {"text": f"{NEWSLETTER_NAME}  •  {story_count} stories tonight"},
     }
 
 
-def get_current_variable() -> str:
-    if not GH_PAT or not GH_REPO:
-        print("[GH] GH_PAT or GITHUB_REPOSITORY not set.")
-        return ""
-
-    url = f"{GH_API_BASE}/repos/{GH_REPO}/actions/variables/{VARIABLE_NAME}"
-    try:
-        r = requests.get(url, headers=gh_headers(), timeout=15)
-        if r.status_code == 404:
-            print(f"[GH] {VARIABLE_NAME} does not exist yet — will create it.")
-            return ""
-        r.raise_for_status()
-        val = r.json().get("value", "").strip()
-        print(f"[GH] Current {VARIABLE_NAME} = '{val or '(empty)'}'")
-        return val
-    except Exception as ex:
-        print(f"[GH] Failed to read variable: {ex}")
-        return ""
-
-
-def set_variable(value: str) -> bool:
-    if not GH_PAT or not GH_REPO:
-        print("[GH] GH_PAT or GITHUB_REPOSITORY not set.")
-        return False
-
-    url     = f"{GH_API_BASE}/repos/{GH_REPO}/actions/variables/{VARIABLE_NAME}"
-    payload = {"name": VARIABLE_NAME, "value": value}
-
-    try:
-        r = requests.patch(url, headers=gh_headers(), json=payload, timeout=15)
-        if r.status_code == 404:
-            create_url = f"{GH_API_BASE}/repos/{GH_REPO}/actions/variables"
-            r = requests.post(create_url, headers=gh_headers(), json=payload, timeout=15)
-
-        if r.status_code in (200, 201, 204):
-            print(f"[GH] {VARIABLE_NAME} set to: {value}")
-            return True
-
-        print(f"[GH] Failed. Status={r.status_code}  Body={r.text[:300]}")
-        return False
-    except Exception as ex:
-        print(f"[GH] Exception: {ex}")
-        return False
-
-
+# ---------------------------------------------------------------------------
 # ---------------------------------------------------------------------------
 # MAIN
 # ---------------------------------------------------------------------------
 
 def main() -> None:
-    print("=" * 50)
-    print("  Adilo Video ID Updater")
-    print("=" * 50)
-    print(f"  Starting search from position {FETCH_FROM}")
-    print("=" * 50)
+    if not DISCORD_WEBHOOK_URL:
+        raise RuntimeError("DISCORD_WEBHOOK_URL is not set.")
 
-    newest_id = find_newest_video()
+    cache = load_cache()
 
-    if not newest_id:
-        print("[UPDATER] Could not determine newest video ID.")
-        sys.exit(1)
+    if not guard_posting_window():
+        return
+    if not guard_once_per_day(cache):
+        return
 
-    print(f"[UPDATER] Newest video URL: {ADILO_WATCH_BASE}/{newest_id}")
+    # --- Fetch + filter + cluster ---
+    print("[DIGEST] Fetching feeds…")
+    all_items, reasons = fetch_all_feeds(FEEDS)
 
-    current_id = get_current_variable()
+    if not all_items:
+        print("[DIGEST] No items after filtering. Exiting.")
+        return
 
-    if current_id == newest_id:
-        print(f"[UPDATER] Already up to date — no change needed.")
-        sys.exit(0)
+    # --- Score + pick top stories ---
+    top = pick_top_stories(all_items)
 
-    print(f"[UPDATER] Updating: '{current_id or 'none'}' -> '{newest_id}'")
-    success = set_variable(newest_id)
+    if not top:
+        print("[DIGEST] No items selected after scoring. Exiting.")
+        return
 
-    if success:
-        print(f"[UPDATER] Done. Digest will use: {ADILO_WATCH_BASE}/{newest_id}")
+    print(f"[DIGEST] Selected {len(top)} stories:")
+    for i, s in enumerate(top):
+        print(f"  {i+1}. [{s.score:>3}pts] {s.source}: {s.title}")
+
+    # --- Build Discord payload ---
+    header_embed = build_header_embed(top)
+    story_embeds = [build_story_embed(i, s) for i, s in enumerate(top)]
+    footer_embed = build_footer_embed(len(top))
+
+    all_embeds = [header_embed] + story_embeds + [footer_embed]
+
+    # Discord limit is 10 embeds per message — split if needed
+    CHUNK = 10
+    for i in range(0, len(all_embeds), CHUNK):
+        chunk = all_embeds[i:i + CHUNK]
+        content = "" if i > 0 else None
+    # YouTube: always attempt; skip only if channel not configured
+    yt = youtube_latest()
+    if yt:
+        yt_url, yt_title = yt
+        print(f"[YT] Posting: {yt_url}")
+        post_webhook(DISCORD_WEBHOOK_URL, content=f"📺 **Latest on YouTube — {yt_title}:**\n{yt_url}")
     else:
-        print(f"[UPDATER] Variable update failed.")
-        sys.exit(1)
+        print("[YT] No video found or channel not configured — skipping.")
+
+    # --- Finalise ---
+    mark_posted_today(cache)
+    save_cache(cache)
+
+    print("\n════════════════════════════════")
+    print(f"  {NEWSLETTER_NAME} digest posted!")
+    print(f"  Stories: {len(top)}")
+    if reasons:
+        top_reasons = sorted(reasons.items(), key=lambda x: x[1], reverse=True)[:5]
+        print("  Top filter reasons:")
+        for k, v in top_reasons:
+            print(f"    • {k}: {v}")
+    print("════════════════════════════════\n")
 
 
 if __name__ == "__main__":
