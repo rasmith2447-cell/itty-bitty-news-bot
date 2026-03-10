@@ -10,24 +10,26 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
       - name: SECRET PRESENCE CHECK (Digest webhook)
         env:
           CONTENT_BOARD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
         run: |
           echo "CONTENT_BOARD_WEBHOOK_URL=$([ -n "$CONTENT_BOARD_WEBHOOK_URL" ] && echo PRESENT || echo MISSING)"
-      - name: Run digest (posts to Gaming News)
+
+      - name: Run digest (posts to Discord)
         env:
-          # Digest channel webhook
           DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
-          # Manual runs should always post immediately
           DIGEST_FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && 'true' || '' }}
           DIGEST_WINDOW_HOURS: "24"
           DIGEST_TOP_N: "5"
@@ -38,14 +40,24 @@ jobs:
           DIGEST_GUARD_WINDOW_MINUTES: "30"
           DIGEST_POST_ONCE_PER_DAY: "true"
           DIGEST_CACHE_FILE: ".digest_cache.json"
+          DIGEST_EXPORT_FILE: "digest_latest.json"
           NEWSLETTER_NAME: "Itty Bitty Gaming News"
           NEWSLETTER_TAGLINE: "Your snackable video game news."
           USER_AGENT: "IttyBittyGamingNews/Digest"
-          # YouTube latest (RSS)
           YOUTUBE_CHANNEL_ID: "UC0SJd4h7GQqoYTVjlDnSzqQ"
           YOUTUBE_RSS_URL: "https://www.youtube.com/feeds/videos.xml?channel_id=UC0SJd4h7GQqoYTVjlDnSzqQ"
           YOUTUBE_FILTER_SHORTS: "true"
-          # Feeds (optional repo variable; if empty digest.py uses defaults)
           FEED_URLS: ${{ vars.FEED_URLS }}
         run: |
           python digest.py
+
+      - name: Post to social media (OnlySocial)
+        env:
+          ONLYSOCIAL_TOKEN: ${{ secrets.ONLYSOCIAL_TOKEN }}
+          ONLYSOCIAL_WORKSPACE_UUID: ${{ secrets.ONLYSOCIAL_WORKSPACE_UUID }}
+          DIGEST_EXPORT_FILE: "digest_latest.json"
+          YOUTUBE_URL: "https://www.youtube.com/@IttyBittyGamingNews"
+          ONLYSOCIAL_MAX_HASHTAGS: "8"
+          USER_AGENT: "IttyBittyGamingNews/OnlySocial"
+        run: |
+          python onlysocial_post.py
