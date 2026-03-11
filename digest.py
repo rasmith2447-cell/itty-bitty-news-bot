@@ -125,8 +125,8 @@ def mark_posted_today(cache: Dict) -> None:
 # ---------------------------------------------------------------------------
 
 def pick_top_stories(items: List[Item]) -> List[Item]:
-    TOPIC_SIMILARITY_THRESHOLD = 72
-    TOPIC_PENALTY = 40
+    TOPIC_SIMILARITY_THRESHOLD = 60
+    TOPIC_PENALTY = 60
 
     cutoff = utcnow() - timedelta(hours=DIGEST_WINDOW_HOURS)
     recent = [it for it in items if it.published_at >= cutoff]
