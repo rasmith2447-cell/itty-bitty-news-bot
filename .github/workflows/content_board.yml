@@ -9,24 +9,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-
+        uses: actions/checkout@v5
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
       - name: SECRET PRESENCE CHECK (Digest webhook)
         env:
           CONTENT_BOARD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
         run: |
           echo "CONTENT_BOARD_WEBHOOK_URL=$([ -n "$CONTENT_BOARD_WEBHOOK_URL" ] && echo PRESENT || echo MISSING)"
-
       - name: Run digest (posts to Discord)
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.CONTENT_BOARD_WEBHOOK_URL }}
@@ -50,7 +46,6 @@ jobs:
           FEED_URLS: ${{ vars.FEED_URLS }}
         run: |
           python digest.py
-
       - name: Post to social media (OnlySocial)
         env:
           ONLYSOCIAL_TOKEN: ${{ secrets.ONLYSOCIAL_TOKEN }}
