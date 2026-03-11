@@ -94,7 +94,14 @@ def filter_target_accounts(accounts: list) -> list:
         if provider not in TARGET_PROVIDERS:
             continue
 
-        # Match by username OR name containing "smitty" or "itty bitty"
+        # For LinkedIn and Bluesky, include all connected accounts
+        # (less likely to have multiple personal/business accounts)
+        if provider in ("linkedin", "linkedin_page", "bluesky"):
+            targeted.append(acc)
+            print(f"[ONLYSOCIAL] Targeting: {acc.get('name')} (@{acc.get('username')}) [{provider}] id={acc.get('id')}")
+            continue
+
+        # For Facebook, filter to IBGN-related accounts only
         is_ibgn = (
             username in TARGET_USERNAMES
             or "smitty" in username
