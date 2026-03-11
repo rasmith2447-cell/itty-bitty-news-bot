@@ -320,27 +320,61 @@ def build_post_content(stories: list) -> str:
     return "\n".join(lines)
 
 
-def build_bluesky_content(full_content: str) -> str:
-    """Trim to fit Bluesky's 300 char limit."""
-    if len(full_content) <= BLUESKY_CHAR_LIMIT:
-        return full_content
+def build_bluesky_content(stories: list, hashtags: list) -> str:
+    """
+    Bluesky hard limit: 300 chars.
+    Format: header + top 3 headlines only (no URLs) + brand hashtag.
+    """
+    today = datetime.now(timezone.utc).strftime("%B %-d")
+    icons = ["🥇", "🥈", "🥉"]
+    lines = [f"🎮 Itty Bitty Gaming News — {today}", ""]
+    for i, story in enumerate(stories[:3]):
+        title = story.get("title", "").strip()
+        # Truncate long titles
+        if len(title) > 80:
+            title = title[:77] + "..."
+        lines.append(f"{icons[i]} {title}")
+    lines.append("")
+    lines.append("#IttyBittyGamingNews")
+    content = "\n".join(lines)
+    # Hard trim as safety net
+    if len(content) > 295:
+        content = content[:292] + "..."
+    return content
 
-    lines = full_content.split("\n")
-    trimmed = []
-    for line in lines:
-        candidate = "\n".join(trimmed + [line])
-        if len(candidate) > BLUESKY_CHAR_LIMIT - 5:
-            break
-        trimmed.append(line)
 
-    return "\n".join(trimmed).strip()
+def build_threads_content(stories: list, hashtags: list) -> str:
+    """
+    Threads limit: 500 chars.
+    Format: header + top 3 headlines with URLs + YouTube link + brand hashtag.
+    """
+    today = datetime.now(timezone.utc).strftime("%B %-d")
+    icons = ["🥇", "🥈", "🥉"]
+    lines = [f"🎮 Itty Bitty Gaming News — {today}", ""]
+    for i, story in enumerate(stories[:3]):
+        title = story.get("title", "").strip()
+        url   = story.get("url", "").strip()
+        if len(title) > 60:
+            title = title[:57] + "..."
+        lines.append(f"{icons[i]} {title}")
+        if url:
+            lines.append(f"   {url}")
+    lines.append("")
+    lines.append(f"🎬 {YOUTUBE_URL}")
+    lines.append("")
+    lines.append("#IttyBittyGamingNews")
+    content = "\n".join(lines)
+    if len(content) > 495:
+        content = content[:492] + "..."
+    return content
+
 
 
 # ---------------------------------------------------------------------------
 # POST CREATION
 # ---------------------------------------------------------------------------
 
-def create_and_post(workspace: str, accounts: list, full_content: str, bluesky_content: str) -> None:
+def create_and_post(workspace: str, accounts: list, full_content: str, bluesky_content: str, threads_content: str) -> None:
     """
     OnlySocial API: create post with one version per account,
     then immediately schedule with postNow=true.
@@ -354,7 +388,12 @@ def create_and_post(workspace: str, accounts: list, full_content: str, bluesky_c
     for acc in accounts:
         provider = (acc.get("provider") or "").lower()
         acc_id   = acc.get("id", 0)
-        body     = bluesky_content if provider == "blue_sky" else full_content
+        if provider == "blue_sky":
+            body = bluesky_content
+        elif provider == "threads":
+            body = threads_content
+        else:
+            body = full_content
 
         version = {
             "account_id": acc_id,
@@ -476,22 +515,26 @@ def main():
     print(f"[ONLYSOCIAL] Loaded {len(stories)} stories.")
 
     # Build content
-    full_content    = build_post_content(stories)
-    bluesky_content = build_bluesky_content(full_content)
+    full_content     = build_post_content(stories)
+    bluesky_content  = build_bluesky_content(stories, [])
+    threads_content  = build_threads_content(stories, [])
 
     print(f"\n[ONLYSOCIAL] Post content ({len(full_content)} chars):")
     print("-" * 40)
     print(full_content)
     print("-" * 40)
 
-    if bluesky_content != full_content:
-        print(f"\n[ONLYSOCIAL] Bluesky version ({len(bluesky_content)} chars):")
-        print(bluesky_content)
-        print("-" * 40)
+    print(f"\n[ONLYSOCIAL] Bluesky version ({len(bluesky_content)} chars):")
+    print(bluesky_content)
+    print("-" * 40)
+
+    print(f"\n[ONLYSOCIAL] Threads version ({len(threads_content)} chars):")
+    print(threads_content)
+    print("-" * 40)
 
     # Create and post
     try:
-        create_and_post(WORKSPACE_UUID, targeted, full_content, bluesky_content)
+        create_and_post(WORKSPACE_UUID, targeted, full_content, bluesky_content, threads_content)
     except Exception as ex:
         print(f"[ONLYSOCIAL] Failed: {ex}")
         sys.exit(1)
