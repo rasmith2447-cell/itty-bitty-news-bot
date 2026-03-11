@@ -152,49 +152,90 @@ PHRASE_HASHTAGS = {
     "ghost of": "GhostOf",
 }
 
-# Single-word known mappings
+# Single-word known mappings — ONLY these will ever become hashtags
 KNOWN_HASHTAGS = {
-    "gta": "GTA",
-    "gta6": "GTA6",
-    "ps5": "PS5",
-    "ps4": "PS4",
+    # Platforms
+    "playstation": "PlayStation",
     "xbox": "Xbox",
     "nintendo": "Nintendo",
-    "playstation": "PlayStation",
+    "switch": "NintendoSwitch",
+    "steam": "Steam",
+    "pc": "PCGaming",
+    "vr": "VR",
+    "ps5": "PS5",
+    "ps4": "PS4",
+    # Publishers / Studios
+    "sony": "Sony",
+    "microsoft": "Microsoft",
+    "activision": "Activision",
+    "blizzard": "Blizzard",
+    "ubisoft": "Ubisoft",
+    "capcom": "Capcom",
+    "ea": "EA",
+    "rockstar": "Rockstar",
+    "bethesda": "Bethesda",
+    "bungie": "Bungie",
+    "epic": "EpicGames",
+    "valve": "Valve",
+    "sega": "Sega",
+    "bandai": "BandaiNamco",
+    "namco": "BandaiNamco",
+    "konami": "Konami",
+    "2k": "2KGames",
+    "naughtydog": "NaughtyDog",
+    "insomniac": "InsomniacGames",
+    "fromsoftware": "FromSoftware",
+    # Games / Franchises
     "fortnite": "Fortnite",
     "minecraft": "Minecraft",
     "zelda": "Zelda",
     "mario": "Mario",
-    "yoshi": "Yoshi",
     "pokemon": "Pokemon",
     "halo": "Halo",
     "overwatch": "Overwatch",
-    "steam": "Steam",
-    "epic": "EpicGames",
-    "microsoft": "Microsoft",
-    "sony": "Sony",
-    "capcom": "Capcom",
-    "ubisoft": "Ubisoft",
-    "activision": "Activision",
-    "blizzard": "Blizzard",
-    "rockstar": "Rockstar",
-    "bethesda": "Bethesda",
-    "bungie": "Bungie",
-    "tiktok": "TikTok",
-    "instagram": "Instagram",
-    "youtube": "YouTube",
-    "twitch": "Twitch",
-    "discord": "Discord",
-    "bluesky": "Bluesky",
-    "vr": "VR",
-    "ai": "AI",
-    "indie": "IndieGames",
-    "esports": "Esports",
+    "cod": "COD",
+    "callofduty": "CallOfDuty",
+    "gta": "GTA",
+    "gta6": "GTA6",
+    "cyberpunk": "Cyberpunk",
+    "elden": "EldenRing",
+    "diablo": "Diablo",
+    "starfield": "Starfield",
+    "palworld": "Palworld",
+    "baldur": "BaldursGate",
+    "hogwarts": "HogwartsLegacy",
+    "spiderman": "SpiderMan",
+    "godofwar": "GodOfWar",
+    "horizon": "Horizon",
+    "assassin": "AssassinsCreed",
+    "resident": "ResidentEvil",
+    "finalfantasy": "FinalFantasy",
+    "streetfighter": "StreetFighter",
+    "mortal": "MortalKombat",
+    "tekken": "Tekken",
+    "persona": "Persona",
+    "metroid": "Metroid",
+    "kirby": "Kirby",
+    "donkey": "DonkeyKong",
+    "splatoon": "Splatoon",
+    "smash": "SmashBros",
+    "animal": "AnimalCrossing",
+    "stardew": "StardewValley",
+    "harvest": "HarvestMoon",
+    "solasta": "Solasta",
     "dispatch": "Dispatch",
-    "avalanche": "AvalancheStudios",
-    "highlander": "Highlander",
-    "megaman": "MegaMan",
-    "capcom": "Capcom",
+    "pickmon": "Pickmon",
+    # Tech / Industry
+    "ai": "AI",
+    "esports": "Esports",
+    "indie": "IndieGames",
+    "twitch": "Twitch",
+    "youtube": "YouTube",
+    "discord": "Discord",
+    "tiktok": "TikTok",
+    "bluesky": "Bluesky",
+    "gamepass": "GamePass",
+    "gameawards": "GameAwards",
 }
 
 # Words that are too generic to be useful hashtags even if long enough
@@ -208,7 +249,10 @@ GENERIC_WORDS = {
 
 
 def title_to_hashtags(titles: list) -> list:
-    """Extract smart hashtags from story titles."""
+    """
+    Only generate hashtags from known game/brand names.
+    Never guess from random words in titles.
+    """
     seen = set()
     tags = []
 
@@ -219,42 +263,19 @@ def title_to_hashtags(titles: list) -> list:
         if phrase in combined and hashtag not in seen:
             seen.add(hashtag)
             tags.append(hashtag)
-
-    # Then word-by-word
-    for title in titles:
-        words = re.findall(r"[A-Za-z0-9]+", title)
-        i = 0
-        while i < len(words):
-            word = words[i]
-            lower = word.lower()
-
-            # Skip stopwords, generic words, short words
-            if lower in HASHTAG_STOPWORDS or lower in GENERIC_WORDS or len(lower) < 4:
-                i += 1
-                continue
-
-            # Check known hashtags
-            if lower in KNOWN_HASHTAGS:
-                tag = KNOWN_HASHTAGS[lower]
-            else:
-                # Only use as hashtag if it looks like a proper noun (starts uppercase)
-                # or is a known game/brand term
-                if word[0].isupper() and len(word) >= 4:
-                    tag = word
-                else:
-                    i += 1
-                    continue
-
-            if tag not in seen:
-                seen.add(tag)
-                tags.append(tag)
-
             if len(tags) >= MAX_HASHTAGS - 1:
                 break
-            i += 1
 
-        if len(tags) >= MAX_HASHTAGS - 1:
-            break
+    # Then check individual words against known hashtags only
+    if len(tags) < MAX_HASHTAGS - 1:
+        words = re.findall(r"[a-z0-9]+", combined)
+        for word in words:
+            if word in KNOWN_HASHTAGS and KNOWN_HASHTAGS[word] not in seen:
+                tag = KNOWN_HASHTAGS[word]
+                seen.add(tag)
+                tags.append(tag)
+                if len(tags) >= MAX_HASHTAGS - 1:
+                    break
 
     # Always append brand hashtag last
     tags.append("IttyBittyGamingNews")
@@ -275,8 +296,13 @@ def build_post_content(stories: list) -> str:
     for i, story in enumerate(stories[:5]):
         icon  = icons[i] if i < len(icons) else f"{i+1}."
         title = story.get("title", "").strip()
+        url   = story.get("url", "").strip()
         titles.append(title)
-        lines.append(f"{icon} {title}")
+        if url:
+            lines.append(f"{icon} {title}")
+            lines.append(f"   {url}")
+        else:
+            lines.append(f"{icon} {title}")
 
     lines.append("")
     lines.append(f"🎬 Watch daily: {YOUTUBE_URL}")
