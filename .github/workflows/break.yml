@@ -1,25 +1,20 @@
 name: Itty Bitty Breaking News Monitor
-
 on:
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch: {}
-
 jobs:
   run-breaking:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-
+        uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-
       - name: Install dependencies
         run: pip install -r requirements.txt
-
       - name: Run bot (breaking)
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
@@ -29,7 +24,6 @@ jobs:
           TITLE_FUZZY_THRESHOLD: "93"
           USER_AGENT: "IttyBittyGamingNewsBot/1.6-breaking"
         run: python main.py
-
       - name: Commit updated state.json
         run: |
           git config user.name "itty-bitty-bot"
