@@ -463,6 +463,8 @@ def main():
         sys.exit(1)
 
     print(f"[ONLYSOCIAL] Total accounts: {len(all_accounts)}")
+    for acc in all_accounts:
+        print(f"[ONLYSOCIAL] Found: {acc.get('name')} (@{acc.get('username')}) [{acc.get('provider')}] id={acc.get('id')} authorized={acc.get('authorized')}")
     targeted = filter_target_accounts(all_accounts)
 
     if not targeted:
