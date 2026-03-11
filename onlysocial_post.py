@@ -34,7 +34,7 @@ BLUESKY_CHAR_LIMIT = 300
 TARGET_USERNAMES = {"smitty2447", "ryanandrewsmith247"}
 
 # Only these providers (text-only platforms)
-TARGET_PROVIDERS = {"bluesky", "facebook_page", "linkedin", "linkedin_page"}
+TARGET_PROVIDERS = {"bluesky", "facebook_page", "linkedin", "linkedin_page", "threads"}
 
 # ---------------------------------------------------------------------------
 # HELPERS
@@ -94,9 +94,8 @@ def filter_target_accounts(accounts: list) -> list:
         if provider not in TARGET_PROVIDERS:
             continue
 
-        # For LinkedIn and Bluesky, include all connected accounts
-        # (less likely to have multiple personal/business accounts)
-        if provider in ("linkedin", "linkedin_page", "bluesky"):
+        # For LinkedIn, Bluesky, and Threads include all connected accounts
+        if provider in ("linkedin", "linkedin_page", "bluesky", "threads"):
             targeted.append(acc)
             print(f"[ONLYSOCIAL] Targeting: {acc.get('name')} (@{acc.get('username')}) [{provider}] id={acc.get('id')}")
             continue
@@ -370,6 +369,8 @@ def create_and_post(workspace: str, accounts: list, full_content: str, bluesky_c
             version["options"]["blue_sky"] = {"tags": []}
         elif provider in ("linkedin", "linkedin_page"):
             version["options"]["linkedin"] = {"visibility": "PUBLIC", "document": None, "document_title": None}
+        elif provider == "threads":
+            version["options"]["threads"] = {"type": "post"}
 
         versions.append(version)
         is_first = False
