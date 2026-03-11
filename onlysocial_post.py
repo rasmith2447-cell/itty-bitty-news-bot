@@ -4,7 +4,7 @@ onlysocial_post.py — Itty Bitty Gaming News
 Reads the digest summary written by digest.py and posts it to all
 connected social platforms via the OnlySocial API.
 
-Platforms: Bluesky, TikTok, Facebook Page, Instagram
+Platforms: Bluesky, Facebook Page, LinkedIn
 """
 
 import json
@@ -33,8 +33,8 @@ BLUESKY_CHAR_LIMIT = 300
 # Only post to these specific accounts by username (lowercase)
 TARGET_USERNAMES = {"smitty2447", "ryanandrewsmith247"}
 
-# Only these providers
-TARGET_PROVIDERS = {"bluesky", "tiktok", "facebook_page", "instagram"}
+# Only these providers (text-only platforms)
+TARGET_PROVIDERS = {"bluesky", "facebook_page", "linkedin", "linkedin_page"}
 
 # ---------------------------------------------------------------------------
 # HELPERS
@@ -331,22 +331,12 @@ def create_and_post(workspace: str, accounts: list, full_content: str, bluesky_c
             "options": {},
         }
 
-        if provider == "instagram":
-            version["options"]["instagram"] = {"type": "post", "collaborators": []}
-        elif provider == "facebook_page":
+        if provider == "facebook_page":
             version["options"]["facebook_page"] = {"type": "post"}
         elif provider == "bluesky":
             version["options"]["blue_sky"] = {"tags": []}
-        elif provider == "tiktok":
-            version["options"]["tiktok"] = {
-                "privacy_level":      {f"account-{acc_id}": "PUBLIC_TO_EVERYONE"},
-                "allow_comments":     {f"account-{acc_id}": True},
-                "allow_duet":         {f"account-{acc_id}": False},
-                "allow_stitch":       {f"account-{acc_id}": False},
-                "content_disclosure": {f"account-{acc_id}": False},
-                "brand_organic_toggle": {f"account-{acc_id}": False},
-                "brand_content_toggle": {f"account-{acc_id}": False},
-            }
+        elif provider in ("linkedin", "linkedin_page"):
+            version["options"]["linkedin"] = {"visibility": "PUBLIC", "document": None, "document_title": None}
 
         versions.append(version)
         is_first = False
