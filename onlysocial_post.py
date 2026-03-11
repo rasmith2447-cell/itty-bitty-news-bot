@@ -313,7 +313,8 @@ def create_and_post(workspace: str, accounts: list, full_content: str, bluesky_c
     OnlySocial API: create post with one version per account,
     then immediately schedule with postNow=true.
     """
-    account_uuids = [acc.get("uuid") for acc in accounts if acc.get("uuid")]
+    # API requires integer IDs in the accounts array, not UUIDs
+    account_ids = [acc.get("id") for acc in accounts if acc.get("id")]
 
     # Build one version per account to handle per-platform content differences
     versions = []
@@ -351,7 +352,7 @@ def create_and_post(workspace: str, accounts: list, full_content: str, bluesky_c
         is_first = False
 
     payload = {
-        "accounts":              account_uuids,
+        "accounts":              account_ids,
         "versions":              versions,
         "tags":                  [],
         "date":                  None,
