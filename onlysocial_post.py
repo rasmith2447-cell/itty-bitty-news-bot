@@ -346,21 +346,18 @@ def build_bluesky_content(stories: list, hashtags: list) -> str:
 def build_threads_content(stories: list, hashtags: list) -> str:
     """
     Threads limit: 500 chars.
-    Format: header + top 3 headlines with URLs + YouTube link + brand hashtag.
+    Format: header + top 3 headlines (no URLs) + YouTube link + hashtags.
     """
     today = datetime.now(timezone.utc).strftime("%B %-d")
     icons = ["🥇", "🥈", "🥉"]
     lines = [f"🎮 Itty Bitty Gaming News — {today}", ""]
     for i, story in enumerate(stories[:3]):
         title = story.get("title", "").strip()
-        url   = story.get("url", "").strip()
-        if len(title) > 60:
-            title = title[:57] + "..."
+        if len(title) > 80:
+            title = title[:77] + "..."
         lines.append(f"{icons[i]} {title}")
-        if url:
-            lines.append(f"   {url}")
     lines.append("")
-    lines.append(f"🎬 {YOUTUBE_URL}")
+    lines.append(f"🎬 Watch daily: {YOUTUBE_URL}")
     lines.append("")
     lines.append("#IttyBittyGamingNews")
     content = "\n".join(lines)
