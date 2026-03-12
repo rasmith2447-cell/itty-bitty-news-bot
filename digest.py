@@ -369,8 +369,21 @@ def main() -> None:
     cache = load_cache()
 
     if not guard_posting_window():
+        # Write export file with should_post=false so onlysocial_post.py skips
+        export_file = getenv("DIGEST_EXPORT_FILE", "digest_latest.json")
+        try:
+            with open(export_file, "w", encoding="utf-8") as f:
+                json.dump({"should_post": False, "stories": []}, f)
+        except Exception:
+            pass
         return
     if not guard_once_per_day(cache):
+        export_file = getenv("DIGEST_EXPORT_FILE", "digest_latest.json")
+        try:
+            with open(export_file, "w", encoding="utf-8") as f:
+                json.dump({"should_post": False, "stories": []}, f)
+        except Exception:
+            pass
         return
 
     # --- Fetch + filter ---
@@ -395,10 +408,13 @@ def main() -> None:
     # --- Export stories for OnlySocial ---
     export_file = getenv("DIGEST_EXPORT_FILE", "digest_latest.json")
     try:
-        export_data = [{"title": s.title, "url": s.url, "source": s.source} for s in top]
+        export_data = {
+            "should_post": True,
+            "stories": [{"title": s.title, "url": s.url, "source": s.source} for s in top]
+        }
         with open(export_file, "w", encoding="utf-8") as f:
             json.dump(export_data, f, indent=2)
-        print(f"[DIGEST] Exported {len(export_data)} stories to {export_file}")
+        print(f"[DIGEST] Exported {len(top)} stories to {export_file}")
     except Exception as ex:
         print(f"[DIGEST] Export failed (non-fatal): {ex}")
 
