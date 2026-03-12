@@ -27,8 +27,10 @@ TOKEN              = env("ONLYSOCIAL_TOKEN")
 WORKSPACE_UUID     = env("ONLYSOCIAL_WORKSPACE_UUID")
 DIGEST_EXPORT_FILE = env("DIGEST_EXPORT_FILE", "digest_latest.json")
 YOUTUBE_URL        = env("YOUTUBE_URL", "https://www.youtube.com/@smitty-2447")
+PODCAST_URL        = env("PODCAST_URL", "https://feed.podbean.com/ittybittygamingnews/feed.xml")
 MAX_HASHTAGS       = int(env("ONLYSOCIAL_MAX_HASHTAGS", "8"))
 BLUESKY_CHAR_LIMIT = 300
+TAGLINE            = "Your daily dose of Itty Bitty Gaming News."
 
 # Only post to these specific accounts by username (lowercase)
 TARGET_USERNAMES = {"smitty2447", "ryanandrewsmith247"}
@@ -312,6 +314,9 @@ def build_post_content(stories: list) -> str:
 
     lines.append("")
     lines.append(f"🎬 Watch daily: {YOUTUBE_URL}")
+    lines.append(f"🎙️ Podcast: {PODCAST_URL}")
+    lines.append("")
+    lines.append(TAGLINE)
     lines.append("")
 
     hashtags = title_to_hashtags(titles)
@@ -358,6 +363,9 @@ def build_threads_content(stories: list, hashtags: list) -> str:
         lines.append(f"{icons[i]} {title}")
     lines.append("")
     lines.append(f"🎬 Watch daily: {YOUTUBE_URL}")
+    lines.append(f"🎙️ Podcast: {PODCAST_URL}")
+    lines.append("")
+    lines.append(TAGLINE)
     lines.append("")
     lines.append("#IttyBittyGamingNews")
     content = "\n".join(lines)
@@ -388,7 +396,8 @@ def create_and_post(workspace: str, accounts: list, full_content: str, bluesky_c
         if provider == "blue_sky":
             body = bluesky_content
         elif provider == "threads":
-            body = threads_content
+            # Threads needs explicit <br> tags to preserve line breaks
+            body = threads_content.replace("\n", "<br>")
         else:
             body = full_content
 
@@ -457,20 +466,24 @@ def create_and_post(workspace: str, accounts: list, full_content: str, bluesky_c
 # DIGEST LOADER
 # ---------------------------------------------------------------------------
 
-def load_digest_stories() -> list:
+def load_digest_stories() -> tuple:
+    """Returns (should_post: bool, stories: list)"""
     if os.path.exists(DIGEST_EXPORT_FILE):
         try:
             with open(DIGEST_EXPORT_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
+                if isinstance(data, dict):
+                    should_post = data.get("should_post", False)
+                    stories = data.get("stories", [])
+                    return should_post, stories
                 if isinstance(data, list):
-                    return data
-                if isinstance(data, dict) and "stories" in data:
-                    return data["stories"]
+                    # Legacy format — assume should_post=True if stories exist
+                    return len(data) > 0, data
         except Exception as ex:
             print(f"[ONLYSOCIAL] Could not read {DIGEST_EXPORT_FILE}: {ex}")
 
-    print(f"[ONLYSOCIAL] {DIGEST_EXPORT_FILE} not found — using placeholder.")
-    return [{"title": "Itty Bitty Gaming News is live! Check out today's top gaming stories."}]
+    print(f"[ONLYSOCIAL] {DIGEST_EXPORT_FILE} not found — skipping.")
+    return False, []
 
 
 # ---------------------------------------------------------------------------
@@ -508,7 +521,16 @@ def main():
         sys.exit(1)
 
     # Load stories
-    stories = load_digest_stories()
+    should_post, stories = load_digest_stories()
+
+    if not should_post:
+        print("[ONLYSOCIAL] Digest not ready to post yet — skipping social post.")
+        sys.exit(0)
+
+    if not stories:
+        print("[ONLYSOCIAL] No stories found — skipping.")
+        sys.exit(0)
+
     print(f"[ONLYSOCIAL] Loaded {len(stories)} stories.")
 
     # Build content
