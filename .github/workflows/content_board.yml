@@ -52,7 +52,7 @@ jobs:
           ONLYSOCIAL_WORKSPACE_UUID: ${{ secrets.ONLYSOCIAL_WORKSPACE_UUID }}
           DIGEST_EXPORT_FILE: "digest_latest.json"
           YOUTUBE_URL: "https://www.youtube.com/@smitty-2447"
-          PODCAST_URL: "https://feed.podbean.com/ittybittygamingnews/feed.xml"
+          PODCAST_URL: "https://podcasts.apple.com/us/podcast/itty-bitty-gaming-news/id1711880008"
           ONLYSOCIAL_MAX_HASHTAGS: "8"
           USER_AGENT: "IttyBittyGamingNews/OnlySocial"
         run: |
