@@ -396,8 +396,7 @@ def create_and_post(workspace: str, accounts: list, full_content: str, bluesky_c
         if provider == "blue_sky":
             body = bluesky_content
         elif provider == "threads":
-            # Wrap each line in <p> tags to preserve line breaks on Threads
-            body = "".join(f"<p>{line if line.strip() else '&nbsp;'}</p>" for line in threads_content.split("\n"))
+            body = threads_content
         else:
             body = full_content
 
