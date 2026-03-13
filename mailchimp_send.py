@@ -24,7 +24,7 @@ MAILCHIMP_AUDIENCE_ID = env("MAILCHIMP_AUDIENCE_ID")
 DIGEST_EXPORT_FILE  = env("DIGEST_EXPORT_FILE", "digest_latest.json")
 YOUTUBE_URL         = env("YOUTUBE_URL", "https://www.youtube.com/@smitty-2447")
 PODCAST_URL         = env("PODCAST_URL", "https://podcasts.apple.com/us/podcast/itty-bitty-gaming-news/id1711880008")
-LOGO_URL            = env("LOGO_URL", "https://raw.githubusercontent.com/rasmith2447-cell/itty-bitty-news-bot/main/Itty_Bitty_Gaming_News_Logo_V_2.png")
+LOGO_URL            = env("LOGO_URL", "https://raw.githubusercontent.com/rasmith2447-cell/itty-bitty-news-bot/main/Itty%20Bitty%20Gaming%20News%20Logo%20V.2.png")
 TAGLINE             = "Your daily dose of Itty Bitty Gaming News."
 
 # Mailchimp datacenter is the suffix after the dash in the API key (e.g. us9)
@@ -239,7 +239,7 @@ def send_campaign(stories: list) -> None:
             "preview_text":  f"Today's top {len(stories)} gaming stories — served itty bitty.",
             "title":         f"IBGN Digest {today.strftime('%Y-%m-%d')}",
             "from_name":     "Itty Bitty Gaming News",
-            "reply_to":      "noreply@ittybittygamingnews.com",
+            "reply_to":      "ittybittygamingnews@gmail.com",
         },
     })
     campaign_id = campaign.get("id")
