@@ -415,7 +415,7 @@ def main() -> None:
 
         export_data = {
             "should_post": True,
-            "stories": [{"title": s.title, "url": s.url, "source": s.source} for s in top],
+            "stories": [{"title": s.title, "url": s.url, "source": s.source, "image_url": s.image_url} for s in top],
             "youtube_url":   yt_url,
             "youtube_title": yt_title,
         }
