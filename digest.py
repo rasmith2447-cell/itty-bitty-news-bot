@@ -408,9 +408,16 @@ def main() -> None:
     # --- Export stories for OnlySocial ---
     export_file = getenv("DIGEST_EXPORT_FILE", "digest_latest.json")
     try:
+        # Fetch YouTube latest video so it can be included in email/social
+        yt = youtube_latest()
+        yt_url   = yt[0] if yt else None
+        yt_title = yt[1] if yt else None
+
         export_data = {
             "should_post": True,
-            "stories": [{"title": s.title, "url": s.url, "source": s.source} for s in top]
+            "stories": [{"title": s.title, "url": s.url, "source": s.source} for s in top],
+            "youtube_url":   yt_url,
+            "youtube_title": yt_title,
         }
         with open(export_file, "w", encoding="utf-8") as f:
             json.dump(export_data, f, indent=2)
@@ -431,10 +438,8 @@ def main() -> None:
         chunk = all_embeds[i:i + CHUNK]
         post_webhook(DISCORD_WEBHOOK_URL, content="", embeds=chunk)
 
-    # --- YouTube link ---
-    yt = youtube_latest()
+    # --- YouTube link (Discord) ---
     if yt:
-        yt_url, yt_title = yt
         print(f"[YT] Posting: {yt_url}")
         post_webhook(DISCORD_WEBHOOK_URL, content=f"📺 **Latest on YouTube — {yt_title}:**\n{yt_url}")
     else:
