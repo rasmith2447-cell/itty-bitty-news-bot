@@ -60,21 +60,22 @@ def mc_get(path: str) -> dict:
 # ---------------------------------------------------------------------------
 
 def load_digest_stories() -> tuple:
-    """Returns (should_post: bool, stories: list)"""
+    """Returns (should_post: bool, stories: list, youtube_url: str)"""
     if os.path.exists(DIGEST_EXPORT_FILE):
         try:
             with open(DIGEST_EXPORT_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 if isinstance(data, dict):
                     should_post = data.get("should_post", False)
-                    stories = data.get("stories", [])
-                    return should_post, stories
+                    stories     = data.get("stories", [])
+                    yt_url      = data.get("youtube_url") or YOUTUBE_URL
+                    return should_post, stories, yt_url
                 if isinstance(data, list):
-                    return len(data) > 0, data
+                    return len(data) > 0, data, YOUTUBE_URL
         except Exception as ex:
             print(f"[MAILCHIMP] Could not read {DIGEST_EXPORT_FILE}: {ex}")
     print(f"[MAILCHIMP] {DIGEST_EXPORT_FILE} not found — skipping.")
-    return False, []
+    return False, [], YOUTUBE_URL
 
 # ---------------------------------------------------------------------------
 # HTML EMAIL BUILDER
@@ -118,8 +119,9 @@ def build_story_row(index: int, story: dict) -> str:
       </td>
     </tr>"""
 
-def build_html_email(stories: list, date_str: str) -> str:
-    story_rows = "".join(build_story_row(i, s) for i, s in enumerate(stories))
+def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) -> str:
+    story_rows  = "".join(build_story_row(i, s) for i, s in enumerate(stories))
+    yt_link     = latest_yt_url or YOUTUBE_URL
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -150,7 +152,7 @@ def build_html_email(stories: list, date_str: str) -> str:
           <!-- INTRO BAR -->
           <tr>
             <td style="background:#111130;padding:14px 30px;border-bottom:1px solid #1e3a8a;">
-              <p style="margin:0;font-family:'Courier New',monospace;font-size:13px;color:#a0a0c0;text-align:center;">🎮 Today's top gaming stories, served itty bitty.</p>
+              <p style="margin:0;font-family:'Courier New',monospace;font-size:13px;color:#a0a0c0;text-align:center;">🎮 Today's top snackable gaming stories.</p>
             </td>
           </tr>
 
@@ -185,7 +187,7 @@ def build_html_email(stories: list, date_str: str) -> str:
                     <table cellpadding="0" cellspacing="0" border="0">
                       <tr>
                         <td style="padding:0 8px;">
-                          <a href="{YOUTUBE_URL}" style="display:inline-block;background:#1e1e3f;border:1px solid #1e3a8a;border-radius:8px;padding:10px 18px;font-family:'Courier New',monospace;font-size:12px;color:#ffffff;text-decoration:none;letter-spacing:1px;" target="_blank">🎬 YouTube</a>
+                          <a href="{yt_link}" style="display:inline-block;background:#1e1e3f;border:1px solid #1e3a8a;border-radius:8px;padding:10px 18px;font-family:'Courier New',monospace;font-size:12px;color:#ffffff;text-decoration:none;letter-spacing:1px;" target="_blank">🎬 Latest Video</a>
                         </td>
                         <td style="padding:0 8px;">
                           <a href="{PODCAST_URL}" style="display:inline-block;background:#1e1e3f;border:1px solid #1e3a8a;border-radius:8px;padding:10px 18px;font-family:'Courier New',monospace;font-size:12px;color:#ffffff;text-decoration:none;letter-spacing:1px;" target="_blank">🎙️ Podcast</a>
@@ -223,11 +225,11 @@ def build_html_email(stories: list, date_str: str) -> str:
 # MAILCHIMP CAMPAIGN
 # ---------------------------------------------------------------------------
 
-def send_campaign(stories: list) -> None:
+def send_campaign(stories: list, latest_yt_url: str = None) -> None:
     today     = datetime.now(timezone.utc)
     date_str  = today.strftime("%B %-d, %Y")
     subject   = f"🎮 Itty Bitty Gaming News — {today.strftime('%B %-d')}"
-    html_body = build_html_email(stories, date_str)
+    html_body = build_html_email(stories, date_str, latest_yt_url)
 
     # 1. Create campaign
     print("[MAILCHIMP] Creating campaign...")
@@ -279,7 +281,7 @@ def main():
         print("[MAILCHIMP] MAILCHIMP_AUDIENCE_ID not set — skipping.")
         sys.exit(0)
 
-    should_post, stories = load_digest_stories()
+    should_post, stories, latest_yt_url = load_digest_stories()
 
     if not should_post:
         print("[MAILCHIMP] Digest not ready — skipping email.")
@@ -290,7 +292,7 @@ def main():
         sys.exit(0)
 
     print(f"[MAILCHIMP] Loaded {len(stories)} stories. Sending email digest...")
-    send_campaign(stories)
+    send_campaign(stories, latest_yt_url)
 
 if __name__ == "__main__":
     main()
