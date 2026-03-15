@@ -85,19 +85,30 @@ STORY_ICONS = ["🥇", "🥈", "🥉", "4️⃣", "5️⃣"]
 STORY_COLORS = ["#FFD700", "#C0C0C0", "#CD7F32", "#4A9EFF", "#4A9EFF"]
 
 def build_story_row(index: int, story: dict) -> str:
-    icon  = STORY_ICONS[index] if index < len(STORY_ICONS) else f"{index+1}."
-    color = STORY_COLORS[index] if index < len(STORY_COLORS) else "#4A9EFF"
-    title = story.get("title", "").strip()
-    url   = story.get("url", "").strip()
-    source = story.get("source", "").strip()
+    icon      = STORY_ICONS[index] if index < len(STORY_ICONS) else f"{index+1}."
+    color     = STORY_COLORS[index] if index < len(STORY_COLORS) else "#4A9EFF"
+    title     = story.get("title", "").strip()
+    url       = story.get("url", "").strip()
+    source    = story.get("source", "").strip()
+    image_url = story.get("image_url", "").strip()
 
     link_open  = f'<a href="{url}" style="text-decoration:none;color:inherit;" target="_blank">' if url else ""
     link_close = "</a>" if url else ""
 
+    image_block = f"""
+              <tr>
+                <td style="padding:0 0 0 0;">
+                  {link_open}<img src="{image_url}" alt="{title}" width="100%" style="display:block;border-radius:6px 6px 0 0;max-height:200px;object-fit:cover;" />{link_close}
+                </td>
+              </tr>""" if image_url else ""
+
     return f"""
     <tr>
       <td style="padding:0 0 16px 0;">
-        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#1a1a2e;border-radius:10px;border-left:4px solid {color};">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#1a1a2e;border-radius:10px;border-left:4px solid {color};overflow:hidden;">
+          <tr>
+            <td>{image_block and f'<table width="100%" cellpadding="0" cellspacing="0" border="0">{image_block}</table>'}</td>
+          </tr>
           <tr>
             <td style="padding:16px 20px;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
