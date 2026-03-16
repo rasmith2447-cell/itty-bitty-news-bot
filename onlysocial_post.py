@@ -455,12 +455,40 @@ def create_and_post(workspace: str, accounts: list, full_content: str, bluesky_c
         print("[ONLYSOCIAL] Could not find post UUID in response.")
         sys.exit(1)
 
-    print(f"[ONLYSOCIAL] Post UUID: {post_uuid} — scheduling now...")
-    scheduled = api_post(f"/{workspace}/posts/schedule/{post_uuid}", {
-        "postNow": True,
-        "accounts": account_ids,
-    })
-    print(f"[ONLYSOCIAL] Scheduled: {json.dumps(scheduled, indent=2)}")
+    print(f"[ONLYSOCIAL] Post UUID: {post_uuid} — publishing now...")
+
+    # Try different publish endpoints — OnlySocial's API has changed over time
+    publish_attempts = [
+        ("POST", f"/{workspace}/posts/{post_uuid}/publish", {}),
+        ("POST", f"/{workspace}/posts/publish/{post_uuid}", {}),
+        ("POST", f"/{workspace}/posts/schedule/{post_uuid}", {"postNow": True, "scheduled_at": None}),
+        ("POST", f"/{workspace}/posts/{post_uuid}/submit", {}),
+    ]
+
+    published = False
+    for method, path, payload in publish_attempts:
+        try:
+            print(f"[ONLYSOCIAL] Trying: {method} {path}")
+            r = requests.post(
+                f"{BASE}{path}",
+                headers=headers(),
+                json=payload,
+                timeout=30,
+            )
+            if r.ok:
+                print(f"[ONLYSOCIAL] Success with {path}: {r.text[:200]}")
+                published = True
+                break
+            else:
+                print(f"[ONLYSOCIAL] {r.status_code} from {path}: {r.text[:200]}")
+        except Exception as ex:
+            print(f"[ONLYSOCIAL] Exception on {path}: {ex}")
+
+    if not published:
+        print("[ONLYSOCIAL] All publish attempts failed — post is saved as draft in OnlySocial.")
+        print(f"[ONLYSOCIAL] You can manually publish it from: https://app.onlysocial.io")
+        sys.exit(1)
+
     print("[ONLYSOCIAL] Done! Post sent to all platforms.")
 
 
