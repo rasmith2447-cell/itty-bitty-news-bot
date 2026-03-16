@@ -485,9 +485,10 @@ def create_and_post(workspace: str, accounts: list, full_content: str, bluesky_c
             print(f"[ONLYSOCIAL] Exception on {path}: {ex}")
 
     if not published:
-        print("[ONLYSOCIAL] All publish attempts failed — post is saved as draft in OnlySocial.")
-        print(f"[ONLYSOCIAL] You can manually publish it from: https://app.onlysocial.io")
-        sys.exit(1)
+        print("[ONLYSOCIAL] ⚠️ All publish attempts failed — post is saved as draft in OnlySocial.")
+        print(f"[ONLYSOCIAL] Manually publish it from: https://app.onlysocial.io")
+        print("[ONLYSOCIAL] Continuing anyway so email can still send...")
+        return  # Non-fatal — don't sys.exit()
 
     print("[ONLYSOCIAL] Done! Post sent to all platforms.")
 
