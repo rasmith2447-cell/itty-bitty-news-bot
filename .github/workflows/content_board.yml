@@ -33,7 +33,7 @@ jobs:
           DIGEST_GUARD_TZ: "America/Los_Angeles"
           DIGEST_GUARD_LOCAL_HOUR: "19"
           DIGEST_GUARD_LOCAL_MINUTE: "0"
-          DIGEST_GUARD_WINDOW_MINUTES: "30"
+          DIGEST_GUARD_WINDOW_MINUTES: "60"
           DIGEST_POST_ONCE_PER_DAY: "true"
           DIGEST_CACHE_FILE: ".digest_cache.json"
           DIGEST_EXPORT_FILE: "digest_latest.json"
