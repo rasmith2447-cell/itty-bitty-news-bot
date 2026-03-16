@@ -456,7 +456,10 @@ def create_and_post(workspace: str, accounts: list, full_content: str, bluesky_c
         sys.exit(1)
 
     print(f"[ONLYSOCIAL] Post UUID: {post_uuid} — scheduling now...")
-    scheduled = api_post(f"/{workspace}/posts/schedule/{post_uuid}", {"postNow": True})
+    scheduled = api_post(f"/{workspace}/posts/schedule/{post_uuid}", {
+        "postNow": True,
+        "accounts": account_ids,
+    })
     print(f"[ONLYSOCIAL] Scheduled: {json.dumps(scheduled, indent=2)}")
     print("[ONLYSOCIAL] Done! Post sent to all platforms.")
 
