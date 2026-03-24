@@ -277,10 +277,9 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
                   <td style="background:#1a1a2e;border-radius:10px;border-left:4px solid #FFD700;padding:16px 20px;">
                     <p style="margin:0 0 10px;font-family:'Courier New',monospace;font-size:14px;color:#FFD700;">🏆 This Week's Question:</p>
                     <p style="margin:0 0 14px;font-family:'Courier New',monospace;font-size:14px;color:#ffffff;line-height:1.5;">{trivia_question}</p>
-                    <details style="cursor:pointer;">
-                      <summary style="font-family:'Courier New',monospace;font-size:12px;color:#4A9EFF;letter-spacing:1px;">▶ Reveal Answer</summary>
-                      <p style="margin:10px 0 0;font-family:'Courier New',monospace;font-size:13px;color:#a0ffa0;">{trivia_answer}</p>
-                    </details>
+                    <p style="margin:0 0 6px;font-family:'Courier New',monospace;font-size:11px;color:#4A9EFF;letter-spacing:1px;text-transform:uppercase;">Answer:</p>
+                    <p style="margin:0;font-family:'Courier New',monospace;font-size:13px;color:#1a1a2e;background:#1a1a2e;border-radius:4px;padding:8px 12px;border:1px solid #2a2a4e;letter-spacing:2px;" title="{trivia_answer}">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ (highlight to reveal)</p>
+                    <p style="margin:6px 0 0;font-family:'Courier New',monospace;font-size:11px;color:#404060;">💡 Highlight the block above to reveal the answer</p>
                   </td>
                 </tr>
               </table>
