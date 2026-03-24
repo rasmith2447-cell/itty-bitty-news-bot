@@ -374,20 +374,36 @@ def send_campaign(stories: list, latest_yt_url: str = None) -> None:
 
     # 2. Set HTML content
     print("[MAILCHIMP] Setting email content...")
-    requests.put(
+    r = requests.put(
         f"{BASE}/campaigns/{campaign_id}/content",
         headers=headers(),
         json={"html": html_body},
         timeout=30,
-    ).raise_for_status()
+    )
+    if not r.ok:
+        print(f"[MAILCHIMP] Content error {r.status_code}: {r.text[:500]}")
+        r.raise_for_status()
 
-    # 3. Send immediately
+    # 3. Check campaign status before sending
+    print("[MAILCHIMP] Checking campaign status...")
+    check = requests.get(f"{BASE}/campaigns/{campaign_id}", headers=headers(), timeout=30)
+    if check.ok:
+        data = check.json()
+        status = data.get("status")
+        errors = data.get("delivery_status", {})
+        print(f"[MAILCHIMP] Campaign status: {status}")
+        print(f"[MAILCHIMP] Delivery status: {errors}")
+
+    # 4. Send immediately
     print("[MAILCHIMP] Sending campaign...")
-    requests.post(
+    r = requests.post(
         f"{BASE}/campaigns/{campaign_id}/actions/send",
         headers=headers(),
         timeout=30,
-    ).raise_for_status()
+    )
+    if not r.ok:
+        print(f"[MAILCHIMP] Send error {r.status_code}: {r.text[:1000]}")
+        r.raise_for_status()
 
     print(f"[MAILCHIMP] ✅ Campaign sent to audience {MAILCHIMP_AUDIENCE_ID}!")
 
