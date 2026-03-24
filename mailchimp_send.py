@@ -130,9 +130,95 @@ def build_story_row(index: int, story: dict) -> str:
       </td>
     </tr>"""
 
+def generate_trivia() -> tuple:
+    """Generate a weekly gaming trivia Q&A using the Anthropic API."""
+    try:
+        import anthropic
+        client = anthropic.Anthropic()
+        # Use ISO week number so the same question is generated all week
+        from datetime import date
+        week = date.today().isocalendar()[1]
+        year = date.today().year
+        message = client.messages.create(
+            model="claude-opus-4-5",
+            max_tokens=256,
+            messages=[{
+                "role": "user",
+                "content": (
+                    f"Generate a fun gaming trivia question for week {week} of {year}. "
+                    "It should be about video game history, characters, or notable moments. "
+                    "Make it challenging but not obscure. "
+                    "Respond with ONLY a JSON object in this exact format with no other text: "
+                    '{"question": "...", "answer": "..."}'
+                )
+            }]
+        )
+        import json as _json
+        data = _json.loads(message.content[0].text.strip())
+        return data.get("question", ""), data.get("answer", "")
+    except Exception as ex:
+        print(f"[MAILCHIMP] Trivia generation failed (non-fatal): {ex}")
+        return (
+            "Which iconic video game character first appeared in Donkey Kong (1981)?",
+            "Jumpman, later known as Mario!"
+        )
+
+
+def get_youtube_video_id(url: str) -> str:
+    """Extract video ID from a YouTube URL."""
+    import re
+    patterns = [
+        r"youtube\.com/watch\?v=([^&]+)",
+        r"youtu\.be/([^?]+)",
+        r"youtube\.com/shorts/([^?]+)",
+    ]
+    for pattern in patterns:
+        m = re.search(pattern, url or "")
+        if m:
+            return m.group(1)
+    return ""
+
+
 def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) -> str:
     story_rows  = "".join(build_story_row(i, s) for i, s in enumerate(stories))
     yt_link     = latest_yt_url or YOUTUBE_URL
+    video_id    = get_youtube_video_id(yt_link)
+    thumb_url   = f"https://img.youtube.com/vi/{video_id}/maxresdefault.jpg" if video_id else ""
+
+    # YouTube video section — only show if we have a specific video URL
+    if video_id:
+        youtube_section = f"""
+          <!-- YOUTUBE VIDEO -->
+          <tr>
+            <td style="background:#0f0f24;padding:0 30px 28px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td style="border-top:1px solid #1e3a8a;padding-top:24px;padding-bottom:14px;">
+                    <p style="margin:0;font-family:'Courier New',monospace;font-size:12px;color:#4A9EFF;text-align:center;letter-spacing:2px;text-transform:uppercase;">— Latest Video —</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <a href="{yt_link}" target="_blank" style="display:block;position:relative;text-decoration:none;">
+                      <img src="{thumb_url}" alt="Latest Video" width="100%" style="display:block;border-radius:10px;max-width:540px;" />
+                      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:10px;">
+                        <tr>
+                          <td align="center">
+                            <span style="display:inline-block;background:#FF0000;border-radius:6px;padding:8px 20px;font-family:'Courier New',monospace;font-size:13px;color:#ffffff;letter-spacing:1px;">▶ Watch Now on YouTube</span>
+                          </td>
+                        </tr>
+                      </table>
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>"""
+    else:
+        youtube_section = ""
+
+    # Generate trivia using Claude API
+    trivia_question, trivia_answer = generate_trivia()
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -172,6 +258,31 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
             <td style="background:#0f0f24;padding:28px 30px 8px;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 {story_rows}
+              </table>
+            </td>
+          </tr>
+
+          {youtube_section}
+
+          <!-- TRIVIA -->
+          <tr>
+            <td style="background:#0f0f24;padding:0 30px 28px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td style="border-top:1px solid #1e3a8a;padding-top:24px;padding-bottom:14px;">
+                    <p style="margin:0;font-family:'Courier New',monospace;font-size:12px;color:#4A9EFF;text-align:center;letter-spacing:2px;text-transform:uppercase;">— Weekly Trivia —</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="background:#1a1a2e;border-radius:10px;border-left:4px solid #FFD700;padding:16px 20px;">
+                    <p style="margin:0 0 10px;font-family:'Courier New',monospace;font-size:14px;color:#FFD700;">🏆 This Week's Question:</p>
+                    <p style="margin:0 0 14px;font-family:'Courier New',monospace;font-size:14px;color:#ffffff;line-height:1.5;">{trivia_question}</p>
+                    <details style="cursor:pointer;">
+                      <summary style="font-family:'Courier New',monospace;font-size:12px;color:#4A9EFF;letter-spacing:1px;">▶ Reveal Answer</summary>
+                      <p style="margin:10px 0 0;font-family:'Courier New',monospace;font-size:13px;color:#a0ffa0;">{trivia_answer}</p>
+                    </details>
+                  </td>
+                </tr>
               </table>
             </td>
           </tr>
