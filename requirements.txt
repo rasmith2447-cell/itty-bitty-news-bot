@@ -4,3 +4,4 @@ lxml
 rapidfuzz
 feedparser
 python-dateutil
+anthropic
