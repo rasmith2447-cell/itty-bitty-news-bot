@@ -137,8 +137,14 @@ def generate_trivia() -> tuple:
         client = anthropic.Anthropic()
         # Use ISO week number so the same question is generated all week
         from datetime import date
-        week = date.today().isocalendar()[1]
-        year = date.today().year
+        try:
+            from zoneinfo import ZoneInfo
+            from datetime import datetime as _dt
+            today_pt = _dt.now(ZoneInfo("America/Los_Angeles")).date()
+        except Exception:
+            today_pt = date.today()
+        week = today_pt.isocalendar()[1]
+        year = today_pt.year
         message = client.messages.create(
             model="claude-haiku-4-5-20251001",
             max_tokens=256,
@@ -276,10 +282,15 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
                 <tr>
                   <td style="background:#1a1a2e;border-radius:10px;border-left:4px solid #FFD700;padding:16px 20px;">
                     <p style="margin:0 0 10px;font-family:'Courier New',monospace;font-size:14px;color:#FFD700;">🏆 This Week's Question:</p>
-                    <p style="margin:0 0 14px;font-family:'Courier New',monospace;font-size:14px;color:#ffffff;line-height:1.5;">{trivia_question}</p>
-                    <p style="margin:0 0 6px;font-family:'Courier New',monospace;font-size:11px;color:#4A9EFF;letter-spacing:1px;text-transform:uppercase;">Answer:</p>
-                    <p style="margin:0;font-family:'Courier New',monospace;font-size:13px;color:#1a1a2e;background:#1a1a2e;border-radius:4px;padding:8px 12px;border:1px solid #2a2a4e;letter-spacing:2px;" title="{trivia_answer}">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ (highlight to reveal)</p>
-                    <p style="margin:6px 0 0;font-family:'Courier New',monospace;font-size:11px;color:#404060;">💡 Highlight the block above to reveal the answer</p>
+                    <p style="margin:0 0 16px;font-family:'Courier New',monospace;font-size:14px;color:#ffffff;line-height:1.5;">{trivia_question}</p>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td style="background:#0d0d1a;border-radius:6px;border:1px dashed #4A9EFF;padding:12px 16px;">
+                          <p style="margin:0 0 4px;font-family:'Courier New',monospace;font-size:10px;color:#4A9EFF;letter-spacing:2px;text-transform:uppercase;">✅ Answer:</p>
+                          <p style="margin:0;font-family:'Courier New',monospace;font-size:13px;color:#a0ffa0;line-height:1.5;">{trivia_answer}</p>
+                        </td>
+                      </tr>
+                    </table>
                   </td>
                 </tr>
               </table>
@@ -347,7 +358,13 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
 # ---------------------------------------------------------------------------
 
 def send_campaign(stories: list, latest_yt_url: str = None) -> None:
-    today     = datetime.now(timezone.utc)
+    # Use PT timezone so date matches the actual day the digest runs
+    try:
+        from zoneinfo import ZoneInfo
+        today = datetime.now(ZoneInfo("America/Los_Angeles"))
+    except Exception:
+        from datetime import timezone, timedelta
+        today = datetime.now(timezone(timedelta(hours=-7)))  # PDT fallback
     date_str  = today.strftime("%B %-d, %Y")
     subject   = f"🎮 Itty Bitty Gaming News — {today.strftime('%B %-d')}"
     html_body = build_html_email(stories, date_str, latest_yt_url)
