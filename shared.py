@@ -40,7 +40,6 @@ FEEDS = [
     {"name": "Push Square",   "url": "https://www.pushsquare.com/feeds/latest"},   # PlayStation focus
     {"name": "Pure Xbox",     "url": "https://www.purexbox.com/feeds/latest"},     # Xbox focus
     {"name": "GamesIndustry", "url": "https://www.gamesindustry.biz/feed"},
-    {"name": "Blue's News",   "url": "https://www.bluesnews.com/news/news_1_0.rdf"},
     {"name": "Game Rant",     "url": "https://gamerant.com/feed/"},
 ]
 
@@ -49,7 +48,7 @@ SOURCE_PRIORITY = [
     "IGN", "GameSpot", "VGC", "Gematsu",
     "Eurogamer", "Polygon", "Rock Paper Shotgun", "PC Gamer",
     "GamesIndustry", "Nintendo Life", "Push Square", "Pure Xbox",
-    "Game Rant", "Blue's News",
+    "Game Rant",
 ]
 
 # ---------------------------------------------------------------------------
@@ -273,6 +272,19 @@ def hard_block(title: str, summary: str) -> str:
     Returns a reason string if it should be blocked.
     """
     hay = f"{title} {summary}".lower()
+
+    # Block titles that are too short to be real news stories
+    if len(title.strip()) < 20:
+        return "TITLE_TOO_SHORT"
+
+    # Block known junk title patterns
+    JUNK_TITLES = {
+        "quoteworthy", "release dates", "business and finance",
+        "headlines", "links", "morning brief", "afternoon brief",
+        "weekly recap", "daily brief", "round up", "roundup",
+    }
+    if title.strip().lower() in JUNK_TITLES:
+        return "JUNK_TITLE"
 
     if not game_or_adjacent(title, summary):
         return "NOT_GAME_OR_ADJACENT"
