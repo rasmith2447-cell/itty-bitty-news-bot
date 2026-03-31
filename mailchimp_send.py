@@ -275,12 +275,12 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
                   <td style="border-top:1px solid #1e3a8a;padding-top:24px;padding-bottom:14px;">
-                    <p style="margin:0;font-family:'Courier New',monospace;font-size:12px;color:#4A9EFF;text-align:center;letter-spacing:2px;text-transform:uppercase;">— Weekly Trivia —</p>
+                    <p style="margin:0;font-family:'Courier New',monospace;font-size:12px;color:#4A9EFF;text-align:center;letter-spacing:2px;text-transform:uppercase;">— Daily Trivia —</p>
                   </td>
                 </tr>
                 <tr>
                   <td style="background:#1a1a2e;border-radius:10px;border-left:4px solid #FFD700;padding:16px 20px;">
-                    <p style="margin:0 0 10px;font-family:'Courier New',monospace;font-size:14px;color:#FFD700;">🏆 This Week's Question:</p>
+                    <p style="margin:0 0 10px;font-family:'Courier New',monospace;font-size:14px;color:#FFD700;">🏆 Today's Question:</p>
                     <p style="margin:0 0 16px;font-family:'Courier New',monospace;font-size:14px;color:#ffffff;line-height:1.5;">{trivia_question}</p>
                     <table width="100%" cellpadding="0" cellspacing="0" border="0">
                       <tr>
