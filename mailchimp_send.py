@@ -143,15 +143,14 @@ def generate_trivia() -> tuple:
             today_pt = _dt.now(ZoneInfo("America/Los_Angeles")).date()
         except Exception:
             today_pt = date.today()
-        week = today_pt.isocalendar()[1]
-        year = today_pt.year
+        day   = today_pt.strftime("%B %d, %Y")
         message = client.messages.create(
             model="claude-haiku-4-5-20251001",
             max_tokens=256,
             messages=[{
                 "role": "user",
                 "content": (
-                    f"Generate a fun gaming trivia question for week {week} of {year}. "
+                    f"Generate a fun gaming trivia question for {day}. "
                     "It should be about video game history, characters, or notable moments. "
                     "Make it challenging but not obscure. "
                     "Respond with ONLY a JSON object in this exact format with no other text: "
