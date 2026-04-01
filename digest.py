@@ -436,12 +436,18 @@ def main() -> None:
     CHUNK = 10
     for i in range(0, len(all_embeds), CHUNK):
         chunk = all_embeds[i:i + CHUNK]
-        post_webhook(DISCORD_WEBHOOK_URL, content="", embeds=chunk)
+        try:
+            post_webhook(DISCORD_WEBHOOK_URL, content="", embeds=chunk)
+        except Exception as ex:
+            print(f"[DISCORD] Webhook failed (non-fatal): {ex}")
 
     # --- YouTube link (Discord) ---
     if yt:
-        print(f"[YT] Posting: {yt_url}")
-        post_webhook(DISCORD_WEBHOOK_URL, content=f"📺 **Latest on YouTube — {yt_title}:**\n{yt_url}")
+        try:
+            print(f"[YT] Posting: {yt_url}")
+            post_webhook(DISCORD_WEBHOOK_URL, content=f"📺 **Latest on YouTube — {yt_title}:**\n{yt_url}")
+        except Exception as ex:
+            print(f"[YT] Discord post failed (non-fatal): {ex}")
     else:
         print("[YT] No video found or channel not configured — skipping.")
 
