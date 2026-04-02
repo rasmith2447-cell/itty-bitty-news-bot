@@ -33,7 +33,7 @@ jobs:
           DIGEST_GUARD_TZ: "America/Los_Angeles"
           DIGEST_GUARD_LOCAL_HOUR: "19"
           DIGEST_GUARD_LOCAL_MINUTE: "0"
-          DIGEST_GUARD_WINDOW_MINUTES: "60"
+          DIGEST_GUARD_WINDOW_MINUTES: "90"
           DIGEST_POST_ONCE_PER_DAY: "true"
           DIGEST_CACHE_FILE: ".digest_cache.json"
           DIGEST_EXPORT_FILE: "digest_latest.json"
@@ -46,6 +46,13 @@ jobs:
           FEED_URLS: ${{ vars.FEED_URLS }}
         run: |
           python digest.py
+      - name: Save digest cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .digest_cache.json digest_latest.json || true
+          git diff --staged --quiet || git commit -m "chore: update digest cache [skip ci]"
+          git push || true
       - name: Post to social media (OnlySocial)
         env:
           ONLYSOCIAL_TOKEN: ${{ secrets.ONLYSOCIAL_TOKEN }}
