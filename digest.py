@@ -94,11 +94,13 @@ def guard_posting_window() -> bool:
     closest    = min(candidates, key=lambda t: abs((now - t).total_seconds()))
     delta_min  = abs((now - closest).total_seconds()) / 60.0
 
+    print(f"[GUARD] Now={now:%H:%M %Z} | Target={closest:%H:%M %Z} | delta={delta_min:.1f}min | window={DIGEST_GUARD_WINDOW}min")
+
     if delta_min <= DIGEST_GUARD_WINDOW:
-        print(f"[GUARD] Within posting window. Now={now:%H:%M %Z} | Target={closest:%H:%M %Z} | delta={delta_min:.1f}min")
+        print(f"[GUARD] Within posting window.")
         return True
 
-    print(f"[GUARD] Outside window. Now={now:%H:%M %Z} | Target={closest:%H:%M %Z} | delta={delta_min:.1f}min")
+    print(f"[GUARD] Outside window — skipping.")
     return False
 
 
