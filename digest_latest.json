@@ -1,1 +1,37 @@
-{"should_post": false, "stories": []}
+{
+  "should_post": true,
+  "stories": [
+    {
+      "title": "Subscription service for indie games gets a rough reception",
+      "url": "https://www.pcgamer.com/gaming-industry/subscription-service-for-indie-games-gets-a-rough-reception/",
+      "source": "PC Gamer",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/8YcBUhdSt7Ap7tW7EYYFKX-1280-80.png"
+    },
+    {
+      "title": "State of Decay 3 Is Back From The Dead, And You Might Be Able To Play It Soon",
+      "url": "https://www.gamespot.com/articles/state-of-decay-3-is-back-from-the-dead-and-you-might-be-able-to-play-it-soon/1100-6539213/?ftag=CAD-01-10abi2f",
+      "source": "GameSpot",
+      "image_url": "https://www.gamespot.com/a/uploads/screen_medium/1601/16018044/4677285-state-of-decay-3.jpg"
+    },
+    {
+      "title": "Super Mario Run Celebrates The Super Mario Galaxy Movie With A New Event",
+      "url": "https://www.nintendolife.com/news/2026/04/super-mario-run-celebrates-the-super-mario-galaxy-movie-with-a-new-event",
+      "source": "Nintendo Life",
+      "image_url": "https://images.nintendolife.com/0be26c633d70c/large.jpg"
+    },
+    {
+      "title": "State of Decay 3 update reveals playtests coming in May 2026",
+      "url": "https://www.polygon.com/state-of-decay-3-alpha-release-undead-labs/",
+      "source": "Polygon",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/04/state-of-decay-3.jpg"
+    },
+    {
+      "title": "Every Mario Game on Nintendo Switch and Switch 2 in 2026",
+      "url": "https://www.ign.com/articles/all-mario-games-on-nintendo-switch",
+      "source": "IGN",
+      "image_url": "https://assets-prd.ignimgs.com/2023/12/19/every-mario-game-on-switch-1703007907646.png"
+    }
+  ],
+  "youtube_url": null,
+  "youtube_title": null
+}
