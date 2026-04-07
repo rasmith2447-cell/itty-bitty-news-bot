@@ -1,1 +1,37 @@
-{"should_post": false, "stories": []}
+{
+  "should_post": true,
+  "stories": [
+    {
+      "title": "\u2018We Moved Away From That Baby Face\u2019 \u2014 Overwatch Reveals Updated Look For Anran Following Fan Backlash",
+      "url": "https://www.ign.com/articles/we-moved-away-from-that-baby-face-overwatch-reveals-updated-look-for-anran-following-fan-backlash",
+      "source": "IGN",
+      "image_url": "https://assets-prd.ignimgs.com/2026/02/05/season1thumb-1770317359539.png"
+    },
+    {
+      "title": "Starfield Free Lanes And Terran Armada Release Date And Times Confirmed",
+      "url": "https://www.gamespot.com/articles/starfield-free-lanes-and-terran-armada-global-launch-times-confirmed/1100-6539229/?ftag=CAD-01-10abi2f",
+      "source": "GameSpot",
+      "image_url": "https://www.gamespot.com/a/uploads/screen_medium/1601/16018044/4678201-starfield-free-lanes.jpg"
+    },
+    {
+      "title": "Assassin's Creed Shadows Title Update 1.1.10 Out This Week On Switch 2, Here Are The Patch Notes",
+      "url": "https://www.nintendolife.com/news/2026/04/assassins-creed-shadows-title-update-1-1-10-out-this-week-on-switch-2-here-are-the-patch-notes",
+      "source": "Nintendo Life",
+      "image_url": "https://images.nintendolife.com/66327a56b2038/large.jpg"
+    },
+    {
+      "title": "Overwatch's Anran redesign is a massive improvement from Blizzard",
+      "url": "https://www.polygon.com/overwatchs-anran-redesign-blizzard-better/",
+      "source": "Polygon",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/04/overwatch-anran-redesign.jpg"
+    },
+    {
+      "title": "Zelda: Twilight Princess PC port inches closer to release with new showcase video\u2014and modders have already added Linkle into the game",
+      "url": "https://www.pcgamer.com/games/action/zelda-twilight-princess-pc-port-inches-closer-to-release-with-new-showcase-video-and-modders-have-already-added-linkle-into-the-game/",
+      "source": "PC Gamer",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/9shj462SbSV9k6zULGjP6K-1280-80.jpg"
+    }
+  ],
+  "youtube_url": null,
+  "youtube_title": null
+}
