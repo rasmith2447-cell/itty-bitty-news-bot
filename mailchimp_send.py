@@ -59,6 +59,45 @@ def mc_get(path: str) -> dict:
 # LOAD STORIES
 # ---------------------------------------------------------------------------
 
+def fetch_og_image(url: str) -> str:
+    """Fetch the Open Graph image from a story URL."""
+    try:
+        import re as _re
+        r = requests.get(url, timeout=8, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; IBGNBot/1.0)"
+        })
+        if not r.ok:
+            return ""
+        # Look for og:image or twitter:image meta tags
+        for pattern in [
+            r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+            r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)["\']',
+        ]:
+            m = _re.search(pattern, r.text, _re.IGNORECASE)
+            if m:
+                img = m.group(1).strip()
+                if img.startswith("http") and not img.endswith(".svg"):
+                    return img
+    except Exception:
+        pass
+    return ""
+
+
+def enrich_stories_with_images(stories: list) -> list:
+    """Add OG images to stories that don't have one from the RSS feed."""
+    import concurrent.futures
+    def enrich(story):
+        if not story.get("image_url") and story.get("url"):
+            img = fetch_og_image(story["url"])
+            if img:
+                story["image_url"] = img
+                print(f"[IMAGE] Found OG image for: {story.get('title', '')[:50]}")
+        return story
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        return list(executor.map(enrich, stories))
+
+
 def load_digest_stories() -> tuple:
     """Returns (should_post: bool, stories: list, youtube_url: str)"""
     if os.path.exists(DIGEST_EXPORT_FILE):
@@ -131,11 +170,17 @@ def build_story_row(index: int, story: dict) -> str:
     </tr>"""
 
 def generate_trivia() -> tuple:
-    """Generate a weekly gaming trivia Q&A using the Anthropic API."""
+    """Generate a daily gaming trivia Q&A using the Anthropic API."""
+    api_key = os.getenv("ANTHROPIC_API_KEY", "")
+    if not api_key:
+        print("[TRIVIA] ANTHROPIC_API_KEY not set — using fallback.")
+        return (
+            "Which iconic video game character first appeared in Donkey Kong (1981)?",
+            "Jumpman, later known as Mario!"
+        )
     try:
         import anthropic
-        client = anthropic.Anthropic()
-        # Use ISO week number so the same question is generated all week
+        client = anthropic.Anthropic(api_key=api_key)
         from datetime import date
         try:
             from zoneinfo import ZoneInfo
@@ -143,7 +188,8 @@ def generate_trivia() -> tuple:
             today_pt = _dt.now(ZoneInfo("America/Los_Angeles")).date()
         except Exception:
             today_pt = date.today()
-        day   = today_pt.strftime("%B %d, %Y")
+        day = today_pt.strftime("%B %d, %Y")
+        print(f"[TRIVIA] Generating question for {day}...")
         message = client.messages.create(
             model="claude-haiku-4-5-20251001",
             max_tokens=256,
@@ -160,9 +206,10 @@ def generate_trivia() -> tuple:
         )
         import json as _json
         data = _json.loads(message.content[0].text.strip())
+        print(f"[TRIVIA] Generated: {data.get('question', '')[:60]}...")
         return data.get("question", ""), data.get("answer", "")
     except Exception as ex:
-        print(f"[MAILCHIMP] Trivia generation failed (non-fatal): {ex}")
+        print(f"[TRIVIA] Generation failed: {ex}")
         return (
             "Which iconic video game character first appeared in Donkey Kong (1981)?",
             "Jumpman, later known as Mario!"
@@ -444,7 +491,9 @@ def main():
         print("[MAILCHIMP] No stories found — skipping email.")
         sys.exit(0)
 
-    print(f"[MAILCHIMP] Loaded {len(stories)} stories. Sending email digest...")
+    print(f"[MAILCHIMP] Loaded {len(stories)} stories. Fetching story images...")
+    stories = enrich_stories_with_images(stories)
+    print(f"[MAILCHIMP] Sending email digest...")
     send_campaign(stories, latest_yt_url)
 
 if __name__ == "__main__":
