@@ -270,7 +270,7 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
         youtube_section = ""
 
     # Generate trivia using Claude API
-    trivia_question, trivia_answer = generate_trivia()
+    # trivia_question, trivia_answer = generate_trivia()  # Disabled until API credits added
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -315,33 +315,6 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
           </tr>
 
           {youtube_section}
-
-          <!-- TRIVIA -->
-          <tr>
-            <td style="background:#0f0f24;padding:0 30px 28px;">
-              <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                <tr>
-                  <td style="border-top:1px solid #1e3a8a;padding-top:24px;padding-bottom:14px;">
-                    <p style="margin:0;font-family:'Courier New',monospace;font-size:12px;color:#4A9EFF;text-align:center;letter-spacing:2px;text-transform:uppercase;">— Daily Trivia —</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="background:#1a1a2e;border-radius:10px;border-left:4px solid #FFD700;padding:16px 20px;">
-                    <p style="margin:0 0 10px;font-family:'Courier New',monospace;font-size:14px;color:#FFD700;">🏆 Today's Question:</p>
-                    <p style="margin:0 0 16px;font-family:'Courier New',monospace;font-size:14px;color:#ffffff;line-height:1.5;">{trivia_question}</p>
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                      <tr>
-                        <td style="background:#0d0d1a;border-radius:6px;border:1px dashed #4A9EFF;padding:12px 16px;">
-                          <p style="margin:0 0 4px;font-family:'Courier New',monospace;font-size:10px;color:#4A9EFF;letter-spacing:2px;text-transform:uppercase;">✅ Answer:</p>
-                          <p style="margin:0;font-family:'Courier New',monospace;font-size:13px;color:#a0ffa0;line-height:1.5;">{trivia_answer}</p>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
 
           <!-- DIVIDER -->
           <tr>
