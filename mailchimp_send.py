@@ -84,16 +84,14 @@ def fetch_upcoming_releases() -> list:
 
     now      = datetime.now(timezone.utc)
     start    = int(now.timestamp())
-    end      = int((now + timedelta(days=IGDB_DAYS_AHEAD)).timestamp())
+    end      = int((now + timedelta(days=30)).timestamp())
     plats    = ",".join(str(p) for p in IGDB_PLATFORMS)
-    print(f"[IGDB] Querying releases from {now.strftime('%Y-%m-%d')} to {(now + timedelta(days=IGDB_DAYS_AHEAD)).strftime('%Y-%m-%d')}")
+    print(f"[IGDB] Querying releases from {now.strftime('%Y-%m-%d')} to {(now + timedelta(days=30)).strftime('%Y-%m-%d')}")
     query    = f"""
     fields game.name, game.cover.url, date, platform.name, platform.id;
     where date >= {start}
       & date <= {end}
-      & platform = ({plats})
-      & game.category = 0
-      & game.version_parent = null;
+      & platform = ({plats});
     sort date asc;
     limit 50;
     """
