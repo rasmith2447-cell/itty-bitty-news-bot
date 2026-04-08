@@ -1,1 +1,37 @@
-{"should_post": false, "stories": []}
+{
+  "should_post": true,
+  "stories": [
+    {
+      "title": "Cyberpunk 2077's Acclaimed PS5 Pro Update Is Out Now",
+      "url": "https://www.pushsquare.com/news/2026/04/cyberpunk-2077s-acclaimed-ps5-pro-update-is-out-now",
+      "source": "Push Square",
+      "image_url": "https://images.pushsquare.com/8a0767434489d/large.jpg"
+    },
+    {
+      "title": "Call of the Sea sequel Call of the Elder Gods gets a close-at-hand release date",
+      "url": "https://www.eurogamer.net/call-of-the-elder-gods-release-date",
+      "source": "Eurogamer",
+      "image_url": "https://assetsio.gnwcdn.com/call-of-the-elder-gods_jYBsuPh.jpg?width=690&quality=85&format=jpg&auto=webp"
+    },
+    {
+      "title": "James Bond game 007 First Light hit with a delay on Switch 2",
+      "url": "https://www.polygon.com/james-bond-007-first-light-nintendo-switch-2-delay/",
+      "source": "Polygon",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/11/007-first-light-car.jpg"
+    },
+    {
+      "title": "Whispers of the Tallgrass, a Creepy First-Person Survival Horror Game, Announced for PC",
+      "url": "https://www.ign.com/articles/whispers-of-the-tallgrass-survival-horror-game-announced-pc",
+      "source": "IGN",
+      "image_url": "https://assets-prd.ignimgs.com/2026/04/07/whispers-of-the-tallgrass-blogroll-1775600587080.jpg"
+    },
+    {
+      "title": "How To Recruit All Terran Armada Crewmates In Starfield",
+      "url": "https://www.gamespot.com/articles/how-to-recruit-all-terran-armada-crewmates-in-starfield/1100-6539286/?ftag=CAD-01-10abi2f",
+      "source": "GameSpot",
+      "image_url": "https://www.gamespot.com/a/uploads/screen_medium/1745/17457013/4679354-starfieldscreenshot2026.04.08-12.20.22.69.jpg"
+    }
+  ],
+  "youtube_url": "https://www.youtube.com/watch?v=AfAPJazbK4U",
+  "youtube_title": "State of Decay 3 Breaks Radio Silence with Big News"
+}
