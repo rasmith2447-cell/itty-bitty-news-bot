@@ -272,6 +272,55 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
     # Generate trivia using Claude API
     # trivia_question, trivia_answer = generate_trivia()  # Disabled until API credits added
 
+    # Fetch upcoming game releases
+    try:
+        from igdb_releases import fetch_upcoming_releases
+        releases = fetch_upcoming_releases()
+    except Exception as ex:
+        print(f"[MAILCHIMP] Could not fetch releases (non-fatal): {ex}")
+        releases = []
+
+    # Build releases section HTML
+    if releases:
+        release_rows = ""
+        for rel in releases:
+            platforms = ", ".join(rel.get("platforms", [])[:3])
+            cover     = rel.get("cover_url", "")
+            name      = rel.get("name", "")
+            date_str  = rel.get("date_str", "")
+            cover_html = f'<img src="{cover}" width="40" height="53" style="display:block;border-radius:4px;object-fit:cover;" />' if cover else '<div style="width:40px;height:53px;background:#1e1e3f;border-radius:4px;"></div>'
+            release_rows += f"""
+              <tr>
+                <td style="padding:0 0 10px 0;">
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#1a1a2e;border-radius:8px;padding:10px 14px;">
+                    <tr>
+                      <td width="50" style="vertical-align:middle;padding-right:12px;">{cover_html}</td>
+                      <td style="vertical-align:middle;">
+                        <p style="margin:0 0 2px;font-family:'Courier New',monospace;font-size:13px;font-weight:700;color:#ffffff;">{name}</p>
+                        <p style="margin:0;font-family:Arial,sans-serif;font-size:11px;color:#4A9EFF;">📅 {date_str} &nbsp;·&nbsp; {platforms}</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>"""
+
+        releases_section = f"""
+          <!-- UPCOMING RELEASES -->
+          <tr>
+            <td style="background:#0f0f24;padding:0 30px 28px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td style="border-top:1px solid #1e3a8a;padding-top:24px;padding-bottom:14px;">
+                    <p style="margin:0;font-family:'Courier New',monospace;font-size:12px;color:#4A9EFF;text-align:center;letter-spacing:2px;text-transform:uppercase;">— Upcoming Releases —</p>
+                  </td>
+                </tr>
+                {release_rows}
+              </table>
+            </td>
+          </tr>"""
+    else:
+        releases_section = ""
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -315,6 +364,8 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
           </tr>
 
           {youtube_section}
+
+          {releases_section}
 
           <!-- DIVIDER -->
           <tr>
