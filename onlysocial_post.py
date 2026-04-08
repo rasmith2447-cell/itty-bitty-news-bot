@@ -28,6 +28,7 @@ WORKSPACE_UUID     = env("ONLYSOCIAL_WORKSPACE_UUID")
 DIGEST_EXPORT_FILE = env("DIGEST_EXPORT_FILE", "digest_latest.json")
 YOUTUBE_URL        = env("YOUTUBE_URL", "https://www.youtube.com/@smitty-2447")
 PODCAST_URL        = env("PODCAST_URL", "https://podcasts.apple.com/us/podcast/itty-bitty-gaming-news/id1711880008")
+NEWSLETTER_URL     = env("NEWSLETTER_URL", "http://eepurl.com/jBGjWs")
 MAX_HASHTAGS       = int(env("ONLYSOCIAL_MAX_HASHTAGS", "8"))
 BLUESKY_CHAR_LIMIT = 300
 TAGLINE            = "Your daily dose of Itty Bitty Gaming News."
@@ -315,6 +316,7 @@ def build_post_content(stories: list) -> str:
     lines.append("")
     lines.append(f"🎬 Watch daily: {YOUTUBE_URL}")
     lines.append(f"🎙️ Podcast: {PODCAST_URL}")
+    lines.append(f"📧 Newsletter: {NEWSLETTER_URL}")
     lines.append("")
     lines.append(TAGLINE)
     lines.append("")
@@ -364,6 +366,7 @@ def build_threads_content(stories: list, hashtags: list) -> str:
     lines.append("")
     lines.append(f"🎬 Watch daily: {YOUTUBE_URL}")
     lines.append(f"🎙️ Podcast: {PODCAST_URL}")
+    lines.append(f"📧 Newsletter: {NEWSLETTER_URL}")
     lines.append("")
     lines.append(TAGLINE)
     lines.append("")
