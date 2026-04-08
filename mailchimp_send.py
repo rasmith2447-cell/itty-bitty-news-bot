@@ -86,6 +86,7 @@ def fetch_upcoming_releases() -> list:
     start    = int(now.timestamp())
     end      = int((now + timedelta(days=IGDB_DAYS_AHEAD)).timestamp())
     plats    = ",".join(str(p) for p in IGDB_PLATFORMS)
+    print(f"[IGDB] Querying releases from {now.strftime('%Y-%m-%d')} to {(now + timedelta(days=IGDB_DAYS_AHEAD)).strftime('%Y-%m-%d')}")
     query    = f"""
     fields game.name, game.cover.url, date, platform.name, platform.id;
     where date >= {start}
@@ -98,6 +99,9 @@ def fetch_upcoming_releases() -> list:
     """
     try:
         results = igdb_query(token, "release_dates", query)
+        print(f"[IGDB] Raw results count: {len(results)}")
+        if results:
+            print(f"[IGDB] Sample result: {results[0]}")
     except Exception as ex:
         print(f"[IGDB] Query error: {ex}")
         return []
