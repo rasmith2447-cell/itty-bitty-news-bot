@@ -5,10 +5,12 @@ Reads digest_latest.json and sends a branded HTML email campaign
 via the Mailchimp API to the IBGN audience.
 """
 
+import concurrent.futures
 import json
 import os
+import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import requests
 
@@ -27,13 +29,110 @@ PODCAST_URL         = env("PODCAST_URL", "https://podcasts.apple.com/us/podcast/
 LOGO_URL            = env("LOGO_URL", "https://raw.githubusercontent.com/rasmith2447-cell/itty-bitty-news-bot/main/Itty%20Bitty%20Gaming%20News%20Logo%20V.2.png")
 TAGLINE             = "Your daily dose of Itty Bitty Gaming News."
 
+# IGDB config
+IGDB_CLIENT_ID      = env("IGDB_CLIENT_ID")
+IGDB_CLIENT_SECRET  = env("IGDB_CLIENT_SECRET")
+IGDB_DAYS_AHEAD     = int(env("IGDB_DAYS_AHEAD", "14"))
+IGDB_PLATFORMS      = [6, 48, 167, 49, 169, 130]  # PC, PS4, PS5, XB1, XSX, Switch
+
 # Mailchimp datacenter is the suffix after the dash in the API key (e.g. us9)
 DC = MAILCHIMP_API_KEY.split("-")[-1] if "-" in MAILCHIMP_API_KEY else "us1"
 BASE = f"https://{DC}.api.mailchimp.com/3.0"
 
 # ---------------------------------------------------------------------------
-# HELPERS
+# IGDB RELEASES
 # ---------------------------------------------------------------------------
+
+def igdb_token() -> str:
+    r = requests.post(
+        "https://id.twitch.tv/oauth2/token",
+        params={
+            "client_id":     IGDB_CLIENT_ID,
+            "client_secret": IGDB_CLIENT_SECRET,
+            "grant_type":    "client_credentials",
+        },
+        timeout=15,
+    )
+    r.raise_for_status()
+    return r.json()["access_token"]
+
+
+def igdb_query(token: str, endpoint: str, query: str) -> list:
+    r = requests.post(
+        f"https://api.igdb.com/v4/{endpoint}",
+        headers={
+            "Client-ID":     IGDB_CLIENT_ID,
+            "Authorization": f"Bearer {token}",
+            "Content-Type":  "text/plain",
+        },
+        data=query,
+        timeout=15,
+    )
+    r.raise_for_status()
+    return r.json()
+
+
+def fetch_upcoming_releases() -> list:
+    if not IGDB_CLIENT_ID or not IGDB_CLIENT_SECRET:
+        print("[IGDB] Credentials not set — skipping releases.")
+        return []
+    try:
+        token = igdb_token()
+    except Exception as ex:
+        print(f"[IGDB] Token error: {ex}")
+        return []
+
+    now      = datetime.now(timezone.utc)
+    start    = int(now.timestamp())
+    end      = int((now + timedelta(days=IGDB_DAYS_AHEAD)).timestamp())
+    plats    = ",".join(str(p) for p in IGDB_PLATFORMS)
+    query    = f"""
+    fields game.name, game.cover.url, date, platform.name, platform.id;
+    where date >= {start}
+      & date <= {end}
+      & platform = ({plats})
+      & game.category = 0
+      & game.version_parent = null;
+    sort date asc;
+    limit 50;
+    """
+    try:
+        results = igdb_query(token, "release_dates", query)
+    except Exception as ex:
+        print(f"[IGDB] Query error: {ex}")
+        return []
+
+    seen = {}
+    for item in results:
+        game = item.get("game", {})
+        if not game:
+            continue
+        name = game.get("name", "").strip()
+        if not name:
+            continue
+        date_ts  = item.get("date", 0)
+        platform = item.get("platform", {}).get("name", "")
+        cover    = game.get("cover", {})
+        cover_url = ""
+        if cover and cover.get("url"):
+            cover_url = "https:" + cover["url"].replace("t_thumb", "t_cover_big")
+        if name not in seen:
+            seen[name] = {"name": name, "date": date_ts, "platforms": [platform] if platform else [], "cover_url": cover_url}
+        else:
+            if platform and platform not in seen[name]["platforms"]:
+                seen[name]["platforms"].append(platform)
+            if date_ts < seen[name]["date"]:
+                seen[name]["date"] = date_ts
+
+    releases = sorted(seen.values(), key=lambda x: x["date"])[:8]
+    for r in releases:
+        try:
+            r["date_str"] = datetime.fromtimestamp(r["date"], tz=timezone.utc).strftime("%B %-d")
+        except Exception:
+            r["date_str"] = "Coming Soon"
+
+    print(f"[IGDB] Found {len(releases)} upcoming releases.")
+    return releases
 
 def headers() -> dict:
     return {
@@ -86,7 +185,6 @@ def fetch_og_image(url: str) -> str:
 
 def enrich_stories_with_images(stories: list) -> list:
     """Add OG images to stories that don't have one from the RSS feed."""
-    import concurrent.futures
     def enrich(story):
         if not story.get("image_url") and story.get("url"):
             img = fetch_og_image(story["url"])
@@ -274,7 +372,6 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
 
     # Fetch upcoming game releases
     try:
-        from igdb_releases import fetch_upcoming_releases
         releases = fetch_upcoming_releases()
     except Exception as ex:
         print(f"[MAILCHIMP] Could not fetch releases (non-fatal): {ex}")
