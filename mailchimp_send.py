@@ -97,14 +97,19 @@ def fetch_upcoming_releases() -> list:
     """
     try:
         results = igdb_query(token, "release_dates", query)
-        print(f"[IGDB] Raw results count: {len(results)}")
-        if results:
-            print(f"[IGDB] Sample result: {results[0]}")
     except Exception as ex:
         print(f"[IGDB] Query error: {ex}")
         return []
 
     seen = {}
+    PLATFORM_NAMES = {
+        "PC (Microsoft Windows)": "PC",
+        "Xbox Series X|S": "Xbox Series X/S",
+        "PlayStation 5": "PS5",
+        "PlayStation 4": "PS4",
+        "Nintendo Switch": "Switch",
+        "Xbox One": "Xbox One",
+    }
     for item in results:
         game = item.get("game", {})
         if not game:
@@ -113,7 +118,10 @@ def fetch_upcoming_releases() -> list:
         if not name:
             continue
         date_ts  = item.get("date", 0)
-        platform = item.get("platform", {}).get("name", "")
+        platform = PLATFORM_NAMES.get(
+            item.get("platform", {}).get("name", ""),
+            item.get("platform", {}).get("name", "")
+        )
         cover    = game.get("cover", {})
         cover_url = ""
         if cover and cover.get("url"):
