@@ -1,1 +1,37 @@
-{"should_post": false, "stories": []}
+{
+  "should_post": true,
+  "stories": [
+    {
+      "title": "A character model datamined from Grand Theft Auto 5's source code 'could actually be Agent's protagonist', according to online sleuth",
+      "url": "https://www.pcgamer.com/games/action/a-character-model-datamined-from-grand-theft-auto-5s-source-code-could-actually-be-agents-protagonist-according-to-online-sleuth/",
+      "source": "PC Gamer",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/PDxTbCpC4zwkvkF6w6MaH9-1280-80.png"
+    },
+    {
+      "title": "GTA 6 developer Rockstar Games hacked once again but insists this time only a \"limited amount of non-material company information\" was compromised",
+      "url": "https://www.eurogamer.net/gta-6-developer-rockstar-games-hacked-once-again-but-insists-only-a-limited-amount-of-non-material-company-information-was-compromised",
+      "source": "Eurogamer",
+      "image_url": "https://assetsio.gnwcdn.com/gta-6-art-lucia-and-jason.jpg?width=690&quality=85&format=jpg&auto=webp"
+    },
+    {
+      "title": "New Crimson Desert Patch Just Dropped With Many of the Improvements Pearl Abyss Said Were Due in the Coming Months, and Some It Hadn't Mentioned at All",
+      "url": "https://www.ign.com/articles/new-crimson-desert-patch-just-dropped-with-many-of-the-improvements-pearl-abyss-said-were-due-in-the-coming-months-and-some-it-hadnt-mentioned-at-all",
+      "source": "IGN",
+      "image_url": "https://assets-prd.ignimgs.com/2026/04/11/ss-4b178bdd24ed576458116d8d3383b5352dad0fae-1920x1080-1775897143469.jpg"
+    },
+    {
+      "title": "Rockstar Games Job Listing Teases Ambitious Plans for Grand Theft Auto 6 Online Mode",
+      "url": "https://gamerant.com/gta-6-online-fortnite-roblox/",
+      "source": "Game Rant",
+      "image_url": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/04/gta-6-trailer-2-screenshot-jason-motorcycle.jpg"
+    },
+    {
+      "title": "Talking Point: What Are You Playing This Weekend? (11th April)",
+      "url": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-11th-april",
+      "source": "Nintendo Life",
+      "image_url": "https://images.nintendolife.com/1d1ede53a3c0f/large.jpg"
+    }
+  ],
+  "youtube_url": "https://www.youtube.com/watch?v=Ju3FGM0lSac",
+  "youtube_title": "Switch 2 Gets Bad News About 007 First Light"
+}
