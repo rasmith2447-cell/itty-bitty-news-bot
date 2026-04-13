@@ -381,6 +381,48 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
     # Generate trivia using Claude API
     # trivia_question, trivia_answer = generate_trivia()  # Disabled until API credits added
 
+    # Game of the Week — manually curated
+    gotw = {
+        "title":       "Solar Expanse: Space Exploration Manager",
+        "description": "As a fan of simulator games and science fiction, I jumped at the opportunity to build out a space program and expand human civilization into the cosmos. Build rockets, fund missions and take humankind boldly into the beyond.",
+        "platform":    "Available on Steam (Early Access)",
+        "url":         "https://store.steampowered.com/app/1369700/Solar_Expanse__Space_Exploration_Manager/",
+        "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/1369700/header.jpg",
+    }
+
+    gotw_section = f"""
+          <!-- GAME OF THE WEEK -->
+          <tr>
+            <td style="background:#0f0f24;padding:0 30px 28px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td style="border-top:1px solid #1e3a8a;padding-top:24px;padding-bottom:14px;">
+                    <p style="margin:0;font-family:'Courier New',monospace;font-size:12px;color:#FFD700;text-align:center;letter-spacing:2px;text-transform:uppercase;">— 🏆 Game of the Week —</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="{gotw['url']}" target="_blank" style="text-decoration:none;">
+                      <img src="{gotw['image_url']}" alt="{gotw['title']}" width="100%" style="display:block;border-radius:10px 10px 0 0;max-height:215px;object-fit:cover;" />
+                    </a>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#1a1a2e;border-radius:0 0 10px 10px;border-left:4px solid #FFD700;">
+                      <tr>
+                        <td style="padding:16px 20px;">
+                          <a href="{gotw['url']}" target="_blank" style="text-decoration:none;">
+                            <p style="margin:0 0 8px;font-family:'Courier New',monospace;font-size:16px;font-weight:900;color:#FFD700;">{gotw['title']}</p>
+                          </a>
+                          <p style="margin:0 0 10px;font-family:Arial,sans-serif;font-size:13px;color:#c0c0d0;line-height:1.6;">{gotw['description']}</p>
+                          <p style="margin:0 0 12px;font-family:'Courier New',monospace;font-size:11px;color:#4A9EFF;text-transform:uppercase;letter-spacing:1px;">🎮 {gotw['platform']}</p>
+                          <a href="{gotw['url']}" target="_blank" style="display:inline-block;background:#1e3a8a;border-radius:6px;padding:8px 18px;font-family:'Courier New',monospace;font-size:12px;color:#ffffff;text-decoration:none;letter-spacing:1px;">Check It Out →</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>"""
+
     # Fetch upcoming game releases
     try:
         releases = fetch_upcoming_releases()
@@ -472,6 +514,8 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
           </tr>
 
           {youtube_section}
+
+          {gotw_section}
 
           {releases_section}
 
