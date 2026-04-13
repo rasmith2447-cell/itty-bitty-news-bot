@@ -207,7 +207,7 @@ def enrich_stories_with_images(stories: list) -> list:
 
 
 def load_digest_stories() -> tuple:
-    """Returns (should_post: bool, stories: list, youtube_url: str)"""
+    """Returns (should_post: bool, stories: list, youtube_url: str, post_date: str)"""
     if os.path.exists(DIGEST_EXPORT_FILE):
         try:
             with open(DIGEST_EXPORT_FILE, "r", encoding="utf-8") as f:
@@ -216,13 +216,14 @@ def load_digest_stories() -> tuple:
                     should_post = data.get("should_post", False)
                     stories     = data.get("stories", [])
                     yt_url      = data.get("youtube_url") or YOUTUBE_URL
-                    return should_post, stories, yt_url
+                    post_date   = data.get("post_date", "")
+                    return should_post, stories, yt_url, post_date
                 if isinstance(data, list):
-                    return len(data) > 0, data, YOUTUBE_URL
+                    return len(data) > 0, data, YOUTUBE_URL, ""
         except Exception as ex:
             print(f"[MAILCHIMP] Could not read {DIGEST_EXPORT_FILE}: {ex}")
     print(f"[MAILCHIMP] {DIGEST_EXPORT_FILE} not found — skipping.")
-    return False, [], YOUTUBE_URL
+    return False, [], YOUTUBE_URL, ""
 
 # ---------------------------------------------------------------------------
 # HTML EMAIL BUILDER
@@ -534,17 +535,23 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
 # MAILCHIMP CAMPAIGN
 # ---------------------------------------------------------------------------
 
-def send_campaign(stories: list, latest_yt_url: str = None) -> None:
-    # Use PT timezone so date matches the actual day the digest runs
-    try:
-        from zoneinfo import ZoneInfo
-        today = datetime.now(ZoneInfo("America/Los_Angeles"))
-    except Exception:
-        from datetime import timezone, timedelta
-        today = datetime.now(timezone(timedelta(hours=-7)))  # PDT fallback
-    date_str  = today.strftime("%B %-d, %Y")
-    subject   = f"🎮 Itty Bitty Gaming News — {today.strftime('%B %-d')}"
+def send_campaign(stories: list, latest_yt_url: str = None, post_date: str = "") -> None:
+    # Use date from digest export (set at digest run time in PT)
+    # Fall back to current PT time if not available
+    if not post_date:
+        try:
+            from zoneinfo import ZoneInfo
+            today = datetime.now(ZoneInfo("America/Los_Angeles"))
+        except Exception:
+            today = datetime.now(timezone(timedelta(hours=-7)))
+        post_date = today.strftime("%B %-d, %Y")
+
+    date_str  = post_date
+    # Extract short date for subject line (e.g. "April 13" from "April 13, 2026")
+    short_date = post_date.rsplit(",", 1)[0] if "," in post_date else post_date
+    subject   = f"🎮 Itty Bitty Gaming News — {short_date}"
     html_body = build_html_email(stories, date_str, latest_yt_url)
+    print(f"[MAILCHIMP] Using date: {date_str}")
 
     # 1. Create campaign
     print("[MAILCHIMP] Creating campaign...")
@@ -554,7 +561,7 @@ def send_campaign(stories: list, latest_yt_url: str = None) -> None:
         "settings": {
             "subject_line":  subject,
             "preview_text":  f"Today's top {len(stories)} gaming stories — served itty bitty.",
-            "title":         f"IBGN Digest {today.strftime('%Y-%m-%d')}",
+            "title":         f"IBGN Digest {post_date}",
             "from_name":     "Itty Bitty Gaming News",
             "reply_to":      "ittybittygamingnews@gmail.com",
         },
@@ -612,7 +619,7 @@ def main():
         print("[MAILCHIMP] MAILCHIMP_AUDIENCE_ID not set — skipping.")
         sys.exit(0)
 
-    should_post, stories, latest_yt_url = load_digest_stories()
+    should_post, stories, latest_yt_url, post_date = load_digest_stories()
 
     if not should_post:
         print("[MAILCHIMP] Digest not ready — skipping email.")
@@ -625,7 +632,7 @@ def main():
     print(f"[MAILCHIMP] Loaded {len(stories)} stories. Fetching story images...")
     stories = enrich_stories_with_images(stories)
     print(f"[MAILCHIMP] Sending email digest...")
-    send_campaign(stories, latest_yt_url)
+    send_campaign(stories, latest_yt_url, post_date)
 
 if __name__ == "__main__":
     main()
