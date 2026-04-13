@@ -415,15 +415,23 @@ def main() -> None:
         yt_url   = yt[0] if yt else None
         yt_title = yt[1] if yt else None
 
+        # Generate date in PT so email always shows the correct local date
+        try:
+            from zoneinfo import ZoneInfo as _ZI
+            post_date = datetime.now(_ZI("America/Los_Angeles")).strftime("%B %-d, %Y")
+        except Exception:
+            post_date = datetime.now().strftime("%B %-d, %Y")
+
         export_data = {
             "should_post": True,
+            "post_date":   post_date,
             "stories": [{"title": s.title, "url": s.url, "source": s.source, "image_url": s.image_url} for s in top],
             "youtube_url":   yt_url,
             "youtube_title": yt_title,
         }
         with open(export_file, "w", encoding="utf-8") as f:
             json.dump(export_data, f, indent=2)
-        print(f"[DIGEST] Exported {len(top)} stories to {export_file}")
+        print(f"[DIGEST] Exported {len(top)} stories to {export_file} (date: {post_date})")
     except Exception as ex:
         print(f"[DIGEST] Export failed (non-fatal): {ex}")
 
