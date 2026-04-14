@@ -1,1 +1,38 @@
-{"should_post": false, "stories": []}
+{
+  "should_post": true,
+  "post_date": "April 13, 2026",
+  "stories": [
+    {
+      "title": "ESA's iicon conference expands speaker lineup, with EA's Andrew Wilson joining CEOs of Ubisoft, Take Two, Riot, Savvy Games and more",
+      "url": "https://www.gamesindustry.biz/esas-iicon-conference-expands-speaker-lineup-with-eas-andrew-wilson-joining-ceos-of-ubisoft-take-two-riot-savvy-games-and-more",
+      "source": "GamesIndustry",
+      "image_url": "https://assetsio.gnwcdn.com/iicon-header.png?width=690&quality=85&format=jpg&auto=webp"
+    },
+    {
+      "title": "PowerWash Simulator's Final Fantasy, Tomb Raider DLC Packs Are Going Down the Drain",
+      "url": "https://www.pushsquare.com/news/2026/04/powerwash-simulators-final-fantasy-tomb-raider-dlc-packs-are-going-down-the-drain",
+      "source": "Push Square",
+      "image_url": "https://images.pushsquare.com/da945373766d8/large.jpg"
+    },
+    {
+      "title": "Replaced Dev Reveals Xbox Series X And S Specs Ahead Of Game Pass Launch",
+      "url": "https://www.purexbox.com/news/2026/04/replaced-dev-reveals-xbox-series-x-and-s-specs-ahead-of-game-pass-launch",
+      "source": "Pure Xbox",
+      "image_url": "https://images.purexbox.com/ec92176baba2a/large.jpg"
+    },
+    {
+      "title": "Overwatch season 2 start date, skins, and new collabs revealed",
+      "url": "https://www.polygon.com/overwatch-season-2-summit-start-date-skins-maps/",
+      "source": "Polygon",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/04/ovr_s2_h51_sierra_abilities_helixrifle_anchordrone_001.jpg"
+    },
+    {
+      "title": "No, Fable's release window chicken hasn't been kicked down the road, Playground Games say following report of potential GTA 6-related delay",
+      "url": "https://www.rockpapershotgun.com/no-fables-release-window-chicken-hasnt-been-kicked-down-the-road-playground-games-say-following-report-of-potential-gta-6-related-delay",
+      "source": "Rock Paper Shotgun",
+      "image_url": "https://assetsio.gnwcdn.com/fable-autumn-2026-release-date-remphasised-delay-rumours-01.jpg?width=690&quality=85&format=jpg&auto=webp"
+    }
+  ],
+  "youtube_url": "https://www.youtube.com/watch?v=9VWvC7tS6Lc",
+  "youtube_title": "Windrose Just Got Its Release Date"
+}
