@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Itty Bitty Gaming News — Daily Newsletter</title>
+  <meta name="description" content="The freshest gaming news in the smallest package. Subscribe to the Itty Bitty Gaming News daily digest — top stories, upcoming releases, game of the week, and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg:        #04040f;
+      --bg2:       #0a0a1e;
+      --bg3:       #0f0f2a;
+      --card:      #111130;
+      --border:    #1e3a8a;
+      --blue:      #4A9EFF;
+      --blue-dim:  #2563eb;
+      --gold:      #FFD700;
+      --white:     #ffffff;
+      --muted:     #8888aa;
+      --font-head: 'Orbitron', monospace;
+      --font-mono: 'Share Tech Mono', monospace;
+      --font-body: 'DM Sans', sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--white);
+      font-family: var(--font-body);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ── SCANLINE OVERLAY ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0,0,0,0.08) 2px,
+        rgba(0,0,0,0.08) 4px
+      );
+      pointer-events: none;
+      z-index: 999;
+    }
+
+    /* ── ANIMATED STAR FIELD ── */
+    .stars {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      overflow: hidden;
+    }
+    .star {
+      position: absolute;
+      background: white;
+      border-radius: 50%;
+      animation: twinkle var(--d, 3s) ease-in-out infinite;
+      opacity: 0;
+    }
+    @keyframes twinkle {
+      0%, 100% { opacity: 0; transform: scale(1); }
+      50% { opacity: var(--o, 0.6); transform: scale(1.2); }
+    }
+
+    /* ── GRID LINES ── */
+    .grid-bg {
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(74,158,255,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(74,158,255,0.04) 1px, transparent 1px);
+      background-size: 60px 60px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ── LAYOUT ── */
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ── NAV ── */
+    nav {
+      padding: 20px 0;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+    }
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+    .nav-logo img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+    }
+    .nav-logo span {
+      font-family: var(--font-head);
+      font-size: 11px;
+      color: var(--blue);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      text-align: center;
+      padding: 60px 0 50px;
+      position: relative;
+    }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(74,158,255,0.1);
+      border: 1px solid rgba(74,158,255,0.3);
+      border-radius: 20px;
+      padding: 6px 16px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--blue);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+      animation: fadeDown 0.6s ease both;
+    }
+    .hero h1 {
+      font-family: var(--font-head);
+      font-size: clamp(32px, 7vw, 56px);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      animation: fadeDown 0.7s ease both;
+    }
+    .hero h1 .accent { color: var(--blue); }
+    .hero h1 .gold { color: var(--gold); }
+    .hero-sub {
+      font-size: 17px;
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 480px;
+      margin: 0 auto 40px;
+      font-weight: 300;
+      animation: fadeDown 0.8s ease both;
+    }
+    .hero-sub strong { color: var(--white); font-weight: 500; }
+
+    /* ── SIGNUP FORM ── */
+    .signup-box {
+      background: linear-gradient(135deg, var(--card) 0%, var(--bg3) 100%);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 36px 32px;
+      margin-bottom: 20px;
+      position: relative;
+      overflow: hidden;
+      animation: fadeUp 0.9s ease both;
+    }
+    .signup-box::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--blue-dim), var(--blue), var(--gold), var(--blue));
+      background-size: 200%;
+      animation: shimmer 3s linear infinite;
+    }
+    @keyframes shimmer {
+      0% { background-position: 0% 0%; }
+      100% { background-position: 200% 0%; }
+    }
+    .signup-box h2 {
+      font-family: var(--font-head);
+      font-size: 16px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+    .signup-box p {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
+    .form-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .form-input {
+      flex: 1;
+      min-width: 200px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(74,158,255,0.3);
+      border-radius: 8px;
+      padding: 13px 16px;
+      font-family: var(--font-mono);
+      font-size: 14px;
+      color: var(--white);
+      outline: none;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .form-input::placeholder { color: rgba(136,136,170,0.6); }
+    .form-input:focus {
+      border-color: var(--blue);
+      background: rgba(74,158,255,0.08);
+    }
+    .form-btn {
+      background: linear-gradient(135deg, var(--blue-dim), var(--blue));
+      border: none;
+      border-radius: 8px;
+      padding: 13px 28px;
+      font-family: var(--font-head);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--white);
+      cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.15s;
+      white-space: nowrap;
+    }
+    .form-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(74,158,255,0.4);
+    }
+    .form-btn:active { transform: translateY(0); }
+    .form-note {
+      margin-top: 12px;
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+    }
+    .form-note a { color: var(--blue); text-decoration: none; }
+
+    /* ── WHAT YOU GET ── */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin: 40px 0;
+      animation: fadeUp 1s ease both;
+    }
+    .feature-card {
+      background: var(--card);
+      border: 1px solid rgba(30,58,138,0.5);
+      border-radius: 12px;
+      padding: 20px;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .feature-card:hover {
+      border-color: var(--blue);
+      transform: translateY(-2px);
+    }
+    .feature-icon {
+      font-size: 24px;
+      margin-bottom: 10px;
+      display: block;
+    }
+    .feature-title {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--blue);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .feature-desc {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    /* ── SAMPLE EDITION ── */
+    .section-label {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--blue);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .section-label::before,
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .sample-frame {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      margin-bottom: 48px;
+      animation: fadeUp 1.1s ease both;
+    }
+    .sample-header {
+      background: linear-gradient(135deg, #0d0d1a, #1a1a3e);
+      padding: 28px 24px 20px;
+      text-align: center;
+      border-bottom: 2px solid var(--border);
+    }
+    .sample-header img {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+    .sample-header h3 {
+      font-family: var(--font-head);
+      font-size: 18px;
+      font-weight: 900;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .sample-header p {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--blue);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+    .sample-intro {
+      background: #111130;
+      padding: 10px 24px;
+      border-bottom: 1px solid var(--border);
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+    }
+    .sample-stories { padding: 20px 20px 8px; }
+    .sample-story {
+      display: flex;
+      gap: 12px;
+      background: #1a1a2e;
+      border-radius: 10px;
+      border-left: 4px solid var(--border);
+      padding: 14px;
+      margin-bottom: 10px;
+      align-items: flex-start;
+    }
+    .sample-story:nth-child(1) { border-left-color: #FFD700; }
+    .sample-story:nth-child(2) { border-left-color: #C0C0C0; }
+    .sample-story:nth-child(3) { border-left-color: #CD7F32; }
+    .story-icon { font-size: 20px; flex-shrink: 0; margin-top: 1px; }
+    .story-info {}
+    .story-title {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--white);
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 3px;
+    }
+    .story-source {
+      font-size: 10px;
+      color: var(--blue);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .sample-more {
+      text-align: center;
+      padding: 12px 20px 20px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--muted);
+    }
+    .sample-sections {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border-top: 1px solid var(--border);
+    }
+    .sample-section {
+      background: var(--card);
+      padding: 14px;
+      text-align: center;
+    }
+    .sample-section .icon { font-size: 20px; margin-bottom: 4px; display: block; }
+    .sample-section .label {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--muted);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    /* ── SOCIAL LINKS ── */
+    .social-row {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 32px 0;
+      animation: fadeUp 1.2s ease both;
+    }
+    .social-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--card);
+      border: 1px solid rgba(30,58,138,0.5);
+      border-radius: 8px;
+      padding: 10px 18px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--white);
+      text-decoration: none;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .social-btn:hover {
+      border-color: var(--blue);
+      transform: translateY(-2px);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid rgba(30,58,138,0.3);
+      padding: 32px 0;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+    footer p {
+      font-size: 12px;
+      color: var(--muted);
+      font-family: var(--font-mono);
+      letter-spacing: 1px;
+    }
+    footer .tagline {
+      font-style: italic;
+      color: var(--blue);
+      margin-bottom: 8px;
+      font-size: 13px;
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 480px) {
+      .features { grid-template-columns: 1fr; }
+      .sample-sections { grid-template-columns: 1fr; }
+      .signup-box { padding: 24px 20px; }
+      .hero { padding: 40px 0 30px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Stars -->
+  <div class="stars" id="stars"></div>
+  <div class="grid-bg"></div>
+
+  <!-- Nav -->
+  <nav>
+    <div class="container">
+      <a href="#" class="nav-logo">
+        <img src="https://raw.githubusercontent.com/rasmith2447-cell/itty-bitty-news-bot/main/Itty%20Bitty%20Gaming%20News%20Logo%20V.2.png" alt="IBGN Logo" />
+        <span>Itty Bitty Gaming News</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">📧 Free Daily Newsletter</div>
+      <h1>Big Stories.<br /><span class="accent">Itty Bitty</span> <span class="gold">Package.</span></h1>
+      <p class="hero-sub">
+        Get the <strong>top gaming stories</strong> of the day delivered to your inbox every evening — plus upcoming releases, game of the week, and your latest YouTube fix. <strong>No fluff. No spam. Just gaming news.</strong>
+      </p>
+
+      <!-- Signup Form -->
+      <div class="signup-box">
+        <h2>Join the Newsletter</h2>
+        <p>Free daily digest. Unsubscribe anytime. Already read by gamers across the galaxy.</p>
+        <div class="form-row">
+          <input type="email" class="form-input" placeholder="your@email.com" id="email-input" />
+          <button class="form-btn" onclick="handleSignup()">Subscribe →</button>
+        </div>
+        <p class="form-note">
+          Or <a href="http://eepurl.com/jBGjWs" target="_blank">click here to subscribe</a> via Mailchimp directly.
+        </p>
+      </div>
+
+      <!-- What you get -->
+      <div class="features">
+        <div class="feature-card">
+          <span class="feature-icon">🎮</span>
+          <div class="feature-title">Top 5 Stories</div>
+          <div class="feature-desc">The day's biggest gaming news curated from 12+ sources, scored and ranked.</div>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">📅</span>
+          <div class="feature-title">Upcoming Releases</div>
+          <div class="feature-desc">Games dropping in the next 14 days across PS5, Xbox, Switch, and PC.</div>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">🏆</span>
+          <div class="feature-title">Game of the Week</div>
+          <div class="feature-desc">A hand-picked spotlight on a game worth your time and attention.</div>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">🎬</span>
+          <div class="feature-title">Latest Video</div>
+          <div class="feature-desc">The newest IBGN YouTube video linked directly in every edition.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sample Edition -->
+  <section style="position:relative;z-index:1;padding-bottom:48px;">
+    <div class="container">
+      <div class="section-label">Sample Edition</div>
+
+      <div class="sample-frame">
+        <div class="sample-header">
+          <img src="https://raw.githubusercontent.com/rasmith2447-cell/itty-bitty-news-bot/main/Itty%20Bitty%20Gaming%20News%20Logo%20V.2.png" alt="Logo" />
+          <h3>Itty Bitty Gaming News</h3>
+          <p>Daily Digest — Today's Edition</p>
+        </div>
+        <div class="sample-intro">🎮 Today's top snackable gaming stories.</div>
+        <div class="sample-stories">
+          <div class="sample-story">
+            <span class="story-icon">🥇</span>
+            <div class="story-info">
+              <div class="story-title">GTA 6 Release Date Officially Confirmed for Fall 2026</div>
+              <div class="story-source">Rockstar Games</div>
+            </div>
+          </div>
+          <div class="sample-story">
+            <span class="story-icon">🥈</span>
+            <div class="story-info">
+              <div class="story-title">Nintendo Switch 2 Sells 2 Million Units in Launch Weekend</div>
+              <div class="story-source">Nintendo Life</div>
+            </div>
+          </div>
+          <div class="sample-story">
+            <span class="story-icon">🥉</span>
+            <div class="story-info">
+              <div class="story-title">Elden Ring Expansion DLC Announced: Shadow of the Erdtree 2</div>
+              <div class="story-source">IGN</div>
+            </div>
+          </div>
+        </div>
+        <div class="sample-more">+ 2 more stories, YouTube video, Game of the Week & upcoming releases...</div>
+        <div class="sample-sections">
+          <div class="sample-section">
+            <span class="icon">🎬</span>
+            <div class="label">Latest Video</div>
+          </div>
+          <div class="sample-section">
+            <span class="icon">🏆</span>
+            <div class="label">Game of the Week</div>
+          </div>
+          <div class="sample-section">
+            <span class="icon">📅</span>
+            <div class="label">Upcoming Releases</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Social Links -->
+      <div class="section-label">Find Us Online</div>
+      <div class="social-row">
+        <a href="https://www.youtube.com/@smitty-2447" target="_blank" class="social-btn">🎬 YouTube</a>
+        <a href="https://podcasts.apple.com/us/podcast/itty-bitty-gaming-news/id1711880008" target="_blank" class="social-btn">🎙️ Podcast</a>
+        <a href="http://eepurl.com/jBGjWs" target="_blank" class="social-btn">📧 Subscribe</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p class="tagline">Your daily dose of Itty Bitty Gaming News.</p>
+      <p>© 2026 Itty Bitty Gaming News · Las Vegas, NV</p>
+    </div>
+  </footer>
+
+  <script>
+    // Generate stars
+    const starsEl = document.getElementById('stars');
+    for (let i = 0; i < 120; i++) {
+      const star = document.createElement('div');
+      star.className = 'star';
+      const size = Math.random() * 2.5 + 0.5;
+      star.style.cssText = `
+        width: ${size}px;
+        height: ${size}px;
+        left: ${Math.random() * 100}%;
+        top: ${Math.random() * 100}%;
+        --d: ${Math.random() * 4 + 2}s;
+        --o: ${Math.random() * 0.5 + 0.2};
+        animation-delay: ${Math.random() * 5}s;
+      `;
+      starsEl.appendChild(star);
+    }
+
+    // Signup handler — redirects to Mailchimp
+    function handleSignup() {
+      const email = document.getElementById('email-input').value.trim();
+      if (!email || !email.includes('@')) {
+        document.getElementById('email-input').style.borderColor = '#ff4444';
+        setTimeout(() => {
+          document.getElementById('email-input').style.borderColor = 'rgba(74,158,255,0.3)';
+        }, 1500);
+        return;
+      }
+      const url = `http://eepurl.com/jBGjWs`;
+      window.open(url, '_blank');
+    }
+
+    // Enter key on input
+    document.getElementById('email-input').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') handleSignup();
+    });
+  </script>
+</body>
+</html>
