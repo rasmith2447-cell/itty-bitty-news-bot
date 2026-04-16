@@ -1,1 +1,38 @@
-{"should_post": false, "stories": []}
+{
+  "should_post": true,
+  "post_date": "April 15, 2026",
+  "stories": [
+    {
+      "title": "Dead Space Creator Talks GTA 6's Effect On Other Games: \"You Don't Wanna Be Near It\"",
+      "url": "https://www.gamespot.com/articles/dead-space-creator-talks-gta-6s-effect-on-other-games-you-dont-wanna-be-near-it/1100-6539432/?ftag=CAD-01-10abi2f",
+      "source": "GameSpot",
+      "image_url": "https://www.gamespot.com/a/uploads/screen_medium/1752/17528202/4683093-gtaphantomcar.jpg"
+    },
+    {
+      "title": "The indie metroidvania that started it all just got a huge update on PC, adding co-op and mod support after 22 years",
+      "url": "https://www.pcgamer.com/games/action/the-indie-metroidvania-that-started-it-all-just-got-a-huge-update-on-pc-adding-co-op-and-mod-support-after-22-years/",
+      "source": "PC Gamer",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/teVr9kSEfSGdt9mWhuynBg-1280-80.jpg"
+    },
+    {
+      "title": "Xbox Exec Reveals That Blizzard Is Helping Out With Development On Fable",
+      "url": "https://www.purexbox.com/news/2026/04/xbox-exec-reveals-that-blizzard-is-helping-out-with-development-on-fable",
+      "source": "Pure Xbox",
+      "image_url": "https://images.purexbox.com/fa794262eb0d8/large.jpg"
+    },
+    {
+      "title": "Ralph Fiennes Shares His Pick for Voldemort in HBO's Harry Potter Reboot",
+      "url": "https://gamerant.com/ralph-fiennes-voldemort-hbo-harry-potter-reboot/",
+      "source": "Game Rant",
+      "image_url": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/04/lord-voldemort-in-harry-potter-cropped.png"
+    },
+    {
+      "title": "Overwatch Is Out Now For Switch 2, But It's Got Some Performance Issues",
+      "url": "https://www.nintendolife.com/news/2026/04/overwatch-is-out-now-for-switch-2-but-its-got-some-performance-issues",
+      "source": "Nintendo Life",
+      "image_url": "https://images.nintendolife.com/1e072344c161b/large.jpg"
+    }
+  ],
+  "youtube_url": null,
+  "youtube_title": null
+}
