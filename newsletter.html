@@ -152,7 +152,7 @@
       animation: fadeDown 0.7s ease both;
     }
     .hero h1 .accent { color: var(--blue); }
-    .hero h1 .gold { color: var(--gold); }
+    .hero h1 .gold { color: var(--blue); }
     .hero-sub {
       font-size: 17px;
       color: var(--muted);
@@ -180,7 +180,7 @@
       position: absolute;
       top: 0; left: 0; right: 0;
       height: 3px;
-      background: linear-gradient(90deg, var(--blue-dim), var(--blue), var(--gold), var(--blue));
+      background: linear-gradient(90deg, var(--blue-dim), var(--blue), #7ec8ff, var(--blue));
       background-size: 200%;
       animation: shimmer 3s linear infinite;
     }
@@ -225,7 +225,12 @@
       border-color: var(--blue);
       background: rgba(74,158,255,0.08);
     }
+    .mc-fields { display: flex; flex-direction: column; gap: 10px; }
+    .mc-row { display: flex; gap: 10px; flex-wrap: wrap; }
+    .mc-name-row { display: flex; gap: 10px; }
+    .mc-name-row .form-input { flex: 1; min-width: 120px; }
     .form-btn {
+      width: 100%;
       background: linear-gradient(135deg, var(--blue-dim), var(--blue));
       border: none;
       border-radius: 8px;
@@ -239,12 +244,29 @@
       cursor: pointer;
       transition: transform 0.15s, box-shadow 0.15s;
       white-space: nowrap;
+      position: relative;
+      overflow: hidden;
+      animation: pulse-glow 2.5s ease-in-out infinite;
     }
+    .form-btn::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,0.15), transparent);
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .form-btn:hover::before { opacity: 1; }
     .form-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(74,158,255,0.4);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 32px rgba(74,158,255,0.6);
+      animation: none;
     }
-    .form-btn:active { transform: translateY(0); }
+    .form-btn:active { transform: translateY(-1px); }
+    @keyframes pulse-glow {
+      0%, 100% { box-shadow: 0 0 12px rgba(74,158,255,0.3); }
+      50%       { box-shadow: 0 0 28px rgba(74,158,255,0.7), 0 0 60px rgba(74,158,255,0.2); }
+    }
     .form-note {
       margin-top: 12px;
       font-size: 12px;
@@ -505,17 +527,28 @@
         Get the <strong>top gaming stories</strong> of the day delivered to your inbox every evening — plus upcoming releases, game of the week, and your latest YouTube fix. <strong>No fluff. No spam. Just gaming news.</strong>
       </p>
 
-      <!-- Signup Form -->
+      <!-- Mailchimp Embedded Signup Form -->
       <div class="signup-box">
         <h2>Join the Newsletter</h2>
         <p>Free daily digest. Unsubscribe anytime. Already read by gamers across the galaxy.</p>
-        <div class="form-row">
-          <input type="email" class="form-input" placeholder="your@email.com" id="email-input" />
-          <button class="form-btn" onclick="handleSignup()">Subscribe →</button>
-        </div>
-        <p class="form-note">
-          Or <a href="http://eepurl.com/jBGjWs" target="_blank">click here to subscribe</a> via Mailchimp directly.
-        </p>
+        <form action="https://gmail.us9.list-manage.com/subscribe/post?u=871771b6897b2f4380f2bbaec&amp;id=7d7b11d1df&amp;f_id=002752e1f0" method="post" target="_blank" novalidate>
+          <div class="mc-fields">
+            <div class="mc-row">
+              <input type="email" name="EMAIL" class="form-input" placeholder="your@email.com" required />
+            </div>
+            <div class="mc-row mc-name-row">
+              <input type="text" name="FNAME" class="form-input" placeholder="First Name" />
+              <input type="text" name="LNAME" class="form-input" placeholder="Last Name" />
+            </div>
+            <!-- Bot protection honeypot -->
+            <div style="position:absolute;left:-5000px;" aria-hidden="true">
+              <input type="text" name="b_871771b6897b2f4380f2bbaec_7d7b11d1df" tabindex="-1" value="" />
+            </div>
+            <input type="hidden" name="tags" value="11836594" />
+            <button type="submit" class="form-btn" name="subscribe">🚀 Join Free</button>
+          </div>
+          <p class="form-note">Free forever · No spam · Unsubscribe anytime</p>
+        </form>
       </div>
 
       <!-- What you get -->
@@ -633,24 +666,8 @@
       starsEl.appendChild(star);
     }
 
-    // Signup handler — redirects to Mailchimp
-    function handleSignup() {
-      const email = document.getElementById('email-input').value.trim();
-      if (!email || !email.includes('@')) {
-        document.getElementById('email-input').style.borderColor = '#ff4444';
-        setTimeout(() => {
-          document.getElementById('email-input').style.borderColor = 'rgba(74,158,255,0.3)';
-        }, 1500);
-        return;
-      }
-      const url = `http://eepurl.com/jBGjWs`;
-      window.open(url, '_blank');
-    }
+    // Enter key handled natively by form submit
 
-    // Enter key on input
-    document.getElementById('email-input').addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') handleSignup();
-    });
   </script>
 </body>
 </html>
