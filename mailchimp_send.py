@@ -383,11 +383,11 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
 
     # Game of the Week — manually curated
     gotw = {
-        "title":       "Solar Expanse: Space Exploration Manager",
-        "description": "As a fan of simulator games and science fiction, I jumped at the opportunity to build out a space program and expand human civilization into the cosmos. Build rockets, fund missions and take humankind boldly into the beyond.",
-        "platform":    "Available on Steam (Early Access)",
-        "url":         "https://store.steampowered.com/app/1369700/Solar_Expanse__Space_Exploration_Manager/",
-        "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/1369700/header.jpg",
+        "title":       "Pragmata",
+        "description": "Capcom's latest just dropped and it's not your average third-person shooter. Set in a near-future AI doomsday scenario, Pragmata puts you in the boots of a mysterious agent alongside an enigmatic girl as you battle through a transformed world. The hacking mechanics are what set it apart — strategic, deep, and satisfying. Worth your time.",
+        "platform":    "Available on PS5, Xbox Series X|S & PC",
+        "url":         "https://store.steampowered.com/app/1345860/Pragmata/",
+        "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/1345860/header.jpg",
     }
 
     gotw_section = f"""
