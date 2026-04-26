@@ -371,21 +371,10 @@ def main() -> None:
     cache = load_cache()
 
     if not guard_posting_window():
-        # Write export file with should_post=false so onlysocial_post.py skips
-        export_file = getenv("DIGEST_EXPORT_FILE", "digest_latest.json")
-        try:
-            with open(export_file, "w", encoding="utf-8") as f:
-                json.dump({"should_post": False, "stories": []}, f)
-        except Exception:
-            pass
+        print("[DIGEST] Outside posting window — skipping.")
         return
     if not guard_once_per_day(cache):
-        export_file = getenv("DIGEST_EXPORT_FILE", "digest_latest.json")
-        try:
-            with open(export_file, "w", encoding="utf-8") as f:
-                json.dump({"should_post": False, "stories": []}, f)
-        except Exception:
-            pass
+        print("[DIGEST] Already posted today — skipping.")
         return
 
     # --- Fetch + filter ---
