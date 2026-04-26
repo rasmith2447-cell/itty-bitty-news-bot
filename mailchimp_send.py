@@ -437,7 +437,7 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
             platforms = ", ".join(rel.get("platforms", [])[:3])
             cover     = rel.get("cover_url", "")
             name      = rel.get("name", "")
-            date_str  = rel.get("date_str", "")
+            rel_date  = rel.get("date_str", "")
             cover_html = f'<img src="{cover}" width="40" height="53" style="display:block;border-radius:4px;object-fit:cover;" />' if cover else '<div style="width:40px;height:53px;background:#1e1e3f;border-radius:4px;"></div>'
             release_rows += f"""
               <tr>
@@ -447,7 +447,7 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
                       <td width="50" style="vertical-align:middle;padding-right:12px;">{cover_html}</td>
                       <td style="vertical-align:middle;">
                         <p style="margin:0 0 2px;font-family:'Courier New',monospace;font-size:13px;font-weight:700;color:#ffffff;">{name}</p>
-                        <p style="margin:0;font-family:Arial,sans-serif;font-size:11px;color:#4A9EFF;">📅 {date_str} &nbsp;·&nbsp; {platforms}</p>
+                        <p style="margin:0;font-family:Arial,sans-serif;font-size:11px;color:#4A9EFF;">📅 {rel_date} &nbsp;·&nbsp; {platforms}</p>
                       </td>
                     </tr>
                   </table>
