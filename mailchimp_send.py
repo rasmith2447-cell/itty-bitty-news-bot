@@ -245,17 +245,19 @@ def build_story_row(index: int, story: dict) -> str:
 
     image_block = f"""
               <tr>
-                <td style="padding:0 0 0 0;">
-                  {link_open}<img src="{image_url}" alt="{title}" width="100%" style="display:block;border-radius:6px 6px 0 0;max-height:200px;object-fit:cover;" />{link_close}
+                <td style="padding:0 0 0 0;font-size:0;line-height:0;">
+                  {link_open}<img src="{image_url}" alt="" width="100%" style="display:block;border-radius:6px 6px 0 0;max-height:200px;object-fit:cover;" />{link_close}
                 </td>
               </tr>""" if image_url else ""
+
+    image_section = f'<table width="100%" cellpadding="0" cellspacing="0" border="0">{image_block}</table>' if image_url else ""
 
     return f"""
     <tr>
       <td style="padding:0 0 16px 0;">
         <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#1a1a2e;border-radius:10px;border-left:4px solid {color};overflow:hidden;">
           <tr>
-            <td>{image_block and f'<table width="100%" cellpadding="0" cellspacing="0" border="0">{image_block}</table>'}</td>
+            <td>{image_section}</td>
           </tr>
           <tr>
             <td style="padding:16px 20px;">
@@ -384,10 +386,10 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
     # Game of the Week — manually curated
     gotw = {
         "title":       "Pragmata",
-        "description": "Capcom's latest just dropped and it's not your average third-person shooter. Set in a near-future AI doomsday scenario, Pragmata puts you in the boots of a mysterious agent alongside an enigmatic girl as you battle through a transformed world. The hacking mechanics are what set it apart — strategic, deep, and satisfying. Worth your time.",
-        "platform":    "Available on PS5, Xbox Series X|S & PC",
-        "url":         "https://store.steampowered.com/app/1345860/Pragmata/",
-        "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/1345860/header.jpg",
+        "description": "Capcom's latest just dropped and it's not your average third-person shooter. Set in a near-future AI doomsday scenario, Pragmata puts you in the boots of a mysterious agent alongside an enigmatic android named Diana as you navigate a lunar facility taken over by rogue AI. The hacking mechanics are what set it apart — strategic, deep, and satisfying. Overwhelmingly Positive on Steam. Worth your time.",
+        "platform":    "Available on PS5, Xbox Series X|S, Switch 2 & PC",
+        "url":         "https://store.steampowered.com/app/3357650/PRAGMATA/",
+        "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/3357650/header.jpg",
     }
 
     gotw_section = f"""
