@@ -385,11 +385,11 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
 
     # Game of the Week — manually curated
     gotw = {
-        "title":       "Pragmata",
-        "description": "Capcom's latest just dropped and it's not your average third-person shooter. Set in a near-future AI doomsday scenario, Pragmata puts you in the boots of a mysterious agent alongside an enigmatic android named Diana as you navigate a lunar facility taken over by rogue AI. The hacking mechanics are what set it apart — strategic, deep, and satisfying. Overwhelmingly Positive on Steam. Worth your time.",
-        "platform":    "Available on PS5, Xbox Series X|S, Switch 2 & PC",
-        "url":         "https://store.steampowered.com/app/3357650/PRAGMATA/",
-        "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/3357650/header.jpg",
+        "title":       "Diablo IV: Lord of Hatred",
+        "description": "The biggest expansion to hit Diablo IV just dropped last week. Lord of Hatred brings a brand new act, a new class, fresh endgame content, and the return of a familiar face for longtime fans of the franchise. If you've been sleeping on Diablo IV, this is the perfect reason to jump back in — or start for the first time.",
+        "platform":    "Available on PS5, PS4, Xbox Series X|S, Xbox One & PC",
+        "url":         "https://store.steampowered.com/app/2178920/Diablo_IV/",
+        "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/2178920/header.jpg",
     }
 
     gotw_section = f"""
