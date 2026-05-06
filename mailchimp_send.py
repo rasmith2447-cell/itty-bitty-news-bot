@@ -386,10 +386,10 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
     # Game of the Week — manually curated
     gotw = {
         "title":       "Diablo IV: Lord of Hatred",
-        "description": "The biggest expansion to hit Diablo IV just dropped last week. Lord of Hatred brings a brand new act, a new class, fresh endgame content, and the return of a familiar face for longtime fans of the franchise. If you've been sleeping on Diablo IV, this is the perfect reason to jump back in — or start for the first time.",
+        "description": "The biggest expansion to hit Diablo IV just dropped last week. Lord of Hatred brings a brand new act, two new classes — the Paladin and Warlock — fresh endgame content, and the final reckoning against Mephisto. If you've been sleeping on Diablo IV, this is the perfect reason to jump back in — or start for the first time.",
         "platform":    "Available on PS5, PS4, Xbox Series X|S, Xbox One & PC",
-        "url":         "https://store.steampowered.com/app/2178920/Diablo_IV/",
-        "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/2178920/header.jpg",
+        "url":         "https://store.steampowered.com/app/3958690/Diablo_IV_Lord_of_Hatred/",
+        "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/3958690/header.jpg",
     }
 
     gotw_section = f"""
