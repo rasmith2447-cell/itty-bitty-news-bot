@@ -226,6 +226,108 @@ def load_digest_stories() -> tuple:
     return False, [], YOUTUBE_URL, ""
 
 # ---------------------------------------------------------------------------
+# GAME OF THE WEEK
+# ---------------------------------------------------------------------------
+
+GOTW_OVERRIDE = None  # Set to a dict to force a specific game
+
+GOTW_FALLBACK = {
+    "title":       "Subnautica 2",
+    "description": "Steam's most wishlisted game just hit early access and it's already making waves. The deep-sea survival sequel plunges you into an alien ocean world teeming with danger and discovery. Build your base, craft gear, and explore crushing depths in solo or co-op. If you loved the original, this is an easy recommendation.",
+    "platform":    "Available on PC (Early Access)",
+    "url":         "https://store.steampowered.com/app/3148040/Subnautica_2/",
+    "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/3148040/header.jpg",
+}
+
+
+def get_game_of_the_week() -> dict:
+    """Auto-generates Game of the Week using Claude + web search on Sundays, cached Mon-Sat."""
+    if GOTW_OVERRIDE:
+        print("[GOTW] Using manual override.")
+        return GOTW_OVERRIDE
+
+    api_key = os.getenv("ANTHROPIC_API_KEY", "")
+    if not api_key:
+        print("[GOTW] No API key — using fallback.")
+        return GOTW_FALLBACK
+
+    try:
+        from zoneinfo import ZoneInfo as _ZI
+        now_pt = datetime.now(_ZI("America/Los_Angeles"))
+    except Exception:
+        now_pt = datetime.now()
+
+    today_str    = now_pt.strftime("%Y-%m-%d")
+    current_week = now_pt.strftime("%Y-W%W")
+    cache_file   = ".gotw_cache.json"
+
+    # Load cache
+    cached = {}
+    if os.path.exists(cache_file):
+        try:
+            with open(cache_file, "r") as f:
+                cached = json.load(f)
+        except Exception:
+            pass
+
+    # Return cached if same week
+    if cached.get("week") == current_week and cached.get("gotw"):
+        print(f"[GOTW] Using cached: {cached['gotw'].get('title')}")
+        return cached["gotw"]
+
+    # Generate via Claude
+    print(f"[GOTW] Generating Game of the Week for {today_str}...")
+    try:
+        import anthropic
+        client = anthropic.Anthropic(api_key=api_key)
+        message = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=512,
+            tools=[{"type": "web_search_20250305", "name": "web_search"}],
+            messages=[{
+                "role": "user",
+                "content": (
+                    f"Today is {today_str}. Search for the most notable video game released in the past 7 days. "
+                    "Pick the single most talked-about new release that gamers would be excited about. "
+                    "Respond with ONLY a JSON object, no markdown, no extra text:\n"
+                    '{"title": "Game Name", "description": "2-3 sentence engaging description for a gaming newsletter", '
+                    '"platform": "Available on X, Y, Z", "steam_app_id": "1234567 or empty string if not on Steam", '
+                    '"url": "https://store.steampowered.com/app/ID/ or official site URL"}'
+                )
+            }]
+        )
+
+        import json as _json
+        text = "".join(getattr(b, "text", "") for b in message.content).strip()
+        if "```" in text:
+            text = text.split("```")[1].replace("json", "").strip()
+
+        data     = _json.loads(text)
+        steam_id = data.get("steam_app_id", "").strip()
+        gotw     = {
+            "title":       data.get("title", ""),
+            "description": data.get("description", ""),
+            "platform":    data.get("platform", ""),
+            "url":         data.get("url", ""),
+            "image_url":   f"https://cdn.akamai.steamstatic.com/steam/apps/{steam_id}/header.jpg" if steam_id else "",
+        }
+        print(f"[GOTW] Generated: {gotw['title']}")
+
+        # Save cache
+        try:
+            with open(cache_file, "w") as f:
+                _json.dump({"date": today_str, "week": current_week, "gotw": gotw}, f, indent=2)
+        except Exception as ex:
+            print(f"[GOTW] Cache write failed: {ex}")
+
+        return gotw
+
+    except Exception as ex:
+        print(f"[GOTW] Generation failed: {ex} — using fallback.")
+        return GOTW_FALLBACK
+
+
+# ---------------------------------------------------------------------------
 # HTML EMAIL BUILDER
 # ---------------------------------------------------------------------------
 
@@ -383,14 +485,11 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
     # Generate trivia using Claude API
     # trivia_question, trivia_answer = generate_trivia()  # Disabled until API credits added
 
-    # Game of the Week — manually curated
-    gotw = {
-        "title":       "Diablo IV: Lord of Hatred",
-        "description": "The biggest expansion to hit Diablo IV just dropped last week. Lord of Hatred brings a brand new act, two new classes — the Paladin and Warlock — fresh endgame content, and the final reckoning against Mephisto. If you've been sleeping on Diablo IV, this is the perfect reason to jump back in — or start for the first time.",
-        "platform":    "Available on PS5, PS4, Xbox Series X|S, Xbox One & PC",
-        "url":         "https://store.steampowered.com/app/3958690/Diablo_IV_Lord_of_Hatred/",
-        "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/3958690/header.jpg",
-    }
+    # ---------------------------------------------------------------------------
+    # GAME OF THE WEEK — Auto-generated every Sunday via Claude API
+    # Falls back to manual pick if API unavailable
+    # ---------------------------------------------------------------------------
+    gotw = get_game_of_the_week()
 
     gotw_section = f"""
           <!-- GAME OF THE WEEK -->
