@@ -101,6 +101,10 @@ LISTICLE_GUIDE_BLOCK = [
     "everything you need to know", "explained",
     "review", "preview", "impressions",
     "guide", "walkthrough", "tips", "tricks",
+    "how to ", "how do ", "where to ", "where is ",
+    "all ", "every ", "complete list", "full list",
+    "how many", "can you", "should you",
+    "recruit all", "find all", "unlock all",
 ]
 
 EVERGREEN_BLOCK = [
@@ -134,8 +138,11 @@ RUMOR_BLOCK = [
 
 NON_GAME_ENTERTAINMENT_BLOCK = [
     "movie", "film", " tv ", "television", "series", "episode",
-    "netflix", "hulu", "disney+", "paramount", "hbo",
+    "netflix", "hulu", "disney+", "disney plus", "paramount", "hbo",
     "comic book", "dc comics", "marvel comics",
+    "wandavision", "release date", "season 2", "season 3", "season 4",
+    "streaming", "box office", "trailer drops", "official trailer",
+    "anime episode", "manga", " cast ", "sequel gets",
 ]
 
 # ---------------------------------------------------------------------------
