@@ -418,7 +418,17 @@ def generate_trivia() -> tuple:
             }]
         )
         import json as _json
-        data = _json.loads(message.content[0].text.strip())
+        # Extract only text blocks — skip tool_use and tool_result blocks
+        text = ""
+        for block in message.content:
+            if hasattr(block, "text") and block.type == "text":
+                text += block.text
+        text = text.strip()
+        if not text:
+            raise ValueError("No text content in API response")
+        if "```" in text:
+            text = text.split("```")[1].replace("json", "").strip()
+        data = _json.loads(text)
         print(f"[TRIVIA] Generated: {data.get('question', '')[:60]}...")
         return data.get("question", ""), data.get("answer", "")
     except Exception as ex:
@@ -503,8 +513,8 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
                 </tr>
                 <tr>
                   <td>
-                    <a href="{gotw['url']}" target="_blank" style="text-decoration:none;">
-                      <img src="{gotw['image_url']}" alt="{gotw['title']}" width="100%" style="display:block;border-radius:10px 10px 0 0;max-height:215px;object-fit:cover;" />
+                    <a href="{gotw['url']}" target="_blank" style="text-decoration:none;font-size:0;line-height:0;">
+                      <img src="{gotw['image_url']}" alt="" width="100%" style="display:block;border-radius:10px 10px 0 0;max-height:215px;object-fit:cover;" />
                     </a>
                     <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#1a1a2e;border-radius:0 0 10px 10px;border-left:4px solid #FFD700;">
                       <tr>
