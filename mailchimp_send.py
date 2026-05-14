@@ -458,7 +458,26 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
     story_rows  = "".join(build_story_row(i, s) for i, s in enumerate(stories))
     yt_link     = latest_yt_url or YOUTUBE_URL
     video_id    = get_youtube_video_id(yt_link)
-    thumb_url   = f"https://img.youtube.com/vi/{video_id}/maxresdefault.jpg" if video_id else ""
+
+    # If no video ID (channel URL passed instead of video URL), fetch latest video
+    if not video_id:
+        print(f"[MAILCHIMP] No video ID from URL '{yt_link}' — fetching latest video...")
+        try:
+            channel_id = os.getenv("YOUTUBE_CHANNEL_ID", "UC0SJd4h7GQqoYTVjlDnSzqQ")
+            rss = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+            import re as _re
+            r = requests.get(rss, headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
+            if r.ok:
+                m = _re.search(r"<yt:videoId>([^<]+)</yt:videoId>", r.text)
+                if m:
+                    video_id = m.group(1).strip()
+                    yt_link  = f"https://www.youtube.com/watch?v={video_id}"
+                    print(f"[MAILCHIMP] Found latest video: {video_id}")
+        except Exception as ex:
+            print(f"[MAILCHIMP] YouTube fetch failed: {ex}")
+
+    thumb_url = f"https://img.youtube.com/vi/{video_id}/maxresdefault.jpg" if video_id else ""
+    print(f"[MAILCHIMP] YouTube: video_id={video_id}, thumb={thumb_url[:50] if thumb_url else 'none'}")
 
     # YouTube video section — only show if we have a specific video URL
     if video_id:
