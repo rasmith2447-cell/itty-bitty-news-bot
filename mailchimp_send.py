@@ -406,28 +406,36 @@ def generate_trivia() -> tuple:
         message = client.messages.create(
             model="claude-haiku-4-5-20251001",
             max_tokens=256,
+            system="You are a gaming trivia generator. Always respond with valid JSON only. Never use markdown, code blocks, or any other formatting. Output only the raw JSON object.",
             messages=[{
                 "role": "user",
                 "content": (
                     f"Generate a fun gaming trivia question for {day}. "
                     "It should be about video game history, characters, or notable moments. "
                     "Make it challenging but not obscure. "
-                    "Respond with ONLY a JSON object in this exact format with no other text: "
+                    "Output only this JSON with no other text: "
                     '{"question": "...", "answer": "..."}'
                 )
             }]
         )
         import json as _json
-        # Extract only text blocks — skip tool_use and tool_result blocks
+        # Extract text blocks only
         text = ""
         for block in message.content:
-            if hasattr(block, "text") and block.type == "text":
+            if hasattr(block, "text") and getattr(block, "type", "") == "text":
                 text += block.text
         text = text.strip()
+        print(f"[TRIVIA] Raw response: {text[:100]}")
         if not text:
-            raise ValueError("No text content in API response")
+            raise ValueError("Empty API response")
+        # Strip any accidental markdown
         if "```" in text:
             text = text.split("```")[1].replace("json", "").strip()
+        # Find JSON object in case there's surrounding text
+        start = text.find("{")
+        end   = text.rfind("}") + 1
+        if start >= 0 and end > start:
+            text = text[start:end]
         data = _json.loads(text)
         print(f"[TRIVIA] Generated: {data.get('question', '')[:60]}...")
         return data.get("question", ""), data.get("answer", "")
