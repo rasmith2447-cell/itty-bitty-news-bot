@@ -401,8 +401,18 @@ def generate_trivia() -> tuple:
             today_pt = _dt.now(ZoneInfo("America/Los_Angeles")).date()
         except Exception:
             today_pt = date.today()
+        import random
+        topics = [
+            "a specific game release year", "a video game character's origin",
+            "a gaming world record", "a console launch detail", "a game developer fact",
+            "a classic arcade game", "an RPG milestone", "a sports game fact",
+            "a Nintendo franchise moment", "a PlayStation exclusive detail",
+            "an Xbox game fact", "a PC gaming milestone", "a game soundtrack",
+            "a speedrunning record", "a gaming Easter egg",
+        ]
+        topic = random.choice(topics)
         day = today_pt.strftime("%B %d, %Y")
-        print(f"[TRIVIA] Generating question for {day}...")
+        print(f"[TRIVIA] Generating question for {day} (topic: {topic})...")
         message = client.messages.create(
             model="claude-haiku-4-5-20251001",
             max_tokens=256,
@@ -410,8 +420,8 @@ def generate_trivia() -> tuple:
             messages=[{
                 "role": "user",
                 "content": (
-                    f"Generate a fun gaming trivia question for {day}. "
-                    "It should be about video game history, characters, or notable moments. "
+                    f"Generate a fun gaming trivia question specifically about {topic}. "
+                    f"Today is {day}. Make it different from common trivia questions. "
                     "Make it challenging but not obscure. "
                     "Output only this JSON with no other text: "
                     '{"question": "...", "answer": "..."}'
@@ -670,9 +680,9 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
                     <p style="margin:0 0 16px;font-family:'Courier New',monospace;font-size:14px;color:#ffffff;line-height:1.5;">{trivia_question}</p>
                     <table width="100%" cellpadding="0" cellspacing="0" border="0">
                       <tr>
-                        <td style="background:#0d0d1a;border-radius:6px;border:1px dashed #1e3a8a;padding:12px 16px;">
-                          <p style="margin:0 0 6px;font-family:'Courier New',monospace;font-size:10px;color:#4A9EFF;letter-spacing:2px;text-transform:uppercase;">✅ Answer — Select text below to reveal:</p>
-                          <p style="margin:0;font-family:'Courier New',monospace;font-size:13px;color:#0d0d1a;background:#0d0d1a;border-radius:4px;padding:6px 10px;user-select:text;">{trivia_answer}</p>
+                        <td style="background:#0a2a0a;border-radius:6px;border:1px solid #1a4a1a;padding:12px 16px;">
+                          <p style="margin:0 0 6px;font-family:'Courier New',monospace;font-size:10px;color:#4A9EFF;letter-spacing:2px;text-transform:uppercase;">✅ Answer:</p>
+                          <p style="margin:0;font-family:'Courier New',monospace;font-size:13px;color:#a0ffa0;line-height:1.5;">{trivia_answer}</p>
                         </td>
                       </tr>
                     </table>
