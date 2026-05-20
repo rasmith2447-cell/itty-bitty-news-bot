@@ -291,7 +291,8 @@ def get_game_of_the_week() -> dict:
                     "Pick the single most talked-about new release that gamers would be excited about. "
                     "Respond with ONLY a JSON object, no markdown, no extra text:\n"
                     '{"title": "Game Name", "description": "2-3 sentence engaging description for a gaming newsletter", '
-                    '"platform": "Available on X, Y, Z", "steam_app_id": "1234567 or empty string if not on Steam", '
+                    '"platform": "Available on X, Y, Z", "steam_app_id": "numeric Steam app ID only if on Steam, otherwise empty string", '
+                    '"image_url": "direct URL to official header/key art image if not on Steam, otherwise empty string", '
                     '"url": "https://store.steampowered.com/app/ID/ or official site URL"}'
                 )
             }]
@@ -304,12 +305,17 @@ def get_game_of_the_week() -> dict:
 
         data     = _json.loads(text)
         steam_id = data.get("steam_app_id", "").strip()
+        # Only use Steam image if steam_id looks valid (numeric, 6-8 digits)
+        if steam_id and steam_id.isdigit() and 6 <= len(steam_id) <= 8:
+            image_url = f"https://cdn.akamai.steamstatic.com/steam/apps/{steam_id}/header.jpg"
+        else:
+            image_url = data.get("image_url", "")
         gotw     = {
             "title":       data.get("title", ""),
             "description": data.get("description", ""),
             "platform":    data.get("platform", ""),
             "url":         data.get("url", ""),
-            "image_url":   f"https://cdn.akamai.steamstatic.com/steam/apps/{steam_id}/header.jpg" if steam_id else "",
+            "image_url":   image_url,
         }
         print(f"[GOTW] Generated: {gotw['title']}")
 
@@ -421,8 +427,9 @@ def generate_trivia() -> tuple:
                 "role": "user",
                 "content": (
                     f"Generate a fun gaming trivia question specifically about {topic}. "
-                    f"Today is {day}. Make it different from common trivia questions. "
-                    "Make it challenging but not obscure. "
+                    f"Today is {day}. Make it different from common trivia questions about Zelda or Mario. "
+                    "IMPORTANT: Only ask questions where you are 100% certain of the correct answer. "
+                    "Do not ask trick questions or questions with disputed answers. "
                     "Output only this JSON with no other text: "
                     '{"question": "...", "answer": "..."}'
                 )
