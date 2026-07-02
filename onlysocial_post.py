@@ -543,7 +543,8 @@ def main():
         all_accounts = list_accounts(WORKSPACE_UUID)
     except Exception as ex:
         print(f"[ONLYSOCIAL] Failed to list accounts: {ex}")
-        sys.exit(1)
+        print("[ONLYSOCIAL] OnlySocial API unavailable — skipping social post but continuing pipeline.")
+        sys.exit(0)  # Exit 0 so Mailchimp step still runs
 
     print(f"[ONLYSOCIAL] Total accounts: {len(all_accounts)}")
     for acc in all_accounts:
@@ -551,8 +552,8 @@ def main():
     targeted = filter_target_accounts(all_accounts)
 
     if not targeted:
-        print("[ONLYSOCIAL] No matching IBGN accounts found.")
-        sys.exit(1)
+        print("[ONLYSOCIAL] No matching IBGN accounts found — skipping social post.")
+        sys.exit(0)  # Exit 0 so Mailchimp step still runs
 
     # Load stories
     should_post, stories = load_digest_stories()
