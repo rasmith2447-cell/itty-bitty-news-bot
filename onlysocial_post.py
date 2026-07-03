@@ -31,7 +31,7 @@ PODCAST_URL        = env("PODCAST_URL", "https://podcasts.apple.com/us/podcast/i
 NEWSLETTER_URL     = env("NEWSLETTER_URL", "http://eepurl.com/jBGjWs")
 MAX_HASHTAGS       = int(env("ONLYSOCIAL_MAX_HASHTAGS", "8"))
 BLUESKY_CHAR_LIMIT = 300
-TAGLINE            = "Your daily dose of Itty Bitty Gaming News."
+TAGLINE            = "And that's your Itty Bitty Gaming News!"
 
 # Only post to these specific accounts by username (lowercase)
 TARGET_USERNAMES = {"smitty2447", "ryanandrewsmith247"}
