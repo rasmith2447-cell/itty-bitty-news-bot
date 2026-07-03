@@ -292,7 +292,7 @@ def build_footer_embed(story_count: int) -> Dict:
         "📺 Subscribe on YouTube for daily gaming clips",
         "💬 Drop your reactions below — what story had you talking?",
         "",
-        "*Stay small. Stay mighty. Itty Bitty Gaming News.*",
+        "*And that's your Itty Bitty Gaming News!*",
     ])
 
     return {
