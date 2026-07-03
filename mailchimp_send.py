@@ -229,14 +229,20 @@ def load_digest_stories() -> tuple:
 # GAME OF THE WEEK
 # ---------------------------------------------------------------------------
 
-GOTW_OVERRIDE = None  # Set to a dict to force a specific game
+GOTW_OVERRIDE = {
+    "title":       "SWAPMEAT",
+    "description": "Just graduated out of Early Access on June 17th and it's an absolute blast. You're a shape-shifting operative ripping through alien worlds, stealing enemy body parts mid-combat to gain their abilities. Triple-jump legs, grenade-launching turkey heads, turret-dropping torsos — thousands of wild combos. Play solo or with up to 3 friends in co-op. If Risk of Rain 2 and Helldivers 2 had a chaotic, meaty baby, this is it.",
+    "platform":    "Available on PC (Steam)",
+    "url":         "https://store.steampowered.com/app/2790700/SWAPMEAT/",
+    "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/2790700/header.jpg",
+}
 
 GOTW_FALLBACK = {
-    "title":       "Subnautica 2",
-    "description": "Steam's most wishlisted game just hit early access and it's already making waves. The deep-sea survival sequel plunges you into an alien ocean world teeming with danger and discovery. Build your base, craft gear, and explore crushing depths in solo or co-op. If you loved the original, this is an easy recommendation.",
-    "platform":    "Available on PC (Early Access)",
-    "url":         "https://store.steampowered.com/app/3148040/Subnautica_2/",
-    "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/3148040/header.jpg",
+    "title":       "SWAPMEAT",
+    "description": "Just graduated out of Early Access on June 17th and it's an absolute blast. You're a shape-shifting operative ripping through alien worlds, stealing enemy body parts mid-combat to gain their abilities. Triple-jump legs, grenade-launching turkey heads, turret-dropping torsos — thousands of wild combos. Play solo or with up to 3 friends in co-op. If Risk of Rain 2 and Helldivers 2 had a chaotic, meaty baby, this is it.",
+    "platform":    "Available on PC (Steam)",
+    "url":         "https://store.steampowered.com/app/2790700/SWAPMEAT/",
+    "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/2790700/header.jpg",
 }
 
 
