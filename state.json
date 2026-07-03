@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294794/demos-and-freebies",
-    "https://www.bluesnews.com/s/294793/roadmaps-and-plans",
-    "https://www.bluesnews.com/s/294792/on-sale",
-    "https://www.bluesnews.com/s/294790/engagement-ring",
     "https://www.bluesnews.com/s/294814/paddle-paddle-paddle-up-up-up-released",
     "https://www.bluesnews.com/s/294812/glintseeker-island-playtest",
     "https://www.bluesnews.com/s/294811/demos-and-freebies",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/industry-veteran-robert-bowling-launches-new-developer-18bravo",
     "https://www.eurogamer.net/cinder-city-64-gb-ram-requirement-new-gpu-update",
     "https://www.pushsquare.com/news/2026/07/its-a-fairly-dramatic-decision-shawn-layden-reacts-to-playstations-all-digital-plan",
-    "https://www.gematsu.com/2026/07/honkai-star-rail-version-4-4-update-in-ravages-does-the-whistle-sound-launches-july-15"
+    "https://www.gematsu.com/2026/07/honkai-star-rail-version-4-4-update-in-ravages-does-the-whistle-sound-launches-july-15",
+    "https://www.ign.com/articles/the-view-from-japan-playstations-push-for-an-all-digital-future-raises-concerns-from-gamers-and-developers-including-a-well-timed-retweet-from-hideo-kojima",
+    "https://gamerant.com/ps-plus-coming-soon-list-july-august-september-2026/",
+    "https://www.gamesindustry.biz/we-are-profoundly-disappointed-by-sonys-decision-game-companies-express-dismay-at-the-end-of-playstation-disc-production",
+    "https://www.rockpapershotgun.com/assassins-creed-black-flag-resynced-promises-smooth-handheld-sailing-with-steam-deck-and-steam-machine-verification"
   ],
   "seen_titles": [
-    "demos and freebies",
-    "roadmaps and plans",
-    "on sale",
-    "engagement ring",
     "paddle paddle paddle: up up up released",
     "glintseeker island playtest",
     "demos and freebies",
@@ -10001,13 +9997,13 @@
     "industry veteran robert bowling launches new developer //18.bravo",
     "as the memory crisis continues and players begin to complain, cinder city drops 64gb ram requirement and ups gpu requirement instead",
     "'it's a fairly dramatic decision': shawn layden reacts to playstation's all-digital plan",
-    "honkai: star rail version 4.4 update ‘in ravages does the whistle sound’ launches july 15"
+    "honkai: star rail version 4.4 update ‘in ravages does the whistle sound’ launches july 15",
+    "the view from japan: playstation's push for an all-digital future raises concerns from gamers and developers — including a well-timed retweet from hideo kojima",
+    "ps plus has already confirmed 7 upcoming monthly games through september 2026",
+    "\"we are profoundly disappointed by sony's decision\" – game companies express dismay at the end of playstation disc production",
+    "assassin's creed black flag resynced promises smooth handheld sailing with steam deck and steam machine verification"
   ],
   "seen_story_keys": [
-    "862a8aa0c71281e45157e79ef337493de2a8d574",
-    "72fc56ffa447b462dc5125ab29d143449e50784a",
-    "0c9a121cdc3a8f0602f802b215d9bd60f030aa34",
-    "d23774203be7c80362f8d5028003389b7eb11cd2",
     "c6321b26ed95b71a16bb1ede8cc708e2552353bb",
     "7b8af155bedb2bc60384a1a9d68a199ec7a5abf1",
     "f2cbc3d5fbd4454947ccdee8eb0beb5420a39063",
@@ -15003,6 +14999,10 @@
     "32d32934d20b31951c71a96a6b4e307eb291f16c",
     "4387d43a56dd9b42dbaa17cd0f42fe77170152f1",
     "9769862b3e501b9c9b1bc6ea2253ffa287199d62",
-    "b1009f0f75c9539a93c94913a40a60f1808b7064"
+    "b1009f0f75c9539a93c94913a40a60f1808b7064",
+    "03615d553e931b1b6401b1352422553be1edc3f5",
+    "55299203396081bd8ff7d424db788b09cdb39743",
+    "76491bd75900916196e5e09c89b15d0cea78a212",
+    "3d45e22af039c06e24e2cdbb871582484451c04a"
   ]
 }
