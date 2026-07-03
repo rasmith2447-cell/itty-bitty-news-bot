@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/no-tolerance-for-bad-ai-new-xbox-boss-responds-to-concerns-around-her-microsoft-background",
-    "https://www.ign.com/articles/industry-vets-react-to-xbox-leaders-phil-spencer-and-sarah-bond-departing-bond-gives-her-statement",
     "https://www.gamespot.com/videos/why-the-playstation-6-will-be-delayed/2300-6466729/",
     "https://www.gamespot.com/articles/ys-memoire-revelations-in-celceta-buyin-guide/1100-6538250/?ftag=CAD-01-10abi2f",
     "https://www.bluesnews.com/s/294796/phil-spencer-retires-from-microsoft",
@@ -4999,11 +4997,11 @@
     "https://www.gematsu.com/2026/07/doloc-town-launches-august-6",
     "https://gamerant.com/ps-plus-price-changes-profitability/",
     "https://www.gematsu.com/2026/07/gigabash-dlc-ultraman-zero-announced",
-    "https://www.eurogamer.net/sony-playstation-disc-factory-repurposed"
+    "https://www.eurogamer.net/sony-playstation-disc-factory-repurposed",
+    "https://www.pushsquare.com/news/2026/07/sony-already-retraining-staff-at-ps5-game-disc-manufacturing-facility",
+    "https://www.pushsquare.com/news/2026/07/we-realised-we-need-more-time-ambitious-life-sim-inzoi-delayed-on-ps5-arrives-in-2027"
   ],
   "seen_titles": [
-    "'no tolerance for bad ai': new xbox boss responds to concerns around her microsoft background",
-    "industry vets react to xbox leaders phil spencer and sarah bond departing, bond gives her statement",
     "why the playstation 6 will be delayed",
     "ys memoire: revelations in celceta switch preorders include a bunch of extras",
     "phil spencer retires from microsoft",
@@ -10001,11 +9999,11 @@
     "doloc town launches august 6",
     "playstation issues new official statement on ps plus price changes",
     "gigabash dlc ‘ultraman zero’ announced",
-    "sony has already started repurposing its lone playstation disc factory, and the body of physical gaming isn't even cold"
+    "sony has already started repurposing its lone playstation disc factory, and the body of physical gaming isn't even cold",
+    "sony already retraining staff at ps5 game disc manufacturing facility",
+    "'we realised we need more time': ambitious life sim inzoi delayed on ps5, arrives in 2027"
   ],
   "seen_story_keys": [
-    "5f7a2a5769a164663ee1bc83128a6d8974adb027",
-    "7319d3dcc598d9fb0cef2c991ddbcf9ab998096e",
     "c1dc863b54289336d03b947012fbbde825116899",
     "205e49edd4bcab0cccc34f0d84ef1925db9e341c",
     "8695da84a550de903847ba87c19a75264cbaa05f",
@@ -15003,6 +15001,8 @@
     "9ab1c7630ddc05c61342b359ae1ca63df651f8cf",
     "638f440c2e13955ba712f6348ba50ed585cb709b",
     "ca8a2794c91f9de1df47a0e461b62fcd4323c362",
-    "5f6afdee4375e7f7523f53afdd941fe510be838e"
+    "5f6afdee4375e7f7523f53afdd941fe510be838e",
+    "e2edef1760b36e42684fac0dcdac8d668644cfd5",
+    "9444970a4e24570b42ea531f566d4b5889477e58"
   ]
 }
