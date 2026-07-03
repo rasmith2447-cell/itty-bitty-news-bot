@@ -27,7 +27,7 @@ DIGEST_EXPORT_FILE  = env("DIGEST_EXPORT_FILE", "digest_latest.json")
 YOUTUBE_URL         = env("YOUTUBE_URL", "https://www.youtube.com/@smitty-2447")
 PODCAST_URL         = env("PODCAST_URL", "https://podcasts.apple.com/us/podcast/itty-bitty-gaming-news/id1711880008")
 LOGO_URL            = env("LOGO_URL", "https://raw.githubusercontent.com/rasmith2447-cell/itty-bitty-news-bot/main/Itty%20Bitty%20Gaming%20News%20Logo%20V.2.png")
-TAGLINE             = "Your daily dose of Itty Bitty Gaming News."
+TAGLINE             = "And that's your Itty Bitty Gaming News!"
 
 # IGDB config
 IGDB_CLIENT_ID      = env("IGDB_CLIENT_ID")
