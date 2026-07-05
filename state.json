@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294785/evening-patches",
-    "https://www.bluesnews.com/s/294784/virtual-reality-check",
     "https://www.bluesnews.com/s/294783/evening-multiplex",
     "https://www.bluesnews.com/s/294782/evening-consolidation",
     "https://www.bluesnews.com/s/294781/evening-mobilization",
@@ -4999,11 +4997,11 @@
     "https://www.rockpapershotgun.com/after-spending-more-than-a-decade-in-early-access-robotic-survival-game-scrap-mechanic-enters-10-later-this-month",
     "https://www.pcgamer.com/hardware/the-launch-of-commodores-social-media-free-privacy-first-dumbphone-was-apparently-responsible-for-our-biggest-week/",
     "https://www.nintendolife.com/news/2026/07/dragon-quest-xi-s-switch-2-version-performance-and-resolution-revealed",
-    "https://www.gematsu.com/2026/07/party-action-game-hatsune-miku-starry-party-announced-for-switch-2-pc"
+    "https://www.gematsu.com/2026/07/party-action-game-hatsune-miku-starry-party-announced-for-switch-2-pc",
+    "https://www.polygon.com/halo-campaign-evolved-physical-disc-confirmation/",
+    "https://www.nintendolife.com/news/2026/07/its-official-shantaes-seventh-game-will-arrive-in-2027"
   ],
   "seen_titles": [
-    "evening patches",
-    "virtual reality check",
     "evening multiplex",
     "evening consolidation",
     "evening mobilization",
@@ -10001,11 +9999,11 @@
     "after spending more than a decade in early access, robotic survival game scrap mechanic enters 1.0 later this month",
     "the launch of commodore's social media-free privacy-first 'dumbphone' was apparently responsible for 'our biggest week'",
     "dragon quest xi s switch 2 version performance and resolution revealed",
-    "party action game hatsune miku starry party announced for switch 2, pc"
+    "party action game hatsune miku starry party announced for switch 2, pc",
+    "halo remake will be on physical disc 'so that you have tangible items to add to your collection'",
+    "it's official, shantae's seventh game will arrive in 2027"
   ],
   "seen_story_keys": [
-    "2761d4e2010b97fec2c7e093f83449a8f92eb43a",
-    "3504f5421b45971bed0e33a72d971e116525b859",
     "09e5a9b0379abfecae0af27c631b8813ad21164e",
     "6e053f3d28e8e791d40f9a6be7640033852c6781",
     "380466a29db668d7fa20c0678aa9eb9db66f971f",
@@ -15003,6 +15001,8 @@
     "22299a5a802aa3cacb86f52ebb0d43f58ed31500",
     "9a9b929e37a920bd8d15f382d9d46ce10fcbb1af",
     "3e4b31a581c7a41ae86f22561b030ad2008aa34d",
-    "a68e88b2c6b3b7ce346acca6646459774815f053"
+    "a68e88b2c6b3b7ce346acca6646459774815f053",
+    "294c4ee3af735d3347cb5d83aca732186a9b616a",
+    "43d48cb4ab1629b966dba148d2e563401ae7598d"
   ]
 }
