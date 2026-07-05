@@ -1,6 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294782/evening-consolidation",
     "https://www.bluesnews.com/s/294781/evening-mobilization",
     "https://www.bluesnews.com/s/294776/evening-legal-briefs",
     "https://www.ign.com/articles/styx-blades-of-greed-review",
@@ -4999,10 +4998,10 @@
     "https://www.gematsu.com/2026/07/party-action-game-hatsune-miku-starry-party-announced-for-switch-2-pc",
     "https://www.polygon.com/halo-campaign-evolved-physical-disc-confirmation/",
     "https://www.nintendolife.com/news/2026/07/its-official-shantaes-seventh-game-will-arrive-in-2027",
-    "https://gamerant.com/clair-obscur-expedition-33-lead-ai-fears/"
+    "https://gamerant.com/clair-obscur-expedition-33-lead-ai-fears/",
+    "https://gamerant.com/xbox-project-helix-no-disc-drive/"
   ],
   "seen_titles": [
-    "evening consolidation",
     "evening mobilization",
     "evening legal briefs",
     "styx: blades of greed review",
@@ -10001,10 +10000,10 @@
     "party action game hatsune miku starry party announced for switch 2, pc",
     "halo remake will be on physical disc 'so that you have tangible items to add to your collection'",
     "it's official, shantae's seventh game will arrive in 2027",
-    "\"the day will come when we'll be able to churn out a game in five seconds\" clair obscur lead reveals ai fears"
+    "\"the day will come when we'll be able to churn out a game in five seconds\" clair obscur lead reveals ai fears",
+    "xbox may end physical disc support"
   ],
   "seen_story_keys": [
-    "6e053f3d28e8e791d40f9a6be7640033852c6781",
     "380466a29db668d7fa20c0678aa9eb9db66f971f",
     "ca09406e4a840fe9f642f0c57c9af4a55bc87d37",
     "e268e8b4cc6026c3b01e2009c62e18056587fb05",
@@ -15003,6 +15002,7 @@
     "a68e88b2c6b3b7ce346acca6646459774815f053",
     "294c4ee3af735d3347cb5d83aca732186a9b616a",
     "43d48cb4ab1629b966dba148d2e563401ae7598d",
-    "705c89c262d15711a3233d939145c0c28a86a8ea"
+    "705c89c262d15711a3233d939145c0c28a86a8ea",
+    "1af10500a7cc6cf9c1ddf2b47e3ab6cfa33f3930"
   ]
 }
