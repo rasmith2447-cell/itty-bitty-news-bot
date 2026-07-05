@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294788/game-history-and-preservation",
-    "https://www.bluesnews.com/s/294787/game-collaborations",
-    "https://www.bluesnews.com/s/294786/game-crossovers",
     "https://www.bluesnews.com/s/294785/evening-patches",
     "https://www.bluesnews.com/s/294784/virtual-reality-check",
     "https://www.bluesnews.com/s/294783/evening-multiplex",
@@ -4999,12 +4996,12 @@
     "https://gamerant.com/diablo-4-season-14-mythic-unique-seal-changes/",
     "https://www.polygon.com/cyberpunk-2077-just-passed-a-very-impressive-sales-milestone/",
     "https://gamerant.com/ps6-news-release-digital-only/",
-    "https://www.rockpapershotgun.com/after-spending-more-than-a-decade-in-early-access-robotic-survival-game-scrap-mechanic-enters-10-later-this-month"
+    "https://www.rockpapershotgun.com/after-spending-more-than-a-decade-in-early-access-robotic-survival-game-scrap-mechanic-enters-10-later-this-month",
+    "https://www.pcgamer.com/hardware/the-launch-of-commodores-social-media-free-privacy-first-dumbphone-was-apparently-responsible-for-our-biggest-week/",
+    "https://www.nintendolife.com/news/2026/07/dragon-quest-xi-s-switch-2-version-performance-and-resolution-revealed",
+    "https://www.gematsu.com/2026/07/party-action-game-hatsune-miku-starry-party-announced-for-switch-2-pc"
   ],
   "seen_titles": [
-    "game history and preservation",
-    "game collaborations",
-    "game crossovers",
     "evening patches",
     "virtual reality check",
     "evening multiplex",
@@ -10001,12 +9998,12 @@
     "diablo 4 season 14 makes big mythic changes that weren’t mentioned in the patch notes",
     "cyberpunk 2077 hits 40 million copies sold",
     "sony basically just confirmed 2 key details about the ps6",
-    "after spending more than a decade in early access, robotic survival game scrap mechanic enters 1.0 later this month"
+    "after spending more than a decade in early access, robotic survival game scrap mechanic enters 1.0 later this month",
+    "the launch of commodore's social media-free privacy-first 'dumbphone' was apparently responsible for 'our biggest week'",
+    "dragon quest xi s switch 2 version performance and resolution revealed",
+    "party action game hatsune miku starry party announced for switch 2, pc"
   ],
   "seen_story_keys": [
-    "212502c4a27efce47a344ee96380ab088a7782ab",
-    "d575e38eda17a71e2f9bc927b3fdae0bd945b1cf",
-    "6b727e8839894941cbe01b218bfff98375ca359c",
     "2761d4e2010b97fec2c7e093f83449a8f92eb43a",
     "3504f5421b45971bed0e33a72d971e116525b859",
     "09e5a9b0379abfecae0af27c631b8813ad21164e",
@@ -15003,6 +15000,9 @@
     "3cbf71447042d9908c54e2cfa7544a6e0a001268",
     "4fbf3f7edb25a254a00c537859c84ac86a7d7566",
     "fc07ee627e5b91759e60f05c6b62cd53f0743be5",
-    "22299a5a802aa3cacb86f52ebb0d43f58ed31500"
+    "22299a5a802aa3cacb86f52ebb0d43f58ed31500",
+    "9a9b929e37a920bd8d15f382d9d46ce10fcbb1af",
+    "3e4b31a581c7a41ae86f22561b030ad2008aa34d",
+    "a68e88b2c6b3b7ce346acca6646459774815f053"
   ]
 }
