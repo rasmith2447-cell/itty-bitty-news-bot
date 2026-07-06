@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294767/release-dates",
-    "https://www.bluesnews.com/s/294762/morning-patches",
-    "https://www.bluesnews.com/s/294761/morning-multiplex",
-    "https://www.bluesnews.com/s/294760/morning-esports-and-competitions",
     "https://www.bluesnews.com/s/294759/morning-consolidation",
     "https://www.bluesnews.com/s/294758/morning-mobilization",
     "https://www.bluesnews.com/s/294750/styx-blades-of-greed-released",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/solo-leveling-karma-2026/",
     "https://www.purexbox.com/news/2026/07/obsidian-id-software-and-others-confirmed-to-be-affected-by-xbox-layoffs",
     "https://www.ign.com/articles/as-xbox-tries-to-sell-or-close-arkane-the-future-of-marvels-blade-remains-unclear-with-reports-suggesting-it-was-delayed-internally-and-is-running-over-budget",
-    "https://www.pushsquare.com/news/2026/07/bethesda-reducing-workforce-refocusing-on-its-biggest-franchises-amid-xbox-layoffs"
+    "https://www.pushsquare.com/news/2026/07/bethesda-reducing-workforce-refocusing-on-its-biggest-franchises-amid-xbox-layoffs",
+    "https://www.pcgamer.com/gaming-industry/the-games-industry-reacts-to-xbox-layoffs-we-are-clearly-at-a-turning-point/",
+    "https://www.nintendolife.com/features/talking-point-what-are-your-pokemon-go-launch-day-memories",
+    "https://www.pcgamer.com/gaming-industry/compulsion-games-is-returning-to-independent-management-amid-sweeping-xbox-reorganization-our-immediate-priority-is-to-support-our-team/",
+    "https://www.rockpapershotgun.com/xbox-are-parting-ways-with-double-fine-arkane-undead-labs-compulsion-and-ninja-theory-in-the-course-of-thousands-of-layoffs"
   ],
   "seen_titles": [
-    "release dates",
-    "morning patches",
-    "morning multiplex",
-    "morning esports and competitions",
     "morning consolidation",
     "morning mobilization",
     "styx: blades of greed released",
@@ -10001,13 +9997,13 @@
     "new official solo leveling release confirmed for 2026",
     "obsidian, id software & others confirmed to be affected by xbox layoffs",
     "as xbox tries to sell or close arkane, the future of marvel's blade remains unclear, with reports suggesting it was delayed internally and is running over budget",
-    "bethesda reducing workforce, refocusing on its biggest franchises amid xbox layoffs"
+    "bethesda reducing workforce, refocusing on its biggest franchises amid xbox layoffs",
+    "the games industry reacts to xbox layoffs: 'we are clearly at a turning point'",
+    "talking point: what are your pokémon go launch day memories?",
+    "compulsion games is returning to independent management amid sweeping xbox reorganization: 'our immediate priority is to support our team'",
+    "xbox are parting ways with double fine, arkane, undead labs, compulsion, and ninja theory in the course of thousands of layoffs"
   ],
   "seen_story_keys": [
-    "59742ac51a582d52fb49a87181d5b92454e3b80d",
-    "44199d292b946447892b23e8e842f7b76b6999ff",
-    "8f98f0685c4b9562df2c1d244847aaa78009c11e",
-    "8bd272dbffbb6f16e009b7c0da891acf8c8ec6bf",
     "87afb011808498bdf699ce417f95e35a3f891491",
     "4802b9d4e01b0807fb988a7d4ee2342a5278a370",
     "f8810aaf59c189a99d432780517bab4f0820abb6",
@@ -15003,6 +14999,10 @@
     "3349a7a523836dc862ae5cb7481dd5031f14747f",
     "532203db0f5abc2905d525800bdf5212d3b51da8",
     "43947e15a8e4d10454cd6a9eb083368edd072153",
-    "eb4fdc535b7bf4731390ed85ff89a503abdb537b"
+    "eb4fdc535b7bf4731390ed85ff89a503abdb537b",
+    "f92857db506c924864d169f695f8ebcb0174e901",
+    "47afbb138b13ff63760585c6dde2ccc0f021406b",
+    "2fd272a3c02d8c6097e24086ade62076143401a6",
+    "f728f3467824660e24c58df5dcc6435ddf3429ae"
   ]
 }
