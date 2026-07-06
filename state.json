@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/baseus-blade-slim-power-bank-deal-presidents-day-sale-nintendo-switch-xbox-ally-steam-deck",
-    "https://www.gamespot.com/articles/new-game-about-monster-politicians-somehow-less-evil-than-the-real-thing/1100-6538329/?ftag=CAD-01-10abi2f",
-    "https://www.gamespot.com/articles/phil-spencer-leaving-xbox-as-microsoft-ai-boss-takes-over/1100-6538330/?ftag=CAD-01-10abi2f",
-    "https://www.gamespot.com/articles/la-sues-roblox-over-unsafe-online-environment-for-kids-marking-yet-another-roblox-lawsuit/1100-6538323/?ftag=CAD-01-10abi2f",
     "https://www.bluesnews.com/s/294774/two-far-cry-games-and-several-assassin_s-creed-titles-in-development",
     "https://www.bluesnews.com/s/294773/gog-com-preservation-program-expands",
     "https://www.bluesnews.com/s/294772/steam-horse-fest",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/xbox-layoffs-july-2026",
     "https://www.ign.com/articles/fans-mourn-starfield-amid-xbox-layoffs-with-bethesda-now-seemingly-focused-on-fallout-elder-scrolls-wolfenstein-doom-and-quake",
     "https://www.pcgamer.com/games/mmo/elder-scrolls-online-developer-left-reeling-by-xbox-layoffs-with-teams-gutted-senior-talent-gone-and-roadmaps-shifting-as-a-result/",
-    "https://www.pcgamer.com/gaming-industry/bethesda-game-studios-and-zenimax-hit-hard-by-xbox-layoffs-says-union/"
+    "https://www.pcgamer.com/gaming-industry/bethesda-game-studios-and-zenimax-hit-hard-by-xbox-layoffs-says-union/",
+    "https://www.ign.com/articles/we-need-to-change-course-bethesda-boss-tells-staff-the-company-must-focus-on-our-strongest-franchises-as-xbox-layoffs-hit-hard",
+    "https://www.pushsquare.com/news/2026/07/guilty-gear-strive-shocks-players-with-confirmation-of-a-second-guest-character",
+    "https://gamerant.com/studio-trigger-new-anime-announcement/",
+    "https://www.ign.com/articles/elder-scrolls-iv-oblivion-remastered-nintendo-switch-2-where-to-buy"
   ],
   "seen_titles": [
-    "the ultra-slim baseus blade 20,000mah 100w power bank drops to $39.99 (now 60% off)",
-    "new game about monster politicians somehow less evil than the real thing",
-    "phil spencer leaving xbox, as microsoft ai boss takes over and promises no \"soulless ai slop\"",
-    "la sues roblox over \"unsafe online environment\" for kids, marking yet another roblox lawsuit",
     "two far cry games and \"several\" assassin's creed titles in development",
     "gog.com preservation program expands",
     "steam horse fest",
@@ -10001,13 +9997,13 @@
     "xbox layoffs: jobs lost at bethesda, more reported at id software",
     "fans mourn starfield amid xbox layoffs, with bethesda now seemingly focused on fallout, elder scrolls, wolfenstein, doom, and quake",
     "elder scrolls online developer left reeling by xbox layoffs—with teams gutted, senior talent gone, and roadmaps 'shifting' as a result",
-    "bethesda game studios and zenimax hit hard by xbox layoffs, says union"
+    "bethesda game studios and zenimax hit hard by xbox layoffs, says union",
+    "'we need to change course' — bethesda boss tells staff the company must focus on 'our strongest franchises' as xbox layoffs hit hard",
+    "guilty gear strive shocks players with confirmation of a second guest character",
+    "studio trigger announces new anime project from gurren lagann duo",
+    "the elder scrolls iv: oblivion remastered’s physical switch 2 release comes on a cartridge – here’s where you can preorder it"
   ],
   "seen_story_keys": [
-    "5acc770ce42059938495361cdf5c26eb8560988b",
-    "5d96cdae45e7eac43ad5e9615b6fb1c9ec017e22",
-    "3e7b8e04f8d6da8ed3816d89a7c1a55feeb61e0d",
-    "3f4ce1ee8a62ccef2b4750f94f19a081e2e57c6a",
     "3d8e0022a4756358469d185ad4e3f7921947f0ba",
     "aa6bcd0efbc32be0043e5d14d196f6f588fadf29",
     "5ef1941a7ee51ca45b10e98a2afb349013fb6809",
@@ -15003,6 +14999,10 @@
     "5fcc21795f6dd46cd93ca1555a1ad232ffabafdf",
     "b72c5b2a0aa8500cdcd5bf111473350f3fa9c669",
     "4d7d5ad285c9db3cb2b111622e62fe0f33387a0b",
-    "91d0fe4a0e2238922b00be77d9f3a3746c499a87"
+    "91d0fe4a0e2238922b00be77d9f3a3746c499a87",
+    "b8efa9dd655c1c786802de3336766a5331619013",
+    "922fb286e2273469c38c0c67cb5c4a04d06b353f",
+    "54ba1dd66725157cfdb3532eb79ffc4f1dff5eb7",
+    "8a5823fa4dfb1326b0584c917f5fccce9d7c1dc2"
   ]
 }
