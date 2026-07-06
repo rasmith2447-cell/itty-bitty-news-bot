@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294759/morning-consolidation",
-    "https://www.bluesnews.com/s/294758/morning-mobilization",
-    "https://www.bluesnews.com/s/294750/styx-blades-of-greed-released",
-    "https://www.bluesnews.com/s/294749/voidtrain-gets-free-dlc",
     "https://www.bluesnews.com/s/294748/neva-prologue-released",
     "https://www.bluesnews.com/s/294735/evening-interviews",
     "https://www.gamespot.com/articles/raymans-30th-anniversary-edition-is-just-the-first-step-in-franchises-comeback-ubisoft-says/1100-6538322/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/gaming-industry/the-games-industry-reacts-to-xbox-layoffs-we-are-clearly-at-a-turning-point/",
     "https://www.nintendolife.com/features/talking-point-what-are-your-pokemon-go-launch-day-memories",
     "https://www.pcgamer.com/gaming-industry/compulsion-games-is-returning-to-independent-management-amid-sweeping-xbox-reorganization-our-immediate-priority-is-to-support-our-team/",
-    "https://www.rockpapershotgun.com/xbox-are-parting-ways-with-double-fine-arkane-undead-labs-compulsion-and-ninja-theory-in-the-course-of-thousands-of-layoffs"
+    "https://www.rockpapershotgun.com/xbox-are-parting-ways-with-double-fine-arkane-undead-labs-compulsion-and-ninja-theory-in-the-course-of-thousands-of-layoffs",
+    "https://gamerant.com/roblox-reporting-tools-update/",
+    "https://www.nintendolife.com/news/2026/07/xbox-confirms-3000plus-redundancies-with-four-studios-let-go",
+    "https://www.pushsquare.com/news/2026/07/ghost-of-tsushimas-upcoming-crunchyroll-anime-is-shaping-up-to-be-something-special",
+    "https://www.eurogamer.net/nintendo-switch-2-replaceable-batteries-revision-plans-detailed"
   ],
   "seen_titles": [
-    "morning consolidation",
-    "morning mobilization",
-    "styx: blades of greed released",
-    "voidtrain gets free dlc",
     "neva: prologue released",
     "evening interviews",
     "rayman's 30th anniversary edition is just the \"first step\" in franchise's comeback, ubisoft says",
@@ -10001,13 +9997,13 @@
     "the games industry reacts to xbox layoffs: 'we are clearly at a turning point'",
     "talking point: what are your pokémon go launch day memories?",
     "compulsion games is returning to independent management amid sweeping xbox reorganization: 'our immediate priority is to support our team'",
-    "xbox are parting ways with double fine, arkane, undead labs, compulsion, and ninja theory in the course of thousands of layoffs"
+    "xbox are parting ways with double fine, arkane, undead labs, compulsion, and ninja theory in the course of thousands of layoffs",
+    "roblox reveals improvements to in-game reporting tools",
+    "xbox confirms 3,000+ redundancies, with four studios let go",
+    "ghost of tsushima's upcoming crunchyroll anime is shaping up to be something special",
+    "nintendo has detailed rollout plans for switch 2 product revisions in europe with replaceable batteries, and switch 1 consoles are being discontinued"
   ],
   "seen_story_keys": [
-    "87afb011808498bdf699ce417f95e35a3f891491",
-    "4802b9d4e01b0807fb988a7d4ee2342a5278a370",
-    "f8810aaf59c189a99d432780517bab4f0820abb6",
-    "2fb75545131904e75c9fe6c2f8cdc1004811420b",
     "305870c774c4f817fe1142f1f4ef18a51d20a3d8",
     "d99ee37fc1c6098ada951d6f8c2111ff0d05a3e2",
     "ae0780977cc4827125caa538b319c332a161b747",
@@ -15003,6 +14999,10 @@
     "f92857db506c924864d169f695f8ebcb0174e901",
     "47afbb138b13ff63760585c6dde2ccc0f021406b",
     "2fd272a3c02d8c6097e24086ade62076143401a6",
-    "f728f3467824660e24c58df5dcc6435ddf3429ae"
+    "f728f3467824660e24c58df5dcc6435ddf3429ae",
+    "708b5e8dc28723a95db242a6d89708ae7abf4530",
+    "fedb892ac0301866774cb0d76727426513b92991",
+    "af23b614d5bc7aaa2d1f514557da00cf42fb7fa0",
+    "d6ce1529650cb388706e6a128e67c6356e89d800"
   ]
 }
