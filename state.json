@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/dc-officially-reveals-absolute-green-arrow-and-absolute-catwoman-series",
-    "https://www.bluesnews.com/s/294813/echoes-of-mora-announced",
-    "https://www.gamespot.com/videos/history-of-resident-evil-2026-update/2300-6466728/",
-    "https://www.ign.com/articles/alienware-aurora-rtx-5080-gaming-pc-deal-dell-presidents-day-sale-still-live",
     "https://www.ign.com/articles/baseus-blade-slim-power-bank-deal-presidents-day-sale-nintendo-switch-xbox-ally-steam-deck",
     "https://www.gamespot.com/articles/new-game-about-monster-politicians-somehow-less-evil-than-the-real-thing/1100-6538329/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/phil-spencer-leaving-xbox-as-microsoft-ai-boss-takes-over/1100-6538330/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/xbox-july-2026-layoffs-compulsion-games-ninja-theory-undead-labs/",
     "https://www.gamesindustry.biz/xbox-to-reduce-workforce-by-3200-five-studios-to-be-divested",
     "https://www.eurogamer.net/microsoft-xbox-layoffs-2026-double-fine-compulsion-ninja-theory",
-    "https://www.ign.com/articles/xbox-boss-asha-sharma-announces-3200-layoffs-including-1600-today-with-4-studios-leaving-for-new-management-read-the-email-to-staff-in-full"
+    "https://www.ign.com/articles/xbox-boss-asha-sharma-announces-3200-layoffs-including-1600-today-with-4-studios-leaving-for-new-management-read-the-email-to-staff-in-full",
+    "https://www.gamesindustry.biz/xbox-layoffs-july-2026",
+    "https://www.ign.com/articles/fans-mourn-starfield-amid-xbox-layoffs-with-bethesda-now-seemingly-focused-on-fallout-elder-scrolls-wolfenstein-doom-and-quake",
+    "https://www.pcgamer.com/games/mmo/elder-scrolls-online-developer-left-reeling-by-xbox-layoffs-with-teams-gutted-senior-talent-gone-and-roadmaps-shifting-as-a-result/",
+    "https://www.pcgamer.com/gaming-industry/bethesda-game-studios-and-zenimax-hit-hard-by-xbox-layoffs-says-union/"
   ],
   "seen_titles": [
-    "dc officially reveals absolute green arrow and absolute catwoman series",
-    "echoes of mora announced",
-    "history of resident evil (2026 update)",
-    "alienware currently has the lowest price on an rtx 5080 equipped prebuilt gaming pc at $2,130",
     "the ultra-slim baseus blade 20,000mah 100w power bank drops to $39.99 (now 60% off)",
     "new game about monster politicians somehow less evil than the real thing",
     "phil spencer leaving xbox, as microsoft ai boss takes over and promises no \"soulless ai slop\"",
@@ -10001,13 +9997,13 @@
     "xbox to lay off over 3,200 employees",
     "xbox to reduce workforce by 3,200, five studios to be divested",
     "microsoft announces 3200 layoffs and four studio departures in \"most significant\" xbox restructuring in history",
-    "xbox boss asha sharma announces 3,200 layoffs, including 1,600 today, with 4 studios leaving for new management — read the email to staff in full"
+    "xbox boss asha sharma announces 3,200 layoffs, including 1,600 today, with 4 studios leaving for new management — read the email to staff in full",
+    "xbox layoffs: jobs lost at bethesda, more reported at id software",
+    "fans mourn starfield amid xbox layoffs, with bethesda now seemingly focused on fallout, elder scrolls, wolfenstein, doom, and quake",
+    "elder scrolls online developer left reeling by xbox layoffs—with teams gutted, senior talent gone, and roadmaps 'shifting' as a result",
+    "bethesda game studios and zenimax hit hard by xbox layoffs, says union"
   ],
   "seen_story_keys": [
-    "ad6574f079bb102a8ed5a5abb9d62aaffb8a4109",
-    "f67d6868d10e0921400fd8fb68cc713d1a88bc8e",
-    "8c4722fe550839f910eec352638f7d136ff0b370",
-    "6f34594d80f16d319d681fa3144a119172755351",
     "5acc770ce42059938495361cdf5c26eb8560988b",
     "5d96cdae45e7eac43ad5e9615b6fb1c9ec017e22",
     "3e7b8e04f8d6da8ed3816d89a7c1a55feeb61e0d",
@@ -15003,6 +14999,10 @@
     "db516a4644c6f3b8bd56f17671fb0045bced9151",
     "a60512e6e77ab5641280f66122e2b26ab6e7b54b",
     "b1678a16d8731030f30a12ba8161900137358a9a",
-    "5d8ed2566a69022b18f7ec20b9565afe7d0468ea"
+    "5d8ed2566a69022b18f7ec20b9565afe7d0468ea",
+    "5fcc21795f6dd46cd93ca1555a1ad232ffabafdf",
+    "b72c5b2a0aa8500cdcd5bf111473350f3fa9c669",
+    "4d7d5ad285c9db3cb2b111622e62fe0f33387a0b",
+    "91d0fe4a0e2238922b00be77d9f3a3746c499a87"
   ]
 }
