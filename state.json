@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/demon-slayer-infinity-castle-theatrical-rerelease-2026/",
-    "https://www.polygon.com/bloodborne-remake-bluepoint-studios-closure/",
-    "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-wall-breaking-exploits-took-so-long-to-fix-because-they-were-intrinsic-to-the-way-the-game-is-built-those-things-are-very-risky-to-patch-rapidly/",
-    "https://www.pcgamer.com/hardware/gaming-pcs/acer-and-asus-german-websites-are-down-in-wake-of-lawsuit-but-acer-says-its-own-will-be-up-again-shortly-so-customers-can-get-bios-updates-again/",
     "https://www.videogameschronicle.com/news/xcoms-jake-solomon-announces-his-new-studio-is-closing-reveals-now-cancelled-ai-driven-narrative-game/",
     "https://www.videogameschronicle.com/news/pokemon-firered-and-leafgreen-coming-to-nintendo-switch-next-week-but-not-as-part-of-nso/",
     "https://www.nintendolife.com/news/2026/02/double-dragon-gaiden-adds-four-new-fighters-in-free-dlc-switch-update",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/07/street-fighter-and-fire-emblem-voice-actors-lead-orbitals-english-cast",
     "https://www.polygon.com/cyberpunk-2077-edgerunners-apex-legends-collab-skins-event/",
     "https://www.gamespot.com/videos/fright-train-release-date-trailer/",
-    "https://gamerant.com/xbox-layoffs-bernie-sanders-statement/"
+    "https://gamerant.com/xbox-layoffs-bernie-sanders-statement/",
+    "https://gamerant.com/xbox-game-pass-games-july-2026-list/",
+    "https://www.polygon.com/mark-zuckerberg-meta-new-app-pocket/",
+    "https://www.gematsu.com/2026/07/co-op-rafting-adventure-game-sponge-break-announced-for-pc",
+    "https://www.pushsquare.com/news/2026/07/control-resonants-fancy-ps5-steelbook-edition-flaunted-in-the-wake-of-sony-ditching-discs"
   ],
   "seen_titles": [
-    "demon slayer movie returns to theaters in march, streaming release date nonexistent",
-    "bluepoint's closure is another nail in the coffin for a bloodborne remake",
-    "arc raiders' wall-breaking exploits took so long to fix because they were 'intrinsic to the way the game is built': 'those things are very risky to patch rapidly'",
-    "acer and asus' german websites are down in wake of lawsuit, but acer says its own will 'be up again shortly' so customers can get bios updates again",
     "xcom’s jake solomon announces his new studio is closing, reveals now-cancelled ai-driven narrative game",
     "pokémon firered and leafgreen coming to nintendo switch next week, but not as part of switch online",
     "double dragon gaiden adds four new fighters in free dlc switch update",
@@ -10001,13 +9997,13 @@
     "street fighter and fire emblem voice actors lead orbitals' english cast",
     "cyberpunk coming to apex legends in new event, respawn reveals",
     "fright train release date trailer",
-    "bernie sanders officially comments on xbox layoffs"
+    "bernie sanders officially comments on xbox layoffs",
+    "xbox game pass reveals 8 new games coming between now and july 21",
+    "meta launches pocket, an app for making games with generative ai",
+    "co-op rafting adventure game sponge break announced for pc",
+    "control resonant's fancy ps5 steelbook edition flaunted in the wake of sony ditching discs"
   ],
   "seen_story_keys": [
-    "54cffd8a5067330db40f197d3da387d5c9454122",
-    "c5721ceded4ccb94b5a6c30c159a4e5ead7fd28a",
-    "7559c593f1d0a778307d720bd394215bcb3a7a57",
-    "24d912002083b3423b077ebaeb94efa10f5daf97",
     "a5492c5cfc8495f3b415666c5bd577f8964e0bd1",
     "41bb5755840578836c169b76eb45388fa1bcefdd",
     "b642476f62a7d94afe5d0963fb70e5f7726bc903",
@@ -15003,6 +14999,10 @@
     "8cfe707ab2404130aeec9d2fbc7495e60f3cf2ff",
     "5e1dc06142430c9da5c2bd98b7424a2f7332ac0d",
     "28380be943f6ae388fcfd51bbc74858d1029270d",
-    "a2108020f205432489964003a9db27a1482168bd"
+    "a2108020f205432489964003a9db27a1482168bd",
+    "c348509ae00a3c8370251d96c20085a723c5e63f",
+    "ceaf678db6c87195657e41a195cf0f8e4ed576ac",
+    "23041ff18901034562d0e86790e25cdcd4bdf9bd",
+    "752daa1179d9f446c640cb05cdf87861990cc15d"
   ]
 }
