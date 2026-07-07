@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/02/rayman-30th-anniversary-edition-is-the-first-step-in-the-platformers-comeback",
-    "https://www.polygon.com/xbox-phil-spencer-retiring-microsoft-ai-exec-asha-sharma-sarah-bond/",
-    "https://www.gematsu.com/2026/02/microsoft-gaming-ceo-phil-spencer-retires-xbox-president-sarah-bond-resigns",
-    "https://www.pcgamer.com/software/security/security-researchers-claim-persona-the-provider-behind-discords-uk-age-verification-experiment-performs-269-individual-verification-checks-on-user-data-including-those-for-terrorism-and-espionage/",
     "https://www.polygon.com/demon-slayer-infinity-castle-theatrical-rerelease-2026/",
     "https://www.polygon.com/bloodborne-remake-bluepoint-studios-closure/",
     "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-wall-breaking-exploits-took-so-long-to-fix-because-they-were-intrinsic-to-the-way-the-game-is-built-those-things-are-very-risky-to-patch-rapidly/",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/petition-against-sony-killing-playstation-physical-media",
     "https://www.ign.com/articles/playstations-first-tweet-since-it-announced-plans-to-kill-discs-is-going-about-as-well-as-youd-expect",
     "https://www.purexbox.com/news/2026/07/these-11-games-are-coming-to-xbox-game-pass-july-9-21",
-    "https://www.gematsu.com/2026/07/echobreaker-launches-august-6"
+    "https://www.gematsu.com/2026/07/echobreaker-launches-august-6",
+    "https://www.nintendolife.com/news/2026/07/street-fighter-and-fire-emblem-voice-actors-lead-orbitals-english-cast",
+    "https://www.polygon.com/cyberpunk-2077-edgerunners-apex-legends-collab-skins-event/",
+    "https://www.gamespot.com/videos/fright-train-release-date-trailer/",
+    "https://gamerant.com/xbox-layoffs-bernie-sanders-statement/"
   ],
   "seen_titles": [
-    "rayman: 30th anniversary edition is \"the first step\" in the platformer's comeback",
-    "xbox boss phil spencer retires, replaced by microsoft ai exec, asha sharma",
-    "microsoft gaming ceo phil spencer retires, xbox president sarah bond resigns [update]",
-    "security researchers claim persona, the provider behind discord's uk age verification 'experiment', performs '269 individual verification checks' on user data, including those for terrorism and espionage",
     "demon slayer movie returns to theaters in march, streaming release date nonexistent",
     "bluepoint's closure is another nail in the coffin for a bloodborne remake",
     "arc raiders' wall-breaking exploits took so long to fix because they were 'intrinsic to the way the game is built': 'those things are very risky to patch rapidly'",
@@ -10001,13 +9997,13 @@
     "the petition against sony's decision to kill playstation physical discs has over 170,000 signatures",
     "playstation's first tweet since it announced plans to kill discs is going about as well as you'd expect",
     "these 11 games are coming to xbox game pass (july 9-21)",
-    "echobreaker launches august 6"
+    "echobreaker launches august 6",
+    "street fighter and fire emblem voice actors lead orbitals' english cast",
+    "cyberpunk coming to apex legends in new event, respawn reveals",
+    "fright train release date trailer",
+    "bernie sanders officially comments on xbox layoffs"
   ],
   "seen_story_keys": [
-    "377a59b803112ff038870f64f61bf35c2a95c519",
-    "522a2bf31fd0d426c7b85cbf4fea550cda23f87f",
-    "ae0780977cc4827125caa538b319c332a161b747",
-    "ee1e88e14f5965743c7f66f7749605f35ef33d81",
     "54cffd8a5067330db40f197d3da387d5c9454122",
     "c5721ceded4ccb94b5a6c30c159a4e5ead7fd28a",
     "7559c593f1d0a778307d720bd394215bcb3a7a57",
@@ -15003,6 +14999,10 @@
     "c9f21cd6b2337e978664c13f4b7f06b3d6f7efaf",
     "b3d03f04f82799f5bbdf90d5482d63c5fa7049aa",
     "9610e46e7e194d5de37ba8a9a01ef3d89575077e",
-    "22f58cf5f2f6e2a980fa54bf2418c09771234b5b"
+    "22f58cf5f2f6e2a980fa54bf2418c09771234b5b",
+    "8cfe707ab2404130aeec9d2fbc7495e60f3cf2ff",
+    "5e1dc06142430c9da5c2bd98b7424a2f7332ac0d",
+    "28380be943f6ae388fcfd51bbc74858d1029270d",
+    "a2108020f205432489964003a9db27a1482168bd"
   ]
 }
