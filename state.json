@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294723/civica-italian-renaissance-announced",
-    "https://www.bluesnews.com/s/294724/park-ranger-simulator-released",
-    "https://www.bluesnews.com/s/294722/star-wrath-announced-beta-signups",
-    "https://www.bluesnews.com/s/294721/highguard-patch-plans",
     "https://www.bluesnews.com/s/294715/subscriptions-clouds-and-streams",
     "https://www.pcgamer.com/gaming-industry/roblox-responds-to-la-county-lawsuit-the-latest-of-many-alleging-the-game-fails-to-protect-children-from-predators-while-no-system-can-be-perfect-our-commitment-to-safety-never-ends/",
     "https://www.polygon.com/bluepoint-games-sony-playstation-failure/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/jaleco-arcade-collection-vol-1-and-vol-2-launch-this-winter-for-ps5-switch-and-pc",
     "https://www.gematsu.com/2026/07/emotional-cyber-noir-adventure-game-moonhack-announced-for-pc",
     "https://www.gematsu.com/2026/07/sentimental-graffiti-re-confirmed-for-ps5-switch",
-    "https://www.gematsu.com/2026/07/granblue-fantasy-relink-endless-ragnarok-launch-trailer"
+    "https://www.gematsu.com/2026/07/granblue-fantasy-relink-endless-ragnarok-launch-trailer",
+    "https://gamerant.com/lego-pokemon-red-set/",
+    "https://www.purexbox.com/news/2026/07/compulsion-games-double-fine-and-undead-labs-issue-xbox-departure-statements",
+    "https://www.pcgamer.com/gaming-industry/it-looks-like-blizzards-escaped-xboxs-grim-reset-scythe-for-now-though-theres-still-time-to-be-caught-in-the-second-1600-strong-layoff-wave-coming-2027/",
+    "https://www.purexbox.com/news/2026/07/ac-black-flag-resynced-comparison-shows-difference-between-xbox-series-x-and-series-s"
   ],
   "seen_titles": [
-    "civica: italian renaissance announced",
-    "park ranger simulator released",
-    "star wrath announced; beta signups",
-    "highguard patch plans",
     "subscriptions, clouds, and streams",
     "roblox responds to la county lawsuit, the latest of many alleging the game fails to protect children from predators: 'while no system can be perfect, our commitment to safety never ends'",
     "sony killing bluepoint games is playstation's latest big failure",
@@ -10001,13 +9997,13 @@
     "jaleco arcade collection vol. 1 and vol. 2 launch this winter for ps5, switch, and pc",
     "‘emotional cyber-noir adventure game’ moonhack announced for pc",
     "sentimental graffiti re confirmed for ps5, switch",
-    "granblue fantasy: relink – endless ragnarok launch trailer"
+    "granblue fantasy: relink – endless ragnarok launch trailer",
+    "first look at new lego pokemon red set",
+    "compulsion games, double fine & undead labs issue xbox departure statements",
+    "it looks like blizzard's escaped xbox's grim reset scythe for now, though there's still time to be caught in the second 1600-strong layoff wave coming 2027",
+    "ac black flag resynced comparison shows difference between xbox series x and series s"
   ],
   "seen_story_keys": [
-    "35616b801c14e8dba3bb32b8ec4cc40e62f70eb0",
-    "530448e8baebb7ffcafbd1352016466816f2a64a",
-    "e4e88213b538fb56ee97a4cd329a0aec3e972cbd",
-    "999b355398fa23121f92769f370feaa2fb036ca3",
     "1000e513980897644a8eae9f1cea53dada9e0391",
     "2aeb843280e68268907a6a9c76fe3a9613ddc31f",
     "3c5d0749afd463eafa1242cc0ffd376803bd7da8",
@@ -15003,6 +14999,10 @@
     "bfc1bf34c749f2a9fae771263ea6365ae33bdbc2",
     "386ee1ac245eed370e0f47806f3536434ca2aac0",
     "cf71fb51751b71113aacff0ad19a39447b49b3b1",
-    "d4bc3c4532d073f6979a3cf0225f066f09be4c9b"
+    "d4bc3c4532d073f6979a3cf0225f066f09be4c9b",
+    "7b987b69946f375dc0717de9e9ffae9b438d6724",
+    "47044ed3bcc51a428522f14aedb745015b782061",
+    "cbf76e3f5cb397963c4e8981dbe5bdf8e3e967c5",
+    "ed391d92e9c0062098786a7910ab733956345818"
   ]
 }
