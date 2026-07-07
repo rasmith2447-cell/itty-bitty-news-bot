@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294715/subscriptions-clouds-and-streams",
-    "https://www.pcgamer.com/gaming-industry/roblox-responds-to-la-county-lawsuit-the-latest-of-many-alleging-the-game-fails-to-protect-children-from-predators-while-no-system-can-be-perfect-our-commitment-to-safety-never-ends/",
-    "https://www.polygon.com/bluepoint-games-sony-playstation-failure/",
-    "https://www.pcgamer.com/games/rts/age-of-empires-2-definitive-edition-gets-yet-another-massive-update-adding-a-new-line-of-warships-and-significant-changes-to-naval-mechanics/",
     "https://www.nintendolife.com/news/2026/02/rayman-30th-anniversary-edition-is-the-first-step-in-the-platformers-comeback",
     "https://www.polygon.com/xbox-phil-spencer-retiring-microsoft-ai-exec-asha-sharma-sarah-bond/",
     "https://www.gematsu.com/2026/02/microsoft-gaming-ceo-phil-spencer-retires-xbox-president-sarah-bond-resigns",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/lego-pokemon-red-set/",
     "https://www.purexbox.com/news/2026/07/compulsion-games-double-fine-and-undead-labs-issue-xbox-departure-statements",
     "https://www.pcgamer.com/gaming-industry/it-looks-like-blizzards-escaped-xboxs-grim-reset-scythe-for-now-though-theres-still-time-to-be-caught-in-the-second-1600-strong-layoff-wave-coming-2027/",
-    "https://www.purexbox.com/news/2026/07/ac-black-flag-resynced-comparison-shows-difference-between-xbox-series-x-and-series-s"
+    "https://www.purexbox.com/news/2026/07/ac-black-flag-resynced-comparison-shows-difference-between-xbox-series-x-and-series-s",
+    "https://www.eurogamer.net/petition-against-sony-killing-playstation-physical-media",
+    "https://www.ign.com/articles/playstations-first-tweet-since-it-announced-plans-to-kill-discs-is-going-about-as-well-as-youd-expect",
+    "https://www.purexbox.com/news/2026/07/these-11-games-are-coming-to-xbox-game-pass-july-9-21",
+    "https://www.gematsu.com/2026/07/echobreaker-launches-august-6"
   ],
   "seen_titles": [
-    "subscriptions, clouds, and streams",
-    "roblox responds to la county lawsuit, the latest of many alleging the game fails to protect children from predators: 'while no system can be perfect, our commitment to safety never ends'",
-    "sony killing bluepoint games is playstation's latest big failure",
-    "age of empires 2: definitive edition gets yet another massive update adding a new line of warships and 'significant changes' to naval mechanics",
     "rayman: 30th anniversary edition is \"the first step\" in the platformer's comeback",
     "xbox boss phil spencer retires, replaced by microsoft ai exec, asha sharma",
     "microsoft gaming ceo phil spencer retires, xbox president sarah bond resigns [update]",
@@ -10001,13 +9997,13 @@
     "first look at new lego pokemon red set",
     "compulsion games, double fine & undead labs issue xbox departure statements",
     "it looks like blizzard's escaped xbox's grim reset scythe for now, though there's still time to be caught in the second 1600-strong layoff wave coming 2027",
-    "ac black flag resynced comparison shows difference between xbox series x and series s"
+    "ac black flag resynced comparison shows difference between xbox series x and series s",
+    "the petition against sony's decision to kill playstation physical discs has over 170,000 signatures",
+    "playstation's first tweet since it announced plans to kill discs is going about as well as you'd expect",
+    "these 11 games are coming to xbox game pass (july 9-21)",
+    "echobreaker launches august 6"
   ],
   "seen_story_keys": [
-    "1000e513980897644a8eae9f1cea53dada9e0391",
-    "2aeb843280e68268907a6a9c76fe3a9613ddc31f",
-    "3c5d0749afd463eafa1242cc0ffd376803bd7da8",
-    "03871dc45756a7e1d636537ad4be70d86a6dce6f",
     "377a59b803112ff038870f64f61bf35c2a95c519",
     "522a2bf31fd0d426c7b85cbf4fea550cda23f87f",
     "ae0780977cc4827125caa538b319c332a161b747",
@@ -15003,6 +14999,10 @@
     "7b987b69946f375dc0717de9e9ffae9b438d6724",
     "47044ed3bcc51a428522f14aedb745015b782061",
     "cbf76e3f5cb397963c4e8981dbe5bdf8e3e967c5",
-    "ed391d92e9c0062098786a7910ab733956345818"
+    "ed391d92e9c0062098786a7910ab733956345818",
+    "c9f21cd6b2337e978664c13f4b7f06b3d6f7efaf",
+    "b3d03f04f82799f5bbdf90d5482d63c5fa7049aa",
+    "9610e46e7e194d5de37ba8a9a01ef3d89575077e",
+    "22f58cf5f2f6e2a980fa54bf2418c09771234b5b"
   ]
 }
