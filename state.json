@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/xcoms-jake-solomon-announces-his-new-studio-is-closing-reveals-now-cancelled-ai-driven-narrative-game/",
-    "https://www.videogameschronicle.com/news/pokemon-firered-and-leafgreen-coming-to-nintendo-switch-next-week-but-not-as-part-of-nso/",
-    "https://www.nintendolife.com/news/2026/02/double-dragon-gaiden-adds-four-new-fighters-in-free-dlc-switch-update",
-    "https://www.nintendolife.com/news/2026/02/pokemon-unite-is-adding-the-original-legendary-bird-trio-as-playable-pokemon",
     "https://www.gematsu.com/2026/02/gecko-gods-launches-april-16",
     "https://www.gematsu.com/2026/02/slay-the-spire-ii-launches-in-early-access-on-march-5",
     "https://www.videogameschronicle.com/news/sony-is-shutting-down-bluepoint-developer-of-demons-souls-remake/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/xbox-game-pass-games-july-2026-list/",
     "https://www.polygon.com/mark-zuckerberg-meta-new-app-pocket/",
     "https://www.gematsu.com/2026/07/co-op-rafting-adventure-game-sponge-break-announced-for-pc",
-    "https://www.pushsquare.com/news/2026/07/control-resonants-fancy-ps5-steelbook-edition-flaunted-in-the-wake-of-sony-ditching-discs"
+    "https://www.pushsquare.com/news/2026/07/control-resonants-fancy-ps5-steelbook-edition-flaunted-in-the-wake-of-sony-ditching-discs",
+    "https://www.pcgamer.com/gaming-industry/xbox-ceo-asha-sharma-points-the-finger-at-phil-spencers-strategy-for-yesterdays-sweeping-layoffs-we-simply-spread-ourselves-too-thin/",
+    "https://gamerant.com/daemons-of-the-shadow-realm-episode-14-release-date/",
+    "https://www.purexbox.com/news/2026/07/xbox-ceo-sets-ambitious-goal-of-reaching-more-than-a-billion-people-each-day",
+    "https://www.purexbox.com/news/2026/07/they-will-report-directly-to-me-mojang-and-king-singled-out-by-xbox-boss"
   ],
   "seen_titles": [
-    "xcom’s jake solomon announces his new studio is closing, reveals now-cancelled ai-driven narrative game",
-    "pokémon firered and leafgreen coming to nintendo switch next week, but not as part of switch online",
-    "double dragon gaiden adds four new fighters in free dlc switch update",
-    "pokémon unite is adding the original legendary bird trio as playable pokémon",
     "gecko gods launches april 16",
     "slay the spire ii launches in early access on march 5",
     "sony is shutting down bluepoint, developer of demon’s souls remake",
@@ -10001,13 +9997,13 @@
     "xbox game pass reveals 8 new games coming between now and july 21",
     "meta launches pocket, an app for making games with generative ai",
     "co-op rafting adventure game sponge break announced for pc",
-    "control resonant's fancy ps5 steelbook edition flaunted in the wake of sony ditching discs"
+    "control resonant's fancy ps5 steelbook edition flaunted in the wake of sony ditching discs",
+    "xbox ceo asha sharma points the finger at phil spencer's strategy for yesterday's sweeping layoffs: 'we simply spread ourselves too thin'",
+    "daemons of the shadow realm episode 14 release date",
+    "xbox ceo sets ambitious goal of reaching 'more than a billion people each day'",
+    "'they will report directly to me' - mojang and king singled out by xbox boss"
   ],
   "seen_story_keys": [
-    "a5492c5cfc8495f3b415666c5bd577f8964e0bd1",
-    "41bb5755840578836c169b76eb45388fa1bcefdd",
-    "b642476f62a7d94afe5d0963fb70e5f7726bc903",
-    "74c12394da168b83749a172b6556ef5c10c43cf1",
     "7b8447e948b809c527e6b0a8700c487a0c03ae0a",
     "390593a0a11b9ad0831f5a463919c822aa2dc2cb",
     "3c3b2f42f06d5310b64f9034de8cfccc7c1ed3e8",
@@ -15003,6 +14999,10 @@
     "c348509ae00a3c8370251d96c20085a723c5e63f",
     "ceaf678db6c87195657e41a195cf0f8e4ed576ac",
     "23041ff18901034562d0e86790e25cdcd4bdf9bd",
-    "752daa1179d9f446c640cb05cdf87861990cc15d"
+    "752daa1179d9f446c640cb05cdf87861990cc15d",
+    "2892cab39dcbf5a7bf4718cddd9832068356cbe1",
+    "309e9c062a90ca48ad2f5b96534609ad225e1d44",
+    "6b57434975097d603bb5b4affdc33385c2620399",
+    "db9945cdcc4c6058318586472252e629afe06174"
   ]
 }
