@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294748/neva-prologue-released",
-    "https://www.bluesnews.com/s/294735/evening-interviews",
-    "https://www.gamespot.com/articles/raymans-30th-anniversary-edition-is-just-the-first-step-in-franchises-comeback-ubisoft-says/1100-6538322/?ftag=CAD-01-10abi2f",
-    "https://www.gamespot.com/articles/baldurs-gate-3-fans-will-be-very-happy-with-one-of-solasta-2s-big-improvement/1100-6538324/?ftag=CAD-01-10abi2f",
     "https://www.bluesnews.com/s/294734/evening-crowdfunding",
     "https://www.bluesnews.com/s/294732/evening-metaverse",
     "https://www.bluesnews.com/s/294726/get-return-to-ash-and-stalcraft-x-starter-edition-for-free",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/roblox-reporting-tools-update/",
     "https://www.nintendolife.com/news/2026/07/xbox-confirms-3000plus-redundancies-with-four-studios-let-go",
     "https://www.pushsquare.com/news/2026/07/ghost-of-tsushimas-upcoming-crunchyroll-anime-is-shaping-up-to-be-something-special",
-    "https://www.eurogamer.net/nintendo-switch-2-replaceable-batteries-revision-plans-detailed"
+    "https://www.eurogamer.net/nintendo-switch-2-replaceable-batteries-revision-plans-detailed",
+    "https://www.purexbox.com/news/2026/07/three-aims-detailed-by-asha-sharma-for-the-most-significant-restructure-in-xbox-history",
+    "https://www.gematsu.com/2026/07/xbox-to-lay-off-3200-employees-divest-five-studios",
+    "https://www.videogameschronicle.com/news/xbox-confirms-plans-to-cut-5-studios-and-thousands-of-jobs/",
+    "https://www.pushsquare.com/news/2026/07/video-assassins-creed-black-flag-ps5-vs-ps4-comparison-how-does-resynced-compare"
   ],
   "seen_titles": [
-    "neva: prologue released",
-    "evening interviews",
-    "rayman's 30th anniversary edition is just the \"first step\" in franchise's comeback, ubisoft says",
-    "baldur's gate 3 fans will be very happy with one of solasta 2's big improvements",
     "evening crowdfunding",
     "evening metaverse",
     "get return to ash and stalcraft: x starter edition for free",
@@ -10001,13 +9997,13 @@
     "roblox reveals improvements to in-game reporting tools",
     "xbox confirms 3,000+ redundancies, with four studios let go",
     "ghost of tsushima's upcoming crunchyroll anime is shaping up to be something special",
-    "nintendo has detailed rollout plans for switch 2 product revisions in europe with replaceable batteries, and switch 1 consoles are being discontinued"
+    "nintendo has detailed rollout plans for switch 2 product revisions in europe with replaceable batteries, and switch 1 consoles are being discontinued",
+    "three aims detailed by asha sharma for the 'most significant restructure in xbox history'",
+    "xbox to lay off 3,200 employees, divest five studios",
+    "xbox confirms plans to cut 5 studios and thousands of jobs",
+    "video: assassin's creed: black flag ps5 vs ps4 comparison - how does resynced compare?"
   ],
   "seen_story_keys": [
-    "305870c774c4f817fe1142f1f4ef18a51d20a3d8",
-    "d99ee37fc1c6098ada951d6f8c2111ff0d05a3e2",
-    "ae0780977cc4827125caa538b319c332a161b747",
-    "4d98a35a2b3c112c12da0dec91b01d1e2d0f3080",
     "85e8b0cb17cd5254e581a82cec05397500ce6893",
     "e15e055dcd93064c716c6f281efa9a38a91f31cd",
     "b2593a385515d5b40e3f33d464b9c7a69b8aca93",
@@ -15003,6 +14999,10 @@
     "708b5e8dc28723a95db242a6d89708ae7abf4530",
     "fedb892ac0301866774cb0d76727426513b92991",
     "af23b614d5bc7aaa2d1f514557da00cf42fb7fa0",
-    "d6ce1529650cb388706e6a128e67c6356e89d800"
+    "d6ce1529650cb388706e6a128e67c6356e89d800",
+    "f65274a53b354b1ac604daf2124b0aebb7c0c1c6",
+    "eb1fbb0aa48de428aadcf1d502a9da9dbb536192",
+    "b8a9378f19aeafd4d773fe6461a2c481e2de8a98",
+    "e6a78b2ebcc6d87c6cdc67d66d873406e007b5c6"
   ]
 }
