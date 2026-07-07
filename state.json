@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/hardware/gaming-mice/age-verification-checks-are-now-in-force-in-the-uk-because-of-the-online-safety-act-but-with-the-discord-fallout-it-seems-like-one-bad-idea-after-another/",
-    "https://www.nintendolife.com/news/2026/02/mailbox-a-good-switch-2-console-pairing-fun-with-strangers-sterility-nintendo-life-letters",
-    "https://www.videogameschronicle.com/news/im-proud-of-what-weve-built-outgoing-xbox-president-sarah-bond-breaks-silence-after-exit-news/",
-    "https://www.nintendolife.com/news/2026/02/gallery-heres-a-look-at-pokemon-firered-and-leafgreen-on-switch",
     "https://www.pcgamer.com/games/action/ubisoft-made-another-avatar-game-the-world-has-forgotten-about-so-i-opened-pandoras-boxed-copy-and-dropped-into-the-jungle/",
     "https://www.pcgamer.com/games/roguelike/to-celebrate-2-years-of-balatro-creator-localthunk-reflected-on-dropping-out-of-an-engineering-program-to-make-games-even-if-i-could-warn-myself-im-not-sure-what-i-could-have-said-to-prepare-for-the-insanity/",
     "https://www.pcgamer.com/games/youll-need-an-expansion-pack-for-your-brain-to-get-all-20-questions-right-in-our-dastardly-new-dlc-quiz/",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/07/james-bond-hitman-studios-project-fantasy-still-coming-after-xbox-cuts",
     "https://www.gematsu.com/2026/07/orbitals-voice-cast-announced-opening-animation",
     "https://www.gamesindustry.biz/we-simply-spread-ourselves-too-thin-xboxs-asha-sharma-on-firms-restructuring-plans",
-    "https://www.gematsu.com/2026/07/game-pass-adds-tony-hawks-pro-skater-1-2-the-planet-crafter-palworld-version-1-0-and-more-in-mid-to-late-july"
+    "https://www.gematsu.com/2026/07/game-pass-adds-tony-hawks-pro-skater-1-2-the-planet-crafter-palworld-version-1-0-and-more-in-mid-to-late-july",
+    "https://www.gamespot.com/articles/sony-tries-to-change-the-subject-after-killing-playstation-discs/",
+    "https://www.rockpapershotgun.com/while-several-xbox-studios-regained-independence-or-found-new-owners-yesterday-arkanes-staff-must-negotiate-their-own-future",
+    "https://www.eurogamer.net/state-of-decay-3-game-pass-launch-in-question",
+    "https://www.eurogamer.net/united-videogame-workers-union-hardship-funds-laid-off-employees"
   ],
   "seen_titles": [
-    "age verification checks are now in force in the uk because of the online safety act, but with the discord fallout, it seems like one bad idea after another",
-    "mailbox: a good switch 2 console pairing, fun with strangers, sterility - nintendo life letters",
-    "‘i’m proud of what we’ve built’: outgoing xbox president sarah bond breaks silence after exit news",
-    "gallery: here's a look at pokémon firered and leafgreen on switch",
     "ubisoft made another avatar game the world has forgotten about, so i opened pandora’s boxed copy and dropped into the jungle",
     "to celebrate 2 years of balatro, creator localthunk reflected on dropping out of an engineering program to make games: 'even if i could warn myself i’m not sure what i could have said to prepare for the insanity'",
     "you'll need an expansion pack for your brain to get all 20 questions right in our dastardly new dlc quiz",
@@ -10001,13 +9997,13 @@
     "james bond, hitman studio's project fantasy still coming after xbox cuts",
     "orbitals voice cast announced, opening animation",
     "\"we simply spread ourselves too thin\" – xbox's asha sharma on firm's restructuring plans",
-    "game pass adds tony hawk’s pro skater 1 + 2, the planet crafter, palworld version 1.0, and more in mid to late july"
+    "game pass adds tony hawk’s pro skater 1 + 2, the planet crafter, palworld version 1.0, and more in mid to late july",
+    "sony tries to change the subject after killing playstation discs",
+    "while several xbox studios regained independence or found new owners yesterday, arkane's staff must negotiate their own future",
+    "state of decay 3 may no longer launch into game pass, now that microsoft is letting developer undead labs go",
+    "as layoffs continue to ravage the games industry, a union across north america establishes a fund to help those impacted by it"
   ],
   "seen_story_keys": [
-    "6a388867be4e2e45c980ccc525eff5ff7460e1e2",
-    "ab19104a667a507913881add524888e677fef378",
-    "f0fe83d85582eafd70d4b31db21dc96d16574306",
-    "1448004f4bb36229a1c5506f49a955b4773ec205",
     "25ec5265caf8f1733b50f168e72b465114938d55",
     "f3bac878fdab4018e0aeb98a766d3ba6dd58035b",
     "3087b7b1f1be8372ff1d637a498d4903654fac1b",
@@ -15003,6 +14999,10 @@
     "92421eddd40530200912c19db3759ebf10a80c16",
     "370c49206b794d9660f0e4ef2d2ad25449c7dfc7",
     "58001dfa845ae5f92e44e13901b0dd25fb391ee6",
-    "534f42af42afc02760667e96526e65f0e7b242ae"
+    "534f42af42afc02760667e96526e65f0e7b242ae",
+    "974f11c0f7b0b138c7c82caf9023067ea5030f88",
+    "7f7bb0e8cc16be67f77c8f785bb8e2dbbaebce85",
+    "00b3d3cbf4894f9c68afc4519d18fcea8ffb2e37",
+    "c7694e00cfa2111e7115685678af80a5fbc53ac6"
   ]
 }
