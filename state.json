@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294826/sunday-multiplex",
-    "https://www.bluesnews.com/s/294819/sunday-safety-dance",
-    "https://www.bluesnews.com/s/294816/etc",
-    "https://www.pcgamer.com/games/indie-publisher-alleges-tiktok-is-ai-generating-offensive-ads-using-its-characters-and-they-cant-make-it-stop-does-tiktok-want-me-to-be-grateful-for-the-mistreatment-of-my-company/",
     "https://www.pcgamer.com/games/debate-which-game-series-is-the-most-popular-to-cosplay/",
     "https://www.pcgamer.com/games/rhythm/i-only-needed-5-songs-to-know-that-in-falsus-is-going-to-be-my-go-to-rhythm-game-when-i-cant-get-to-the-arcade/",
     "https://www.videogameschronicle.com/news/ubisofts-ceo-breaks-silence-says-the-company-has-multiple-far-cry-and-assassins-creed-games-coming/",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/palworld-hits-an-incredible-40-million-players-25-years-after-early-access-launch-and-with-10-right-around-the-corner",
     "https://gamerant.com/final-fantasy-7-ff7-ever-crisis-shutting-down-october-6-2026/",
     "https://gamerant.com/wuthering-waves-wuwa-35-release-date-time-update-maintenance-ends-countdown/",
-    "https://www.gamesindustry.biz/workers-deserve-protection-not-to-be-treated-like-disposable-line-items-hundreds-of-union-members-affected-by-xbox-layoffs"
+    "https://www.gamesindustry.biz/workers-deserve-protection-not-to-be-treated-like-disposable-line-items-hundreds-of-union-members-affected-by-xbox-layoffs",
+    "https://www.gamesindustry.biz/mario-kart-tour-to-shut-down-in-september-2026",
+    "https://www.gematsu.com/2026/07/brigandine-abyss-demo-for-ps5-xbox-series-and-switch-2-launches-july-30",
+    "https://www.gematsu.com/2026/07/cozy-tile-puzzle-game-fangtopia-adds-ps5-switch-2-versions",
+    "https://www.eurogamer.net/arc-raiders-new-matchmaking-playstyle-tracking-patch-1-36-0"
   ],
   "seen_titles": [
-    "sunday multiplex",
-    "sunday safety dance",
-    "etc.",
-    "indie publisher alleges tiktok is ai-generating offensive ads using its characters and they can't make it stop: 'does tiktok want me to be grateful for the mistreatment of my company?'",
     "debate: which game series is the most popular to cosplay?",
     "i only needed 5 songs to know that in falsus is going to be my go-to rhythm game when i can't get to the arcade",
     "ubisoft’s ceo breaks silence, says the company has ‘multiple’ far cry and assassin’s creed games coming",
@@ -10001,13 +9997,13 @@
     "palworld hits an incredible 40 million players 2.5 years after early access launch, and with 1.0 right around the corner",
     "square enix game is permanently shutting down on october 6",
     "wuwa 3.5 release time countdown (wuthering waves)",
-    "\"workers deserve protection, not to be treated like disposable line items\" – hundreds of union members affected by xbox layoffs"
+    "\"workers deserve protection, not to be treated like disposable line items\" – hundreds of union members affected by xbox layoffs",
+    "mario kart tour to shut down in september 2026",
+    "brigandine: abyss demo for ps5, xbox series, and switch 2 launches july 30",
+    "cozy tile puzzle game fangtopia adds ps5, switch 2 versions",
+    "arc raiders introduces separate solo, duo and trio tracking so you can be friendly in one and a rat in the others"
   ],
   "seen_story_keys": [
-    "031a567e617745968807b736820149480271b8b0",
-    "7e090efd084ab400d384318e951b88036235ac6c",
-    "6b942e2831f972c22e2b0292ea3a8176ab41cd3b",
-    "006efb6c681c362f3fcc5d126e572cbf4ed04d74",
     "5bcd3efef24cbaa9cf6a353b19e3385a02692426",
     "3e9cff414c69860f05a8975caa528aef2c8defcc",
     "b860f1ea192adc15f77ed30a14db96d81bdd7d49",
@@ -15003,6 +14999,10 @@
     "3f90adba76cd3bbc29566e272061b8798625f341",
     "d82141754ea8fceae8070027f7c64f999150514a",
     "8067150328592503403d96e8169509393361c4ce",
-    "1c6411a33ef7c5dd9d07d2d47dcfcd7a3b2b8549"
+    "1c6411a33ef7c5dd9d07d2d47dcfcd7a3b2b8549",
+    "d11c7d2fc1c2441bfa1502be7ba0c1e1d18b28a6",
+    "62b5450d82467773cfa8ab1045ec1aa2b1e97615",
+    "1bdf963492a32c633bc1922908a1cfbfafafd58b",
+    "378ffa9e91341a57f0e41ec81534641f5f2220f8"
   ]
 }
