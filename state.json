@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/02/psa-pokemon-firered-and-leafgreen-switch-preloads-are-now-live",
-    "https://www.nintendolife.com/news/2026/02/nintendo-seemingly-rules-out-virtual-console-revival-says-it-remains-focused-on-offering-classics-via-switch-online",
-    "https://www.pcgamer.com/gaming-industry/if-xbox-is-recommitting-to-its-console-what-does-that-mean-for-its-recent-everything-is-an-xbox-strategy/",
-    "https://www.pcgamer.com/software/ai/a-grok-update-was-apparently-delayed-because-elon-musk-wanted-it-to-be-better-at-answering-questions-about-baldurs-gate/",
     "https://www.pcgamer.com/software/platforms/five-new-steam-games-you-probably-missed-february-23-2026/",
     "https://www.pcgamer.com/movies-tv/in-defense-of-doom-the-movie/",
     "https://www.pcgamer.com/gaming-industry/new-blood-ceo-dave-oshry-says-hes-always-loved-gog-but-they-need-enough-people-to-give-a-s-t-or-how-long-are-they-even-going-to-be-around/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/twisted-tower-launches-august-18",
     "https://www.eurogamer.net/vampirium-1997-bithell-games-announced",
     "https://www.pcgamer.com/games/the-elder-scrolls/xboxs-bethesda-layoffs-include-the-artist-responsible-for-designing-skyrims-khajiit-and-argonians-who-had-been-at-the-company-for-27-years/",
-    "https://www.eurogamer.net/palworld-full-release-price"
+    "https://www.eurogamer.net/palworld-full-release-price",
+    "https://gamerant.com/palworld-price-cost-1-0-release/",
+    "https://gamerant.com/zelda-ocarina-of-time-remake-switch-2-confirmed-details/",
+    "https://gamerant.com/fallout-3-remake-news-update-2026/",
+    "https://www.rockpapershotgun.com/well-at-least-one-good-things-come-out-of-destiny-2s-demise-lob-tomatoes-at-ex-bungie-ceo-pete-parsons-car-collection-in-this-fan-made-boss-battler"
   ],
   "seen_titles": [
-    "psa: pokémon firered and leafgreen switch preloads are now live",
-    "nintendo seemingly rules out virtual console revival, says it remains focused on offering classics via switch online",
-    "if xbox is 'recommitting' to its console, what does that mean for its recent 'everything is an xbox' strategy?",
-    "a grok update was apparently delayed because elon musk wanted it to be better at answering questions about baldur's gate",
     "five new steam games you probably missed (february 23, 2026)",
     "in defense of doom (the movie)",
     "new blood ceo dave oshry says he's 'always loved gog' but 'they need enough people to give a s**t, or how long are they even going to be around'",
@@ -10001,13 +9997,13 @@
     "twisted tower launches august 18",
     "\"dracula is king of england\" - new immersive sim vampirium: 1997 announced by tron: catalyst and thomas was alone developer bithell games",
     "xbox's bethesda layoffs include the artist responsible for designing skyrim's khajiit and argonians, who had been at the company for 27 years",
-    "palworld developer pocketpair decides not to raise the open-world survival game's price tag as it nears a 1.0 launch later this week"
+    "palworld developer pocketpair decides not to raise the open-world survival game's price tag as it nears a 1.0 launch later this week",
+    "palworld gives price update ahead of 1.0 release",
+    "everything officially confirmed about zelda: ocarina of time on switch 2",
+    "fallout 3 remake exists",
+    "well, at least one good thing's come out of destiny 2's demise: lob tomatoes at ex-bungie ceo pete parsons' car collection in this fan-made boss battler"
   ],
   "seen_story_keys": [
-    "917836bad584d835bf07638e8691173b677143a9",
-    "cf61cf11664d0be04e6b083f613868f80c291178",
-    "c6a850d69ec279d91f948542eaaa2d8d7e68a651",
-    "01a8e3a4c2e6c7c94755d260493b8a42a4a79b9c",
     "0400495086698799c68241296b166cd51199f96e",
     "765afd22c1e7cd73f26f112163930e5fb0f1ed68",
     "dd34cd9f8e1539d9b0e360d6f0ff0b7ee2c8c7f6",
@@ -15003,6 +14999,10 @@
     "c7432593fe55607a17e821c358a69ed4195b59f9",
     "bd7bf600ae4e3cb31fae05ac43bc79f0c5871a16",
     "cd068729b82d840a5bf81e05ababf50e7155ff3c",
-    "97ff7fd0d07998b8e1e2fd20159079487d3759ab"
+    "97ff7fd0d07998b8e1e2fd20159079487d3759ab",
+    "608457db8f8a7a2bdd178b49f50f5acbe9291b6e",
+    "1b8055279d2bc2af8132f7d7cf1ed05c0311534a",
+    "ce8518de2ccb7fab7a6b7c9c869c47e9cbe68e79",
+    "7bd8e331ff2212ffcbe5888c5bcc56d795fdf8a1"
   ]
 }
