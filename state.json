@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/kpop-demon-hunters-singer-kevin-woo-exclusively-reveals-his-new-dead-by-daylight-survivor",
-    "https://www.nintendolife.com/news/2026/02/nintendo-treehouse-returns-this-week-with-a-pair-of-gameplay-showcases",
-    "https://www.gamespot.com/articles/next-switch-2-treehouse-live-briefing-announced-start-time-how-to-watch-and-what-to-expect/1100-6538347/?ftag=CAD-01-10abi2f",
-    "https://www.gamespot.com/articles/new-xbox-boss-says-she-has-no-tolerance-for-bad-ai/1100-6538342/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-may-have-a-major-unannounced-character/1100-6538348/?ftag=CAD-01-10abi2f",
     "https://www.pcgamer.com/games/sports/the-denshattack-demo-sees-you-kickflipping-grinding-and-joyriding-a-ferris-wheel-into-an-active-volcano-on-the-worlds-most-tubular-commute/",
     "https://www.ign.com/articles/outlanders-caitrona-balfe-on-saying-goodbye-to-claire-and-jamie-their-last-day-on-set-and-the-shows-legacy",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/harajuku-set-short-story-adventure-game-secret-of-the-gummy-shop-announced-for-pc",
     "https://www.pcgamer.com/software/ai/chinas-national-vulnerability-database-warns-that-recent-claude-code-models-have-a-security-backdoor/",
     "https://www.gematsu.com/2026/07/mortal-shell-ii-launches-august-20",
-    "https://www.rockpapershotgun.com/xbox-boss-asha-sharma-pins-layoffs-on-phil-spencers-regime-spreading-the-company-too-thin-while-claiming-a-a-healthy-xbox-could-weather-the-ram-storm"
+    "https://www.rockpapershotgun.com/xbox-boss-asha-sharma-pins-layoffs-on-phil-spencers-regime-spreading-the-company-too-thin-while-claiming-a-a-healthy-xbox-could-weather-the-ram-storm",
+    "https://www.videogameschronicle.com/news/fired-marathon-director-says-hes-settled-a-lawsuit-with-sony-and-been-inserted-into-the-credits/",
+    "https://www.nintendolife.com/news/2026/07/switch-online-subscriber-delivery-from-nintendo-store-is-now-practically-free-europe",
+    "https://www.pushsquare.com/news/2026/07/this-cozy-horror-puzzle-game-is-creeping-to-ps5-later-this-year",
+    "https://www.videogameschronicle.com/news/microsofts-layoffs-include-the-37-year-veteran-behind-xbox-backwards-compatibility/"
   ],
   "seen_titles": [
-    "kpop demon hunters singer kevin woo exclusively reveals his new dead by daylight survivor",
-    "nintendo treehouse returns this week with a pair of gameplay showcases",
-    "next switch 2 treehouse live briefing announced: start time, how to watch, and what to expect",
-    "new xbox boss says she has \"no tolerance for bad ai\"",
     "the super mario galaxy movie may have a major unannounced character",
     "the denshattack! demo sees you kickflipping, grinding, and joyriding a ferris wheel into an active volcano on the world's most tubular commute",
     "outlander's caitríona balfe on saying goodbye to claire and jamie, their last day on set and the show's legacy",
@@ -10001,13 +9997,13 @@
     "harajuku-set short story adventure game secret of the gummy shop announced for pc",
     "china's national vulnerability database warns that recent claude code models have a security backdoor",
     "mortal shell ii launches august 20",
-    "xbox boss asha sharma pins layoffs on phil spencer's regime spreading the company \"too thin\", while claiming a \"a healthy xbox\" could weather the ram storm"
+    "xbox boss asha sharma pins layoffs on phil spencer's regime spreading the company \"too thin\", while claiming a \"a healthy xbox\" could weather the ram storm",
+    "fired marathon director says he’s settled a lawsuit with sony and been inserted into the credits",
+    "switch online subscriber? delivery from nintendo store is now practically free (europe)",
+    "this cozy horror puzzle game is creeping to ps5 later this year",
+    "microsoft’s layoffs include the 37-year veteran behind xbox backwards compatibility"
   ],
   "seen_story_keys": [
-    "592a9b93e251346e6690333f7e75724c65a0d845",
-    "c95a77be3516427d4d8b7f1d429d21ef807ba55a",
-    "c2d77d4d7ee07ac710db77d0ec5dea913c021203",
-    "565063bfe68be3b84a1aa8aed4767ab3cad3d441",
     "86306eab44a61424e0c362adb5db6097f67dcb24",
     "fd5a0e49440344371f9f4d5b584075c228a08815",
     "4df3d36e2ec2f290173cef9d41bb23471052f8a7",
@@ -15003,6 +14999,10 @@
     "68eafce964c7336204503e3937bd19c7634709fe",
     "72719bc45787215ce7c705599e0038d5be6342ef",
     "9cbc4208b6c191d55d179900525ecf4798e0def9",
-    "a43f0f6efd870cca453077e8f9154458e7aa5053"
+    "a43f0f6efd870cca453077e8f9154458e7aa5053",
+    "5081993de7943bfa839737424c61b4918a963e94",
+    "e25ad22cd74e7750fdcabb028b84b60be011f216",
+    "29cf5295b5e23ffff63fe906f262b7402cca9f2c",
+    "0c581ef97523a041005ef381230627c66060ade6"
   ]
 }
