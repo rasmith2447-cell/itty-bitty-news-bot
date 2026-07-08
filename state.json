@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/huge-xbox-shakeup-phil-spencer-retiring-sarah-bond-resigns-microsoft-ai-boss-becomes-new-microsoft-gaming-ceo/",
-    "https://www.pcgamer.com/gaming-industry/ubisoft-ceo-confirms-new-assassins-creed-and-far-cry-games-are-coming-denies-that-putting-his-son-in-charge-of-them-was-nepotism/",
-    "https://www.nintendolife.com/features/talking-point-our-pokemon-presents-2026-predictions-what-are-you-hoping-for",
-    "https://www.polygon.com/pokemon-firered-leafgreen-nintendo-classics-cloud-save-transfer-home/",
     "https://www.pcgamer.com/games/horror/repos-upcoming-cosmetic-update-is-much-more-than-just-funny-hats-and-clothes-it-has-become-way-bigger-and-way-crazier-than-we-anticipated-from-the-start/",
     "https://www.ign.com/articles/tencent-shuts-down-studio-backing-assassins-creed-black-flag-and-valhalla-creative-director",
     "https://www.ign.com/articles/gta-publisher-take-two-wants-to-align-bioshock-movie-launch-with-next-game",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/near-perfect-open-world-rpg-games-certified-flops/",
     "https://www.pcgamer.com/games/action/arkheron-a-competitive-pvpve-action-rpg-will-open-its-closed-beta-next-week-and-im-getting-that-battlerite-nostalgia-just-looking-at-this-thing/",
     "https://www.ign.com/articles/destiny-2-players-get-one-last-surprise-from-bungie-developer-reveals-limited-support-plans",
-    "https://www.eurogamer.net/doom-the-dark-ages-revelations-spear-reactions"
+    "https://www.eurogamer.net/doom-the-dark-ages-revelations-spear-reactions",
+    "https://www.videogameschronicle.com/news/id-software-dev-claims-its-been-relegated-to-support-studio-size-as-136-layoffs-confirmed/",
+    "https://www.eurogamer.net/mindseye-build-a-rocket-boy-protests-fan-event",
+    "https://www.rockpapershotgun.com/become-king-draculas-personal-vamp-assassin-in-vampirium-1997-an-immersive-sim-bithell-games-are-launching-into-steam-early-access-soon",
+    "https://www.nintendolife.com/news/2026/07/go-hands-on-with-switch-sports-resort-at-san-diego-comic-con-this-month"
   ],
   "seen_titles": [
-    "huge xbox shakeup: phil spencer retiring, sarah bond resigns, microsoft ai boss becomes new microsoft gaming ceo",
-    "ubisoft ceo confirms new assassin's creed and far cry games are coming, denies that putting his son in charge of them was nepotism",
-    "talking point: our pokémon presents 2026 predictions - what are you hoping for?",
-    "nintendo's switch release of pokémon firered and leafgreen upsets nso subscribers",
     "repo's upcoming cosmetic update is much more than just funny hats and clothes: 'it has become way bigger and way crazier than we anticipated from the start'",
     "tencent shuts down studio backing assassin's creed black flag and valhalla creative director",
     "gta publisher take-two wants to align bioshock movie launch with next game",
@@ -10001,13 +9997,13 @@
     "near-perfect open-world rpgs that are certified flops",
     "arkheron, a competitive pvpve action rpg, will open its closed beta next week—and i'm getting that battlerite nostalgia just looking at this thing",
     "destiny 2 players get one last surprise from bungie, developer reveals limited support plans",
-    "doom's new chain spear weapon seems to be dividing the dark ages' audience - \"i'm like an hour in and i can't wait to get the shield back\""
+    "doom's new chain spear weapon seems to be dividing the dark ages' audience - \"i'm like an hour in and i can't wait to get the shield back\"",
+    "id software dev claims it’s been ‘relegated to support studio size’ as 136 layoffs confirmed",
+    "workers at mindseye studio protesting controversial fan event this weekend after multiple rounds of layoffs",
+    "become king dracula's personal vamp-assassin in vampirium: 1997, an immersive sim bithell games are launching into steam early access soon",
+    "go hands-on with switch sports resort at san diego comic-con this month"
   ],
   "seen_story_keys": [
-    "ab59b56ec215f23b54761bb1845fc15e2158fc4b",
-    "667954784be3247cc2570f5adbc4329cdefc36e7",
-    "817150e7ab30721b58c199763d44fb2f4da78364",
-    "6179c6573245ed8b6b78cc51bb9ddc0152a26eac",
     "0d3721118e99dadc0fb2b58cc147064613144f98",
     "63225a731e06e85c93e0eedf892602a9bef69a2d",
     "f23a005f532a6801453c3dca7f4f999b793211a1",
@@ -15003,6 +14999,10 @@
     "4d91989847be530a4be337117237f3df3b6eebf5",
     "1636f3bd0463c6f3909a41d3213e5771afb32ecb",
     "1e7e0266f7ab816376605aea8de4e0c22c0767df",
-    "5dd81005e98077e8bf085d8a0218ed1b9396e436"
+    "5dd81005e98077e8bf085d8a0218ed1b9396e436",
+    "218fa8b3291e9cd764376f4f530759147e7447b0",
+    "1ac342120fe073f066cbb134889801c51cdaae90",
+    "6c887c70ff6331e44163cd6f4f7ec51cfa6bab97",
+    "63e9f609373f3327703064f2f02c9f2d2ab1b1c3"
   ]
 }
