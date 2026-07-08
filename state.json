@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/debate-which-game-series-is-the-most-popular-to-cosplay/",
-    "https://www.pcgamer.com/games/rhythm/i-only-needed-5-songs-to-know-that-in-falsus-is-going-to-be-my-go-to-rhythm-game-when-i-cant-get-to-the-arcade/",
-    "https://www.videogameschronicle.com/news/ubisofts-ceo-breaks-silence-says-the-company-has-multiple-far-cry-and-assassins-creed-games-coming/",
-    "https://www.videogameschronicle.com/news/xboxs-new-ceo-pledges-not-to-flood-future-games-with-soulless-ai-slop/",
     "https://www.nintendolife.com/news/2026/02/psa-pokemon-firered-and-leafgreen-switch-preloads-are-now-live",
     "https://www.nintendolife.com/news/2026/02/nintendo-seemingly-rules-out-virtual-console-revival-says-it-remains-focused-on-offering-classics-via-switch-online",
     "https://www.pcgamer.com/gaming-industry/if-xbox-is-recommitting-to-its-console-what-does-that-mean-for-its-recent-everything-is-an-xbox-strategy/",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/mario-kart-tour-to-shut-down-in-september-2026",
     "https://www.gematsu.com/2026/07/brigandine-abyss-demo-for-ps5-xbox-series-and-switch-2-launches-july-30",
     "https://www.gematsu.com/2026/07/cozy-tile-puzzle-game-fangtopia-adds-ps5-switch-2-versions",
-    "https://www.eurogamer.net/arc-raiders-new-matchmaking-playstyle-tracking-patch-1-36-0"
+    "https://www.eurogamer.net/arc-raiders-new-matchmaking-playstyle-tracking-patch-1-36-0",
+    "https://www.gematsu.com/2026/07/twisted-tower-launches-august-18",
+    "https://www.eurogamer.net/vampirium-1997-bithell-games-announced",
+    "https://www.pcgamer.com/games/the-elder-scrolls/xboxs-bethesda-layoffs-include-the-artist-responsible-for-designing-skyrims-khajiit-and-argonians-who-had-been-at-the-company-for-27-years/",
+    "https://www.eurogamer.net/palworld-full-release-price"
   ],
   "seen_titles": [
-    "debate: which game series is the most popular to cosplay?",
-    "i only needed 5 songs to know that in falsus is going to be my go-to rhythm game when i can't get to the arcade",
-    "ubisoft’s ceo breaks silence, says the company has ‘multiple’ far cry and assassin’s creed games coming",
-    "xbox’s new ceo pledges not to flood future games with ‘soulless ai slop’",
     "psa: pokémon firered and leafgreen switch preloads are now live",
     "nintendo seemingly rules out virtual console revival, says it remains focused on offering classics via switch online",
     "if xbox is 'recommitting' to its console, what does that mean for its recent 'everything is an xbox' strategy?",
@@ -10001,13 +9997,13 @@
     "mario kart tour to shut down in september 2026",
     "brigandine: abyss demo for ps5, xbox series, and switch 2 launches july 30",
     "cozy tile puzzle game fangtopia adds ps5, switch 2 versions",
-    "arc raiders introduces separate solo, duo and trio tracking so you can be friendly in one and a rat in the others"
+    "arc raiders introduces separate solo, duo and trio tracking so you can be friendly in one and a rat in the others",
+    "twisted tower launches august 18",
+    "\"dracula is king of england\" - new immersive sim vampirium: 1997 announced by tron: catalyst and thomas was alone developer bithell games",
+    "xbox's bethesda layoffs include the artist responsible for designing skyrim's khajiit and argonians, who had been at the company for 27 years",
+    "palworld developer pocketpair decides not to raise the open-world survival game's price tag as it nears a 1.0 launch later this week"
   ],
   "seen_story_keys": [
-    "5bcd3efef24cbaa9cf6a353b19e3385a02692426",
-    "3e9cff414c69860f05a8975caa528aef2c8defcc",
-    "b860f1ea192adc15f77ed30a14db96d81bdd7d49",
-    "0fdf652149b617437dccdc929e265f131ee6427d",
     "917836bad584d835bf07638e8691173b677143a9",
     "cf61cf11664d0be04e6b083f613868f80c291178",
     "c6a850d69ec279d91f948542eaaa2d8d7e68a651",
@@ -15003,6 +14999,10 @@
     "d11c7d2fc1c2441bfa1502be7ba0c1e1d18b28a6",
     "62b5450d82467773cfa8ab1045ec1aa2b1e97615",
     "1bdf963492a32c633bc1922908a1cfbfafafd58b",
-    "378ffa9e91341a57f0e41ec81534641f5f2220f8"
+    "378ffa9e91341a57f0e41ec81534641f5f2220f8",
+    "c7432593fe55607a17e821c358a69ed4195b59f9",
+    "bd7bf600ae4e3cb31fae05ac43bc79f0c5871a16",
+    "cd068729b82d840a5bf81e05ababf50e7155ff3c",
+    "97ff7fd0d07998b8e1e2fd20159079487d3759ab"
   ]
 }
