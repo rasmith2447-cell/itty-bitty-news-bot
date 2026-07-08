@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/software/platforms/five-new-steam-games-you-probably-missed-february-23-2026/",
-    "https://www.pcgamer.com/movies-tv/in-defense-of-doom-the-movie/",
-    "https://www.pcgamer.com/gaming-industry/new-blood-ceo-dave-oshry-says-hes-always-loved-gog-but-they-need-enough-people-to-give-a-s-t-or-how-long-are-they-even-going-to-be-around/",
-    "https://www.pcgamer.com/gaming-industry/its-pretty-sad-and-pathetic-that-a-game-with-difficult-content-cant-get-on-the-larger-marketplaces-despite-creeping-censorship-on-steam-and-epic-these-devs-are-fighting-to-make-a-transgressive-stop-motion-horror-game/",
     "https://www.gamespot.com/articles/mortal-kombat-inspired-olympic-ice-skaters-unleash-fatality-and-friendship/1100-6538338/?ftag=CAD-01-10abi2f",
     "https://www.pcgamer.com/gaming-industry/asha-sharma-xbox-no-ai-slop/",
     "https://www.polygon.com/new-xbox-ceo-next-gen-consoles-generative-ai-asha-sharma/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/palworld-price-cost-1-0-release/",
     "https://gamerant.com/zelda-ocarina-of-time-remake-switch-2-confirmed-details/",
     "https://gamerant.com/fallout-3-remake-news-update-2026/",
-    "https://www.rockpapershotgun.com/well-at-least-one-good-things-come-out-of-destiny-2s-demise-lob-tomatoes-at-ex-bungie-ceo-pete-parsons-car-collection-in-this-fan-made-boss-battler"
+    "https://www.rockpapershotgun.com/well-at-least-one-good-things-come-out-of-destiny-2s-demise-lob-tomatoes-at-ex-bungie-ceo-pete-parsons-car-collection-in-this-fan-made-boss-battler",
+    "https://gamerant.com/xbox-layoffs-restructure-game-pass-problem/",
+    "https://www.gamespot.com/articles/fallout-tv-series-lands-10-emmy-nominations-for-season-2-but-actors-get-snubbed/",
+    "https://www.pcgamer.com/games/final-fantasy/less-than-3-years-after-it-launched-on-steam-the-final-fantasy-7-gacha-game-is-closing/",
+    "https://www.nintendolife.com/news/2026/07/capcom-producer-remains-coy-on-a-potential-super-street-fighter-6-update"
   ],
   "seen_titles": [
-    "five new steam games you probably missed (february 23, 2026)",
-    "in defense of doom (the movie)",
-    "new blood ceo dave oshry says he's 'always loved gog' but 'they need enough people to give a s**t, or how long are they even going to be around'",
-    "'it’s pretty sad and pathetic that a game with difficult content can’t get on the larger marketplaces:' despite creeping censorship on steam and epic, these devs are fighting to make a transgressive stop-motion horror game",
     "mortal kombat-inspired olympic ice skaters unleash fatality and friendship",
     "new xbox boss promises no 'soulless ai slop' after moving over from microsoft's coreai products division",
     "new xbox boss promises next-gen consoles, no \"soulless ai slop\"",
@@ -10001,13 +9997,13 @@
     "palworld gives price update ahead of 1.0 release",
     "everything officially confirmed about zelda: ocarina of time on switch 2",
     "fallout 3 remake exists",
-    "well, at least one good thing's come out of destiny 2's demise: lob tomatoes at ex-bungie ceo pete parsons' car collection in this fan-made boss battler"
+    "well, at least one good thing's come out of destiny 2's demise: lob tomatoes at ex-bungie ceo pete parsons' car collection in this fan-made boss battler",
+    "xbox's biggest restructure exposes the problem it tried too long to ignore",
+    "fallout tv series lands 10 emmy nominations for season 2, but actors get snubbed",
+    "less than 3 years after it launched on steam, the final fantasy 7 gacha game is closing",
+    "capcom producer remains coy on a potential 'super street fighter 6' update"
   ],
   "seen_story_keys": [
-    "0400495086698799c68241296b166cd51199f96e",
-    "765afd22c1e7cd73f26f112163930e5fb0f1ed68",
-    "dd34cd9f8e1539d9b0e360d6f0ff0b7ee2c8c7f6",
-    "6f5aa21d134215185055bb970b5c7fe2e16cebe3",
     "2e7cdc034e6a97fc8aeb33e1c9b7a338514982c8",
     "87ce35d518869d001eb24f39dfd2af95cb0716f0",
     "e961542bd9d650b5cb3312ff4ce84195ee32a8bd",
@@ -15003,6 +14999,10 @@
     "608457db8f8a7a2bdd178b49f50f5acbe9291b6e",
     "1b8055279d2bc2af8132f7d7cf1ed05c0311534a",
     "ce8518de2ccb7fab7a6b7c9c869c47e9cbe68e79",
-    "7bd8e331ff2212ffcbe5888c5bcc56d795fdf8a1"
+    "7bd8e331ff2212ffcbe5888c5bcc56d795fdf8a1",
+    "81b46232cb81fbf370f0250af21c2b62af5e2360",
+    "9457bc09e4efc389d763e4d49dc6342a992970c1",
+    "94b19772a6fd319f5f0466b675f7abec0aeb877b",
+    "1148f2050a13e513e21731318a981fff0c51cf17"
   ]
 }
