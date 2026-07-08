@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/horror/repos-upcoming-cosmetic-update-is-much-more-than-just-funny-hats-and-clothes-it-has-become-way-bigger-and-way-crazier-than-we-anticipated-from-the-start/",
-    "https://www.ign.com/articles/tencent-shuts-down-studio-backing-assassins-creed-black-flag-and-valhalla-creative-director",
-    "https://www.ign.com/articles/gta-publisher-take-two-wants-to-align-bioshock-movie-launch-with-next-game",
-    "https://www.pcgamer.com/games/adventure/one-of-my-most-anticipated-indie-games-finally-has-a-release-date-almost-4-years-after-its-initial-reveal/",
     "https://www.ign.com/articles/kpop-demon-hunters-singer-kevin-woo-exclusively-reveals-his-new-dead-by-daylight-survivor",
     "https://www.nintendolife.com/news/2026/02/nintendo-treehouse-returns-this-week-with-a-pair-of-gameplay-showcases",
     "https://www.gamespot.com/articles/next-switch-2-treehouse-live-briefing-announced-start-time-how-to-watch-and-what-to-expect/1100-6538347/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.videogameschronicle.com/news/id-software-dev-claims-its-been-relegated-to-support-studio-size-as-136-layoffs-confirmed/",
     "https://www.eurogamer.net/mindseye-build-a-rocket-boy-protests-fan-event",
     "https://www.rockpapershotgun.com/become-king-draculas-personal-vamp-assassin-in-vampirium-1997-an-immersive-sim-bithell-games-are-launching-into-steam-early-access-soon",
-    "https://www.nintendolife.com/news/2026/07/go-hands-on-with-switch-sports-resort-at-san-diego-comic-con-this-month"
+    "https://www.nintendolife.com/news/2026/07/go-hands-on-with-switch-sports-resort-at-san-diego-comic-con-this-month",
+    "https://www.gematsu.com/2026/07/harajuku-set-short-story-adventure-game-secret-of-the-gummy-shop-announced-for-pc",
+    "https://www.pcgamer.com/software/ai/chinas-national-vulnerability-database-warns-that-recent-claude-code-models-have-a-security-backdoor/",
+    "https://www.gematsu.com/2026/07/mortal-shell-ii-launches-august-20",
+    "https://www.rockpapershotgun.com/xbox-boss-asha-sharma-pins-layoffs-on-phil-spencers-regime-spreading-the-company-too-thin-while-claiming-a-a-healthy-xbox-could-weather-the-ram-storm"
   ],
   "seen_titles": [
-    "repo's upcoming cosmetic update is much more than just funny hats and clothes: 'it has become way bigger and way crazier than we anticipated from the start'",
-    "tencent shuts down studio backing assassin's creed black flag and valhalla creative director",
-    "gta publisher take-two wants to align bioshock movie launch with next game",
-    "one of my most anticipated indie games finally has a release date, almost 4 years after its initial reveal",
     "kpop demon hunters singer kevin woo exclusively reveals his new dead by daylight survivor",
     "nintendo treehouse returns this week with a pair of gameplay showcases",
     "next switch 2 treehouse live briefing announced: start time, how to watch, and what to expect",
@@ -10001,13 +9997,13 @@
     "id software dev claims it’s been ‘relegated to support studio size’ as 136 layoffs confirmed",
     "workers at mindseye studio protesting controversial fan event this weekend after multiple rounds of layoffs",
     "become king dracula's personal vamp-assassin in vampirium: 1997, an immersive sim bithell games are launching into steam early access soon",
-    "go hands-on with switch sports resort at san diego comic-con this month"
+    "go hands-on with switch sports resort at san diego comic-con this month",
+    "harajuku-set short story adventure game secret of the gummy shop announced for pc",
+    "china's national vulnerability database warns that recent claude code models have a security backdoor",
+    "mortal shell ii launches august 20",
+    "xbox boss asha sharma pins layoffs on phil spencer's regime spreading the company \"too thin\", while claiming a \"a healthy xbox\" could weather the ram storm"
   ],
   "seen_story_keys": [
-    "0d3721118e99dadc0fb2b58cc147064613144f98",
-    "63225a731e06e85c93e0eedf892602a9bef69a2d",
-    "f23a005f532a6801453c3dca7f4f999b793211a1",
-    "4972341172db7cb3e47bb708db4b384abc5baa9f",
     "592a9b93e251346e6690333f7e75724c65a0d845",
     "c95a77be3516427d4d8b7f1d429d21ef807ba55a",
     "c2d77d4d7ee07ac710db77d0ec5dea913c021203",
@@ -15003,6 +14999,10 @@
     "218fa8b3291e9cd764376f4f530759147e7447b0",
     "1ac342120fe073f066cbb134889801c51cdaae90",
     "6c887c70ff6331e44163cd6f4f7ec51cfa6bab97",
-    "63e9f609373f3327703064f2f02c9f2d2ab1b1c3"
+    "63e9f609373f3327703064f2f02c9f2d2ab1b1c3",
+    "68eafce964c7336204503e3937bd19c7634709fe",
+    "72719bc45787215ce7c705599e0038d5be6342ef",
+    "9cbc4208b6c191d55d179900525ecf4798e0def9",
+    "a43f0f6efd870cca453077e8f9154458e7aa5053"
   ]
 }
