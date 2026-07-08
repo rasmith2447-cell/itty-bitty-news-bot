@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/mortal-kombat-inspired-olympic-ice-skaters-unleash-fatality-and-friendship/1100-6538338/?ftag=CAD-01-10abi2f",
-    "https://www.pcgamer.com/gaming-industry/asha-sharma-xbox-no-ai-slop/",
-    "https://www.polygon.com/new-xbox-ceo-next-gen-consoles-generative-ai-asha-sharma/",
-    "https://www.pcgamer.com/gaming-industry/xbox-boss-phil-spencer-is-retiring-and-his-replacement-is-an-ai-executive-who-joined-microsoft-in-2024/",
     "https://www.videogameschronicle.com/news/huge-xbox-shakeup-phil-spencer-retiring-sarah-bond-resigns-microsoft-ai-boss-becomes-new-microsoft-gaming-ceo/",
     "https://www.pcgamer.com/gaming-industry/ubisoft-ceo-confirms-new-assassins-creed-and-far-cry-games-are-coming-denies-that-putting-his-son-in-charge-of-them-was-nepotism/",
     "https://www.nintendolife.com/features/talking-point-our-pokemon-presents-2026-predictions-what-are-you-hoping-for",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/xbox-layoffs-restructure-game-pass-problem/",
     "https://www.gamespot.com/articles/fallout-tv-series-lands-10-emmy-nominations-for-season-2-but-actors-get-snubbed/",
     "https://www.pcgamer.com/games/final-fantasy/less-than-3-years-after-it-launched-on-steam-the-final-fantasy-7-gacha-game-is-closing/",
-    "https://www.nintendolife.com/news/2026/07/capcom-producer-remains-coy-on-a-potential-super-street-fighter-6-update"
+    "https://www.nintendolife.com/news/2026/07/capcom-producer-remains-coy-on-a-potential-super-street-fighter-6-update",
+    "https://gamerant.com/near-perfect-open-world-rpg-games-certified-flops/",
+    "https://www.pcgamer.com/games/action/arkheron-a-competitive-pvpve-action-rpg-will-open-its-closed-beta-next-week-and-im-getting-that-battlerite-nostalgia-just-looking-at-this-thing/",
+    "https://www.ign.com/articles/destiny-2-players-get-one-last-surprise-from-bungie-developer-reveals-limited-support-plans",
+    "https://www.eurogamer.net/doom-the-dark-ages-revelations-spear-reactions"
   ],
   "seen_titles": [
-    "mortal kombat-inspired olympic ice skaters unleash fatality and friendship",
-    "new xbox boss promises no 'soulless ai slop' after moving over from microsoft's coreai products division",
-    "new xbox boss promises next-gen consoles, no \"soulless ai slop\"",
-    "xbox boss phil spencer is retiring, and his replacement is an ai executive who joined microsoft in 2024",
     "huge xbox shakeup: phil spencer retiring, sarah bond resigns, microsoft ai boss becomes new microsoft gaming ceo",
     "ubisoft ceo confirms new assassin's creed and far cry games are coming, denies that putting his son in charge of them was nepotism",
     "talking point: our pokémon presents 2026 predictions - what are you hoping for?",
@@ -10001,13 +9997,13 @@
     "xbox's biggest restructure exposes the problem it tried too long to ignore",
     "fallout tv series lands 10 emmy nominations for season 2, but actors get snubbed",
     "less than 3 years after it launched on steam, the final fantasy 7 gacha game is closing",
-    "capcom producer remains coy on a potential 'super street fighter 6' update"
+    "capcom producer remains coy on a potential 'super street fighter 6' update",
+    "near-perfect open-world rpgs that are certified flops",
+    "arkheron, a competitive pvpve action rpg, will open its closed beta next week—and i'm getting that battlerite nostalgia just looking at this thing",
+    "destiny 2 players get one last surprise from bungie, developer reveals limited support plans",
+    "doom's new chain spear weapon seems to be dividing the dark ages' audience - \"i'm like an hour in and i can't wait to get the shield back\""
   ],
   "seen_story_keys": [
-    "2e7cdc034e6a97fc8aeb33e1c9b7a338514982c8",
-    "87ce35d518869d001eb24f39dfd2af95cb0716f0",
-    "e961542bd9d650b5cb3312ff4ce84195ee32a8bd",
-    "f98b6de848e088d5b030c63f2576640cfc6aa31a",
     "ab59b56ec215f23b54761bb1845fc15e2158fc4b",
     "667954784be3247cc2570f5adbc4329cdefc36e7",
     "817150e7ab30721b58c199763d44fb2f4da78364",
@@ -15003,6 +14999,10 @@
     "81b46232cb81fbf370f0250af21c2b62af5e2360",
     "9457bc09e4efc389d763e4d49dc6342a992970c1",
     "94b19772a6fd319f5f0466b675f7abec0aeb877b",
-    "1148f2050a13e513e21731318a981fff0c51cf17"
+    "1148f2050a13e513e21731318a981fff0c51cf17",
+    "4d91989847be530a4be337117237f3df3b6eebf5",
+    "1636f3bd0463c6f3909a41d3213e5771afb32ecb",
+    "1e7e0266f7ab816376605aea8de4e0c22c0767df",
+    "5dd81005e98077e8bf085d8a0218ed1b9396e436"
   ]
 }
