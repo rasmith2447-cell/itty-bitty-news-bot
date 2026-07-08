@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/roguelike/the-devs-of-a-promising-slay-the-spire-alike-are-delaying-their-game-to-dodge-and-roll-away-from-slay-the-spire-2s-launch-youll-be-playing-it-well-be-playing-it-everyone-will-be-playing-it/",
-    "https://www.bluesnews.com/s/294833/they-are-here-announced",
     "https://www.bluesnews.com/s/294827/sunday-patches",
     "https://www.bluesnews.com/s/294821/sunday-tech-bits",
     "https://www.bluesnews.com/s/294820/ai-yi-yi",
@@ -4999,11 +4997,11 @@
     "https://www.videogameschronicle.com/news/state-of-decay-3-no-longer-needs-to-release-on-game-pass-following-xbox-split/",
     "https://www.eurogamer.net/hatsune-miku-starry-party-announcement",
     "https://www.gematsu.com/2026/07/tokyo-game-show-2026-exhibitors-list-and-main-visual-announced",
-    "https://www.nintendolife.com/news/2026/07/pokemon-champions-has-now-surpassed-10-million-downloads-worldwide"
+    "https://www.nintendolife.com/news/2026/07/pokemon-champions-has-now-surpassed-10-million-downloads-worldwide",
+    "https://gamerant.com/palworld-10-release-date-time-when-come-out-coming-countdown/",
+    "https://www.ign.com/articles/nintendo-confirms-mario-kart-tour-shutdown-after-7-years-no-offline-version-offered"
   ],
   "seen_titles": [
-    "the devs of a promising slay the spire-alike are delaying their game to dodge and roll away from slay the spire 2's launch: 'you'll be playing it, we'll be playing it, everyone will be playing it'",
-    "they are here announced",
     "sunday patches",
     "sunday tech bits",
     "ai yi-yi!",
@@ -10001,11 +9999,11 @@
     "state of decay 3 no longer needs to release on game pass following xbox split",
     "hatsune miku: starry party is a new video game starring the virtual singer and her friends coming to switch 2 and pc",
     "tokyo game show 2026 exhibitors list and main visual announced",
-    "pokémon champions has now surpassed 10 million downloads worldwide"
+    "pokémon champions has now surpassed 10 million downloads worldwide",
+    "palworld 1.0 (2026) release date & time",
+    "nintendo confirms mario kart tour shutdown after 7 years, no offline version offered"
   ],
   "seen_story_keys": [
-    "4c72a54295f42a34fcd1d938aa3c1465e149948e",
-    "4fdc2540aac2a24fccd3783574d2acb65d5ad32b",
     "b4c2f4b691cf1b48bf7b88b4e01b85664f255494",
     "c70fffa21fab5fc34b0a7ec5c19640c58b0c20f5",
     "1fe46f5de323f0790405fe58ef60985210dbeccf",
@@ -15003,6 +15001,8 @@
     "bd2cfd4518fa24271603e624a93998e566754988",
     "ff6cf564637bd46a51765aebee32c96835d67903",
     "79455f553b359b2165991056ecaf357742d7707c",
-    "de54559c61e8e2739ede6dab85dcac8331d132fd"
+    "de54559c61e8e2739ede6dab85dcac8331d132fd",
+    "974954354ef6f361f88317d3c647898894f08ec9",
+    "498b47a3ed8a3c6addb9035621051b629b3f0381"
   ]
 }
