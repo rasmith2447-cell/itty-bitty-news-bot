@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294827/sunday-patches",
-    "https://www.bluesnews.com/s/294821/sunday-tech-bits",
-    "https://www.bluesnews.com/s/294820/ai-yi-yi",
-    "https://www.pcgamer.com/games/sports/that-golf-game-with-orbital-death-lasers-sold-100k-copies-in-two-days-we-made-super-battle-golf-together-in-4-5-months-and-are-so-happy/",
     "https://www.bluesnews.com/s/294826/sunday-multiplex",
     "https://www.bluesnews.com/s/294819/sunday-safety-dance",
     "https://www.bluesnews.com/s/294816/etc",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/tokyo-game-show-2026-exhibitors-list-and-main-visual-announced",
     "https://www.nintendolife.com/news/2026/07/pokemon-champions-has-now-surpassed-10-million-downloads-worldwide",
     "https://gamerant.com/palworld-10-release-date-time-when-come-out-coming-countdown/",
-    "https://www.ign.com/articles/nintendo-confirms-mario-kart-tour-shutdown-after-7-years-no-offline-version-offered"
+    "https://www.ign.com/articles/nintendo-confirms-mario-kart-tour-shutdown-after-7-years-no-offline-version-offered",
+    "https://www.ign.com/articles/palworld-hits-an-incredible-40-million-players-25-years-after-early-access-launch-and-with-10-right-around-the-corner",
+    "https://gamerant.com/final-fantasy-7-ff7-ever-crisis-shutting-down-october-6-2026/",
+    "https://gamerant.com/wuthering-waves-wuwa-35-release-date-time-update-maintenance-ends-countdown/",
+    "https://www.gamesindustry.biz/workers-deserve-protection-not-to-be-treated-like-disposable-line-items-hundreds-of-union-members-affected-by-xbox-layoffs"
   ],
   "seen_titles": [
-    "sunday patches",
-    "sunday tech bits",
-    "ai yi-yi!",
-    "that golf game with orbital death lasers sold 100k copies in two days: 'we made super battle golf together in 4.5 months and are so happy'",
     "sunday multiplex",
     "sunday safety dance",
     "etc.",
@@ -10001,13 +9997,13 @@
     "tokyo game show 2026 exhibitors list and main visual announced",
     "pokémon champions has now surpassed 10 million downloads worldwide",
     "palworld 1.0 (2026) release date & time",
-    "nintendo confirms mario kart tour shutdown after 7 years, no offline version offered"
+    "nintendo confirms mario kart tour shutdown after 7 years, no offline version offered",
+    "palworld hits an incredible 40 million players 2.5 years after early access launch, and with 1.0 right around the corner",
+    "square enix game is permanently shutting down on october 6",
+    "wuwa 3.5 release time countdown (wuthering waves)",
+    "\"workers deserve protection, not to be treated like disposable line items\" – hundreds of union members affected by xbox layoffs"
   ],
   "seen_story_keys": [
-    "b4c2f4b691cf1b48bf7b88b4e01b85664f255494",
-    "c70fffa21fab5fc34b0a7ec5c19640c58b0c20f5",
-    "1fe46f5de323f0790405fe58ef60985210dbeccf",
-    "f0b18d67cad3d35ebeb6c833c1c334268c9298cd",
     "031a567e617745968807b736820149480271b8b0",
     "7e090efd084ab400d384318e951b88036235ac6c",
     "6b942e2831f972c22e2b0292ea3a8176ab41cd3b",
@@ -15003,6 +14999,10 @@
     "79455f553b359b2165991056ecaf357742d7707c",
     "de54559c61e8e2739ede6dab85dcac8331d132fd",
     "974954354ef6f361f88317d3c647898894f08ec9",
-    "498b47a3ed8a3c6addb9035621051b629b3f0381"
+    "498b47a3ed8a3c6addb9035621051b629b3f0381",
+    "3f90adba76cd3bbc29566e272061b8798625f341",
+    "d82141754ea8fceae8070027f7c64f999150514a",
+    "8067150328592503403d96e8169509393361c4ce",
+    "1c6411a33ef7c5dd9d07d2d47dcfcd7a3b2b8549"
   ]
 }
