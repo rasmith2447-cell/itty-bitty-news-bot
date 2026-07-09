@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/arc-raiders-shrouded-sky-update-patch-notes/",
-    "https://www.gamespot.com/articles/new-arc-raiders-update-is-the-hairiest-one-yet/1100-6538365/?ftag=CAD-01-10abi2f",
-    "https://www.ign.com/articles/no-second-chances-bungie-issues-warning-to-would-be-cheaters-ahead-of-marathon-launch",
-    "https://www.ign.com/articles/embark-shows-off-arc-raiders-shrouded-sky-update-with-first-look-at-two-new-threatsand-beards",
     "https://www.videogameschronicle.com/news/xbox-co-founder-believes-its-being-sunsetted-in-favour-of-ai-calls-new-ceo-a-palliative-care-doctor/",
     "https://www.pcgamer.com/games/third-person-shooter/rejoice-arc-raiders-is-getting-beards/",
     "https://www.gamespot.com/articles/007-first-light-aims-to-channel-batman-arkham-freeflow-combat-with-uncharted-spectacle/1100-6538356/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/once-human-for-ps5-xbox-series-launches-august-25",
     "https://www.gematsu.com/2026/07/the-guild-europa-1410-early-access-delayed-to-september",
     "https://www.purexbox.com/news/2026/07/mouse-p-i-for-hires-biggest-update-yet-lands-on-xbox-here-are-the-patch-notes",
-    "https://www.rockpapershotgun.com/hooded-horses-new-strategy-game-rogue-carrier-has-you-captaining-a-research-ship-on-a-planet-where-the-seas-boil-with-violent-squid"
+    "https://www.rockpapershotgun.com/hooded-horses-new-strategy-game-rogue-carrier-has-you-captaining-a-research-ship-on-a-planet-where-the-seas-boil-with-violent-squid",
+    "https://gamerant.com/ac-black-flag-resynced-steam-player-count/",
+    "https://www.pcgamer.com/gaming-industry/us-federal-reserve-taps-xbox-ceo-asha-sharma-who-just-laid-off-3-200-employees-to-lead-task-force-on-jobs/",
+    "https://www.nintendolife.com/news/2026/07/deltarune-chapter-5-update-arrives-on-switch-1-and-2-soon-here-are-the-full-patch-notes",
+    "https://www.pushsquare.com/news/2026/07/digimon-story-time-stranger-60fps-patch-out-now-on-ps5-adds-photo-mode-and-more"
   ],
   "seen_titles": [
-    "shrouded sky update gives arc raiders two new arc threats, including flamethrower drone",
-    "new arc raiders update is the hairiest one yet",
-    "'no second chances' — bungie issues warning to would-be cheaters ahead of marathon launch",
-    "embark shows off arc raiders shrouded sky update with first look at two new threats...and beards",
     "xbox co-founder believes it’s being ‘sunsetted’ in favour of ai, calls new ceo ‘a palliative care doctor’",
     "rejoice: arc raiders is getting beards",
     "007: first light aims to channel batman: arkham freeflow combat with uncharted spectacle",
@@ -10001,13 +9997,13 @@
     "once human for ps5, xbox series launches august 25",
     "the guild: europa 1410 early access delayed to september",
     "mouse: p.i for hire's 'biggest update yet' lands on xbox, here are the patch notes",
-    "hooded horse’s new strategy game rogue carrier has you captaining a research ship on a planet where the seas boil with violent squid"
+    "hooded horse’s new strategy game rogue carrier has you captaining a research ship on a planet where the seas boil with violent squid",
+    "assassin's creed black flag resynced just broke a steam record",
+    "us federal reserve taps xbox ceo asha sharma, who just laid off 3,200 employees, to lead task force on jobs",
+    "deltarune chapter 5 update arrives on switch 1 & 2 soon, here are the full patch notes",
+    "digimon story time stranger 60fps patch out now on ps5, adds photo mode and more"
   ],
   "seen_story_keys": [
-    "571980e3ad0b2292f5baaae7524e933afe42d2d8",
-    "c991dadf3b314f7fe9c16b8f88e7be94017125d1",
-    "a4333c90320456f7bea60e0fc620de0621da12cd",
-    "57a7f86e5a1c23bd2232b679a2d77393dcdee6c1",
     "91d93b5fcec7523c8c8ddcbbc65d9b9503d61855",
     "fac76d77afe1f8868df3cb18aa54f14dc3e9b99f",
     "e0f6ff0898ee6ad4ed193c160288d7a4068e9565",
@@ -15003,6 +14999,10 @@
     "a6c09f3007ddae9c930a18adab46ef8a24961c7c",
     "7bd9fde17acb69c728a9e3473999741cb298b7df",
     "56dabe68c502de054b50bb010704da7fe157f50a",
-    "85bcb01fbcf1541e5d331a8da2c96ba141d6819a"
+    "85bcb01fbcf1541e5d331a8da2c96ba141d6819a",
+    "1801ef31096df389aa3f7866f9cf496f0227ce68",
+    "ce12a994fbc1a8d7b62ff38b105eea1ea57d5909",
+    "32365ca1e07e873f8be7273a469b2cc021da9486",
+    "16562d287340a93fccaa98205766641b9b318371"
   ]
 }
