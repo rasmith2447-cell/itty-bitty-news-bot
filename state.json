@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/hardware/gaming-pcs/holy-rampocalypse-heres-an-rtx-5070-ti-gaming-pc-with-a-load-of-ram-and-ssd-storage-all-inexplicably-at-last-years-price/",
-    "https://www.pcgamer.com/games/fighting/evo-is-dead-major-fighting-game-tournament-is-now-wholly-owned-by-saudi-megaproject-qiddiya-promises-traditions-values-and-identity-will-remain-unchanged/",
-    "https://www.ign.com/articles/beep-boop-beep-boop-new-xbox-boss-asha-sharma-hits-back-at-claim-her-social-media-account-is-run-by-ai-and-posts-her-gamertag",
-    "https://www.bluesnews.com/s/294855/zero-parades-for-dead-spies-demo",
     "https://www.bluesnews.com/s/294848/morning-patches",
     "https://www.gamespot.com/articles/assassins-creeds-future-now-in-the-hands-of-these-three-people/1100-6538352/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/02/ubisoft-appoints-new-assassins-creed-brand-leadership-team",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/07/subnautica-2-adaptive-measures-update-1-1-arrives-on-xbox-here-are-the-patch-notes",
     "https://www.videogameschronicle.com/news/former-vg247-editors-launch-new-publication-respec/",
     "https://www.videogameschronicle.com/news/hundreds-of-layoffs-confirmed-at-elder-scrolls-online-studio-as-devastating-xbox-cuts-continue/",
-    "https://www.eurogamer.net/persona-4-revival-yosuke-changes"
+    "https://www.eurogamer.net/persona-4-revival-yosuke-changes",
+    "https://www.pushsquare.com/news/2026/07/dev-accused-of-ripping-off-monster-hunter-speaks-out-says-capcoms-series-is-an-inspiration",
+    "https://www.pcgamer.com/gaming-industry/xbox-layoffs-have-likely-killed-another-perfect-dark-reboot-from-the-hollowed-out-id-software-as-well-as-a-john-wick-style-gun-fu-game/",
+    "https://www.ign.com/articles/mobland-season-2-trailer-confirms-paramount-release-date-and-a-first-look-at-the-returning-tom-hardy-but-will-he-appear-in-season-3",
+    "https://www.gematsu.com/2026/07/palworld-version-1-0-launch-trailer"
   ],
   "seen_titles": [
-    "holy rampocalypse! here's an rtx 5070 ti gaming pc with a load of ram and ssd storage, all inexplicably at last year's price",
-    "'evo is dead': major fighting game tournament is now wholly owned by saudi megaproject qiddiya, promises 'traditions, values, and identity will remain unchanged'",
-    "'beep boop beep boop': new xbox boss asha sharma hits back at claim her social media account is run by ai, and posts her gamertag",
-    "zero parades: for dead spies demo",
     "morning patches",
     "assassin's creed's future now in the hands of these three people",
     "ubisoft appoints new assassin’s creed brand leadership team",
@@ -10001,13 +9997,13 @@
     "subnautica 2 adaptive measures update 1.1 arrives on xbox, here are the patch notes",
     "former vg247 editors launch new publication, respec",
     "hundreds of layoffs confirmed at elder scrolls online studio as devastating xbox cuts continue",
-    "there are apparently going to be \"changes\" to one of persona 4 revival's most important characters, but what exactly does that mean?"
+    "there are apparently going to be \"changes\" to one of persona 4 revival's most important characters, but what exactly does that mean?",
+    "dev accused of ripping off monster hunter speaks out, says capcom's series is an 'inspiration'",
+    "xbox layoffs have likely killed another perfect dark reboot from the hollowed-out id software, as well as a john wick-style gun fu game",
+    "mobland season 2 trailer confirms paramount+ release date and a first look at the returning tom hardy — but will he appear in season 3?",
+    "palworld version 1.0 launch trailer"
   ],
   "seen_story_keys": [
-    "af25223ad52de2b2116976da0285d2d84992ca03",
-    "1366da7fe4944154879f8a2d7cb81ce55a845d7c",
-    "8be7d15327324a136ed15d221c7c8180c86539ff",
-    "123f4023ae7c7787585365333d9dffad78553e30",
     "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
     "c6fc0c7152eaaeb875e3742e83032878a616e11e",
     "00dc87e7b775c2f9b55a0cf3e6bf89df7631d2da",
@@ -15003,6 +14999,10 @@
     "acb229375d333914bed37b34ad9ef9ecedac7e9f",
     "714ffff566e7e96cbf59f54c3e3c0a2e18a49b8a",
     "71cd388a978e9d0a40c4d0f1567a080c7e96c0c6",
-    "6f2abfcb6f3340482a9e113795c79700f9f3c93c"
+    "6f2abfcb6f3340482a9e113795c79700f9f3c93c",
+    "ce5dae0913eaa60c808e9997717acd7b96946768",
+    "88a47d89920ceb19189e977719146224dcd9ef1f",
+    "40029f1cd282218f9c43fa1c260193266ba21fec",
+    "4d4ab1f0a8e64f64d3f450fc4cb0392223d6f581"
   ]
 }
