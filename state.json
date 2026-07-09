@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/life-sim/disney-dreamlight-valley-salt-location/",
-    "https://www.ign.com/articles/nintendo-announces-surprise-livestream-tomorrow-but-its-not-a-full-nintendo-direct",
     "https://www.gematsu.com/2026/02/nintendo-treehouse-live-set-for-february-24-featuring-super-mario-bros-wonder-nintendo-switch-2-edition-meetup-in-bellabel-park-and-pokemon-pokopia",
     "https://www.videogameschronicle.com/news/nintendo-announces-80-minute-treehouse-stream-showcasing-mario-wonder-switch-2-and-pokemon-pokopia/",
     "https://www.polygon.com/xbox-new-ceo-asha-sharma-gaming-profile/",
@@ -4999,11 +4997,11 @@
     "https://www.videogameschronicle.com/news/microsofts-layoffs-include-the-37-year-veteran-behind-xbox-backwards-compatibility/",
     "https://www.gematsu.com/2026/07/console-archives-rhapsody-a-musical-adventure-launches-july-9",
     "https://www.gematsu.com/2026/07/arcade-archives-hyper-crash-launches-july-9",
-    "https://www.nintendolife.com/news/2026/07/digimon-story-time-stranger-free-update-releasing-alongside-switch-versions"
+    "https://www.nintendolife.com/news/2026/07/digimon-story-time-stranger-free-update-releasing-alongside-switch-versions",
+    "https://www.eurogamer.net/mortal-shell-2-august-release-date",
+    "https://www.nintendolife.com/news/2026/07/new-strategy-rpg-brigandine-abyss-scores-a-switch-2-demo-later-this-month"
   ],
   "seen_titles": [
-    "where to find salt crystals in disney dreamlight valley",
-    "nintendo announces surprise livestream tomorrow, but it's not a full nintendo direct",
     "nintendo treehouse: live set for february 24 featuring super mario bros. wonder – nintendo switch 2 edition + meetup in bellabel park and pokemon pokopia",
     "nintendo announces 80-minute treehouse stream showcasing mario wonder switch 2 and pokémon pokopia",
     "new xbox ceo is under fire for her brief gaming history",
@@ -10001,11 +9999,11 @@
     "microsoft’s layoffs include the 37-year veteran behind xbox backwards compatibility",
     "console archives rhapsody: a musical adventure launches july 9",
     "arcade archives hyper crash launches july 9",
-    "digimon story time stranger free update releasing alongside switch versions"
+    "digimon story time stranger free update releasing alongside switch versions",
+    "brutal soulslike mortal shell 2 chooses violence, sets release date in the 2026 august traffic jam",
+    "new strategy rpg brigandine: abyss scores a switch 2 demo later this month"
   ],
   "seen_story_keys": [
-    "88bd66ba4475ca365851fccebc2cc219d32b525a",
-    "bed7915fa35b10448e0def502b4cf46a592d5fde",
     "0da4e75804e8fdd6b9f1b3833f0b1fb68d62eb4a",
     "04f97a56d24bc480a42f3bc14b0a61341c9ef66c",
     "a111470cb711185a8f9c737755045b676b5feed1",
@@ -15003,6 +15001,8 @@
     "0c581ef97523a041005ef381230627c66060ade6",
     "4b4a4f6bb095325ab85ccbd4f08b96142f781a00",
     "1558b693e9fd0103dc12079fe85a5483372467b2",
-    "fc74c2701836c222aea1db9ff4296fb34951765e"
+    "fc74c2701836c222aea1db9ff4296fb34951765e",
+    "c5ea12c5322c725299bf9ef00eeea0b5ba3da321",
+    "57464b9015bfbc58c7140693fb6012a88eac4b4f"
   ]
 }
