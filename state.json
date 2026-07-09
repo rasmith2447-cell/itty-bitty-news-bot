@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-may-have-a-major-unannounced-character/1100-6538348/?ftag=CAD-01-10abi2f",
-    "https://www.pcgamer.com/games/sports/the-denshattack-demo-sees-you-kickflipping-grinding-and-joyriding-a-ferris-wheel-into-an-active-volcano-on-the-worlds-most-tubular-commute/",
     "https://www.ign.com/articles/outlanders-caitrona-balfe-on-saying-goodbye-to-claire-and-jamie-their-last-day-on-set-and-the-shows-legacy",
     "https://www.pcgamer.com/games/life-sim/disney-dreamlight-valley-salt-location/",
     "https://www.ign.com/articles/nintendo-announces-surprise-livestream-tomorrow-but-its-not-a-full-nintendo-direct",
@@ -4999,11 +4997,11 @@
     "https://www.videogameschronicle.com/news/fired-marathon-director-says-hes-settled-a-lawsuit-with-sony-and-been-inserted-into-the-credits/",
     "https://www.nintendolife.com/news/2026/07/switch-online-subscriber-delivery-from-nintendo-store-is-now-practically-free-europe",
     "https://www.pushsquare.com/news/2026/07/this-cozy-horror-puzzle-game-is-creeping-to-ps5-later-this-year",
-    "https://www.videogameschronicle.com/news/microsofts-layoffs-include-the-37-year-veteran-behind-xbox-backwards-compatibility/"
+    "https://www.videogameschronicle.com/news/microsofts-layoffs-include-the-37-year-veteran-behind-xbox-backwards-compatibility/",
+    "https://www.gematsu.com/2026/07/console-archives-rhapsody-a-musical-adventure-launches-july-9",
+    "https://www.gematsu.com/2026/07/arcade-archives-hyper-crash-launches-july-9"
   ],
   "seen_titles": [
-    "the super mario galaxy movie may have a major unannounced character",
-    "the denshattack! demo sees you kickflipping, grinding, and joyriding a ferris wheel into an active volcano on the world's most tubular commute",
     "outlander's caitríona balfe on saying goodbye to claire and jamie, their last day on set and the show's legacy",
     "where to find salt crystals in disney dreamlight valley",
     "nintendo announces surprise livestream tomorrow, but it's not a full nintendo direct",
@@ -10001,11 +9999,11 @@
     "fired marathon director says he’s settled a lawsuit with sony and been inserted into the credits",
     "switch online subscriber? delivery from nintendo store is now practically free (europe)",
     "this cozy horror puzzle game is creeping to ps5 later this year",
-    "microsoft’s layoffs include the 37-year veteran behind xbox backwards compatibility"
+    "microsoft’s layoffs include the 37-year veteran behind xbox backwards compatibility",
+    "console archives rhapsody: a musical adventure launches july 9",
+    "arcade archives hyper crash launches july 9"
   ],
   "seen_story_keys": [
-    "86306eab44a61424e0c362adb5db6097f67dcb24",
-    "fd5a0e49440344371f9f4d5b584075c228a08815",
     "4df3d36e2ec2f290173cef9d41bb23471052f8a7",
     "88bd66ba4475ca365851fccebc2cc219d32b525a",
     "bed7915fa35b10448e0def502b4cf46a592d5fde",
@@ -15003,6 +15001,8 @@
     "5081993de7943bfa839737424c61b4918a963e94",
     "e25ad22cd74e7750fdcabb028b84b60be011f216",
     "29cf5295b5e23ffff63fe906f262b7402cca9f2c",
-    "0c581ef97523a041005ef381230627c66060ade6"
+    "0c581ef97523a041005ef381230627c66060ade6",
+    "4b4a4f6bb095325ab85ccbd4f08b96142f781a00",
+    "1558b693e9fd0103dc12079fe85a5483372467b2"
   ]
 }
