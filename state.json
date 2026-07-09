@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/golf-game-that-lets-you-run-down-friends-with-carts-is-seeing-fast-success-on-steam/1100-6538359/?ftag=CAD-01-10abi2f",
-    "https://www.nintendolife.com/news/2026/02/super-mario-galaxy-movie-description-straight-up-spoils-an-unannounced-character",
-    "https://www.gamespot.com/articles/xboxs-matt-booty-says-no-organizational-changes-are-coming-after-big-shakeup/1100-6538362/?ftag=CAD-01-10abi2f",
-    "https://www.gamespot.com/articles/bungie-pledges-to-permanently-ban-marathon-cheaters/1100-6538363/?ftag=CAD-01-10abi2f",
     "https://www.polygon.com/arc-raiders-shrouded-sky-update-patch-notes/",
     "https://www.gamespot.com/articles/new-arc-raiders-update-is-the-hairiest-one-yet/1100-6538365/?ftag=CAD-01-10abi2f",
     "https://www.ign.com/articles/no-second-chances-bungie-issues-warning-to-would-be-cheaters-ahead-of-marathon-launch",
@@ -4999,13 +4995,13 @@
     "https://www.rockpapershotgun.com/we-were-already-running-a-tight-ship-elder-scrolls-6-devs-are-worried-about-xboxs-layoffs-causing-even-more-delays-to-the-long-awaited-rpg",
     "https://www.gematsu.com/2026/07/fright-train-launches-september-15",
     "https://www.eurogamer.net/elder-scrolls-6-morale-bethesda-xbox-layoffs",
-    "https://www.gematsu.com/2026/07/prelude-dark-pain-launches-in-early-access-on-july-27"
+    "https://www.gematsu.com/2026/07/prelude-dark-pain-launches-in-early-access-on-july-27",
+    "https://www.gematsu.com/2026/07/once-human-for-ps5-xbox-series-launches-august-25",
+    "https://www.gematsu.com/2026/07/the-guild-europa-1410-early-access-delayed-to-september",
+    "https://www.purexbox.com/news/2026/07/mouse-p-i-for-hires-biggest-update-yet-lands-on-xbox-here-are-the-patch-notes",
+    "https://www.rockpapershotgun.com/hooded-horses-new-strategy-game-rogue-carrier-has-you-captaining-a-research-ship-on-a-planet-where-the-seas-boil-with-violent-squid"
   ],
   "seen_titles": [
-    "golf game that lets you run down friends with carts is seeing fast success on steam",
-    "super mario galaxy movie description straight up spoils an unannounced character",
-    "xbox's matt booty says \"no organizational changes\" are coming after big shakeup",
-    "bungie pledges to permanently ban marathon cheaters",
     "shrouded sky update gives arc raiders two new arc threats, including flamethrower drone",
     "new arc raiders update is the hairiest one yet",
     "'no second chances' — bungie issues warning to would-be cheaters ahead of marathon launch",
@@ -10001,13 +9997,13 @@
     "\"we were already running a tight ship\": elder scrolls 6 devs are worried about xbox's layoffs causing even more delays to the long-awaited rpg",
     "fright train launches september 15",
     "even the elder scrolls 6 is affected by xbox layoffs, say bethesda employees, as \"key\" people are let go and morale bottoms out",
-    "prelude: dark pain launches in early access on july 27"
+    "prelude: dark pain launches in early access on july 27",
+    "once human for ps5, xbox series launches august 25",
+    "the guild: europa 1410 early access delayed to september",
+    "mouse: p.i for hire's 'biggest update yet' lands on xbox, here are the patch notes",
+    "hooded horse’s new strategy game rogue carrier has you captaining a research ship on a planet where the seas boil with violent squid"
   ],
   "seen_story_keys": [
-    "5981c69ae84861e5b3a9a9fa89d4f88a3d3101da",
-    "da9b98c0850f6267b728d3d296326a49d90878c0",
-    "387aea4186d4b9aa7bcefec7fbc30cf9d8aa4f02",
-    "816b0e351eb1f6d686958e0c0450418fef8524a4",
     "571980e3ad0b2292f5baaae7524e933afe42d2d8",
     "c991dadf3b314f7fe9c16b8f88e7be94017125d1",
     "a4333c90320456f7bea60e0fc620de0621da12cd",
@@ -15003,6 +14999,10 @@
     "e2acab50a53cb61736ffaa4b8d107ecb3bd33d98",
     "c3aba60935c6bdff96e673f09f8cb80ab35f704f",
     "95ef18fceb5da36088304d901f648b053ce8e94b",
-    "dd7d42067121655931504ef1616c04751eeb13c5"
+    "dd7d42067121655931504ef1616c04751eeb13c5",
+    "a6c09f3007ddae9c930a18adab46ef8a24961c7c",
+    "7bd9fde17acb69c728a9e3473999741cb298b7df",
+    "56dabe68c502de054b50bb010704da7fe157f50a",
+    "85bcb01fbcf1541e5d331a8da2c96ba141d6819a"
   ]
 }
