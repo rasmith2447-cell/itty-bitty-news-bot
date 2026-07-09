@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294848/morning-patches",
-    "https://www.gamespot.com/articles/assassins-creeds-future-now-in-the-hands-of-these-three-people/1100-6538352/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/02/ubisoft-appoints-new-assassins-creed-brand-leadership-team",
-    "https://www.pcgamer.com/gaming-industry/kraftons-new-chief-ai-officer-says-the-company-uses-ai-as-a-tool-to-amplify-human-imagination-and-creativity-not-replace-it-3-months-after-it-announced-a-hiring-freeze-and-launched-a-voluntary-resignation-programme/",
     "https://www.gematsu.com/2026/02/under-par-golf-architect-launches-april-16-for-ps5-xbox-series-switch-2-and-pc",
     "https://www.pcgamer.com/games/mmo/15-years-after-it-was-shut-down-star-wars-galaxies-is-still-getting-massive-updates-thanks-to-this-restoration-project-like-a-helldivers-style-galactic-civil-war/",
     "https://www.ign.com/articles/new-assassins-creed-leadership-team-announced-by-ubisoft-subsidiary-vantage-studios",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/07/dev-accused-of-ripping-off-monster-hunter-speaks-out-says-capcoms-series-is-an-inspiration",
     "https://www.pcgamer.com/gaming-industry/xbox-layoffs-have-likely-killed-another-perfect-dark-reboot-from-the-hollowed-out-id-software-as-well-as-a-john-wick-style-gun-fu-game/",
     "https://www.ign.com/articles/mobland-season-2-trailer-confirms-paramount-release-date-and-a-first-look-at-the-returning-tom-hardy-but-will-he-appear-in-season-3",
-    "https://www.gematsu.com/2026/07/palworld-version-1-0-launch-trailer"
+    "https://www.gematsu.com/2026/07/palworld-version-1-0-launch-trailer",
+    "https://www.pushsquare.com/news/2026/07/its-time-to-see-if-disgaeas-action-rpg-spin-off-holds-up-in-ps5-demo-out-now",
+    "https://gamerant.com/ubisoft-barcelona-layoffs/",
+    "https://www.polygon.com/tes6-the-elder-scrolls-6-release-date-delay-xbox-bethesda-layoffs/",
+    "https://www.gematsu.com/2026/07/montabi-adds-switch-2-switch-versions"
   ],
   "seen_titles": [
-    "morning patches",
-    "assassin's creed's future now in the hands of these three people",
-    "ubisoft appoints new assassin’s creed brand leadership team",
-    "krafton's new chief ai officer says the company 'uses ai as a tool to amplify human imagination and creativity, not replace it' 3 months after it announced a hiring freeze and launched a voluntary resignation programme",
     "under par golf architect launches april 16 for ps5, xbox series, switch 2, and pc",
     "15 years after it was shut down, star wars galaxies is still getting massive updates thanks to this restoration project—like a helldivers-style galactic civil war",
     "new assassin's creed leadership team announced by ubisoft subsidiary vantage studios",
@@ -10001,13 +9997,13 @@
     "dev accused of ripping off monster hunter speaks out, says capcom's series is an 'inspiration'",
     "xbox layoffs have likely killed another perfect dark reboot from the hollowed-out id software, as well as a john wick-style gun fu game",
     "mobland season 2 trailer confirms paramount+ release date and a first look at the returning tom hardy — but will he appear in season 3?",
-    "palworld version 1.0 launch trailer"
+    "palworld version 1.0 launch trailer",
+    "it's time to see if disgaea's action rpg spin-off holds up in ps5 demo, out now",
+    "ubisoft barcelona hit with layoffs after assassin's creed black flag resynced launch",
+    "xbox has put the elder scrolls 6 in jeopardy, devs working on rpg say",
+    "montabi adds switch 2, switch versions"
   ],
   "seen_story_keys": [
-    "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
-    "c6fc0c7152eaaeb875e3742e83032878a616e11e",
-    "00dc87e7b775c2f9b55a0cf3e6bf89df7631d2da",
-    "2864f69075a225977bf6467e0f15e174623e0ae5",
     "14955fa4731cc4d85c5d345d5e5f523f948050d2",
     "7ad01d86f4e511110082a83bb2a1d8b5cdf15231",
     "a5890efc02c1a74333f2e29543b331645106fd1c",
@@ -15003,6 +14999,10 @@
     "ce5dae0913eaa60c808e9997717acd7b96946768",
     "88a47d89920ceb19189e977719146224dcd9ef1f",
     "40029f1cd282218f9c43fa1c260193266ba21fec",
-    "4d4ab1f0a8e64f64d3f450fc4cb0392223d6f581"
+    "4d4ab1f0a8e64f64d3f450fc4cb0392223d6f581",
+    "d61d322a6f409c4b4decc0e2ef0ab3aa58384036",
+    "574816b265d3eb1e402048ba67ff89a2f6fcd2c4",
+    "c5f5656b8f745093deccd720bb8095d02a0f3d52",
+    "ad58aa9b91d7f7abb5016ac805091d8ac159e465"
   ]
 }
