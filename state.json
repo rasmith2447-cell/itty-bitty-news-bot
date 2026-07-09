@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/02/under-par-golf-architect-launches-april-16-for-ps5-xbox-series-switch-2-and-pc",
-    "https://www.pcgamer.com/games/mmo/15-years-after-it-was-shut-down-star-wars-galaxies-is-still-getting-massive-updates-thanks-to-this-restoration-project-like-a-helldivers-style-galactic-civil-war/",
-    "https://www.ign.com/articles/new-assassins-creed-leadership-team-announced-by-ubisoft-subsidiary-vantage-studios",
-    "https://www.ign.com/articles/the-magic-of-disney-animation-at-walt-disney-world-will-feature-an-audio-animatronics-figure-of-olaf-teaching-you-how-to-draw",
     "https://www.gamespot.com/articles/golf-game-that-lets-you-run-down-friends-with-carts-is-seeing-fast-success-on-steam/1100-6538359/?ftag=CAD-01-10abi2f",
     "https://www.nintendolife.com/news/2026/02/super-mario-galaxy-movie-description-straight-up-spoils-an-unannounced-character",
     "https://www.gamespot.com/articles/xboxs-matt-booty-says-no-organizational-changes-are-coming-after-big-shakeup/1100-6538362/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/07/its-time-to-see-if-disgaeas-action-rpg-spin-off-holds-up-in-ps5-demo-out-now",
     "https://gamerant.com/ubisoft-barcelona-layoffs/",
     "https://www.polygon.com/tes6-the-elder-scrolls-6-release-date-delay-xbox-bethesda-layoffs/",
-    "https://www.gematsu.com/2026/07/montabi-adds-switch-2-switch-versions"
+    "https://www.gematsu.com/2026/07/montabi-adds-switch-2-switch-versions",
+    "https://www.rockpapershotgun.com/we-were-already-running-a-tight-ship-elder-scrolls-6-devs-are-worried-about-xboxs-layoffs-causing-even-more-delays-to-the-long-awaited-rpg",
+    "https://www.gematsu.com/2026/07/fright-train-launches-september-15",
+    "https://www.eurogamer.net/elder-scrolls-6-morale-bethesda-xbox-layoffs",
+    "https://www.gematsu.com/2026/07/prelude-dark-pain-launches-in-early-access-on-july-27"
   ],
   "seen_titles": [
-    "under par golf architect launches april 16 for ps5, xbox series, switch 2, and pc",
-    "15 years after it was shut down, star wars galaxies is still getting massive updates thanks to this restoration project—like a helldivers-style galactic civil war",
-    "new assassin's creed leadership team announced by ubisoft subsidiary vantage studios",
-    "the magic of disney animation at walt disney world will feature an audio-animatronics figure of olaf teaching you how to draw",
     "golf game that lets you run down friends with carts is seeing fast success on steam",
     "super mario galaxy movie description straight up spoils an unannounced character",
     "xbox's matt booty says \"no organizational changes\" are coming after big shakeup",
@@ -10001,13 +9997,13 @@
     "it's time to see if disgaea's action rpg spin-off holds up in ps5 demo, out now",
     "ubisoft barcelona hit with layoffs after assassin's creed black flag resynced launch",
     "xbox has put the elder scrolls 6 in jeopardy, devs working on rpg say",
-    "montabi adds switch 2, switch versions"
+    "montabi adds switch 2, switch versions",
+    "\"we were already running a tight ship\": elder scrolls 6 devs are worried about xbox's layoffs causing even more delays to the long-awaited rpg",
+    "fright train launches september 15",
+    "even the elder scrolls 6 is affected by xbox layoffs, say bethesda employees, as \"key\" people are let go and morale bottoms out",
+    "prelude: dark pain launches in early access on july 27"
   ],
   "seen_story_keys": [
-    "14955fa4731cc4d85c5d345d5e5f523f948050d2",
-    "7ad01d86f4e511110082a83bb2a1d8b5cdf15231",
-    "a5890efc02c1a74333f2e29543b331645106fd1c",
-    "662ae18767aa72cf8fc44df165bc2ec5440ab6bd",
     "5981c69ae84861e5b3a9a9fa89d4f88a3d3101da",
     "da9b98c0850f6267b728d3d296326a49d90878c0",
     "387aea4186d4b9aa7bcefec7fbc30cf9d8aa4f02",
@@ -15003,6 +14999,10 @@
     "d61d322a6f409c4b4decc0e2ef0ab3aa58384036",
     "574816b265d3eb1e402048ba67ff89a2f6fcd2c4",
     "c5f5656b8f745093deccd720bb8095d02a0f3d52",
-    "ad58aa9b91d7f7abb5016ac805091d8ac159e465"
+    "ad58aa9b91d7f7abb5016ac805091d8ac159e465",
+    "e2acab50a53cb61736ffaa4b8d107ecb3bd33d98",
+    "c3aba60935c6bdff96e673f09f8cb80ab35f704f",
+    "95ef18fceb5da36088304d901f648b053ce8e94b",
+    "dd7d42067121655931504ef1616c04751eeb13c5"
   ]
 }
