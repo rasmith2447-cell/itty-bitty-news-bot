@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/02/nintendo-treehouse-live-set-for-february-24-featuring-super-mario-bros-wonder-nintendo-switch-2-edition-meetup-in-bellabel-park-and-pokemon-pokopia",
-    "https://www.videogameschronicle.com/news/nintendo-announces-80-minute-treehouse-stream-showcasing-mario-wonder-switch-2-and-pokemon-pokopia/",
-    "https://www.polygon.com/xbox-new-ceo-asha-sharma-gaming-profile/",
-    "https://www.gematsu.com/2026/02/panzer-dragoon-ii-zwei-remake-demo-now-available-for-pc",
     "https://www.pcgamer.com/hardware/gaming-pcs/holy-rampocalypse-heres-an-rtx-5070-ti-gaming-pc-with-a-load-of-ram-and-ssd-storage-all-inexplicably-at-last-years-price/",
     "https://www.pcgamer.com/games/fighting/evo-is-dead-major-fighting-game-tournament-is-now-wholly-owned-by-saudi-megaproject-qiddiya-promises-traditions-values-and-identity-will-remain-unchanged/",
     "https://www.ign.com/articles/beep-boop-beep-boop-new-xbox-boss-asha-sharma-hits-back-at-claim-her-social-media-account-is-run-by-ai-and-posts-her-gamertag",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/arcade-archives-hyper-crash-launches-july-9",
     "https://www.nintendolife.com/news/2026/07/digimon-story-time-stranger-free-update-releasing-alongside-switch-versions",
     "https://www.eurogamer.net/mortal-shell-2-august-release-date",
-    "https://www.nintendolife.com/news/2026/07/new-strategy-rpg-brigandine-abyss-scores-a-switch-2-demo-later-this-month"
+    "https://www.nintendolife.com/news/2026/07/new-strategy-rpg-brigandine-abyss-scores-a-switch-2-demo-later-this-month",
+    "https://www.purexbox.com/news/2026/07/subnautica-2-adaptive-measures-update-1-1-arrives-on-xbox-here-are-the-patch-notes",
+    "https://www.videogameschronicle.com/news/former-vg247-editors-launch-new-publication-respec/",
+    "https://www.videogameschronicle.com/news/hundreds-of-layoffs-confirmed-at-elder-scrolls-online-studio-as-devastating-xbox-cuts-continue/",
+    "https://www.eurogamer.net/persona-4-revival-yosuke-changes"
   ],
   "seen_titles": [
-    "nintendo treehouse: live set for february 24 featuring super mario bros. wonder – nintendo switch 2 edition + meetup in bellabel park and pokemon pokopia",
-    "nintendo announces 80-minute treehouse stream showcasing mario wonder switch 2 and pokémon pokopia",
-    "new xbox ceo is under fire for her brief gaming history",
-    "panzer dragoon ii zwei: remake demo now available for pc",
     "holy rampocalypse! here's an rtx 5070 ti gaming pc with a load of ram and ssd storage, all inexplicably at last year's price",
     "'evo is dead': major fighting game tournament is now wholly owned by saudi megaproject qiddiya, promises 'traditions, values, and identity will remain unchanged'",
     "'beep boop beep boop': new xbox boss asha sharma hits back at claim her social media account is run by ai, and posts her gamertag",
@@ -10001,13 +9997,13 @@
     "arcade archives hyper crash launches july 9",
     "digimon story time stranger free update releasing alongside switch versions",
     "brutal soulslike mortal shell 2 chooses violence, sets release date in the 2026 august traffic jam",
-    "new strategy rpg brigandine: abyss scores a switch 2 demo later this month"
+    "new strategy rpg brigandine: abyss scores a switch 2 demo later this month",
+    "subnautica 2 adaptive measures update 1.1 arrives on xbox, here are the patch notes",
+    "former vg247 editors launch new publication, respec",
+    "hundreds of layoffs confirmed at elder scrolls online studio as devastating xbox cuts continue",
+    "there are apparently going to be \"changes\" to one of persona 4 revival's most important characters, but what exactly does that mean?"
   ],
   "seen_story_keys": [
-    "0da4e75804e8fdd6b9f1b3833f0b1fb68d62eb4a",
-    "04f97a56d24bc480a42f3bc14b0a61341c9ef66c",
-    "a111470cb711185a8f9c737755045b676b5feed1",
-    "322504309936f51fbb72af0a7caa8be1dc0200f8",
     "af25223ad52de2b2116976da0285d2d84992ca03",
     "1366da7fe4944154879f8a2d7cb81ce55a845d7c",
     "8be7d15327324a136ed15d221c7c8180c86539ff",
@@ -15003,6 +14999,10 @@
     "1558b693e9fd0103dc12079fe85a5483372467b2",
     "fc74c2701836c222aea1db9ff4296fb34951765e",
     "c5ea12c5322c725299bf9ef00eeea0b5ba3da321",
-    "57464b9015bfbc58c7140693fb6012a88eac4b4f"
+    "57464b9015bfbc58c7140693fb6012a88eac4b4f",
+    "acb229375d333914bed37b34ad9ef9ecedac7e9f",
+    "714ffff566e7e96cbf59f54c3e3c0a2e18a49b8a",
+    "71cd388a978e9d0a40c4d0f1567a080c7e96c0c6",
+    "6f2abfcb6f3340482a9e113795c79700f9f3c93c"
   ]
 }
