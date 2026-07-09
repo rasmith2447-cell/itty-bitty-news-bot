@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/xbox-co-founder-believes-its-being-sunsetted-in-favour-of-ai-calls-new-ceo-a-palliative-care-doctor/",
-    "https://www.pcgamer.com/games/third-person-shooter/rejoice-arc-raiders-is-getting-beards/",
     "https://www.gamespot.com/articles/007-first-light-aims-to-channel-batman-arkham-freeflow-combat-with-uncharted-spectacle/1100-6538356/?ftag=CAD-01-10abi2f",
     "https://www.polygon.com/rocket-league-boost-timer-controversy/",
     "https://www.ign.com/articles/4-standout-indieio-games-taking-part-in-steam-next-fest",
@@ -4999,11 +4997,11 @@
     "https://gamerant.com/ac-black-flag-resynced-steam-player-count/",
     "https://www.pcgamer.com/gaming-industry/us-federal-reserve-taps-xbox-ceo-asha-sharma-who-just-laid-off-3-200-employees-to-lead-task-force-on-jobs/",
     "https://www.nintendolife.com/news/2026/07/deltarune-chapter-5-update-arrives-on-switch-1-and-2-soon-here-are-the-full-patch-notes",
-    "https://www.pushsquare.com/news/2026/07/digimon-story-time-stranger-60fps-patch-out-now-on-ps5-adds-photo-mode-and-more"
+    "https://www.pushsquare.com/news/2026/07/digimon-story-time-stranger-60fps-patch-out-now-on-ps5-adds-photo-mode-and-more",
+    "https://www.ign.com/articles/naruto-live-action-movie-global-casting-search",
+    "https://www.pcgamer.com/games/rpg/echoes-of-aincrad-release-date-launch-times/"
   ],
   "seen_titles": [
-    "xbox co-founder believes it’s being ‘sunsetted’ in favour of ai, calls new ceo ‘a palliative care doctor’",
-    "rejoice: arc raiders is getting beards",
     "007: first light aims to channel batman: arkham freeflow combat with uncharted spectacle",
     "rocket league teases new 'boost timer' feature, players crash out",
     "4 standout indie.io games taking part in steam next fest",
@@ -10001,11 +9999,11 @@
     "assassin's creed black flag resynced just broke a steam record",
     "us federal reserve taps xbox ceo asha sharma, who just laid off 3,200 employees, to lead task force on jobs",
     "deltarune chapter 5 update arrives on switch 1 & 2 soon, here are the full patch notes",
-    "digimon story time stranger 60fps patch out now on ps5, adds photo mode and more"
+    "digimon story time stranger 60fps patch out now on ps5, adds photo mode and more",
+    "naruto live-action movie director, studio launch worldwide casting search for lead roles",
+    "echoes of aincrad release date and launch times"
   ],
   "seen_story_keys": [
-    "91d93b5fcec7523c8c8ddcbbc65d9b9503d61855",
-    "fac76d77afe1f8868df3cb18aa54f14dc3e9b99f",
     "e0f6ff0898ee6ad4ed193c160288d7a4068e9565",
     "0df3c82a0dccdd0a536367de6a71612e909f603a",
     "a65cb57eaeffabb2e00f960a1d673989bb9636bb",
@@ -15003,6 +15001,8 @@
     "1801ef31096df389aa3f7866f9cf496f0227ce68",
     "ce12a994fbc1a8d7b62ff38b105eea1ea57d5909",
     "32365ca1e07e873f8be7273a469b2cc021da9486",
-    "16562d287340a93fccaa98205766641b9b318371"
+    "16562d287340a93fccaa98205766641b9b318371",
+    "650f682a712bdd7ff0e1a336ee3317e6cf2b2d18",
+    "11827b1fae144852e84606fdd1da8ed53cd506e9"
   ]
 }
