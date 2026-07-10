@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/marathon-xbox-exclusive-rewards-revealed-ahead-of-open-beta/1100-6538385/?ftag=CAD-01-10abi2f",
-    "https://www.pcgamer.com/gaming-industry/the-maker-of-prototype-and-simpsons-hit-and-run-returns-from-the-grave-just-months-after-an-out-of-the-blue-update-broke-prototypes-mods-and-added-mysterious-new-credits/",
-    "https://www.gematsu.com/2026/02/teenage-mutant-ninja-turtles-splintered-fate-dlc-character-alopex-now-available-alongside-free-update",
-    "https://www.gamespot.com/articles/star-wars-galactic-racer-dev-says-racing-genre-is-crying-out-for-fresh-ideas/1100-6538382/?ftag=CAD-01-10abi2f",
     "https://www.polygon.com/marvel-wolverine-game-release-date-ps5-insomniac-sony/",
     "https://www.gematsu.com/2026/02/marvels-wolverine-launches-september-15",
     "https://www.gamespot.com/articles/marvels-wolverine-for-ps5-gets-september-release-date/1100-6538393/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/gaming-industry/microsoft-responds-to-racist-xbox-layoff-conspiracy-theory-says-ceo-asha-sharma-is-american-born-raised-and-educated/",
     "https://www.ign.com/articles/god-of-war-laufey-physical-disc-release-confirmed-suggesting-2027-launch",
     "https://www.polygon.com/id-software-layoffs-statement-doom-quake-idtech/",
-    "https://www.purexbox.com/news/2026/07/doom-developer-addresses-concerned-fans-with-message-about-xbox-layoffs"
+    "https://www.purexbox.com/news/2026/07/doom-developer-addresses-concerned-fans-with-message-about-xbox-layoffs",
+    "https://gamerant.com/santa-monica-update-god-war-gow-laufey-release-date-2027/",
+    "https://www.polygon.com/gta-online-kortz-center-heist-new-dlc-update-release-rockstar-games/",
+    "https://www.polygon.com/final-fantasy-14-berlin-fan-fest-2026-what-to-expect-how-to-watch/",
+    "https://www.ign.com/articles/id-software-issues-statement-following-xbox-layoffs-says-its-back-to-the-size-it-was-when-it-made-2016s-doom"
   ],
   "seen_titles": [
-    "marathon xbox-exclusive rewards revealed ahead of open beta, and they look like minecraft trinkets",
-    "the maker of prototype and simpsons: hit and run returns from the grave just months after an out-of-the-blue update broke prototype's mods and added mysterious new credits",
-    "teenage mutant ninja turtles: splintered fate dlc character alopex now available alongside free update",
-    "star wars: galactic racer dev says racing genre is \"crying out\" for fresh ideas",
     "marvel's wolverine finally gets release date for ps5",
     "marvel’s wolverine launches september 15",
     "marvel's wolverine for ps5 gets september release date",
@@ -10001,13 +9997,13 @@
     "microsoft responds to racist xbox layoff conspiracy theory, says ceo asha sharma is 'american born, raised, and educated'",
     "god of war laufey physical disc release confirmed, suggesting 2027 launch",
     "doom studio id software responds to xbox layoffs reports",
-    "doom developer addresses concerned fans with message about xbox layoffs"
+    "doom developer addresses concerned fans with message about xbox layoffs",
+    "santa monica gives official update on god of war laufey release date",
+    "gta online's kortz center heist gets release date, first details",
+    "ff14 july fan fest schedule revealed ahead of evercold expansion",
+    "id software issues statement following xbox layoffs, says it's back to the size it was when it made 2016's doom"
   ],
   "seen_story_keys": [
-    "9e3b8f1a02c556f1f6ca297f25e57e849a102741",
-    "92e53f34000a8a764d413427d7e1cfd8f8e061b0",
-    "873f6d774e3efa7463c72ed4ad72c61c76f2ce1a",
-    "b38538af3f3d0ae2972c309dc9fe412be39e06b9",
     "c5fce10be7ce36d83e893975332524938a1d45a3",
     "2165d5190bcba5fb328707f84a20ca0026ec428c",
     "4339b858de2bf64c67479df09ce9d501021177ad",
@@ -15003,6 +14999,10 @@
     "4c976b7513d2e9a3ae6857b1e1353c462f03fd4d",
     "49c35428c2001ec3534f421370827cc7d84d7db1",
     "141f3df06e2ff3e8536511a2d4ed2f706b470320",
-    "6e01d0afb087a38c5cc4627abe1a78e44ae070b7"
+    "6e01d0afb087a38c5cc4627abe1a78e44ae070b7",
+    "2d5a917499b8b8eb8a8abf5792a99d64cd7ee4fd",
+    "7ab1bd4e352396b6f4f74aa15dc51f60f145ad13",
+    "e328ca19b785ca514143a6059c483e6c4b49484f",
+    "a4d60df78d526d188f1dd9e5e0beb9dd798625f7"
   ]
 }
