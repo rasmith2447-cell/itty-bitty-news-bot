@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/this-is-an-xbox-campaign-offended-many-xbox-employees-report-claims",
-    "https://www.polygon.com/kpop-demon-hunter-criterion-collection-release-date/",
-    "https://www.polygon.com/olympics-alysa-liu-fortnite-skin/",
-    "https://www.pcgamer.com/games/action/this-bloody-medieval-carve-em-up-has-me-praying-the-devs-deliver-a-holy-gaming-experience/",
     "https://www.bluesnews.com/s/294846/morning-interviews",
     "https://www.ign.com/articles/netflixs-wednesday-adds-winona-ryder-for-season-3-reuniting-her-with-tim-burton-once-again",
     "https://www.gamespot.com/articles/future-diablo-games-may-release-faster-than-they-have-in-the-past/1100-6538366/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/to-continue-being-produced-long-term-games-need-to-succeed-not-just-be-beloved-john-carmack-responds-to-id-software-layoffs",
     "https://www.gematsu.com/2026/07/no-case-should-remain-unsolved-for-ps5-launches-august-19",
     "https://www.nintendolife.com/news/2026/07/stardew-valley-official-crochet-book-announced-out-january-2027",
-    "https://www.gamesindustry.biz/layoffs-begin-at-ubisoft-barcelona-following-assassins-creed-black-flag-resynced-launch"
+    "https://www.gamesindustry.biz/layoffs-begin-at-ubisoft-barcelona-following-assassins-creed-black-flag-resynced-launch",
+    "https://www.eurogamer.net/xbox-layoffs-id-software-john-carmack",
+    "https://gamerant.com/transformers-studio-series-generation-1-seeker-storm-pack-pre-orders/",
+    "https://www.pushsquare.com/news/2026/07/assassins-creed-black-flag-remake-studio-faced-with-layoffs-despite-successful-launch",
+    "https://www.rockpapershotgun.com/id-software-co-founder-john-carmack-cant-muster-anger-or-outrage-over-xbox-gutting-the-doom-studio-but-does-say-itll-dampen-the-mood-of-the-founder-reunion"
   ],
   "seen_titles": [
-    "'this is an xbox' campaign offended many xbox employees, report claims",
-    "kpop demon hunters gets a criterion collection edition, saving it from netflix jail",
-    "fortnite fan and olympian alysa liu wants her own skin in the game",
-    "this bloody medieval carve-'em-up has me praying the devs deliver a holy gaming experience",
     "morning interviews",
     "netflix's wednesday adds winona ryder for season 3, reuniting her with tim burton once again",
     "future diablo games may release faster than they have in the past",
@@ -10001,13 +9997,13 @@
     "'to continue being produced long term, games need to succeed, not just be beloved' — john carmack responds to id software layoffs",
     "no case should remain unsolved for ps5 launches august 19",
     "stardew valley official crochet book announced, out january 2027",
-    "layoffs begin at ubisoft barcelona following assassin's creed black flag resynced launch"
+    "layoffs begin at ubisoft barcelona following assassin's creed black flag resynced launch",
+    "\"my 'microsoft will probably be a good steward of the brand' statement isn't aging well\" - id software co-founder john carmack speaks out after devastating xbox layoffs",
+    "hasbro reveals a first-of-its-kind transformers multipack [exclusive]",
+    "assassin's creed black flag remake studio faced with layoffs despite successful launch",
+    "id software co-founder john carmack \"can’t muster anger or outrage\" over xbox gutting the doom studio, but does say it'll \"dampen the mood of the founder reunion\""
   ],
   "seen_story_keys": [
-    "2d65f15ae17cad61331ec283cb8e6e2bb001a5e5",
-    "c5312df3b5a60ecfba0d36edad18d0867c4296e2",
-    "1b46e62d2606a11f5fc480d8de580ce25d6a1755",
-    "c43cb4c42d12cd4f12a8f7582fd95ed521356b7b",
     "99f4415062d30ba57aaaadd6a593b4211f4f34d8",
     "d769c6ad2ad5bfdca8bc305a3de1a5e65ac05b6b",
     "736a7fbad07d5d6c2feb652e7a6446e4afeddfdc",
@@ -15003,6 +14999,10 @@
     "3078f0379693e7ccd51ed427ead681cf176881fa",
     "54b3cbed06cd9dc2f6c1d27eb7a90b4b6b9ca7ee",
     "aa13dcf915a92b528ff0d24de5a21a29d86abe18",
-    "14bc5d2f09650ae3ee26ee1bb026440302824105"
+    "14bc5d2f09650ae3ee26ee1bb026440302824105",
+    "517f89ae29d4eac689ffd37fa3350ec9c5a18fe3",
+    "c49ce171579a1bd4cd9b70ff410ee967fac86abc",
+    "2d5e95460e1608925d7908dde8277071e8514a18",
+    "d217ed050ee53a9f4220f30b62cca5d60145a6bf"
   ]
 }
