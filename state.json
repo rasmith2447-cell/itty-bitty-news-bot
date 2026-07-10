@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/marvel-wolverine-game-release-date-ps5-insomniac-sony/",
-    "https://www.gematsu.com/2026/02/marvels-wolverine-launches-september-15",
     "https://www.gamespot.com/articles/marvels-wolverine-for-ps5-gets-september-release-date/1100-6538393/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/pokemon-go-memories-in-motion-offers-more-shiny-pokemon-and-new-events/1100-6538392/?ftag=CAD-01-10abi2f",
     "https://www.ign.com/articles/marvels-wolverine-carves-a-out-a-september-release-date-at-last",
@@ -4999,11 +4997,11 @@
     "https://gamerant.com/santa-monica-update-god-war-gow-laufey-release-date-2027/",
     "https://www.polygon.com/gta-online-kortz-center-heist-new-dlc-update-release-rockstar-games/",
     "https://www.polygon.com/final-fantasy-14-berlin-fan-fest-2026-what-to-expect-how-to-watch/",
-    "https://www.ign.com/articles/id-software-issues-statement-following-xbox-layoffs-says-its-back-to-the-size-it-was-when-it-made-2016s-doom"
+    "https://www.ign.com/articles/id-software-issues-statement-following-xbox-layoffs-says-its-back-to-the-size-it-was-when-it-made-2016s-doom",
+    "https://www.ign.com/articles/fallout-5-the-elder-scrolls-6-blade-and-more-as-xbox-layoffs-hit-hard-whats-going-on-at-bethesda",
+    "https://www.videogameschronicle.com/news/bethesda-union-confirms-xbox-layoff-protests-we-wont-quietly-disappear/"
   ],
   "seen_titles": [
-    "marvel's wolverine finally gets release date for ps5",
-    "marvel’s wolverine launches september 15",
     "marvel's wolverine for ps5 gets september release date",
     "pokemon go: memories in motion offers more shiny pokemon and new events",
     "marvel's wolverine carves out a release date at last",
@@ -10001,11 +9999,11 @@
     "santa monica gives official update on god of war laufey release date",
     "gta online's kortz center heist gets release date, first details",
     "ff14 july fan fest schedule revealed ahead of evercold expansion",
-    "id software issues statement following xbox layoffs, says it's back to the size it was when it made 2016's doom"
+    "id software issues statement following xbox layoffs, says it's back to the size it was when it made 2016's doom",
+    "fallout 5, the elder scrolls 6, blade, and more: as xbox layoffs hit hard, what's going on at bethesda?",
+    "bethesda union confirms xbox layoff protests: ‘we won’t quietly disappear’"
   ],
   "seen_story_keys": [
-    "c5fce10be7ce36d83e893975332524938a1d45a3",
-    "2165d5190bcba5fb328707f84a20ca0026ec428c",
     "4339b858de2bf64c67479df09ce9d501021177ad",
     "ad9a535fd337f8c55a1299a775da76cd322ca2e5",
     "1d4a787996d3528a5e5d6925f26b33f25d9f39bc",
@@ -15003,6 +15001,8 @@
     "2d5a917499b8b8eb8a8abf5792a99d64cd7ee4fd",
     "7ab1bd4e352396b6f4f74aa15dc51f60f145ad13",
     "e328ca19b785ca514143a6059c483e6c4b49484f",
-    "a4d60df78d526d188f1dd9e5e0beb9dd798625f7"
+    "a4d60df78d526d188f1dd9e5e0beb9dd798625f7",
+    "00755ab77f00920bb988abd94a7ab83f2a1932a8",
+    "f60f32f0f7271e852f283b544effccdf78f54914"
   ]
 }
