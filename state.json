@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/this-aint-it-activision-issues-rare-denial-of-standalone-call-of-duty-zombies-report",
-    "https://www.pcgamer.com/hardware/panopticon-patch-tuesday-twitch-requires-peter-thiel-funded-persona-id-verification-for-affiliates-to-get-their-first-payouts/",
-    "https://www.gematsu.com/2026/02/panzer-knights-commanders-edition-announced-for-ps5-xbox-series",
-    "https://www.gamespot.com/articles/a-kingdom-come-movie-is-now-in-the-works/1100-6538372/?ftag=CAD-01-10abi2f",
     "https://www.bluesnews.com/s/294899/death-stranding-2-system-specs",
     "https://www.bluesnews.com/s/294897/foosball-manager-announced",
     "https://www.bluesnews.com/s/294890/morning-patches",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/palworld-update-1-patch-notes/",
     "https://www.purexbox.com/news/2026/07/pubg-is-getting-two-new-graphics-modes-for-xbox-full-resolution-and-fps-details-revealed",
     "https://www.eurogamer.net/robert-yang-radiator-forever-collection-steam-itch-free",
-    "https://www.pcgamer.com/hardware/vr-hardware/valves-steam-frame-launch-looks-imminent-with-new-great-on-frame-category-spotted/"
+    "https://www.pcgamer.com/hardware/vr-hardware/valves-steam-frame-launch-looks-imminent-with-new-great-on-frame-category-spotted/",
+    "https://gamerant.com/xbox-layoffs-microsoft-lies-ben-starr-comments-criticism/",
+    "https://www.pcgamer.com/gaming-industry/id-software-provides-proof-of-life-says-it-still-has-the-crew-we-need-to-build-the-games-and-tech-were-known-for-after-massive-layoffs/",
+    "https://www.pushsquare.com/news/2026/07/staff-are-being-asked-to-do-more-with-less-brutal-xbox-layoffs-leave-those-spared-in-limbo",
+    "https://www.gamesindustry.biz/id-claims-it-has-the-crew-we-need-to-build-the-games-and-tech-were-known-for-following-mass-layoffs"
   ],
   "seen_titles": [
-    "'this ain't it': activision issues rare denial of standalone call of duty zombies report",
-    "panopticon patch tuesday: twitch requires peter thiel-funded persona id verification for some affiliates to get their first payouts",
-    "panzer knights: commander’s edition announced for ps5, xbox series",
-    "a kingdom come movie is now in the works",
     "death stranding 2 system specs",
     "foosball manager announced",
     "morning patches",
@@ -10001,13 +9997,13 @@
     "palworld update 1.0 patch notes revealed",
     "pubg is getting two new graphics modes for xbox, full resolution & fps details revealed",
     "\"just too gay\" - robert yang is battling censorship to launch a collection of his award-winning games on steam and itch, and it's completely free",
-    "valve's steam frame launch looks imminent, with new 'great on frame' category spotted"
+    "valve's steam frame launch looks imminent, with new 'great on frame' category spotted",
+    "ben starr accuses microsoft of multiple lies after xbox layoffs",
+    "id software provides proof of life, says it 'still has the crew we need to build the games and tech we're known for' after massive layoffs",
+    "'staff are being asked to do more with less': brutal xbox layoffs leave those spared in limbo",
+    "id claims it has \"the crew we need to build the games and tech we're known for\" following mass layoffs"
   ],
   "seen_story_keys": [
-    "94648428d51a772074629bdf8e62f572cf61435e",
-    "66269d85804b28acb69c1ed1aa50d65e3572ec3f",
-    "b078a401601f840086be8884f78e5a0a47be76db",
-    "07fb0a6a79a105ffeb997f328312ddc6e43a0f0a",
     "0cac3a5ea11e75873b575ab6433029ef84e9a4af",
     "8799a7452f947aef8287429ecf8fb37da4d52f6d",
     "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
@@ -15003,6 +14999,10 @@
     "4763f9b75ad1041c0108fa88a370011a3afb1118",
     "55ecf901ce4eed2e9caeb0d2dc18817132e5db62",
     "af707522ac4d8962c3bff2b2a1a2f0691dfb6d88",
-    "9534dfde1b760c0bba5c7638219dd00dd7c4fb78"
+    "9534dfde1b760c0bba5c7638219dd00dd7c4fb78",
+    "1a733da9e1b962f6ea65e3eecad1a71b2e82ee12",
+    "9f13f0901a839687bb3c009d7340c2cbaf9e98ca",
+    "6220bc7f69e4d3cca0ac68800a9e885f3dc54fe3",
+    "d83917dd1f5b7cdf3b6ad75857a96e84f0299b73"
   ]
 }
