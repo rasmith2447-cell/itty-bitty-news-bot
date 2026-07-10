@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294899/death-stranding-2-system-specs",
-    "https://www.bluesnews.com/s/294897/foosball-manager-announced",
-    "https://www.bluesnews.com/s/294890/morning-patches",
-    "https://www.bluesnews.com/s/294883/morning-metaverse",
     "https://www.gamespot.com/articles/marathon-xbox-exclusive-rewards-revealed-ahead-of-open-beta/1100-6538385/?ftag=CAD-01-10abi2f",
     "https://www.pcgamer.com/gaming-industry/the-maker-of-prototype-and-simpsons-hit-and-run-returns-from-the-grave-just-months-after-an-out-of-the-blue-update-broke-prototypes-mods-and-added-mysterious-new-credits/",
     "https://www.gematsu.com/2026/02/teenage-mutant-ninja-turtles-splintered-fate-dlc-character-alopex-now-available-alongside-free-update",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/xbox-layoffs-microsoft-lies-ben-starr-comments-criticism/",
     "https://www.pcgamer.com/gaming-industry/id-software-provides-proof-of-life-says-it-still-has-the-crew-we-need-to-build-the-games-and-tech-were-known-for-after-massive-layoffs/",
     "https://www.pushsquare.com/news/2026/07/staff-are-being-asked-to-do-more-with-less-brutal-xbox-layoffs-leave-those-spared-in-limbo",
-    "https://www.gamesindustry.biz/id-claims-it-has-the-crew-we-need-to-build-the-games-and-tech-were-known-for-following-mass-layoffs"
+    "https://www.gamesindustry.biz/id-claims-it-has-the-crew-we-need-to-build-the-games-and-tech-were-known-for-following-mass-layoffs",
+    "https://www.pcgamer.com/gaming-industry/microsoft-responds-to-racist-xbox-layoff-conspiracy-theory-says-ceo-asha-sharma-is-american-born-raised-and-educated/",
+    "https://www.ign.com/articles/god-of-war-laufey-physical-disc-release-confirmed-suggesting-2027-launch",
+    "https://www.polygon.com/id-software-layoffs-statement-doom-quake-idtech/",
+    "https://www.purexbox.com/news/2026/07/doom-developer-addresses-concerned-fans-with-message-about-xbox-layoffs"
   ],
   "seen_titles": [
-    "death stranding 2 system specs",
-    "foosball manager announced",
-    "morning patches",
-    "morning metaverse",
     "marathon xbox-exclusive rewards revealed ahead of open beta, and they look like minecraft trinkets",
     "the maker of prototype and simpsons: hit and run returns from the grave just months after an out-of-the-blue update broke prototype's mods and added mysterious new credits",
     "teenage mutant ninja turtles: splintered fate dlc character alopex now available alongside free update",
@@ -10001,13 +9997,13 @@
     "ben starr accuses microsoft of multiple lies after xbox layoffs",
     "id software provides proof of life, says it 'still has the crew we need to build the games and tech we're known for' after massive layoffs",
     "'staff are being asked to do more with less': brutal xbox layoffs leave those spared in limbo",
-    "id claims it has \"the crew we need to build the games and tech we're known for\" following mass layoffs"
+    "id claims it has \"the crew we need to build the games and tech we're known for\" following mass layoffs",
+    "microsoft responds to racist xbox layoff conspiracy theory, says ceo asha sharma is 'american born, raised, and educated'",
+    "god of war laufey physical disc release confirmed, suggesting 2027 launch",
+    "doom studio id software responds to xbox layoffs reports",
+    "doom developer addresses concerned fans with message about xbox layoffs"
   ],
   "seen_story_keys": [
-    "0cac3a5ea11e75873b575ab6433029ef84e9a4af",
-    "8799a7452f947aef8287429ecf8fb37da4d52f6d",
-    "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
-    "3a3598cc5e1e982201aaf672a99e9b8e1e80246f",
     "9e3b8f1a02c556f1f6ca297f25e57e849a102741",
     "92e53f34000a8a764d413427d7e1cfd8f8e061b0",
     "873f6d774e3efa7463c72ed4ad72c61c76f2ce1a",
@@ -15003,6 +14999,10 @@
     "1a733da9e1b962f6ea65e3eecad1a71b2e82ee12",
     "9f13f0901a839687bb3c009d7340c2cbaf9e98ca",
     "6220bc7f69e4d3cca0ac68800a9e885f3dc54fe3",
-    "d83917dd1f5b7cdf3b6ad75857a96e84f0299b73"
+    "d83917dd1f5b7cdf3b6ad75857a96e84f0299b73",
+    "4c976b7513d2e9a3ae6857b1e1353c462f03fd4d",
+    "49c35428c2001ec3534f421370827cc7d84d7db1",
+    "141f3df06e2ff3e8536511a2d4ed2f706b470320",
+    "6e01d0afb087a38c5cc4627abe1a78e44ae070b7"
   ]
 }
