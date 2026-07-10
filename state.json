@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/world-of-warcraft/blizzard-will-take-it-slow-with-world-of-warcraft-balance-updates-after-the-midnight-expansion-drops/",
-    "https://www.gematsu.com/2026/02/mouse-pi-for-hire-delayed-to-april-16",
-    "https://www.nintendolife.com/news/2026/02/lollipop-chainsaw-repop-switch-2-edition-and-upgrade-delayed-again",
-    "https://www.gamespot.com/articles/resident-evil-requiem-recommended-pc-specs-are-here/1100-6538370/?ftag=CAD-01-10abi2f",
     "https://www.ign.com/articles/this-aint-it-activision-issues-rare-denial-of-standalone-call-of-duty-zombies-report",
     "https://www.pcgamer.com/hardware/panopticon-patch-tuesday-twitch-requires-peter-thiel-funded-persona-id-verification-for-affiliates-to-get-their-first-payouts/",
     "https://www.gematsu.com/2026/02/panzer-knights-commanders-edition-announced-for-ps5-xbox-series",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/baldurs-gate-3-bg3-how-long-beat-hltb-aew-big-show/",
     "https://www.ign.com/articles/better-late-than-never-palworld-10-quietly-changes-the-designs-of-some-creatures-to-look-less-like-the-pokemon-they-resembled",
     "https://www.polygon.com/backrooms-streaming-release-date/",
-    "https://www.polygon.com/adventures-of-elliot-update-path-character-voices-turn-off/"
+    "https://www.polygon.com/adventures-of-elliot-update-path-character-voices-turn-off/",
+    "https://gamerant.com/palworld-update-1-patch-notes/",
+    "https://www.purexbox.com/news/2026/07/pubg-is-getting-two-new-graphics-modes-for-xbox-full-resolution-and-fps-details-revealed",
+    "https://www.eurogamer.net/robert-yang-radiator-forever-collection-steam-itch-free",
+    "https://www.pcgamer.com/hardware/vr-hardware/valves-steam-frame-launch-looks-imminent-with-new-great-on-frame-category-spotted/"
   ],
   "seen_titles": [
-    "blizzard will take it slow with world of warcraft balance updates after the midnight expansion drops",
-    "mouse: p.i. for hire delayed to april 16",
-    "lollipop chainsaw repop - switch 2 edition and upgrade delayed again",
-    "resident evil requiem recommended pc specs are here",
     "'this ain't it': activision issues rare denial of standalone call of duty zombies report",
     "panopticon patch tuesday: twitch requires peter thiel-funded persona id verification for some affiliates to get their first payouts",
     "panzer knights: commander’s edition announced for ps5, xbox series",
@@ -10001,13 +9997,13 @@
     "wellllllllll: the big show has more hours in baldur's gate 3 than you",
     "palworld 1.0 players spot a number of pal redesigns — and some say they now look less like the pokémon they resembled",
     "a24's backrooms gets official digital release date",
-    "adventures of elliot's new update finally lets you silence faie"
+    "adventures of elliot's new update finally lets you silence faie",
+    "palworld update 1.0 patch notes revealed",
+    "pubg is getting two new graphics modes for xbox, full resolution & fps details revealed",
+    "\"just too gay\" - robert yang is battling censorship to launch a collection of his award-winning games on steam and itch, and it's completely free",
+    "valve's steam frame launch looks imminent, with new 'great on frame' category spotted"
   ],
   "seen_story_keys": [
-    "f9354d22d529fd67c14620a6e96befbdbd4dde4d",
-    "807921d60cf5441eb14ad5429a50396b47bd8152",
-    "4702fbd9192d6d09520230600b70295809ed1354",
-    "9f75dbb61adb5e46c7d4149850b20d1cfe1abb00",
     "94648428d51a772074629bdf8e62f572cf61435e",
     "66269d85804b28acb69c1ed1aa50d65e3572ec3f",
     "b078a401601f840086be8884f78e5a0a47be76db",
@@ -15003,6 +14999,10 @@
     "e2277393eb30886eae64e95ff01cef1bcdc4111e",
     "173107c9314bf33e251fb217a4c93859c29bcdd0",
     "3fbe5807c795e08a20612652265d8d80d67cd3da",
-    "4969ad7cadee09183c0567d5e46095377bf7e536"
+    "4969ad7cadee09183c0567d5e46095377bf7e536",
+    "4763f9b75ad1041c0108fa88a370011a3afb1118",
+    "55ecf901ce4eed2e9caeb0d2dc18817132e5db62",
+    "af707522ac4d8962c3bff2b2a1a2f0691dfb6d88",
+    "9534dfde1b760c0bba5c7638219dd00dd7c4fb78"
   ]
 }
