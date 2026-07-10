@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294846/morning-interviews",
-    "https://www.ign.com/articles/netflixs-wednesday-adds-winona-ryder-for-season-3-reuniting-her-with-tim-burton-once-again",
-    "https://www.gamespot.com/articles/future-diablo-games-may-release-faster-than-they-have-in-the-past/1100-6538366/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/02/lollipop-chainsaw-repop-nintendo-switch-2-edition-delayed-to-unannounced-date",
     "https://www.nintendolife.com/news/2026/02/nintendo-music-update-adds-super-mario-land-2-6-golden-coins-album-heres-every-song-included",
     "https://www.bluesnews.com/s/294875/king-of-meat-abdicates",
     "https://www.bluesnews.com/s/294870/roadmaps-and-plans",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/xbox-layoffs-id-software-john-carmack",
     "https://gamerant.com/transformers-studio-series-generation-1-seeker-storm-pack-pre-orders/",
     "https://www.pushsquare.com/news/2026/07/assassins-creed-black-flag-remake-studio-faced-with-layoffs-despite-successful-launch",
-    "https://www.rockpapershotgun.com/id-software-co-founder-john-carmack-cant-muster-anger-or-outrage-over-xbox-gutting-the-doom-studio-but-does-say-itll-dampen-the-mood-of-the-founder-reunion"
+    "https://www.rockpapershotgun.com/id-software-co-founder-john-carmack-cant-muster-anger-or-outrage-over-xbox-gutting-the-doom-studio-but-does-say-itll-dampen-the-mood-of-the-founder-reunion",
+    "https://www.pushsquare.com/news/2026/07/prepare-for-gta-6-by-robbing-an-art-gallery-in-gta-online-on-ps5-next-week",
+    "https://www.gematsu.com/2026/07/arknights-endfield-version-update-homecoming-launches-july-16",
+    "https://www.gematsu.com/2026/07/ketsu-battler-major-update-series-2-launches-july-30-alongside-dlc-character-kiden",
+    "https://www.pushsquare.com/news/2026/07/palworld-finally-launches-in-full-today-on-ps5-and-the-patch-notes-are-colossal"
   ],
   "seen_titles": [
-    "morning interviews",
-    "netflix's wednesday adds winona ryder for season 3, reuniting her with tim burton once again",
-    "future diablo games may release faster than they have in the past",
-    "lollipop chainsaw repop – nintendo switch 2 edition delayed to unannounced date",
     "nintendo music update adds super mario land 2: 6 golden coins album, here's every song included",
     "king of meat abdicates",
     "roadmaps and plans",
@@ -10001,13 +9997,13 @@
     "\"my 'microsoft will probably be a good steward of the brand' statement isn't aging well\" - id software co-founder john carmack speaks out after devastating xbox layoffs",
     "hasbro reveals a first-of-its-kind transformers multipack [exclusive]",
     "assassin's creed black flag remake studio faced with layoffs despite successful launch",
-    "id software co-founder john carmack \"can’t muster anger or outrage\" over xbox gutting the doom studio, but does say it'll \"dampen the mood of the founder reunion\""
+    "id software co-founder john carmack \"can’t muster anger or outrage\" over xbox gutting the doom studio, but does say it'll \"dampen the mood of the founder reunion\"",
+    "prepare for gta 6 by robbing an art gallery in gta online on ps5 next week",
+    "arknights: endfield version update ‘homecoming’ launches july 16",
+    "ketsu battler major update ‘series 2’ launches july 30 alongside dlc character kiden",
+    "palworld finally launches in full today on ps5, and the patch notes are colossal"
   ],
   "seen_story_keys": [
-    "99f4415062d30ba57aaaadd6a593b4211f4f34d8",
-    "d769c6ad2ad5bfdca8bc305a3de1a5e65ac05b6b",
-    "736a7fbad07d5d6c2feb652e7a6446e4afeddfdc",
-    "8aaf6c43cf0f1efd1b5a54e36b821743f445bb1b",
     "c314c89601f170e96c571264b252d3cd9b246768",
     "f724e52afdf4eee5edffe1404d3af7162806d4b6",
     "26872a3b23057bbdb62c380aae86d2dd7765b4db",
@@ -15003,6 +14999,10 @@
     "517f89ae29d4eac689ffd37fa3350ec9c5a18fe3",
     "c49ce171579a1bd4cd9b70ff410ee967fac86abc",
     "2d5e95460e1608925d7908dde8277071e8514a18",
-    "d217ed050ee53a9f4220f30b62cca5d60145a6bf"
+    "d217ed050ee53a9f4220f30b62cca5d60145a6bf",
+    "fc358ec5cb2856ab12622a823b86922385742649",
+    "0ef1c3ac03a41861b9c0e243049ac462dc6e7ec3",
+    "6a251063d519615f1b4fd7b9d41b4cd71185b197",
+    "30683fa0f65126b05171becad1e4ef95f80c9594"
   ]
 }
