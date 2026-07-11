@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294879/morning-legal-briefs",
-    "https://www.pcgamer.com/software/platforms/discord-delays-its-global-age-verification-rollout-and-cuts-ties-with-peter-thiel-backed-verification-vendor-after-upsetting-almost-everyone-on-earth-weve-made-mistakes/",
-    "https://www.ign.com/articles/arc-raiders-update-patch-notes-reveal-nerfs-for-pvp-and-pve-players-as-shrouded-sky-brings-new-threats-to-the-rust-belt",
-    "https://www.videogameschronicle.com/news/playstation-finally-confirms-marvels-wolverine-release-date-and-its-coming-before-gta6/",
     "https://www.ign.com/articles/resident-evil-requiem-director-admits-capcom-was-initially-skeptical-about-nintendo-switch-2-performance",
     "https://www.ign.com/articles/overwatch-rush-announced-a-new-top-down-mobile-game-developed-by-blizzard",
     "https://www.nintendolife.com/news/2026/02/resident-evil-requiem-creators-voice-video-dives-into-the-switch-2-release",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/07/atelier-yumia-switch-2-update-adds-performance-settings-option-improves-frame-rate-and-more",
     "https://gamerant.com/diablo-4-season-14-new-update-patch-notes/",
     "https://gamerant.com/id-software-layoffs/",
-    "https://www.pushsquare.com/news/2026/07/avowed-2-may-still-happen-obsidian-skeleton-crew-continues-work"
+    "https://www.pushsquare.com/news/2026/07/avowed-2-may-still-happen-obsidian-skeleton-crew-continues-work",
+    "https://gamerant.com/new-stardew-valley-sdv-crochet-book-january-26-2027/",
+    "https://gamerant.com/new-xbox-controller-reveal-gamesir-t7-pro-retro-green/",
+    "https://gamerant.com/zelda-ocarina-of-time-remake-switch-2-open-world/",
+    "https://www.gematsu.com/2026/07/shironeko-project-infinity-announced-for-switch-2-switch"
   ],
   "seen_titles": [
-    "morning legal briefs",
-    "discord delays its global age verification rollout and cuts ties with peter thiel-backed verification vendor after upsetting almost everyone on earth: 'we've made mistakes'",
-    "arc raiders update patch notes reveal nerfs for pvp and pve players as shrouded sky brings new threats to the rust belt",
-    "playstation finally confirms marvel’s wolverine release date – and it’s coming before gta6",
     "resident evil requiem director admits capcom was initially 'skeptical' about nintendo switch 2 performance",
     "overwatch rush announced — a new top-down mobile game developed by blizzard",
     "resident evil requiem 'creator's voice' video dives into the switch 2 release",
@@ -10001,13 +9997,13 @@
     "atelier yumia switch 2 update adds performance settings option, improves frame rate and more",
     "diablo 4 season 14 releases new update patch notes",
     "doom developer id software issues statement after xbox layoffs",
-    "avowed 2 may still happen, obsidian skeleton crew continues work"
+    "avowed 2 may still happen, obsidian skeleton crew continues work",
+    "new official stardew valley release confirmed for january 2027",
+    "brand-new xbox controller officially revealed, releases in august",
+    "zelda: ocarina of time's switch 2 remake should go fully open world",
+    "shironeko project infinity announced for switch 2, switch"
   ],
   "seen_story_keys": [
-    "3b68e2201a8bb18417c652a4a5bd01407004dd38",
-    "ee000ebfa8eb45a67c21fdc85285cea374fe85c9",
-    "0a83e4b64185c73e90822c3e55032f7a41f59a18",
-    "f0f7edcfd96e38a114fc455495690da2fcdc1445",
     "4a41a3a39ba8582e587ac788fbefa6861c85aa98",
     "9767d82034423c03891d140de5e681ce925f7e1e",
     "52aef7f26cc531dc9c5658dabea85a8488d5dcb3",
@@ -15003,6 +14999,10 @@
     "f935b449f35af5a9455433f03515b6e59984f97d",
     "d7584daf3377b80a11f75922f02a2692326b8276",
     "297f8e66367c8f5b7a60adcfa1e683a7278ca691",
-    "bf5963b7e35a04cc4cb54566fce3a21ab9f9a50d"
+    "bf5963b7e35a04cc4cb54566fce3a21ab9f9a50d",
+    "e2de33fc612e0da34054d8259cdd3c48b3816a6d",
+    "6604fa50d8b962622b36bb81df9784e5aaba4566",
+    "3fc8a7025d4c41d99757daeca3d96ce301b3163d",
+    "ad165fa56b5bf0700624a79eb788bfbbf116a354"
   ]
 }
