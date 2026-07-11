@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/marvels-wolverine-carves-a-out-a-september-release-date-at-last",
-    "https://www.ign.com/articles/horizon-multiplayer-spinoff-hunters-gathering-has-a-playtest-this-weekend",
-    "https://www.gamespot.com/articles/horizon-hunters-gathering-first-test-is-this-weekend-but-youll-have-to-get-lucky-to-get-in/1100-6538384/?ftag=CAD-01-10abi2f",
     "https://www.bluesnews.com/s/294879/morning-legal-briefs",
     "https://www.pcgamer.com/software/platforms/discord-delays-its-global-age-verification-rollout-and-cuts-ties-with-peter-thiel-backed-verification-vendor-after-upsetting-almost-everyone-on-earth-weve-made-mistakes/",
     "https://www.ign.com/articles/arc-raiders-update-patch-notes-reveal-nerfs-for-pvp-and-pve-players-as-shrouded-sky-brings-new-threats-to-the-rust-belt",
@@ -4999,12 +4996,12 @@
     "https://www.ign.com/articles/fallout-5-the-elder-scrolls-6-blade-and-more-as-xbox-layoffs-hit-hard-whats-going-on-at-bethesda",
     "https://www.videogameschronicle.com/news/bethesda-union-confirms-xbox-layoff-protests-we-wont-quietly-disappear/",
     "https://www.pcgamer.com/games/mmo/surprised-there-was-anyone-left-to-post-this-fans-react-as-the-elder-scrolls-online-debuts-seasonal-content-days-after-hundreds-laid-off-from-studio/",
-    "https://www.nintendolife.com/news/2026/07/atelier-yumia-switch-2-update-adds-performance-settings-option-improves-frame-rate-and-more"
+    "https://www.nintendolife.com/news/2026/07/atelier-yumia-switch-2-update-adds-performance-settings-option-improves-frame-rate-and-more",
+    "https://gamerant.com/diablo-4-season-14-new-update-patch-notes/",
+    "https://gamerant.com/id-software-layoffs/",
+    "https://www.pushsquare.com/news/2026/07/avowed-2-may-still-happen-obsidian-skeleton-crew-continues-work"
   ],
   "seen_titles": [
-    "marvel's wolverine carves out a release date at last",
-    "horizon multiplayer spinoff hunters gathering has a playtest this weekend",
-    "horizon hunters gathering first test is this weekend, but you'll have to get lucky to get in",
     "morning legal briefs",
     "discord delays its global age verification rollout and cuts ties with peter thiel-backed verification vendor after upsetting almost everyone on earth: 'we've made mistakes'",
     "arc raiders update patch notes reveal nerfs for pvp and pve players as shrouded sky brings new threats to the rust belt",
@@ -10001,12 +9998,12 @@
     "fallout 5, the elder scrolls 6, blade, and more: as xbox layoffs hit hard, what's going on at bethesda?",
     "bethesda union confirms xbox layoff protests: ‘we won’t quietly disappear’",
     "'surprised there was anyone left to post this': fans react as the elder scrolls online debuts seasonal content days after hundreds laid off from studio",
-    "atelier yumia switch 2 update adds performance settings option, improves frame rate and more"
+    "atelier yumia switch 2 update adds performance settings option, improves frame rate and more",
+    "diablo 4 season 14 releases new update patch notes",
+    "doom developer id software issues statement after xbox layoffs",
+    "avowed 2 may still happen, obsidian skeleton crew continues work"
   ],
   "seen_story_keys": [
-    "1d4a787996d3528a5e5d6925f26b33f25d9f39bc",
-    "9113b8d79c52195e21b284c163f424ed07d4a036",
-    "56af7503bd8249a3d6508ea54ae2ac999ae85170",
     "3b68e2201a8bb18417c652a4a5bd01407004dd38",
     "ee000ebfa8eb45a67c21fdc85285cea374fe85c9",
     "0a83e4b64185c73e90822c3e55032f7a41f59a18",
@@ -15003,6 +15000,9 @@
     "00755ab77f00920bb988abd94a7ab83f2a1932a8",
     "f60f32f0f7271e852f283b544effccdf78f54914",
     "4f933ae9541d5561e983083993437e47eaa5964b",
-    "f935b449f35af5a9455433f03515b6e59984f97d"
+    "f935b449f35af5a9455433f03515b6e59984f97d",
+    "d7584daf3377b80a11f75922f02a2692326b8276",
+    "297f8e66367c8f5b7a60adcfa1e683a7278ca691",
+    "bf5963b7e35a04cc4cb54566fce3a21ab9f9a50d"
   ]
 }
