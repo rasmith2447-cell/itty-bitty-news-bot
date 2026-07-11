@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/02/resident-evil-requiem-creators-voice-video-dives-into-the-switch-2-release",
-    "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-rocketeer-crafting-wolfpack/",
     "https://www.pcgamer.com/games/rpg/path-of-exiles-next-update-might-prevent-your-cursor-from-killing-you-and-it-has-a-bunch-of-qol-changes-that-even-poe-2-doesnt-have-yet/",
     "https://www.gamespot.com/articles/the-sims-4s-next-updates-will-buff-babies-and-make-your-sims-more-annoying/1100-6538401/?ftag=CAD-01-10abi2f",
     "https://www.ign.com/articles/how-to-watch-the-spider-man-movies-in-chronological-order",
@@ -4999,11 +4997,11 @@
     "https://gamerant.com/zelda-ocarina-of-time-remake-switch-2-open-world/",
     "https://www.gematsu.com/2026/07/shironeko-project-infinity-announced-for-switch-2-switch",
     "https://gamerant.com/gta-online-kortz-center-heist-release-date-faq/",
-    "https://www.videogameschronicle.com/news/god-of-war-studio-confirms-laufey-will-have-a-disc-version-revealing-its-release-window/"
+    "https://www.videogameschronicle.com/news/god-of-war-studio-confirms-laufey-will-have-a-disc-version-revealing-its-release-window/",
+    "https://www.polygon.com/total-war-warhammer-40k-gameplay-reveal/",
+    "https://gamerant.com/ps-plus-extra-premium-games-announcement-psi-ops-july-15-2026/"
   ],
   "seen_titles": [
-    "resident evil requiem 'creator's voice' video dives into the switch 2 release",
-    "the latest arc raiders patch makes rocketeers way more important",
     "path of exile's next update might prevent your cursor from killing you, and it has a bunch of qol changes that even poe 2 doesn't have yet",
     "the sims 4's next updates will buff babies and make your sims more annoying",
     "how to watch the spider-man movies in order",
@@ -10001,11 +9999,11 @@
     "zelda: ocarina of time's switch 2 remake should go fully open world",
     "shironeko project infinity announced for switch 2, switch",
     "gta online: kortz center heist release date & launch times faq",
-    "god of war studio confirms laufey will have a disc version, revealing its release window"
+    "god of war studio confirms laufey will have a disc version, revealing its release window",
+    "total war warhammer 40,000's gameplay reveal will make you wonder if your pc can handle it",
+    "ps plus monthly game announcement for july 15 confirmed ahead of time"
   ],
   "seen_story_keys": [
-    "52aef7f26cc531dc9c5658dabea85a8488d5dcb3",
-    "0a95032ef61e40e0858808b97784edea77a3413f",
     "a325073276f8994d22e8e314664d9dee393e6814",
     "d174402d4f307421b5f5241041e3ccc3e8eadc5b",
     "f0d4b4b3ad5aac0c0e3f6b51d934acf5889c93a2",
@@ -15003,6 +15001,8 @@
     "3fc8a7025d4c41d99757daeca3d96ce301b3163d",
     "ad165fa56b5bf0700624a79eb788bfbbf116a354",
     "194f4e045a5d0b0f61fb39bc3ec67de352c9ef37",
-    "754e82f5f5c69ef62e4987f305b161e5555d3109"
+    "754e82f5f5c69ef62e4987f305b161e5555d3109",
+    "15be789ee7894db050538790f64628309c7b0dbe",
+    "13b6b507533cf40a2530c43ca373c36968f8d305"
   ]
 }
