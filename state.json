@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/02/bandai-namco-might-have-accidentally-revealed-its-new-dragon-ball-game",
-    "https://www.nintendolife.com/news/2026/02/gunvolt-chronicles-luminous-avenger-ix-1plus2-dual-collection-announced-for-switch-2-and-switch",
-    "https://www.ign.com/articles/arc-raiders-fans-think-embark-is-teasing-another-new-threat-as-video-of-ufo-sighting-circulates-online",
-    "https://www.ign.com/articles/were-listening-well-get-this-right-discord-delays-global-age-verification-check-rollout-admitting-it-missed-the-mark",
     "https://www.gamespot.com/articles/xbox-ceo-says-new-hardware-announcements-are-coming-soon/1100-6538410/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/xbox-boss-on-ai-were-committed-to-art-made-by-people/1100-6538411/?ftag=CAD-01-10abi2f",
     "https://www.ign.com/articles/blizzard-takes-swipe-at-jet-pack-cat-dominance-addressing-its-reign-of-terror-in-fresh-hotfix",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/07/warframe-reveals-major-new-chapter-playing-card-mini-game-fortnite-collab-and-much-more",
     "https://www.polygon.com/league-of-legends-classic-release-date/",
     "https://gamerant.com/marvel-tokon-fighting-souls-episode-mode-promoter-champion-fight/",
-    "https://www.eurogamer.net/god-of-war-laufey-disc-confirmed"
+    "https://www.eurogamer.net/god-of-war-laufey-disc-confirmed",
+    "https://gamerant.com/obsidian-games-brandon-adler-misinformation-xbox-layoffs/",
+    "https://www.pcgamer.com/games/mmo/elder-scrolls-online-studio-echoes-id-software-claims-to-now-be-the-same-size-it-was-10-years-ago-following-xbox-layoffs/",
+    "https://gamerant.com/ps5-discs-cheaper-digital/",
+    "https://www.ign.com/articles/avengers-doomsday-concept-art-reveals-first-look-at-more-than-20-returning-heroes"
   ],
   "seen_titles": [
-    "bandai namco might have accidentally revealed its new dragon ball game",
-    "'gunvolt chronicles: luminous avenger ix 1+2 dual collection' announced for switch 2 and switch",
-    "arc raiders fans think embark is teasing another new threat as video of ufo sighting circulates online",
-    "'we’re listening. we'll get this right' — discord delays global age verification check rollout, admitting it 'missed the mark'",
     "xbox ceo says new hardware announcements are coming \"soon\"",
     "xbox boss on ai: \"we're committed to art made by people\"",
     "blizzard takes swipe at jet pack cat dominance, addressing its reign of terror in fresh hotfix",
@@ -10001,13 +9997,13 @@
     "warframe reveals major new chapter, playing card mini-game, fortnite collab and much more",
     "you'll be able to play league of legends classic before the end of july",
     "marvel tokon: fighting souls teases boss characters with episode mode reveal",
-    "god of war laufey studio hints at 2027 release window following tweet that assures players it \"will be available on disc\""
+    "god of war laufey studio hints at 2027 release window following tweet that assures players it \"will be available on disc\"",
+    "obsidian director slams 'misinformation' following recent xbox layoffs",
+    "elder scrolls online studio echoes id software, claims to now be the same size it was 10 years ago following xbox layoffs",
+    "study reveals ps5 discs are much cheaper than digital games",
+    "avengers: doomsday concept art reveals first look at more than 20 returning heroes"
   ],
   "seen_story_keys": [
-    "dec5208a3230c7b2cfb19bf0f5f6cd556225c73e",
-    "7492b5e167b32b372752acdb2e098cf53eb046da",
-    "2f77e9c3ad1d0fc17d9397410dba383e8c813d34",
-    "e8ebfd28b7e34494db5a5032aba9baef2302949a",
     "a9bee02ed2a551b0fa7debd11ac003af2f0f5396",
     "a2d2b1d2e2572c0897afb586f296863b181fe1ed",
     "b21538fab36fb18c579bff0ea9abe6895e6409fd",
@@ -15003,6 +14999,10 @@
     "19abca534e5080e8a9c52b06dbd9e9aa4e63c342",
     "d3469d9a290d80fcd9e7023ddb6bc8a3ef913241",
     "b4784df48a8249c1d0480d0082003efba37b6365",
-    "505dfb28e708eea980a0418bb0225670839bde5f"
+    "505dfb28e708eea980a0418bb0225670839bde5f",
+    "d64c6d1b1ca3fcb6043f965e8ee41ae4fcb09cf0",
+    "38fcd38cef855331d03a231ddea0088d7ecf8578",
+    "b98e9efd0b990d67d1ef1dfbbe68c3b6792d849b",
+    "8ea8d5724c1742faca32956a94b0fdfcf90bcbdd"
   ]
 }
