@@ -230,11 +230,11 @@ def load_digest_stories() -> tuple:
 # ---------------------------------------------------------------------------
 
 GOTW_OVERRIDE = {
-    "title":       "SWAPMEAT",
-    "description": "Just graduated out of Early Access on June 17th and it's an absolute blast. You're a shape-shifting operative ripping through alien worlds, stealing enemy body parts mid-combat to gain their abilities. Triple-jump legs, grenade-launching turkey heads, turret-dropping torsos — thousands of wild combos. Play solo or with up to 3 friends in co-op. If Risk of Rain 2 and Helldivers 2 had a chaotic, meaty baby, this is it.",
-    "platform":    "Available on PC (Steam)",
-    "url":         "https://store.steampowered.com/app/2790700/SWAPMEAT/",
-    "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/2790700/header.jpg",
+    "title":       "Palworld",
+    "description": "The phenomenon that took the gaming world by storm is still going strong. Palworld lets you fight, farm, build, and work alongside mysterious creatures called Pals in a massive open world. Capture and breed Pals, put them to work in your factories, ride them across land, sea, and sky — or eat them when times get tough. With regular updates still dropping, now is a great time to jump in.",
+    "platform":    "Available on PC (Steam), Xbox Series X|S, Xbox One & Xbox Game Pass",
+    "url":         "https://store.steampowered.com/app/1623730/Palworld/",
+    "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg",
 }
 
 GOTW_FALLBACK = {
