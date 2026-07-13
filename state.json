@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/playstation-plus-march-2026-free-games-list-ps4-ps5/",
-    "https://www.gematsu.com/2026/02/playstation-plus-monthly-games-lineup-for-march-2026-announced",
-    "https://www.gematsu.com/2026/02/mexican-ninja-adds-ps5-xbox-series-ps4-and-xbox-one-versions",
-    "https://www.gematsu.com/2026/02/esoteric-ebb-launches-march-3",
     "https://www.gematsu.com/2026/02/valorborn-launches-in-early-access-on-april-15",
     "https://www.gematsu.com/2026/02/running-with-scissors-announces-psychological-horror-first-person-shooter-flesh-wire-for-ps5-pc",
     "https://www.pcgamer.com/games/sports/skate-studio-full-circle-is-laying-off-employees-says-having-fewer-people-working-there-will-enable-it-to-move-faster-listen-more-closely-and-deliver-consistently-for-all-of-you-somehow/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/lunarium-launches-july-29",
     "https://www.gematsu.com/2026/07/octopath-traveler-0-update-announced-adds-new-monster-arena-foe-and-resident",
     "https://www.gematsu.com/2026/07/light-hearted-serial-killer-puzzle-game-aerial_knights-mrfreezy-announced-for-pc",
-    "https://www.purexbox.com/news/2026/07/xbox-seems-to-be-making-a-fortune-on-the-new-black-ops-ports-for-ps5"
+    "https://www.purexbox.com/news/2026/07/xbox-seems-to-be-making-a-fortune-on-the-new-black-ops-ports-for-ps5",
+    "https://www.ign.com/articles/the-elder-scrolls-online-dev-zenimax-online-studios-insists-its-now-the-same-size-it-was-when-it-made-much-loved-dlcs-moves-to-reassure-worried-fans-after-xbox-layoffs",
+    "https://www.videogameschronicle.com/news/palworld-sees-huge-surge-in-concurrent-players-after-the-release-of-version-1-0/",
+    "https://www.videogameschronicle.com/news/game-workers-protested-outside-mindseye-studio-build-a-rocket-boy-as-it-held-an-extravagant-playtest-for-fans/",
+    "https://www.eurogamer.net/league-of-legends-classic-release-date-details"
   ],
   "seen_titles": [
-    "playstation plus march 2026 'free' games revealed, including monster hunter rise and pga tour 2k25",
-    "playstation plus monthly games lineup for march 2026 announced",
-    "mexican ninja adds ps5, xbox series, ps4, and xbox one versions",
-    "esoteric ebb launches march 3",
     "valorborn launches in early access on april 15",
     "running with scissors announces psychological horror first-person shooter flesh & wire for ps5, pc",
     "skate studio full circle is laying off employees, says having fewer people working there will enable it to 'move faster, listen more closely, and deliver consistently for all of you,' somehow",
@@ -10001,13 +9997,13 @@
     "lunarium launches july 29",
     "octopath traveler 0 update announced, adds new monster arena foe and resident",
     "‘light-hearted’ serial killer puzzle game aerial_knight’s mrfreezy announced for pc",
-    "xbox seems to be making a fortune on the new black ops ports for ps5"
+    "xbox seems to be making a fortune on the new black ops ports for ps5",
+    "the elder scrolls online dev zenimax online studios insists it's now the same size it was when it made much-loved dlcs, moves to reassure worried fans after xbox layoffs",
+    "palworld sees huge surge in concurrent players after the release of version 1.0",
+    "game workers protested outside mindseye studio build a rocket boy as it held an ‘extravagant playtest’ for fans",
+    "the 'classic' nostalgia trend continues as league of legends classic gets a release date and the promise of player-voted patches"
   ],
   "seen_story_keys": [
-    "643f1b528c29ad390fac869b7f71cef854cc6375",
-    "7d104c371ab2acd6205fff71840a220dd9b85ea8",
-    "61f280efef325dfc63404cb03cd498746812396d",
-    "ed65927501729e07dcc35734906ae4a40fc937ef",
     "811967c003d4c5e386cfffa5902728494b8c4e7d",
     "3e8782cab386bf93ff2ea35aa8cf26d7f765edd2",
     "496e8b7c18f5c7cdbaaecf1929e3a0e5433ecded",
@@ -15003,6 +14999,10 @@
     "d960e7ad6ba99022275062bb1ea4c3b6f571f8a9",
     "e32cb4bfb131b94ef41fb740085e4b3c6492fb28",
     "f9a0c96267340389783f4f550ab96158172d83af",
-    "825f575c2cd6cd07b5effd6d58905d0d8be38cc2"
+    "825f575c2cd6cd07b5effd6d58905d0d8be38cc2",
+    "60d21fe1607ba3acdc766a95244fbff3067f2681",
+    "0d946f9a2b8a07c7ed8fc9baa67eee116682fb84",
+    "f2f574ae82d7648768fb195772f10d864f20c55f",
+    "14352442c504457fdbdfd87d76bb26b3d693a77d"
   ]
 }
