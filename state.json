@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/marvels-wolverine-gameplay-platforms-and-everything-we-know/1100-6516081/?ftag=CAD-01-10abi2f",
-    "https://www.bluesnews.com/s/294931/nested-lands-early-access-lands",
-    "https://www.gematsu.com/2026/02/skate-developer-full-circle-announces-layoffs",
-    "https://www.gematsu.com/2026/02/marvel-maximum-collection-announced-for-ps5-xbox-series-switch-and-pc",
     "https://www.polygon.com/playstation-plus-march-2026-free-games-list-ps4-ps5/",
     "https://www.gematsu.com/2026/02/playstation-plus-monthly-games-lineup-for-march-2026-announced",
     "https://www.gematsu.com/2026/02/mexican-ninja-adds-ps5-xbox-series-ps4-and-xbox-one-versions",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/wwe-2k26-wrestlemania-42-dlc/",
     "https://www.gematsu.com/2026/07/super-yanoman-collection-announced-for-ps5-ps4-switch-and-pc",
     "https://www.pushsquare.com/news/2026/07/july-2026-ps-plus-premium-game-has-already-been-confirmed",
-    "https://www.eurogamer.net/assassins-creed-black-flag-resynced-ubisoft-connect-outage-offline-mode"
+    "https://www.eurogamer.net/assassins-creed-black-flag-resynced-ubisoft-connect-outage-offline-mode",
+    "https://www.gematsu.com/2026/07/lunarium-launches-july-29",
+    "https://www.gematsu.com/2026/07/octopath-traveler-0-update-announced-adds-new-monster-arena-foe-and-resident",
+    "https://www.gematsu.com/2026/07/light-hearted-serial-killer-puzzle-game-aerial_knights-mrfreezy-announced-for-pc",
+    "https://www.purexbox.com/news/2026/07/xbox-seems-to-be-making-a-fortune-on-the-new-black-ops-ports-for-ps5"
   ],
   "seen_titles": [
-    "marvel's wolverine - gameplay, release date, and everything we know",
-    "nested lands early access lands",
-    "skate. developer full circle announces layoffs",
-    "marvel maximum collection announced for ps5, xbox series, switch, and pc",
     "playstation plus march 2026 'free' games revealed, including monster hunter rise and pga tour 2k25",
     "playstation plus monthly games lineup for march 2026 announced",
     "mexican ninja adds ps5, xbox series, ps4, and xbox one versions",
@@ -10001,13 +9997,13 @@
     "wwe 2k26 reveals wrestlemania 42 dlc",
     "super yanoman collection announced for ps5, ps4, switch, and pc",
     "july 2026 ps plus premium game has already been confirmed",
-    "despite having an offline mode, assassin's creed black flag resynced was unplayable when ubisoft connect went down"
+    "despite having an offline mode, assassin's creed black flag resynced was unplayable when ubisoft connect went down",
+    "lunarium launches july 29",
+    "octopath traveler 0 update announced, adds new monster arena foe and resident",
+    "‘light-hearted’ serial killer puzzle game aerial_knight’s mrfreezy announced for pc",
+    "xbox seems to be making a fortune on the new black ops ports for ps5"
   ],
   "seen_story_keys": [
-    "7518f8c9b29f08cc70a1e7ea2e6cfb0a4484e255",
-    "d1560db44a834536dd352c13b7f057d15923ac49",
-    "eda4a2c43874c02fe4a11a34e97f689bf0cc6656",
-    "5d1231f34f2156ad5d36fe48f734dde71acf4b31",
     "643f1b528c29ad390fac869b7f71cef854cc6375",
     "7d104c371ab2acd6205fff71840a220dd9b85ea8",
     "61f280efef325dfc63404cb03cd498746812396d",
@@ -15003,6 +14999,10 @@
     "4dd51e1856d9c086e7e62462f6e32435d8d9b458",
     "4556668c562fbcd5bc696d92e9175dda20785ad9",
     "11f62a18d4ca3fcf49dfc1e659d2941672ba9617",
-    "7005efa36dda54a127ba23e20df7801bae81fa41"
+    "7005efa36dda54a127ba23e20df7801bae81fa41",
+    "d960e7ad6ba99022275062bb1ea4c3b6f571f8a9",
+    "e32cb4bfb131b94ef41fb740085e4b3c6492fb28",
+    "f9a0c96267340389783f4f550ab96158172d83af",
+    "825f575c2cd6cd07b5effd6d58905d0d8be38cc2"
   ]
 }
