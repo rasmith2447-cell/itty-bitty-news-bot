@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/fallout-76-update-66-backwoods-bigfoot-uninvited-guest/",
-    "https://www.ign.com/articles/new-monarch-legacy-of-monsters-trailer-is-serving-tentacles-ign-fan-fest-2026",
-    "https://www.gematsu.com/2026/02/anthropomorphic-hack-and-slash-action-game-verminsteel-announced-for-pc",
     "https://www.gamespot.com/articles/skate-studio-lays-off-staff-as-game-enters-next-chapter/1100-6538430/?ftag=CAD-01-10abi2f",
     "https://www.ign.com/articles/hbo-reveals-industry-will-be-back-for-season-5-but-that-will-also-be-the-final-season-of-the-series",
     "https://www.bluesnews.com/s/294930/tmnt-splintered-fate-alopex-character-dlc-released",
@@ -4999,12 +4996,12 @@
     "https://www.polygon.com/gdq-cancels-metal-slug-speedrunning-saudi-arabian-government-pif/",
     "https://www.pushsquare.com/news/2026/07/staff-protest-as-mindseye-studio-hosts-extravagant-fan-playtest-following-mass-layoffs",
     "https://www.pcgamer.com/software/ai/more-windows-security-updates-to-come-as-microsoft-leverages-ai-vulnerability-detection-but-only-the-highest-confidence-findings-reach-the-engineering-team/",
-    "https://www.rockpapershotgun.com/a-kick-in-the-teeth-for-the-fired-workers-unionised-former-mindseye-devs-protest-alleged-fan-playtest-at-build-a-rocket-boy"
+    "https://www.rockpapershotgun.com/a-kick-in-the-teeth-for-the-fired-workers-unionised-former-mindseye-devs-protest-alleged-fan-playtest-at-build-a-rocket-boy",
+    "https://gamerant.com/halo-remake-campaign-evolved-release-when-gold/",
+    "https://www.pcgamer.com/games/fps/the-goldeneye-homage-that-left-us-shaken-and-stirred-in-2022-is-finally-launching-in-august/",
+    "https://www.ign.com/articles/summer-games-done-quick-cancels-sponsored-snk-stream-due-to-human-rights-concerns"
   ],
   "seen_titles": [
-    "fallout 76's backwoods update brings bigfoot and needed upgrades",
-    "new monarch: legacy of monsters trailer is serving tentacles | ign fan fest 2026",
-    "anthropomorphic hack-and-slash action game verminsteel announced for pc",
     "skate studio lays off staff as game enters \"next chapter\"",
     "hbo reveals industry will be back for season 5 — but that will also be the final season of the series",
     "tmnt: splintered fate alopex character dlc released",
@@ -10001,12 +9998,12 @@
     "gdq backlash results in canceled with saudi arabia-backed snk",
     "staff protest as mindseye studio hosts 'extravagant' fan playtest following mass layoffs",
     "more windows security updates to come as microsoft leverages ai vulnerability detection, but 'only the highest-confidence findings reach the engineering team'",
-    "\"a kick in the teeth for the fired workers\": unionised former mindseye devs protest alleged fan playtest at build a rocket boy"
+    "\"a kick in the teeth for the fired workers\": unionised former mindseye devs protest alleged fan playtest at build a rocket boy",
+    "halo: campaign evolved has officially gone gold",
+    "the goldeneye homage that left us 'shaken and stirred' in 2022 is finally launching in august",
+    "summer games done quick cancels sponsored snk stream due to \"human rights concerns\""
   ],
   "seen_story_keys": [
-    "f32159c1a11ad3d97d49e1bed79a6601234c035a",
-    "29368151b00dd8a9351bcc037bad8ea97619ac27",
-    "5d6babecbeca1cb4f7b2ff3d1a43c28a03eaaf43",
     "ee1429d855c47fea3099b350906beb087677434f",
     "6b9b8412292e5656090f9b69d06176e397ba1e29",
     "df6a6481ac2a85a88eed23e7a67ac72f74524298",
@@ -15003,6 +15000,9 @@
     "279129882643521c85e32aa2bd68ef97c753fef2",
     "31e1cf36e64bfcc64d0bebf2bc4cad6491fc5606",
     "f9a20568e23789573004c8828713fff026a40be9",
-    "50e986d0e4d4a3585982b8bb862f06ace5b0307d"
+    "50e986d0e4d4a3585982b8bb862f06ace5b0307d",
+    "36c99c0b85949173cb2ca2ba88f60e2100ff1652",
+    "23a6b84905e98364e0f6468eb473701e2febe30a",
+    "e919796c5c1563f61f5b82ad079b4da7f0c47333"
   ]
 }
