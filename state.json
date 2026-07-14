@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294949/postal-spinoff-flesh-wire-announced",
-    "https://www.bluesnews.com/s/294940/evening-gatherings-and-events",
-    "https://www.gematsu.com/2026/02/lollipop-chainsaw-repop-nintendo-switch-2-edition-launches-may-28",
-    "https://www.gematsu.com/2026/02/the-foxs-way-home-nintendo-switch-2-edition-announced",
     "https://www.pcgamer.com/games/world-of-warcraft/wow-midnight-release-time/",
     "https://www.nintendolife.com/news/2026/02/fallout-4-on-switch-2-is-getting-dlss-support-and-stability-improvements",
     "https://www.polygon.com/reincarnated-as-a-slime-season-4-release-date/",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/dying-light-the-beast-canceled-ps4-xbox-one/",
     "https://www.nintendolife.com/news/2026/07/dragons-dogma-2-expected-to-run-at-a-minimum-of-30fps-on-switch-2",
     "https://www.pushsquare.com/news/2026/07/one-of-2026s-most-addictive-ps5-games-is-even-bigger-and-better-with-latest-free-update",
-    "https://www.eurogamer.net/next-gen-console-delay-blood-of-dawnwalker-developer"
+    "https://www.eurogamer.net/next-gen-console-delay-blood-of-dawnwalker-developer",
+    "https://www.polygon.com/star-wars-mandalorian-and-grogu-digital-release-date-4k-blu-ray/",
+    "https://www.gematsu.com/2026/07/starbites-for-switch-2-now-available",
+    "https://www.gamespot.com/articles/nintendo-exploring-a-switch-2-oled-but-is-worried-about-price-report/",
+    "https://www.gamesindustry.biz/ubisoft-pivots-to-selective-model-to-reduce-reliance-on-individual-game-launches"
   ],
   "seen_titles": [
-    "postal spinoff flesh & wire announced",
-    "evening gatherings and events",
-    "lollipop chainsaw repop – nintendo switch 2 edition launches may 28",
-    "the fox’s way home – nintendo switch 2 edition announced",
     "here's when world of warcraft: midnight launches in your time zone",
     "fallout 4 on switch 2 is getting dlss support and stability improvements",
     "reincarnated as a slime reveals season 4 release date",
@@ -10001,13 +9997,13 @@
     "dying light: the beast canceled on ps4 and xbox one",
     "dragon's dogma 2 expected to run at a minimum of 30fps on switch 2",
     "one of 2026's most addictive ps5 games is even bigger and better with latest free update",
-    "a delayed next generation of consoles is \"better for us\", says the blood of dawnwalker director, as price rises continue to plague the industry"
+    "a delayed next generation of consoles is \"better for us\", says the blood of dawnwalker director, as price rises continue to plague the industry",
+    "the mandalorian and grogu digital release date and blu-ray announced",
+    "starbites for switch 2 now available",
+    "nintendo exploring a switch 2 oled, but is worried about price – report",
+    "ubisoft pivots to \"selective model\" to reduce reliance on individual game launches"
   ],
   "seen_story_keys": [
-    "8d26449ae18a10801d21dd162e1e5403443788f3",
-    "8b97aa82b0c0527d05f4124d09736126a3514eb9",
-    "8005de56b41bcdcccab9a4f7c5977f0e583bb2fd",
-    "2fa08733a46f2ec56dea71dcf5958a23b048e510",
     "113e19616abe5d4f04385fca264b10c32069ee66",
     "ff5dc1b8055557add5495ea1adfa0a20d9187a30",
     "30eacacfc9703dce390afaa47254ba110e65fdc4",
@@ -15003,6 +14999,10 @@
     "33e475c71206145541e5aa4c7d45ced35f6677f1",
     "c22a25dc9d073d59160ecc3263827fd302ded02c",
     "ee3dca2cbf396ef9670818676c9d191d51f69ddf",
-    "3c79b5b8a6df2089a05d4df9d710b68bf241c743"
+    "3c79b5b8a6df2089a05d4df9d710b68bf241c743",
+    "f86aac40eec71e02fef2191171185be0028fafd8",
+    "3e3e83f635475a52bc6541736912c74032fbf7c8",
+    "b7bd127cbfb956c9b1a6cb25600345c3b19f1fc7",
+    "010e7a2b85d2ef8a564421d69e3900c85acd4980"
   ]
 }
