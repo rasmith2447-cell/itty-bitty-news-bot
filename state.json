@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/02/yes-ecco-the-dolphins-remaster-will-probably-make-a-splash-on-switch",
-    "https://www.gematsu.com/2026/02/dissidia-duellum-final-fantasy-launches-in-march",
-    "https://www.nintendolife.com/news/2026/02/stardew-valley-is-celebrating-10-years-with-a-special-anniversary-broadcast",
-    "https://www.bluesnews.com/s/294950/verminsteel-announced",
     "https://www.bluesnews.com/s/294949/postal-spinoff-flesh-wire-announced",
     "https://www.bluesnews.com/s/294940/evening-gatherings-and-events",
     "https://www.gematsu.com/2026/02/lollipop-chainsaw-repop-nintendo-switch-2-edition-launches-may-28",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/dying-light-the-beast-for-ps4-and-xbox-one-canceled-after-dev-accepts-the-technical-realities-of-development",
     "https://www.gematsu.com/2026/07/expeditions-samurai-launches-in-early-access-on-august-7",
     "https://www.gamesindustry.biz/compulsion-games-seeks-new-partnerships-following-spin-out-from-from-xbox",
-    "https://www.pushsquare.com/news/2026/07/refunds-for-dying-light-2-ps4-users-as-the-beast-is-cancelled-for-last-gen-system"
+    "https://www.pushsquare.com/news/2026/07/refunds-for-dying-light-2-ps4-users-as-the-beast-is-cancelled-for-last-gen-system",
+    "https://www.polygon.com/dying-light-the-beast-canceled-ps4-xbox-one/",
+    "https://www.nintendolife.com/news/2026/07/dragons-dogma-2-expected-to-run-at-a-minimum-of-30fps-on-switch-2",
+    "https://www.pushsquare.com/news/2026/07/one-of-2026s-most-addictive-ps5-games-is-even-bigger-and-better-with-latest-free-update",
+    "https://www.eurogamer.net/next-gen-console-delay-blood-of-dawnwalker-developer"
   ],
   "seen_titles": [
-    "yes, ecco the dolphin's remaster will probably make a splash on switch",
-    "dissidia duellum final fantasy launches in march",
-    "stardew valley is celebrating 10 years with a special anniversary broadcast",
-    "verminsteel announced",
     "postal spinoff flesh & wire announced",
     "evening gatherings and events",
     "lollipop chainsaw repop – nintendo switch 2 edition launches may 28",
@@ -10001,13 +9997,13 @@
     "dying light: the beast for ps4 and xbox one canceled after dev accepts 'the technical realities of development'",
     "expeditions: samurai launches in early access on august 7",
     "compulsion games seeks new partnerships following spin-out from from xbox",
-    "refunds for dying light 2 ps4 users as the beast is cancelled for last-gen system"
+    "refunds for dying light 2 ps4 users as the beast is cancelled for last-gen system",
+    "dying light: the beast canceled on ps4 and xbox one",
+    "dragon's dogma 2 expected to run at a minimum of 30fps on switch 2",
+    "one of 2026's most addictive ps5 games is even bigger and better with latest free update",
+    "a delayed next generation of consoles is \"better for us\", says the blood of dawnwalker director, as price rises continue to plague the industry"
   ],
   "seen_story_keys": [
-    "c59dee8edb639e2355114eef076f0842bbba2f14",
-    "376c43bd7789689f79d612fd805cbcdbf8e51399",
-    "5053a2f0afd5a599c51f38cbebc2fba08dce1a9f",
-    "ad10045b4ac1cc4442db554e909e191be28e0f41",
     "8d26449ae18a10801d21dd162e1e5403443788f3",
     "8b97aa82b0c0527d05f4124d09736126a3514eb9",
     "8005de56b41bcdcccab9a4f7c5977f0e583bb2fd",
@@ -15003,6 +14999,10 @@
     "d5b4470bd3ad3d9363534b15fba230a64fae2897",
     "29801dee48430fa2fcc4e445cbf0d4403428b2db",
     "65897fe79faa007d7fb86cda74e4d542576dfdc8",
-    "0a7d74ecbc31719e672421fb8f977d0dc0df2e46"
+    "0a7d74ecbc31719e672421fb8f977d0dc0df2e46",
+    "33e475c71206145541e5aa4c7d45ced35f6677f1",
+    "c22a25dc9d073d59160ecc3263827fd302ded02c",
+    "ee3dca2cbf396ef9670818676c9d191d51f69ddf",
+    "3c79b5b8a6df2089a05d4df9d710b68bf241c743"
   ]
 }
