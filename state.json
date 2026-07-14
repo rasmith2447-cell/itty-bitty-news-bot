@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/02/my-hero-academia-alls-justice-dlc-character-star-and-stripe-launches-february-26",
-    "https://www.videogameschronicle.com/news/we-missed-the-mark-discord-is-delaying-global-age-verification-until-its-improved-the-process/",
-    "https://www.pcgamer.com/gaming-industry/game-development/sony-killed-a-fan-made-bloodborne-tribute-last-year-as-the-game-continues-to-languish-on-ps4-why-are-you-making-such-absurd-decisions-sony/",
-    "https://www.pcgamer.com/games/life-sim/10-years-later-i-still-cant-believe-eric-barone-thought-harvest-moon-fans-would-hate-stardew-valley/",
     "https://www.ign.com/articles/skate-developer-full-circle-hit-with-layoffs-as-ea-looks-to-better-support-the-long-term-future-of-the-game",
     "https://www.ign.com/articles/stardew-valley-creator-to-premiere-anniversary-video-revealing-new-marriage-candidates-tomorrow",
     "https://www.pcgamer.com/games/survival-crafting/please-let-us-cook-more-windrose-devs-arent-ready-to-give-players-a-release-date-yet/",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/07/final-fantasy-tactics-the-ivalice-chronicles-updated-to-version-1-5-1",
     "https://www.nintendolife.com/news/2026/07/kingdom-hearts-deep-dive-event-to-commemorate-25th-anniversary-this-august",
     "https://www.nintendolife.com/news/2026/07/octopath-traveler-0-update-adds-new-town-resident-and-foe-later-this-year",
-    "https://www.eurogamer.net/dragons-dogma-2-dark-arisen-itsuno-future"
+    "https://www.eurogamer.net/dragons-dogma-2-dark-arisen-itsuno-future",
+    "https://www.eurogamer.net/compulsion-games-looking-for-work-xbox-cuts",
+    "https://gamerant.com/octopath-traveler-0-free-update-new-monsters/",
+    "https://www.pcgamer.com/hardware/gaming-mice/we-might-see-a-new-logitech-superstrike-this-september-just-a-few-months-after-the-worlds-first-proper-analogue-mouse-launched/",
+    "https://www.ign.com/articles/assassins-creed-black-flag-developers-in-barcelona-are-being-laid-off-as-ubisoft-celebrates-games-success"
   ],
   "seen_titles": [
-    "my hero academia: all’s justice dlc character star and stripe launches february 26",
-    "‘we missed the mark’: discord is delaying global age verification until it’s improved the process",
-    "sony killed a fan-made bloodborne tribute last year, as the game continues to languish on ps4: 'why are you making such absurd decisions, sony?'",
-    "10 years later, i still can't believe eric barone thought harvest moon fans would hate stardew valley",
     "skate developer full circle hit with layoffs as ea looks to 'better support' the 'long-term future' of the game",
     "stardew valley creator to premiere anniversary video revealing new marriage candidates tomorrow",
     "'please, let us cook more': windrose devs aren't ready to give players a release date yet",
@@ -10001,13 +9997,13 @@
     "final fantasy tactics: the ivalice chronicles updated to version 1.5.1",
     "kingdom hearts \"deep dive\" event to commemorate 25th anniversary this august",
     "octopath traveler 0 update adds new town resident and foe later this year",
-    "\"i have what it takes to continue this series' legacy\" hideaki itsuno may have left capcom, but dragon's dogma 2's new director reckons the rpg is still in good hands"
+    "\"i have what it takes to continue this series' legacy\" hideaki itsuno may have left capcom, but dragon's dogma 2's new director reckons the rpg is still in good hands",
+    "days after leaving xbox, south of midnight developer compulsion games broadcasts that it's looking for work",
+    "free octopath traveler 0 content update officially revealed",
+    "we might see a new logitech superstrike this september, just a few months after the world's first proper analogue mouse launched",
+    "assassin's creed black flag developers in barcelona are being laid off as ubisoft celebrates game's success"
   ],
   "seen_story_keys": [
-    "0cc9f6792f4656e1b709387aaabe0a33d4c2f5c2",
-    "53715df41fc4d4d5011a2d935e1f598ff272d53f",
-    "1a27bbb186b09c3e11fdef0b145d212dcb165d0d",
-    "4572b28b2e96d2696e7950c17822ff5ac82376ec",
     "87b0a895bcbde79f86fb3182928836bc3d934ba3",
     "801a1790813d01b13d08937a9c9800bd8c261a50",
     "bfd7c0f4c37e0973acf2b18cef791fc7d18c0c16",
@@ -15003,6 +14999,10 @@
     "b9c99eaad0ffcb4ae9aefbf8dc41d9ccf5156288",
     "90abfe64d401e98bd04bb87a8116c3c6e90ae814",
     "4b1dd1281c9fc1579b93e7944da8ccc6b2638314",
-    "5c31d1369c78523dbd849e662a1c345ac7fb2fe3"
+    "5c31d1369c78523dbd849e662a1c345ac7fb2fe3",
+    "d5bf5a524f6a52e025e679251cdb5e6967a25d45",
+    "5d62611d2ad3eda8688e97446bf91ca803ce0ff0",
+    "fe206199bc439c85bf630f34a199f85bca109a97",
+    "d737c9a90b755cf0775fa3d373c1df108eae9ad2"
   ]
 }
