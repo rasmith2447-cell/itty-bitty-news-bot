@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/02/dark-auction-nintendo-switch-2-edition-announced",
-    "https://www.gematsu.com/2026/02/neverness-to-everness-launches-april-23-in-china-april-29-worldwide",
-    "https://www.bluesnews.com/s/294954/ny-state-sues-valve-over-loot-boxes",
-    "https://www.bluesnews.com/s/294951/railroad-corporation-2-official-launch",
     "https://www.nintendolife.com/news/2026/02/yes-ecco-the-dolphins-remaster-will-probably-make-a-splash-on-switch",
     "https://www.gematsu.com/2026/02/dissidia-duellum-final-fantasy-launches-in-march",
     "https://www.nintendolife.com/news/2026/02/stardew-valley-is-celebrating-10-years-with-a-special-anniversary-broadcast",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/xbox-player-voice-portal-layoffs-discussion",
     "https://www.pcgamer.com/games/assassins-creed/the-company-has-turned-its-back-on-us-black-flag-resynced-developers-at-ubisoft-barcelona-are-being-laid-off-instead-of-celebrating-the-series-latest-hit/",
     "https://www.pcgamer.com/gaming-industry/id-software-producer-says-youll-never-get-another-wow-or-morrowind-in-the-current-climate-in-the-wake-of-xbox-layoffs/",
-    "https://www.ign.com/articles/it-sounds-like-mike-flanagan-is-having-a-tough-time-getting-the-green-light-on-his-long-awaited-dark-tower-tv-series"
+    "https://www.ign.com/articles/it-sounds-like-mike-flanagan-is-having-a-tough-time-getting-the-green-light-on-his-long-awaited-dark-tower-tv-series",
+    "https://www.ign.com/articles/dying-light-the-beast-for-ps4-and-xbox-one-canceled-after-dev-accepts-the-technical-realities-of-development",
+    "https://www.gematsu.com/2026/07/expeditions-samurai-launches-in-early-access-on-august-7",
+    "https://www.gamesindustry.biz/compulsion-games-seeks-new-partnerships-following-spin-out-from-from-xbox",
+    "https://www.pushsquare.com/news/2026/07/refunds-for-dying-light-2-ps4-users-as-the-beast-is-cancelled-for-last-gen-system"
   ],
   "seen_titles": [
-    "dark auction – nintendo switch 2 edition announced",
-    "neverness to everness launches april 23 in china, april 29 worldwide",
-    "ny state sues valve over loot boxes",
-    "railroad corporation 2 official launch",
     "yes, ecco the dolphin's remaster will probably make a splash on switch",
     "dissidia duellum final fantasy launches in march",
     "stardew valley is celebrating 10 years with a special anniversary broadcast",
@@ -10001,13 +9997,13 @@
     "users flock to xbox player voice portal to ask for an end to cycle of layoffs",
     "'the company has turned its back on us': black flag resynced developers at ubisoft barcelona are being laid off instead of celebrating the series' latest hit",
     "id software producer says 'you'll never get another wow or morrowind in the current climate' in the wake of xbox layoffs",
-    "it sounds like mike flanagan is having a tough time getting the green light on his long-awaited dark tower tv series"
+    "it sounds like mike flanagan is having a tough time getting the green light on his long-awaited dark tower tv series",
+    "dying light: the beast for ps4 and xbox one canceled after dev accepts 'the technical realities of development'",
+    "expeditions: samurai launches in early access on august 7",
+    "compulsion games seeks new partnerships following spin-out from from xbox",
+    "refunds for dying light 2 ps4 users as the beast is cancelled for last-gen system"
   ],
   "seen_story_keys": [
-    "edf0d3495cec39babe7f0428b69a701ccb0979d1",
-    "7197c8c0e0bc6cceb240e2d44a3afbf53be1776d",
-    "cf53fa8e2d97679b205c544903d5e43e1620f25a",
-    "3256cf3e229e95e5e762b9e7447303369468fc14",
     "c59dee8edb639e2355114eef076f0842bbba2f14",
     "376c43bd7789689f79d612fd805cbcdbf8e51399",
     "5053a2f0afd5a599c51f38cbebc2fba08dce1a9f",
@@ -15003,6 +14999,10 @@
     "9c196024b1b11303edcd64a3b6e6c99f17cc7086",
     "f260035300d7c2e1b6d74acb026b7b0fa17e888d",
     "7e73b9d90036c7050008f63582ce643a6b5f3383",
-    "a2d3e610e7b23d0dbeb738abc5bfd5a1505f29c8"
+    "a2d3e610e7b23d0dbeb738abc5bfd5a1505f29c8",
+    "d5b4470bd3ad3d9363534b15fba230a64fae2897",
+    "29801dee48430fa2fcc4e445cbf0d4403428b2db",
+    "65897fe79faa007d7fb86cda74e4d542576dfdc8",
+    "0a7d74ecbc31719e672421fb8f977d0dc0df2e46"
   ]
 }
