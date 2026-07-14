@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/warhammer-40000-space-marine-2-techmarine-update-out-now-check-out-patch-120",
-    "https://www.ign.com/articles/mickey-x-f1-racing-to-the-top-aims-to-capture-the-creativity-and-imagination-of-disney-and-excitement-and-drama-of-formula-1",
-    "https://www.videogameschronicle.com/news/games-media-set-for-more-layoffs-as-ign-owned-eurogamer-cuts-editorial-staff/",
-    "https://www.gematsu.com/2026/02/mado-monogatari-fia-and-the-wondrous-academy-for-pc-launches-march-25",
     "https://www.ign.com/articles/tales-of-kenzara-zau-developer-reveals-its-next-game-a-chaotic-cooperative-extraction-platformer-about-fixing-the-world-with-random-junk",
     "https://www.ign.com/articles/smiling-friends-creators-shock-fans-by-announcing-the-series-has-come-to-an-end",
     "https://www.gematsu.com/2026/02/70s-style-robot-anime-geppy-x-remaster-announced-for-ps5-xbox-series-ps4-switch-and-pc",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/final-boss-the-video-game-announced-for-pc-adaptation-of-image-comics-series",
     "https://www.polygon.com/playstation-flexstrike-controller-delay/",
     "https://gamerant.com/stardew-valley-eric-barone-development-cancel/",
-    "https://www.videogameschronicle.com/news/the-ps4-and-xbox-one-versions-of-dying-light-the-beast-have-been-cancelled/"
+    "https://www.videogameschronicle.com/news/the-ps4-and-xbox-one-versions-of-dying-light-the-beast-have-been-cancelled/",
+    "https://gamerant.com/ps5-flexstrike-delay-marvel-tokon-fighting-souls/",
+    "https://www.polygon.com/fortnite-hot-bat-summer-skins-dc-batman-harley-quinn-catwoman-poison-ivy/",
+    "https://www.rockpapershotgun.com/following-xbox-split-south-of-midnight-devs-compulsion-are-looking-for-work-as-a-co-development-or-support-studio",
+    "https://www.gematsu.com/2026/07/aretha-reunion-project-crowdfunding-campaign-announced"
   ],
   "seen_titles": [
-    "warhammer 40,000: space marine 2 techmarine update out now — check out patch 12.0",
-    "mickey x f1 racing to the top! aims to capture the creativity and imagination of disney and excitement and drama of formula 1",
-    "games media set for more layoffs, as ign-owned eurogamer cuts editorial staff",
-    "mado monogatari: fia and the wondrous academy for pc launches march 25",
     "tales of kenzara: zau developer reveals its next game: a chaotic cooperative extraction platformer about fixing the world with random junk",
     "smiling friends creators shock fans by announcing the series has come to an end",
     "70s-style robot anime geppy-x remaster announced for ps5, xbox series, ps4, switch, and pc",
@@ -10001,13 +9997,13 @@
     "final boss: the video game announced for pc – adaptation of image comics series",
     "playstation flexstrike will no longer launch alongside marvel tokon",
     "stardew valley creator almost canceled the game",
-    "the ps4 and xbox one versions of dying light: the beast have been cancelled"
+    "the ps4 and xbox one versions of dying light: the beast have been cancelled",
+    "ps5 hardware delay may change launch plans for marvel tokon: fighting souls fans",
+    "fortnite's hot bat summer skins revealed and fans are surprised",
+    "following xbox split, south of midnight devs compulsion are looking for work as a co-development or support studio",
+    "aretha reunion project crowdfunding campaign announced"
   ],
   "seen_story_keys": [
-    "351bffe1dcf322a0b163c399f0619293ee87a778",
-    "8af9c41804a7118f15e03ab59ce504b0c7c1ec65",
-    "c564ffe44506afb38066d9267bc809274c136a01",
-    "908862c2a4efaed4d5039b9b493cf4b8fb5ea7eb",
     "8ff3532a1df8bb6b9a8a63546d08c97ab2119d50",
     "77ed12fed005484f65b1790e4e638df30407e41b",
     "430f46a59e59573b0c8ea4420c8a5a76da0e16b5",
@@ -15003,6 +14999,10 @@
     "ceb53b1a3070bf69282a53f2fec7eee3d80c5b76",
     "23ecd3bb829a091fbeb63bfcd572ce20decb6ace",
     "565e01b9ce309fb92551676d13f065cc50ee7008",
-    "a8edda3a874ffd2304cc3a3feb2aa2d852265d62"
+    "a8edda3a874ffd2304cc3a3feb2aa2d852265d62",
+    "19ea96407bce4add4590352c0306bc2c8a5cfffe",
+    "60c0f976286004fee600d5b5f5395f47bde8ba02",
+    "51aae36078b39ae41256d3cf6079a3759ffdd3e0",
+    "cf9d878670ceb335559650b4a246ae6d390c00c6"
   ]
 }
