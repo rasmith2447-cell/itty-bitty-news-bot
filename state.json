@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/fps/marathon-twitch-drops/",
-    "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-latest-patch-has-made-rocketeers-deadlier-and-you-can-guess-how-happy-its-made-players-the-problem-with-rocketeers-was-their-abundance-of-mercy/",
-    "https://www.videogameschronicle.com/news/eas-skate-studio-confirms-layoffs-as-it-moves-to-better-support-the-games-long-term-future/",
-    "https://www.pcgamer.com/games/baldurs-gate/beamdog-swaggers-in-says-sorry-im-late-then-surprise-patches-baldurs-gate-1-and-2-enhanced-14-years-after-release/",
     "https://www.ign.com/articles/warhammer-40000-space-marine-2-techmarine-update-out-now-check-out-patch-120",
     "https://www.ign.com/articles/mickey-x-f1-racing-to-the-top-aims-to-capture-the-creativity-and-imagination-of-disney-and-excitement-and-drama-of-formula-1",
     "https://www.videogameschronicle.com/news/games-media-set-for-more-layoffs-as-ign-owned-eurogamer-cuts-editorial-staff/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/capy-castaway-launches-august-6",
     "https://www.ign.com/articles/the-odyssey-movie-rival-launches-this-year-made-entirely-by-ai-but-based-on-its-first-trailer-christopher-nolan-has-nothing-to-worry-about",
     "https://www.ign.com/articles/playstations-flexstrike-wireless-fight-stick-postponed-due-to-unexpected-production-delays",
-    "https://www.pushsquare.com/news/2026/07/sonys-flexstrike-ps5-fight-stick-delayed-indefinitely-now-launches-after-marvel-tokon"
+    "https://www.pushsquare.com/news/2026/07/sonys-flexstrike-ps5-fight-stick-delayed-indefinitely-now-launches-after-marvel-tokon",
+    "https://www.gematsu.com/2026/07/final-boss-the-video-game-announced-for-pc-adaptation-of-image-comics-series",
+    "https://www.polygon.com/playstation-flexstrike-controller-delay/",
+    "https://gamerant.com/stardew-valley-eric-barone-development-cancel/",
+    "https://www.videogameschronicle.com/news/the-ps4-and-xbox-one-versions-of-dying-light-the-beast-have-been-cancelled/"
   ],
   "seen_titles": [
-    "all marathon twitch drops and how to get them",
-    "arc raiders' latest patch has made rocketeers deadlier, and you can guess how happy it's made players: 'the problem with rocketeers was their abundance of mercy'",
-    "ea’s skate studio confirms layoffs as it moves ‘to better support the game’s long-term future’",
-    "beamdog swaggers in, says sorry i'm late, then surprise-patches baldur's gate 1 and 2 enhanced 14 years after release",
     "warhammer 40,000: space marine 2 techmarine update out now — check out patch 12.0",
     "mickey x f1 racing to the top! aims to capture the creativity and imagination of disney and excitement and drama of formula 1",
     "games media set for more layoffs, as ign-owned eurogamer cuts editorial staff",
@@ -10001,13 +9997,13 @@
     "capy castaway launches august 6",
     "the odyssey movie rival launches this year, made entirely by ai — but based on its first trailer, christopher nolan has nothing to worry about",
     "playstation's flexstrike wireless fight stick postponed due to \"unexpected production delays\"",
-    "sony's flexstrike ps5 fight stick delayed indefinitely, now launches after marvel tokon"
+    "sony's flexstrike ps5 fight stick delayed indefinitely, now launches after marvel tokon",
+    "final boss: the video game announced for pc – adaptation of image comics series",
+    "playstation flexstrike will no longer launch alongside marvel tokon",
+    "stardew valley creator almost canceled the game",
+    "the ps4 and xbox one versions of dying light: the beast have been cancelled"
   ],
   "seen_story_keys": [
-    "cd3a090b5d7e96ed8b57c1072c20b53c39501b84",
-    "8968fb7f19bf5e2bd39ba4d9bfdd1b872538ecad",
-    "3046ed6c2cb996cc625dfc6478818b905b69cf23",
-    "1c4cad0d11483197228d9662dbb9af6b2c166b69",
     "351bffe1dcf322a0b163c399f0619293ee87a778",
     "8af9c41804a7118f15e03ab59ce504b0c7c1ec65",
     "c564ffe44506afb38066d9267bc809274c136a01",
@@ -15003,6 +14999,10 @@
     "22b9b9a1d3eb3b764fe8ba59897ca79d1e1f60ab",
     "bb799ab74907178ac4cc2d284821da0cabdce194",
     "4fa2700b4dee03b53f6bcebced7fc5a4d4605d73",
-    "a687672cfb4a99b1bccb68a8aa253a58a7828783"
+    "a687672cfb4a99b1bccb68a8aa253a58a7828783",
+    "ceb53b1a3070bf69282a53f2fec7eee3d80c5b76",
+    "23ecd3bb829a091fbeb63bfcd572ce20decb6ace",
+    "565e01b9ce309fb92551676d13f065cc50ee7008",
+    "a8edda3a874ffd2304cc3a3feb2aa2d852265d62"
   ]
 }
