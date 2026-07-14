@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/tales-of-kenzara-zau-developer-reveals-its-next-game-a-chaotic-cooperative-extraction-platformer-about-fixing-the-world-with-random-junk",
-    "https://www.ign.com/articles/smiling-friends-creators-shock-fans-by-announcing-the-series-has-come-to-an-end",
     "https://www.gematsu.com/2026/02/70s-style-robot-anime-geppy-x-remaster-announced-for-ps5-xbox-series-ps4-switch-and-pc",
     "https://www.bluesnews.com/s/294982/american-mcgee-reveals-plushie-dreadfuls-game-ambitions",
     "https://www.bluesnews.com/s/294980/reigns-the-witcher-released",
@@ -4999,11 +4997,11 @@
     "https://gamerant.com/ps5-flexstrike-delay-marvel-tokon-fighting-souls/",
     "https://www.polygon.com/fortnite-hot-bat-summer-skins-dc-batman-harley-quinn-catwoman-poison-ivy/",
     "https://www.rockpapershotgun.com/following-xbox-split-south-of-midnight-devs-compulsion-are-looking-for-work-as-a-co-development-or-support-studio",
-    "https://www.gematsu.com/2026/07/aretha-reunion-project-crowdfunding-campaign-announced"
+    "https://www.gematsu.com/2026/07/aretha-reunion-project-crowdfunding-campaign-announced",
+    "https://www.pcgamer.com/gaming-industry/epic-games-store-boss-quits-after-8-years-to-take-up-new-role-at-saber-interactive/",
+    "https://www.ign.com/articles/capcom-gives-monster-hunter-wilds-a-permanent-price-reduction-as-new-dlc-bundles-announced"
   ],
   "seen_titles": [
-    "tales of kenzara: zau developer reveals its next game: a chaotic cooperative extraction platformer about fixing the world with random junk",
-    "smiling friends creators shock fans by announcing the series has come to an end",
     "70s-style robot anime geppy-x remaster announced for ps5, xbox series, ps4, switch, and pc",
     "american mcgee reveals plushie dreadfuls game ambitions",
     "reigns: the witcher released",
@@ -10001,11 +9999,11 @@
     "ps5 hardware delay may change launch plans for marvel tokon: fighting souls fans",
     "fortnite's hot bat summer skins revealed and fans are surprised",
     "following xbox split, south of midnight devs compulsion are looking for work as a co-development or support studio",
-    "aretha reunion project crowdfunding campaign announced"
+    "aretha reunion project crowdfunding campaign announced",
+    "epic games store boss quits after 8 years to take up new role at saber interactive",
+    "capcom gives monster hunter wilds a 'permanent price reduction' as new dlc bundles announced"
   ],
   "seen_story_keys": [
-    "8ff3532a1df8bb6b9a8a63546d08c97ab2119d50",
-    "77ed12fed005484f65b1790e4e638df30407e41b",
     "430f46a59e59573b0c8ea4420c8a5a76da0e16b5",
     "f5281c4bd91ab7b8cf60d76f6a9d3cf4a18ebe61",
     "2f0faa21d11aa65a8cb1dd1cca82cdd6101f9e66",
@@ -15003,6 +15001,8 @@
     "19ea96407bce4add4590352c0306bc2c8a5cfffe",
     "60c0f976286004fee600d5b5f5395f47bde8ba02",
     "51aae36078b39ae41256d3cf6079a3759ffdd3e0",
-    "cf9d878670ceb335559650b4a246ae6d390c00c6"
+    "cf9d878670ceb335559650b4a246ae6d390c00c6",
+    "1f56cb71fa80e44ae73423034d1d59dd97ce0f6d",
+    "564c4274836dadc41b07afd82d1484355e6993a3"
   ]
 }
