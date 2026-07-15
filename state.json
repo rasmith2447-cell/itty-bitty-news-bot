@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294985/marathon-server-slam-underway",
-    "https://www.bluesnews.com/s/294961/morning-metaverse",
-    "https://www.gematsu.com/2026/02/co-op-extraction-platformer-fixforce-announced-for-xbox-series-pc",
-    "https://www.gamespot.com/articles/can-this-guitar-hero-successor-compete-with-the-cover-bands/1100-6538463/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/02/warhammer-40000-space-marine-ii-techmarine-update-now-available",
     "https://www.gematsu.com/2026/02/realm-of-ink-launches-may-26-for-ps5-xbox-series-ps4-switch-and-pc",
     "https://www.pcgamer.com/gaming-industry/3-months-after-laying-off-a-bunch-of-people-splash-damage-has-become-splash-damage-group-and-acquired-another-studio/",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/dispatch-xbox-release-date/",
     "https://gamerant.com/dispatch-xbox-release-date-when-july-29-2026/",
     "https://www.gematsu.com/2026/07/dispatch-for-xbox-series-launches-july-29",
-    "https://gamerant.com/the-duskbloods-closed-network-test-dates/"
+    "https://gamerant.com/the-duskbloods-closed-network-test-dates/",
+    "https://www.polygon.com/ratchet-and-clank-new-game-ranger-rumble-pre-registration/",
+    "https://www.polygon.com/ps-plus-game-catalog-july-2026-update/",
+    "https://www.pushsquare.com/news/2026/07/ratchet-and-clank-mobile-game-is-gearing-up-for-global-launch-pre-registration-open",
+    "https://www.gematsu.com/2026/07/playstation-plus-game-catalog-and-classics-catalog-lineup-for-july-2026-announced"
   ],
   "seen_titles": [
-    "marathon server slam underway",
-    "morning metaverse",
-    "co-op extraction platformer fixforce announced for xbox series, pc",
-    "can this guitar hero successor compete with the cover bands?",
     "warhammer 40,000: space marine ii ‘techmarine’ update now available",
     "realm of ink launches may 26 for ps5, xbox series, ps4, switch, and pc",
     "3 months after laying off a bunch of people, splash damage has become 'splash damage group' and acquired another studio",
@@ -10001,13 +9997,13 @@
     "2025 goty contender dispatch is finally coming to xbox",
     "new official dispatch release confirmed for july 29",
     "dispatch for xbox series launches july 29",
-    "fromsoftware's the duskbloods closed network test dates revealed"
+    "fromsoftware's the duskbloods closed network test dates revealed",
+    "ratchet & clank: ranger rumble announced for pre-registration",
+    "playstation plus extra july 2026 game catalog additions announced",
+    "ratchet & clank mobile game is gearing up for global launch, pre-registration open",
+    "playstation plus game catalog and classics catalog lineup for july 2026 announced"
   ],
   "seen_story_keys": [
-    "4419d8ac3cca1ace215727e3abc0dcc1668b4b66",
-    "3a3598cc5e1e982201aaf672a99e9b8e1e80246f",
-    "a335ea69d278881d823f7ed73a08a84aa2c65d88",
-    "4a5e4f5960fb8a8c646c2c2db76676e275d0a333",
     "90240d28eacf27983a6e80949bba3894db30996c",
     "d58c5ae4d5be73e8ec24a22526eb18b41c04bf2e",
     "5b90b6c384c6c459f5e2bd3b2b7fa5a86a4bbf4c",
@@ -15003,6 +14999,10 @@
     "9c771709b98621d8393b798439a6fa7b0a0d7e71",
     "c8fdef5a45709fca61509e39596999cdf7afc2d7",
     "f129faf8c72cfe4dee43bf47f2606fb9d9661964",
-    "9d99537fa611889bb6b8b07d2758b59a5e0a80fd"
+    "9d99537fa611889bb6b8b07d2758b59a5e0a80fd",
+    "73273d2f5576141547bcee279fafe2efc45c04e2",
+    "9c76c6ea458d75a99d72fe6ffeedea987b096ae8",
+    "e8d1a93ffc24a2bb1f9df6af3c89d49243be3469",
+    "293e46cb04dcfa466914ba5ceae097d09f4cdfc7"
   ]
 }
