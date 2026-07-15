@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/fallout-76-season-24-rip-daring-rewards-start-date/",
-    "https://www.gamespot.com/articles/marathon-is-already-shooting-up-steams-top-sellers-chart/1100-6538453/?ftag=CAD-01-10abi2f",
-    "https://www.pcgamer.com/games/rpg/grim-dawn-marks-its-10th-anniversary-with-a-triumphal-update-on-its-final-expansion-grim-dawn-will-not-be-going-out-with-a-bang-it-will-be-a-tremendous-roar/",
-    "https://www.polygon.com/stardew-valley-new-marriage-candidates-update-version-17/",
     "https://www.gematsu.com/2026/02/redoctane-games-announces-rhythm-action-game-stage-tour-for-consoles-pc",
     "https://www.gematsu.com/2026/02/he-man-and-the-masters-of-the-universe-dragon-pearl-of-destruction-launches-april-28",
     "https://www.gematsu.com/2026/02/samson-a-tyndalston-story-launches-april-8",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/07/noir-style-cartoon-detective-fps-mouse-p-i-for-hire-surpasses-one-million-players",
     "https://gamerant.com/assassins-creed-ac-black-flag-resynced-hexe-sales-montreal/",
     "https://www.rockpapershotgun.com/as-unionised-microsoft-workers-rally-against-bethesda-layoffs-fallout-4s-been-filled-with-protest-signs-and-onebgs-logoed-vault-suits-by-modders",
-    "https://www.pcgamer.com/games/world-of-warcraft/wow-devs-are-looking-into-an-annoying-grappling-hook-that-takes-a-spot-on-your-action-bar-despite-only-being-used-in-one-zone/"
+    "https://www.pcgamer.com/games/world-of-warcraft/wow-devs-are-looking-into-an-annoying-grappling-hook-that-takes-a-spot-on-your-action-bar-despite-only-being-used-in-one-zone/",
+    "https://www.pushsquare.com/news/2026/07/new-tides-of-annihilation-gameplay-at-gamescom-ps5-action-title-to-go-on-tour",
+    "https://www.eurogamer.net/xbox-cuts-report-staggering-loss-fear",
+    "https://www.ign.com/articles/netflix-shadow-drops-retro-vhs-inspired-version-of-stranger-things-season-1-on-series-10th-anniversary",
+    "https://www.pcgamer.com/games/grand-theft-auto/gta-6-isnt-on-pc-at-launch-because-its-always-better-to-start-with-the-constraints-suggests-former-rockstar-producer/"
   ],
   "seen_titles": [
-    "fallout 76 season 24 is an ode to alien invasions and old movies",
-    "marathon is already shooting up steam's top-sellers chart",
-    "grim dawn marks its 10th anniversary with a triumphal update on its final expansion: 'grim dawn will not be going out with a bang, it will be a tremendous roar'",
-    "stardew valley 1.7 update adds two new marriage candidates",
     "redoctane games announces rhythm action game stage tour for consoles, pc",
     "he-man and the masters of the universe: dragon pearl of destruction launches april 28",
     "samson: a tyndalston story launches april 8",
@@ -10001,13 +9997,13 @@
     "noir-style cartoon detective fps 'mouse: p.i. for hire' surpasses one million players",
     "assassin's creed black flag resynced is very good news for ac hexe",
     "as unionised microsoft workers rally against bethesda layoffs, fallout 4's been filled with protest signs and onebgs logoed vault suits by modders",
-    "wow devs hotfix annoying grappling hook that takes a spot on your action bar, despite only being used in one zone"
+    "wow devs hotfix annoying grappling hook that takes a spot on your action bar, despite only being used in one zone",
+    "new tides of annihilation gameplay at gamescom, ps5 action title to go on tour",
+    "\"i don't know how anyone remaining at xbox studios can feel safe\" - new report reveals environment of uncertainty and fear, and a \"staggering\" loss of institutional knowledge",
+    "netflix shadow-drops retro vhs-inspired version of stranger things season 1 on series 10th anniversary",
+    "gta 6 isn't on pc at launch because it's 'always better to start with the constraints', suggests former rockstar producer"
   ],
   "seen_story_keys": [
-    "e5258750de2dacbd738d00d106f2b08d900868a8",
-    "bb28c008486d3b50e882c234a56479181b824d46",
-    "4f4c26f485a496ecf4d6065eede0135766467575",
-    "9e77cdc8be39d421d068798c86ceef8b1a5d7094",
     "21e64b73101fe71d4d0c6d0b8a7d0b91f0275844",
     "c97e994ddd240f2a35f0c09aa9d3ed1e32e04160",
     "e9d141678513521d41dbe01899e331134fe8a5b7",
@@ -15003,6 +14999,10 @@
     "116bef06a12a07cfd9e245b83a096ead4e7bfd3b",
     "67d97c878f18a5076dcec5137eb387c836bf22dd",
     "26669e838d5de4946f4f9e000e7c1a3ea8eaa0cf",
-    "43fa79bcda5b1296537421f4a26eb5ac694f0dad"
+    "43fa79bcda5b1296537421f4a26eb5ac694f0dad",
+    "76c6aec29dc98b68f4d4334e8d6926b7206028ec",
+    "20fcacbf911f9654cf3bd51c435b5f0cc703c753",
+    "e6bfee8a47cf35502f337b70ad49b36bdeda5bfb",
+    "ea92e2584333ebd6d670f25c82240ca1efd7ed79"
   ]
 }
