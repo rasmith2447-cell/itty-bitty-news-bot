@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295008/stage-tour-announced",
-    "https://www.bluesnews.com/s/295007/marvel-maximum-collection-announced",
-    "https://www.bluesnews.com/s/295005/roadmaps-and-plans",
-    "https://www.nintendolife.com/news/2026/02/he-mans-arcade-style-retro-brawler-locks-in-a-release-date-for-switch",
     "https://www.bluesnews.com/s/294999/evening-patches",
     "https://www.nintendolife.com/news/2026/02/digital-foundry-delivers-its-tech-analysis-of-resident-evil-requiem-on-switch-2-capcom-deserves-kudos-for-this-port",
     "https://www.pcgamer.com/movies-tv/netflix-isnt-going-to-buy-warner-bros-after-all-meaning-paramount-is-set-to-take-hbo-warner-bros-games-and-the-rest/",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/07/ac-black-flag-resynced-update-1-04-live-tomorrow-patch-notes-revealed",
     "https://gamerant.com/new-ratchet-clank-game-reveal-ranger-rumble/",
     "https://www.rockpapershotgun.com/as-gta-6s-pc-portless-launch-looms-ex-rockstar-producer-says-prioritising-consoles-first-is-primarily-about-being-better-off-starting-with-the-constraints",
-    "https://www.gematsu.com/2026/07/the-duskbloods-closed-network-test-set-for-august-21-to-23"
+    "https://www.gematsu.com/2026/07/the-duskbloods-closed-network-test-set-for-august-21-to-23",
+    "https://gamerant.com/sims-4-autosave-update-coming/",
+    "https://www.eurogamer.net/agent-64-release-date-trailer",
+    "https://www.gematsu.com/2026/07/emberville-launches-in-early-access-on-october-27",
+    "https://www.nintendolife.com/news/2026/07/once-upon-a-katamari-is-the-latest-game-to-roll-onto-switch-2"
   ],
   "seen_titles": [
-    "stage tour announced",
-    "marvel maximum collection announced",
-    "roadmaps and plans",
-    "he-man's arcade-style retro brawler locks in a release date for switch",
     "evening patches",
     "digital foundry delivers its tech analysis of resident evil requiem on switch 2 - \"capcom deserves kudos for this port\"",
     "netflix isn't going to buy warner bros after all, meaning paramount is set to take hbo, warner bros games, and the rest",
@@ -10001,13 +9997,13 @@
     "ac black flag resynced update 1.04 live tomorrow, patch notes revealed",
     "new ratchet and clank game officially revealed",
     "as gta 6's pc portless launch looms, ex-rockstar producer says prioritising consoles first is primarily about being \"better off starting with the constraints\"",
-    "the duskbloods closed network test set for august 21 to 23"
+    "the duskbloods closed network test set for august 21 to 23",
+    "the sims 4 is finally adding a feature fans have wanted for 12 years",
+    "goldeneye-inspired fps agent 64: spies never die finally locks a release date, and it's not far away",
+    "emberville launches in early access on october 27",
+    "once upon a katamari is the latest game to roll onto switch 2"
   ],
   "seen_story_keys": [
-    "348607aba8022bcea1f7843c438dccfb81781ef6",
-    "41816d801bcaaa3c274e71513a6d10664bd8e572",
-    "26872a3b23057bbdb62c380aae86d2dd7765b4db",
-    "70179dd20473d12e57c2d4c0e2262bab28cca201",
     "0c9a121cdc3a8f0602f802b215d9bd60f030aa34",
     "70846a5081f1d62fec9aeb1d68bcaed58fc97551",
     "a4848305aecbf80e1ed1fc4beeeae99176776d25",
@@ -15003,6 +14999,10 @@
     "20f7718861db9e80aa4244fcf9099d968dd04876",
     "88c1470c6ee0c593e0a1eaf40abd36074d5311cb",
     "25ce40f5a899ba5f0739e1451d89e3c8f1f3557d",
-    "bfc43944112d0d6e780bec3395313b94b9b5358d"
+    "bfc43944112d0d6e780bec3395313b94b9b5358d",
+    "bef61cd1561a7427abef3c052c1dede0545c8d2b",
+    "a47bf210fd18ac17ef48bfc258c5d84d69cbd070",
+    "b993e863bd9f8ad941e9f168cbeeb8f4c2ed1e27",
+    "b5fb694f5a1696d500e2aca5be4f7e9b1dd13e51"
   ]
 }
