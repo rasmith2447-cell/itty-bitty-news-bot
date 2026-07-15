@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/294980/reigns-the-witcher-released",
-    "https://www.bluesnews.com/s/294976/roadmaps-and-plans",
-    "https://www.bluesnews.com/s/294971/morning-patches",
-    "https://www.gematsu.com/2026/02/necrophosis-full-consciousness-announced-for-ps5-xbox-series-and-pc",
     "https://www.ign.com/articles/how-to-watch-igns-resident-evil-requiem-launch-day-livestream",
     "https://www.nintendolife.com/news/2026/02/disgaea-returns-to-switch-1-and-2-this-summer-with-an-action-rpg-twist",
     "https://www.bluesnews.com/s/294965/morning-multiplex",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/gaming-industry/epic-games-store-boss-quits-after-8-years-to-take-up-new-role-at-saber-interactive/",
     "https://www.ign.com/articles/capcom-gives-monster-hunter-wilds-a-permanent-price-reduction-as-new-dlc-bundles-announced",
     "https://www.ign.com/articles/dead-space-creator-glen-schofield-announces-retirement-from-gaming-industry",
-    "https://www.pcgamer.com/games/fighting/fighting-game-developer-previously-accused-of-sexual-harassment-confirmed-to-be-working-on-avatar-legends-a-week-before-release/"
+    "https://www.pcgamer.com/games/fighting/fighting-game-developer-previously-accused-of-sexual-harassment-confirmed-to-be-working-on-avatar-legends-a-week-before-release/",
+    "https://www.gematsu.com/2026/07/the-dream-of-a-cockspur-launches-july-22",
+    "https://www.nintendolife.com/news/2026/07/konami-confirms-its-new-castlevania-game-will-launch-this-october-on-switch",
+    "https://www.gematsu.com/2026/07/castlevania-belmonts-curse-for-switch-launches-october-15",
+    "https://www.nintendolife.com/news/2026/07/super-bomberman-collection-adds-super-famicom-game-in-free-august-update"
   ],
   "seen_titles": [
-    "reigns: the witcher released",
-    "roadmaps and plans",
-    "morning patches",
-    "necrophosis: full consciousness announced for ps5, xbox series, and pc",
     "how to watch ign’s resident evil requiem launch day livestream",
     "disgaea returns to switch 1 & 2 this summer with an action rpg twist",
     "morning multiplex",
@@ -10001,13 +9997,13 @@
     "epic games store boss quits after 8 years to take up new role at saber interactive",
     "capcom gives monster hunter wilds a 'permanent price reduction' as new dlc bundles announced",
     "dead space creator glen schofield announces retirement from gaming industry",
-    "fighting game developer previously accused of sexual harassment confirmed to be working on avatar legends a week before release"
+    "fighting game developer previously accused of sexual harassment confirmed to be working on avatar legends a week before release",
+    "the dream of a cockspur launches july 22",
+    "konami confirms its new castlevania game will launch this october on switch",
+    "castlevania: belmont’s curse for switch launches october 15",
+    "super bomberman collection adds super famicom game in free august update"
   ],
   "seen_story_keys": [
-    "2f0faa21d11aa65a8cb1dd1cca82cdd6101f9e66",
-    "26872a3b23057bbdb62c380aae86d2dd7765b4db",
-    "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
-    "74694aac75b2a6024102e0e4717b598b5ee46c37",
     "0fe76962cbb15f6433f59fff07b9f793b8bd6665",
     "0eab65017915491efee89c6ec005f542959526c8",
     "f312439acefc98d8e54c522c8dce6b874610c1ae",
@@ -15003,6 +14999,10 @@
     "1f56cb71fa80e44ae73423034d1d59dd97ce0f6d",
     "564c4274836dadc41b07afd82d1484355e6993a3",
     "1cea78102fc093536897d9e346bba6d7e95f9d56",
-    "303bc18f935f18de74981bb9565aa3c9f6005c1a"
+    "303bc18f935f18de74981bb9565aa3c9f6005c1a",
+    "fc6ea2bcf56b21ff37128f37dc4487b90f8e13cf",
+    "c3ade2312f433798d88bb22040700441a18d4e8b",
+    "165e4e52fb70c9f1c2316767fa8bcd4b7faff7dd",
+    "e98f1c66a1930d785983fd31c1cfb5d2a41ad310"
   ]
 }
