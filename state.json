@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/fps/highguard-developers-were-surprised-by-layoff-notices-new-report-says-they-thought-theyd-have-at-least-a-few-months-to-work-on-it-but-when-tencent-ended-funding-there-was-nothing-left/",
-    "https://www.pcgamer.com/games/life-sim/may-i-have-the-envelope-please-stardew-valley-will-add-clint-and-sandy-as-marriage-candidates-in-its-1-7-update/",
-    "https://www.gamespot.com/articles/a-new-backyard-baseball-game-is-finally-coming-out-in-july/1100-6538458/?ftag=CAD-01-10abi2f",
-    "https://www.ign.com/articles/stardew-valley-creator-unveils-two-new-marriageable-characters-coming-in-17",
     "https://www.gematsu.com/2026/02/sprawl-zero-announced-for-ps5-xbox-series-and-pc",
     "https://www.gematsu.com/2026/02/backyard-baseball-reimagining-announced-for-playstation-xbox-switch-and-pc",
     "https://www.gamespot.com/articles/gta-6-delay-made-lego-batman-dev-feel-really-glad/1100-6538455/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/games/action/monster-hunter-wilds-is-getting-a-permanent-price-cut-less-than-18-months-after-launch/",
     "https://www.eurogamer.net/ubisoft-barcelona-strike-july-2026",
     "https://www.eurogamer.net/glen-schofield-retiring-after-35-years",
-    "https://www.videogameschronicle.com/news/gta-6-console-only-launch-isnt-anti-pc-but-a-case-of-resource-management-ex-rockstar-producer-says/"
+    "https://www.videogameschronicle.com/news/gta-6-console-only-launch-isnt-anti-pc-but-a-case-of-resource-management-ex-rockstar-producer-says/",
+    "https://www.gematsu.com/2026/07/machine-party-launches-july-30",
+    "https://www.purexbox.com/news/2026/07/heres-your-first-look-at-splitscreen-in-halo-campaign-evolved",
+    "https://gamerant.com/la-noire-sequel-successor-canceled-orient/",
+    "https://www.nintendolife.com/news/2026/07/the-duskbloods-network-test-kicks-off-on-switch-2-next-month"
   ],
   "seen_titles": [
-    "highguard developers were surprised by layoff notices, new report says: they thought they'd have at least a few months to work on it but when tencent ended funding, there was nothing left",
-    "may i have the envelope, please? stardew valley will add clint and sandy as marriage candidates in its 1.7 update",
-    "a new backyard baseball game is finally coming out in july",
-    "stardew valley creator unveils two new marriageable characters coming in 1.7",
     "sprawl zero announced for ps5, xbox series, and pc",
     "backyard baseball reimagining announced for playstation, xbox, switch, and pc",
     "gta 6 delay made lego batman dev feel \"really glad\"",
@@ -10001,13 +9997,13 @@
     "monster hunter wilds is getting a permanent price cut less than 18 months after launch",
     "assassin's creed black flag resynced studio ubisoft barcelona goes on three-day strike in protest of layoffs",
     "dead space series co-creator and industry veteran glen schofield announces his retirement in emotional video",
-    "gta 6 console-only launch isn’t anti-pc but a case of resource management, ex-rockstar producer says"
+    "gta 6 console-only launch isn’t anti-pc but a case of resource management, ex-rockstar producer says",
+    "machine party launches july 30",
+    "here's your first look at splitscreen in halo: campaign evolved",
+    "new details on rockstar's canceled l.a. noire sequel officially revealed",
+    "the duskbloods network test kicks off on switch 2 next month"
   ],
   "seen_story_keys": [
-    "2bfe8b04b4a2838477f458f3b91be924d7a66813",
-    "1717df0c43b640807e418b9b3e6a131845c8b05d",
-    "c6386c953bcde0320c08947206cf0811021a158e",
-    "e63968213b3d9e528d3d8da6e380c53a8f2785be",
     "d33e0f293b0a29eb297b979dea543703ffb1d522",
     "1a0aea7f357981f03e91d6111263284311a850f6",
     "9472bfe111976abb4e84d239278492cb9bb8b10e",
@@ -15003,6 +14999,10 @@
     "8fae1d24de6338575e3a070b920df47e9cd190c1",
     "22ccff8fd1ae20a62a492ce4516414dc7ef05bda",
     "5f87d87fc3c5266df9c4a60994febec5bd6fb9c6",
-    "3ed8e13218c5824b704a692575d6afe561fb5d22"
+    "3ed8e13218c5824b704a692575d6afe561fb5d22",
+    "81574df2a8a08276b018009a2f444f3a1c45041d",
+    "a5faa8f6b6ece39aa40fd8989b0ab7aa960aecb3",
+    "b66f66f824f0413027b0b0665b3a4c5976f1b912",
+    "e5f5c5d26e9b3d357a0e1254d749a90eabdae264"
   ]
 }
