@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/netflix-walks-away-from-bidding-war-for-warner-bros-leaving-the-path-open-for-paramount-to-win",
-    "https://www.videogameschronicle.com/news/pokemon-presents-where-to-watch-and-likely-announcements/",
-    "https://www.pcgamer.com/games/fallout/fallout-76-adjusted-roughly-50-events-and-activities-for-the-latest-free-update-with-more-xp-for-higher-levels-and-shorter-timers-we-tried-to-concentrate-on-the-broad-strokes/",
-    "https://www.ign.com/articles/nintendo-advises-switch-2-resident-evil-requiem-owners-to-download-day-1-patch-before-playing",
     "https://www.ign.com/articles/where-winds-meet-hexi-expansion-showcase-everything-announced",
     "https://www.ign.com/articles/why-is-spider-man-beyond-the-spider-verse-taking-so-long-producers-phil-lord-and-chris-miller-explain",
     "https://www.ign.com/articles/resident-evil-requiem-launches-big-on-steam-breaks-series-record",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/solo-leveling-aniplex-studio-ai-usage-anime/",
     "https://www.gamespot.com/articles/your-first-chance-to-play-the-duskbloods-early-is-next-month/",
     "https://www.gematsu.com/2026/07/hard-edge-war-zone-launches-july-23",
-    "https://www.purexbox.com/news/2026/07/asus-issues-mini-statement-confirming-standalone-version-of-rog-xbox-ally-x20"
+    "https://www.purexbox.com/news/2026/07/asus-issues-mini-statement-confirming-standalone-version-of-rog-xbox-ally-x20",
+    "https://www.pushsquare.com/news/2026/07/platforming-classic-rayman-origins-looks-fab-in-4k-on-ps5",
+    "https://www.rockpapershotgun.com/there-are-no-benefits-to-being-owned-by-microsoft-xbox-owners-accused-of-cultivating-a-disposable-worker-mentality-in-damning-report-on-layoffs",
+    "https://www.pcgamer.com/software/windows/latest-microsoft-patch-tuesday-updates-stamp-out-a-record-622-security-vulnerabilities-as-the-companys-ai-enhanced-bug-hunt-looks-to-bear-fruit/",
+    "https://www.gamesindustry.biz/11-bit-studios-lays-off-20-workers-as-it-adjusts-new-project-teams-to-current-needs"
   ],
   "seen_titles": [
-    "netflix walks away from bidding war for warner bros., leaving the path open for paramount to win",
-    "pokémon presents: where to watch and likely announcements",
-    "fallout 76 adjusted roughly 50 events and activities for the latest free update, with more xp for higher levels and shorter timers: 'we tried to concentrate on the broad strokes'",
-    "nintendo advises switch 2 resident evil requiem owners to download day 1 patch before playing",
     "where winds meet hexi expansion showcase — everything announced",
     "why is spider-man: beyond the spider-verse taking so long? producers phil lord and chris miller explain",
     "resident evil requiem launches big on steam, breaks series record",
@@ -10001,13 +9997,13 @@
     "solo leveling studio is officially considering ai usage in anime",
     "your first chance to play the duskbloods early is next month",
     "hard edge: war zone launches july 23",
-    "asus issues mini statement confirming standalone version of rog xbox ally x20"
+    "asus issues mini statement confirming standalone version of rog xbox ally x20",
+    "platforming classic rayman origins looks fab in 4k on ps5",
+    "\"there are no benefits to being owned by microsoft\": xbox owners accused of cultivating a \"disposable worker mentality\" in damning report on layoffs",
+    "latest microsoft patch tuesday updates stamp out a record 622 security vulnerabilities, as the company's ai-enhanced bug hunt looks to bear fruit",
+    "11 bit studios lays off 20 workers as it \"adjusts new project teams to current needs\""
   ],
   "seen_story_keys": [
-    "52725730f5a91f36baf2dc2b11579d71ae6ebb5d",
-    "a505ce4a521d613b09b82d4ec3c150af3f523c40",
-    "ee3c3c1d4060d4891623064dea48087f261587b6",
-    "5ec2f76d6b9c54df198b79639ab78818d8d72ec9",
     "dacdcfe7550a73bff03a1e7d4544a2b336ede8d5",
     "3b225dbc9b27b0bc8914e5741145d9d9490a6224",
     "d96bb66c2798f8d06144f031b24d37f7c97956c7",
@@ -15003,6 +14999,10 @@
     "aa1460040d651e64a6a606895d1b64da23c7cf43",
     "28c78c451a1078db7c53839374f1f693681e94eb",
     "c83e4df2b0769dff164c609f0d64fb493a683303",
-    "0f6d8025878310401f99940f474426869b679020"
+    "0f6d8025878310401f99940f474426869b679020",
+    "fd0aa848ca2d93d294eeda883f1070d1f825f17b",
+    "7380f4947ba453ac883a9973c68ac3cc01a4ccb1",
+    "9ccaa6277e2eb4b5dbcf212c709efca955244980",
+    "d34b8bb85288064f6e657a44c21c58e3a638431c"
   ]
 }
