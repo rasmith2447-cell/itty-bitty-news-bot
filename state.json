@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/02/warhammer-40000-space-marine-ii-techmarine-update-now-available",
-    "https://www.gematsu.com/2026/02/realm-of-ink-launches-may-26-for-ps5-xbox-series-ps4-switch-and-pc",
-    "https://www.pcgamer.com/gaming-industry/3-months-after-laying-off-a-bunch-of-people-splash-damage-has-become-splash-damage-group-and-acquired-another-studio/",
-    "https://www.bluesnews.com/s/295014/geforce-driver-rolled-back",
     "https://www.bluesnews.com/s/295012/highguard-postmortem",
     "https://www.bluesnews.com/s/295010/sprawl-zero-announced",
     "https://www.bluesnews.com/s/295009/we-were-here-tomorrow-announced",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/ratchet-and-clank-new-game-ranger-rumble-pre-registration/",
     "https://www.polygon.com/ps-plus-game-catalog-july-2026-update/",
     "https://www.pushsquare.com/news/2026/07/ratchet-and-clank-mobile-game-is-gearing-up-for-global-launch-pre-registration-open",
-    "https://www.gematsu.com/2026/07/playstation-plus-game-catalog-and-classics-catalog-lineup-for-july-2026-announced"
+    "https://www.gematsu.com/2026/07/playstation-plus-game-catalog-and-classics-catalog-lineup-for-july-2026-announced",
+    "https://gamerant.com/glen-schofield-retirement-dead-space-sledgehammer-striking-distance/",
+    "https://www.pushsquare.com/news/2026/07/9-ps-plus-extra-premium-games-for-july-2026-announced",
+    "https://www.eurogamer.net/league-of-legends-classic-skins-clash",
+    "https://www.eurogamer.net/the-duskbloods-closed-playtest-dates"
   ],
   "seen_titles": [
-    "warhammer 40,000: space marine ii ‘techmarine’ update now available",
-    "realm of ink launches may 26 for ps5, xbox series, ps4, switch, and pc",
-    "3 months after laying off a bunch of people, splash damage has become 'splash damage group' and acquired another studio",
-    "geforce driver rolled back",
     "highguard postmortem",
     "sprawl zero announced",
     "we were here tomorrow announced",
@@ -10001,13 +9997,13 @@
     "ratchet & clank: ranger rumble announced for pre-registration",
     "playstation plus extra july 2026 game catalog additions announced",
     "ratchet & clank mobile game is gearing up for global launch, pre-registration open",
-    "playstation plus game catalog and classics catalog lineup for july 2026 announced"
+    "playstation plus game catalog and classics catalog lineup for july 2026 announced",
+    "dead space creator announces retirement with emotional message",
+    "9 ps plus extra, premium games for july 2026 announced",
+    "league of legends classic players clash against old-school skin cosmetics, as the faithfulness of the new game mode is called into question",
+    "the duskbloods' promised playtest is happening next month on switch 2, and it sure looks like getting in will be hard"
   ],
   "seen_story_keys": [
-    "90240d28eacf27983a6e80949bba3894db30996c",
-    "d58c5ae4d5be73e8ec24a22526eb18b41c04bf2e",
-    "5b90b6c384c6c459f5e2bd3b2b7fa5a86a4bbf4c",
-    "c8fe0f9f9f7c967cf3a16d60a5766aef8dc61c81",
     "5a369a1d43d67c005f4c3acd59fc2125d45f6308",
     "578f26b38b02c3c889d49476a069a52a3381dbd2",
     "dc8f6ae4f2d9dbf57594497586f731965e9e1be3",
@@ -15003,6 +14999,10 @@
     "73273d2f5576141547bcee279fafe2efc45c04e2",
     "9c76c6ea458d75a99d72fe6ffeedea987b096ae8",
     "e8d1a93ffc24a2bb1f9df6af3c89d49243be3469",
-    "293e46cb04dcfa466914ba5ceae097d09f4cdfc7"
+    "293e46cb04dcfa466914ba5ceae097d09f4cdfc7",
+    "f3719c1b7b6c504d82008da1c95efc9e7074bc69",
+    "f8b5d6178d0738d4796f7c1ac85bef6a9a0bfe9c",
+    "07b5ada229d2dea8b7c6ad684fe727a29f7780da",
+    "00f34bb6ce5ed26c8d585a014fd66288dbe7919c"
   ]
 }
