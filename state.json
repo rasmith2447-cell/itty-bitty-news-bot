@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295021/morning-tech-bits",
-    "https://www.gamespot.com/articles/the-pokemon-game-boy-jukebox-is-a-90s-throwback-in-more-ways-than-one/1100-6538478/?ftag=CAD-01-10abi2f",
-    "https://www.pcgamer.com/games/life-sim/concernedape-finds-out-not-everyone-will-be-hot-for-the-blacksmith-in-stardew-valleys-upcoming-1-7-update-youve-all-been-dying-to-marry-clint-right-guys/",
-    "https://www.gamespot.com/articles/we-were-all-wrong-about-honkai-star-rail-4-0/1100-6538481/?ftag=CAD-01-10abi2f",
     "https://www.ign.com/articles/all-upcoming-nintendo-switch-2-games",
     "https://www.gamespot.com/articles/walton-goggins-shares-an-unexpected-inspiration-behind-the-ghoul-in-fallout-76/1100-6538468/?ftag=CAD-01-10abi2f",
     "https://www.pcgamer.com/hardware/graphics-cards/microsofts-update-for-direct3d-with-opacity-micromaps-and-shader-execution-reordering-now-official-features-will-probably-mean-little-to-gamers-but-graphics-devs-are-going-to-be-happy/",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/crimson-desert-patch-july-16-cross-save-update/",
     "https://www.polygon.com/legend-of-zelda-40th-anniversary-toys-san-diego-comic-con/",
     "https://gamerant.com/assassins-creed-black-flag-resynced-patch-notes-july-16-update/",
-    "https://www.gematsu.com/2026/07/fatal-fury-city-of-the-wolves-season-3-dlc-characters-announced"
+    "https://www.gematsu.com/2026/07/fatal-fury-city-of-the-wolves-season-3-dlc-characters-announced",
+    "https://www.gematsu.com/2026/07/hot-wheels-infinite-rush-release-date-moved-up-to-september-10",
+    "https://www.polygon.com/star-ocean-second-story-r-switch-2-no-upgrade-path-square-enix/",
+    "https://gamerant.com/epic-games-store-july-2026-free-games-foretales/",
+    "https://www.polygon.com/fortnite-hot-bat-summer-launch-skins-pricing/"
   ],
   "seen_titles": [
-    "morning tech bits",
-    "the pokemon game boy jukebox is a '90s throwback in more ways than one",
-    "concernedape finds out not everyone will be hot for the blacksmith in stardew valley's upcoming 1.7 update: 'you've all been dying to marry clint... right? ...guys?'",
-    "we were all wrong about honkai star rail 4.0",
     "upcoming nintendo switch 2 games: release dates for 2026 and beyond",
     "walton goggins shares an unexpected inspiration behind the ghoul in fallout 76",
     "microsoft's update for direct3d, with opacity micromaps and shader execution reordering now official features, will probably mean little to gamers but graphics devs are going to be happy",
@@ -10001,13 +9997,13 @@
     "crimson desert's new patch add finally adds an essential feature",
     "the legend of zelda getting huge action figure lineup in 2027",
     "assassin's creed black flag resynced reveals patch notes for july 16 update",
-    "fatal fury: city of the wolves season 3 dlc characters announced"
+    "fatal fury: city of the wolves season 3 dlc characters announced",
+    "hot wheels infinite rush release date moved up to september 10",
+    "star ocean switch 2 announcement has fans up in arms",
+    "epic games store officially reveals its july 23 free game",
+    "fortnite hot bat summer launches with new skins, quests"
   ],
   "seen_story_keys": [
-    "1906a50b373338ef6999956d6b1302e9ae20ffc8",
-    "056baf64250e2f827bdfcef380d9c6e44772cc00",
-    "b927e4a45d857d0bcf8b6afaf3fce0cda4d8dedd",
-    "f7466a7faae11d56472aa3cc0dce19ad0e99d04f",
     "88f47f557ea6668b43d36f8f1c7413d03be95ca9",
     "878591740d8b3b1f46a25df6391b4482ace70ccb",
     "f925832e7f88a5ff91117023e7e265d4371e899c",
@@ -15003,6 +14999,10 @@
     "3a291cea92ea43026d21e6b06d7e2feb1d0bac43",
     "5e321347a37935190649d12839297a9aaecea083",
     "27f04976d8cc7cfaa946c9f2f388beb8e2ab679b",
-    "27b8e509bb1fc60aea32f19f14c85f07e5fd89c2"
+    "27b8e509bb1fc60aea32f19f14c85f07e5fd89c2",
+    "b252fdf1b0a0940694146b74c0b70c508e5e508f",
+    "acd095a297fc1ac4a95ad618464da17d13c12bcc",
+    "2018c30eb983c42f5cca93633e0be4e4715a13a3",
+    "3fbddf763f081c072c14fc6b236b1402dce33334"
   ]
 }
