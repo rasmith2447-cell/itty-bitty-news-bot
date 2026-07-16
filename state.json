@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/with-fable-project-windless-and-pokemon-winds-waves-video-game-chickens-are-having-a-moment/1100-6538480/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/02/pokemon-champions-launches-in-april-for-switch-later-in-2026-for-ios-and-android",
-    "https://www.gamespot.com/articles/cod-black-ops-7-zombies-map-trailer-solves-the-mystery-of-this-missing-character/1100-6538484/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/02/nintendo-gamecube-nintendo-classics-adds-pokemon-xd-gale-of-darkness-in-march",
     "https://www.gematsu.com/2026/02/pokemon-game-music-collection-jukebox-announced",
     "https://www.polygon.com/pokemon-winds-waves-new-pokemon-all/",
     "https://www.pcgamer.com/games/mmo/a-medieval-mmo-that-shut-down-in-2023-after-6-years-of-early-access-and-less-than-1-year-of-full-release-is-making-a-surprise-comeback/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/emberville-voice-cast-games-like-stardew-valley-diablo/",
     "https://www.polygon.com/mortal-shell-2-physical-edition-is-selling-out-everywhere/",
     "https://www.nintendolife.com/news/2026/07/hasbro-and-nintendo-partner-up-on-new-legend-of-zelda-toys",
-    "https://www.pushsquare.com/news/2026/07/ac-black-flag-resynced-update-1-04-available-to-download-now"
+    "https://www.pushsquare.com/news/2026/07/ac-black-flag-resynced-update-1-04-available-to-download-now",
+    "https://www.rockpapershotgun.com/marathons-experimental-pve-roguelite-mode-is-bafflingly-only-around-for-two-weeks-when-it-drops-next-week",
+    "https://www.eurogamer.net/gta-6-rockstar-pc-consoles-release",
+    "https://www.gematsu.com/2026/07/roguelike-autobattler-guildrun-announced-for-pc",
+    "https://www.gematsu.com/2026/07/obakeidoro-2-chase-seek-launches-august-6-worldwide"
   ],
   "seen_titles": [
-    "with fable, project windless, and pokemon winds/waves, video game chickens are having a moment",
-    "pokemon champions launches in april for switch, later in 2026 for ios and android",
-    "cod: black ops 7 zombies map trailer solves the mystery of this missing character",
-    "nintendo gamecube – nintendo classics adds pokemon xd: gale of darkness in march",
     "pokemon game music collection jukebox announced",
     "all new wind and waves pokémon revealed (so far)",
     "a medieval mmo that shut down in 2023 after 6 years of early access and less than 1 year of full release is making a surprise comeback",
@@ -10001,13 +9997,13 @@
     "stardew valley meets diablo was enough, but emberville's cast reveal sold me",
     "mortal shell 2's physical edition sells out in wake of sony's controversial announcement",
     "hasbro and nintendo partner up on new legend of zelda toys",
-    "ac black flag resynced update 1.04 available to download now"
+    "ac black flag resynced update 1.04 available to download now",
+    "marathon's experimental pve roguelite mode is, bafflingly, only around for two weeks when it drops next week",
+    "\"it's not that we don't care about pc\" - former rockstar developer suggests why gta 6 is only coming to consoles at launch",
+    "roguelike autobattler guildrun announced for pc",
+    "obakeidoro 2: chase & seek launches august 6 worldwide"
   ],
   "seen_story_keys": [
-    "787bcf2afd265b62ebfb8bfa73e8c0c2f0b333c2",
-    "454c9dee2fd2b5bf397efa66b5c287d4d328411f",
-    "191cd2e637a35e5def4ad51983a34b2544642a07",
-    "e5f20333808e0d0e243a3d931a47e4f0b5bf0c57",
     "12b1f64836f4bed1804fca516f51577169ee2a17",
     "96a8f2145e5f3dd5e20c7de8b279d6f8c9662636",
     "d1821b4fecd6f795f5fd5605b7fe4280280e1e5f",
@@ -15003,6 +14999,10 @@
     "f43417d432fe4f0e1a945d6e2b79df9a0b747d32",
     "687bcce5950fd12b989d35ad6ae3100079c7e7d5",
     "adb6d2021c100060205838581b1fa8d3a7974c66",
-    "2e6bbba236364d4e36157c7075ebd48363aec71b"
+    "2e6bbba236364d4e36157c7075ebd48363aec71b",
+    "105c0be6148e0e1ee1ceca8921c88f79d215620c",
+    "99efb95f4cd89d47bb513714a2ed67ed933e8a73",
+    "fba7e63b412979b79aa38c23905dd6107b6b2e97",
+    "89f3e8e0b7b1fcc03e75689462d196a3c4e16d74"
   ]
 }
