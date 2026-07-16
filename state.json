@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/all-upcoming-nintendo-switch-2-games",
-    "https://www.gamespot.com/articles/walton-goggins-shares-an-unexpected-inspiration-behind-the-ghoul-in-fallout-76/1100-6538468/?ftag=CAD-01-10abi2f",
-    "https://www.pcgamer.com/hardware/graphics-cards/microsofts-update-for-direct3d-with-opacity-micromaps-and-shader-execution-reordering-now-official-features-will-probably-mean-little-to-gamers-but-graphics-devs-are-going-to-be-happy/",
-    "https://www.videogameschronicle.com/news/podcast-what-an-absolute-disaster-igns-acquisition-has-been/",
     "https://www.gamespot.com/articles/with-fable-project-windless-and-pokemon-winds-waves-video-game-chickens-are-having-a-moment/1100-6538480/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/02/pokemon-champions-launches-in-april-for-switch-later-in-2026-for-ios-and-android",
     "https://www.gamespot.com/articles/cod-black-ops-7-zombies-map-trailer-solves-the-mystery-of-this-missing-character/1100-6538484/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/hot-wheels-infinite-rush-release-date-moved-up-to-september-10",
     "https://www.polygon.com/star-ocean-second-story-r-switch-2-no-upgrade-path-square-enix/",
     "https://gamerant.com/epic-games-store-july-2026-free-games-foretales/",
-    "https://www.polygon.com/fortnite-hot-bat-summer-launch-skins-pricing/"
+    "https://www.polygon.com/fortnite-hot-bat-summer-launch-skins-pricing/",
+    "https://gamerant.com/emberville-voice-cast-games-like-stardew-valley-diablo/",
+    "https://www.polygon.com/mortal-shell-2-physical-edition-is-selling-out-everywhere/",
+    "https://www.nintendolife.com/news/2026/07/hasbro-and-nintendo-partner-up-on-new-legend-of-zelda-toys",
+    "https://www.pushsquare.com/news/2026/07/ac-black-flag-resynced-update-1-04-available-to-download-now"
   ],
   "seen_titles": [
-    "upcoming nintendo switch 2 games: release dates for 2026 and beyond",
-    "walton goggins shares an unexpected inspiration behind the ghoul in fallout 76",
-    "microsoft's update for direct3d, with opacity micromaps and shader execution reordering now official features, will probably mean little to gamers but graphics devs are going to be happy",
-    "podcast: â€˜what an absolute disaster ign’s acquisition has beenâ€™",
     "with fable, project windless, and pokemon winds/waves, video game chickens are having a moment",
     "pokemon champions launches in april for switch, later in 2026 for ios and android",
     "cod: black ops 7 zombies map trailer solves the mystery of this missing character",
@@ -10001,13 +9997,13 @@
     "hot wheels infinite rush release date moved up to september 10",
     "star ocean switch 2 announcement has fans up in arms",
     "epic games store officially reveals its july 23 free game",
-    "fortnite hot bat summer launches with new skins, quests"
+    "fortnite hot bat summer launches with new skins, quests",
+    "stardew valley meets diablo was enough, but emberville's cast reveal sold me",
+    "mortal shell 2's physical edition sells out in wake of sony's controversial announcement",
+    "hasbro and nintendo partner up on new legend of zelda toys",
+    "ac black flag resynced update 1.04 available to download now"
   ],
   "seen_story_keys": [
-    "88f47f557ea6668b43d36f8f1c7413d03be95ca9",
-    "878591740d8b3b1f46a25df6391b4482ace70ccb",
-    "f925832e7f88a5ff91117023e7e265d4371e899c",
-    "5c9faa2b266d6f2e112d3a6190df20edcb0f8d0e",
     "787bcf2afd265b62ebfb8bfa73e8c0c2f0b333c2",
     "454c9dee2fd2b5bf397efa66b5c287d4d328411f",
     "191cd2e637a35e5def4ad51983a34b2544642a07",
@@ -15003,6 +14999,10 @@
     "b252fdf1b0a0940694146b74c0b70c508e5e508f",
     "acd095a297fc1ac4a95ad618464da17d13c12bcc",
     "2018c30eb983c42f5cca93633e0be4e4715a13a3",
-    "3fbddf763f081c072c14fc6b236b1402dce33334"
+    "3fbddf763f081c072c14fc6b236b1402dce33334",
+    "f43417d432fe4f0e1a945d6e2b79df9a0b747d32",
+    "687bcce5950fd12b989d35ad6ae3100079c7e7d5",
+    "adb6d2021c100060205838581b1fa8d3a7974c66",
+    "2e6bbba236364d4e36157c7075ebd48363aec71b"
   ]
 }
