@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295058/laysara-summit-kingdom-officially-launches",
-    "https://www.bluesnews.com/s/295057/until-then-afterimages-announced",
-    "https://www.bluesnews.com/s/295056/tales-of-berseria-remastered-released",
-    "https://www.nintendolife.com/news/2026/02/psa-pokemon-firered-and-leafgreen-switch-version-gives-you-the-mystic-ticket-and-aurora-ticket",
     "https://www.bluesnews.com/s/295049/evening-patches",
     "https://www.bluesnews.com/s/295042/evening-mobilization",
     "https://www.nintendolife.com/news/2026/02/warframes-switch-2-version-launches-alongside-its-next-major-update-in-march",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/wilderdark-launches-november-3",
     "https://www.gematsu.com/2026/07/artius-pure-imagination-launches-in-q1-2027",
     "https://www.gematsu.com/2026/07/roman-sands-rebuild-launches-september-16",
-    "https://www.gematsu.com/2026/07/vision-quench-launches-in-q1-2027"
+    "https://www.gematsu.com/2026/07/vision-quench-launches-in-q1-2027",
+    "https://www.polygon.com/bungie-marathon-pve-mode-vault-breaker-update/",
+    "https://www.ign.com/articles/marvels-wolverine-trailer-features-first-look-at-lady-deathstrike",
+    "https://www.gematsu.com/2026/07/cozy-marbles-launches-august-20",
+    "https://www.gematsu.com/2026/07/prinny-party-going-overboard-launches-november-12-in-japan-and-asia-coming-west"
   ],
   "seen_titles": [
-    "laysara: summit kingdom officially launches",
-    "until then: afterimages announced",
-    "tales of berseria remastered released",
-    "psa: pokémon firered & leafgreen switch version gives you the mystic ticket and aurora ticket",
     "evening patches",
     "evening mobilization",
     "warframe's switch 2 version launches alongside its \"next major update\" in march",
@@ -10001,13 +9997,13 @@
     "wilderdark launches november 3",
     "artius: pure imagination launches in q1 2027",
     "roman sands re:build launches september 16",
-    "vision quench launches in q1 2027"
+    "vision quench launches in q1 2027",
+    "bungie announces new marathon pve mode, an experimental roguelite",
+    "marvel's wolverine trailer features first look at lady deathstrike",
+    "cozy marbles launches august 20",
+    "prinny party: going overboard! launches november 12 in japan and asia, coming west"
   ],
   "seen_story_keys": [
-    "d192a1cdcca00d941a9e13501f1fddae965d901d",
-    "6b6107923b031931a8021649f6c91d47a25f21e8",
-    "b9b8102c92320296fc15a883dcfc6865715b6d9b",
-    "86df241a2a32bdfffe186224ea05396c347cb270",
     "0c9a121cdc3a8f0602f802b215d9bd60f030aa34",
     "f2cbc3d5fbd4454947ccdee8eb0beb5420a39063",
     "4baeba943d52ebe26b43a15ad8b44adc7cff3f25",
@@ -15003,6 +14999,10 @@
     "95edf822ce7182c073c0256c61dcc0ae3372a6fe",
     "c9568b59f6acd5d1dfa2434d82045e32f41eb9df",
     "f213a42257a0f126731d8b7602f8519fce66e170",
-    "8e511a55e8fc2ab76ddd746c765e90df32755b65"
+    "8e511a55e8fc2ab76ddd746c765e90df32755b65",
+    "e8129e4ce823d3527563fa45f29c5913f995a9fc",
+    "1e2befd6552b599d0e890bd53ecf548744255ccf",
+    "fb69586c47e28dcf2085996b482fece7692aa6f4",
+    "349b83600236b27338a40411717712a2f1c0d997"
   ]
 }
