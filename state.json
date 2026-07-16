@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/where-winds-meet-hexi-expansion-showcase-everything-announced",
-    "https://www.ign.com/articles/why-is-spider-man-beyond-the-spider-verse-taking-so-long-producers-phil-lord-and-chris-miller-explain",
-    "https://www.ign.com/articles/resident-evil-requiem-launches-big-on-steam-breaks-series-record",
-    "https://www.pcgamer.com/hardware/graphics-cards/nvidia-releases-then-unreleases-geforce-595-59-drivers-as-reports-of-graphics-card-fan-outages-and-clock-speed-issues-pour-in/",
     "https://www.nintendolife.com/news/2026/02/watch-pokemon-presents-february-2026-live",
     "https://www.ign.com/articles/resident-evil-requiem-launches-today-though-its-amiibo-figures-wont-arrive-for-another-5-months",
     "https://www.nintendolife.com/news/2026/02/pokemon-winds-and-waves-announced-for-switch-2-launching-next-year",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/07/platforming-classic-rayman-origins-looks-fab-in-4k-on-ps5",
     "https://www.rockpapershotgun.com/there-are-no-benefits-to-being-owned-by-microsoft-xbox-owners-accused-of-cultivating-a-disposable-worker-mentality-in-damning-report-on-layoffs",
     "https://www.pcgamer.com/software/windows/latest-microsoft-patch-tuesday-updates-stamp-out-a-record-622-security-vulnerabilities-as-the-companys-ai-enhanced-bug-hunt-looks-to-bear-fruit/",
-    "https://www.gamesindustry.biz/11-bit-studios-lays-off-20-workers-as-it-adjusts-new-project-teams-to-current-needs"
+    "https://www.gamesindustry.biz/11-bit-studios-lays-off-20-workers-as-it-adjusts-new-project-teams-to-current-needs",
+    "https://www.pushsquare.com/news/2026/07/1-new-ps-plus-extra-game-available-to-download-now",
+    "https://www.videogameschronicle.com/news/forza-horizon-6-leaderboards-are-being-wiped-as-playground-games-patches-out-exploits/",
+    "https://www.videogameschronicle.com/news/the-next-pokemon-pokopia-event-has-been-announced-starring-zorua/",
+    "https://www.gematsu.com/2026/07/farming-camp-launches-september-24"
   ],
   "seen_titles": [
-    "where winds meet hexi expansion showcase — everything announced",
-    "why is spider-man: beyond the spider-verse taking so long? producers phil lord and chris miller explain",
-    "resident evil requiem launches big on steam, breaks series record",
-    "nvidia releases then unreleases geforce 595.59 drivers as reports of graphics card fan outages and clock speed issues pour in",
     "watch: pokémon presents february 2026 - live!",
     "resident evil requiem launches today, though its amiibo figures won't arrive for another 5 months",
     "pokémon winds & waves announced for switch 2, launching next year",
@@ -10001,13 +9997,13 @@
     "platforming classic rayman origins looks fab in 4k on ps5",
     "\"there are no benefits to being owned by microsoft\": xbox owners accused of cultivating a \"disposable worker mentality\" in damning report on layoffs",
     "latest microsoft patch tuesday updates stamp out a record 622 security vulnerabilities, as the company's ai-enhanced bug hunt looks to bear fruit",
-    "11 bit studios lays off 20 workers as it \"adjusts new project teams to current needs\""
+    "11 bit studios lays off 20 workers as it \"adjusts new project teams to current needs\"",
+    "1 new ps plus extra game available to download now",
+    "forza horizon 6 leaderboards are being wiped as playground games patches out exploits",
+    "the next pokémon pokopia event has been announced, starring zorua",
+    "farming camp launches september 24"
   ],
   "seen_story_keys": [
-    "dacdcfe7550a73bff03a1e7d4544a2b336ede8d5",
-    "3b225dbc9b27b0bc8914e5741145d9d9490a6224",
-    "d96bb66c2798f8d06144f031b24d37f7c97956c7",
-    "e9c58d5f1e3d435c64a34873e9e6465ebe347e20",
     "1d59b689ec86fdb5453ba77e7bb85fb7c4fbff21",
     "417e147d3c0f1217ef87c0e0d86df3e6d9466bb7",
     "74b81844f33b04f975b251a200ff6d66be0972ca",
@@ -15003,6 +14999,10 @@
     "fd0aa848ca2d93d294eeda883f1070d1f825f17b",
     "7380f4947ba453ac883a9973c68ac3cc01a4ccb1",
     "9ccaa6277e2eb4b5dbcf212c709efca955244980",
-    "d34b8bb85288064f6e657a44c21c58e3a638431c"
+    "d34b8bb85288064f6e657a44c21c58e3a638431c",
+    "72064f70a68a63585649819d27622c152480c91b",
+    "2f63b0d1551b2c5d3c375c1836ab059246cbab1f",
+    "9b6df03c6a675111d15dc5dacd4f02066a505c01",
+    "a75cbc23fa7984a5bf0af0fd4e00de5e84c630f9"
   ]
 }
