@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/pokemon-winds-waves-revealed-new-games-coming-in-2027-for-nintendo-switch-2/",
-    "https://www.videogameschronicle.com/news/pokemons-big-switch-and-mobile-battle-game-champions-finally-has-a-release-date/",
-    "https://www.gematsu.com/2026/02/super-meat-boy-3d-adds-switch-2-version",
-    "https://www.bluesnews.com/s/295027/morning-patches",
     "https://www.bluesnews.com/s/295021/morning-tech-bits",
     "https://www.gamespot.com/articles/the-pokemon-game-boy-jukebox-is-a-90s-throwback-in-more-ways-than-one/1100-6538478/?ftag=CAD-01-10abi2f",
     "https://www.pcgamer.com/games/life-sim/concernedape-finds-out-not-everyone-will-be-hot-for-the-blacksmith-in-stardew-valleys-upcoming-1-7-update-youve-all-been-dying-to-marry-clint-right-guys/",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/elder-scrolls-online-zenimax-online-studios-leadership-fired",
     "https://www.gamesindustry.biz/zenimax-online-studios-leadership-impacted-by-latest-xbox-layoffs",
     "https://www.polygon.com/mario-tennis-fever-galaxy-1-1-update-patch/",
-    "https://www.polygon.com/elder-scrolls-online-eso-zenimax-online-studios-xbox-cuts-leadership-team/"
+    "https://www.polygon.com/elder-scrolls-online-eso-zenimax-online-studios-xbox-cuts-leadership-team/",
+    "https://www.polygon.com/crimson-desert-patch-july-16-cross-save-update/",
+    "https://www.polygon.com/legend-of-zelda-40th-anniversary-toys-san-diego-comic-con/",
+    "https://gamerant.com/assassins-creed-black-flag-resynced-patch-notes-july-16-update/",
+    "https://www.gematsu.com/2026/07/fatal-fury-city-of-the-wolves-season-3-dlc-characters-announced"
   ],
   "seen_titles": [
-    "pokémon winds & waves revealed: new games coming in 2027 for nintendo switch 2",
-    "pokã©mon’s big switch and mobile battle game, champions, finally has a release date",
-    "super meat boy 3d adds switch 2 version",
-    "morning patches",
     "morning tech bits",
     "the pokemon game boy jukebox is a '90s throwback in more ways than one",
     "concernedape finds out not everyone will be hot for the blacksmith in stardew valley's upcoming 1.7 update: 'you've all been dying to marry clint... right? ...guys?'",
@@ -10001,13 +9997,13 @@
     "zenimax online studios leadership included in widespread xbox job cuts, as concerns around elder scrolls online's longevity persist",
     "zenimax online studios leadership impacted by latest xbox layoffs",
     "mario tennis fever gets super mario galaxy-themed 1.1.0 update",
-    "another elder scrolls game is in jeopardy as xbox layoffs hit heads of major studio"
+    "another elder scrolls game is in jeopardy as xbox layoffs hit heads of major studio",
+    "crimson desert's new patch add finally adds an essential feature",
+    "the legend of zelda getting huge action figure lineup in 2027",
+    "assassin's creed black flag resynced reveals patch notes for july 16 update",
+    "fatal fury: city of the wolves season 3 dlc characters announced"
   ],
   "seen_story_keys": [
-    "2ffe5e330403a77ee3f1084fcd1ceaa8ee49a4b2",
-    "2e76d705faf38ec3939d7cfb2c7d20de689e5c6e",
-    "b866f0be5e03f45aeb7fe62069fc44f4dd6f997a",
-    "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
     "1906a50b373338ef6999956d6b1302e9ae20ffc8",
     "056baf64250e2f827bdfcef380d9c6e44772cc00",
     "b927e4a45d857d0bcf8b6afaf3fce0cda4d8dedd",
@@ -15003,6 +14999,10 @@
     "9c78353c37a2486c225c0225316f1f7552b793eb",
     "d5730d614353bbbaa56474aa7a29894ed1cce3d5",
     "bf198d69c5ce093f88cbbf0cedffd65043e5da60",
-    "66686dbbce2a2e7c26b62c3177b6ebea2b97ba7f"
+    "66686dbbce2a2e7c26b62c3177b6ebea2b97ba7f",
+    "3a291cea92ea43026d21e6b06d7e2feb1d0bac43",
+    "5e321347a37935190649d12839297a9aaecea083",
+    "27f04976d8cc7cfaa946c9f2f388beb8e2ab679b",
+    "27b8e509bb1fc60aea32f19f14c85f07e5fd89c2"
   ]
 }
