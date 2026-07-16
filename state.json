@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/02/watch-pokemon-presents-february-2026-live",
-    "https://www.ign.com/articles/resident-evil-requiem-launches-today-though-its-amiibo-figures-wont-arrive-for-another-5-months",
-    "https://www.nintendolife.com/news/2026/02/pokemon-winds-and-waves-announced-for-switch-2-launching-next-year",
-    "https://www.nintendolife.com/news/2026/02/pokemon-themed-mini-game-boy-announced-though-its-not-what-you-think",
     "https://www.gematsu.com/2026/02/pokemon-winds-and-waves-announced-for-switch-2",
     "https://www.polygon.com/pokemon-red-blue-game-boy-music-player/",
     "https://www.nintendolife.com/news/2026/02/pokemon-champions-brings-the-fight-to-switch-this-april",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/07/1-new-ps-plus-extra-game-available-to-download-now",
     "https://www.videogameschronicle.com/news/forza-horizon-6-leaderboards-are-being-wiped-as-playground-games-patches-out-exploits/",
     "https://www.videogameschronicle.com/news/the-next-pokemon-pokopia-event-has-been-announced-starring-zorua/",
-    "https://www.gematsu.com/2026/07/farming-camp-launches-september-24"
+    "https://www.gematsu.com/2026/07/farming-camp-launches-september-24",
+    "https://www.gematsu.com/2026/07/langrisser-sea-of-sword-announced-for-pc-ios-android-and-more",
+    "https://www.gematsu.com/2026/07/ira-for-switch-2-launches-july-30",
+    "https://www.gematsu.com/2026/07/console-archives-hercules-no-eikou-ii-taitan-no-metsubou-launches-july-16",
+    "https://www.gematsu.com/2026/07/arcade-archives-syvalion-launches-july-16"
   ],
   "seen_titles": [
-    "watch: pokémon presents february 2026 - live!",
-    "resident evil requiem launches today, though its amiibo figures won't arrive for another 5 months",
-    "pokémon winds & waves announced for switch 2, launching next year",
-    "pokémon-themed mini game boy announced, though it's not what you think",
     "pokemon winds and waves announced for switch 2",
     "pokémon juke box player revealed during pokémon presents anniversary stream",
     "pokémon champions brings the fight to switch this april",
@@ -10001,13 +9997,13 @@
     "1 new ps plus extra game available to download now",
     "forza horizon 6 leaderboards are being wiped as playground games patches out exploits",
     "the next pokémon pokopia event has been announced, starring zorua",
-    "farming camp launches september 24"
+    "farming camp launches september 24",
+    "langrisser: sea of sword announced for pc, ios, android, and more",
+    "ira for switch 2 launches july 30",
+    "console archives hercules no eikou ii: taitan no metsubou launches july 16",
+    "arcade archives syvalion launches july 16"
   ],
   "seen_story_keys": [
-    "1d59b689ec86fdb5453ba77e7bb85fb7c4fbff21",
-    "417e147d3c0f1217ef87c0e0d86df3e6d9466bb7",
-    "74b81844f33b04f975b251a200ff6d66be0972ca",
-    "c1c8058463e2d8d7cdea45e443e90925ed2b0853",
     "6b40ecdf8590a7e46ad198971f6715cbafbad85a",
     "a87803a72489c8da14bbc85f2f750043b8566270",
     "0ca558ddcbee2b28dd9fb55a2d911e97d35db46a",
@@ -15003,6 +14999,10 @@
     "72064f70a68a63585649819d27622c152480c91b",
     "2f63b0d1551b2c5d3c375c1836ab059246cbab1f",
     "9b6df03c6a675111d15dc5dacd4f02066a505c01",
-    "a75cbc23fa7984a5bf0af0fd4e00de5e84c630f9"
+    "a75cbc23fa7984a5bf0af0fd4e00de5e84c630f9",
+    "2d8c436b56351feea3d5eea39a260597c914af4d",
+    "a7006a78fe54bc4372ce18217d5c6a7e1b4e7126",
+    "4c3cf4b62b656f050cfd88fad9e372f8c2ebe3fd",
+    "cbcfe4b09f3b01be049f7989629ca415a11c2c1f"
   ]
 }
