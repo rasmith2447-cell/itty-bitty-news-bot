@@ -496,14 +496,23 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
         try:
             channel_id = os.getenv("YOUTUBE_CHANNEL_ID", "UC0SJd4h7GQqoYTVjlDnSzqQ")
             rss = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
-            import re as _re
             r = requests.get(rss, headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
             if r.ok:
-                m = _re.search(r"<yt:videoId>([^<]+)</yt:videoId>", r.text)
-                if m:
-                    video_id = m.group(1).strip()
+                entries = re.findall(r"<entry\b.*?</entry>", r.text, re.DOTALL)
+                for entry in entries[:25]:
+                    m_vid   = re.search(r"<yt:videoId>([^<]+)</yt:videoId>", entry)
+                    m_title = re.search(r"<title>([^<]+)</title>", entry)
+                    if not m_vid:
+                        continue
+                    vid   = m_vid.group(1).strip()
+                    title = m_title.group(1).strip().lower() if m_title else ""
+                    # Skip Shorts
+                    if "#shorts" in title or " shorts" in title or title.endswith("shorts"):
+                        continue
+                    video_id = vid
                     yt_link  = f"https://www.youtube.com/watch?v={video_id}"
-                    print(f"[MAILCHIMP] Found latest video: {video_id}")
+                    print(f"[MAILCHIMP] Found latest video: {vid}")
+                    break
         except Exception as ex:
             print(f"[MAILCHIMP] YouTube fetch failed: {ex}")
 
