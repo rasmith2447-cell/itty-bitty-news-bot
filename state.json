@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/03/nintendo-indie-world-showcase-announced-for-tomorrow-3rd-march-2026",
-    "https://www.ign.com/articles/nintendo-announces-indie-world-showcase-for-tomorrow-expect-news-on-games-coming-to-switch-and-switch-2",
-    "https://www.gamespot.com/articles/nintendo-indie-world-showcase-march-3-start-time-how-to-watch-and-what-to-expect/1100-6538500/?ftag=CAD-01-10abi2f",
-    "https://www.ign.com/articles/video-game-release-dates-ps4-ps5-xbox-one-series-x-nintendo-switch",
     "https://www.gematsu.com/2026/03/physics-based-platformer-ballgame-announced-for-pc",
     "https://www.bluesnews.com/s/295113/old-world-empires-of-the-indus-announced",
     "https://www.bluesnews.com/s/295112/new-geforce-driver",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/07/doom-director-elaborates-on-the-state-of-the-studio-going-forward",
     "https://www.polygon.com/final-fantasy-14s-mobile-port-is-dead/",
     "https://www.pushsquare.com/news/2026/07/with-over-17-million-starfield-players-bethesda-commits-to-sci-fi-rpgs-future",
-    "https://www.gamesindustry.biz/bethesda-reveals-plans-for-fallout-5-the-elder-scrolls-6-and-more"
+    "https://www.gamesindustry.biz/bethesda-reveals-plans-for-fallout-5-the-elder-scrolls-6-and-more",
+    "https://www.pcgamer.com/games/fps/marathon-game-director-leaves-bungie-just-4-months-after-launch-ill-be-heading-to-something-new-somewhere-else/",
+    "https://www.polygon.com/disco-elysium-studio-za-um-layoffs/",
+    "https://www.videogameschronicle.com/news/final-fantasy-14-mobiles-global-launch-has-been-cancelled/",
+    "https://www.ign.com/articles/chris-carters-r-rated-directors-cut-of-the-second-the-x-files-movie-has-a-release-date-and-a-surprising-new-title"
   ],
   "seen_titles": [
-    "nintendo indie world showcase announced for tomorrow, 3rd march 2026",
-    "nintendo announces indie world showcase for tomorrow, expect news on games coming to switch and switch 2",
-    "nintendo indie world showcase march 3: start time, how to watch, and what to expect",
-    "video game release dates: the biggest games of march 2026 and beyond",
     "physics-based platformer ballgame announced for pc",
     "old world - empires of the indus announced",
     "new geforce driver",
@@ -10001,13 +9997,13 @@
     "doom director elaborates on the state of the studio going forward",
     "ff14 officially unplayable soon for millions of iphone gamers",
     "with over 17 million starfield players, bethesda commits to sci-fi rpg's future",
-    "bethesda reveals plans for fallout 5, the elder scrolls 6, and more"
+    "bethesda reveals plans for fallout 5, the elder scrolls 6, and more",
+    "marathon game director leaves bungie just 4 months after launch: 'i'll be heading to something new, somewhere else'",
+    "disco elysium developer za/um announces layoffs after zero parades flounders",
+    "final fantasy 14 mobile’s global launch has been cancelled",
+    "chris carter's r-rated director's cut of the second the x-files movie has a release date and a surprising new title"
   ],
   "seen_story_keys": [
-    "865f5ae055abd2dda47cc59c56d7a2f73371478f",
-    "af92e886fc0c0d54e72ab9d44d659ad6c41fa454",
-    "d832cc994ae982eab0005abc2d5c1f9e0933c212",
-    "0e78c4722d43e9d535f0732afd4e5579d2cb05e3",
     "a15664b84d8323eae87dc64c11ef8793e310fbaf",
     "c205e7cdf63a6fce0f0ee06dfd18692261b725bf",
     "0db62b26b17520822cc1118d0eae7834e28feec9",
@@ -15003,6 +14999,10 @@
     "ff4a3f49cda41c44809dca90776e0e2bfb08a5c9",
     "76fa0937f41522fc2a134111f80d0d265b4f1390",
     "1819d8ac44dc04676054477beb75f2162a987cef",
-    "cb95b20b41a5596be768e96c804355c7eb5c8a32"
+    "cb95b20b41a5596be768e96c804355c7eb5c8a32",
+    "3101516ef2b129be5caca999132e2258aceda416",
+    "9542452a5e6945933164271866db81b14c7deb4e",
+    "657f300525746d39a707fabe1a17bccc0df61a82",
+    "c97ab16414ee1f37038a82df38b75875bcdd5b23"
   ]
 }
