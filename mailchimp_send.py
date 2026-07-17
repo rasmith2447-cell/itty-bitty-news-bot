@@ -500,18 +500,25 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
             if r.ok:
                 entries = re.findall(r"<entry\b.*?</entry>", r.text, re.DOTALL)
                 for entry in entries[:25]:
-                    m_vid   = re.search(r"<yt:videoId>([^<]+)</yt:videoId>", entry)
-                    m_title = re.search(r"<title>([^<]+)</title>", entry)
+                    m_vid      = re.search(r"<yt:videoId>([^<]+)</yt:videoId>", entry)
+                    m_title    = re.search(r"<title>([^<]+)</title>", entry)
+                    m_duration = re.search(r"duration=\"(\d+)\"", entry)
                     if not m_vid:
                         continue
-                    vid   = m_vid.group(1).strip()
-                    title = m_title.group(1).strip().lower() if m_title else ""
-                    # Skip Shorts
-                    if "#shorts" in title or " shorts" in title or title.endswith("shorts"):
+                    vid      = m_vid.group(1).strip()
+                    title    = m_title.group(1).strip() if m_title else ""
+                    duration = int(m_duration.group(1)) if m_duration else 9999
+                    title_lower = title.lower()
+                    # Skip Shorts — by title keyword OR duration under 60 seconds
+                    if "#shorts" in title_lower or " shorts" in title_lower or title_lower.endswith("shorts"):
+                        print(f"[MAILCHIMP] Skipping Short (title): {title}")
+                        continue
+                    if duration < 60:
+                        print(f"[MAILCHIMP] Skipping Short (duration {duration}s): {title}")
                         continue
                     video_id = vid
                     yt_link  = f"https://www.youtube.com/watch?v={video_id}"
-                    print(f"[MAILCHIMP] Found latest video: {vid}")
+                    print(f"[MAILCHIMP] Found latest long-form video: {title} ({duration}s)")
                     break
         except Exception as ex:
             print(f"[MAILCHIMP] YouTube fetch failed: {ex}")
