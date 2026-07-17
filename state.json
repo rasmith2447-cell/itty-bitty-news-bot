@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/strategy/tactical-breach-wizards-sold-twice-as-well-as-suspicious-developments-previous-games-but-more-importantly-it-failed-catastrophically-to-lose-an-igf-award-all-we-can-say-is-were-sorry-and-well-try-to-do-worse/",
-    "https://www.pcgamer.com/games/action/desert-strike-spiritual-successor-cleared-hots-next-update-brings-better-steam-deck-support-and-arcade-missions-but-im-more-excited-about-using-my-winch-to-slingshot-missiles-back-at-enemies-ive-been-waiting-months-to-work-on-this-again/",
     "https://www.bluesnews.com/s/295071/where-winds-meet-hexi-announced",
     "https://www.bluesnews.com/s/295066/saturday-patches",
     "https://www.pcgamer.com/games/card-games/after-its-disastrous-launch-last-year-im-here-to-tell-you-that-2025s-most-promising-auto-battler-finally-lives-up-to-its-potential/",
@@ -4999,11 +4997,11 @@
     "https://www.gematsu.com/2026/07/lous-lagoon-adds-switch-2-version",
     "https://gamerant.com/mortal-shell-2-ps5-physical-edition-sold-out/",
     "https://www.ign.com/articles/game-of-thrones-war-for-westeros-release-date-delayed-to-early-2027",
-    "https://www.gamesindustry.biz/london-games-festival-moves-to-central-venue-for-2027-showcase"
+    "https://www.gamesindustry.biz/london-games-festival-moves-to-central-venue-for-2027-showcase",
+    "https://www.gamespot.com/articles/god-of-war-tv-show-forced-to-recast-kratos-after-serious-injury/",
+    "https://www.rockpapershotgun.com/id-tech-is-there-the-doom-team-is-here-doom-the-dark-ages-director-pushes-back-against-idea-studio-have-been-nerfed-into-the-ground-by-xbox-layoffs"
   ],
   "seen_titles": [
-    "tactical breach wizards sold 'twice as well' as suspicious developments' previous games, but more importantly, it failed catastrophically to lose an igf award: 'all we can say is we're sorry, and we'll try to do worse'",
-    "desert strike spiritual successor cleared hot's next update brings better steam deck support and arcade missions, but i'm more excited about using my winch to slingshot missiles back at enemies: 'i've been waiting months to work on this again'",
     "where winds meet: hexi announced",
     "saturday patches",
     "after its disastrous launch last year, i'm here to tell you that 2025's most promising auto-battler finally lives up to its potential",
@@ -10001,11 +9999,11 @@
     "lou’s lagoon adds switch 2 version",
     "as sony pushes toward a digital future, upcoming soulslike's ps5 physical edition sells out",
     "game of thrones: war for westeros release date delayed to early 2027",
-    "london games festival moves to central venue for 2027 showcase"
+    "london games festival moves to central venue for 2027 showcase",
+    "god of war tv show forced to recast kratos after serious injury",
+    "\"id tech is there, the doom team is here\": doom: the dark ages director pushes back against idea studio have been \"nerfed into the ground\" by xbox layoffs"
   ],
   "seen_story_keys": [
-    "964a02f64033a0e1005b6209cc9e0a7a483a420d",
-    "9e0f9eabd6e61cc333461b46a930695841b17cfa",
     "857bcaa964790599696c25a56b0894cc4cdead3d",
     "15bdf90fd4b09fa58a9791feb360888a0d43cee0",
     "c3ff18a5ce8a8f8ab9d0cde2984b45e28cdfd482",
@@ -15003,6 +15001,8 @@
     "dbea44c3e62cfc5c3f1b10c0028bb7be2ac9b463",
     "434c14ab18416605be7bec49a13a4597caa2f1a2",
     "53d72805c6721158f0804cdaf7b9adef01273ea2",
-    "3dde14102a6d84b9c47c6630d1b4d97fc83ba3da"
+    "3dde14102a6d84b9c47c6630d1b4d97fc83ba3da",
+    "f6f41834a659a2e950da5ff6a8d8bf7e72048fa4",
+    "b88ca55f2f28edebd51737dff52063b370c469f9"
   ]
 }
