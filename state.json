@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295071/where-winds-meet-hexi-announced",
-    "https://www.bluesnews.com/s/295066/saturday-patches",
     "https://www.pcgamer.com/games/card-games/after-its-disastrous-launch-last-year-im-here-to-tell-you-that-2025s-most-promising-auto-battler-finally-lives-up-to-its-potential/",
     "https://www.pcgamer.com/games/board-games/games-workshop-just-announced-a-book-of-insightful-ork-quotes-called-words-of-waaagh/",
     "https://www.pcgamer.com/games/world-of-warcraft/an-inaccessible-zone-in-world-of-warcraft-midnight-has-players-convinced-its-a-clue-for-the-next-update/",
@@ -4999,11 +4997,11 @@
     "https://www.ign.com/articles/game-of-thrones-war-for-westeros-release-date-delayed-to-early-2027",
     "https://www.gamesindustry.biz/london-games-festival-moves-to-central-venue-for-2027-showcase",
     "https://www.gamespot.com/articles/god-of-war-tv-show-forced-to-recast-kratos-after-serious-injury/",
-    "https://www.rockpapershotgun.com/id-tech-is-there-the-doom-team-is-here-doom-the-dark-ages-director-pushes-back-against-idea-studio-have-been-nerfed-into-the-ground-by-xbox-layoffs"
+    "https://www.rockpapershotgun.com/id-tech-is-there-the-doom-team-is-here-doom-the-dark-ages-director-pushes-back-against-idea-studio-have-been-nerfed-into-the-ground-by-xbox-layoffs",
+    "https://www.ign.com/articles/id-software-creative-director-says-claims-the-doom-developer-was-nerfed-into-the-ground-by-xbox-layoffs-are-untrue",
+    "https://www.rockpapershotgun.com/unions-accuse-microsoft-of-having-unlawfully-fired-people-in-unfair-labor-practice-complaints-filed-over-xbox-layoffs"
   ],
   "seen_titles": [
-    "where winds meet: hexi announced",
-    "saturday patches",
     "after its disastrous launch last year, i'm here to tell you that 2025's most promising auto-battler finally lives up to its potential",
     "games workshop just announced a book of 'insightful ork quotes' called words of waaagh",
     "an inaccessible zone in world of warcraft: midnight has players convinced it's a clue for the next update",
@@ -10001,11 +9999,11 @@
     "game of thrones: war for westeros release date delayed to early 2027",
     "london games festival moves to central venue for 2027 showcase",
     "god of war tv show forced to recast kratos after serious injury",
-    "\"id tech is there, the doom team is here\": doom: the dark ages director pushes back against idea studio have been \"nerfed into the ground\" by xbox layoffs"
+    "\"id tech is there, the doom team is here\": doom: the dark ages director pushes back against idea studio have been \"nerfed into the ground\" by xbox layoffs",
+    "id software creative director says claims the doom developer was 'nerfed into the ground' by xbox layoffs are untrue",
+    "unions accuse microsoft of having \"unlawfully fired people\" in unfair labor practice complaints filed over xbox layoffs"
   ],
   "seen_story_keys": [
-    "857bcaa964790599696c25a56b0894cc4cdead3d",
-    "15bdf90fd4b09fa58a9791feb360888a0d43cee0",
     "c3ff18a5ce8a8f8ab9d0cde2984b45e28cdfd482",
     "72f43df155fe68884e2a1821a523531824f5976a",
     "6e6ec8d3970a1d7a01bba2571bed6b593fba87e5",
@@ -15003,6 +15001,8 @@
     "53d72805c6721158f0804cdaf7b9adef01273ea2",
     "3dde14102a6d84b9c47c6630d1b4d97fc83ba3da",
     "f6f41834a659a2e950da5ff6a8d8bf7e72048fa4",
-    "b88ca55f2f28edebd51737dff52063b370c469f9"
+    "b88ca55f2f28edebd51737dff52063b370c469f9",
+    "59c9c3b1e98b4e2c7e0bf9536e85297566bfc900",
+    "9e4f012683b94d6b97d81dce501206e40a356688"
   ]
 }
