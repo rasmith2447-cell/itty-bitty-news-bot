@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/03/video-street-fighter-6-got-pro-wrestler-kenny-omega-to-motion-cap-alex",
-    "https://www.pcgamer.com/games/action/teardowns-massive-multiplayer-update-arrives-next-month-bringing-a-full-co-op-campaign-competitive-modes-and-a-free-roaming-sandbox/",
-    "https://www.gematsu.com/2026/03/arknights-endfield-version-1-1-update-old-deep-water-dies-by-rising-tide-it-is-denied-launches-march-12",
-    "https://www.pcgamer.com/games/sim/one-of-the-most-impressive-star-wars-mods-in-history-just-got-a-huge-update-and-co-op-is-on-the-table-for-the-future-it-has-been-almost-a-year-long-journey-to-get-to-this-point/",
     "https://www.videogameschronicle.com/news/sonys-santa-monica-studio-is-working-on-a-new-franchise-within-the-god-of-war-universe/",
     "https://www.bluesnews.com/s/295084/colonial-winds-announced",
     "https://www.bluesnews.com/s/295082/roadmaps-and-plans",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/zenless-zone-zero-version-3-1-update-the-long-goodbye-launches-july-29",
     "https://gamerant.com/deceive-inc-game-no-shutdown-online-only/",
     "https://www.nintendolife.com/news/2026/07/stage-tour-looks-to-revive-guitar-heros-golden-era-on-switch-2",
-    "https://www.gamesindustry.biz/gamecity-hamburg-announces-second-round-of-prototype-funding"
+    "https://www.gamesindustry.biz/gamecity-hamburg-announces-second-round-of-prototype-funding",
+    "https://www.eurogamer.net/starfield-impotant-part-of-future-bethesda-future-support",
+    "https://www.pushsquare.com/news/2026/07/fallout-5-in-pre-production-as-bethesda-playing-the-elder-scrolls-6-everyday",
+    "https://www.rockpapershotgun.com/fallout-5-is-in-preproduction-alongside-the-elder-scrolls-6s-development-while-fallout-3-and-fallout-new-vegas-remasters-are-on-the-way-bethesda-confirm",
+    "https://www.purexbox.com/news/2026/07/two-fallout-remasters-announced-by-bethesda-in-massive-new-roadmap"
   ],
   "seen_titles": [
-    "video: street fighter 6 got pro wrestler kenny omega to motion cap alex",
-    "teardown's massive multiplayer update arrives next month, bringing a full co-op campaign, competitive modes, and a free-roaming sandbox",
-    "arknights: endfield version 1.1 update ‘old deep water dies, by rising tide it is denied’ launches march 12",
-    "one of the most impressive star wars mods in history just got a huge update, and co-op is on the table for the future: 'it has been almost a year-long journey to get to this point'",
     "sony’s santa monica studio ‘is working on a new franchise within the god of war universe’",
     "colonial winds announced",
     "roadmaps and plans",
@@ -10001,13 +9997,13 @@
     "zenless zone zero version 3.1 update ‘the long goodbye’ launches july 29",
     "online-only multiplayer game is reworking its servers to avoid a shutdown",
     "'stage tour' looks to revive guitar hero's golden era on switch 2",
-    "gamecity hamburg announces second round of prototype funding"
+    "gamecity hamburg announces second round of prototype funding",
+    "starfield \"remains an important part of our future\" says bethesda, as developer pledges continued support for sci-fi rpg",
+    "fallout 5 in pre-production, as bethesda playing the elder scrolls 6 everyday",
+    "fallout 5 is in preproduction alongside the elder scrolls 6's development, while fallout 3 and fallout: new vegas remasters are on the way, bethesda confirm",
+    "two fallout remasters announced by bethesda in massive new roadmap"
   ],
   "seen_story_keys": [
-    "9e36800c968759a31a077097d86c524aa2cf6697",
-    "bc8c501c3394f38a4b90a21c08968f8278b28dae",
-    "631fcc457a424ecf377af5ac48a23c2bcbdf85ae",
-    "310ed57abae402a1cc186a539ff49c88b28d3775",
     "c50054df60cb739449abf3ce699b92652b93dee5",
     "6f6cef3ad2e88b6b9ec760bd01c6c98346e0e7a2",
     "26872a3b23057bbdb62c380aae86d2dd7765b4db",
@@ -15003,6 +14999,10 @@
     "4f218f118f98e04124e89e9a974562afdb79ac6d",
     "ba8f82595ec84c148496499a6785147ffa55d8b5",
     "812a46e7dfea3b44f123ba7dd9e41b15f13222e6",
-    "e45593bf12404486ce8d8370ae4d898d5246f79f"
+    "e45593bf12404486ce8d8370ae4d898d5246f79f",
+    "8bf06f6edf1d6dea1dcbe97fe3eecf8a7377693a",
+    "0d6eed594fbe82f0ac0990d486d11502acd46276",
+    "e7d706692c17b5dc74a98d921a6906a8dc5a5978",
+    "df94240b96a397aaa523da6329c26e5d2a5c3c83"
   ]
 }
