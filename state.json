@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/physics-based-platformer-ballgame-announced-for-pc",
-    "https://www.bluesnews.com/s/295113/old-world-empires-of-the-indus-announced",
-    "https://www.bluesnews.com/s/295112/new-geforce-driver",
-    "https://www.bluesnews.com/s/295111/cities-skylines-race-day-and-free-weekend-announced",
     "https://www.bluesnews.com/s/295106/announcement-announcements",
     "https://www.bluesnews.com/s/295101/morning-patches",
     "https://www.gamespot.com/articles/resident-evil-requiem-is-blowing-up-on-steam/1100-6538504/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/games/fps/marathon-game-director-leaves-bungie-just-4-months-after-launch-ill-be-heading-to-something-new-somewhere-else/",
     "https://www.polygon.com/disco-elysium-studio-za-um-layoffs/",
     "https://www.videogameschronicle.com/news/final-fantasy-14-mobiles-global-launch-has-been-cancelled/",
-    "https://www.ign.com/articles/chris-carters-r-rated-directors-cut-of-the-second-the-x-files-movie-has-a-release-date-and-a-surprising-new-title"
+    "https://www.ign.com/articles/chris-carters-r-rated-directors-cut-of-the-second-the-x-files-movie-has-a-release-date-and-a-surprising-new-title",
+    "https://www.ign.com/articles/mortal-kombat-ii-gets-hbo-max-streaming-release-date",
+    "https://www.ign.com/articles/marathon-game-director-joseph-ziegler-is-leaving-bungie",
+    "https://www.gematsu.com/2026/07/gallipoli-launches-august-20",
+    "https://www.gematsu.com/2026/07/final-fantasy-xiv-mobile-to-end-service-on-september-30-in-china-global-version-canceled"
   ],
   "seen_titles": [
-    "physics-based platformer ballgame announced for pc",
-    "old world - empires of the indus announced",
-    "new geforce driver",
-    "cities: skylines race day and free weekend announced",
     "announcement announcements",
     "morning patches",
     "resident evil requiem is blowing up on steam",
@@ -10001,13 +9997,13 @@
     "marathon game director leaves bungie just 4 months after launch: 'i'll be heading to something new, somewhere else'",
     "disco elysium developer za/um announces layoffs after zero parades flounders",
     "final fantasy 14 mobile’s global launch has been cancelled",
-    "chris carter's r-rated director's cut of the second the x-files movie has a release date and a surprising new title"
+    "chris carter's r-rated director's cut of the second the x-files movie has a release date and a surprising new title",
+    "mortal kombat ii gets hbo max streaming release date",
+    "marathon game director joseph ziegler is leaving bungie",
+    "gallipoli launches august 20",
+    "final fantasy xiv mobile to end service on september 30 in china, global version canceled"
   ],
   "seen_story_keys": [
-    "a15664b84d8323eae87dc64c11ef8793e310fbaf",
-    "c205e7cdf63a6fce0f0ee06dfd18692261b725bf",
-    "0db62b26b17520822cc1118d0eae7834e28feec9",
-    "d82720a4c75f91a6043a68d57a78793a481ee05d",
     "7a2abc68717332e513ddaa35e3ae717aaf59e8c8",
     "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
     "5e47f2e77892bc5a01922310e94c8a19834d3e43",
@@ -15003,6 +14999,10 @@
     "3101516ef2b129be5caca999132e2258aceda416",
     "9542452a5e6945933164271866db81b14c7deb4e",
     "657f300525746d39a707fabe1a17bccc0df61a82",
-    "c97ab16414ee1f37038a82df38b75875bcdd5b23"
+    "c97ab16414ee1f37038a82df38b75875bcdd5b23",
+    "b5142617c1bb5657d656bc2dd9c8531ce2e41e1a",
+    "af4ca684da6b4c04550d4cf38291e8c4dd44cf3b",
+    "8d4774338fefb2ba7b4b7de9d565c990cd5b30d8",
+    "eff1db5ffc4cbea1fdd57714dfbbfcb662595292"
   ]
 }
