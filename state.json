@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295106/announcement-announcements",
-    "https://www.bluesnews.com/s/295101/morning-patches",
-    "https://www.gamespot.com/articles/resident-evil-requiem-is-blowing-up-on-steam/1100-6538504/?ftag=CAD-01-10abi2f",
     "https://www.videogameschronicle.com/news/nacon-delays-game-showcase-after-filing-for-insolvency-we-are-choosing-to-focus-our-resources/",
     "https://www.ign.com/articles/cozy-narrative-gardening-game-the-abbess-garden-launches-on-pc",
     "https://www.ign.com/articles/dc-reveals-a-gorgeous-spread-of-covers-for-superman-spider-man-crossover-special",
@@ -4999,12 +4996,12 @@
     "https://www.ign.com/articles/mortal-kombat-ii-gets-hbo-max-streaming-release-date",
     "https://www.ign.com/articles/marathon-game-director-joseph-ziegler-is-leaving-bungie",
     "https://www.gematsu.com/2026/07/gallipoli-launches-august-20",
-    "https://www.gematsu.com/2026/07/final-fantasy-xiv-mobile-to-end-service-on-september-30-in-china-global-version-canceled"
+    "https://www.gematsu.com/2026/07/final-fantasy-xiv-mobile-to-end-service-on-september-30-in-china-global-version-canceled",
+    "https://gamerant.com/battlefield-6-patch-notes-july-21-update/",
+    "https://gamerant.com/elder-scrolls-online-zenimax-layoffs-future/",
+    "https://www.pcgamer.com/hardware/were-interested-in-having-the-whole-pc-catalog-as-our-launch-exclusive-valve-talks-exclusives-and-the-advantages-of-an-open-platform/"
   ],
   "seen_titles": [
-    "announcement announcements",
-    "morning patches",
-    "resident evil requiem is blowing up on steam",
     "nacon delays game showcase after filing for insolvency: ‘we are choosing to focus our resources’",
     "cozy narrative gardening game the abbess garden launches on pc",
     "dc reveals a gorgeous spread of covers for superman/spider-man crossover special",
@@ -10001,12 +9998,12 @@
     "mortal kombat ii gets hbo max streaming release date",
     "marathon game director joseph ziegler is leaving bungie",
     "gallipoli launches august 20",
-    "final fantasy xiv mobile to end service on september 30 in china, global version canceled"
+    "final fantasy xiv mobile to end service on september 30 in china, global version canceled",
+    "battlefield 6 releases patch notes for july 21 update",
+    "after zenimax layoffs, the elder scrolls online may never be the same",
+    "'we're interested in having the whole pc catalog as our 'launch exclusive'': valve talks exclusives and the advantages of an open platform"
   ],
   "seen_story_keys": [
-    "7a2abc68717332e513ddaa35e3ae717aaf59e8c8",
-    "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
-    "5e47f2e77892bc5a01922310e94c8a19834d3e43",
     "9125471fb8a526d47f4d2438017430b3a7c518e8",
     "876fb86e4d548f64c812a8e365e911e9a225365b",
     "dad403d05b339cb49cb7f64aea9f920340b8715e",
@@ -15003,6 +15000,9 @@
     "b5142617c1bb5657d656bc2dd9c8531ce2e41e1a",
     "af4ca684da6b4c04550d4cf38291e8c4dd44cf3b",
     "8d4774338fefb2ba7b4b7de9d565c990cd5b30d8",
-    "eff1db5ffc4cbea1fdd57714dfbbfcb662595292"
+    "eff1db5ffc4cbea1fdd57714dfbbfcb662595292",
+    "c59553f6566e243e7beef1e0ccb777be66a67341",
+    "72aaca7a4b09ce0b5f82fe74ff97447aba5fa3ab",
+    "ef8dc3250806aace8aa5ab1571c1252a2de67b47"
   ]
 }
