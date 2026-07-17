@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/02/warframes-switch-2-version-launches-alongside-its-next-major-update-in-march",
-    "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-28th-february",
     "https://www.pcgamer.com/games/life-sim/stardew-valley-has-basically-become-the-tolkien-of-cozy-gaming/",
     "https://www.pcgamer.com/games/strategy/tactical-breach-wizards-sold-twice-as-well-as-suspicious-developments-previous-games-but-more-importantly-it-failed-catastrophically-to-lose-an-igf-award-all-we-can-say-is-were-sorry-and-well-try-to-do-worse/",
     "https://www.pcgamer.com/games/action/desert-strike-spiritual-successor-cleared-hots-next-update-brings-better-steam-deck-support-and-arcade-missions-but-im-more-excited-about-using-my-winch-to-slingshot-missiles-back-at-enemies-ive-been-waiting-months-to-work-on-this-again/",
@@ -4999,11 +4997,11 @@
     "https://www.gematsu.com/2026/07/cozy-marbles-launches-august-20",
     "https://www.gematsu.com/2026/07/prinny-party-going-overboard-launches-november-12-in-japan-and-asia-coming-west",
     "https://www.nintendolife.com/news/2026/07/segas-gamescom-line-up-includes-alien-isolation-2-and-crazy-taxi-world-tour",
-    "https://www.gematsu.com/2026/07/lous-lagoon-adds-switch-2-version"
+    "https://www.gematsu.com/2026/07/lous-lagoon-adds-switch-2-version",
+    "https://gamerant.com/mortal-shell-2-ps5-physical-edition-sold-out/",
+    "https://www.ign.com/articles/game-of-thrones-war-for-westeros-release-date-delayed-to-early-2027"
   ],
   "seen_titles": [
-    "warframe's switch 2 version launches alongside its \"next major update\" in march",
-    "talking point: what are you playing this weekend? (28th february)",
     "stardew valley has basically become the tolkien of cozy gaming",
     "tactical breach wizards sold 'twice as well' as suspicious developments' previous games, but more importantly, it failed catastrophically to lose an igf award: 'all we can say is we're sorry, and we'll try to do worse'",
     "desert strike spiritual successor cleared hot's next update brings better steam deck support and arcade missions, but i'm more excited about using my winch to slingshot missiles back at enemies: 'i've been waiting months to work on this again'",
@@ -10001,11 +9999,11 @@
     "cozy marbles launches august 20",
     "prinny party: going overboard! launches november 12 in japan and asia, coming west",
     "sega's gamescom line-up includes alien: isolation 2 and crazy taxi: world tour",
-    "lou’s lagoon adds switch 2 version"
+    "lou’s lagoon adds switch 2 version",
+    "as sony pushes toward a digital future, upcoming soulslike's ps5 physical edition sells out",
+    "game of thrones: war for westeros release date delayed to early 2027"
   ],
   "seen_story_keys": [
-    "4baeba943d52ebe26b43a15ad8b44adc7cff3f25",
-    "2478189a6534734a7e468c83fca4676e12f4b565",
     "7e33d72b559d21e18285cf00d1eefa1b3d1a3f79",
     "964a02f64033a0e1005b6209cc9e0a7a483a420d",
     "9e0f9eabd6e61cc333461b46a930695841b17cfa",
@@ -15003,6 +15001,8 @@
     "fb69586c47e28dcf2085996b482fece7692aa6f4",
     "349b83600236b27338a40411717712a2f1c0d997",
     "fbb070e8b5726b626e1fc05aa47062fd12b5581f",
-    "dbea44c3e62cfc5c3f1b10c0028bb7be2ac9b463"
+    "dbea44c3e62cfc5c3f1b10c0028bb7be2ac9b463",
+    "434c14ab18416605be7bec49a13a4597caa2f1a2",
+    "53d72805c6721158f0804cdaf7b9adef01273ea2"
   ]
 }
