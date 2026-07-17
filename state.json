@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/card-games/after-its-disastrous-launch-last-year-im-here-to-tell-you-that-2025s-most-promising-auto-battler-finally-lives-up-to-its-potential/",
-    "https://www.pcgamer.com/games/board-games/games-workshop-just-announced-a-book-of-insightful-ork-quotes-called-words-of-waaagh/",
-    "https://www.pcgamer.com/games/world-of-warcraft/an-inaccessible-zone-in-world-of-warcraft-midnight-has-players-convinced-its-a-clue-for-the-next-update/",
-    "https://www.nintendolife.com/news/2026/03/super-meat-boy-brings-brutal-3d-platforming-to-switch-2-this-year",
     "https://www.nintendolife.com/news/2026/03/video-street-fighter-6-got-pro-wrestler-kenny-omega-to-motion-cap-alex",
     "https://www.pcgamer.com/games/action/teardowns-massive-multiplayer-update-arrives-next-month-bringing-a-full-co-op-campaign-competitive-modes-and-a-free-roaming-sandbox/",
     "https://www.gematsu.com/2026/03/arknights-endfield-version-1-1-update-old-deep-water-dies-by-rising-tide-it-is-denied-launches-march-12",
@@ -4999,13 +4995,13 @@
     "https://www.gamespot.com/articles/god-of-war-tv-show-forced-to-recast-kratos-after-serious-injury/",
     "https://www.rockpapershotgun.com/id-tech-is-there-the-doom-team-is-here-doom-the-dark-ages-director-pushes-back-against-idea-studio-have-been-nerfed-into-the-ground-by-xbox-layoffs",
     "https://www.ign.com/articles/id-software-creative-director-says-claims-the-doom-developer-was-nerfed-into-the-ground-by-xbox-layoffs-are-untrue",
-    "https://www.rockpapershotgun.com/unions-accuse-microsoft-of-having-unlawfully-fired-people-in-unfair-labor-practice-complaints-filed-over-xbox-layoffs"
+    "https://www.rockpapershotgun.com/unions-accuse-microsoft-of-having-unlawfully-fired-people-in-unfair-labor-practice-complaints-filed-over-xbox-layoffs",
+    "https://www.gematsu.com/2026/07/zenless-zone-zero-version-3-1-update-the-long-goodbye-launches-july-29",
+    "https://gamerant.com/deceive-inc-game-no-shutdown-online-only/",
+    "https://www.nintendolife.com/news/2026/07/stage-tour-looks-to-revive-guitar-heros-golden-era-on-switch-2",
+    "https://www.gamesindustry.biz/gamecity-hamburg-announces-second-round-of-prototype-funding"
   ],
   "seen_titles": [
-    "after its disastrous launch last year, i'm here to tell you that 2025's most promising auto-battler finally lives up to its potential",
-    "games workshop just announced a book of 'insightful ork quotes' called words of waaagh",
-    "an inaccessible zone in world of warcraft: midnight has players convinced it's a clue for the next update",
-    "super meat boy brings brutal 3d platforming to switch 2 this year",
     "video: street fighter 6 got pro wrestler kenny omega to motion cap alex",
     "teardown's massive multiplayer update arrives next month, bringing a full co-op campaign, competitive modes, and a free-roaming sandbox",
     "arknights: endfield version 1.1 update ‘old deep water dies, by rising tide it is denied’ launches march 12",
@@ -10001,13 +9997,13 @@
     "god of war tv show forced to recast kratos after serious injury",
     "\"id tech is there, the doom team is here\": doom: the dark ages director pushes back against idea studio have been \"nerfed into the ground\" by xbox layoffs",
     "id software creative director says claims the doom developer was 'nerfed into the ground' by xbox layoffs are untrue",
-    "unions accuse microsoft of having \"unlawfully fired people\" in unfair labor practice complaints filed over xbox layoffs"
+    "unions accuse microsoft of having \"unlawfully fired people\" in unfair labor practice complaints filed over xbox layoffs",
+    "zenless zone zero version 3.1 update ‘the long goodbye’ launches july 29",
+    "online-only multiplayer game is reworking its servers to avoid a shutdown",
+    "'stage tour' looks to revive guitar hero's golden era on switch 2",
+    "gamecity hamburg announces second round of prototype funding"
   ],
   "seen_story_keys": [
-    "c3ff18a5ce8a8f8ab9d0cde2984b45e28cdfd482",
-    "72f43df155fe68884e2a1821a523531824f5976a",
-    "6e6ec8d3970a1d7a01bba2571bed6b593fba87e5",
-    "e1f28e7117837aa117af6060675843be32aa1824",
     "9e36800c968759a31a077097d86c524aa2cf6697",
     "bc8c501c3394f38a4b90a21c08968f8278b28dae",
     "631fcc457a424ecf377af5ac48a23c2bcbdf85ae",
@@ -15003,6 +14999,10 @@
     "f6f41834a659a2e950da5ff6a8d8bf7e72048fa4",
     "b88ca55f2f28edebd51737dff52063b370c469f9",
     "59c9c3b1e98b4e2c7e0bf9536e85297566bfc900",
-    "9e4f012683b94d6b97d81dce501206e40a356688"
+    "9e4f012683b94d6b97d81dce501206e40a356688",
+    "4f218f118f98e04124e89e9a974562afdb79ac6d",
+    "ba8f82595ec84c148496499a6785147ffa55d8b5",
+    "812a46e7dfea3b44f123ba7dd9e41b15f13222e6",
+    "e45593bf12404486ce8d8370ae4d898d5246f79f"
   ]
 }
