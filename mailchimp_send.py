@@ -867,6 +867,26 @@ def main():
         print("[MAILCHIMP] MAILCHIMP_AUDIENCE_ID not set — skipping.")
         sys.exit(0)
 
+    # Once-per-day guard — prevent sending twice in one day
+    try:
+        from zoneinfo import ZoneInfo as _ZI
+        today_str = datetime.now(_ZI("America/Los_Angeles")).strftime("%Y-%m-%d")
+    except Exception:
+        today_str = datetime.now().strftime("%Y-%m-%d")
+
+    sent_cache = ".mailchimp_sent.json"
+    sent_data  = {}
+    if os.path.exists(sent_cache):
+        try:
+            with open(sent_cache, "r") as f:
+                sent_data = json.load(f)
+        except Exception:
+            pass
+
+    if sent_data.get("last_sent") == today_str:
+        print(f"[MAILCHIMP] Already sent today ({today_str}) — skipping to prevent duplicate.")
+        sys.exit(0)
+
     should_post, stories, latest_yt_url, post_date = load_digest_stories()
 
     if not should_post:
@@ -881,6 +901,13 @@ def main():
     stories = enrich_stories_with_images(stories)
     print(f"[MAILCHIMP] Sending email digest...")
     send_campaign(stories, latest_yt_url, post_date)
+
+    # Mark as sent today
+    try:
+        with open(sent_cache, "w") as f:
+            json.dump({"last_sent": today_str}, f)
+    except Exception as ex:
+        print(f"[MAILCHIMP] Could not write sent cache: {ex}")
 
 if __name__ == "__main__":
     main()
