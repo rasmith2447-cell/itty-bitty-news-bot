@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/march-xbox-game-pass-titles-revealed/",
-    "https://www.gematsu.com/2026/03/ratatan-launches-july-16-for-ps5-xbox-series-switch-2-ps4-xbox-one-and-pc",
-    "https://www.gematsu.com/2026/03/inkonbini-one-store-many-stories-adds-switch-2-version-launches-april-30",
-    "https://www.gematsu.com/2026/03/toem-2-launches-this-summer-for-ps5-switch-and-pc",
     "https://www.polygon.com/nintendo-indie-world-showcase-announcements-reveals-trailers/",
     "https://www.nintendolife.com/news/2026/03/drinkbox-studios-hades-inspired-brawler-is-confirmed-for-the-switch-2",
     "https://www.nintendolife.com/news/2026/03/moonlighter-2-mixes-zelda-inspired-dungeon-crawling-and-shopkeeping-on-switch-2",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/07/it-isnt-something-carved-in-stone-xbox-still-unclear-on-future-ps5-ports",
     "https://www.videogameschronicle.com/news/marathons-director-confirms-hes-quit-bungie-four-months-after-launch/",
     "https://www.eurogamer.net/marathon-director-ziegler-leaves-bungie",
-    "https://www.pushsquare.com/news/2026/07/two-of-ps5s-biggest-games-will-crossover-this-winter"
+    "https://www.pushsquare.com/news/2026/07/two-of-ps5s-biggest-games-will-crossover-this-winter",
+    "https://gamerant.com/gta-6-release-date-reaffirmed-november-19-2026/",
+    "https://gamerant.com/palworld-dawn-palapagos-release-date/",
+    "https://www.polygon.com/fallout-games-unclear-xbox-console-exclusivity/",
+    "https://www.eurogamer.net/game-of-thrones-war-for-westeros-rts-game-delayed-to-2027"
   ],
   "seen_titles": [
-    "march xbox game pass titles revealed",
-    "ratatan launches july 16 for ps5, xbox series, switch 2, ps4, xbox one, and pc",
-    "inkonbini: one store. many stories. adds switch 2 version, launches april 30",
-    "toem 2 launches this summer for ps5, switch, and pc",
     "nintendo indie world: the biggest announcements from the showcase",
     "drinkbox studios' hades-inspired brawler is confirmed for the switch 2",
     "'moonlighter 2' mixes zelda-inspired dungeon crawling and shopkeeping on switch 2",
@@ -10001,13 +9997,13 @@
     "'it isn't something carved in stone': xbox still unclear on future ps5 ports",
     "marathon’s director confirms he’s quit bungie, four months after launch",
     "marathon director joe ziegler leaves bungie just four months after launch",
-    "two of ps5's biggest games will crossover this winter"
+    "two of ps5's biggest games will crossover this winter",
+    "take-two ceo gives new official statement on gta 6's release date",
+    "palworld: dawn of palapagos officially revealed, releases july 30",
+    "xbox still isn't revealing if the new fallout games are console exclusives",
+    "game of thrones: war for westeros rts delayed to 2027 to \"ensure the game reaches the high level of quality we are aiming for\""
   ],
   "seen_story_keys": [
-    "e74559ac8d234f3ff30af03493a32df3eb171104",
-    "650b9e6078446b8bca637d892a5105796c1953be",
-    "155e823b953234eb8390ea49cefa0ab8e32052d0",
-    "73eaeede014e40c3eebf6420d06cc6730157a06b",
     "200bcc01e7d65a52afb3926965113f1a31c2c334",
     "20bdb2043798bf65b8a9dd5fe10efdd4d60b139a",
     "5a76ee89b66a85fe4b426dd096b8957a8d76f2a3",
@@ -15003,6 +14999,10 @@
     "e900a5a273725dc2f7fe4b81751af10abdc6c579",
     "81378b859dea6ac10390ac65a58ad4522203f9a6",
     "19981453246e0ac4d8e1c49957e0e65d54d1639c",
-    "e5194a26ddd6cc7a0c8bb42ad379244de1fd16ee"
+    "e5194a26ddd6cc7a0c8bb42ad379244de1fd16ee",
+    "4f7e6e5dfe44c17c24df08d95c7ffb8352d2ac68",
+    "e0ed8751fec5e27ecbc203cdb5207a507d4582e6",
+    "685d66f819c7593a89267687755372877471e18f",
+    "14811ef8290ee30b433d704ee92f85b10497495b"
   ]
 }
