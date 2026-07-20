@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/marathon-confirms-seasonal-resets-which-means-everyones-gear-contract-and-faction-progression-and-player-level-wipe-every-few-months",
-    "https://www.gamespot.com/articles/helldivers-2-players-sure-do-love-blowing-up-their-teammates/1100-6538534/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/03/go-go-mister-chickums-launches-april-2",
     "https://www.ign.com/articles/the-legend-of-vox-machina-season-4-release-date-announced-alongside-teaser",
     "https://www.gamespot.com/articles/viral-punch-the-monkey-story-becomes-a-video-game/1100-6538524/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/03/unrailed-2-back-on-track-launches-in-may-for-switch-2-switch-and-pc-later-in-2026-for-ps5",
@@ -4999,12 +4996,12 @@
     "https://www.pushsquare.com/news/2026/07/ps5s-once-upon-a-katamari-is-getting-bigger-with-paid-dlc-based-on-the-mobile-game",
     "https://www.gamesindustry.biz/union-slams-microsoft-for-unfair-labor-practice-alleging-xbox-unlawfully-laid-off-staff",
     "https://www.eurogamer.net/bethesda-todd-howard-reddit-lurker",
-    "https://www.ign.com/articles/gears-of-war-designer-cliff-bleszinski-reveals-struggle-with-alcoholism-discusses-the-failure-of-lawbreakers-and-potential-return-to-video-game-development"
+    "https://www.ign.com/articles/gears-of-war-designer-cliff-bleszinski-reveals-struggle-with-alcoholism-discusses-the-failure-of-lawbreakers-and-potential-return-to-video-game-development",
+    "https://www.gamesindustry.biz/court-orders-midgar-studio-to-liquidate-after-failing-to-secure-a-buyer",
+    "https://www.gematsu.com/2026/07/skatesterre-launches-august-13",
+    "https://www.polygon.com/steam-machine-price-hike-change-deck-valve-ai-ram-component-crisis/"
   ],
   "seen_titles": [
-    "marathon confirms seasonal resets, which means everyone's gear, contract and faction progression, and player level wipe every few months",
-    "helldivers 2 players sure do love blowing up their teammates",
-    "go! go! mister chickums launches april 2",
     "the legend of vox machina season 4 release date announced alongside teaser",
     "viral punch the monkey story becomes a video game",
     "unrailed! 2: back on track launches in may for switch 2, switch, and pc, later in 2026 for ps5",
@@ -10001,12 +9998,12 @@
     "ps5's once upon a katamari is getting bigger with paid dlc based on the mobile game",
     "union slams microsoft for \"unfair labor practice\", alleging xbox \"unlawfully\" laid off staff",
     "\"professional lurker\" todd howard reappears on internet forums following bethesda's fallout and elder scrolls announcements to thank fans for their support",
-    "gears of war designer cliff bleszinski reveals struggle with alcoholism, discusses the failure of lawbreakers and potential return to video game development"
+    "gears of war designer cliff bleszinski reveals struggle with alcoholism, discusses the failure of lawbreakers and potential return to video game development",
+    "court orders midgar studio to liquidate after failing to secure a buyer",
+    "skatesterre launches august 13",
+    "steam machine may get a price increase, valve slyly warns"
   ],
   "seen_story_keys": [
-    "4aa49700c6da21f09e369ad022d302a1d8902e72",
-    "48fa3e5205e142a5d1b9ec3b1303f98d962da2d5",
-    "a7dc98bdf217bcaffab965f5300a04a7c536682a",
     "f30bf3f9781ac146955af3090e704a07f57a6be3",
     "82ecdfe86efe184665aa0598e355eb2f739e10d2",
     "6df531eef86930e673e06d35c246c0444b3ab210",
@@ -15003,6 +15000,9 @@
     "cf7a82a965f5345a8fe7f02d9a324d28e230b262",
     "e7fc3632837d0adb49c61b28396995dc2852448e",
     "46ff5f030f2e5922d245bc8bf7446d3e5fb3348c",
-    "b82adfaa21e790b7a7c15a662b57d6330331e45b"
+    "b82adfaa21e790b7a7c15a662b57d6330331e45b",
+    "ef47db6644a68f1f98eaa4c8d2bf1d30b6724c13",
+    "b1bd26b3dfeb1943556fc895ae272ae8e835726d",
+    "c6b03d37e6c0d9e184415fd9a7d82cb4935009d7"
   ]
 }
