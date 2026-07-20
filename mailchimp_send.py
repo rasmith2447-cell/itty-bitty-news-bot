@@ -470,7 +470,19 @@ def generate_trivia() -> tuple:
         )
 
 
-def get_youtube_video_id(url: str) -> str:
+def is_youtube_short(video_id: str) -> bool:
+    """Check if a YouTube video is a Short by seeing if /shorts/ URL resolves."""
+    try:
+        r = requests.head(
+            f"https://www.youtube.com/shorts/{video_id}",
+            headers={"User-Agent": "Mozilla/5.0"},
+            allow_redirects=True,
+            timeout=8,
+        )
+        # If the URL resolves to a shorts page (not redirected away), it's a Short
+        return "/shorts/" in r.url
+    except Exception:
+        return False
     """Extract video ID from a YouTube URL."""
     import re
     patterns = [
@@ -500,25 +512,24 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
             if r.ok:
                 entries = re.findall(r"<entry\b.*?</entry>", r.text, re.DOTALL)
                 for entry in entries[:25]:
-                    m_vid      = re.search(r"<yt:videoId>([^<]+)</yt:videoId>", entry)
-                    m_title    = re.search(r"<title>([^<]+)</title>", entry)
-                    m_duration = re.search(r"duration=\"(\d+)\"", entry)
+                    m_vid   = re.search(r"<yt:videoId>([^<]+)</yt:videoId>", entry)
+                    m_title = re.search(r"<title>([^<]+)</title>", entry)
                     if not m_vid:
                         continue
-                    vid      = m_vid.group(1).strip()
-                    title    = m_title.group(1).strip() if m_title else ""
-                    duration = int(m_duration.group(1)) if m_duration else 9999
+                    vid         = m_vid.group(1).strip()
+                    title       = m_title.group(1).strip() if m_title else ""
                     title_lower = title.lower()
-                    # Skip Shorts — by title keyword OR duration under 60 seconds
+                    # Skip by title keyword first (fast)
                     if "#shorts" in title_lower or " shorts" in title_lower or title_lower.endswith("shorts"):
                         print(f"[MAILCHIMP] Skipping Short (title): {title}")
                         continue
-                    if duration < 60:
-                        print(f"[MAILCHIMP] Skipping Short (duration {duration}s): {title}")
+                    # Then verify via URL check (reliable)
+                    if is_youtube_short(vid):
+                        print(f"[MAILCHIMP] Skipping Short (URL check): {title}")
                         continue
                     video_id = vid
                     yt_link  = f"https://www.youtube.com/watch?v={video_id}"
-                    print(f"[MAILCHIMP] Found latest long-form video: {title} ({duration}s)")
+                    print(f"[MAILCHIMP] Found latest long-form video: {title}")
                     break
         except Exception as ex:
             print(f"[MAILCHIMP] YouTube fetch failed: {ex}")
