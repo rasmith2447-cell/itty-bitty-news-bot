@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/unrailed-2-back-on-track-launches-in-may-for-switch-2-switch-and-pc-later-in-2026-for-ps5",
-    "https://www.gematsu.com/2026/03/grave-seasons-launches-this-summer",
-    "https://www.gamespot.com/articles/highguard-is-shutting-down-soon/1100-6538541/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/03/all-will-fall-launches-april-3",
     "https://www.nintendolife.com/news/2026/03/denshattack-is-heading-to-switch-2-this-june-demo-available-today",
     "https://www.gematsu.com/2026/03/blighted-launches-this-fall-for-switch-2-pc",
     "https://www.pcgamer.com/games/fps/highguard-is-closing-next-week-despite-the-passion-and-hard-work-of-our-team-we-have-not-been-able-to-build-a-sustainable-player-base-to-support-the-game-long-term/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/skatesterre-launches-august-13",
     "https://www.polygon.com/steam-machine-price-hike-change-deck-valve-ai-ram-component-crisis/",
     "https://www.polygon.com/disney-plus-afterlife-with-archie-series-announced/",
-    "https://www.ign.com/articles/masters-of-the-universe-prime-video-streaming-release-date"
+    "https://www.ign.com/articles/masters-of-the-universe-prime-video-streaming-release-date",
+    "https://www.pcgamer.com/games/action/theres-a-dinosaur-soulslike-launching-on-steam-this-week-where-youre-a-spinosaurus-swinging-a-greatsword-with-your-mouth-who-just-might-be-able-to-parry-the-meteor/",
+    "https://www.polygon.com/marvel-blade-movie-update-kevin-feige/",
+    "https://www.pushsquare.com/news/2026/07/green-goblin-joins-marvel-tokons-stacked-open-beta-on-ps5-pc",
+    "https://www.gematsu.com/2026/07/free-to-play-dc-fighting-game-dcko-announced-for-ios-android"
   ],
   "seen_titles": [
-    "unrailed! 2: back on track launches in may for switch 2, switch, and pc, later in 2026 for ps5",
-    "grave seasons launches this summer",
-    "highguard is shutting down soon",
-    "all will fall launches april 3",
     "denshattack! is heading to switch 2 this june, demo available today",
     "blighted launches this fall for switch 2, pc",
     "highguard is closing next week: 'despite the passion and hard work of our team, we have not been able to build a sustainable player base to support the game long term'",
@@ -10001,13 +9997,13 @@
     "skatesterre launches august 13",
     "steam machine may get a price increase, valve slyly warns",
     "disney sets a release date for afterlife with archie series",
-    "masters of the universe is coming to prime video this week"
+    "masters of the universe is coming to prime video this week",
+    "there's a dinosaur soulslike launching on steam this week where you're a spinosaurus swinging a greatsword with your mouth who just might be able to parry the meteor",
+    "marvel studios' kevin feige responds to blade movie's failure",
+    "green goblin joins marvel tokon's stacked open beta on ps5, pc",
+    "free-to-play dc fighting game dcko announced for ios, android"
   ],
   "seen_story_keys": [
-    "6df531eef86930e673e06d35c246c0444b3ab210",
-    "5eab652dd41b7b0bb167eb570b4aa8d41e2c3725",
-    "e6999f0e24a643b84844d341f65485c2a4015f22",
-    "cc53ebfd64d4965423bb393cccc86b92fcf8f5d0",
     "2d4479746c239f5e883c3637c6704de72c21ded8",
     "788504b7f364d510ac354cf98a7b12234aecb055",
     "0ea627fd326b670cc26546ca087b58b002624e2d",
@@ -15003,6 +14999,10 @@
     "b1bd26b3dfeb1943556fc895ae272ae8e835726d",
     "c6b03d37e6c0d9e184415fd9a7d82cb4935009d7",
     "a845d001f704415d6811b602b0ef1e599cfddc74",
-    "baa46d8dd2255d92b56b409f58714e5d9dd50454"
+    "baa46d8dd2255d92b56b409f58714e5d9dd50454",
+    "f259908cd61d556d61e49d3d8204ce97e8eea323",
+    "a087a22204620c61596e2c4fa1772ab9565d78bb",
+    "8c8e96e3b5575182b34c45d3cdc94f1a3ef753c5",
+    "3f5bd7d036a50edb9ac556f1652be9c6ee283b8a"
   ]
 }
