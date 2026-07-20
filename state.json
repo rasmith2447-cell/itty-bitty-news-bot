@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/gdc-festival-of-gaming-2026-launches-on-march-9",
-    "https://www.ign.com/articles/dungeons-dragons-takes-inspiration-from-live-service-video-games-with-a-new-plan-for-themed-seasonal-releases",
-    "https://www.bluesnews.com/s/295146/game-crossovers-and-collaborations",
-    "https://www.ign.com/articles/tales-elden-ring-publisher-bandai-namco-teases-new-rpg-reveal",
     "https://www.bluesnews.com/s/295145/morning-patches",
     "https://www.bluesnews.com/s/295132/morning-safety-dance",
     "https://www.nintendolife.com/news/2026/03/rotwood-brings-serious-absolum-vibes-with-a-shadow-drop-on-switch-2",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/mxgp-26-the-official-game-announced-for-ps5-xbox-series-and-pc",
     "https://gamerant.com/game-thrones-war-westeros-release-date-delay-2027/",
     "https://www.pushsquare.com/news/2026/07/please-play-when-gta-6-comes-out-ac-black-flag-resynced-will-add-new-features-to-keep-you-aboard",
-    "https://www.ign.com/articles/please-play-us-when-gta-6-comes-out-assassins-creed-black-flag-resynced-developer-teases-post-game-support"
+    "https://www.ign.com/articles/please-play-us-when-gta-6-comes-out-assassins-creed-black-flag-resynced-developer-teases-post-game-support",
+    "https://www.nintendolife.com/news/2026/07/final-fantasy-x-25th-anniversary-video-released-ahead-of-switch-2-launch",
+    "https://www.nintendolife.com/news/2026/07/casio-launches-mother-3-watch-for-games-20th-anniversary",
+    "https://gamerant.com/playstation-6-ps6-better-cooling-system-ps5/",
+    "https://www.eurogamer.net/steam-machine-valve-component-price-increase"
   ],
   "seen_titles": [
-    "gdc festival of gaming 2026 launches on march 9",
-    "dungeons & dragons takes inspiration from live-service video games, with a new plan for themed seasonal releases",
-    "game crossovers and collaborations",
-    "tales, elden ring publisher bandai namco teases new rpg reveal",
     "morning patches",
     "morning safety dance",
     "rotwood brings serious absolum vibes with a shadow drop on switch 2",
@@ -10001,13 +9997,13 @@
     "mxgp 26: the official game announced for ps5, xbox series, and pc",
     "new game of thrones release officially delayed to 2027",
     "'please play when gta 6 comes out': ac black flag resynced will add new features to keep you aboard",
-    "'please play us when gta 6 comes out': assassin's creed black flag resynced developer teases post-game support"
+    "'please play us when gta 6 comes out': assassin's creed black flag resynced developer teases post-game support",
+    "final fantasy x 25th anniversary video released ahead of switch 2 launch",
+    "casio launches 'mother 3' watch for game's 20th anniversary",
+    "new ps6 patent reveals first major improvement over the ps5",
+    "\"honestly, it's still getting worse\" - valve steam machine engineer says component prices are still rising, potentially paving the way for a price increase"
   ],
   "seen_story_keys": [
-    "1944c939dd5062413a7a6ec508de4e9bcaa0ee04",
-    "cb14804dc53e08687608afd2b1a55fb4fb2c3ac1",
-    "1470e869723642b3a44e8708c81467cd8d802add",
-    "051e26f61fe770a99f5265f09fa9ad72365934b0",
     "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
     "537d7be41813a4bac5916c0399ffa93e7910b0c3",
     "96ed020126e5e7d6a7e44af61625c25e4ec1638a",
@@ -15003,6 +14999,10 @@
     "f9a2deb8c7072015f1c8a2097c7472485b66dd34",
     "4f55efba005347c8432513ce6cc5c2c86bc20e64",
     "78db1b04c355cd72b68355a01e86f06e319e1efc",
-    "649470cd5c40c0222f1ed93641aeef5e268622ff"
+    "649470cd5c40c0222f1ed93641aeef5e268622ff",
+    "b7beead96f1276b691b16f0c6c3b4dfefa6af723",
+    "8512a4bc0423a2e157f653b46932a582ad2fc2f2",
+    "4e3b5608067ff53444979a6c86cf231d1ff9ff54",
+    "c1cf68d32abe22b6cc39050242dec2e9fc72b9ae"
   ]
 }
