@@ -346,8 +346,22 @@ def youtube_latest() -> Optional[Tuple[str, str]]:
                 if YOUTUBE_FILTER_SHORTS:
                     t = title.lower()
                     if "#shorts" in t or " shorts" in t or t.endswith("shorts"):
+                        print(f"[YT] Skipping Short (title): {title}")
                         continue
-                print(f"[YT] Found latest video: {title}")
+                    # URL-based check — reliable Shorts detection
+                    try:
+                        sr = requests.head(
+                            f"https://www.youtube.com/shorts/{vid}",
+                            headers={"User-Agent": "Mozilla/5.0"},
+                            allow_redirects=True,
+                            timeout=8,
+                        )
+                        if "/shorts/" in sr.url:
+                            print(f"[YT] Skipping Short (URL check): {title}")
+                            continue
+                    except Exception:
+                        pass
+                print(f"[YT] Found latest long-form video: {title}")
                 return (f"https://www.youtube.com/watch?v={vid}", title)
 
         except Exception as ex:
