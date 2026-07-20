@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295154/toem-2-this-summer",
-    "https://www.bluesnews.com/s/295153/necrophosis-subconsciousness-announced",
-    "https://www.bluesnews.com/s/295152/heave-ho-2-announced",
-    "https://www.polygon.com/division-resurgence-release-date-ubisoft/",
     "https://www.ign.com/articles/gdc-festival-of-gaming-2026-launches-on-march-9",
     "https://www.ign.com/articles/dungeons-dragons-takes-inspiration-from-live-service-video-games-with-a-new-plan-for-themed-seasonal-releases",
     "https://www.bluesnews.com/s/295146/game-crossovers-and-collaborations",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/game-of-thrones-is-getting-a-new-game/",
     "https://www.gematsu.com/2026/07/neosphere-of-the-deep-blue-sky-legacy-announced-for-switch-pc",
     "https://gamerant.com/gta-6-official-revenue-statement/",
-    "https://www.rockpapershotgun.com/game-of-thrones-war-for-westeros-delayed-to-2027-as-playside-take-more-time-before-playing-their-turn-to-ensure-the-rts-hits-a-high-level-of-quality"
+    "https://www.rockpapershotgun.com/game-of-thrones-war-for-westeros-delayed-to-2027-as-playside-take-more-time-before-playing-their-turn-to-ensure-the-rts-hits-a-high-level-of-quality",
+    "https://www.gematsu.com/2026/07/mxgp-26-the-official-game-announced-for-ps5-xbox-series-and-pc",
+    "https://gamerant.com/game-thrones-war-westeros-release-date-delay-2027/",
+    "https://www.pushsquare.com/news/2026/07/please-play-when-gta-6-comes-out-ac-black-flag-resynced-will-add-new-features-to-keep-you-aboard",
+    "https://www.ign.com/articles/please-play-us-when-gta-6-comes-out-assassins-creed-black-flag-resynced-developer-teases-post-game-support"
   ],
   "seen_titles": [
-    "toem 2 this summer",
-    "necrophosis - subconsciousness announced",
-    "heave ho 2 announced",
-    "the division resurgence release date will be here sooner than you'd think",
     "gdc festival of gaming 2026 launches on march 9",
     "dungeons & dragons takes inspiration from live-service video games, with a new plan for themed seasonal releases",
     "game crossovers and collaborations",
@@ -10001,13 +9997,13 @@
     "game of thrones is finally getting the pc game we've been waiting for next year",
     "neosphere of the deep-blue sky: legacy announced for switch, pc",
     "gta 6 officially reveals its 2026 revenue expectations",
-    "game of thrones: war for westeros delayed to 2027, as playside take more time before playing their turn to ensure the rts hits a \"high level of quality\""
+    "game of thrones: war for westeros delayed to 2027, as playside take more time before playing their turn to ensure the rts hits a \"high level of quality\"",
+    "mxgp 26: the official game announced for ps5, xbox series, and pc",
+    "new game of thrones release officially delayed to 2027",
+    "'please play when gta 6 comes out': ac black flag resynced will add new features to keep you aboard",
+    "'please play us when gta 6 comes out': assassin's creed black flag resynced developer teases post-game support"
   ],
   "seen_story_keys": [
-    "476ea631d000fe05d758bdb7f96238fd5d352ec4",
-    "f8a6b1a48c24f5e9f4de89c4d378d7cd701a5b99",
-    "f544e284fb368d15870a6cd9bfaaecc6bc1be649",
-    "4f753cd3f0dc0a24f08b0d8cd3853a75ab0d94bb",
     "1944c939dd5062413a7a6ec508de4e9bcaa0ee04",
     "cb14804dc53e08687608afd2b1a55fb4fb2c3ac1",
     "1470e869723642b3a44e8708c81467cd8d802add",
@@ -15003,6 +14999,10 @@
     "54de3170bd8ba65f19e50b9e87efcde16cb83d24",
     "d90838aded8ca3e67040aad0998184489df40fa3",
     "ba56b68753808282d46d70fa050260b8cc53066d",
-    "41c8590aa4306f9b4da5443f10fcd43dbc13b2ea"
+    "41c8590aa4306f9b4da5443f10fcd43dbc13b2ea",
+    "f9a2deb8c7072015f1c8a2097c7472485b66dd34",
+    "4f55efba005347c8432513ce6cc5c2c86bc20e64",
+    "78db1b04c355cd72b68355a01e86f06e319e1efc",
+    "649470cd5c40c0222f1ed93641aeef5e268622ff"
   ]
 }
