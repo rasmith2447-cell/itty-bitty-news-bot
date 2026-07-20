@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/outbound-launches-april-23",
-    "https://www.pcgamer.com/gaming-industry/killing-floor-studio-tripwire-interactive-lays-off-23-people-because-of-business-realities-and-all-the-other-usual-stuff/",
     "https://www.bluesnews.com/s/295154/toem-2-this-summer",
     "https://www.bluesnews.com/s/295153/necrophosis-subconsciousness-announced",
     "https://www.bluesnews.com/s/295152/heave-ho-2-announced",
@@ -4999,11 +4997,11 @@
     "https://www.eurogamer.net/game-of-thrones-war-for-westeros-rts-game-delayed-to-2027",
     "https://gamerant.com/steam-machine-valve-exclusive-games-pc/",
     "https://www.polygon.com/game-of-thrones-is-getting-a-new-game/",
-    "https://www.gematsu.com/2026/07/neosphere-of-the-deep-blue-sky-legacy-announced-for-switch-pc"
+    "https://www.gematsu.com/2026/07/neosphere-of-the-deep-blue-sky-legacy-announced-for-switch-pc",
+    "https://gamerant.com/gta-6-official-revenue-statement/",
+    "https://www.rockpapershotgun.com/game-of-thrones-war-for-westeros-delayed-to-2027-as-playside-take-more-time-before-playing-their-turn-to-ensure-the-rts-hits-a-high-level-of-quality"
   ],
   "seen_titles": [
-    "outbound launches april 23",
-    "killing floor studio tripwire interactive lays off 23 people because of 'business realities' and all the other usual stuff",
     "toem 2 this summer",
     "necrophosis - subconsciousness announced",
     "heave ho 2 announced",
@@ -10001,11 +9999,11 @@
     "game of thrones: war for westeros rts delayed to 2027 to \"ensure the game reaches the high level of quality we are aiming for\"",
     "valve comments on steam machine's exclusive games",
     "game of thrones is finally getting the pc game we've been waiting for next year",
-    "neosphere of the deep-blue sky: legacy announced for switch, pc"
+    "neosphere of the deep-blue sky: legacy announced for switch, pc",
+    "gta 6 officially reveals its 2026 revenue expectations",
+    "game of thrones: war for westeros delayed to 2027, as playside take more time before playing their turn to ensure the rts hits a \"high level of quality\""
   ],
   "seen_story_keys": [
-    "89f5a20c0ba4b2020d4e4d10f05c48ff7ae3e48a",
-    "8975a002ea6c569570424102eb1bab3731ab0b07",
     "476ea631d000fe05d758bdb7f96238fd5d352ec4",
     "f8a6b1a48c24f5e9f4de89c4d378d7cd701a5b99",
     "f544e284fb368d15870a6cd9bfaaecc6bc1be649",
@@ -15003,6 +15001,8 @@
     "14811ef8290ee30b433d704ee92f85b10497495b",
     "72e20109a48dcd1ab19cec01316e7c1772f1d604",
     "54de3170bd8ba65f19e50b9e87efcde16cb83d24",
-    "d90838aded8ca3e67040aad0998184489df40fa3"
+    "d90838aded8ca3e67040aad0998184489df40fa3",
+    "ba56b68753808282d46d70fa050260b8cc53066d",
+    "41c8590aa4306f9b4da5443f10fcd43dbc13b2ea"
   ]
 }
