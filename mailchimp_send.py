@@ -483,8 +483,10 @@ def is_youtube_short(video_id: str) -> bool:
         return "/shorts/" in r.url
     except Exception:
         return False
+
+
+def get_youtube_video_id(url: str) -> str:
     """Extract video ID from a YouTube URL."""
-    import re
     patterns = [
         r"youtube\.com/watch\?v=([^&]+)",
         r"youtu\.be/([^?]+)",
