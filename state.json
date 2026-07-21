@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/jackbox-party-pack-developer-moves-into-publishing-with-a-game-about-a-long-yucky-arm",
-    "https://www.videogameschronicle.com/news/trump-administration-debating-whether-to-allow-tencent-to-keep-its-game-company-investments/",
-    "https://www.gematsu.com/2026/03/ereban-shadow-legacy-for-ps5-xbox-series-launches-april-16",
     "https://www.pcgamer.com/games/sim/after-planning-2-more-paid-acts-narrative-scifi-power-washer-ambrosia-sky-is-instead-finishing-its-story-in-one-free-update-to-maximize-its-focus-on-what-players-loved-people-got-in-on-that-sapphic-yearning-right-away/",
     "https://www.gematsu.com/2026/03/atomic-heart-dlc-blood-on-crystal-launches-april-16",
     "https://www.gematsu.com/2026/03/arc-system-works-announces-card-based-survival-game-goritaire-for-ps5-switch-pc-ios-and-android",
@@ -4999,12 +4996,12 @@
     "https://www.purexbox.com/news/2026/07/burnout-spiritual-successor-aims-to-deliver-the-ultimate-arcade-driving-game-for-xbox-series-xs",
     "https://www.gematsu.com/2026/07/wreckreation-2-announced-for-ps5-xbox-series-and-pc",
     "https://www.gematsu.com/2026/07/game-pass-adds-halo-campaign-evolved-beast-of-reincarnation-and-more-in-late-july-to-early-august",
-    "https://www.gematsu.com/2026/07/order-of-the-sinking-star-adds-ps5-version"
+    "https://www.gematsu.com/2026/07/order-of-the-sinking-star-adds-ps5-version",
+    "https://gamerant.com/xbox-game-pass-new-games-coming-soon-list-halo/",
+    "https://www.ign.com/articles/metal-gear-solid-creator-hideo-kojima-quips-that-he-wants-to-die-in-a-movie-theater-just-as-the-film-itself-is-about-to-start",
+    "https://www.rockpapershotgun.com/the-concept-of-xbox-game-pass-was-good-despite-its-eventual-faceplant-now-contributing-to-mass-job-losses-reckons-forza-horizon-5-director"
   ],
   "seen_titles": [
-    "jackbox party pack developer moves into publishing with a game about a 'long, yucky arm'",
-    "trump administration ‘debating whether to allow tencent to keep its game company investments’",
-    "ereban: shadow legacy for ps5, xbox series launches april 16",
     "after planning 2 more paid acts, narrative scifi power-washer ambrosia sky is instead finishing its story in one free update to 'maximize' its focus on what players loved: 'people got in on that sapphic yearning right away'",
     "atomic heart dlc ‘blood on crystal’ launches april 16",
     "arc system works announces card-based survival game goritaire for ps5, switch, pc, ios, and android",
@@ -10001,12 +9998,12 @@
     "burnout spiritual successor aims to deliver the 'ultimate' arcade driving game for xbox series x|s",
     "wreckreation 2 announced for ps5, xbox series, and pc",
     "game pass adds halo: campaign evolved, beast of reincarnation, and more in late july to early august",
-    "order of the sinking star adds ps5 version"
+    "order of the sinking star adds ps5 version",
+    "xbox game pass confirms 7 new games coming soon",
+    "metal gear solid creator hideo kojima quips that he wants to die in a movie theater, just as the film itself is about to start",
+    "\"the concept of [xbox] game pass was good\" despite its eventual faceplant now contributing to mass job losses, reckons forza horizon 5 director"
   ],
   "seen_story_keys": [
-    "97be23ae47509fd9a79345586da4be4fa147664b",
-    "ce13c3be20c4ebf8d513e1d19b57c08732731c42",
-    "672b4d8b3179f1cd7c3e6124ec222a63c5abbc6b",
     "25b881220e01d615b12aa9f0f366f35728b32f9e",
     "ef1bec09f515aa5339c322160ee61499593a4d93",
     "976ff4df32e7a4bc04506af952d0aab61e4524dc",
@@ -15003,6 +15000,9 @@
     "1eca840b82912056940cbc8338e72cddf53ea0d5",
     "92124526eb5785cf3cf6b7d22b6e31399eda1c5a",
     "38f3784907cc140a914821ecfb57cc98ba135dc0",
-    "ad36bb0fffd644bcc4bec59b7ec9a2096b2cbb5b"
+    "ad36bb0fffd644bcc4bec59b7ec9a2096b2cbb5b",
+    "8385db43cea1c0d0c05a5ba66b308cae9f2a8815",
+    "fc398f4b9b32ba77b7361910c849bfb7e326f5be",
+    "986f7a8b093cc625912cddf557587ff7809d9777"
   ]
 }
