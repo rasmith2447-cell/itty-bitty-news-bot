@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/worldneverland-daily-life-in-the-elnea-kingdom-for-ps4-launches-march-10",
-    "https://www.nintendolife.com/news/2026/03/pokemon-pokopia-for-switch-2-receives-a-day-one-update",
-    "https://www.gematsu.com/2026/03/winning-post-10-2026-demo-launches-march-12-in-japan",
-    "https://www.gematsu.com/2026/03/let-it-die-to-end-service-on-september-1-offline-edition-launches-this-fall",
     "https://www.gematsu.com/2026/03/powerful-pro-baseball-2026-2027-launches-june-11-in-japan",
     "https://www.nintendolife.com/news/2026/03/legacy-of-kain-defiance-remastered-switch-versions-hit-with-last-minute-delay",
     "https://www.ign.com/articles/marathon-release-times-confirmed",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/alpha-dog-games-independent-studio-xbox/",
     "https://gamerant.com/new-ps5-ps6-controller-magnetic/",
     "https://www.polygon.com/xbox-game-pass-july-2026-new-games-halo-remake/",
-    "https://www.pcgamer.com/games/the-witcher/the-witcher-3s-expansion-reveal-is-scheduled-for-next-month/"
+    "https://www.pcgamer.com/games/the-witcher/the-witcher-3s-expansion-reveal-is-scheduled-for-next-month/",
+    "https://www.gematsu.com/2026/07/echo-weaver-launches-october-8-for-ps5-xbox-series-switch-2-and-pc",
+    "https://www.pcgamer.com/software/security/its-probably-time-to-update-7-zip-as-the-app-has-just-been-patched-to-fix-a-pretty-big-vulnerability/",
+    "https://www.eurogamer.net/slay-the-spire-2-aeonglass-design-process",
+    "https://www.purexbox.com/news/2026/07/xbox-game-pass-starter-edition-arrives-for-more-players-in-partnership-with-meta-horizon"
   ],
   "seen_titles": [
-    "worldneverland: daily life in the elnea kingdom for ps4 launches march 10",
-    "pokémon pokopia for switch 2 receives a day one update",
-    "winning post 10 2026 demo launches march 12 in japan",
-    "let it die to end service on september 1; offline edition launches this fall",
     "powerful pro baseball 2026-2027 launches june 11 in japan",
     "legacy of kain: defiance remastered switch versions hit with last-minute delay",
     "marathon release times confirmed",
@@ -10001,13 +9997,13 @@
     "former xbox games studio revived as an independent company after being shutdown",
     "brand-new next-gen playstation controller revealed by patent",
     "xbox game pass july 2026 lineup revealed with halo remake",
-    "the witcher 3's expansion reveal is scheduled for next month"
+    "the witcher 3's expansion reveal is scheduled for next month",
+    "echo weaver launches october 8 for ps5, xbox series, switch 2, and pc",
+    "it's probably time to update 7-zip as the app has just been patched to fix a pretty big vulnerability",
+    "slay the spire 2 developer shows artwork and concepts for doormaker boss replacement aeonglass",
+    "xbox game pass 'starter edition' arrives for more players in partnership with meta horizon"
   ],
   "seen_story_keys": [
-    "5fab23500b8602378458f1264ce6a38df47be7d7",
-    "45e4eb6a3d60576b7e36a2432ffaa65002a90b71",
-    "695f8f51994c6e872528f2093be5567d3143780a",
-    "52f84d510747d6bacc9f057f478f4fedaea57eff",
     "a550576ceba0ab4cc8d6511689dd1814344cf6a3",
     "b1d8fceea00506133fbbcb0dce7819fbb8990ec2",
     "a798afdcdc1f2e744cd6cfad31af6dfd3405d908",
@@ -15003,6 +14999,10 @@
     "6bedc14adffd6c98c026a4badd4dbd2f5755983b",
     "0d35dcb1e4f1dd1c09411e8677a81d6b930503e5",
     "0556e90a039c21fa1ed16640195ab1da694f6715",
-    "523e4e3fb929e6c2fd27d81f0da83f9b408e5cb0"
+    "523e4e3fb929e6c2fd27d81f0da83f9b408e5cb0",
+    "3524f6c251e971c5fbd7424707684788acd8e8de",
+    "43aecc3306fc071ce5bd48ac19239787e08a02a4",
+    "45c42829b08418c993a350705ca321c51470f6bb",
+    "24e2925a385d1361379b01ef61a4a772897b2f8e"
   ]
 }
