@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295181/rotwood-officially-launches",
-    "https://www.bluesnews.com/s/295178/the-crew-motorfest-nascar-content-tomorrow",
-    "https://www.bluesnews.com/s/295177/pirate-ships-release",
-    "https://www.gematsu.com/2026/03/triangle-strategy-ps5-physical-edition-launches-may-29-in-southeast-asia",
     "https://www.nintendolife.com/news/2026/03/bandai-namco-teases-new-rpg-reveal-taking-place-this-week",
     "https://www.nintendolife.com/news/2026/03/nintendo-expands-switch-onlines-virtual-boy-and-gba-library-with-three-more-titles",
     "https://www.bluesnews.com/s/295167/evening-patches",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/hardware/nvidia-finally-reveals-what-controls-devs-actually-have-for-dlss-5-and-dont-worry-folks-there-are-two-main-sliders-to-control-the-ai-filter/",
     "https://www.pushsquare.com/news/2026/07/9-ps-plus-extra-game-removals-for-august-2026-confirmed",
     "https://www.gamesindustry.biz/nintendo-files-motion-to-dismiss-consumer-lawsuit-over-tariff-refunds",
-    "https://www.nintendolife.com/news/2026/07/nintendo-asks-court-to-dismiss-u-s-tariff-refund-lawsuit"
+    "https://www.nintendolife.com/news/2026/07/nintendo-asks-court-to-dismiss-u-s-tariff-refund-lawsuit",
+    "https://www.eurogamer.net/warner-bros-dcko-dc-fighting-game-mobile-announced",
+    "https://www.eurogamer.net/star-wars-kotor-remake-reveal-rumours",
+    "https://www.polygon.com/interview-with-the-vampire-ttrpg-anne-rice-immortal-universe/",
+    "https://www.purexbox.com/news/2026/07/ex-forza-horizon-director-jokes-about-making-xboxs-next-halo"
   ],
   "seen_titles": [
-    "rotwood officially launches",
-    "the crew motorfest nascar content tomorrow",
-    "pirate ships release",
-    "triangle strategy ps5 physical edition launches may 29 in southeast asia",
     "bandai namco teases \"new rpg\" reveal, taking place this week",
     "nintendo expands switch online's virtual boy and gba library with three more titles",
     "evening patches",
@@ -10001,13 +9997,13 @@
     "nvidia finally reveals what controls devs actually have for dlss 5, and don't worry folks, there are two main sliders to control the ai filter",
     "9 ps plus extra game removals for august 2026 confirmed",
     "nintendo files motion to dismiss consumer lawsuit over tariff refunds",
-    "nintendo asks court to dismiss u.s. tariff refund lawsuit"
+    "nintendo asks court to dismiss u.s. tariff refund lawsuit",
+    "once you see it, you can't unsee it: hilarity ensues as new dc comics fighting game is named dcko",
+    "star wars: knights of the old republic remake might be re-revealed this year, a new report suggests",
+    "anne rice's immortal universe will become a ttrpg, even though vampire: the masquerade already exists",
+    "ex-forza horizon director jokes about making xbox's next halo"
   ],
   "seen_story_keys": [
-    "a6658797cecd5560ac2345d497aeb74b221f9b0e",
-    "30a9b3f132623320091a6e94d3a5de20f1436a66",
-    "8b135b40b22c328cb46322b1c2174937aa228f37",
-    "0a1a60f93fc66a901d4f7c771e494df17c538478",
     "97520378600c4da5e6c7e83947a451eca48ebdf3",
     "c74a3063e0df1b1e304d061bdb0cc9493c1b687b",
     "0c9a121cdc3a8f0602f802b215d9bd60f030aa34",
@@ -15003,6 +14999,10 @@
     "a8d51582174970df56481f1fc4f033b121ff5e9a",
     "867939e5f55daa0b17866610e2c8c649109c949a",
     "6a852c737a96f1712bd944a0a85ebdb58ab29dcc",
-    "853fafccfb8224695812379186d6881045b597e5"
+    "853fafccfb8224695812379186d6881045b597e5",
+    "e33e22918bb42ebb9df25b78fcaee2736310404d",
+    "89d58fdb57425b46a92b212d907432890438a754",
+    "5153e843a521e46dcace5edc273724b0fdac888a",
+    "9bc6b1fdf198654918dd6ef771aa2b35357d0075"
   ]
 }
