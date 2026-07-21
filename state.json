@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/opus-prism-peak-delayed-to-april-16",
-    "https://www.polygon.com/bandai-namco-new-rpg-reveal-teaser/",
-    "https://www.ign.com/articles/highguard-to-permanently-shut-down-on-march-12-wildlight-to-release-one-final-update-with-a-new-warden-a-new-weapon-skill-trees-and-more",
     "https://www.gematsu.com/2026/03/coffee-talk-tokyo-adds-switch-2-version",
     "https://www.gematsu.com/2026/03/mixtape-adds-switch-2-version-launches-may-7",
     "https://www.videogameschronicle.com/news/xbox-is-teasing-that-cyberpunk-2077-is-coming-to-game-pass-soon/",
@@ -4999,12 +4996,12 @@
     "https://www.ign.com/articles/dc-announces-new-tag-fighting-game-and-injustice-fans-are-confused",
     "https://www.ign.com/articles/leon-kennedy-voice-actor-says-metallica-nirvana-helped-shape-his-performance-for-the-resident-evil-character",
     "https://www.nintendolife.com/news/2026/07/stellar-blade-has-been-rated-for-the-switch-2",
-    "https://www.nintendolife.com/news/2026/07/stellar-blade-has-been-rated-for-switch-2"
+    "https://www.nintendolife.com/news/2026/07/stellar-blade-has-been-rated-for-switch-2",
+    "https://www.rockpapershotgun.com/built-for-that-world-doesnt-mean-built-to-require-it-unity-reveal-their-next-game-engine-while-walking-a-careful-line-around-generative-ai",
+    "https://gamerant.com/dcko-dc-mobile-game-reveal/",
+    "https://www.gamesindustry.biz/unity-7-to-launch-in-q1-2027-new-engine-is-a-direct-continuation-of-unity-6"
   ],
   "seen_titles": [
-    "opus: prism peak delayed to april 16",
-    "bandai namco teases new rpg reveal — what could it be?",
-    "highguard to permanently shut down on march 12, wildlight to release one final update with a new warden, a new weapon, skill trees, and more",
     "coffee talk tokyo adds switch 2 version",
     "mixtape adds switch 2 version, launches may 7",
     "cyberpunk 2077 is coming to xbox game pass",
@@ -10001,12 +9998,12 @@
     "dc announces new tag fighting game and injustice fans are confused",
     "leon kennedy voice actor says metallica, nirvana helped shape his performance for the resident evil character",
     "stellar blade has been rated for the switch 2",
-    "stellar blade has been rated for switch 2"
+    "stellar blade has been rated for switch 2",
+    "\"built for that world doesn't mean built to require it\": unity reveal their next game engine while walking a careful line around generative ai",
+    "new dc live-service game officially revealed",
+    "unity 7 to launch in q1 2027; new engine is a \"direct continuation\" of unity 6"
   ],
   "seen_story_keys": [
-    "bb2f63ee5e0ea8baffb1a247b75dd0cbe009a9cf",
-    "92fc2698731a004f5b2640fb1cbc28b660fc8705",
-    "9b36099c24bb3499722dce309cadecacbd67d6e7",
     "7b6e7e1874a430c8169793a02abb75f736826e7f",
     "36844cb5ddc92031f71f8330bdb7483161c5c805",
     "db4295f01747f533dbcb19aae601ef21f8422f60",
@@ -15003,6 +15000,9 @@
     "7e155e27e96594839b34a17d2a0daf4781bbe364",
     "65d7163e676e2ed1bc5d6f2472eaa94b629e1344",
     "cb61c991328c473c7685a35c1162251e9b17ed59",
-    "60ade85328068c591671058347673830578f373d"
+    "60ade85328068c591671058347673830578f373d",
+    "67b27f7c762be83f1a5829ea68552816d10da0cf",
+    "481cd4714b74a1407657558b9687cc8ba3625eb7",
+    "74ad076fb04e854db7b66494e52bac242decd00d"
   ]
 }
