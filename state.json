@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/console-archives-nobunagas-ambition-launches-march-5",
-    "https://www.gematsu.com/2026/03/ratatan-launches-july-16-for-ps5-xbox-series-switch-2-and-pc",
-    "https://www.pcgamer.com/games/fps/marathon-roadmap/",
-    "https://www.gamespot.com/articles/marathon-global-launch-times-have-been-revealed/1100-6538547/?ftag=CAD-01-10abi2f",
     "https://www.ign.com/articles/jackbox-party-pack-developer-moves-into-publishing-with-a-game-about-a-long-yucky-arm",
     "https://www.videogameschronicle.com/news/trump-administration-debating-whether-to-allow-tencent-to-keep-its-game-company-investments/",
     "https://www.gematsu.com/2026/03/ereban-shadow-legacy-for-ps5-xbox-series-launches-april-16",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/splatoon-4-nintendo-switch-2/",
     "https://www.pcgamer.com/games/action/a-new-friendslop-game-is-already-steams-12th-most-wishlisted-game-a-mere-week-after-it-was-announced/",
     "https://gamerant.com/stellar-blade-switch-2-port/",
-    "https://www.ign.com/articles/ex-forza-horizon-director-traces-a-line-from-the-failure-of-well-meaning-game-pass-to-the-current-xbox-layoffs"
+    "https://www.ign.com/articles/ex-forza-horizon-director-traces-a-line-from-the-failure-of-well-meaning-game-pass-to-the-current-xbox-layoffs",
+    "https://www.purexbox.com/news/2026/07/burnout-spiritual-successor-aims-to-deliver-the-ultimate-arcade-driving-game-for-xbox-series-xs",
+    "https://www.gematsu.com/2026/07/wreckreation-2-announced-for-ps5-xbox-series-and-pc",
+    "https://www.gematsu.com/2026/07/game-pass-adds-halo-campaign-evolved-beast-of-reincarnation-and-more-in-late-july-to-early-august",
+    "https://www.gematsu.com/2026/07/order-of-the-sinking-star-adds-ps5-version"
   ],
   "seen_titles": [
-    "console archives nobunaga’s ambition launches march 5",
-    "ratatan launches july 16 for ps5, xbox series, switch 2, and pc",
-    "marathon roadmap: all upcoming updates",
-    "marathon global launch times have been revealed",
     "jackbox party pack developer moves into publishing with a game about a 'long, yucky arm'",
     "trump administration ‘debating whether to allow tencent to keep its game company investments’",
     "ereban: shadow legacy for ps5, xbox series launches april 16",
@@ -10001,13 +9997,13 @@
     "nintendo issues official statement on splatoon 4",
     "a new friendslop game is already steam's 12th-most wishlisted game a mere week after it was announced",
     "stellar blade switch 2 port gets encouraging update",
-    "ex-forza horizon director traces a line from the failure of 'well-meaning' game pass to the current xbox layoffs"
+    "ex-forza horizon director traces a line from the failure of 'well-meaning' game pass to the current xbox layoffs",
+    "burnout spiritual successor aims to deliver the 'ultimate' arcade driving game for xbox series x|s",
+    "wreckreation 2 announced for ps5, xbox series, and pc",
+    "game pass adds halo: campaign evolved, beast of reincarnation, and more in late july to early august",
+    "order of the sinking star adds ps5 version"
   ],
   "seen_story_keys": [
-    "67b1ca8b9a9ceb4081e7ad53bfb0ed97a734f678",
-    "597bea694c1572db3925b1f745d8d261cba0ff79",
-    "2689ece1c8bf89d1de37edfc14dfe217794eb9b7",
-    "f43d0cd0d32b083264521c3f2d9dc7792920641e",
     "97be23ae47509fd9a79345586da4be4fa147664b",
     "ce13c3be20c4ebf8d513e1d19b57c08732731c42",
     "672b4d8b3179f1cd7c3e6124ec222a63c5abbc6b",
@@ -15003,6 +14999,10 @@
     "3b490313d86b8b7a342bb74337bdf2599a3c9ee7",
     "c397bfd1d113301f250b824aeba6f5157b757bb8",
     "15d8414f831b47c026779cb2d312953e4a722a31",
-    "c3df84742d59d40fd2a3d4a29e3f6cd93bef6d6c"
+    "c3df84742d59d40fd2a3d4a29e3f6cd93bef6d6c",
+    "1eca840b82912056940cbc8338e72cddf53ea0d5",
+    "92124526eb5785cf3cf6b7d22b6e31399eda1c5a",
+    "38f3784907cc140a914821ecfb57cc98ba135dc0",
+    "ad36bb0fffd644bcc4bec59b7ec9a2096b2cbb5b"
   ]
 }
