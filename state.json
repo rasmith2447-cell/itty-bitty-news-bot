@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/03/bandai-namco-teases-new-rpg-reveal-taking-place-this-week",
-    "https://www.nintendolife.com/news/2026/03/nintendo-expands-switch-onlines-virtual-boy-and-gba-library-with-three-more-titles",
-    "https://www.bluesnews.com/s/295167/evening-patches",
-    "https://www.gematsu.com/2026/03/efootball-kick-off-launches-june-3",
     "https://www.gematsu.com/2026/03/worldneverland-daily-life-in-the-elnea-kingdom-for-ps4-launches-march-10",
     "https://www.nintendolife.com/news/2026/03/pokemon-pokopia-for-switch-2-receives-a-day-one-update",
     "https://www.gematsu.com/2026/03/winning-post-10-2026-demo-launches-march-12-in-japan",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/warner-bros-dcko-dc-fighting-game-mobile-announced",
     "https://www.eurogamer.net/star-wars-kotor-remake-reveal-rumours",
     "https://www.polygon.com/interview-with-the-vampire-ttrpg-anne-rice-immortal-universe/",
-    "https://www.purexbox.com/news/2026/07/ex-forza-horizon-director-jokes-about-making-xboxs-next-halo"
+    "https://www.purexbox.com/news/2026/07/ex-forza-horizon-director-jokes-about-making-xboxs-next-halo",
+    "https://gamerant.com/alpha-dog-games-independent-studio-xbox/",
+    "https://gamerant.com/new-ps5-ps6-controller-magnetic/",
+    "https://www.polygon.com/xbox-game-pass-july-2026-new-games-halo-remake/",
+    "https://www.pcgamer.com/games/the-witcher/the-witcher-3s-expansion-reveal-is-scheduled-for-next-month/"
   ],
   "seen_titles": [
-    "bandai namco teases \"new rpg\" reveal, taking place this week",
-    "nintendo expands switch online's virtual boy and gba library with three more titles",
-    "evening patches",
-    "efootball kick-off! launches june 3",
     "worldneverland: daily life in the elnea kingdom for ps4 launches march 10",
     "pokémon pokopia for switch 2 receives a day one update",
     "winning post 10 2026 demo launches march 12 in japan",
@@ -10001,13 +9997,13 @@
     "once you see it, you can't unsee it: hilarity ensues as new dc comics fighting game is named dcko",
     "star wars: knights of the old republic remake might be re-revealed this year, a new report suggests",
     "anne rice's immortal universe will become a ttrpg, even though vampire: the masquerade already exists",
-    "ex-forza horizon director jokes about making xbox's next halo"
+    "ex-forza horizon director jokes about making xbox's next halo",
+    "former xbox games studio revived as an independent company after being shutdown",
+    "brand-new next-gen playstation controller revealed by patent",
+    "xbox game pass july 2026 lineup revealed with halo remake",
+    "the witcher 3's expansion reveal is scheduled for next month"
   ],
   "seen_story_keys": [
-    "97520378600c4da5e6c7e83947a451eca48ebdf3",
-    "c74a3063e0df1b1e304d061bdb0cc9493c1b687b",
-    "0c9a121cdc3a8f0602f802b215d9bd60f030aa34",
-    "4c6c056227b4f7d400c89ced3f98d728a404774f",
     "5fab23500b8602378458f1264ce6a38df47be7d7",
     "45e4eb6a3d60576b7e36a2432ffaa65002a90b71",
     "695f8f51994c6e872528f2093be5567d3143780a",
@@ -15003,6 +14999,10 @@
     "e33e22918bb42ebb9df25b78fcaee2736310404d",
     "89d58fdb57425b46a92b212d907432890438a754",
     "5153e843a521e46dcace5edc273724b0fdac888a",
-    "9bc6b1fdf198654918dd6ef771aa2b35357d0075"
+    "9bc6b1fdf198654918dd6ef771aa2b35357d0075",
+    "6bedc14adffd6c98c026a4badd4dbd2f5755983b",
+    "0d35dcb1e4f1dd1c09411e8677a81d6b930503e5",
+    "0556e90a039c21fa1ed16640195ab1da694f6715",
+    "523e4e3fb929e6c2fd27d81f0da83f9b408e5cb0"
   ]
 }
