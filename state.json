@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/brandon-sandersons-new-cosmere-book-project-has-already-raised-more-than-5-million",
-    "https://www.videogameschronicle.com/news/assassins-creed-boss-provides-updates-on-hexe-invictus-and-jade-strongly-teases-black-flag-remake/",
-    "https://www.polygon.com/lanterns-trailer-green-lantern-hbo-dcu-release-date/",
-    "https://www.gamespot.com/articles/were-not-hiding-anything-crimson-desert-rep-says-as-players-demand-console-footage/1100-6538561/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/marathon-may-have-server-queues-at-launch/1100-6538563/?ftag=CAD-01-10abi2f",
     "https://www.bluesnews.com/s/295203/jdm-japanese-drift-master-dlc-announced",
     "https://www.polygon.com/assassins-creed-hexe-invictus-multiplayer-game-rumors/",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/games/mmo/the-elder-scrolls-online-is-already-feeling-the-impact-of-xboxs-layoffs-ironically-hurting-the-cash-shop/",
     "https://www.eurogamer.net/xbox-game-pass-july-wave-2",
     "https://www.ign.com/articles/riftbound-tcg-full-release-schedule-2026",
-    "https://www.purexbox.com/news/2026/07/key-new-xbox-employee-leaves-after-three-months-but-reporter-argues-its-a-non-story"
+    "https://www.purexbox.com/news/2026/07/key-new-xbox-employee-leaves-after-three-months-but-reporter-argues-its-a-non-story",
+    "https://www.pushsquare.com/news/2026/07/heres-how-much-better-metal-gear-solid-4-looks-on-ps5",
+    "https://www.purexbox.com/news/2026/07/former-xbox-studio-wins-game-of-the-year-at-games-for-change-2026",
+    "https://www.nintendolife.com/news/2026/07/metal-gear-solid-master-collection-vol-2s-resolutions-and-frame-rates-revealed",
+    "https://gamerant.com/wreckreation-2-open-world-racing-game-crashes/"
   ],
   "seen_titles": [
-    "brandon sanderson just launched a massive new cosmere crowdfunding campaign that has already blown its goals out the water",
-    "assassin’s creed boss provides updates on hexe, invictus, and jade, confirms black flag remake",
-    "hbo's lanterns trailer reveals release date, turns dcu into true detective",
-    "\"we're not hiding anything,\" crimson desert rep says as players demand console footage",
     "marathon may have server queues at launch",
     "jdm: japanese drift master dlc announced",
     "assassin's creed franchise update reveals new hexe, invictus details",
@@ -10001,13 +9997,13 @@
     "the elder scrolls online is already feeling the impact of xbox's layoffs, ironically hurting the cash shop",
     "here's your next batch of xbox game pass games for july",
     "riftbound’s 2026 set release schedule is taking shape, with release dates now confirmed for the whole year",
-    "key new xbox employee leaves after three months, but reporter argues it's a 'non-story'"
+    "key new xbox employee leaves after three months, but reporter argues it's a 'non-story'",
+    "here's how much better metal gear solid 4 looks on ps5",
+    "former xbox studio wins 'game of the year' at games for change 2026",
+    "metal gear solid: master collection vol. 2's resolutions & frame rates revealed",
+    "new open-world burnout replacement officially revealed"
   ],
   "seen_story_keys": [
-    "b43e009ba523cc15d9497f62e375df1a2eb283e5",
-    "0400fe2e44fd1e6ba4f1f55b1a6ae95e3eb0fdba",
-    "9413217dfb845dce7323029e41dc68b584b87df8",
-    "9dd3211976035d6f9c76019c41f9b29ffc867c4c",
     "65f5f00ec73a69ac0142c6e0b08c0087dcf5cc1d",
     "93d9e157723aa773ce256a9422f83750268debe3",
     "bb617886a8baac7bb509d234d96b174c87ab36de",
@@ -15003,6 +14999,10 @@
     "5b7d9e759b913aea3776c1172c42d327412bd353",
     "b379bcc39e95ac180e21fca21f2182bf8109b94c",
     "2a81dcd3d182dfbde11a3327e08cc6d4d4cf5e3d",
-    "580d8fe4a4a3aeedc012d356cd110899a89df7da"
+    "580d8fe4a4a3aeedc012d356cd110899a89df7da",
+    "a2c901bcb003517af613c5cfeef557a91d6ec959",
+    "ed4b483b21b5b97d82531976c39f4cdd1942be50",
+    "0ad12470931b77fa8b5bbf200600bcdb3ae81bd9",
+    "9ce85a8265ad2196f29e68c53ac3b9ce4ef17b5c"
   ]
 }
