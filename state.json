@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/bunny-garden-2-debut-trailer-details-and-screenshots",
-    "https://www.bluesnews.com/s/295228/geforce-hotfix-driver",
-    "https://www.bluesnews.com/s/295226/everhood-hunters-announced",
-    "https://www.bluesnews.com/s/295219/danger-zone",
     "https://www.nintendolife.com/news/2026/03/two-more-kirby-air-riders-amiibo-are-on-the-way-out-later-this-year",
     "https://www.bluesnews.com/s/295211/evening-safety-dance",
     "https://www.gamespot.com/articles/espionage-and-corporate-sabotage-blamed-for-mindseye-launch-as-dev-announces-layoffs/1100-6538579/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/legend-of-zelda-tears-of-the-kingdom-hasbro-toys-preorders/",
     "https://www.nintendolife.com/news/2026/07/hasbro-reveals-its-new-legend-of-zelda-toys-and-yeah-we-want-them",
     "https://www.polygon.com/xbox-games-backward-compatible-on-pc/",
-    "https://www.pcgamer.com/hardware/gaming-laptops/acer-and-gigabyte-will-launch-rtx-spark-laptops-too-but-not-before-microsoft-and-co/"
+    "https://www.pcgamer.com/hardware/gaming-laptops/acer-and-gigabyte-will-launch-rtx-spark-laptops-too-but-not-before-microsoft-and-co/",
+    "https://www.pushsquare.com/news/2026/07/nba-2k27-finally-ditches-ps4-reveals-ps5-cover-athletes",
+    "https://gamerant.com/xbox-backward-compatibility-on-pc/",
+    "https://gamerant.com/mappa-expo-2026-dates-exclusive-merch/",
+    "https://www.pushsquare.com/news/2026/07/mindseyes-latest-attempt-to-rekindle-interest-is-to-become-rocket-league"
   ],
   "seen_titles": [
-    "bunny garden 2 debut trailer, details, and screenshots",
-    "geforce hotfix driver",
-    "everhood hunters announced",
-    "danger zone",
     "two more kirby air riders amiibo are on the way, out later this year",
     "evening safety dance",
     "\"espionage and corporate sabotage\" blamed for mindseye launch, as dev announces layoffs",
@@ -10001,13 +9997,13 @@
     "the legend of zelda toy lineup revealed, up for preorder",
     "hasbro reveals its new legend of zelda toys, and yeah, we want them",
     "xbox announces og xbox game backward compatibility for pc",
-    "acer and gigabyte will launch rtx spark laptops too, but not before microsoft and co."
+    "acer and gigabyte will launch rtx spark laptops too, but not before microsoft and co.",
+    "nba 2k27 finally ditches ps4, reveals ps5 cover athletes",
+    "xbox reveals official backward compatibility on pc, starting with conker and crimson skies",
+    "mappa expo announced to celebrate anime studio’s 15th anniversary",
+    "mindseye's latest attempt to rekindle interest is to become rocket league"
   ],
   "seen_story_keys": [
-    "8ee411d077741e6c74a5ff56dc616a6938ca9be4",
-    "edc87094705f5757627d06424b9e6efd929fe2c6",
-    "14b3d7c8b1a512df5d3f770bf10c08c84e9224d1",
-    "7085fe3eaee6eee5c6246c0abc9f399713fde1f4",
     "c0dfbb71ff1afb37c852a5325548176bd7cf1e8f",
     "587cf89252e1638360409569f2ab65d063a72c96",
     "0b3cc0d0e7e2905b67913d45e0b4a44729445af7",
@@ -15003,6 +14999,10 @@
     "e91e921284f16488c102095475d1709aa7c28981",
     "1091bf621de8a151f7f2b835da69bbd08969f842",
     "91413249f55214a57fa3415258ced4c578595f9a",
-    "1a6d80c1453c5b433ad326087bca6d69b7a0c363"
+    "1a6d80c1453c5b433ad326087bca6d69b7a0c363",
+    "c493dd574a91eefbbe59ed236b7cd4bb7f4f3182",
+    "feb729636de8d32e11a0f4e842946a1a3e74b417",
+    "6bc5c117d9ecf3572c755fa18d788607ff2072ca",
+    "92637b5810c09b8acf74993dca93c0110464c35b"
   ]
 }
