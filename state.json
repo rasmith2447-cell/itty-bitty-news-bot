@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/mindseye-studio-announces-more-layoffs-as-ceo-cites-organised-espionage-and-criminal-sabotage/",
-    "https://www.pcgamer.com/hardware/graphics-cards/third-times-hopefully-the-charm-as-nvidia-releases-hotfix-driver-to-tackle-voltage-issues-and-resident-evil-requiem-performance-in-one-fel-swoop/",
-    "https://www.ign.com/articles/mindseye-developer-build-a-rocket-boy-announces-further-layoffs-as-ceo-doubles-down-on-organised-espionage-and-corporate-sabotage-claims",
-    "https://www.ign.com/articles/pokemon-tcg-full-release-schedule-2026",
     "https://www.videogameschronicle.com/news/wwe-2k26-vs-2k25-gallery-heres-all-the-updated-superstar-appearances-this-year/",
     "https://www.videogameschronicle.com/news/suda-and-swerys-hotel-barcelona-has-received-a-free-major-overhaul-with-under-new-management-update/",
     "https://www.ign.com/articles/highguards-final-farewell-tour-patch-gives-everyone-a-new-warden-and-skill-tree-to-play-around-with-until-the-very-end",
@@ -4999,13 +4995,13 @@
     "https://www.videogameschronicle.com/news/xbox-backward-compatibility-launches-on-pc-four-xbox-games-playable-now/",
     "https://www.pushsquare.com/news/2026/07/nearly-a-decade-after-launch-on-ps4-the-original-darkest-dungeon-is-getting-new-dlc",
     "https://www.ign.com/articles/microsoft-announces-xbox-backward-compatibility-on-pc-with-new-features-and-achievements",
-    "https://www.purexbox.com/news/2026/07/microsoft-is-officially-bringing-achievements-to-select-original-xbox-games"
+    "https://www.purexbox.com/news/2026/07/microsoft-is-officially-bringing-achievements-to-select-original-xbox-games",
+    "https://www.rockpapershotgun.com/the-goal-is-to-provide-what-we-can-elder-scrolls-online-crown-store-undergoing-changes-due-to-team-bandwidth-in-wake-of-xbox-layoffs",
+    "https://www.gematsu.com/2026/07/nba-2k27-announced-for-ps5-xbox-series-switch-2-and-pc",
+    "https://www.videogameschronicle.com/news/the-cover-athletes-for-nba-2k27s-three-separate-editions-have-been-announced/",
+    "https://www.videogameschronicle.com/news/21-video-game-lego-sets-are-retiring-this-month-including-pac-man-the-zelda-deku-tree-and-mario-yoshi/"
   ],
   "seen_titles": [
-    "mindseye studio announces more layoffs as ceo cites ‘organised espionage’ and ‘criminal sabotage’",
-    "third time's hopefully the charm as nvidia releases hotfix driver to tackle voltage issues and resident evil requiem performance in one fel swoop",
-    "mindseye developer build a rocket boy announces further layoffs as ceo doubles down on 'organised espionage and corporate sabotage' claims",
-    "pokémon tcg: full release schedule for 2026",
     "wwe 2k26 vs 2k25 gallery: here’s all the updated superstar appearances this year",
     "suda and swery’s hotel barcelona has received a free ‘major overhaul’ with under new management update",
     "highguard's final 'farewell tour' patch gives everyone a new warden and skill tree to play around with until the very end",
@@ -10001,13 +9997,13 @@
     "xbox backward compatibility launches on pc, four xbox games playable now",
     "nearly a decade after launch on ps4, the original darkest dungeon is getting new dlc",
     "microsoft announces xbox backward compatibility on pc, with new features and achievements",
-    "microsoft is officially bringing achievements to 'select' original xbox games"
+    "microsoft is officially bringing achievements to 'select' original xbox games",
+    "\"the goal is to provide what we can\": elder scrolls online crown store undergoing changes due to \"team bandwidth\" in wake of xbox layoffs",
+    "nba 2k27 announced for ps5, xbox series, switch 2, and pc",
+    "the cover athletes for nba 2k27’s three separate editions have been announced",
+    "21 video game lego sets are retiring this month, including pac-man, the zelda deku tree and mario & yoshi"
   ],
   "seen_story_keys": [
-    "5298214b0b67de0a9a5899329505e61ba08c4300",
-    "e0030c46116e705f5fada58ff7057e48d69a620f",
-    "4be3862dba59f7250073d9b22f1cfe8ad023f21b",
-    "c8986094e61e9849ae5cc0024cbad51244701bdb",
     "a82a2c1c80dc3376113b0814b6f414b3e67d298c",
     "995d8bc87a2ac74660a97aa29bd37a64aaca4614",
     "e3527b1f613256439a9fcb79320ba1183027af51",
@@ -15003,6 +14999,10 @@
     "9048251acc813cd9ca9e6b78060277cd53eb5dcf",
     "d739b68e9ddddb9bd0ff95b16b4d075df1ad47a1",
     "d7fca0d7211f41a218a2f4e9c6d5f7034bd590ba",
-    "b407d2beb3eb5a96303d352e497762323f2343f6"
+    "b407d2beb3eb5a96303d352e497762323f2343f6",
+    "bccbde80f3484473f6179ade25854c16b55fd3e2",
+    "7d68824d36b8aa45a608b7224c4dd617e69e8fbf",
+    "35fb01df6513bdd3d75c317d718dc90c7d7ddeeb",
+    "5f49edc0981ab1d50a7ff5c3b7d9cdf5a9391403"
   ]
 }
