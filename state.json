@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/marathon-may-have-server-queues-at-launch/1100-6538563/?ftag=CAD-01-10abi2f",
-    "https://www.bluesnews.com/s/295203/jdm-japanese-drift-master-dlc-announced",
-    "https://www.polygon.com/assassins-creed-hexe-invictus-multiplayer-game-rumors/",
-    "https://www.gamespot.com/articles/leon-kennedy-actor-wont-say-if-hes-team-ada-or-team-claire/1100-6538566/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/fortnites-android-comeback-is-on-as-google-and-epic-make-nice/1100-6538576/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/battlefield-redsec-is-adding-a-new-playlist-fans-had-been-asking-for-since-october-solos/1100-6538577/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/with-a-week-left-to-live-highguard-releases-a-seasons-worth-of-updates/1100-6538578/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/07/heres-how-much-better-metal-gear-solid-4-looks-on-ps5",
     "https://www.purexbox.com/news/2026/07/former-xbox-studio-wins-game-of-the-year-at-games-for-change-2026",
     "https://www.nintendolife.com/news/2026/07/metal-gear-solid-master-collection-vol-2s-resolutions-and-frame-rates-revealed",
-    "https://gamerant.com/wreckreation-2-open-world-racing-game-crashes/"
+    "https://gamerant.com/wreckreation-2-open-world-racing-game-crashes/",
+    "https://www.gematsu.com/2026/07/xbox-backward-compatibility-on-pc-announced-four-titles-now-available",
+    "https://gamerant.com/new-ps5-souslike-games-coming-soon-mortal-shell-2/",
+    "https://www.nintendolife.com/news/2026/07/select-mario-zelda-and-animal-crossing-lego-sets-to-be-retired-next-week",
+    "https://www.eurogamer.net/splatoon-raiders-original-idea"
   ],
   "seen_titles": [
-    "marathon may have server queues at launch",
-    "jdm: japanese drift master dlc announced",
-    "assassin's creed franchise update reveals new hexe, invictus details",
-    "leon kennedy actor won't say if he's team ada or team claire",
     "fortnite's android comeback is on, as google and epic make nice",
     "battlefield redsec is adding a new playlist fans had been asking for since october: solos",
     "with a week left to live, highguard releases a season's worth of updates",
@@ -10001,13 +9997,13 @@
     "here's how much better metal gear solid 4 looks on ps5",
     "former xbox studio wins 'game of the year' at games for change 2026",
     "metal gear solid: master collection vol. 2's resolutions & frame rates revealed",
-    "new open-world burnout replacement officially revealed"
+    "new open-world burnout replacement officially revealed",
+    "xbox backward compatibility on pc announced; four titles now available",
+    "new official ps5 soulslike coming august 20 gets exciting update",
+    "select mario, zelda, & animal crossing lego sets to be retired next week",
+    "splatoon raiders developers reveal it originally was \"like a base defense game\" before evolving into a faster spin-off \"with a strong sense of action\""
   ],
   "seen_story_keys": [
-    "65f5f00ec73a69ac0142c6e0b08c0087dcf5cc1d",
-    "93d9e157723aa773ce256a9422f83750268debe3",
-    "bb617886a8baac7bb509d234d96b174c87ab36de",
-    "8f3ea7a48b2a508711005b418828c5ec21bf04a9",
     "08fa238fef8432f82fbc0e0671ee6b6e3f0aa837",
     "6366b44ea6163a8ff8c97ef038bc72e8c2fb3d84",
     "a0762d6b5570f1f541b327ad223322f39f42cae8",
@@ -15003,6 +14999,10 @@
     "a2c901bcb003517af613c5cfeef557a91d6ec959",
     "ed4b483b21b5b97d82531976c39f4cdd1942be50",
     "0ad12470931b77fa8b5bbf200600bcdb3ae81bd9",
-    "9ce85a8265ad2196f29e68c53ac3b9ce4ef17b5c"
+    "9ce85a8265ad2196f29e68c53ac3b9ce4ef17b5c",
+    "317dfde135540b66ad0b3444145a4d38bdec3399",
+    "3770a352b7e23bdeb95e83d77d37297a20236284",
+    "f53b15746bec4cb9ba7147128dde29cb9533746a",
+    "04c0265aa87bad14dcb2dc51dfddf3b6b469f712"
   ]
 }
