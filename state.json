@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/fortnites-android-comeback-is-on-as-google-and-epic-make-nice/1100-6538576/?ftag=CAD-01-10abi2f",
-    "https://www.gamespot.com/articles/battlefield-redsec-is-adding-a-new-playlist-fans-had-been-asking-for-since-october-solos/1100-6538577/?ftag=CAD-01-10abi2f",
-    "https://www.gamespot.com/articles/with-a-week-left-to-live-highguard-releases-a-seasons-worth-of-updates/1100-6538578/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/03/konami-announces-free-to-play-ebaseball-pro-spirit-for-ps5-and-pc-now-available",
     "https://www.gematsu.com/2026/03/bunny-garden-2-debut-trailer-details-and-screenshots",
     "https://www.bluesnews.com/s/295228/geforce-hotfix-driver",
     "https://www.bluesnews.com/s/295226/everhood-hunters-announced",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/xbox-backward-compatibility-on-pc-announced-four-titles-now-available",
     "https://gamerant.com/new-ps5-souslike-games-coming-soon-mortal-shell-2/",
     "https://www.nintendolife.com/news/2026/07/select-mario-zelda-and-animal-crossing-lego-sets-to-be-retired-next-week",
-    "https://www.eurogamer.net/splatoon-raiders-original-idea"
+    "https://www.eurogamer.net/splatoon-raiders-original-idea",
+    "https://www.polygon.com/legend-of-zelda-tears-of-the-kingdom-hasbro-toys-preorders/",
+    "https://www.nintendolife.com/news/2026/07/hasbro-reveals-its-new-legend-of-zelda-toys-and-yeah-we-want-them",
+    "https://www.polygon.com/xbox-games-backward-compatible-on-pc/",
+    "https://www.pcgamer.com/hardware/gaming-laptops/acer-and-gigabyte-will-launch-rtx-spark-laptops-too-but-not-before-microsoft-and-co/"
   ],
   "seen_titles": [
-    "fortnite's android comeback is on, as google and epic make nice",
-    "battlefield redsec is adding a new playlist fans had been asking for since october: solos",
-    "with a week left to live, highguard releases a season's worth of updates",
-    "konami announces free-to-play ebaseball: pro spirit for ps5 and pc, now available",
     "bunny garden 2 debut trailer, details, and screenshots",
     "geforce hotfix driver",
     "everhood hunters announced",
@@ -10001,13 +9997,13 @@
     "xbox backward compatibility on pc announced; four titles now available",
     "new official ps5 soulslike coming august 20 gets exciting update",
     "select mario, zelda, & animal crossing lego sets to be retired next week",
-    "splatoon raiders developers reveal it originally was \"like a base defense game\" before evolving into a faster spin-off \"with a strong sense of action\""
+    "splatoon raiders developers reveal it originally was \"like a base defense game\" before evolving into a faster spin-off \"with a strong sense of action\"",
+    "the legend of zelda toy lineup revealed, up for preorder",
+    "hasbro reveals its new legend of zelda toys, and yeah, we want them",
+    "xbox announces og xbox game backward compatibility for pc",
+    "acer and gigabyte will launch rtx spark laptops too, but not before microsoft and co."
   ],
   "seen_story_keys": [
-    "08fa238fef8432f82fbc0e0671ee6b6e3f0aa837",
-    "6366b44ea6163a8ff8c97ef038bc72e8c2fb3d84",
-    "a0762d6b5570f1f541b327ad223322f39f42cae8",
-    "37ca5ed66ababe6196c9da4fbb2422b5eadc7ab7",
     "8ee411d077741e6c74a5ff56dc616a6938ca9be4",
     "edc87094705f5757627d06424b9e6efd929fe2c6",
     "14b3d7c8b1a512df5d3f770bf10c08c84e9224d1",
@@ -15003,6 +14999,10 @@
     "317dfde135540b66ad0b3444145a4d38bdec3399",
     "3770a352b7e23bdeb95e83d77d37297a20236284",
     "f53b15746bec4cb9ba7147128dde29cb9533746a",
-    "04c0265aa87bad14dcb2dc51dfddf3b6b469f712"
+    "04c0265aa87bad14dcb2dc51dfddf3b6b469f712",
+    "e91e921284f16488c102095475d1709aa7c28981",
+    "1091bf621de8a151f7f2b835da69bbd08969f842",
+    "91413249f55214a57fa3415258ced4c578595f9a",
+    "1a6d80c1453c5b433ad326087bca6d69b7a0c363"
   ]
 }
