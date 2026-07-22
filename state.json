@@ -1,6 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/features/talking-point-after-30-years-is-it-time-to-reset-the-pokedex",
     "https://www.gematsu.com/2026/03/the-occultist-launches-april-8",
     "https://www.bluesnews.com/s/295204/iracing-arcade-released",
     "https://www.gematsu.com/2026/03/everhood-hunters-announced-for-switch-pc",
@@ -4999,10 +4998,10 @@
     "https://gamerant.com/assassins-creed-black-flag-resynced-rebuilt-original-code-remake/",
     "https://gamerant.com/wendys-sonic-the-hedgehog-collab/",
     "https://www.gematsu.com/2026/07/in-falsus-launches-september-9",
-    "https://www.nintendolife.com/news/2026/07/hasbro-shares-sneak-peek-of-its-official-legend-of-zelda-toy-line"
+    "https://www.nintendolife.com/news/2026/07/hasbro-shares-sneak-peek-of-its-official-legend-of-zelda-toy-line",
+    "https://www.gematsu.com/2026/07/langrisser-sea-of-sword-first-gameplay-trailer-details-and-screenshots"
   ],
   "seen_titles": [
-    "talking point: after 30 years, is it time to reset the pokédex?",
     "the occultist launches april 8",
     "iracing arcade released",
     "everhood hunters announced for switch, pc",
@@ -10001,10 +10000,10 @@
     "assassin’s creed black flag resynced required a complete rebuild",
     "wendy's launches sonic the hedgehog collab",
     "in falsus launches september 9",
-    "hasbro shares sneak peek of its official legend of zelda toy line"
+    "hasbro shares sneak peek of its official legend of zelda toy line",
+    "langrisser: sea of sword first gameplay trailer, details, and screenshots"
   ],
   "seen_story_keys": [
-    "bfe633a58977012921d08b2965e4457d25b1b2d4",
     "af0585ccd7e23e0d509a4966e445cca4e8ee855a",
     "f959fc386ff3d36f491d6a90f20f1acfb340add6",
     "8dca65ba185bde368cbacaae90ae7e2479db95ed",
@@ -15003,6 +15002,7 @@
     "c541041c04586d1e1e1bd44ae21b9f81b525570a",
     "ccec82d25cd74f03bc5a48ae4160f89ee07a14bb",
     "3881158f019a9ee9916e77660c010a49497161e1",
-    "80661de301221bad684cccec399d36c91ff4db8e"
+    "80661de301221bad684cccec399d36c91ff4db8e",
+    "44760ba65ab9ea2fa99325811559980df64cfaff"
   ]
 }
