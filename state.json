@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/03/two-more-kirby-air-riders-amiibo-are-on-the-way-out-later-this-year",
-    "https://www.bluesnews.com/s/295211/evening-safety-dance",
-    "https://www.gamespot.com/articles/espionage-and-corporate-sabotage-blamed-for-mindseye-launch-as-dev-announces-layoffs/1100-6538579/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/03/hotel-barcelona-under-new-management-update-now-available",
     "https://www.videogameschronicle.com/news/mindseye-studio-announces-more-layoffs-as-ceo-cites-organised-espionage-and-criminal-sabotage/",
     "https://www.pcgamer.com/hardware/graphics-cards/third-times-hopefully-the-charm-as-nvidia-releases-hotfix-driver-to-tackle-voltage-issues-and-resident-evil-requiem-performance-in-one-fel-swoop/",
     "https://www.ign.com/articles/mindseye-developer-build-a-rocket-boy-announces-further-layoffs-as-ceo-doubles-down-on-organised-espionage-and-corporate-sabotage-claims",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/07/nba-2k27-finally-ditches-ps4-reveals-ps5-cover-athletes",
     "https://gamerant.com/xbox-backward-compatibility-on-pc/",
     "https://gamerant.com/mappa-expo-2026-dates-exclusive-merch/",
-    "https://www.pushsquare.com/news/2026/07/mindseyes-latest-attempt-to-rekindle-interest-is-to-become-rocket-league"
+    "https://www.pushsquare.com/news/2026/07/mindseyes-latest-attempt-to-rekindle-interest-is-to-become-rocket-league",
+    "https://www.videogameschronicle.com/news/xbox-backward-compatibility-launches-on-pc-four-xbox-games-playable-now/",
+    "https://www.pushsquare.com/news/2026/07/nearly-a-decade-after-launch-on-ps4-the-original-darkest-dungeon-is-getting-new-dlc",
+    "https://www.ign.com/articles/microsoft-announces-xbox-backward-compatibility-on-pc-with-new-features-and-achievements",
+    "https://www.purexbox.com/news/2026/07/microsoft-is-officially-bringing-achievements-to-select-original-xbox-games"
   ],
   "seen_titles": [
-    "two more kirby air riders amiibo are on the way, out later this year",
-    "evening safety dance",
-    "\"espionage and corporate sabotage\" blamed for mindseye launch, as dev announces layoffs",
-    "hotel barcelona ‘under new management’ update now available",
     "mindseye studio announces more layoffs as ceo cites ‘organised espionage’ and ‘criminal sabotage’",
     "third time's hopefully the charm as nvidia releases hotfix driver to tackle voltage issues and resident evil requiem performance in one fel swoop",
     "mindseye developer build a rocket boy announces further layoffs as ceo doubles down on 'organised espionage and corporate sabotage' claims",
@@ -10001,13 +9997,13 @@
     "nba 2k27 finally ditches ps4, reveals ps5 cover athletes",
     "xbox reveals official backward compatibility on pc, starting with conker and crimson skies",
     "mappa expo announced to celebrate anime studio’s 15th anniversary",
-    "mindseye's latest attempt to rekindle interest is to become rocket league"
+    "mindseye's latest attempt to rekindle interest is to become rocket league",
+    "xbox backward compatibility launches on pc, four xbox games playable now",
+    "nearly a decade after launch on ps4, the original darkest dungeon is getting new dlc",
+    "microsoft announces xbox backward compatibility on pc, with new features and achievements",
+    "microsoft is officially bringing achievements to 'select' original xbox games"
   ],
   "seen_story_keys": [
-    "c0dfbb71ff1afb37c852a5325548176bd7cf1e8f",
-    "587cf89252e1638360409569f2ab65d063a72c96",
-    "0b3cc0d0e7e2905b67913d45e0b4a44729445af7",
-    "15485d637d182b4fc3c6816c04f4a9d0ef97b0a3",
     "5298214b0b67de0a9a5899329505e61ba08c4300",
     "e0030c46116e705f5fada58ff7057e48d69a620f",
     "4be3862dba59f7250073d9b22f1cfe8ad023f21b",
@@ -15003,6 +14999,10 @@
     "c493dd574a91eefbbe59ed236b7cd4bb7f4f3182",
     "feb729636de8d32e11a0f4e842946a1a3e74b417",
     "6bc5c117d9ecf3572c755fa18d788607ff2072ca",
-    "92637b5810c09b8acf74993dca93c0110464c35b"
+    "92637b5810c09b8acf74993dca93c0110464c35b",
+    "9048251acc813cd9ca9e6b78060277cd53eb5dcf",
+    "d739b68e9ddddb9bd0ff95b16b4d075df1ad47a1",
+    "d7fca0d7211f41a218a2f4e9c6d5f7034bd590ba",
+    "b407d2beb3eb5a96303d352e497762323f2343f6"
   ]
 }
