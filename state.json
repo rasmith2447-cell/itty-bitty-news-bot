@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/assassins-creed-brand-update-assassins-creed-black-flag-resynced-assassins-creed-unity-frame-rate-patch-more",
-    "https://www.gamespot.com/articles/marathon-players-extracted-384866-drinkable-cheeseburgers-during-the-server-slam/1100-6538568/?ftag=CAD-01-10abi2f",
-    "https://www.polygon.com/crimson-desert-announced-too-early/",
-    "https://www.gamespot.com/articles/cod-black-ops-7-and-warzone-season-2-reloaded-release-date-and-details/1100-6538565/?ftag=CAD-01-10abi2f",
     "https://www.ign.com/articles/brandon-sandersons-new-cosmere-book-project-has-already-raised-more-than-5-million",
     "https://www.videogameschronicle.com/news/assassins-creed-boss-provides-updates-on-hexe-invictus-and-jade-strongly-teases-black-flag-remake/",
     "https://www.polygon.com/lanterns-trailer-green-lantern-hbo-dcu-release-date/",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/alpha-dog-games-founders-reacquire-studio-from-microsoft-following-2024-closure",
     "https://www.nintendolife.com/news/2026/07/pokemon-world-championships-exclusive-plush-officially-revealed",
     "https://www.ign.com/articles/wreckreation-2-announced-despite-studio-closure-just-nine-months-after-the-original-arrived",
-    "https://www.gamesindustry.biz/south-of-midnight-wins-game-and-experience-of-the-year-at-games-for-change-awards-2026"
+    "https://www.gamesindustry.biz/south-of-midnight-wins-game-and-experience-of-the-year-at-games-for-change-awards-2026",
+    "https://www.pcgamer.com/games/mmo/the-elder-scrolls-online-is-already-feeling-the-impact-of-xboxs-layoffs-ironically-hurting-the-cash-shop/",
+    "https://www.eurogamer.net/xbox-game-pass-july-wave-2",
+    "https://www.ign.com/articles/riftbound-tcg-full-release-schedule-2026",
+    "https://www.purexbox.com/news/2026/07/key-new-xbox-employee-leaves-after-three-months-but-reporter-argues-its-a-non-story"
   ],
   "seen_titles": [
-    "assassin’s creed brand update – assassin’s creed black flag resynced, assassin’s creed unity frame rate patch, more",
-    "marathon players extracted 384,866 drinkable cheeseburgers during the server slam",
-    "crimson desert reveal came way too early, pearl abyss says",
-    "cod: black ops 7 and warzone season 2 reloaded release date and details",
     "brandon sanderson just launched a massive new cosmere crowdfunding campaign that has already blown its goals out the water",
     "assassin’s creed boss provides updates on hexe, invictus, and jade, confirms black flag remake",
     "hbo's lanterns trailer reveals release date, turns dcu into true detective",
@@ -10001,13 +9997,13 @@
     "alpha dog games founders reacquire studio from microsoft following 2024 closure",
     "pokémon world championships exclusive plush officially revealed",
     "wreckreation 2 announced despite studio closure, just nine months after the original arrived",
-    "south of midnight wins game and experience of the year at games for change awards 2026"
+    "south of midnight wins game and experience of the year at games for change awards 2026",
+    "the elder scrolls online is already feeling the impact of xbox's layoffs, ironically hurting the cash shop",
+    "here's your next batch of xbox game pass games for july",
+    "riftbound’s 2026 set release schedule is taking shape, with release dates now confirmed for the whole year",
+    "key new xbox employee leaves after three months, but reporter argues it's a 'non-story'"
   ],
   "seen_story_keys": [
-    "6773a07c6a5cffe5e003cf22dfbaaeb79104d826",
-    "b8b07c00f466a5e92a08f9601964b0572b6b07a2",
-    "d14d3b11ae851707e909d95927e1fa9c495bf5ec",
-    "d30ec1f25de2707b0ff2f24642389117093b5f87",
     "b43e009ba523cc15d9497f62e375df1a2eb283e5",
     "0400fe2e44fd1e6ba4f1f55b1a6ae95e3eb0fdba",
     "9413217dfb845dce7323029e41dc68b584b87df8",
@@ -15003,6 +14999,10 @@
     "089a105a0bcf490024c4e424808743013736d5ba",
     "bc941ed52b455ab604fcd54734dface19f855918",
     "1d491650c7df159b68b135376db5a45f68938f31",
-    "650215e7390c87f09ff47cf4623490bfed5a7f6e"
+    "650215e7390c87f09ff47cf4623490bfed5a7f6e",
+    "5b7d9e759b913aea3776c1172c42d327412bd353",
+    "b379bcc39e95ac180e21fca21f2182bf8109b94c",
+    "2a81dcd3d182dfbde11a3327e08cc6d4d4cf5e3d",
+    "580d8fe4a4a3aeedc012d356cd110899a89df7da"
   ]
 }
