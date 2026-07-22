@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/wwe-2k26-vs-2k25-gallery-heres-all-the-updated-superstar-appearances-this-year/",
-    "https://www.videogameschronicle.com/news/suda-and-swerys-hotel-barcelona-has-received-a-free-major-overhaul-with-under-new-management-update/",
-    "https://www.ign.com/articles/highguards-final-farewell-tour-patch-gives-everyone-a-new-warden-and-skill-tree-to-play-around-with-until-the-very-end",
     "https://www.gematsu.com/2026/03/temtem-swarm-launches-april-2-for-ps5-and-pc-later-for-switch",
     "https://www.ign.com/articles/bungie-reveals-marathon-premium-currency-lux-promises-it-cant-be-used-to-buy-gameplay-advantages",
     "https://www.ign.com/articles/castlevania-belmonts-curse-is-not-a-roguelike-or-a-roguelite-game-konami-insists",
@@ -4999,12 +4996,12 @@
     "https://www.rockpapershotgun.com/the-goal-is-to-provide-what-we-can-elder-scrolls-online-crown-store-undergoing-changes-due-to-team-bandwidth-in-wake-of-xbox-layoffs",
     "https://www.gematsu.com/2026/07/nba-2k27-announced-for-ps5-xbox-series-switch-2-and-pc",
     "https://www.videogameschronicle.com/news/the-cover-athletes-for-nba-2k27s-three-separate-editions-have-been-announced/",
-    "https://www.videogameschronicle.com/news/21-video-game-lego-sets-are-retiring-this-month-including-pac-man-the-zelda-deku-tree-and-mario-yoshi/"
+    "https://www.videogameschronicle.com/news/21-video-game-lego-sets-are-retiring-this-month-including-pac-man-the-zelda-deku-tree-and-mario-yoshi/",
+    "https://www.pcgamer.com/gaming-industry/union-claims-bethesda-developers-were-laid-off-the-day-xbox-announced-new-fallouts-after-being-told-they-would-still-have-jobs-until-september/",
+    "https://www.gematsu.com/2026/07/console-archives-the-conveni-launches-july-23",
+    "https://www.gematsu.com/2026/07/arcade-archives-armadillo-racing-launches-july-23"
   ],
   "seen_titles": [
-    "wwe 2k26 vs 2k25 gallery: here’s all the updated superstar appearances this year",
-    "suda and swery’s hotel barcelona has received a free ‘major overhaul’ with under new management update",
-    "highguard's final 'farewell tour' patch gives everyone a new warden and skill tree to play around with until the very end",
     "temtem: swarm launches april 2 for ps5 and pc, later for switch",
     "bungie reveals marathon premium currency, lux, promises it can't be used to buy gameplay advantages",
     "castlevania: belmont's curse is 'not a roguelike or a roguelite game,' konami insists",
@@ -10001,12 +9998,12 @@
     "\"the goal is to provide what we can\": elder scrolls online crown store undergoing changes due to \"team bandwidth\" in wake of xbox layoffs",
     "nba 2k27 announced for ps5, xbox series, switch 2, and pc",
     "the cover athletes for nba 2k27’s three separate editions have been announced",
-    "21 video game lego sets are retiring this month, including pac-man, the zelda deku tree and mario & yoshi"
+    "21 video game lego sets are retiring this month, including pac-man, the zelda deku tree and mario & yoshi",
+    "union claims bethesda developers were laid off the day xbox announced new fallouts—after being told they would still have jobs until september",
+    "console archives the conveni launches july 23",
+    "arcade archives armadillo racing launches july 23"
   ],
   "seen_story_keys": [
-    "a82a2c1c80dc3376113b0814b6f414b3e67d298c",
-    "995d8bc87a2ac74660a97aa29bd37a64aaca4614",
-    "e3527b1f613256439a9fcb79320ba1183027af51",
     "56cd029936764b44bcff846274dd10950626fcf5",
     "28078dcaa44f7e7bb12c8b2b4d98cbd8a59ce186",
     "a0fafa37270d6f91e0e4e8420bb11fb63d699ea4",
@@ -15003,6 +15000,9 @@
     "bccbde80f3484473f6179ade25854c16b55fd3e2",
     "7d68824d36b8aa45a608b7224c4dd617e69e8fbf",
     "35fb01df6513bdd3d75c317d718dc90c7d7ddeeb",
-    "5f49edc0981ab1d50a7ff5c3b7d9cdf5a9391403"
+    "5f49edc0981ab1d50a7ff5c3b7d9cdf5a9391403",
+    "4a7a383c16deff7ae069da0aa30fc040bf1e6a29",
+    "9efaa43c3a030fcb0f9a5b4bd88a425c779228ef",
+    "0bb20bfc30c0d2ca0cdaff03e96227133bbb6db7"
   ]
 }
