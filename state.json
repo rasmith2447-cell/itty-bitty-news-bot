@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/the-occultist-launches-april-8",
-    "https://www.bluesnews.com/s/295204/iracing-arcade-released",
-    "https://www.gematsu.com/2026/03/everhood-hunters-announced-for-switch-pc",
     "https://www.polygon.com/assassins-creed-black-flag-resynced-remake-announced-ubisoft/",
     "https://www.gematsu.com/2026/03/assassins-creed-brand-update-assassins-creed-black-flag-resynced-assassins-creed-unity-frame-rate-patch-more",
     "https://www.gamespot.com/articles/marathon-players-extracted-384866-drinkable-cheeseburgers-during-the-server-slam/1100-6538568/?ftag=CAD-01-10abi2f",
@@ -4999,12 +4996,12 @@
     "https://gamerant.com/wendys-sonic-the-hedgehog-collab/",
     "https://www.gematsu.com/2026/07/in-falsus-launches-september-9",
     "https://www.nintendolife.com/news/2026/07/hasbro-shares-sneak-peek-of-its-official-legend-of-zelda-toy-line",
-    "https://www.gematsu.com/2026/07/langrisser-sea-of-sword-first-gameplay-trailer-details-and-screenshots"
+    "https://www.gematsu.com/2026/07/langrisser-sea-of-sword-first-gameplay-trailer-details-and-screenshots",
+    "https://www.gamesindustry.biz/alpha-dog-games-founders-reacquire-studio-from-microsoft-following-2024-closure",
+    "https://www.nintendolife.com/news/2026/07/pokemon-world-championships-exclusive-plush-officially-revealed",
+    "https://www.ign.com/articles/wreckreation-2-announced-despite-studio-closure-just-nine-months-after-the-original-arrived"
   ],
   "seen_titles": [
-    "the occultist launches april 8",
-    "iracing arcade released",
-    "everhood hunters announced for switch, pc",
     "assassin's creed black flag remake confirmed by ubisoft",
     "assassin’s creed brand update – assassin’s creed black flag resynced, assassin’s creed unity frame rate patch, more",
     "marathon players extracted 384,866 drinkable cheeseburgers during the server slam",
@@ -10001,12 +9998,12 @@
     "wendy's launches sonic the hedgehog collab",
     "in falsus launches september 9",
     "hasbro shares sneak peek of its official legend of zelda toy line",
-    "langrisser: sea of sword first gameplay trailer, details, and screenshots"
+    "langrisser: sea of sword first gameplay trailer, details, and screenshots",
+    "alpha dog games founders reacquire studio from microsoft following 2024 closure",
+    "pokémon world championships exclusive plush officially revealed",
+    "wreckreation 2 announced despite studio closure, just nine months after the original arrived"
   ],
   "seen_story_keys": [
-    "af0585ccd7e23e0d509a4966e445cca4e8ee855a",
-    "f959fc386ff3d36f491d6a90f20f1acfb340add6",
-    "8dca65ba185bde368cbacaae90ae7e2479db95ed",
     "4af3aba698139c485846a5b84104886ff0cc37e4",
     "6773a07c6a5cffe5e003cf22dfbaaeb79104d826",
     "b8b07c00f466a5e92a08f9601964b0572b6b07a2",
@@ -15003,6 +15000,9 @@
     "ccec82d25cd74f03bc5a48ae4160f89ee07a14bb",
     "3881158f019a9ee9916e77660c010a49497161e1",
     "80661de301221bad684cccec399d36c91ff4db8e",
-    "44760ba65ab9ea2fa99325811559980df64cfaff"
+    "44760ba65ab9ea2fa99325811559980df64cfaff",
+    "089a105a0bcf490024c4e424808743013736d5ba",
+    "bc941ed52b455ab604fcd54734dface19f855918",
+    "1d491650c7df159b68b135376db5a45f68938f31"
   ]
 }
