@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295258/planet-of-lana-ii-released",
-    "https://www.bluesnews.com/s/295257/motogp-26-announced",
-    "https://www.gematsu.com/2026/03/next-generation-of-xbox-console-project-helix-announced",
-    "https://www.bluesnews.com/s/295256/blackroots-announced",
     "https://www.bluesnews.com/s/295248/morning-patches",
     "https://www.bluesnews.com/s/295246/morning-multiplex",
     "https://www.polygon.com/next-gen-xbox-project-helix-microsoft/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/pokemon-trading-card-game-pocket-expansion-ruler-of-the-skies-launches-july-29",
     "https://www.gematsu.com/2026/07/sniper-dan-launches-september-17",
     "https://www.polygon.com/lego-nintendo-donkey-kong-arcade-set-price-revealed/",
-    "https://www.gematsu.com/2026/07/constance-for-switch-2-launches-july-30"
+    "https://www.gematsu.com/2026/07/constance-for-switch-2-launches-july-30",
+    "https://gamerant.com/epic-games-store-july-2026-free-games/",
+    "https://www.gamesindustry.biz/union-accuses-bethesda-of-violating-labour-laws-in-canada-following-layoffs-at-montreal-studio",
+    "https://www.gematsu.com/2026/07/aliens-fireteam-elite-2-launches-august-25",
+    "https://www.polygon.com/avatar-legends-fighting-game-delayed-xbox-switch-no-crossplay/"
   ],
   "seen_titles": [
-    "planet of lana ii released",
-    "motogp 26 announced",
-    "‘next generation of xbox console’ project helix announced",
-    "blackroots announced",
     "morning patches",
     "morning multiplex",
     "microsoft reveals next-gen xbox name: project helix",
@@ -10001,13 +9997,13 @@
     "pokemon trading card game pocket expansion ‘ruler of the skies’ launches july 29",
     "sniper dan launches september 17",
     "nintendo & lego unveil donkey new kong set with official pics",
-    "constance for switch 2 launches july 30"
+    "constance for switch 2 launches july 30",
+    "epic games store officially reveals its final free games for july 2026",
+    "union accuses bethesda of violating labour laws in canada following layoffs at montreal studio",
+    "aliens: fireteam elite 2 launches august 25",
+    "avatar legends: the fighting game gets delay hours before launch"
   ],
   "seen_story_keys": [
-    "d929cc66a55f5a760ffda620e9106cbb18f037fb",
-    "2a2618596d861c960fbf262c34fcf9625405c040",
-    "ae0a9c9cd146aed95c39ea177795cb0fc89eabb3",
-    "013959a0db5e322d68baa59eb65df803141c3667",
     "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
     "f312439acefc98d8e54c522c8dce6b874610c1ae",
     "288aa751dee925455e073da452c732de8486b5b9",
@@ -15003,6 +14999,10 @@
     "64790b44814b30c4ab664ddadba0cd6fb732ba25",
     "fc16432792261c92b0c826d1703fa979db284f5e",
     "7c28cfb082b2752f3c8cfd321500bd037528f6b5",
-    "85a6774c2a2afbf4005beb692ec23417ea5a5561"
+    "85a6774c2a2afbf4005beb692ec23417ea5a5561",
+    "eb081b3dde524c35b383364b24d908241efa1ddf",
+    "4b66f23b5a352f9aa42dd269d26b13924b2bc6a5",
+    "84ce50d0e362b3b210b1be626d37da69db6aef28",
+    "d6fd508b9c82f81489e9c419fbce8ff131bb2603"
   ]
 }
