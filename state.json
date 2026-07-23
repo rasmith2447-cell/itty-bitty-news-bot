@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/hardware/graphics-cards/nvidias-next-hardware-launch-for-us-gamers-could-be-an-rtx-5050-with-a-whopping-1-gb-of-extra-vram/",
-    "https://www.nintendolife.com/news/2026/03/japanese-charts-resident-evil-requiem-scares-off-the-competition",
-    "https://www.pcgamer.com/games/card-games/slay-the-spire-2-launch-time-steam-unlock/",
-    "https://www.gematsu.com/2026/03/go-home-annie-an-scp-game-for-ps5-xbox-series-launches-march-31",
     "https://www.pcgamer.com/games/fps/marathon-dcon-locations/",
     "https://www.bluesnews.com/s/295260/get-turnip-boy-robs-a-bank-for-free",
     "https://www.gamespot.com/videos/what-is-going-on-at-playstation-feat-jason-schrier/2300-6466756/",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/uk-games-growth-package-driving-exceptional-demand-one-year-on-from-launch",
     "https://www.eurogamer.net/avatar-legends-fighting-game-xbox-delay-switch-version",
     "https://www.ign.com/articles/nascar-26-release-date-confirmed-features-dynamic-track-surfaces-ai-dnfs",
-    "https://www.pushsquare.com/news/2026/07/new-ps5-firmware-update-is-available-to-download-now-heres-what-it-does"
+    "https://www.pushsquare.com/news/2026/07/new-ps5-firmware-update-is-available-to-download-now-heres-what-it-does",
+    "https://gamerant.com/god-of-war-laufey-alanah-pearce-comment-playstation-disc/",
+    "https://www.ign.com/articles/after-star-foxs-launch-and-zelda-ocarina-of-times-announcement-miyamoto-defends-nintendos-recent-spate-of-remakes-and-says-they-lead-to-future-developments",
+    "https://www.rockpapershotgun.com/oblivion-remastereds-lengthy-patch-drought-could-end-with-its-switch-2-release-which-bethesda-say-includes-optimisations-they-hope-to-bring-to-pc",
+    "https://www.gamesindustry.biz/delphi-interactives-fan-first-strategy-draws-major-ip-interest-following-success-of-james-bond-and-fifa"
   ],
   "seen_titles": [
-    "nvidia's next hardware launch for us gamers could be an rtx 5050 with a whopping 1 gb of extra vram",
-    "japanese charts: resident evil requiem scares off the competition",
-    "slay the spire 2 launch times and release date",
-    "go home annie: an scp game for ps5, xbox series launches march 31",
     "marathon dcon locations and how to use them",
     "get turnip boy robs a bank for free",
     "what is going on at playstation? feat. jason schrier",
@@ -10001,13 +9997,13 @@
     "uk games growth package driving \"exceptional demand\" one year on from launch",
     "xbox version of avatar legends: the fighting game delayed by over a month, less than 24 hours before launch",
     "nascar 26 release date confirmed, features dynamic track surfaces, ai dnfs",
-    "new ps5 firmware update is available to download now, here's what it does"
+    "new ps5 firmware update is available to download now, here's what it does",
+    "former god of war laufey dev comments on playstation's disc backlash",
+    "after star fox's launch and zelda: ocarina of time's announcement, miyamoto defends nintendo's recent spate of remakes and says they lead to 'future developments'",
+    "oblivion remastered's lengthy patch drought could end with its switch 2 release, which bethesda say includes \"optimisations\" they hope to bring to pc",
+    "delphi interactive's fan-first strategy draws major ip interest following success of james bond and fifa"
   ],
   "seen_story_keys": [
-    "d2bb287e73e4e8b2233bf9400b969111696b2cba",
-    "bfda263761782011c26f0971f38b997b0247a294",
-    "b1d0565f44a92680c866d78be88ab6b09f036423",
-    "dae521c28de7ec967d3aeeb1c657dcfc72337f3d",
     "104945e11adbcaaa1b192cb1ebd6aa656b9e4872",
     "269d25f131fa8d668e4a55ab054fac58f9d3ae78",
     "81143c79f23eb6adea6d90119434e19ef9aa538e",
@@ -15003,6 +14999,10 @@
     "d3ba18c058304f83a8a2276a80b237c5a6d8ffc7",
     "50a36ac7ab64ee62aad591d04db5444d3c7d96df",
     "33f53afd0eaf3386cdc02c502b01499959f01d8d",
-    "16c52be7ed7bac0a2a13e08f91e1cb4702c9651d"
+    "16c52be7ed7bac0a2a13e08f91e1cb4702c9651d",
+    "aa91f6fd154791edeee9b0e1884e96d264f65563",
+    "635995596ce6f24382d30084a997a3e1def77ef7",
+    "805781779d51c6c147d75c0eb98a6d5760002b7f",
+    "d607ffb0643c3e0ef2d27c9fe271aba83b22e6cd"
   ]
 }
