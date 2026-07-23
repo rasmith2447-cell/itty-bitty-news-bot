@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/echoes-of-aincrad-sword-art-online-announced-for-ps5-xbox-series-and-pc",
-    "https://www.nintendolife.com/news/2026/03/video-monster-hunter-stories-3-twisted-reflection-launch-trailer",
-    "https://www.gematsu.com/2026/03/monster-hunter-stories-3-twisted-reflection-launch-trailer-screenshots",
-    "https://www.nintendolife.com/news/2026/03/video-heres-your-first-look-at-the-street-fighter-live-action-movie-out-october-2026",
     "https://www.nintendolife.com/news/2026/03/mario-kart-world-could-be-getting-a-battle-mode-update",
     "https://www.bluesnews.com/s/295278/gdca-honoring-don-daglow-and-rebecca-heineman",
     "https://www.bluesnews.com/s/295274/poker-night-at-the-inventory-remaster-released",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/marvel-tokon-fighting-souls-year-1-dlc-announcement/",
     "https://www.ign.com/articles/marvel-tkon-fighting-souls-reveals-first-year-1-dlc-character-opening-movie-released-comic-con-2026",
     "https://www.gematsu.com/2026/07/marvel-tokon-fighting-souls-opening-movie-dlc-character-phoenix-cyclops-announced",
-    "https://www.purexbox.com/news/2026/07/halo-campaign-evolved-comparison-shows-difference-between-xbox-series-x-and-series-s"
+    "https://www.purexbox.com/news/2026/07/halo-campaign-evolved-comparison-shows-difference-between-xbox-series-x-and-series-s",
+    "https://www.ign.com/articles/avatar-seven-havens-gets-paramount-release-date-and-teaser-trailer-comic-con-2026",
+    "https://www.gematsu.com/2026/07/dragon-ball-sparking-zero-dlc-super-limit-breaking-neo-launches-july-30",
+    "https://www.gematsu.com/2026/07/restory-launches-august-6",
+    "https://www.pushsquare.com/news/2026/07/embrace-your-inner-john-hammond-with-dinosaur-park-tycoon-game-parkasaurus-on-ps5"
   ],
   "seen_titles": [
-    "echoes of aincrad: sword art online announced for ps5, xbox series, and pc",
-    "video: monster hunter stories 3: twisted reflection launch trailer",
-    "monster hunter stories 3: twisted reflection launch trailer, screenshots",
-    "video: here's your first look at the street fighter live-action movie, out october 2026",
     "mario kart world could be getting a battle mode update",
     "gdca honoring don daglow and rebecca heineman",
     "poker night at the inventory remaster released",
@@ -10001,13 +9997,13 @@
     "marvel tokon: fighting souls' first dlc fighter revealed at comic-con",
     "marvel tōkon: fighting souls reveals first year 1 dlc character, opening movie released | comic con 2026",
     "marvel tokon: fighting souls opening movie, dlc character phoenix cyclops announced",
-    "halo: campaign evolved comparison shows difference between xbox series x and series s"
+    "halo: campaign evolved comparison shows difference between xbox series x and series s",
+    "avatar: seven havens gets paramount+ release date and teaser trailer | comic con 2026",
+    "dragon ball: sparking! zero dlc ‘super limit-breaking neo’ launches july 30",
+    "restory launches august 6",
+    "embrace your inner john hammond with dinosaur park tycoon game parkasaurus on ps5"
   ],
   "seen_story_keys": [
-    "1bbc7b03d27fcb2f62e1d51ed7554d3ecefb0493",
-    "83e3b2ff1e2e78d3b0315b284ff1fbd20bf808db",
-    "e1efafda0b8281f09df2c9882a8b8895263855c7",
-    "4d70405b587ce46b1abc6499d21d6a3d4be2ad38",
     "7aea6486e8b3c290d2bc89593ef1d6e19de861ce",
     "05f32e4de15a83e99b1d8d56b2545995c1b9370d",
     "359dcb07bb08e904e4d4b2534a1465aab74aae2f",
@@ -15003,6 +14999,10 @@
     "a1b223364956ee6b0f4e4d5b184ef3e754aa53a3",
     "3ec8b3447df870b78af068fb33fd32050c0dcfd3",
     "24709ca6a28568caa02dd557bc5b7e63d9d789fb",
-    "7dd7153e5dfaba4fa88053c029e73c28386c5876"
+    "7dd7153e5dfaba4fa88053c029e73c28386c5876",
+    "ea28f58411027bb09bfdbc17f18a4ebd4f308b03",
+    "d7679004e6348c72107de77f0ecfc7b8796d7894",
+    "d364667bbca64a1438011569b6cc526091211e91",
+    "70bbde9a7a78ad5308969869f150bb6da6a3a7b8"
   ]
 }
