@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/motogp-26-announced-for-ps5-xbox-series-switch-2-switch-and-pc",
-    "https://www.nintendolife.com/news/2026/03/one-of-the-switchs-earliest-eshop-titles-has-finally-got-a-sequel",
-    "https://www.gematsu.com/2026/03/fishbowl-launches-april-2",
-    "https://www.polygon.com/leon-kennedy-secret-wife-resident-evil-requiem-clerith/",
     "https://www.pcgamer.com/hardware/graphics-cards/nvidias-next-hardware-launch-for-us-gamers-could-be-an-rtx-5050-with-a-whopping-1-gb-of-extra-vram/",
     "https://www.nintendolife.com/news/2026/03/japanese-charts-resident-evil-requiem-scares-off-the-competition",
     "https://www.pcgamer.com/games/card-games/slay-the-spire-2-launch-time-steam-unlock/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/bokura-for-switch-2-launches-july-29",
     "https://www.nintendolife.com/news/2026/07/xenoblade-chronicles-2-has-been-updated-to-version-3-0-0",
     "https://www.ign.com/articles/lego-donkey-kong-arcade-set-officially-announced",
-    "https://www.gematsu.com/2026/07/avatar-legends-the-fighting-game-for-xbox-series-delayed-to-september-3"
+    "https://www.gematsu.com/2026/07/avatar-legends-the-fighting-game-for-xbox-series-delayed-to-september-3",
+    "https://www.gamesindustry.biz/uk-games-growth-package-driving-exceptional-demand-one-year-on-from-launch",
+    "https://www.eurogamer.net/avatar-legends-fighting-game-xbox-delay-switch-version",
+    "https://www.ign.com/articles/nascar-26-release-date-confirmed-features-dynamic-track-surfaces-ai-dnfs",
+    "https://www.pushsquare.com/news/2026/07/new-ps5-firmware-update-is-available-to-download-now-heres-what-it-does"
   ],
   "seen_titles": [
-    "motogp 26 announced for ps5, xbox series, switch 2, switch, and pc",
-    "one of the switch's earliest eshop titles has finally got a sequel",
-    "fishbowl launches april 2",
-    "who is leon kennedy secretly married to in resident evil requiem?",
     "nvidia's next hardware launch for us gamers could be an rtx 5050 with a whopping 1 gb of extra vram",
     "japanese charts: resident evil requiem scares off the competition",
     "slay the spire 2 launch times and release date",
@@ -10001,13 +9997,13 @@
     "bokura for switch 2 launches july 29",
     "xenoblade chronicles 2 has been updated to version 3.0.0",
     "lego donkey kong arcade set officially announced",
-    "avatar legends: the fighting game for xbox series delayed to september 3"
+    "avatar legends: the fighting game for xbox series delayed to september 3",
+    "uk games growth package driving \"exceptional demand\" one year on from launch",
+    "xbox version of avatar legends: the fighting game delayed by over a month, less than 24 hours before launch",
+    "nascar 26 release date confirmed, features dynamic track surfaces, ai dnfs",
+    "new ps5 firmware update is available to download now, here's what it does"
   ],
   "seen_story_keys": [
-    "a3f415006fe6c403a8fd2eee7331eac5ea9ab0e4",
-    "2d0dfaf154d9f2d59078a6f2a00bd705091890a8",
-    "d251d1645f38b84230eaab3866cbbace3513402e",
-    "7cc53b81ef66c0e61bee6a8af2f33cf9aa3959b6",
     "d2bb287e73e4e8b2233bf9400b969111696b2cba",
     "bfda263761782011c26f0971f38b997b0247a294",
     "b1d0565f44a92680c866d78be88ab6b09f036423",
@@ -15003,6 +14999,10 @@
     "354fd02d57d22f3e3e9c90e906fe389fcdb916c3",
     "56197d5f1f8eb6625f86c087bfe447e3a0770672",
     "3bfa7509a0b5f2cf331cba6511e153cf82e9c2ca",
-    "9222bd3915a5b95db288fdce5ee5047f2f447ebd"
+    "9222bd3915a5b95db288fdce5ee5047f2f447ebd",
+    "d3ba18c058304f83a8a2276a80b237c5a6d8ffc7",
+    "50a36ac7ab64ee62aad591d04db5444d3c7d96df",
+    "33f53afd0eaf3386cdc02c502b01499959f01d8d",
+    "16c52be7ed7bac0a2a13e08f91e1cb4702c9651d"
   ]
 }
