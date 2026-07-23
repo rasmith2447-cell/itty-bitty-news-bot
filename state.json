@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/bungie-reveals-marathon-premium-currency-lux-promises-it-cant-be-used-to-buy-gameplay-advantages",
-    "https://www.ign.com/articles/castlevania-belmonts-curse-is-not-a-roguelike-or-a-roguelite-game-konami-insists",
-    "https://www.gematsu.com/2026/03/space-warlord-baby-trading-simulator-for-xbox-series-launches-march-26",
-    "https://www.gematsu.com/2026/03/devil-jam-for-ps5-xbox-series-and-switch-launches-march-26",
     "https://www.gamespot.com/articles/five-nights-at-freddys-2-finally-gets-streaming-release-date/1100-6538582/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/03/motogp-26-announced-for-ps5-xbox-series-switch-2-switch-and-pc",
     "https://www.nintendolife.com/news/2026/03/one-of-the-switchs-earliest-eshop-titles-has-finally-got-a-sequel",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/gaming-industry/union-claims-bethesda-developers-were-laid-off-the-day-xbox-announced-new-fallouts-after-being-told-they-would-still-have-jobs-until-september/",
     "https://www.gematsu.com/2026/07/console-archives-the-conveni-launches-july-23",
     "https://www.gematsu.com/2026/07/arcade-archives-armadillo-racing-launches-july-23",
-    "https://www.polygon.com/pokemon-diamond-pearl-leak-early-designs-documentary/"
+    "https://www.polygon.com/pokemon-diamond-pearl-leak-early-designs-documentary/",
+    "https://www.gematsu.com/2026/07/igs-classic-arcade-collection-for-pc-launches-august-13",
+    "https://www.gematsu.com/2026/07/bokura-for-switch-2-launches-july-29",
+    "https://www.nintendolife.com/news/2026/07/xenoblade-chronicles-2-has-been-updated-to-version-3-0-0",
+    "https://www.ign.com/articles/lego-donkey-kong-arcade-set-officially-announced"
   ],
   "seen_titles": [
-    "bungie reveals marathon premium currency, lux, promises it can't be used to buy gameplay advantages",
-    "castlevania: belmont's curse is 'not a roguelike or a roguelite game,' konami insists",
-    "space warlord baby trading simulator for xbox series launches march 26",
-    "devil jam for ps5, xbox series, and switch launches march 26",
     "five nights at freddy's 2 finally gets streaming release date",
     "motogp 26 announced for ps5, xbox series, switch 2, switch, and pc",
     "one of the switch's earliest eshop titles has finally got a sequel",
@@ -10001,13 +9997,13 @@
     "union claims bethesda developers were laid off the day xbox announced new fallouts—after being told they would still have jobs until september",
     "console archives the conveni launches july 23",
     "arcade archives armadillo racing launches july 23",
-    "pokémon diamond & pearl video reveals tons of early pokémon designs"
+    "pokémon diamond & pearl video reveals tons of early pokémon designs",
+    "igs classic arcade collection for pc launches august 13",
+    "bokura for switch 2 launches july 29",
+    "xenoblade chronicles 2 has been updated to version 3.0.0",
+    "lego donkey kong arcade set officially announced"
   ],
   "seen_story_keys": [
-    "28078dcaa44f7e7bb12c8b2b4d98cbd8a59ce186",
-    "a0fafa37270d6f91e0e4e8420bb11fb63d699ea4",
-    "07839e6b31670bef1358421b4677b4cc56ec9414",
-    "403b7b5a30ea1bfbc9d150640766e8c0a9cde026",
     "0c6bfb3693f76a2099fa2480096d5cfcffff7be9",
     "a3f415006fe6c403a8fd2eee7331eac5ea9ab0e4",
     "2d0dfaf154d9f2d59078a6f2a00bd705091890a8",
@@ -15003,6 +14999,10 @@
     "4a7a383c16deff7ae069da0aa30fc040bf1e6a29",
     "9efaa43c3a030fcb0f9a5b4bd88a425c779228ef",
     "0bb20bfc30c0d2ca0cdaff03e96227133bbb6db7",
-    "caca88792282e8212267e85951790dd46f2aa7cb"
+    "caca88792282e8212267e85951790dd46f2aa7cb",
+    "69f7ed6fa06bfd9dd5159b4295b524e0d054c256",
+    "354fd02d57d22f3e3e9c90e906fe389fcdb916c3",
+    "56197d5f1f8eb6625f86c087bfe447e3a0770672",
+    "3bfa7509a0b5f2cf331cba6511e153cf82e9c2ca"
   ]
 }
