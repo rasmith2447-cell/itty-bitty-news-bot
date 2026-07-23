@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/the-national-videogame-museum-obtains-one-of-a-kind-nintendo-playstation",
-    "https://www.polygon.com/capcom-spotlight-2026-all-news-announcements-trailers/",
-    "https://www.pcgamer.com/games/rpg/diablo-4-will-let-you-transform-into-its-most-fearsome-demon-the-butcher-in-an-experimental-mini-season-before-lord-of-hatred-drops/",
-    "https://www.nintendolife.com/news/2026/03/capcom-celebrates-resident-evil-30th-anniversary-with-multiple-announcements",
     "https://www.gematsu.com/2026/03/echoes-of-aincrad-sword-art-online-announced-for-ps5-xbox-series-and-pc",
     "https://www.nintendolife.com/news/2026/03/video-monster-hunter-stories-3-twisted-reflection-launch-trailer",
     "https://www.gematsu.com/2026/03/monster-hunter-stories-3-twisted-reflection-launch-trailer-screenshots",
@@ -4999,13 +4995,13 @@
     "https://www.gamespot.com/videos/marvels-wolverine-official-cinematic-story-trailer/",
     "https://www.gematsu.com/2026/07/borderlands-4-dlc-story-pack-2-fl4k-and-the-last-resort-launches-september-10",
     "https://www.purexbox.com/news/2026/07/this-issue-should-be-resolved-halo-premium-upgrade-seemingly-fixed-for-campaign-evolved",
-    "https://www.ign.com/articles/marvels-wolverine-deep-cuts-sdcc-panel-live-report-comic-con-2026"
+    "https://www.ign.com/articles/marvels-wolverine-deep-cuts-sdcc-panel-live-report-comic-con-2026",
+    "https://www.polygon.com/marvel-tokon-fighting-souls-year-1-dlc-announcement/",
+    "https://www.ign.com/articles/marvel-tkon-fighting-souls-reveals-first-year-1-dlc-character-opening-movie-released-comic-con-2026",
+    "https://www.gematsu.com/2026/07/marvel-tokon-fighting-souls-opening-movie-dlc-character-phoenix-cyclops-announced",
+    "https://www.purexbox.com/news/2026/07/halo-campaign-evolved-comparison-shows-difference-between-xbox-series-x-and-series-s"
   ],
   "seen_titles": [
-    "the national videogame museum obtains one-of-a-kind nintendo playstation",
-    "capcom spotlight march 2026: all the news, trailers, and reveals",
-    "diablo 4 will let you transform into its most fearsome demon, the butcher, in an experimental mini season before lord of hatred drops",
-    "capcom celebrates resident evil 30th anniversary with multiple announcements",
     "echoes of aincrad: sword art online announced for ps5, xbox series, and pc",
     "video: monster hunter stories 3: twisted reflection launch trailer",
     "monster hunter stories 3: twisted reflection launch trailer, screenshots",
@@ -10001,13 +9997,13 @@
     "marvel’s wolverine – official cinematic story trailer",
     "borderlands 4 dlc ‘story pack 2: fl4k and the last resort’ launches september 10",
     "'this issue should be resolved' - halo premium upgrade seemingly fixed for campaign evolved",
-    "everything announced at the marvel's wolverine: deep cuts sdcc panel | comic con 2026"
+    "everything announced at the marvel's wolverine: deep cuts sdcc panel | comic con 2026",
+    "marvel tokon: fighting souls' first dlc fighter revealed at comic-con",
+    "marvel tōkon: fighting souls reveals first year 1 dlc character, opening movie released | comic con 2026",
+    "marvel tokon: fighting souls opening movie, dlc character phoenix cyclops announced",
+    "halo: campaign evolved comparison shows difference between xbox series x and series s"
   ],
   "seen_story_keys": [
-    "18bd417ffca6f99305a7598ba233196704df50a1",
-    "c3373aedf53b13ff66efac6a12afc196613f6de6",
-    "53c6208215c30e7b9ac5071c9e29beef15298f0e",
-    "635e3213e2bd03691784fab261fcae0d7e716dec",
     "1bbc7b03d27fcb2f62e1d51ed7554d3ecefb0493",
     "83e3b2ff1e2e78d3b0315b284ff1fbd20bf808db",
     "e1efafda0b8281f09df2c9882a8b8895263855c7",
@@ -15003,6 +14999,10 @@
     "585646e47ddf5cca50badb9ad3ade747e462d5ec",
     "5f19cfb065c6f06b55acab376963b826dc672dd5",
     "a4a5c8ef83e2467e6cf7bc5d0ac41d6eddf926e9",
-    "8828807635da19981779b885a341a21e0f2ed33c"
+    "8828807635da19981779b885a341a21e0f2ed33c",
+    "a1b223364956ee6b0f4e4d5b184ef3e754aa53a3",
+    "3ec8b3447df870b78af068fb33fd32050c0dcfd3",
+    "24709ca6a28568caa02dd557bc5b7e63d9d789fb",
+    "7dd7153e5dfaba4fa88053c029e73c28386c5876"
   ]
 }
