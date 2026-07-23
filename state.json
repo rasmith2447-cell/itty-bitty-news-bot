@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/trail-out-now-available-for-ps5",
-    "https://www.gematsu.com/2026/03/thomas-friends-wonders-of-sodor-launches-march-17",
-    "https://www.nintendolife.com/news/2026/03/pokemon-pokopias-launch-trailer-is-too-cute-to-handle",
-    "https://www.gematsu.com/2026/03/the-coin-game-launches-march-19",
     "https://www.ign.com/articles/the-national-videogame-museum-obtains-one-of-a-kind-nintendo-playstation",
     "https://www.polygon.com/capcom-spotlight-2026-all-news-announcements-trailers/",
     "https://www.pcgamer.com/games/rpg/diablo-4-will-let-you-transform-into-its-most-fearsome-demon-the-butcher-in-an-experimental-mini-season-before-lord-of-hatred-drops/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/akatori-launches-august-5-for-pc-august-12-for-ps5-xbox-series-ps4-and-xbox-one-and-in-2027-for-switch-2",
     "https://www.polygon.com/new-gundam-anime-announced-mobile-suit-gundam-rg-xarx-zero-2027/",
     "https://www.polygon.com/percy-jackson-and-the-olympians-san-diego-comic-con-season-3-titans-curse-release-date/",
-    "https://www.pushsquare.com/news/2026/07/aliens-fireteam-elite-2-brings-bombastic-xenomorph-blasting-to-ps5-next-month"
+    "https://www.pushsquare.com/news/2026/07/aliens-fireteam-elite-2-brings-bombastic-xenomorph-blasting-to-ps5-next-month",
+    "https://www.gamespot.com/videos/marvels-wolverine-official-cinematic-story-trailer/",
+    "https://www.gematsu.com/2026/07/borderlands-4-dlc-story-pack-2-fl4k-and-the-last-resort-launches-september-10",
+    "https://www.purexbox.com/news/2026/07/this-issue-should-be-resolved-halo-premium-upgrade-seemingly-fixed-for-campaign-evolved",
+    "https://www.ign.com/articles/marvels-wolverine-deep-cuts-sdcc-panel-live-report-comic-con-2026"
   ],
   "seen_titles": [
-    "trail out now available for ps5",
-    "thomas & friends: wonders of sodor launches march 17",
-    "pokémon pokopia's launch trailer is too cute to handle",
-    "the coin game launches march 19",
     "the national videogame museum obtains one-of-a-kind nintendo playstation",
     "capcom spotlight march 2026: all the news, trailers, and reveals",
     "diablo 4 will let you transform into its most fearsome demon, the butcher, in an experimental mini season before lord of hatred drops",
@@ -10001,13 +9997,13 @@
     "akatori launches august 5 for pc, august 12 for ps5, xbox series, ps4, and xbox one, and in 2027 for switch 2",
     "new post-apocalyptic gundam anime announced at comic-con",
     "disney announces percy jackson season 3 release date",
-    "aliens: fireteam elite 2 brings bombastic xenomorph blasting to ps5 next month"
+    "aliens: fireteam elite 2 brings bombastic xenomorph blasting to ps5 next month",
+    "marvel’s wolverine – official cinematic story trailer",
+    "borderlands 4 dlc ‘story pack 2: fl4k and the last resort’ launches september 10",
+    "'this issue should be resolved' - halo premium upgrade seemingly fixed for campaign evolved",
+    "everything announced at the marvel's wolverine: deep cuts sdcc panel | comic con 2026"
   ],
   "seen_story_keys": [
-    "3872ea53e12b3deb1dcb2d3059fe094534b68b03",
-    "57173ea87bd67a67e15e8ee0fd8fffc190993756",
-    "45b9e67aa4700cdac7e800c39ac893bc9b4dc3e0",
-    "0a8978d6eaf468eaff77bf7ea68f1963849d0a41",
     "18bd417ffca6f99305a7598ba233196704df50a1",
     "c3373aedf53b13ff66efac6a12afc196613f6de6",
     "53c6208215c30e7b9ac5071c9e29beef15298f0e",
@@ -15003,6 +14999,10 @@
     "12be8e5841182bbddfbbea986375ce93cc501b2f",
     "99fefc98d56c788e06d1976799547d5ae89bf954",
     "f19dd8d9c786bea167329f4f5ce09269df6579aa",
-    "3fc4bd3275e9103f7758ca1675eb76e3da3ba384"
+    "3fc4bd3275e9103f7758ca1675eb76e3da3ba384",
+    "585646e47ddf5cca50badb9ad3ade747e462d5ec",
+    "5f19cfb065c6f06b55acab376963b826dc672dd5",
+    "a4a5c8ef83e2467e6cf7bc5d0ac41d6eddf926e9",
+    "8828807635da19981779b885a341a21e0f2ed33c"
   ]
 }
