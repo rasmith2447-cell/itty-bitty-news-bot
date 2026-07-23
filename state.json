@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295248/morning-patches",
-    "https://www.bluesnews.com/s/295246/morning-multiplex",
-    "https://www.polygon.com/next-gen-xbox-project-helix-microsoft/",
-    "https://www.gamespot.com/articles/xboxs-next-console-project-helix-officially-plays-pc-and-xbox-games/1100-6538610/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/if-diablo-4s-sorcerer-is-taylor-swift-the-warlock-is-megadeth-blizzard-says/1100-6538600/?ftag=CAD-01-10abi2f",
     "https://www.bluesnews.com/s/295243/morning-gatherings-and-events",
     "https://www.gamespot.com/gallery/here-are-the-12-finalists-for-the-world-video-game-hall-of-fame-in-2026/2900-7558/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/epic-games-store-july-2026-free-games/",
     "https://www.gamesindustry.biz/union-accuses-bethesda-of-violating-labour-laws-in-canada-following-layoffs-at-montreal-studio",
     "https://www.gematsu.com/2026/07/aliens-fireteam-elite-2-launches-august-25",
-    "https://www.polygon.com/avatar-legends-fighting-game-delayed-xbox-switch-no-crossplay/"
+    "https://www.polygon.com/avatar-legends-fighting-game-delayed-xbox-switch-no-crossplay/",
+    "https://www.eurogamer.net/rockstar-developer-union-more-members-layoffs",
+    "https://www.polygon.com/star-wars-zero-company-cast-matt-lanter-dee-bradley-baker/",
+    "https://www.purexbox.com/news/2026/07/halo-support-investigating-issues-with-premium-upgrade-for-campaign-evolved",
+    "https://www.ign.com/articles/microsoft-launches-test-for-ad-supported-xbox-game-streaming-promises-the-ads-will-not-interrupt-the-flow-of-gameplay"
   ],
   "seen_titles": [
-    "morning patches",
-    "morning multiplex",
-    "microsoft reveals next-gen xbox name: project helix",
-    "xbox's next console, project helix, officially plays pc and xbox games",
     "if diablo 4's sorcerer is taylor swift, the warlock is megadeth, blizzard says",
     "morning gatherings and events",
     "here are the 12 finalists for the world video game hall of fame in 2026",
@@ -10001,13 +9997,13 @@
     "epic games store officially reveals its final free games for july 2026",
     "union accuses bethesda of violating labour laws in canada following layoffs at montreal studio",
     "aliens: fireteam elite 2 launches august 25",
-    "avatar legends: the fighting game gets delay hours before launch"
+    "avatar legends: the fighting game gets delay hours before launch",
+    "as layoff controversy continues, rockstar union has 'more members than ever before', meaning it could force mandatory recognition",
+    "star wars zero company cast just revealed a huge clone wars reunion",
+    "halo support 'investigating' issues with premium upgrade for campaign evolved",
+    "microsoft launches test for ad-supported xbox game streaming, promises the ads will not 'interrupt the flow of gameplay'"
   ],
   "seen_story_keys": [
-    "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
-    "f312439acefc98d8e54c522c8dce6b874610c1ae",
-    "288aa751dee925455e073da452c732de8486b5b9",
-    "9dd1812ac490356d7a6618626f0a375788e7d84a",
     "ded5af3d8f4d4ba81135f81455ee43cf15757337",
     "a5a1224e0fe1a76d7b645ef93f8dd85afd049b91",
     "7db3a14042f9b7805cce558ce62886f85204890a",
@@ -15003,6 +14999,10 @@
     "eb081b3dde524c35b383364b24d908241efa1ddf",
     "4b66f23b5a352f9aa42dd269d26b13924b2bc6a5",
     "84ce50d0e362b3b210b1be626d37da69db6aef28",
-    "d6fd508b9c82f81489e9c419fbce8ff131bb2603"
+    "d6fd508b9c82f81489e9c419fbce8ff131bb2603",
+    "0ff9140a48104f6cd2bf2f09acdad2f06229cc3a",
+    "0696f466498fe603f5e26fa25191f57bb809a3bc",
+    "1465b349ad3e117bc41db6c329d481bab0f4cef9",
+    "53ec625ba1dbd78517ef243c6e439ccd71df3c80"
   ]
 }
