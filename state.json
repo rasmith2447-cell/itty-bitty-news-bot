@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/the-resident-evil-requiem-pc-experience-will-get-better-eventually-capcom-says/1100-6538632/?ftag=CAD-01-10abi2f",
-    "https://www.polygon.com/slay-spire-2-steam-concurrents-record/",
-    "https://www.pcgamer.com/games/in-what-may-be-the-worst-new-game-reveal-ever-robocop-rogue-city-was-briefly-replaced-on-steam-by-an-unannounced-world-of-darkness-game/",
-    "https://www.gamespot.com/articles/marathon-credits-artist-who-claimed-bungie-stole-their-art/1100-6538636/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/remember-the-not-kojima-vaporware-abandoned-it-just-might-be-back/1100-6538640/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/03/south-of-midnight-for-ps5-launches-march-31",
     "https://www.gamespot.com/articles/nintendo-is-suing-the-us-government-over-illegal-tariffs/1100-6538645/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/tomb-raider-catalyst-delay-2028",
     "https://www.purexbox.com/news/2026/07/two-massive-sports-games-have-joined-xboxs-stacked-lineup-for-september",
     "https://gamerant.com/is-psn-down-july-2026/",
-    "https://www.pushsquare.com/news/2026/07/from-xbox-to-ps5-halos-incredible-25-year-transformation-plotted-in-graphics-comparison"
+    "https://www.pushsquare.com/news/2026/07/from-xbox-to-ps5-halos-incredible-25-year-transformation-plotted-in-graphics-comparison",
+    "https://www.gematsu.com/2026/07/tomb-raider-catalyst-amazon-games-boss-suggests-2028-delay-but-publisher-says-no-updates",
+    "https://www.gematsu.com/2026/07/sponge-break-launches-july-30",
+    "https://www.videogameschronicle.com/news/gta-6-download-codes-expire-only-170-days-after-launch-in-japan/",
+    "https://www.pcgamer.com/hardware/minecraft-java-edition-system-requirements-want-8-16-gb-ram-for-the-first-time-but-it-isnt-more-demanding-now-microsoft-just-hadnt-updated-the-specs-in-a-while/"
   ],
   "seen_titles": [
-    "the resident evil requiem pc experience will get better eventually, capcom says",
-    "slay the spire 2 early access broke records on steam — and broke steam",
-    "in what may be the worst new game reveal ever, robocop: rogue city was briefly replaced on steam by an unannounced world of darkness game",
-    "marathon credits artist who claimed bungie stole their art",
     "remember the not-kojima vaporware abandoned? it just might be back",
     "south of midnight for ps5 launches march 31",
     "nintendo is suing the us government over illegal tariffs",
@@ -10001,13 +9997,13 @@
     "lara croft can't catch a break: after delaying one tomb raider game, amazon is delaying another and this one won't show up until 2028",
     "two massive sports games have joined xbox's stacked lineup for september",
     "playstation network is down at the worst possible time",
-    "from xbox to ps5: halo's incredible 25-year transformation plotted in graphics comparison"
+    "from xbox to ps5: halo's incredible 25-year transformation plotted in graphics comparison",
+    "tomb raider: catalyst – amazon games boss suggests 2028 delay, but publisher says ‘no updates’",
+    "sponge break launches july 30",
+    "gta 6 download codes expire only 170 days after launch in japan",
+    "minecraft java edition system requirements want 8/16 gb ram for the first time, but it isn't more demanding now, microsoft just hadn't updated the specs in a while"
   ],
   "seen_story_keys": [
-    "b739b6d2f8e9761e69978c6a019de591eff4f6b9",
-    "66901c5fab070ff61d9cf3e77dc31e27b7d0149b",
-    "345acbe030b5af82eb6678ec7c914e361d4ddbeb",
-    "e60310064fff2578aaef95649a8baf9235db68b9",
     "4c1f4208b9688f9d4c32af108cf6439e3be66c96",
     "c536ba720fe80bda2f6d61688b296ffd27016605",
     "24ca69fc4a27b552616ba461eaf307c1fbdb02e1",
@@ -15003,6 +14999,10 @@
     "a87ed1463b165d2a2b3ed61eff05bfb9fd528ce0",
     "aebcd2aeb1f731be810e9038f0ab983da1618cdc",
     "01eb47224051bb65f74caeca7ce4d8e5ac9959d9",
-    "d1ee4ae8c907b9ec27ebb08356deeabfd5b1edc7"
+    "d1ee4ae8c907b9ec27ebb08356deeabfd5b1edc7",
+    "75656ad122e7681f79b6efac0cef9560ab5e64b3",
+    "b00b5598042348d88eba116e7515ec480cb1c6b9",
+    "041f3a6bd6f48031050e166bffeb8e6cab621777",
+    "39f9e071577ac27921dda5509dd1ce351c12d4c9"
   ]
 }
