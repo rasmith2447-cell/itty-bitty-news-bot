@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/remember-the-not-kojima-vaporware-abandoned-it-just-might-be-back/1100-6538640/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/03/south-of-midnight-for-ps5-launches-march-31",
-    "https://www.gamespot.com/articles/nintendo-is-suing-the-us-government-over-illegal-tariffs/1100-6538645/?ftag=CAD-01-10abi2f",
-    "https://www.ign.com/articles/nintendo-sues-us-government-over-trumps-unlawful-tariffs-that-led-to-last-minute-switch-2-pre-order-delay-demands-refund-with-interest",
     "https://www.gamespot.com/articles/another-xbox-game-jumps-to-ps5-and-switch-2-very-soon/1100-6538646/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/how-to-increase-your-backpack-inventory-size-in-marathon/1100-6538602/?ftag=CAD-01-10abi2f",
     "https://www.pcgamer.com/games/roguelike/the-makers-of-idle-farming-sensation-rustys-retirement-have-announced-a-new-game-and-this-ones-taking-over-your-whole-screen/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/tomb-raider-catalyst-amazon-games-boss-suggests-2028-delay-but-publisher-says-no-updates",
     "https://www.gematsu.com/2026/07/sponge-break-launches-july-30",
     "https://www.videogameschronicle.com/news/gta-6-download-codes-expire-only-170-days-after-launch-in-japan/",
-    "https://www.pcgamer.com/hardware/minecraft-java-edition-system-requirements-want-8-16-gb-ram-for-the-first-time-but-it-isnt-more-demanding-now-microsoft-just-hadnt-updated-the-specs-in-a-while/"
+    "https://www.pcgamer.com/hardware/minecraft-java-edition-system-requirements-want-8-16-gb-ram-for-the-first-time-but-it-isnt-more-demanding-now-microsoft-just-hadnt-updated-the-specs-in-a-while/",
+    "https://gamerant.com/tomb-raider-catalyst-delay-2028/",
+    "https://www.pushsquare.com/news/2026/07/lara-crofts-newest-ps5-game-tomb-raider-catalyst-delayed-to-2028",
+    "https://www.rockpapershotgun.com/blizzard-fire-world-of-warcraft-developer-over-use-of-forbidden-magicks-to-insta-kill-bosses-for-regular-players-during-dungeon-run",
+    "https://www.polygon.com/playstation-network-down-psn-outage-digital-games-backlash/"
   ],
   "seen_titles": [
-    "remember the not-kojima vaporware abandoned? it just might be back",
-    "south of midnight for ps5 launches march 31",
-    "nintendo is suing the us government over illegal tariffs",
-    "nintendo sues u.s. government over trump's 'unlawful' tariffs that led to last-minute switch 2 pre-order delay, demands refund with interest",
     "another xbox game jumps to ps5 and switch 2 very soon",
     "how to increase your backpack inventory size in marathon",
     "the makers of idle farming sensation rusty's retirement have announced a new game, and this one's taking over your whole screen",
@@ -10001,13 +9997,13 @@
     "tomb raider: catalyst – amazon games boss suggests 2028 delay, but publisher says ‘no updates’",
     "sponge break launches july 30",
     "gta 6 download codes expire only 170 days after launch in japan",
-    "minecraft java edition system requirements want 8/16 gb ram for the first time, but it isn't more demanding now, microsoft just hadn't updated the specs in a while"
+    "minecraft java edition system requirements want 8/16 gb ram for the first time, but it isn't more demanding now, microsoft just hadn't updated the specs in a while",
+    "tomb raider: catalyst officially delayed",
+    "lara croft's newest ps5 game tomb raider catalyst delayed to 2028",
+    "blizzard fire world of warcraft developer over use of forbidden magicks to insta-kill bosses for regular players during dungeon run",
+    "playstation network outage leaves players dreading all-digital future"
   ],
   "seen_story_keys": [
-    "4c1f4208b9688f9d4c32af108cf6439e3be66c96",
-    "c536ba720fe80bda2f6d61688b296ffd27016605",
-    "24ca69fc4a27b552616ba461eaf307c1fbdb02e1",
-    "895904bf873a53b2e844e67db8d192f66cc64586",
     "db9ad0cf17fde51f8f76bd09f2cc846876754764",
     "7a61f83bfd4df4c4ac0746e33671560b2440c84b",
     "08a8ae36a3b53717d819a60c3bf44deb6fa4687b",
@@ -15003,6 +14999,10 @@
     "75656ad122e7681f79b6efac0cef9560ab5e64b3",
     "b00b5598042348d88eba116e7515ec480cb1c6b9",
     "041f3a6bd6f48031050e166bffeb8e6cab621777",
-    "39f9e071577ac27921dda5509dd1ce351c12d4c9"
+    "39f9e071577ac27921dda5509dd1ce351c12d4c9",
+    "aedb860d47d6a25ff99d589f7691c6eee510d719",
+    "609c2a2c5d2ee693bdd413b1762a01b376c044b4",
+    "1ae9e7947cc154c401dcbc7bfa5d527e580b06c2",
+    "28c614148205b05fa5505b8911727ae0b1e832de"
   ]
 }
