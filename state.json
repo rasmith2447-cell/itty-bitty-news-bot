@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/damon-and-baby-demo-launches-march-19",
-    "https://www.ign.com/articles/how-disney-updated-the-elsa-anna-and-kristoff-audio-animatronics-figures-in-walt-disney-worlds-frozen-ever-after-for-the-first-time-in-forever",
-    "https://www.ign.com/articles/capcom-spotlight-march-2026-everything-announced",
-    "https://www.ign.com/articles/the-pokmon-company-issues-another-objection-after-the-trump-administration-used-its-ip-for-political-meme-again",
     "https://www.ign.com/articles/it-is-still-in-development-thats-all-i-can-say-star-wars-knights-of-the-old-republic-remake-dev-issues-update-5-years-after-it-was-announced",
     "https://www.ign.com/articles/were-in-a-completely-different-era-of-star-wars-now-lucasfilm-boss-dave-filoni-says-the-mandalorian-and-grogu-doesnt-carry-the-burden-episode-vii-did",
     "https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-is-bringing-back-chrono-rush-among-other-fixes-in-its-latest-patch-with-no-cap-on-how-many-points-you-can-earn/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/stray-children-treasure-box-physical-edition-launches-december-10-in-japan",
     "https://www.nintendolife.com/news/2026/07/xenoblade-chronicles-2-switch-2-edition-overview-reveals-new-pyra-and-mythra-outfits-merc-assault-and-momo",
     "https://www.gematsu.com/2026/07/crime-solving-party-game-batman-caped-crusader-chronicles-announced-for-luna",
-    "https://www.pushsquare.com/news/2026/07/my-most-anticipated-train-sim-world-6-route-is-finally-almost-out-on-ps5"
+    "https://www.pushsquare.com/news/2026/07/my-most-anticipated-train-sim-world-6-route-is-finally-almost-out-on-ps5",
+    "https://www.nintendolife.com/news/2026/07/uniqlo-launches-new-pokemon-30th-anniversary-t-shirt-collection",
+    "https://www.videogameschronicle.com/news/the-xbox-series-x-s-version-of-avatar-legends-the-fighting-game-has-been-delayed-just-hours-before-release/",
+    "https://www.pushsquare.com/news/2026/07/prime-yourself-for-marvels-wolverine-on-ps5-with-this-prequel-comic",
+    "https://www.gematsu.com/2026/07/sombras-negative-frames-launches-december-3"
   ],
   "seen_titles": [
-    "damon and baby demo launches march 19",
-    "how disney updated the elsa, anna, and kristoff audio-animatronics figures in walt disney world's frozen ever after for the first time in forever",
-    "capcom spotlight march 2026: everything announced",
-    "the pokémon company issues another objection after the trump administration used its ip for political meme — again",
     "‘it is still in development. that's all i can say’ — star wars: knights of the old republic remake dev issues update 5 years after it was announced",
     "'we're in a completely different era of star wars now' — lucasfilm boss dave filoni says the mandalorian and grogu doesn't carry the burden episode vii did",
     "marvel rivals is bringing back chrono rush, among other fixes, in its latest patch: 'with no cap on how many points you can earn'",
@@ -10001,13 +9997,13 @@
     "stray children ‘treasure box’ physical edition launches december 10 in japan",
     "xenoblade chronicles 2 - switch 2 edition overview reveals new pyra & mythra outfits, merc assault and momo",
     "crime-solving party game batman: caped crusader – chronicles announced for luna",
-    "my most anticipated 'train sim world 6' route is finally almost out on ps5"
+    "my most anticipated 'train sim world 6' route is finally almost out on ps5",
+    "uniqlo launches new pokémon 30th anniversary t-shirt collection",
+    "the xbox series x/s version of avatar legends: the fighting game has been delayed just hours before release",
+    "prime yourself for marvel's wolverine on ps5 with this prequel comic",
+    "sombras: negative frames launches december 3"
   ],
   "seen_story_keys": [
-    "6622b554e10819c02b16dd317ce7b8851240b69e",
-    "1aef4f1c05db34c536fff1537ae5c35b7d8552c7",
-    "d9b2291823f781f8ae5ed0f4d4b2e8957cbf9a78",
-    "01eae416206c2b76305b9a3e25603023eba711cb",
     "063c66cc2a9503f6f81eb14a56a07ad19311171b",
     "15ef70d2cbb77aab0bfab0a30bbebc615a2a96d6",
     "bcf5ad1b9c160b156c42e3139f61e183b3c079c6",
@@ -15003,6 +14999,10 @@
     "268cfeb204b12e076abdb233ec9b0884a48badde",
     "52fd9e9d86a022a7780c243ba6d4f05eb66f270a",
     "879c615a469a8f9719ba8292562c99027ec333df",
-    "8e727488814e72f42d89f5b6c965cdd28808a190"
+    "8e727488814e72f42d89f5b6c965cdd28808a190",
+    "4c0ad6a265464d1413edc0cb730c3a55d47c7891",
+    "7a70563951f64823c1215acf056213e812c7b455",
+    "2d89d3ea3862f1a7c420d5181e2880c25b64841f",
+    "19ef39cb4572dffa3ae0469defd097e53c5b3060"
   ]
 }
