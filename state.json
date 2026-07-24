@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/rustil-eternal-labyrinth-castle-launches-march-13",
-    "https://www.bluesnews.com/s/295268/evening-patches",
-    "https://www.bluesnews.com/s/295267/buffs-nerfs-and-bugs",
-    "https://www.gamespot.com/articles/marathon-players-report-keeping-server-slam-loot-in-full-game/1100-6538620/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/03/pragmata-release-date-moved-up-to-april-17",
     "https://www.gamespot.com/articles/resident-evil-requiem-actor-has-seen-all-of-your-leon-memes/1100-6538614/?ftag=CAD-01-10abi2f",
     "https://www.ign.com/articles/slay-the-spire-2-launches-immediately-shatters-a-concurrent-player-record-on-steam",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/alpha-nomos-adds-ps5-xbox-series-versions",
     "https://www.gematsu.com/2026/07/dodo-duckie-coming-to-ps5-switch-in-2026",
     "https://www.pushsquare.com/news/2026/07/horizon-ps5-remaster-updated-for-probable-ps6-handheld-support",
-    "https://www.gamesindustry.biz/now-luna-is-integrated-into-prime-video-amazon-sees-potential-for-gaming-to-expand-beyond-pc-and-console-that-pie-isnt-really-growing"
+    "https://www.gamesindustry.biz/now-luna-is-integrated-into-prime-video-amazon-sees-potential-for-gaming-to-expand-beyond-pc-and-console-that-pie-isnt-really-growing",
+    "https://gamerant.com/marvels-wolverine-suits-tokon-fighting-souls/",
+    "https://www.ign.com/articles/house-of-the-dragon-larys-strong-actor-matthew-needham-voices-joker-in-batman-caped-crusader-season-2-comic-con-2026",
+    "https://gamerant.com/batman-caped-crusader-chronicles-reveal-trailer-release-date/",
+    "https://www.ign.com/articles/amazon-prime-has-an-exclusive-batman-video-game-set-to-launch-alongside-batman-caped-crusader-season-2-comic-con-2026"
   ],
   "seen_titles": [
-    "rustil: eternal labyrinth castle launches march 13",
-    "evening patches",
-    "buffs, nerfs, and bugs",
-    "marathon players report keeping server-slam loot in full game",
     "pragmata release date moved up to april 17",
     "resident evil requiem actor has seen all of your leon memes",
     "slay the spire 2 launches, immediately shatters a concurrent player record on steam",
@@ -10001,13 +9997,13 @@
     "alpha nomos adds ps5, xbox series versions",
     "dodo duckie! coming to ps5, switch in 2026",
     "horizon ps5 remaster updated for probable ps6 handheld support",
-    "inside amazon's plan to unite games, movies and tv – including \"more games in development than at any point in our history\""
+    "inside amazon's plan to unite games, movies and tv – including \"more games in development than at any point in our history\"",
+    "wolverine ps5 game reveals brand-new suit",
+    "house of the dragon larys strong actor matthew needham voices joker in batman: caped crusader season 2 | comic con 2026",
+    "new batman co-op detective game announced for july 31",
+    "amazon prime has an exclusive batman video game set to launch alongside batman: caped crusader season 2 | comic con 2026"
   ],
   "seen_story_keys": [
-    "d2a01ed156f5ca3ed773dceaf24ccd61461d78a1",
-    "0c9a121cdc3a8f0602f802b215d9bd60f030aa34",
-    "99473f62076f11a250393806db8900839b255c75",
-    "bb6a26e5b904faa154a908ce5d765c6e92f6ac0d",
     "1c7d65d736ffe3da6722b677ca974c15a849fb26",
     "e0f68dcf11dbae222cb0655667aa7124302dec88",
     "23a4d53a87754a3d71489593bea64b2004d13037",
@@ -15003,6 +14999,10 @@
     "918eaf9177e932715410f62aab8c8c0c6e3710aa",
     "09a2b2f87971551b798fd2959486e73f44511d63",
     "d4c6af6826654375db734bd3ad4401e2099342a7",
-    "981135c16b7d67e9c7b2f8d45669eb6a8de2272a"
+    "981135c16b7d67e9c7b2f8d45669eb6a8de2272a",
+    "a7b3c87056dd7f42327e69e6966013214ba7f40b",
+    "a8c9015aa77f5b605fb7292dc7954a61c30779c7",
+    "499eb002c2b50a2487333c76b4bb10ab048acdf5",
+    "b3af5f9d4d203f63ae12acbb899a446182084fcb"
   ]
 }
