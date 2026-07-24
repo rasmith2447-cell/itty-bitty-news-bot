@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/after-5-years-star-wars-knights-of-the-old-republic-remake-gets-an-11-word-update/1100-6538626/?ftag=CAD-01-10abi2f",
-    "https://www.gamespot.com/articles/nintendo-direct-for-mario-galaxy-movie-coming-soon-as-yoshi-popcorn-bucket-revealed/1100-6538627/?ftag=CAD-01-10abi2f",
-    "https://www.videogameschronicle.com/news/nintendo-confirms-new-mario-movie-direct-reveals-deep-cut-villains/",
-    "https://www.bluesnews.com/s/295308/ruiner-2-announced",
     "https://www.bluesnews.com/s/295305/lost-and-found-co-released",
     "https://www.bluesnews.com/s/295295/morning-patches",
     "https://www.nintendolife.com/news/2026/03/psa-stardew-valley-nintendo-switch-2-edition-is-now-live-in-europe",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/new-kingdom-come-deliverance-game-kcd-salvation-trademark/",
     "https://www.purexbox.com/news/2026/07/it-sure-sounds-like-xbox-360-games-are-coming-to-backwards-compatibility-on-pc",
     "https://www.eurogamer.net/psn-network-down-login-failure",
-    "https://www.videogameschronicle.com/news/previously-cancelled-age-of-empires-3-dlc-expansion-has-been-re-announced-and-releases-in-september/"
+    "https://www.videogameschronicle.com/news/previously-cancelled-age-of-empires-3-dlc-expansion-has-been-re-announced-and-releases-in-september/",
+    "https://www.ign.com/articles/tomb-raider-catalyst-delay-to-2028-confirmed-by-amazon-games-boss",
+    "https://www.ign.com/articles/sonys-nightmare-month-gets-worse-as-playstation-network-goes-down-leaving-fans-unable-to-play-digital-games-just-weeks-after-killing-disc-controversy-erupted",
+    "https://www.eurogamer.net/microsoft-age-of-empires-3-dlc-uncancelled",
+    "https://www.eurogamer.net/kingdom-come-salvation-trademark-filing"
   ],
   "seen_titles": [
-    "after 5 years, star wars: knights of the old republic remake gets an 11-word update",
-    "nintendo direct for mario galaxy movie coming soon, as yoshi popcorn bucket revealed",
-    "nintendo confirms new mario movie direct, reveals deep-cut villains",
-    "ruiner 2 announced",
     "lost and found co. released",
     "morning patches",
     "psa: stardew valley - nintendo switch 2 edition is now live in europe",
@@ -10001,13 +9997,13 @@
     "new kingdom come game title finally revealed by trademark",
     "it sure sounds like xbox 360 games are coming to backwards compatibility on pc",
     "playstation network down, as tens of thousands of players queue to play marvel tokon fighting souls newly-launched beta",
-    "previously cancelled age of empires 3 dlc expansion has been re-announced and releases in september"
+    "previously cancelled age of empires 3 dlc expansion has been re-announced and releases in september",
+    "tomb raider: catalyst delay to 2028 confirmed by amazon games boss",
+    "sony's nightmare month gets worse as playstation network goes down — leaving fans unable to play digital games just weeks after killing disc controversy erupted",
+    "amid the recent xbox devastation, microsoft is seemingly uncancelling something, which is good news for age of empires 3 fans at least",
+    "kingdom come salvation may be the next medieval rpg from warhorse, and it could have some sort of multi-player functionality, too"
   ],
   "seen_story_keys": [
-    "e7af28467bb5c36ffc931464c7ec839f9bad69fa",
-    "9538206861b8f7790828963a317f3fd75d685033",
-    "4af41c4d60b67f9e992ed38f19d5257b4dd1c607",
-    "82539629add128c18abe7b78bf48fcbbff90e793",
     "922295d4ae45e7ac176041208302f461ba7fec92",
     "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
     "74c7df3086066cefa54f4e377b80255778230253",
@@ -15003,6 +14999,10 @@
     "6558a28bcf6be1ba061508b2e2bbe7f7630357eb",
     "8fbf13d3bcd290277bbf2dee213546b7e223405d",
     "342e120d611b4d23e829839af91efa87c1e5cf41",
-    "c355187e987cede2615cbcf1d21eeabf68bac9a7"
+    "c355187e987cede2615cbcf1d21eeabf68bac9a7",
+    "643011b042acc6b5af052a15b3e82d5d840427f2",
+    "e617947429fed3f4cf90921674f7675cd1d98e4c",
+    "c2786c1649dd89c5ddf70af004246428450b338e",
+    "b1e3f714f4760e1a84d4438e028d52aa02dad7c4"
   ]
 }
