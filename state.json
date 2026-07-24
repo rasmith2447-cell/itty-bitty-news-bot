@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/it-is-still-in-development-thats-all-i-can-say-star-wars-knights-of-the-old-republic-remake-dev-issues-update-5-years-after-it-was-announced",
-    "https://www.ign.com/articles/were-in-a-completely-different-era-of-star-wars-now-lucasfilm-boss-dave-filoni-says-the-mandalorian-and-grogu-doesnt-carry-the-burden-episode-vii-did",
-    "https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-is-bringing-back-chrono-rush-among-other-fixes-in-its-latest-patch-with-no-cap-on-how-many-points-you-can-earn/",
-    "https://www.videogameschronicle.com/news/robocop-rogue-city-on-steam-briefly-replaced-by-a-seemingly-early-build-of-an-unannounced-hunter-the-reckoning-game/",
     "https://www.gematsu.com/2026/03/soulmask-launches-april-10-alongside-dlc-shifting-sands",
     "https://www.ign.com/articles/slay-the-spire-2-dev-never-thought-it-would-actually-pass-marathon-in-steam-concurrents-says-congratulations-post-seems-a-bit-meaner-than-intended",
     "https://www.nintendolife.com/news/2026/03/nintendo-direct-for-the-super-mario-galaxy-movie-announced",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/07/uniqlo-launches-new-pokemon-30th-anniversary-t-shirt-collection",
     "https://www.videogameschronicle.com/news/the-xbox-series-x-s-version-of-avatar-legends-the-fighting-game-has-been-delayed-just-hours-before-release/",
     "https://www.pushsquare.com/news/2026/07/prime-yourself-for-marvels-wolverine-on-ps5-with-this-prequel-comic",
-    "https://www.gematsu.com/2026/07/sombras-negative-frames-launches-december-3"
+    "https://www.gematsu.com/2026/07/sombras-negative-frames-launches-december-3",
+    "https://www.videogameschronicle.com/news/marvel-tokon-fighting-souls-open-beta-available-now-on-pc-and-ps5/",
+    "https://www.nintendolife.com/news/2026/07/star-racer-confirmed-for-switch-is-the-closest-were-getting-to-a-new-f-zero",
+    "https://www.rockpapershotgun.com/thwack-the-marvel-tokon-fighting-souls-open-beta-is-underway-and-pow-phoenix-cyclops-is-coming-as-a-post-launch-dlc-fighter",
+    "https://www.ign.com/articles/one-day-im-sure-spider-man-brand-new-day-star-tom-holland-teases-venom-symbiote"
   ],
   "seen_titles": [
-    "‘it is still in development. that's all i can say’ — star wars: knights of the old republic remake dev issues update 5 years after it was announced",
-    "'we're in a completely different era of star wars now' — lucasfilm boss dave filoni says the mandalorian and grogu doesn't carry the burden episode vii did",
-    "marvel rivals is bringing back chrono rush, among other fixes, in its latest patch: 'with no cap on how many points you can earn'",
-    "robocop rogue city on steam briefly replaced by a seemingly early build of an unannounced hunter: the reckoning game",
     "soulmask launches april 10 alongside dlc ‘shifting sands’",
     "slay the spire 2 dev never thought it would actually pass marathon in steam concurrents, says congratulations post ‘seems a bit meaner than intended’",
     "nintendo direct for the super mario galaxy movie announced",
@@ -10001,13 +9997,13 @@
     "uniqlo launches new pokémon 30th anniversary t-shirt collection",
     "the xbox series x/s version of avatar legends: the fighting game has been delayed just hours before release",
     "prime yourself for marvel's wolverine on ps5 with this prequel comic",
-    "sombras: negative frames launches december 3"
+    "sombras: negative frames launches december 3",
+    "marvel tokon: fighting souls open beta available now on pc and ps5",
+    "star racer, confirmed for switch, is the closest we're getting to a new f-zero",
+    "thwack, the marvel tokon: fighting souls open beta is underway, and, pow, phoenix cyclops is coming as a post-launch dlc fighter",
+    "'one day, i'm sure': spider-man: brand new day star tom holland teases venom symbiote"
   ],
   "seen_story_keys": [
-    "063c66cc2a9503f6f81eb14a56a07ad19311171b",
-    "15ef70d2cbb77aab0bfab0a30bbebc615a2a96d6",
-    "bcf5ad1b9c160b156c42e3139f61e183b3c079c6",
-    "8107bd7f3f4b11109577e3d9a562997de4419fa3",
     "9f8a0cb1fd45f4a8fbd799ffd10a04ded9af72dc",
     "727916e0aca14fae56252d8b2f9da3fafd442541",
     "6601f2302fa4dc679f05a6a026c19b0202ba3183",
@@ -15003,6 +14999,10 @@
     "4c0ad6a265464d1413edc0cb730c3a55d47c7891",
     "7a70563951f64823c1215acf056213e812c7b455",
     "2d89d3ea3862f1a7c420d5181e2880c25b64841f",
-    "19ef39cb4572dffa3ae0469defd097e53c5b3060"
+    "19ef39cb4572dffa3ae0469defd097e53c5b3060",
+    "3877b24464f6a2f933217d0584df825c76d59663",
+    "bb4387cdc8ffc95ca67c7d750323ea909e1d0f37",
+    "7e8a10285833f3447a5a0ee50bd4bc40dcc517d6",
+    "b57c73c43c05dfa5f154e05b27d2f71d184250b3"
   ]
 }
