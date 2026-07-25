@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/valve-stands-firm-the-steam-machine-will-launch-in-2026-memory-and-storage-shortages-still-challenging-updated",
-    "https://www.ign.com/articles/bungie-responds-quickly-to-marathon-microtransactions-backlash-first-patch-will-make-the-game-slightly-easier",
-    "https://www.pcgamer.com/games/fps/elder-scrolls-wannabe-tainted-grail-the-fall-of-avalon-gets-a-huge-update-overhauling-its-weaker-third-act-with-new-locations-quests-enemies-and-more/",
-    "https://www.pcgamer.com/games/fps/i-was-pleasantly-surprised-by-this-bioshock-coded-roguelike-fps-and-its-latest-update-adding-a-speargun-has-me-yearning-to-dive-back-in/",
     "https://www.pcgamer.com/games/city-builder/you-can-play-cities-skylines-for-free-this-weekend-ahead-of-the-launch-of-its-first-expansion-in-2-years/",
     "https://www.pcgamer.com/games/card-games/slay-the-spire-2-dev-compared-it-to-unexciting-chicken-noodle-soup-before-its-extraordinary-launch-but-it-turns-out-people-really-really-like-their-soup/",
     "https://www.pcgamer.com/games/resident-evil/to-celebrate-the-launch-of-resident-evil-requiem-ive-cooked-up-a-bone-chilling-challenge-for-you-how-many-resident-evil-games-can-you-name-in-3-minutes/",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/tomb-raider-catalyst-delayed-to-2028/",
     "https://www.ign.com/articles/next-kratos-led-god-of-war-game-is-coming-after-laufey-and-connects-directly-to-her-story-comic-con-2026",
     "https://www.nintendolife.com/news/2026/07/baten-kaitos-remaster-dev-helped-out-with-xenoblade-chronicles-switch-2-edition",
-    "https://gamerant.com/god-of-war-kratos-after-laufey/"
+    "https://gamerant.com/god-of-war-kratos-after-laufey/",
+    "https://www.polygon.com/god-of-war-laufey-release-date/",
+    "https://gamerant.com/007-first-light-beyond-enemy-lines-update-free-dlc-patch-notes/",
+    "https://www.nintendolife.com/news/2026/07/final-fantasy-xiv-online-releases-for-switch-2-on-4th-august-2026",
+    "https://www.gematsu.com/2026/07/final-fantasy-xiv-evercold-expansion-extended-teaser-trailer-and-latest-details-switch-2-version-launches-august-4"
   ],
   "seen_titles": [
-    "valve stands firm the steam machine will launch in 2026 despite delays, 'memory and storage shortages' still challenging [updated]",
-    "bungie responds quickly to marathon microtransactions backlash, first patch will make the game slightly easier",
-    "elder scrolls wannabe tainted grail: the fall of avalon gets a 'huge' update overhauling its weaker third act with new locations, quests, enemies and more",
-    "i was pleasantly surprised by this bioshock-coded roguelike fps, and its latest update adding a speargun has me yearning to dive back in",
     "you can play cities: skylines for free this weekend, ahead of the launch of its first expansion in 2 years",
     "slay the spire 2 dev compared it to unexciting 'chicken noodle soup' before its extraordinary launch, but it turns out people really, really like their soup",
     "to celebrate the launch of resident evil requiem, i've cooked up a bone-chilling challenge for you—how many resident evil games can you name in 3 minutes?",
@@ -10001,13 +9997,13 @@
     "amazon pushes back tomb raider: catalyst's release day to 2028",
     "next kratos-led god of war game is coming after laufey, and connects directly to her story | comic con 2026",
     "baten kaitos remaster dev helped out with xenoblade chronicles' switch 2 edition",
-    "new god of war game with kratos officially announced"
+    "new god of war game with kratos officially announced",
+    "god of war laufey release date adds to a crowded february 2027 game lineup",
+    "massive 007 first light beyond enemy lines update adds first batch of free dlc",
+    "final fantasy xiv online releases for switch 2 on 4th august 2026",
+    "final fantasy xiv: evercold expansion extended teaser trailer and latest details, switch 2 version launches august 4"
   ],
   "seen_story_keys": [
-    "f8a762acdace698423f1c3350e1b4f6a1faf9aed",
-    "4eaef046d9960d5f5ce9b16c301ee001f6782851",
-    "f627a605b4e56bc5ec7fb6e0703c383c2a56fd28",
-    "362ac1ef9e7364ca30dd8e46c504e23da42c003c",
     "01d40d66c5b60636ffeb8ac5f9f85325751d8e3f",
     "b105fe5679dc69c76ed46e7fba6d6e2b64da2f8d",
     "bc85a5fd9452dc4d4f4f60f2e92d80c271e81725",
@@ -15003,6 +14999,10 @@
     "411fbe41ec36ebe1f7f27b17b3907127c4578860",
     "90aa95895e6c0524bd89dbb50c4be92c354916f7",
     "07281ee4b23b4e4e9d37d389d15b92036e9e4afc",
-    "3d18eb58ff8eaa146ef336a31e5fc4ac9398ce0e"
+    "3d18eb58ff8eaa146ef336a31e5fc4ac9398ce0e",
+    "d6c1ec93ba425610aeb466d88b14d2c8166822b4",
+    "397a2a90d0d745ca559df6719383d08748723891",
+    "1c25fb61c622b32145c5eaa631b4e149cfe0fc05",
+    "8c482249a45a5c372cbadc23fe6efe744a13f13b"
   ]
 }
