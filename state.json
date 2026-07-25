@@ -1,6 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/03/super-mario-run-gets-a-super-mario-bros-wonder-event",
     "https://www.ign.com/articles/valve-stands-firm-the-steam-machine-will-launch-in-2026-memory-and-storage-shortages-still-challenging-updated",
     "https://www.ign.com/articles/bungie-responds-quickly-to-marathon-microtransactions-backlash-first-patch-will-make-the-game-slightly-easier",
     "https://www.pcgamer.com/games/fps/elder-scrolls-wannabe-tainted-grail-the-fall-of-avalon-gets-a-huge-update-overhauling-its-weaker-third-act-with-new-locations-quests-enemies-and-more/",
@@ -4999,10 +4998,10 @@
     "https://www.ign.com/articles/god-of-war-laufey-release-date-announced-comic-con-2026",
     "https://www.polygon.com/tomb-raider-catalyst-delayed-to-2028/",
     "https://www.ign.com/articles/next-kratos-led-god-of-war-game-is-coming-after-laufey-and-connects-directly-to-her-story-comic-con-2026",
-    "https://www.nintendolife.com/news/2026/07/baten-kaitos-remaster-dev-helped-out-with-xenoblade-chronicles-switch-2-edition"
+    "https://www.nintendolife.com/news/2026/07/baten-kaitos-remaster-dev-helped-out-with-xenoblade-chronicles-switch-2-edition",
+    "https://gamerant.com/god-of-war-kratos-after-laufey/"
   ],
   "seen_titles": [
-    "super mario run gets a super mario bros. wonder event",
     "valve stands firm the steam machine will launch in 2026 despite delays, 'memory and storage shortages' still challenging [updated]",
     "bungie responds quickly to marathon microtransactions backlash, first patch will make the game slightly easier",
     "elder scrolls wannabe tainted grail: the fall of avalon gets a 'huge' update overhauling its weaker third act with new locations, quests, enemies and more",
@@ -10001,10 +10000,10 @@
     "god of war laufey release date announced | comic con 2026",
     "amazon pushes back tomb raider: catalyst's release day to 2028",
     "next kratos-led god of war game is coming after laufey, and connects directly to her story | comic con 2026",
-    "baten kaitos remaster dev helped out with xenoblade chronicles' switch 2 edition"
+    "baten kaitos remaster dev helped out with xenoblade chronicles' switch 2 edition",
+    "new god of war game with kratos officially announced"
   ],
   "seen_story_keys": [
-    "ef8a54f69187b4821790f9c001232d1df732739a",
     "f8a762acdace698423f1c3350e1b4f6a1faf9aed",
     "4eaef046d9960d5f5ce9b16c301ee001f6782851",
     "f627a605b4e56bc5ec7fb6e0703c383c2a56fd28",
@@ -15003,6 +15002,7 @@
     "d041ce2755c4038505ec49e4a3333bbb51c696d1",
     "411fbe41ec36ebe1f7f27b17b3907127c4578860",
     "90aa95895e6c0524bd89dbb50c4be92c354916f7",
-    "07281ee4b23b4e4e9d37d389d15b92036e9e4afc"
+    "07281ee4b23b4e4e9d37d389d15b92036e9e4afc",
+    "3d18eb58ff8eaa146ef336a31e5fc4ac9398ce0e"
   ]
 }
