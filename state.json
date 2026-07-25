@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/hardware/valve-still-hopes-to-ship-steam-machines-in-2026-but-a-delay-into-2027-is-starting-to-look-like-a-real-possibility-memory-and-storage-shortages-have-created-challenges-for-us/",
-    "https://www.gematsu.com/2026/03/south-of-midnight-for-ps5-switch-2-launches-march-31",
-    "https://www.nintendolife.com/news/2026/03/xbox-is-bringing-another-game-to-switch-2-later-this-month",
-    "https://www.nintendolife.com/news/2026/03/fatal-frame-ii-crimson-butterfly-remake-switch-2-demo-now-available",
     "https://www.bluesnews.com/s/295327/heart-of-the-machine-officially-launches",
     "https://www.bluesnews.com/s/295322/evening-patches",
     "https://www.bluesnews.com/s/295319/easter-eggs",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/crimson-desert-patch-notes-update-july-23/",
     "https://www.ign.com/articles/marvel-comics-makes-eddie-brock-venom-again-comic-con-2026",
     "https://www.gamespot.com/articles/tomb-raider-catalyst-quietly-gets-delayed-to-2028/",
-    "https://www.pushsquare.com/news/2026/07/007-first-light-updated-with-new-tacsim-missions-available-now-on-ps5"
+    "https://www.pushsquare.com/news/2026/07/007-first-light-updated-with-new-tacsim-missions-available-now-on-ps5",
+    "https://www.videogameschronicle.com/news/playstation-confirms-god-of-war-laufey-release-date-and-return-of-kratos-in-next-game/",
+    "https://www.polygon.com/new-god-of-war-game-announced-kratos-laufey-release-date/",
+    "https://www.gematsu.com/2026/07/god-of-war-laufey-launches-february-16-2027",
+    "https://www.ign.com/articles/god-of-war-laufey-release-date-announced-comic-con-2026"
   ],
   "seen_titles": [
-    "valve still 'hopes' to ship steam machines in 2026, but a delay into 2027 is starting to look like a real possibility: 'memory and storage shortages have created challenges for us'",
-    "south of midnight for ps5, switch 2 launches march 31",
-    "xbox is bringing another game to switch 2 later this month",
-    "fatal frame ii: crimson butterfly remake switch 2 demo now available",
     "heart of the machine officially launches",
     "evening patches",
     "easter eggs",
@@ -10001,13 +9997,13 @@
     "crimson desert releases patch notes for update 1.15",
     "marvel comics makes eddie brock venom again | comic con 2026",
     "tomb raider catalyst quietly gets delayed to 2028",
-    "007 first light updated with new tacsim missions, available now on ps5"
+    "007 first light updated with new tacsim missions, available now on ps5",
+    "playstation confirms god of war laufey release date and return of kratos in next game",
+    "new god of war game starring kratos announced at comic-con",
+    "god of war laufey launches february 16, 2027",
+    "god of war laufey release date announced | comic con 2026"
   ],
   "seen_story_keys": [
-    "e5f1cab25f2269853bbe4cce547c528e06666ab8",
-    "41f66cfcf2190c85c2dd684f0ade2000fdfcf938",
-    "2a9326fa060c7a263db1309b91d98d5e1380c93b",
-    "6fb69aee3bed5f9240b1fffa73832ec6f6c37986",
     "dd185a96efc74be174a29b0c3522d62ce1f31590",
     "0c9a121cdc3a8f0602f802b215d9bd60f030aa34",
     "fb59529ed08237f51a965e605eb9fc38e3e62d65",
@@ -15003,6 +14999,10 @@
     "f245b79a89350c5ae96285d0400c07b7b97f0c14",
     "656729c21c0ff692b1e43e65012030f60ba86de3",
     "c430626f0a58fdca80d4d3e866e61b155f9328a9",
-    "3b249dfcf13861902ab1f917844b43830d3b3a0b"
+    "3b249dfcf13861902ab1f917844b43830d3b3a0b",
+    "0988c125821ba3490e38851ce376bed2483da0e8",
+    "1a0733e16497d72b9db057ebc111069e0b27cddc",
+    "3199201f21491aee7e8e0dd75fabd446cb9b7c07",
+    "d041ce2755c4038505ec49e4a3333bbb51c696d1"
   ]
 }
