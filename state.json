@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295327/heart-of-the-machine-officially-launches",
-    "https://www.bluesnews.com/s/295322/evening-patches",
     "https://www.bluesnews.com/s/295319/easter-eggs",
     "https://www.nintendolife.com/news/2026/03/super-mario-run-gets-a-super-mario-bros-wonder-event",
     "https://www.ign.com/articles/valve-stands-firm-the-steam-machine-will-launch-in-2026-memory-and-storage-shortages-still-challenging-updated",
@@ -4999,11 +4997,11 @@
     "https://www.videogameschronicle.com/news/playstation-confirms-god-of-war-laufey-release-date-and-return-of-kratos-in-next-game/",
     "https://www.polygon.com/new-god-of-war-game-announced-kratos-laufey-release-date/",
     "https://www.gematsu.com/2026/07/god-of-war-laufey-launches-february-16-2027",
-    "https://www.ign.com/articles/god-of-war-laufey-release-date-announced-comic-con-2026"
+    "https://www.ign.com/articles/god-of-war-laufey-release-date-announced-comic-con-2026",
+    "https://www.polygon.com/tomb-raider-catalyst-delayed-to-2028/",
+    "https://www.ign.com/articles/next-kratos-led-god-of-war-game-is-coming-after-laufey-and-connects-directly-to-her-story-comic-con-2026"
   ],
   "seen_titles": [
-    "heart of the machine officially launches",
-    "evening patches",
     "easter eggs",
     "super mario run gets a super mario bros. wonder event",
     "valve stands firm the steam machine will launch in 2026 despite delays, 'memory and storage shortages' still challenging [updated]",
@@ -10001,11 +9999,11 @@
     "playstation confirms god of war laufey release date and return of kratos in next game",
     "new god of war game starring kratos announced at comic-con",
     "god of war laufey launches february 16, 2027",
-    "god of war laufey release date announced | comic con 2026"
+    "god of war laufey release date announced | comic con 2026",
+    "amazon pushes back tomb raider: catalyst's release day to 2028",
+    "next kratos-led god of war game is coming after laufey, and connects directly to her story | comic con 2026"
   ],
   "seen_story_keys": [
-    "dd185a96efc74be174a29b0c3522d62ce1f31590",
-    "0c9a121cdc3a8f0602f802b215d9bd60f030aa34",
     "fb59529ed08237f51a965e605eb9fc38e3e62d65",
     "ef8a54f69187b4821790f9c001232d1df732739a",
     "f8a762acdace698423f1c3350e1b4f6a1faf9aed",
@@ -15003,6 +15001,8 @@
     "0988c125821ba3490e38851ce376bed2483da0e8",
     "1a0733e16497d72b9db057ebc111069e0b27cddc",
     "3199201f21491aee7e8e0dd75fabd446cb9b7c07",
-    "d041ce2755c4038505ec49e4a3333bbb51c696d1"
+    "d041ce2755c4038505ec49e4a3333bbb51c696d1",
+    "411fbe41ec36ebe1f7f27b17b3907127c4578860",
+    "90aa95895e6c0524bd89dbb50c4be92c354916f7"
   ]
 }
