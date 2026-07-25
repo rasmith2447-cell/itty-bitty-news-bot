@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295343/saturday-patches",
-    "https://www.bluesnews.com/s/295339/saturday-consolidation",
     "https://www.pcgamer.com/hardware/valve-quickly-updates-its-own-steam-machine-update-recommitting-to-a-2026-launch-despite-ai-woes-nothings-really-changed-on-our-end/",
     "https://www.nintendolife.com/news/2026/03/yoshi-popcorn-bucket-announced-for-the-super-mario-galaxy-movie",
     "https://www.pcgamer.com/games/survival-crafting/the-sci-fi-survival-game-from-the-creator-of-dayz-heads-to-space-skyrim-in-its-latest-dlc-accompanied-by-a-free-update-that-adds-oil-processing-and-chainsaws/",
@@ -4999,11 +4997,11 @@
     "https://www.nintendolife.com/news/2026/07/castlevania-belmonts-curse-will-run-at-30fps-on-switch",
     "https://www.eurogamer.net/god-of-war-laufey-release-date-confirmed",
     "https://gamerant.com/god-of-war-laufey-release-date/",
-    "https://gamerant.com/new-ps5-games-coming-out-soon-list-august-2026/"
+    "https://gamerant.com/new-ps5-games-coming-out-soon-list-august-2026/",
+    "https://www.eurogamer.net/aliens-fireteam-elite-2-release-date-confirmed",
+    "https://www.ign.com/articles/final-fantasy-14-sets-nintendo-switch-2-release-date-for-early-august"
   ],
   "seen_titles": [
-    "saturday patches",
-    "saturday consolidation",
     "valve quickly updates its own steam machine update, recommitting to a 2026 launch despite ai woes: 'nothing's really changed on our end'",
     "yoshi popcorn bucket announced for the super mario galaxy movie",
     "the sci-fi survival game from the creator of dayz heads to space skyrim in its latest dlc, accompanied by a free update that adds oil processing and chainsaws",
@@ -10001,11 +9999,11 @@
     "castlevania: belmont's curse will run at 30fps on switch",
     "god of war laufey finally gets a release date - here's when you'll be able to play it",
     "it's official: god of war laufey now has a release date",
-    "ps5 has 10 big new games coming out in august 2026"
+    "ps5 has 10 big new games coming out in august 2026",
+    "aliens: fireteam elite 2 confirms release date and it's closer than you think",
+    "final fantasy 14 sets nintendo switch 2 release date for early august"
   ],
   "seen_story_keys": [
-    "15bdf90fd4b09fa58a9791feb360888a0d43cee0",
-    "9948593122705b13c86d743430c9101f95c5ba7d",
     "34b6763f8944c8c30679de0b0e3df87981fcc839",
     "bc5c38ed02eb3444af5c941a1d3e7adaf9bd9a71",
     "bf823a9b7f6db24f67fa50da9435980fff3ee19e",
@@ -15003,6 +15001,8 @@
     "afbd109c0ddc1332fdeb2fe55e7e3deb26de3504",
     "090cb2f17dd6ccd39cf3dba691492c6ea348805a",
     "8b26a1784af880c4293ca4d1e284eacec057a499",
-    "e26723a5630385c0e55af10b99ec2625976cc8f7"
+    "e26723a5630385c0e55af10b99ec2625976cc8f7",
+    "22eeee249d5e586befef0b13a917e953e4e438cd",
+    "c33050a92d80fa9000b39c2873fa53ab796cd592"
   ]
 }
