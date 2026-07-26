@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/shinonome-abyss-the-maiden-exorcist-launches-march-26",
-    "https://www.gematsu.com/2026/03/demon-slayer-kimetsu-no-yaiba-the-hinokami-chronicles-2-dlc-character-giyu-tomioka-infinity-castle-launches-march-12",
-    "https://www.gematsu.com/2026/03/g-mode-archives-digital-devil-saga-avatar-tuner-as-test-server-announced-for-switch-pc",
     "https://www.gematsu.com/2026/03/falcom-announces-dragon-slayer-project-for-console",
     "https://www.nintendolife.com/news/2026/03/octopath-traveler-0s-latest-update-is-new-live-on-switch-1-and-2-here-are-the-full-patch-notes",
     "https://www.gamespot.com/articles/harlem-globetrotters-are-getting-their-first-basketball-video-game-in-two-decades/1100-6538654/?ftag=CAD-01-10abi2f",
@@ -4999,12 +4996,12 @@
     "https://www.ign.com/articles/the-most-anticipated-warhammer-40000-animation-ever-finally-has-a-release-date",
     "https://www.ign.com/articles/event-horizon-pandemonium-takes-the-iconic-horror-franchise-from-hell-to-heaven-comic-con-2026",
     "https://www.polygon.com/apple-tv-neuromancer-trailer-2027-release/",
-    "https://www.ign.com/articles/neuromancer-release-date-first-look-revealed-for-apple-tv"
+    "https://www.ign.com/articles/neuromancer-release-date-first-look-revealed-for-apple-tv",
+    "https://www.pcgamer.com/games/adventure/a-classic-giger-inspired-adventure-game-just-got-a-sequel/",
+    "https://www.ign.com/articles/black-panther-3-release-date-confirmed-by-marvel-comic-con-2026",
+    "https://www.ign.com/articles/everything-announced-at-the-marvel-studios-sdcc-panel-comic-con-2026"
   ],
   "seen_titles": [
-    "shinonome abyss: the maiden exorcist launches march 26",
-    "demon slayer: kimetsu no yaiba – the hinokami chronicles 2 dlc character giyu tomioka (infinity castle) launches march 12",
-    "g-mode archives+ digital devil saga: avatar tuner: a’s test server announced for switch, pc",
     "falcom announces dragon slayer project for console",
     "octopath traveler 0's latest update is new live on switch 1 & 2, here are the full patch notes",
     "harlem globetrotters are getting their first basketball video game in two decades",
@@ -10001,12 +9998,12 @@
     "the most anticipated warhammer 40,000 animation ever finally has a release date",
     "event horizon: pandemonium takes the iconic horror franchise from hell to heaven | comic con 2026",
     "apple's neuromancer trailer looks as good as the 42-year-old masterpiece",
-    "neuromancer release date, first look revealed for apple tv"
+    "neuromancer release date, first look revealed for apple tv",
+    "a classic giger-inspired adventure game just got a sequel",
+    "black panther 3 release date confirmed by marvel, with david jonsson cast as t'challa's son | comic con 2026",
+    "everything announced at the marvel studios sdcc panel | comic con 2026"
   ],
   "seen_story_keys": [
-    "30beef9628eb95c74d550c2a811b0bbb090304f6",
-    "cf9312f4df94f3b372670a55eb1d004a6e1c1025",
-    "90aa80d4d211c7eacdf6bdc3fc609dde2a18fd93",
     "c6e39168561cb8523c9c13d0bd0c4e4776a3cbe1",
     "72ba4c4025cc7c08725af2d53455fe7aa45b3b9a",
     "ed86a680ed26a146478f7e7b82c13f5c1058c796",
@@ -15003,6 +15000,9 @@
     "08f903cc4060feb88f3dc6013e54605dc26489c1",
     "258980266b03219e895a98368131bc805e91acc7",
     "0365ac7648309f75f0c34372e1e88e838273058a",
-    "aa9f31f2786a4b4d584cb220a78c25ed98f4172a"
+    "aa9f31f2786a4b4d584cb220a78c25ed98f4172a",
+    "e8dae7dbb5f29f2f1469923b48f490b2537900d6",
+    "66ab8dfcdb367fe3d948e15c870874a662e6dd0a",
+    "ecc336bc8a023ae694e57352a26aac40d9283852"
   ]
 }
