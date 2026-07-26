@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/03/octopath-traveler-0s-latest-update-is-new-live-on-switch-1-and-2-here-are-the-full-patch-notes",
-    "https://www.gamespot.com/articles/harlem-globetrotters-are-getting-their-first-basketball-video-game-in-two-decades/1100-6538654/?ftag=CAD-01-10abi2f",
-    "https://www.nintendolife.com/news/2026/03/octopath-traveler-0s-latest-update-is-now-live-on-switch-1-and-2-here-are-the-full-patch-notes",
     "https://www.ign.com/articles/final-fantasy-7-remake-part-3-director-reveals-gameplay-mechanics-and-locations-fans-can-expect",
     "https://www.pcgamer.com/software/discord-fixes-bug-that-caused-app-to-take-upwards-of-two-whole-minutes-to-launch/",
     "https://www.gematsu.com/2026/03/the-mound-omen-of-cthulhu-launches-july-15",
@@ -4999,12 +4996,12 @@
     "https://www.pcgamer.com/games/adventure/a-classic-giger-inspired-adventure-game-just-got-a-sequel/",
     "https://www.ign.com/articles/black-panther-3-release-date-confirmed-by-marvel-comic-con-2026",
     "https://www.ign.com/articles/everything-announced-at-the-marvel-studios-sdcc-panel-comic-con-2026",
-    "https://www.nintendolife.com/news/2026/07/round-up-final-fantasy-xiv-evercold-extended-teaser-revealed-new-job-and-crossover-raid-series-announced"
+    "https://www.nintendolife.com/news/2026/07/round-up-final-fantasy-xiv-evercold-extended-teaser-revealed-new-job-and-crossover-raid-series-announced",
+    "https://www.pushsquare.com/news/2026/07/if-people-want-it-companies-should-provide-it-rockstar-co-founder-dan-houser-joins-ps5-disc-debate",
+    "https://gamerant.com/new-official-aliens-game-confirmed-august/",
+    "https://www.nintendolife.com/news/2026/07/xenoblade-chronicles-2-nintendo-switch-2-edition-estimated-file-size-revealed"
   ],
   "seen_titles": [
-    "octopath traveler 0's latest update is new live on switch 1 & 2, here are the full patch notes",
-    "harlem globetrotters are getting their first basketball video game in two decades",
-    "octopath traveler 0's latest update is now live on switch 1 & 2, here are the full patch notes",
     "final fantasy 7 remake part 3 director reveals gameplay mechanics and locations fans can expect",
     "discord fixes bug that caused app to take upwards of two whole minutes to launch",
     "the mound: omen of cthulhu launches july 15",
@@ -10001,12 +9998,12 @@
     "a classic giger-inspired adventure game just got a sequel",
     "black panther 3 release date confirmed by marvel, with david jonsson cast as t'challa's son | comic con 2026",
     "everything announced at the marvel studios sdcc panel | comic con 2026",
-    "round up: final fantasy xiv: evercold extended teaser revealed, new job and crossover raid series announced"
+    "round up: final fantasy xiv: evercold extended teaser revealed, new job and crossover raid series announced",
+    "'if people want it, companies should provide it': rockstar co-founder dan houser joins ps5 disc debate",
+    "new official aliens game confirmed for august 25",
+    "xenoblade chronicles 2 - nintendo switch 2 edition estimated file size revealed"
   ],
   "seen_story_keys": [
-    "72ba4c4025cc7c08725af2d53455fe7aa45b3b9a",
-    "ed86a680ed26a146478f7e7b82c13f5c1058c796",
-    "e7a0937e7689f8b2666b1e23e3f134b0b7a58692",
     "dd41b3d2a0d0b35430ffcb0dbf057be2c7429000",
     "8f47a2c28912870ae71bfc7abcde522b7f8bb181",
     "ab6e3ddabbd83d119d94586d0876386b35c1bf63",
@@ -15003,6 +15000,9 @@
     "e8dae7dbb5f29f2f1469923b48f490b2537900d6",
     "66ab8dfcdb367fe3d948e15c870874a662e6dd0a",
     "ecc336bc8a023ae694e57352a26aac40d9283852",
-    "c88175042cf58bbbf03e9842aa29e00b33b6b600"
+    "c88175042cf58bbbf03e9842aa29e00b33b6b600",
+    "94e8d8c3bc156fff30ce281d5aaf73d1e2eaba79",
+    "b0392c95197e4830927303b17dd292df3673ed15",
+    "7da584343c28e6da9bf43f71636d3920bcb79700"
   ]
 }
