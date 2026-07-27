@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/ys-memoire-revelations-in-celceta-launches-april-28-in-the-west",
-    "https://www.pcgamer.com/games/puzzle/you-can-play-big-walk-before-launch-but-only-if-you-take-a-big-walk-to-the-publishers-office-to-play-it-in-person/",
-    "https://www.gematsu.com/2026/03/lous-lagoon-adds-ps5-and-xbox-series-versions-launches-in-2026",
-    "https://www.gamespot.com/articles/project-helix-has-apparently-been-in-the-works-for-more-than-a-decade/1100-6538658/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/microsoft-denies-new-xbox-ceo-has-a-blank-check-but-says-its-investing-in-gamings-future/1100-6538660/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/03/soldner-x-2-final-prototype-definitive-edition-for-switch-launches-may-14",
     "https://www.bluesnews.com/s/295379/morning-patches",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/star-wars-zero-company-collectors-edition/",
     "https://gamerant.com/zenless-zone-zero-zzz-3-1-when-release-date-time-update-maintenance-ends-countdown/",
     "https://www.ign.com/articles/preorder-hasbro-the-legend-of-zelda-figures",
-    "https://www.gematsu.com/2026/07/kimiiro-patra-if-launches-november-26-in-japan-for-ps5-switch-and-pc"
+    "https://www.gematsu.com/2026/07/kimiiro-patra-if-launches-november-26-in-japan-for-ps5-switch-and-pc",
+    "https://www.purexbox.com/news/2026/07/xbox-servers-are-down-again-and-its-stopping-people-playing-games",
+    "https://www.gamesindustry.biz/john-romero-announced-as-keynote-speaker-for-gamescom-asia-x-thailand-game-show",
+    "https://www.pcgamer.com/hardware/vr-hardware/more-bad-news-for-valve-and-its-still-unreleased-steam-frame-as-qualcomm-is-set-to-raise-the-price-of-its-chips-like-everyone-else/",
+    "https://www.purexbox.com/news/2026/07/lara-croft-suffers-another-delay-tomb-raider-catalyst-pushed-to-2028"
   ],
   "seen_titles": [
-    "ys memoire: revelations in celceta launches april 28 in the west",
-    "you can play big walk before launch, but only if you take a big walk to the publisher's office to play it in person",
-    "lou’s lagoon adds ps5 and xbox series versions, launches in 2026",
-    "project helix has apparently been in the works for more than a decade",
     "microsoft denies new xbox ceo has a \"blank check,\" but says it's investing in gaming's future",
     "soldner-x 2: final prototype definitive edition for switch launches may 14",
     "morning patches",
@@ -10001,13 +9997,13 @@
     "new star wars zero company edition officially revealed",
     "zzz 3.1 release date & time countdown (maintenance end time)",
     "preorders are live for hasbro’s the legend of zelda figures – here’s where you can grab them",
-    "kimiiro patra if launches november 26 in japan for ps5, switch, and pc"
+    "kimiiro patra if launches november 26 in japan for ps5, switch, and pc",
+    "xbox servers are down again, and it's stopping people playing games",
+    "john romero announced as keynote speaker for gamescom asia x thailand game show",
+    "more bad news for valve and its still unreleased steam frame as qualcomm is set to raise the price of its chips, like everyone else",
+    "lara croft suffers another delay, tomb raider: catalyst pushed to 2028"
   ],
   "seen_story_keys": [
-    "38b0310682ada3f9ffcc45c7632193aef4e64cd2",
-    "ce627d1dec12e93233667efc7d92335cb1cc19a4",
-    "5af116f46e0c801618f0ec0b1d9290fd5737653b",
-    "dbf31563e792c2ebc1710be33f52b1cb3d78185b",
     "db613681dccc80542043e2d73f3e689dc69391f4",
     "811c5bd498b6c05153ca906b8f29329b4f240e49",
     "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
@@ -15003,6 +14999,10 @@
     "ba1c6567d41a4c10b9ef605d5ebfb1028e57c078",
     "b11708d8a93cc7fdd7ce7296ce258b59908b5a16",
     "4d937511d470a7b3a970a8da6dd73e2c324149b8",
-    "036332219a2c33c3192365d819dfbe315e8190be"
+    "036332219a2c33c3192365d819dfbe315e8190be",
+    "4c953e8ea740343edf16433adedde249734ccd68",
+    "d3ab6be58d2622b1b0b6b8bc4e32bbfd21ec66d8",
+    "4837cc51aaa76e2629afc9e90c0e27214019cfb1",
+    "45c28bf19ffa1ca37a24787972661fca5f9cd6bf"
   ]
 }
