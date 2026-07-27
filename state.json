@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/tainted-grail-update-march-2026/",
-    "https://www.pushsquare.com/news/2026/03/hope-for-digital-devil-saga-remasters-reignited-as-news-of-strange-pc-switch-port-spreads",
-    "https://www.gamesindustry.biz/roblox-launches-two-new-developer-programs-incubator-and-jumpstart-to-support-ambitious-creators-eager-to-build-and-scale",
-    "https://gamerant.com/sims-4-gender-reveal/",
     "https://www.gematsu.com/2026/03/sigma-star-saga-dx-launches-april-7",
     "https://www.polygon.com/steam-honcho-female-character-tofu-update-pc/",
     "https://www.gamespot.com/articles/final-direct-for-the-super-mario-galaxy-movie-has-a-shocking-reveal-of-yoshis-voice-actor/1100-6538677/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/grand-theft-auto-6-ai-slop",
     "https://www.eurogamer.net/xbox-outage-july-2026",
     "https://www.gematsu.com/2026/07/stalker-2-heart-of-chornobyl-expansion-cost-of-hope-launches-august-20",
-    "https://www.rockpapershotgun.com/stalker-2s-cost-of-hope-expansion-and-its-free-but-still-hopeful-20-update-get-an-august-release-date"
+    "https://www.rockpapershotgun.com/stalker-2s-cost-of-hope-expansion-and-its-free-but-still-hopeful-20-update-get-an-august-release-date",
+    "https://www.pushsquare.com/news/2026/07/big-stalker-2-overhaul-coming-20th-august-in-2-0-patch-and-first-dlc",
+    "https://www.gamespot.com/articles/xbox-network-is-down-right-now-microsoft-confirms/",
+    "https://www.videogameschronicle.com/news/xbox-says-its-aware-of-major-outages-when-signing-in-and-launching-games-and-is-working-to-mitigate-the-issue/",
+    "https://www.eurogamer.net/elder-scrolls-6-development-roadmap-unaffected-xbox-layoffs"
   ],
   "seen_titles": [
-    "tainted grail: the fall of avalon just got another major content update",
-    "hope for digital devil saga remasters reignited as news of strange pc, switch port spreads",
-    "roblox launches two new developer programs, incubator and jumpstart, to support \"ambitious creators eager to build and scale\"",
-    "sims 4 gender reveal goes off the rails",
     "sigma star saga dx launches april 7",
     "steam game gets surprising patch after fan says women broke immersion",
     "final direct for the super mario galaxy movie has a shocking reveal of yoshi's voice actor",
@@ -10001,13 +9997,13 @@
     "as grand theft auto 6 hopefuls grow anxious for a gameplay trailer, ai gta 6 slop is getting millions of views on social media",
     "xbox service is down, with outages meaning players can't play any digital or physical games, after similar playstation network issues last week",
     "s.t.a.l.k.e.r. 2: heart of chornobyl expansion ‘cost of hope’ launches august 20",
-    "stalker 2's cost of hope expansion, and its free but still hopeful 2.0 update, get an august release date"
+    "stalker 2's cost of hope expansion, and its free but still hopeful 2.0 update, get an august release date",
+    "big stalker 2 overhaul coming 20th august in 2.0 patch and first dlc",
+    "xbox network is down right now, microsoft confirms",
+    "xbox says it’s aware of ‘major outages’ when signing in and launching games, and is ‘working to mitigate the issue’",
+    "bethesda yet again reassures fans that the elder scrolls 6's roadmap is unaffected by recent xbox layoffs"
   ],
   "seen_story_keys": [
-    "959e4baa2c5e6a5a7d49578fa9d0f472dfa37a54",
-    "bc010cda0f2fa6c1d6a6d14587d9e7eff6c8c977",
-    "f0be021fbe04e2304b9a85514604e32867df7d86",
-    "a1f002349144cc9326a37aaf0f4ff93048e95835",
     "b5ed402eb238922e09f64c351e4545e9b4f2e28b",
     "100f5715fd4b4b6e3faad1280bf4a73e6e10c749",
     "3addebaf7e97bb0f2c3e5c6b28970d929c55e4a6",
@@ -15003,6 +14999,10 @@
     "d078512037a4f09f788e9a68c3ef8e033c0c6a5a",
     "e3cbb02da17bf946c1994839d6b2974d9b03d841",
     "91379814c71e4638124efa2e4c18380e0f490fc7",
-    "4b336132d35360b36dfedc07c1f344c48e54130b"
+    "4b336132d35360b36dfedc07c1f344c48e54130b",
+    "489295dcc7ff24a6e2c5574b25cb480a8b563188",
+    "366119c9d3a92fb312f3088be061aac1b32d61f4",
+    "a4911ac58240e300fd3d36f2d2bd9b1f585d913d",
+    "16160c502af9018dc0ea16097d5c7d2fc55a77bc"
   ]
 }
