@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/03/resident-evil-requiem-gets-a-small-switch-2-update-here-are-the-full-patch-notes",
-    "https://www.gematsu.com/2026/03/kumitantei-old-school-slaughter-episode-1-launches-april-23",
-    "https://www.gematsu.com/2026/03/animalkind-launches-in-early-access-on-march-30",
-    "https://www.gematsu.com/2026/03/blood-refreshed-supply-free-expansion-death-wish-announced",
     "https://www.pcgamer.com/games/fps/battlefield-6-was-the-biggest-launch-in-franchise-history-6-months-later-ea-is-laying-off-people-who-made-it/",
     "https://www.gematsu.com/2026/03/sin-reloaded-launches-in-2026-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc",
     "https://www.ign.com/articles/humble-launches-new-bundle-to-support-esa-foundation",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/twisted-wonderland-season-2-release-date/",
     "https://gamerant.com/xbox-live-outage-downloaded-games/",
     "https://www.polygon.com/stalker-2-cost-of-hope-expansion-release-date/",
-    "https://www.pushsquare.com/news/2026/07/fable-ps5-has-run-uncomfortably-beyond-budget-sources-claim"
+    "https://www.pushsquare.com/news/2026/07/fable-ps5-has-run-uncomfortably-beyond-budget-sources-claim",
+    "https://www.gamesindustry.biz/cyan-reveals-abandoned-prototype-for-new-myst-game-confirms-different-myst-game-is-in-development",
+    "https://www.polygon.com/ps-plus-august-2026-games-ps5/",
+    "https://www.gematsu.com/2026/07/blood-dungeon-adds-switch-2-and-switch-versions-launches-august-25",
+    "https://www.gamesindustry.biz/codedev-launches-optimisation-division-the-performance-guys"
   ],
   "seen_titles": [
-    "resident evil requiem gets a small switch 2 update, here are the full patch notes",
-    "kumitantei: old-school slaughter episode 1 launches april 23",
-    "animalkind launches in early access on march 30",
-    "blood: refreshed supply free expansion ‘death wish’ announced",
     "battlefield 6 was 'the biggest launch in franchise history.' 6 months later, ea is laying off people who made it",
     "sin: reloaded launches in 2026 for ps5, xbox series, ps4, xbox one, switch, and pc",
     "humble launches new bundle to support esa foundation",
@@ -10001,13 +9997,13 @@
     "twisted wonderland, which envisions disney villains as hot anime boys, returning later this year",
     "xbox live services suffering major outage",
     "stalker 2: cost of hope expansion finally has a release date",
-    "fable ps5 has run 'uncomfortably beyond budget', sources claim"
+    "fable ps5 has run 'uncomfortably beyond budget', sources claim",
+    "cyan reveals abandoned prototype for new myst game, confirms different myst game is in development",
+    "ps plus august 2026 games lineup includes a quirky multiplayer game",
+    "blood dungeon adds switch 2 and switch versions, launches august 25",
+    "codedev launches optimisation division the performance guys"
   ],
   "seen_story_keys": [
-    "f5b06c9040397c9f5fd4af9cf51b123a375b573e",
-    "b8256283e3f5bf39494f93e1a7a277db93c61b5f",
-    "d80c6ef1714bc5032ae371fcd66392cbbf075fe1",
-    "11dfc7937ff25a735c4c3e7cc255fae979612887",
     "e5c3b8fadef377185bacfe037a1938bc20f9bc64",
     "62f5270724ac253f23408e4fecb6ab035347b380",
     "d5293da23436540401b9ddec2fd9c67be6ee3c21",
@@ -15003,6 +14999,10 @@
     "770e887471a9805b1363e29608c269644e81c367",
     "1936491bc21e8ea6cb6af48127e95dcb39311f7e",
     "616eca1273408fc3f4b2622d1ffa65168c5870e4",
-    "eae0f9779f59840e332847f542238530a3cc7982"
+    "eae0f9779f59840e332847f542238530a3cc7982",
+    "f7fa17ff4095c6494db6973f24f48afa6edf6932",
+    "89b7e71f6516c97718737eeabfa7797809615e59",
+    "af94dea1f5ce67e6b633141887b5d680b854e514",
+    "8c2a23be3396a417f05f447f36131fc9ca585c8a"
   ]
 }
