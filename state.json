@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/sigma-star-saga-dx-launches-april-7",
-    "https://www.polygon.com/steam-honcho-female-character-tofu-update-pc/",
-    "https://www.gamespot.com/articles/final-direct-for-the-super-mario-galaxy-movie-has-a-shocking-reveal-of-yoshis-voice-actor/1100-6538677/?ftag=CAD-01-10abi2f",
-    "https://www.rockpapershotgun.com/if-we-love-this-work-we-have-to-protect-it-hyper-light-studio-heart-machine-is-now-a-wall-to-wall-union",
     "https://www.nintendolife.com/news/2026/03/veteran-warioware-director-goro-abe-has-left-nintendo",
     "https://www.gamespot.com/articles/a-petri-dish-full-of-human-brain-cells-just-learned-how-to-play-doom/1100-6538671/?ftag=CAD-01-10abi2f",
     "https://www.pcgamer.com/gaming-industry/3-months-after-revealing-his-debut-project-at-the-game-awards-yakuza-creator-toshihiro-nagoshi-loses-netease-funding-for-his-studio/",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/07/big-stalker-2-overhaul-coming-20th-august-in-2-0-patch-and-first-dlc",
     "https://www.gamespot.com/articles/xbox-network-is-down-right-now-microsoft-confirms/",
     "https://www.videogameschronicle.com/news/xbox-says-its-aware-of-major-outages-when-signing-in-and-launching-games-and-is-working-to-mitigate-the-issue/",
-    "https://www.eurogamer.net/elder-scrolls-6-development-roadmap-unaffected-xbox-layoffs"
+    "https://www.eurogamer.net/elder-scrolls-6-development-roadmap-unaffected-xbox-layoffs",
+    "https://www.videogameschronicle.com/news/tomb-raider-catalyst-has-seemingly-been-delayed-to-2028-according-to-amazons-gaming-lead/",
+    "https://www.pushsquare.com/news/2026/07/first-ps-plus-essential-game-for-august-2026-already-confirmed",
+    "https://www.rockpapershotgun.com/marvel-tokon-fighting-souls-open-beta-beaten-and-bashed-by-pc-performance-issues-arc-system-works-apologise-for-the-impact-this-has-had-on-your-experience",
+    "https://www.eurogamer.net/new-myst-game-cancelled-trailer-sad"
   ],
   "seen_titles": [
-    "sigma star saga dx launches april 7",
-    "steam game gets surprising patch after fan says women broke immersion",
-    "final direct for the super mario galaxy movie has a shocking reveal of yoshi's voice actor",
-    "\"if we love this work, we have to protect it\" - hyper light studio heart machine is now a \"wall-to-wall\" union",
     "veteran 'warioware' director goro abe has left nintendo",
     "a petri dish full of human brain cells just learned how to play doom",
     "3 months after revealing his debut project at the game awards, yakuza creator toshihiro nagoshi loses netease funding for his studio",
@@ -10001,13 +9997,13 @@
     "big stalker 2 overhaul coming 20th august in 2.0 patch and first dlc",
     "xbox network is down right now, microsoft confirms",
     "xbox says it’s aware of ‘major outages’ when signing in and launching games, and is ‘working to mitigate the issue’",
-    "bethesda yet again reassures fans that the elder scrolls 6's roadmap is unaffected by recent xbox layoffs"
+    "bethesda yet again reassures fans that the elder scrolls 6's roadmap is unaffected by recent xbox layoffs",
+    "tomb raider catalyst has seemingly been delayed to 2028, according to amazon’s gaming lead",
+    "first ps plus essential game for august 2026 already confirmed",
+    "marvel tokon: fighting souls open beta beaten and bashed by pc performance issues, arc system works \"apologise for the impact this has had on your experience\"",
+    "a fantastic-looking teaser trailer for a new myst game has been released, though tragically we'll never get to actually play it"
   ],
   "seen_story_keys": [
-    "b5ed402eb238922e09f64c351e4545e9b4f2e28b",
-    "100f5715fd4b4b6e3faad1280bf4a73e6e10c749",
-    "3addebaf7e97bb0f2c3e5c6b28970d929c55e4a6",
-    "fb41ec2f36703a214b90042a0726e38895c43033",
     "7673c421c77652ffcf1c6602d643ad58d66505be",
     "cc075aabe31022cfca4e8ba63e70e1772a9ca2b9",
     "8a6cfd623b7d97ebafcba36181b85125e7ab1919",
@@ -15003,6 +14999,10 @@
     "489295dcc7ff24a6e2c5574b25cb480a8b563188",
     "366119c9d3a92fb312f3088be061aac1b32d61f4",
     "a4911ac58240e300fd3d36f2d2bd9b1f585d913d",
-    "16160c502af9018dc0ea16097d5c7d2fc55a77bc"
+    "16160c502af9018dc0ea16097d5c7d2fc55a77bc",
+    "ef2cb2182fba8164881df6807979fac5db4ea6e4",
+    "cc457a10db2e3c4af28e19bc786bef175b46c7c2",
+    "6bd787778f8b78e1aff5b363e2b09180ac38cd08",
+    "9d8c1bf2933eab01c7abaac1248b2bc0ee3fa48e"
   ]
 }
