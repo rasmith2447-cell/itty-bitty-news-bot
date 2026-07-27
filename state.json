@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/ghost-of-yotei-legends-wasnt-built-after-the-campaign-it-grew-with-it/1100-6538669/?ftag=CAD-01-10abi2f",
-    "https://www.ign.com/articles/ea-lays-off-staff-across-all-battlefield-studios-following-record-breaking-battlefield-6-launch",
-    "https://www.gematsu.com/2026/03/super-basketball-classics-featuring-the-world-famous-harlem-globetrotters-announced-for-consoles-pc",
-    "https://www.gematsu.com/2026/03/jay-and-silent-bob-chronic-blunt-punch-launches-april-20-for-ps5-xbox-series-ps4-switch-and-pc",
     "https://www.nintendolife.com/news/2026/03/resident-evil-requiem-gets-a-small-switch-2-update-here-are-the-full-patch-notes",
     "https://www.gematsu.com/2026/03/kumitantei-old-school-slaughter-episode-1-launches-april-23",
     "https://www.gematsu.com/2026/03/animalkind-launches-in-early-access-on-march-30",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/stalker-2-cost-of-hope-expansion-release-date/",
     "https://www.purexbox.com/news/2026/07/xbox-servers-are-still-down-preventing-players-from-accessing-both-physical-and-digital-games",
     "https://www.gematsu.com/2026/07/beastlink-launches-in-early-access-for-pc-on-august-18",
-    "https://www.purexbox.com/news/2026/07/stalker-2-cost-of-hope-gets-august-2026-release-date-for-xbox-ps5-and-pc"
+    "https://www.purexbox.com/news/2026/07/stalker-2-cost-of-hope-gets-august-2026-release-date-for-xbox-ps5-and-pc",
+    "https://www.polygon.com/twisted-wonderland-season-2-release-date/",
+    "https://gamerant.com/xbox-live-outage-downloaded-games/",
+    "https://www.polygon.com/stalker-2-cost-of-hope-expansion-release-date/",
+    "https://www.pushsquare.com/news/2026/07/fable-ps5-has-run-uncomfortably-beyond-budget-sources-claim"
   ],
   "seen_titles": [
-    "ghost of yotei: legends wasn’t built after the campaign--it grew with it",
-    "ea lays off staff across all battlefield studios following record-breaking battlefield 6 launch",
-    "super basketball classics featuring the world-famous harlem globetrotters announced for consoles, pc",
-    "jay and silent bob: chronic blunt punch launches april 20 for ps5, xbox series, ps4, switch, and pc",
     "resident evil requiem gets a small switch 2 update, here are the full patch notes",
     "kumitantei: old-school slaughter episode 1 launches april 23",
     "animalkind launches in early access on march 30",
@@ -10001,13 +9997,13 @@
     "stalker 2 confirms launch date for cost of hope story expansion and major 2.0 update",
     "xbox servers are still down, preventing players from accessing both physical and digital games",
     "beastlink launches in early access for pc on august 18",
-    "stalker 2: cost of hope gets august 2026 release date for xbox, ps5 & pc"
+    "stalker 2: cost of hope gets august 2026 release date for xbox, ps5 & pc",
+    "twisted wonderland, which envisions disney villains as hot anime boys, returning later this year",
+    "xbox live services suffering major outage",
+    "stalker 2: cost of hope expansion finally has a release date",
+    "fable ps5 has run 'uncomfortably beyond budget', sources claim"
   ],
   "seen_story_keys": [
-    "83f288dfba8c476d58acedc77013f38b790a9f81",
-    "92c91fdbd002d7553a16c106351237908ad756e8",
-    "c1ba88c3d8630d8641387417e90efd64ff4dd96c",
-    "f9577af62a51430e62a1541fd8a899a5bf5a5713",
     "f5b06c9040397c9f5fd4af9cf51b123a375b573e",
     "b8256283e3f5bf39494f93e1a7a277db93c61b5f",
     "d80c6ef1714bc5032ae371fcd66392cbbf075fe1",
@@ -15003,6 +14999,10 @@
     "fd4d124b19956cd7f76ab8889fabf266062332be",
     "3257e55331667835946b5a2ef093caf1c7ad7238",
     "5b820321f1bbc41317a37e5a81b439f2e199c88c",
-    "fcfd57d537d3ced54fa3e83993089260e6cb78c4"
+    "fcfd57d537d3ced54fa3e83993089260e6cb78c4",
+    "770e887471a9805b1363e29608c269644e81c367",
+    "1936491bc21e8ea6cb6af48127e95dcb39311f7e",
+    "616eca1273408fc3f4b2622d1ffa65168c5870e4",
+    "eae0f9779f59840e332847f542238530a3cc7982"
   ]
 }
