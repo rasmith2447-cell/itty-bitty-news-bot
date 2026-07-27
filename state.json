@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/microsoft-denies-new-xbox-ceo-has-a-blank-check-but-says-its-investing-in-gamings-future/1100-6538660/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/03/soldner-x-2-final-prototype-definitive-edition-for-switch-launches-may-14",
-    "https://www.bluesnews.com/s/295379/morning-patches",
-    "https://www.bluesnews.com/s/295372/morning-mobilization",
     "https://www.gamespot.com/articles/ghost-of-yotei-legends-wasnt-built-after-the-campaign-it-grew-with-it/1100-6538669/?ftag=CAD-01-10abi2f",
     "https://www.ign.com/articles/ea-lays-off-staff-across-all-battlefield-studios-following-record-breaking-battlefield-6-launch",
     "https://www.gematsu.com/2026/03/super-basketball-classics-featuring-the-world-famous-harlem-globetrotters-announced-for-consoles-pc",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/07/xbox-servers-are-down-again-and-its-stopping-people-playing-games",
     "https://www.gamesindustry.biz/john-romero-announced-as-keynote-speaker-for-gamescom-asia-x-thailand-game-show",
     "https://www.pcgamer.com/hardware/vr-hardware/more-bad-news-for-valve-and-its-still-unreleased-steam-frame-as-qualcomm-is-set-to-raise-the-price-of-its-chips-like-everyone-else/",
-    "https://www.purexbox.com/news/2026/07/lara-croft-suffers-another-delay-tomb-raider-catalyst-pushed-to-2028"
+    "https://www.purexbox.com/news/2026/07/lara-croft-suffers-another-delay-tomb-raider-catalyst-pushed-to-2028",
+    "https://gamerant.com/stalker-2-cost-of-hope-expansion-release-date/",
+    "https://www.purexbox.com/news/2026/07/xbox-servers-are-still-down-preventing-players-from-accessing-both-physical-and-digital-games",
+    "https://www.gematsu.com/2026/07/beastlink-launches-in-early-access-for-pc-on-august-18",
+    "https://www.purexbox.com/news/2026/07/stalker-2-cost-of-hope-gets-august-2026-release-date-for-xbox-ps5-and-pc"
   ],
   "seen_titles": [
-    "microsoft denies new xbox ceo has a \"blank check,\" but says it's investing in gaming's future",
-    "soldner-x 2: final prototype definitive edition for switch launches may 14",
-    "morning patches",
-    "morning mobilization",
     "ghost of yotei: legends wasn’t built after the campaign--it grew with it",
     "ea lays off staff across all battlefield studios following record-breaking battlefield 6 launch",
     "super basketball classics featuring the world-famous harlem globetrotters announced for consoles, pc",
@@ -10001,13 +9997,13 @@
     "xbox servers are down again, and it's stopping people playing games",
     "john romero announced as keynote speaker for gamescom asia x thailand game show",
     "more bad news for valve and its still unreleased steam frame as qualcomm is set to raise the price of its chips, like everyone else",
-    "lara croft suffers another delay, tomb raider: catalyst pushed to 2028"
+    "lara croft suffers another delay, tomb raider: catalyst pushed to 2028",
+    "stalker 2 confirms launch date for cost of hope story expansion and major 2.0 update",
+    "xbox servers are still down, preventing players from accessing both physical and digital games",
+    "beastlink launches in early access for pc on august 18",
+    "stalker 2: cost of hope gets august 2026 release date for xbox, ps5 & pc"
   ],
   "seen_story_keys": [
-    "db613681dccc80542043e2d73f3e689dc69391f4",
-    "811c5bd498b6c05153ca906b8f29329b4f240e49",
-    "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
-    "f67d6868d10e0921400fd8fb68cc713d1a88bc8e",
     "83f288dfba8c476d58acedc77013f38b790a9f81",
     "92c91fdbd002d7553a16c106351237908ad756e8",
     "c1ba88c3d8630d8641387417e90efd64ff4dd96c",
@@ -15003,6 +14999,10 @@
     "4c953e8ea740343edf16433adedde249734ccd68",
     "d3ab6be58d2622b1b0b6b8bc4e32bbfd21ec66d8",
     "4837cc51aaa76e2629afc9e90c0e27214019cfb1",
-    "45c28bf19ffa1ca37a24787972661fca5f9cd6bf"
+    "45c28bf19ffa1ca37a24787972661fca5f9cd6bf",
+    "fd4d124b19956cd7f76ab8889fabf266062332be",
+    "3257e55331667835946b5a2ef093caf1c7ad7238",
+    "5b820321f1bbc41317a37e5a81b439f2e199c88c",
+    "fcfd57d537d3ced54fa3e83993089260e6cb78c4"
   ]
 }
