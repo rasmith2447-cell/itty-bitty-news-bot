@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/fps/battlefield-6-was-the-biggest-launch-in-franchise-history-6-months-later-ea-is-laying-off-people-who-made-it/",
-    "https://www.gematsu.com/2026/03/sin-reloaded-launches-in-2026-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc",
-    "https://www.ign.com/articles/humble-launches-new-bundle-to-support-esa-foundation",
-    "https://www.gematsu.com/2026/03/lunarium-launches-in-may",
     "https://www.gematsu.com/2026/03/the-king-is-watching-dlc-crowns-of-history-launches-march-16",
     "https://www.gematsu.com/2026/03/bonnie-bear-saves-frogtime-launches-march-16",
     "https://gamerant.com/hearthstone-cataclysm-expansion-rewards-track/",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/cyan-reveals-abandoned-prototype-for-new-myst-game-confirms-different-myst-game-is-in-development",
     "https://www.polygon.com/ps-plus-august-2026-games-ps5/",
     "https://www.gematsu.com/2026/07/blood-dungeon-adds-switch-2-and-switch-versions-launches-august-25",
-    "https://www.gamesindustry.biz/codedev-launches-optimisation-division-the-performance-guys"
+    "https://www.gamesindustry.biz/codedev-launches-optimisation-division-the-performance-guys",
+    "https://www.ign.com/articles/physical-copies-of-gta-6-will-expire-170-days-after-launch-date-in-japan",
+    "https://www.ign.com/articles/exclusive-first-look-at-stormlight-war-for-roshar-upcoming-brandon-sanderson-board-game",
+    "https://www.eurogamer.net/shigeru-miyamoto-nintendo-switch-hardware-comments",
+    "https://www.pcgamer.com/software/vatican-scrambles-to-patch-phishing-goldmine-app-promoted-by-the-pope-prayer-infrastructure-on-the-framework-you-learn-in-week-2-of-a-node-js-bootcamp/"
   ],
   "seen_titles": [
-    "battlefield 6 was 'the biggest launch in franchise history.' 6 months later, ea is laying off people who made it",
-    "sin: reloaded launches in 2026 for ps5, xbox series, ps4, xbox one, switch, and pc",
-    "humble launches new bundle to support esa foundation",
-    "lunarium launches in may",
     "the king is watching dlc ‘crowns of history’ launches march 16",
     "bonnie bear saves frogtime launches march 16",
     "hearthstone reveals cataclysm expansion rewards track",
@@ -10001,13 +9997,13 @@
     "cyan reveals abandoned prototype for new myst game, confirms different myst game is in development",
     "ps plus august 2026 games lineup includes a quirky multiplayer game",
     "blood dungeon adds switch 2 and switch versions, launches august 25",
-    "codedev launches optimisation division the performance guys"
+    "codedev launches optimisation division the performance guys",
+    "physical 'copies' of gta 6 will expire 170 days after launch date in japan",
+    "exclusive first look at stormlight: war for roshar, the massive brandon sanderson board game",
+    "shigeru miyamoto thinks people don't care about console specs that much anymore, believes nintendo instead provides \"gameplay that only we can create\"",
+    "vatican scrambles to patch 'phishing goldmine' app promoted by the pope: 'prayer infrastructure on the framework you learn in week 2 of a node.js bootcamp'"
   ],
   "seen_story_keys": [
-    "e5c3b8fadef377185bacfe037a1938bc20f9bc64",
-    "62f5270724ac253f23408e4fecb6ab035347b380",
-    "d5293da23436540401b9ddec2fd9c67be6ee3c21",
-    "fd2e0eb08fbc81a2f41c98692f058a04c000c521",
     "3c241f5d1e91101d0e444186a9759ad558c99bbd",
     "6fedb19d8b4c2c76c236c0fe86f4fc9b655db071",
     "93634aeaaf651e55dac544cc573f05cfeaf4086b",
@@ -15003,6 +14999,10 @@
     "f7fa17ff4095c6494db6973f24f48afa6edf6932",
     "89b7e71f6516c97718737eeabfa7797809615e59",
     "af94dea1f5ce67e6b633141887b5d680b854e514",
-    "8c2a23be3396a417f05f447f36131fc9ca585c8a"
+    "8c2a23be3396a417f05f447f36131fc9ca585c8a",
+    "6596a9835b5556400351d2fc5a9896eb659d536b",
+    "afb1990ecd0d55e77031fe0ac5f08c6aa2fdebcb",
+    "4c64a4c7b21dbd1133b398c8b03d52345d4b0c03",
+    "6213aea92d4e3d00eff753f1987508b566d75020"
   ]
 }
