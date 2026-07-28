@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/super-mario-galaxy-movie-trailer-nintendo-direct-yoshi-actor/",
-    "https://www.eurogamer.net/the-final-super-mario-galaxy-movie-trailer-is-here-with-luis-guzmans-wart-joining-the-fray",
     "https://www.eurogamer.net/star-wars-fate-of-the-old-republic-gets-studio-art-director-with-ubisoft-experience",
     "https://www.ign.com/articles/nintendo-confirms-donald-glover-as-yoshi-as-final-super-mario-galaxy-movie-trailer-shows-off-first-look-at-wart",
     "https://www.pushsquare.com/news/2026/03/im-pro-sex-minigames-former-god-of-war-dev-backs-ps5-trilogy-remake-to-keep-controversial-minigames",
@@ -4999,11 +4997,11 @@
     "https://www.eurogamer.net/new-myst-game-cancelled-trailer-sad",
     "https://gamerant.com/persona-kura-sushi-menu-items/",
     "https://www.purexbox.com/news/2026/07/xbox-servers-were-down-for-20-hours-but-everything-should-be-working-now",
-    "https://www.gematsu.com/2026/07/cozy-farming-simulation-game-jay-and-silent-bobs-joint-venture-announced-for-pc"
+    "https://www.gematsu.com/2026/07/cozy-farming-simulation-game-jay-and-silent-bobs-joint-venture-announced-for-pc",
+    "https://www.gematsu.com/2026/07/nioh-3-dlc-hell-rising-launches-august-19",
+    "https://www.ign.com/articles/xbox-executive-explains-outage-vows-to-do-better"
   ],
   "seen_titles": [
-    "the super mario galaxy movie cast a surprising yoshi: donald glover",
-    "the final super mario galaxy movie trailer is here, with luis guzman's wart joining the fray",
     "star wars: fate of the old republic finds its studio art director in myst iv and splinter cell: conviction veteran",
     "nintendo confirms donald glover as yoshi as final super mario galaxy movie trailer shows off first look at wart",
     "'i'm pro sex minigames': former god of war dev backs ps5 trilogy remake to keep controversial minigames",
@@ -10001,11 +9999,11 @@
     "a fantastic-looking teaser trailer for a new myst game has been released, though tragically we'll never get to actually play it",
     "persona kura sushi collab reveals game-inspired menu items",
     "xbox servers were down for 20 hours, but everything should be working now",
-    "cozy farming simulation game jay and silent bob’s joint venture announced for pc"
+    "cozy farming simulation game jay and silent bob’s joint venture announced for pc",
+    "nioh 3 dlc ‘hell rising’ launches august 19",
+    "xbox executive explains outage, vows to 'do better'"
   ],
   "seen_story_keys": [
-    "feae2d3622792ed27ed87c85e7e9bbdf566025f3",
-    "c42a6c98aea9f939ad26d79429eda5b58fb020f7",
     "15d3b9460ee97ad466e9e8497e8ba586fd7fbea8",
     "b0d35541528a278b05fa06aac8b1400ca3217caf",
     "b79803eba3f6b35ec0f4763fdc5e7d2471ca8253",
@@ -15003,6 +15001,8 @@
     "9d8c1bf2933eab01c7abaac1248b2bc0ee3fa48e",
     "c686b9664936398952a112a71eb03b7f4432a952",
     "342d64e4561d953fa31e8595df770c54b70b6fae",
-    "7941dcd21b3a721b0dfadca71dc76bb805b1471f"
+    "7941dcd21b3a721b0dfadca71dc76bb805b1471f",
+    "59af42832a75fe048ff32b9e588cd7daa367e1e9",
+    "e6885a4cdaba723536c283cd81f56404e3e7e9d3"
   ]
 }
