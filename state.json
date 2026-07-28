@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/arc-raiders-new-update-march-10-patch-notes/",
-    "https://www.eurogamer.net/marathon-twitch-drops-are-beaten-eaten-up-by-full-inventories-leaving-the-special-loot-deleted",
-    "https://www.nintendolife.com/news/2026/03/nightdives-sin-reloaded-remaster-is-heading-to-switch-1-and-2-this-year",
-    "https://www.eurogamer.net/slay-the-spire-2-developers-talk-microtransactions-and-approach-to-early-access",
     "https://www.eurogamer.net/god-of-war-sex-minigame-women-alanah-pearce",
     "https://www.ign.com/articles/live-action-tinker-bell-series-in-development-for-disney",
     "https://www.videogameschronicle.com/news/until-dawn-remake-studio-ballistic-moon-has-been-shut-down/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/xbox-announces-gamescom-2026-plans",
     "https://www.pushsquare.com/news/2026/07/earn-some-crazy-money-early-by-testing-the-new-crazy-taxi-on-ps5",
     "https://gamerant.com/new-fallout-games-coming-out-bethesda-obsidian/",
-    "https://www.gematsu.com/2026/07/crazy-taxi-world-tour-closed-network-test-set-for-september-11-to-13"
+    "https://www.gematsu.com/2026/07/crazy-taxi-world-tour-closed-network-test-set-for-september-11-to-13",
+    "https://www.polygon.com/xbox-gamescom-alien-isolation-2-fable-strange-than-heaven/",
+    "https://www.pcgamer.com/gaming-industry/only-the-survival-of-our-studio-would-make-us-consider-such-a-painful-action-tim-schafer-announces-double-fine-layoffs-just-3-weeks-after-xbox-cut-it-loose/",
+    "https://gamerant.com/gamescom-cosplay-village-unveils-2026-official-sponsor-payop/",
+    "https://gamerant.com/pokemon-pokopia-bubbly-basin-dlc-release-date/"
   ],
   "seen_titles": [
-    "arc raiders reveals patch notes for march 10 update",
-    "marathon twitch drops are being eaten up by full inventories, leaving the special loot deleted",
-    "nightdive's 'sin reloaded' remaster is heading to switch 1 & 2 this year",
-    "slay the spire 2 developer refuses to rely on microtransactions or dlc packs to make quick cash, despite some players threatening \"to buy all and any cosmetics we may ever release\"",
     "god of war's infamous sex minigames were actually \"designed by women\", former sony santa monica writer alanah pearce reveals",
     "live-action tinker bell series in development for disney+",
     "until dawn remake studio ballistic moon has been shut down",
@@ -10001,13 +9997,13 @@
     "xbox announces gamescom 2026 plans",
     "earn some crazy money early by testing the new crazy taxi on ps5",
     "bethesda officially has 4 new fallout games in development",
-    "crazy taxi: world tour closed network test set for september 11 to 13"
+    "crazy taxi: world tour closed network test set for september 11 to 13",
+    "xbox reveals gamescom lineup including fable, alien isolation 2",
+    "'only the survival of our studio would make us consider such a painful action': tim schafer announces double fine layoffs just 3 weeks after xbox cut it loose",
+    "payop revealed as official sponsor for gamescom 2026's cosplay village",
+    "pokemon pokopia bubbly basin dlc release date confirmed"
   ],
   "seen_story_keys": [
-    "080a2e46a7a9a7d85a386311e16c979ed7e019b5",
-    "77fc634b095e51f29dedf7857167a5605d3e3e98",
-    "c662a1bc751167ab44c1304da97b16b6b993ebe4",
-    "a0f531ce5de45645d869585ecb4b26d82efe8986",
     "8d700098fd65c0f0f8213519daf5585972473269",
     "9209cccf7ae15852a5512296a1d9f10ef6851da4",
     "3c385c684961811e9baff55a227b5a6c655965b0",
@@ -15003,6 +14999,10 @@
     "326c25956fd08954d5bbeb706401943aff1dd035",
     "b09402fc7c2baf7d0cbcacd6dff85b615f4d27be",
     "520f6a4e54bfa207fbfa2c5d5cbe1cbf2ba5cda0",
-    "b5c01c4f884bafaf9b067e217db6e550f6f12998"
+    "b5c01c4f884bafaf9b067e217db6e550f6f12998",
+    "232aca7bd63af4400552c08dc95eb5e7d669918d",
+    "90a8f9c241169017a77458770d3c4487573a4bed",
+    "1348686e8613c8b913f62a1dc197e111fc9c9f26",
+    "2b8bb3d59fbe2f46f0db077eaf062401bcdfe6c1"
   ]
 }
