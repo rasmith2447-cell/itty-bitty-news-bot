@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/resident-evil-requiem-story-dlc-confirmed-bonus-mode-in-may",
-    "https://www.purexbox.com/features/roundup-all-the-biggest-xbox-reveals-from-the-mix-spring-showcase-2026",
-    "https://www.gematsu.com/2026/03/resident-evil-requiem-content-updates-story-expansion-announced",
-    "https://www.rockpapershotgun.com/regions-of-ruin-runegate-is-a-pleasantly-pixelly-rpg-about-rebuilding-a-lost-dwarven-kingdom-and-its-out-next-month",
     "https://www.nintendolife.com/news/2026/03/super-mario-bros-wonder-switch-2-edition-gets-a-new-overview-trailer",
     "https://www.rockpapershotgun.com/capcom-reveal-resident-evil-requiem-story-dlc-and-minigame-while-dangling-sweaty-carrot-of-hot-uncle-kennedy-romance-sim",
     "https://www.polygon.com/resident-evil-requiem-dlc-expansion-minigame-photo-mode/",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/double-fine-layoffs-xbox/",
     "https://gamerant.com/final-fantasy-14-patch-755-update-notes/",
     "https://www.pushsquare.com/news/2026/07/newly-independent-double-fine-has-to-lay-off-23-devs-to-ensure-survival-of-the-studio",
-    "https://www.rockpapershotgun.com/after-gaining-independence-from-xbox-double-fine-are-laying-off-a-quarter-of-their-staff"
+    "https://www.rockpapershotgun.com/after-gaining-independence-from-xbox-double-fine-are-laying-off-a-quarter-of-their-staff",
+    "https://gamerant.com/double-fine-productions-layoffs-after-xbox/",
+    "https://gamerant.com/pokemon-go-fest-2026-mega-finale-dates/",
+    "https://www.polygon.com/crazy-taxi-world-tour-beta-test-network-signups-sega/",
+    "https://www.rockpapershotgun.com/i-didnt-fully-appreciate-the-scope-of-it-a-year-on-from-taking-over-nexus-mods-owners-reflect-on-the-challenges-of-their-push-to-minimise-modding-hassle"
   ],
   "seen_titles": [
-    "resident evil requiem story dlc confirmed, bonus mode in may",
-    "roundup: all the biggest xbox reveals from the mix spring showcase 2026",
-    "resident evil requiem content updates, story expansion announced",
-    "regions of ruin: runegate is a pleasantly pixelly rpg about rebuilding a lost dwarven kingdom, and it’s out next month",
     "super mario bros. wonder - switch 2 edition gets a new overview trailer",
     "capcom reveal resident evil requiem story dlc and minigame while dangling sweaty carrot of hot uncle kennedy romance sim",
     "resident evil requiem story dlc officially announced",
@@ -10001,13 +9997,13 @@
     "double fine lays off 23 after leaving xbox game studios",
     "final fantasy 14 reveals patch 7.55 update notes",
     "newly independent double fine has to lay off 23 devs to ensure survival of the studio",
-    "after gaining independence from xbox, double fine are laying off a quarter of their staff"
+    "after gaining independence from xbox, double fine are laying off a quarter of their staff",
+    "psychonauts developer double fine hit with layoffs",
+    "pokemon go reveals dates for go fest 2026: mega finale",
+    "sega announces crazy taxi world tour network test dates and signups",
+    "\"i didn’t fully appreciate the scope of it\": a year on from taking over, nexus mods owners reflect on the challenges of their push to minimise modding hassle"
   ],
   "seen_story_keys": [
-    "ec6eadd5a934818fe4e63db76d8592abe98ebeba",
-    "ef6b25bd4fac931aa764572e9da4b482b514edcc",
-    "f63c533aedfbdbe94ea94caf239c64f1ea5cee69",
-    "db5f390e72070e30f5295bc19597b8a779ab4bdb",
     "22d3005a697aa6cf033d3f280e86e04ce8a66247",
     "6a329d4c076a630b741ba507df7c4d0f0dd9a32f",
     "4252ff92581efed85d0b74e37dbcb58a671646d8",
@@ -15003,6 +14999,10 @@
     "c90626c2d42df19385b7cec798978d65daa48218",
     "0bc342a98d03fe295c278c1dfb10a12422249004",
     "6171dead569ececba19d88e7456440a51b97caa7",
-    "715a70b33c036bbb5086e76d69e0c4800292fd23"
+    "715a70b33c036bbb5086e76d69e0c4800292fd23",
+    "61a693de2cdad3b085636266b1ae4aed1e8947aa",
+    "1131d589f4bdc2803976d9c7bca31a9c7c500ea8",
+    "b88e22e103a02517eb50dbb16681ff1f337981d9",
+    "570e7909d6388c0e35ec3b6750b5a66cf363b76a"
   ]
 }
