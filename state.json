@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamesindustry.biz/nintendo-of-america-sues-us-government-over-tariffs",
-    "https://www.purexbox.com/news/2026/03/xboxs-phil-spencer-was-asked-about-retirement-a-year-ago-and-heres-what-he-said",
-    "https://www.pushsquare.com/news/2026/03/were-discussing-ways-to-improve-marathon-dev-tweaking-monetisation-and-difficulty-as-fps-fails-to-blow-up",
-    "https://www.purexbox.com/news/2026/03/the-10-most-wanted-backwards-compatibility-games-according-to-xbox-game-preservation",
     "https://www.rockpapershotgun.com/after-listening-to-your-complaints-bungie-is-making-it-just-a-tad-less-annoying-to-buy-cosmetics-in-marathon",
     "https://www.bluesnews.com/s/295406/battlefield-developer-layoffs",
     "https://www.bluesnews.com/s/295405/sin-reloaded-this-year",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/07/final-4-ps-plus-extra-games-for-july-2026-available-to-download-now",
     "https://www.gamesindustry.biz/games-for-change-festival-to-expand-and-move-to-new-cities",
     "https://www.eurogamer.net/xbox-outage-response-failing-service-apology",
-    "https://www.gamesindustry.biz/xbox-explains-outage-preventing-players-from-accessing-games-cto-says-it-will-do-better"
+    "https://www.gamesindustry.biz/xbox-explains-outage-preventing-players-from-accessing-games-cto-says-it-will-do-better",
+    "https://gamerant.com/new-cozy-game-like-stardew-valley-farming-camp-demo-review/",
+    "https://www.pcgamer.com/hardware/vr-hardware/the-steam-frame-subreddit-is-currently-losing-its-collective-mind-praying-for-a-release-date/",
+    "https://www.rockpapershotgun.com/toxic-yuri-story-kaschei-is-a-marvelous-free-visual-novel-that-turns-your-downloads-folder-into-a-little-labyrinth-of-mirrors",
+    "https://www.pushsquare.com/news/2026/07/nioh-3s-chunky-first-dlc-brings-new-stage-weapons-more-to-ps5-this-august"
   ],
   "seen_titles": [
-    "nintendo of america sues us government over tariffs",
-    "xbox's phil spencer was asked about retirement a year ago, and here's what he said",
-    "'we're discussing ways to improve': marathon dev tweaking monetisation and difficulty as fps fails to blow up",
-    "the 10 most wanted backwards compatibility games according to 'xbox game preservation'",
     "after listening to your complaints, bungie is making it just a tad less annoying to buy cosmetics in marathon",
     "battlefield developer layoffs",
     "sin reloaded this year",
@@ -10001,13 +9997,13 @@
     "final 4 ps plus extra games for july 2026 available to download now",
     "games for change festival to expand and move to new cities",
     "xbox cto explains what caused the xbox outage, apologises to players, and outlines what's being done going forward",
-    "xbox explains outage preventing players from accessing games, cto says it will \"do better\""
+    "xbox explains outage preventing players from accessing games, cto says it will \"do better\"",
+    "new cozy game took 10 minutes to prove stardew valley doesn't define the genre",
+    "the steam frame subreddit is currently losing its collective mind praying for a release date",
+    "toxic yuri story kaschei is a marvelous free visual novel that turns your downloads folder into a little labyrinth of mirrors",
+    "nioh 3's chunky first dlc brings new stage, weapons, more to ps5 this august"
   ],
   "seen_story_keys": [
-    "ebbc55ffab1a12db6e109f1ee9a918557d8d39b5",
-    "9c9f243d1c18b5f8567d6350e27d033031211d52",
-    "29e2d13846cab3302ef582b82a49f4ce352ea2b9",
-    "abd63c432c7605b48eb7434237f5fbe6c7fbf85f",
     "1c16c4862fbe9a53ee7d1139aaa4d7568fb23ac2",
     "4e8d901e2456ef31247dd4d2611301b8f9ad1f7d",
     "46ba3cf74780fba85a4f04e080c9377ce2fc4293",
@@ -15003,6 +14999,10 @@
     "8877ae73e781dd3ee7a5b21dfd70cdd59aeb493b",
     "9332dcc988b516a9a460072481389fb4db4e13b0",
     "f23c73c8ef504fd4b2644f46c92ae2da1434e1cf",
-    "cd9c76f7d96cbbc9f549699cb568c537d4f3bfdf"
+    "cd9c76f7d96cbbc9f549699cb568c537d4f3bfdf",
+    "115511dc5f0a021a23bc0b419138def61b2d5316",
+    "3fe8cc05314d446238004402f7f6b63e875f2443",
+    "6f46cd99fa5d546c3f94931ae1331bee15444ded",
+    "18ef6802455dab06cd6fabe447d9971bbb81ccb7"
   ]
 }
