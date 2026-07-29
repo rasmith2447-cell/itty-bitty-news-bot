@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/lego-super-mario-minifigures-first-look-release-date/",
-    "https://www.ign.com/articles/man-on-fire-exclusive-first-look-images-and-netflix-series-release-date",
-    "https://www.gamespot.com/articles/the-boys-is-getting-a-game-right-before-its-final-season-begins/1100-6538694/?ftag=CAD-01-10abi2f",
-    "https://www.bluesnews.com/s/295436/resident-evil-requiem-story-expansion-revealed",
     "https://www.bluesnews.com/s/295435/haunted-lands-released",
     "https://www.bluesnews.com/s/295424/morning-patches",
     "https://www.gamesindustry.biz/avalanche-studios-reveals-its-highlander-style-survival-of-the-fittest-rd-strategy",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/kinki-spiritual-affairs-bureau-for-switch-2-launches-july-30",
     "https://www.gematsu.com/2026/07/tensei-game-karma-x-cross-launches-august-6-in-japan",
     "https://www.eurogamer.net/wuchang-fallen-feathers-sequel-confirmed",
-    "https://www.pushsquare.com/news/2026/07/dragon-ball-sparking-zeros-big-dlc-price-finally-revealed-and-it-aint-cheap"
+    "https://www.pushsquare.com/news/2026/07/dragon-ball-sparking-zeros-big-dlc-price-finally-revealed-and-it-aint-cheap",
+    "https://gamerant.com/palworld-july-28-update-patch-notes/",
+    "https://www.pcgamer.com/games/action/the-last-of-us-multiplayer-mod-has-hit-a-big-milestone-as-it-prepares-for-launch-in-september/",
+    "https://www.rockpapershotgun.com/the-case-of-the-golden-idol-style-deduction-meets-the-x-files-former-bioware-devs-unveil-supernatural-detective-game-the-eventide",
+    "https://www.ign.com/articles/pokemon-pokopia-expansion-and-free-update-arrive-next-week-unlocking-underwater-gameplay"
   ],
   "seen_titles": [
-    "lego and nintendo reveal first super mario minifigure",
-    "man on fire: exclusive first look images and netflix series release date",
-    "the boys is getting a game right before its final season begins",
-    "resident evil requiem story expansion revealed",
     "haunted lands released",
     "morning patches",
     "avalanche studios reveals its highlander-style, survival of the fittest r&d strategy",
@@ -10001,13 +9997,13 @@
     "kinki spiritual affairs bureau for switch 2 launches july 30",
     "tensei game: karma x cross launches august 6 in japan",
     "after dissolution of the original team, a wuchang: fallen feathers sequel has been confirmed with the original creative director at the helm",
-    "dragon ball: sparking! zero's big dlc price finally revealed, and it ain't cheap"
+    "dragon ball: sparking! zero's big dlc price finally revealed, and it ain't cheap",
+    "palworld releases brand-new update you can download right now",
+    "the last of us multiplayer mod has hit a 'big milestone' as it prepares for launch in september",
+    "\"the case of the golden idol-style deduction meets the x-files\": former bioware devs unveil supernatural detective game the eventide",
+    "pokémon pokopia expansion and free update arrive next week, unlocking underwater gameplay"
   ],
   "seen_story_keys": [
-    "a527687b02a7634bdfdae4666f449720f6bb99ba",
-    "3faa2fbbbbe7eaa479498f9f2f1030bc58e16a00",
-    "7b0e0b846062a8083f72bf2bc2644252e63a7419",
-    "4bdc291fa4152d29824838b54a8710be21a0b370",
     "0260c674b1449c1bf98c3d07c171a95671c5d4b8",
     "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
     "8d7ef4d0d54a48991610010a0e42fd4beb23bb53",
@@ -15003,6 +14999,10 @@
     "5fb62ca4629c09bcaa2bc3eb89522ccda822d01d",
     "2a672cf303fe2dd520cb32c742f05818306b37f0",
     "85601f8982bd3a019fd7096958cf8075605bc54d",
-    "188fc630af331d8250daf3e9ff2d820203147b0a"
+    "188fc630af331d8250daf3e9ff2d820203147b0a",
+    "33cec5831a3ec371da76e5b533a56c5b025da21b",
+    "ac3eac7a0585cda65b8e4a9853cf586bee7bf033",
+    "5336f0ce971ca53ffb7bf0a6295a2f1ce653adac",
+    "6fea2ae092919cda7320d1b8728eac5a43334d6c"
   ]
 }
