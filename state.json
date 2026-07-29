@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/03/forza-horizon-6-tracks-events-and-open-world-activities-detailed-in-new-gameplay",
-    "https://www.polygon.com/yoshi-dares-take-the-spotlight-away-from-mario-on-mario-day-of-all-days/",
-    "https://www.gematsu.com/2026/03/cozy-narrative-farming-simulation-game-delphinium-announced-for-xbox-series-pc",
-    "https://gamerant.com/crimson-desert-console-performance-specs-ps5-xbox/",
     "https://www.gamespot.com/articles/diablo-4-lord-of-hatred-will-have-12-torment-difficulty-levels-to-grind/1100-6538695/?ftag=CAD-01-10abi2f",
     "https://www.polygon.com/overwatch-season-1-midseason-patch-notes-vendetta/",
     "https://www.polygon.com/studio-ghibli-imax-remasters-whisper-of-the-heart-secret-world-of-arrietty/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/best-pirate-games-steam-like-black-flag-cities-skylines-corsair-cove/",
     "https://www.ign.com/articles/wuchang-fallen-feathers-sequel-announced-with-creator-back-on-board-after-reports-that-its-development-team-had-disbanded",
     "https://gamerant.com/dragon-age-remasters-mark-darrah/",
-    "https://www.gamesindustry.biz/uk-games-fund-announces-largest-cohort-of-indie-studios-to-receive-grants-of-up-to-100000"
+    "https://www.gamesindustry.biz/uk-games-fund-announces-largest-cohort-of-indie-studios-to-receive-grants-of-up-to-100000",
+    "https://www.pushsquare.com/news/2026/07/wuchang-sequel-in-the-works-at-new-studio-formed-by-originals-creator",
+    "https://www.pushsquare.com/news/2026/07/huge-dragon-ball-sparking-zero-patch-out-now-ahead-of-tomorrows-major-dlc-drop",
+    "https://www.pcgamer.com/hardware/graphics-cards/amd-launches-the-rx-9050-and-its-even-more-entry-level-than-expected/",
+    "https://www.pcgamer.com/gaming-industry/clair-obscur-developers-see-sonys-no-disk-announcement-as-a-sad-decision-because-they-like-to-go-outside-buy-a-game-and-come-back-home-with-it/"
   ],
   "seen_titles": [
-    "forza horizon 6 tracks, events & open-world activities detailed in new gameplay",
-    "yoshi and the mysterious book new game and release date announced on mario day of all days",
-    "cozy narrative farming simulation game delphinium announced for xbox series, pc",
-    "crimson desert finally confirms console performance and specs",
     "diablo 4: lord of hatred will have 12 torment difficulty levels to grind",
     "overwatch season 1 mid-season patch notes balance vendetta again",
     "studio ghibli imax remasters announced: whisper of the heart and the secret world of arrietty",
@@ -10001,13 +9997,13 @@
     "new pirate game on steam is black flag resynced meets cities: skylines",
     "wuchang: fallen feathers sequel announced with creator back on board, after reports that its development team had disbanded",
     "dragon age producer addresses possibility of remasters",
-    "uk games fund announces largest cohort of indie studios to receive grants of up to £100,000"
+    "uk games fund announces largest cohort of indie studios to receive grants of up to £100,000",
+    "wuchang sequel in the works at new studio formed by original's creator",
+    "huge dragon ball: sparking! zero patch out now ahead of tomorrow's major dlc drop",
+    "amd launches the rx 9050, and it's even more entry-level than expected",
+    "clair obscur developers see sony's no-disk announcement as 'a sad decision', because they 'like to go outside, buy a game, and come back home with it'"
   ],
   "seen_story_keys": [
-    "d1a7e117292e2578f0f7d38cc30aa2f22b14d03b",
-    "226426c2c69d12ff8cbdcfdb3f6e1bcfcb03480e",
-    "9df80428a7e397481af982dcafb6b6b0d4ee15e3",
-    "0108ee995e9c2caeeaa4403ebae23e6ad386538b",
     "b513beacebab2c82ac75e8da13910a7c038e60d6",
     "5807005d8b6e9d779515f2108fe65fb81c58c1ae",
     "7502d57077708e091a63bb3fcb87eb41101891e4",
@@ -15003,6 +14999,10 @@
     "93c0b41008e67d7e6f3b1461f4ab6d91e1869a8f",
     "11f1e2963991959bc9c81b0006b6fb073b96e805",
     "6c8569bd7a45709ca422af62daf06af6d40c52c5",
-    "6bf24e907e080417011a0a836235faaec1d154bf"
+    "6bf24e907e080417011a0a836235faaec1d154bf",
+    "fc5da0ff09295f2698eab8e66a830fbae96395c2",
+    "9fc5e91db90b2c796f63c0b0d24dd4ade1e98ee9",
+    "58711c69b66dcb760639fa208d277dd6a27dc46e",
+    "b6ddf1befe3f9f99eca4fa6c667c4b381eec48a8"
   ]
 }
