@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/surprise-nintendo-trailer-confirms-new-yoshi-game-release-date/",
-    "https://www.gematsu.com/2026/03/yoshi-and-the-mysterious-book-launches-may-21",
-    "https://www.bluesnews.com/s/295403/super-basketball-classics-featuring-the-world-famous-harlem-globetrotters-announced",
-    "https://www.rockpapershotgun.com/why-did-dispatchs-devs-push-through-to-make-it-despite-initial-disinterest-from-investors-arrogance-and-stupidity",
     "https://www.gamespot.com/articles/mega-man-voice-actor-wont-return-for-sequel-because-capcom-wont-go-union/1100-6538705/?ftag=CAD-01-10abi2f",
     "https://www.pushsquare.com/news/2026/03/ghost-of-yotei-nearly-stole-one-of-breath-of-the-wilds-most-distinctive-features",
     "https://www.bluesnews.com/s/295461/greedfall-the-dying-world-official-launch",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/sony-destiny-3-physical-games-digital-future/",
     "https://www.eurogamer.net/crazy-taxi-world-tour-closed-network-test-multiplayer",
     "https://www.gematsu.com/2026/07/console-archives-doraemon-launches-july-30",
-    "https://www.gematsu.com/2026/07/arcade-archives-tx-1-launches-july-30"
+    "https://www.gematsu.com/2026/07/arcade-archives-tx-1-launches-july-30",
+    "https://www.pcgamer.com/games/survival-crafting/latest-palworld-patch-keeps-victor-and-shadowbeak-from-accidentally-teleporting-out-of-existence-prevents-panthalus-from-breaking-everything/",
+    "https://www.videogameschronicle.com/news/crazy-taxi-world-tour-is-getting-a-closed-network-test-in-september-applications-open-now/",
+    "https://www.gematsu.com/2026/07/wuchang-fallen-feathers-sequel-announced",
+    "https://www.gematsu.com/2026/07/finding-polka-launches-august-12"
   ],
   "seen_titles": [
-    "surprise nintendo trailer confirms new yoshi game release date",
-    "yoshi and the mysterious book launches may 21",
-    "super basketball classics featuring the world-famous harlem globetrotters announced",
-    "why did dispatch's devs push through to make it despite initial disinterest from investors? \"arrogance and stupidity\"",
     "mega man voice actor won't return for sequel because capcom won't go union",
     "ghost of yotei nearly stole one of breath of the wild's most distinctive features",
     "greedfall: the dying world official launch",
@@ -10001,13 +9997,13 @@
     "how denying destiny 3 reveals sony's unyielding digital future",
     "crazy taxi: world tour has competitive multiplayer, and you've got a chance to play it very soon",
     "console archives doraemon launches july 30",
-    "arcade archives tx-1 launches july 30"
+    "arcade archives tx-1 launches july 30",
+    "latest palworld patch keeps victor & shadowbeak from accidentally teleporting out of existence, prevents panthalus from breaking everything",
+    "crazy taxi world tour is getting a closed network test in september, applications open now",
+    "wuchang: fallen feathers sequel announced",
+    "finding polka launches august 12"
   ],
   "seen_story_keys": [
-    "28ae276d7702f699f2436a9e4b25038e3ff6bfe3",
-    "d6b3fb7b7f3c5c75dc73d5c8f1fb8198813733cd",
-    "49bf4b4d60faadf257ae4b904306f0497e435d61",
-    "ac4c5f76fe233542f3a052a4a52e2de6cbc46d3c",
     "0d08b8214bc67db0eca6a896a469f7ad363894cc",
     "899d541415cfbb4a8f55f3001bdbc397b1ec6127",
     "fb7f7575ab97f5edd8703ec0d242a6cc6e5125d2",
@@ -15003,6 +14999,10 @@
     "b8d8cc1b5a87efbb782c3e6125aa3ab97623a466",
     "469e20cf66d76bea4f20238e281908f4ee400d3d",
     "11901357e3a8cc71c0e5d6e3ee020c7bff85d3cb",
-    "638136b65346c4407f95a9f63b3875a9cf837ba1"
+    "638136b65346c4407f95a9f63b3875a9cf837ba1",
+    "8a4c7f1053db4fbff94bac8b82b21dc0f0c2e3ce",
+    "f83441b0958f5dac7a691ac5887ead777d1db204",
+    "5e1d9ccb63f1bb5cdb1f1da843026d795997b410",
+    "dffc1151dafcb13d0091672d874bea79f033b88d"
   ]
 }
