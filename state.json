@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295435/haunted-lands-released",
-    "https://www.bluesnews.com/s/295424/morning-patches",
-    "https://www.gamesindustry.biz/avalanche-studios-reveals-its-highlander-style-survival-of-the-fittest-rd-strategy",
-    "https://www.pcgamer.com/games/adventure/making-dispatch-was-motivated-by-a-mix-of-arrogance-and-stupidity-its-creative-directors-say/",
     "https://www.gamesindustry.biz/original-founders-of-bossfight-entertainment-re-launch-studio-as-bossfight",
     "https://www.gamespot.com/articles/jay-and-silent-bob-chronic-blunt-punch-gets-a-release-date-and-its-perfect/1100-6538691/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/pickmon-accused-of-being-a-pokemon-rip-off-but-its-worse-than-that/1100-6538698/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/palworld-july-28-update-patch-notes/",
     "https://www.pcgamer.com/games/action/the-last-of-us-multiplayer-mod-has-hit-a-big-milestone-as-it-prepares-for-launch-in-september/",
     "https://www.rockpapershotgun.com/the-case-of-the-golden-idol-style-deduction-meets-the-x-files-former-bioware-devs-unveil-supernatural-detective-game-the-eventide",
-    "https://www.ign.com/articles/pokemon-pokopia-expansion-and-free-update-arrive-next-week-unlocking-underwater-gameplay"
+    "https://www.ign.com/articles/pokemon-pokopia-expansion-and-free-update-arrive-next-week-unlocking-underwater-gameplay",
+    "https://www.gematsu.com/2026/07/croc-2-kingdom-of-the-gobbos-remaster-announced-for-ps5-xbox-series-ps4-switch-and-pc",
+    "https://www.pcgamer.com/games/fighting/marvel-tokon-devs-vow-to-fix-performance-issues-for-launch-day-next-week-to-our-pc-players-message-received/",
+    "https://www.gematsu.com/2026/07/pokemon-pokopia-dlc-expansion-pass-part-1-bubbly-basin-launches-august-5-alongside-version-2-0-0-update",
+    "https://www.videogameschronicle.com/news/these-actions-are-not-taken-lightly-double-fine-has-laid-off-23-staff-after-going-independent/"
   ],
   "seen_titles": [
-    "haunted lands released",
-    "morning patches",
-    "avalanche studios reveals its highlander-style, survival of the fittest r&d strategy",
-    "making dispatch was motivated by 'a mix of arrogance and stupidity,' its creative directors say",
     "original founders of bossfight entertainment re-launch studio as bossfight",
     "jay and silent bob: chronic blunt punch gets a release date, and it's perfect",
     "pickmon accused of being a pokemon rip-off, but it's worse than that",
@@ -10001,13 +9997,13 @@
     "palworld releases brand-new update you can download right now",
     "the last of us multiplayer mod has hit a 'big milestone' as it prepares for launch in september",
     "\"the case of the golden idol-style deduction meets the x-files\": former bioware devs unveil supernatural detective game the eventide",
-    "pokémon pokopia expansion and free update arrive next week, unlocking underwater gameplay"
+    "pokémon pokopia expansion and free update arrive next week, unlocking underwater gameplay",
+    "croc 2: kingdom of the gobbos remaster announced for ps5, xbox series, ps4, switch, and pc",
+    "marvel tōkon devs vow to fix performance issues for launch day next week: 'to our pc players, message received'",
+    "pokemon pokopia dlc ‘expansion pass part 1: bubbly basin’ launches august 5 alongside version 2.0.0 update",
+    "‘these actions are not taken lightly’: double fine has laid off 23 staff after going independent"
   ],
   "seen_story_keys": [
-    "0260c674b1449c1bf98c3d07c171a95671c5d4b8",
-    "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
-    "8d7ef4d0d54a48991610010a0e42fd4beb23bb53",
-    "2fb0b5f4b3366b80ce416951a82e079d1b795a30",
     "02e35268de37aef1a1675006451bbc8c2038a167",
     "2816e052b47ca34426d07c545ed09631851e2450",
     "ee4698a8a0330fb4905b43c0586e723512ac654d",
@@ -15003,6 +14999,10 @@
     "33cec5831a3ec371da76e5b533a56c5b025da21b",
     "ac3eac7a0585cda65b8e4a9853cf586bee7bf033",
     "5336f0ce971ca53ffb7bf0a6295a2f1ce653adac",
-    "6fea2ae092919cda7320d1b8728eac5a43334d6c"
+    "6fea2ae092919cda7320d1b8728eac5a43334d6c",
+    "a86616082b671255c41b52aca6e498012c0a6f92",
+    "5c4cd3df91971f8284c9cd26a29581cd919228a4",
+    "e0c054f82ed27b40f80480a380c1d2613f945e8e",
+    "53ae5ce7fdae25e8d0dc2e63d00484c397c14ff1"
   ]
 }
