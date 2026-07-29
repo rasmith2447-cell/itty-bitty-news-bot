@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/lumentale-memories-of-trey-launches-may-26",
-    "https://www.gematsu.com/2026/03/digimon-story-time-stranger-dlc-additional-digimon-episode-pack-3-anti-paradox-launches-march-12",
-    "https://www.polygon.com/lego-mario-kart-luigi-set-mach-8-price-release-date/",
-    "https://www.pcgamer.com/hardware/graphics-cards/dlss-4-5-dynamic-multi-frame-generation-is-coming-to-nvidia-app-beta-users-on-march-31-bringing-on-the-fly-6x-frame-gen-switching-to-rtx-50-series-owners/",
     "https://www.polygon.com/god-of-war-sex-minigames-designed-by-women/",
     "https://www.gamespot.com/articles/someone-predicted-super-mario-galaxy-movies-yoshi-casting-over-a-year-ago/1100-6538690/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/arnie-says-hell-reprise-his-mortal-kombat-role-as-conan-the-barbarian-on-the-big-screen/1100-6538689/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/tom-holland-reveals-how-he-brought-finishing-moves-from-sonys-spider-man-games-to-brand-new-day",
     "https://www.gematsu.com/2026/07/the-immortal-john-triptych-launches-august-27",
     "https://www.gematsu.com/2026/07/9-rip-sequel-launches-october-27-in-the-west",
-    "https://www.gematsu.com/2026/07/teenage-mutant-ninja-turtles-splintered-fate-switch-2-physical-edition-new-dlc-character-announced"
+    "https://www.gematsu.com/2026/07/teenage-mutant-ninja-turtles-splintered-fate-switch-2-physical-edition-new-dlc-character-announced",
+    "https://www.pushsquare.com/news/2026/07/gran-turismo-7-partnering-with-elite-racing-wheel-maker-on-official-ps5-hardware",
+    "https://www.nintendolife.com/news/2026/07/video-crazy-taxi-world-tour-gets-a-crazy-new-trailer-highlighting-west-coast-map",
+    "https://www.purexbox.com/news/2026/07/halo-campaign-evolved-is-available-today-with-xbox-game-pass-and-heres-a-bunch-of-free-master-chief-skins",
+    "https://www.pcgamer.com/games/fighting/marvel-tokons-developer-has-apologised-to-pc-players-for-the-betas-performance-issues-with-only-a-week-until-launch/"
   ],
   "seen_titles": [
-    "lumentale: memories of trey launches may 26",
-    "digimon story: time stranger dlc ‘additional digimon & episode pack 3: anti-paradox’ launches march 12",
-    "nintendo and lego reveal new luigi mario kart set for \"mar10 day\"",
-    "dlss 4.5 dynamic multi frame generation is coming to nvidia app beta users on march 31, bringing on-the-fly 6x frame gen switching to rtx 50-series owners",
     "god of war sex minigames were designed by women, writer reveals",
     "someone predicted super mario galaxy movie's yoshi casting over a year ago",
     "arnie says he'll reprise his mortal kombat role as conan the barbarian on the big screen",
@@ -10001,13 +9997,13 @@
     "tom holland reveals how he brought finishing moves from sony's spider-man games to brand new day",
     "the immortal john triptych launches august 27",
     "9 r.i.p. sequel launches october 27 in the west",
-    "teenage mutant ninja turtles: splintered fate – switch 2 physical edition, new dlc character announced"
+    "teenage mutant ninja turtles: splintered fate – switch 2 physical edition, new dlc character announced",
+    "gran turismo 7 partnering with elite racing wheel maker on official ps5 hardware",
+    "video: crazy taxi: world tour gets a crazy new trailer highlighting west coast map",
+    "halo: campaign evolved is available today with xbox game pass, and here's a bunch of free master chief skins",
+    "marvel tōkon's developer has apologised to pc players for the beta's performance issues, with only a week until launch"
   ],
   "seen_story_keys": [
-    "289e082ff7520a575e02289bcfbc095a132c3690",
-    "e3fd3e971e86ac1fc4292b6e347e91905e017607",
-    "644e275208771f852c50c56bd22ae1ebe8f5ab50",
-    "0efa32de372a86f6f41c466c57fb0408705cd3f7",
     "1cb4a8175ed4306d856f2260a321ad07fd9afe6a",
     "c4fdbb05aad88c97af889617570e05fe5ad3cffe",
     "770e8c1f74a3de70c832d028f3e55ae937da54e7",
@@ -15003,6 +14999,10 @@
     "e0e873304e7618afff3edc55a5c590116871fffe",
     "031497c5ac04f3c89deea05d71b7646251cb52a4",
     "74c223f6c2489337645a2b47fa42beb117b2d5cc",
-    "45f90cef179125d2f66e568eb0d496dc347b5326"
+    "45f90cef179125d2f66e568eb0d496dc347b5326",
+    "a02e146eece8a0ab9344483cf5b1f26bc07ec2cc",
+    "7bd4947f478dbd4691bce4d726470f650e7b448e",
+    "b7f80a555171979026c9eac2b3d15ed73a254397",
+    "6190bac797f09537bddc9201e26a252e7f940d32"
   ]
 }
