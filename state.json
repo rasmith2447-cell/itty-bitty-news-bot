@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/bloober-team-project-h-game-announcements/",
-    "https://www.gamespot.com/articles/new-super-mario-bros-wonder-trailer-shows-off-elephant-rosalina/1100-6538699/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/03/the-boys-trigger-warning-launches-march-26-for-quest-later-for-ps-vr2",
-    "https://www.pcgamer.com/gaming-industry/mega-man-11-actor-wont-return-for-the-next-game-in-the-series-because-capcom-refuses-to-work-under-a-union-contract/",
     "https://www.polygon.com/lego-super-mario-minifigures-first-look-release-date/",
     "https://www.ign.com/articles/man-on-fire-exclusive-first-look-images-and-netflix-series-release-date",
     "https://www.gamespot.com/articles/the-boys-is-getting-a-game-right-before-its-final-season-begins/1100-6538694/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/pokemon-pokopia-next-event-august-2026-fetching-scales-feebas/",
     "https://www.gematsu.com/2026/07/lost-found-a-this-bed-we-made-story-launches-august-5",
     "https://www.nintendolife.com/news/2026/07/pokopia-expansion-pass-trailer-reveals-new-pokemon-and-a-first-look-at-part-2",
-    "https://gamerant.com/xbox-outage-disc-failing-update/"
+    "https://gamerant.com/xbox-outage-disc-failing-update/",
+    "https://www.gematsu.com/2026/07/kinki-spiritual-affairs-bureau-for-switch-2-launches-july-30",
+    "https://www.gematsu.com/2026/07/tensei-game-karma-x-cross-launches-august-6-in-japan",
+    "https://www.eurogamer.net/wuchang-fallen-feathers-sequel-confirmed",
+    "https://www.pushsquare.com/news/2026/07/dragon-ball-sparking-zeros-big-dlc-price-finally-revealed-and-it-aint-cheap"
   ],
   "seen_titles": [
-    "'the most ambitious project this team has ever undertaken' bloober team teases multiple game announcements in 2026",
-    "new super mario bros. wonder trailer shows off elephant rosalina",
-    "the boys: trigger warning launches march 26 for quest, later for ps vr2",
-    "mega man 11 actor won't return for the next game in the series because capcom refuses to work under a union contract",
     "lego and nintendo reveal first super mario minifigure",
     "man on fire: exclusive first look images and netflix series release date",
     "the boys is getting a game right before its final season begins",
@@ -10001,13 +9997,13 @@
     "pokemon pokopia announces brand-new event for august 13",
     "lost & found: a this bed we made story launches august 5",
     "pokopia expansion pass trailer reveals new pokémon & a first look at 'part 2'",
-    "xbox addresses disc failing issue during network outage"
+    "xbox addresses disc failing issue during network outage",
+    "kinki spiritual affairs bureau for switch 2 launches july 30",
+    "tensei game: karma x cross launches august 6 in japan",
+    "after dissolution of the original team, a wuchang: fallen feathers sequel has been confirmed with the original creative director at the helm",
+    "dragon ball: sparking! zero's big dlc price finally revealed, and it ain't cheap"
   ],
   "seen_story_keys": [
-    "d56c529f7cfefd41475dd8de6b05bc323cc56a47",
-    "7d84d230ed684adb9ea8eea4dd40f52794515919",
-    "e92d9ae9989fd219398dd24eaf86ae7582591a69",
-    "9532317340de890634e67faafd9d4fc09b1e3082",
     "a527687b02a7634bdfdae4666f449720f6bb99ba",
     "3faa2fbbbbe7eaa479498f9f2f1030bc58e16a00",
     "7b0e0b846062a8083f72bf2bc2644252e63a7419",
@@ -15003,6 +14999,10 @@
     "847c764d3fed844b0f5421907a66932fc93ad775",
     "f6f282fe18139a158ca1deb8f65f3a4bb2730f4c",
     "8fc598390fe6822d7cdb56d92c4017fcb07e92b5",
-    "8c7870214281ae3d43d4d25f00815fd6efac24af"
+    "8c7870214281ae3d43d4d25f00815fd6efac24af",
+    "5fb62ca4629c09bcaa2bc3eb89522ccda822d01d",
+    "2a672cf303fe2dd520cb32c742f05818306b37f0",
+    "85601f8982bd3a019fd7096958cf8075605bc54d",
+    "188fc630af331d8250daf3e9ff2d820203147b0a"
   ]
 }
