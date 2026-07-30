@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/pocketpair-suggests-a-decade-of-continuous-massive-updates-is-probably-not-on-the-cards-but-teases-it-wouldnt-rule-out-a-palworld-20",
-    "https://www.pcgamer.com/games/fps/marathons-latest-update-fixes-just-about-everything-you-had-on-your-wishlist-no-seriously/",
-    "https://www.pcgamer.com/software/microsoft-announces-that-office-has-two-critical-security-vulnerabilities-and-heres-where-you-can-find-patches-to-fix-them/",
-    "https://gamerant.com/marathon-update-march-11-patch-notes/",
     "https://www.polygon.com/rick-morty-season-9-first-look-premiere-date/",
     "https://www.ign.com/articles/rick-and-morty-season-9-release-date-set-for-may-with-first-look-images",
     "https://www.ign.com/articles/marathon-update-1004-makes-uesc-easier-but-bungie-insists-it-will-not-change-direction-on-friction-the-ai-enemies-provide",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/epic-games-store-august-2026-free-games-beacon-pines-we-were-here/",
     "https://www.rockpapershotgun.com/helldivers-2s-warhammer-40k-warbond-finally-gets-a-release-date-will-let-you-bust-out-the-meltaguns-and-meltamines",
     "https://www.gematsu.com/2026/07/open-world-sandbox-cultivation-game-9-yin-sutra-immortal-announced-for-pc",
-    "https://www.nintendolife.com/news/2026/07/kusan-city-of-wolves-channels-some-serious-hotline-miami-vibes-on-switch-today"
+    "https://www.nintendolife.com/news/2026/07/kusan-city-of-wolves-channels-some-serious-hotline-miami-vibes-on-switch-today",
+    "https://www.gematsu.com/2026/07/saber-interactive-announces-rideshare-stimulator-for-ps5-xbox-series-and-pc",
+    "https://www.polygon.com/pragmata-diana-awful-haircut-capcom/",
+    "https://www.pushsquare.com/news/2026/07/your-next-ps-plus-game-plans-to-significantly-accelerate-progression-across-its-first-10-hours",
+    "https://www.gematsu.com/2026/07/gears-of-war-e-day-multiplayer-reveal-trailer-developer-overview"
   ],
   "seen_titles": [
-    "pocketpair suggests 'a decade of continuous, massive updates' is 'probably not on the cards,' but teases it 'wouldn't rule out a palworld 2.0'",
-    "marathon's latest update fixes just about everything you had on your wishlist (no, seriously)",
-    "microsoft announces that office has two critical security vulnerabilities, and here's where you can find patches to fix them",
-    "marathon reveals patch notes for march 11 update",
     "adult swim shares rick and morty season 9 release date and first look images",
     "rick and morty season 9 release date set for may with first-look images",
     "marathon update 1.0.0.4 makes uesc easier, but bungie insists it will not change direction on ‘friction’ the ai enemies provide",
@@ -10001,13 +9997,13 @@
     "epic games store officially reveals its 2 free games for august 6",
     "helldivers 2's warhammer 40k warbond finally gets a release date, will let you bust out the meltaguns and meltamines",
     "open-world sandbox cultivation game 9 yin sutra: immortal announced for pc",
-    "kusan: city of wolves channels some serious hotline miami vibes on switch today"
+    "kusan: city of wolves channels some serious hotline miami vibes on switch today",
+    "saber interactive announces rideshare “stimulator” for ps5, xbox series, and pc",
+    "pragmata devs almost drastically changed diana's design",
+    "your next ps plus game plans to 'significantly accelerate' progression across its first 10 hours",
+    "gears of war: e-day multiplayer reveal trailer, developer overview"
   ],
   "seen_story_keys": [
-    "73118fc7461894340a1608338b868b415d241356",
-    "529b06ccaa3db92dce55492e449e2ca125a59f68",
-    "ccb54562481bffca4a5adbb3fad869e507a69eb0",
-    "457552835656bc7e4af208b33a5f5b2820626e81",
     "88d455609154a7309bbf53d6025285733e3f267f",
     "6525f0938388dad7df872c239381248f4c84ef18",
     "3ae1e6b2c32200e746b8dc64cfff448c5d9c4c40",
@@ -15003,6 +14999,10 @@
     "d855a8c1d0a97df80c13a0ffb68364a9d9a660c9",
     "1aecc28879823588b65c5ea244f4ce3dac7cc630",
     "e4929b99881c6ba1f78a52219edd20814b912798",
-    "03965478272442a0809bdd3f3fcd91fa5b121d67"
+    "03965478272442a0809bdd3f3fcd91fa5b121d67",
+    "36a7f110b39f33badb7e6c98a2d08ca50842202d",
+    "035cb3a8e098464bc2e0b7709cd66354e0ba686c",
+    "50640781b3bb11790721bf159b9c05683b10da0a",
+    "3426ab77659151c84144b48ddae40caaaff32881"
   ]
 }
