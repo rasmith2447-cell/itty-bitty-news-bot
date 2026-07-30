@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/call-of-duty-season-2-reloaded-update-bo7-warzone/",
-    "https://www.gematsu.com/2026/03/daisenryaku-ssb2-first-half-of-2026-roadmap-announced",
-    "https://www.gematsu.com/2026/03/shinigami-hime-to-ishokan-no-kaibutsu-demo-announced",
-    "https://www.eurogamer.net/marathon-first-patch-nerfs-thermal-scopes-and-uesc-bots-boosts-ammo-and-health-spawns",
     "https://www.ign.com/articles/pocketpair-suggests-a-decade-of-continuous-massive-updates-is-probably-not-on-the-cards-but-teases-it-wouldnt-rule-out-a-palworld-20",
     "https://www.pcgamer.com/games/fps/marathons-latest-update-fixes-just-about-everything-you-had-on-your-wishlist-no-seriously/",
     "https://www.pcgamer.com/software/microsoft-announces-that-office-has-two-critical-security-vulnerabilities-and-heres-where-you-can-find-patches-to-fix-them/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/final-fantasy-7-ff7-revelation-game-changes-meteor-weapons/",
     "https://www.eurogamer.net/nvidia-gpu-price-rise-30-percent",
     "https://www.ign.com/articles/christopher-nolans-the-odyssey-sparks-assassins-creed-odyssey-player-count-spike-gives-ubisoft-great-ammunition-for-a-remake",
-    "https://www.gematsu.com/2026/07/mexican-ninja-launches-august-20"
+    "https://www.gematsu.com/2026/07/mexican-ninja-launches-august-20",
+    "https://gamerant.com/epic-games-store-august-2026-free-games-beacon-pines-we-were-here/",
+    "https://www.rockpapershotgun.com/helldivers-2s-warhammer-40k-warbond-finally-gets-a-release-date-will-let-you-bust-out-the-meltaguns-and-meltamines",
+    "https://www.gematsu.com/2026/07/open-world-sandbox-cultivation-game-9-yin-sutra-immortal-announced-for-pc",
+    "https://www.nintendolife.com/news/2026/07/kusan-city-of-wolves-channels-some-serious-hotline-miami-vibes-on-switch-today"
   ],
   "seen_titles": [
-    "call of duty reveals patch notes for black ops 7 and warzone season 2 reloaded update",
-    "daisenryaku ssb2 first half of 2026 roadmap announced",
-    "shinigami hime to ishokan no kaibutsu demo announced",
-    "marathon's first patch improves ammo and meds, makes combat noisier, nerfs thermal scopes and uesc bots",
     "pocketpair suggests 'a decade of continuous, massive updates' is 'probably not on the cards,' but teases it 'wouldn't rule out a palworld 2.0'",
     "marathon's latest update fixes just about everything you had on your wishlist (no, seriously)",
     "microsoft announces that office has two critical security vulnerabilities, and here's where you can find patches to fix them",
@@ -10001,13 +9997,13 @@
     "square enix officially reveals new changes coming to final fantasy 7 revelation",
     "nvidia gpus see yet another price hike of up to 30 percent, as the generative ai hardware crisis worsens",
     "christopher nolan's the odyssey sparks assassin's creed: odyssey player count spike, gives ubisoft 'great ammunition' for a remake",
-    "mexican ninja launches august 20"
+    "mexican ninja launches august 20",
+    "epic games store officially reveals its 2 free games for august 6",
+    "helldivers 2's warhammer 40k warbond finally gets a release date, will let you bust out the meltaguns and meltamines",
+    "open-world sandbox cultivation game 9 yin sutra: immortal announced for pc",
+    "kusan: city of wolves channels some serious hotline miami vibes on switch today"
   ],
   "seen_story_keys": [
-    "6f9972fe1c0b05de3ee34b50df2f3e0c8e685412",
-    "e3354e825ee4f2e288cddce450ee34ed4dd239f7",
-    "e556b764f1ce413b0f4dc71516c888720849f1de",
-    "5633d1094b7701021e96a27faa39d4266587f543",
     "73118fc7461894340a1608338b868b415d241356",
     "529b06ccaa3db92dce55492e449e2ca125a59f68",
     "ccb54562481bffca4a5adbb3fad869e507a69eb0",
@@ -15003,6 +14999,10 @@
     "2557cb69e990401ffd0e37ffeecc78aa8945f54c",
     "d76e3f43571eff730b47f330792aa959438d3c24",
     "ac1820ec99c4054455aa2a3dcbfad0ef745457b7",
-    "e432e0a22b446330ae574fcd51477ccdf9f6dccb"
+    "e432e0a22b446330ae574fcd51477ccdf9f6dccb",
+    "d855a8c1d0a97df80c13a0ffb68364a9d9a660c9",
+    "1aecc28879823588b65c5ea244f4ce3dac7cc630",
+    "e4929b99881c6ba1f78a52219edd20814b912798",
+    "03965478272442a0809bdd3f3fcd91fa5b121d67"
   ]
 }
