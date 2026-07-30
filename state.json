@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/rick-morty-season-9-first-look-premiere-date/",
-    "https://www.ign.com/articles/rick-and-morty-season-9-release-date-set-for-may-with-first-look-images",
-    "https://www.ign.com/articles/marathon-update-1004-makes-uesc-easier-but-bungie-insists-it-will-not-change-direction-on-friction-the-ai-enemies-provide",
-    "https://gamerant.com/call-of-duty-warzone-black-ops-royale-no-solos-why/",
     "https://www.gematsu.com/2026/03/warhammer-blood-bowl-announced-for-ps5-xbox-series-ps4-xbox-one-and-pc",
     "https://www.gematsu.com/2026/03/harvest-moon-echoes-of-teradea-announced-for-ps5-xbox-series-switch-2-switch-and-pc",
     "https://www.pushsquare.com/news/2026/03/gran-turismo-7-update-1-68-adds-yet-more-cars-events-to-ps5-ps4-racer",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/saber-interactive-announces-rideshare-stimulator-for-ps5-xbox-series-and-pc",
     "https://www.polygon.com/pragmata-diana-awful-haircut-capcom/",
     "https://www.pushsquare.com/news/2026/07/your-next-ps-plus-game-plans-to-significantly-accelerate-progression-across-its-first-10-hours",
-    "https://www.gematsu.com/2026/07/gears-of-war-e-day-multiplayer-reveal-trailer-developer-overview"
+    "https://www.gematsu.com/2026/07/gears-of-war-e-day-multiplayer-reveal-trailer-developer-overview",
+    "https://www.pcgamer.com/games/the-elder-scrolls/we-are-not-looking-to-just-maintain-elder-scrolls-online-new-zenimax-boss-says-but-a-bunch-of-updates-have-been-delayed-into-2027-and-possibly-beyond/",
+    "https://www.pushsquare.com/news/2026/07/unhinged-passengers-are-the-stars-of-rideshare-stimulator-an-uber-driver-sim-heading-to-ps5",
+    "https://www.gematsu.com/2026/07/speedrunners-2-king-of-speed-launches-september-3",
+    "https://www.ign.com/articles/the-elder-scrolls-online-content-delayed-to-2027-following-xbox-layoffs"
   ],
   "seen_titles": [
-    "adult swim shares rick and morty season 9 release date and first look images",
-    "rick and morty season 9 release date set for may with first-look images",
-    "marathon update 1.0.0.4 makes uesc easier, but bungie insists it will not change direction on ‘friction’ the ai enemies provide",
-    "call of duty warzone studio reveals why black ops royale doesn't have solos mode",
     "warhammer blood bowl announced for ps5, xbox series, ps4, xbox one, and pc",
     "harvest moon: echoes of teradea announced for ps5, xbox series, switch 2, switch, and pc",
     "gran turismo 7 update 1.68 adds yet more cars, events to ps5, ps4 racer",
@@ -10001,13 +9997,13 @@
     "saber interactive announces rideshare “stimulator” for ps5, xbox series, and pc",
     "pragmata devs almost drastically changed diana's design",
     "your next ps plus game plans to 'significantly accelerate' progression across its first 10 hours",
-    "gears of war: e-day multiplayer reveal trailer, developer overview"
+    "gears of war: e-day multiplayer reveal trailer, developer overview",
+    "'we are not looking to just maintain' elder scrolls online, new zenimax boss says, but a bunch of updates have been delayed into 2027 and possibly beyond",
+    "unhinged passengers are the stars of rideshare \"stimulator\", an uber driver sim heading to ps5",
+    "speedrunners 2: king of speed launches september 3",
+    "the elder scrolls online content delayed to 2027 following xbox layoffs"
   ],
   "seen_story_keys": [
-    "88d455609154a7309bbf53d6025285733e3f267f",
-    "6525f0938388dad7df872c239381248f4c84ef18",
-    "3ae1e6b2c32200e746b8dc64cfff448c5d9c4c40",
-    "923e818698fce3a14e7f3abb4a2e45af592dbaca",
     "b77c25db86bf1a0cb6442d4be551c57a0ea81623",
     "800e1a7a6ce98f35c6da39a27581d5e80ce8ca07",
     "7cf8b220da4008e1669c0a3a03b3b7da2c086846",
@@ -15003,6 +14999,10 @@
     "36a7f110b39f33badb7e6c98a2d08ca50842202d",
     "035cb3a8e098464bc2e0b7709cd66354e0ba686c",
     "50640781b3bb11790721bf159b9c05683b10da0a",
-    "3426ab77659151c84144b48ddae40caaaff32881"
+    "3426ab77659151c84144b48ddae40caaaff32881",
+    "656d1078efb72c9cc48e6d7e6a225f8e7c151bd8",
+    "62078981d8e23f242141dc1d9e3e90e6e1428518",
+    "c167ef170fed2c90eddd169989b33f386d9de267",
+    "3342685eec5254549ba562168738f2f7a6d2ded1"
   ]
 }
