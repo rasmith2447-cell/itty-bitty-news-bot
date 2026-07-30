@@ -1,6 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295448/game-and-mod-development",
     "https://www.nintendolife.com/news/2026/03/fashion-dreamer-for-switch-shutting-down-online-mode-next-week",
     "https://gamerant.com/resident-evil-requiem-update-patch-notes/",
     "https://www.nintendolife.com/news/2026/03/i-need-a-union-contract-to-feel-safe-mega-man-11-voice-actor-not-returning-for-dual-override",
@@ -4999,10 +4998,10 @@
     "https://www.nintendolife.com/news/2026/07/tmnt-splintered-fate-scores-legendary-switch-2-physical-release-new-dlc-character-and-more-teased",
     "https://www.gematsu.com/2026/07/exstetra-for-ps5-switch-2-and-switch-launches-september-3",
     "https://www.gematsu.com/2026/07/demons-night-fever-launches-october-22",
-    "https://www.nintendolife.com/news/2026/07/dragon-ball-sparking-zero-shows-off-super-limit-breaking-neo-dlc-and-free-update"
+    "https://www.nintendolife.com/news/2026/07/dragon-ball-sparking-zero-shows-off-super-limit-breaking-neo-dlc-and-free-update",
+    "https://www.nintendolife.com/news/2026/07/xenoblade-chronicles-2-torna-the-golden-country-updated-to-version-2-0-0"
   ],
   "seen_titles": [
-    "game and mod development",
     "fashion dreamer for switch shutting down online mode next week",
     "resident evil requiem gets new update, patch notes revealed",
     "\"i need a union contract to feel safe\" - mega man 11 voice actor not returning for dual override",
@@ -10001,10 +10000,10 @@
     "tmnt: splintered fate scores \"legendary\" switch 2 physical release, new dlc character and more teased",
     "exstetra for ps5, switch 2, and switch launches september 3",
     "demons’ night fever launches october 22",
-    "dragon ball: sparking! zero shows off \"super limit-breaking neo\" dlc and free update"
+    "dragon ball: sparking! zero shows off \"super limit-breaking neo\" dlc and free update",
+    "xenoblade chronicles 2: torna - the golden country updated to version 2.0.0"
   ],
   "seen_story_keys": [
-    "d7bd666ee7a5bd653f28278d295854d165053e6d",
     "64f6a0d0b6572f4270237c91a38a80c353185758",
     "8b0838d25ab1344427c572ccdadc61603b061a5b",
     "ed12b53b674db0512676bd34d1737636ef76ed22",
@@ -15003,6 +15002,7 @@
     "ef284481022cbedee08fb5de2ea0faef54dc0425",
     "c2fa4b60f331c213f8a3c6a5c7ad799307811194",
     "e915dc8031587953bf5518897914964a85c9513f",
-    "45481955a85df8b448574e4e325c9f39cbb94d3d"
+    "45481955a85df8b448574e4e325c9f39cbb94d3d",
+    "ba6fae03a5d1682845c8b37936987eea2f9f0835"
   ]
 }
