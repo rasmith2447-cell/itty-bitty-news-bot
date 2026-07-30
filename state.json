@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/new-the-witch-and-the-hundred-knight-game-announced-for-ios-android",
-    "https://www.gematsu.com/2026/03/nippon-ichi-software-announces-nippon-ichi-pc-games-service",
-    "https://www.gematsu.com/2026/03/nippon-ichi-software-announces-party-game-project-prinny-sugoroku-for-ps5-switch-2-switch-and-pc",
-    "https://www.eurogamer.net/star-wars-first-assault-gameplay-appears-online-as-fan-effort-tries-to-restore-cancelled-lucasarts-game",
     "https://gamerant.com/call-of-duty-season-2-reloaded-update-bo7-warzone/",
     "https://www.gematsu.com/2026/03/daisenryaku-ssb2-first-half-of-2026-roadmap-announced",
     "https://www.gematsu.com/2026/03/shinigami-hime-to-ishokan-no-kaibutsu-demo-announced",
@@ -4999,13 +4995,13 @@
     "https://www.rockpapershotgun.com/our-business-did-not-grow-with-our-audience-post-layoffs-xbox-execs-are-trying-to-sell-a-gaming-division-bounce-back-by-summer-2027",
     "https://www.nintendolife.com/news/2026/07/delightful-point-and-click-murder-mystery-thimbleweed-park-is-getting-a-sequel",
     "https://www.gamesindustry.biz/gta-6-download-codes-to-expire-170-days-after-launch-in-japan",
-    "https://www.eurogamer.net/xbox-10-percent-content-services-revenue-decrease"
+    "https://www.eurogamer.net/xbox-10-percent-content-services-revenue-decrease",
+    "https://gamerant.com/final-fantasy-7-ff7-revelation-game-changes-meteor-weapons/",
+    "https://www.eurogamer.net/nvidia-gpu-price-rise-30-percent",
+    "https://www.ign.com/articles/christopher-nolans-the-odyssey-sparks-assassins-creed-odyssey-player-count-spike-gives-ubisoft-great-ammunition-for-a-remake",
+    "https://www.gematsu.com/2026/07/mexican-ninja-launches-august-20"
   ],
   "seen_titles": [
-    "new the witch and the hundred knight game announced for ios, android",
-    "nippon ichi software announces nippon ichi pc games service",
-    "nippon ichi software announces party game project prinny sugoroku for ps5, switch 2, switch, and pc",
-    "new star wars: first assault gameplay footage surfaces as fan team tries to finish lucasarts' cancelled online shooter",
     "call of duty reveals patch notes for black ops 7 and warzone season 2 reloaded update",
     "daisenryaku ssb2 first half of 2026 roadmap announced",
     "shinigami hime to ishokan no kaibutsu demo announced",
@@ -10001,13 +9997,13 @@
     "\"our business did not grow with our audience\": post-layoffs, xbox execs are trying to sell a gaming division bounce back by summer 2027",
     "delightful point-and-click murder mystery 'thimbleweed park' is getting a sequel",
     "gta 6 download codes will expire 170 days after launch in japan",
-    "xbox reports 10 percent drop in revenue across content and services following mass job cuts and studio offload"
+    "xbox reports 10 percent drop in revenue across content and services following mass job cuts and studio offload",
+    "square enix officially reveals new changes coming to final fantasy 7 revelation",
+    "nvidia gpus see yet another price hike of up to 30 percent, as the generative ai hardware crisis worsens",
+    "christopher nolan's the odyssey sparks assassin's creed: odyssey player count spike, gives ubisoft 'great ammunition' for a remake",
+    "mexican ninja launches august 20"
   ],
   "seen_story_keys": [
-    "77763a4b37a22f0fa463047210f73fbeb96844e1",
-    "3853da106b022d7f6bc7ba48112830a6455107f3",
-    "7f72c74ca5b978227fe49694ef4aab01367712e0",
-    "0070527e1380007f9aacf43c8c028f473e05d7a7",
     "6f9972fe1c0b05de3ee34b50df2f3e0c8e685412",
     "e3354e825ee4f2e288cddce450ee34ed4dd239f7",
     "e556b764f1ce413b0f4dc71516c888720849f1de",
@@ -15003,6 +14999,10 @@
     "cd43fb58070e6ac2494aef0b6c792c9ea4a0a1bd",
     "edb61cb6c2e49014a9ed320f28bf9a21d4d05260",
     "e174a935562654c0dd30db7ae5503092b647c5cf",
-    "b7d24ab22bef0302d9968fd2404a6a7a77370b1a"
+    "b7d24ab22bef0302d9968fd2404a6a7a77370b1a",
+    "2557cb69e990401ffd0e37ffeecc78aa8945f54c",
+    "d76e3f43571eff730b47f330792aa959438d3c24",
+    "ac1820ec99c4054455aa2a3dcbfad0ef745457b7",
+    "e432e0a22b446330ae574fcd51477ccdf9f6dccb"
   ]
 }
