@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295461/greedfall-the-dying-world-official-launch",
-    "https://www.bluesnews.com/s/295459/galactic-vault-opens",
-    "https://www.bluesnews.com/s/295456/delphinium-announced",
-    "https://www.gematsu.com/2026/03/nekopara-sekai-connect-launches-april-14-for-ios-and-android-this-fall-for-pc",
     "https://www.nintendolife.com/news/2026/03/dragon-quest-i-and-ii-hd-2d-remake-receives-a-new-update-here-is-everything-included",
     "https://www.pushsquare.com/news/2026/03/ps5s-helldivers-2-goes-full-ww1-in-upcoming-entrenched-division-warbond",
     "https://www.bluesnews.com/s/295451/evening-patches",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/07/wuchang-fallen-feathers-sequel-announced",
     "https://www.gematsu.com/2026/07/finding-polka-launches-august-12",
     "https://www.eurogamer.net/monster-hunter-wilds-patch-1-042-event-quests-offline",
-    "https://www.pushsquare.com/news/2026/07/this-new-ps5-daughter-raising-sim-has-235plus-trophies-at-launch"
+    "https://www.pushsquare.com/news/2026/07/this-new-ps5-daughter-raising-sim-has-235plus-trophies-at-launch",
+    "https://www.ign.com/articles/project-motor-racing-adds-free-holden-commodore-pc-triple-screen-support-in-21-update",
+    "https://www.nintendolife.com/news/2026/07/capcom-says-the-likelihood-of-a-pragmata-sequel-is-high",
+    "https://www.gematsu.com/2026/07/stupid-never-dies-launches-october-21",
+    "https://www.polygon.com/stupid-never-dies-game-release-date-hiroyuki-kobayashi/"
   ],
   "seen_titles": [
-    "greedfall: the dying world official launch",
-    "galactic vault opens",
-    "delphinium announced",
-    "nekopara sekai connect launches april 14 for ios and android, this fall for pc",
     "dragon quest i & ii hd-2d remake receives a new update, here is everything included",
     "ps5's helldivers 2 goes full ww1 in upcoming entrenched division warbond",
     "evening patches",
@@ -10001,13 +9997,13 @@
     "wuchang: fallen feathers sequel announced",
     "finding polka launches august 12",
     "monster hunter wilds' latest patch makes online-only missions playable offline, alongside some other useful updates",
-    "this new ps5 daughter raising sim has 235+ trophies at launch"
+    "this new ps5 daughter raising sim has 235+ trophies at launch",
+    "project motor racing adds free holden commodore, pc triple-screen support in 2.1 update",
+    "capcom says the likelihood of a pragmata sequel is high",
+    "stupid never dies launches october 21",
+    "stylish action rpg stupid never dies gets release date, new trailer"
   ],
   "seen_story_keys": [
-    "fb7f7575ab97f5edd8703ec0d242a6cc6e5125d2",
-    "c6b9ec0e35bca7f13143b3c46aa7d0bc6be00843",
-    "6aa99b936c5b8c702c0fb0a634951a78c4de32d4",
-    "55907f9c910bc2177ab81233745568bbb9272e26",
     "ba1fd132114f86985e1d6cbfa51955a494aa0fcc",
     "b239464521bf99683aa844114c13ce8f7b0fe792",
     "0c9a121cdc3a8f0602f802b215d9bd60f030aa34",
@@ -15003,6 +14999,10 @@
     "5e1d9ccb63f1bb5cdb1f1da843026d795997b410",
     "dffc1151dafcb13d0091672d874bea79f033b88d",
     "95c52da0a31e3fda578a00f375bf188206e40001",
-    "f46bbfbd6a65f573b16c44ec1bb33f384214f3e8"
+    "f46bbfbd6a65f573b16c44ec1bb33f384214f3e8",
+    "86505bab62e4317ed83c8b875248ad70dba7fc48",
+    "40e6d9631f210166c778966d0253d8808d89f47f",
+    "0b1536319d09e851a5f1661e0b0a4c443d9655d1",
+    "3d6a29abb84edc4b8fe594902dc7f549191cd51e"
   ]
 }
