@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/03/dragon-quest-i-and-ii-hd-2d-remake-receives-a-new-update-here-is-everything-included",
-    "https://www.pushsquare.com/news/2026/03/ps5s-helldivers-2-goes-full-ww1-in-upcoming-entrenched-division-warbond",
-    "https://www.bluesnews.com/s/295451/evening-patches",
-    "https://www.nintendolife.com/news/2026/03/yoshi-and-the-mysterious-book-estimated-file-size-and-price-seemingly-revealed",
     "https://www.bluesnews.com/s/295448/game-and-mod-development",
     "https://www.nintendolife.com/news/2026/03/fashion-dreamer-for-switch-shutting-down-online-mode-next-week",
     "https://gamerant.com/resident-evil-requiem-update-patch-notes/",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/project-motor-racing-adds-free-holden-commodore-pc-triple-screen-support-in-21-update",
     "https://www.nintendolife.com/news/2026/07/capcom-says-the-likelihood-of-a-pragmata-sequel-is-high",
     "https://www.gematsu.com/2026/07/stupid-never-dies-launches-october-21",
-    "https://www.polygon.com/stupid-never-dies-game-release-date-hiroyuki-kobayashi/"
+    "https://www.polygon.com/stupid-never-dies-game-release-date-hiroyuki-kobayashi/",
+    "https://www.nintendolife.com/news/2026/07/tmnt-splintered-fate-scores-legendary-switch-2-physical-release-new-dlc-character-and-more-teased",
+    "https://www.gematsu.com/2026/07/exstetra-for-ps5-switch-2-and-switch-launches-september-3",
+    "https://www.gematsu.com/2026/07/demons-night-fever-launches-october-22",
+    "https://www.nintendolife.com/news/2026/07/dragon-ball-sparking-zero-shows-off-super-limit-breaking-neo-dlc-and-free-update"
   ],
   "seen_titles": [
-    "dragon quest i & ii hd-2d remake receives a new update, here is everything included",
-    "ps5's helldivers 2 goes full ww1 in upcoming entrenched division warbond",
-    "evening patches",
-    "yoshi and the mysterious book estimated file size and price seemingly revealed",
     "game and mod development",
     "fashion dreamer for switch shutting down online mode next week",
     "resident evil requiem gets new update, patch notes revealed",
@@ -10001,13 +9997,13 @@
     "project motor racing adds free holden commodore, pc triple-screen support in 2.1 update",
     "capcom says the likelihood of a pragmata sequel is high",
     "stupid never dies launches october 21",
-    "stylish action rpg stupid never dies gets release date, new trailer"
+    "stylish action rpg stupid never dies gets release date, new trailer",
+    "tmnt: splintered fate scores \"legendary\" switch 2 physical release, new dlc character and more teased",
+    "exstetra for ps5, switch 2, and switch launches september 3",
+    "demons’ night fever launches october 22",
+    "dragon ball: sparking! zero shows off \"super limit-breaking neo\" dlc and free update"
   ],
   "seen_story_keys": [
-    "ba1fd132114f86985e1d6cbfa51955a494aa0fcc",
-    "b239464521bf99683aa844114c13ce8f7b0fe792",
-    "0c9a121cdc3a8f0602f802b215d9bd60f030aa34",
-    "e74bd687e4a77b48483033379a4042bbe87c5d39",
     "d7bd666ee7a5bd653f28278d295854d165053e6d",
     "64f6a0d0b6572f4270237c91a38a80c353185758",
     "8b0838d25ab1344427c572ccdadc61603b061a5b",
@@ -15003,6 +14999,10 @@
     "86505bab62e4317ed83c8b875248ad70dba7fc48",
     "40e6d9631f210166c778966d0253d8808d89f47f",
     "0b1536319d09e851a5f1661e0b0a4c443d9655d1",
-    "3d6a29abb84edc4b8fe594902dc7f549191cd51e"
+    "3d6a29abb84edc4b8fe594902dc7f549191cd51e",
+    "ef284481022cbedee08fb5de2ea0faef54dc0425",
+    "c2fa4b60f331c213f8a3c6a5c7ad799307811194",
+    "e915dc8031587953bf5518897914964a85c9513f",
+    "45481955a85df8b448574e4e325c9f39cbb94d3d"
   ]
 }
