@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/microsoft-reveals-next-gen-console-details-and-promises-an-order-of-magnitude-increase-in-power/",
-    "https://www.gamesindustry.biz/valve-responds-to-ny-attorney-general-lawsuit-we-have-serious-concerns-with-the-alterations-the-nyag-claims-are-necessary-to-make-to-our-games",
-    "https://gamerant.com/nintendo-direct-march-2026-yoshi-switch-2/",
-    "https://www.gamespot.com/articles/microsoft-teases-new-ways-to-play-classic-games-for-xbox-25th-anniversary/1100-6538724/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/a-new-fallout-might-have-been-scrapped-at-microsoft-report/1100-6538726/?ftag=CAD-01-10abi2f",
     "https://www.rockpapershotgun.com/valve-does-not-cooperate-with-gambling-sites-counter-strike-publishers-issue-rare-public-defence-of-lootbox-mechanics-following-new-york-lawsuit",
     "https://www.pcgamer.com/games/adventure/we-are-definitely-not-doing-qtes-said-dispatchs-creative-director-before-doing-qtes-we-just-needed-it-to-not-suck/",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/deltarune-chapter-5-final-patch/",
     "https://www.eurogamer.net/surprise-after-getting-over-500000-downloads-on-steam-theres-a-mortal-shell-2-beta-live-right-now-on-playstation-5-and-xbox-series-xs",
     "https://www.purexbox.com/news/2026/07/xbox-cloud-gaming-arrives-on-hisense-and-vidaa-tvs-with-dedicated-app",
-    "https://www.eurogamer.net/the-elder-scrolls-online-developer-posts-extensive-roadmap-and-reiterates-that-the-game-is-here-to-stay-in-spite-of-sweeping-xbox-layoffs"
+    "https://www.eurogamer.net/the-elder-scrolls-online-developer-posts-extensive-roadmap-and-reiterates-that-the-game-is-here-to-stay-in-spite-of-sweeping-xbox-layoffs",
+    "https://www.purexbox.com/news/2026/07/waterpark-simulator-1-0-is-out-now-on-xbox-after-overwhelmingly-positive-pc-early-access",
+    "https://www.eurogamer.net/guild-wars-3-lead-composer-star-wars-metal-gear-halo",
+    "https://www.nintendolife.com/news/2026/07/has-raiders-left-you-craving-a-splatfest-splatoon-3s-got-you-covered-next-month",
+    "https://www.gematsu.com/2026/07/marvel-tokon-fighting-souls-launch-trailer"
   ],
   "seen_titles": [
-    "microsoft reveals next-gen console details and promises an ‘order of magnitude increase’ in power",
-    "valve responds to ny attorney general lawsuit: \"we have serious concerns with the alterations the nyag claims are necessary to make to our games\"",
-    "the new yoshi game getting a release date might actually be a bad thing for switch 2 gamers",
-    "microsoft teases \"new ways to play\" classic games for xbox 25th anniversary",
     "a new fallout might have been scrapped at microsoft - report",
     "\"valve does not cooperate with gambling sites\" - counter-strike publishers issue rare public defence of lootbox mechanics, following new york lawsuit",
     "'we are definitely not doing qtes', said dispatch's creative director before doing qtes: 'we just needed it to not suck'",
@@ -10001,13 +9997,13 @@
     "deltarune chapter 5 gets final patch as devs turn full focus on chapter 6",
     "surprise! after getting over 500,000 downloads on steam, there's a mortal shell 2 beta live right now on playstation 5 and xbox series x/s",
     "xbox cloud gaming arrives on hisense & vidaa tvs with dedicated app",
-    "the elder scrolls online developer posts extensive roadmap and reiterates that the game is \"here to stay\", in spite of sweeping xbox layoffs"
+    "the elder scrolls online developer posts extensive roadmap and reiterates that the game is \"here to stay\", in spite of sweeping xbox layoffs",
+    "waterpark simulator 1.0 is out now on xbox, after 'overwhelmingly positive' pc early access",
+    "star wars, metal gear, and halo composer kazuma jinnouchi confirmed as lead composer for guild wars 3",
+    "has raiders left you craving a splatfest? splatoon 3's got you covered next month",
+    "marvel tokon: fighting souls launch trailer"
   ],
   "seen_story_keys": [
-    "ab10df03900b99ca1af7aa90a3dec18cfbfc2888",
-    "bc9d2ebadd650e80e0f86c52e615fc2ef2aa1c13",
-    "3c405c29f3ef496181f03029af2490cef674de9a",
-    "dfe33192cdb3a00266f9cacdc79aa60c0497a577",
     "64f0672e9c04b841471e3f0b1d939d12850aba9e",
     "13c62253c2b9ed1d2d63b2ab8b916a91d5077d35",
     "2b6284d33f2b47266e7078b62d3fa6e8b14ceef2",
@@ -15003,6 +14999,10 @@
     "bebaf28918497beb59be1540fa60a85653129156",
     "c36031fc5723921e899a5e8ee51c968d19effd1f",
     "ddba3c11b53796307c81032a75e5887857a6a4ca",
-    "fe7f39c94245f62aa81ecf125cc38175dcc32a31"
+    "fe7f39c94245f62aa81ecf125cc38175dcc32a31",
+    "ffe8967e09008c2ad6eb292b739e91780f9dc73f",
+    "9b6334b62dc89e7853eadef53881290ee54aa0a6",
+    "b5b730806819a503c86363a0c33fa58409115dbc",
+    "72832ea93366760a2ae3cd28111d8e57e8c3d331"
   ]
 }
