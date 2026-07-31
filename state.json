@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/multiplayer-action-survival-first-person-shooter-the-legend-of-california-announced-for-pc",
-    "https://www.pushsquare.com/news/2026/03/ps-plus-premium-has-given-you-just-1-classic-playstation-game-a-month-for-over-half-a-year-now",
     "https://www.ign.com/articles/microsofts-gdc-2026-keynote-live-report-building-for-the-future-with-xbox",
     "https://www.bluesnews.com/s/295466/morning-safety-dance",
     "https://www.gematsu.com/2026/03/playstation-plus-game-catalog-and-classics-catalog-lineup-for-march-2026-announced",
@@ -4999,11 +4997,11 @@
     "https://www.ign.com/articles/cyberpunk-tcg-jackie-welles-judy-alvarez-reveal",
     "https://www.gematsu.com/2026/07/genshin-impact-version-version-7-0-update-everwinter-without-mercy-launches-august-12",
     "https://www.gematsu.com/2026/07/starsand-island-launches-august-18",
-    "https://www.gamesindustry.biz/unity-announces-dedicated-engine-for-netflix-games"
+    "https://www.gamesindustry.biz/unity-announces-dedicated-engine-for-netflix-games",
+    "https://gamerant.com/dnd-star-wars-set-collab-dungeons-dragons/",
+    "https://www.polygon.com/disney-lorcana-format-coconut-rules-cards-mtg-commander-magic-the-gathering/"
   ],
   "seen_titles": [
-    "multiplayer action survival first-person shooter the legend of california announced for pc",
-    "ps plus premium has given you just 1 classic playstation game a month for over half a year now",
     "microsoft's gdc 2026 keynote — everything announced on the future of xbox and project helix",
     "morning safety dance",
     "playstation plus game catalog and classics catalog lineup for march 2026 announced",
@@ -10001,11 +9999,11 @@
     "cyberpunk tcg: exclusive reveal of jackie welles and judy alvarez cards",
     "genshin impact version version 7.0 update ‘everwinter without mercy’ launches august 12",
     "starsand island launches august 18",
-    "unity announces dedicated engine support for netflix games"
+    "unity announces dedicated engine support for netflix games",
+    "dungeons and dragons star wars expansion officially announced",
+    "disney lorcana just revealed its answer to magic’s commander format"
   ],
   "seen_story_keys": [
-    "687f95ec590b4f6ba2154ccac5734abd3df5d0ec",
-    "14f3bea143d5c8504c33b447be4fda86f502054a",
     "ca6f268579cd50497cfb2f155ffc9749f2cc4815",
     "537d7be41813a4bac5916c0399ffa93e7910b0c3",
     "10794e4778a2e0c768be22b4be630dd37534baaa",
@@ -15003,6 +15001,8 @@
     "cce5d6a4d2fe0691c9bad9553ee584e08b809c63",
     "d3f86819325e7bfa7a940dcbc90cf5304b5c623c",
     "63c7db32e0ce7bd1867a4f86a86b92c24f833a96",
-    "57ed47b843aa3e358711e0bc803dc3b0889913f2"
+    "57ed47b843aa3e358711e0bc803dc3b0889913f2",
+    "4a1c4c222e20e86bb232850490a194d1a8577de0",
+    "e061151ae33dd51b26618c7df1fee11ef259bf10"
   ]
 }
