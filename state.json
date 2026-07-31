@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/xbox-project-helix-dev-kits-gdc-2026/",
-    "https://gamerant.com/new-xbox-console-project-helix-details/",
-    "https://gamerant.com/capcom-new-game-pragmata-demo/",
-    "https://www.purexbox.com/news/2026/03/xbox-reveals-new-details-on-project-helix-next-gen-console-says-devs-will-get-it-in-2027",
     "https://www.videogameschronicle.com/news/microsoft-reveals-next-gen-console-details-and-promises-an-order-of-magnitude-increase-in-power/",
     "https://www.gamesindustry.biz/valve-responds-to-ny-attorney-general-lawsuit-we-have-serious-concerns-with-the-alterations-the-nyag-claims-are-necessary-to-make-to-our-games",
     "https://gamerant.com/nintendo-direct-march-2026-yoshi-switch-2/",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-remake-will-launch-head-to-head-with-gta-6-in-november-nintendo-fans-believe-after-amiibo-release-date-revealed",
     "https://gamerant.com/gta-6-rockstar-mistakes-already-made/",
     "https://www.videogameschronicle.com/news/eso-is-here-to-stay-elder-scrolls-online-studio-is-working-closer-with-bethesda-to-build-the-future-following-layoffs/",
-    "https://www.nintendolife.com/news/2026/07/orbitals-friends-pass-will-provide-easier-co-op-and-a-free-demo"
+    "https://www.nintendolife.com/news/2026/07/orbitals-friends-pass-will-provide-easier-co-op-and-a-free-demo",
+    "https://www.polygon.com/deltarune-chapter-5-final-patch/",
+    "https://www.eurogamer.net/surprise-after-getting-over-500000-downloads-on-steam-theres-a-mortal-shell-2-beta-live-right-now-on-playstation-5-and-xbox-series-xs",
+    "https://www.purexbox.com/news/2026/07/xbox-cloud-gaming-arrives-on-hisense-and-vidaa-tvs-with-dedicated-app",
+    "https://www.eurogamer.net/the-elder-scrolls-online-developer-posts-extensive-roadmap-and-reiterates-that-the-game-is-here-to-stay-in-spite-of-sweeping-xbox-layoffs"
   ],
   "seen_titles": [
-    "xbox project helix won't be in developers' hands until 2027",
-    "microsoft reveals more details on next-generation xbox console \"project helix\"",
-    "new capcom game releasing in april is already drawing millions of players",
-    "xbox reveals new details on 'project helix' next-gen console, says devs will get it in 2027",
     "microsoft reveals next-gen console details and promises an ‘order of magnitude increase’ in power",
     "valve responds to ny attorney general lawsuit: \"we have serious concerns with the alterations the nyag claims are necessary to make to our games\"",
     "the new yoshi game getting a release date might actually be a bad thing for switch 2 gamers",
@@ -10001,13 +9997,13 @@
     "the legend of zelda: ocarina of time remake will launch head-to-head with gta 6 in november, nintendo fans believe, after amiibo release date revealed",
     "gta 6: 5 mistakes rockstar has already made",
     "‘eso is here to stay’: elder scrolls online studio is working closer with bethesda to ‘build the future’ following layoffs",
-    "orbitals 'friend's pass' will provide easier co-op and a free demo"
+    "orbitals 'friend's pass' will provide easier co-op and a free demo",
+    "deltarune chapter 5 gets final patch as devs turn full focus on chapter 6",
+    "surprise! after getting over 500,000 downloads on steam, there's a mortal shell 2 beta live right now on playstation 5 and xbox series x/s",
+    "xbox cloud gaming arrives on hisense & vidaa tvs with dedicated app",
+    "the elder scrolls online developer posts extensive roadmap and reiterates that the game is \"here to stay\", in spite of sweeping xbox layoffs"
   ],
   "seen_story_keys": [
-    "ace08859902b55c04ea93c542fc8db2550f9b9b5",
-    "cd67a6ec4243be0dddb5bb17473c087ca743b8d2",
-    "ad854ade13af5617d4b9ef537c9220593ee8593c",
-    "4c1f26d4450ccd2fb0a07a031e11a1a5201d6fb1",
     "ab10df03900b99ca1af7aa90a3dec18cfbfc2888",
     "bc9d2ebadd650e80e0f86c52e615fc2ef2aa1c13",
     "3c405c29f3ef496181f03029af2490cef674de9a",
@@ -15003,6 +14999,10 @@
     "587d0a0663ba71cd4c436d6a4a452998a7e80974",
     "3cf057546e990cbeebe5daeec97c39c12afd558c",
     "944eb818529d1c7f8ae3721f683916e725b061fc",
-    "87e68070944214dc1f92f3e37c2848a848eafaf5"
+    "87e68070944214dc1f92f3e37c2848a848eafaf5",
+    "bebaf28918497beb59be1540fa60a85653129156",
+    "c36031fc5723921e899a5e8ee51c968d19effd1f",
+    "ddba3c11b53796307c81032a75e5887857a6a4ca",
+    "fe7f39c94245f62aa81ecf125cc38175dcc32a31"
   ]
 }
