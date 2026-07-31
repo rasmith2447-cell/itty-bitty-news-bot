@@ -1,6 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295476/morning-patches",
     "https://www.gematsu.com/2026/03/project-helix-alpha-development-kits-to-ship-in-2027-xbox-mode-coming-to-windows-11-in-april",
     "https://www.ign.com/articles/microsoft-reveals-project-helix-features-at-next-gen-xbox-gdc-talk-alpha-versions-to-be-sent-to-devs-in-2027",
     "https://www.eurogamer.net/valve-expresses-disappointment-over-new-york-state-loot-box-lawsuit",
@@ -4999,10 +4998,10 @@
     "https://www.nintendolife.com/news/2026/07/two-cancelled-virtual-boy-games-join-nintendo-classics-next-week",
     "https://www.nintendolife.com/news/2026/07/nintendo-expands-switch-2s-gamecube-library-with-another-game-in-august",
     "https://www.gematsu.com/2026/07/drama-like-adventure-game-seasons-of-books-and-keys-announced-for-switch-pc",
-    "https://www.nintendolife.com/news/2026/07/lego-party-switch-2-edition-now-available-free-upgrade-confirmed"
+    "https://www.nintendolife.com/news/2026/07/lego-party-switch-2-edition-now-available-free-upgrade-confirmed",
+    "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-remake-will-launch-head-to-head-with-gta-6-in-november-nintendo-fans-believe-after-amiibo-release-date-revealed"
   ],
   "seen_titles": [
-    "morning patches",
     "project helix alpha development kits to ship in 2027; xbox mode coming to windows 11 in april",
     "microsoft reveals project helix features at next-gen xbox gdc talk, alpha versions to be sent to devs in 2027",
     "valve argues loot boxes \"widely used, not just in video games but in the tangible world\" as it expresses 'disappointment' over new york state lawsuit",
@@ -10001,10 +10000,10 @@
     "two cancelled virtual boy games join 'nintendo classics' next week",
     "nintendo expands switch 2's gamecube library with another game in august",
     "‘drama-like adventure’ game seasons of books and keys announced for switch, pc",
-    "lego party switch 2 edition now available, free upgrade confirmed"
+    "lego party switch 2 edition now available, free upgrade confirmed",
+    "the legend of zelda: ocarina of time remake will launch head-to-head with gta 6 in november, nintendo fans believe, after amiibo release date revealed"
   ],
   "seen_story_keys": [
-    "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
     "a63c706c027ee3d2134ce43d9f04615c00ed0c7e",
     "3099eea285a6ffbca61ba3b5c86a55d5968da08b",
     "aad40fdbb36950a4ba7b8aa6d8b134e28fea17d6",
@@ -15003,6 +15002,7 @@
     "62eef38785b9095780d2d34b349f1afe581ae63a",
     "c42743017f3c072484672f68a66b1cd640700727",
     "9d745ae862708ffcfc597f33206a0d90c7c137d8",
-    "d1e4cfafd8ce66a8c91a1ca37791caef704dc21b"
+    "d1e4cfafd8ce66a8c91a1ca37791caef704dc21b",
+    "587d0a0663ba71cd4c436d6a4a452998a7e80974"
   ]
 }
