@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/a-new-fallout-might-have-been-scrapped-at-microsoft-report/1100-6538726/?ftag=CAD-01-10abi2f",
-    "https://www.rockpapershotgun.com/valve-does-not-cooperate-with-gambling-sites-counter-strike-publishers-issue-rare-public-defence-of-lootbox-mechanics-following-new-york-lawsuit",
-    "https://www.pcgamer.com/games/adventure/we-are-definitely-not-doing-qtes-said-dispatchs-creative-director-before-doing-qtes-we-just-needed-it-to-not-suck/",
-    "https://www.gamespot.com/articles/xbox-project-helix-gets-key-updates-including-when-developers-will-get-the-system/1100-6538718/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/03/multiplayer-action-survival-first-person-shooter-the-legend-of-california-announced-for-pc",
     "https://www.pushsquare.com/news/2026/03/ps-plus-premium-has-given-you-just-1-classic-playstation-game-a-month-for-over-half-a-year-now",
     "https://www.ign.com/articles/microsofts-gdc-2026-keynote-live-report-building-for-the-future-with-xbox",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/07/waterpark-simulator-1-0-is-out-now-on-xbox-after-overwhelmingly-positive-pc-early-access",
     "https://www.eurogamer.net/guild-wars-3-lead-composer-star-wars-metal-gear-halo",
     "https://www.nintendolife.com/news/2026/07/has-raiders-left-you-craving-a-splatfest-splatoon-3s-got-you-covered-next-month",
-    "https://www.gematsu.com/2026/07/marvel-tokon-fighting-souls-launch-trailer"
+    "https://www.gematsu.com/2026/07/marvel-tokon-fighting-souls-launch-trailer",
+    "https://www.ign.com/articles/cyberpunk-tcg-jackie-welles-judy-alvarez-reveal",
+    "https://www.gematsu.com/2026/07/genshin-impact-version-version-7-0-update-everwinter-without-mercy-launches-august-12",
+    "https://www.gematsu.com/2026/07/starsand-island-launches-august-18",
+    "https://www.gamesindustry.biz/unity-announces-dedicated-engine-for-netflix-games"
   ],
   "seen_titles": [
-    "a new fallout might have been scrapped at microsoft - report",
-    "\"valve does not cooperate with gambling sites\" - counter-strike publishers issue rare public defence of lootbox mechanics, following new york lawsuit",
-    "'we are definitely not doing qtes', said dispatch's creative director before doing qtes: 'we just needed it to not suck'",
-    "xbox project helix gets key updates, including when devs will get the system",
     "multiplayer action survival first-person shooter the legend of california announced for pc",
     "ps plus premium has given you just 1 classic playstation game a month for over half a year now",
     "microsoft's gdc 2026 keynote — everything announced on the future of xbox and project helix",
@@ -10001,13 +9997,13 @@
     "waterpark simulator 1.0 is out now on xbox, after 'overwhelmingly positive' pc early access",
     "star wars, metal gear, and halo composer kazuma jinnouchi confirmed as lead composer for guild wars 3",
     "has raiders left you craving a splatfest? splatoon 3's got you covered next month",
-    "marvel tokon: fighting souls launch trailer"
+    "marvel tokon: fighting souls launch trailer",
+    "cyberpunk tcg: exclusive reveal of jackie welles and judy alvarez cards",
+    "genshin impact version version 7.0 update ‘everwinter without mercy’ launches august 12",
+    "starsand island launches august 18",
+    "unity announces dedicated engine support for netflix games"
   ],
   "seen_story_keys": [
-    "64f0672e9c04b841471e3f0b1d939d12850aba9e",
-    "13c62253c2b9ed1d2d63b2ab8b916a91d5077d35",
-    "2b6284d33f2b47266e7078b62d3fa6e8b14ceef2",
-    "5c5570d9ecfdd20d963281fe62a2f7367a8eeb46",
     "687f95ec590b4f6ba2154ccac5734abd3df5d0ec",
     "14f3bea143d5c8504c33b447be4fda86f502054a",
     "ca6f268579cd50497cfb2f155ffc9749f2cc4815",
@@ -15003,6 +14999,10 @@
     "ffe8967e09008c2ad6eb292b739e91780f9dc73f",
     "9b6334b62dc89e7853eadef53881290ee54aa0a6",
     "b5b730806819a503c86363a0c33fa58409115dbc",
-    "72832ea93366760a2ae3cd28111d8e57e8c3d331"
+    "72832ea93366760a2ae3cd28111d8e57e8c3d331",
+    "cce5d6a4d2fe0691c9bad9553ee584e08b809c63",
+    "d3f86819325e7bfa7a940dcbc90cf5304b5c623c",
+    "63c7db32e0ce7bd1867a4f86a86b92c24f833a96",
+    "57ed47b843aa3e358711e0bc803dc3b0889913f2"
   ]
 }
