@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/project-helix-alpha-development-kits-to-ship-in-2027-xbox-mode-coming-to-windows-11-in-april",
-    "https://www.ign.com/articles/microsoft-reveals-project-helix-features-at-next-gen-xbox-gdc-talk-alpha-versions-to-be-sent-to-devs-in-2027",
-    "https://www.eurogamer.net/valve-expresses-disappointment-over-new-york-state-loot-box-lawsuit",
     "https://www.polygon.com/xbox-project-helix-dev-kits-gdc-2026/",
     "https://gamerant.com/new-xbox-console-project-helix-details/",
     "https://gamerant.com/capcom-new-game-pragmata-demo/",
@@ -4999,12 +4996,12 @@
     "https://www.nintendolife.com/news/2026/07/nintendo-expands-switch-2s-gamecube-library-with-another-game-in-august",
     "https://www.gematsu.com/2026/07/drama-like-adventure-game-seasons-of-books-and-keys-announced-for-switch-pc",
     "https://www.nintendolife.com/news/2026/07/lego-party-switch-2-edition-now-available-free-upgrade-confirmed",
-    "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-remake-will-launch-head-to-head-with-gta-6-in-november-nintendo-fans-believe-after-amiibo-release-date-revealed"
+    "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-remake-will-launch-head-to-head-with-gta-6-in-november-nintendo-fans-believe-after-amiibo-release-date-revealed",
+    "https://gamerant.com/gta-6-rockstar-mistakes-already-made/",
+    "https://www.videogameschronicle.com/news/eso-is-here-to-stay-elder-scrolls-online-studio-is-working-closer-with-bethesda-to-build-the-future-following-layoffs/",
+    "https://www.nintendolife.com/news/2026/07/orbitals-friends-pass-will-provide-easier-co-op-and-a-free-demo"
   ],
   "seen_titles": [
-    "project helix alpha development kits to ship in 2027; xbox mode coming to windows 11 in april",
-    "microsoft reveals project helix features at next-gen xbox gdc talk, alpha versions to be sent to devs in 2027",
-    "valve argues loot boxes \"widely used, not just in video games but in the tangible world\" as it expresses 'disappointment' over new york state lawsuit",
     "xbox project helix won't be in developers' hands until 2027",
     "microsoft reveals more details on next-generation xbox console \"project helix\"",
     "new capcom game releasing in april is already drawing millions of players",
@@ -10001,12 +9998,12 @@
     "nintendo expands switch 2's gamecube library with another game in august",
     "‘drama-like adventure’ game seasons of books and keys announced for switch, pc",
     "lego party switch 2 edition now available, free upgrade confirmed",
-    "the legend of zelda: ocarina of time remake will launch head-to-head with gta 6 in november, nintendo fans believe, after amiibo release date revealed"
+    "the legend of zelda: ocarina of time remake will launch head-to-head with gta 6 in november, nintendo fans believe, after amiibo release date revealed",
+    "gta 6: 5 mistakes rockstar has already made",
+    "‘eso is here to stay’: elder scrolls online studio is working closer with bethesda to ‘build the future’ following layoffs",
+    "orbitals 'friend's pass' will provide easier co-op and a free demo"
   ],
   "seen_story_keys": [
-    "a63c706c027ee3d2134ce43d9f04615c00ed0c7e",
-    "3099eea285a6ffbca61ba3b5c86a55d5968da08b",
-    "aad40fdbb36950a4ba7b8aa6d8b134e28fea17d6",
     "ace08859902b55c04ea93c542fc8db2550f9b9b5",
     "cd67a6ec4243be0dddb5bb17473c087ca743b8d2",
     "ad854ade13af5617d4b9ef537c9220593ee8593c",
@@ -15003,6 +15000,9 @@
     "c42743017f3c072484672f68a66b1cd640700727",
     "9d745ae862708ffcfc597f33206a0d90c7c137d8",
     "d1e4cfafd8ce66a8c91a1ca37791caef704dc21b",
-    "587d0a0663ba71cd4c436d6a4a452998a7e80974"
+    "587d0a0663ba71cd4c436d6a4a452998a7e80974",
+    "3cf057546e990cbeebe5daeec97c39c12afd558c",
+    "944eb818529d1c7f8ae3721f683916e725b061fc",
+    "87e68070944214dc1f92f3e37c2848a848eafaf5"
   ]
 }
