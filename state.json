@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/wwe-2k26-update-1-04-patch-notes/",
-    "https://www.purexbox.com/news/2026/03/hello-my-name-is-retired-xboxs-phil-spencer-embraces-the-humour-at-gdc-2026",
-    "https://www.gematsu.com/2026/03/curse-warrior-demo-launches-march-12-in-japan",
     "https://www.gematsu.com/2026/03/console-archives-sonic-wings-special-launches-march-12",
     "https://www.ign.com/articles/1080p-at-30fps-valve-steam-machines-verified-program",
     "https://www.gematsu.com/2026/03/bunny-garden-2-launches-april-16",
@@ -4999,12 +4996,12 @@
     "https://gamerant.com/ea-buyout-saudi-arabia-approval/",
     "https://gamerant.com/battlefield-6-content-roadmap-custom-lobbies-season-5-proximity-chat/",
     "https://gamerant.com/elder-scrolls-4-oblivion-remastered-switch-2-release-date-when/",
-    "https://www.gematsu.com/2026/08/super-robot-wars-y-dlc-anniversary-expansion-pack-launches-august-5"
+    "https://www.gematsu.com/2026/08/super-robot-wars-y-dlc-anniversary-expansion-pack-launches-august-5",
+    "https://gamerant.com/ea-games-shutting-down-list-2026-apex-legends-switch/",
+    "https://www.pushsquare.com/news/2026/08/this-cutesy-ps5-cosy-game-really-stands-out-in-a-crowded-genre",
+    "https://www.ign.com/articles/palworld-tcg-prices-skyrocket-as-ebay-scalpers-profit-off-of-card-game-launch"
   ],
   "seen_titles": [
-    "wwe 2k26 update 1.04 patch notes revealed",
-    "'hello, my name is retired' - xbox's phil spencer embraces the humour at gdc 2026",
-    "curse warrior demo launches march 12 in japan",
     "console archives sonic wings special launches march 12",
     "1080p at 30fps – valve finally details steam machine's verified program",
     "bunny garden 2 launches april 16",
@@ -10001,12 +9998,12 @@
     "saudi arabia acquisition of ea gets new update",
     "battlefield 6 reveals what's next with new content roadmap",
     "new official bethesda release confirmed for august 11",
-    "super robot wars y dlc ‘anniversary expansion pack’ launches august 5"
+    "super robot wars y dlc ‘anniversary expansion pack’ launches august 5",
+    "ea game is permanently shutting down later this month",
+    "this cutesy ps5 cosy game really stands out in a crowded genre",
+    "palworld tcg prices skyrocket as ebay scalpers profit off of card game launch"
   ],
   "seen_story_keys": [
-    "220e16cee5d03651bd180e0e625db90f4dc2c530",
-    "6814ee9f01e9f523a5527183adedcadee199fc91",
-    "b67516e8759810829457c34f25a7608875495038",
     "ddac1e2b8310e326527d10ec0c6a0aad20e24eb3",
     "57bdc716dff4b4e8671295c458ca052b8952430c",
     "05ac7b976330a3b02a50b610352dd9148e5f0b33",
@@ -15003,6 +15000,9 @@
     "267b4ffaf3040ecd5e38d27c0985d27ff58d91bb",
     "adb2cf218d79691936e68113d57fe14df7e8a7ae",
     "56f3020a82f0087beb21c145dbbeb0754f92c933",
-    "034f0539ea9dcee65297e12fd0ba4515281e9004"
+    "034f0539ea9dcee65297e12fd0ba4515281e9004",
+    "ee353fbb9c95eba37d20a45b860f141615539259",
+    "7812b33a2df25df82cdbddd8cd9d25352aa79c0c",
+    "f35c9e6683ad3d4a7c1d1f4cb3625b98d62bf79b"
   ]
 }
