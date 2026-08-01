@@ -1,6 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/microsofts-gdc-2026-keynote-live-report-building-for-the-future-with-xbox",
     "https://www.bluesnews.com/s/295466/morning-safety-dance",
     "https://www.gematsu.com/2026/03/playstation-plus-game-catalog-and-classics-catalog-lineup-for-march-2026-announced",
     "https://www.gamesindustry.biz/xbox-unveils-first-tech-details-of-its-next-generation-console-codenamed-project-helix",
@@ -4999,10 +4998,10 @@
     "https://www.gematsu.com/2026/07/starsand-island-launches-august-18",
     "https://www.gamesindustry.biz/unity-announces-dedicated-engine-for-netflix-games",
     "https://gamerant.com/dnd-star-wars-set-collab-dungeons-dragons/",
-    "https://www.polygon.com/disney-lorcana-format-coconut-rules-cards-mtg-commander-magic-the-gathering/"
+    "https://www.polygon.com/disney-lorcana-format-coconut-rules-cards-mtg-commander-magic-the-gathering/",
+    "https://gamerant.com/canceled-nintendo-games-releasing-virtual-boy-nso/"
   ],
   "seen_titles": [
-    "microsoft's gdc 2026 keynote — everything announced on the future of xbox and project helix",
     "morning safety dance",
     "playstation plus game catalog and classics catalog lineup for march 2026 announced",
     "xbox unveils first tech details of its next generation console, codenamed project helix",
@@ -10001,10 +10000,10 @@
     "starsand island launches august 18",
     "unity announces dedicated engine support for netflix games",
     "dungeons and dragons star wars expansion officially announced",
-    "disney lorcana just revealed its answer to magic’s commander format"
+    "disney lorcana just revealed its answer to magic’s commander format",
+    "2 canceled nintendo games are finally releasing on august 4"
   ],
   "seen_story_keys": [
-    "ca6f268579cd50497cfb2f155ffc9749f2cc4815",
     "537d7be41813a4bac5916c0399ffa93e7910b0c3",
     "10794e4778a2e0c768be22b4be630dd37534baaa",
     "406ff7a2be749de33a55b759668cfe0edb139f04",
@@ -15003,6 +15002,7 @@
     "63c7db32e0ce7bd1867a4f86a86b92c24f833a96",
     "57ed47b843aa3e358711e0bc803dc3b0889913f2",
     "4a1c4c222e20e86bb232850490a194d1a8577de0",
-    "e061151ae33dd51b26618c7df1fee11ef259bf10"
+    "e061151ae33dd51b26618c7df1fee11ef259bf10",
+    "e308500da691d5fcaf5500cf657850ef65ae10bf"
   ]
 }
