@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/laid-back-camp-camping-cook-off-launches-march-18-for-pc-later-for-switch-and-mobile",
-    "https://www.nintendolife.com/news/2026/03/tetris-99-celebrates-mar10-day-with-super-mario-galaxy-cup-unlock-a-special-theme",
     "https://gamerant.com/steam-machine-verified-game-requirements/",
     "https://gamerant.com/overwatch-twitch-drops-reign-of-talon-mid-season-1-update/",
     "https://www.gematsu.com/2026/03/mongil-star-dive-launches-april-15-for-pc-ios-and-android-later-for-ps5-and-xbox-series",
@@ -4999,11 +4997,11 @@
     "https://gamerant.com/bully-rockstar-open-world-game-genre/",
     "https://www.pcgamer.com/games/the-elder-scrolls/i-enjoyed-this-video-of-oblivion-remastered-actor-wes-johnson-goofing-around-in-a-sound-booth-dressed-as-sheogorath-but-a-patch-for-the-pc-version-would-be-nice-too-bethesda/",
     "https://www.polygon.com/last-sentinel-layoffs-lightspeed-la/",
-    "https://www.eurogamer.net/story-of-seasons-mobile-cancelled"
+    "https://www.eurogamer.net/story-of-seasons-mobile-cancelled",
+    "https://www.eurogamer.net/final-fantasy-7-revelation-remake-rebirth-sales",
+    "https://gamerant.com/controversial-video-game-movies-surprisingly-became-hits/"
   ],
   "seen_titles": [
-    "laid-back camp: camping cook-off! launches march 18 for pc, later for switch and mobile",
-    "tetris 99 celebrates mar10 day with super mario galaxy cup, unlock a special theme",
     "valve reveals requirements for verified games on steam machine",
     "overwatch reveals twitch drops for reign of talon mid-season 1 update",
     "mongil: star dive launches april 15 for pc, ios, and android, later for ps5 and xbox series",
@@ -10001,11 +9999,11 @@
     "rockstar's forgotten open-world game just revealed what the genre is missing",
     "i enjoyed this video of oblivion remastered actor wes johnson goofing around in a sound booth dressed as sheogorath, but a patch for the pc version would be nice too, bethesda",
     "troy baker's cyberpunk answer to gta 6 has been stuck in development hell for six years",
-    "story of seasons mobile game cancelled as marvelous cuts six-year tencent partnership"
+    "story of seasons mobile game cancelled as marvelous cuts six-year tencent partnership",
+    "as hype builds for final fantasy 7 revelation, remake and rebirth continue to sell well",
+    "5 initially controversial video game movies that surprised everyone & became hits"
   ],
   "seen_story_keys": [
-    "efa369da96a85ce2dacbe0fbe8bfc14f9c6c1cbd",
-    "b21f1c5ac17e9ccaa0e8fc9e48fba687cf4820ae",
     "c9d9eeb78a6aea3384c74de75920fee7c98e4b85",
     "e2d877b30538b7571aaf752e6192d835448f9e8b",
     "bc8e9386923e14f8aec341a08d57214f1073c5a0",
@@ -15003,6 +15001,8 @@
     "88c7ae45324108908f0df7c15811df39173bd4d6",
     "0d0ed1bc82263989e3527c1abd82af5cafdabba5",
     "b9709854dcdc21955d25fe77b4e94f7dcc8c0546",
-    "1b0b68b32ad61cb81a79e6e193758c6306c6415a"
+    "1b0b68b32ad61cb81a79e6e193758c6306c6415a",
+    "d935d8a84c49c33308d107d5f403c6fcc42fa1ad",
+    "adaf8c82fb8e98b5007d154d63d731e089359521"
   ]
 }
