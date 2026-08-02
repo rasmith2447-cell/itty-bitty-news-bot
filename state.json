@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/next-mainline-neptunia-game-to-be-announced-on-march-19",
-    "https://gamerant.com/xbox-25-fanta/",
     "https://www.nintendolife.com/news/2026/03/kirby-air-riders-gets-a-new-update-today-here-are-the-full-patch-notes",
     "https://www.gematsu.com/2026/03/motionrec-for-ps5-switch-launches-april-2",
     "https://www.gematsu.com/2026/03/laid-back-camp-camping-cook-off-launches-march-18-for-pc-later-for-switch-and-mobile",
@@ -4999,11 +4997,11 @@
     "https://gamerant.com/final-fantasy-14-755-update-backrooms/",
     "https://www.nintendolife.com/news/2026/08/video-final-fantasy-xiv-online-switch-2-extended-gameplay-showcase",
     "https://www.videogameschronicle.com/news/xbox-console-price-increases-in-europe-and-uk-fully-revealed-with-series-x-now-costing-e200-more/",
-    "https://www.eurogamer.net/xbox-console-price-rise-uk-europe"
+    "https://www.eurogamer.net/xbox-console-price-rise-uk-europe",
+    "https://gamerant.com/bully-rockstar-open-world-game-genre/",
+    "https://www.pcgamer.com/games/the-elder-scrolls/i-enjoyed-this-video-of-oblivion-remastered-actor-wes-johnson-goofing-around-in-a-sound-booth-dressed-as-sheogorath-but-a-patch-for-the-pc-version-would-be-nice-too-bethesda/"
   ],
   "seen_titles": [
-    "next mainline neptunia game to be announced on march 19",
-    "xbox is officially crossing over with fanta",
     "kirby air riders gets a new update today, here are the full patch notes",
     "motionrec for ps5, switch launches april 2",
     "laid-back camp: camping cook-off! launches march 18 for pc, later for switch and mobile",
@@ -10001,11 +9999,11 @@
     "final fantasy 14's 7.55 update adds its own backrooms",
     "video: final fantasy xiv online switch 2 extended gameplay showcase",
     "xbox console price increases in europe and uk fully revealed, with series x now costing €200 more",
-    "xbox uk and europe console price hikes revealed - and it's even worse than we expected"
+    "xbox uk and europe console price hikes revealed - and it's even worse than we expected",
+    "rockstar's forgotten open-world game just revealed what the genre is missing",
+    "i enjoyed this video of oblivion remastered actor wes johnson goofing around in a sound booth dressed as sheogorath, but a patch for the pc version would be nice too, bethesda"
   ],
   "seen_story_keys": [
-    "b9b040ac5be415b956c48cd65544fc682b3e3ea4",
-    "d2083d5ddd58a909f379595bad834ebbe73669f2",
     "5884a6090239ccf54d5788303eee5f15734da911",
     "cf588adddf02148c2c26944431e90d848f05710a",
     "efa369da96a85ce2dacbe0fbe8bfc14f9c6c1cbd",
@@ -15003,6 +15001,8 @@
     "8b2cf3f06f88a9f7fcef3ba2fd6a07c079a40e41",
     "21cda3ddf40c485a65a0890c647f23067eee47e6",
     "86b31edfe6183939d67740e1def4de261f5adab5",
-    "94c7553f73f3622d765bad30cd803af2341ce299"
+    "94c7553f73f3622d765bad30cd803af2341ce299",
+    "88c7ae45324108908f0df7c15811df39173bd4d6",
+    "0d0ed1bc82263989e3527c1abd82af5cafdabba5"
   ]
 }
