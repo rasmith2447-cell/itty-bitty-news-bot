@@ -230,11 +230,11 @@ def load_digest_stories() -> tuple:
 # ---------------------------------------------------------------------------
 
 GOTW_OVERRIDE = {
-    "title":       "Assassin's Creed Black Flag: Resynced",
-    "description": "One of the most beloved Assassin's Creed games just got a stunning ground-up remake. Sail the Caribbean as Edward Kenway during the Golden Age of Piracy with rebuilt visuals, upgraded combat and naval gameplay, new storylines for fan-favorites like Blackbeard and Stede Bonnet, new sea shanties, and a photo mode. If you loved the original or missed it the first time, this is the perfect excuse to dive in.",
-    "platform":    "Available on PS5, Xbox Series X|S & PC (Steam, Epic, Ubisoft Store)",
-    "url":         "https://store.steampowered.com/app/3751950/Assassins_Creed_Black_Flag_Resynced/",
-    "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/3751950/header.jpg",
+    "title":       "Beast of Reincarnation",
+    "description": "The Pokémon studio just dropped their first non-Pokémon AAA game ever — and it's a dark souls-like action RPG set in post-apocalyptic Japan in the year 4026. Play as Emma and her blighted dog Koo as you battle terrifying bosses, absorb their powers, and uncover a brutal story of survival. Built in Unreal Engine 5, it's a massive departure from Game Freak's comfort zone and it's generating serious buzz. Available day one on Xbox Game Pass.",
+    "platform":    "Available on PS5, Xbox Series X|S, PC (Steam) & Xbox Game Pass",
+    "url":         "https://store.steampowered.com/app/2001760/Beast_of_Reincarnation/",
+    "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/2001760/header.jpg",
 }
 
 GOTW_FALLBACK = {
