@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/pixel-art-block-pushing-puzzle-game-hazard-pay-launches-in-june-for-ps5-switch-and-pc",
-    "https://www.gematsu.com/2026/03/borderlands-4-dlc-story-pack-1-mad-ellie-and-the-vault-of-the-damned-launches-march-26",
-    "https://www.polygon.com/bafta-games-awards-2026-nominees-list-game-of-the-year/",
-    "https://www.rockpapershotgun.com/a-week-from-its-release-date-crimson-desert-swallows-some-denuvo-drm",
     "https://www.nintendolife.com/news/2026/03/icymi-nintendos-dishing-out-mario-galaxy-movie-digital-collectible-cards",
     "https://www.polygon.com/microsoft-ends-this-is-an-xbox-campaign/",
     "https://www.gamespot.com/articles/mega-man-dual-override-is-hit-by-actors-union-do-not-work-order/1100-6538753/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/08/cyberpunk-shopkeeping-simulator-probably-stolen-announced-for-pc",
     "https://www.polygon.com/attack-on-titan-3-release-date/",
     "https://gamerant.com/nintendo-direct-august-2026-fire-emblem-fortunes-weave/",
-    "https://www.ign.com/articles/assassins-creed-black-flag-resynced-update-106-launches-tomorrow-here-are-the-patch-notes"
+    "https://www.ign.com/articles/assassins-creed-black-flag-resynced-update-106-launches-tomorrow-here-are-the-patch-notes",
+    "https://www.polygon.com/pokmon-pokopia-has-new-anti-motion-sickness-features-coming-for-ditto-divers/",
+    "https://www.polygon.com/street-fighter-6-balance-patch-players-furious-yasmine-released/",
+    "https://www.pushsquare.com/news/2026/08/sounds-like-wolverine-gets-his-arse-out-in-insomniacs-upcoming-ps5-exclusive",
+    "https://www.gamesindustry.biz/ustwo-games-was-pushed-out-of-mobile-by-the-rise-of-free-to-play-but-the-mobile-way-of-doing-things-is-coming-to-pc"
   ],
   "seen_titles": [
-    "pixel art block-pushing puzzle game hazard pay launches in june for ps5, switch, and pc",
-    "borderlands 4 dlc ‘story pack 1: mad ellie and the vault of the damned’ launches march 26",
-    "bafta games awards 2026 nominees announced: the full list",
-    "a week from its release date, crimson desert swallows some denuvo drm",
     "icymi: nintendo's dishing out mario galaxy movie digital collectible cards",
     "microsoft drops its ‘this is an xbox’ campaign",
     "mega man: dual override is hit by actors' union \"do not work\" order",
@@ -10001,13 +9997,13 @@
     "cyberpunk shopkeeping simulator probably stolen announced for pc",
     "even attack on titan 3 is avoiding gta 6",
     "nintendo direct for august 2026 officially announced",
-    "assassin's creed black flag resynced update 1.0.6 launches tomorrow — here are the patch notes"
+    "assassin's creed black flag resynced update 1.0.6 launches tomorrow — here are the patch notes",
+    "more pokémon pokopia dlc and update news revealed",
+    "street fighter 6 players furious about latest update as new character yasmine is released",
+    "sounds like wolverine gets his arse out in insomniac's upcoming ps5 exclusive",
+    "ustwo games was pushed out of mobile by the rise of free-to-play – but the mobile way of doing things is coming to pc"
   ],
   "seen_story_keys": [
-    "bf827b319e142a911464f9ef86e8057f03491006",
-    "264ab930375582680bea3c37728e16b54520de42",
-    "13a72c1b83a3ee4ae4dc467cab2a9cd273891b6e",
-    "613eab463f5618fc389811cd8751675d725dabd4",
     "495dec492d855a4d9a8de6152ab69ed3b1e1e89e",
     "bbe35cbcaa197888122a52e4660ff26af23c8ae6",
     "16a05a9fae6e6b5ce8e08a7c8ad429526768e989",
@@ -15003,6 +14999,10 @@
     "3ccb22c7d233795a93ea263d454f28af4dc127c2",
     "f433b25ffa349993623297fb797cd8a960460197",
     "b3e2f91ff357774765db40cd2040dc2c5faecaa8",
-    "7660d8985f8a23fbdb4701672139ce74aa6f7999"
+    "7660d8985f8a23fbdb4701672139ce74aa6f7999",
+    "4a76291650a6c6d099b6f67e4b5135c66a3cd7f2",
+    "dd4f488d3d79a553325e02efb580636fe9a60870",
+    "27f03622491fcb461b1dc069b3ec500a176ead6c",
+    "f6ac57f292647c6fcc609bb0c76f2d2fadb76d8b"
   ]
 }
