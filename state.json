@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/03/every-xbox-game-gets-to-use-this-microsoft-announces-free-cross-platform-tools-for-developers",
-    "https://www.gematsu.com/2026/03/tropico-7-pc-closed-beta-test-begins-march-31",
-    "https://www.rockpapershotgun.com/pegi-announce-plans-to-slap-higher-age-ratings-on-games-with-loot-boxes-daily-quests-and-paid-battle-passes-soon",
-    "https://gamerant.com/crimson-desert-denuvo-drm-pc/",
     "https://www.gematsu.com/2026/03/pixel-art-block-pushing-puzzle-game-hazard-pay-launches-in-june-for-ps5-switch-and-pc",
     "https://www.gematsu.com/2026/03/borderlands-4-dlc-story-pack-1-mad-ellie-and-the-vault-of-the-damned-launches-march-26",
     "https://www.polygon.com/bafta-games-awards-2026-nominees-list-game-of-the-year/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/demon-slayer-tanjiro-romantic-endgame/",
     "https://www.pushsquare.com/news/2026/08/attack-on-titan-3-avoids-the-gta-6-chaos-on-ps5-locks-in-december-release-date",
     "https://www.gematsu.com/2026/08/attack-on-titan-3-launches-december-10",
-    "https://www.gamespot.com/videos/hr-human-remains-exclusive-release-date-trailer/"
+    "https://www.gamespot.com/videos/hr-human-remains-exclusive-release-date-trailer/",
+    "https://www.gematsu.com/2026/08/cyberpunk-shopkeeping-simulator-probably-stolen-announced-for-pc",
+    "https://www.polygon.com/attack-on-titan-3-release-date/",
+    "https://gamerant.com/nintendo-direct-august-2026-fire-emblem-fortunes-weave/",
+    "https://www.ign.com/articles/assassins-creed-black-flag-resynced-update-106-launches-tomorrow-here-are-the-patch-notes"
   ],
   "seen_titles": [
-    "'every xbox game gets to use this' - microsoft announces free cross-platform tools for developers",
-    "tropico 7 pc closed beta test begins march 31",
-    "pegi announce plans to slap higher age ratings on games with loot boxes, daily quests, and paid battle passes soon",
-    "crimson desert makes controversial change just one week before launch",
     "pixel art block-pushing puzzle game hazard pay launches in june for ps5, switch, and pc",
     "borderlands 4 dlc ‘story pack 1: mad ellie and the vault of the damned’ launches march 26",
     "bafta games awards 2026 nominees announced: the full list",
@@ -10001,13 +9997,13 @@
     "demon slayer next release to reveal tanjiro’s romantic endgame",
     "attack on titan 3 avoids the gta 6 chaos on ps5, locks in december release date",
     "attack on titan 3 launches december 10",
-    "hr: human remains exclusive release date trailer"
+    "hr: human remains exclusive release date trailer",
+    "cyberpunk shopkeeping simulator probably stolen announced for pc",
+    "even attack on titan 3 is avoiding gta 6",
+    "nintendo direct for august 2026 officially announced",
+    "assassin's creed black flag resynced update 1.0.6 launches tomorrow — here are the patch notes"
   ],
   "seen_story_keys": [
-    "8e59d183c51547bbb6f1a5cf964792a7d9cc4ab0",
-    "9688acc83bce975c90006c1339c2a665c4c3a022",
-    "81162fabc93f6a2ed7f35613ec6e8d386f471ca6",
-    "771353de27f1840e728931a20f0756c0cdd9581d",
     "bf827b319e142a911464f9ef86e8057f03491006",
     "264ab930375582680bea3c37728e16b54520de42",
     "13a72c1b83a3ee4ae4dc467cab2a9cd273891b6e",
@@ -15003,6 +14999,10 @@
     "539bbb28edcad6240829e7bc35333329ffe8ebf0",
     "3df5e6b9b6993bc661e9f8dd896fe6a9c1317d81",
     "0c0108f8d4ced38b0cd07835c7c5e975141d5b25",
-    "9f65ebea47d4231e10f77085e2f47401cf711759"
+    "9f65ebea47d4231e10f77085e2f47401cf711759",
+    "3ccb22c7d233795a93ea263d454f28af4dc127c2",
+    "f433b25ffa349993623297fb797cd8a960460197",
+    "b3e2f91ff357774765db40cd2040dc2c5faecaa8",
+    "7660d8985f8a23fbdb4701672139ce74aa6f7999"
   ]
 }
