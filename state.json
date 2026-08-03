@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/jeff-kaplan-overwatch-the-legend-of-california-new-game/",
-    "https://www.eurogamer.net/after-a-successful-launch-weekend-pokopia-has-become-one-of-the-best-selling-pokemon-spin-offs-ever",
-    "https://www.videogameschronicle.com/news/wwe-2k26-gets-patch-making-ringside-pass-rxp-easier-to-gain-but-harder-to-exploit/",
-    "https://www.ign.com/articles/this-is-an-xbox-announcement-looks-to-have-been-pulled-offline-after-new-gaming-boss-asha-sharma-takes-charge",
     "https://www.ign.com/articles/oscars-on-high-alert-as-fbi-warns-police-departments-in-california-that-iran-could-retaliate-for-us-attacks-by-launching-drones-at-the-west-coast",
     "https://gamerant.com/pegi-age-rating-loot-boxes-nft/",
     "https://www.purexbox.com/news/2026/03/free-play-days-try-these-xbox-games-for-free-march-12-15",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/final-nail-in-the-coffin-xbox-price-rises-revealed-leaving-fans-stunned-as-series-xs-spike-by-more-than-a-third-in-europe",
     "https://www.polygon.com/divinity-lord-of-chaos-hidden-runes-trailer/",
     "https://www.rockpapershotgun.com/american-truck-simulator-trundles-off-to-a-land-of-enchanted-highways-and-giant-bovines-with-a-freshly-announced-north-dakota-expansion",
-    "https://www.eurogamer.net/dragons-dogma-2-dark-arisen-hard-mode"
+    "https://www.eurogamer.net/dragons-dogma-2-dark-arisen-hard-mode",
+    "https://www.gamesindustry.biz/ai-startup-reforged-labs-shuts-down-as-the-gap-we-were-selling-into-is-closing",
+    "https://gamerant.com/new-steam-game-like-dispatch-persona/",
+    "https://www.purexbox.com/news/2026/08/heres-a-breakdown-of-the-new-prices-for-xbox-series-xs-consoles-as-of-august-2026",
+    "https://www.gamesindustry.biz/microsoft-confirms-increased-xbox-prices-in-the-uk-and-europe"
   ],
   "seen_titles": [
-    "ex-overwatch dev reveals new game: the legend of california",
-    "after a successful launch weekend, pokopia has become one of the best-selling pokémon spin-offs ever",
-    "wwe 2k26 gets patch making ringside pass rxp easier to gain, but harder to exploit",
-    "'this is an xbox' announcement looks to have been pulled offline, after new gaming boss asha sharma takes charge",
     "oscars on high alert as fbi warns police departments in california that iran could retaliate for u.s. attacks by launching drones at the west coast",
     "pegi reveals 4 new game rating categories that now includes nfts, loot boxes, and more",
     "free play days: try these xbox games for free (march 12-15)",
@@ -10001,13 +9997,13 @@
     "'final nail in the coffin': xbox price rises revealed, leaving fans stunned as series x/s spike by more than a third in europe",
     "divinity fan discovers massive secret hiding in the game's trailer",
     "american truck simulator trundles off to a land of enchanted highways and giant bovines with a freshly announced north dakota expansion",
-    "dragon's dogma 2: dark arisen director casually announces a hard mode is in the works"
+    "dragon's dogma 2: dark arisen director casually announces a hard mode is in the works",
+    "ai startup reforged labs shuts down as the \"gap we were selling into is closing\"",
+    "new steam game is basically dispatch meets persona",
+    "here's a breakdown of the new prices for xbox series x|s consoles as of august 2026",
+    "microsoft confirms increased xbox prices in the uk and europe"
   ],
   "seen_story_keys": [
-    "28183472c8486808a0c15f27af772fbe44d1507c",
-    "d631a0b1dd55cf57b8615cb299d7bd323a83dba8",
-    "d4c6e242f412bbd9095018ba1ee6651f369aac79",
-    "87468f7b9baa3101416827d5b44da9215786145c",
     "663f3fc65b659677d6e585fe3504c808a357d020",
     "2d950601da61468902631d310f69eb3ad28e8c2a",
     "853bf5cf6b18e92822f1fc1691a56aa141b0e855",
@@ -15003,6 +14999,10 @@
     "feb50d864019363d5af7b9a422fc5beae6597283",
     "642cdfdccfd8930b17e14307132cbf71daf15121",
     "8cbe09aed54e789daa1d55f7e9441e2837b61186",
-    "fb1891f4c2e75eef999894eaf280f3d4b89b1d26"
+    "fb1891f4c2e75eef999894eaf280f3d4b89b1d26",
+    "3ef9ad11e3710f4ce731caadb5df47d46eee2d5b",
+    "438c9df9bcb9ffcf5587f9d7583ce5d184f4572b",
+    "e752a9e6d9e366f54a1a59f31b1ecbf7bd31cc38",
+    "b5e0631ad305fb32625dac594920a20f1771dc13"
   ]
 }
