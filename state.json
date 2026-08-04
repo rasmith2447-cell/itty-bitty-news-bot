@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/defender-of-the-crown-the-legend-returns-announced-for-ps5-xbox-series-switch-and-pc",
-    "https://www.nintendolife.com/news/2026/03/dave-the-divers-next-major-dlc-launches-this-june",
-    "https://www.gematsu.com/2026/03/dave-the-diver-dlc-in-the-jungle-launches-june-18",
-    "https://www.gematsu.com/2026/03/we-gotta-go-launches-april-14",
     "https://www.gematsu.com/2026/03/will-follow-the-light-launches-april-28",
     "https://www.gematsu.com/2026/03/roguelite-tower-defense-game-revamp-announced-for-pc",
     "https://www.gematsu.com/2026/03/little-nightmares-vr-altered-echoes-launches-april-24-for-ps-vr2-steamvr-and-quest",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/final-fantasy-14-switch-2-launch-performance-price-subscription/",
     "https://www.gematsu.com/2026/08/hazard-pay-launches-september-10",
     "https://gamerant.com/ps-plus-free-games-august-2026-dying-light-2-big-walk-signalis/",
-    "https://www.polygon.com/xbox-game-pass-august-2026-wave-1-game-freak-beast-of-reincarnation/"
+    "https://www.polygon.com/xbox-game-pass-august-2026-wave-1-game-freak-beast-of-reincarnation/",
+    "https://www.nintendolife.com/features/talking-point-so-what-did-you-think-of-the-fire-emblem-fortunes-weave-nintendo-direct",
+    "https://www.gematsu.com/2026/08/crimson-moon-launches-september-1",
+    "https://www.gematsu.com/2026/08/the-walking-dead-streets-of-survival-launches-september-18",
+    "https://www.nintendolife.com/news/2026/08/nintendo-music-adds-fire-emblem-fortunes-weave-as-a-special-release"
   ],
   "seen_titles": [
-    "defender of the crown: the legend returns announced for ps5, xbox series, switch, and pc",
-    "dave the diver's next major dlc launches this june",
-    "dave the diver dlc ‘in the jungle’ launches june 18",
-    "we gotta go! launches april 14",
     "will: follow the light launches april 28",
     "roguelite tower defense game revamp announced for pc",
     "little nightmares vr: altered echoes launches april 24 for ps vr2, steamvr, and quest",
@@ -10001,13 +9997,13 @@
     "final fantasy 14 launches on switch 2 and it's surprising fans",
     "hazard pay launches september 10",
     "ps plus monthly free games for august 2026 are officially available now",
-    "xbox game pass new games for august 2026"
+    "xbox game pass new games for august 2026",
+    "talking point: so, what did you think of the fire emblem: fortune's weave nintendo direct?",
+    "crimson moon launches september 1",
+    "the walking dead: streets of survival launches september 18",
+    "nintendo music adds fire emblem: fortune's weave as a special release"
   ],
   "seen_story_keys": [
-    "f5f298d96ad0c34494c1c8376ae1985f399fff74",
-    "1a705b3dc151cf68a652f5a448a0c0f9f8cb101d",
-    "9f761b1411bea7f753350e41df495e1db7c696e0",
-    "c84b73f819422bd80c167c901c91f9d73a5b02d8",
     "167614a8eb57e5fe87e3c87d93565b2602020f76",
     "5cba665b96e2c4c864468f7c09d24effe163eaf8",
     "bb0bb5837fd0f24e6fc11fe08337ec8c575c1b5a",
@@ -15003,6 +14999,10 @@
     "8c6be3e2eb3bdb9abd8e60bc8e3f28e0a0780a08",
     "59f94372cf3b409d635e27390221002f31a2693b",
     "b93cf37b1084f02e72e154b1b7c340cefc0f8b0e",
-    "e7dafea3abd725544d8f57b8096bc0ffef78e1a7"
+    "e7dafea3abd725544d8f57b8096bc0ffef78e1a7",
+    "199f49e3b09e087e8063cc1c7afc5c3fb5cb5d69",
+    "21c75b5f092fff2846cdb3510a16b77509fe7b32",
+    "f8d90efc0b696a3d40d724fb40d7f130770f33a3",
+    "2936aa608002eac78b8b5837ae073a386a974ddd"
   ]
 }
