@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/03/xbox-mode-for-windows-11-is-progress-and-it-could-shape-microsofts-project-helix-console",
-    "https://www.bluesnews.com/s/295532/net-attack-code-or-die-official-launch",
-    "https://www.bluesnews.com/s/295531/harvest-moon-echoes-of-teradea-announced",
-    "https://www.gematsu.com/2026/03/calx-launches-june-4-for-pc-later-in-2026-for-ps5-xbox-series-and-switch",
     "https://www.gematsu.com/2026/03/defender-of-the-crown-the-legend-returns-announced-for-ps5-xbox-series-switch-and-pc",
     "https://www.nintendolife.com/news/2026/03/dave-the-divers-next-major-dlc-launches-this-june",
     "https://www.gematsu.com/2026/03/dave-the-diver-dlc-in-the-jungle-launches-june-18",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/palworld-online-mobile-version-announced/",
     "https://gamerant.com/new-insomniac-wolverine-details-gore-violence-esrb/",
     "https://www.gamesindustry.biz/firstlook-launches-creator-first-platform-creatorsgg-with-launch-partners-io-interactive-and-brain-jar-games",
-    "https://www.pcgamer.com/hardware/motherboards/gigabyte-is-launching-b550-am4-motherboards-and-recommending-four-year-old-cpus-because-the-memory-crisis-is-really-that-bad/"
+    "https://www.pcgamer.com/hardware/motherboards/gigabyte-is-launching-b550-am4-motherboards-and-recommending-four-year-old-cpus-because-the-memory-crisis-is-really-that-bad/",
+    "https://www.polygon.com/final-fantasy-14-switch-2-launch-performance-price-subscription/",
+    "https://www.gematsu.com/2026/08/hazard-pay-launches-september-10",
+    "https://gamerant.com/ps-plus-free-games-august-2026-dying-light-2-big-walk-signalis/",
+    "https://www.polygon.com/xbox-game-pass-august-2026-wave-1-game-freak-beast-of-reincarnation/"
   ],
   "seen_titles": [
-    "'xbox mode' for windows 11 is progress, and it could shape microsoft's project helix console",
-    "net.attack() - code or die! official launch",
-    "harvest moon: echoes of teradea announced",
-    "calx launches june 4 for pc, later in 2026 for ps5, xbox series, and switch",
     "defender of the crown: the legend returns announced for ps5, xbox series, switch, and pc",
     "dave the diver's next major dlc launches this june",
     "dave the diver dlc ‘in the jungle’ launches june 18",
@@ -10001,13 +9997,13 @@
     "palworld is officially expanding to more platforms",
     "new official insomniac wolverine details paint a gory picture",
     "firstlook launches creator-first platform creators.gg with launch partners io interactive and brain jar games",
-    "gigabyte is launching b550 am4 motherboards and recommending four-year-old cpus because the memory crisis is really that bad"
+    "gigabyte is launching b550 am4 motherboards and recommending four-year-old cpus because the memory crisis is really that bad",
+    "final fantasy 14 launches on switch 2 and it's surprising fans",
+    "hazard pay launches september 10",
+    "ps plus monthly free games for august 2026 are officially available now",
+    "xbox game pass new games for august 2026"
   ],
   "seen_story_keys": [
-    "6600403cb726e0f80779b39c64336ea38ed83965",
-    "852db1dc708bc7e0801027f1039636f253edd9fe",
-    "80b4e47c31f553e1a4e8c8e99ef35777d5e50bfa",
-    "1d405758a8cb4797b00935328200648eb259ab6b",
     "f5f298d96ad0c34494c1c8376ae1985f399fff74",
     "1a705b3dc151cf68a652f5a448a0c0f9f8cb101d",
     "9f761b1411bea7f753350e41df495e1db7c696e0",
@@ -15003,6 +14999,10 @@
     "3383696fae82b943a68f9d17ee444e3b9f6acf7f",
     "1bd14897eee3ceed2ccb30c52a0c954ff93ee74a",
     "b16547457c9652e924b1cd5fc55c71d88dddc6da",
-    "088cff26075b805f812a0a909772eff3126d867b"
+    "088cff26075b805f812a0a909772eff3126d867b",
+    "8c6be3e2eb3bdb9abd8e60bc8e3f28e0a0780a08",
+    "59f94372cf3b409d635e27390221002f31a2693b",
+    "b93cf37b1084f02e72e154b1b7c340cefc0f8b0e",
+    "e7dafea3abd725544d8f57b8096bc0ffef78e1a7"
   ]
 }
