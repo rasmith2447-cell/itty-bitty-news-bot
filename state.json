@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/first-person-puzzle-platformer-yerba-buena-announced-for-ps5-xbox-series-and-pc",
-    "https://www.purexbox.com/features/roundup-all-the-20plus-xbox-reveals-from-the-future-games-show-spring-showcase-2026",
-    "https://www.gematsu.com/2026/03/anime-inspired-side-scrolling-roguelike-action-platformer-slashzero-announced-for-ps5-pc",
-    "https://www.gematsu.com/2026/03/anomaly-president-launches-in-early-access-on-august-3",
     "https://www.pcgamer.com/gaming-industry/blizzard-vet-rob-pardo-closed-this-years-gdc-keynote-by-urging-executives-to-cool-it-with-the-layoffs-the-game-team-is-more-valuable-than-the-game-itself/",
     "https://www.gematsu.com/2026/03/remothered-red-nuns-legacy-announced-for-ps5-xbox-series-switch-2-and-pc",
     "https://www.polygon.com/overwatch-jeff-kaplan-blizzard-exit-interview/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/apex-legends-switch-shutdown/",
     "https://www.polygon.com/marvel-rivals-the-hood-reveal-season-9-5-mystery-of-thebes/",
     "https://www.polygon.com/crimson-moon-release-date-ps5-pc-xbox/",
-    "https://www.pushsquare.com/news/2026/08/announced-for-ps5-at-state-of-play-gothic-action-rpg-crimson-moon-finally-has-a-release-date"
+    "https://www.pushsquare.com/news/2026/08/announced-for-ps5-at-state-of-play-gothic-action-rpg-crimson-moon-finally-has-a-release-date",
+    "https://www.polygon.com/danganronpa-2x2-writer-delayed-game-to-play-grand-theft-auto-6/",
+    "https://gamerant.com/fire-emblem-fortunes-weave-direct-time-jump-twist/",
+    "https://www.polygon.com/mobile-suit-gundam-hathaway-new-trailer-netflix-release/",
+    "https://www.pushsquare.com/news/2026/08/mafia-the-old-countrys-ps5-dlc-will-expand-on-sicilys-scope"
   ],
   "seen_titles": [
-    "first-person puzzle platformer yerba buena announced for ps5, xbox series, and pc",
-    "roundup: all the 20+ xbox reveals from the future games show spring showcase 2026",
-    "anime-inspired side-scrolling roguelike action platformer slashzero announced for ps5, pc",
-    "anomaly president launches in early access on august 3",
     "blizzard vet rob pardo closed this year's gdc keynote by urging executives to cool it with the layoffs: 'the game team is more valuable than the game itself'",
     "remothered: red nun’s legacy announced for ps5, xbox series, switch 2, and pc",
     "overwatch co-creator jeff kaplan explains why he quit blizzard",
@@ -10001,13 +9997,13 @@
     "ea game just shut down forever",
     "marvel rivals adds mcu villain the hood in season 9.5 update",
     "crimson moon gets september release date",
-    "announced for ps5 at state of play, gothic action rpg crimson moon finally has a release date"
+    "announced for ps5 at state of play, gothic action rpg crimson moon finally has a release date",
+    "'grand theft auto 6' is to blame for 'danganronpa 2x2's delay, but not for the reason you think",
+    "fire emblem: fortune's weave already spoiled its biggest potential twist",
+    "mobile suit gundam hathaway 2 gets new trailer, streaming release date",
+    "mafia: the old country's ps5 dlc will expand on sicily's scope"
   ],
   "seen_story_keys": [
-    "14424e543e10e054134c0a0e7591244829016b68",
-    "34f762ecd84b4bda01a4d488e3923eac376401af",
-    "b71f7217c03187a18db9f6abb03fec39295c6fc7",
-    "169d32a2ad54b3143148c611cf23fe4611b2ba96",
     "d9b4768c25388a934e572db70c3b7ec7581d7513",
     "2ff34b52dce0c2186d3a54b5562ede21477ae6ca",
     "cf593f53a149382e504e46b5d08cd6f7320b3851",
@@ -15003,6 +14999,10 @@
     "57ec1e0f63b7022cccbbf79f26226a9d3cd8b3b4",
     "4b284ff6dbf6069288bd416cacbb6445e3e36ab1",
     "f5d19d6d70cf3cb83e9b1f5c7644df03b9fe6130",
-    "14fd78e9bdc9f05645bd84ef525f724c64743180"
+    "14fd78e9bdc9f05645bd84ef525f724c64743180",
+    "4970134eb8040f22a018d13882495722c9eaaeea",
+    "40a4956e699c25be9fc712889b763686dc34f953",
+    "6462b1cd12c87963b1cc3ccdc08a02dd6a89ab6b",
+    "7f70cac60071eac51df95610d8ef47a9123cdba5"
   ]
 }
