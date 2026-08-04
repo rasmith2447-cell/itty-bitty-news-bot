@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/pokemon-tcg-new-set-march-2026/",
-    "https://www.gematsu.com/2026/03/marvel-maximum-collection-launches-march-27",
-    "https://www.gematsu.com/2026/03/aphelion-launches-april-28",
-    "https://www.rockpapershotgun.com/moonlighter-devs-next-haunt-is-revamp-a-tower-defence-roguelike-where-dracula-is-cursed-to-defend-his-castle-forever",
     "https://www.gematsu.com/2026/03/deep-rock-galactic-rogue-core-launches-in-early-access-on-may-20",
     "https://www.gematsu.com/2026/03/sagas-of-lumin-launches-in-early-access-this-summer",
     "https://www.gematsu.com/2026/03/last-flag-launches-april-14-for-pc-this-summer-for-ps5-and-xbox-series",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/fire-emblem-fortunes-weave-characters-story-time-jump/",
     "https://gamerant.com/final-fantasy-14-switch-2-dark-screen-loading-time/",
     "https://www.ign.com/articles/i-hope-xbox-project-helix-is-still-a-gaming-pc-when-it-launches",
-    "https://www.pushsquare.com/news/2026/08/hot-wheels-infinite-rush-highlights-its-open-world-islands-in-new-ps5-gameplay-trailer"
+    "https://www.pushsquare.com/news/2026/08/hot-wheels-infinite-rush-highlights-its-open-world-islands-in-new-ps5-gameplay-trailer",
+    "https://www.gematsu.com/2026/08/isle-of-reveries-launches-september-4-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc",
+    "https://www.eurogamer.net/final-fantasy-14-switch-2-space-free-trial",
+    "https://www.gematsu.com/2026/08/endless-legend-ii-launches-september-17-for-ps5-xbox-series-and-pc",
+    "https://www.purexbox.com/news/2026/08/these-10-games-are-coming-to-xbox-game-pass-august-6-18"
   ],
   "seen_titles": [
-    "the next pokemon tcg set has been revealed",
-    "marvel maximum collection launches march 27",
-    "aphelion launches april 28",
-    "moonlighter dev's next haunt is revamp, a tower defence roguelike where dracula is cursed to defend his castle forever",
     "deep rock galactic: rogue core launches in early access on may 20",
     "sagas of lumin launches in early access this summer",
     "last flag launches april 14 for pc, this summer for ps5 and xbox series",
@@ -10001,13 +9997,13 @@
     "fire emblem: fortune's weave reveals 4 playable characters, 5-year time jump, and more",
     "final fantasy 14 on switch 2 has a serious problem",
     "i hope xbox project helix is still a gaming pc when it launches",
-    "hot wheels: infinite rush highlights its open world islands in new ps5 gameplay trailer"
+    "hot wheels: infinite rush highlights its open world islands in new ps5 gameplay trailer",
+    "isle of reveries launches september 4 for ps5, xbox series, ps4, xbox one, switch, and pc",
+    "you can try the newly-launched switch 2 port of final fantasy 14 for free, right now, if you have a spare 117gb",
+    "endless legend ii launches september 17 for ps5, xbox series, and pc",
+    "these 10 games are coming to xbox game pass (august 6-18)"
   ],
   "seen_story_keys": [
-    "ee54651c2ccdb13b632327e22ff8848635364abc",
-    "e5949d6405a6ac86f5278005e2906be3bc1e0062",
-    "e07d08573be18afb419c6248fc33e8276f75a000",
-    "3d8d762752e3ca5076c341aa7dd56d00d5ccc8df",
     "bad5cb883df96cb004416b5841e81c00eb41b1b5",
     "a6448473613d3febef4a05fff89e250d5bd72aa7",
     "b014549e33c47014b7de63a0bd900464ee15acea",
@@ -15003,6 +14999,10 @@
     "aabe674536707aed7e93eaf2c7792204696efde7",
     "398e1fc86ce199e18b8dc7771a726ea93dc5d249",
     "9f7c7663416ffa26be01defcabc5b1bcd6c7a306",
-    "d440f309acc0711b6b281d9b03d83d7ee859d8e5"
+    "d440f309acc0711b6b281d9b03d83d7ee859d8e5",
+    "5b8f1f3c52d329bcb2f798ed5258b1757ba56edc",
+    "deebf082ce0cf6bbdcd79e0f217cdda1d9018a69",
+    "27d0b4ee188051f9e09c07d3c7b506fde78b4509",
+    "842f51f590c2b70a69276fc0770823eaa2068cd7"
   ]
 }
