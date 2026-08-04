@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/epic-games-store-free-games-march-19/",
-    "https://www.pushsquare.com/news/2026/03/morrowind-style-rpg-dread-delusion-is-suddenly-less-than-one-week-away-on-ps5",
-    "https://gamerant.com/world-of-warcraft-midnight-patch-12-0-5-features/",
     "https://www.purexbox.com/news/2026/03/xbox-mode-for-windows-11-is-progress-and-it-could-shape-microsofts-project-helix-console",
     "https://www.bluesnews.com/s/295532/net-attack-code-or-die-official-launch",
     "https://www.bluesnews.com/s/295531/harvest-moon-echoes-of-teradea-announced",
@@ -4999,12 +4996,12 @@
     "https://www.nintendolife.com/news/2026/08/tetris-99s-new-crossover-event-celebrates-splatoon-raiders-unlock-a-special-theme",
     "https://gamerant.com/steam-games-like-terraria-factorio-sandustry/",
     "https://www.eurogamer.net/xbox-fanfest-world-tour",
-    "https://gamerant.com/palworld-online-mobile-version-announced/"
+    "https://gamerant.com/palworld-online-mobile-version-announced/",
+    "https://gamerant.com/new-insomniac-wolverine-details-gore-violence-esrb/",
+    "https://www.gamesindustry.biz/firstlook-launches-creator-first-platform-creatorsgg-with-launch-partners-io-interactive-and-brain-jar-games",
+    "https://www.pcgamer.com/hardware/motherboards/gigabyte-is-launching-b550-am4-motherboards-and-recommending-four-year-old-cpus-because-the-memory-crisis-is-really-that-bad/"
   ],
   "seen_titles": [
-    "epic games store officially reveals its free games for march 19",
-    "morrowind-style rpg dread delusion is suddenly less than one week away on ps5",
-    "world of warcraft reveals midnight patch 12.0.5",
     "'xbox mode' for windows 11 is progress, and it could shape microsoft's project helix console",
     "net.attack() - code or die! official launch",
     "harvest moon: echoes of teradea announced",
@@ -10001,12 +9998,12 @@
     "tetris 99's new crossover event celebrates splatoon raiders, unlock a special theme",
     "brand-new factory automation game on steam is terraria meets factorio",
     "xbox's fanfest world tour is still going ahead, for some reason, even after microsoft fired the guy who created it",
-    "palworld is officially expanding to more platforms"
+    "palworld is officially expanding to more platforms",
+    "new official insomniac wolverine details paint a gory picture",
+    "firstlook launches creator-first platform creators.gg with launch partners io interactive and brain jar games",
+    "gigabyte is launching b550 am4 motherboards and recommending four-year-old cpus because the memory crisis is really that bad"
   ],
   "seen_story_keys": [
-    "2d8864d59f204d9381a1041cbac8545583c86042",
-    "fadccd1068484b58a8a092716a5c402598253a86",
-    "5cdfb451ef074d9caf2cfd2756af02ea454c7cb5",
     "6600403cb726e0f80779b39c64336ea38ed83965",
     "852db1dc708bc7e0801027f1039636f253edd9fe",
     "80b4e47c31f553e1a4e8c8e99ef35777d5e50bfa",
@@ -15003,6 +15000,9 @@
     "99383f8ceec2cc6bf17435630afd6e7a81fce056",
     "7885ffefd2025c482645f1afd61796936b68e75f",
     "c2b5cfb9d94d98c9e72a96384907bbb31e069e61",
-    "3383696fae82b943a68f9d17ee444e3b9f6acf7f"
+    "3383696fae82b943a68f9d17ee444e3b9f6acf7f",
+    "1bd14897eee3ceed2ccb30c52a0c954ff93ee74a",
+    "b16547457c9652e924b1cd5fc55c71d88dddc6da",
+    "088cff26075b805f812a0a909772eff3126d867b"
   ]
 }
