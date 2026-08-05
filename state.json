@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/crimson-desert-ps5-pro-gameplay/",
-    "https://www.nintendolife.com/news/2026/03/marvel-maximum-collection-brings-six-superhero-titles-to-switch-this-month",
-    "https://www.pushsquare.com/news/2026/03/crimson-desert-ps5-concern-as-physical-copies-wont-run-without-download",
-    "https://www.gematsu.com/2026/03/kyoto-xanadu-launches-july-16-in-japan-asia",
     "https://www.bluesnews.com/s/295559/slashzero-announced",
     "https://www.bluesnews.com/s/295558/everrail-announced",
     "https://www.gematsu.com/2026/03/1980s-kowloon-set-action-game-the-9th-dragon-announced-for-ps5-xbox-series-switch-and-pc",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/games/world-of-warcraft/wow-will-let-some-weakaura-style-mods-function-in-its-next-major-patch-as-the-war-on-combat-addons-turns-into-more-of-a-truce/",
     "https://gamerant.com/ea-acquisition-layoffs-saudi-arabia/",
     "https://www.pushsquare.com/news/2026/08/it-may-be-18-months-old-but-monster-hunter-wilds-just-got-a-free-playable-demo-on-ps5",
-    "https://www.eurogamer.net/xbox-game-pass-lineup-august-2026"
+    "https://www.eurogamer.net/xbox-game-pass-lineup-august-2026",
+    "https://www.eurogamer.net/beast-of-reincarnation-patches-story-pacing-fixes",
+    "https://www.gematsu.com/2026/08/fallen-tear-the-ascension-for-pc-launches-september-16",
+    "https://www.gamesindustry.biz/silver-lining-interactive-launches-first-title-from-its-development-label-silver-bullet",
+    "https://www.gematsu.com/2026/08/tactical-rpg-beaten-path-launches-in-2027-for-ps5-xbox-series-switch-and-pc"
   ],
   "seen_titles": [
-    "crimson desert reveals ps5 pro gameplay footage and breakdown",
-    "marvel maximum collection brings six superhero titles to switch this month",
-    "crimson desert ps5 concern as physical copies won't run without download",
-    "kyoto xanadu launches july 16 in japan, asia",
     "slashzero announced",
     "everrail announced",
     "1980s kowloon-set action game the 9th dragon announced for ps5, xbox series, switch, and pc",
@@ -10001,13 +9997,13 @@
     "wow will let some weakaura-style mods function in its next major patch, as the war on combat addons turns into more of a truce",
     "ea already planning mass layoffs",
     "it may be 18 months old, but monster hunter wilds just got a free playable demo on ps5",
-    "there are a few gooduns in august's xbox game pass line-up, including a surprisingly sexy, and funny, furniture dating sim"
+    "there are a few gooduns in august's xbox game pass line-up, including a surprisingly sexy, and funny, furniture dating sim",
+    "\"we take your feedback to heart\" - game freak promises to improve beast of reincarnation following a divisive launch",
+    "fallen tear: the ascension for pc launches september 16",
+    "silver lining interactive launches first title from its development label silver bullet",
+    "tactical rpg beaten path launches in 2027 for ps5, xbox series, switch, and pc"
   ],
   "seen_story_keys": [
-    "77e0aa0258270667c4eae7c37f0d119204fdcb51",
-    "644373de6948dc751fd6a80ffc1ef97fc486de92",
-    "c85930e7c654f144614ef0b88d8ed62e1fe1eff5",
-    "a2bbf8a1d12ec8a9090d2582d478be00ee760c47",
     "4d92ea483454fbffdf0e571492810a46a7d03776",
     "11316d493972bae19e8b104f2c11cb4e8df55b0e",
     "d121cfed5079571172973bba53e092c16446c978",
@@ -15003,6 +14999,10 @@
     "22e032d519225035afe0efdb1e5030119f58441e",
     "4d5e3d97039178f8866d9e75cd7e01549a2b904d",
     "902741ea1c18f735b3983bd71c8a07f04734a0a1",
-    "a3e3810fe154bfdb33ff49522e8812e3d3966493"
+    "a3e3810fe154bfdb33ff49522e8812e3d3966493",
+    "2b4f2f9ab4981836aec62965fce69fcb2a27bbce",
+    "9b6a592215f69ce2bccbe4a5a7732eb2d449d11d",
+    "e40ff46854b088c4fc6c9f2f42d77333e2615d59",
+    "eac1bb8d293b847f8475f829be7ebd0c935342e1"
   ]
 }
