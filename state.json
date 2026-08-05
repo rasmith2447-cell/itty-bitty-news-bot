@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295564/defender-of-the-crown-the-legend-returns-announced",
-    "https://www.bluesnews.com/s/295563/the-7th-guest-remake-announced",
-    "https://www.bluesnews.com/s/295562/rhell-warped-worlds-troubled-times-released",
-    "https://gamerant.com/outlander-season-8-episode-2-streaming-release-date-starz/",
     "https://gamerant.com/crimson-desert-ps5-pro-gameplay/",
     "https://www.nintendolife.com/news/2026/03/marvel-maximum-collection-brings-six-superhero-titles-to-switch-this-month",
     "https://www.pushsquare.com/news/2026/03/crimson-desert-ps5-concern-as-physical-copies-wont-run-without-download",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/secret-mode-opens-new-sheffield-studio-to-support-internal-titles-starting-with-escape-the-backrooms-and-chained-together",
     "https://www.eurogamer.net/resident-evil-veronica-2-million-wishlists",
     "https://www.gematsu.com/2026/08/arcade-archives-combat-school-launches-august-6",
-    "https://www.gamesindustry.biz/raptor-pr-launches-early-gaming-growth-platform-to-help-gaming-startups-navigate-b2b-communications"
+    "https://www.gamesindustry.biz/raptor-pr-launches-early-gaming-growth-platform-to-help-gaming-startups-navigate-b2b-communications",
+    "https://www.pcgamer.com/games/world-of-warcraft/wow-will-let-some-weakaura-style-mods-function-in-its-next-major-patch-as-the-war-on-combat-addons-turns-into-more-of-a-truce/",
+    "https://gamerant.com/ea-acquisition-layoffs-saudi-arabia/",
+    "https://www.pushsquare.com/news/2026/08/it-may-be-18-months-old-but-monster-hunter-wilds-just-got-a-free-playable-demo-on-ps5",
+    "https://www.eurogamer.net/xbox-game-pass-lineup-august-2026"
   ],
   "seen_titles": [
-    "defender of the crown: the legend returns announced",
-    "the 7th guest remake announced",
-    "rhell: warped worlds & troubled times released",
-    "outlander season 8, episode 2 release date & time",
     "crimson desert reveals ps5 pro gameplay footage and breakdown",
     "marvel maximum collection brings six superhero titles to switch this month",
     "crimson desert ps5 concern as physical copies won't run without download",
@@ -10001,13 +9997,13 @@
     "secret mode opens new sheffield studio to support internal titles, starting with escape the backrooms and chained together",
     "resident evil veronica remake already proving popular for capcom, as wishlists reach an impressive milestone",
     "arcade archives combat school launches august 6",
-    "raptor pr launches early gaming growth platform to help gaming startups navigate b2b communications"
+    "raptor pr launches early gaming growth platform to help gaming startups navigate b2b communications",
+    "wow will let some weakaura-style mods function in its next major patch, as the war on combat addons turns into more of a truce",
+    "ea already planning mass layoffs",
+    "it may be 18 months old, but monster hunter wilds just got a free playable demo on ps5",
+    "there are a few gooduns in august's xbox game pass line-up, including a surprisingly sexy, and funny, furniture dating sim"
   ],
   "seen_story_keys": [
-    "2c8686fcda2ec818adda1703b0e17e23a0612705",
-    "466a6a1a76b615e5178c50d017be8c9ec4395bcb",
-    "0f2ff74da39e9e1f91ea8ef1eb7b4c004cdf7e1b",
-    "b99bd7ca2a91faafd91ff9a9ac72a5560e18fea3",
     "77e0aa0258270667c4eae7c37f0d119204fdcb51",
     "644373de6948dc751fd6a80ffc1ef97fc486de92",
     "c85930e7c654f144614ef0b88d8ed62e1fe1eff5",
@@ -15003,6 +14999,10 @@
     "a983a5482b3ada410cbed447ddd014a4280087c0",
     "129f75723f2820e0972d7a0643b38ef59ce3dfeb",
     "ab462030eccf803ea3cd2eb6d0bbe418aa45fb71",
-    "0cdb6977233669da127d47143a9d9c76d7762d0b"
+    "0cdb6977233669da127d47143a9d9c76d7762d0b",
+    "22e032d519225035afe0efdb1e5030119f58441e",
+    "4d5e3d97039178f8866d9e75cd7e01549a2b904d",
+    "902741ea1c18f735b3983bd71c8a07f04734a0a1",
+    "a3e3810fe154bfdb33ff49522e8812e3d3966493"
   ]
 }
