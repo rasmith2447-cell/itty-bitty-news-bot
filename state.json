@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295559/slashzero-announced",
-    "https://www.bluesnews.com/s/295558/everrail-announced",
-    "https://www.gematsu.com/2026/03/1980s-kowloon-set-action-game-the-9th-dragon-announced-for-ps5-xbox-series-switch-and-pc",
-    "https://www.pcgamer.com/games/third-person-shooter/no-one-at-embark-could-describe-arc-raiders-before-its-extraction-shooter-pivot-leading-to-playtest-battles-of-competing-directions-for-the-game/",
     "https://www.gamespot.com/articles/crimson-desert-launch-times-and-pre-load-dates-revealed/1100-6538751/?ftag=CAD-01-10abi2f",
     "https://www.nintendolife.com/news/2026/03/yoshi-and-the-mysterious-books-switch-2-box-art-is-suitably-adorable",
     "https://www.purexbox.com/news/2026/03/microsofts-this-is-an-xbox-post-taken-down-as-fans-wonder-if-the-controversial-ad-is-no-more",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/beast-of-reincarnation-patches-story-pacing-fixes",
     "https://www.gematsu.com/2026/08/fallen-tear-the-ascension-for-pc-launches-september-16",
     "https://www.gamesindustry.biz/silver-lining-interactive-launches-first-title-from-its-development-label-silver-bullet",
-    "https://www.gematsu.com/2026/08/tactical-rpg-beaten-path-launches-in-2027-for-ps5-xbox-series-switch-and-pc"
+    "https://www.gematsu.com/2026/08/tactical-rpg-beaten-path-launches-in-2027-for-ps5-xbox-series-switch-and-pc",
+    "https://www.polygon.com/monster-hunter-wilds-demo-release-capcom/",
+    "https://www.eurogamer.net/gears-of-war-e-day-weekend-beta-pvp-versus",
+    "https://www.gematsu.com/2026/08/danchi-days-launches-october-29",
+    "https://www.ign.com/articles/secretlab-launches-pokemon-themed-skins"
   ],
   "seen_titles": [
-    "slashzero announced",
-    "everrail announced",
-    "1980s kowloon-set action game the 9th dragon announced for ps5, xbox series, switch, and pc",
-    "no one at embark could describe arc raiders before its extraction shooter pivot, leading to 'playtest battles' of competing directions for the game",
     "crimson desert launch times and pre-load dates revealed",
     "yoshi and the mysterious book's switch 2 box art is suitably adorable",
     "microsoft's 'this is an xbox' post taken down as fans wonder if the controversial ad is no more",
@@ -10001,13 +9997,13 @@
     "\"we take your feedback to heart\" - game freak promises to improve beast of reincarnation following a divisive launch",
     "fallen tear: the ascension for pc launches september 16",
     "silver lining interactive launches first title from its development label silver bullet",
-    "tactical rpg beaten path launches in 2027 for ps5, xbox series, switch, and pc"
+    "tactical rpg beaten path launches in 2027 for ps5, xbox series, switch, and pc",
+    "monster hunter wilds finally has a demo, with big limitations",
+    "gears of war: e-day's upcoming weekend beta suddenly gets pvp due to fan demand",
+    "danchi days launches october 29",
+    "secretlab launches pokémon-themed gaming chair ‘skins’ featuring the original three starter evolutions"
   ],
   "seen_story_keys": [
-    "4d92ea483454fbffdf0e571492810a46a7d03776",
-    "11316d493972bae19e8b104f2c11cb4e8df55b0e",
-    "d121cfed5079571172973bba53e092c16446c978",
-    "8e7881c0641bc7acd0d5c8d96b2042619046e151",
     "e6e8671bac596f954bf72d1eee00f64e5b359ce1",
     "effbe936b917e0660640c5def05e50b8a9538122",
     "5bbce15ff5664ca11fa209fa5e0369bee3c35cd2",
@@ -15003,6 +14999,10 @@
     "2b4f2f9ab4981836aec62965fce69fcb2a27bbce",
     "9b6a592215f69ce2bccbe4a5a7732eb2d449d11d",
     "e40ff46854b088c4fc6c9f2f42d77333e2615d59",
-    "eac1bb8d293b847f8475f829be7ebd0c935342e1"
+    "eac1bb8d293b847f8475f829be7ebd0c935342e1",
+    "282e3bf2c173e49d0bffd5a647d836c193ed78be",
+    "a772660f3c0c0142f5a98724f071f35b20faa4b4",
+    "bdf2dcd365e3be0d2090520fc80b45ee657f76d6",
+    "a3781734b21c96d981033e08442d7beceaf9083d"
   ]
 }
