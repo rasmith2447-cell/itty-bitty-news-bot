@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/crimson-desert-launch-times-and-pre-load-dates-revealed/1100-6538751/?ftag=CAD-01-10abi2f",
-    "https://www.nintendolife.com/news/2026/03/yoshi-and-the-mysterious-books-switch-2-box-art-is-suitably-adorable",
-    "https://www.purexbox.com/news/2026/03/microsofts-this-is-an-xbox-post-taken-down-as-fans-wonder-if-the-controversial-ad-is-no-more",
-    "https://www.pcgamer.com/games/adventure/dispatchs-character-and-concept-artist-was-picked-up-on-artstation-as-a-last-resort-a-temporary-solution-to-get-us-through-the-pitch-phase-before-defining-the-entire-games-artstyle/",
     "https://www.nintendolife.com/news/2026/03/japanese-charts-pokemon-pokopia-gets-off-to-an-astonishing-start",
     "https://www.videogameschronicle.com/news/former-overwatch-director-reveals-the-legend-of-california-an-open-world-online-wild-west-fps/",
     "https://www.pcgamer.com/gaming-industry/journey-composer-austin-wintory-played-an-unreleased-song-from-his-canceled-dream-job-of-all-time-during-the-game-developers-choice-awards-just-to-drive-home-that-the-industrys-doing-great/",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/monster-hunter-wilds-demo-release-capcom/",
     "https://www.eurogamer.net/gears-of-war-e-day-weekend-beta-pvp-versus",
     "https://www.gematsu.com/2026/08/danchi-days-launches-october-29",
-    "https://www.ign.com/articles/secretlab-launches-pokemon-themed-skins"
+    "https://www.ign.com/articles/secretlab-launches-pokemon-themed-skins",
+    "https://www.ign.com/articles/pokmon-developer-game-freak-promises-fixes-within-a-week-to-its-big-budget-rpg-beast-of-reincarnation-following-mixed-response-at-launch",
+    "https://www.ign.com/articles/xbox-console-updates-adding-new-capture-and-achievement-features",
+    "https://www.gamesindustry.biz/phasmophobia-developers-indie-label-kinetic-publishing-to-reveal-debut-slate-at-showcase-this-august",
+    "https://www.pushsquare.com/news/2026/08/another-absurdly-obscure-ps1-game-will-make-its-worldwide-debut-on-ps5-this-week"
   ],
   "seen_titles": [
-    "crimson desert launch times and pre-load dates revealed",
-    "yoshi and the mysterious book's switch 2 box art is suitably adorable",
-    "microsoft's 'this is an xbox' post taken down as fans wonder if the controversial ad is no more",
-    "dispatch's character and concept artist was picked up on artstation 'as a last resort', a temporary solution 'to get us through the pitch phase', before defining the entire game's artstyle",
     "japanese charts: pokémon pokopia gets off to an astonishing start",
     "former overwatch director reveals the legend of california, an open-world online wild west fps",
     "journey composer austin wintory played an unreleased song from his canceled 'dream job of all time' during the game developers choice awards, just to drive home that the industry's doing great",
@@ -10001,13 +9997,13 @@
     "monster hunter wilds finally has a demo, with big limitations",
     "gears of war: e-day's upcoming weekend beta suddenly gets pvp due to fan demand",
     "danchi days launches october 29",
-    "secretlab launches pokémon-themed gaming chair ‘skins’ featuring the original three starter evolutions"
+    "secretlab launches pokémon-themed gaming chair ‘skins’ featuring the original three starter evolutions",
+    "pokémon developer game freak promises fixes 'within a week' to its big budget rpg beast of reincarnation, following mixed response at launch",
+    "xbox console updates adding new capture and achievement features",
+    "phasmophobia developer's indie label kinetic publishing to reveal debut slate at showcase later this month",
+    "another absurdly obscure ps1 game will make its worldwide debut on ps5 this week"
   ],
   "seen_story_keys": [
-    "e6e8671bac596f954bf72d1eee00f64e5b359ce1",
-    "effbe936b917e0660640c5def05e50b8a9538122",
-    "5bbce15ff5664ca11fa209fa5e0369bee3c35cd2",
-    "e60a68a0fb8275c6d97041d5fafed133835d628e",
     "7f84312bd25cb6d018efb09def471762962f9efd",
     "f541aacaf4b2cd18dcf225ab0aaf98fd01bdf688",
     "99030f03d9c13f482925761a1a43c8ebc1343e18",
@@ -15003,6 +14999,10 @@
     "282e3bf2c173e49d0bffd5a647d836c193ed78be",
     "a772660f3c0c0142f5a98724f071f35b20faa4b4",
     "bdf2dcd365e3be0d2090520fc80b45ee657f76d6",
-    "a3781734b21c96d981033e08442d7beceaf9083d"
+    "a3781734b21c96d981033e08442d7beceaf9083d",
+    "88c46951e7970af3e8a9f92c5a5d144cd0c068ab",
+    "28c10998b8006fef2669cfeb4cac477045df2c40",
+    "b6b994dd68c59cc9ca82f1f6a45375b9cb1a0228",
+    "efacf392854ad75f3acc7882ac881e1221c07a13"
   ]
 }
