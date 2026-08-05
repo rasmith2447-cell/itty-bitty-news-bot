@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/03/japanese-charts-pokemon-pokopia-gets-off-to-an-astonishing-start",
-    "https://www.videogameschronicle.com/news/former-overwatch-director-reveals-the-legend-of-california-an-open-world-online-wild-west-fps/",
-    "https://www.pcgamer.com/gaming-industry/journey-composer-austin-wintory-played-an-unreleased-song-from-his-canceled-dream-job-of-all-time-during-the-game-developers-choice-awards-just-to-drive-home-that-the-industrys-doing-great/",
-    "https://www.nintendolife.com/news/2026/03/sega-drops-another-small-puyo-puyo-tetris-2s-patch-for-switch-2",
     "https://www.eurogamer.net/slay-the-spire-2-fan-drew-badly-every-day-art-book",
     "https://www.eurogamer.net/pokemon-pokopia-first-patch-switch-2-progress-bugs",
     "https://www.purexbox.com/news/2026/03/two-xbox-game-pass-titles-got-new-trailers-at-this-weeks-future-games-show-event",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/pokmon-developer-game-freak-promises-fixes-within-a-week-to-its-big-budget-rpg-beast-of-reincarnation-following-mixed-response-at-launch",
     "https://www.ign.com/articles/xbox-console-updates-adding-new-capture-and-achievement-features",
     "https://www.gamesindustry.biz/phasmophobia-developers-indie-label-kinetic-publishing-to-reveal-debut-slate-at-showcase-this-august",
-    "https://www.pushsquare.com/news/2026/08/another-absurdly-obscure-ps1-game-will-make-its-worldwide-debut-on-ps5-this-week"
+    "https://www.pushsquare.com/news/2026/08/another-absurdly-obscure-ps1-game-will-make-its-worldwide-debut-on-ps5-this-week",
+    "https://www.purexbox.com/news/2026/08/two-more-games-revealed-for-xbox-game-pass-in-september-2026",
+    "https://www.polygon.com/diablo-4-nintendo-switch-2-release-date-rumor/",
+    "https://www.ign.com/articles/all-upcoming-nintendo-switch-2-games",
+    "https://www.gematsu.com/2026/08/moonlighter-2-the-endless-vault-launches-september-2"
   ],
   "seen_titles": [
-    "japanese charts: pokémon pokopia gets off to an astonishing start",
-    "former overwatch director reveals the legend of california, an open-world online wild west fps",
-    "journey composer austin wintory played an unreleased song from his canceled 'dream job of all time' during the game developers choice awards, just to drive home that the industry's doing great",
-    "sega drops another small puyo puyo tetris 2s patch for switch 2",
     "slay the spire 2 fan drew badly every day until its release, now they've created an art book to celebrate",
     "pokémon pokopia's first patch announced, tackles progress-halting bugs and makes progression a bit easier to figure out",
     "two xbox game pass titles got new trailers at this week's 'future games show' event",
@@ -10001,13 +9997,13 @@
     "pokémon developer game freak promises fixes 'within a week' to its big budget rpg beast of reincarnation, following mixed response at launch",
     "xbox console updates adding new capture and achievement features",
     "phasmophobia developer's indie label kinetic publishing to reveal debut slate at showcase later this month",
-    "another absurdly obscure ps1 game will make its worldwide debut on ps5 this week"
+    "another absurdly obscure ps1 game will make its worldwide debut on ps5 this week",
+    "two more games revealed for xbox game pass in september 2026",
+    "diablo 4 coming to switch 2 soon, new report says",
+    "upcoming nintendo switch 2 games: release dates for 2026 and beyond",
+    "moonlighter 2: the endless vault launches september 2"
   ],
   "seen_story_keys": [
-    "7f84312bd25cb6d018efb09def471762962f9efd",
-    "f541aacaf4b2cd18dcf225ab0aaf98fd01bdf688",
-    "99030f03d9c13f482925761a1a43c8ebc1343e18",
-    "9953a42e1fc5f980ba3137399381438e3546ba91",
     "acfde95292370c489ebd202d8237710ecb2dec3c",
     "71179e8eb276cac3f5c327ccba57d0ba940eb182",
     "92b04fe2dbcda1f47272915be43a616692322f0c",
@@ -15003,6 +14999,10 @@
     "88c46951e7970af3e8a9f92c5a5d144cd0c068ab",
     "28c10998b8006fef2669cfeb4cac477045df2c40",
     "b6b994dd68c59cc9ca82f1f6a45375b9cb1a0228",
-    "efacf392854ad75f3acc7882ac881e1221c07a13"
+    "efacf392854ad75f3acc7882ac881e1221c07a13",
+    "a6c5f712f6fee63d2dac2388b64fee8b67a5ecb6",
+    "c1958bdd2907a03620c4ac0746f2913deb6b2513",
+    "88f47f557ea6668b43d36f8f1c7413d03be95ca9",
+    "6f2fbe96a10c45569fe126a87f1249111957b99f"
   ]
 }
