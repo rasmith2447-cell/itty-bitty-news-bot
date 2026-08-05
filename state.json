@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/slay-the-spire-2-fan-drew-badly-every-day-art-book",
-    "https://www.eurogamer.net/pokemon-pokopia-first-patch-switch-2-progress-bugs",
-    "https://www.purexbox.com/news/2026/03/two-xbox-game-pass-titles-got-new-trailers-at-this-weeks-future-games-show-event",
-    "https://www.gematsu.com/2026/03/wuthering-waves-version-3-2-update-resolution-to-illuminate-the-shadows-launches-march-19",
     "https://www.rockpapershotgun.com/deep-rock-galactic-survivor-is-adding-a-bulldozing-new-class-while-fellow-spinoff-rogue-core-gets-an-early-access-release-date",
     "https://gamerant.com/fortnite-crimson-desert-skin/",
     "https://www.rockpapershotgun.com/dave-the-divers-jungle-dlc-release-date-confirmed-for-summer-so-youd-better-start-learning-how-to-outrun-piranhas",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/08/two-more-games-revealed-for-xbox-game-pass-in-september-2026",
     "https://www.polygon.com/diablo-4-nintendo-switch-2-release-date-rumor/",
     "https://www.ign.com/articles/all-upcoming-nintendo-switch-2-games",
-    "https://www.gematsu.com/2026/08/moonlighter-2-the-endless-vault-launches-september-2"
+    "https://www.gematsu.com/2026/08/moonlighter-2-the-endless-vault-launches-september-2",
+    "https://www.gematsu.com/2026/08/minecraft-for-switch-2-launches-october-27",
+    "https://gamerant.com/games-like-stardew-valley-horror-elderfield-release-date/",
+    "https://www.polygon.com/fortnite-chapter-7-season-4-override-announced-gaming-legends-leaks/",
+    "https://www.ign.com/articles/beaten-path-revealed-for-pc-and-consoles"
   ],
   "seen_titles": [
-    "slay the spire 2 fan drew badly every day until its release, now they've created an art book to celebrate",
-    "pokémon pokopia's first patch announced, tackles progress-halting bugs and makes progression a bit easier to figure out",
-    "two xbox game pass titles got new trailers at this week's 'future games show' event",
-    "wuthering waves version 3.2 update ‘resolution to illuminate the shadows’ launches march 19",
     "deep rock galactic: survivor is adding a bulldozing new class, while fellow spinoff rogue core gets an early access release date",
     "fortnite reveals crimson desert skin for the game",
     "dave the diver's jungle dlc release date confirmed for summer, so you'd better start learning how to outrun piranhas",
@@ -10001,13 +9997,13 @@
     "two more games revealed for xbox game pass in september 2026",
     "diablo 4 coming to switch 2 soon, new report says",
     "upcoming nintendo switch 2 games: release dates for 2026 and beyond",
-    "moonlighter 2: the endless vault launches september 2"
+    "moonlighter 2: the endless vault launches september 2",
+    "minecraft for switch 2 launches october 27",
+    "unique new lovecraftian stardew valley alternative releases on september 10",
+    "fortnite chapter 7 season 4 is titled override, epic games confirms",
+    "beaten path revealed for pc and consoles"
   ],
   "seen_story_keys": [
-    "acfde95292370c489ebd202d8237710ecb2dec3c",
-    "71179e8eb276cac3f5c327ccba57d0ba940eb182",
-    "92b04fe2dbcda1f47272915be43a616692322f0c",
-    "6ea00c5654bd80df8a8f45085372939a86aac2fb",
     "017c17ea54b6dd6ab614c115d2cdfe041afe7db0",
     "e9e8b0f30e209d9939d5683e91a39297f23146f9",
     "543c6170e63a16e4a18bcebdba7bd19d7f0fa17c",
@@ -15003,6 +14999,10 @@
     "a6c5f712f6fee63d2dac2388b64fee8b67a5ecb6",
     "c1958bdd2907a03620c4ac0746f2913deb6b2513",
     "88f47f557ea6668b43d36f8f1c7413d03be95ca9",
-    "6f2fbe96a10c45569fe126a87f1249111957b99f"
+    "6f2fbe96a10c45569fe126a87f1249111957b99f",
+    "2a669e582ffed438c75736a2ca13303a19a80555",
+    "dc7456fc74a58f479158eb5a16366fb566fe136b",
+    "5015e2d6429a0fcae018c64c467ed5aaf4896380",
+    "9724205ecad79116ca66ef826f056c1017266c88"
   ]
 }
