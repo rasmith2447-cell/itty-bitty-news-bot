@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295530/afterquest-announced",
-    "https://www.bluesnews.com/s/295522/morning-patches",
-    "https://www.bluesnews.com/s/295567/tropico-7-closed-beta-signups",
     "https://www.bluesnews.com/s/295564/defender-of-the-crown-the-legend-returns-announced",
     "https://www.bluesnews.com/s/295563/the-7th-guest-remake-announced",
     "https://www.bluesnews.com/s/295562/rhell-warped-worlds-troubled-times-released",
@@ -4999,12 +4996,12 @@
     "https://gamerant.com/gears-of-war-e-day-beta-release-date-pvp/",
     "https://www.nintendolife.com/news/2026/08/nintendo-identifies-xenoblade-chronicles-2-switch-2-edition-bugs-update-on-the-way",
     "https://www.gematsu.com/2026/08/bandai-namco-announces-tgs-2026-lineup",
-    "https://www.gamesindustry.biz/secret-mode-opens-new-sheffield-studio-to-support-internal-titles-starting-with-escape-the-backrooms-and-chained-together"
+    "https://www.gamesindustry.biz/secret-mode-opens-new-sheffield-studio-to-support-internal-titles-starting-with-escape-the-backrooms-and-chained-together",
+    "https://www.eurogamer.net/resident-evil-veronica-2-million-wishlists",
+    "https://www.gematsu.com/2026/08/arcade-archives-combat-school-launches-august-6",
+    "https://www.gamesindustry.biz/raptor-pr-launches-early-gaming-growth-platform-to-help-gaming-startups-navigate-b2b-communications"
   ],
   "seen_titles": [
-    "afterquest announced",
-    "morning patches",
-    "tropico 7 closed beta signups",
     "defender of the crown: the legend returns announced",
     "the 7th guest remake announced",
     "rhell: warped worlds & troubled times released",
@@ -10001,12 +9998,12 @@
     "gears of war: e-day open beta just got way more exciting",
     "nintendo identifies xenoblade chronicles 2 - switch 2 edition bugs, update on the way",
     "bandai namco announces tgs 2026 lineup",
-    "secret mode opens new sheffield studio to support internal titles, starting with escape the backrooms and chained together"
+    "secret mode opens new sheffield studio to support internal titles, starting with escape the backrooms and chained together",
+    "resident evil veronica remake already proving popular for capcom, as wishlists reach an impressive milestone",
+    "arcade archives combat school launches august 6",
+    "raptor pr launches early gaming growth platform to help gaming startups navigate b2b communications"
   ],
   "seen_story_keys": [
-    "d4fffea31c1b26627796bff5623874e623b309a0",
-    "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
-    "61d366cde0739f40418100d43166596903d1026e",
     "2c8686fcda2ec818adda1703b0e17e23a0612705",
     "466a6a1a76b615e5178c50d017be8c9ec4395bcb",
     "0f2ff74da39e9e1f91ea8ef1eb7b4c004cdf7e1b",
@@ -15003,6 +15000,9 @@
     "f08be0c23ac1404b37df2dac9ed8dcf5741c0ef7",
     "6cf56c3cab4cb110948110a1f3116ae68cdbd914",
     "d0786aa6588dd1502827dc110929d20108c201ac",
-    "a983a5482b3ada410cbed447ddd014a4280087c0"
+    "a983a5482b3ada410cbed447ddd014a4280087c0",
+    "129f75723f2820e0972d7a0643b38ef59ce3dfeb",
+    "ab462030eccf803ea3cd2eb6d0bbe418aa45fb71",
+    "0cdb6977233669da127d47143a9d9c76d7762d0b"
   ]
 }
