@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/nintendo-lawsuit-us-government-tariffs-update-paused-why/",
-    "https://www.pcgamer.com/games/notorious-uk-rights-group-launches-legal-action-against-valve-for-distributing-music-in-games-on-steam-without-a-license/",
-    "https://www.polygon.com/pokemon-tcg-mega-evolution-chaos-rising-mega-greninja-ex/",
-    "https://www.pushsquare.com/news/2026/03/as-psvr2-fades-into-obscurity-vr-specialist-reveals-its-first-ever-non-vr-ps5-title",
     "https://www.pushsquare.com/news/2026/03/silent-hill-slitterhead-creator-begins-work-on-another-original-game",
     "https://www.gamespot.com/articles/arc-raiders-now-has-fewer-ai-voices-as-dev-re-recorded-lines-amid-controversy/1100-6538780/?ftag=CAD-01-10abi2f",
     "https://www.bluesnews.com/s/295600/call-of-duty-black-ops-royale-launched",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/gta-6-extended-look-trailer-netflix-announcement",
     "https://www.pushsquare.com/news/2026/08/gta-6-ps5-gameplay-coming-this-month-heres-when-to-see-it-first-on-netflix",
     "https://www.pushsquare.com/news/2026/08/phantom-blade-zeros-state-of-play-seemingly-cancelled-as-dev-teases-its-own-ps5-gameplay-showing",
-    "https://www.rockpapershotgun.com/halo-studios-seemingly-cut-staff-after-halo-campaign-evolved-launch-including-a-6-year-veteran-producer"
+    "https://www.rockpapershotgun.com/halo-studios-seemingly-cut-staff-after-halo-campaign-evolved-launch-including-a-6-year-veteran-producer",
+    "https://www.eurogamer.net/baldurs-gate-3-third-anniversary-statistics",
+    "https://www.nintendolife.com/news/2026/08/out-now-obakeidoro-2-brings-spoopy-asymmetric-multiplayer-to-switch-1-and-2",
+    "https://gamerant.com/marvel-tokon-fighting-souls-launch-update-patch-notes/",
+    "https://www.pcgamer.com/games/grand-theft-auto/the-first-gta-6-gameplay-reveal-will-debut-on-netflix-later-this-month-as-the-streaming-service-tries-yet-again-to-get-a-piece-of-that-videogame-pie/"
   ],
   "seen_titles": [
-    "nintendo's lawsuit against the us government just hit a roadblock",
-    "notorious uk rights group launches legal action against valve for distributing music in games on steam without a license",
-    "pokémon tcg mega evolution chaos rising release date set",
-    "as psvr2 fades into obscurity, vr specialist reveals its first ever non-vr ps5 title",
     "silent hill, slitterhead creator begins work on another 'original' game",
     "arc raiders now has fewer ai voices, as dev re-recorded lines amid controversy",
     "call of duty: black ops royale launched",
@@ -10001,13 +9997,13 @@
     "we're getting an \"extended look\" at grand theft auto 6 on 27th august",
     "gta 6 ps5 gameplay coming this month, here's when to see it first on netflix",
     "phantom blade zero's state of play seemingly cancelled as dev teases its own ps5 gameplay showing",
-    "halo studios seemingly cut staff after halo: campaign evolved launch, including a 6-year veteran producer"
+    "halo studios seemingly cut staff after halo: campaign evolved launch, including a 6-year veteran producer",
+    "baldur's gate 3 third anniversary stats reveal most killed npcs, most used weapons, and dark urge players aren't the most murderous playing the game",
+    "out now: obakeidoro 2 brings spoopy asymmetric multiplayer to switch 1 & 2",
+    "marvel tokon: fighting souls day 1 update patch notes revealed",
+    "the first gta 6 gameplay reveal will debut on netflix later this month, as the streaming service tries yet again to get a piece of that videogame pie"
   ],
   "seen_story_keys": [
-    "1b233d62692e75d76a2a5f6b549eb23949af4766",
-    "b300e2d5f155450199c9c509c50d0c0a2743e690",
-    "31eb2b31da3937dbfca354fbce51d1466cb7f002",
-    "cca0628ab05f89604ef7203074210f7e775a8bad",
     "adc9bea97f8b64409d9fca77bcfbeec901b343b3",
     "29209d58cb3e2c32b4efa00235fd78d351c84097",
     "ef33788c1d26a6cc537d9f77c101182da19215bd",
@@ -15003,6 +14999,10 @@
     "613ff53d530cc077ef79238afe4ff03ba7263457",
     "5efcd0fee638e3699b51b50e2710c2efd622d650",
     "3ce2ad2c3385d7b34429ce39932201eb3a4cf8e8",
-    "c7f0d293ed698792d8c5c96f9e4d5e221485aab5"
+    "c7f0d293ed698792d8c5c96f9e4d5e221485aab5",
+    "9147a1ed940f1c6f36c2f95803936e5e3b54cf87",
+    "88ccc067f2a6db6d9f629c76b1f7e2b072802dbb",
+    "01b035f02bf9cbbb725096b682050969547c4f96",
+    "98ff8f02db3cb5e5865e55f20290b18df2caad39"
   ]
 }
