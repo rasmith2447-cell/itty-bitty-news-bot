@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/mewgenics-first-dlc-plans/",
-    "https://www.gematsu.com/2026/03/honkai-star-rail-version-4-1-update-unraveled-for-daybreak-launches-march-25",
     "https://www.gamespot.com/articles/genshin-impact-next-update-and-banners/1100-6538678/?ftag=CAD-01-10abi2f",
     "https://gamerant.com/pokemon-pokopia-future-updates-game-improvements/",
     "https://www.ign.com/articles/bethesda-boss-todd-howard-will-stay-the-course-on-starfield-says-veteran-composer-who-also-believes-people-were-just-not-ready-for-it-at-launch",
@@ -4999,11 +4997,11 @@
     "https://www.pcgamer.com/games/rpg/path-of-exile-devs-are-planning-an-extreme-shakeup-in-the-next-major-update-to-address-concerns-over-its-stale-endgame-and-lack-of-exciting-loot-drops/",
     "https://www.polygon.com/minecraft-nintendo-switch-2-release-date/",
     "https://www.gematsu.com/2026/08/console-archives-ufo-a-day-in-the-life-launches-august-6",
-    "https://gamerant.com/gta-6-delay-possible-2027/"
+    "https://gamerant.com/gta-6-delay-possible-2027/",
+    "https://www.nintendolife.com/news/2026/08/fire-emblem-fortunes-weave-is-getting-a-manga-series-heres-the-key-art",
+    "https://www.nintendolife.com/news/2026/08/nintendo-donating-50-million-yen-to-assist-kumamoto-earthquake-relief-efforts"
   ],
   "seen_titles": [
-    "mewgenics co-creator reveals new details about first dlc for the game",
-    "honkai: star rail version 4.1 update ‘unraveled for daybreak’ launches march 25",
     "genshin impact next update and banners - everything we know about version 6.4 and 6.5",
     "pokemon pokopia reveals plans for future updates and game improvements",
     "bethesda boss todd howard will 'stay the course on starfield,' says veteran composer, who also believes 'people were just not ready for it' at launch",
@@ -10001,11 +9999,11 @@
     "path of exile devs are planning 'an extreme shakeup' in the next major update to address concerns over its stale endgame and lack of exciting loot drops",
     "minecraft announced for switch 2 with enhanced graphics",
     "console archives ufo: a day in the life launches august 6",
-    "ex-rockstar dev says gta 6 could get delayed again"
+    "ex-rockstar dev says gta 6 could get delayed again",
+    "fire emblem: fortune's weave is getting a manga series, here's the key art",
+    "nintendo donating 50 million yen to assist kumamoto earthquake relief efforts"
   ],
   "seen_story_keys": [
-    "bca346ea498c1bb14a6bdaedddfce8181fc21cbc",
-    "d51c024fb5ac6b5c815124bb2ffb9ca28075f2a1",
     "d9760e3e71a2046a7c9d319e07cb97722b3a0ba0",
     "d60184f9d0c6a1f6c8e71bf1c6d547aa9f15e71f",
     "9a3e1f29def8225b6351ecaa66ba502df39c825c",
@@ -15003,6 +15001,8 @@
     "220a7445aa55dba848db3e2dd74efec32896ca8e",
     "eb1a1dad1e223b52a410cea64bd2767197199d6d",
     "fdb1e584418f7ab2390c3cff5d8ec56b329a2826",
-    "ff86deadb343baca8c0ecc166b7ced181f5e8409"
+    "ff86deadb343baca8c0ecc166b7ced181f5e8409",
+    "95435cf2d530676c5fce417af9817c12bd5f21a8",
+    "b250c15a22a4b1a11d8278d038f9efe3a44b231c"
   ]
 }
