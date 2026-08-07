@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/hardware/japanese-furniture-brand-reveals-the-electric-gaming-bed-2-the-forbidden-layout-built-for-the-supremely-decadent/",
-    "https://gamerant.com/new-xbox-game-pass-games-aphelion-release-date-april-2026/",
-    "https://www.polygon.com/x-men-97-new-comic-series-season-2-marvel/",
-    "https://gamerant.com/gta-6-news-updates-trailer-3-march-2026/",
     "https://gamerant.com/neopets-games-ps5/",
     "https://gamerant.com/honkai-star-rail-version-4-1-update-release-date-features/",
     "https://www.ign.com/articles/embark-ceo-says-some-arc-raiders-ai-voice-lines-were-re-recorded-by-humans-post-launch-there-is-a-quality-difference",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/08/moomintroll-winters-warmth-for-ps5-switch-2-launches-september-18",
     "https://www.pushsquare.com/news/2026/08/silent-hill-2-patch-finally-fixes-remake-on-ps5-pro-or-does-it",
     "https://www.eurogamer.net/guild-wars-3-more-playable-races-blog-post",
-    "https://www.gematsu.com/2026/08/toem-2-launches-september-29"
+    "https://www.gematsu.com/2026/08/toem-2-launches-september-29",
+    "https://www.pushsquare.com/news/2026/08/marvel-tokon-release-times-heres-when-you-can-start-playing-sonys-fighter-on-ps5-pc",
+    "https://www.gematsu.com/2026/08/turn-based-rpg-warrior-cats-clans-of-the-forest-announced-for-ps5-xbox-series-switch-2-switch-and-pc",
+    "https://www.purexbox.com/news/2026/08/new-gta-6-footage-to-be-revealed-in-special-extended-look-this-month",
+    "https://www.gematsu.com/2026/08/karous-the-blur-of-revenant-new-order-announced-for-ps5-ps4-switch-and-pc"
   ],
   "seen_titles": [
-    "japanese furniture brand reveals the electric gaming bed 2, the 'forbidden layout' built for the 'supremely decadent'",
-    "day one sci-fi adventure game is coming to xbox game pass april 28",
-    "x-men '97 season 2 release date just got a hint in new comics series",
-    "gta 6 fans think that a reveal is happening within the next few weeks",
     "it's 2026, yet a new neopets game is officially coming to the ps5",
     "honkai: star rail confirms version 4.1 release date and details",
     "embark ceo says 'some' arc raiders ai voice lines were re-recorded by humans post-launch: 'there is a quality difference'",
@@ -10001,13 +9997,13 @@
     "moomintroll: winter’s warmth for ps5, switch 2 launches september 18",
     "silent hill 2 patch finally fixes remake on ps5 pro - or does it?",
     "more playable species might be coming to guild wars 3 later down the line, according to latest developer blog post",
-    "toem 2 launches september 29"
+    "toem 2 launches september 29",
+    "marvel tokon release times: here's when you can start playing sony's fighter on ps5, pc",
+    "turn-based rpg warrior cats: clans of the forest announced for ps5, xbox series, switch 2, switch, and pc",
+    "new gta 6 footage to be revealed in special 'extended look' this month",
+    "karous: the blur of re:venant – new order announced for ps5, ps4, switch, and pc"
   ],
   "seen_story_keys": [
-    "21e4ecaf6e25ccac1ecd10de8288d1710259650d",
-    "279b903fd1bc1a0201d3d4fdc2ae96bda5db296f",
-    "7cb7725e5e95cf9787b9fa8af65417255051fffe",
-    "5ce2c349fe677a449084ac722b185bbbf06cd909",
     "c0eb4e98ff7da184fb407f14342c118a70274584",
     "10fe8e885129714bddd801af22557616e2ae1256",
     "622643945199fae82b971f83fcf26ca10e04386a",
@@ -15003,6 +14999,10 @@
     "1cbca21e1937d4f80cb03e2062c1a28fc8289d91",
     "846dc3351b0840292bdb1eb120a6254b0435f7c8",
     "6ab4798f51402631f7b4b99b0b7514b05dd13670",
-    "ff86d4e70d9974c2158e8e5ad17c6b6fa8ea68bd"
+    "ff86d4e70d9974c2158e8e5ad17c6b6fa8ea68bd",
+    "659f0b4c5f84a0fe4fc44bb9af496bd0b6fd95ab",
+    "155317d8e99d7f7afc658283a856fb4ac34693ae",
+    "751cb2ee41ad54c7f3d6d87c5b02a7be1b287c8f",
+    "d7bb052683b21c2d9b10ec318604463082a8fa7d"
   ]
 }
