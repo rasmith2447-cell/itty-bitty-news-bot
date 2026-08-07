@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/ffxiv-7-5-release-date-live-letter-beastmaster-dye-armoire-updates/",
-    "https://www.nintendolife.com/news/2026/03/it-probably-went-too-far-even-bananzas-creators-think-one-transformation-is-overpowered",
-    "https://www.bluesnews.com/s/295596/yerba-buena-in-may",
-    "https://www.bluesnews.com/s/295594/seed-announced",
     "https://gamerant.com/video-games-coming-soon-march-26/",
     "https://www.gamespot.com/articles/garrys-mod-creator-compares-overusing-ai-in-coding-to-watching-too-much-porn/1100-6538788/?ftag=CAD-01-10abi2f",
     "https://www.bluesnews.com/s/295592/herdles-announced",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/rust-august-force-wipe-update-shell/",
     "https://www.polygon.com/quake-dawn-of-the-machine-anniversary-update/",
     "https://www.purexbox.com/news/2026/08/surprise-quake-adds-free-new-episode-with-600g-xbox-achievements",
-    "https://www.ign.com/articles/hideki-kamiya-reveals-spider-man-2-scene-that-inspired-key-game-sequence-in-okami"
+    "https://www.ign.com/articles/hideki-kamiya-reveals-spider-man-2-scene-that-inspired-key-game-sequence-in-okami",
+    "https://www.gematsu.com/2026/08/dungeon-of-dragon-knight-remake-announced-for-ps5",
+    "https://www.gematsu.com/2026/08/caladrius-2-dark-element-announced-for-ps5-switch-and-pc",
+    "https://www.ign.com/articles/layoffs-hit-crossfire-developer-thats-no-moon",
+    "https://www.gematsu.com/2026/08/fading-echo-coming-to-switch-2"
   ],
   "seen_titles": [
-    "ffxiv 7.5 release date, reveals beastmaster job",
-    "\"it probably went too far\" - even bananza's creators think one transformation is overpowered",
-    "yerba buena in may",
-    "seed announced",
     "march 26 is a super busy day for video games",
     "garry's mod creator compares overusing ai in coding to watching too much porn",
     "herdles announced",
@@ -10001,13 +9997,13 @@
     "rust august force wipe brings new dlc and major update",
     "quake just got a major update 30 years post-launch, and you can play it right now",
     "surprise! quake adds free new episode with 600g xbox achievements",
-    "hideki kamiya reveals spider-man 2 scene that inspired key game sequence in okami"
+    "hideki kamiya reveals spider-man 2 scene that inspired key game sequence in okami",
+    "dungeon of dragon knight remake announced for ps5",
+    "caladrius 2/dark element announced for ps5, switch, and pc",
+    "layoffs hit staff at crossfire developer that’s no moon",
+    "fading echo coming to switch 2"
   ],
   "seen_story_keys": [
-    "21d47363d0c6053091b06972e7afd5d4f0cdaef2",
-    "5a5b9c4de2984a91bf4a8919371d90ddeedb4ff1",
-    "ddffbfbfd0ec83c905a5c57fc736c101306480e2",
-    "1afaa86be70d5213157e4124ca46461a2278ca93",
     "0d848d20cadd0ff2fdbcbdc655cb4177fd3bf122",
     "5ef3e57eba568cc3e5a3c745ac738dfe7ead370e",
     "d559f31bbb684ebfd4162a03f2f9e2643e9110e0",
@@ -15003,6 +14999,10 @@
     "536fb2fc2897680de97b59c63bc89ac3fd8ce422",
     "b8f9056ff99c0daa0e50b541ff7eee9c8cf3847d",
     "310a606154c04659f5fd346499d979a985acdb21",
-    "e29c078fb942cdfb20e7c03e7f461305067ead76"
+    "e29c078fb942cdfb20e7c03e7f461305067ead76",
+    "821d17b05f75fd58e1ed09051bb55b6e189d464e",
+    "9c46ae9206d174c5b982094f3d4c47c2d00f6dc1",
+    "2fe5f2adf189c1301d6d3ab173be1334d43251a3",
+    "127fbf6ddafa8f0ee7205fd986dd28436968017b"
   ]
 }
