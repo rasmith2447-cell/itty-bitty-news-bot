@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/video-games-coming-soon-march-26/",
-    "https://www.gamespot.com/articles/garrys-mod-creator-compares-overusing-ai-in-coding-to-watching-too-much-porn/1100-6538788/?ftag=CAD-01-10abi2f",
-    "https://www.bluesnews.com/s/295592/herdles-announced",
-    "https://www.bluesnews.com/s/295593/void-hunters-announced",
     "https://gamerant.com/wuthering-waves-version-3-2-update-release-date-march-2026/",
     "https://www.bluesnews.com/s/295589/release-dates-windows",
     "https://www.bluesnews.com/s/295584/morning-patches",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/08/dungeon-of-dragon-knight-remake-announced-for-ps5",
     "https://www.gematsu.com/2026/08/caladrius-2-dark-element-announced-for-ps5-switch-and-pc",
     "https://www.ign.com/articles/layoffs-hit-crossfire-developer-thats-no-moon",
-    "https://www.gematsu.com/2026/08/fading-echo-coming-to-switch-2"
+    "https://www.gematsu.com/2026/08/fading-echo-coming-to-switch-2",
+    "https://www.gematsu.com/2026/08/phantom-phantom-of-inferno-nitro-archive-launches-september-4",
+    "https://www.nintendolife.com/news/2026/08/octopath-traveler-dev-not-ready-to-announce-a-third-major-entry-yet-but-is-aware-of-high-expectations",
+    "https://www.polygon.com/legend-of-zelda-movie-ganondorf-casting-who-is-uli-latukefu/",
+    "https://www.polygon.com/new-ghost-recon-game-officially-announced/"
   ],
   "seen_titles": [
-    "march 26 is a super busy day for video games",
-    "garry's mod creator compares overusing ai in coding to watching too much porn",
-    "herdles announced",
-    "void hunters announced",
     "wuthering waves reveals what's coming in the big version 3.2 update later this month",
     "release dates/windows",
     "morning patches",
@@ -10001,13 +9997,13 @@
     "dungeon of dragon knight remake announced for ps5",
     "caladrius 2/dark element announced for ps5, switch, and pc",
     "layoffs hit staff at crossfire developer that’s no moon",
-    "fading echo coming to switch 2"
+    "fading echo coming to switch 2",
+    "phantom: phantom of inferno nitro archive launches september 4",
+    "octopath traveler dev not ready to announce a third major entry yet, but is aware of high expectations",
+    "legend of zelda movie reveals ganondorf in rare major update",
+    "ubisoft officially reveals new ghost recon game"
   ],
   "seen_story_keys": [
-    "0d848d20cadd0ff2fdbcbdc655cb4177fd3bf122",
-    "5ef3e57eba568cc3e5a3c745ac738dfe7ead370e",
-    "d559f31bbb684ebfd4162a03f2f9e2643e9110e0",
-    "2c2003d89d2238b9ae9d74c6e8134cbe97d26327",
     "8904a7b885762ff06eb6dfd94c71de5bd16df307",
     "588ee32a8ea5334c85aba483f853ab39d5d4766f",
     "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
@@ -15003,6 +14999,10 @@
     "821d17b05f75fd58e1ed09051bb55b6e189d464e",
     "9c46ae9206d174c5b982094f3d4c47c2d00f6dc1",
     "2fe5f2adf189c1301d6d3ab173be1334d43251a3",
-    "127fbf6ddafa8f0ee7205fd986dd28436968017b"
+    "127fbf6ddafa8f0ee7205fd986dd28436968017b",
+    "462d3702b02d69bd13d54a0deaf8501ac9382229",
+    "0ba0cf59b6bc26cfb33a21338f3a38414bd68ecd",
+    "84da54d6036ef0bdae7efcc6d703b4494b798027",
+    "da77a0f51c61480e5bec7a77f2d3516ab4641b0b"
   ]
 }
