@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/dispatch-game-no-silent-dialogue-options-why/",
-    "https://gamerant.com/steam-co-op-survival-games-like-valheim-red-dead-redemption-2-rdr/",
-    "https://gamerant.com/tomodachi-life-living-the-dream-esrb-rating/",
-    "https://gamerant.com/steam-malware-fbi-investigation/",
     "https://gamerant.com/zenless-zone-zero-version-2-7-update-patch/",
     "https://gamerant.com/ea-the-sims-town-stories-canceled-why/",
     "https://gamerant.com/pokemon-tcg-promos-perfect-order-gengar-luxray-aurorus/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/ps-plus-premium-games-onimusha-dawn-dreams-august-18-2026/",
     "https://www.eurogamer.net/take-two-strauss-zelnick-not-concerned-rockstar-union-busting-gta-6",
     "https://www.gematsu.com/2026/08/serious-sam-shatterverse-launches-august-31",
-    "https://www.polygon.com/overwatch-dmon-reveal-ability-kit-blizzard/"
+    "https://www.polygon.com/overwatch-dmon-reveal-ability-kit-blizzard/",
+    "https://www.pushsquare.com/news/2026/08/silent-hill-2-patch-broke-remake-on-ps5-pro-and-konami-is-investigating",
+    "https://www.purexbox.com/news/2026/08/a-year-later-grounded-2-is-preparing-for-a-major-week-across-multiple-platforms",
+    "https://www.pcgamer.com/hardware/launch-day-performance-issues-and-forced-logins-take-another-victim-marvel-tokon-fighting-souls-sees-mixed-steam-rating-especially-among-linux-users/",
+    "https://www.nintendolife.com/news/2026/08/game-freak-reveals-early-prototype-video-for-pokemon-pokopia"
   ],
   "seen_titles": [
-    "dispatch devs reveal why adhoc killed a longstanding telltale tradition",
-    "new open world co-op survival game on steam is rdr2 meets valheim",
-    "tomodachi life: living the dream gets an encouraging update",
-    "steam is being investigated by the fbi",
     "big zenless zone zero version 2.7 update coming on march 24",
     "the sims just canceled a new game, and i'm shocked but not surprised",
     "pokemon tcg reveals three exclusive promos for perfect order",
@@ -10001,13 +9997,13 @@
     "brand-new ps plus monthly game for august 18 revealed ahead of time",
     "take-two boss \"not in the least\" concerned bad press around rockstar's employment tribunal will affect gta 6 launch",
     "serious sam: shatterverse launches august 31",
-    "blizzard officially reveals overwatch's newest hero, d.mon, with first gameplay"
+    "blizzard officially reveals overwatch's newest hero, d.mon, with first gameplay",
+    "silent hill 2 patch broke remake on ps5 pro, and konami is investigating",
+    "a year later, grounded 2 is preparing for a major week across multiple platforms",
+    "launch day performance issues and forced logins take another victim: marvel tōkon: fighting souls sees mixed steam rating, especially among linux users",
+    "game freak reveals early prototype video for pokémon pokopia"
   ],
   "seen_story_keys": [
-    "ff8b2601c02e4e944e27dbd9c1b05711dfe35df6",
-    "41853491053d3706f80be1dbf9ed5464a1c08388",
-    "a5443b490f5f066e0c530f2fdb61cae981145761",
-    "15eddc91cdf0a85c2b191f8e57d15499ec3ff995",
     "2e5caca10650407a2877b0032ebf1ba1277e7004",
     "0ec8fe41bd62199463d3945ca8ec0cada8d5a8c9",
     "ea0d74d69ed6513cc2aa1e890d7b5a8f4bca1f4b",
@@ -15003,6 +14999,10 @@
     "3a79537166f284b95da533bc5b36f78b5924703f",
     "63872daed8a166a86a45ccba5b79dd73b1688e51",
     "c1a8768afb64018ee10ff88ed885cb5d90b165ce",
-    "7217183a2447160c6099f591b02b92a1bddff0cc"
+    "7217183a2447160c6099f591b02b92a1bddff0cc",
+    "6dadf26654c4d6bc9651880191400d64ecb2d9f9",
+    "dfb76cd26730d70b42eebc60091a43b33461c8a8",
+    "79d4a0acf1acd163d977f05e318e725af9071557",
+    "f6426987480768d10604a01e5a514c7451f57f5a"
   ]
 }
