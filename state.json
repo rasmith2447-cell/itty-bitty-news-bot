@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295646/sunday-patches",
-    "https://www.bluesnews.com/s/295638/sunday-safety-dance",
     "https://www.eurogamer.net/warner-bros-montreal-devs-report-layoffs",
     "https://www.pcgamer.com/games/action/the-remastered-collection-of-the-first-tomb-raider-games-just-got-a-controversial-patch-with-some-truly-terrible-looking-new-outfits-lara-deserves-better-than-this/",
     "https://www.pushsquare.com/news/2026/03/always-online-live-service-ps5-gacha-zenless-zone-zero-is-getting-a-physical-retail-release",
@@ -4999,11 +4997,11 @@
     "https://www.gematsu.com/2026/08/gothic-remake-updates-to-add-photo-mode-marvin-mode-alternative-progression-and-mod-kit-support",
     "https://www.gematsu.com/2026/08/way-of-the-hunter-2-launches-september-29",
     "https://www.pcgamer.com/games/puzzle/big-walk-patch-addresses-voice-volume-complaints-with-restraint-we-consider-it-an-important-part-of-the-games-design-that-you-can-only-hear-players-who-are-close-to-you/",
-    "https://gamerant.com/overwatch-dmon-abilities-kit-gameplay/"
+    "https://gamerant.com/overwatch-dmon-abilities-kit-gameplay/",
+    "https://www.pushsquare.com/news/2026/08/marvel-tokons-ps5-pc-release-celebrated-by-ps-studios-with-traditional-launch-day-artwork",
+    "https://www.pushsquare.com/news/2026/08/the-eternal-life-of-goldman-still-stuns-in-latest-trailer-but-wheres-the-release-date"
   ],
   "seen_titles": [
-    "sunday patches",
-    "sunday safety dance",
     "warner bros. montréal devs report layoffs",
     "the remastered collection of the first tomb raider games just got a controversial patch with some truly terrible-looking new outfits: 'lara deserves better than this'",
     "always online, live service ps5 gacha zenless zone zero is getting a physical retail release",
@@ -10001,11 +9999,11 @@
     "gothic remake updates to add photo mode, marvin mode, alternative progression, and mod kit support",
     "way of the hunter 2 launches september 29",
     "big walk patch addresses voice volume complaints with restraint: 'we consider it an important part of the game's design that you can only hear players who are close to you'",
-    "overwatch officially reveals d.mon's abilities"
+    "overwatch officially reveals d.mon's abilities",
+    "marvel tokon's ps5, pc release celebrated by ps studios with traditional launch day artwork",
+    "the eternal life of goldman still stuns in latest trailer, but where's the release date?"
   ],
   "seen_story_keys": [
-    "b4c2f4b691cf1b48bf7b88b4e01b85664f255494",
-    "7e090efd084ab400d384318e951b88036235ac6c",
     "c820a3713abeed586bcf5891eff10a96e84efae7",
     "294e17f5cfcb011b3208b3c53c075022f770c186",
     "c28982f352af37cc58f97a0075f8275f600e4d2e",
@@ -15003,6 +15001,8 @@
     "c6930359f6ad62c35978b063561c9c02cfde07ac",
     "afa754f10829a63d61a134daaca1fdbc19e06c6b",
     "df8f53c5db9d8568e56e0dff944c0c1818d42c89",
-    "3639b0bbaaaf04be49ec0139417acb8e264cec93"
+    "3639b0bbaaaf04be49ec0139417acb8e264cec93",
+    "486965f28d5ec8508d42a17230c3d20b718e22a2",
+    "baff47190491615642524ca8bb950b228482225d"
   ]
 }
