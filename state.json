@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/03/two-games-are-confirmed-for-xbox-game-pass-in-april-2026-so-far",
-    "https://gamerant.com/diablo-4-season-12-hotfix-patch-notes/",
-    "https://www.gematsu.com/2026/03/zenless-zone-zero-version-2-7-update-champions-never-fall-to-the-past-launches-march-24",
-    "https://www.purexbox.com/features/talking-point-xbox-game-pass-players-what-do-you-think-of-cyberpunk-2077",
     "https://gamerant.com/dispatch-game-no-silent-dialogue-options-why/",
     "https://gamerant.com/steam-co-op-survival-games-like-valheim-red-dead-redemption-2-rdr/",
     "https://gamerant.com/tomodachi-life-living-the-dream-esrb-rating/",
@@ -4999,13 +4995,13 @@
     "https://www.videogameschronicle.com/news/new-free-quake-campaign-from-machinegames-available-now-for-the-30th-anniversary/",
     "https://www.gematsu.com/2026/08/handygames-rebrands-to-thq-nordic-mobile",
     "https://www.nintendolife.com/news/2026/08/final-fantasy-xiv-online-updated-on-switch-2-here-are-the-full-patch-notes",
-    "https://www.polygon.com/world-of-warcraft-midnight-patch-12-1-world-boss-lairs/"
+    "https://www.polygon.com/world-of-warcraft-midnight-patch-12-1-world-boss-lairs/",
+    "https://gamerant.com/ps-plus-premium-games-onimusha-dawn-dreams-august-18-2026/",
+    "https://www.eurogamer.net/take-two-strauss-zelnick-not-concerned-rockstar-union-busting-gta-6",
+    "https://www.gematsu.com/2026/08/serious-sam-shatterverse-launches-august-31",
+    "https://www.polygon.com/overwatch-dmon-reveal-ability-kit-blizzard/"
   ],
   "seen_titles": [
-    "two games are confirmed for xbox game pass in april 2026 so far",
-    "diablo 4 reveals patch notes for first season 12 updates",
-    "zenless zone zero version 2.7 update ‘champions never fall to the past’ launches march 24",
-    "talking point: xbox game pass players, what do you think of cyberpunk 2077?",
     "dispatch devs reveal why adhoc killed a longstanding telltale tradition",
     "new open world co-op survival game on steam is rdr2 meets valheim",
     "tomodachi life: living the dream gets an encouraging update",
@@ -10001,13 +9997,13 @@
     "new free quake campaign from machinegames available now for the 30th anniversary",
     "handygames rebrands to thq nordic mobile",
     "final fantasy xiv online updated on switch 2, here are the full patch notes",
-    "world of warcraft: midnight's first huge patch makes world bosses hard again"
+    "world of warcraft: midnight's first huge patch makes world bosses hard again",
+    "brand-new ps plus monthly game for august 18 revealed ahead of time",
+    "take-two boss \"not in the least\" concerned bad press around rockstar's employment tribunal will affect gta 6 launch",
+    "serious sam: shatterverse launches august 31",
+    "blizzard officially reveals overwatch's newest hero, d.mon, with first gameplay"
   ],
   "seen_story_keys": [
-    "2c5063a4caab3aea06e26d4047d662c2ce4e4c33",
-    "1ab12c91ff30673b069648c616cc71210f592a2e",
-    "22f49e3970e0f924cf6b34ddb0d080710a21ef61",
-    "1f27ca041eb561e4cdaee1e09a1285e2e98651fa",
     "ff8b2601c02e4e944e27dbd9c1b05711dfe35df6",
     "41853491053d3706f80be1dbf9ed5464a1c08388",
     "a5443b490f5f066e0c530f2fdb61cae981145761",
@@ -15003,6 +14999,10 @@
     "73c2c9b486ba926dc79a33ec2790c454c19fd2b4",
     "eeef3af19fdc9511e09c245d747e021eab5deaac",
     "2a90d0d6ef692a4cfc405f2eb4d68ff86310f0fe",
-    "ab17970cf49fb4695f956a763901edd527ee90f3"
+    "ab17970cf49fb4695f956a763901edd527ee90f3",
+    "3a79537166f284b95da533bc5b36f78b5924703f",
+    "63872daed8a166a86a45ccba5b79dd73b1688e51",
+    "c1a8768afb64018ee10ff88ed885cb5d90b165ce",
+    "7217183a2447160c6099f591b02b92a1bddff0cc"
   ]
 }
