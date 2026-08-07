@@ -1,6 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/grand-theft-auto-6-gta-6-developers-avoiding-release-date/",
     "https://www.purexbox.com/news/2026/03/two-games-are-confirmed-for-xbox-game-pass-in-april-2026-so-far",
     "https://gamerant.com/diablo-4-season-12-hotfix-patch-notes/",
     "https://www.gematsu.com/2026/03/zenless-zone-zero-version-2-7-update-champions-never-fall-to-the-past-launches-march-24",
@@ -4999,10 +4998,10 @@
     "https://www.purexbox.com/news/2026/08/halo-1-co-creator-reveals-his-verdict-on-the-campaign-evolved-remake",
     "https://www.videogameschronicle.com/news/new-free-quake-campaign-from-machinegames-available-now-for-the-30th-anniversary/",
     "https://www.gematsu.com/2026/08/handygames-rebrands-to-thq-nordic-mobile",
-    "https://www.nintendolife.com/news/2026/08/final-fantasy-xiv-online-updated-on-switch-2-here-are-the-full-patch-notes"
+    "https://www.nintendolife.com/news/2026/08/final-fantasy-xiv-online-updated-on-switch-2-here-are-the-full-patch-notes",
+    "https://www.polygon.com/world-of-warcraft-midnight-patch-12-1-world-boss-lairs/"
   ],
   "seen_titles": [
-    "the gta 6 splash zone has already been identified by developers",
     "two games are confirmed for xbox game pass in april 2026 so far",
     "diablo 4 reveals patch notes for first season 12 updates",
     "zenless zone zero version 2.7 update ‘champions never fall to the past’ launches march 24",
@@ -10001,10 +10000,10 @@
     "halo 1 co-creator reveals his verdict on the campaign evolved remake",
     "new free quake campaign from machinegames available now for the 30th anniversary",
     "handygames rebrands to thq nordic mobile",
-    "final fantasy xiv online updated on switch 2, here are the full patch notes"
+    "final fantasy xiv online updated on switch 2, here are the full patch notes",
+    "world of warcraft: midnight's first huge patch makes world bosses hard again"
   ],
   "seen_story_keys": [
-    "6f0b2366be0597738912b84c8f0df68b77a1436e",
     "2c5063a4caab3aea06e26d4047d662c2ce4e4c33",
     "1ab12c91ff30673b069648c616cc71210f592a2e",
     "22f49e3970e0f924cf6b34ddb0d080710a21ef61",
@@ -15003,6 +15002,7 @@
     "4be70a8955c8641440d3fabf6038f5adda797833",
     "73c2c9b486ba926dc79a33ec2790c454c19fd2b4",
     "eeef3af19fdc9511e09c245d747e021eab5deaac",
-    "2a90d0d6ef692a4cfc405f2eb4d68ff86310f0fe"
+    "2a90d0d6ef692a4cfc405f2eb4d68ff86310f0fe",
+    "ab17970cf49fb4695f956a763901edd527ee90f3"
   ]
 }
