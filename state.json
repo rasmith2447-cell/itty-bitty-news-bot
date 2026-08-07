@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/nintendo-sue-us-government-why/",
-    "https://www.bluesnews.com/s/295617/release-dates-windows",
-    "https://www.bluesnews.com/s/295613/evening-patches",
-    "https://www.nintendolife.com/news/2026/03/tomodachi-life-living-the-dream-has-been-rated-heres-the-esrb-summary",
     "https://www.pushsquare.com/news/2026/03/ps5s-coolest-collection-of-controllers-and-console-covers-are-out-now",
     "https://www.nintendolife.com/news/2026/03/donkey-kong-bananza-producer-cant-discuss-dks-future-just-yet-but-is-relieved-after-fan-reception",
     "https://www.nintendolife.com/news/2026/03/nintendo-shows-off-icon-design-proposals-for-switch-2s-c-button",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/08/karous-the-blur-of-revenant-new-order-announced-for-ps5-ps4-switch-and-pc",
     "https://www.gematsu.com/2026/08/ex-sanguis-launches-in-early-access-on-september-10",
     "https://www.rockpapershotgun.com/the-makers-of-the-glorious-othercide-have-another-tactics-rpg-bloodbath-out-in-september-with-a-playtest-live-now",
-    "https://www.polygon.com/splatoon-raiders-august-update-patch-notes/"
+    "https://www.polygon.com/splatoon-raiders-august-update-patch-notes/",
+    "https://www.eurogamer.net/john-romero-doom-id-software-taiwanese-pirates",
+    "https://www.ign.com/articles/lego-harry-potter-celebrates-25-years-with-ministry-of-magic-set-and-the-first-ever-minifigure-of-a-specific-character",
+    "https://www.eurogamer.net/marvel-tokon-fighting-souls-pc-problems-stuttering-lag",
+    "https://www.ign.com/articles/rockstar-owner-take-two-confirms-gta-6-release-date-still-on-track-says-gta-6-an-extended-look-will-help-grow-consumers-passion-and-anticipation"
   ],
   "seen_titles": [
-    "nintendo is officially suing the united states government",
-    "release dates/windows",
-    "evening patches",
-    "tomodachi life: living the dream has been rated, here's the esrb summary",
     "ps5's coolest collection of controllers and console covers are out now",
     "donkey kong bananza producer can't discuss dk's future just yet, but is relieved after fan reception",
     "nintendo shows off icon design proposals for switch 2's 'c' button",
@@ -10001,13 +9997,13 @@
     "karous: the blur of re:venant – new order announced for ps5, ps4, switch, and pc",
     "ex sanguis launches in early access on september 10",
     "the makers of the glorious othercide have another tactics rpg bloodbath out in september, with a playtest live now",
-    "splatoon raiders' august update introduces the change most requested by players"
+    "splatoon raiders' august update introduces the change most requested by players",
+    "doom creator id software used taiwanese pirates to help distribute the game, john romero reveals",
+    "lego harry potter celebrates 25 years with ministry of magic set, and the first-ever minifigure of a specific character",
+    "marvel tokon: fighting souls suffers from widespread pc issues at launch",
+    "rockstar owner take-two confirms gta 6 release date still on track, says 'gta 6: an extended look' will help grow 'consumers' passion and anticipation'"
   ],
   "seen_story_keys": [
-    "8c9c694ad39dbe2206200ec33fda51f131db4b0b",
-    "588ee32a8ea5334c85aba483f853ab39d5d4766f",
-    "0c9a121cdc3a8f0602f802b215d9bd60f030aa34",
-    "5cc1493a648bda21cbf0c5255864f9c7cd3d819e",
     "b11c978525e005be9625e4d705c86c74006e839f",
     "e8ffa65a7cc8c4a54aa47a4fe718554ac1a7cdc0",
     "7e7287d53d370635a2830c421d5be6a4775c0d69",
@@ -15003,6 +14999,10 @@
     "d7bb052683b21c2d9b10ec318604463082a8fa7d",
     "7daeebeed81ddd7b11a2ec364ce42fee12e38f12",
     "93afab271a4919eac0a40af9119962960aade56b",
-    "f9e5a88139008b127550861921467a211b5c3a61"
+    "f9e5a88139008b127550861921467a211b5c3a61",
+    "c5628629b3db530b048a2fc71e43727837b3b663",
+    "b79cd8ee849dd2ddda47a1128970c84a63b3ba2f",
+    "fd9f311cf6a8dfc4dac975b6baf301401cd48b68",
+    "b291a82a68fa4b09c955c19f368c25bcfacc748a"
   ]
 }
