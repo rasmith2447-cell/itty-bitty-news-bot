@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/pokemon-tcg-promos-perfect-order-gengar-luxray-aurorus/",
-    "https://www.pushsquare.com/news/2026/03/starfields-ps5-release-seems-practically-inevitable-at-this-point",
-    "https://gamerant.com/call-of-duty-warzone-update-march-13-patch-notes/",
-    "https://www.pushsquare.com/news/2026/03/these-10-major-ps5-ps4-games-will-be-delisted-in-march-and-april",
     "https://www.bluesnews.com/s/295646/sunday-patches",
     "https://www.bluesnews.com/s/295638/sunday-safety-dance",
     "https://www.eurogamer.net/warner-bros-montreal-devs-report-layoffs",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/hardware/launch-day-performance-issues-and-forced-logins-take-another-victim-marvel-tokon-fighting-souls-sees-mixed-steam-rating-especially-among-linux-users/",
     "https://www.nintendolife.com/news/2026/08/game-freak-reveals-early-prototype-video-for-pokemon-pokopia",
     "https://www.pushsquare.com/news/2026/08/discs-dont-really-make-sense-gta-6-boss-says-sony-understands-that-as-it-kills-physical-games",
-    "https://www.videogameschronicle.com/news/discs-dont-really-make-sense-for-the-consumer-says-take-two-boss-on-gta-6s-digital-launch/"
+    "https://www.videogameschronicle.com/news/discs-dont-really-make-sense-for-the-consumer-says-take-two-boss-on-gta-6s-digital-launch/",
+    "https://www.gematsu.com/2026/08/gothic-remake-updates-to-add-photo-mode-marvin-mode-alternative-progression-and-mod-kit-support",
+    "https://www.gematsu.com/2026/08/way-of-the-hunter-2-launches-september-29",
+    "https://www.pcgamer.com/games/puzzle/big-walk-patch-addresses-voice-volume-complaints-with-restraint-we-consider-it-an-important-part-of-the-games-design-that-you-can-only-hear-players-who-are-close-to-you/",
+    "https://gamerant.com/overwatch-dmon-abilities-kit-gameplay/"
   ],
   "seen_titles": [
-    "pokemon tcg reveals three exclusive promos for perfect order",
-    "starfield's ps5 release seems practically inevitable at this point",
-    "call of duty: warzone reveals patch notes for new update",
-    "these 10 major ps5, ps4 games will be delisted in march and april",
     "sunday patches",
     "sunday safety dance",
     "warner bros. montréal devs report layoffs",
@@ -10001,13 +9997,13 @@
     "launch day performance issues and forced logins take another victim: marvel tōkon: fighting souls sees mixed steam rating, especially among linux users",
     "game freak reveals early prototype video for pokémon pokopia",
     "'discs don't really make sense': gta 6 boss says 'sony understands that' as it kills physical games",
-    "discs ‘don’t really make sense for the consumer’ says take-two boss on gta 6’s digital launch"
+    "discs ‘don’t really make sense for the consumer’ says take-two boss on gta 6’s digital launch",
+    "gothic remake updates to add photo mode, marvin mode, alternative progression, and mod kit support",
+    "way of the hunter 2 launches september 29",
+    "big walk patch addresses voice volume complaints with restraint: 'we consider it an important part of the game's design that you can only hear players who are close to you'",
+    "overwatch officially reveals d.mon's abilities"
   ],
   "seen_story_keys": [
-    "ea0d74d69ed6513cc2aa1e890d7b5a8f4bca1f4b",
-    "32477c36d0d8c8dd1547179db2809b8452dd87e9",
-    "548648155e49ea13addf160680d754bd08ff9e60",
-    "f5c31fda89c3c2ddc1bebcda35b96d3676173b14",
     "b4c2f4b691cf1b48bf7b88b4e01b85664f255494",
     "7e090efd084ab400d384318e951b88036235ac6c",
     "c820a3713abeed586bcf5891eff10a96e84efae7",
@@ -15003,6 +14999,10 @@
     "79d4a0acf1acd163d977f05e318e725af9071557",
     "f6426987480768d10604a01e5a514c7451f57f5a",
     "fb7f8e7374e1d3d9b54e6569f6a016e4d63c08c8",
-    "beba34bd98959971bfa8b5c45ef06c850ff8cab5"
+    "beba34bd98959971bfa8b5c45ef06c850ff8cab5",
+    "c6930359f6ad62c35978b063561c9c02cfde07ac",
+    "afa754f10829a63d61a134daaca1fdbc19e06c6b",
+    "df8f53c5db9d8568e56e0dff944c0c1818d42c89",
+    "3639b0bbaaaf04be49ec0139417acb8e264cec93"
   ]
 }
