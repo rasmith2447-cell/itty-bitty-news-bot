@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/wuthering-waves-version-3-2-update-release-date-march-2026/",
-    "https://www.bluesnews.com/s/295589/release-dates-windows",
-    "https://www.bluesnews.com/s/295584/morning-patches",
-    "https://www.ign.com/articles/euphoria-composer-labrinth-claims-hes-done-with-the-industry-and-the-show-ahead-of-season-3",
     "https://www.pcgamer.com/hardware/japanese-furniture-brand-reveals-the-electric-gaming-bed-2-the-forbidden-layout-built-for-the-supremely-decadent/",
     "https://gamerant.com/new-xbox-game-pass-games-aphelion-release-date-april-2026/",
     "https://www.polygon.com/x-men-97-new-comic-series-season-2-marvel/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/08/phantom-phantom-of-inferno-nitro-archive-launches-september-4",
     "https://www.nintendolife.com/news/2026/08/octopath-traveler-dev-not-ready-to-announce-a-third-major-entry-yet-but-is-aware-of-high-expectations",
     "https://www.polygon.com/legend-of-zelda-movie-ganondorf-casting-who-is-uli-latukefu/",
-    "https://www.polygon.com/new-ghost-recon-game-officially-announced/"
+    "https://www.polygon.com/new-ghost-recon-game-officially-announced/",
+    "https://www.gematsu.com/2026/08/moomintroll-winters-warmth-for-ps5-switch-2-launches-september-18",
+    "https://www.pushsquare.com/news/2026/08/silent-hill-2-patch-finally-fixes-remake-on-ps5-pro-or-does-it",
+    "https://www.eurogamer.net/guild-wars-3-more-playable-races-blog-post",
+    "https://www.gematsu.com/2026/08/toem-2-launches-september-29"
   ],
   "seen_titles": [
-    "wuthering waves reveals what's coming in the big version 3.2 update later this month",
-    "release dates/windows",
-    "morning patches",
-    "euphoria composer labrinth claims he's 'done' with the industry and the show ahead of season 3",
     "japanese furniture brand reveals the electric gaming bed 2, the 'forbidden layout' built for the 'supremely decadent'",
     "day one sci-fi adventure game is coming to xbox game pass april 28",
     "x-men '97 season 2 release date just got a hint in new comics series",
@@ -10001,13 +9997,13 @@
     "phantom: phantom of inferno nitro archive launches september 4",
     "octopath traveler dev not ready to announce a third major entry yet, but is aware of high expectations",
     "legend of zelda movie reveals ganondorf in rare major update",
-    "ubisoft officially reveals new ghost recon game"
+    "ubisoft officially reveals new ghost recon game",
+    "moomintroll: winter’s warmth for ps5, switch 2 launches september 18",
+    "silent hill 2 patch finally fixes remake on ps5 pro - or does it?",
+    "more playable species might be coming to guild wars 3 later down the line, according to latest developer blog post",
+    "toem 2 launches september 29"
   ],
   "seen_story_keys": [
-    "8904a7b885762ff06eb6dfd94c71de5bd16df307",
-    "588ee32a8ea5334c85aba483f853ab39d5d4766f",
-    "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
-    "a2b995808c9b9fb5ef7af2b3528ab42865248621",
     "21e4ecaf6e25ccac1ecd10de8288d1710259650d",
     "279b903fd1bc1a0201d3d4fdc2ae96bda5db296f",
     "7cb7725e5e95cf9787b9fa8af65417255051fffe",
@@ -15003,6 +14999,10 @@
     "462d3702b02d69bd13d54a0deaf8501ac9382229",
     "0ba0cf59b6bc26cfb33a21338f3a38414bd68ecd",
     "84da54d6036ef0bdae7efcc6d703b4494b798027",
-    "da77a0f51c61480e5bec7a77f2d3516ab4641b0b"
+    "da77a0f51c61480e5bec7a77f2d3516ab4641b0b",
+    "1cbca21e1937d4f80cb03e2062c1a28fc8289d91",
+    "846dc3351b0840292bdb1eb120a6254b0435f7c8",
+    "6ab4798f51402631f7b4b99b0b7514b05dd13670",
+    "ff86d4e70d9974c2158e8e5ad17c6b6fa8ea68bd"
   ]
 }
