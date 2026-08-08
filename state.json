@@ -1,6 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/beloved-psvr2-rhythm-game-synth-riders-adds-key-features-with-free-update",
     "https://www.gematsu.com/2026/03/futuristic-parallel-universe-mmorpg-prism-2033-announced-for-pc-ios-and-android",
     "https://www.gematsu.com/2026/03/fate-extra-record-delayed-to-unannounced-date-publisher-changed",
     "https://www.eurogamer.net/marathon-update-cryo-archives-added-locked",
@@ -4999,10 +4998,10 @@
     "https://gamerant.com/demon-slayer-hashira-ancestor/",
     "https://www.nintendolife.com/news/2026/08/final-fantasy-vii-revelation-new-look-announced-for-opening-night-live",
     "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-8th-august",
-    "https://www.eurogamer.net/demons-souls-cut-first-person-mode"
+    "https://www.eurogamer.net/demons-souls-cut-first-person-mode",
+    "https://www.eurogamer.net/silent-hill-2-remake-performance-mode-bugs"
   ],
   "seen_titles": [
-    "beloved psvr2 rhythm game synth riders adds key features with free update",
     "‘futuristic parallel-universe mmorpg’ prism 2033 announced for pc, ios, and android",
     "fate/extra record delayed to unannounced date, publisher changed",
     "marathon's latest update adds a locked-off fourth map, indicating the extraction shooter's hardest challenge will soon be revealed",
@@ -10001,10 +10000,10 @@
     "demon slayer unveils a legendary hashira ancestor",
     "final fantasy vii revelation \"new look\" announced for opening night live",
     "talking point: what are you playing this weekend? (8th august)",
-    "newly discovered demon's souls prototype footage reveals a scrapped first-person mode"
+    "newly discovered demon's souls prototype footage reveals a scrapped first-person mode",
+    "konami investigating silent hill 2 performance mode issues after latest ps5 patch"
   ],
   "seen_story_keys": [
-    "edc7dfb0141445c5f66d81a874aee53be976f2e9",
     "054591f06a78c2678f61c1eaf23f90ec586bdd81",
     "419d625f8fe612ff3f71efd2b1d150464327f9cc",
     "e88f6153982bf6a3a9a286a887f6ec5de2c83df4",
@@ -15003,6 +15002,7 @@
     "c6965cb2e3009f60f179b20fb90a69d2861d3dfa",
     "8a5c5bca733a583bf9aa396b4cc0822ae4c38222",
     "30acbd938d4d3e0a4ef46a58e13fa1223ec2b650",
-    "7b89eaa076668f9bc2e2338fe53cce7ffc0ae867"
+    "7b89eaa076668f9bc2e2338fe53cce7ffc0ae867",
+    "9ff6699dbe82fddea31a76267ae2d4f30c835b36"
   ]
 }
