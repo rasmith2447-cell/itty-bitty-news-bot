@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/marathon-update-cryo-archives-added-locked",
-    "https://www.eurogamer.net/atlus-raising-employee-salaries-and-reducing-overtime-hours-april-2026",
     "https://www.ign.com/articles/this-is-free-and-i-still-dont-want-it-tomb-raider-remastered-i-iii-fans-slam-outfits-provided-in-free-update",
     "https://www.purexbox.com/news/2026/03/cyberpunk-2077-dev-has-no-plans-for-more-dlc-following-xbox-game-pass-launch",
     "https://www.nintendolife.com/news/2026/03/uniqlos-new-pokemon-range-launches-this-month",
@@ -4999,11 +4997,11 @@
     "https://www.eurogamer.net/demons-souls-cut-first-person-mode",
     "https://www.eurogamer.net/silent-hill-2-remake-performance-mode-bugs",
     "https://www.gematsu.com/2026/08/neverness-to-everness-version-1-3-update-rising-from-the-moonlight-fog-launches-august-19",
-    "https://gamerant.com/gta-6-extended-look-netflix-take-two-why/"
+    "https://gamerant.com/gta-6-extended-look-netflix-take-two-why/",
+    "https://www.nintendolife.com/features/talking-point-which-developer-is-working-on-the-zelda-ocarina-of-time-remake",
+    "https://www.pushsquare.com/features/video-2027-is-already-a-stacked-year-for-ps5"
   ],
   "seen_titles": [
-    "marathon's latest update adds a locked-off fourth map, indicating the extraction shooter's hardest challenge will soon be revealed",
-    "in an industry beset by layoffs and crunch, japanese publisher atlus is raising salaries and working to reduce fixed overtime",
     "'this is free and i still don't want it': tomb raider remastered i-iii fans slam outfits provided in free update",
     "cyberpunk 2077 dev has 'no plans' for more dlc following xbox game pass launch",
     "uniqlo's new pokémon range launches this month",
@@ -10001,11 +9999,11 @@
     "newly discovered demon's souls prototype footage reveals a scrapped first-person mode",
     "konami investigating silent hill 2 performance mode issues after latest ps5 patch",
     "neverness to everness version 1.3 update ‘rising from the moonlight fog’ launches august 19",
-    "take-two reveals why gta 6 extended look is on netflix"
+    "take-two reveals why gta 6 extended look is on netflix",
+    "talking point: which developer is working on the zelda: ocarina of time remake?",
+    "video: 2027 is already a stacked year for ps5"
   ],
   "seen_story_keys": [
-    "e88f6153982bf6a3a9a286a887f6ec5de2c83df4",
-    "1f2a9f38dbec7fa91179ace0baa3d8d4a6373c4e",
     "bae256d8dd61c74ff82bbf1e9e60bf0a9e8a309a",
     "2ce2004035dd4b94cacc9003ccef196d4bf0d283",
     "8b24b08be5faad495f6ae083a87801838a571132",
@@ -15003,6 +15001,8 @@
     "7b89eaa076668f9bc2e2338fe53cce7ffc0ae867",
     "9ff6699dbe82fddea31a76267ae2d4f30c835b36",
     "4ef19e79709645cdfb463cc5b42c47546ed40023",
-    "75b7c5762cbbdce0a8359416f0cf11bed48c3703"
+    "75b7c5762cbbdce0a8359416f0cf11bed48c3703",
+    "977cab9c0415c1a524897809797f01d80001f201",
+    "affdea9364c8b3fd7ffa425c04391b0a9814e047"
   ]
 }
