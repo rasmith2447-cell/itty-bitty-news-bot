@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/pow-lego-batmans-release-date-brought-forward-a-full-week-on-ps5",
-    "https://www.gamesindustry.biz/google-play-launches-buy-once-play-anywhere-on-select-paid-games",
-    "https://gamerant.com/niantic-pokemon-go-bot-data/",
-    "https://gamerant.com/final-fantasy-14-hatching-tide-2026-easter-event-rewards/",
     "https://www.pushsquare.com/news/2026/03/fear-not-collectors-ps5s-star-wars-galactic-racer-is-getting-a-physical-release",
     "https://www.pushsquare.com/news/2026/03/sonic-racing-crossworlds-character-roster-getting-even-crazier-with-more-free-ps5-ps4-updates",
     "https://www.purexbox.com/news/2026/03/lego-batman-switches-release-date-will-now-launch-next-to-xboxs-forza-horizon-6",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/the-division-resurgence-steam-release-user-reviews",
     "https://www.gematsu.com/2026/08/crowns-and-pawns-amber-road-announced-for-pc",
     "https://www.gamesindustry.biz/former-ubisoft-barcelona-workers-launch-dark-ritual-studios-an-indie-developer-focused-on-craftsmanship-over-scale",
-    "https://www.gematsu.com/2026/08/patlabor-the-case-files-launches-september-17"
+    "https://www.gematsu.com/2026/08/patlabor-the-case-files-launches-september-17",
+    "https://www.pushsquare.com/news/2026/08/the-next-black-myth-game-wont-use-ai-to-speed-up-development",
+    "https://gamerant.com/beast-of-reincarnation-august-9-update-patch-notes/",
+    "https://www.videogameschronicle.com/news/classic-indie-game-knytt-has-received-a-20th-anniversary-update-for-modern-pcs-and-its-entirely-free/",
+    "https://www.ign.com/articles/bethesda-veteran-reveals-how-he-would-have-designed-starfield-differently"
   ],
   "seen_titles": [
-    "pow! lego batman's release date brought forward a full week on ps5",
-    "google play launches \"buy once, play anywhere\" on select paid games",
-    "pokemon go studio niantic using data to train delivery bots",
-    "final fantasy 14 reveals hatching-tide easter event for 2026",
     "fear not, collectors, ps5's star wars: galactic racer is getting a physical release",
     "sonic racing: crossworlds' character roster getting even crazier with more ﻿free ps5, ps4 updates",
     "lego batman switches release date, will now launch next to xbox's forza horizon 6",
@@ -10001,13 +9997,13 @@
     "the division resurgence, the free-to-play mobile off-shoot, is now on steam and players are confused and a little miffed",
     "crowns and pawns: amber road announced for pc",
     "former ubisoft barcelona workers launch dark ritual studios, an indie developer focused on \"craftsmanship over scale\"",
-    "patlabor the case files launches september 17"
+    "patlabor the case files launches september 17",
+    "the next black myth game won't use ai to speed up development",
+    "beast of reincarnation releases major update for august 2026",
+    "classic indie game knytt has received a 20th anniversary version for modern pcs, and it’s entirely free",
+    "bethesda veteran reveals how he would have designed starfield differently"
   ],
   "seen_story_keys": [
-    "56c68e029270c653c0230c3712f53d2129f538d5",
-    "74f16788f11e349046de136f84105785abab9da9",
-    "d4537d184c5181a8b5d2c22f63a796f5bdb8dd3e",
-    "241f373b071dcece177b1e737387e5a8d51835b2",
     "60cf6dcfba4f573f4bc50e6118d26ad7c25287cd",
     "eb10eb44558bb3b0456baee8ae78a3dc04e12de2",
     "921db0f05ef6ce3723c93741c44bf5b58a282f8a",
@@ -15003,6 +14999,10 @@
     "19515ddac8a25ef99537775cf65b9af812836545",
     "61a8958c6458aa6c11a124ab6f131ab4027413fb",
     "c07e2da7d4e5725db095b4d75ef67767b7b8049b",
-    "9b20460fb3ed12c8346687f7f96a0fb1bda56ba6"
+    "9b20460fb3ed12c8346687f7f96a0fb1bda56ba6",
+    "33d3e9f2934e1ca735c3bc00fd53d2dd5d134b89",
+    "0e9037b07556f717a8b30f6f153068dcf7c4bec1",
+    "90fbd8386e8a9a4e3fd9398f005a72d6ff5b67fe",
+    "c9674b45ea3598d2f41527148fde9d16bf942ac1"
   ]
 }
