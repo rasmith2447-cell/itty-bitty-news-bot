@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/mckenna-grace-may-have-been-first-pokemon-player-to-sneak-cards-into-the-oscars/1100-6538812/?ftag=CAD-01-10abi2f",
-    "https://www.pcgamer.com/software/ai/a-retired-microsoft-engineer-is-training-an-ai-to-master-robotron-2084-an-incredibly-difficult-arcade-game-about-a-robot-uprising/",
-    "https://www.gamespot.com/articles/ps5-pros-upgraded-pssr-is-rolling-out-today-here-are-the-first-games-getting-it/1100-6538811/?ftag=CAD-01-10abi2f",
-    "https://www.eurogamer.net/crimson-desert-adds-denuvo-drm-to-steam-release",
     "https://www.gematsu.com/2026/03/sonic-racing-crossworlds-free-character-updates-red-goro-majima-and-arle-announced",
     "https://www.pushsquare.com/news/2026/03/a-transformed-game-silent-hill-f-the-highlight-of-ps5-pros-upgrade",
     "https://www.gamespot.com/articles/marathon-begins-a-duos-mode-experiment-this-week/1100-6538820/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/08/halos-big-budget-ps5-remake-battered-by-basic-black-ops-ports-in-official-ps-store-charts",
     "https://gamerant.com/id-software-doom-xbox-layoffs-chris-hays-low-morale/",
     "https://www.pcgamer.com/games/survival-crafting/light-no-fire-will-absolutely-be-like-no-mans-sky-with-new-features-coming-post-release-sean-murray-says-hed-like-to-still-be-working-on-it-10-years-after-launch/",
-    "https://www.videogameschronicle.com/news/aliens-fireteam-elites-cloud-version-on-switch-has-been-shut-down-making-it-unplayable-for-those-who-bought-it/"
+    "https://www.videogameschronicle.com/news/aliens-fireteam-elites-cloud-version-on-switch-has-been-shut-down-making-it-unplayable-for-those-who-bought-it/",
+    "https://www.pushsquare.com/news/2026/08/hot-wheels-infinite-rushs-ps5-trophy-list-appears-online-i-hope-you-like-drifting",
+    "https://www.gematsu.com/2026/08/1666-amsterdam-launches-in-early-access-on-august-25",
+    "https://www.gematsu.com/2026/08/village-in-the-shade-launches-october-27-in-the-west",
+    "https://www.eurogamer.net/amsterdam-1666-early-access-release-date"
   ],
   "seen_titles": [
-    "mckenna grace may have been first pokemon player to sneak cards into the oscars",
-    "a retired microsoft engineer is training an ai to master robotron: 2084, an incredibly difficult arcade game about a robot uprising",
-    "ps5 pro's upgraded pssr is rolling out today--here are the first games getting it",
-    "crimson desert makes last-minute change to steam release with the addition of infamous denuvo drm",
     "sonic racing: crossworlds free character updates red, goro majima, and arle announced",
     "'a transformed game': silent hill f the highlight of ps5 pro's upgrade",
     "marathon begins a duos-mode experiment this week?",
@@ -10001,13 +9997,13 @@
     "halo's big budget ps5 remake battered by basic black ops ports in official ps store charts",
     "doom developer calls xbox layoffs 'inhumane' as morale has never been lower",
     "light no fire will 'absolutely' be like no man's sky, with new features coming post-release: sean murray says he'd like to still be working on it '10 years after launch'",
-    "aliens: fireteam elite’s cloud version on switch has been shut down, making it unplayable for those who bought it"
+    "aliens: fireteam elite’s cloud version on switch has been shut down, making it unplayable for those who bought it",
+    "hot wheels: infinite rush's ps5 trophy list appears online, i hope you like drifting",
+    "1666: amsterdam launches in early access on august 25",
+    "village in the shade launches october 27 in the west",
+    "assassin's creed creator's dark and witchy action game 1666: amsterdam is out in early access sooner than we expected"
   ],
   "seen_story_keys": [
-    "f7404ef42f266789a828caa7471e25589ee88f1a",
-    "fab0f872ca7be06eafbf1140d271a97a2930cec3",
-    "dba705c1f36921d2ca5b7f4b6c4f383d569ee978",
-    "19dddb23ab32ecce04f7f60c81dbc79746ff949a",
     "d036d753f76202c650784ebea4f027f6b0c54f09",
     "1e216a6fe1adc9df3b773394f39572d9b2a7caa9",
     "7a453ef10d6fc7ed22c9f8472d0e9ee0b0a2d307",
@@ -15003,6 +14999,10 @@
     "cb4d0bd272159cdf8a1991556b6b550721077336",
     "4d1d1bc30fd2b951c3cff1a3f0ee7a62e1a9bfac",
     "6a58bb71f2d543d7a4d50e1a58904724c070a6a8",
-    "f0484449f1bbe229f5b302a245073dd4dad57e57"
+    "f0484449f1bbe229f5b302a245073dd4dad57e57",
+    "c61317a073e1896b605c9352aa019173d48663d7",
+    "d27f3549c68051a13c0b467e5bd2ab123736448f",
+    "1315da09b9320147517cd2bfeefc16ed5b4d5d2d",
+    "e40a270fdf91b22efe142b7e2a71ee624355731d"
   ]
 }
