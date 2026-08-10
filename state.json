@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295662/morning-patches",
-    "https://www.bluesnews.com/s/295660/morning-multiplex",
     "https://www.gematsu.com/2026/03/upgraded-pssr-for-ps5-pro-launches-march-17-across-several-third-party-games",
     "https://www.gematsu.com/2026/03/goonect2-announced-for-switch",
     "https://www.eurogamer.net/jeff-kaplan-warned-blizzard-titan-mmo",
@@ -4999,11 +4997,11 @@
     "https://www.gematsu.com/2026/08/lost-found-adds-console-versions",
     "https://www.rockpapershotgun.com/someones-head-is-killing-me-in-memoirium-a-psx-styled-soulslike-about-battling-through-bizarre-dreamscapes-and-decorating-your-bedroom",
     "https://www.ign.com/articles/arc-system-launches-marvel-tokon-pc-update-and-some-players-are-saying-its-fixing-most-of-their-issues",
-    "https://www.rockpapershotgun.com/over-the-hill-snowrunners-hippie-off-roading-cousin-from-the-art-of-rally-devs-gets-an-october-release-date"
+    "https://www.rockpapershotgun.com/over-the-hill-snowrunners-hippie-off-roading-cousin-from-the-art-of-rally-devs-gets-an-october-release-date",
+    "https://www.pcgamer.com/gaming-industry/id-software-dev-says-mass-layoffs-like-microsofts-are-weakening-the-games-industry-because-developers-dont-have-the-incentive-to-care-anymore/",
+    "https://www.gematsu.com/2026/08/over-the-hill-launches-october-14-for-pc-in-2027-for-ps5-xbox-series-and-switch-2"
   ],
   "seen_titles": [
-    "morning patches",
-    "morning multiplex",
     "upgraded pssr for ps5 pro launches march 17 across several third-party games",
     "goonect√2 announced for switch",
     "\"you've got to shut this down\" - jeff kaplan recalls the \"disaster\" of blizzard mmo titan's development",
@@ -10001,11 +9999,11 @@
     "lost & found adds console versions",
     "someone's head is killing me in memoirium, a psx-styled soulslike about battling through bizarre dreamscapes and decorating your bedroom",
     "arc system launches marvel tokon pc update, and some players are saying it's fixing most of their issues",
-    "over the hill, snowrunner's hippie off-roading cousin from the art of rally devs, gets an october release date"
+    "over the hill, snowrunner's hippie off-roading cousin from the art of rally devs, gets an october release date",
+    "id software dev says mass layoffs like microsoft's are weakening the games industry, because developers 'don't have the incentive to care anymore'",
+    "over the hill launches october 14 for pc, in 2027 for ps5, xbox series, and switch 2"
   ],
   "seen_story_keys": [
-    "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
-    "f312439acefc98d8e54c522c8dce6b874610c1ae",
     "1b636c7d571b8063b57a2150ef8ca92148ab0eb6",
     "585a37c711b729c627bf00763825afa489cc5c97",
     "2639c7dffcad45c93081db838bee0791cf2a7e74",
@@ -15003,6 +15001,8 @@
     "c652ac197d711683c1eba70a24195a2bdf42bd40",
     "38a13d54ed74041265d5156a5eeb7f9b4e888c02",
     "7e8894ad60cb816adffaca3792f9dd26a7767f41",
-    "bf73dc53453057dd7354b3ede3e31585d6ae0d73"
+    "bf73dc53453057dd7354b3ede3e31585d6ae0d73",
+    "0b026dcb8299774b40e6c59bf58eda85dd45b397",
+    "43b2540cf3fd6303f036dacfd7bc4764bdf9a648"
   ]
 }
