@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/fear-not-collectors-ps5s-star-wars-galactic-racer-is-getting-a-physical-release",
-    "https://www.pushsquare.com/news/2026/03/sonic-racing-crossworlds-character-roster-getting-even-crazier-with-more-free-ps5-ps4-updates",
-    "https://www.purexbox.com/news/2026/03/lego-batman-switches-release-date-will-now-launch-next-to-xboxs-forza-horizon-6",
-    "https://www.ign.com/articles/assassins-creed-netflix-series-announces-more-cast-members-including-prometheus-star-noomi-rapace",
     "https://www.gamespot.com/articles/mckenna-grace-may-have-been-first-pokemon-player-to-sneak-cards-into-the-oscars/1100-6538812/?ftag=CAD-01-10abi2f",
     "https://www.pcgamer.com/software/ai/a-retired-microsoft-engineer-is-training-an-ai-to-master-robotron-2084-an-incredibly-difficult-arcade-game-about-a-robot-uprising/",
     "https://www.gamespot.com/articles/ps5-pros-upgraded-pssr-is-rolling-out-today-here-are-the-first-games-getting-it/1100-6538811/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/08/the-next-black-myth-game-wont-use-ai-to-speed-up-development",
     "https://gamerant.com/beast-of-reincarnation-august-9-update-patch-notes/",
     "https://www.videogameschronicle.com/news/classic-indie-game-knytt-has-received-a-20th-anniversary-update-for-modern-pcs-and-its-entirely-free/",
-    "https://www.ign.com/articles/bethesda-veteran-reveals-how-he-would-have-designed-starfield-differently"
+    "https://www.ign.com/articles/bethesda-veteran-reveals-how-he-would-have-designed-starfield-differently",
+    "https://www.pushsquare.com/news/2026/08/halos-big-budget-ps5-remake-battered-by-basic-black-ops-ports-in-official-ps-store-charts",
+    "https://gamerant.com/id-software-doom-xbox-layoffs-chris-hays-low-morale/",
+    "https://www.pcgamer.com/games/survival-crafting/light-no-fire-will-absolutely-be-like-no-mans-sky-with-new-features-coming-post-release-sean-murray-says-hed-like-to-still-be-working-on-it-10-years-after-launch/",
+    "https://www.videogameschronicle.com/news/aliens-fireteam-elites-cloud-version-on-switch-has-been-shut-down-making-it-unplayable-for-those-who-bought-it/"
   ],
   "seen_titles": [
-    "fear not, collectors, ps5's star wars: galactic racer is getting a physical release",
-    "sonic racing: crossworlds' character roster getting even crazier with more ﻿free ps5, ps4 updates",
-    "lego batman switches release date, will now launch next to xbox's forza horizon 6",
-    "assassin's creed netflix series announces more cast members, including prometheus star noomi rapace",
     "mckenna grace may have been first pokemon player to sneak cards into the oscars",
     "a retired microsoft engineer is training an ai to master robotron: 2084, an incredibly difficult arcade game about a robot uprising",
     "ps5 pro's upgraded pssr is rolling out today--here are the first games getting it",
@@ -10001,13 +9997,13 @@
     "the next black myth game won't use ai to speed up development",
     "beast of reincarnation releases major update for august 2026",
     "classic indie game knytt has received a 20th anniversary version for modern pcs, and it’s entirely free",
-    "bethesda veteran reveals how he would have designed starfield differently"
+    "bethesda veteran reveals how he would have designed starfield differently",
+    "halo's big budget ps5 remake battered by basic black ops ports in official ps store charts",
+    "doom developer calls xbox layoffs 'inhumane' as morale has never been lower",
+    "light no fire will 'absolutely' be like no man's sky, with new features coming post-release: sean murray says he'd like to still be working on it '10 years after launch'",
+    "aliens: fireteam elite’s cloud version on switch has been shut down, making it unplayable for those who bought it"
   ],
   "seen_story_keys": [
-    "60cf6dcfba4f573f4bc50e6118d26ad7c25287cd",
-    "eb10eb44558bb3b0456baee8ae78a3dc04e12de2",
-    "921db0f05ef6ce3723c93741c44bf5b58a282f8a",
-    "43de5299f7e8bcb3b3144ee07c7b3a43544ecc50",
     "f7404ef42f266789a828caa7471e25589ee88f1a",
     "fab0f872ca7be06eafbf1140d271a97a2930cec3",
     "dba705c1f36921d2ca5b7f4b6c4f383d569ee978",
@@ -15003,6 +14999,10 @@
     "33d3e9f2934e1ca735c3bc00fd53d2dd5d134b89",
     "0e9037b07556f717a8b30f6f153068dcf7c4bec1",
     "90fbd8386e8a9a4e3fd9398f005a72d6ff5b67fe",
-    "c9674b45ea3598d2f41527148fde9d16bf942ac1"
+    "c9674b45ea3598d2f41527148fde9d16bf942ac1",
+    "cb4d0bd272159cdf8a1991556b6b550721077336",
+    "4d1d1bc30fd2b951c3cff1a3f0ee7a62e1a9bfac",
+    "6a58bb71f2d543d7a4d50e1a58904724c070a6a8",
+    "f0484449f1bbe229f5b302a245073dd4dad57e57"
   ]
 }
