@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/sony-confirms-playstation-5-pro-pssr-upgrades-for-cyberpunk-2077-final-fantasy-7-rebirth-and-even-former-xbox-console-exclusive-hellblade-2",
-    "https://www.pushsquare.com/news/2026/03/cyberpunk-2077-finally-gets-a-ps5-pro-patch-very-soon",
     "https://www.bluesnews.com/s/295675/dragonkin-the-banished-leaves-early-access",
     "https://www.bluesnews.com/s/295673/grind-survivors-released",
     "https://www.bluesnews.com/s/295662/morning-patches",
@@ -4999,11 +4997,11 @@
     "https://gamerant.com/nintendo-switch-aliens-fireteam-elite-cloud-version-shut-down/",
     "https://www.nintendolife.com/news/2026/08/random-metroid-prime-in-2d-is-now-a-reality-thanks-to-new-fan-project",
     "https://www.polygon.com/1666-amsterdam-early-access-release-date-new-trailer/",
-    "https://www.ign.com/articles/aliens-fireteam-elite-on-nintendo-switch-shut-down-with-no-refunds-as-owners-become-the-latest-victims-of-gamings-increasingly-digital-future"
+    "https://www.ign.com/articles/aliens-fireteam-elite-on-nintendo-switch-shut-down-with-no-refunds-as-owners-become-the-latest-victims-of-gamings-increasingly-digital-future",
+    "https://www.gematsu.com/2026/08/lost-found-adds-console-versions",
+    "https://www.rockpapershotgun.com/someones-head-is-killing-me-in-memoirium-a-psx-styled-soulslike-about-battling-through-bizarre-dreamscapes-and-decorating-your-bedroom"
   ],
   "seen_titles": [
-    "sony confirms playstation 5 pro pssr upgrades for cyberpunk 2077, final fantasy 7 rebirth and even former xbox console exclusive hellblade 2",
-    "cyberpunk 2077 finally gets a ps5 pro patch very soon",
     "dragonkin: the banished leaves early access",
     "grind survivors released",
     "morning patches",
@@ -10001,11 +9999,11 @@
     "nintendo switch game has officially shut down forever",
     "random: metroid prime in 2d is now a reality thanks to new fan project",
     "1666 amsterdam, from the creator of assassin's creed, launches into early access in just 2 weeks",
-    "aliens: fireteam elite on nintendo switch shut down with no refunds, as owners become the latest victims of gaming's increasingly digital future"
+    "aliens: fireteam elite on nintendo switch shut down with no refunds, as owners become the latest victims of gaming's increasingly digital future",
+    "lost & found adds console versions",
+    "someone's head is killing me in memoirium, a psx-styled soulslike about battling through bizarre dreamscapes and decorating your bedroom"
   ],
   "seen_story_keys": [
-    "d579d7daea54c708be5c770bd0b269721756dca9",
-    "978e0cd80a89a6a13560f5a4d40fad6d0d9ad81d",
     "5df33c10e9b99cda5f2d56e54667613fe9271c74",
     "d1bf3f8d629fc0facde2e22be15704edf6ba297a",
     "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
@@ -15003,6 +15001,8 @@
     "fd822fe564d70007d9acec374e5122c9e3991e03",
     "31e6f2ba1eef71a94f33930800d011d32780dce3",
     "690ae8aeb5e62b629f38049a5796314e80765049",
-    "bf405802f88286c9cd5c6c0553afa0249e906490"
+    "bf405802f88286c9cd5c6c0553afa0249e906490",
+    "c652ac197d711683c1eba70a24195a2bdf42bd40",
+    "38a13d54ed74041265d5156a5eeb7f9b4e888c02"
   ]
 }
