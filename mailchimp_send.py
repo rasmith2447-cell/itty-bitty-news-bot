@@ -230,11 +230,11 @@ def load_digest_stories() -> tuple:
 # ---------------------------------------------------------------------------
 
 GOTW_OVERRIDE = {
-    "title":       "Beast of Reincarnation",
-    "description": "The Pokémon studio just dropped their first non-Pokémon AAA game ever — and it's a dark souls-like action RPG set in post-apocalyptic Japan in the year 4026. Play as Emma and her blighted dog Koo as you battle terrifying bosses, absorb their powers, and uncover a brutal story of survival. Built in Unreal Engine 5, it's a massive departure from Game Freak's comfort zone and it's generating serious buzz. Available day one on Xbox Game Pass.",
-    "platform":    "Available on PS5, Xbox Series X|S, PC (Steam) & Xbox Game Pass",
-    "url":         "https://store.steampowered.com/app/2001760/Beast_of_Reincarnation/",
-    "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/2001760/header.jpg",
+    "title":       "MARVEL Tōkon: Fighting Souls",
+    "description": "Arc System Works — the team behind Guilty Gear — just dropped their Marvel universe brawler and it's a blast, especially on PS5. Build your dream team from 20 iconic Marvel heroes and villains in this 4v4 tag team fighter with bold anime-inspired visuals, dynamic stage transitions, and a single-player campaign. If you're a Marvel fan or a fighting game fan, this one's worth your time — just stick to the PS5 version for the smoothest experience.",
+    "platform":    "Available on PS5 & PC (Steam)",
+    "url":         "https://store.steampowered.com/app/3787240/MARVEL_Tkon_Fighting_Souls/",
+    "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/3787240/header.jpg",
 }
 
 GOTW_FALLBACK = {
