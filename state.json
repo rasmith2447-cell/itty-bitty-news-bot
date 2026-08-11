@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/goonect2-announced-for-switch",
-    "https://www.eurogamer.net/jeff-kaplan-warned-blizzard-titan-mmo",
     "https://www.gamespot.com/articles/everyones-laughing-at-the-new-look-of-dlss-5s-yassify-filter/1100-6538821/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/03/gothic-classic-coming-to-ios-in-2026",
     "https://www.pushsquare.com/news/2026/03/base-ps5-owners-should-download-new-firmware-update-too-for-this-extra-feature",
@@ -4999,11 +4997,11 @@
     "https://www.rockpapershotgun.com/over-the-hill-snowrunners-hippie-off-roading-cousin-from-the-art-of-rally-devs-gets-an-october-release-date",
     "https://www.pcgamer.com/gaming-industry/id-software-dev-says-mass-layoffs-like-microsofts-are-weakening-the-games-industry-because-developers-dont-have-the-incentive-to-care-anymore/",
     "https://www.gematsu.com/2026/08/over-the-hill-launches-october-14-for-pc-in-2027-for-ps5-xbox-series-and-switch-2",
-    "https://www.pcgamer.com/games/sim/the-vibey-offroading-game-with-more-than-a-million-steam-wishlists-has-a-release-date/"
+    "https://www.pcgamer.com/games/sim/the-vibey-offroading-game-with-more-than-a-million-steam-wishlists-has-a-release-date/",
+    "https://www.nintendolife.com/news/2026/08/aliens-fireteam-elite-cloud-version-is-no-longer-playable-on-switch",
+    "https://www.gematsu.com/2026/08/steinsgate-reboot-for-xbox-series-delayed-to-october-29"
   ],
   "seen_titles": [
-    "goonect√2 announced for switch",
-    "\"you've got to shut this down\" - jeff kaplan recalls the \"disaster\" of blizzard mmo titan's development",
     "everyone's laughing at the new look of dlss 5's \"yassify filter\"",
     "gothic classic coming to ios in 2026",
     "base ps5 owners should download new firmware update too for this extra feature",
@@ -10001,11 +9999,11 @@
     "over the hill, snowrunner's hippie off-roading cousin from the art of rally devs, gets an october release date",
     "id software dev says mass layoffs like microsoft's are weakening the games industry, because developers 'don't have the incentive to care anymore'",
     "over the hill launches october 14 for pc, in 2027 for ps5, xbox series, and switch 2",
-    "the vibey offroading game with more than a million steam wishlists has a release date"
+    "the vibey offroading game with more than a million steam wishlists has a release date",
+    "aliens: fireteam elite cloud version is no longer playable on switch",
+    "steins;gate re:boot for xbox series delayed to october 29"
   ],
   "seen_story_keys": [
-    "585a37c711b729c627bf00763825afa489cc5c97",
-    "2639c7dffcad45c93081db838bee0791cf2a7e74",
     "8a90d92044b4526fff75d7b29c6dbdbf70f9c721",
     "9bd810db3eca78bed2a533ac91599495ee835bce",
     "cec5d18dc84f07060d32586df7202cfac6cb1990",
@@ -15003,6 +15001,8 @@
     "bf73dc53453057dd7354b3ede3e31585d6ae0d73",
     "0b026dcb8299774b40e6c59bf58eda85dd45b397",
     "43b2540cf3fd6303f036dacfd7bc4764bdf9a648",
-    "deb6d500637b94dc3256b9b5cc54398764eda1d4"
+    "deb6d500637b94dc3256b9b5cc54398764eda1d4",
+    "cb356e9fea27848f1de0e5834b51df7cc3c04a32",
+    "490df97246226ac77f35e1eb77a2bcdc5e052940"
   ]
 }
