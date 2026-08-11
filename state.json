@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-new-update-puts-the-il-toro-in-its-place-a-grave-at-long-last-this-is-an-adjustment-many-of-you-requested/",
-    "https://www.videogameschronicle.com/news/death-stranding-2-pc-and-ps5-major-update-details-revealed-including-new-difficulty-mode-live-action-cutscenes-and-more/",
-    "https://www.eurogamer.net/crimson-desert-confusing-ps5-trophies-revealed",
-    "https://www.gamespot.com/articles/new-ps5-update-is-out-now-actually-does-a-lot-for-once/1100-6538822/?ftag=CAD-01-10abi2f",
     "https://www.pcgamer.com/games/sim/a-native-port-of-the-gamecube-animal-crossing-has-made-its-way-to-pc-which-means-all-other-cozy-games-are-cancelled-as-nothing-else-matters/",
     "https://www.pushsquare.com/news/2026/03/ps-portal-gets-even-better-with-new-firmware-update-improved-visuals-and-enhanced-cloud-streaming",
     "https://www.purexbox.com/news/2026/03/bethesda-says-starfield-looks-amazing-with-nvidias-dlss-5-but-dont-expect-it-on-xbox",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/08/ps3-lord-of-the-rings-action-rpg-war-in-the-north-suddenly-returns-remaster-out-now-on-ps5",
     "https://www.gematsu.com/2026/08/the-lord-of-the-rings-war-in-the-north-legacy-edition-now-available-for-ps5-xbox-series-switch-2-switch-and-pc",
     "https://www.rockpapershotgun.com/even-10-years-on-sean-murray-feels-like-he-could-work-on-no-mans-sky-forever-even-if-he-knows-there-probably-is-some-end-date-for-it",
-    "https://www.pcgamer.com/software/security/its-time-to-update-asus-armoury-crate-and-several-other-asus-software-tools-again-as-another-high-severity-security-vulnerability-has-been-discovered/"
+    "https://www.pcgamer.com/software/security/its-time-to-update-asus-armoury-crate-and-several-other-asus-software-tools-again-as-another-high-severity-security-vulnerability-has-been-discovered/",
+    "https://gamerant.com/until-dawn-supermassive-layoffs/",
+    "https://gamerant.com/games-shut-down-no-refunds/",
+    "https://www.polygon.com/fortnite-control-skin-free-steam/",
+    "https://gamerant.com/wolverine-ps5-bundle-controller/"
   ],
   "seen_titles": [
-    "arc raiders' new update puts the il toro in its place (a grave) at long last: 'this is an adjustment many of you requested'",
-    "death stranding 2 pc and ps5 major update details revealed including new difficulty mode, live-action cutscenes and more",
-    "crimson desert's ps5 trophies have been revealed, and they read like riddles (which is both exciting and scary)",
-    "new ps5 update is out now, actually does a lot for once",
     "a native port of the gamecube animal crossing has made its way to pc, which means all other cozy games are cancelled as nothing else matters",
     "ps portal gets even better with new firmware update, improved visuals and enhanced cloud streaming",
     "bethesda says starfield looks 'amazing' with nvidia's dlss 5, but don't expect it on xbox",
@@ -10001,13 +9997,13 @@
     "ps3 lord of the rings action rpg war in the north suddenly returns, remaster out now on ps5",
     "the lord of the rings: war in the north – legacy edition now available for ps5, xbox series, switch 2, switch, and pc",
     "even 10 years on, sean murray feels like he could work on no man's sky \"forever,\" even if he knows \"there probably is some end date\" for it",
-    "it's time to update asus armoury crate and several other asus software tools again, as another high severity security vulnerability has been discovered"
+    "it's time to update asus armoury crate and several other asus software tools again, as another high severity security vulnerability has been discovered",
+    "until dawn developer preparing for layoffs",
+    "games you paid for that shut down and denied refunds",
+    "fortnite giving away free skin ahead of control resonant launch",
+    "wolverine reveals limited edition ps5 console bundle"
   ],
   "seen_story_keys": [
-    "a5e7fc4a667d53e33c2058cc24f48f3928ef88af",
-    "841cafe270bf677e6922a8eddc6ad33f5dbdb0e7",
-    "7b87786647c7490fc167f09ae0244000ba4f528c",
-    "d9339c0589d14482d919ef8412cfe12de0316146",
     "26f37de80b2405676fc3eb7b79921ecea380a1a4",
     "a6c19270a22f4632272098d8a74d0308ba4f3c63",
     "3ae19122a59a7caf9e4f2c5fea944618176e66b8",
@@ -15003,6 +14999,10 @@
     "877ef9c6b2d03ca47fbf3943734ba51a81dda8bb",
     "9441c7886f6fbc7dce98c509455bdbe9275e4b19",
     "5fa22810319b2611288d76748d4414e76c9f6fef",
-    "da281fb80dc98ccf7d0964d0365352c4dd125bea"
+    "da281fb80dc98ccf7d0964d0365352c4dd125bea",
+    "ffbaf8dae9dfc191038110992373a9268f49fd47",
+    "d22ccc0ae50012b98bb04050e1875791a56540e7",
+    "ff6fb4730f809b7596dbd066910296c209e57ddd",
+    "6c45934d26ca249234653e6063535ddd452c17c3"
   ]
 }
