@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/new-ps5-firmware-update-with-anticipated-pssr-2-toggle-available-now",
-    "https://www.gematsu.com/2026/03/my-little-puppy-for-ps5-launches-may-29",
-    "https://www.nintendolife.com/news/2026/03/sonic-racing-crossworlds-reveals-three-more-free-dlc-characters",
-    "https://www.nintendolife.com/news/2026/03/street-fighter-6-x-mega-man-star-force-and-battle-network-free-collab-dlc-announced",
     "https://gamerant.com/game/chronologic-anime-edition/",
     "https://gamerant.com/wuthering-waves-wuwa-32-when-release-date-time-update-maintenance-ends-countdown/",
     "https://www.rockpapershotgun.com/an-experimental-marathon-duos-mode-is-set-to-rock-up-for-just-two-weeks-with-bungie-warning-some-things-will-be-a-bit-jank",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/xbox-outage-cant-play-games-bug-fixed/",
     "https://gamerant.com/ubisoft-barcelona-dark-ritual-studios-new-games/",
     "https://www.rockpapershotgun.com/knytt-one-of-2006s-most-charming-indie-platformers-has-a-surprise-steam-re-release-and-its-still-free",
-    "https://www.gamesindustry.biz/supermassive-games-announces-layoffs-up-to-75-workers-may-be-affected"
+    "https://www.gamesindustry.biz/supermassive-games-announces-layoffs-up-to-75-workers-may-be-affected",
+    "https://www.purexbox.com/news/2026/08/resonance-a-plague-tale-legacy-publisher-reveals-runtime-ahead-of-xbox-game-pass-launch",
+    "https://www.nintendolife.com/news/2026/08/little-nightmares-iii-dev-announces-layoffs-with-up-to-75-employees-affected",
+    "https://www.gematsu.com/2026/08/marvels-wolverine-limited-edition-ps5-console-bundle-and-accessories-announced",
+    "https://www.pushsquare.com/news/2026/08/marvels-wolverine-limited-edition-ps5-consoles-controllers-announced-pre-orders-next-week"
   ],
   "seen_titles": [
-    "new ps5 firmware update with anticipated pssr 2 toggle available now",
-    "my little puppy for ps5 launches may 29",
-    "sonic racing: crossworlds reveals three more free dlc characters",
-    "street fighter 6 x mega man star force & battle network free collab dlc announced",
     "chronologic - anime edition",
     "wuwa 3.2 release date & maintenance end time (wuthering waves)",
     "an experimental marathon duos mode is set to rock up for just two weeks, with bungie warning \"some things will be a bit jank\"",
@@ -10001,13 +9997,13 @@
     "xbox outage bug has been fixed, microsoft says",
     "former ubisoft developers start new studio",
     "knytt, one of 2006's most charming indie platformers, has a surprise steam re-release - and it’s still free",
-    "supermassive games announces layoffs, up to 75 workers may be affected"
+    "supermassive games announces layoffs, up to 75 workers may be affected",
+    "resonance: a plague tale legacy publisher reveals runtime ahead of xbox game pass launch",
+    "little nightmares iii dev announces layoffs with up to 75 employees affected",
+    "marvel’s wolverine limited edition ps5 console bundle and accessories announced",
+    "marvel's wolverine limited edition ps5 consoles, controllers announced, pre-orders next week"
   ],
   "seen_story_keys": [
-    "fbe0a3813e73aead32c1c996fc058059d920b3c6",
-    "a4e38d11c793cba187ab2d624c2e075a1f0a8e12",
-    "0b1a87232886f623f2a1c70f2c553d117d9f6647",
-    "ed6599335c871246408addc323da8ea8bd160eb2",
     "3b71a2955c90b4f31b573f18a8fa669dbac3573d",
     "0cb6b5f607df5a6f1573b065ecdd80b4c3056405",
     "0866c81fcdcb7761ee3f841f191bf1893fcaf18b",
@@ -15003,6 +14999,10 @@
     "cc370f7fff6b9697a352986c44dfae7a594b90f5",
     "b04d6e3084349bfcc041f9ac3e66d91a43b19cf9",
     "5211a8e517068bd595a91f2aea9d1bc0b3a6c76b",
-    "701e4ca5c7256c4be9457f04f25b1a9d60851743"
+    "701e4ca5c7256c4be9457f04f25b1a9d60851743",
+    "c286c5d4967a681996ac921b31282078410a88dc",
+    "d34fb96544557085393c656b5e8c36020aaa081e",
+    "f7c2a71cbfa4bd9ec6556cc4d65d795170424732",
+    "8959e5f8484a0fc1683a369fc39933c2e504bc57"
   ]
 }
