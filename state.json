@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/03/just-two-games-are-leaving-xbox-game-pass-in-late-march-2026",
-    "https://gamerant.com/palworld-1-0-update-tease-pocketpair-comment/",
-    "https://www.eurogamer.net/playstation-portal-even-better-high-quality-mode-refined-streaming-experience",
-    "https://www.videogameschronicle.com/news/xbox-reveals-the-rest-of-marchs-game-pass-titles-including-disco-elysium-resi-7-absolum-and-final-fantasy-4/",
     "https://www.bluesnews.com/s/295718/sound-system-details",
     "https://www.bluesnews.com/s/295717/whispers-of-the-eyeless-released",
     "https://gamerant.com/xbox-game-pass-march-wave-2-early-april-2026-lineup-full-list/",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/crimson-desert-dlc-switch-2-release-windows/",
     "https://gamerant.com/ff9-remake-news-update-2026-canceled/",
     "https://www.ign.com/articles/the-lord-of-the-rings-war-in-the-north-legacy-edition-gets-shadow-drop-on-modern-consoles-and-pc",
-    "https://www.polygon.com/wardogs-release-date-steam-early-access/"
+    "https://www.polygon.com/wardogs-release-date-steam-early-access/",
+    "https://www.polygon.com/sims-4-free-content-update-anniversary-event/",
+    "https://www.ign.com/articles/bethesda-finally-confirms-the-elder-scrolls-iv-oblivion-remastered-patch-is-coming",
+    "https://www.ign.com/articles/more-lord-of-the-rings-remasters-are-in-the-works-following-war-in-the-north-re-release-confirms-aspyr",
+    "https://www.eurogamer.net/wardogs-steam-early-access-release-date-closed-beta"
   ],
   "seen_titles": [
-    "just two games are leaving xbox game pass in late march 2026",
-    "‘it's all going to change’ pocketpair teases massive palworld 1.0 launch",
-    "the playstation portal just got even better: a new high quality mode and 'refined streaming experience' headline the latest update",
-    "xbox reveals the rest of march’s game pass titles, including disco elysium, resi 7, absolum and final fantasy 4",
     "sound system details",
     "whispers of the eyeless released",
     "xbox game pass officially confirms 8 new games for march and april 2026",
@@ -10001,13 +9997,13 @@
     "‘crimson desert’ dev finally reveals dlc release window, and it’s soon",
     "final fantasy 9 remake gets disappointing update",
     "the lord of the rings: war in the north legacy edition gets shadow drop on modern consoles and pc",
-    "2026’s most anticipated fps, wardogs, finally has a release date"
+    "2026’s most anticipated fps, wardogs, finally has a release date",
+    "the sims 4 will be getting major free content drops in the near future",
+    "bethesda finally confirms the elder scrolls iv: oblivion remastered patch is coming",
+    "more lord of the rings remasters are in the works following war in the north re-release, confirms aspyr",
+    "much-wishlisted 100-player shooter wardogs gets an early access release date and promises refunds for anyone unhappy with the closed beta"
   ],
   "seen_story_keys": [
-    "cd1ae37e19e868ccfbe28514537307d7135493bc",
-    "9bfdb626a76d41be187533c702b96e8eadb03624",
-    "255eadc072c382bdda01ac64de1e362bcfb83ce4",
-    "1bebb5de94b34c0dd5b7171b7ef8eb0cb5734326",
     "f82f97bd412e9e3127cfa8539554e83c70263588",
     "85568daf294a78c70e12927c3e393dfd00b97e25",
     "5e80e3b9308e2a2b17578bd3bbfe45def2b1cb58",
@@ -15003,6 +14999,10 @@
     "4c9db0209b95cf1f62fcb15dbaec77cd4aa236c0",
     "3eb447ab8fb94a719b7726f14bc2dc2c8e0e9891",
     "cc4da270c7c1594061325d4d691ff070445b7758",
-    "0c155b0c5189cb98e1f9e27b8d25cb25f0bc98ff"
+    "0c155b0c5189cb98e1f9e27b8d25cb25f0bc98ff",
+    "42992fb7c652c1555d2fcad6832401c5b0d23f59",
+    "71824be1527bd7b13f5c0c46ff2bc667590cf83e",
+    "8638158bf9ef9a24e652809ef96aa161ef7cb9e2",
+    "8ee4e64da8f05b275e0cb345ea67e2c0ce2e340b"
   ]
 }
