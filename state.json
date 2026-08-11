@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295693/nvidia-dlss-5-announced",
-    "https://www.bluesnews.com/s/295690/royal-revolt-survivors-launched",
     "https://gamerant.com/nvidia-dlss-5-generative-ai-controversy/",
     "https://www.nintendolife.com/news/2026/03/nintendo-switch-2-system-update-22-0-0-is-now-live-here-are-the-full-patch-notes",
     "https://www.pushsquare.com/news/2026/03/new-ps5-firmware-update-with-anticipated-pssr-2-toggle-available-now",
@@ -4999,11 +4997,11 @@
     "https://www.nintendolife.com/news/2026/08/geoff-keighley-confirms-the-game-awards-will-return-on-10th-december-2026",
     "https://gamerant.com/grand-theft-auto-6-release-date-gta-6-100-days/",
     "https://www.gamesindustry.biz/remedy-reports-revenue-declines-in-q2-and-h1-as-it-prepares-for-control-resonant-launch",
-    "https://www.nintendolife.com/news/2026/08/video-final-fantasy-resonance-trailer-highlights-series-legend-cloud-strife"
+    "https://www.nintendolife.com/news/2026/08/video-final-fantasy-resonance-trailer-highlights-series-legend-cloud-strife",
+    "https://www.polygon.com/xbox-outage-cant-play-games-bug-fixed/",
+    "https://gamerant.com/ubisoft-barcelona-dark-ritual-studios-new-games/"
   ],
   "seen_titles": [
-    "nvidia dlss 5 announced",
-    "royal revolt survivors launched",
     "nvidia reveals dlss 5, but some gamers aren’t happy",
     "nintendo switch 2 system update 22.0.0 is now live, here are the full patch notes",
     "new ps5 firmware update with anticipated pssr 2 toggle available now",
@@ -10001,11 +9999,11 @@
     "geoff keighley confirms the game awards will return on 10th december 2026",
     "today is officially the end of an era for gta 6",
     "remedy reports revenue declines in q2 and h1 as it prepares for control resonant launch",
-    "video: final fantasy resonance trailer highlights series legend cloud strife"
+    "video: final fantasy resonance trailer highlights series legend cloud strife",
+    "xbox outage bug has been fixed, microsoft says",
+    "former ubisoft developers start new studio"
   ],
   "seen_story_keys": [
-    "6e8e44ce182c2538028091dd32ceb0e69adcef38",
-    "cb3aca728af7a55c78abaf0c6d88985b700ed45b",
     "d4ad5c20096ee8e9b47da1402e168021307eb085",
     "96eb843c310ee9fe38dfd488a39f630b9fe13153",
     "fbe0a3813e73aead32c1c996fc058059d920b3c6",
@@ -15003,6 +15001,8 @@
     "192409b000b8801d72c16df4994659b34fd31958",
     "9eb1c94ddaab9eeaf877ac127e46d3ac50c8aa36",
     "9d36dd66085b4c1944c052a0f13c07bb8fbeac4f",
-    "8febb7bcaca6dd0093c7da3ca40f857eb30fe6b9"
+    "8febb7bcaca6dd0093c7da3ca40f857eb30fe6b9",
+    "cc370f7fff6b9697a352986c44dfae7a594b90f5",
+    "b04d6e3084349bfcc041f9ac3e66d91a43b19cf9"
   ]
 }
