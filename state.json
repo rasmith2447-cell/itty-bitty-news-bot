@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/sim/a-native-port-of-the-gamecube-animal-crossing-has-made-its-way-to-pc-which-means-all-other-cozy-games-are-cancelled-as-nothing-else-matters/",
-    "https://www.pushsquare.com/news/2026/03/ps-portal-gets-even-better-with-new-firmware-update-improved-visuals-and-enhanced-cloud-streaming",
-    "https://www.purexbox.com/news/2026/03/bethesda-says-starfield-looks-amazing-with-nvidias-dlss-5-but-dont-expect-it-on-xbox",
-    "https://www.gematsu.com/2026/03/playstation-portal-system-update-launches-march-18-with-1080p-high-quality-mode-and-user-experience-refinements",
     "https://www.purexbox.com/news/2026/03/just-two-games-are-leaving-xbox-game-pass-in-late-march-2026",
     "https://gamerant.com/palworld-1-0-update-tease-pocketpair-comment/",
     "https://www.eurogamer.net/playstation-portal-even-better-high-quality-mode-refined-streaming-experience",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/until-dawn-supermassive-layoffs/",
     "https://gamerant.com/games-shut-down-no-refunds/",
     "https://www.polygon.com/fortnite-control-skin-free-steam/",
-    "https://gamerant.com/wolverine-ps5-bundle-controller/"
+    "https://gamerant.com/wolverine-ps5-bundle-controller/",
+    "https://www.polygon.com/crimson-desert-dlc-switch-2-release-windows/",
+    "https://gamerant.com/ff9-remake-news-update-2026-canceled/",
+    "https://www.ign.com/articles/the-lord-of-the-rings-war-in-the-north-legacy-edition-gets-shadow-drop-on-modern-consoles-and-pc",
+    "https://www.polygon.com/wardogs-release-date-steam-early-access/"
   ],
   "seen_titles": [
-    "a native port of the gamecube animal crossing has made its way to pc, which means all other cozy games are cancelled as nothing else matters",
-    "ps portal gets even better with new firmware update, improved visuals and enhanced cloud streaming",
-    "bethesda says starfield looks 'amazing' with nvidia's dlss 5, but don't expect it on xbox",
-    "playstation portal system update launches march 18 with 1080p high quality mode and user experience refinements",
     "just two games are leaving xbox game pass in late march 2026",
     "‘it's all going to change’ pocketpair teases massive palworld 1.0 launch",
     "the playstation portal just got even better: a new high quality mode and 'refined streaming experience' headline the latest update",
@@ -10001,13 +9997,13 @@
     "until dawn developer preparing for layoffs",
     "games you paid for that shut down and denied refunds",
     "fortnite giving away free skin ahead of control resonant launch",
-    "wolverine reveals limited edition ps5 console bundle"
+    "wolverine reveals limited edition ps5 console bundle",
+    "‘crimson desert’ dev finally reveals dlc release window, and it’s soon",
+    "final fantasy 9 remake gets disappointing update",
+    "the lord of the rings: war in the north legacy edition gets shadow drop on modern consoles and pc",
+    "2026’s most anticipated fps, wardogs, finally has a release date"
   ],
   "seen_story_keys": [
-    "26f37de80b2405676fc3eb7b79921ecea380a1a4",
-    "a6c19270a22f4632272098d8a74d0308ba4f3c63",
-    "3ae19122a59a7caf9e4f2c5fea944618176e66b8",
-    "e3a50108336f936df2b0fbeda4763ad6023d6f7a",
     "cd1ae37e19e868ccfbe28514537307d7135493bc",
     "9bfdb626a76d41be187533c702b96e8eadb03624",
     "255eadc072c382bdda01ac64de1e362bcfb83ce4",
@@ -15003,6 +14999,10 @@
     "ffbaf8dae9dfc191038110992373a9268f49fd47",
     "d22ccc0ae50012b98bb04050e1875791a56540e7",
     "ff6fb4730f809b7596dbd066910296c209e57ddd",
-    "6c45934d26ca249234653e6063535ddd452c17c3"
+    "6c45934d26ca249234653e6063535ddd452c17c3",
+    "4c9db0209b95cf1f62fcb15dbaec77cd4aa236c0",
+    "3eb447ab8fb94a719b7726f14bc2dc2c8e0e9891",
+    "cc4da270c7c1594061325d4d691ff070445b7758",
+    "0c155b0c5189cb98e1f9e27b8d25cb25f0bc98ff"
   ]
 }
