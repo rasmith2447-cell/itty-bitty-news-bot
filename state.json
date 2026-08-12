@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/sanrio-characters-smash-festa-launches-march-26-in-japan",
-    "https://www.nintendolife.com/news/2026/03/splatoon-3-is-getting-a-fresh-new-update-version-11-1-0-here-are-the-full-patch-notes",
-    "https://www.videogameschronicle.com/news/pokemon-xd-gale-of-darkness-is-available-now-on-nintendo-switch-2/",
-    "https://www.gematsu.com/2026/03/shangri-la-frontier-the-seven-colossi-launches-in-2026-in-japan",
     "https://www.bluesnews.com/s/295741/going-medieval-released",
     "https://www.bluesnews.com/s/295739/the-ratline-released",
     "https://www.bluesnews.com/s/295738/i-am-your-llm-announced",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/pokemon-pokopia-hoenn-region-champion-may/",
     "https://www.ign.com/articles/xbox-reveals-stunning-3d-moulded-gears-of-war-e-day-limited-edition-controllers",
     "https://www.gematsu.com/2026/08/crescent-county-launches-in-summer-2027-for-ps5-xbox-series-switch-2-and-pc",
-    "https://www.gematsu.com/2026/08/starship-job-simulation-game-contact-protocol-launches-in-spring-2027-for-ps5-xbox-series-switch-2-and-pc"
+    "https://www.gematsu.com/2026/08/starship-job-simulation-game-contact-protocol-launches-in-spring-2027-for-ps5-xbox-series-switch-2-and-pc",
+    "https://www.purexbox.com/news/2026/08/no-more-room-in-hell-2-is-out-now-bringing-its-intense-co-op-survival-fps-to-xbox",
+    "https://www.eurogamer.net/cd-projekt-red-project-sirius-layoffs",
+    "https://www.videogameschronicle.com/news/xbox-officially-reveals-its-limited-edition-gears-of-war-e-day-controller-plus-new-design-lab-options/",
+    "https://www.nintendolife.com/news/2026/08/aspyr-promises-more-lord-of-the-rings-revivals-in-the-future"
   ],
   "seen_titles": [
-    "sanrio characters smash festa! launches march 26 in japan",
-    "splatoon 3 is getting a fresh new update (version 11.1.0), here are the full patch notes",
-    "pokémon xd: gale of darkness is available now on nintendo switch 2",
-    "shangri-la frontier: the seven colossi launches in 2026 in japan",
     "going medieval released",
     "the ratline released",
     "i am your llm announced",
@@ -10001,13 +9997,13 @@
     "pokemon pokopia reveals official champion of the hoenn region",
     "xbox reveals stunning 3d-moulded gears of war: e-day limited edition controllers",
     "crescent county launches in summer 2027 for ps5, xbox series, switch 2, and pc",
-    "starship job simulation game contact protocol launches in spring 2027 for ps5, xbox series, switch 2, and pc"
+    "starship job simulation game contact protocol launches in spring 2027 for ps5, xbox series, switch 2, and pc",
+    "no more room in hell 2 is out now, bringing its 'intense' co-op survival fps to xbox",
+    "multiplayer witcher spin-off project sirius hit by layoffs again, in \"broader shift in development strategy\" at cd projekt red",
+    "xbox officially reveals its limited edition gears of war e-day controller, plus new design lab options",
+    "aspyr promises more lord of the rings revivals in the future"
   ],
   "seen_story_keys": [
-    "2136ac422864615239c86423df8c00756c8d160b",
-    "d291e0daa083099a895d1a13c29c7907a2048524",
-    "7c4102b1a49f673d4edd7d3cf91e8acc872e3d06",
-    "86eda89c7cd41d03fbd69477a6e31522e77e7b1a",
     "91b8d1d7219d594ea60e08f3d07a0c76e0c5d8eb",
     "274fe53a77ba23220c840548c099dce36e3f3f78",
     "f2bad4920b6db35d5958721213afb6415bae0c1b",
@@ -15003,6 +14999,10 @@
     "d50f458a5fb4c6cb4ce3cc5950271b7f89d6176b",
     "69a65dc63aba4ed81ac4ef1902272d9e16be87c3",
     "74714b851e0e3b63ae52fe5e641ceb76588750e0",
-    "d4ec0b5d47f73349cccb99a505f47522ace50789"
+    "d4ec0b5d47f73349cccb99a505f47522ace50789",
+    "141b7bf9a6222f64c70889615e34719de0d14574",
+    "aa90312f74ee9ee64ea45e78370758e7f664b242",
+    "bc28a29068ce23b9404c9af0a2d062e75336eedb",
+    "3a6d4637f75c7c4191d5b167665aa371b9b13e51"
   ]
 }
