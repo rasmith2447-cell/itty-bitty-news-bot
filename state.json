@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/ps5-game-devs-collectively-clown-on-nvidias-controversial-dlss-5-tech",
-    "https://www.pcgamer.com/hardware/nvidia-dlss-5-reveal-pc-gamer-reacts-not-wholly-positively/",
-    "https://www.gematsu.com/2026/03/grime-ii-adds-ps5-xbox-series-versions",
-    "https://www.purexbox.com/news/2026/03/im-of-two-minds-todd-howard-gives-his-thoughts-on-xboxs-leadership-changes",
     "https://gamerant.com/marathon-update-patch-notes-march-2026/",
     "https://gamerant.com/fire-force-season-3-episode-23-release-date-where-to-watch/",
     "https://www.ign.com/articles/upcoming-lego-set-release-dates",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/games/action/lego-shut-down-a-bionicle-fangame-8-years-in-the-making-1-year-later-its-developers-are-back-with-something-legally-distinct-and-arguably-cooler/",
     "https://www.gamesindustry.biz/pearl-abyss-q2-earnings-decline-as-impact-of-crimson-deserts-launch-period-subsides",
     "https://www.ign.com/articles/huge-helldivers-2-patch-adds-new-illuminate-enemies-a-new-biome-full-of-fresh-horrors-a-level-cap-increase-and-much-more",
-    "https://gamerant.com/state-play-ps5-august-17-phantom-blade-zero/"
+    "https://gamerant.com/state-play-ps5-august-17-phantom-blade-zero/",
+    "https://www.pcgamer.com/games/the-elder-scrolls/after-giving-it-2-patches-and-dropping-it-like-a-stone-bethesda-promises-to-bring-switch-2-optimisations-to-oblivion-remastered-on-other-platforms/",
+    "https://www.eurogamer.net/amazon-smilegate-lost-ark-servers",
+    "https://www.eurogamer.net/xbox-july-outage-issue-fixed-cto-update",
+    "https://www.ign.com/articles/the-elder-scrolls-6-demo-to-xbox-leadership-included-a-giant-inflatable-rat-placed-outside-bethesda-offices-in-protest-at-microsofts-mass-layoffs"
   ],
   "seen_titles": [
-    "ps5 game devs collectively clown on nvidia's controversial dlss 5 tech",
-    "nvidia dlss 5 reveal: pc gamer reacts... not wholly positively",
-    "grime ii adds ps5, xbox series versions",
-    "'i'm of two minds' - todd howard gives his thoughts on xbox's leadership changes",
     "marathon gets new update for march 2026",
     "fire force episode 23 release date and where to watch",
     "upcoming lego sets: release dates for 2026 and beyond",
@@ -10001,13 +9997,13 @@
     "lego shut down a bionicle fangame 8 years in the making—1 year later, its developers are back with something legally distinct and arguably cooler",
     "pearl abyss q2 earnings decline as impact of crimson desert's launch period subsides",
     "huge helldivers 2 patch adds new illuminate enemies, a new biome 'full of fresh horrors,' a level cap increase and much more",
-    "brand-new playstation state of play officially announced"
+    "brand-new playstation state of play officially announced",
+    "after giving it 2 patches and dropping it like a stone, bethesda promises to bring switch 2 optimisations to oblivion remastered on other platforms",
+    "smilegate will rescue lost ark's western servers, as amazon ditches support while retreating from mmo development",
+    "xbox promises that the causes of the recent outage, which rendered even game discs unplayable, have been fixed",
+    "the elder scrolls 6 demo to xbox leadership included a giant inflatable rat, placed outside bethesda offices in protest at microsoft's mass layoffs"
   ],
   "seen_story_keys": [
-    "10f061f63d5943a3e3072883c6035ad1f247c3b3",
-    "76bec6c3646b101cb71586ecac2996d6e803e347",
-    "161678edb1f5af7ad6df749ddb584cdd39fe0845",
-    "c27cf177c2907585d9eebb7e229de0fde7265ed6",
     "c2330728ace62f6f14aafa3bc6218593dbbbb8b1",
     "263491c6b105558f04e0322744e9f90cb8a66a7a",
     "4a9efc82e287fec1fe266e5f7e464451ba1701bb",
@@ -15003,6 +14999,10 @@
     "3c25a08e2cc890a36f590cf4385382910b75cd0b",
     "197265846fe2fbd84473b33fabcbf240321ddcd5",
     "dc1272e120ccc8a91cba397e80ea1af7c6846bb4",
-    "c2a7dbea71cc52f271e68db0469dac43cf86a07e"
+    "c2a7dbea71cc52f271e68db0469dac43cf86a07e",
+    "548637e481dd0b63ae5c18659aed453c9fda3b15",
+    "007c6bf7ecaf5b30e4edffc1f5c33f14059107bc",
+    "5c751c77466fdcb6eba8c37c08dab860907ffb4f",
+    "6b33b00ba2db69e282b66fe6a7ded2e2884e7d89"
   ]
 }
