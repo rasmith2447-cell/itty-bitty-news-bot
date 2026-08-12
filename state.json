@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295741/going-medieval-released",
-    "https://www.bluesnews.com/s/295739/the-ratline-released",
-    "https://www.bluesnews.com/s/295738/i-am-your-llm-announced",
     "https://www.gematsu.com/2026/03/jaleco-arcade-collection-vol-1-and-vol-2-announced-for-pc",
     "https://www.nintendolife.com/news/2026/03/splatoon-3-is-getting-a-fresh-new-update-here-are-the-full-patch-notes",
     "https://www.bluesnews.com/s/295731/evening-patches",
@@ -4999,12 +4996,12 @@
     "https://www.purexbox.com/news/2026/08/no-more-room-in-hell-2-is-out-now-bringing-its-intense-co-op-survival-fps-to-xbox",
     "https://www.eurogamer.net/cd-projekt-red-project-sirius-layoffs",
     "https://www.videogameschronicle.com/news/xbox-officially-reveals-its-limited-edition-gears-of-war-e-day-controller-plus-new-design-lab-options/",
-    "https://www.nintendolife.com/news/2026/08/aspyr-promises-more-lord-of-the-rings-revivals-in-the-future"
+    "https://www.nintendolife.com/news/2026/08/aspyr-promises-more-lord-of-the-rings-revivals-in-the-future",
+    "https://www.gamesindustry.biz/codedev-group-launches-dev-studio-full-spectrum-interactive",
+    "https://www.gematsu.com/2026/08/console-archives-touki-denshou-angel-eyes-launches-august-13",
+    "https://www.videogameschronicle.com/news/xbox-ceo-asha-sharma-says-the-elder-scrolls-6-is-incredible-as-bethesda-protesters-put-up-giant-rat-outside-building/"
   ],
   "seen_titles": [
-    "going medieval released",
-    "the ratline released",
-    "i am your llm announced",
     "jaleco arcade collection vol. 1 and vol. 2 announced for pc",
     "splatoon 3 is getting a fresh new update, here are the full patch notes",
     "evening patches",
@@ -10001,12 +9998,12 @@
     "no more room in hell 2 is out now, bringing its 'intense' co-op survival fps to xbox",
     "multiplayer witcher spin-off project sirius hit by layoffs again, in \"broader shift in development strategy\" at cd projekt red",
     "xbox officially reveals its limited edition gears of war e-day controller, plus new design lab options",
-    "aspyr promises more lord of the rings revivals in the future"
+    "aspyr promises more lord of the rings revivals in the future",
+    "codedev group launches dev studio full spectrum interactive",
+    "console archives touki denshou angel eyes launches august 13",
+    "xbox ceo asha sharma says the elder scrolls 6 is ‘incredible’ as bethesda protesters put up giant rat outside building"
   ],
   "seen_story_keys": [
-    "91b8d1d7219d594ea60e08f3d07a0c76e0c5d8eb",
-    "274fe53a77ba23220c840548c099dce36e3f3f78",
-    "f2bad4920b6db35d5958721213afb6415bae0c1b",
     "39d365eed75f5685a27203c6515648537d81770a",
     "548020f1b55309b54c27a9d10a180d8d54ec4045",
     "0c9a121cdc3a8f0602f802b215d9bd60f030aa34",
@@ -15003,6 +15000,9 @@
     "141b7bf9a6222f64c70889615e34719de0d14574",
     "aa90312f74ee9ee64ea45e78370758e7f664b242",
     "bc28a29068ce23b9404c9af0a2d062e75336eedb",
-    "3a6d4637f75c7c4191d5b167665aa371b9b13e51"
+    "3a6d4637f75c7c4191d5b167665aa371b9b13e51",
+    "56d049b3a5d9e95e502c268fb2d081c274d52fa8",
+    "e1786bc953afa692a52821c577ed2a783f3b9d66",
+    "15fa70c9126c30b458ec314320ecaaa9c4084e0a"
   ]
 }
