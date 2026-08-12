@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/valorant-new-agent-miks-release/",
-    "https://www.polygon.com/elder-scrolls-6-update-bethesda-todd-howard/",
-    "https://www.rockpapershotgun.com/death-stranding-2s-pc-launch-comes-with-a-tougher-new-mode-and-staying-true-to-the-brand-live-action-cutscenes",
-    "https://gamerant.com/cyberpunk-tcg-kickstarter-goals-funding/",
     "https://www.ign.com/articles/subnautica-2-will-finally-enter-early-access-in-may-following-year-of-delays-and-legal-drama",
     "https://www.ign.com/articles/mindseye-becomes-self-published-as-ioi-partners-ends-collaboration",
     "https://www.gamespot.com/articles/todd-howard-on-elder-scrolls-6-just-pretend-we-didnt-announce-it-it-doesnt-exist/1100-6538842/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.rockpapershotgun.com/you-can-hug-the-super-earth-grunts-in-helldivers-2s-devoid-of-liberty-update-which-revamps-npc-troops-and-adds-new-illuminate-enemies",
     "https://gamerant.com/best-games-like-zelda-ocarina-of-time-remake-blue-fire/",
     "https://www.pushsquare.com/news/2026/08/more-classic-lord-of-the-rings-games-are-coming-back-dev-confirms",
-    "https://www.videogameschronicle.com/news/phantom-blade-zero-gets-an-11-minute-trailer-with-a-playstation-state-of-play-coming-next-week-too/"
+    "https://www.videogameschronicle.com/news/phantom-blade-zero-gets-an-11-minute-trailer-with-a-playstation-state-of-play-coming-next-week-too/",
+    "https://www.purexbox.com/news/2026/08/heres-what-lord-of-the-rings-war-in-the-north-looks-like-on-xbox-series-xs",
+    "https://www.polygon.com/helldivers-2-playstation-plus-devoid-of-liberty-update/",
+    "https://www.gematsu.com/2026/08/viking-tower-defense-action-game-hordeguard-winds-of-the-north-announced-for-pc",
+    "https://www.pushsquare.com/news/2026/08/oblivion-remastered-could-finally-be-fixed-on-ps5-as-bethesda-promises-optimisations-patch"
   ],
   "seen_titles": [
-    "valorant officially reveals new agent miks",
-    "elder scrolls 6 is bethesda's main focus right now, says todd howard",
-    "death stranding 2's pc launch comes with a tougher new mode and, staying true to the brand, live-action cutscenes",
-    "cyberpunk tcg is blowing up on kickstarter",
     "subnautica 2 will finally enter early access in may following year of delays and legal drama",
     "mindseye becomes self-published as ioi partners ends collaboration",
     "todd howard on elder scrolls 6: \"just pretend we didn't announce it. it doesn't exist.\"",
@@ -10001,13 +9997,13 @@
     "you can hug the super earth grunts in helldivers 2's devoid of liberty update, which revamps npc troops and adds new illuminate enemies",
     "this dark, underrated zelda-like is perfect while you wait for the ocarina of time remake",
     "more classic lord of the rings games are coming back, dev confirms",
-    "phantom blade zero gets an 11-minute trailer, with a playstation state of play coming next week too"
+    "phantom blade zero gets an 11-minute trailer, with a playstation state of play coming next week too",
+    "here's what lord of the rings: war in the north looks like on xbox series x|s",
+    "helldivers 2 now on ps plus game catalog with new patch",
+    "viking tower defense action game hordeguard: winds of the north announced for pc",
+    "oblivion remastered could finally be fixed on ps5 as bethesda promises 'optimisations' patch"
   ],
   "seen_story_keys": [
-    "416e54e782293b32c441a34747972a61c069370c",
-    "69f638a92967769cb8c611c7983873dddfbf77be",
-    "2646dd90725590bc1d0a492ec77fdaa160756e1d",
-    "1bcac064a2afe30a23ab570c937935894fd6eb80",
     "85052eeeaf968406c47f9f09d21fdd0d932eccff",
     "02e47d489f3198c88454a1a680f1f6665c351d9a",
     "e6c5eccc706212e156d841b9fad290fb9302c58e",
@@ -15003,6 +14999,10 @@
     "1f0870bc65a149afe4d1c382185e133bc90fdb89",
     "697ebb7806a0c77a338a93aa1c2b4e8b386c31da",
     "0b6dc24f4d6cc4cbfe509bdd1c7b59d4df827a40",
-    "7a955431a4121063ea0a051746073e5019da5452"
+    "7a955431a4121063ea0a051746073e5019da5452",
+    "53ed371daa5564fd6a1d7f6d1c9e4ab53eee9d40",
+    "19bc1d4d616f94d36a09fc4e5d52214ad2655d6b",
+    "5a8346342b296dbcf41f313932af07b4ef70ac34",
+    "d41e49448361cc203bd126a4e983b3531467e6df"
   ]
 }
