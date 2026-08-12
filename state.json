@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/tamashika-launches-april-10-for-ps5-xbox-series-switch-and-pc",
-    "https://www.pushsquare.com/news/2026/03/this-is-finally-living-up-to-its-promise-ps5-pro-owners-thrilled-with-pssr-2-upgrade",
-    "https://www.bluesnews.com/s/295706/morning-patches",
-    "https://www.bluesnews.com/s/295704/morning-multiplex",
     "https://www.eurogamer.net/we-do-have-long-term-plans-ahead-of-starfields-ps5-launch-bethesda-teases-this-is-far-from-the-end-of-the-controversial-space-faring-rpgs-life",
     "https://www.gematsu.com/2026/03/cozy-room-decoration-game-momento-launches-in-q2-2026-for-ps5-switch-2-switch-and-pc",
     "https://www.purexbox.com/news/2026/03/these-12-games-are-coming-to-xbox-game-pass-march-17-april-7",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/gears-of-war-e-day-xbox-limited-edition-controllers/",
     "https://gamerant.com/new-witcher-multiplayer-game-sirius-layoffs/",
     "https://www.ign.com/articles/warhammer-40000-dawn-of-war-4-delayed-out-of-the-september-crush-dev-updates-roadmap-of-dlc",
-    "https://www.polygon.com/ps-plus-game-catalog-august-2026-update/"
+    "https://www.polygon.com/ps-plus-game-catalog-august-2026-update/",
+    "https://www.polygon.com/steam-wardogs-bulkhead-10-reasons-not-buy-tactical-fps-early-access/",
+    "https://www.rockpapershotgun.com/subnautica-2-now-has-a-beta-update-branch-letting-players-try-out-patches-before-theyre-finished-but-beware-your-saves-wont-carry-over",
+    "https://www.gematsu.com/2026/08/warhammer-40000-dawn-of-war-iv-delayed-to-december-3",
+    "https://www.gematsu.com/2026/08/playstation-plus-game-catalog-and-classics-catalog-lineup-for-august-2026-announced"
   ],
   "seen_titles": [
-    "tamashika launches april 10 for ps5, xbox series, switch, and pc",
-    "'this is finally living up to its promise': ps5 pro owners thrilled with pssr 2 upgrade",
-    "morning patches",
-    "morning multiplex",
     "\"we do have long-term plans\" - ahead of starfield's ps5 launch, bethesda teases this is far from the end of the controversial space-faring rpg's life",
     "cozy room decoration game momento launches in q2 2026 for ps5, switch 2, switch, and pc",
     "these 12 games are coming to xbox game pass (march 17 - april 7)",
@@ -10001,13 +9997,13 @@
     "xbox reveals limited edition controllers for october 2026 release",
     "new witcher game studio hit by layoffs",
     "warhammer 40,000: dawn of war 4 delayed out of the september crush, dev updates roadmap of dlc",
-    "ps plus extra august 2026 game catalog additions announced"
+    "ps plus extra august 2026 game catalog additions announced",
+    "steam shooter explodes in popularity after devs warn fans not to buy it",
+    "subnautica 2 now has a beta update branch, letting players try out patches before they're finished, but beware, your saves won't carry over",
+    "warhammer 40,000: dawn of war iv delayed to december 3",
+    "playstation plus game catalog and classics catalog lineup for august 2026 announced"
   ],
   "seen_story_keys": [
-    "d7d7cc5d03738a4e446586d70883c25d51e0dc3e",
-    "f49beb83b1b1b4de94204790b5850d47a993af97",
-    "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
-    "f312439acefc98d8e54c522c8dce6b874610c1ae",
     "9678104e357fcf583f91250a27ed5a62255afb7c",
     "11cf56c21f4a91f27664e082ce7e7642ea4c8564",
     "27001479bff8459d9f06a4c07fab2ecd81ec08b5",
@@ -15003,6 +14999,10 @@
     "11e69caf8da2e88c82c9a4b393e675ebf416bdd9",
     "760f55e62f589d1f9e7fa841bfccccd842c3a33d",
     "27fce4f8d2bbd090fb992b2d957648969bbc2c66",
-    "795706ed9db7d2a1cf3d27df63fb3bbaeabd241b"
+    "795706ed9db7d2a1cf3d27df63fb3bbaeabd241b",
+    "0a1d469bc9735d9aeb72a62040fe713d9c54a37f",
+    "91804ada435fee664ef93e995b2e37cddfb06c6e",
+    "1e87b00d8a654df1df37a997559b7f245986d849",
+    "7025b6bb6be5324cc967a9fd8028d6b49e70edbf"
   ]
 }
