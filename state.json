@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/we-do-have-long-term-plans-ahead-of-starfields-ps5-launch-bethesda-teases-this-is-far-from-the-end-of-the-controversial-space-faring-rpgs-life",
-    "https://www.gematsu.com/2026/03/cozy-room-decoration-game-momento-launches-in-q2-2026-for-ps5-switch-2-switch-and-pc",
-    "https://www.purexbox.com/news/2026/03/these-12-games-are-coming-to-xbox-game-pass-march-17-april-7",
-    "https://www.gematsu.com/2026/03/dissidia-duellum-final-fantasy-launches-march-24",
     "https://www.nintendolife.com/news/2026/03/pokemon-pokopia-updated-to-version-1-0-2-includes-improvements-and-fixes",
     "https://gamerant.com/nvidia-ceo-dlss-5-criticism-comment/",
     "https://www.nintendolife.com/news/2026/03/nintendo-expands-switch-2s-gamecube-library-this-week",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/steam-wardogs-bulkhead-10-reasons-not-buy-tactical-fps-early-access/",
     "https://www.rockpapershotgun.com/subnautica-2-now-has-a-beta-update-branch-letting-players-try-out-patches-before-theyre-finished-but-beware-your-saves-wont-carry-over",
     "https://www.gematsu.com/2026/08/warhammer-40000-dawn-of-war-iv-delayed-to-december-3",
-    "https://www.gematsu.com/2026/08/playstation-plus-game-catalog-and-classics-catalog-lineup-for-august-2026-announced"
+    "https://www.gematsu.com/2026/08/playstation-plus-game-catalog-and-classics-catalog-lineup-for-august-2026-announced",
+    "https://www.pcgamer.com/games/adventure/immortality-creator-sam-barlow-reveals-his-next-game-a-tale-of-visions-of-the-future-and-why-theyre-not-always-great/",
+    "https://www.rockpapershotgun.com/immortality-developer-sam-barlow-reveals-precognition-a-sci-fi-horror-collaboration-with-brandon-cronenberg-about-really-terrible-things-that-are-just-around-the-corner",
+    "https://www.gematsu.com/2026/08/half-mermaid-productions-precognition-formerly-project-c-launches-in-spring-2028-for-ps5-xbox-series-switch-2-and-pc",
+    "https://www.gematsu.com/2026/08/parasitic-metroidvania-shellbound-launches-in-summer-2028-for-ps5-xbox-series-switch-2-and-pc"
   ],
   "seen_titles": [
-    "\"we do have long-term plans\" - ahead of starfield's ps5 launch, bethesda teases this is far from the end of the controversial space-faring rpg's life",
-    "cozy room decoration game momento launches in q2 2026 for ps5, switch 2, switch, and pc",
-    "these 12 games are coming to xbox game pass (march 17 - april 7)",
-    "dissidia duellum final fantasy launches march 24",
     "pokémon pokopia updated to version 1.0.2, includes improvements & fixes",
     "nvidia ceo responds to dlss 5 criticism",
     "nintendo expands switch 2's gamecube library this week",
@@ -10001,13 +9997,13 @@
     "steam shooter explodes in popularity after devs warn fans not to buy it",
     "subnautica 2 now has a beta update branch, letting players try out patches before they're finished, but beware, your saves won't carry over",
     "warhammer 40,000: dawn of war iv delayed to december 3",
-    "playstation plus game catalog and classics catalog lineup for august 2026 announced"
+    "playstation plus game catalog and classics catalog lineup for august 2026 announced",
+    "immortality creator sam barlow reveals his next game: a tale of visions of the future, and why they're not always great",
+    "immortality developer sam barlow reveals precognition, a sci-fi horror collaboration with brandon cronenberg about \"really terrible things that are just around the corner\"",
+    "half mermaid productions’ precognition, formerly project c, launches in spring 2028 for ps5, xbox series, switch 2, and pc",
+    "‘parasitic metroidvania’ shellbound launches in summer 2028 for ps5, xbox series, switch 2, and pc"
   ],
   "seen_story_keys": [
-    "9678104e357fcf583f91250a27ed5a62255afb7c",
-    "11cf56c21f4a91f27664e082ce7e7642ea4c8564",
-    "27001479bff8459d9f06a4c07fab2ecd81ec08b5",
-    "a5fccfbfe99e725ef4ed045493c8fdbf4183e932",
     "3067cfc6f899286fd5622b4147313095a1755c63",
     "9707b2ef8a911f866a1132490e4385ff080d97c1",
     "5f9c9b4a7ee12afd7fa1fd4f01fc51f0deebba88",
@@ -15003,6 +14999,10 @@
     "0a1d469bc9735d9aeb72a62040fe713d9c54a37f",
     "91804ada435fee664ef93e995b2e37cddfb06c6e",
     "1e87b00d8a654df1df37a997559b7f245986d849",
-    "7025b6bb6be5324cc967a9fd8028d6b49e70edbf"
+    "7025b6bb6be5324cc967a9fd8028d6b49e70edbf",
+    "25f4ca805bdb6c22e59f12277e6f41aed1c44b48",
+    "03636a9fa3db9210be68f93c9bb8eb0bc01a70b1",
+    "3059e5e40e46915da86516cbc60e8a59be11b250",
+    "22be4be822ca194921fdf0099271ea27972b3e7a"
   ]
 }
