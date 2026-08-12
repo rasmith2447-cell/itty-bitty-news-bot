@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/helldivers-2-first-content-roadmap-reveals-new-enemies-are-coming-soon/1100-6538838/?ftag=CAD-01-10abi2f",
-    "https://www.gamespot.com/articles/nvidias-dlss-5-teases-ai-powered-photo-realistic-lighting-and-the-backlash-is-strong/1100-6538836/?ftag=CAD-01-10abi2f",
-    "https://www.rockpapershotgun.com/bethesda-reveal-starfields-terran-armada-dlc-its-about-a-space-robot-army-and-drops-alongside-a-beefy-free-overhaul-of-the-base-game",
-    "https://gamerant.com/gta-6-pc-release-date-delay/",
     "https://www.gematsu.com/2026/03/tamashika-launches-april-10-for-ps5-xbox-series-switch-and-pc",
     "https://www.pushsquare.com/news/2026/03/this-is-finally-living-up-to-its-promise-ps5-pro-owners-thrilled-with-pssr-2-upgrade",
     "https://www.bluesnews.com/s/295706/morning-patches",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/witcher-multiplayer-spin-off-project-sirius-hit-by-fresh-layoffs",
     "https://www.polygon.com/multiplayer-witcher-game-layoffs-project-sirius-update/",
     "https://www.gematsu.com/2026/08/harvest-moon-echoes-of-teradea-delayed-to-october-15",
-    "https://www.eurogamer.net/dawn-of-war-4-release-date-delay-december"
+    "https://www.eurogamer.net/dawn-of-war-4-release-date-delay-december",
+    "https://www.polygon.com/gears-of-war-e-day-xbox-limited-edition-controllers/",
+    "https://gamerant.com/new-witcher-multiplayer-game-sirius-layoffs/",
+    "https://www.ign.com/articles/warhammer-40000-dawn-of-war-4-delayed-out-of-the-september-crush-dev-updates-roadmap-of-dlc",
+    "https://www.polygon.com/ps-plus-game-catalog-august-2026-update/"
   ],
   "seen_titles": [
-    "helldivers 2's first content roadmap reveals new enemies are coming soon",
-    "nvidia's dlss 5 teases ai-powered, photo-realistic lighting--and the backlash is strong",
-    "bethesda reveal starfield's terran armada dlc: it's about a space robot army and drops alongside a beefy free overhaul of the base game",
-    "millions of grand theft auto 5 gamers won't get to play gta 6 at launch",
     "tamashika launches april 10 for ps5, xbox series, switch, and pc",
     "'this is finally living up to its promise': ps5 pro owners thrilled with pssr 2 upgrade",
     "morning patches",
@@ -10001,13 +9997,13 @@
     "witcher multiplayer spin-off project sirius hit by fresh layoffs",
     "team behind multiplayer witcher game 'project sirius' hit by layoffs",
     "harvest moon: echoes of teradea delayed to october 15",
-    "dawn of war 4 gets a release date delay to \"further refine the experience ahead of launch\""
+    "dawn of war 4 gets a release date delay to \"further refine the experience ahead of launch\"",
+    "xbox reveals limited edition controllers for october 2026 release",
+    "new witcher game studio hit by layoffs",
+    "warhammer 40,000: dawn of war 4 delayed out of the september crush, dev updates roadmap of dlc",
+    "ps plus extra august 2026 game catalog additions announced"
   ],
   "seen_story_keys": [
-    "1dd87d87e1ffbf4ed0541c5a322a7cef535207ac",
-    "f65fe2babb0cfc022b38bcf01201145e423d39a1",
-    "184edc343b557ebdd9d3219e10ecf6b49dcfb3fc",
-    "b007a09848aa4d279d44273b5ab3f972452ab39a",
     "d7d7cc5d03738a4e446586d70883c25d51e0dc3e",
     "f49beb83b1b1b4de94204790b5850d47a993af97",
     "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
@@ -15003,6 +14999,10 @@
     "44e05f0b00adb1ab4e13107b98c6eee99c70e4d8",
     "3f20da6cee9d9df8fd461779e6f2dcf3b6317b6c",
     "19bddb4ad5cf18016506913f898ccf694a7cfa15",
-    "87727a62d341904781666d10ab18a1123dd5b27d"
+    "87727a62d341904781666d10ab18a1123dd5b27d",
+    "11e69caf8da2e88c82c9a4b393e675ebf416bdd9",
+    "760f55e62f589d1f9e7fa841bfccccd842c3a33d",
+    "27fce4f8d2bbd090fb992b2d957648969bbc2c66",
+    "795706ed9db7d2a1cf3d27df63fb3bbaeabd241b"
   ]
 }
