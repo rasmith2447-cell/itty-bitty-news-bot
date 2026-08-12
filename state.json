@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/io-interactive-washes-its-hands-of-mindseye-after-disastrous-ps5-launch",
-    "https://www.gamespot.com/articles/arc-raiders-dev-co-founder-leaves-embark-studios-after-sexual-misconduct-accusations/1100-6538848/?ftag=CAD-01-10abi2f",
-    "https://www.polygon.com/spider-man-brand-new-day-trailer-date-first-look/",
-    "https://www.gamespot.com/articles/todd-howard-really-really-sorry-to-see-phil-spencer-retire-weighs-in-on-new-ceo/1100-6538840/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/helldivers-2-first-content-roadmap-reveals-new-enemies-are-coming-soon/1100-6538838/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/nvidias-dlss-5-teases-ai-powered-photo-realistic-lighting-and-the-backlash-is-strong/1100-6538836/?ftag=CAD-01-10abi2f",
     "https://www.rockpapershotgun.com/bethesda-reveal-starfields-terran-armada-dlc-its-about-a-space-robot-army-and-drops-alongside-a-beefy-free-overhaul-of-the-base-game",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/andy-weir-benjamin-percy-audible-exoplanet/",
     "https://www.pushsquare.com/news/2026/08/hungry-fans-hopeful-for-kingdom-hearts-4-updates-in-live-streamed-d23-panel",
     "https://www.eurogamer.net/ghost-of-yotei-complete-edition-cost-release",
-    "https://www.ign.com/articles/ps5-exclusive-ghost-of-ytei-is-getting-a-new-narrative-expansion-new-combat-survival-mode-and-more-as-part-of-a-complete-edition"
+    "https://www.ign.com/articles/ps5-exclusive-ghost-of-ytei-is-getting-a-new-narrative-expansion-new-combat-survival-mode-and-more-as-part-of-a-complete-edition",
+    "https://www.gamesindustry.biz/witcher-multiplayer-spin-off-project-sirius-hit-by-fresh-layoffs",
+    "https://www.polygon.com/multiplayer-witcher-game-layoffs-project-sirius-update/",
+    "https://www.gematsu.com/2026/08/harvest-moon-echoes-of-teradea-delayed-to-october-15",
+    "https://www.eurogamer.net/dawn-of-war-4-release-date-delay-december"
   ],
   "seen_titles": [
-    "io interactive washes its hands of mindseye after disastrous ps5 launch",
-    "arc raiders dev co-founder leaves embark studios after sexual misconduct accusations",
-    "spider-man: brand new trailer gets release date, first looks",
-    "todd howard \"really, really sorry\" to see phil spencer retire, weighs in on new ceo",
     "helldivers 2's first content roadmap reveals new enemies are coming soon",
     "nvidia's dlss 5 teases ai-powered, photo-realistic lighting--and the backlash is strong",
     "bethesda reveal starfield's terran armada dlc: it's about a space robot army and drops alongside a beefy free overhaul of the base game",
@@ -10001,13 +9997,13 @@
     "andy weir's new time travel thriller launches in just three months",
     "hungry fans hopeful for kingdom hearts 4 updates in live streamed d23 panel",
     "ghost of yōtei: complete edition is coming to ps5 later this year, with new story additions, a new roguelike survival mode, and more",
-    "ps5 exclusive ghost of yōtei is getting a new narrative expansion, new combat survival mode, and more as part of a complete edition"
+    "ps5 exclusive ghost of yōtei is getting a new narrative expansion, new combat survival mode, and more as part of a complete edition",
+    "witcher multiplayer spin-off project sirius hit by fresh layoffs",
+    "team behind multiplayer witcher game 'project sirius' hit by layoffs",
+    "harvest moon: echoes of teradea delayed to october 15",
+    "dawn of war 4 gets a release date delay to \"further refine the experience ahead of launch\""
   ],
   "seen_story_keys": [
-    "8596f3a793f9c8218eff3ded441498250cda2697",
-    "3047892386a199d3eef841ab55275b43291eae5d",
-    "e5f18721d7411ffc96a4511927767733f1721721",
-    "13d7bb7535396483f527f532f74fb867fbf4193f",
     "1dd87d87e1ffbf4ed0541c5a322a7cef535207ac",
     "f65fe2babb0cfc022b38bcf01201145e423d39a1",
     "184edc343b557ebdd9d3219e10ecf6b49dcfb3fc",
@@ -15003,6 +14999,10 @@
     "d93353096c685ed58a99bdab2c877eb9366cd04c",
     "35078c38209fb0c0cacaa5e9aa40248119d6e141",
     "5f8358d5e97c8067f95f4900b95ae8349bc77e61",
-    "00f304485008db655471953210a8df6bea8adc2e"
+    "00f304485008db655471953210a8df6bea8adc2e",
+    "44e05f0b00adb1ab4e13107b98c6eee99c70e4d8",
+    "3f20da6cee9d9df8fd461779e6f2dcf3b6317b6c",
+    "19bddb4ad5cf18016506913f898ccf694a7cfa15",
+    "87727a62d341904781666d10ab18a1123dd5b27d"
   ]
 }
