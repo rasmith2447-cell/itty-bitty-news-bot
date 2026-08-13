@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/sonic-racing-crossworlds-dlc-mega-man-pack-launches-march-25",
-    "https://www.gematsu.com/2026/03/shinobi-art-of-vengeance-dlc-sega-villains-stage-launches-april-3-alongside-free-update",
-    "https://www.nintendolife.com/news/2026/03/shinobi-art-of-vengeance-sega-villains-stage-dlc-arrives-next-month",
-    "https://www.rockpapershotgun.com/mass-effect-like-space-rpg-exodus-drops-another-in-game-trailer-much-to-the-misfortune-of-biggs-the-bolt-keil",
     "https://www.rockpapershotgun.com/ahead-of-hollow-knight-silksongs-sea-of-sorrow-expansion-team-cherry-have-gotten-their-traditional-chinese-and-german-translation-ducks-in-a-row",
     "https://gamerant.com/hollow-knight-silksong-update-patch-notes/",
     "https://gamerant.com/pixar-incredibles-3-release-date/",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/fortnite-override-chapter-7-season-4-persona-5-crossover-revealed/",
     "https://www.polygon.com/game-of-thones-war-for-westeros-gamescom-onl-trailer/",
     "https://www.ign.com/articles/total-war-warhammer-3-just-confirmed-the-release-date-for-its-biggest-piece-of-dlc-in-the-series-10-year-history",
-    "https://www.nintendolife.com/news/2026/08/pokemon-bank-is-shutting-down-in-february-2027"
+    "https://www.nintendolife.com/news/2026/08/pokemon-bank-is-shutting-down-in-february-2027",
+    "https://www.polygon.com/attack-on-titan-studio-teases-new-project/",
+    "https://gamerant.com/prime-gaming-free-games-august-2026-list/",
+    "https://www.gematsu.com/2026/08/darksiders-4-and-new-kingdom-come-game-to-launch-between-april-2027-and-march-2028",
+    "https://www.gematsu.com/2026/08/monowave-launches-september-16-for-switch-and-pc-later-in-2026-for-ps5-and-xbox-series"
   ],
   "seen_titles": [
-    "sonic racing: crossworlds dlc ‘mega man pack’ launches march 25",
-    "shinobi: art of vengeance dlc ‘sega villains stage’ launches april 3 alongside free update",
-    "shinobi: art of vengeance 'sega villains stage' dlc arrives next month",
-    "mass effect-like space rpg exodus drops another in-game trailer, much to the misfortune of biggs \"the bolt\" keil",
     "ahead of hollow knight: silksong's sea of sorrow expansion, team cherry have gotten their traditional chinese and german translation ducks in a row",
     "hollow knight: silksong reveals patch notes for new march 2026 update",
     "pixar announces official incredibles 3 release date",
@@ -10001,13 +9997,13 @@
     "‘persona 5’ is coming to ‘fortnite'",
     "new 'game of thrones' release promises to stun with its epic scale",
     "total war: warhammer 3 just confirmed the release date for its biggest piece of dlc in the series 10-year history",
-    "pokémon bank is shutting down in february 2027"
+    "pokémon bank is shutting down in february 2027",
+    "new 'attack on titan' project will be announced next week, wit studio teases",
+    "prime gaming reveals 9 free games for august 2026",
+    "darksiders 4 and new kingdom come game to launch between april 2027 and march 2028",
+    "monowave launches september 16 for switch and pc, later in 2026 for ps5 and xbox series"
   ],
   "seen_story_keys": [
-    "afe1ffa27515eb525282d838ef67d46bfd7c16d2",
-    "4a31b86bb7f6f8aefc82b9834e7ca0a92fcfb3fc",
-    "f3ea0902e2cc2592348b43922f3bb913437dc744",
-    "f858064b28e56e7f0c6a87138c26b0fcf995e853",
     "5e7e3710418fc6384d3f43550d4d9c866fd1cc10",
     "4dac1cdc09b6b266e324801fcde0fbbfb09c6155",
     "a88dcca748c1ffa01c3a840bca86d0be486bda29",
@@ -15003,6 +14999,10 @@
     "b57074fdf486272ca309511329ea89c73830dd86",
     "d1c7eb58956a9036c24d0082d1e6dcdacfefd9fe",
     "ca8e6d3a9eb1ca8dc2121ceb2f1e40b6336b7516",
-    "590dc743e983ecba97051bdea25e67f3cc16b3f6"
+    "590dc743e983ecba97051bdea25e67f3cc16b3f6",
+    "cd012e2b2a5621722a5782ab6f9850a9f360fb30",
+    "520ef8271819f5ee1ecb7943e3b849591a45fdb7",
+    "c6599d756ab0f122e6a5b924d43f8bb862426f4f",
+    "c5f079967979439a3483c6f4e7f95801b0372edc"
   ]
 }
