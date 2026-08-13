@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.rockpapershotgun.com/ahead-of-hollow-knight-silksongs-sea-of-sorrow-expansion-team-cherry-have-gotten-their-traditional-chinese-and-german-translation-ducks-in-a-row",
-    "https://gamerant.com/hollow-knight-silksong-update-patch-notes/",
-    "https://gamerant.com/pixar-incredibles-3-release-date/",
     "https://gamerant.com/arc-raiders-flashpoint-update-release-date/",
     "https://gamerant.com/free-ps5-open-world-games-seven-deadly-sins-origin/",
     "https://www.ign.com/articles/dont-expect-crimson-desert-xbox-series-x-or-s-gameplay-footage-before-launch",
@@ -4999,12 +4996,12 @@
     "https://www.polygon.com/attack-on-titan-studio-teases-new-project/",
     "https://gamerant.com/prime-gaming-free-games-august-2026-list/",
     "https://www.gematsu.com/2026/08/darksiders-4-and-new-kingdom-come-game-to-launch-between-april-2027-and-march-2028",
-    "https://www.gematsu.com/2026/08/monowave-launches-september-16-for-switch-and-pc-later-in-2026-for-ps5-and-xbox-series"
+    "https://www.gematsu.com/2026/08/monowave-launches-september-16-for-switch-and-pc-later-in-2026-for-ps5-and-xbox-series",
+    "https://www.videogameschronicle.com/news/netflix-is-shutting-down-oxenfree-studio-night-school-six-weeks-after-its-last-game-was-released/",
+    "https://www.gematsu.com/2026/08/netflix-to-close-night-school-studios-moonloot-games",
+    "https://www.gematsu.com/2026/08/high-on-life-vr-announced-for-ps-vr2-pc-and-quest"
   ],
   "seen_titles": [
-    "ahead of hollow knight: silksong's sea of sorrow expansion, team cherry have gotten their traditional chinese and german translation ducks in a row",
-    "hollow knight: silksong reveals patch notes for new march 2026 update",
-    "pixar announces official incredibles 3 release date",
     "arc raiders confirms release date for new flashpoint update",
     "new ps5 open-world rpg is available now, completely free of charge (no ps plus required)",
     "don't expect crimson desert xbox series x or s gameplay footage before launch",
@@ -10001,12 +9998,12 @@
     "new 'attack on titan' project will be announced next week, wit studio teases",
     "prime gaming reveals 9 free games for august 2026",
     "darksiders 4 and new kingdom come game to launch between april 2027 and march 2028",
-    "monowave launches september 16 for switch and pc, later in 2026 for ps5 and xbox series"
+    "monowave launches september 16 for switch and pc, later in 2026 for ps5 and xbox series",
+    "netflix is shutting down oxenfree studio night school, six weeks after its last game was released",
+    "netflix to close night school studios, moonloot games",
+    "high on life vr announced for ps vr2, pc, and quest"
   ],
   "seen_story_keys": [
-    "5e7e3710418fc6384d3f43550d4d9c866fd1cc10",
-    "4dac1cdc09b6b266e324801fcde0fbbfb09c6155",
-    "a88dcca748c1ffa01c3a840bca86d0be486bda29",
     "fa6bb932c3c3e243f12d61801c642bad66c65591",
     "6f147d5f9790f3a16b5ee902e92500d2e0960a6a",
     "ec083a8a54da046fb8ef022a499be8edf85d97f5",
@@ -15003,6 +15000,9 @@
     "cd012e2b2a5621722a5782ab6f9850a9f360fb30",
     "520ef8271819f5ee1ecb7943e3b849591a45fdb7",
     "c6599d756ab0f122e6a5b924d43f8bb862426f4f",
-    "c5f079967979439a3483c6f4e7f95801b0372edc"
+    "c5f079967979439a3483c6f4e7f95801b0372edc",
+    "82f4716b3d6f9b2fd295eb46f87b1d32c9ff2172",
+    "87c9d464460ae28c32c49f3b14931095e39935ea",
+    "a722ead92b2777cbc16e8b430b09771c5c7038b1"
   ]
 }
