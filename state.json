@@ -1,6 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/jaleco-arcade-collection-vol-1-and-vol-2-announced-for-pc",
     "https://www.nintendolife.com/news/2026/03/splatoon-3-is-getting-a-fresh-new-update-here-are-the-full-patch-notes",
     "https://www.bluesnews.com/s/295731/evening-patches",
     "https://www.bluesnews.com/s/295728/evening-multiplex",
@@ -4999,10 +4998,10 @@
     "https://www.nintendolife.com/news/2026/08/aspyr-promises-more-lord-of-the-rings-revivals-in-the-future",
     "https://www.gamesindustry.biz/codedev-group-launches-dev-studio-full-spectrum-interactive",
     "https://www.gematsu.com/2026/08/console-archives-touki-denshou-angel-eyes-launches-august-13",
-    "https://www.videogameschronicle.com/news/xbox-ceo-asha-sharma-says-the-elder-scrolls-6-is-incredible-as-bethesda-protesters-put-up-giant-rat-outside-building/"
+    "https://www.videogameschronicle.com/news/xbox-ceo-asha-sharma-says-the-elder-scrolls-6-is-incredible-as-bethesda-protesters-put-up-giant-rat-outside-building/",
+    "https://www.nintendolife.com/news/2026/08/nintendo-expands-switch-2s-gamecube-library-with-another-game-this-week"
   ],
   "seen_titles": [
-    "jaleco arcade collection vol. 1 and vol. 2 announced for pc",
     "splatoon 3 is getting a fresh new update, here are the full patch notes",
     "evening patches",
     "evening multiplex",
@@ -10001,10 +10000,10 @@
     "aspyr promises more lord of the rings revivals in the future",
     "codedev group launches dev studio full spectrum interactive",
     "console archives touki denshou angel eyes launches august 13",
-    "xbox ceo asha sharma says the elder scrolls 6 is ‘incredible’ as bethesda protesters put up giant rat outside building"
+    "xbox ceo asha sharma says the elder scrolls 6 is ‘incredible’ as bethesda protesters put up giant rat outside building",
+    "nintendo expands switch 2's gamecube library with another game this week"
   ],
   "seen_story_keys": [
-    "39d365eed75f5685a27203c6515648537d81770a",
     "548020f1b55309b54c27a9d10a180d8d54ec4045",
     "0c9a121cdc3a8f0602f802b215d9bd60f030aa34",
     "c6321b26ed95b71a16bb1ede8cc708e2552353bb",
@@ -15003,6 +15002,7 @@
     "3a6d4637f75c7c4191d5b167665aa371b9b13e51",
     "56d049b3a5d9e95e502c268fb2d081c274d52fa8",
     "e1786bc953afa692a52821c577ed2a783f3b9d66",
-    "15fa70c9126c30b458ec314320ecaaa9c4084e0a"
+    "15fa70c9126c30b458ec314320ecaaa9c4084e0a",
+    "1ef11356c152116ca504f2bbee744afe2493b1f2"
   ]
 }
