@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/game-pass-adds-disco-elysium-the-final-cut-resident-evil-7-biohazard-final-fantasy-iv-and-more-in-late-march",
-    "https://www.rockpapershotgun.com/helldivers-2-update-is-set-to-unleash-new-missions-to-combat-illuminate-alien-exostorms-and-battle-some-fresh-squid-enemies-this-week",
     "https://www.gematsu.com/2026/03/next-generation-rhythm-game-sound-system-launches-in-early-access-for-pc-on-october-16",
     "https://gamerant.com/bethesda-todd-howard-interview-elder-scrolls-6/",
     "https://www.pushsquare.com/news/2026/03/tekken-8s-huge-game-changing-season-3-balance-update-available-now-on-ps5",
@@ -4999,11 +4997,11 @@
     "https://www.gematsu.com/2026/08/pachinko-inspired-roguelike-game-high-roller-penny-announced-for-pc",
     "https://www.gematsu.com/2026/08/aniimo-launches-september-16",
     "https://www.eurogamer.net/twitch-tv-generative-ai-training-opt-out-nobody-would-opt-in",
-    "https://www.videogameschronicle.com/news/crimson-desert-studio-allocates-more-staff-to-dokev-the-open-world-creature-collecting-game-announced-in-2019/"
+    "https://www.videogameschronicle.com/news/crimson-desert-studio-allocates-more-staff-to-dokev-the-open-world-creature-collecting-game-announced-in-2019/",
+    "https://www.pushsquare.com/news/2026/08/ghost-of-yoteis-ps5-complete-edition-will-get-a-physical-disc-but-there-are-already-concerns",
+    "https://www.eurogamer.net/the-elder-scrolls-4-oblivion-remastered-performance-patch-switch-2"
   ],
   "seen_titles": [
-    "game pass adds disco elysium: the final cut, resident evil 7: biohazard, final fantasy iv, and more in late march",
-    "helldivers 2 update is set to unleash new missions to combat illuminate alien exostorms and battle some fresh squid enemies this week",
     "‘next-generation rhythm game’ sound system launches in early access for pc on october 16",
     "todd howard explains why bethesda avoids early reveals, but the elder scrolls 6 doesn't count",
     "tekken 8's huge, game-changing season 3 balance update available now on ps5",
@@ -10001,11 +9999,11 @@
     "pachinko-inspired roguelike game high roller penny announced for pc",
     "aniimo launches september 16",
     "twitch is training ai on livestreams, says it's an opt out feature as \"nobody would opt in\"",
-    "crimson desert studio allocates more staff to dokev, the open-world creature collecting game announced in 2019"
+    "crimson desert studio allocates more staff to dokev, the open-world creature collecting game announced in 2019",
+    "ghost of yotei's ps5 complete edition will get a physical disc, but there are already concerns",
+    "bethesda finally \"looking into\" patching oblivion remastered on pc, ps5 and xbox amid praise for switch 2 release"
   ],
   "seen_story_keys": [
-    "cc6df9168ccb97ba2106d42219f2b04a65b9c8a0",
-    "308d7a9d171b5fefeecb4c594e5ce56c4f32fd6a",
     "26cc2cb5ef7a99227a222b0b334285c191d76aee",
     "26ee3de3662c4408673234c9b731656637ebbe6f",
     "9495d13b1dcaaf2fe69412f369609ecc476b6968",
@@ -15003,6 +15001,8 @@
     "5c0c9cc202f1648bca20ed17e063f64f22985b60",
     "f59a0b0211890b31a7b8331c03a99f608cad65b5",
     "5a017071796a33165336898a9a27297b04a17eff",
-    "1d681a977c80748072ad36a68b68f5e74714f516"
+    "1d681a977c80748072ad36a68b68f5e74714f516",
+    "4dcd7be24d2156c36f65ec2d1e9253b3f1084dc1",
+    "378e7955e8cb4cdc501eaa6cef6e888d55a826e2"
   ]
 }
