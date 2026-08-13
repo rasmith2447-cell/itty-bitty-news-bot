@@ -1,6 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295728/evening-multiplex",
     "https://www.pushsquare.com/news/2026/03/weve-always-wanted-to-do-it-todd-howard-says-he-knew-starfield-ps5-would-be-a-matter-of-time",
     "https://www.gematsu.com/2026/03/game-pass-adds-disco-elysium-the-final-cut-resident-evil-7-biohazard-final-fantasy-iv-and-more-in-late-march",
     "https://www.rockpapershotgun.com/helldivers-2-update-is-set-to-unleash-new-missions-to-combat-illuminate-alien-exostorms-and-battle-some-fresh-squid-enemies-this-week",
@@ -4999,10 +4998,10 @@
     "https://www.videogameschronicle.com/news/xbox-ceo-asha-sharma-says-the-elder-scrolls-6-is-incredible-as-bethesda-protesters-put-up-giant-rat-outside-building/",
     "https://www.nintendolife.com/news/2026/08/nintendo-expands-switch-2s-gamecube-library-with-another-game-this-week",
     "https://www.gematsu.com/2026/08/pachinko-inspired-roguelike-game-high-roller-penny-announced-for-pc",
-    "https://www.gematsu.com/2026/08/aniimo-launches-september-16"
+    "https://www.gematsu.com/2026/08/aniimo-launches-september-16",
+    "https://www.eurogamer.net/twitch-tv-generative-ai-training-opt-out-nobody-would-opt-in"
   ],
   "seen_titles": [
-    "evening multiplex",
     "'we've always wanted to do it': todd howard says he knew starfield ps5 would be a 'matter of time'",
     "game pass adds disco elysium: the final cut, resident evil 7: biohazard, final fantasy iv, and more in late march",
     "helldivers 2 update is set to unleash new missions to combat illuminate alien exostorms and battle some fresh squid enemies this week",
@@ -10001,10 +10000,10 @@
     "xbox ceo asha sharma says the elder scrolls 6 is ‘incredible’ as bethesda protesters put up giant rat outside building",
     "nintendo expands switch 2's gamecube library with another game this week",
     "pachinko-inspired roguelike game high roller penny announced for pc",
-    "aniimo launches september 16"
+    "aniimo launches september 16",
+    "twitch is training ai on livestreams, says it's an opt out feature as \"nobody would opt in\""
   ],
   "seen_story_keys": [
-    "c6321b26ed95b71a16bb1ede8cc708e2552353bb",
     "2481362e9e5a8af260b9e4b63e84938a48ae2ff1",
     "cc6df9168ccb97ba2106d42219f2b04a65b9c8a0",
     "308d7a9d171b5fefeecb4c594e5ce56c4f32fd6a",
@@ -15003,6 +15002,7 @@
     "15fa70c9126c30b458ec314320ecaaa9c4084e0a",
     "1ef11356c152116ca504f2bbee744afe2493b1f2",
     "5c0c9cc202f1648bca20ed17e063f64f22985b60",
-    "f59a0b0211890b31a7b8331c03a99f608cad65b5"
+    "f59a0b0211890b31a7b8331c03a99f608cad65b5",
+    "5a017071796a33165336898a9a27297b04a17eff"
   ]
 }
