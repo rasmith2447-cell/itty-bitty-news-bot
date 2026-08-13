@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/03/playground-games-says-ditching-xbox-one-will-help-forza-horizon-6s-post-launch-plans",
-    "https://www.gematsu.com/2026/03/console-archives-ninja-kid-ii-launches-march-19",
-    "https://gamerant.com/marvel-rivals-season-7-update-patch-notes/",
-    "https://www.polygon.com/mindseye-publisher-ioi-hitman-crossover-canceled/",
     "https://www.pcgamer.com/hardware/memory/you-know-its-bad-when-ram-manufacturers-launch-dummy-kits-to-make-it-look-as-though-you-have-dual-channel-memory-when-you-actually-dont/",
     "https://www.gematsu.com/2026/03/adventure-mystery-game-lost-found-announced-for-pc",
     "https://www.bluesnews.com/s/295768/nvidia-critics-completely-wrong-about-dlss-5",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/grounded-2-reveals-fully-updated-year-2-early-access-roadmap/",
     "https://www.gematsu.com/2026/08/co-op-island-adventure-game-nautus-announced-for-pc",
     "https://www.pushsquare.com/news/2026/08/darksiders-4-next-kingdom-come-game-both-planned-to-launch-before-march-2028",
-    "https://www.ign.com/articles/nautus-echoes-from-below-announced-for-pc"
+    "https://www.ign.com/articles/nautus-echoes-from-below-announced-for-pc",
+    "https://www.polygon.com/elder-scrolls-6-name-title-starfield-easter-egg/",
+    "https://www.polygon.com/pokemon-bank-end-of-service-announced-transfer-to-home/",
+    "https://gamerant.com/epic-games-store-august-2026-free-games-cardpocalypse/",
+    "https://www.ign.com/articles/insomniac-confirms-marvels-wolverine-performance-mode-details"
   ],
   "seen_titles": [
-    "playground games says ditching xbox one will help forza horizon 6's post-launch plans",
-    "console archives ninja-kid ii launches march 19",
-    "marvel rivals reveals season 7 characters and major balancing update",
-    "mindseye's hitman crossover canceled as publisher ioi breaks up with the game's developer",
     "you know it's bad when ram manufacturers launch dummy kits to make it look as though you have dual-channel memory when you actually don't",
     "adventure mystery game lost & found announced for pc",
     "nvidia: critics \"completely wrong\" about dlss 5",
@@ -10001,13 +9997,13 @@
     "grounded 2 reveals fully updated year 2 early access roadmap",
     "co-op island adventure game nautus announced for pc",
     "darksiders 4, next kingdom come game both planned to launch before march 2028",
-    "nautus: echoes from below announced for pc"
+    "nautus: echoes from below announced for pc",
+    "an elder scrolls 6 secret has been hiding in starfield for years",
+    "pokémon bank shutting down leaves fans in mourning",
+    "epic games store officially reveals pokemon-inspired freebie for august 20",
+    "insomniac confirms marvel's wolverine performance mode details"
   ],
   "seen_story_keys": [
-    "f79ed0f85488f7ad2a7d776e50144f248e9f0d7e",
-    "84ae358fd47215a350cb97df5fdd7ac9329e4925",
-    "d2b2943159b1fddbeaf1c3db7fb4af21f8f53179",
-    "79e3b1ebe152ae103a2c26eac6b0264d0b196cd4",
     "4154f89ead0972bc3d0686073e80527dcff1f03b",
     "06ede871fbc93e30a615a3018264020142637cad",
     "9e46d7507ee01d3af69c37e91932b9b07e532e34",
@@ -15003,6 +14999,10 @@
     "96d4b31e0bdc4b6418ae1044f516a8e821714d42",
     "7faa23decff03ae2ee5706be16b534d50b14afca",
     "fc1fbfee9ec26bdc7855c9e904006ba0ad5d2b65",
-    "28ad9083e7d0492f85dff33efbb270c2cb3477d9"
+    "28ad9083e7d0492f85dff33efbb270c2cb3477d9",
+    "5b5626b4843bdc1034ff854aef0bfeb4e8732364",
+    "cba5c8a34274d93d290118b1818c4257588a2666",
+    "e37f7f8e21eee2684f3b761bf947a0089c513d82",
+    "6db0d96e42303ceb5e41490a7773a189f7a77e0a"
   ]
 }
