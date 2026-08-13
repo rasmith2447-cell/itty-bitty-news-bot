@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295758/morning-patches",
-    "https://www.gematsu.com/2026/03/deep-space-co-op-cleaning-simulation-game-cleaner-company-announced-for-pc",
-    "https://www.polygon.com/shinobi-art-of-vengeance-dlc-release-date-villains/",
-    "https://www.gematsu.com/2026/03/kiln-launches-april-23",
     "https://www.gematsu.com/2026/03/sonic-racing-crossworlds-dlc-mega-man-pack-launches-march-25",
     "https://www.gematsu.com/2026/03/shinobi-art-of-vengeance-dlc-sega-villains-stage-launches-april-3-alongside-free-update",
     "https://www.nintendolife.com/news/2026/03/shinobi-art-of-vengeance-sega-villains-stage-dlc-arrives-next-month",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/08/songs-of-glimmerwick-launches-september-30-for-pc-later-for-consoles",
     "https://www.gematsu.com/2026/08/mafia-the-omerta-collection-announced-for-ps5-xbox-series-and-pc",
     "https://www.ign.com/articles/halo-studios-went-too-far-in-the-wrong-direction-co-creator-of-halo-hits-out-at-the-main-menu-ring-in-xboxs-new-remake",
-    "https://www.ign.com/articles/game-of-thrones-war-for-westeros-gameplay-reveal-shows-lannister-troops-getting-cooked-by-a-fire-breathing-dragon-with-a-longer-look-due-later-this-month"
+    "https://www.ign.com/articles/game-of-thrones-war-for-westeros-gameplay-reveal-shows-lannister-troops-getting-cooked-by-a-fire-breathing-dragon-with-a-longer-look-due-later-this-month",
+    "https://www.polygon.com/fortnite-override-chapter-7-season-4-persona-5-crossover-revealed/",
+    "https://www.polygon.com/game-of-thones-war-for-westeros-gamescom-onl-trailer/",
+    "https://www.ign.com/articles/total-war-warhammer-3-just-confirmed-the-release-date-for-its-biggest-piece-of-dlc-in-the-series-10-year-history",
+    "https://www.nintendolife.com/news/2026/08/pokemon-bank-is-shutting-down-in-february-2027"
   ],
   "seen_titles": [
-    "morning patches",
-    "deep space co-op cleaning simulation game cleaner company announced for pc",
-    "shinobi art of vengeance dlc adds dr. robotnik, goro majima in april",
-    "kiln launches april 23",
     "sonic racing: crossworlds dlc ‘mega man pack’ launches march 25",
     "shinobi: art of vengeance dlc ‘sega villains stage’ launches april 3 alongside free update",
     "shinobi: art of vengeance 'sega villains stage' dlc arrives next month",
@@ -10001,13 +9997,13 @@
     "songs of glimmerwick launches september 30 for pc, later for consoles",
     "mafia: the omerta collection announced for ps5, xbox series, and pc",
     "'halo studios went too far in the wrong direction' — co-creator of halo hits out at the main menu ring in xbox's new remake",
-    "game of thrones: war for westeros gameplay reveal shows lannister troops getting cooked by a fire-breathing dragon, with a longer look due later this month"
+    "game of thrones: war for westeros gameplay reveal shows lannister troops getting cooked by a fire-breathing dragon, with a longer look due later this month",
+    "‘persona 5’ is coming to ‘fortnite'",
+    "new 'game of thrones' release promises to stun with its epic scale",
+    "total war: warhammer 3 just confirmed the release date for its biggest piece of dlc in the series 10-year history",
+    "pokémon bank is shutting down in february 2027"
   ],
   "seen_story_keys": [
-    "fa3d35329045bfdb5a0e551ecce2618ddac8ebec",
-    "59c3462480f824348581cb6d892429c0c55536d4",
-    "d2a79303fc1569fe92b0abae24e75a9f5b64d3e4",
-    "5bd80ae3e87784ff03e285888c6d320e2c99ba4a",
     "afe1ffa27515eb525282d838ef67d46bfd7c16d2",
     "4a31b86bb7f6f8aefc82b9834e7ca0a92fcfb3fc",
     "f3ea0902e2cc2592348b43922f3bb913437dc744",
@@ -15003,6 +14999,10 @@
     "6696f14796361f016cc2a36a7cd60edaa5f34f75",
     "21253222608272e6d19f9ee4b86393ae31e744bb",
     "7c8538fb2c40983e1a5d142b6551ad4669ca8cee",
-    "2aa86c881b0594aa50c8522f16c9304142f1baa6"
+    "2aa86c881b0594aa50c8522f16c9304142f1baa6",
+    "b57074fdf486272ca309511329ea89c73830dd86",
+    "d1c7eb58956a9036c24d0082d1e6dcdacfefd9fe",
+    "ca8e6d3a9eb1ca8dc2121ceb2f1e40b6336b7516",
+    "590dc743e983ecba97051bdea25e67f3cc16b3f6"
   ]
 }
