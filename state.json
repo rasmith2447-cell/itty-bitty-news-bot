@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/control-developer-remedy-releases-final-update-for-beleaguered-multiplayer-spinoff-fbc-firebreak-lowers-price-and-launches-friend-pass",
-    "https://www.eurogamer.net/hollow-knight-silksong-gets-final-significant-patch-before-sea-of-sorrow-expansion",
-    "https://gamerant.com/playstation-highguard-refunds-ps5/",
-    "https://www.pushsquare.com/news/2026/03/nvidia-says-youre-all-completely-wrong-about-its-controversial-ai-upscaler-dlss-5",
     "https://www.purexbox.com/news/2026/03/playground-games-says-ditching-xbox-one-will-help-forza-horizon-6s-post-launch-plans",
     "https://www.gematsu.com/2026/03/console-archives-ninja-kid-ii-launches-march-19",
     "https://gamerant.com/marvel-rivals-season-7-update-patch-notes/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/08/lovecraftian-extraction-first-person-shooter-waste-the-fallen-announced-for-pc",
     "https://www.gematsu.com/2026/08/cinematic-single-player-adventure-rpg-curator-announced-for-ps5-xbox-series-and-pc",
     "https://gamerant.com/blood-of-dawnwalker-rpg-everything-confirmed-details/",
-    "https://gamerant.com/arc-raiders-frozen-trail-update-release-date-details/"
+    "https://gamerant.com/arc-raiders-frozen-trail-update-release-date-details/",
+    "https://gamerant.com/grounded-2-reveals-fully-updated-year-2-early-access-roadmap/",
+    "https://www.gematsu.com/2026/08/co-op-island-adventure-game-nautus-announced-for-pc",
+    "https://www.pushsquare.com/news/2026/08/darksiders-4-next-kingdom-come-game-both-planned-to-launch-before-march-2028",
+    "https://www.ign.com/articles/nautus-echoes-from-below-announced-for-pc"
   ],
   "seen_titles": [
-    "control developer remedy releases final update for beleaguered multiplayer spinoff fbc: firebreak, lowers price and launches friend pass",
-    "hollow knight: silksong gets final \"significant\" patch before sea of sorrow expansion",
-    "playstation is giving some highguard players refunds",
-    "nvidia says you're all 'completely wrong' about its controversial ai upscaler dlss 5",
     "playground games says ditching xbox one will help forza horizon 6's post-launch plans",
     "console archives ninja-kid ii launches march 19",
     "marvel rivals reveals season 7 characters and major balancing update",
@@ -10001,13 +9997,13 @@
     "lovecraftian extraction first-person shooter waste the fallen announced for pc",
     "cinematic single-player adventure rpg .curator announced for ps5, xbox series, and pc",
     "everything officially confirmed about the blood of dawnwalker",
-    "arc raiders frozen trail update confirms release date and new details"
+    "arc raiders frozen trail update confirms release date and new details",
+    "grounded 2 reveals fully updated year 2 early access roadmap",
+    "co-op island adventure game nautus announced for pc",
+    "darksiders 4, next kingdom come game both planned to launch before march 2028",
+    "nautus: echoes from below announced for pc"
   ],
   "seen_story_keys": [
-    "db7d3a74f812f968e174f5a5e191cffcf3e6c328",
-    "26a28c1cfb789ed7d7c04e299b7181a288b4cbe6",
-    "b509ad4c7b0a6a72bf23e64efde352dd3c9d783a",
-    "2be8d3e21a4cc8e69b69fca4a0d894a17e516c8b",
     "f79ed0f85488f7ad2a7d776e50144f248e9f0d7e",
     "84ae358fd47215a350cb97df5fdd7ac9329e4925",
     "d2b2943159b1fddbeaf1c3db7fb4af21f8f53179",
@@ -15003,6 +14999,10 @@
     "8d4ca0c8f6400a09ba682b0bfb4c9fa1b12bfccc",
     "490cea5147b5b0dc4ca5bc2dc892984347461320",
     "643bfdd6d3c7e0bb41836e19e27d2a17dd18b861",
-    "bf77c9c8cfd642fc45bc703dc1de74ef4c0bcc0b"
+    "bf77c9c8cfd642fc45bc703dc1de74ef4c0bcc0b",
+    "96d4b31e0bdc4b6418ae1044f516a8e821714d42",
+    "7faa23decff03ae2ee5706be16b534d50b14afca",
+    "fc1fbfee9ec26bdc7855c9e904006ba0ad5d2b65",
+    "28ad9083e7d0492f85dff33efbb270c2cb3477d9"
   ]
 }
