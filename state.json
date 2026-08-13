@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/crunchyroll-revives-elden-ring-makers-sleeper-ps4-hit-as-a-kick-ass-anime",
-    "https://www.pcgamer.com/hardware/graphics-cards/intel-must-also-hate-waiting-for-shaders-to-compile-as-it-begins-bundling-pre-compiled-code-into-arc-drivers-for-faster-load-times/",
-    "https://www.pushsquare.com/news/2026/03/after-ps5-ps4-and-ps-portal-even-ps3-gets-a-console-update",
-    "https://www.eurogamer.net/mindseye-developer-build-a-rocket-boy-and-publisher-ioi-partners-complete-separation",
     "https://www.ign.com/articles/control-developer-remedy-releases-final-update-for-beleaguered-multiplayer-spinoff-fbc-firebreak-lowers-price-and-launches-friend-pass",
     "https://www.eurogamer.net/hollow-knight-silksong-gets-final-significant-patch-before-sea-of-sorrow-expansion",
     "https://gamerant.com/playstation-highguard-refunds-ps5/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/hogwarts-legacy-2-switch-2-day-one-advantage/",
     "https://www.ign.com/articles/nintendo-now-warning-in-store-customers-of-switch-2-price-hike-with-just-over-2-weeks-to-go-until-cost-increases",
     "https://www.rockpapershotgun.com/were-not-really-sure-what-big-walks-future-looks-like-say-the-waddling-co-op-puzzlers-devs-though-it-probably-doesnt-involve-dlc",
-    "https://www.videogameschronicle.com/news/efootballs-latest-season-launches-today-including-a-new-mini-game-made-by-platinumgames/"
+    "https://www.videogameschronicle.com/news/efootballs-latest-season-launches-today-including-a-new-mini-game-made-by-platinumgames/",
+    "https://www.gematsu.com/2026/08/lovecraftian-extraction-first-person-shooter-waste-the-fallen-announced-for-pc",
+    "https://www.gematsu.com/2026/08/cinematic-single-player-adventure-rpg-curator-announced-for-ps5-xbox-series-and-pc",
+    "https://gamerant.com/blood-of-dawnwalker-rpg-everything-confirmed-details/",
+    "https://gamerant.com/arc-raiders-frozen-trail-update-release-date-details/"
   ],
   "seen_titles": [
-    "crunchyroll revives elden ring maker's sleeper ps4 hit as a kick-ass anime",
-    "intel must also hate waiting for shaders to compile as it begins bundling pre-compiled code into arc drivers for faster load times",
-    "after ps5, ps4, and ps portal, even ps3 gets a console update",
-    "mindseye developer build a rocket boy and ioi partners announce \"transition\" of the game's publishing rights, hitman crossover now dead",
     "control developer remedy releases final update for beleaguered multiplayer spinoff fbc: firebreak, lowers price and launches friend pass",
     "hollow knight: silksong gets final \"significant\" patch before sea of sorrow expansion",
     "playstation is giving some highguard players refunds",
@@ -10001,13 +9997,13 @@
     "hogwarts legacy 2 has a launch-day advantage its predecessor never had",
     "nintendo now warning in-store customers of switch 2 price hike, with just over 2 weeks to go until cost increases",
     "\"we're not really sure what big walk's future looks like,\" say the waddling co-op puzzler's devs, though it probably doesn’t involve dlc",
-    "efootball’s latest season launches today, including a new mini-game made by platinumgames"
+    "efootball’s latest season launches today, including a new mini-game made by platinumgames",
+    "lovecraftian extraction first-person shooter waste the fallen announced for pc",
+    "cinematic single-player adventure rpg .curator announced for ps5, xbox series, and pc",
+    "everything officially confirmed about the blood of dawnwalker",
+    "arc raiders frozen trail update confirms release date and new details"
   ],
   "seen_story_keys": [
-    "883f374d213bbb5206acc52cd8b62dd6fee85eec",
-    "c0b715f01905606e3b2c4fa35358224074130061",
-    "7114fe98c88cc9bb6f22bc2a2156485f56482025",
-    "5ffc820bd2dcb8bd2c25e1749522cbeb0a1649cc",
     "db7d3a74f812f968e174f5a5e191cffcf3e6c328",
     "26a28c1cfb789ed7d7c04e299b7181a288b4cbe6",
     "b509ad4c7b0a6a72bf23e64efde352dd3c9d783a",
@@ -15003,6 +14999,10 @@
     "a0f7c7fa26145fdd9f0e027ed18fa30deab0cb28",
     "091d159ea0b7854727a2ddbe9ff97cc88aba4c9e",
     "2c76c5c332a8ff8432c4cf7657adcecf97d88990",
-    "d73ac24b11afca34c7d1e79d30e5d6098084388e"
+    "d73ac24b11afca34c7d1e79d30e5d6098084388e",
+    "8d4ca0c8f6400a09ba682b0bfb4c9fa1b12bfccc",
+    "490cea5147b5b0dc4ca5bc2dc892984347461320",
+    "643bfdd6d3c7e0bb41836e19e27d2a17dd18b861",
+    "bf77c9c8cfd642fc45bc703dc1de74ef4c0bcc0b"
   ]
 }
