@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/03/silksongs-last-significant-update-before-dlc-launch-has-been-revealed-here-are-the-full-patch-notes",
-    "https://www.videogameschronicle.com/news/the-nearly-20-year-old-ps3-just-got-another-system-update/",
-    "https://gamerant.com/sims-4-hotfix-update-march-2026-black-screen/",
     "https://www.ign.com/articles/disney-reveals-lilo-stitch-2-and-incredibles-3-release-dates",
     "https://www.gematsu.com/2026/03/konami-announces-party-royale-soccer-game-kick-buds-for-pc-ios-and-android",
     "https://www.gematsu.com/2026/03/cozy-adventure-game-duck-side-of-the-moon-launches-may-7-for-switch-pc",
@@ -4999,12 +4996,12 @@
     "https://www.gamesindustry.biz/netflix-shutters-night-school-studio-and-moonloot-games",
     "https://www.purexbox.com/news/2026/08/halo-studios-reveals-five-main-highlights-in-campaign-evolveds-next-update",
     "https://www.pushsquare.com/news/2026/08/system-shock-high-on-life-more-are-breathing-new-life-into-psvr2",
-    "https://www.pushsquare.com/news/2026/08/youll-have-to-wait-until-2028-to-play-ps5s-shiniest-jankiest-sci-fi-adventure"
+    "https://www.pushsquare.com/news/2026/08/youll-have-to-wait-until-2028-to-play-ps5s-shiniest-jankiest-sci-fi-adventure",
+    "https://gamerant.com/forgotten-open-world-games-aged-badly-like-milk/",
+    "https://www.purexbox.com/news/2026/08/1986-amiga-classic-gets-rebuilt-with-two-new-game-modes-for-xbox-series-xs",
+    "https://www.pushsquare.com/news/2026/08/halo-campaign-evolved-ps5-update-lands-next-week-with-tech-fixes"
   ],
   "seen_titles": [
-    "silksong's \"last significant update\" before dlc launch has been revealed, here are the full patch notes",
-    "the nearly 20-year-old ps3 just got another system update",
-    "the sims 4 gets new hotfix update, but it's causing some problems",
     "disney reveals lilo & stitch 2 and incredibles 3 release dates",
     "konami announces party royale soccer game kick buds for pc, ios, and android",
     "cozy adventure game duck side of the moon launches may 7 for switch, pc",
@@ -10001,12 +9998,12 @@
     "netflix shutters night school studio and moonloot games",
     "halo studios reveals five main highlights in campaign evolved's next update",
     "system shock, high on life, more are breathing new life into psvr2",
-    "you'll have to wait until 2028 to play ps5's shiniest, jankiest sci-fi adventure"
+    "you'll have to wait until 2028 to play ps5's shiniest, jankiest sci-fi adventure",
+    "forgotten open-world games that aged like milk",
+    "1986 amiga classic gets rebuilt with two new game modes for xbox series x|s",
+    "halo: campaign evolved ps5 update lands next week with tech fixes"
   ],
   "seen_story_keys": [
-    "357781e9f5984804e7987d41f413a0298af8301a",
-    "ea74fa040577ce3783825f824986cce7e5de0d01",
-    "20fffad65cd56983218d39f3d870dfe29fbfbb9c",
     "fbf8b8fbd61eb4575641365573d1c02e082fbd75",
     "37cf98c8be315c0e1201e037c521b73643b6201e",
     "92e6e150ea89ad8bfc35740a0ee3acc5e2bf2f3d",
@@ -15003,6 +15000,9 @@
     "fbd946a049d18574003c084c08082b43345b48f1",
     "9c3e0ca86b2cce2018a45e2e9abf441a8452809d",
     "4e7beb1a9535893242083cb2dd4b099273a7b292",
-    "32e5584a326bef67fdfb55086f84343726f86885"
+    "32e5584a326bef67fdfb55086f84343726f86885",
+    "c21a813ac2259b17eb04d6693407c1f138b9d5ee",
+    "473a80df737b46bb24639ec9155738b0f4e8f812",
+    "fec11013b8df770921890c5fb8e7488c1117379d"
   ]
 }
