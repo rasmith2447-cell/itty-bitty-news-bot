@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/mega-man-blasts-onto-ps5-ps4s-sonic-racing-crossworlds-with-dlc-launch-next-week",
-    "https://www.pcgamer.com/games/action/crimson-desert-launch-time-release-date/",
-    "https://www.bluesnews.com/s/295790/kiln-launch-next-month-playtest-signups",
-    "https://www.bluesnews.com/s/295786/dark-scrolls-announced",
     "https://www.nintendolife.com/news/2026/03/sonic-racing-crossworlds-version-1-3-1-is-now-live-here-are-the-full-patch-notes",
     "https://www.nintendolife.com/news/2026/03/pokemon-legends-z-a-version-2-0-1-is-now-live-here-are-the-full-patch-notes",
     "https://www.nintendolife.com/news/2026/03/super-mario-bros-wonder-has-been-updated-to-version-1-1-0-here-are-the-full-patch-notes",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/disney-kingdom-hearts-billion-dollar-franchise/",
     "https://www.gematsu.com/2026/08/honkai-star-rail-version-4-5-update-to-roll-the-stars-in-astropolis-launches-august-26",
     "https://www.pcgamer.com/hardware/the-epic-games-launcher-will-be-available-on-linux-soon-says-dev-after-its-had-a-bit-of-work/",
-    "https://www.polygon.com/mandalorian-and-grogu-disney-plus-release-date-star-wars/"
+    "https://www.polygon.com/mandalorian-and-grogu-disney-plus-release-date-star-wars/",
+    "https://www.pcgamer.com/games/rpg/a-dev-tried-to-warn-wb-games-not-to-launch-lord-of-the-rings-war-in-the-north-10-days-before-skyrim-but-was-overruled/",
+    "https://www.purexbox.com/features/talking-point-amid-rising-console-prices-what-would-you-do-if-your-xbox-broke-tomorrow",
+    "https://www.polygon.com/roblox-senate-investigation-2026/",
+    "https://www.polygon.com/patchdle-daily-browser-patch-notes-game-trivia-wordle/"
   ],
   "seen_titles": [
-    "mega man blasts onto ps5, ps4's sonic racing: crossworlds with dlc launch next week",
-    "crimson desert launch times and release date",
-    "kiln launch next month; playtest signups",
-    "dark scrolls announced",
     "sonic racing: crossworlds version 1.3.1 is now live, here are the full patch notes",
     "pokémon legends z-a version 2.0.1 is now live, here are the full patch notes",
     "super mario bros. wonder has been updated to version 1.1.0, here are the full patch notes",
@@ -10001,13 +9997,13 @@
     "disney reveals kingdom hearts is now a billion-dollar game franchise",
     "honkai: star rail version 4.5 update ‘to roll the stars in astropolis’ launches august 26",
     "the epic games launcher will be available on linux 'soon' says dev, after it's had a bit of work",
-    "star wars the mandalorian and grogu gets disney plus streaming date"
+    "star wars the mandalorian and grogu gets disney plus streaming date",
+    "a dev tried to warn wb games not to launch lord of the rings: war in the north 10 days before skyrim, but was 'overruled'",
+    "talking point: amid rising console prices, what would you do if your xbox broke tomorrow?",
+    "congress is opening an investigation into ‘roblox’ over child exploitation",
+    "patchdle is the toughest wordle-like for gamers"
   ],
   "seen_story_keys": [
-    "72882504cdf615dbda9976ff1edb1a30ee4952fb",
-    "d3ef893ddc54da3de4bc01358dfdc85bde0ac2ef",
-    "ccedc095f09898556119411ef8dfb785eba0735e",
-    "5c41412e0543ee2027732c77d867468e3c311713",
     "532446ecc82273cc410d6048b0a0b57e4bfe75ed",
     "d48f94a13e81c5097a70d5154a8af1e59850dcf6",
     "2adb760f538d9ee52fc11b096180101a7bc92dbd",
@@ -15003,6 +14999,10 @@
     "5a12a85d9439447ffeefdd8676bb80945e30014f",
     "2fb9279e7e796e6d0ea90f91054f91dc47fe0a44",
     "0e21ddfaa1cd52f0026b6af2764c24b9764aa3e2",
-    "5dfc88c5cc47fa668297a00a12d1a07d9dac725f"
+    "5dfc88c5cc47fa668297a00a12d1a07d9dac725f",
+    "42c31a8f5c9512509be7a3e63997f48de1241efc",
+    "1059ea13c28f67a92653babca21276725a2b5a22",
+    "96b5a816222f48b8849b2fc53a279cd987373280",
+    "201fabb23bd23858316e15356f1b9dba00edb059"
   ]
 }
