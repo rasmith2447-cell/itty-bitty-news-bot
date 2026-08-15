@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/03/pokemon-legends-z-a-has-received-a-small-patch-today",
-    "https://gamerant.com/playstation-5-pro-ps5-pssr2/",
-    "https://www.gematsu.com/2026/03/ghost-hunting-co-op-adventure-game-spook-a-boo-announced-for-ps5-xbox-series-switch-and-pc",
     "https://www.gamesindustry.biz/crystal-dynamics-reduces-workforce-by-20-roles",
     "https://www.gamespot.com/articles/new-counter-strike-2-update-completely-changes-how-you-manage-ammo/1100-6538881/?ftag=CAD-01-10abi2f",
     "https://www.eurogamer.net/tomb-raider-studio-hit-with-fourth-round-of-layoffs-in-12-months-but-remake-and-catalyst-development-continues",
@@ -4999,12 +4996,12 @@
     "https://www.pcgamer.com/software/platforms/us-senate-launches-investigation-into-roblox-children-on-your-platform-are-hurting-congress-will-not-look-the-other-way/",
     "https://www.gamespot.com/articles/rideshare-stimulator-outlines-ai-usage-after-contentious-exchange-with-ex-writer/",
     "https://www.ign.com/articles/toy-story-3-will-be-delisted-on-xbox-just-weeks-before-launch-of-new-remaster",
-    "https://gamerant.com/switch-2-dk-challenge-donkey-kong-trading-cards-reward/"
+    "https://gamerant.com/switch-2-dk-challenge-donkey-kong-trading-cards-reward/",
+    "https://www.polygon.com/kingdom-hearts-4-pixar-coco-anime-disney-plus-d23/",
+    "https://www.nintendolife.com/news/2026/08/the-simpsons-hit-and-run-could-be-making-a-return-in-some-form",
+    "https://www.ign.com/articles/star-wars-disney-series-ahsoka-season-2-finally-has-a-release-date"
   ],
   "seen_titles": [
-    "pokémon legends z-a has received a small patch today",
-    "how to enable pssr 2 on ps5 pro (fix ghosting & improve graphics)",
-    "ghost hunting co-op adventure game spook-a-boo announced for ps5, xbox series, switch, and pc",
     "crystal dynamics reduces workforce by 20 roles",
     "new counter-strike 2 update completely changes how you manage ammo",
     "tomb raider studio hit with fourth round of layoffs in 12 months, but remake and catalyst development continues",
@@ -10001,12 +9998,12 @@
     "us senate launches investigation into roblox: 'children on your platform are hurting. congress will not look the other way'",
     "rideshare stimulator outlines ai usage after contentious exchange with ex-writer",
     "toy story 3 will be delisted on xbox just weeks before launch of new remaster",
-    "nintendo reveals free donkey kong merch, but there's a big catch"
+    "nintendo reveals free donkey kong merch, but there's a big catch",
+    "kingdom hearts 4 release date and anime announced at d23",
+    "the simpsons hit & run could be making a return \"in some form\"",
+    "star wars disney+ series ahsoka season 2 finally has a release date"
   ],
   "seen_story_keys": [
-    "91828248e937792ad14f70e1eb63bb1ba2fd29f1",
-    "95095f4f37e5d23bce8ae66f38377f310f1b327f",
-    "ef918be1bcdcab90f76bf1872b709758e14a6742",
     "b244f77fc828909492d725352bfc1e8082ceed49",
     "da5ddba2e0f39657adea9d377de565238ca5656a",
     "908b819c696bc39b62fa219ce894393a7725558a",
@@ -15003,6 +15000,9 @@
     "3392c68e607dfbc0f3dcd31b5102adebef000da9",
     "97ac82728dde5ac2d5f939b3a4a8d6064b53dab9",
     "e01d8edae56952ba852112f7b37132cc56e93ee2",
-    "dc87a58eb8a9797b667ed2738c64800523ea760c"
+    "dc87a58eb8a9797b667ed2738c64800523ea760c",
+    "bac170730b305cf5986fed92f7d552495e8c1fe6",
+    "2b87f679019f9671eff3d9e5958672b8154b634d",
+    "55d613dbdafc073287568162d6b315981b996035"
   ]
 }
