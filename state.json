@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.rockpapershotgun.com/departures-are-necessary-say-crystal-dynamics-say-as-they-yet-again-lay-off-tomb-raider-staff-but-theyre-fully-committed-to-the-reboot-and-sequel",
-    "https://www.ign.com/articles/spider-man-beyond-the-spider-verse-on-schedule-producers-hype-up-amazing-new-things-for-spot",
-    "https://www.gematsu.com/2026/03/fatal-fury-city-of-the-wolves-dlc-character-blue-mary-launches-march-26",
-    "https://www.eurogamer.net/pokemon-go-helps-train-gps-ai-for-niantic-spatial",
     "https://www.pcgamer.com/hardware/graphics-cards/capcom-and-ubisoft-developers-surprised-by-dlss-5-announcement-we-found-out-at-the-same-time-as-the-public/",
     "https://www.purexbox.com/news/2026/03/keep-the-feedback-coming-xbox-boss-says-new-console-features-were-built-two-weeks-ago",
     "https://www.gematsu.com/2026/03/pokemon-trading-card-game-pocket-themed-booster-pack-mega-shine-launches-march-26",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/avengers-doomsday-trailer-2-marvel-d23/",
     "https://www.ign.com/articles/disneys-live-action-tangled-remake-sets-2028-release-date-d23-2026",
     "https://www.ign.com/articles/marvel-studios-reveal-debut-visionquest-trailer-james-spaders-ultron-shown-in-human-form",
-    "https://www.nintendolife.com/news/2026/08/disney-kingdom-hearts-anime-series-coming-soon"
+    "https://www.nintendolife.com/news/2026/08/disney-kingdom-hearts-anime-series-coming-soon",
+    "https://www.nintendolife.com/news/2026/08/disney-dreamlight-valley-teases-fourth-expansion-the-keepsake-sea-and-jack-sparrow",
+    "https://www.gematsu.com/2026/08/kingdom-hearts-original-anime-series-announced",
+    "https://www.gematsu.com/2026/08/kingdom-hearts-iv-launches-in-late-2027",
+    "https://www.gematsu.com/2026/08/stick-it-to-the-stickman-launches-september-23"
   ],
   "seen_titles": [
-    "\"departures are necessary,\" crystal dynamics say as they yet again lay off tomb raider staff, but they're \"fully committed\" to the reboot and sequel",
-    "spider-man: beyond the spider-verse 'on schedule,' producers hype up 'amazing new things' for spot",
-    "fatal fury: city of the wolves dlc character blue mary launches march 26",
-    "a new partnership reveals pokémon go players might be helping train data-gobbling ai gps for a robotics company - if you opt in",
     "capcom and ubisoft developers surprised by dlss 5 announcement: “we found out at the same time as the public\"",
     "'keep the feedback coming' - xbox boss says new console features were built two weeks ago",
     "pokemon trading card game pocket themed booster pack ‘mega shine’ launches march 26",
@@ -10001,13 +9997,13 @@
     "new avengers: doomsday trailer revealed at d23",
     "disney's live-action tangled remake sets 2028 release date | d23 2026",
     "marvel studios reveal debut visionquest trailer, james spader's ultron shown in human form",
-    "disney kingdom hearts anime series \"coming soon\""
+    "disney kingdom hearts anime series \"coming soon\"",
+    "disney dreamlight valley teases fourth expansion 'the keepsake sea' and jack sparrow",
+    "kingdom hearts original anime series announced",
+    "kingdom hearts iv launches in late 2027",
+    "stick it to the stickman launches september 23"
   ],
   "seen_story_keys": [
-    "149ed7b4c007974f65a4afa0031fcbbb5e3dab3a",
-    "0fc1f25e92d9ed2ae60964a307d0d4976b2f3221",
-    "da087baf52e194ba95708214b628ab07dac8c6c5",
-    "a06d0eb8015d030da5405eac5a702993eb1eabca",
     "c1b5dbc361ccaa058c1085a797e297da7c28e7d4",
     "6e6373fd8fca1bb63a91c07f6564e152d8d6e2fb",
     "4ba709cbd1ef1a6ba582fd748bcaaed0b3c21768",
@@ -15003,6 +14999,10 @@
     "546ec271a07a72fa865ebbb51a4b2014b7bf0bbb",
     "e484dfe5e49d6b2346ae48b8615471353a50f338",
     "3c484c4c66eefc087d79c81cd808d308de3c3a5c",
-    "921e72a52358d1237245a0c8b8fad700409f376e"
+    "921e72a52358d1237245a0c8b8fad700409f376e",
+    "8a27e31c10bd77a9e830d64868da0a7463254fc6",
+    "b9acc4b0bc13127e913bad4909be8f8ab79e4617",
+    "4136c96eb2f2700994b1fadf9751055709f36a6d",
+    "4ec90049ab60b42e9db8365c1406d9da987408f3"
   ]
 }
