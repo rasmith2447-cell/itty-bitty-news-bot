@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamesindustry.biz/crystal-dynamics-reduces-workforce-by-20-roles",
-    "https://www.gamespot.com/articles/new-counter-strike-2-update-completely-changes-how-you-manage-ammo/1100-6538881/?ftag=CAD-01-10abi2f",
-    "https://www.eurogamer.net/tomb-raider-studio-hit-with-fourth-round-of-layoffs-in-12-months-but-remake-and-catalyst-development-continues",
     "https://www.gamesindustry.biz/respawn-playstation-studios-and-ea-full-circle-among-first-speakers-for-developbrighton-2026",
     "https://www.nintendolife.com/news/2026/03/tomb-raider-i-iii-remastered-publisher-responds-to-ai-outfit-allegations",
     "https://www.rockpapershotgun.com/departures-are-necessary-say-crystal-dynamics-say-as-they-yet-again-lay-off-tomb-raider-staff-but-theyre-fully-committed-to-the-reboot-and-sequel",
@@ -4999,12 +4996,12 @@
     "https://gamerant.com/switch-2-dk-challenge-donkey-kong-trading-cards-reward/",
     "https://www.polygon.com/kingdom-hearts-4-pixar-coco-anime-disney-plus-d23/",
     "https://www.nintendolife.com/news/2026/08/the-simpsons-hit-and-run-could-be-making-a-return-in-some-form",
-    "https://www.ign.com/articles/star-wars-disney-series-ahsoka-season-2-finally-has-a-release-date"
+    "https://www.ign.com/articles/star-wars-disney-series-ahsoka-season-2-finally-has-a-release-date",
+    "https://www.polygon.com/x-men-movie-news-cast-announced-d23-marvel/",
+    "https://www.polygon.com/avengers-doomsday-trailer-2-marvel-d23/",
+    "https://www.ign.com/articles/disneys-live-action-tangled-remake-sets-2028-release-date-d23-2026"
   ],
   "seen_titles": [
-    "crystal dynamics reduces workforce by 20 roles",
-    "new counter-strike 2 update completely changes how you manage ammo",
-    "tomb raider studio hit with fourth round of layoffs in 12 months, but remake and catalyst development continues",
     "respawn, playstation studios and ea full circle among first speakers for develop:brighton 2026",
     "tomb raider i-iii remastered publisher responds to ai outfit allegations",
     "\"departures are necessary,\" crystal dynamics say as they yet again lay off tomb raider staff, but they're \"fully committed\" to the reboot and sequel",
@@ -10001,12 +9998,12 @@
     "nintendo reveals free donkey kong merch, but there's a big catch",
     "kingdom hearts 4 release date and anime announced at d23",
     "the simpsons hit & run could be making a return \"in some form\"",
-    "star wars disney+ series ahsoka season 2 finally has a release date"
+    "star wars disney+ series ahsoka season 2 finally has a release date",
+    "marvel officially reveals new x-men movie cast at d23",
+    "new avengers: doomsday trailer revealed at d23",
+    "disney's live-action tangled remake sets 2028 release date | d23 2026"
   ],
   "seen_story_keys": [
-    "b244f77fc828909492d725352bfc1e8082ceed49",
-    "da5ddba2e0f39657adea9d377de565238ca5656a",
-    "908b819c696bc39b62fa219ce894393a7725558a",
     "53fb8f731cdebeff3c5bb37e547eccc436f11ccb",
     "6854a754d76a551e97ee848e3f5d7e378acae0e2",
     "149ed7b4c007974f65a4afa0031fcbbb5e3dab3a",
@@ -15003,6 +15000,9 @@
     "dc87a58eb8a9797b667ed2738c64800523ea760c",
     "bac170730b305cf5986fed92f7d552495e8c1fe6",
     "2b87f679019f9671eff3d9e5958672b8154b634d",
-    "55d613dbdafc073287568162d6b315981b996035"
+    "55d613dbdafc073287568162d6b315981b996035",
+    "370178c6e29c1bd341c837f45fb9e3db2a609355",
+    "546ec271a07a72fa865ebbb51a4b2014b7bf0bbb",
+    "e484dfe5e49d6b2346ae48b8615471353a50f338"
   ]
 }
