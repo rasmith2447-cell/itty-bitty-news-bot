@@ -230,11 +230,11 @@ def load_digest_stories() -> tuple:
 # ---------------------------------------------------------------------------
 
 GOTW_OVERRIDE = {
-    "title":       "MARVEL Tōkon: Fighting Souls",
-    "description": "Arc System Works — the team behind Guilty Gear — just dropped their Marvel universe brawler and it's a blast, especially on PS5. Build your dream team from 20 iconic Marvel heroes and villains in this 4v4 tag team fighter with bold anime-inspired visuals, dynamic stage transitions, and a single-player campaign. If you're a Marvel fan or a fighting game fan, this one's worth your time — just stick to the PS5 version for the smoothest experience.",
-    "platform":    "Available on PS5 & PC (Steam)",
-    "url":         "https://store.steampowered.com/app/3787240/MARVEL_Tkon_Fighting_Souls/",
-    "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/3787240/header.jpg",
+    "title":       "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "description": "The Zone is calling. STALKER 2 is one of the most atmospheric survival FPS games ever made — a massive open-world set in the Chornobyl Exclusion Zone packed with deadly anomalies, brutal enemies, and a story shaped by your choices. And it just got even better — the free Update 2.0 'Back to the Zone' drops August 20th, bringing a new engine version, AI overhaul, new weapons, binoculars, fog weather, and customizable difficulty. Now is the perfect time to jump in.",
+    "platform":    "Available on PC (Steam, Epic, GOG), Xbox Series X|S & Xbox Game Pass",
+    "url":         "https://store.steampowered.com/app/1643320/STALKER_2_Heart_of_Chornobyl/",
+    "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/1643320/header.jpg",
 }
 
 GOTW_FALLBACK = {
