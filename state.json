@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/reinstated-subnautica-2-studio-ceo-says-publisher-krafton-self-servingly-chose-its-release-date-without-permission/",
-    "https://www.nintendolife.com/news/2026/03/random-a-classic-super-mario-cartoon-is-heading-to-metv-toons-in-the-us",
     "https://gamerant.com/wuthering-waves-version-3-2-update-patch-notes/",
     "https://www.rockpapershotgun.com/us-regulator-wont-follow-europes-lead-and-stick-higher-age-ratings-on-games-with-loot-boxes-and-daily-quests-since-it-might-confuse-parents",
     "https://www.pushsquare.com/news/2026/03/fbc-firebreak-permanently-slashes-price-as-its-final-major-update-goes-live-on-ps5",
@@ -4999,11 +4997,11 @@
     "https://www.polygon.com/skyrim-fallout-4-update-bethesda-mods-error-break-nexus/",
     "https://www.ign.com/articles/marvel-studios-ghost-rider-sets-july-2028-release-date",
     "https://www.gematsu.com/2026/08/marvel-cosmic-invasion-dlc-the-siege-of-castle-doom-announced",
-    "https://www.gematsu.com/2026/08/hubert-launches-in-october"
+    "https://www.gematsu.com/2026/08/hubert-launches-in-october",
+    "https://www.polygon.com/ghost-rider-ryan-gosling-2028-release-date/",
+    "https://www.gematsu.com/2026/08/devolver-digital-and-dark-dark-goose-announce-hyperdrop-a-pachinko-roguelite-for-pc"
   ],
   "seen_titles": [
-    "reinstated subnautica 2 studio ceo says publisher krafton ‘self-servingly’ chose its release date without permission",
-    "random: a classic super mario cartoon is heading to metv toons in the us",
     "wuthering waves version 3.2 update is officially out now",
     "us regulator won't follow europe's lead and stick higher age ratings on games with loot boxes and daily quests, since it might confuse parents",
     "fbc: firebreak permanently slashes price as its final major update goes live on ps5",
@@ -10001,11 +9999,11 @@
     "bethesda warns skyrim & fallout 4 players of mod-breaking update",
     "marvel studios' ghost rider sets july 2028 release date",
     "marvel cosmic invasion dlc ‘the siege of castle doom’ announced",
-    "hubert launches in october"
+    "hubert launches in october",
+    "marvel's ghost rider movie gets official 2028 release date",
+    "devolver digital and dark dark goose announce hyperdrop: a pachinko roguelite for pc"
   ],
   "seen_story_keys": [
-    "cfc7b236b8a70407cb81589c08b8e65e43daa112",
-    "23946e98e8e1204ec6c7c24c3d4efb2316746f37",
     "ca7a11298dccbd7ed4f835034693549d5c315871",
     "c29430b398d104d97e1ca0539345f8ffd26e1660",
     "390989f0b9ffc5587037ea89c3e1c6d754e895d6",
@@ -15003,6 +15001,8 @@
     "63e3fdf7df595913705456f3d43adefc6c103922",
     "dfe5b97c2e0ccdc24c3bc3d8b5f785deb6d732cd",
     "8a314aa564e9bb02ee503607507e990bb34daead",
-    "6a3f54a105fe4ffdf1934ee646093828d5bad51d"
+    "6a3f54a105fe4ffdf1934ee646093828d5bad51d",
+    "4f0c114ddb111e93392d3da1dfb70971123f783e",
+    "c1a8dfe8ca9356ec0fd990da5850886261c6ca7e"
   ]
 }
