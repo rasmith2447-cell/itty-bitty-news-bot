@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/crystal-dynamics-has-announced-its-fourth-round-of-layoffs-in-a-year/",
-    "https://gamerant.com/world-of-warcraft-midnight-season-1-twitch-drop/",
-    "https://www.pcgamer.com/games/rpg/the-sequel-to-the-most-underrated-rpg-of-2022-is-launching-in-early-access-next-month-but-you-can-try-its-massive-updated-demo-right-now/",
     "https://www.gamespot.com/articles/crimson-desert-item-storage-stash/1100-6538800/?ftag=CAD-01-10abi2f",
     "https://gamerant.com/fortnite-v-buck-pack-prices-pass-costs-march-2026-updates/",
     "https://www.bluesnews.com/s/295838/red-storm-entertainment-ends-game-development",
@@ -4999,12 +4996,12 @@
     "https://www.gamesindustry.biz/us-senate-to-investigate-roblox-following-claims-it-prioritises-revenue-and-engagement-over-child-safety",
     "https://www.pushsquare.com/news/2026/08/sony-still-hasnt-decided-when-to-launch-ps6-says-ceo",
     "https://www.videogameschronicle.com/news/playstation-6-release-date-still-hasnt-been-decided-sony-ceo-hiroki-totoki-says/",
-    "https://www.videogameschronicle.com/news/official-online-servers-for-the-switch-version-of-ark-survival-evolved-will-shut-down-this-month/"
+    "https://www.videogameschronicle.com/news/official-online-servers-for-the-switch-version-of-ark-survival-evolved-will-shut-down-this-month/",
+    "https://gamerant.com/playstation-6-ps6-release-date-ceo-statement/",
+    "https://gamerant.com/fortnite-override-season-reveal-mega-man-sonic/",
+    "https://www.pushsquare.com/news/2026/08/youll-never-play-this-cancelled-star-wars-action-rpg-appearing-online-following-studio-closure"
   ],
   "seen_titles": [
-    "crystal dynamics has announced its fourth round of layoffs in a year",
-    "world of warcraft reveals yet another new twitch drop",
-    "the sequel to the most underrated rpg of 2022 is launching in early access next month, but you can try its massive updated demo right now",
     "where can you store items in crimson desert",
     "all v-buck pack prices & updated pass costs",
     "red storm entertainment ends game development",
@@ -10001,12 +9998,12 @@
     "us senate to investigate roblox following claims it \"prioritises revenue and engagement\" over child safety",
     "sony still hasn't decided when to launch ps6, says ceo",
     "playstation 6 release date still hasn’t been decided, sony ceo hiroki totoki says",
-    "official online servers for the switch version of ark: survival evolved will shut down this month"
+    "official online servers for the switch version of ark: survival evolved will shut down this month",
+    "playstation ceo gives new official statement on the ps6 release date",
+    "fortnite officially reveals gaming-inspired override season",
+    "you'll never play this cancelled star wars action rpg, appearing online following studio closure"
   ],
   "seen_story_keys": [
-    "3496e10b56407f0ef12928f626f95e8f133fc366",
-    "447c4fdad9140659a3f99c2c17cc6f38a47373af",
-    "0452db6861e279178b232672ca3fb42bf911b752",
     "1d4a656db5097d6c99b5e8cd356cea0bd60d2374",
     "05c3a988654daa6ff309a2d69c5e7c400bcd13aa",
     "da61b5234822f9c988e226ca07fc8da6b77c3bc8",
@@ -15003,6 +15000,9 @@
     "a48430d6849f763eb266fdb46557ee4e46b3bedd",
     "88a4172aba0d830dd9966f19862e36546276e4d8",
     "6503dff44adf6b5657295e5bcfff345cc562b81d",
-    "834d54cc42bfb558148f5cf33877810d2aa1f9d3"
+    "834d54cc42bfb558148f5cf33877810d2aa1f9d3",
+    "ac160a6ff43b1e7e98c4afb1125dfff4ca48733d",
+    "90325e097f28a88a6e7847f8fa4d825fea6194a2",
+    "96e3fb292428dceb09f09070ce7a1021d31e6dab"
   ]
 }
