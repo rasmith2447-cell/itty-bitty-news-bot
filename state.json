@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295865/intel-gpus-can-t-run-crimson-desert",
-    "https://www.bluesnews.com/s/295864/escape-by-spoon-announced",
     "https://www.eurogamer.net/cd-projekt-red-witcher-3-expansion-questions",
     "https://www.eurogamer.net/slay-the-spire-2-first-patch",
     "https://www.purexbox.com/news/2026/03/rollercoaster-tycoon-classic-is-randomly-set-to-shadow-drop-on-xbox-very-soon",
@@ -4999,11 +4997,11 @@
     "https://www.ign.com/articles/deus-ex-system-shock-and-thief-developer-legend-warren-spector-announces-retirement",
     "https://www.rockpapershotgun.com/talking-trees-flying-witch-heads-and-an-unsettling-rabbit-man-await-in-the-shrubbery-of-cursed-woodland-ranger-sim-i-hear-the-forest",
     "https://www.pushsquare.com/news/2026/08/trails-in-the-sky-1st-chapter-gets-surprise-ps5-patch-hardcore-fans-celebrate-changes",
-    "https://gamerant.com/acotar-court-thorns-roses-books-6-7-names-titles/"
+    "https://gamerant.com/acotar-court-thorns-roses-books-6-7-names-titles/",
+    "https://www.gamesindustry.biz/deus-ex-creator-warren-spector-announces-retirement-its-time-to-ride-off-into-the-sunset",
+    "https://www.pushsquare.com/news/2026/08/7-ps-plus-extra-premium-game-removals-for-september-2026-confirmed"
   ],
   "seen_titles": [
-    "intel gpus can't run crimson desert",
-    "escape by spoon announced",
     "cd projekt red stays coy when questioned about witcher 3 expansion shadow drop",
     "slay the spire 2 reveals first major patch, with \"huge\" balance pass, phobia mode, and adjusted classes and cards",
     "rollercoaster tycoon classic is randomly set to shadow drop on xbox very soon",
@@ -10001,11 +9999,11 @@
     "deus ex, system shock, and thief developer legend warren spector announces retirement",
     "talking trees, flying witch heads and an unsettling rabbit man await in the shrubbery of cursed woodland ranger sim i hear the forest",
     "trails in the sky 1st chapter gets surprise ps5 patch, hardcore fans celebrate changes",
-    "acotar book 6 and 7 titles officially announced"
+    "acotar book 6 and 7 titles officially announced",
+    "deus ex creator warren spector announces retirement – \"it's time to ride off into the sunset\"",
+    "7 ps plus extra, premium game removals for september 2026 confirmed"
   ],
   "seen_story_keys": [
-    "844791caea7bea4ceba391457053247270c8accc",
-    "2443768d98e9135dadfd852113ae562f33de71f9",
     "713b11ed43e3e0e62e415c2ae30b551dd5872b84",
     "ae7f0bcb54038a1582f4308ed038517b2aed1195",
     "67d7f05c8b42cd781e633577bb64c57c435b95c0",
@@ -15003,6 +15001,8 @@
     "578d2775c5e6dc86a27c74a6c0727f3e6a1454ae",
     "8215342701c678f9fb1a58cc7dd70190a92dd091",
     "d7ec1954481df74d15ba8e6c3b63ca87df146a0b",
-    "97e509b530e2fe48a1dedfd379bd9e18a8d19450"
+    "97e509b530e2fe48a1dedfd379bd9e18a8d19450",
+    "69c54d15d92d4611c44130922c81393f496659f5",
+    "6e3a758ee6cb47fb399a8e80f6d90d6960b8560f"
   ]
 }
