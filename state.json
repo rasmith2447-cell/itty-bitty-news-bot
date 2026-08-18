@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/cd-projekt-red-witcher-3-expansion-questions",
-    "https://www.eurogamer.net/slay-the-spire-2-first-patch",
-    "https://www.purexbox.com/news/2026/03/rollercoaster-tycoon-classic-is-randomly-set-to-shadow-drop-on-xbox-very-soon",
     "https://www.ign.com/articles/riot-details-new-legends-mechanics-and-more-for-riftbounds-third-set-unleashed",
     "https://gamerant.com/xbox-game-pass-day-one-games-april-2026-vampire-crawlers-release-date/",
     "https://www.gamespot.com/articles/how-a-failed-multiplayer-game-just-set-the-standard-for-all-live-service-games/1100-6538929/?ftag=CAD-01-10abi2f",
@@ -4999,12 +4996,12 @@
     "https://www.pushsquare.com/news/2026/08/trails-in-the-sky-1st-chapter-gets-surprise-ps5-patch-hardcore-fans-celebrate-changes",
     "https://gamerant.com/acotar-court-thorns-roses-books-6-7-names-titles/",
     "https://www.gamesindustry.biz/deus-ex-creator-warren-spector-announces-retirement-its-time-to-ride-off-into-the-sunset",
-    "https://www.pushsquare.com/news/2026/08/7-ps-plus-extra-premium-game-removals-for-september-2026-confirmed"
+    "https://www.pushsquare.com/news/2026/08/7-ps-plus-extra-premium-game-removals-for-september-2026-confirmed",
+    "https://www.pushsquare.com/news/2026/08/ps5s-most-promising-anime-open-world-will-re-emerge-next-week",
+    "https://www.gematsu.com/2026/08/order-of-the-sinking-star-launches-october-8",
+    "https://www.pushsquare.com/news/2026/08/braid-the-witness-devs-massive-new-puzzle-game-comes-to-ps5-in-october"
   ],
   "seen_titles": [
-    "cd projekt red stays coy when questioned about witcher 3 expansion shadow drop",
-    "slay the spire 2 reveals first major patch, with \"huge\" balance pass, phobia mode, and adjusted classes and cards",
-    "rollercoaster tycoon classic is randomly set to shadow drop on xbox very soon",
     "riot details new legends, mechanics, and more for riftbound's third set, unleashed",
     "day one xbox game pass game officially confirmed for april 21",
     "how a failed multiplayer game just set the standard for all live-service games",
@@ -10001,12 +9998,12 @@
     "trails in the sky 1st chapter gets surprise ps5 patch, hardcore fans celebrate changes",
     "acotar book 6 and 7 titles officially announced",
     "deus ex creator warren spector announces retirement – \"it's time to ride off into the sunset\"",
-    "7 ps plus extra, premium game removals for september 2026 confirmed"
+    "7 ps plus extra, premium game removals for september 2026 confirmed",
+    "ps5's most promising anime open world will re-emerge next week",
+    "order of the sinking star launches october 8",
+    "braid, the witness dev's massive new puzzle game comes to ps5 in october"
   ],
   "seen_story_keys": [
-    "713b11ed43e3e0e62e415c2ae30b551dd5872b84",
-    "ae7f0bcb54038a1582f4308ed038517b2aed1195",
-    "67d7f05c8b42cd781e633577bb64c57c435b95c0",
     "1c3c58100a53c320bbb4092aeccbb5de66a747e7",
     "f21be81696266124b7a2f506843e7e935a5b5516",
     "87f3276d3408202896bf76f4a163c8b31b10c5db",
@@ -15003,6 +15000,9 @@
     "d7ec1954481df74d15ba8e6c3b63ca87df146a0b",
     "97e509b530e2fe48a1dedfd379bd9e18a8d19450",
     "69c54d15d92d4611c44130922c81393f496659f5",
-    "6e3a758ee6cb47fb399a8e80f6d90d6960b8560f"
+    "6e3a758ee6cb47fb399a8e80f6d90d6960b8560f",
+    "05fc8349a4464dad877122dda9b0143c707fb6b6",
+    "ee46b073f2e6588fbacddd308a8ede4b12404b6d",
+    "417e66518c50c3983d2506e9d862df32e7b5552c"
   ]
 }
