@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/assassins-creed-shadows-developer-comments-one-year-anniversary/",
-    "https://www.polygon.com/slay-the-spire-2-patch-infinite-doormaker-prepared-card-changes-steam-reviews/",
     "https://www.polygon.com/subnautica-2-legal-drama-mess-early-access-release-window/",
     "https://www.eurogamer.net/psychonauts-and-keeper-developers-game-pass-party-game-kiln-gets-a-release-date-and-its-coming-really-very-soon",
     "https://www.pcgamer.com/gaming-industry/subnautica-2-chief-says-krafton-is-still-messing-with-him-because-the-may-release-date-announcement-was-news-to-him-and-hes-not-super-happy-about-it/",
@@ -4999,11 +4997,11 @@
     "https://gamerant.com/control-resonant-release-date-physical-delayed-october-15/",
     "https://www.nintendolife.com/news/2026/08/gallery-celebrating-oblivion-remastereds-switch-2-physical-with-some-bethesda-goodies",
     "https://www.ign.com/articles/fallout-4-patch-updates-the-creation-kit-fixes-various-bugs-including-steam-deck-crash",
-    "https://www.rockpapershotgun.com/entropy-a-deliciously-miserable-final-fantasy-esque-rpg-where-your-party-members-can-permanently-die-is-now-out-in-early-access"
+    "https://www.rockpapershotgun.com/entropy-a-deliciously-miserable-final-fantasy-esque-rpg-where-your-party-members-can-permanently-die-is-now-out-in-early-access",
+    "https://www.gematsu.com/2026/08/horde-survival-and-pve-extraction-hybrid-nightrunner-announced-for-pc",
+    "https://www.gematsu.com/2026/08/relaxing-puzzle-building-game-hexplorando-announced-for-switch-pc"
   ],
   "seen_titles": [
-    "assassin's creed shadows developer comments on the game, one year after launch",
-    "slay the spire 2 slammed on steam over patch that makes game harder",
     "subnautica 2 legal mess continues as rehired ceo argues release announcement was 'damaging'",
     "psychonauts and keeper developer's game pass party game kiln gets a release date, and it's coming really very soon",
     "subnautica 2 chief says krafton is still messing with him, because the may release date announcement was news to him and he's not super-happy about it",
@@ -10001,11 +9999,11 @@
     "control resonant's physical release officially delayed",
     "gallery: celebrating oblivion remastered's switch 2 physical with some bethesda goodies",
     "fallout 4 patch updates the creation kit, fixes various bugs including steam deck crash",
-    "entropy, a deliciously miserable final fantasy-esque rpg where your party members can permanently die, is now out in early access"
+    "entropy, a deliciously miserable final fantasy-esque rpg where your party members can permanently die, is now out in early access",
+    "horde survival and pve extraction hybrid nightrunner announced for pc",
+    "relaxing puzzle-building game hexplorando announced for switch, pc"
   ],
   "seen_story_keys": [
-    "1a49076d1495ac1c0d081c263c3cbbef69f8a8a7",
-    "7f824ef55d439f41873018a059679bde8b5cafb3",
     "bf229c15b928182c181494ec9acc4da59b6df96a",
     "d9d6070e9a8f63b4d9a6f524c27e96377e644508",
     "68f50e20afa5f784d0656294f4b2746b69a902b3",
@@ -15003,6 +15001,8 @@
     "99f2db6b8b41d3817f59184be02118a83385e2de",
     "0f2934168e2eeb9f810f222b4de25b2c32a19c28",
     "e65dfe14fe6a6191feda190f5e33328d4b9e1228",
-    "de5406fc065206acec1043f3d5694f588b8c616d"
+    "de5406fc065206acec1043f3d5694f588b8c616d",
+    "9d2cfb7f651614d4adbdc79ca7b6dd1f8cbf359e",
+    "0e324bf2ae3df6241838d307037012dd6f5187ed"
   ]
 }
