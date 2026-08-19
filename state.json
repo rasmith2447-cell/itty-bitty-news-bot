@@ -1,6 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/digimon-story-time-stranger-large-scale-expansion-dlc-announced",
     "https://www.nintendolife.com/news/2026/03/round-up-minecraft-live-march-2026-new-game-drops-mobs-biomes-and-more",
     "https://www.nintendolife.com/news/2026/03/digimon-story-time-stranger-is-getting-major-dlc-in-2027",
     "https://www.gematsu.com/2026/03/under-night-in-birth-ii-sysceles-new-dlc-character-announced",
@@ -4999,10 +4998,10 @@
     "https://www.gematsu.com/2026/08/cozy-photo-adventure-game-photo-roboto-a-timesnap-adventure-announced-for-pc",
     "https://gamerant.com/daemons-of-the-shadow-realm-episode-20-release-date/",
     "https://gamerant.com/star-wars-canceled-games-magellan-1313/",
-    "https://www.gamespot.com/articles/army-unit-gives-soldiers-4-day-pass-to-play-gta-6-if-they-re-enlist/"
+    "https://www.gamespot.com/articles/army-unit-gives-soldiers-4-day-pass-to-play-gta-6-if-they-re-enlist/",
+    "https://www.pushsquare.com/news/2026/08/majority-of-naughty-dog-was-working-on-the-last-of-us-online-before-it-was-cancelled"
   ],
   "seen_titles": [
-    "digimon story: time stranger large-scale expansion dlc announced",
     "round up: minecraft live (march 2026) - new game, drops, mobs, biomes and more",
     "digimon story time stranger is getting major dlc in 2027",
     "under night in-birth ii sys:celes new dlc character announced",
@@ -10001,10 +10000,10 @@
     "cozy photo adventure game photo roboto: a timesnap adventure announced for pc",
     "daemons of the shadow realm episode 20 release date",
     "star wars keeps losing games that sound too good to cancel",
-    "army unit gives soldiers 4-day pass to play gta 6 if they re-enlist"
+    "army unit gives soldiers 4-day pass to play gta 6 if they re-enlist",
+    "majority of naughty dog was working on the last of us online before it was cancelled"
   ],
   "seen_story_keys": [
-    "42c8cde4adb25a17b4e82f054a1c64d75cd70ed2",
     "25f2c60a5bb4f281de55e3cc18ab543ebb6016a6",
     "685525ebddc3c3e895f27c3eb60149cd6a44eb1b",
     "1cb56eaa9228bb518be347978686b224a011549f",
@@ -15003,6 +15002,7 @@
     "bba06a77b50b5f86b790a7e4afcfa7669fe8de98",
     "dec833842fbd56ca487400502aca3e03eb38c971",
     "8a32fac12a331bfc20c5874a1e008c8814371db2",
-    "5512b52221ddabe9391e2046b50280c047b49393"
+    "5512b52221ddabe9391e2046b50280c047b49393",
+    "67c5a9da208bf7d659a37e1ad4d40574aa708888"
   ]
 }
