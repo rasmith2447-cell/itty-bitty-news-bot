@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/under-night-in-birth-ii-sysceles-new-dlc-character-announced",
-    "https://www.pushsquare.com/news/2026/03/peni-parker-is-the-perfect-fit-for-ps5-pc-fighter-marvel-tokon",
-    "https://www.videogameschronicle.com/news/minecraft-dungeons-is-getting-a-sequel-this-year-and-its-coming-to-ps5-and-switch-2/",
     "https://www.gematsu.com/2026/03/guilty-gear-strive-version-2-00-update-season-5-dlc-characters-jam-kuradoberi-and-roboky-announced",
     "https://www.gematsu.com/2026/03/visual-novel-the-angel-next-door-spoils-me-rotten-memorial-vacation-announced-for-switch-2-switch",
     "https://www.gematsu.com/2026/03/granblue-fantasy-versus-rising-version-2-60-update-announced-including-new-dlc-character",
@@ -4999,12 +4996,12 @@
     "https://www.gamespot.com/articles/army-unit-gives-soldiers-4-day-pass-to-play-gta-6-if-they-re-enlist/",
     "https://www.pushsquare.com/news/2026/08/majority-of-naughty-dog-was-working-on-the-last-of-us-online-before-it-was-cancelled",
     "https://www.pushsquare.com/news/2026/08/i-think-well-see-that-in-the-next-year-or-two-days-gone-dev-could-reveal-new-project-soon",
-    "https://www.gematsu.com/2026/08/honeycomb-the-world-beyond-launches-september-6"
+    "https://www.gematsu.com/2026/08/honeycomb-the-world-beyond-launches-september-6",
+    "https://www.gematsu.com/2026/08/woodo-launches-september-16",
+    "https://www.gematsu.com/2026/08/ever-after-again-a-stories-adventure-announced-for-ps5-xbox-series-and-pc",
+    "https://www.gematsu.com/2026/08/sin-reloaded-launches-september-24"
   ],
   "seen_titles": [
-    "under night in-birth ii sys:celes new dlc character announced",
-    "peni parker is the perfect fit for ps5, pc fighter marvel tokon",
-    "minecraft dungeons is getting a sequel this year, and it’s coming to ps5 and switch 2",
     "guilty gear: strive version 2.00 update, season 5 dlc characters jam kuradoberi and robo=ky announced",
     "visual novel the angel next door spoils me rotten: memorial vacation announced for switch 2, switch",
     "granblue fantasy versus: rising version 2.60 update announced, including new dlc character",
@@ -10001,12 +9998,12 @@
     "army unit gives soldiers 4-day pass to play gta 6 if they re-enlist",
     "majority of naughty dog was working on the last of us online before it was cancelled",
     "'i think we'll see that in the next year or two': days gone dev could reveal new project soon",
-    "honeycomb: the world beyond launches september 6"
+    "honeycomb: the world beyond launches september 6",
+    "woodo launches september 16",
+    "ever after again: a stories adventure announced for ps5, xbox series, and pc",
+    "sin: reloaded launches september 24"
   ],
   "seen_story_keys": [
-    "1cb56eaa9228bb518be347978686b224a011549f",
-    "afa9bdd9f03374d365702d2712f3e5bf8f2a6bc5",
-    "2d22fdbe8000108b122d42aea6c6dbf0f534820f",
     "cfcf5eea75456507eacef1496ac97f0b64d8877d",
     "8f4f8e78878da21b3868e64e007652682b16188d",
     "f444b4cc0c323a25fb24bf010e6ee7b3068d2bb0",
@@ -15003,6 +15000,9 @@
     "5512b52221ddabe9391e2046b50280c047b49393",
     "67c5a9da208bf7d659a37e1ad4d40574aa708888",
     "cb68aafbe3e4502e22f7d3000c80db5ec79a5f8b",
-    "5bb801dca71b18c8a29a2d5ee6285a11fff7e8b1"
+    "5bb801dca71b18c8a29a2d5ee6285a11fff7e8b1",
+    "306ce25fec6c6649c15a17c5c5b147098f9221eb",
+    "83cb102177b7f201488a49a61dd6bcf2dd66891f",
+    "e175e2a6bd3a511f746c9975b04fa99457fb8e80"
   ]
 }
