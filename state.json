@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295881/evening-patches",
-    "https://www.pushsquare.com/news/2026/03/years-after-announcement-netflixs-assassins-creed-tv-series-finally-begins-production",
-    "https://www.gematsu.com/2026/03/open-world-adventure-game-cookierun-new-world-announced-for-console-pc-and-mobile",
     "https://gamerant.com/world-of-warcraft-midnight-patch-12-0-5-demon-hunter-void-customizations-evoker-battle-visage/",
     "https://www.purexbox.com/features/talking-point-what-are-you-playing-this-weekend-march-21-22",
     "https://www.pushsquare.com/news/2026/03/youll-want-to-pre-order-the-art-book-for-award-winning-ps5-rpg-clair-obscur-expedition-33",
@@ -4999,12 +4996,12 @@
     "https://www.gematsu.com/2026/08/into-the-dead-our-darkest-days-launches-in-march-2027-for-ps5-xbox-series-switch-2-and-pc",
     "https://www.gematsu.com/2026/08/the-binding-of-isaac-repentance-online-launches-november-19-for-ps5-xbox-series-and-switch-2",
     "https://www.gematsu.com/2026/08/game-pass-adds-resonance-a-plague-tale-legacy-vapor-world-over-the-mind-blood-dungeon-and-more-in-late-august",
-    "https://www.nintendolife.com/news/2026/08/industry-legend-warren-spector-announces-his-retirement-from-game-development"
+    "https://www.nintendolife.com/news/2026/08/industry-legend-warren-spector-announces-his-retirement-from-game-development",
+    "https://www.gematsu.com/2026/08/arcade-archives-cyber-cycles-launches-august-20",
+    "https://gamerant.com/warren-spector-retirement/",
+    "https://www.gematsu.com/2026/08/the-alighieri-circle-dantes-bloodline-launches-september-10-for-ps5-xbox-series-and-pc-later-in-2026-for-switch-2"
   ],
   "seen_titles": [
-    "evening patches",
-    "years after announcement, netflix's assassin's creed tv series finally begins production",
-    "open-world adventure game cookierun: new world announced for console, pc, and mobile",
     "world of warcraft patch 12.0.5 has a surprise for demon hunters and evokers",
     "talking point: what are you playing this weekend? (march 21-22)",
     "you'll want to pre-order the art book for award winning ps5 rpg clair obscur: expedition 33",
@@ -10001,12 +9998,12 @@
     "into the dead: our darkest days launches in march 2027 for ps5, xbox series, switch 2, and pc",
     "the binding of isaac: repentance+ online launches november 19 for ps5, xbox series, and switch 2",
     "game pass adds resonance: a plague tale legacy, vapor world: over the mind, blood dungeon, and more in late august",
-    "industry legend warren spector announces his retirement from game development"
+    "industry legend warren spector announces his retirement from game development",
+    "arcade archives cyber cycles launches august 20",
+    "'i'm pretty sure i mean it' deus ex, system shock creator warren spector announces retirement",
+    "the alighieri circle: dante’s bloodline launches september 10 for ps5, xbox series, and pc, later in 2026 for switch 2"
   ],
   "seen_story_keys": [
-    "0c9a121cdc3a8f0602f802b215d9bd60f030aa34",
-    "2f3abc111fc8c924eabc13aa549138f70d66ebd0",
-    "84a8b2aaaea9bd53e7cdf2bbe8cc732eff0e8acb",
     "90d334819de9217c0ff2d45a87757aa7062d2ee4",
     "8fbb2be57dd0b2e89e6fb3c9a575e5714aad5db2",
     "514faef6d133ecdbaacd0a7e1f17b1aabcd673f2",
@@ -15003,6 +15000,9 @@
     "3a86b55b62d5b329128f23777c29f55f73da0988",
     "ab98be8098b2339fbbd9e62313bcd0d4f0c6ed4f",
     "85a2d96245bedfc488ae56fa65119fcede5b6459",
-    "2ff4bb096ae21479ed60752e674cf0518d72de49"
+    "2ff4bb096ae21479ed60752e674cf0518d72de49",
+    "6dc4353b2652585f6f2578327ca263ee41ec5388",
+    "0ee1ed8700208afa08e3d78ddf77e80a8555c244",
+    "536a669aa3cdf221444d6cc24060baef98ecd7f1"
   ]
 }
