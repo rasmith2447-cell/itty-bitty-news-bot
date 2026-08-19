@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/psn-down-as-ps5-ps4-players-report-offline-issues",
-    "https://gamerant.com/diablo-4-season-12-bloodsoaked-sigils-nerf/",
-    "https://www.purexbox.com/news/2026/03/new-xbox-first-party-game-announced-in-the-form-of-minecraft-dungeons-2",
     "https://www.pushsquare.com/news/2026/03/psn-service-returning-on-ps5-ps4-as-brief-outage-took-service-offline",
     "https://gamerant.com/zenless-zone-zero-zzz-2-7-when-release-date-time-update-maintenance-ends-countdown/",
     "https://www.nintendolife.com/news/2026/03/angry-birds-arrive-at-two-point-museum-in-new-spring-seasonal-update",
@@ -4999,12 +4996,12 @@
     "https://www.gematsu.com/2026/08/clive-barkers-hellraiser-revival-adds-switch-2-version",
     "https://www.pcgamer.com/gaming-industry/dishonored-co-creator-harvey-smith-launches-a-new-studio-and-it-literally-has-the-word-immersive-in-the-name/",
     "https://www.pushsquare.com/news/2026/08/gran-turismo-7-bolstered-by-another-4-cars-in-ps5-update-1-71",
-    "https://www.polygon.com/stranger-things-tales-from-85-season-2-release-date/"
+    "https://www.polygon.com/stranger-things-tales-from-85-season-2-release-date/",
+    "https://www.purexbox.com/news/2026/08/jagexs-new-runescape-game-is-now-officially-a-day-one-release-for-xbox-game-pass",
+    "https://www.ign.com/articles/runescape-dragonwilds-confirmed-for-day-one-xbox-game-pass-launch",
+    "https://www.gematsu.com/2026/08/cozy-photo-adventure-game-photo-roboto-a-timesnap-adventure-announced-for-pc"
   ],
   "seen_titles": [
-    "psn down as ps5, ps4 players report offline issues",
-    "new diablo 4 season 12 update solves one of its biggest problems",
-    "new xbox first-party game announced in the form of minecraft dungeons 2",
     "psn service returning on ps5, ps4 as brief outage took service offline",
     "zzz 2.7 release date (nangong yu banner in zenless zone zero)",
     "angry birds arrive at two point museum in new spring seasonal update",
@@ -10001,12 +9998,12 @@
     "clive barker’s hellraiser: revival adds switch 2 version",
     "dishonored co-creator harvey smith launches a new studio and it literally has the word 'immersive' in the name",
     "gran turismo 7 bolstered by another 4 cars in ps5 update 1.71",
-    "'stranger things: tales from ‘85’ season 2 gets september release date"
+    "'stranger things: tales from ‘85’ season 2 gets september release date",
+    "jagex's new runescape game is now officially a 'day one' release for xbox game pass",
+    "runescape: dragonwilds confirmed for day one xbox game pass launch",
+    "cozy photo adventure game photo roboto: a timesnap adventure announced for pc"
   ],
   "seen_story_keys": [
-    "b829db4783ad0552e2f5b043f029802ef4d0ba1b",
-    "9c02f1a8e8e413c2d41498e6621fa65f1915cabf",
-    "2b9bbdeb590981bc135478c33dd504c244fcff54",
     "519ae7b7a265bab55e65c0c7cdc4689f23ffdc03",
     "6091373ab77ade6ba85f9f971cd80ed826dc0f45",
     "f9e90d7f8bf22499ef0bfb6c8088fed18f018025",
@@ -15003,6 +15000,9 @@
     "68ae3f11638d8a78c306731ecbe3160db95b5e0e",
     "83275cdc7c15f6d9def557255e187892111c3520",
     "427b2e01698c7ccfff20bc56a40f056fefe8aaa5",
-    "25eaaeb88d53e5ce9fdb2f70cc3c74df78475016"
+    "25eaaeb88d53e5ce9fdb2f70cc3c74df78475016",
+    "a059e5f4e8c37e9b67b07fce5590ebfcb26ff6fb",
+    "073a47699d1422b638f86f5df1a59410a77c2676",
+    "bba06a77b50b5f86b790a7e4afcfa7669fe8de98"
   ]
 }
