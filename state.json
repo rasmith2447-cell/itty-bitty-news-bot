@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/crimson-desert-dev-to-patch-ps5-rpgs-uncomfortable-controls",
-    "https://www.pcgamer.com/games/strategy/if-you-simply-cannot-wait-for-the-new-heroes-of-might-and-magic-this-sci-fi-take-on-homm-just-launched-from-steam-early-access/",
-    "https://www.ign.com/articles/crimson-desert-dev-promises-patch-to-address-discomfort-many-players-have-experienced-with-the-controls-apologizes-for-awful-keyboard-and-mouse-experience",
-    "https://www.ign.com/articles/the-resident-evil-game-that-died-so-that-re2-could-live",
     "https://www.bluesnews.com/s/295906/gunship-origins-announced",
     "https://www.bluesnews.com/s/295905/heroes-of-science-and-fiction-released",
     "https://www.bluesnews.com/s/295904/ghost-master-resurrection-released",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/08/console-archives-rhapsody-ii-ballad-of-the-little-princess-launches-august-20",
     "https://www.rockpapershotgun.com/immersive-sim-retrospace-aka-70s-system-shock-gets-an-october-release-date-plus-a-trailer-full-of-funky-guns-and-sentient-black-holes",
     "https://www.rockpapershotgun.com/without-us-bethesda-games-arent-bethesda-games-rallies-against-microsoft-layoffs-at-elder-scrolls-studio-continue-with-unionised-devs-morale-on-the-upswing",
-    "https://www.pushsquare.com/news/2026/08/i-dont-understand-if-its-such-a-big-issue-shuhei-yoshida-isnt-too-bothered-about-no-more-discs"
+    "https://www.pushsquare.com/news/2026/08/i-dont-understand-if-its-such-a-big-issue-shuhei-yoshida-isnt-too-bothered-about-no-more-discs",
+    "https://www.gematsu.com/2026/08/demeo-x-dungeons-dragons-battlemarked-for-xbox-series-launches-september-22-alongside-dlc-campaign-iii-twilights-end",
+    "https://www.gematsu.com/2026/08/the-james-pond-legacy-the-pond-is-not-enough-announced-for-switch-2",
+    "https://www.polygon.com/fps-games-show-announcement-september/",
+    "https://www.rockpapershotgun.com/through-the-looking-glass-as-arkane-fight-for-their-future-dishonored-veteran-harvey-smith-reveals-new-studio-dedicated-to-immersive-sims"
   ],
   "seen_titles": [
-    "crimson desert dev to patch ps5 rpg's 'uncomfortable' controls",
-    "if you simply cannot wait for the new heroes of might and magic, this sci-fi take on homm just launched from steam early access",
-    "crimson desert dev promises patch to address 'discomfort many players have experienced with the controls,' apologizes for awful keyboard and mouse experience",
-    "the resident evil game that died so that re2 could live",
     "gunship origins announced",
     "heroes of science and fiction released",
     "ghost master: resurrection released",
@@ -10001,13 +9997,13 @@
     "console archives rhapsody ii: ballad of the little princess launches august 20",
     "immersive sim retrospace, aka '70s system shock, gets an october release date plus a trailer full of funky guns and sentient black holes",
     "\"without us, bethesda games aren’t bethesda games\": rallies against microsoft layoffs at elder scrolls studio continue, with unionised devs' morale \"on the upswing\"",
-    "'i don't understand if it's such a big issue': shuhei yoshida isn't too bothered about no more discs"
+    "'i don't understand if it's such a big issue': shuhei yoshida isn't too bothered about no more discs",
+    "demeo x dungeons & dragons: battlemarked for xbox series launches september 22 alongside dlc ‘campaign iii: twilight’s end’",
+    "the james pond legacy: the pond is not enough announced for switch 2",
+    "fps games are finally getting a dedicated showcase",
+    "\"through the looking glass\": as arkane fight for their future, dishonored veteran harvey smith reveals new studio dedicated to immersive sims"
   ],
   "seen_story_keys": [
-    "cc5f66913951eb874d97c17a72787774dc8da52e",
-    "6f7660181bdb351d7ee4dba87dfe1999fa5d38a3",
-    "bbfbd3d21c77f3048f09510027d01f1bfbdc8c63",
-    "27b86f7f37e58f4b1d540c258dd14386aa4b6c72",
     "c0174741f53052c4557e3a66d1fb1f5525400f2c",
     "41f8cdd78273cbe1201c0d1f7910a9523957b81f",
     "43fd4259545f97e9b091285ffde35cab07d70a85",
@@ -15003,6 +14999,10 @@
     "924e6ac439241da60f8290f92ed0554ccc62c520",
     "856da63998e946dfd98b9c75abfbfbfab253f0be",
     "08b755a18806c9548b8a4a0e0d03409b6d94830e",
-    "239aa1346b8867a9d52a248e9b2701b6a83f84e7"
+    "239aa1346b8867a9d52a248e9b2701b6a83f84e7",
+    "33b5730cf572747032b10b05ac3ac0c00a28506b",
+    "276d50e309b0122b25d93e0187ddacc3c2ff4c36",
+    "4ab8894e573cbd10e273b798a8e79ad5bcfef6e5",
+    "867cf84c6e58062977c032f4be084035cee21b79"
   ]
 }
