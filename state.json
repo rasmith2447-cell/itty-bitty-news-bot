@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/295906/gunship-origins-announced",
-    "https://www.bluesnews.com/s/295905/heroes-of-science-and-fiction-released",
-    "https://www.bluesnews.com/s/295904/ghost-master-resurrection-released",
-    "https://www.ign.com/articles/minecraft-live-march-2026-everything-announced-updating-live",
     "https://www.gematsu.com/2026/03/minecraft-dungeons-ii-announced-for-ps5-xbox-series-switch-2-switch-and-pc",
     "https://www.ign.com/articles/minecraft-dungeons-2-revealed-with-fall-2026-launch",
     "https://www.ign.com/articles/mojang-reveals-chaos-cubed-update-coming-to-minecraft-later-this-year-with-tiny-takeover-release-date-set-for-next-week",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/08/demeo-x-dungeons-dragons-battlemarked-for-xbox-series-launches-september-22-alongside-dlc-campaign-iii-twilights-end",
     "https://www.gematsu.com/2026/08/the-james-pond-legacy-the-pond-is-not-enough-announced-for-switch-2",
     "https://www.polygon.com/fps-games-show-announcement-september/",
-    "https://www.rockpapershotgun.com/through-the-looking-glass-as-arkane-fight-for-their-future-dishonored-veteran-harvey-smith-reveals-new-studio-dedicated-to-immersive-sims"
+    "https://www.rockpapershotgun.com/through-the-looking-glass-as-arkane-fight-for-their-future-dishonored-veteran-harvey-smith-reveals-new-studio-dedicated-to-immersive-sims",
+    "https://www.gematsu.com/2026/08/physics-based-co-op-game-dumb-ways-to-build-announced-for-ps5-xbox-series-and-pc",
+    "https://www.nintendolife.com/news/2026/08/hellraiser-revival-confirmed-for-switch-2-launching-october-2026",
+    "https://gamerant.com/new-horizon-game-cancel/",
+    "https://www.gamesindustry.biz/we-chose-the-worst-time-in-history-harvey-smith-on-starting-his-own-studio-after-arkane"
   ],
   "seen_titles": [
-    "gunship origins announced",
-    "heroes of science and fiction released",
-    "ghost master: resurrection released",
-    "minecraft live march 2026: everything announced (updating live)",
     "minecraft dungeons ii announced for ps5, xbox series, switch 2, switch, and pc",
     "minecraft dungeons 2 revealed with fall 2026 launch",
     "mojang reveals chaos cubed update coming to minecraft later this year with tiny takeover release date set for next week",
@@ -10001,13 +9997,13 @@
     "demeo x dungeons & dragons: battlemarked for xbox series launches september 22 alongside dlc ‘campaign iii: twilight’s end’",
     "the james pond legacy: the pond is not enough announced for switch 2",
     "fps games are finally getting a dedicated showcase",
-    "\"through the looking glass\": as arkane fight for their future, dishonored veteran harvey smith reveals new studio dedicated to immersive sims"
+    "\"through the looking glass\": as arkane fight for their future, dishonored veteran harvey smith reveals new studio dedicated to immersive sims",
+    "physics-based co-op game dumb ways to build announced for ps5, xbox series, and pc",
+    "hellraiser: revival confirmed for switch 2, launching october 2026",
+    "brand-new horizon game in danger of cancellation, report says",
+    "\"we chose the worst time in history\" – harvey smith on starting his own studio after arkane"
   ],
   "seen_story_keys": [
-    "c0174741f53052c4557e3a66d1fb1f5525400f2c",
-    "41f8cdd78273cbe1201c0d1f7910a9523957b81f",
-    "43fd4259545f97e9b091285ffde35cab07d70a85",
-    "d77f69999ce3a5a414a6f9988d5efc252e75e469",
     "1f4b80b0d076507b659f9514c941a40d923ee927",
     "ebcd79bb220822294d95aa585c76d5ebe46aae3d",
     "5523167b27dc05f59efac04bd4bbad62bdb4e2c2",
@@ -15003,6 +14999,10 @@
     "33b5730cf572747032b10b05ac3ac0c00a28506b",
     "276d50e309b0122b25d93e0187ddacc3c2ff4c36",
     "4ab8894e573cbd10e273b798a8e79ad5bcfef6e5",
-    "867cf84c6e58062977c032f4be084035cee21b79"
+    "867cf84c6e58062977c032f4be084035cee21b79",
+    "f5a0cb07bb1173a67aa15b1098757aafe6d09aab",
+    "cfd7c88624a0461daac7d6e9c01e03a4e7d6a7bb",
+    "60950d337989f85125d86a12d8f48161ffea9a3a",
+    "5163c3b0fbd5b270480f85b43fb7b5aacfeeb66c"
   ]
 }
