@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/minecraft-dungeons-ii-announced-for-ps5-xbox-series-switch-2-switch-and-pc",
-    "https://www.ign.com/articles/minecraft-dungeons-2-revealed-with-fall-2026-launch",
-    "https://www.ign.com/articles/mojang-reveals-chaos-cubed-update-coming-to-minecraft-later-this-year-with-tiny-takeover-release-date-set-for-next-week",
-    "https://www.ign.com/articles/minecraft-world-concept-art-reveals-new-theme-park-coming-in-2027",
     "https://www.rockpapershotgun.com/all-those-upcoming-spin-offs-aside-pocketpair-apparently-arent-all-that-interested-in-a-palworld-media-empire",
     "https://www.gamespot.com/articles/the-next-minecraft-drop-could-be-its-most-chaotic-yet/1100-6538930/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/minecraft-dungeons-2-revealed-and-its-coming-this-year/1100-6538931/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/08/physics-based-co-op-game-dumb-ways-to-build-announced-for-ps5-xbox-series-and-pc",
     "https://www.nintendolife.com/news/2026/08/hellraiser-revival-confirmed-for-switch-2-launching-october-2026",
     "https://gamerant.com/new-horizon-game-cancel/",
-    "https://www.gamesindustry.biz/we-chose-the-worst-time-in-history-harvey-smith-on-starting-his-own-studio-after-arkane"
+    "https://www.gamesindustry.biz/we-chose-the-worst-time-in-history-harvey-smith-on-starting-his-own-studio-after-arkane",
+    "https://www.purexbox.com/news/2026/08/xbox-reveals-huge-list-of-games-for-its-two-gamescom-2026-broadcasts",
+    "https://www.polygon.com/harvey-smith-black-pony-immersive-new-game-studio/",
+    "https://www.ign.com/articles/subnautica-2-patch-adds-buddy-system-dev-reveals-glimpse-at-early-access-2-update",
+    "https://www.gematsu.com/2026/08/clive-barkers-hellraiser-revival-adds-switch-2-version"
   ],
   "seen_titles": [
-    "minecraft dungeons ii announced for ps5, xbox series, switch 2, switch, and pc",
-    "minecraft dungeons 2 revealed with fall 2026 launch",
-    "mojang reveals chaos cubed update coming to minecraft later this year with tiny takeover release date set for next week",
-    "minecraft world concept art reveals new theme park coming in 2027",
     "all those upcoming spin-offs aside, pocketpair apparently aren't all that interested in a palworld \"media empire\"",
     "the next minecraft drop could be its most chaotic yet",
     "minecraft dungeons 2 revealed, and it's coming this year",
@@ -10001,13 +9997,13 @@
     "physics-based co-op game dumb ways to build announced for ps5, xbox series, and pc",
     "hellraiser: revival confirmed for switch 2, launching october 2026",
     "brand-new horizon game in danger of cancellation, report says",
-    "\"we chose the worst time in history\" – harvey smith on starting his own studio after arkane"
+    "\"we chose the worst time in history\" – harvey smith on starting his own studio after arkane",
+    "xbox reveals huge list of games for its two gamescom 2026 broadcasts",
+    "'dishonored' veteran harvey smith announces new studio",
+    "subnautica 2 patch adds buddy system, dev reveals glimpse at early access 2 update",
+    "clive barker’s hellraiser: revival adds switch 2 version"
   ],
   "seen_story_keys": [
-    "1f4b80b0d076507b659f9514c941a40d923ee927",
-    "ebcd79bb220822294d95aa585c76d5ebe46aae3d",
-    "5523167b27dc05f59efac04bd4bbad62bdb4e2c2",
-    "1e169e13787b41fe2d976456d2cac38236ecae9d",
     "5664a03cbe147dee670f63969ce46a941f679af5",
     "f93c1c8c8b1dba19e503706cf46e6fff846c5779",
     "c953e76f76e007fbbfdaa4694908ae92774f38cc",
@@ -15003,6 +14999,10 @@
     "f5a0cb07bb1173a67aa15b1098757aafe6d09aab",
     "cfd7c88624a0461daac7d6e9c01e03a4e7d6a7bb",
     "60950d337989f85125d86a12d8f48161ffea9a3a",
-    "5163c3b0fbd5b270480f85b43fb7b5aacfeeb66c"
+    "5163c3b0fbd5b270480f85b43fb7b5aacfeeb66c",
+    "cb095ee4161e022f8de4139134521271fa012cef",
+    "f2fee1f0253eee933d3e18f7ad8c27141589f01c",
+    "044cfd8aa8a2d2d8cdb83681b43be93fd2406283",
+    "68ae3f11638d8a78c306731ecbe3160db95b5e0e"
   ]
 }
