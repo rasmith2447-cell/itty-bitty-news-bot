@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/iris-odyssey-hephaistoss-ring-launches-may-29",
-    "https://www.gematsu.com/2026/03/picross-s-konami-antiques-edition-announced-for-switch",
     "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
     "https://www.ign.com/articles/we-should-have-clearly-disclosed-our-use-of-ai-crimson-desert-dev-launches-comprehensive-audit-of-all-in-game-assets-after-ai-generated-art-was-unintentionally-included-in-final-release",
     "https://www.bluesnews.com/s/295921/intel-offered-crimson-desert-compatibility-assistance",
@@ -4999,11 +4997,11 @@
     "https://www.gematsu.com/2026/08/sin-reloaded-launches-september-24",
     "https://www.gematsu.com/2026/08/surviving-mars-relaunched-dlc-feeding-the-future-announced",
     "https://gamerant.com/xbox-ikea-collaboration/",
-    "https://www.pushsquare.com/news/2026/08/embrace-your-inner-akira-with-namcos-1995-cyber-cycles-coming-to-ps5"
+    "https://www.pushsquare.com/news/2026/08/embrace-your-inner-akira-with-namcos-1995-cyber-cycles-coming-to-ps5",
+    "https://www.gematsu.com/2026/08/trails-in-the-sky-2nd-chapter-demo-now-available",
+    "https://www.pushsquare.com/news/2026/08/start-your-trails-in-the-sky-2nd-chapter-adventure-early-with-ps5-demo-out-now"
   ],
   "seen_titles": [
-    "iris odyssey: hephaistos’s ring launches may 29",
-    "picross s konami antiques edition announced for switch",
     "picross s konami antiques edition features castlevania, contra, and more",
     "'we should have clearly disclosed our use of ai' — crimson desert dev launches 'comprehensive audit' of all in-game assets after ai-generated art was 'unintentionally' included in final release",
     "intel offered crimson desert compatibility assistance",
@@ -10001,11 +9999,11 @@
     "sin: reloaded launches september 24",
     "surviving mars: relaunched dlc ‘feeding the future’ announced",
     "xbox reveals unexpected collaboration",
-    "embrace your inner akira with namco's 1995 cyber cycles, coming to ps5"
+    "embrace your inner akira with namco's 1995 cyber cycles, coming to ps5",
+    "trails in the sky 2nd chapter demo now available",
+    "start your trails in the sky 2nd chapter adventure early with ps5 demo, out now"
   ],
   "seen_story_keys": [
-    "f90fdbf55b209cdbacede7cf70ba4e2a1acf6c3a",
-    "37b4ded6c7355cb1d3c35da3b8081c329cdb0616",
     "576b9ddcb13ed8c25fc02ea7c16370edfbdd631d",
     "7d396492afc3607f25edf5b291e56a8bfd88fe34",
     "428d19328d9246f90b3b9d52290e00b371dc7f36",
@@ -15003,6 +15001,8 @@
     "e175e2a6bd3a511f746c9975b04fa99457fb8e80",
     "67183a0f104c6416aea4bbe29e2d04bb92b94eb1",
     "05837b1bf63ef245fefae70dea75d98efcd6d8eb",
-    "aaf9437ebfe1dd7f98118fb57a83c95a00bcafdb"
+    "aaf9437ebfe1dd7f98118fb57a83c95a00bcafdb",
+    "4bc97a210a36e07e369db679b61cf56da012f257",
+    "b47675b05eb3d9970d9ef37b7b1ffe372edaba1b"
   ]
 }
