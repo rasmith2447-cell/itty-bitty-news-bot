@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/crimson-desert-patch-item-storage-controls-fix-boss-fights/",
-    "https://www.pcgamer.com/games/action/the-new-crimson-desert-patch-adds-private-storage-at-base-camp-and-nerfs-a-few-bosses-also-pearl-abyss-knows-the-control-scheme-isnt-great/",
     "https://www.ign.com/articles/pokmon-pokopia-players-are-now-building-working-in-game-calculators-as-fans-push-cosy-life-sims-limits-to-begin-rivalling-minecraft-creations",
     "https://www.rockpapershotgun.com/crimson-desert-devs-pearl-abyss-take-a-first-stab-at-control-improvements-with-their-latest-patch-say-intel-arc-gpu-supports-in-the-works",
     "https://www.gematsu.com/2026/03/patlabor-the-case-files-announced-for-ps5-pc",
@@ -4999,11 +4997,11 @@
     "https://www.gamesindustry.biz/gamesindustrybiz-hr-summit-reveals-new-people-and-workplace-focus-dedicated-to-shaping-the-future-of-games-workplaces",
     "https://www.gematsu.com/2026/08/barkour-launches-in-q4-2026-for-ps5-xbox-series-and-pc",
     "https://www.videogameschronicle.com/news/former-arkane-leads-say-xbox-let-them-come-in-and-finish-redfalls-final-major-update-after-being-laid-off/",
-    "https://gamerant.com/skyrim-update-today-patch-notes/"
+    "https://gamerant.com/skyrim-update-today-patch-notes/",
+    "https://www.rockpapershotgun.com/do-questions-like-that-create-a-self-fulfilling-prophecy-dishonored-director-harvey-smith-on-the-fear-of-asking-if-immersive-sims-are-dead",
+    "https://www.ign.com/articles/golden-axe-animated-series-first-look-sega-plot-cast-release-date"
   ],
   "seen_titles": [
-    "crimson desert patch adds item storage and reduces boss difficulty again",
-    "the new crimson desert patch adds private storage at base camp and nerfs a few bosses—also, pearl abyss knows the control scheme isn't great",
     "pokémon pokopia players are now building working in-game calculators, as fans push cosy life sim's limits to begin rivalling minecraft creations",
     "crimson desert devs pearl abyss take a first stab at control improvements with their latest patch, say intel arc gpu support's in the works",
     "patlabor the case files announced for ps5, pc",
@@ -10001,11 +9999,11 @@
     "gamesindustry.biz hr summit reveals new people and workplace focus, dedicated to shaping the future of games workplaces",
     "barkour launches in q4 2026 for ps5, xbox series, and pc",
     "former arkane leads say xbox let them come in and finish redfall’s final major update after being laid off",
-    "brand-new skyrim update releasing today"
+    "brand-new skyrim update releasing today",
+    "\"do questions like that create a self-fulfilling prophecy?”: dishonored director harvey smith on the fear of asking if immersive sims are dead",
+    "golden axe: first look at the new animated series based on the classic sega game"
   ],
   "seen_story_keys": [
-    "19abb1bc261685806c9a7731f41653dd689b6562",
-    "f8743d4760861e87ab45872a6d025d2db406952d",
     "592def5d25b193c7badbd74738af2f1b8b2ff54a",
     "4c33c84b7115fd0d0c95a41a5bb8a481a6478bd1",
     "b91b72c5158b5e23224019fd6948b2a6fcd88244",
@@ -15003,6 +15001,8 @@
     "d208553dc2f7acdaad5ae18724e2478b303b395b",
     "f1b2da7008cdc40e86b22e3b62835338b657ec05",
     "e8d57baca22c3b7cb961a30bf27316353115f730",
-    "e96bca7dbd48a784581373a267fbce0131cd16ce"
+    "e96bca7dbd48a784581373a267fbce0131cd16ce",
+    "05164671d7d95fe1df5c22c4fd78e5c72a774d47",
+    "8d1e157bd448a757c8d972f4944f451d4bf7d514"
   ]
 }
