@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/patlabor-the-case-files-announced-for-ps5-pc",
-    "https://www.rockpapershotgun.com/minecraft-dungeons-2-will-dungeon-crawl-through-the-blockworld-yet-again-when-it-launches-later-this-year",
-    "https://www.gamespot.com/articles/bungie-is-listening-as-marathon-players-push-for-solo-play-and-better-scheduling-in-cryo-archive/1100-6538940/?ftag=CAD-01-10abi2f",
     "https://www.videogameschronicle.com/news/crimson-desert-gets-a-new-patch-which-improves-controls-and-adds-new-item-storage/",
     "https://www.gematsu.com/2026/03/atomic-owl-for-ps5-xbox-series-ps4-xbox-one-and-switch-launches-may-20",
     "https://www.pushsquare.com/news/2026/03/the-jumping-movement-and-attacks-are-way-more-responsive-crimson-desert-ps5-patches-fix-crashes-and-controls",
@@ -4999,12 +4996,12 @@
     "https://www.rockpapershotgun.com/do-questions-like-that-create-a-self-fulfilling-prophecy-dishonored-director-harvey-smith-on-the-fear-of-asking-if-immersive-sims-are-dead",
     "https://www.ign.com/articles/golden-axe-animated-series-first-look-sega-plot-cast-release-date",
     "https://www.videogameschronicle.com/news/the-first-trailer-for-paramounts-golden-axe-cartoon-contains-magic-meta-humour-and-a-release-date/",
-    "https://gamerant.com/the-elder-scrolls-poison-song-morrowind-expansion/"
+    "https://gamerant.com/the-elder-scrolls-poison-song-morrowind-expansion/",
+    "https://www.polygon.com/riot-games-cancels-2xko-league-of-legends/",
+    "https://www.pcgamer.com/games/action/black-myth-zhong-kuis-15-minute-gameplay-reveal-shows-off-confident-swordplay-boss-fights-with-oyster-men-and-the-coolest-skeletons-ive-ever-seen/",
+    "https://www.gematsu.com/2026/08/the-guild-remake-europa-1410-launches-in-early-access-on-september-17"
   ],
   "seen_titles": [
-    "patlabor the case files announced for ps5, pc",
-    "minecraft dungeons 2 will dungeon-crawl through the blockworld yet again when it launches later this year",
-    "bungie is listening as marathon players push for solo play and better scheduling in cryo archive",
     "crimson desert gets a new patch which improves controls and adds new item storage",
     "atomic owl for ps5, xbox series, ps4, xbox one, and switch launches may 20",
     "'the jumping, movement, and attacks are way more responsive': crimson desert ps5 patches fix crashes and controls",
@@ -10001,12 +9998,12 @@
     "\"do questions like that create a self-fulfilling prophecy?”: dishonored director harvey smith on the fear of asking if immersive sims are dead",
     "golden axe: first look at the new animated series based on the classic sega game",
     "the first trailer for paramount’s golden axe cartoon contains magic, meta humour and a release date",
-    "the elder scrolls: poison song officially announced"
+    "the elder scrolls: poison song officially announced",
+    "riot games officially confirms end of 2xko development",
+    "black myth: zhong kui's 15-minute gameplay reveal shows off confident swordplay, boss fights with oyster men, and the coolest skeletons i've ever seen",
+    "the guild remake: europa 1410 launches in early access on september 17"
   ],
   "seen_story_keys": [
-    "b91b72c5158b5e23224019fd6948b2a6fcd88244",
-    "4aaad028759475284412956f7dbea3c78069a847",
-    "60f6f2cb8330ee9b58d204662ed542bd728c2322",
     "6452fd8a76a48f4b9a3717b14587778d487cddf4",
     "799a7a1c4071a6ed1d28337d45c1dc03eef0d52b",
     "a1c5a064229664b902ecf264d64d27b68a230fb5",
@@ -15003,6 +15000,9 @@
     "05164671d7d95fe1df5c22c4fd78e5c72a774d47",
     "8d1e157bd448a757c8d972f4944f451d4bf7d514",
     "b1ad3ec8064e4541aa324954119aa8a92269dd78",
-    "fbb19cf1d6d0708779877ba76b99ee538ab5c607"
+    "fbb19cf1d6d0708779877ba76b99ee538ab5c607",
+    "f7fec9c5fb0e346aa282f15dae1ad7359d16e87e",
+    "4c184db4806888fd0a328fcbb88e5d299b5de572",
+    "655474be7ee11ca820fd18ed8e36ec4663d1da16"
   ]
 }
