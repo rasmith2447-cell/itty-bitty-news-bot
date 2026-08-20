@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/crimson-desert-gets-a-new-patch-which-improves-controls-and-adds-new-item-storage/",
-    "https://www.gematsu.com/2026/03/atomic-owl-for-ps5-xbox-series-ps4-xbox-one-and-switch-launches-may-20",
     "https://www.pushsquare.com/news/2026/03/the-jumping-movement-and-attacks-are-way-more-responsive-crimson-desert-ps5-patches-fix-crashes-and-controls",
     "https://www.eurogamer.net/google-gemini-ai-to-power-chatbot-companion-in-dragon-quest-x-square-enix-says",
     "https://www.nintendolife.com/news/2026/03/new-players-wont-feel-alone-square-enix-partners-with-google-for-ai-powered-dragon-quest-companion",
@@ -4999,11 +4997,11 @@
     "https://gamerant.com/the-elder-scrolls-poison-song-morrowind-expansion/",
     "https://www.polygon.com/riot-games-cancels-2xko-league-of-legends/",
     "https://www.pcgamer.com/games/action/black-myth-zhong-kuis-15-minute-gameplay-reveal-shows-off-confident-swordplay-boss-fights-with-oyster-men-and-the-coolest-skeletons-ive-ever-seen/",
-    "https://www.gematsu.com/2026/08/the-guild-remake-europa-1410-launches-in-early-access-on-september-17"
+    "https://www.gematsu.com/2026/08/the-guild-remake-europa-1410-launches-in-early-access-on-september-17",
+    "https://www.pushsquare.com/news/2026/08/ps5-fighting-game-2xko-throws-in-the-towel-just-cant-get-enough-players",
+    "https://www.gematsu.com/2026/08/code-vein-ii-expansion-mask-of-idris-launches-september-9-alongside-version-2-0-update"
   ],
   "seen_titles": [
-    "crimson desert gets a new patch which improves controls and adds new item storage",
-    "atomic owl for ps5, xbox series, ps4, xbox one, and switch launches may 20",
     "'the jumping, movement, and attacks are way more responsive': crimson desert ps5 patches fix crashes and controls",
     "google's gemini will make its way into dragon quest x to power a \"chatty slimey\" ai companion, square enix has announced",
     "\"new players won't feel alone\" - square enix partners with google for ai-powered dragon quest companion",
@@ -10001,11 +9999,11 @@
     "the elder scrolls: poison song officially announced",
     "riot games officially confirms end of 2xko development",
     "black myth: zhong kui's 15-minute gameplay reveal shows off confident swordplay, boss fights with oyster men, and the coolest skeletons i've ever seen",
-    "the guild remake: europa 1410 launches in early access on september 17"
+    "the guild remake: europa 1410 launches in early access on september 17",
+    "ps5 fighting game 2xko throws in the towel, just can't get enough players",
+    "code vein ii expansion ‘mask of idris’ launches september 9 alongside version 2.0 update"
   ],
   "seen_story_keys": [
-    "6452fd8a76a48f4b9a3717b14587778d487cddf4",
-    "799a7a1c4071a6ed1d28337d45c1dc03eef0d52b",
     "a1c5a064229664b902ecf264d64d27b68a230fb5",
     "17d1bc3697815d2247f1467d77a8fa72294ac400",
     "065c935d7e9507d75ebb0abfb4c9740d5c74cdfe",
@@ -15003,6 +15001,8 @@
     "fbb19cf1d6d0708779877ba76b99ee538ab5c607",
     "f7fec9c5fb0e346aa282f15dae1ad7359d16e87e",
     "4c184db4806888fd0a328fcbb88e5d299b5de572",
-    "655474be7ee11ca820fd18ed8e36ec4663d1da16"
+    "655474be7ee11ca820fd18ed8e36ec4663d1da16",
+    "560facd3d9429d6348f8473cf79ca5710346d35f",
+    "92371c420ffb38668834250824cc2bec62dac254"
   ]
 }
