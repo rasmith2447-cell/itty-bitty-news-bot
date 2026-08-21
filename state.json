@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/subnautica-2-biome-list-leaked-areas-confirmed/",
-    "https://www.gamespot.com/articles/high-on-life-2-delayed-for-switch-2-no-longer-releasing-on-4-20/1100-6538952/?ftag=CAD-01-10abi2f",
-    "https://www.purexbox.com/news/2026/03/ea-announces-server-shutdown-and-delisting-plans-for-battlefield-hardline-on-xbox",
     "https://www.ign.com/articles/super-mario-galaxy-movies-big-canon-reveal-seemingly-spoiled-by-ratings-board-listing",
     "https://www.gamespot.com/articles/crimson-desert-tools-can-have-some-very-unexpected-uses-and-that-includes-cooking-meat/1100-6538949/?ftag=CAD-01-10abi2f",
     "https://www.eurogamer.net/crimson-desert-players-criticize-temporary-mounts-like-the-dragon",
@@ -4999,12 +4996,12 @@
     "https://www.gematsu.com/2026/08/arknights-endfield-version-update-dreamscape-of-wind-and-snow-launches-september-2",
     "https://www.eurogamer.net/the-duskbloods-network-test-connection-problems-fromsoftware",
     "https://www.pushsquare.com/news/2026/08/psychonauts-dev-double-fine-reveals-its-future-plans-today",
-    "https://www.ign.com/articles/avengers-endgame-encore-runtime-revealed-seemingly-contains-just-4-minutes-of-extra-footage"
+    "https://www.ign.com/articles/avengers-endgame-encore-runtime-revealed-seemingly-contains-just-4-minutes-of-extra-footage",
+    "https://www.pushsquare.com/news/2026/08/the-blood-of-dawnwalker-wont-have-60fps-mode-on-ps5-or-even-ps5-pro",
+    "https://www.polygon.com/duskbloods-fromsoftware-first-network-test-closed-server-issues/",
+    "https://www.eurogamer.net/cyberpunk-edgerunners-release-date-october-teaser-trailer"
   ],
   "seen_titles": [
-    "every biome confirmed for subnautica 2 so far",
-    "high on life 2 delayed for switch 2, no longer releasing on 4/20",
-    "ea announces server shutdown & delisting plans for battlefield hardline on xbox",
     "super mario galaxy movie's big canon reveal seemingly spoiled by ratings board listing",
     "crimson desert tools can have some very unexpected uses, and that includes cooking meat",
     "as crimson desert developer pearl abyss rushes to fix pressing issues, players are asking for updates to the time-gated dragon mount",
@@ -10001,12 +9998,12 @@
     "arknights: endfield version update ‘dreamscape of wind and snow’ launches september 2",
     "connectivity issues force fromsoftware to close the duskbloods network test early",
     "psychonauts dev double fine reveals its future plans today",
-    "avengers: endgame encore runtime revealed, seemingly contains just 4 minutes of extra footage"
+    "avengers: endgame encore runtime revealed, seemingly contains just 4 minutes of extra footage",
+    "the blood of dawnwalker won't have 60fps mode on ps5 or even ps5 pro",
+    "duskbloods network test on switch 2 is already a flop",
+    "the second season of netflix's cyberpunk edgerunners anime releases this year"
   ],
   "seen_story_keys": [
-    "c35e99426a59e0dbd9cc4e048b228eb98a18234d",
-    "c88cc1186517b2570647c9f2fcc99da80991e288",
-    "e530ebc82462c44289b24087611c46a1ca27d50a",
     "3dbfc2f81d23af1aac37edeed4151f8650c7f702",
     "ddfc226c446cc6969ae5f95e0b22f62bd85ed524",
     "dc97a3095e92078e93d34ff61f453a742fcaa5d4",
@@ -15003,6 +15000,9 @@
     "3ceed0873f9ac5b947c062826a27eb8c65f2036f",
     "a7eb4b1f9816f2bdc1fce357d1259015050efa20",
     "d0c65b98d5f9fb4a66a7b1b8c8e228f9057ae5e1",
-    "cdc3cf866813419bef2797ca64ade3f9083dbb81"
+    "cdc3cf866813419bef2797ca64ade3f9083dbb81",
+    "f7c7885870a3cf9f8118b0825b44b8adf94e3336",
+    "4ed817377ff9ce6a923bcf02432dcf61ad902b77",
+    "c3a52788db6df834bb6bccbcb653adfef1833b9b"
   ]
 }
