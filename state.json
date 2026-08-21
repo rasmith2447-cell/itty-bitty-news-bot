@@ -1,6 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/worshippers-of-cthulhu-for-xbox-series-launches-march-27",
     "https://www.pushsquare.com/news/2026/03/yakuza-dev-gearing-up-for-big-stranger-than-heaven-re-reveal",
     "https://gamerant.com/borderlands-4-pc-performance-updates/",
     "https://gamerant.com/subnautica-2-biome-list-leaked-areas-confirmed/",
@@ -4999,10 +4998,10 @@
     "https://www.pushsquare.com/news/2026/08/onimusha-way-of-the-sword-may-be-another-ps5-capcom-hit-as-it-crosses-2-million-wishlists",
     "https://www.ign.com/articles/masters-of-the-universe-fans-hope-for-sequel-after-huge-streaming-debut",
     "https://www.pushsquare.com/news/2026/08/ps5-console-exclusive-phantom-blade-zero-poised-for-gargantuan-launch",
-    "https://www.gematsu.com/2026/08/arknights-endfield-version-update-dreamscape-of-wind-and-snow-launches-september-2"
+    "https://www.gematsu.com/2026/08/arknights-endfield-version-update-dreamscape-of-wind-and-snow-launches-september-2",
+    "https://www.eurogamer.net/the-duskbloods-network-test-connection-problems-fromsoftware"
   ],
   "seen_titles": [
-    "worshippers of cthulhu for xbox series launches march 27",
     "yakuza dev gearing up for big stranger than heaven re-reveal",
     "borderlands 4 devs detail recent pc performance updates",
     "every biome confirmed for subnautica 2 so far",
@@ -10001,10 +10000,10 @@
     "onimusha: way of the sword may be another ps5 capcom hit as it crosses 2 million wishlists",
     "masters of the universe fans hope for sequel after huge streaming debut",
     "ps5 console exclusive phantom blade zero poised for gargantuan launch",
-    "arknights: endfield version update ‘dreamscape of wind and snow’ launches september 2"
+    "arknights: endfield version update ‘dreamscape of wind and snow’ launches september 2",
+    "connectivity issues force fromsoftware to close the duskbloods network test early"
   ],
   "seen_story_keys": [
-    "c028e510eb81c016b4e6daa99209825000d6a4bb",
     "ce58bba70c047eff879cd87e9e6d8a1238345b5e",
     "8f5b0f719167a939f0d8a0cb6fb66375e5146102",
     "c35e99426a59e0dbd9cc4e048b228eb98a18234d",
@@ -15003,6 +15002,7 @@
     "d01c376107b351145d766236d0d8332fb6112072",
     "6de1540dfa8c0c18c467ff8f23fa0d31f33fe474",
     "3dcc3e27265bec9da98df41f62ab9383f79335c8",
-    "3ceed0873f9ac5b947c062826a27eb8c65f2036f"
+    "3ceed0873f9ac5b947c062826a27eb8c65f2036f",
+    "a7eb4b1f9816f2bdc1fce357d1259015050efa20"
   ]
 }
