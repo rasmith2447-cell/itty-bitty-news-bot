@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/yakuza-dev-gearing-up-for-big-stranger-than-heaven-re-reveal",
-    "https://gamerant.com/borderlands-4-pc-performance-updates/",
     "https://gamerant.com/subnautica-2-biome-list-leaked-areas-confirmed/",
     "https://www.gamespot.com/articles/high-on-life-2-delayed-for-switch-2-no-longer-releasing-on-4-20/1100-6538952/?ftag=CAD-01-10abi2f",
     "https://www.purexbox.com/news/2026/03/ea-announces-server-shutdown-and-delisting-plans-for-battlefield-hardline-on-xbox",
@@ -4999,11 +4997,11 @@
     "https://www.ign.com/articles/masters-of-the-universe-fans-hope-for-sequel-after-huge-streaming-debut",
     "https://www.pushsquare.com/news/2026/08/ps5-console-exclusive-phantom-blade-zero-poised-for-gargantuan-launch",
     "https://www.gematsu.com/2026/08/arknights-endfield-version-update-dreamscape-of-wind-and-snow-launches-september-2",
-    "https://www.eurogamer.net/the-duskbloods-network-test-connection-problems-fromsoftware"
+    "https://www.eurogamer.net/the-duskbloods-network-test-connection-problems-fromsoftware",
+    "https://www.pushsquare.com/news/2026/08/psychonauts-dev-double-fine-reveals-its-future-plans-today",
+    "https://www.ign.com/articles/avengers-endgame-encore-runtime-revealed-seemingly-contains-just-4-minutes-of-extra-footage"
   ],
   "seen_titles": [
-    "yakuza dev gearing up for big stranger than heaven re-reveal",
-    "borderlands 4 devs detail recent pc performance updates",
     "every biome confirmed for subnautica 2 so far",
     "high on life 2 delayed for switch 2, no longer releasing on 4/20",
     "ea announces server shutdown & delisting plans for battlefield hardline on xbox",
@@ -10001,11 +9999,11 @@
     "masters of the universe fans hope for sequel after huge streaming debut",
     "ps5 console exclusive phantom blade zero poised for gargantuan launch",
     "arknights: endfield version update ‘dreamscape of wind and snow’ launches september 2",
-    "connectivity issues force fromsoftware to close the duskbloods network test early"
+    "connectivity issues force fromsoftware to close the duskbloods network test early",
+    "psychonauts dev double fine reveals its future plans today",
+    "avengers: endgame encore runtime revealed, seemingly contains just 4 minutes of extra footage"
   ],
   "seen_story_keys": [
-    "ce58bba70c047eff879cd87e9e6d8a1238345b5e",
-    "8f5b0f719167a939f0d8a0cb6fb66375e5146102",
     "c35e99426a59e0dbd9cc4e048b228eb98a18234d",
     "c88cc1186517b2570647c9f2fcc99da80991e288",
     "e530ebc82462c44289b24087611c46a1ca27d50a",
@@ -15003,6 +15001,8 @@
     "6de1540dfa8c0c18c467ff8f23fa0d31f33fe474",
     "3dcc3e27265bec9da98df41f62ab9383f79335c8",
     "3ceed0873f9ac5b947c062826a27eb8c65f2036f",
-    "a7eb4b1f9816f2bdc1fce357d1259015050efa20"
+    "a7eb4b1f9816f2bdc1fce357d1259015050efa20",
+    "d0c65b98d5f9fb4a66a7b1b8c8e228f9057ae5e1",
+    "cdc3cf866813419bef2797ca64ade3f9083dbb81"
   ]
 }
