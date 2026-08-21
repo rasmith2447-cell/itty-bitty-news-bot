@@ -1,6 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/super-mario-galaxy-movies-big-canon-reveal-seemingly-spoiled-by-ratings-board-listing",
     "https://www.gamespot.com/articles/crimson-desert-tools-can-have-some-very-unexpected-uses-and-that-includes-cooking-meat/1100-6538949/?ftag=CAD-01-10abi2f",
     "https://www.eurogamer.net/crimson-desert-players-criticize-temporary-mounts-like-the-dragon",
     "https://www.gamespot.com/articles/one-of-the-most-controversial-battlefield-games-is-shutting-down-on-consoles-soon/1100-6538954/?ftag=CAD-01-10abi2f",
@@ -4999,10 +4998,10 @@
     "https://www.ign.com/articles/avengers-endgame-encore-runtime-revealed-seemingly-contains-just-4-minutes-of-extra-footage",
     "https://www.pushsquare.com/news/2026/08/the-blood-of-dawnwalker-wont-have-60fps-mode-on-ps5-or-even-ps5-pro",
     "https://www.polygon.com/duskbloods-fromsoftware-first-network-test-closed-server-issues/",
-    "https://www.eurogamer.net/cyberpunk-edgerunners-release-date-october-teaser-trailer"
+    "https://www.eurogamer.net/cyberpunk-edgerunners-release-date-october-teaser-trailer",
+    "https://www.ign.com/articles/the-blood-of-dawnwalker-wont-run-at-60fps-on-console-and-fans-arent-happy"
   ],
   "seen_titles": [
-    "super mario galaxy movie's big canon reveal seemingly spoiled by ratings board listing",
     "crimson desert tools can have some very unexpected uses, and that includes cooking meat",
     "as crimson desert developer pearl abyss rushes to fix pressing issues, players are asking for updates to the time-gated dragon mount",
     "one of the most controversial battlefield games is shutting down on consoles soon",
@@ -10001,10 +10000,10 @@
     "avengers: endgame encore runtime revealed, seemingly contains just 4 minutes of extra footage",
     "the blood of dawnwalker won't have 60fps mode on ps5 or even ps5 pro",
     "duskbloods network test on switch 2 is already a flop",
-    "the second season of netflix's cyberpunk edgerunners anime releases this year"
+    "the second season of netflix's cyberpunk edgerunners anime releases this year",
+    "the blood of dawnwalker won’t run at 60fps on console, and fans aren’t happy"
   ],
   "seen_story_keys": [
-    "3dbfc2f81d23af1aac37edeed4151f8650c7f702",
     "ddfc226c446cc6969ae5f95e0b22f62bd85ed524",
     "dc97a3095e92078e93d34ff61f453a742fcaa5d4",
     "3f4daa4e45db94439d8e4a42c1b9a94f406a3c97",
@@ -15003,6 +15002,7 @@
     "cdc3cf866813419bef2797ca64ade3f9083dbb81",
     "f7c7885870a3cf9f8118b0825b44b8adf94e3336",
     "4ed817377ff9ce6a923bcf02432dcf61ad902b77",
-    "c3a52788db6df834bb6bccbcb653adfef1833b9b"
+    "c3a52788db6df834bb6bccbcb653adfef1833b9b",
+    "69084fb533d3c3c41ef0a5faf915ba776ef1c28e"
   ]
 }
