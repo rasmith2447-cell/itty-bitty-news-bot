@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/magic-the-gathering-secrets-of-strixhaven-tcg-where-to-buy",
-    "https://gamerant.com/dying-light-the-beast-free-update-restored-land/",
     "https://www.pushsquare.com/news/2026/03/it-wont-be-much-longer-before-we-see-more-of-ps5-exclusive-marvels-wolverine",
     "https://www.pcgamer.com/hardware/processors/oops-asrock-says-motherboards-will-support-newly-launched-amd-ryzen-9-9950x3d2-cpu-that-has-definitely-not-yet-been-announced/",
     "https://www.gematsu.com/2026/03/worshippers-of-cthulhu-for-xbox-series-launches-march-27",
@@ -4999,11 +4997,11 @@
     "https://www.gematsu.com/2026/08/moomin-midsummer-madness-launches-november-12",
     "https://www.gematsu.com/2026/08/expelled-from-paradise-the-stellar-angel-launches-november-26",
     "https://www.eurogamer.net/2xko-development-ending-december-riot-games-issuing-refunds",
-    "https://www.pushsquare.com/news/2026/08/marvel-tokons-latest-ps5-pc-update-is-available-now-here-are-the-patch-notes"
+    "https://www.pushsquare.com/news/2026/08/marvel-tokons-latest-ps5-pc-update-is-available-now-here-are-the-patch-notes",
+    "https://www.pushsquare.com/news/2026/08/onimusha-way-of-the-sword-may-be-another-ps5-capcom-hit-as-it-crosses-2-million-wishlists",
+    "https://www.ign.com/articles/masters-of-the-universe-fans-hope-for-sequel-after-huge-streaming-debut"
   ],
   "seen_titles": [
-    "secrets of strixhaven is magic's next set, and you can preorder already",
-    "dying light: the beast is getting tons of new free content this week",
     "it won't be much longer before we see more of ps5 exclusive marvel's wolverine",
     "oops, asrock says motherboards will support 'newly launched' amd ryzen 9 9950x3d2 cpu that has definitely not yet been launched",
     "worshippers of cthulhu for xbox series launches march 27",
@@ -10001,11 +9999,11 @@
     "moomin: midsummer madness launches november 12",
     "expelled from paradise: the stellar angel launches november 26",
     "riot games to end lol fighting game 2xk0's development and issue refunds, less than a year since launch",
-    "marvel tokon's latest ps5, pc update is available now, here are the patch notes"
+    "marvel tokon's latest ps5, pc update is available now, here are the patch notes",
+    "onimusha: way of the sword may be another ps5 capcom hit as it crosses 2 million wishlists",
+    "masters of the universe fans hope for sequel after huge streaming debut"
   ],
   "seen_story_keys": [
-    "6d998f233ddcc0dc8fc4997377d69b897db4fb12",
-    "5542a10643ba339a5b0e7c5f1039be7caf819eef",
     "81caca5d458f1bf8b0203b99e8d7f497247203b8",
     "5af61f5fc6613574c48eb21bf3284e02c7cf278a",
     "c028e510eb81c016b4e6daa99209825000d6a4bb",
@@ -15003,6 +15001,8 @@
     "ea38fb5a3de9c69af525ea0cfb576ebc5d1b8151",
     "b0216b747390a87151d9ff8eb8a8dda222dc4cf1",
     "cf8fa64901e06905bed50055c4c920646c75de6e",
-    "60559b58ac730a44d9e47186131c8dafcaa1b533"
+    "60559b58ac730a44d9e47186131c8dafcaa1b533",
+    "d01c376107b351145d766236d0d8332fb6112072",
+    "6de1540dfa8c0c18c467ff8f23fa0d31f33fe474"
   ]
 }
