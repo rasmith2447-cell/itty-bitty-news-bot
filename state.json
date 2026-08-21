@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/it-wont-be-much-longer-before-we-see-more-of-ps5-exclusive-marvels-wolverine",
-    "https://www.pcgamer.com/hardware/processors/oops-asrock-says-motherboards-will-support-newly-launched-amd-ryzen-9-9950x3d2-cpu-that-has-definitely-not-yet-been-announced/",
     "https://www.gematsu.com/2026/03/worshippers-of-cthulhu-for-xbox-series-launches-march-27",
     "https://www.pushsquare.com/news/2026/03/yakuza-dev-gearing-up-for-big-stranger-than-heaven-re-reveal",
     "https://gamerant.com/borderlands-4-pc-performance-updates/",
@@ -4999,11 +4997,11 @@
     "https://www.eurogamer.net/2xko-development-ending-december-riot-games-issuing-refunds",
     "https://www.pushsquare.com/news/2026/08/marvel-tokons-latest-ps5-pc-update-is-available-now-here-are-the-patch-notes",
     "https://www.pushsquare.com/news/2026/08/onimusha-way-of-the-sword-may-be-another-ps5-capcom-hit-as-it-crosses-2-million-wishlists",
-    "https://www.ign.com/articles/masters-of-the-universe-fans-hope-for-sequel-after-huge-streaming-debut"
+    "https://www.ign.com/articles/masters-of-the-universe-fans-hope-for-sequel-after-huge-streaming-debut",
+    "https://www.pushsquare.com/news/2026/08/ps5-console-exclusive-phantom-blade-zero-poised-for-gargantuan-launch",
+    "https://www.gematsu.com/2026/08/arknights-endfield-version-update-dreamscape-of-wind-and-snow-launches-september-2"
   ],
   "seen_titles": [
-    "it won't be much longer before we see more of ps5 exclusive marvel's wolverine",
-    "oops, asrock says motherboards will support 'newly launched' amd ryzen 9 9950x3d2 cpu that has definitely not yet been launched",
     "worshippers of cthulhu for xbox series launches march 27",
     "yakuza dev gearing up for big stranger than heaven re-reveal",
     "borderlands 4 devs detail recent pc performance updates",
@@ -10001,11 +9999,11 @@
     "riot games to end lol fighting game 2xk0's development and issue refunds, less than a year since launch",
     "marvel tokon's latest ps5, pc update is available now, here are the patch notes",
     "onimusha: way of the sword may be another ps5 capcom hit as it crosses 2 million wishlists",
-    "masters of the universe fans hope for sequel after huge streaming debut"
+    "masters of the universe fans hope for sequel after huge streaming debut",
+    "ps5 console exclusive phantom blade zero poised for gargantuan launch",
+    "arknights: endfield version update ‘dreamscape of wind and snow’ launches september 2"
   ],
   "seen_story_keys": [
-    "81caca5d458f1bf8b0203b99e8d7f497247203b8",
-    "5af61f5fc6613574c48eb21bf3284e02c7cf278a",
     "c028e510eb81c016b4e6daa99209825000d6a4bb",
     "ce58bba70c047eff879cd87e9e6d8a1238345b5e",
     "8f5b0f719167a939f0d8a0cb6fb66375e5146102",
@@ -15003,6 +15001,8 @@
     "cf8fa64901e06905bed50055c4c920646c75de6e",
     "60559b58ac730a44d9e47186131c8dafcaa1b533",
     "d01c376107b351145d766236d0d8332fb6112072",
-    "6de1540dfa8c0c18c467ff8f23fa0d31f33fe474"
+    "6de1540dfa8c0c18c467ff8f23fa0d31f33fe474",
+    "3dcc3e27265bec9da98df41f62ab9383f79335c8",
+    "3ceed0873f9ac5b947c062826a27eb8c65f2036f"
   ]
 }
