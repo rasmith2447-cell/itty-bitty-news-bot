@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/roguelike/analysts-say-slay-the-spire-2-is-the-best-performing-deckbuilder-of-all-time-and-the-competition-isnt-close/",
-    "https://www.pcgamer.com/gaming-industry/call-of-duty-veterans-new-studio-which-was-just-announced-in-2025-is-reportedly-being-closed-by-sony/",
-    "https://www.gematsu.com/2026/03/invincible-vs-adds-titan",
-    "https://www.nintendolife.com/news/2026/03/hello-kitty-island-adventure-is-getting-brand-new-dlc-next-month",
     "https://gamerant.com/fire-force-season-3-episode-24-release-date-where-to-watch/",
     "https://www.gematsu.com/2026/03/everquest-legends-announced-for-pc",
     "https://www.pcgamer.com/hardware/graphics-cards/sony-reveals-that-its-new-pssr-upscaling-for-the-playstation-5-pro-has-the-same-core-as-amds-fsr-redstone-but-that-doesnt-necessarily-mean-older-amd-pc-graphics-cards-are-set-to-get-an-fsr-upgrade/",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/features/live-watch-the-pixel-arcadia-retro-game-livestream-here-featuring-terranigma",
     "https://www.pushsquare.com/news/2026/08/ex-forza-horizon-devs-finally-find-a-publisher-for-clutch-ps5s-promising-open-world-racer",
     "https://www.gematsu.com/2026/08/ninja-jajamaru-yokai-night-parade-unveiled-for-ps5-switch-2-and-pc",
-    "https://www.gematsu.com/2026/08/terranigma-announced-for-ps5-xbox-series-switch-2-ps4-switch-and-pc"
+    "https://www.gematsu.com/2026/08/terranigma-announced-for-ps5-xbox-series-switch-2-ps4-switch-and-pc",
+    "https://www.gematsu.com/2026/08/alien-breed-35th-anniversary-collection-announced-for-ps5-xbox-series-switch-and-pc",
+    "https://www.gematsu.com/2026/08/cosmi-forbidden-forests-re-revealed-as-cosmi-forbidden-forest-beyond",
+    "https://www.gematsu.com/2026/08/sanitarium-enhanced-announced-for-ps5-xbox-series-ps4-switch-and-pc",
+    "https://www.gamespot.com/articles/my-cat-doesnt-care-about-the-metal-gear-box-just-the-box-it-came-in/"
   ],
   "seen_titles": [
-    "analysts say slay the spire 2 is the best-performing deckbuilder of all time—and the competition isn't close",
-    "call of duty veteran's new studio, which was just announced in 2025, is being closed by sony",
-    "invincible vs adds titan",
-    "hello kitty island adventure is getting brand-new dlc next month",
     "fire force episode 24 season 3 episode 24 release date and where to watch",
     "everquest legends announced for pc",
     "sony reveals that its new pssr upscaling for the playstation 5 pro has the same 'core' as amd's fsr redstone but that doesn't necessarily mean older amd pc graphics cards are set to get an fsr upgrade",
@@ -10001,13 +9997,13 @@
     "live: watch the pixel arcadia retro game livestream here, featuring terranigma",
     "ex-forza horizon devs finally find a publisher for clutch, ps5's promising open world racer",
     "ninja jajamaru: yokai night parade unveiled for ps5, switch 2, and pc",
-    "terranigma announced for ps5, xbox series, switch 2, ps4, switch, and pc"
+    "terranigma announced for ps5, xbox series, switch 2, ps4, switch, and pc",
+    "alien breed 35th anniversary collection announced for ps5, xbox series, switch, and pc",
+    "cosmi: forbidden forests re-revealed as cosmi: forbidden forest & beyond",
+    "sanitarium enhanced announced for ps5, xbox series, ps4, switch, and pc",
+    "my cat doesn’t care about the metal gear box, just the box it came in"
   ],
   "seen_story_keys": [
-    "875dad63c309ab5a5c4647981a17733e185a867f",
-    "ce1aa14dfdd399c66fdb2a212228b42abb2376d5",
-    "8f5f6e1af2445826803ddb33f951944eb02632d3",
-    "dd1d7f6a09fdf3748bca942d4c4e45e39ec8eaa0",
     "56a2c3ab17ea71c41fbe30faf89af889eea2f654",
     "fbe0c99e15ed06a15ef896a78c9bbc0d0e173c86",
     "b9b6f205f3a6e55d88b030eca685b222cd9c9dcb",
@@ -15003,6 +14999,10 @@
     "92400b5dddef228579964b94e09e7cba087d3d52",
     "dc2fc8cb5ee8f7a4c3df8503ca17463b48e3b42e",
     "25b5c94f27ac2297ae121302e8b670a696c19a4b",
-    "7fdfb7754a26049263705b63b6c518da65d3b865"
+    "7fdfb7754a26049263705b63b6c518da65d3b865",
+    "bfa01301bec61d54ae208c716cde055d9f3af80f",
+    "8f2ee90fee2bab1e9beecfde5eeb0f1447d1511b",
+    "43e04543c6ee260da651bfbe1f2cd4ab19861a14",
+    "1295e4ae80f47739244700dd633482da47b6f23a"
   ]
 }
