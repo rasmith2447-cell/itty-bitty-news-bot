@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/video/pokemon-champions-overview-trailer/",
-    "https://www.gematsu.com/2026/03/sony-interactive-entertainment-shuts-down-dark-outlaw-games",
-    "https://gamerant.com/playstation-studio-shutdown-dark-outlaw-games/",
-    "https://www.rockpapershotgun.com/masters-of-albion-is-getting-a-closed-beta-test-so-you-can-tell-peter-molyneux-if-hes-full-of-it-again",
     "https://gamerant.com/final-fantasy-14-patch-7-5-update-ff14/",
     "https://www.polygon.com/epic-layoffs-fortnite-games-industry/",
     "https://www.purexbox.com/news/2026/03/report-halo-studios-is-working-with-mcc-co-developer-on-halo-campaign-evolved",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/the-blood-of-dawnwalker-performance-mode-day-one-console-patch/",
     "https://www.videogameschronicle.com/news/blood-of-the-dawnwalker-graphics-modes/",
     "https://www.gematsu.com/2026/08/ebitapes-launches-september-22",
-    "https://gamerant.com/the-blood-of-dawnwalker-performance-mode-framerate-day-one-update/"
+    "https://gamerant.com/the-blood-of-dawnwalker-performance-mode-framerate-day-one-update/",
+    "https://www.pushsquare.com/news/2026/08/the-witcher-4-set-for-a-2028-release-cd-projekt-red-confirms",
+    "https://www.gematsu.com/2026/08/the-witcher-iv-launches-in-2028",
+    "https://www.gematsu.com/2026/08/castlevania-belmonts-curse-english-voice-cast-announced",
+    "https://www.videogameschronicle.com/news/hideki-kamiyas-clovers-has-hired-composers-behind-bayonetta-and-okami/"
   ],
   "seen_titles": [
-    "pokemon champions - overview trailer",
-    "sony interactive entertainment shuts down dark outlaw games",
-    "playstation is officially shutting down another first-party studio",
-    "masters of albion is getting a closed beta test so you can tell peter molyneux if he's full of it again",
     "final fantasy 14 unveils one last event before patch 7.5",
     "epic layoffs are a bad sign, analyst says: 'if fortnite can't make it, what chance do other games have?'",
     "report: halo studios is working with mcc co-developer on halo: campaign evolved",
@@ -10001,13 +9997,13 @@
     "amid the blood of dawnwalker performance fears, rebel wolves promises a day one console patch",
     "blood of the dawnwalker console footage confirms no 60fps mode at launch",
     "ebitapes launches september 22",
-    "the blood of dawnwalker announces last minute performance mode change"
+    "the blood of dawnwalker announces last minute performance mode change",
+    "the witcher 4 set for a 2028 release, cd projekt red confirms",
+    "the witcher iv launches in 2028",
+    "castlevania: belmont’s curse english voice cast announced",
+    "hideki kamiya’s clovers has hired composers behind bayonetta and okami"
   ],
   "seen_story_keys": [
-    "c03944343e34340b8161d85d52c2bf16a869f6c3",
-    "ca60bad30e46b80a27c7f048e7db79b0b341d37a",
-    "5b776a65a6413d62eb05f46eacd904a3cbc470d4",
-    "1899b985b3b3990568692aa587a3b3c2347f1331",
     "576480a015d15c0b56835e11998e1b514f57a1b1",
     "b382aaac3cc0a3257a7e5bdc01a6a68327118e59",
     "907986b7601a71d13db8dacfd1bde1067d473919",
@@ -15003,6 +14999,10 @@
     "ef859ed90cd826dd805b4975e37ea10818dd0aac",
     "e5427cd9284dc1e52783e778310b53fa7431ad5a",
     "422ad544f4a5bae1fb0df9b0d60c1af10bcf526b",
-    "d2e19a171ee14a8e0b3bc4d924c0d3ed198246e7"
+    "d2e19a171ee14a8e0b3bc4d924c0d3ed198246e7",
+    "16361a919681780368aeff6484cf25fab065c76f",
+    "be3876e5ae83f450ce0e82ef0fd7e5683c50b235",
+    "cace1f62c47d20411a83f3f2cee464fb488807c0",
+    "078d15643cc58ebfc12bf4f3ac1458882c346e6d"
   ]
 }
