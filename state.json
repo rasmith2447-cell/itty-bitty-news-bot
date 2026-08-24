@@ -1,6 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/epic-games-lays-off-over-1000-employees",
     "https://www.ign.com/articles/fortnite-developer-epic-games-lays-off-1000-employees-blaming-downturn-in-engagement",
     "https://www.gematsu.com/2026/03/reforged-studios-acquires-headup",
     "https://www.eurogamer.net/atomfall-players-have-munched-168m-cornish-pasties-in-the-last-12-months",
@@ -4999,10 +4998,10 @@
     "https://gamerant.com/new-official-snes-sega-genesis-release-mr-nutz-2027/",
     "https://gamerant.com/1666-amsterdam-release-times-early-access/",
     "https://www.eurogamer.net/twitch-amazon-generative-ai-training-lawsuit-streamers",
-    "https://gamerant.com/resonance-plague-tale-legacy-release-times/"
+    "https://gamerant.com/resonance-plague-tale-legacy-release-times/",
+    "https://gamerant.com/fortnite-new-season-4-bot-lobbies-chapter-7/"
   ],
   "seen_titles": [
-    "epic games lays off over 1,000 employees",
     "fortnite developer epic games lays off 1000 employees, blaming 'downturn in engagement'",
     "reforged studios acquires headup",
     "atomfall players have munched 16.8m cornish pasties in the last 12 months, eye-opening stats reveal as survival hit turns one",
@@ -10001,10 +10000,10 @@
     "new official snes and sega genesis release confirmed for 2027",
     "1666: amsterdam release times (pc early access)",
     "twitch faces a class action lawsuit over using streamers' content to train amazon's ai",
-    "resonance: a plague tale legacy release times"
+    "resonance: a plague tale legacy release times",
+    "fortnite players unhappy with chapter 7 season 4 bot issues"
   ],
   "seen_story_keys": [
-    "6b959fd1e98c964615ebe9d75bc1fe6fa2228529",
     "790c2b8e15f64cbe6b5921a934c0758707ca1ca3",
     "9fd4a5f62ff900e88bfc8038319f898277c28b84",
     "9b61bb92cf602f5a36488b71cd39d93b60a7a982",
@@ -15003,6 +15002,7 @@
     "68f503c92a14d39641aab5b70000c02df2f2cca5",
     "798aa7d0eba3469a9f68f0993f850d39cfb96765",
     "66ae1ad6a7aeab3dd6b42f3828b8c20bf0894378",
-    "68ba359dae8c4ff6a35304cec36f55e86a58df3b"
+    "68ba359dae8c4ff6a35304cec36f55e86a58df3b",
+    "6d2c865e4a3a935188ae3c6b462cf49aa681758d"
   ]
 }
