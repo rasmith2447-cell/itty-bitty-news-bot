@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/flatout-4-total-insanity-vr-launches-in-early-access-for-steamvr-on-april-23",
-    "https://www.polygon.com/shangri-la-frontier-new-season-2027-fantasy-vr-game-anime/",
-    "https://www.eurogamer.net/crimson-desert-sells-another-1m-as-pearl-abyss-pledges-more-fixes",
     "https://www.gematsu.com/2026/03/age-of-mythology-retold-dlc-obsidian-mirror-launches-april-21",
     "https://www.rockpapershotgun.com/everquest-legends-is-the-1999-mmo-you-know-and-love-born-again-with-more-respect-for-your-time",
     "https://gamerant.com/video/pokemon-champions-overview-trailer/",
@@ -4999,12 +4996,12 @@
     "https://www.purexbox.com/news/2026/08/xbox-to-announce-ori-3-at-gamescom-moon-studios-ceo-reckons-its-nonsense",
     "https://www.pcgamer.com/software/ai/twitch-hit-with-class-action-lawsuit-over-amazon-ai-training-twitch-sent-no-email-displayed-no-pop-up-notification-and-made-no-announcement/",
     "https://www.ign.com/articles/level-infinite-gamescom-2026-lineup",
-    "https://www.purexbox.com/news/2026/08/the-blood-of-dawnwalker-adds-much-requested-60fps-performance-mode-for-xbox-series-x"
+    "https://www.purexbox.com/news/2026/08/the-blood-of-dawnwalker-adds-much-requested-60fps-performance-mode-for-xbox-series-x",
+    "https://gamerant.com/witcher-3-songs-past-dlc-features-gwent/",
+    "https://www.polygon.com/the-blood-of-dawnwalker-performance-mode-day-one-console-patch/",
+    "https://www.videogameschronicle.com/news/blood-of-the-dawnwalker-graphics-modes/"
   ],
   "seen_titles": [
-    "flatout 4: total insanity vr launches in early access for steamvr on april 23",
-    "shangri-la frontier season 3 finally gets a release date... in 2027",
-    "crimson desert sells another 1m, as pearl abyss pledges more fixes to address launch day struggles",
     "age of mythology: retold dlc ‘obsidian mirror’ launches april 21",
     "everquest legends is the 1999 mmo you know and love born again with more respect for your time",
     "pokemon champions - overview trailer",
@@ -10001,12 +9998,12 @@
     "xbox to announce ori 3 at gamescom? moon studios ceo reckons it's 'nonsense'",
     "twitch hit with class-action lawsuit over amazon ai training: 'twitch sent no email, displayed no pop-up notification, and made no announcement'",
     "playable control resonant and a dune: awakening update highlight level infinite’s massive gamescom 2026 plans",
-    "the blood of dawnwalker adds much-requested 60fps performance mode for xbox series x"
+    "the blood of dawnwalker adds much-requested 60fps performance mode for xbox series x",
+    "the witcher 3: songs of the past dlc officially confirms returning feature ahead of gamescom",
+    "amid the blood of dawnwalker performance fears, rebel wolves promises a day one console patch",
+    "blood of the dawnwalker console footage confirms no 60fps mode at launch"
   ],
   "seen_story_keys": [
-    "cfa1c4cc1768d2884e48e0d6474766332158420f",
-    "05d54e4dca8a27b90af401b0ba324f681db99a47",
-    "0809ec931a9a8408d0b567af2deed76c6cbea1f9",
     "59bad133acfcd6611e3dc6d2a4512bf9dbc9bc90",
     "1a378dbb352d2ae3a36e369a9078e599b2e5f9b9",
     "c03944343e34340b8161d85d52c2bf16a869f6c3",
@@ -15003,6 +15000,9 @@
     "6223bb400645382ff3c14e87ba853af553c368ee",
     "2246394a80e770ce854a8b8229c9f94e2fc9959d",
     "35838675a311cf8ba0d14101e622264993b1e0a2",
-    "a297f57b7e032607428d881dea80dac87982514c"
+    "a297f57b7e032607428d881dea80dac87982514c",
+    "54671168e85127576b892545ca5d443dd9a0ef91",
+    "ef859ed90cd826dd805b4975e37ea10818dd0aac",
+    "e5427cd9284dc1e52783e778310b53fa7431ad5a"
   ]
 }
