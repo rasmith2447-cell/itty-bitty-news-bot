@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/breaking-bad-vr-game/",
-    "https://gamerant.com/pokemon-champions-release-date-switch/",
-    "https://www.gematsu.com/2026/03/wrath-aeon-of-ruin-vr-brutal-edition-launches-april-9",
     "https://www.gematsu.com/2026/03/flatout-4-total-insanity-vr-launches-in-early-access-for-steamvr-on-april-23",
     "https://www.polygon.com/shangri-la-frontier-new-season-2027-fantasy-vr-game-anime/",
     "https://www.eurogamer.net/crimson-desert-sells-another-1m-as-pearl-abyss-pledges-more-fixes",
@@ -4999,12 +4996,12 @@
     "https://www.eurogamer.net/final-fantasy-resonance-120-song-ost",
     "https://www.gematsu.com/2026/08/nekopara-sekai-connect-for-pc-launches-september-28",
     "https://www.purexbox.com/news/2026/08/the-blood-of-dawnwalker-has-three-performance-modes-on-xbox-series-x",
-    "https://www.purexbox.com/news/2026/08/xbox-to-announce-ori-3-at-gamescom-moon-studios-ceo-reckons-its-nonsense"
+    "https://www.purexbox.com/news/2026/08/xbox-to-announce-ori-3-at-gamescom-moon-studios-ceo-reckons-its-nonsense",
+    "https://www.pcgamer.com/software/ai/twitch-hit-with-class-action-lawsuit-over-amazon-ai-training-twitch-sent-no-email-displayed-no-pop-up-notification-and-made-no-announcement/",
+    "https://www.ign.com/articles/level-infinite-gamescom-2026-lineup",
+    "https://www.purexbox.com/news/2026/08/the-blood-of-dawnwalker-adds-much-requested-60fps-performance-mode-for-xbox-series-x"
   ],
   "seen_titles": [
-    "breaking bad almost got its own video game, but it was canceled",
-    "pokemon champions nintendo switch release date is now official",
-    "wrath: aeon of ruin vr – brutal edition launches april 9",
     "flatout 4: total insanity vr launches in early access for steamvr on april 23",
     "shangri-la frontier season 3 finally gets a release date... in 2027",
     "crimson desert sells another 1m, as pearl abyss pledges more fixes to address launch day struggles",
@@ -10001,12 +9998,12 @@
     "final fantasy resonance is getting a 120-song original soundtrack",
     "nekopara sekai connect for pc launches september 28",
     "the blood of dawnwalker has three performance modes on xbox series x",
-    "xbox to announce ori 3 at gamescom? moon studios ceo reckons it's 'nonsense'"
+    "xbox to announce ori 3 at gamescom? moon studios ceo reckons it's 'nonsense'",
+    "twitch hit with class-action lawsuit over amazon ai training: 'twitch sent no email, displayed no pop-up notification, and made no announcement'",
+    "playable control resonant and a dune: awakening update highlight level infinite’s massive gamescom 2026 plans",
+    "the blood of dawnwalker adds much-requested 60fps performance mode for xbox series x"
   ],
   "seen_story_keys": [
-    "42f6cc09811f417ce45903ef39eabfcc1ffcca49",
-    "d2c6875205a031f4bff9513d1b3ca9c703e65fa8",
-    "62d1a98e7d7b023cd84a24a06523731567c389a7",
     "cfa1c4cc1768d2884e48e0d6474766332158420f",
     "05d54e4dca8a27b90af401b0ba324f681db99a47",
     "0809ec931a9a8408d0b567af2deed76c6cbea1f9",
@@ -15003,6 +15000,9 @@
     "80bea523ddb74bc5a819e1e03ad7fbacb1dc0e0f",
     "fed2b061dc6b3159a70874f8bcc4b8547b68288b",
     "90a1f60e221dc4cde0d246d68450bcc631d1bcea",
-    "6223bb400645382ff3c14e87ba853af553c368ee"
+    "6223bb400645382ff3c14e87ba853af553c368ee",
+    "2246394a80e770ce854a8b8229c9f94e2fc9959d",
+    "35838675a311cf8ba0d14101e622264993b1e0a2",
+    "a297f57b7e032607428d881dea80dac87982514c"
   ]
 }
