@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/age-of-mythology-retold-dlc-obsidian-mirror-launches-april-21",
-    "https://www.rockpapershotgun.com/everquest-legends-is-the-1999-mmo-you-know-and-love-born-again-with-more-respect-for-your-time",
     "https://gamerant.com/video/pokemon-champions-overview-trailer/",
     "https://www.gematsu.com/2026/03/sony-interactive-entertainment-shuts-down-dark-outlaw-games",
     "https://gamerant.com/playstation-studio-shutdown-dark-outlaw-games/",
@@ -4999,11 +4997,11 @@
     "https://www.purexbox.com/news/2026/08/the-blood-of-dawnwalker-adds-much-requested-60fps-performance-mode-for-xbox-series-x",
     "https://gamerant.com/witcher-3-songs-past-dlc-features-gwent/",
     "https://www.polygon.com/the-blood-of-dawnwalker-performance-mode-day-one-console-patch/",
-    "https://www.videogameschronicle.com/news/blood-of-the-dawnwalker-graphics-modes/"
+    "https://www.videogameschronicle.com/news/blood-of-the-dawnwalker-graphics-modes/",
+    "https://www.gematsu.com/2026/08/ebitapes-launches-september-22",
+    "https://gamerant.com/the-blood-of-dawnwalker-performance-mode-framerate-day-one-update/"
   ],
   "seen_titles": [
-    "age of mythology: retold dlc ‘obsidian mirror’ launches april 21",
-    "everquest legends is the 1999 mmo you know and love born again with more respect for your time",
     "pokemon champions - overview trailer",
     "sony interactive entertainment shuts down dark outlaw games",
     "playstation is officially shutting down another first-party studio",
@@ -10001,11 +9999,11 @@
     "the blood of dawnwalker adds much-requested 60fps performance mode for xbox series x",
     "the witcher 3: songs of the past dlc officially confirms returning feature ahead of gamescom",
     "amid the blood of dawnwalker performance fears, rebel wolves promises a day one console patch",
-    "blood of the dawnwalker console footage confirms no 60fps mode at launch"
+    "blood of the dawnwalker console footage confirms no 60fps mode at launch",
+    "ebitapes launches september 22",
+    "the blood of dawnwalker announces last minute performance mode change"
   ],
   "seen_story_keys": [
-    "59bad133acfcd6611e3dc6d2a4512bf9dbc9bc90",
-    "1a378dbb352d2ae3a36e369a9078e599b2e5f9b9",
     "c03944343e34340b8161d85d52c2bf16a869f6c3",
     "ca60bad30e46b80a27c7f048e7db79b0b341d37a",
     "5b776a65a6413d62eb05f46eacd904a3cbc470d4",
@@ -15003,6 +15001,8 @@
     "a297f57b7e032607428d881dea80dac87982514c",
     "54671168e85127576b892545ca5d443dd9a0ef91",
     "ef859ed90cd826dd805b4975e37ea10818dd0aac",
-    "e5427cd9284dc1e52783e778310b53fa7431ad5a"
+    "e5427cd9284dc1e52783e778310b53fa7431ad5a",
+    "422ad544f4a5bae1fb0df9b0d60c1af10bcf526b",
+    "d2e19a171ee14a8e0b3bc4d924c0d3ed198246e7"
   ]
 }
