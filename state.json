@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/tomodachi-life-living-the-dream-demo-released-save-data-transfer-to-full-game-confirmed",
-    "https://www.gematsu.com/2026/03/1888-set-social-investigation-game-4-penny-coffins-announced-for-pc",
-    "https://gamerant.com/new-fifa-game-heroes-free-to-play/",
-    "https://www.gamesindustry.biz/heavyweights-ruined-the-industry-now-we-live-on-the-indies-nordic-game-embraces-smaller-devs-and-games-with-soul",
     "https://www.gematsu.com/2026/03/magin-the-rat-project-stories-launches-april-29",
     "https://gamerant.com/tomodachi-life-living-the-dream-switch-demo/",
     "https://www.gematsu.com/2026/03/nintendo-published-switch-2-games-to-have-separate-physical-and-digital-pricing-starting-in-may",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/games/action/the-next-big-d-and-d-game-has-been-revealed/",
     "https://gamerant.com/jujutsu-kaisen-strongest-abilities-not-domain-expansions/",
     "https://www.gematsu.com/2026/08/petit-planet-launches-this-winter",
-    "https://www.polygon.com/pubg-dednet-gamescom-announcement/"
+    "https://www.polygon.com/pubg-dednet-gamescom-announcement/",
+    "https://www.gematsu.com/2026/08/roco-kingdom-global-version-announced-for-ps5-xbox-series-pc-ios-and-android",
+    "https://gamerant.com/anime-open-world-game-like-gta-ananta/",
+    "https://gamerant.com/stage-tour-release-date/",
+    "https://www.videogameschronicle.com/news/new-rock-band-style-game-from-original-guitar-hero-developers-release-alongside-plastic-instruments-december-10/"
   ],
   "seen_titles": [
-    "tomodachi life: living the dream's \"welcome version\" demo is available now, and you can transfer your saves to the full game",
-    "1888-set social investigation game 4 penny coffins announced for pc",
-    "a brand-new fifa game has been revealed, and you will get to play it completely free of charge",
-    "\"heavyweights ruined the industry... now we live on the indies\" nordic game embraces smaller devs and games with soul",
     "magin: the rat project stories launches april 29",
     "you don't have to wait for launch to play tomodachi life: living the dream on switch",
     "nintendo-published switch 2 games to have separate physical and digital pricing starting in may",
@@ -10001,13 +9997,13 @@
     "the next big d&d game has been revealed",
     "jujutsu kaisen: 10 strongest abilities that aren't domain expansions",
     "petit planet launches this winter",
-    "new pubg spinoff ded.net brings wild roguelite chaos the battlefield"
+    "new pubg spinoff ded.net brings wild roguelite chaos the battlefield",
+    "roco kingdom global version announced for ps5, xbox series, pc, ios, and android",
+    "new open world game is like gta but with 2 cities",
+    "stage tour release date finally revealed",
+    "new rock band-style game from original guitar hero developers release alongside plastic instruments december 10"
   ],
   "seen_story_keys": [
-    "4e95e790fdc9f8ab708c595910542fabdf012c50",
-    "60edfe3d399d5ad33a02714e36e7f031b8468d1a",
-    "d04c6b75866cd5fe37dc4cb2573979ac0f087148",
-    "97a297590e6a63b3a6de1b94b0cf506442b8b12c",
     "263444ee10e648e24167fa28e06632803be0b918",
     "7f6f34f990c1851b9e1629a2ab318458c3159dd9",
     "a0199df26583cb933fc47f8c5b29bc74bf6a0974",
@@ -15003,6 +14999,10 @@
     "751ab02867afcf7d81b9753e9ee9aa6c4c8a4540",
     "3bb0941fe098cca7df20386c9e935b3ab8c17a9d",
     "1eeb4933a1f9bdccc36d8b6a2a8fe1db9923cbd0",
-    "db62d4b91a1f47c72f52d404f58c43d4526220e2"
+    "db62d4b91a1f47c72f52d404f58c43d4526220e2",
+    "f13043033c741144544b967744722257fc178099",
+    "b444c6581c2d028d7d9931feafb11b70e20bc6af",
+    "03177be8b4bdc7838e6e061e5e9daa1d6a78e7a3",
+    "76077f9300d22d44144d8cb8e52eb878426e3a75"
   ]
 }
