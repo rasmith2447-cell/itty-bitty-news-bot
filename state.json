@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/tiny-metal-2-delayed-to-2027-closed-playtest-set-for-april-2-to-29",
-    "https://www.pcgamer.com/games/battle-royale/fortnite-producer-asks-for-patience-as-developers-pick-up-the-pieces-after-massive-layoffs-we-cannot-even-fully-understand-what-kind-of-impacts-this-will-have-on-the-game-for-the-rest-of-the-year-and-likely-beyond/",
-    "https://gamerant.com/call-of-duty-black-ops-7-warzone-season-3-update/",
-    "https://www.eurogamer.net/fortnite-producer-comments-on-mass-layoffs-march-2026",
     "https://www.gamespot.com/articles/forza-horizon-6s-recommended-pc-specs-have-arrived-heres-how-your-machine-stacks/1100-6539009/?ftag=CAD-01-10abi2f",
     "https://www.gamesindustry.biz/newly-revealed-nordic-game-speaker-line-up-to-include-planet-of-lana-devs",
     "https://www.nintendolife.com/news/2026/03/disgaea-devs-dig-into-spooky-farm-sim-trend-this-fall-with-village-in-the-shade",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/backrooms-hbo-max-streaming-release-date-confirmed",
     "https://www.gematsu.com/2026/08/no-law-launches-in-2027",
     "https://www.gematsu.com/2026/08/lego-skylines-announced-for-ps5-xbox-series-switch-2-and-pc",
-    "https://www.pushsquare.com/news/2026/08/crimson-desert-enhanced-edition-out-now-on-ps5-featuring-story-improvements"
+    "https://www.pushsquare.com/news/2026/08/crimson-desert-enhanced-edition-out-now-on-ps5-featuring-story-improvements",
+    "https://www.ign.com/articles/some-razer-gaming-gear-is-getting-slightly-different-translucent-green-options-for-xboxs-25th-anniversary",
+    "https://www.polygon.com/witcher-3-free-dlc-blood-wine-hearts-stone-how-to-get-switch/",
+    "https://gamerant.com/gamescom-biggest-reveals-games-opening-night-live-2026/",
+    "https://gamerant.com/games-like-god-of-war-1001-threads-of-mizan/"
   ],
   "seen_titles": [
-    "tiny metal 2 delayed to 2027, closed playtest set for april 2 to 29",
-    "fortnite producer asks for patience as developers 'pick up the pieces' after massive layoffs: 'we cannot even fully understand what kind of impacts this will have on the game for the rest of the year and likely beyond'",
-    "call of duty reveals everything coming in the big season 3 update for black ops 7 and warzone",
-    "fortnite developers say there will be a huge impact on development \"for the rest of the year and likely beyond\" following mass layoffs",
     "forza horizon 6's recommended pc specs have arrived, here's how your machine stacks",
     "newly revealed nordic game speaker line-up to include planet of lana devs",
     "disgaea devs dig into spooky farm sim trend this fall with 'village in the shade'",
@@ -10001,13 +9997,13 @@
     "backrooms is officially coming to hbo max in september",
     "no law launches in 2027",
     "lego skylines announced for ps5, xbox series, switch 2, and pc",
-    "crimson desert enhanced edition out now on ps5, featuring story improvements"
+    "crimson desert enhanced edition out now on ps5, featuring story improvements",
+    "some razer gaming gear is getting (slightly different) translucent green options for xbox's 25th anniversary",
+    "the witcher 3's 10/10 dlc is now completely free ahead of remaster",
+    "biggest reveals from gamescom 2026 opening night live",
+    "new ps5 game looks like god of war meets aladdin"
   ],
   "seen_story_keys": [
-    "0d8b8e323e6b9c4b39135a3c33d5a63ce16babb6",
-    "b6df5953e4c6d85443a766f831b9254f2218e0be",
-    "07aac0e7e4479ed4ba5a3043a38cbd042046ff1d",
-    "62c420b342cbaf860551f1c64d7c24d629a9071c",
     "d7384e32b490539478846e19b4f018178c8d0ace",
     "95511a3ce463eb7343f40dd9a100569ba380942e",
     "4bf71a2370c83e406ea4c758b5b5a0939ff980a9",
@@ -15003,6 +14999,10 @@
     "304a7e31ad22f32a0b6c0b45d865dc5fc7328c96",
     "4d88bd997055d9ab19609e524caeb7f58de029ce",
     "7bb6e516755e3b80bfa96c3ffa4e08cda60b7f1d",
-    "b8c8853d7d99c15df5ebe82387e8b9f54a2ab1a0"
+    "b8c8853d7d99c15df5ebe82387e8b9f54a2ab1a0",
+    "b0ce8047de7ae3f64aac119117f4145d47fad4e2",
+    "a900e115b674866133f32cdd2044aeee6759172c",
+    "dff928b127f3a2fd4886c4891b57c17947c3f65e",
+    "a13336e649aa90febcd716fe4427f5bc5c6a60b1"
   ]
 }
