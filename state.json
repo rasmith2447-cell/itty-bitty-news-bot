@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/were-spending-significantly-more-than-were-making-fortnite-publisher-epic-games-lays-off-over-1000-staff",
-    "https://www.gematsu.com/2026/03/sonic-frontiers-definitive-edition-rated-in-korea",
-    "https://www.polygon.com/pokemon-champions-release-date-nintendo-switch-2/",
-    "https://www.videogameschronicle.com/news/pokemon-champions-gets-confirmed-release-date-and-switch-2-launch-update/",
     "https://www.eurogamer.net/crimson-desert-preparing-smooth-and-stable-gameplay-experience-following-intel-launch-woes",
     "https://www.nintendolife.com/news/2026/03/sonic-frontiers-definitive-edition-has-been-rated-in-korea",
     "https://www.nintendolife.com/news/2026/03/pokemon-champions-nails-down-switch-release-date-and-its-only-two-weeks-away",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/08/rog-xbox-ally-x20-pre-orders-go-live-today-release-date-and-prices-revealed",
     "https://www.ign.com/articles/nintendo-announces-first-switch-2-bundles-to-launch-following-the-consoles-september-price-hike",
     "https://www.gamesindustry.biz/maverick-games-partners-with-focus-entertainment-to-publish-debut-racing-title-clutch",
-    "https://gamerant.com/pokemon-go-twilight-trails-season-details-when/"
+    "https://gamerant.com/pokemon-go-twilight-trails-season-details-when/",
+    "https://gamerant.com/one-piece-oda-update-ending/",
+    "https://www.polygon.com/nintendo-switch-2-mario-kart-world-sports-resort-bundles-announced/",
+    "https://www.gematsu.com/2026/08/thatgamecompany-establishes-thatgamepublisher",
+    "https://www.gamesindustry.biz/game-developer-association-of-india-picks-15-studios-for-first-supernova-cohort"
   ],
   "seen_titles": [
-    "'we're spending significantly more than we're making': fortnite publisher epic games lays off over 1,000 staff",
-    "sonic frontiers definitive edition rated in korea",
-    "pokémon champions launches in two weeks with day-one switch 2 upgrade",
-    "pokémon champions gets confirmed release date and switch 2 launch update",
     "crimson desert developers are \"preparing to provide a smooth and stable gameplay experience\" following intel gpu launch woes",
     "sonic frontiers \"definitive edition\" has been rated in korea",
     "pokémon champions nails down switch release date, and it's only two weeks away",
@@ -10001,13 +9997,13 @@
     "rog xbox ally x20 pre-orders go live today, release date & prices revealed",
     "nintendo announces first switch 2 bundles to launch following the console's september price hike",
     "maverick games partners with focus entertainment to publish debut racing title clutch",
-    "september 8 is going to be a big day for pokemon go"
+    "september 8 is going to be a big day for pokemon go",
+    "one piece creator oda drops a big update about series ending",
+    "nintendo officially reveals new switch 2 bundles ahead of console price hike",
+    "thatgamecompany establishes thatgamepublisher",
+    "game developer association of india picks 15 studios for first supernova cohort"
   ],
   "seen_story_keys": [
-    "eb39237c984dbb974d8719a6ac82e7c55c4e68b2",
-    "08663d3940cabaa074983b298a989f7b29fcb01a",
-    "76051bd8ba0b4db4a5a613535380aa3a6c3489fc",
-    "896e4cebd97d439178e00dfe4f0276534be04ec5",
     "961d529f4cc80066bc11e112df1bdc1cb57b2320",
     "8b8d7d549caf0723b825a6d159cd7ba8736cd48c",
     "9562c14b35a040b73f922f959e9423a164116899",
@@ -15003,6 +14999,10 @@
     "9de1d6b483a872947052af45c83ca0318a4cd667",
     "dff16f52acddfb9b859a6cf5bff06421bd9bb5b4",
     "b7442c7dea6036666faa5d7ccfa296c5e353c35e",
-    "ab69cdef76ebfde50bd0357173ecb886ba816edd"
+    "ab69cdef76ebfde50bd0357173ecb886ba816edd",
+    "a401b20fff8ce9ccee0ce9363926021868706717",
+    "df457c571d08ba5554b9ac1bedfeb1dfcec75de0",
+    "c42695ff4c49959b172bd506e252f2d76c882fcb",
+    "79b32a3744a2b6da9613ff42003c0f7a05a7e6cc"
   ]
 }
