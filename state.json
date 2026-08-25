@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/new-free-fifa-game-pits-greek-god-zeus-against-argentinian-icon-diego-maradona-will-come-to-ps5",
-    "https://www.gematsu.com/2026/03/co-op-building-simulation-game-salvation-denied-announced-for-ps5-xbox-series-and-pc",
-    "https://www.gamespot.com/articles/fortnite-layoffs-included-artist-who-designed-jonesy-the-face-of-the-game/1100-6538999/?ftag=CAD-01-10abi2f",
-    "https://www.gamespot.com/articles/new-fifa-game-announced-lets-you-play-as-thor-and-late-soccer-star/1100-6538996/?ftag=CAD-01-10abi2f",
     "https://www.pcgamer.com/games/fighting/tekken-8-devs-promise-better-after-latest-patch-but-fans-are-in-full-doom-mode/",
     "https://www.gematsu.com/2026/03/warframe-now-available-for-switch-2",
     "https://www.eurogamer.net/pokemon-champions-sets-release-date-and-details-free-to-play-model",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/08/ananta-launches-january-15-2027",
     "https://www.eurogamer.net/humankind-2-announced-coming-2027-and-promises-climate-change-and-a-new-take-on-historical-strategy",
     "https://www.pushsquare.com/news/2026/08/anime-open-world-ananta-launches-as-a-ps5-console-exclusive-8-weeks-after-gta-6",
-    "https://www.gematsu.com/2026/08/mariachi-legends-delayed-to-april-27-2027"
+    "https://www.gematsu.com/2026/08/mariachi-legends-delayed-to-april-27-2027",
+    "https://www.eurogamer.net/game-of-thrones-war-for-westeros-gameplay-trailer",
+    "https://www.purexbox.com/news/2026/08/ubisoft-unveils-rainbow-six-tactics-a-turn-based-single-player-spinoff",
+    "https://www.gematsu.com/2026/08/warlock-dungeons-dragons-gameplay-reveal-trailer-screenshots",
+    "https://www.polygon.com/exodus-release-date-reveal-gamescom-2026/"
   ],
   "seen_titles": [
-    "new free fifa game pits greek god zeus against argentinian icon diego maradona, will come to ps5",
-    "co-op building simulation game salvation denied announced for ps5, xbox series, and pc",
-    "fortnite layoffs included artist who designed jonesy, the face of the game",
-    "new fifa game announced, lets you play as thor and late soccer star",
     "tekken 8 devs promise better after latest patch, but fans are in full doom mode",
     "warframe now available for switch 2",
     "pokémon champions is releasing on nintendo switch consoles in early april, but its \"free-to-start\" package raises some questions about its pricing model",
@@ -10001,13 +9997,13 @@
     "ananta launches january 15, 2027",
     "humankind 2 announced, coming 2027, and promises climate change and \"a new take on historical strategy\"",
     "anime open world ananta launches as a ps5 console exclusive 8 weeks after gta 6",
-    "mariachi legends delayed to april 27, 2027"
+    "mariachi legends delayed to april 27, 2027",
+    "game of thrones rts war for westeros just got a first gameplay trailer confirming some familiar faces",
+    "ubisoft unveils rainbow six tactics, a turn-based single-player spinoff",
+    "warlock: dungeons & dragons gameplay reveal trailer, screenshots",
+    "'mass effect' replacement 'exodus' finally gets a release date"
   ],
   "seen_story_keys": [
-    "f58364ac2a5a20276e9394f99cf571f4ce40e3c6",
-    "62dd24e90aa7eaeed3cc9fb43f371d6d17c3e4b9",
-    "074b8b763b3e92118e1ac1a5250738f92802f9a8",
-    "45e4152ae8e9f8e1ba75bbe34879c3ba6e0aeb0c",
     "889972f74fb4da4790beacb7b624ebc36c31b4b6",
     "0c6547684a9a0e26bb7986666f6995ff8007b6ca",
     "3d28cee8bed981453ebb3a609350f8d93ebac33d",
@@ -15003,6 +14999,10 @@
     "706416090bc3db7b9a7df3fcca192b04175884ae",
     "de55e536f34dd5b86373b26363e089ca6d90ad21",
     "c87135634753f28323e8b2f7f200da5fac893774",
-    "9e3e4cbb9bf35199260a60e2b8bb1ea760eccedb"
+    "9e3e4cbb9bf35199260a60e2b8bb1ea760eccedb",
+    "2bc8293a9687ede9954e7ed916ef17752e6565d9",
+    "5c2e336caffe2979d54c0663bfee9a4cc1c91653",
+    "20b724a1b5a1ef60563b8440fbf01f09dd17722f",
+    "a67f9189814e5d7b92d5443c6a922f041ee10c5f"
   ]
 }
