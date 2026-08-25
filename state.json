@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/virtual-reality-co-op-heist-game-payday-aces-high-announced-for-steamvr-quest",
-    "https://www.gematsu.com/2026/03/mouse-p-i-for-hire-physical-and-digital-editions-announced",
-    "https://www.pcgamer.com/games/sim/hello-kitty-island-adventure-has-announced-its-second-dlc-adding-one-of-sanrios-most-colourful-characters-a-customisable-cafe-and-over-90-quests/",
     "https://www.polygon.com/mouse-pi-for-hire-physical-copies-mouseburg-edition-price-release-date/",
     "https://www.gamespot.com/articles/the-newest-payday-game-is-unexpected-and-i-hope-its-better-than-payday-3/1100-6538956/?ftag=CAD-01-10abi2f",
     "https://www.bluesnews.com/s/295994/dopros-announced",
@@ -4999,12 +4996,12 @@
     "https://www.gematsu.com/2026/08/dotemu-announces-free-party-arcade-action-game-blasterbug-last-bug-standing-now-available",
     "https://gamerant.com/twitch-ai-training-lawsuit/",
     "https://www.nintendolife.com/news/2026/08/castlevania-belmonts-curse-reveals-english-voice-cast-in-new-trailer",
-    "https://www.nintendolife.com/news/2026/08/pokemon-artist-and-plucky-squire-dev-james-turner-starts-new-role-at-the-pokemon-company-international"
+    "https://www.nintendolife.com/news/2026/08/pokemon-artist-and-plucky-squire-dev-james-turner-starts-new-role-at-the-pokemon-company-international",
+    "https://www.gematsu.com/2026/08/d3-publisher-announces-tgs-2026-lineup",
+    "https://www.gematsu.com/2026/08/earth-defense-force-6-2-invaders-from-another-world-announced-for-ps5",
+    "https://www.nintendolife.com/news/2026/08/sonic-racing-crossworlds-rolls-out-a-crazy-free-character-update-this-week"
   ],
   "seen_titles": [
-    "virtual reality co-op heist game payday: aces high announced for steamvr, quest",
-    "mouse: p.i. for hire physical and digital editions announced",
-    "hello kitty island adventure has announced its second dlc, adding one of sanrio's most colourful characters, a customisable cafe, and over 90 quests",
     "mouse: p.i. for hire physical and digital edition details revealed",
     "the newest payday game is unexpected, and i hope it's better than payday 3",
     "dopros announced",
@@ -10001,12 +9998,12 @@
     "dotemu announces free party arcade action game blasterbug: last bug standing!, now available",
     "twitch is being sued by its own streamers",
     "castlevania: belmont's curse reveals english voice cast in new trailer",
-    "pokémon artist & plucky squire dev james turner starts new role at the pokémon company international"
+    "pokémon artist & plucky squire dev james turner starts new role at the pokémon company international",
+    "d3 publisher announces tgs 2026 lineup",
+    "earth defense force 6.2: invaders from another world announced for ps5",
+    "sonic racing: crossworlds rolls out a crazy free character update this week"
   ],
   "seen_story_keys": [
-    "07c9fe191d7826f028793cf567fb2f246d97d0eb",
-    "61d5a8afb21df5123cab37ecc020f9a593397326",
-    "101b3f643581ecb1b3e5b330347173d6e5b8c35f",
     "b267fb0c3b8d9fd617fec6e8b8b7b45e093bef92",
     "fee2dee2ec88b8c0800efac1cc174b6a41529126",
     "87aec62492fda411e026881a586b17f7d766dd82",
@@ -15003,6 +15000,9 @@
     "8c5334af472bf1d63de20cce777206765d5bcbc5",
     "6a58bceb886d2a750e9dd3bf7c8fe691067700de",
     "eac5547bfd966d2644a554dc385ba699d886c266",
-    "3ad44bedbdf8350b6ffb96ee97718820798d0bc5"
+    "3ad44bedbdf8350b6ffb96ee97718820798d0bc5",
+    "bc9e221e5dee9dd12d3e43b518f0a5539c2aced3",
+    "12dfd758e9fe668fe6e68f6d7e6f5ccc1ac76979",
+    "880d36e4c1ebb1cb4eee5ed4bbc9b463b325d901"
   ]
 }
