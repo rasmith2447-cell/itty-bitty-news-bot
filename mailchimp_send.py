@@ -230,11 +230,11 @@ def load_digest_stories() -> tuple:
 # ---------------------------------------------------------------------------
 
 GOTW_OVERRIDE = {
-    "title":       "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-    "description": "The Zone is calling. STALKER 2 is one of the most atmospheric survival FPS games ever made — a massive open-world set in the Chornobyl Exclusion Zone packed with deadly anomalies, brutal enemies, and a story shaped by your choices. And it just got even better — the free Update 2.0 'Back to the Zone' drops August 20th, bringing a new engine version, AI overhaul, new weapons, binoculars, fog weather, and customizable difficulty. Now is the perfect time to jump in.",
-    "platform":    "Available on PC (Steam, Epic, GOG), Xbox Series X|S & Xbox Game Pass",
-    "url":         "https://store.steampowered.com/app/1643320/STALKER_2_Heart_of_Chornobyl/",
-    "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/1643320/header.jpg",
+    "title":       "Mortal Shell II",
+    "description": "Just dropped August 20th and it's already pulling 30,000 concurrent players. Mortal Shell II is a standalone soulslike action-RPG where you possess fallen warrior Shells to gain their abilities, dethrone false gods, and redeem a ravaged world. Cold Symmetry expanded everything from the original — bigger open world, more Shells, deeper combat, night mode difficulty — and the beta alone pulled 600,000 downloads. If you love demanding, atmospheric combat, this one's for you.",
+    "platform":    "Available on PS5, Xbox Series X|S & PC (Steam)",
+    "url":         "https://store.steampowered.com/app/2584270/Mortal_Shell_II/",
+    "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/2584270/header.jpg",
 }
 
 GOTW_FALLBACK = {
