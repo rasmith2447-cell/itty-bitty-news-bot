@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/one-of-ps5s-most-graphically-intensive-games-patched-to-support-low-power-mode",
-    "https://www.purexbox.com/news/2026/03/albion-online-is-finally-making-its-xbox-console-debut-in-april-2026",
-    "https://www.gamesindustry.biz/sony-closes-first-party-studio-dark-outlaw-games",
-    "https://www.polygon.com/kpop-demon-hunters-mcdonalds-commercial/",
     "https://www.purexbox.com/news/2026/03/be-quick-xbox-has-limited-spots-for-a-free-once-human-closed-beta-this-week",
     "https://www.ign.com/articles/our-teams-will-have-to-pick-up-the-pieces-fortnites-remaining-staff-say-they-cannot-even-fully-understand-the-mass-layoffs-impact-on-the-game-this-year-and-beyond",
     "https://www.eurogamer.net/crimson-deserts-pearl-abyss-regains-investor-confidence-as-it-continues-to-move-beyond-launch-day-woes",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/stranger-things-tales-from-85-trailer-release-date/",
     "https://www.gematsu.com/2026/08/dispatch-deluxe-edition-physical-edition-announced",
     "https://www.ign.com/articles/marvel-tokon-devs-confess-regaining-trust-after-fumbled-pc-launch-will-be-extremely-challenging",
-    "https://www.rockpapershotgun.com/nvidia-dlss-45-ray-reconstruction-out-now-ups-shadow-quality-and-more-accurately-illuminates-trash-bags"
+    "https://www.rockpapershotgun.com/nvidia-dlss-45-ray-reconstruction-out-now-ups-shadow-quality-and-more-accurately-illuminates-trash-bags",
+    "https://gamerant.com/xbox-25th-anniversary-accessories/",
+    "https://www.purexbox.com/news/2026/08/live-watch-gamescom-opening-night-live-2026-here",
+    "https://www.pushsquare.com/news/2026/08/anime-open-world-ananta-could-release-just-8-weeks-after-gta-6-on-ps5",
+    "https://www.videogameschronicle.com/news/journey-studio-thatgamecompany-has-launched-a-publishing-arm-thatgamepublisher/"
   ],
   "seen_titles": [
-    "one of ps5's most graphically intensive games patched to support low power mode",
-    "albion online is finally making its xbox console debut in april 2026",
-    "sony closes first-party studio dark outlaw games",
-    "new kpop demon hunters cartoon from mcdonald's revealed",
     "be quick! xbox has limited spots for a free 'once human' closed beta this week",
     "'our teams will have to pick up the pieces' — fortnite's remaining staff say they 'cannot even fully understand' the mass layoffs impact on the game this year 'and beyond'",
     "crimson desert's pearl abyss regains investor confidence as it continues to move beyond launch day woes",
@@ -10001,13 +9997,13 @@
     "‘stranger things’’ return to netflix revealed in new trailer",
     "dispatch deluxe edition physical edition announced",
     "marvel tokon devs confess regaining trust after fumbled pc launch will be 'extremely challenging'",
-    "nvidia dlss 4.5 ray reconstruction, out now, ups shadow quality and more accurately illuminates trash bags"
+    "nvidia dlss 4.5 ray reconstruction, out now, ups shadow quality and more accurately illuminates trash bags",
+    "xbox 25th anniversary accessories revealed",
+    "live: watch gamescom opening night live 2026 here",
+    "anime open world ananta could release just 8 weeks after gta 6 on ps5",
+    "journey studio thatgamecompany has launched a publishing arm: thatgamepublisher"
   ],
   "seen_story_keys": [
-    "4fb0ca0f4d0d4f9533d60c3cd0334372f79e5dff",
-    "d28292bd05f88a7ac5d89c0a273cf3041283fc26",
-    "4f1b2f2dfe1655ed05628e52a4edb6d236ce810d",
-    "a865f561a43a0be89c974b1718fb2512a20b4b41",
     "55b11ebbc452b19c5d50efc9a014916f47603eba",
     "42c2160dab215cbe461ca1073d14f81acc755c37",
     "8a591260f1e87807cbf69c7fe1f9744d4d3f4822",
@@ -15003,6 +14999,10 @@
     "0aac2d0d803246795be3a6666de25be1512df094",
     "2fa5ef1cd37d3dadcfe67e95ca082715f26e956a",
     "f1b867ea2a9a4787938ed3102122fdbc0d85ce46",
-    "c9bce9b23219e3ecac76aec8aaf7532c9848e0f1"
+    "c9bce9b23219e3ecac76aec8aaf7532c9848e0f1",
+    "176d1ed035ea21f2a6dc8c7843d888f8ae9533a1",
+    "7a9dad46f0cd6b6185f8229b94b7ae13443fae7a",
+    "62c6fd823fa74ff646b0a5be6cd8606fbf355de1",
+    "775e045a61ba06fcd1cb3792fdd2219bc6066172"
   ]
 }
