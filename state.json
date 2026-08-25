@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/fighting/tekken-8-devs-promise-better-after-latest-patch-but-fans-are-in-full-doom-mode/",
-    "https://www.gematsu.com/2026/03/warframe-now-available-for-switch-2",
-    "https://www.eurogamer.net/pokemon-champions-sets-release-date-and-details-free-to-play-model",
-    "https://www.eurogamer.net/after-tekken-8-season-3-led-to-a-mostly-negative-rating-on-steam-bandai-namco-is-working-on-an-emergency-patch-to-win-fans-back",
     "https://www.eurogamer.net/tomodachi-life-living-the-dream-demo-released-save-data-transfer-to-full-game-confirmed",
     "https://www.gematsu.com/2026/03/1888-set-social-investigation-game-4-penny-coffins-announced-for-pc",
     "https://gamerant.com/new-fifa-game-heroes-free-to-play/",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/game-of-thrones-war-for-westeros-gameplay-trailer",
     "https://www.purexbox.com/news/2026/08/ubisoft-unveils-rainbow-six-tactics-a-turn-based-single-player-spinoff",
     "https://www.gematsu.com/2026/08/warlock-dungeons-dragons-gameplay-reveal-trailer-screenshots",
-    "https://www.polygon.com/exodus-release-date-reveal-gamescom-2026/"
+    "https://www.polygon.com/exodus-release-date-reveal-gamescom-2026/",
+    "https://www.pcgamer.com/games/action/the-next-big-d-and-d-game-has-been-revealed/",
+    "https://gamerant.com/jujutsu-kaisen-strongest-abilities-not-domain-expansions/",
+    "https://www.gematsu.com/2026/08/petit-planet-launches-this-winter",
+    "https://www.polygon.com/pubg-dednet-gamescom-announcement/"
   ],
   "seen_titles": [
-    "tekken 8 devs promise better after latest patch, but fans are in full doom mode",
-    "warframe now available for switch 2",
-    "pokémon champions is releasing on nintendo switch consoles in early april, but its \"free-to-start\" package raises some questions about its pricing model",
-    "after tekken 8 season 3 led to a mostly negative rating on steam, bandai namco is working on an \"emergency patch\" to win fans back",
     "tomodachi life: living the dream's \"welcome version\" demo is available now, and you can transfer your saves to the full game",
     "1888-set social investigation game 4 penny coffins announced for pc",
     "a brand-new fifa game has been revealed, and you will get to play it completely free of charge",
@@ -10001,13 +9997,13 @@
     "game of thrones rts war for westeros just got a first gameplay trailer confirming some familiar faces",
     "ubisoft unveils rainbow six tactics, a turn-based single-player spinoff",
     "warlock: dungeons & dragons gameplay reveal trailer, screenshots",
-    "'mass effect' replacement 'exodus' finally gets a release date"
+    "'mass effect' replacement 'exodus' finally gets a release date",
+    "the next big d&d game has been revealed",
+    "jujutsu kaisen: 10 strongest abilities that aren't domain expansions",
+    "petit planet launches this winter",
+    "new pubg spinoff ded.net brings wild roguelite chaos the battlefield"
   ],
   "seen_story_keys": [
-    "889972f74fb4da4790beacb7b624ebc36c31b4b6",
-    "0c6547684a9a0e26bb7986666f6995ff8007b6ca",
-    "3d28cee8bed981453ebb3a609350f8d93ebac33d",
-    "1467aad16b2171bf82781732f87445e7ea5d04d6",
     "4e95e790fdc9f8ab708c595910542fabdf012c50",
     "60edfe3d399d5ad33a02714e36e7f031b8468d1a",
     "d04c6b75866cd5fe37dc4cb2573979ac0f087148",
@@ -15003,6 +14999,10 @@
     "2bc8293a9687ede9954e7ed916ef17752e6565d9",
     "5c2e336caffe2979d54c0663bfee9a4cc1c91653",
     "20b724a1b5a1ef60563b8440fbf01f09dd17722f",
-    "a67f9189814e5d7b92d5443c6a922f041ee10c5f"
+    "a67f9189814e5d7b92d5443c6a922f041ee10c5f",
+    "751ab02867afcf7d81b9753e9ee9aa6c4c8a4540",
+    "3bb0941fe098cca7df20386c9e935b3ab8c17a9d",
+    "1eeb4933a1f9bdccc36d8b6a2a8fe1db9923cbd0",
+    "db62d4b91a1f47c72f52d404f58c43d4526220e2"
   ]
 }
