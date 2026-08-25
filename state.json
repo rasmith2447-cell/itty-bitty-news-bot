@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamesindustry.biz/reforged-studios-acquires-super-meat-boy-3d-publisher-headup-games",
-    "https://www.pcgamer.com/games/action/crimson-desert-dispatch-the-howling-hill-expansion-bustling-hill/",
-    "https://www.gematsu.com/2026/03/console-archives-terra-cresta-launches-march-26",
-    "https://www.pushsquare.com/news/2026/03/heres-what-a-jak-and-daxter-ps5-remake-couldve-looked-like",
     "https://www.ign.com/articles/nintendo-switch-2-physical-games-will-now-be-more-expensive-than-digital-versions-with-10-price-difference-for-yoshi-and-the-mysterious-book",
     "https://www.pushsquare.com/news/2026/03/everything-is-not-as-it-seems-in-this-painterly-ps5-cozy-game",
     "https://www.pcgamer.com/software/platforms/discord-is-in-the-midst-of-a-major-outage-affecting-voice-calls/",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/sea-of-remnants-exclusive-gameplay-secrets",
     "https://www.videogameschronicle.com/news/the-witcher-3-remastered-has-been-announced/",
     "https://www.gematsu.com/2026/08/the-witcher-3-wild-hunt-remastered-announced-for-ps5-xbox-series-switch-2-and-pc-expansion-songs-of-the-past-teaser-trailer",
-    "https://www.gematsu.com/2026/08/krafton-announces-eastern-dark-fantasy-action-rpg-tarae-the-unbound-for-ps5-xbox-series-and-pc"
+    "https://www.gematsu.com/2026/08/krafton-announces-eastern-dark-fantasy-action-rpg-tarae-the-unbound-for-ps5-xbox-series-and-pc",
+    "https://www.ign.com/articles/the-witcher-3-songs-of-the-past-expansion-everything-revealed-at-gamescom-onl-2026",
+    "https://www.pushsquare.com/news/2026/08/rainbow-six-tactics-puts-an-xcom-spin-on-ubisofts-series-in-2027",
+    "https://www.gematsu.com/2026/08/heroes-of-might-and-magic-iii-remake-announced-for-ps5-xbox-series-and-pc",
+    "https://www.pushsquare.com/news/2026/08/city-builder-lego-skylines-announced-for-ps5-and-it-seems-like-a-perfect-match"
   ],
   "seen_titles": [
-    "reforged studios acquires super meat boy 3d publisher headup games",
-    "how to dispatch the howling hill expansion in crimson desert",
-    "console archives terra cresta launches march 26",
-    "here's what a jak & daxter ps5 remake could've looked like",
     "nintendo clarifies 'the cost of physical games is not going up' following decision to charge different prices for u.s. physical and digital switch 2 games",
     "everything is not as it seems in this painterly ps5 cozy game",
     "discord hit with 'major outage' affecting voice chat (update: fixed!)",
@@ -10001,13 +9997,13 @@
     "sea of remnants director reveals 10 minutes of exclusive gameplay, details the game’s hidden secrets",
     "the witcher 3 remastered has been announced",
     "the witcher 3: wild hunt – remastered announced for ps5, xbox series, switch 2, and pc; expansion ‘songs of the past’ teaser trailer",
-    "krafton announces eastern dark fantasy action rpg tarae: the unbound for ps5, xbox series, and pc"
+    "krafton announces eastern dark fantasy action rpg tarae: the unbound for ps5, xbox series, and pc",
+    "the witcher 3 songs of the past expansion: everything revealed at gamescom onl 2026",
+    "rainbow six tactics puts an xcom spin on ubisoft's series in 2027",
+    "heroes of might and magic iii remake announced for ps5, xbox series, and pc",
+    "city builder lego skylines announced for ps5, and it seems like a perfect match"
   ],
   "seen_story_keys": [
-    "33d4bc1fd18e1dbd03c242fab3fb61a49a99c07a",
-    "e7ac781ff7e34cab322856b8d670f854a0de09a2",
-    "91c7452ee5257c3b5e994e9401727bc110ea6fa1",
-    "969ea3d202349ac7b88b5c6b55411ef0b65dcef7",
     "5604b0ee280978ae141620e86c0a4b29e8b012c7",
     "8bbf17f2c343b6665c014357c95a8865b3de3a41",
     "f6501886963aed4548119dd1b7bb05d5d9195033",
@@ -15003,6 +14999,10 @@
     "34850ddd4c316f43b143810e50dbb6ed32975592",
     "78147b8cfedcd27b8c27d4433d5f0e0157fb5997",
     "cb65bc19abe2db464d10ff651981b1550286b152",
-    "dac65f38fd4c411a63c4e8c9efff538df0deeecf"
+    "dac65f38fd4c411a63c4e8c9efff538df0deeecf",
+    "c0fc14fa087c03424ca55b37bf2df40d124807ef",
+    "16cfec9e2da9576e321f2b17860dcdb9be44a9a9",
+    "805571305c39bde52ecbf8828fac3b80d715fce2",
+    "6a22fb7fd18677680a5211a149c24024185db079"
   ]
 }
