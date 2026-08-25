@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.bluesnews.com/s/296016/everquest-legends-announced",
-    "https://www.bluesnews.com/s/296015/three-fortnite-modes-ending",
-    "https://www.bluesnews.com/s/296007/evening-patches",
-    "https://www.polygon.com/punisher-one-last-kill-release-date-revealed/",
     "https://www.nintendolife.com/news/2026/03/icymi-pokemon-champions-is-getting-a-free-update-for-switch-2",
     "https://gamerant.com/pokemon-go-sustainability-week-event-silicobra/",
     "https://www.gematsu.com/2026/03/hello-kitty-island-adventure-dlc-city-town-announced",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/zach-creggers-resident-evil-movie-includes-first-person-sequences-and-yes-umbrella-is-involved",
     "https://www.eurogamer.net/the-duskbloods-closed-network-test-more-applications-nightreign",
     "https://www.gematsu.com/2026/08/console-archives-bubble-bobble-launches-august-26",
-    "https://www.videogameschronicle.com/news/marvel-tokon-devs-admit-it-will-be-extremely-challenging-to-regain-player-trust-after-troubled-pc-launch/"
+    "https://www.videogameschronicle.com/news/marvel-tokon-devs-admit-it-will-be-extremely-challenging-to-regain-player-trust-after-troubled-pc-launch/",
+    "https://www.gematsu.com/2026/08/nintendo-switch-2-mario-kart-world-and-nintendo-switch-sports-resort-bundles-announced",
+    "https://www.gamesindustry.biz/journey-studio-thatgamecompany-launches-thatgamepublisher-to-champion-games-that-move-people-through-play",
+    "https://www.ign.com/articles/asus-special-gold-rog-xbox-ally-x20-is-surprisingly-affordable-if-you-avoid-the-bundle",
+    "https://www.purexbox.com/news/2026/08/rog-xbox-ally-x20-pre-orders-go-live-today-release-date-and-prices-revealed"
   ],
   "seen_titles": [
-    "everquest legends announced",
-    "three fortnite modes ending",
-    "evening patches",
-    "punisher tv special release date and title revealed, and they could be a major clues",
     "icymi: pokémon champions is getting a free update for switch 2",
     "pokemon go reveals gen 8 pokemon debut for april event",
     "hello kitty island adventure dlc ‘city town’ announced",
@@ -10001,13 +9997,13 @@
     "zach cregger's resident evil movie includes first-person sequences — and yes, umbrella is involved",
     "despite being a switch 2 exclusive, the duskbloods closed network test had more applications than elden ring nightreign",
     "console archives bubble bobble launches august 26",
-    "marvel tokon devs admit it will be ‘extremely challenging’ to regain player trust after troubled pc launch"
+    "marvel tokon devs admit it will be ‘extremely challenging’ to regain player trust after troubled pc launch",
+    "nintendo switch 2 + mario kart world and nintendo switch sports resort bundles announced",
+    "journey studio thatgamecompany launches thatgamepublisher to champion games that \"move people through play\"",
+    "asus' special gold rog xbox ally x20 is surprisingly affordable – if you avoid the bundle",
+    "rog xbox ally x20 pre-orders go live today, release date & prices revealed"
   ],
   "seen_story_keys": [
-    "f02c210b1677fd1831e89af6c59e1bbae8626ebf",
-    "ee5c773727d9a4a2598fa9311809e4d58e1a0e00",
-    "0c9a121cdc3a8f0602f802b215d9bd60f030aa34",
-    "0e3104160dd1d86502f02088c1aef489779ef90e",
     "69c6d796544b6005f387549702bc2e531da524f6",
     "f842743ae4f557c6a5ec4a632b347893dbb31447",
     "17cad8078c7ecdf3836a41ba5fbc810b11d81a83",
@@ -15003,6 +14999,10 @@
     "188f9a41dbe0842f89d649dcbbf0856ece5c1e80",
     "67008cb409743919c6db695593e898a9e7d6ed7d",
     "2f86ed03615aab70f0f89dab57261ff66a88fc2d",
-    "c269d3a7898a8b6832248c7862ad254af9fad7f1"
+    "c269d3a7898a8b6832248c7862ad254af9fad7f1",
+    "1f7499153676dae5e85677bd221fb433b688f3a2",
+    "3bb8c52a6a5d67e44725e71ab67facac9cd47cc1",
+    "deed6b53a8bb4d5bb4619668c9050bc1abb2bd3f",
+    "9de1d6b483a872947052af45c83ca0318a4cd667"
   ]
 }
