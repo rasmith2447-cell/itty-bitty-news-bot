@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/03/be-quick-xbox-has-limited-spots-for-a-free-once-human-closed-beta-this-week",
-    "https://www.ign.com/articles/our-teams-will-have-to-pick-up-the-pieces-fortnites-remaining-staff-say-they-cannot-even-fully-understand-the-mass-layoffs-impact-on-the-game-this-year-and-beyond",
-    "https://www.eurogamer.net/crimson-deserts-pearl-abyss-regains-investor-confidence-as-it-continues-to-move-beyond-launch-day-woes",
-    "https://www.eurogamer.net/sony-closes-dark-outlaw-games-and-downsizes-mobile-gaming-efforts",
     "https://www.eurogamer.net/peter-molyneuxs-fable-and-black-white-mash-up-masters-of-albion-is-getting-a-closed-beta",
     "https://www.purexbox.com/news/2026/03/ubisoft-issues-fix-for-major-assassins-creed-unity-bug-on-xbox-series-xs",
     "https://www.rockpapershotgun.com/fortnite-producer-epic-layoffs-impact-cannot-be-understood",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/xbox-25th-anniversary-accessories/",
     "https://www.purexbox.com/news/2026/08/live-watch-gamescom-opening-night-live-2026-here",
     "https://www.pushsquare.com/news/2026/08/anime-open-world-ananta-could-release-just-8-weeks-after-gta-6-on-ps5",
-    "https://www.videogameschronicle.com/news/journey-studio-thatgamecompany-has-launched-a-publishing-arm-thatgamepublisher/"
+    "https://www.videogameschronicle.com/news/journey-studio-thatgamecompany-has-launched-a-publishing-arm-thatgamepublisher/",
+    "https://www.polygon.com/rollercoaster-tycoon-wonderworks-new-game-announcement/",
+    "https://www.nintendolife.com/news/2026/08/watch-gamescom-opening-night-live-2026",
+    "https://www.videogameschronicle.com/news/more-players-applied-for-the-duskbloods-closed-network-test-than-for-elden-ring-nightreign-despite-switch-2-exclusivity/",
+    "https://www.videogameschronicle.com/news/nintendo-relaunches-mario-kart-world-nintendo-switch-2-bundle-at-a-much-higher-price/"
   ],
   "seen_titles": [
-    "be quick! xbox has limited spots for a free 'once human' closed beta this week",
-    "'our teams will have to pick up the pieces' — fortnite's remaining staff say they 'cannot even fully understand' the mass layoffs impact on the game this year 'and beyond'",
-    "crimson desert's pearl abyss regains investor confidence as it continues to move beyond launch day woes",
-    "sony shuts down dark outlaw games and downsizes mobile games development as playstation continues to rethink plans",
     "peter molyneux's fable and black & white mash-up masters of albion is getting a closed beta, but you'll have to be quick if you want to get involved",
     "ubisoft issues fix for major assassin's creed unity bug on xbox series x|s",
     "fortnite producer says epic's mass layoffs will impact the game in ways the remaining teams \"cannot even fully understand\"",
@@ -10001,13 +9997,13 @@
     "xbox 25th anniversary accessories revealed",
     "live: watch gamescom opening night live 2026 here",
     "anime open world ananta could release just 8 weeks after gta 6 on ps5",
-    "journey studio thatgamecompany has launched a publishing arm: thatgamepublisher"
+    "journey studio thatgamecompany has launched a publishing arm: thatgamepublisher",
+    "pc classic rollercoaster tycoon officially returns this winter",
+    "watch: gamescom opening night live 2026",
+    "more players applied for the duskbloods closed network test than for elden ring nightreign, despite switch 2 exclusivity",
+    "nintendo relaunches mario kart world nintendo switch 2 bundle at a much higher price"
   ],
   "seen_story_keys": [
-    "55b11ebbc452b19c5d50efc9a014916f47603eba",
-    "42c2160dab215cbe461ca1073d14f81acc755c37",
-    "8a591260f1e87807cbf69c7fe1f9744d4d3f4822",
-    "844bfcdf5f6a5b8df9a963db4d50c1658cfd39d4",
     "a2b9e5d643a809308aebbeb8ee187e4993da2cc3",
     "304d6c6dbc1a80d5a3f05a8af2b4cd01662f84d4",
     "896f12d360d1d13647aab97e52915962ac6e701b",
@@ -15003,6 +14999,10 @@
     "176d1ed035ea21f2a6dc8c7843d888f8ae9533a1",
     "7a9dad46f0cd6b6185f8229b94b7ae13443fae7a",
     "62c6fd823fa74ff646b0a5be6cd8606fbf355de1",
-    "775e045a61ba06fcd1cb3792fdd2219bc6066172"
+    "775e045a61ba06fcd1cb3792fdd2219bc6066172",
+    "266fdb07dcb7d615706d50520b3b3446a1d41abd",
+    "d53799c671665014458bda76cf189b2a31e6ab5c",
+    "7c954e0be0a84da1be31c5cdf0d54c5e13e5a670",
+    "77f652eaec63554953cfea5805c47fc71702ebf0"
   ]
 }
