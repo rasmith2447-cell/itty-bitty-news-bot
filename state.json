@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/forza-horizon-6s-recommended-pc-specs-have-arrived-heres-how-your-machine-stacks/1100-6539009/?ftag=CAD-01-10abi2f",
-    "https://www.gamesindustry.biz/newly-revealed-nordic-game-speaker-line-up-to-include-planet-of-lana-devs",
-    "https://www.nintendolife.com/news/2026/03/disgaea-devs-dig-into-spooky-farm-sim-trend-this-fall-with-village-in-the-shade",
-    "https://www.bluesnews.com/s/296036/village-in-the-shade-announced",
     "https://www.gamesindustry.biz/reforged-studios-acquires-super-meat-boy-3d-publisher-headup-games",
     "https://www.pcgamer.com/games/action/crimson-desert-dispatch-the-howling-hill-expansion-bustling-hill/",
     "https://www.gematsu.com/2026/03/console-archives-terra-cresta-launches-march-26",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/some-razer-gaming-gear-is-getting-slightly-different-translucent-green-options-for-xboxs-25th-anniversary",
     "https://www.polygon.com/witcher-3-free-dlc-blood-wine-hearts-stone-how-to-get-switch/",
     "https://gamerant.com/gamescom-biggest-reveals-games-opening-night-live-2026/",
-    "https://gamerant.com/games-like-god-of-war-1001-threads-of-mizan/"
+    "https://gamerant.com/games-like-god-of-war-1001-threads-of-mizan/",
+    "https://www.ign.com/articles/sea-of-remnants-exclusive-gameplay-secrets",
+    "https://www.videogameschronicle.com/news/the-witcher-3-remastered-has-been-announced/",
+    "https://www.gematsu.com/2026/08/the-witcher-3-wild-hunt-remastered-announced-for-ps5-xbox-series-switch-2-and-pc-expansion-songs-of-the-past-teaser-trailer",
+    "https://www.gematsu.com/2026/08/krafton-announces-eastern-dark-fantasy-action-rpg-tarae-the-unbound-for-ps5-xbox-series-and-pc"
   ],
   "seen_titles": [
-    "forza horizon 6's recommended pc specs have arrived, here's how your machine stacks",
-    "newly revealed nordic game speaker line-up to include planet of lana devs",
-    "disgaea devs dig into spooky farm sim trend this fall with 'village in the shade'",
-    "village in the shade announced",
     "reforged studios acquires super meat boy 3d publisher headup games",
     "how to dispatch the howling hill expansion in crimson desert",
     "console archives terra cresta launches march 26",
@@ -10001,13 +9997,13 @@
     "some razer gaming gear is getting (slightly different) translucent green options for xbox's 25th anniversary",
     "the witcher 3's 10/10 dlc is now completely free ahead of remaster",
     "biggest reveals from gamescom 2026 opening night live",
-    "new ps5 game looks like god of war meets aladdin"
+    "new ps5 game looks like god of war meets aladdin",
+    "sea of remnants director reveals 10 minutes of exclusive gameplay, details the game’s hidden secrets",
+    "the witcher 3 remastered has been announced",
+    "the witcher 3: wild hunt – remastered announced for ps5, xbox series, switch 2, and pc; expansion ‘songs of the past’ teaser trailer",
+    "krafton announces eastern dark fantasy action rpg tarae: the unbound for ps5, xbox series, and pc"
   ],
   "seen_story_keys": [
-    "d7384e32b490539478846e19b4f018178c8d0ace",
-    "95511a3ce463eb7343f40dd9a100569ba380942e",
-    "4bf71a2370c83e406ea4c758b5b5a0939ff980a9",
-    "5ca9c21cbb567b614ab20a8440f057a956e9991d",
     "33d4bc1fd18e1dbd03c242fab3fb61a49a99c07a",
     "e7ac781ff7e34cab322856b8d670f854a0de09a2",
     "91c7452ee5257c3b5e994e9401727bc110ea6fa1",
@@ -15003,6 +14999,10 @@
     "b0ce8047de7ae3f64aac119117f4145d47fad4e2",
     "a900e115b674866133f32cdd2044aeee6759172c",
     "dff928b127f3a2fd4886c4891b57c17947c3f65e",
-    "a13336e649aa90febcd716fe4427f5bc5c6a60b1"
+    "a13336e649aa90febcd716fe4427f5bc5c6a60b1",
+    "34850ddd4c316f43b143810e50dbb6ed32975592",
+    "78147b8cfedcd27b8c27d4433d5f0e0157fb5997",
+    "cb65bc19abe2db464d10ff651981b1550286b152",
+    "dac65f38fd4c411a63c4e8c9efff538df0deeecf"
   ]
 }
