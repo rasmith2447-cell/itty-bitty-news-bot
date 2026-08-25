@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/crimson-desert-steam-review-very-positive-game-length-updates/",
-    "https://www.pushsquare.com/news/2026/03/sony-and-honda-have-abandoned-their-ps5-integrated-electric-car-afeela",
-    "https://www.gamespot.com/articles/nintendo-switch-2-digital-and-physical-games-will-soon-differ-in-price/1100-6539011/?ftag=CAD-01-10abi2f",
-    "https://www.purexbox.com/news/2026/03/forza-horizon-6-pc-specs-revealed-ray-tracing-and-rog-xbox-ally-compatibility-confirmed",
     "https://www.gematsu.com/2026/03/tiny-metal-2-delayed-to-2027-closed-playtest-set-for-april-2-to-29",
     "https://www.pcgamer.com/games/battle-royale/fortnite-producer-asks-for-patience-as-developers-pick-up-the-pieces-after-massive-layoffs-we-cannot-even-fully-understand-what-kind-of-impacts-this-will-have-on-the-game-for-the-rest-of-the-year-and-likely-beyond/",
     "https://gamerant.com/call-of-duty-black-ops-7-warzone-season-3-update/",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/08/the-witcher-3-remastered-is-a-major-free-upgrade-heading-to-xbox-this-september",
     "https://gamerant.com/path-of-exile-2-poe-full-release-new-class-skills-cyclone/",
     "https://www.ign.com/articles/lego-skylines-announced-at-gamescom",
-    "https://www.ign.com/articles/path-of-exile-2-release-date-sets-10-launch-in-december-2026"
+    "https://www.ign.com/articles/path-of-exile-2-release-date-sets-10-launch-in-december-2026",
+    "https://www.ign.com/articles/backrooms-hbo-max-streaming-release-date-confirmed",
+    "https://www.gematsu.com/2026/08/no-law-launches-in-2027",
+    "https://www.gematsu.com/2026/08/lego-skylines-announced-for-ps5-xbox-series-switch-2-and-pc",
+    "https://www.pushsquare.com/news/2026/08/crimson-desert-enhanced-edition-out-now-on-ps5-featuring-story-improvements"
   ],
   "seen_titles": [
-    "why crimson desert's steam rating keeps climbing (and why it may not be over yet)",
-    "sony and honda have abandoned their ps5-integrated electric car afeela",
-    "nintendo switch 2 digital and physical games will soon differ in price",
-    "forza horizon 6 pc specs revealed, ray tracing & rog xbox ally compatibility confirmed",
     "tiny metal 2 delayed to 2027, closed playtest set for april 2 to 29",
     "fortnite producer asks for patience as developers 'pick up the pieces' after massive layoffs: 'we cannot even fully understand what kind of impacts this will have on the game for the rest of the year and likely beyond'",
     "call of duty reveals everything coming in the big season 3 update for black ops 7 and warzone",
@@ -10001,13 +9997,13 @@
     "the witcher 3: remastered is a major free upgrade heading to xbox this september",
     "path of exile 2 reveals 1.0 release date, new class gameplay, free rewards",
     "lego skylines announced at gamescom",
-    "path of exile 2 release date sets 1.0 launch in december 2026"
+    "path of exile 2 release date sets 1.0 launch in december 2026",
+    "backrooms is officially coming to hbo max in september",
+    "no law launches in 2027",
+    "lego skylines announced for ps5, xbox series, switch 2, and pc",
+    "crimson desert enhanced edition out now on ps5, featuring story improvements"
   ],
   "seen_story_keys": [
-    "5f0eae34452471780cb85d4f3d677f13eb47649b",
-    "b59b00a21c3dffb25bd80090b4560139b72b1694",
-    "c71b69e1605acc65b934219835fe7501204ab231",
-    "c6205988eeb38d0f1a609005e31f5ac05f027b75",
     "0d8b8e323e6b9c4b39135a3c33d5a63ce16babb6",
     "b6df5953e4c6d85443a766f831b9254f2218e0be",
     "07aac0e7e4479ed4ba5a3043a38cbd042046ff1d",
@@ -15003,6 +14999,10 @@
     "b02148643b00fda73cdf96479bab1f571b28a0b0",
     "2ac8e0920756594a0ca7ab41158923e3588915e9",
     "c2e81c1352592ffcaf279f5c1f3e8b44b986bfbc",
-    "73fcb9f9eaceee3d9b7f28b220126049c5485d1d"
+    "73fcb9f9eaceee3d9b7f28b220126049c5485d1d",
+    "304a7e31ad22f32a0b6c0b45d865dc5fc7328c96",
+    "4d88bd997055d9ab19609e524caeb7f58de029ce",
+    "7bb6e516755e3b80bfa96c3ffa4e08cda60b7f1d",
+    "b8c8853d7d99c15df5ebe82387e8b9f54a2ab1a0"
   ]
 }
