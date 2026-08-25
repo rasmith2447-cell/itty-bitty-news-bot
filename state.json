@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/peter-molyneuxs-fable-and-black-white-mash-up-masters-of-albion-is-getting-a-closed-beta",
-    "https://www.purexbox.com/news/2026/03/ubisoft-issues-fix-for-major-assassins-creed-unity-bug-on-xbox-series-xs",
-    "https://www.rockpapershotgun.com/fortnite-producer-epic-layoffs-impact-cannot-be-understood",
-    "https://www.pushsquare.com/news/2026/03/tekken-8-dev-responds-to-disastrous-season-3-backlash-confirms-new-update-schedule",
     "https://www.pushsquare.com/news/2026/03/new-free-fifa-game-pits-greek-god-zeus-against-argentinian-icon-diego-maradona-will-come-to-ps5",
     "https://www.gematsu.com/2026/03/co-op-building-simulation-game-salvation-denied-announced-for-ps5-xbox-series-and-pc",
     "https://www.gamespot.com/articles/fortnite-layoffs-included-artist-who-designed-jonesy-the-face-of-the-game/1100-6538999/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/rollercoaster-tycoon-wonderworks-new-game-announcement/",
     "https://www.nintendolife.com/news/2026/08/watch-gamescom-opening-night-live-2026",
     "https://www.videogameschronicle.com/news/more-players-applied-for-the-duskbloods-closed-network-test-than-for-elden-ring-nightreign-despite-switch-2-exclusivity/",
-    "https://www.videogameschronicle.com/news/nintendo-relaunches-mario-kart-world-nintendo-switch-2-bundle-at-a-much-higher-price/"
+    "https://www.videogameschronicle.com/news/nintendo-relaunches-mario-kart-world-nintendo-switch-2-bundle-at-a-much-higher-price/",
+    "https://www.gematsu.com/2026/08/ananta-launches-january-15-2027",
+    "https://www.eurogamer.net/humankind-2-announced-coming-2027-and-promises-climate-change-and-a-new-take-on-historical-strategy",
+    "https://www.pushsquare.com/news/2026/08/anime-open-world-ananta-launches-as-a-ps5-console-exclusive-8-weeks-after-gta-6",
+    "https://www.gematsu.com/2026/08/mariachi-legends-delayed-to-april-27-2027"
   ],
   "seen_titles": [
-    "peter molyneux's fable and black & white mash-up masters of albion is getting a closed beta, but you'll have to be quick if you want to get involved",
-    "ubisoft issues fix for major assassin's creed unity bug on xbox series x|s",
-    "fortnite producer says epic's mass layoffs will impact the game in ways the remaining teams \"cannot even fully understand\"",
-    "tekken 8 dev responds to disastrous season 3 backlash, confirms new update schedule",
     "new free fifa game pits greek god zeus against argentinian icon diego maradona, will come to ps5",
     "co-op building simulation game salvation denied announced for ps5, xbox series, and pc",
     "fortnite layoffs included artist who designed jonesy, the face of the game",
@@ -10001,13 +9997,13 @@
     "pc classic rollercoaster tycoon officially returns this winter",
     "watch: gamescom opening night live 2026",
     "more players applied for the duskbloods closed network test than for elden ring nightreign, despite switch 2 exclusivity",
-    "nintendo relaunches mario kart world nintendo switch 2 bundle at a much higher price"
+    "nintendo relaunches mario kart world nintendo switch 2 bundle at a much higher price",
+    "ananta launches january 15, 2027",
+    "humankind 2 announced, coming 2027, and promises climate change and \"a new take on historical strategy\"",
+    "anime open world ananta launches as a ps5 console exclusive 8 weeks after gta 6",
+    "mariachi legends delayed to april 27, 2027"
   ],
   "seen_story_keys": [
-    "a2b9e5d643a809308aebbeb8ee187e4993da2cc3",
-    "304d6c6dbc1a80d5a3f05a8af2b4cd01662f84d4",
-    "896f12d360d1d13647aab97e52915962ac6e701b",
-    "b5ec02c841ec973045bf546dafaa10e6460d2a0f",
     "f58364ac2a5a20276e9394f99cf571f4ce40e3c6",
     "62dd24e90aa7eaeed3cc9fb43f371d6d17c3e4b9",
     "074b8b763b3e92118e1ac1a5250738f92802f9a8",
@@ -15003,6 +14999,10 @@
     "266fdb07dcb7d615706d50520b3b3446a1d41abd",
     "d53799c671665014458bda76cf189b2a31e6ab5c",
     "7c954e0be0a84da1be31c5cdf0d54c5e13e5a670",
-    "77f652eaec63554953cfea5805c47fc71702ebf0"
+    "77f652eaec63554953cfea5805c47fc71702ebf0",
+    "706416090bc3db7b9a7df3fcca192b04175884ae",
+    "de55e536f34dd5b86373b26363e089ca6d90ad21",
+    "c87135634753f28323e8b2f7f200da5fac893774",
+    "9e3e4cbb9bf35199260a60e2b8bb1ea760eccedb"
   ]
 }
