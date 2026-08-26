@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/baldurs-gate/baldurs-gate-3-gets-a-new-hotfix-to-fix-the-old-hotfix-that-fixed-corrupted-saves-but-started-causing-crashes/",
-    "https://www.ign.com/articles/grave-seasons-digs-up-august-2026-release-date-and-new-demo-plans",
-    "https://gamerant.com/stranger-than-heaven-gameplay-trailer-cities-eras/",
-    "https://gamerant.com/dispatch-xbox-port-when/",
     "https://www.pcgamer.com/games/rpg/the-expanse-osiris-reborn-will-get-pre-orderers-in-for-beta-testing-nearly-a-year-before-launch/",
     "https://www.gamespot.com/articles/disney-x-fortnite-is-still-happening-despite-massive-cuts-at-epic/1100-6539048/?ftag=CAD-01-10abi2f",
     "https://gamerant.com/serious-sam-co-op-game-shatterverse/",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/exclusive-lego-batman-legacy-of-the-dark-knight-deluxe-edition-mayhem-collection-dlc-trailer-reveals-the-joker-and-harley-quinn-story-mission-and-more",
     "https://www.eurogamer.net/state-of-decay-3-lives-on-after-studios-separation-from-xbox-with-a-closed-beta-promised-for-this-year",
     "https://www.eurogamer.net/anime-rpg-ananta-release-date-january-pre-registrations",
-    "https://www.pushsquare.com/news/2026/08/metro-2039-reveals-more-on-its-main-character-and-you-can-buy-his-spartan-helmet"
+    "https://www.pushsquare.com/news/2026/08/metro-2039-reveals-more-on-its-main-character-and-you-can-buy-his-spartan-helmet",
+    "https://www.videogameschronicle.com/news/we-understand-that-this-is-disappointing-news-bloodstained-the-scarlet-engagement-is-delayed-to-2027/",
+    "https://www.gematsu.com/2026/08/lego-batman-legacy-of-the-dark-knight-dlc-mayhem-collection-announced",
+    "https://www.nintendolife.com/news/2026/08/heres-what-the-witcher-3-wild-hunt-remastered-looks-like-on-switch-2",
+    "https://www.gamesindustry.biz/ubisoft-announces-playstest-platform-the-player-council"
   ],
   "seen_titles": [
-    "baldur's gate 3 gets a new hotfix to fix the old hotfix that fixed corrupted saves but started causing crashes",
-    "grave seasons digs up august 2026 release date and new demo plans",
-    "stranger than heaven from yakuza studio features 5 cities across 5 different eras",
-    "dispatch is finally coming to xbox",
     "the expanse: osiris reborn will get pre-orderers in for beta testing nearly a year before launch",
     "disney x fortnite is still happening, despite massive cuts at epic",
     "new serious sam 5-player co-op game officially revealed",
@@ -10001,13 +9997,13 @@
     "exclusive: lego batman: legacy of the dark knight deluxe edition - mayhem collection dlc trailer reveals the joker and harley quinn story mission and more",
     "state of decay 3 lives on after studio's separation from xbox, with a closed beta promised for this year",
     "hugely anticipated anime rpg ananta gets a january release date, as pre-registrations hit a whopping 17m sign-ups",
-    "metro 2039 reveals more on its main character, and you can buy his spartan helmet"
+    "metro 2039 reveals more on its main character, and you can buy his spartan helmet",
+    "‘we understand that this is disappointing news’ bloodstained: the scarlet engagement is delayed to 2027",
+    "lego batman: legacy of the dark knight dlc ‘mayhem collection’ announced",
+    "here's what the witcher 3: wild hunt remastered looks like on switch 2",
+    "ubisoft announces playstest platform the player council"
   ],
   "seen_story_keys": [
-    "e6a9aaa4f65773f393660116628a68e330967808",
-    "145a41699ab65108cb93c4652d7ae564d6288893",
-    "c3ca792dc34cee2ec37c5ee44433d34ca0652835",
-    "aba5b2af925297df00aa284b7c3ad16931739140",
     "a9a7068592bd5a789e147b33ae4f05cef62d54af",
     "73f3851feb8d185c0f04401d94aa848d2d2a301c",
     "ec4bf5f27df78f99e8652de391aa0c47647a1387",
@@ -15003,6 +14999,10 @@
     "33cd104daf1f43d45ce8ca7c2aeefe2dc42e885e",
     "0bbd6ad8a0b2c1e19706bd9ac6b24078c28dc8e5",
     "d582aac8273ff32fc198e57d8cf45a4e938a3578",
-    "58da8e38908d0af348e847424ea8802f4d72ffa9"
+    "58da8e38908d0af348e847424ea8802f4d72ffa9",
+    "2dc90612e88bb0053b37fb6558ffd254a856c4da",
+    "93d1c2c370e6f247664d26cfedc0c7203e617886",
+    "6a9021b1ea01fb7fc345906158224fb9a9f31633",
+    "9081d295a5c41b963f6dbac8ebb0557f2547828a"
   ]
 }
