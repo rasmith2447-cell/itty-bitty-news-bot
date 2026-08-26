@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/rpg/the-expanse-osiris-reborn-will-get-pre-orderers-in-for-beta-testing-nearly-a-year-before-launch/",
-    "https://www.gamespot.com/articles/disney-x-fortnite-is-still-happening-despite-massive-cuts-at-epic/1100-6539048/?ftag=CAD-01-10abi2f",
-    "https://gamerant.com/serious-sam-co-op-game-shatterverse/",
-    "https://gamerant.com/cookierun-ovensmash-post-launch-roadmap-player-feedback-interview/",
     "https://gamerant.com/eternal-life-of-goldman-demo-gameplay-trailer/",
     "https://www.nintendolife.com/news/2026/03/sumptuous-retro-shmup-zpf-launches-on-switch-in-just-a-few-weeks",
     "https://www.nintendolife.com/news/2026/03/grave-seasons-is-a-cosy-pixel-art-farm-sim-with-a-murderous-twist",
@@ -4999,13 +4995,13 @@
     "https://www.videogameschronicle.com/news/we-understand-that-this-is-disappointing-news-bloodstained-the-scarlet-engagement-is-delayed-to-2027/",
     "https://www.gematsu.com/2026/08/lego-batman-legacy-of-the-dark-knight-dlc-mayhem-collection-announced",
     "https://www.nintendolife.com/news/2026/08/heres-what-the-witcher-3-wild-hunt-remastered-looks-like-on-switch-2",
-    "https://www.gamesindustry.biz/ubisoft-announces-playstest-platform-the-player-council"
+    "https://www.gamesindustry.biz/ubisoft-announces-playstest-platform-the-player-council",
+    "https://www.gematsu.com/2026/08/devolver-digital-and-doinksoft-announce-side-scrolling-action-platformer-volvys-adventure-reslimed-for-pc",
+    "https://gamerant.com/pixark-terracrypt-dlc-underground-release/",
+    "https://gamerant.com/secretlab-titan-evo-marvel-spider-man-edition-brand-new-day-chair/",
+    "https://www.gematsu.com/2026/08/xbox-announces-disc-to-digital-feature"
   ],
   "seen_titles": [
-    "the expanse: osiris reborn will get pre-orderers in for beta testing nearly a year before launch",
-    "disney x fortnite is still happening, despite massive cuts at epic",
-    "new serious sam 5-player co-op game officially revealed",
-    "cookierun: ovensmash director says post-launch roadmap will be \"flexible\"",
     "incredible-looking platformer eternal life of goldman has a demo you can play right now",
     "sumptuous retro shmup 'zpf' launches on switch in just a few weeks",
     "grave seasons is a cosy pixel art farm sim with a murderous twist",
@@ -10001,13 +9997,13 @@
     "‘we understand that this is disappointing news’ bloodstained: the scarlet engagement is delayed to 2027",
     "lego batman: legacy of the dark knight dlc ‘mayhem collection’ announced",
     "here's what the witcher 3: wild hunt remastered looks like on switch 2",
-    "ubisoft announces playstest platform the player council"
+    "ubisoft announces playstest platform the player council",
+    "devolver digital and doinksoft announce side-scrolling action platformer volvy’s adventure: reslimed for pc",
+    "pixark terracrypt dlc launches august 26",
+    "secretlab titan evo marvel spider-man edition announced",
+    "xbox announces disc-to-digital feature"
   ],
   "seen_story_keys": [
-    "a9a7068592bd5a789e147b33ae4f05cef62d54af",
-    "73f3851feb8d185c0f04401d94aa848d2d2a301c",
-    "ec4bf5f27df78f99e8652de391aa0c47647a1387",
-    "5f833cbf774c7966d765272be1bafa749ee51343",
     "70dfe18351e38e506725a1b386848c382237cdad",
     "f560ff6779c024855ed9c206d0d405e8ec736902",
     "8e29ba47c44be6754d210aeabc9c7e31eb92e3a0",
@@ -15003,6 +14999,10 @@
     "2dc90612e88bb0053b37fb6558ffd254a856c4da",
     "93d1c2c370e6f247664d26cfedc0c7203e617886",
     "6a9021b1ea01fb7fc345906158224fb9a9f31633",
-    "9081d295a5c41b963f6dbac8ebb0557f2547828a"
+    "9081d295a5c41b963f6dbac8ebb0557f2547828a",
+    "c0bcb1290fa64ccd0714a3a85e076bc2adc07961",
+    "80f5ab644c3760df5a4bf03ce36d906bcb07a1aa",
+    "88ecc5627d036d95c18e026fc68a17e0d14a37e8",
+    "6c8545ebf640dfa57bee1968d4b97e0fd961e1d5"
   ]
 }
