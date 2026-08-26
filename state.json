@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/robot-detective-game-artificial-detective-revealed-from-control-dead-space-vets/",
-    "https://www.ign.com/articles/yakuza-like-a-dragon-dev-reveals-new-stranger-than-heaven-trailer-at-xbox-partner-showcase",
-    "https://gamerant.com/wuthering-waves-xbox-game-pass/",
-    "https://www.polygon.com/xbox-partner-preview-march-2026-all-announcements/",
     "https://www.gematsu.com/2026/03/ad-2846-set-action-adventure-game-artificial-detective-announced-for-ps5-xbox-series-and-pc",
     "https://www.ign.com/articles/hit-superhero-comedy-game-dispatch-headed-to-xbox-this-summer",
     "https://www.pcgamer.com/gaming-industry/valve-veteran-slams-tim-sweeney-and-epic-games-for-laying-off-1000-people-while-making-as-much-money-as-possible-and-hey-tim-gabes-better-at-that-than-you/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/08/mr-records-adds-switch-2-version-meet-george-trailer",
     "https://www.gematsu.com/2026/08/police-simulator-announced-for-ps5-xbox-series-and-pc",
     "https://www.polygon.com/the-witcher-3-songs-of-the-past-dlc-first-look/",
-    "https://www.gematsu.com/2026/08/fairy-tale-inspired-action-adventure-game-rise-of-the-spellbaker-announced-for-ps5-xbox-series-and-pc"
+    "https://www.gematsu.com/2026/08/fairy-tale-inspired-action-adventure-game-rise-of-the-spellbaker-announced-for-ps5-xbox-series-and-pc",
+    "https://www.polygon.com/ubisoft-heroes-of-might-and-magic-3-steam-missing-game/",
+    "https://www.ign.com/articles/yu-gi-oh-crocs-collaboration-reveal",
+    "https://www.nintendolife.com/news/2026/08/danganronpa-2x2-no-longer-getting-a-full-cartridge-release-on-switch-2",
+    "https://www.pcgamer.com/games/horror/poppy-playtime-studio-reveals-its-next-survival-horror-game-and-this-time-its-co-op/"
   ],
   "seen_titles": [
-    "‘robot detective’ game, artificial detective, revealed from control, dead space vets",
-    "yakuza / like a dragon dev reveals new stranger than heaven trailer at xbox partner showcase",
-    "wuthering waves is officially coming to xbox with game pass exclusive goodies",
-    "xbox march 2026 showcase: all the news, announcements, and trailers",
     "ad 2846-set action adventure game artificial detective announced for ps5, xbox series, and pc",
     "hit superhero comedy game dispatch headed to xbox this summer",
     "valve veteran slams tim sweeney and epic games for laying off 1000 people while making 'as much money as possible… and hey tim, gabe's better at that than you'",
@@ -10001,13 +9997,13 @@
     "mr. records adds switch 2 version, ‘meet george’ trailer",
     "police simulator announced for ps5, xbox series, and pc",
     "cd projekt red officially reveals first look at new witcher release",
-    "fairy tale-inspired action adventure game rise of the spellbaker announced for ps5, xbox series, and pc"
+    "fairy tale-inspired action adventure game rise of the spellbaker announced for ps5, xbox series, and pc",
+    "ubisoft’s botched release of classic might and magic game was a hilarious blunder",
+    "yu-gi-oh x crocs collaboration revealed ahead of world championship",
+    "danganronpa 2x2 no longer getting a full cartridge release on switch 2",
+    "poppy playtime studio reveals its next survival horror game, and this time it's co-op"
   ],
   "seen_story_keys": [
-    "153dfba6f9b6d6be62cc975f4fa12ec2e3208174",
-    "d87b141feda457d8c6880058f664a747b911d821",
-    "45d672ba6d9e599d26de391e68821e0d4230a086",
-    "e10e6a3bce861f83dcccb5a2690088939f122e63",
     "5005a77b647fb026aaa503c4d8e8eb86f4ae1960",
     "74d9055ee7f9c538569c52d8ef04d4d20655b2bb",
     "d5355edff4390aa16347ad4cde6ceb39de42fc32",
@@ -15003,6 +14999,10 @@
     "d0a84e6ade408a77e0e68981c51aec59de507d6a",
     "bed3ba1ebc6fd02ddd6c6b2c8e09bd630ffc3809",
     "2aca0eb4d79d9c3f9eb641f1780c953bf0e8a6b9",
-    "2d68ad80ec05b151c21c12352870f86e7d7a86b1"
+    "2d68ad80ec05b151c21c12352870f86e7d7a86b1",
+    "7d322ab36bd2f7fdb7f927320d8671d6c6b8c1f4",
+    "f1918a3b28e0529770b69670877fdccb4b8fc5ce",
+    "7ececac05c4bb79a8cc2a1569929f2fd79ab5bc3",
+    "4b7e9729845a51e08bdfe8a011c6e6aa12104c30"
   ]
 }
