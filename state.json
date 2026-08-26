@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/blueys-happy-snaps-trailer-reveals-fall-2026-launch",
-    "https://www.videogameschronicle.com/news/sniper-elite-studio-rebellion-reveals-alien-deathstorm-an-action-horror-fps/",
-    "https://gamerant.com/bluey-video-games-happy-snaps/",
-    "https://www.pushsquare.com/news/2026/03/a-mashup-of-robocop-and-c-3po-gorgeous-action-adventure-artificial-detective-announced-for-ps5",
     "https://www.videogameschronicle.com/news/robot-detective-game-artificial-detective-revealed-from-control-dead-space-vets/",
     "https://www.ign.com/articles/yakuza-like-a-dragon-dev-reveals-new-stranger-than-heaven-trailer-at-xbox-partner-showcase",
     "https://gamerant.com/wuthering-waves-xbox-game-pass/",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/08/random-this-zelda-totk-podracing-build-has-us-craving-galactic-racer-on-switch-2",
     "https://www.gematsu.com/2026/08/shadow-of-the-road-launches-november-12",
     "https://www.polygon.com/playstation-plus-september-2026-games-announced-ps4-ps5-free-essential/",
-    "https://www.polygon.com/xbox-disc-to-digital-program-release-date-announced/"
+    "https://www.polygon.com/xbox-disc-to-digital-program-release-date-announced/",
+    "https://www.gematsu.com/2026/08/mr-records-adds-switch-2-version-meet-george-trailer",
+    "https://www.gematsu.com/2026/08/police-simulator-announced-for-ps5-xbox-series-and-pc",
+    "https://www.polygon.com/the-witcher-3-songs-of-the-past-dlc-first-look/",
+    "https://www.gematsu.com/2026/08/fairy-tale-inspired-action-adventure-game-rise-of-the-spellbaker-announced-for-ps5-xbox-series-and-pc"
   ],
   "seen_titles": [
-    "bluey's happy snaps trailer reveals fall 2026 launch",
-    "sniper elite studio rebellion reveals alien deathstorm, an action horror fps",
-    "a brand-new bluey game has been officially revealed",
-    "'a mashup of robocop and c-3po': gorgeous action adventure artificial detective announced for ps5",
     "‘robot detective’ game, artificial detective, revealed from control, dead space vets",
     "yakuza / like a dragon dev reveals new stranger than heaven trailer at xbox partner showcase",
     "wuthering waves is officially coming to xbox with game pass exclusive goodies",
@@ -10001,13 +9997,13 @@
     "random: this zelda: totk podracing build has us craving galactic racer on switch 2",
     "shadow of the road launches november 12",
     "playstation plus september 2026 free games lineup officially revealed, includes a great retro rpg",
-    "xbox’s disc-to-digital program officially revealed, launches next week"
+    "xbox’s disc-to-digital program officially revealed, launches next week",
+    "mr. records adds switch 2 version, ‘meet george’ trailer",
+    "police simulator announced for ps5, xbox series, and pc",
+    "cd projekt red officially reveals first look at new witcher release",
+    "fairy tale-inspired action adventure game rise of the spellbaker announced for ps5, xbox series, and pc"
   ],
   "seen_story_keys": [
-    "87954e33ab7bca3111da94fd4054da73645622a5",
-    "5b0f506f2bc3219638d1b83b8975d292f5a51a2d",
-    "e43946f9d3d90eb7a00a1ea662a9dc20c800ce5a",
-    "285c7587abaef1492f9e5e9bfce26e799a520010",
     "153dfba6f9b6d6be62cc975f4fa12ec2e3208174",
     "d87b141feda457d8c6880058f664a747b911d821",
     "45d672ba6d9e599d26de391e68821e0d4230a086",
@@ -15003,6 +14999,10 @@
     "b4e699612eb3a7f32c50d6eab1f0e02baa641660",
     "dadeb4066496787bd1a0622e9cacc9f405b336ed",
     "252da401247fd31530f0948ac98f6d032ea308f3",
-    "57a8d6287dd2d38eecffa0e0f4fc642f8265e4a2"
+    "57a8d6287dd2d38eecffa0e0f4fc642f8265e4a2",
+    "d0a84e6ade408a77e0e68981c51aec59de507d6a",
+    "bed3ba1ebc6fd02ddd6c6b2c8e09bd630ffc3809",
+    "2aca0eb4d79d9c3f9eb641f1780c953bf0e8a6b9",
+    "2d68ad80ec05b151c21c12352870f86e7d7a86b1"
   ]
 }
