@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/warhammer-40000-11th-edition-announced-with-a-blood-angels-vs-orks-cinematic-trailer-a-release-window-and-some-good-news-for-fans",
-    "https://www.eurogamer.net/cancelled-ps5-project-from-call-of-duty-vet-and-dark-outlaw-games-wasnt-going-to-be-a-live-service-release",
-    "https://www.rockpapershotgun.com/forza-horizon-6-system-requirements-confirm-its-no-ram-guzzler-and-itll-run-on-steam-deck-too",
     "https://www.eurogamer.net/mewgenics-seemingly-confirmed-for-nintendo-switch-2-and-ps5-by-developers",
     "https://www.pushsquare.com/news/2026/03/hit-strategy-roguelike-mewgenics-in-active-development-for-ps5-as-devs-tease-port",
     "https://www.gematsu.com/2026/03/side-scrolling-shoot-em-up-zpf-launches-april-16-for-xbox-series-xbox-one-switch-and-pc",
@@ -4999,12 +4996,12 @@
     "https://www.gematsu.com/2026/08/road-kings-delayed-to-march-11-2027",
     "https://www.gematsu.com/2026/08/pony-island-2-panda-circus-launches-april-27-2027",
     "https://www.gematsu.com/2026/08/path-of-exile-ii-launches-december-11",
-    "https://www.gematsu.com/2026/08/stage-tour-launches-december-10"
+    "https://www.gematsu.com/2026/08/stage-tour-launches-december-10",
+    "https://www.gematsu.com/2026/08/ontos-gameplay-reveal-trailer",
+    "https://www.gematsu.com/2026/08/transport-fever-3-launches-september-29",
+    "https://www.gematsu.com/2026/08/co-op-action-builder-gravhounds-announced-for-xbox-series-pc"
   ],
   "seen_titles": [
-    "warhammer 40,000 11th edition announced with a blood angels vs orks cinematic trailer, a release window, and some good news for fans",
-    "cancelled ps5 project from call of duty vet and dark outlaw games wasn't going to be a live-service release",
-    "forza horizon 6 system requirements confirm it’s no ram guzzler - and it’ll run on steam deck too",
     "mewgenics switch 2 and ps5 ports seemingly confirmed by developers, currently in development",
     "hit strategy roguelike mewgenics in active development for ps5 as devs tease port",
     "side-scrolling shoot ’em up zpf launches april 16 for xbox series, xbox one, switch, and pc",
@@ -10001,12 +9998,12 @@
     "road kings delayed to march 11, 2027",
     "pony island 2: panda circus launches april 27, 2027",
     "path of exile ii launches december 11",
-    "stage tour launches december 10"
+    "stage tour launches december 10",
+    "ontos ‘gameplay reveal’ trailer",
+    "transport fever 3 launches september 29",
+    "co-op action builder gravhounds announced for xbox series, pc"
   ],
   "seen_story_keys": [
-    "c59e36a32773965a626deda9b8ecc03771053b27",
-    "66bd6f0445c77b505f4995e1a90c0bb4b685fe2d",
-    "5a71107b7fd1b92969c43cf977b84225298b101e",
     "666e57f11c084377eb12a3c56beb4bf2a81b10a8",
     "3585e9aab5a5370ce3f5897b9ae43e08ac57ac82",
     "bf7b48f691254a7e54b268da94201914bf194cca",
@@ -15003,6 +15000,9 @@
     "ac713410b307533298285c3c7b8f8e2394378aa8",
     "1e84db6ca2edf92d01fc2a8312a1c5dc27a1dc5d",
     "5277ae8012e93197ef00c25f8d80dbd8078a71c3",
-    "1554ac323080d6d737d5fb00625670d2aa0a3664"
+    "1554ac323080d6d737d5fb00625670d2aa0a3664",
+    "dad21ff3d5115cbd5d47534493d5a8b4eed4261d",
+    "b0043699ed17e8c553440760aef380dcbee2f01d",
+    "d798705d3e058d3b946f120c6693cfd956425ca1"
   ]
 }
