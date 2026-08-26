@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamesindustry.biz/nintendo-switch-2-digital-games-to-cost-less-than-physical-versions-in-us",
-    "https://www.eurogamer.net/sony-takes-its-cancelling-spree-to-another-level-by-canning-its-playstation-remote-play-enabled-car-afeela-1",
-    "https://www.eurogamer.net/street-fighter-6-alex-dlc-incest-patch",
     "https://www.ign.com/articles/warhammer-40000-11th-edition-announced-with-a-blood-angels-vs-orks-cinematic-trailer-a-release-window-and-some-good-news-for-fans",
     "https://www.eurogamer.net/cancelled-ps5-project-from-call-of-duty-vet-and-dark-outlaw-games-wasnt-going-to-be-a-live-service-release",
     "https://www.rockpapershotgun.com/forza-horizon-6-system-requirements-confirm-its-no-ram-guzzler-and-itll-run-on-steam-deck-too",
@@ -4999,12 +4996,12 @@
     "https://gamerant.com/classic-fps-games-nobody-remembers-today/",
     "https://www.gematsu.com/2026/08/koei-tecmo-announces-tgs-2026-lineup",
     "https://www.nintendolife.com/news/2026/08/witcher-3-switch-owners-can-claim-the-switch-2-remaster-for-free",
-    "https://www.gematsu.com/2026/08/road-kings-delayed-to-march-11-2027"
+    "https://www.gematsu.com/2026/08/road-kings-delayed-to-march-11-2027",
+    "https://www.gematsu.com/2026/08/pony-island-2-panda-circus-launches-april-27-2027",
+    "https://www.gematsu.com/2026/08/path-of-exile-ii-launches-december-11",
+    "https://www.gematsu.com/2026/08/stage-tour-launches-december-10"
   ],
   "seen_titles": [
-    "nintendo switch 2 digital games to cost less than physical versions in us",
-    "sony takes its cancelling spree to another level by canning its playstation remote play-enabled car, afeela 1",
-    "after fan outcry, capcom is patching alex's incest storyline in street fighter 6 (yes, you read that right)",
     "warhammer 40,000 11th edition announced with a blood angels vs orks cinematic trailer, a release window, and some good news for fans",
     "cancelled ps5 project from call of duty vet and dark outlaw games wasn't going to be a live-service release",
     "forza horizon 6 system requirements confirm it’s no ram guzzler - and it’ll run on steam deck too",
@@ -10001,12 +9998,12 @@
     "classic single-player fps games nobody remembers today",
     "koei tecmo announces tgs 2026 lineup",
     "witcher 3 switch owners can claim the switch 2 remaster for free",
-    "road kings delayed to march 11, 2027"
+    "road kings delayed to march 11, 2027",
+    "pony island 2: panda circus launches april 27, 2027",
+    "path of exile ii launches december 11",
+    "stage tour launches december 10"
   ],
   "seen_story_keys": [
-    "27b71a81e9262d687a84d024f8b753bcaa6bf56a",
-    "2e5091eb7d9b52fdbea220db79566af04f7ced6f",
-    "9c9d741e26d53c9f7c6601324cbae0de8d8e75c3",
     "c59e36a32773965a626deda9b8ecc03771053b27",
     "66bd6f0445c77b505f4995e1a90c0bb4b685fe2d",
     "5a71107b7fd1b92969c43cf977b84225298b101e",
@@ -15003,6 +15000,9 @@
     "50f0117c18b4f1bcafc5d0cba4a23f09c44bcd02",
     "17379f817d53b86687e85c3301f482369c173f10",
     "76e9e82d7129bbfff593349fb296dda4aeaba823",
-    "ac713410b307533298285c3c7b8f8e2394378aa8"
+    "ac713410b307533298285c3c7b8f8e2394378aa8",
+    "1e84db6ca2edf92d01fc2a8312a1c5dc27a1dc5d",
+    "5277ae8012e93197ef00c25f8d80dbd8078a71c3",
+    "1554ac323080d6d737d5fb00625670d2aa0a3664"
   ]
 }
