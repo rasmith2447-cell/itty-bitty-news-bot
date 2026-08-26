@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/ad-2846-set-action-adventure-game-artificial-detective-announced-for-ps5-xbox-series-and-pc",
-    "https://www.ign.com/articles/hit-superhero-comedy-game-dispatch-headed-to-xbox-this-summer",
-    "https://www.pcgamer.com/gaming-industry/valve-veteran-slams-tim-sweeney-and-epic-games-for-laying-off-1000-people-while-making-as-much-money-as-possible-and-hey-tim-gabes-better-at-that-than-you/",
-    "https://www.gematsu.com/2026/03/sci-fi-tactical-rpg-vaunted-announced-for-pc",
     "https://www.eurogamer.net/dispatch-xbox-release",
     "https://www.gematsu.com/2026/03/17th-century-korea-set-dark-action-game-moosa-dirty-fate-announced-for-ps5-xbox-series-and-pc",
     "https://www.gematsu.com/2026/03/stalker-2-heart-of-chornobyl-expansion-cost-of-hope-announced",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/ubisoft-heroes-of-might-and-magic-3-steam-missing-game/",
     "https://www.ign.com/articles/yu-gi-oh-crocs-collaboration-reveal",
     "https://www.nintendolife.com/news/2026/08/danganronpa-2x2-no-longer-getting-a-full-cartridge-release-on-switch-2",
-    "https://www.pcgamer.com/games/horror/poppy-playtime-studio-reveals-its-next-survival-horror-game-and-this-time-its-co-op/"
+    "https://www.pcgamer.com/games/horror/poppy-playtime-studio-reveals-its-next-survival-horror-game-and-this-time-its-co-op/",
+    "https://gamerant.com/games-like-ps5-sifu-spine-release-date-when/",
+    "https://www.polygon.com/once-upon-a-time-in-hollywood-sequel-cliff-booth-quentin-tarantion-netflix/",
+    "https://www.gematsu.com/2026/08/hoarder-launches-in-2027",
+    "https://www.gematsu.com/2026/08/super2d-turn-based-rpg-amphibian-announced-for-ps5-xbox-series-switch-and-pc"
   ],
   "seen_titles": [
-    "ad 2846-set action adventure game artificial detective announced for ps5, xbox series, and pc",
-    "hit superhero comedy game dispatch headed to xbox this summer",
-    "valve veteran slams tim sweeney and epic games for laying off 1000 people while making 'as much money as possible… and hey tim, gabe's better at that than you'",
-    "sci-fi tactical rpg vaunted announced for pc",
     "dispatch finally releases on xbox this summer as a play anywhere title",
     "17th century korea-set dark action game moosa: dirty fate announced for ps5, xbox series, and pc",
     "s.t.a.l.k.e.r. 2: heart of chornobyl expansion ‘cost of hope’ announced",
@@ -10001,13 +9997,13 @@
     "ubisoft’s botched release of classic might and magic game was a hilarious blunder",
     "yu-gi-oh x crocs collaboration revealed ahead of world championship",
     "danganronpa 2x2 no longer getting a full cartridge release on switch 2",
-    "poppy playtime studio reveals its next survival horror game, and this time it's co-op"
+    "poppy playtime studio reveals its next survival horror game, and this time it's co-op",
+    "new official sifu-like game with gun fu officially confirmed for summer 2027",
+    "david fincher and quentin tarantino's once upon a time in hollywood sequel gets official release update",
+    "hoarder launches in 2027",
+    "‘super2d turn-based rpg’ amphibian announced for ps5, xbox series, switch, and pc"
   ],
   "seen_story_keys": [
-    "5005a77b647fb026aaa503c4d8e8eb86f4ae1960",
-    "74d9055ee7f9c538569c52d8ef04d4d20655b2bb",
-    "d5355edff4390aa16347ad4cde6ceb39de42fc32",
-    "059f50853d93ad8eaba81e985f6d8f6e692cde02",
     "c01f179b09bc7431c0a012cdbb3ae143a50dc82a",
     "34f7d03a3a0b87e4cbeee250b63e6de2e752c753",
     "5a7d52a802f532d598ed34f36b22de10205d21a8",
@@ -15003,6 +14999,10 @@
     "7d322ab36bd2f7fdb7f927320d8671d6c6b8c1f4",
     "f1918a3b28e0529770b69670877fdccb4b8fc5ce",
     "7ececac05c4bb79a8cc2a1569929f2fd79ab5bc3",
-    "4b7e9729845a51e08bdfe8a011c6e6aa12104c30"
+    "4b7e9729845a51e08bdfe8a011c6e6aa12104c30",
+    "29a06194abcb66c3f3dd42b5b9870b5a42da2356",
+    "efb67202415380f92b92e4f634165965d6bcf756",
+    "14852abc464f5ce9dc208aae6c47430217c6db7f",
+    "326c60be601dc645f61d03ece51736f8f6edc838"
   ]
 }
