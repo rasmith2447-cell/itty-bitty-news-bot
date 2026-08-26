@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/eternal-life-of-goldman-demo-gameplay-trailer/",
-    "https://www.nintendolife.com/news/2026/03/sumptuous-retro-shmup-zpf-launches-on-switch-in-just-a-few-weeks",
-    "https://www.nintendolife.com/news/2026/03/grave-seasons-is-a-cosy-pixel-art-farm-sim-with-a-murderous-twist",
-    "https://www.pcgamer.com/games/sim/there-are-two-different-jesus-sims-launching-within-a-week-of-each-other/",
     "https://gamerant.com/games-like-last-us-factions-terminal-war/",
     "https://www.nintendolife.com/news/2026/03/fallout-4-gets-dlss-support-on-switch-2-today-here-are-the-full-patch-notes",
     "https://www.pushsquare.com/news/2026/03/were-only-talking-about-the-ps5-saros-director-on-cancelled-pc-port-reports",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/08/devolver-digital-and-doinksoft-announce-side-scrolling-action-platformer-volvys-adventure-reslimed-for-pc",
     "https://gamerant.com/pixark-terracrypt-dlc-underground-release/",
     "https://gamerant.com/secretlab-titan-evo-marvel-spider-man-edition-brand-new-day-chair/",
-    "https://www.gematsu.com/2026/08/xbox-announces-disc-to-digital-feature"
+    "https://www.gematsu.com/2026/08/xbox-announces-disc-to-digital-feature",
+    "https://www.videogameschronicle.com/news/cd-projekt-red-reveals-extended-gameplay-of-the-witcher-3-remastered-and-songs-of-the-past-dlc/",
+    "https://www.gematsu.com/2026/08/playstation-plus-monthly-games-lineup-for-september-2026-announced",
+    "https://www.polygon.com/new-lego-mario-set-minifigures/",
+    "https://www.ign.com/articles/xbox-is-letting-players-digitize-their-physical-games-starting-next-week-for-select-users"
   ],
   "seen_titles": [
-    "incredible-looking platformer eternal life of goldman has a demo you can play right now",
-    "sumptuous retro shmup 'zpf' launches on switch in just a few weeks",
-    "grave seasons is a cosy pixel art farm sim with a murderous twist",
-    "there are two different jesus sims launching within a week of each other",
     "unofficial last of us 2 factions multiplayer game in development",
     "fallout 4 gets dlss support on switch 2 today, here are the full patch notes",
     "'we're only talking about the ps5': saros director on cancelled pc port reports",
@@ -10001,13 +9997,13 @@
     "devolver digital and doinksoft announce side-scrolling action platformer volvy’s adventure: reslimed for pc",
     "pixark terracrypt dlc launches august 26",
     "secretlab titan evo marvel spider-man edition announced",
-    "xbox announces disc-to-digital feature"
+    "xbox announces disc-to-digital feature",
+    "cd projekt red reveals extended gameplay of the witcher 3 remastered and songs of the past dlc",
+    "playstation plus monthly games lineup for september 2026 announced",
+    "lego officially reveals new mario sets that fans have been begging for",
+    "xbox is letting players digitize their physical games, starting next week for select users"
   ],
   "seen_story_keys": [
-    "70dfe18351e38e506725a1b386848c382237cdad",
-    "f560ff6779c024855ed9c206d0d405e8ec736902",
-    "8e29ba47c44be6754d210aeabc9c7e31eb92e3a0",
-    "75baf3d1f24267e70e274339e0acee74d8f55df3",
     "5c79b240263ff6abc473c8521b149b46c043f262",
     "38442cf622704c113accd38121214c7909036440",
     "e6e7fa926be9e5f3dd6d89d4609f4cd7f7cadb42",
@@ -15003,6 +14999,10 @@
     "c0bcb1290fa64ccd0714a3a85e076bc2adc07961",
     "80f5ab644c3760df5a4bf03ce36d906bcb07a1aa",
     "88ecc5627d036d95c18e026fc68a17e0d14a37e8",
-    "6c8545ebf640dfa57bee1968d4b97e0fd961e1d5"
+    "6c8545ebf640dfa57bee1968d4b97e0fd961e1d5",
+    "18e6234ab3f4045f13a4118d051a6c6d9293ad19",
+    "5975dc69af529eb7d51a67c3f9556c2db2141a75",
+    "f7e84c2c06f39d623474701aad15a0967a77d3d3",
+    "acdce2aa9bc1add7701a7388d7d42657e51a8b2d"
   ]
 }
