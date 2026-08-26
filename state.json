@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/the-expanse-osiris-reborn-launches-in-spring-2027",
-    "https://www.eurogamer.net/owlcats-expanse-osiris-reborn-release-window-beta-date",
-    "https://www.pushsquare.com/news/2026/03/hades-2-finally-announced-for-ps5-and-it-arrives-in-a-matter-of-weeks",
-    "https://www.pcgamer.com/games/fps/extraction-shooter-sand-delayed-from-march-as-ukrainian-developer-cites-a-difficult-few-months-with-severe-power-outages-and-air-alert-disruptions/",
     "https://www.pcgamer.com/games/baldurs-gate/baldurs-gate-3-gets-a-new-hotfix-to-fix-the-old-hotfix-that-fixed-corrupted-saves-but-started-causing-crashes/",
     "https://www.ign.com/articles/grave-seasons-digs-up-august-2026-release-date-and-new-demo-plans",
     "https://gamerant.com/stranger-than-heaven-gameplay-trailer-cities-eras/",
@@ -4999,13 +4995,13 @@
     "https://www.videogameschronicle.com/news/heroes-of-might-and-magic-3-remake-announced-as-the-complete-edition-releases-on-steam-with-no-game-files/",
     "https://www.gematsu.com/2026/08/bloodstained-the-scarlet-engagement-delayed-to-2027",
     "https://www.gematsu.com/2026/08/heroes-of-might-and-magic-iii-remake-gameplay-overview-trailer",
-    "https://www.gematsu.com/2026/08/arcade-archives-satan-of-saturn-launches-august-27"
+    "https://www.gematsu.com/2026/08/arcade-archives-satan-of-saturn-launches-august-27",
+    "https://www.ign.com/articles/exclusive-lego-batman-legacy-of-the-dark-knight-deluxe-edition-mayhem-collection-dlc-trailer-reveals-the-joker-and-harley-quinn-story-mission-and-more",
+    "https://www.eurogamer.net/state-of-decay-3-lives-on-after-studios-separation-from-xbox-with-a-closed-beta-promised-for-this-year",
+    "https://www.eurogamer.net/anime-rpg-ananta-release-date-january-pre-registrations",
+    "https://www.pushsquare.com/news/2026/08/metro-2039-reveals-more-on-its-main-character-and-you-can-buy-his-spartan-helmet"
   ],
   "seen_titles": [
-    "the expanse: osiris reborn launches in spring 2027",
-    "owlcat's mass effecty sci-fi game the expanse: osiris reborn gets a release window, a closed beta date, and a game pass promise",
-    "hades 2 finally announced for ps5, and it arrives in a matter of weeks",
-    "extraction shooter sand delayed from march as ukrainian developer cites 'a difficult few months' with 'severe power outages and air alert disruptions'",
     "baldur's gate 3 gets a new hotfix to fix the old hotfix that fixed corrupted saves but started causing crashes",
     "grave seasons digs up august 2026 release date and new demo plans",
     "stranger than heaven from yakuza studio features 5 cities across 5 different eras",
@@ -10001,13 +9997,13 @@
     "heroes of might and magic 3 remake announced as the complete edition releases on steam with no game files",
     "bloodstained: the scarlet engagement delayed to 2027",
     "heroes of might and magic iii remake ‘gameplay overview’ trailer",
-    "arcade archives satan of saturn launches august 27"
+    "arcade archives satan of saturn launches august 27",
+    "exclusive: lego batman: legacy of the dark knight deluxe edition - mayhem collection dlc trailer reveals the joker and harley quinn story mission and more",
+    "state of decay 3 lives on after studio's separation from xbox, with a closed beta promised for this year",
+    "hugely anticipated anime rpg ananta gets a january release date, as pre-registrations hit a whopping 17m sign-ups",
+    "metro 2039 reveals more on its main character, and you can buy his spartan helmet"
   ],
   "seen_story_keys": [
-    "aa812c9df1d1b1922bb922ff91295757f5fa7e2d",
-    "b35c4dd4789f1c3d1c3bd2bfb2545673bcaaeecf",
-    "4703cae18e75885adc1495227f3ea5effdd7c976",
-    "01160e0074fa0b7b1d1b6c13d53faca068a6864d",
     "e6a9aaa4f65773f393660116628a68e330967808",
     "145a41699ab65108cb93c4652d7ae564d6288893",
     "c3ca792dc34cee2ec37c5ee44433d34ca0652835",
@@ -15003,6 +14999,10 @@
     "423b59b50830aa7dfc495ff2036303a3d0f14af2",
     "55b1f14cebeb4f939d0ee158653842ce5c5b5c90",
     "a1c564d21da98fad053252afdd2213dbd6354780",
-    "cd5fe1d61ecc4cf38cb78f0d9b72b90d14dee9d8"
+    "cd5fe1d61ecc4cf38cb78f0d9b72b90d14dee9d8",
+    "33cd104daf1f43d45ce8ca7c2aeefe2dc42e885e",
+    "0bbd6ad8a0b2c1e19706bd9ac6b24078c28dc8e5",
+    "d582aac8273ff32fc198e57d8cf45a4e938a3578",
+    "58da8e38908d0af348e847424ea8802f4d72ffa9"
   ]
 }
