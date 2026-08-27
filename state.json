@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/dispatch-xbox-release",
-    "https://www.gematsu.com/2026/03/17th-century-korea-set-dark-action-game-moosa-dirty-fate-announced-for-ps5-xbox-series-and-pc",
-    "https://www.gematsu.com/2026/03/stalker-2-heart-of-chornobyl-expansion-cost-of-hope-announced",
-    "https://www.gematsu.com/2026/03/blueys-happy-snaps-announced-for-ps5-xbox-series-switch-2-ps4-xbox-one-switch-and-pc",
     "https://www.gematsu.com/2026/03/frog-sqwad-launches-in-june-for-xbox-series-pc",
     "https://www.polygon.com/expanse-osiris-reborn-demo-release-date/",
     "https://www.ign.com/articles/unity-the-game-engine-behind-titles-like-hollow-knight-silksong-and-peak-beats-estimates-in-q1-financials",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/games-like-ps5-sifu-spine-release-date-when/",
     "https://www.polygon.com/once-upon-a-time-in-hollywood-sequel-cliff-booth-quentin-tarantion-netflix/",
     "https://www.gematsu.com/2026/08/hoarder-launches-in-2027",
-    "https://www.gematsu.com/2026/08/super2d-turn-based-rpg-amphibian-announced-for-ps5-xbox-series-switch-and-pc"
+    "https://www.gematsu.com/2026/08/super2d-turn-based-rpg-amphibian-announced-for-ps5-xbox-series-switch-and-pc",
+    "https://www.gematsu.com/2026/08/mages-announces-occult-suspense-visual-novel-seeker-eye-for-ps5-switch",
+    "https://www.nintendolife.com/news/2026/08/video-elden-ring-side-by-side-graphics-comparison-switch-2-and-ps5",
+    "https://www.gematsu.com/2026/08/donutal-launches-september-3",
+    "https://www.gematsu.com/2026/08/aeruta-for-ps5-ps4-and-switch-launches-december-10"
   ],
   "seen_titles": [
-    "dispatch finally releases on xbox this summer as a play anywhere title",
-    "17th century korea-set dark action game moosa: dirty fate announced for ps5, xbox series, and pc",
-    "s.t.a.l.k.e.r. 2: heart of chornobyl expansion ‘cost of hope’ announced",
-    "bluey’s happy snaps announced for ps5, xbox series, switch 2, ps4, xbox one, switch, and pc",
     "frog sqwad launches in june for xbox series, pc",
     "the expanse: osiris reborn release date update announced alongside closed beta",
     "unity, the game engine behind titles like hollow knight: silksong and peak, beats estimates in q1 financials",
@@ -10001,13 +9997,13 @@
     "new official sifu-like game with gun fu officially confirmed for summer 2027",
     "david fincher and quentin tarantino's once upon a time in hollywood sequel gets official release update",
     "hoarder launches in 2027",
-    "‘super2d turn-based rpg’ amphibian announced for ps5, xbox series, switch, and pc"
+    "‘super2d turn-based rpg’ amphibian announced for ps5, xbox series, switch, and pc",
+    "mages. announces occult suspense visual novel seeker eye for ps5, switch",
+    "video: elden ring side-by-side graphics comparison (switch 2 & ps5)",
+    "donutal launches september 3",
+    "aeruta for ps5, ps4, and switch launches december 10"
   ],
   "seen_story_keys": [
-    "c01f179b09bc7431c0a012cdbb3ae143a50dc82a",
-    "34f7d03a3a0b87e4cbeee250b63e6de2e752c753",
-    "5a7d52a802f532d598ed34f36b22de10205d21a8",
-    "06193af5cbbe27cfab8a1b29f7a5255f7dc92a50",
     "35db54de917fa5efbf662ea4de9469a151a5e745",
     "628ed1056f8c0e043ace34359b2f83cfec7881e5",
     "a0e4b57f2595d0fe5ffcd8db9d37dd047e641f84",
@@ -15003,6 +14999,10 @@
     "29a06194abcb66c3f3dd42b5b9870b5a42da2356",
     "efb67202415380f92b92e4f634165965d6bcf756",
     "14852abc464f5ce9dc208aae6c47430217c6db7f",
-    "326c60be601dc645f61d03ece51736f8f6edc838"
+    "326c60be601dc645f61d03ece51736f8f6edc838",
+    "accee53882723197bc471b68f30173b7b310c335",
+    "3551a84f81e600adcacabcbfc82bf674b6edebd4",
+    "14ab5a260c915e7a5f154a8115ed7cf6a62e2cd9",
+    "8c285440fee61c72d688ab118f903fba978d107d"
   ]
 }
