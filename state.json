@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/03/ps5-gets-an-insane-price-increase-n-will-nintendo-follow-suit",
-    "https://gamerant.com/frieren-season-3-release-date-october-2027-update/",
-    "https://www.gamesindustry.biz/sony-announces-global-price-rises-for-ps5-consoles-from-april-2-2026",
-    "https://gamerant.com/resident-evil-requiem-update-photo-mode-patch-notes/",
     "https://www.eurogamer.net/sony-announces-major-price-hikes-for-ps5-ps5-pro-and-portal",
     "https://www.rockpapershotgun.com/pearl-abyss-boss-admits-the-studio-could-have-done-a-better-job-with-crimson-deserts-totally-underwhelming-story",
     "https://www.nintendolife.com/features/talking-point-should-nintendo-have-kept-the-mario-galaxy-movie-fox-reveal-under-wraps",
@@ -4999,13 +4995,13 @@
     "https://www.rockpapershotgun.com/the-long-dark-sequel-blackfrost-hasnt-been-cancelled-but-developer-hinterland-are-shifting-a-bit-more-focus-onto-the-originals-survival-mode",
     "https://www.rockpapershotgun.com/mortal-shell-2-gets-its-first-major-update-adding-in-extra-beacons-useful-new-items-and-making-riposte-damage-scaling-actually-work",
     "https://www.gematsu.com/2026/08/son-of-thanjai-launches-in-spring-2027",
-    "https://www.pushsquare.com/news/2026/08/stuntman-hollywood-welcomes-you-to-jurassic-world-in-latest-trailer"
+    "https://www.pushsquare.com/news/2026/08/stuntman-hollywood-welcomes-you-to-jurassic-world-in-latest-trailer",
+    "https://www.ign.com/articles/gta-6-will-have-no-microtransactions-or-generative-ai-at-launch-rockstar-says",
+    "https://www.gematsu.com/2026/08/armatus-launches-january-7-2027",
+    "https://www.gematsu.com/2026/08/deep-dish-dungeon-launches-october-13",
+    "https://www.gematsu.com/2026/08/joe-mac-retro-collection-launches-october-29"
   ],
   "seen_titles": [
-    "ps5 gets an insane price increase – will nintendo follow suit?",
-    "frieren season 3 release date announced - everything we know so far",
-    "sony announces global price rises for ps5 consoles from april 2, 2026",
-    "resident evil requiem update finally adds highly requested feature",
     "sony announces major price hikes for ps5, ps5 pro, and portal as it blames \"continued pressures in the global economic landscape\"",
     "pearl abyss boss admits the studio \"could have done a better job\" with crimson desert's totally underwhelming story",
     "talking point: should nintendo have kept the mario galaxy movie fox reveal under wraps?",
@@ -10001,13 +9997,13 @@
     "the long dark sequel blackfrost hasn't been cancelled, but developer hinterland are shifting a bit more focus onto the original's survival mode",
     "mortal shell 2 gets its first major update, adding in extra beacons, useful new items, and making riposte damage scaling actually work",
     "son of thanjai launches in spring 2027",
-    "stuntman: hollywood welcomes you to jurassic world in latest trailer"
+    "stuntman: hollywood welcomes you to jurassic world in latest trailer",
+    "gta 6 will have no microtransactions or generative ai at launch, rockstar says",
+    "armatus launches january 7, 2027",
+    "deep dish dungeon launches october 13",
+    "joe & mac retro collection launches october 29"
   ],
   "seen_story_keys": [
-    "f362d5631549cdbc0145446532b6a46dbe6f8573",
-    "24995350ed0e5cc2f87fcea49da5885d950ab08b",
-    "8d02d345c4dfe90f6a079455500006911709c06c",
-    "f63b7043c1275f3f8246ab5a02734155b1b6cb43",
     "6ed9f3dae71d749a835b22e2ddfa38975dd68d7c",
     "b5f4b3228fb86fe77d6b5faf71ab3421d6504ec7",
     "745dea03cf9e09f23c69e92b121329202b80f45f",
@@ -15003,6 +14999,10 @@
     "28b581fcfaefe1b9ea3e69d013fe83c201ff868d",
     "b69ae7e8f0f671f141a0525a16ef002c737bca27",
     "f8cf7e04706e72b8fd4e2de81bffa702ef45476f",
-    "44213a06b5191117cde21887eac714dcfa996584"
+    "44213a06b5191117cde21887eac714dcfa996584",
+    "61a38c56cc8ccdf7da0e8ce079a53aac95498957",
+    "bb0826d6cfceeb0f6f4eba4ce1062e8a7fa4aaa7",
+    "7bce8f015abcd8dfd9be51ad62c9c71d5f5e3a2f",
+    "fe15f8d1dfb76e7889adb3639aee4c7ce567b004"
   ]
 }
