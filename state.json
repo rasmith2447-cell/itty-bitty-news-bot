@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/03/goty-frontrunner-resident-evil-requiem-gets-fresh-photo-mode-in-new-xbox-update",
-    "https://www.rockpapershotgun.com/rebellion-return-to-their-avp-roots-with-alien-deathstorm-an-80s-sci-fi-fps-with-apocalyptic-winds-and-some-slightly-naff-aliens",
-    "https://www.ign.com/articles/resident-evil-requiem-update-available-now-adds-photo-mode-and-more",
-    "https://www.gematsu.com/2026/03/super-meat-boy-3d-physical-editions-announced-for-ps5-switch-2",
     "https://www.rockpapershotgun.com/resident-evil-requiems-photo-mode-is-now-here-as-part-of-a-patch-ordering-leon-and-grace-to-pull-more-emotive-faces",
     "https://www.gematsu.com/2026/03/inazuma-eleven-victory-road-fourth-free-major-update-the-rising-bond-dlc-launches-march-31",
     "https://www.gematsu.com/2026/03/blue-reflection-quartet-announced-for-ps5-switch-2-switch-and-pc",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/join-us-gameplay-ps5-release-gamescom",
     "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-29th-august",
     "https://www.polygon.com/rust-roadmap-changes-2026/",
-    "https://www.nintendolife.com/news/2026/08/pokemons-social-media-temporarily-compromised-promotes-cryptocurrency"
+    "https://www.nintendolife.com/news/2026/08/pokemons-social-media-temporarily-compromised-promotes-cryptocurrency",
+    "https://www.eurogamer.net/gta-6-gameplay-reveal-streaming-viewership-record-twitch-netflix",
+    "https://www.nintendolife.com/news/2026/08/pokemon-tcg-pocket-adds-dual-type-cards-october-2026",
+    "https://www.eurogamer.net/squadron-42-delayed-2027-gta-6",
+    "https://www.eurogamer.net/twitch-down-outage-grand-theft-auto-6"
   ],
   "seen_titles": [
-    "goty frontrunner resident evil requiem gets fresh photo mode in new xbox update",
-    "rebellion return to their avp roots with alien deathstorm, an 80s sci-fi fps with apocalyptic winds and some slightly naff aliens",
-    "resident evil requiem update available now, adds photo mode and more",
-    "super meat boy 3d physical editions announced for ps5, switch 2",
     "resident evil requiem's photo mode is now here, as part of a patch ordering leon and grace to pull more emotive faces",
     "inazuma eleven: victory road fourth free major update ‘the rising bond dlc’ launches march 31",
     "blue reflection quartet announced for ps5, switch 2, switch, and pc",
@@ -10001,13 +9997,13 @@
     "join us: watch 11 minutes of exclusive gameplay from the upcoming cult simulator | gamescom 2026",
     "talking point: what are you playing this weekend? (29th august)",
     "hit survival game rust releases major overhaul to 2026 roadmap",
-    "pokémon's social media \"temporarily compromised\", promotes cryptocurrency"
+    "pokémon's social media \"temporarily compromised\", promotes cryptocurrency",
+    "gta 6's gameplay reveal pulled in 3.97 million peak viewers, overwhelming twitch and netflix in the process",
+    "pokémon tcg pocket adds dual-type cards october 2026",
+    "squadron 42 delayed to 2027, with star citizen dev blaming gta 6",
+    "twitch suffers major outage following grand theft auto 6's extended look gameplay trailer premiere"
   ],
   "seen_story_keys": [
-    "43d29ad3d38bf4609f9fa551889bc87600db25e4",
-    "e9967942a83d9f11c205a9c79ab2250b856a4c62",
-    "b8f17ee52d5f4f36ab707b0f8b960a6867457f4b",
-    "347a18dcdb5109764d5291bc56fe73e92e6a0b5e",
     "ee1fc21c835c149256af601aef9c5cfb776fd8c9",
     "3cfd63927e7adf5f783555526a1a7f0c7824c1bc",
     "75f9935d4de2ee5c543806a0b62649f109e8273d",
@@ -15003,6 +14999,10 @@
     "4254fd2733c607e5d183f16e43e3de4ccf4a1b22",
     "1ddc9ba09fc0113def3d7827590e140d8b25d1df",
     "aca8d415ba3a345ce5fd5eeba71f185c187900e7",
-    "f5d61d9d3337f51aa1694fc1a5905b42fe5e79f4"
+    "f5d61d9d3337f51aa1694fc1a5905b42fe5e79f4",
+    "8227c1febba7d16e9d07f68bafb4007f4f08d027",
+    "9d6a67e6e17b00d72ce31600083627ce101f9ba8",
+    "f4940b75560bc544a9af68ade8a999165fba3c91",
+    "20268dedd6aab9f90f369a0a1251b352110ad22b"
   ]
 }
