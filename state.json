@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/03/mario-tennis-fever-update-now-available-version-1-0-2-here-are-the-full-patch-notes",
-    "https://www.gematsu.com/2026/03/serious-sam-shatterverse-announced-for-ps5-xbox-series-and-pc",
-    "https://www.nintendolife.com/news/2026/03/hades-ii-has-some-bonus-content-planned-for-next-month",
-    "https://www.gematsu.com/2026/03/grave-seasons-launches-august-14",
     "https://www.nintendolife.com/news/2026/03/tmnt-splintered-fate-gold-edition-gets-totally-tubular-on-switch-today",
     "https://www.nintendolife.com/news/2026/03/anime-inspired-fps-mullet-madjack-hits-switch-in-april-and-it-looks-like-a-lot",
     "https://www.eurogamer.net/new-resident-evil-requiem-patch-adds-highly-anticipated-photo-mode-feature",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-6471",
     "https://gamerant.com/star-citizen-squadron-42-release-date-delay-2027-gta-6/",
     "https://www.gamespot.com/articles/gta-6-looks-like-it-features-this-popular-tv-show-apartment/",
-    "https://www.purexbox.com/news/2026/08/the-entire-supply-chain-is-collapsing-xbox-disc-drive-situation-gets-more-awkward"
+    "https://www.purexbox.com/news/2026/08/the-entire-supply-chain-is-collapsing-xbox-disc-drive-situation-gets-more-awkward",
+    "https://www.polygon.com/mtg-reality-fracture-shipping-delay-panama-canal-explained/",
+    "https://www.gamesindustry.biz/cloud-imperium-delays-squadron-42-to-2027-there-is-no-way-i-want-to-launch-into-the-attention-buzz-saw-of-gta-6",
+    "https://www.nintendolife.com/news/2026/08/psa-its-your-last-chance-to-pick-up-a-switch-2-before-the-price-goes-up",
+    "https://www.purexbox.com/news/2026/08/sega-randomly-announces-virtua-fighter-for-xbox-game-pass-in-september"
   ],
   "seen_titles": [
-    "mario tennis fever update now available (version 1.0.2), here are the full patch notes",
-    "serious sam: shatterverse announced for ps5, xbox series, and pc",
-    "hades ii has some bonus content planned for next month",
-    "grave seasons launches august 14",
     "tmnt: splintered fate gold edition gets totally tubular on switch today",
     "anime-inspired fps 'mullet madjack' hits switch in april, and it looks like a lot",
     "new resident evil requiem patch adds highly-anticipated photo mode feature",
@@ -10001,13 +9997,13 @@
     "talking point: what are you playing this weekend? - issue 647",
     "star citizen squadron 42 delayed yet again, and it's apparently gta 6's fault",
     "gta 6 looks like it features this popular tv show apartment",
-    "'the entire supply chain is collapsing' - xbox disc drive situation gets more awkward"
+    "'the entire supply chain is collapsing' - xbox disc drive situation gets more awkward",
+    "magic’s next set is caught in a ‘naval snarl’ at the panama canal",
+    "cloud imperium delays squadron 42 to 2027 – \"there is no way i want to launch into the attention buzz saw of gta 6\"",
+    "psa: it's your last chance to pick up a switch 2 before the price goes up",
+    "sega randomly announces virtua fighter for xbox game pass in september"
   ],
   "seen_story_keys": [
-    "c21e1963c1ddf5379e88856788746ef125dc596a",
-    "21568d7754cd32ba3cbd87822dd2725c68c7bb4d",
-    "d47170ddd578845a1c268f052b3482a5c8dc044a",
-    "f776acf2cff8c506bcac1349c651450d60bf0967",
     "7d7802165b807fa61a3fc9ec210054ed085a0d52",
     "c36899723f2e2c8f6d1e26e809baf323f6ee2084",
     "92ab0e68ee89e5e458729e8a01f6ba90c1f84661",
@@ -15003,6 +14999,10 @@
     "7744863494f93e09f8c647bddc7079bc29beecbb",
     "0f8b23564651eccd61ba2330200c73cbbb97a59b",
     "482478ec85a201afea0a340cb749a34f5afe5328",
-    "de79c555a306e604809ee3fd1d20552ba1e31d2c"
+    "de79c555a306e604809ee3fd1d20552ba1e31d2c",
+    "6483919791d51b649205787f75e400bffff15279",
+    "45fed335e589da779f9115ce41abca0c7c74e625",
+    "7bbdd7d9795f5e29272c32a2503c004b56c4de6e",
+    "7a5110ca9cec9a2cb83bba765d3e4be5980e7995"
   ]
 }
