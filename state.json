@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/sony-announces-price-rises-for-ps5-ps5-pro-and-playstation-portal-blames-continued-pressures-in-the-global-economic-landscape",
-    "https://www.gematsu.com/2026/03/genshin-impact-version-luna-vi-update-song-of-the-welkin-moon-rondo-augured-homecoming-launches-april-8",
-    "https://www.eurogamer.net/it-wouldnt-be-a-surprise-if-microsoft-and-nintendo-followed-suit-analyst-reacts-to-playstations-shock-price-rise-as-industry-braces-for-more-uncertainty",
-    "https://www.gamespot.com/articles/how-do-you-pronounce-mario-chris-pratt-shares-whether-youre-wrong/1100-6539063/?ftag=CAD-01-10abi2f",
     "https://www.nintendolife.com/news/2026/03/ps5-gets-an-insane-price-increase-n-will-nintendo-follow-suit",
     "https://gamerant.com/frieren-season-3-release-date-october-2027-update/",
     "https://www.gamesindustry.biz/sony-announces-global-price-rises-for-ps5-consoles-from-april-2-2026",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/08/usual-june-launches-october-28",
     "https://www.gematsu.com/2026/08/roguelite-strategy-rpg-wishseeker-announced-for-pc",
     "https://www.gematsu.com/2026/08/co-op-physics-based-building-game-what-goes-up-announced-for-ps5-xbox-series-and-pc",
-    "https://www.gematsu.com/2026/08/holstin-launches-in-2027"
+    "https://www.gematsu.com/2026/08/holstin-launches-in-2027",
+    "https://www.rockpapershotgun.com/the-long-dark-sequel-blackfrost-hasnt-been-cancelled-but-developer-hinterland-are-shifting-a-bit-more-focus-onto-the-originals-survival-mode",
+    "https://www.rockpapershotgun.com/mortal-shell-2-gets-its-first-major-update-adding-in-extra-beacons-useful-new-items-and-making-riposte-damage-scaling-actually-work",
+    "https://www.gematsu.com/2026/08/son-of-thanjai-launches-in-spring-2027",
+    "https://www.pushsquare.com/news/2026/08/stuntman-hollywood-welcomes-you-to-jurassic-world-in-latest-trailer"
   ],
   "seen_titles": [
-    "sony announces price rises for ps5, ps5 pro, and playstation portal, blames 'continued pressures in the global economic landscape'",
-    "genshin impact version luna vi update ‘song of the welkin moon: rondo – augured homecoming’ launches april 8",
-    "\"it wouldn't be a surprise if microsoft and nintendo followed suit\" - analysts react to playstation's shock price rise as industry braces for more uncertainty",
-    "how do you pronounce mario? chris pratt shares whether you're wrong",
     "ps5 gets an insane price increase – will nintendo follow suit?",
     "frieren season 3 release date announced - everything we know so far",
     "sony announces global price rises for ps5 consoles from april 2, 2026",
@@ -10001,13 +9997,13 @@
     "usual june launches october 28",
     "roguelite strategy rpg wishseeker announced for pc",
     "co-op physics-based building game what goes up announced for ps5, xbox series, and pc",
-    "holstin launches in 2027"
+    "holstin launches in 2027",
+    "the long dark sequel blackfrost hasn't been cancelled, but developer hinterland are shifting a bit more focus onto the original's survival mode",
+    "mortal shell 2 gets its first major update, adding in extra beacons, useful new items, and making riposte damage scaling actually work",
+    "son of thanjai launches in spring 2027",
+    "stuntman: hollywood welcomes you to jurassic world in latest trailer"
   ],
   "seen_story_keys": [
-    "6d18974955a8da9d9b4d8079f74dfbc0ebbe9435",
-    "d868074237d276c3cf77fc1bb48adb31d9267f02",
-    "1875fa17e7b192acb33505a6002a79dbd9c85935",
-    "64b15b5c38698a270b5310985161ffefd263d46a",
     "f362d5631549cdbc0145446532b6a46dbe6f8573",
     "24995350ed0e5cc2f87fcea49da5885d950ab08b",
     "8d02d345c4dfe90f6a079455500006911709c06c",
@@ -15003,6 +14999,10 @@
     "544e2add6b2e29907de4e59962f6b3c53775fc8b",
     "d0d77b5bc74a4203b29b117ae20f8c137f498a53",
     "0544bda526c5890dc6d4444c1a5cb39c9662c71a",
-    "965b86466eaee5df8ed3f8c9e19bf611d0717254"
+    "965b86466eaee5df8ed3f8c9e19bf611d0717254",
+    "28b581fcfaefe1b9ea3e69d013fe83c201ff868d",
+    "b69ae7e8f0f671f141a0525a16ef002c737bca27",
+    "f8cf7e04706e72b8fd4e2de81bffa702ef45476f",
+    "44213a06b5191117cde21887eac714dcfa996584"
   ]
 }
