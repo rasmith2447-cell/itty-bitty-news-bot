@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/03/inazuma-eleven-victory-roads-fourth-major-free-update-kicks-off-next-week",
-    "https://www.nintendolife.com/news/2026/03/dragon-quest-builders-switch-patch-available-now-switch-2-compatibility-update-also-released",
-    "https://www.gematsu.com/2026/03/fatal-fury-city-of-the-wolves-dlc-character-kenshiro-from-fist-of-the-north-star-launches-in-june",
-    "https://www.gematsu.com/2026/03/sentenced-to-be-a-hero-game-of-the-goddess-announced",
     "https://gamerant.com/gta-6-ps5-price/",
     "https://www.eurogamer.net/slay-the-spire-2-beta-patch-rolls-back-some-prior-changes-following-player-feedback",
     "https://gamerant.com/video/nintendo-switch-2-editions-problem-inconsistant-confusing/",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/08/pokemon-champions-update-adds-z-mega-evolutions-this-september",
     "https://www.nintendolife.com/news/2026/08/pokemons-trading-card-game-is-getting-a-movie-in-2027",
     "https://www.gematsu.com/2026/08/death-row-inmates-reality-show-x-death-game-adventure-buzz-or-die-announced-for-pc",
-    "https://www.gematsu.com/2026/08/fate-extra-record-to-be-published-by-aniplex"
+    "https://www.gematsu.com/2026/08/fate-extra-record-to-be-published-by-aniplex",
+    "https://www.gematsu.com/2026/08/housemarque-co-founder-ilari-kuittinen-steps-down-after-31-years",
+    "https://www.pushsquare.com/news/2026/08/state-of-play-confirmed-for-3rd-september-state-of-play-japan-show-straight-after",
+    "https://www.eurogamer.net/forza-horizon-6-ps5-delay-reports",
+    "https://www.videogameschronicle.com/news/segas-rovio-copenhagen-studio-is-closing-after-its-mobile-game-sonic-blitz-was-cancelled/"
   ],
   "seen_titles": [
-    "inazuma eleven: victory road's fourth major free update kicks off next week",
-    "dragon quest builders switch patch available now, switch 2 compatibility update also released",
-    "fatal fury: city of the wolves dlc character kenshiro from fist of the north star launches in june",
-    "sentenced to be a hero: game of the goddess announced",
     "if you are buying a ps5 for gta 6, you need to do it now",
     "slay the spire 2 beta patch rolls back some prior changes following player feedback",
     "are nintendo switch 2 editions becoming a problem?",
@@ -10001,13 +9997,13 @@
     "pokémon champions update adds z mega evolutions this september",
     "pokémon's trading card game is getting a movie in 2027",
     "‘death row inmates reality show x death game adventure’ buzz or die announced for pc",
-    "fate/extra record to be published by aniplex"
+    "fate/extra record to be published by aniplex",
+    "housemarque co-founder ilari kuittinen steps down after 31 years",
+    "state of play confirmed for 3rd september, state of play japan show straight after",
+    "forza horizon 6 appears to have been quietly delayed on ps5",
+    "sega’s rovio copenhagen studio is closing after its mobile game sonic blitz was cancelled"
   ],
   "seen_story_keys": [
-    "4a34cea2a935db09c3b8830bb10f6acea333df2c",
-    "4356a8281bf8154694dca73dfe81ba0fa66a867d",
-    "2ce6eaaff298cc49b58b319aafadea3ef3e0be7f",
-    "47f686c2a2cca4660d450de6cfa3fa319593ab56",
     "c849b8aeca8642dbf1ccae572df1bdaa7278dbcb",
     "c89d47d56b43d31e38434c07a6b03c2a3902ad47",
     "dcb65440af7bc57646bbaf382435f3703dd12ecd",
@@ -15003,6 +14999,10 @@
     "f4b88a88ec4551c65abb3f4e5004abdb1ddd2293",
     "21837d20ff3b03d5208b2fd4de4349b35ef4139b",
     "1c116b8e61756c1d46d611aef05ca466431002ed",
-    "c19caea4e3fd9884957085a9c6cafc39b682016f"
+    "c19caea4e3fd9884957085a9c6cafc39b682016f",
+    "be948b5986afc9bae563af6bd769cd6731d85b23",
+    "80d0283aeb833133b9afb68e772f47e3c65ea426",
+    "11e1f547b9d3de91a44aebb4decea0ede28fcf84",
+    "8176db77551d69223773e641649125886b0a0045"
   ]
 }
