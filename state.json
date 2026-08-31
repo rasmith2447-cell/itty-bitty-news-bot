@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/step-aside-pokemon-this-ambitious-ps5-creature-catcher-swaps-pokeballs-for-pokecubes",
-    "https://www.gamespot.com/articles/the-new-pubg-game-is-closing-after-less-than-2-months/1100-6539078/?ftag=CAD-01-10abi2f",
-    "https://www.nintendolife.com/news/2026/03/monster-hunter-stories-3-is-getting-a-free-update-planned-for-release-this-summer",
-    "https://www.gematsu.com/2026/03/expelled-from-paradise-game-announced",
     "https://www.nintendolife.com/news/2026/03/inazuma-eleven-victory-roads-fourth-major-free-update-kicks-off-next-week",
     "https://www.nintendolife.com/news/2026/03/dragon-quest-builders-switch-patch-available-now-switch-2-compatibility-update-also-released",
     "https://www.gematsu.com/2026/03/fatal-fury-city-of-the-wolves-dlc-character-kenshiro-from-fist-of-the-north-star-launches-in-june",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/08/38-arcade-archives-games-have-now-been-released-for-xbox-series-xs-in-2026-so-far",
     "https://www.ign.com/articles/phil-tippett-studio-closure-auction",
     "https://www.purexbox.com/news/2026/08/state-of-decay-3-confirms-new-release-window-and-closed-beta-plans",
-    "https://gamerant.com/fable-story-length-how-long-to-beat/"
+    "https://gamerant.com/fable-story-length-how-long-to-beat/",
+    "https://www.nintendolife.com/news/2026/08/pokemon-champions-update-adds-z-mega-evolutions-this-september",
+    "https://www.nintendolife.com/news/2026/08/pokemons-trading-card-game-is-getting-a-movie-in-2027",
+    "https://www.gematsu.com/2026/08/death-row-inmates-reality-show-x-death-game-adventure-buzz-or-die-announced-for-pc",
+    "https://www.gematsu.com/2026/08/fate-extra-record-to-be-published-by-aniplex"
   ],
   "seen_titles": [
-    "step aside, pokémon! this ambitious ps5 creature catcher swaps pokéballs for pokécubes",
-    "the new pubg game is closing after less than 2 months",
-    "monster hunter stories 3 is getting a free update, planned for release this summer",
-    "expelled from paradise game announced",
     "inazuma eleven: victory road's fourth major free update kicks off next week",
     "dragon quest builders switch patch available now, switch 2 compatibility update also released",
     "fatal fury: city of the wolves dlc character kenshiro from fist of the north star launches in june",
@@ -10001,13 +9997,13 @@
     "38 arcade archives games have now been released for xbox series x|s in 2026 so far",
     "star wars and jurassic park vfx legend phil tippett closes studio and auctions memorabilia",
     "state of decay 3 confirms new release window & closed beta plans",
-    "fable’s story length praised by gamers"
+    "fable’s story length praised by gamers",
+    "pokémon champions update adds z mega evolutions this september",
+    "pokémon's trading card game is getting a movie in 2027",
+    "‘death row inmates reality show x death game adventure’ buzz or die announced for pc",
+    "fate/extra record to be published by aniplex"
   ],
   "seen_story_keys": [
-    "15c1cde7570524b3d8580e7053dac9c1df56ad58",
-    "35feca0ed720b6469e40e7c8365a15298477d1ff",
-    "ce6733ece322a9de23f638e27d24a0159c2fb2da",
-    "ed6bb1f2c051d2b6cb18462e4ca0574084f6e5dd",
     "4a34cea2a935db09c3b8830bb10f6acea333df2c",
     "4356a8281bf8154694dca73dfe81ba0fa66a867d",
     "2ce6eaaff298cc49b58b319aafadea3ef3e0be7f",
@@ -15003,6 +14999,10 @@
     "2d5d01148fbd4c0fc0764a2381bb87d2a4a8bfa4",
     "0d8b14998181c8566f91a07de0374ba98f51d737",
     "15f2385e79a29cb72f3b0517e396b055a9fa7c80",
-    "660d5bb4e496acf2fdc122d0e22a0719ba43784a"
+    "660d5bb4e496acf2fdc122d0e22a0719ba43784a",
+    "f4b88a88ec4551c65abb3f4e5004abdb1ddd2293",
+    "21837d20ff3b03d5208b2fd4de4349b35ef4139b",
+    "1c116b8e61756c1d46d611aef05ca466431002ed",
+    "c19caea4e3fd9884957085a9c6cafc39b682016f"
   ]
 }
