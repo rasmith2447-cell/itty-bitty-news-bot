@@ -229,20 +229,14 @@ def load_digest_stories() -> tuple:
 # GAME OF THE WEEK
 # ---------------------------------------------------------------------------
 
-GOTW_OVERRIDE = {
+GOTW_OVERRIDE = None  # Set to a dict to manually override the auto-generated game
+
+GOTW_FALLBACK = {
     "title":       "Mortal Shell II",
     "description": "Just dropped August 20th and it's already pulling 30,000 concurrent players. Mortal Shell II is a standalone soulslike action-RPG where you possess fallen warrior Shells to gain their abilities, dethrone false gods, and redeem a ravaged world. Cold Symmetry expanded everything from the original — bigger open world, more Shells, deeper combat, night mode difficulty — and the beta alone pulled 600,000 downloads. If you love demanding, atmospheric combat, this one's for you.",
     "platform":    "Available on PS5, Xbox Series X|S & PC (Steam)",
     "url":         "https://store.steampowered.com/app/2584270/Mortal_Shell_II/",
     "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/2584270/header.jpg",
-}
-
-GOTW_FALLBACK = {
-    "title":       "SWAPMEAT",
-    "description": "Just graduated out of Early Access on June 17th and it's an absolute blast. You're a shape-shifting operative ripping through alien worlds, stealing enemy body parts mid-combat to gain their abilities. Triple-jump legs, grenade-launching turkey heads, turret-dropping torsos — thousands of wild combos. Play solo or with up to 3 friends in co-op. If Risk of Rain 2 and Helldivers 2 had a chaotic, meaty baby, this is it.",
-    "platform":    "Available on PC (Steam)",
-    "url":         "https://store.steampowered.com/app/2790700/SWAPMEAT/",
-    "image_url":   "https://cdn.akamai.steamstatic.com/steam/apps/2790700/header.jpg",
 }
 
 
