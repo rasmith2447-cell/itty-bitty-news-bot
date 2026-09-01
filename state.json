@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/sony-playstation-dark-outlaw-games-jason-blundell/",
-    "https://www.gematsu.com/2026/03/invincible-vs-adds-conquest-dlc-characters-universa-and-the-immortal-announced",
-    "https://www.nintendolife.com/news/2026/03/avatar-legends-the-fighting-game-hits-switch-1-and-2-this-july",
-    "https://www.nintendolife.com/news/2026/03/super-meat-boy-brings-brutal-3d-platforming-to-switch-2-this-month",
     "https://www.nintendolife.com/news/2026/03/snowrunner-listing-spotted-for-switch-2",
     "https://www.pushsquare.com/news/2026/03/major-crimson-desert-patch-out-now-on-ps5-makes-countless-gameplay-improvements",
     "https://www.pcgamer.com/games/if-youre-sick-of-waiting-for-ubisoft-to-make-a-new-splinter-cell-this-newly-announced-indie-stealth-game-might-fill-the-sam-fisher-shaped-hole-in-your-life/",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/09/pikmin-3-deluxe-updated-to-version-1-2-0-here-are-the-full-patch-notes",
     "https://gamerant.com/pokemon-tcg-ex-star-cards-mega-lucario-v/",
     "https://www.nintendolife.com/news/2026/09/konami-press-start-showcase-announced-expect-news-updates-and-exclusive-footage",
-    "https://gamerant.com/animal-crossing-makeup-september/"
+    "https://gamerant.com/animal-crossing-makeup-september/",
+    "https://www.nintendolife.com/news/2026/09/capcom-spotlight-presentation-kicks-off-tgs-2026-later-this-month",
+    "https://www.gematsu.com/2026/09/capcom-announces-tgs-2026-lineup-capcom-spotlight",
+    "https://www.gematsu.com/2026/09/city-connection-announces-tgs-2026-lineup",
+    "https://www.pushsquare.com/news/2026/08/sony-announces-live-tv-on-ps5-a-free-app-launching-today-in-the-us"
   ],
   "seen_titles": [
-    "'we were making a hell of a game' dark outlaw games founder speaks on the studio's closure",
-    "invincible vs adds conquest; dlc characters universa and the immortal announced",
-    "avatar legends: the fighting game hits switch 1 & 2 this july",
-    "super meat boy brings brutal 3d platforming to switch 2 this month",
     "snowrunner listing spotted for switch 2",
     "major crimson desert patch out now on ps5, makes countless gameplay improvements",
     "if you're sick of waiting for ubisoft to make a new splinter cell, this newly announced indie stealth game might fill the sam fisher-shaped hole in your life",
@@ -10001,13 +9997,13 @@
     "pikmin 3 deluxe updated to version 1.2.0, here are the full patch notes",
     "pokemon tcg reveals a brand-new type of card",
     "konami press start showcase announced, expect news, updates and \"exclusive footage\"",
-    "new official animal crossing release confirmed for september"
+    "new official animal crossing release confirmed for september",
+    "capcom spotlight presentation kicks off tgs 2026 later this month",
+    "capcom announces tgs 2026 lineup, capcom spotlight",
+    "city connection announces tgs 2026 lineup",
+    "sony announces 'live tv on ps5', a free app launching today in the us"
   ],
   "seen_story_keys": [
-    "744a04b966da7892c5624bb338c591614c0c4db9",
-    "4cfe91503db6afb7f99a0a76b3ece0ded8065663",
-    "2c8e6b5793d870f14cec291171ad47039f98a2e5",
-    "47bba10717255753a87e156c3dc6e7206c53ccf6",
     "9f1b81e4a7ff709c699a5bbb74474b8f5f335e1d",
     "0a7ee4458bdcdf09a0e2606d70fc7886d19e9642",
     "fab77e38475deb5be8205f26df0c5343f1d460d7",
@@ -15003,6 +14999,10 @@
     "37805c7d9d7d544d06aa6cb54d84e61645bd5fb9",
     "cc8d52f6333adeff29d8affff8f9fa00bfa4b7fb",
     "5021f1bf1c45c939807ea13f7f13ab4a80f4e8de",
-    "211011c70a678b9e2ca929fc04e8039d892ef850"
+    "211011c70a678b9e2ca929fc04e8039d892ef850",
+    "dc3f428d20b7a0931afe9d13fd8ded22181cf8e7",
+    "56ebc6457963846b28e26aa5a9fe575e08cb4cb5",
+    "a9d5d92d3f53c99923afcc22920bb66e18dd8022",
+    "b4b40a9366741197a68e5087505379d2d3223c70"
   ]
 }
