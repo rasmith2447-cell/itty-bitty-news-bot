@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/03/snowrunner-listing-spotted-for-switch-2",
-    "https://www.pushsquare.com/news/2026/03/major-crimson-desert-patch-out-now-on-ps5-makes-countless-gameplay-improvements",
-    "https://www.pcgamer.com/games/if-youre-sick-of-waiting-for-ubisoft-to-make-a-new-splinter-cell-this-newly-announced-indie-stealth-game-might-fill-the-sam-fisher-shaped-hole-in-your-life/",
-    "https://www.polygon.com/crimson-desert-update-removing-ai-art/",
     "https://gamerant.com/arc-raiders-flashpoint-update-release-time-date-countdown/",
     "https://www.eurogamer.net/crimson-desert-deploys-weekend-patch-heres-whats-new",
     "https://gamerant.com/zenless-zone-zero-version-2-8-new-characters-starlight-billy-promeia/",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/09/capcom-spotlight-presentation-kicks-off-tgs-2026-later-this-month",
     "https://www.gematsu.com/2026/09/capcom-announces-tgs-2026-lineup-capcom-spotlight",
     "https://www.gematsu.com/2026/09/city-connection-announces-tgs-2026-lineup",
-    "https://www.pushsquare.com/news/2026/08/sony-announces-live-tv-on-ps5-a-free-app-launching-today-in-the-us"
+    "https://www.pushsquare.com/news/2026/08/sony-announces-live-tv-on-ps5-a-free-app-launching-today-in-the-us",
+    "https://www.gamesindustry.biz/ukie-launches-discord-backed-go-to-market-academy-a-business-program-to-support-early-stage-indie-devs",
+    "https://gamerant.com/new-nintendo-64-n64-games-2026-m64/",
+    "https://www.pushsquare.com/news/2026/09/the-witcher-3-remastered-is-just-an-update-on-ps5-not-a-new-edition-with-new-trophies",
+    "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/"
   ],
   "seen_titles": [
-    "snowrunner listing spotted for switch 2",
-    "major crimson desert patch out now on ps5, makes countless gameplay improvements",
-    "if you're sick of waiting for ubisoft to make a new splinter cell, this newly announced indie stealth game might fill the sam fisher-shaped hole in your life",
-    "crimson desert's next big update claims to replace ai art",
     "arc raiders flashpoint update release date & countdown",
     "crimson desert deploys weekend patch – here's what's new",
     "zenless zone zero reveals two new characters for version 2.8",
@@ -10001,13 +9997,13 @@
     "capcom spotlight presentation kicks off tgs 2026 later this month",
     "capcom announces tgs 2026 lineup, capcom spotlight",
     "city connection announces tgs 2026 lineup",
-    "sony announces 'live tv on ps5', a free app launching today in the us"
+    "sony announces 'live tv on ps5', a free app launching today in the us",
+    "ukie launches discord-backed go to market academy, a business program to support early-stage indie devs",
+    "4 brand-new nintendo 64 games are officially available now",
+    "the witcher 3 remastered is just an update on ps5, not a new edition with new trophies",
+    "dwarf fortress' creator says the industry's in shambles over ai and layoff-happy ceos: 'everyone i know, their bosses are slowly getting psychosis'"
   ],
   "seen_story_keys": [
-    "9f1b81e4a7ff709c699a5bbb74474b8f5f335e1d",
-    "0a7ee4458bdcdf09a0e2606d70fc7886d19e9642",
-    "fab77e38475deb5be8205f26df0c5343f1d460d7",
-    "0d6f5341baa4ed60d43a2a3d3e6039c223533542",
     "996b1fbd11e19e5f2597507f299068f6aa6b3256",
     "386c1085b18a6c23d29879943d724eab487c9fbe",
     "c40b691885948b9b965f0b5cb5cf966e55d38585",
@@ -15003,6 +14999,10 @@
     "dc3f428d20b7a0931afe9d13fd8ded22181cf8e7",
     "56ebc6457963846b28e26aa5a9fe575e08cb4cb5",
     "a9d5d92d3f53c99923afcc22920bb66e18dd8022",
-    "b4b40a9366741197a68e5087505379d2d3223c70"
+    "b4b40a9366741197a68e5087505379d2d3223c70",
+    "14c18166f50893506d174bd4aee36544a9394f18",
+    "b36ab7e723d6b15e119ac4b95ff25eb17324050b",
+    "78e584fbd1acaa34c9328207fac05e21b73263c8",
+    "ec9c59db64a0b2e26b7b8d863a5b3ee8ac37179e"
   ]
 }
