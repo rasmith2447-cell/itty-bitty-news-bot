@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/rpg/the-latest-crimson-desert-patch-adds-five-new-mounts-and-makes-it-so-you-only-get-in-trouble-for-stealing-if-you-get-caught/",
-    "https://www.eurogamer.net/surprise-9-year-old-hollow-knights-brutal-final-boss-fight-may-be-just-that-little-bit-easier-after-this-patch",
-    "https://www.polygon.com/pokmon-firered-leafgreen-designed-for-girls-elderly/",
-    "https://www.pcgamer.com/gaming-industry/a-programmer-with-terminal-brain-cancer-was-caught-in-epics-mass-layoff-but-ceo-tim-sweeney-says-the-studio-will-solve-the-insurance-for-them/",
     "https://www.gematsu.com/2026/03/i-left-my-a-rank-party-to-help-my-former-students-reach-the-dungeon-depths-game-announced",
     "https://www.ign.com/articles/invincible-vs-launch-roster-of-playable-fighters-is-complete-first-2-dlc-characters-confirmed",
     "https://www.ign.com/articles/amazons-tomb-raider-series-pauses-production-following-minor-injury-to-star-sophie-turner",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/rockstar-games-reveals-its-official-gta-online-roleplaying-server-nopixel-v",
     "https://www.polygon.com/warrior-cats-clans-of-the-forest-game-release-date-announced/",
     "https://www.rockpapershotgun.com/nvidia-dlss-5-releases-this-week-with-nba-2k27-so-the-ai-yassification-filters-busy-beautifying-basketballers-early-doors",
-    "https://www.gematsu.com/2026/09/aerial_knights-mr-freezy-now-available-for-pc-launches-september-8-for-ps5"
+    "https://www.gematsu.com/2026/09/aerial_knights-mr-freezy-now-available-for-pc-launches-september-8-for-ps5",
+    "https://www.polygon.com/gta-5-nopixel-beta-when-is-roleplay-customization-new-gameplay/",
+    "https://www.gematsu.com/2026/09/no-rest-for-the-wicked-delayed-to-march-2027",
+    "https://www.pcgamer.com/hardware/vr-hardware/no-half-life-3-for-the-steam-frame-so-it-looks-like-this-six-year-old-game-might-be-the-key-launch-offering-instead/",
+    "https://www.pushsquare.com/news/2026/09/no-rest-for-the-wickeds-long-awaited-1-0-and-ps5-release-delayed-into-2027"
   ],
   "seen_titles": [
-    "the latest crimson desert patch adds five new mounts and makes it so you only get in trouble for stealing if you get caught",
-    "surprise! 9-year-old hollow knight's brutal final boss fight may be just that little bit easier after this patch",
-    "pokémon firered and leafgreen were primarily designed for girls and the elderly",
-    "a programmer with terminal brain cancer was caught in epic's mass layoff, but ceo tim sweeney says the studio 'will solve the insurance for them'",
     "i left my a-rank party to help my former students reach the dungeon depths! game announced",
     "invincible vs launch roster of playable fighters is complete, first 2 dlc characters confirmed",
     "amazon’s tomb raider series pauses production following ‘minor injury’ to star sophie turner",
@@ -10001,13 +9997,13 @@
     "rockstar games reveals its official gta online roleplaying server, nopixel v",
     "warrior cats game based on acclaimed ya series finally has a release date",
     "nvidia dlss 5 releases this week with nba 2k27, so the ai yassification filter's busy beautifying basketballers early doors",
-    "aerial_knight’s mr. freezy now available for pc, launches september 8 for ps5"
+    "aerial_knight’s mr. freezy now available for pc, launches september 8 for ps5",
+    "days after gta 6's big reveal, rockstar announces a major gta 5 update",
+    "no rest for the wicked delayed to march 2027",
+    "no half-life 3 for the steam frame, so it looks like this six-year-old game might be the key launch offering instead",
+    "no rest for the wicked's long-awaited 1.0 and ps5 release delayed into 2027"
   ],
   "seen_story_keys": [
-    "dfaa6cbad2f0fa89bd4ea135e13752463593a819",
-    "ab9aff22eb6ddeb9a342898b258325314638e26e",
-    "63424cdbef674f082eff58262a59a44278962feb",
-    "c8b61e920b5067aaa43f84110f4bf3cbaa14c4dd",
     "be502cfebacf29cabc98ae7b0fc1f1151eba3e19",
     "2144186362e31c08ea241661fb776c25e7a2cbee",
     "be2f4ae93a8726715a82fe0bf9316ee07c300f3a",
@@ -15003,6 +14999,10 @@
     "60d56e75ec8f64abdf4d046e17e29e0fd01f05d1",
     "25489dded5b771841ab36540c04683c0019ef012",
     "41053873f13b94efe5c6bd60d715b37af6cf61ec",
-    "5f75d025b7a4fbb3187101f9b1e734db005132c2"
+    "5f75d025b7a4fbb3187101f9b1e734db005132c2",
+    "8d18e2cdf26b935743e5efa7eefee50a50637fe1",
+    "d2c120a6ac0143fc82af8a226f6f448ace4d61ce",
+    "ae61bae385d50258be239f92f59343b760cccbf9",
+    "92be1eb8ccc4f62a7e160322e81fd4f7304e35d5"
   ]
 }
