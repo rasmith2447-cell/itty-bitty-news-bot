@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/crimson-deserts-new-patch-addresses-one-of-the-games-biggest-annoyances/1100-6539088/?ftag=CAD-01-10abi2f",
-    "https://www.ign.com/articles/crimson-desert-patches-are-delighting-fans-but-some-say-theyre-making-the-game-too-easy-and-now-want-a-hard-difficulty-mode",
-    "https://www.ign.com/articles/xbox-games-showcase-announced-for-june-gears-of-war-e-day-this-years-headline-title-getting-dedicated-direct",
-    "https://gamerant.com/fortnite-epic-layoffs-terminal-cancer-sweeney-insurance/",
     "https://www.pushsquare.com/news/2026/03/crimson-desert-dev-keeps-its-promise-replaces-ai-art-in-latest-patch",
     "https://www.gematsu.com/2026/03/truxton-extreme-launches-july-30-for-ps5-xbox-series-switch-2-and-pc",
     "https://www.ign.com/articles/inzoi-boss-reflects-on-year-1-the-sims-has-been-the-biggest-for-3-decades-and-i-think-i-have-figured-out-why",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/september-2026-xbox-pc-game-pass-list",
     "https://www.gematsu.com/2026/09/port-of-jumanah-launches-september-7-for-ps5-pc",
     "https://www.pushsquare.com/news/2026/09/if-you-want-the-marvels-wolverine-ps5-platinum-trophy-get-used-to-parrying-bub",
-    "https://www.gamesindustry.biz/moon-studios-delays-no-rest-for-the-wicked-to-march-2027-were-holding-our-games-to-a-standard-we-wont-compromise-on"
+    "https://www.gamesindustry.biz/moon-studios-delays-no-rest-for-the-wicked-to-march-2027-were-holding-our-games-to-a-standard-we-wont-compromise-on",
+    "https://gamerant.com/playstation-games-shutting-down-september-2026/",
+    "https://www.nintendolife.com/news/2026/09/uk-charts-elden-ring-starts-strong-but-its-metal-gear-that-takes-the-crown",
+    "https://www.gamesindustry.biz/square-enix-denies-going-private-after-report-sends-stock-surging",
+    "https://www.ign.com/articles/officially-licensed-cozy-collection-gaming-accessories-now-available-for-xbox-and-pc"
   ],
   "seen_titles": [
-    "crimson desert's new patch addresses one of the game's biggest annoyances",
-    "crimson desert patches are delighting fans, but some say they're making the game too easy and now want a hard difficulty mode",
-    "xbox games showcase announced for june, gears of war: e-day this year's headline title getting dedicated direct",
-    "epic games layoffs hit employee with terminal cancer, ceo responds",
     "crimson desert dev keeps its promise, replaces ai art in latest patch",
     "truxton extreme launches july 30 for ps5, xbox series, switch 2, and pc",
     "inzoi boss reflects on year 1: 'the sims has been the biggest for 3 decades, and i think i have figured out why'",
@@ -10001,13 +9997,13 @@
     "september's first wave of xbox game pass games revealed, and it brings runescape to console for the first time",
     "port of jumanah launches september 7 for ps5, pc",
     "if you want the marvel's wolverine ps5 platinum trophy, get used to parrying, bub",
-    "moon studios delays no rest for the wicked to march 2027 – \"we're holding our games to a standard we won't compromise on\""
+    "moon studios delays no rest for the wicked to march 2027 – \"we're holding our games to a standard we won't compromise on\"",
+    "5 playstation games are permanently shutting down in september",
+    "uk charts: elden ring starts strong, but it's metal gear that takes the crown",
+    "square enix denies going private after report sends stock surging",
+    "officially licensed 'cozy collection' gaming accessories now available for xbox and pc"
   ],
   "seen_story_keys": [
-    "dbf6451e3a0d611371e491e00cd7b54a5edfc6c2",
-    "f1d229ee0c8ff2a81dc7cf3f445fe7d0edea10a9",
-    "25b402d650b8099ed7e9a19a527caa135d7079a0",
-    "da4164f37408dc883d53a0d3d12f15b327f027e1",
     "fcd8cea899f4ea9601d5dfb90e4ac76ecabcab5f",
     "d0d3894abd07d77b209fef648bf0cb5afaf81a4e",
     "9bee0bebef7e7c93b8bd062edbe081fca82b7d0e",
@@ -15003,6 +14999,10 @@
     "de5a8a64c18f667dfd080c26d66d20df0a8d0704",
     "53a9146afa4a7f09e76814f9b14a59e527010d13",
     "7573e92d09d98479792d1db5caf2eb2f9661b981",
-    "9e2b12ee98d6edced18d062d89518b43734eb26c"
+    "9e2b12ee98d6edced18d062d89518b43734eb26c",
+    "0e417d5468790255dcaab8fc1ec8cbe87305caeb",
+    "f74f047c55bfbba06ba5dac0982558a476971ed3",
+    "c9f8442d8f9c9872da3aff255a613e358e2bcb60",
+    "8d75bc5420c76188fdaacf55131f6e1dcb7495ba"
   ]
 }
