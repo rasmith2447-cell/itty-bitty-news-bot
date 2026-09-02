@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/resident-evil-requiem-fans-use-photo-mode-to-examine-another-possible-code-veronica-easter-egg",
-    "https://www.ign.com/articles/epic-games-boss-tim-sweeny-responds-after-fortnite-layoffs-revealed-to-include-employee-with-terminal-cancer-who-will-lose-life-insurance",
-    "https://www.ign.com/articles/avatar-fighting-game-avatar-legends-has-a-release-date-and-a-confirmed-price",
-    "https://www.ign.com/articles/ps5-pro-price-jump-has-playstation-fans-divided-as-many-rush-to-buy-before-the-incoming-hikes-hit",
     "https://gamerant.com/xbox-games-showcase-when-date-time-gears-war/",
     "https://www.purexbox.com/news/2026/03/xbox-games-showcase-announced-for-june-2026-featuring-gears-of-war-e-day-direct",
     "https://www.pushsquare.com/news/2026/03/see-more-new-ps5-games-from-xbox-in-bumper-june-showcase",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/g-mode-archives-ridge-racer-announced-for-switch-pc",
     "https://www.nintendolife.com/news/2026/09/mario-kart-8-deluxe-has-been-updated-to-version-4-0-0-here-are-the-full-patch-notes",
     "https://www.nintendolife.com/news/2026/09/minecraft-is-making-changes-to-minecoins-on-nintendo-platforms",
-    "https://www.pushsquare.com/news/2026/09/colossal-game-changing-dragons-dogma-2-patch-3-2-out-now-on-ps5"
+    "https://www.pushsquare.com/news/2026/09/colossal-game-changing-dragons-dogma-2-patch-3-2-out-now-on-ps5",
+    "https://www.eurogamer.net/no-rest-for-the-wicked-delayed-march-2027",
+    "https://www.ign.com/articles/eight-player-splitscreen-added-to-mario-kart-8-deluxe",
+    "https://www.gematsu.com/2026/09/lawn-mowing-simulator-2-launches-september-23",
+    "https://www.eurogamer.net/doom-the-dark-ages-revelations-id-software-crunch"
   ],
   "seen_titles": [
-    "resident evil requiem fans use photo mode to examine another possible code veronica easter egg",
-    "epic games boss tim sweeny responds after fortnite layoffs revealed to include employee with terminal cancer who will lose life insurance",
-    "avatar fighting game avatar legends has a release date and a confirmed price",
-    "ps5 pro price jump has playstation fans divided as many rush to buy before the incoming hikes hit",
     "xbox games showcase officially confirmed with a bonus direct",
     "xbox games showcase announced for june 2026, featuring gears of war: e-day direct",
     "see more new ps5 games from xbox in bumper june showcase",
@@ -10001,13 +9997,13 @@
     "g-mode archives+ ridge racer announced for switch, pc",
     "mario kart 8 deluxe has been updated to version 4.0.0, here are the full patch notes",
     "minecraft is making changes to minecoins on nintendo platforms",
-    "colossal, game-changing dragon's dogma 2 patch 3.2 out now on ps5"
+    "colossal, game-changing dragon's dogma 2 patch 3.2 out now on ps5",
+    "no rest for the wicked delayed to 2027, promises new beta and founders packs for early buyers to tide people over",
+    "eight-player splitscreen added to mario kart 8 deluxe",
+    "lawn mowing simulator 2 launches september 23",
+    "laid off id software developer says crunch on doom: the dark ages' revelations dlc was \"brutal\" with up to 17-hour days"
   ],
   "seen_story_keys": [
-    "36abf27d23ecad7251431887482ff509f25a1574",
-    "99cb812512d163044cf6f286d6a75f28e44930c8",
-    "5eb35ca8b587d16f8a7f34e0478b587fb6d34fb0",
-    "6f4e624bb187388fe71585ebd7ed0c88a777ef27",
     "f98dfab108f1cb75a13d4bc9f84237f497c59781",
     "01904adeaf5b216772c5175aa241e38545bfdb01",
     "d2d2cb76e728852bfba8550af9f3a834a019f107",
@@ -15003,6 +14999,10 @@
     "d6f609a0217cca1196ffb71e5209aaf9ed92d3de",
     "a521614f6dee1ac5a0df3a0e1ee400d3fb8d62b7",
     "6959f7e5c09e64ab57bbcb3776e50d0d583c75bf",
-    "b8b6c8fbe3b18de0225117755dac95f849945837"
+    "b8b6c8fbe3b18de0225117755dac95f849945837",
+    "85c797a6dec67e6899fa9419136cba10de3fcfd2",
+    "6747f7ce2de7c543070aa382ed435fe6afd62b1f",
+    "6810deb8fd5568159c7d9d4b0cf0ea4102a5b4bf",
+    "532b79e39868f2ab07ec657bbbde13f816321c68"
   ]
 }
