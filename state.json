@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/full-list-of-ps-plus-extra-game-removals-for-april-2026-confirmed",
-    "https://www.gamesindustry.biz/unity-sees-growth-in-engine-revenue-shuts-down-ironsource-ad-network-in-favour-of-vector-ai-user-acquisition-platform",
-    "https://www.ign.com/articles/we-understand-this-may-not-be-the-outcome-many-of-you-were-hoping-for-pubg-spinoff-shuts-down-before-leaving-early-access",
-    "https://www.rockpapershotgun.com/epics-mass-layoffs-left-a-programmer-with-terminal-brain-cancer-without-life-insurance-but-tim-sweeney-says-the-company-will-solve-the-problem",
     "https://www.ign.com/articles/resident-evil-requiem-fans-use-photo-mode-to-examine-another-possible-code-veronica-easter-egg",
     "https://www.ign.com/articles/epic-games-boss-tim-sweeny-responds-after-fortnite-layoffs-revealed-to-include-employee-with-terminal-cancer-who-will-lose-life-insurance",
     "https://www.ign.com/articles/avatar-fighting-game-avatar-legends-has-a-release-date-and-a-confirmed-price",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/cd-projekt-red-boss-isnt-worried-about-delays-for-next-gen-consoles-as-ram-prices-soar",
     "https://www.gematsu.com/2026/09/warrior-cats-clans-of-the-forest-launches-october-23",
     "https://www.videogameschronicle.com/news/nvidias-controversial-dlss-5-officially-launches-this-week-via-nba-2k27/",
-    "https://www.eurogamer.net/dont-nod-layoffs-restructuring-aphelion"
+    "https://www.eurogamer.net/dont-nod-layoffs-restructuring-aphelion",
+    "https://www.gematsu.com/2026/09/g-mode-archives-ridge-racer-announced-for-switch-pc",
+    "https://www.nintendolife.com/news/2026/09/mario-kart-8-deluxe-has-been-updated-to-version-4-0-0-here-are-the-full-patch-notes",
+    "https://www.nintendolife.com/news/2026/09/minecraft-is-making-changes-to-minecoins-on-nintendo-platforms",
+    "https://www.pushsquare.com/news/2026/09/colossal-game-changing-dragons-dogma-2-patch-3-2-out-now-on-ps5"
   ],
   "seen_titles": [
-    "full list of ps plus extra game removals for april 2026 confirmed",
-    "unity sees growth in engine revenue, shuts down ironsource ad network in favour of vector ai user-acquisition platform",
-    "'we understand this may not be the outcome many of you were hoping for' — pubg spinoff shuts down before leaving early access",
-    "epic's mass layoffs left a programmer with terminal brain cancer without life insurance, but tim sweeney says the company will \"solve\" the problem",
     "resident evil requiem fans use photo mode to examine another possible code veronica easter egg",
     "epic games boss tim sweeny responds after fortnite layoffs revealed to include employee with terminal cancer who will lose life insurance",
     "avatar fighting game avatar legends has a release date and a confirmed price",
@@ -10001,13 +9997,13 @@
     "cd projekt red boss 'isn't worried' about delays for next-gen consoles as ram prices soar",
     "warrior cats: clans of the forest launches october 23",
     "nvidia’s controversial dlss 5 officially launches this week via nba 2k27",
-    "life is strange and aphelion studio don't nod probably facing layoffs again, as it announces ominous-sounding \"transformation initiative\""
+    "life is strange and aphelion studio don't nod probably facing layoffs again, as it announces ominous-sounding \"transformation initiative\"",
+    "g-mode archives+ ridge racer announced for switch, pc",
+    "mario kart 8 deluxe has been updated to version 4.0.0, here are the full patch notes",
+    "minecraft is making changes to minecoins on nintendo platforms",
+    "colossal, game-changing dragon's dogma 2 patch 3.2 out now on ps5"
   ],
   "seen_story_keys": [
-    "ccab3af6d45d7b99d08aa60ed91a432ed319b028",
-    "3a1ea8e043d56ea68d812b39f76596081e85ec39",
-    "bf061b0e4c7e0725d10e96b87f404fa696577b63",
-    "09bfa5f2348180920c798e7f45a2b72efe70e6d2",
     "36abf27d23ecad7251431887482ff509f25a1574",
     "99cb812512d163044cf6f286d6a75f28e44930c8",
     "5eb35ca8b587d16f8a7f34e0478b587fb6d34fb0",
@@ -15003,6 +14999,10 @@
     "34cf4704c2243cf1a41df6f6a9832c7002703efc",
     "78841548fe6e56cf1a2603a505e14ad30e61d56c",
     "0e75281383048b7fa77a961204cff3992bed20ba",
-    "b3b82caa0157431cb7ba43f6c6b4b9bae2551043"
+    "b3b82caa0157431cb7ba43f6c6b4b9bae2551043",
+    "d6f609a0217cca1196ffb71e5209aaf9ed92d3de",
+    "a521614f6dee1ac5a0df3a0e1ee400d3fb8d62b7",
+    "6959f7e5c09e64ab57bbcb3776e50d0d583c75bf",
+    "b8b6c8fbe3b18de0225117755dac95f849945837"
   ]
 }
