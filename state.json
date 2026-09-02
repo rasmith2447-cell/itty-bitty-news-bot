@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/xbox-games-showcase-when-date-time-gears-war/",
-    "https://www.purexbox.com/news/2026/03/xbox-games-showcase-announced-for-june-2026-featuring-gears-of-war-e-day-direct",
-    "https://www.pushsquare.com/news/2026/03/see-more-new-ps5-games-from-xbox-in-bumper-june-showcase",
-    "https://www.rockpapershotgun.com/063-is-the-perfect-default-delay-bungie-respawn-and-firaxis-game-developers-talk-npc-barks-grenade-timing-and-other-questions-of-craft",
     "https://www.gamespot.com/articles/crimson-deserts-new-patch-addresses-one-of-the-games-biggest-annoyances/1100-6539088/?ftag=CAD-01-10abi2f",
     "https://www.ign.com/articles/crimson-desert-patches-are-delighting-fans-but-some-say-theyre-making-the-game-too-easy-and-now-want-a-hard-difficulty-mode",
     "https://www.ign.com/articles/xbox-games-showcase-announced-for-june-gears-of-war-e-day-this-years-headline-title-getting-dedicated-direct",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/no-rest-for-the-wicked-delayed-march-2027",
     "https://www.ign.com/articles/eight-player-splitscreen-added-to-mario-kart-8-deluxe",
     "https://www.gematsu.com/2026/09/lawn-mowing-simulator-2-launches-september-23",
-    "https://www.eurogamer.net/doom-the-dark-ages-revelations-id-software-crunch"
+    "https://www.eurogamer.net/doom-the-dark-ages-revelations-id-software-crunch",
+    "https://www.eurogamer.net/september-2026-xbox-pc-game-pass-list",
+    "https://www.gematsu.com/2026/09/port-of-jumanah-launches-september-7-for-ps5-pc",
+    "https://www.pushsquare.com/news/2026/09/if-you-want-the-marvels-wolverine-ps5-platinum-trophy-get-used-to-parrying-bub",
+    "https://www.gamesindustry.biz/moon-studios-delays-no-rest-for-the-wicked-to-march-2027-were-holding-our-games-to-a-standard-we-wont-compromise-on"
   ],
   "seen_titles": [
-    "xbox games showcase officially confirmed with a bonus direct",
-    "xbox games showcase announced for june 2026, featuring gears of war: e-day direct",
-    "see more new ps5 games from xbox in bumper june showcase",
-    "\"0.63 is the perfect default delay\": bungie, respawn and firaxis game developers talk npc barks, grenade timing and other questions of craft",
     "crimson desert's new patch addresses one of the game's biggest annoyances",
     "crimson desert patches are delighting fans, but some say they're making the game too easy and now want a hard difficulty mode",
     "xbox games showcase announced for june, gears of war: e-day this year's headline title getting dedicated direct",
@@ -10001,13 +9997,13 @@
     "no rest for the wicked delayed to 2027, promises new beta and founders packs for early buyers to tide people over",
     "eight-player splitscreen added to mario kart 8 deluxe",
     "lawn mowing simulator 2 launches september 23",
-    "laid off id software developer says crunch on doom: the dark ages' revelations dlc was \"brutal\" with up to 17-hour days"
+    "laid off id software developer says crunch on doom: the dark ages' revelations dlc was \"brutal\" with up to 17-hour days",
+    "september's first wave of xbox game pass games revealed, and it brings runescape to console for the first time",
+    "port of jumanah launches september 7 for ps5, pc",
+    "if you want the marvel's wolverine ps5 platinum trophy, get used to parrying, bub",
+    "moon studios delays no rest for the wicked to march 2027 – \"we're holding our games to a standard we won't compromise on\""
   ],
   "seen_story_keys": [
-    "f98dfab108f1cb75a13d4bc9f84237f497c59781",
-    "01904adeaf5b216772c5175aa241e38545bfdb01",
-    "d2d2cb76e728852bfba8550af9f3a834a019f107",
-    "bac9b2ae11514c2df31daad32a6de1053e2af7a8",
     "dbf6451e3a0d611371e491e00cd7b54a5edfc6c2",
     "f1d229ee0c8ff2a81dc7cf3f445fe7d0edea10a9",
     "25b402d650b8099ed7e9a19a527caa135d7079a0",
@@ -15003,6 +14999,10 @@
     "85c797a6dec67e6899fa9419136cba10de3fcfd2",
     "6747f7ce2de7c543070aa382ed435fe6afd62b1f",
     "6810deb8fd5568159c7d9d4b0cf0ea4102a5b4bf",
-    "532b79e39868f2ab07ec657bbbde13f816321c68"
+    "532b79e39868f2ab07ec657bbbde13f816321c68",
+    "de5a8a64c18f667dfd080c26d66d20df0a8d0704",
+    "53a9146afa4a7f09e76814f9b14a59e527010d13",
+    "7573e92d09d98479792d1db5caf2eb2f9661b981",
+    "9e2b12ee98d6edced18d062d89518b43734eb26c"
   ]
 }
