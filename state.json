@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/world-warcraft-wow-pride-darkspear-dash-when/",
-    "https://www.gamespot.com/articles/crimson-desert-is-doing-something-very-uncommon-for-rpgs/1100-6539097/?ftag=CAD-01-10abi2f",
-    "https://www.gamespot.com/articles/fortnite-layoffs-included-dev-with-terminal-brain-cancer/1100-6539084/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/03/eidos-montreal-lays-off-124-staff-head-of-studio-david-anfossi-departs",
     "https://www.ign.com/articles/i-dont-want-to-say-they-started-panicking-actor-behind-crimson-deserts-kliff-reveals-bridge-point-where-pearl-abyss-realized-the-story-and-characters-needed-to-change",
     "https://www.gamespot.com/articles/not-even-crimson-deserts-main-character-va-understood-the-games-story/1100-6539099/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/03/bus-bound-launches-april-30",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/games/fps/30-000-people-line-up-24-hours-early-to-play-the-final-wardogs-closed-beta-developer-responds-you-people-are-crazy/",
     "https://www.gamespot.com/articles/long-delayed-prison-architect-2-gets-exciting-update-after-two-years-of-mostly-silence/",
     "https://www.gematsu.com/2026/09/my-hero-academia-alls-justice-dlc-character-izuku-midoriya-overlay-full-style-launches-september-3",
-    "https://www.rockpapershotgun.com/rockstar-unveil-the-next-evolution-of-modded-gta-5-roleplaying-while-staying-totally-mum-on-when-pc-pretenders-might-be-able-to-migrate-to-their-next-game"
+    "https://www.rockpapershotgun.com/rockstar-unveil-the-next-evolution-of-modded-gta-5-roleplaying-while-staying-totally-mum-on-when-pc-pretenders-might-be-able-to-migrate-to-their-next-game",
+    "https://www.gematsu.com/2026/09/fangtopia-launches-october-26",
+    "https://www.purexbox.com/news/2026/09/xbox-live-returns-to-normal-following-multi-hour-server-outage",
+    "https://www.rockpapershotgun.com/you-cant-just-throw-new-people-at-that-problem-bethesda-devs-doubt-future-elder-scrolls-and-fallout-games-will-have-the-same-quality-level-after-losing-seasoned-staff-to-xbox-cuts",
+    "https://www.gematsu.com/2026/09/console-archives-the-conveni-2-launches-september-3"
   ],
   "seen_titles": [
-    "official world of warcraft pride event coming in patch 12.0.5",
-    "crimson desert is doing something very uncommon for rpgs",
-    "fortnite layoffs included dev with terminal brain cancer",
-    "eidos montreal lays off 124 staff, head of studio david anfossi departs",
     "'i don't want to say they started panicking…' — actor behind crimson desert's kliff reveals 'bridge point' where pearl abyss realized the story and characters needed to change",
     "not even crimson desert's main character va understood the game's story",
     "bus bound launches april 30",
@@ -10001,13 +9997,13 @@
     "30,000 people line up 24 hours early to play the final wardogs closed beta, developer responds: 'you people are crazy'",
     "long-delayed prison architect 2 gets exciting update after two years of mostly silence",
     "my hero academia: all’s justice dlc character izuku midoriya overlay full style launches september 3",
-    "rockstar unveil the \"next evolution\" of modded gta 5 roleplaying, while staying totally mum on when pc pretenders might be able to migrate to their next game"
+    "rockstar unveil the \"next evolution\" of modded gta 5 roleplaying, while staying totally mum on when pc pretenders might be able to migrate to their next game",
+    "fangtopia launches october 26",
+    "xbox live returns to normal following multi-hour server outage",
+    "\"you can’t just throw new people at that problem\": bethesda devs doubt future elder scrolls and fallout games will have the same \"quality level\", after losing seasoned staff to xbox cuts",
+    "console archives the conveni 2 launches september 3"
   ],
   "seen_story_keys": [
-    "596748eba68c30141be66fc1e98d22ef918f7b6c",
-    "f5c0d6d55d7c3633de76e37eaa820877fad4b44c",
-    "a1e58941112a1d1d17e2fdd25ad4c67c3c64b58c",
-    "c9572045ad727ff3741dddc6eb3127b356735f40",
     "40fa7d6d8c82dd384e3a1acef46b8cb8d8b30c29",
     "6dcf150bbca1ae95a96e96458be6a5e8f65f8cc5",
     "d1fd649b4348acc2b4b20b51e7f4dbcb495e658e",
@@ -15003,6 +14999,10 @@
     "33aa29c24159931a9210abf6b0d880051e87d2df",
     "b7a37765263c6ad13c1b7639694a666efc36514d",
     "b1f2d6cc27bcad17c2af9f888bb091dc0ff7906c",
-    "b7b38cca6064923637197f38555053ab52ec07f8"
+    "b7b38cca6064923637197f38555053ab52ec07f8",
+    "2303c3fecd0cade7bc0c3af9dbfbd9691d4c918d",
+    "9fd6bef7cf11ca01babb4876533ac3c6cea143ad",
+    "80ae7f6e1761c097e123c85b3f73c9e528c7eb41",
+    "893c3da0794d44464d35276b6daef344352f592f"
   ]
 }
