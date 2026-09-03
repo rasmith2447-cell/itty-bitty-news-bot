@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/03/mario-kart-world-has-been-updated-to-version-1-6-0-here-are-the-full-patch-notes",
-    "https://gamerant.com/jojos-bizarre-adventure-part-7-netflix-new-steel-ball-run-delay-update/",
-    "https://www.nintendolife.com/news/2026/03/theres-exciting-stuff-coming-sonics-voice-actor-teases-35th-anniversary-celebrations",
-    "https://gamerant.com/crimson-desert-update-10102-patch-notes/",
     "https://www.gamesindustry.biz/ken-kutaragi-announced-as-first-keynote-speaker-at-game-republic-new-horizons-2026",
     "https://www.pushsquare.com/news/2026/03/gachiakutas-ps5-game-looks-a-lot-more-zenless-zone-zero-than-your-average-anime-fighter",
     "https://www.gematsu.com/2026/03/yunyun-syndrome-rhythm-psychosis-launches-april-24",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/ghost-of-yotei-complete-edition-most-wanted-jin-first-look",
     "https://www.gamespot.com/articles/metro-2039-kicks-off-a-busy-february-full-of-video-game-launches/",
     "https://www.polygon.com/lego-playstation-set-price-photos-release-date-october-2026/",
-    "https://www.pushsquare.com/news/2026/09/metro-2039-locks-down-4th-february-2027-release-date-in-first-ps5-clips"
+    "https://www.pushsquare.com/news/2026/09/metro-2039-locks-down-4th-february-2027-release-date-in-first-ps5-clips",
+    "https://gamerant.com/keeper-ps5-game-double-fine/",
+    "https://gamerant.com/final-fantasy-resonance-sephiroth/",
+    "https://gamerant.com/epic-games-store-september-2026-freebies-astral-ascent-luftrausers-promo/",
+    "https://www.pushsquare.com/news/2026/09/you-may-have-missed-the-reveal-of-conq-crown-of-no-quarter-during-state-of-play-japan"
   ],
   "seen_titles": [
-    "mario kart world has been updated to version 1.6.0, here are the full patch notes",
-    "netflix delivers new jojo steel ball run delay update",
-    "\"there's exciting stuff coming\" - sonic's voice actor teases 35th anniversary celebrations",
-    "crimson desert releases emergency patch following update 1.01.00",
     "ken kutaragi announced as first keynote speaker at game republic new horizons 2026",
     "gachiakuta's ps5 game looks a lot more zenless zone zero than your average anime fighter",
     "yunyun syndrome!? rhythm psychosis launches april 24",
@@ -10001,13 +9997,13 @@
     "ghost of yotei: complete edition's most wanted roguelike mode brings back tsushima's jin sakai",
     "metro 2039 kicks off a busy february full of video game launches",
     "sony and lego officially reveal new playstation set",
-    "metro 2039 locks down 4th february 2027 release date in first ps5 clips"
+    "metro 2039 locks down 4th february 2027 release date in first ps5 clips",
+    "former xbox console exclusive shadow dropped on ps5",
+    "final fantasy 7's sephiroth is officially returning on october 22",
+    "epic games store officially reveals its free game for september 10",
+    "you may have missed the reveal of conq: crown of no quarter during state of play japan"
   ],
   "seen_story_keys": [
-    "b4a8842262ad44c4849ab53891a2bba4830d7694",
-    "56330d8cbacc485d004a71e52935efc461ffa2a3",
-    "69ad2319bb90cfba6f2e07d1df00f6bc35643ed3",
-    "719c4639c63aaa60e40c4fe28497a97b836f0a91",
     "87a534e86c67e449ac66ec9a1dc2840ba083ddfd",
     "573ad7a9a3303bd74e921a57f1cd5d68f7644944",
     "8a9b79260e8eaa37ed80d8c868c20db5902b4af3",
@@ -15003,6 +14999,10 @@
     "e17d46fe5a34d80516b74767726695cfafe8783c",
     "fdbd7c52b82e11124e5f185afb49e37ec3c91811",
     "483accdbf99fda7428f64c2e845ffe4d5ab0a060",
-    "13689b689a356972307b8a817a043a36131eefaf"
+    "13689b689a356972307b8a817a043a36131eefaf",
+    "2b7a7f3dee212175ff64014fc065fd4f0d9c20e5",
+    "fd7388217a801b9faf338a550c4b7b805c5167c9",
+    "c1ff762b34795d3a67a20cf3d6d2cc5eb612fee2",
+    "02acf0f3e6d7c41608e2b250a09cbabf8b03ebef"
   ]
 }
