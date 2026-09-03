@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamesindustry.biz/ken-kutaragi-announced-as-first-keynote-speaker-at-game-republic-new-horizons-2026",
-    "https://www.pushsquare.com/news/2026/03/gachiakutas-ps5-game-looks-a-lot-more-zenless-zone-zero-than-your-average-anime-fighter",
-    "https://www.gematsu.com/2026/03/yunyun-syndrome-rhythm-psychosis-launches-april-24",
-    "https://www.gematsu.com/2026/03/vultures-scavengers-of-death-launches-april-28",
     "https://www.gamesindustry.biz/eidos-montreal-announces-124-job-cuts-studio-head-david-anfossi-departs-after-19-years-at-developer",
     "https://gamerant.com/arc-raiders-new-flashpoint-update-patch-notes/",
     "https://www.eurogamer.net/deus-ex-developer-eidos-montreal-announces-mass-job-cuts-alongside-departure-of-studio-head-david-anfossi",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/keeper-ps5-game-double-fine/",
     "https://gamerant.com/final-fantasy-resonance-sephiroth/",
     "https://gamerant.com/epic-games-store-september-2026-freebies-astral-ascent-luftrausers-promo/",
-    "https://www.pushsquare.com/news/2026/09/you-may-have-missed-the-reveal-of-conq-crown-of-no-quarter-during-state-of-play-japan"
+    "https://www.pushsquare.com/news/2026/09/you-may-have-missed-the-reveal-of-conq-crown-of-no-quarter-during-state-of-play-japan",
+    "https://www.polygon.com/final-fantasy-7-revelation-physical-release-collectors-edition-details/",
+    "https://www.ign.com/articles/until-dawn-2-was-co-developed-by-dispatch-developer-adhoc-studio",
+    "https://www.pcgamer.com/games/action/onimusha-way-of-the-sword-launch-time-release-date/",
+    "https://www.nintendolife.com/news/2026/09/digimon-story-time-stranger-is-getting-a-major-expansion-in-2027"
   ],
   "seen_titles": [
-    "ken kutaragi announced as first keynote speaker at game republic new horizons 2026",
-    "gachiakuta's ps5 game looks a lot more zenless zone zero than your average anime fighter",
-    "yunyun syndrome!? rhythm psychosis launches april 24",
-    "vultures: scavengers of death launches april 28",
     "eidos-montréal announces 124 job cuts; studio head david anfossi departs after 19 years at developer",
     "arc raiders reveals patch notes for march 31 flashpoint update",
     "deus ex developer eidos montréal announces mass job cuts, alongside departure of studio head david anfossi",
@@ -10001,13 +9997,13 @@
     "former xbox console exclusive shadow dropped on ps5",
     "final fantasy 7's sephiroth is officially returning on october 22",
     "epic games store officially reveals its free game for september 10",
-    "you may have missed the reveal of conq: crown of no quarter during state of play japan"
+    "you may have missed the reveal of conq: crown of no quarter during state of play japan",
+    "final fantasy 7 revelation's official physical release comes with a huge asterisk",
+    "until dawn 2 was co-developed by dispatch developer adhoc studio",
+    "onimusha: way of the sword launch times and release date",
+    "digimon story: time stranger is getting a major expansion in 2027"
   ],
   "seen_story_keys": [
-    "87a534e86c67e449ac66ec9a1dc2840ba083ddfd",
-    "573ad7a9a3303bd74e921a57f1cd5d68f7644944",
-    "8a9b79260e8eaa37ed80d8c868c20db5902b4af3",
-    "4f7c81c0b12a22a7fdef8911681ac61fda16fdef",
     "b6963aed179eaa191e00c51939b880a2a1b8d885",
     "f24f77927b642e10fce93a5f8ff64919e866ca61",
     "0b3da8aa293743d36d65bb1cd0c41ec06ab463a4",
@@ -15003,6 +14999,10 @@
     "2b7a7f3dee212175ff64014fc065fd4f0d9c20e5",
     "fd7388217a801b9faf338a550c4b7b805c5167c9",
     "c1ff762b34795d3a67a20cf3d6d2cc5eb612fee2",
-    "02acf0f3e6d7c41608e2b250a09cbabf8b03ebef"
+    "02acf0f3e6d7c41608e2b250a09cbabf8b03ebef",
+    "45d238bf71b0dbfa6506e9629d2cb29a9ea10258",
+    "b1720ab96ee45346e00680c0cb0e5a6298fa6fe9",
+    "1de73bbd2f47525093ff375319dfe39b8faf84bf",
+    "00d85e2239878f199105e5fe35f40d7f9c46ffc8"
   ]
 }
