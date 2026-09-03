@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamesindustry.biz/eidos-montreal-announces-124-job-cuts-studio-head-david-anfossi-departs-after-19-years-at-developer",
-    "https://gamerant.com/arc-raiders-new-flashpoint-update-patch-notes/",
-    "https://www.eurogamer.net/deus-ex-developer-eidos-montreal-announces-mass-job-cuts-alongside-departure-of-studio-head-david-anfossi",
-    "https://www.ign.com/articles/eidos-montreal-announces-layoffs-alongside-the-departure-of-head-of-stuido-david-anfossi",
     "https://www.rockpapershotgun.com/deus-ex-mankind-divided-developers-eidos-montreal-lay-off-124-staff-as-well-as-parting-ways-with-long-time-studio-head",
     "https://www.purexbox.com/news/2026/03/fable-grounded-2-co-developer-loses-studio-head-following-mass-layoffs",
     "https://www.pushsquare.com/news/2026/03/capcoms-promising-new-ps5-ip-pragmata-ready-to-release",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/final-fantasy-7-revelation-physical-release-collectors-edition-details/",
     "https://www.ign.com/articles/until-dawn-2-was-co-developed-by-dispatch-developer-adhoc-studio",
     "https://www.pcgamer.com/games/action/onimusha-way-of-the-sword-launch-time-release-date/",
-    "https://www.nintendolife.com/news/2026/09/digimon-story-time-stranger-is-getting-a-major-expansion-in-2027"
+    "https://www.nintendolife.com/news/2026/09/digimon-story-time-stranger-is-getting-a-major-expansion-in-2027",
+    "https://www.pcgamer.com/games/its-really-starting-to-look-like-a-new-starcraft-game-will-be-revealed-at-blizzcon/",
+    "https://www.pushsquare.com/news/2026/09/heres-a-proper-look-at-ghost-of-yotei-dlc-echoes-of-sekigahara",
+    "https://www.ign.com/articles/blizzard-might-be-teasing-a-new-starcraft-game",
+    "https://www.ign.com/articles/supergirl-hbo-max-streaming-release-date"
   ],
   "seen_titles": [
-    "eidos-montréal announces 124 job cuts; studio head david anfossi departs after 19 years at developer",
-    "arc raiders reveals patch notes for march 31 flashpoint update",
-    "deus ex developer eidos montréal announces mass job cuts, alongside departure of studio head david anfossi",
-    "deus ex dev eidos-montréal announces mass layoffs alongside departure of head of stuido david anfossi",
     "deus ex: mankind divided developers eidos montreal lay off 124 staff, as well as \"parting ways\" with long-time studio head",
     "fable, grounded 2 co-developer loses studio head following mass layoffs",
     "capcom's promising new ps5 ip pragmata ready to release",
@@ -10001,13 +9997,13 @@
     "final fantasy 7 revelation's official physical release comes with a huge asterisk",
     "until dawn 2 was co-developed by dispatch developer adhoc studio",
     "onimusha: way of the sword launch times and release date",
-    "digimon story: time stranger is getting a major expansion in 2027"
+    "digimon story: time stranger is getting a major expansion in 2027",
+    "it's really starting to look like a new starcraft game will be revealed at blizzcon",
+    "here's a proper look at ghost of yotei dlc echoes of sekigahara",
+    "blizzard might be teasing a new starcraft game",
+    "supergirl is coming to hbo max next week"
   ],
   "seen_story_keys": [
-    "b6963aed179eaa191e00c51939b880a2a1b8d885",
-    "f24f77927b642e10fce93a5f8ff64919e866ca61",
-    "0b3da8aa293743d36d65bb1cd0c41ec06ab463a4",
-    "3fc6d4a4d14c20397afc7bd136f30cda30fb2407",
     "5ad0fb342a3789375f7cc960dc1590481d260d26",
     "5f4ddbd885a23a3a99d6d1bf15c30e81b593987c",
     "7948e4eaa8a412aabd4737d7c8bf53a92a53df18",
@@ -15003,6 +14999,10 @@
     "45d238bf71b0dbfa6506e9629d2cb29a9ea10258",
     "b1720ab96ee45346e00680c0cb0e5a6298fa6fe9",
     "1de73bbd2f47525093ff375319dfe39b8faf84bf",
-    "00d85e2239878f199105e5fe35f40d7f9c46ffc8"
+    "00d85e2239878f199105e5fe35f40d7f9c46ffc8",
+    "45ea0e17b7c90fa79932b30c0f17e69ded2890e7",
+    "fd092570109045371ba871ef3c4eedfc141b2734",
+    "87b6324326743fe51c28cdfdf986888de8771cf6",
+    "3ece0bed03ad6c030f9b732af8b4076b449fd5c2"
   ]
 }
