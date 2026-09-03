@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/i-dont-want-to-say-they-started-panicking-actor-behind-crimson-deserts-kliff-reveals-bridge-point-where-pearl-abyss-realized-the-story-and-characters-needed-to-change",
-    "https://www.gamespot.com/articles/not-even-crimson-deserts-main-character-va-understood-the-games-story/1100-6539099/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/03/bus-bound-launches-april-30",
-    "https://gamerant.com/halloween-multiplayer-game-details/",
     "https://www.gamespot.com/articles/deus-ex-dev-eidos-montreal-conducts-mass-layoffs-affecting-124-people/1100-6539106/?ftag=CAD-01-10abi2f",
     "https://www.pushsquare.com/news/2026/03/crimson-desert-improves-image-quality-on-base-ps5-with-simple-upscaling",
     "https://www.gematsu.com/2026/03/muv-luv-unlimited-the-day-after-standalone-versions-for-switch-launch-april-16",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/fangtopia-launches-october-26",
     "https://www.purexbox.com/news/2026/09/xbox-live-returns-to-normal-following-multi-hour-server-outage",
     "https://www.rockpapershotgun.com/you-cant-just-throw-new-people-at-that-problem-bethesda-devs-doubt-future-elder-scrolls-and-fallout-games-will-have-the-same-quality-level-after-losing-seasoned-staff-to-xbox-cuts",
-    "https://www.gematsu.com/2026/09/console-archives-the-conveni-2-launches-september-3"
+    "https://www.gematsu.com/2026/09/console-archives-the-conveni-2-launches-september-3",
+    "https://www.nintendolife.com/news/2026/09/psa-final-fantasy-xiv-online-free-subscription-period-for-switch-2s-full-version-ends-next-week",
+    "https://www.gematsu.com/2026/09/unannounced-inti-creates-game-playable-at-tgs-2026",
+    "https://www.gematsu.com/2026/09/keeper-ps5-trophies-surface",
+    "https://www.nintendolife.com/news/2026/09/nintendo-switch-app-update-adds-some-handy-new-features"
   ],
   "seen_titles": [
-    "'i don't want to say they started panicking…' — actor behind crimson desert's kliff reveals 'bridge point' where pearl abyss realized the story and characters needed to change",
-    "not even crimson desert's main character va understood the game's story",
-    "bus bound launches april 30",
-    "upcoming halloween multiplayer game reveals new details",
     "deus ex dev eidos-montreal conducts mass layoffs affecting 124 people",
     "crimson desert improves image quality on base ps5 with simple upscaling",
     "muv-luv unlimited: the day after standalone versions for switch launch april 16",
@@ -10001,13 +9997,13 @@
     "fangtopia launches october 26",
     "xbox live returns to normal following multi-hour server outage",
     "\"you can’t just throw new people at that problem\": bethesda devs doubt future elder scrolls and fallout games will have the same \"quality level\", after losing seasoned staff to xbox cuts",
-    "console archives the conveni 2 launches september 3"
+    "console archives the conveni 2 launches september 3",
+    "psa: final fantasy xiv online free subscription period for switch 2's \"full version\" ends next week",
+    "unannounced inti creates game playable at tgs 2026",
+    "keeper ps5 trophies surface",
+    "nintendo switch app update adds some handy new features"
   ],
   "seen_story_keys": [
-    "40fa7d6d8c82dd384e3a1acef46b8cb8d8b30c29",
-    "6dcf150bbca1ae95a96e96458be6a5e8f65f8cc5",
-    "d1fd649b4348acc2b4b20b51e7f4dbcb495e658e",
-    "53ac9e6abd0e8a8b8635f4e0438847a37aa3f442",
     "1bbf09fc9bbd6a052230c68cc06b4004b0a5da4a",
     "f31a60b575c2bd0217d892ad772b7a587c9dbe01",
     "8203ee9586d6b9d93953855b0c8e9e02a42a6ca9",
@@ -15003,6 +14999,10 @@
     "2303c3fecd0cade7bc0c3af9dbfbd9691d4c918d",
     "9fd6bef7cf11ca01babb4876533ac3c6cea143ad",
     "80ae7f6e1761c097e123c85b3f73c9e528c7eb41",
-    "893c3da0794d44464d35276b6daef344352f592f"
+    "893c3da0794d44464d35276b6daef344352f592f",
+    "a138f696e54cc49960ec72a2300117024d420fc7",
+    "769cc141dcf8ea9c818fed9c8e5ab35af834a59e",
+    "9a50f28450e5948b9dc6435cda2d07db07404253",
+    "67cf929c1f58f542096eeca5a9d5be215db81e86"
   ]
 }
