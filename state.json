@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/deus-ex-dev-eidos-montreal-conducts-mass-layoffs-affecting-124-people/1100-6539106/?ftag=CAD-01-10abi2f",
-    "https://www.pushsquare.com/news/2026/03/crimson-desert-improves-image-quality-on-base-ps5-with-simple-upscaling",
-    "https://www.gematsu.com/2026/03/muv-luv-unlimited-the-day-after-standalone-versions-for-switch-launch-april-16",
-    "https://gamerant.com/lego-batman-legacy-dark-knight-free-comicbook-day/",
     "https://www.pushsquare.com/news/2026/03/i-really-hope-they-do-a-same-day-launch-ps5-fans-itching-for-gears-of-war-e-day-confirmation",
     "https://gamerant.com/fallout-76-update-76th-patch-release-date/",
     "https://www.pushsquare.com/news/2026/03/playstation-studios-mobile-push-seems-dead-as-layoff-reports-continue",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/09/psa-final-fantasy-xiv-online-free-subscription-period-for-switch-2s-full-version-ends-next-week",
     "https://www.gematsu.com/2026/09/unannounced-inti-creates-game-playable-at-tgs-2026",
     "https://www.gematsu.com/2026/09/keeper-ps5-trophies-surface",
-    "https://www.nintendolife.com/news/2026/09/nintendo-switch-app-update-adds-some-handy-new-features"
+    "https://www.nintendolife.com/news/2026/09/nintendo-switch-app-update-adds-some-handy-new-features",
+    "https://www.pushsquare.com/news/2026/09/double-fine-bringing-xbox-pc-game-keeper-to-ps5",
+    "https://www.eurogamer.net/frontier-disney-new-video-game-planet-coaster-jurassic-world",
+    "https://www.eurogamer.net/sony-microsoft-no-refunds-us-tariff-lawsuits",
+    "https://www.nintendolife.com/news/2026/09/random-sonic-is-an-android-in-fortnite-because-the-real-sonic-will-never-hold-a-gun"
   ],
   "seen_titles": [
-    "deus ex dev eidos-montreal conducts mass layoffs affecting 124 people",
-    "crimson desert improves image quality on base ps5 with simple upscaling",
-    "muv-luv unlimited: the day after standalone versions for switch launch april 16",
-    "lego batman: legacy of the dark knight celebrating an earlier may 2 media release",
     "'i really hope they do a same day launch': ps5 fans itching for gears of war: e-day confirmation",
     "when fallout 76 players can expect the 76th patch",
     "playstation studios' mobile push seems dead as layoff reports continue",
@@ -10001,13 +9997,13 @@
     "psa: final fantasy xiv online free subscription period for switch 2's \"full version\" ends next week",
     "unannounced inti creates game playable at tgs 2026",
     "keeper ps5 trophies surface",
-    "nintendo switch app update adds some handy new features"
+    "nintendo switch app update adds some handy new features",
+    "double fine bringing xbox, pc game keeper to ps5",
+    "planet coaster and jurassic world developer frontier partners with disney for a new video game",
+    "following nintendo's example, sony and microsoft argue they have no obligation to pass tariff refunds onto customers",
+    "random: sonic is an android in fortnite because the real sonic \"will never hold a gun\""
   ],
   "seen_story_keys": [
-    "1bbf09fc9bbd6a052230c68cc06b4004b0a5da4a",
-    "f31a60b575c2bd0217d892ad772b7a587c9dbe01",
-    "8203ee9586d6b9d93953855b0c8e9e02a42a6ca9",
-    "47fa99a86510f30cdca06acae7a6e26a0fd055fe",
     "a0a481566d6dbbdf1e79b67075b6f9d95a8967a5",
     "2d08f73151fce0cc8b3ef51ed44ab6eace0d0d6f",
     "a337a72d8abda3cc764db73b6abd88db7a109bb9",
@@ -15003,6 +14999,10 @@
     "a138f696e54cc49960ec72a2300117024d420fc7",
     "769cc141dcf8ea9c818fed9c8e5ab35af834a59e",
     "9a50f28450e5948b9dc6435cda2d07db07404253",
-    "67cf929c1f58f542096eeca5a9d5be215db81e86"
+    "67cf929c1f58f542096eeca5a9d5be215db81e86",
+    "89ac419ff9092fd1cdfe96e00b81e9d5892bfb2b",
+    "357c6d3ed3a77127e8dae2ecf4c2254798eed9e9",
+    "ee167926e798e83024423f3767e18fe47d6e923e",
+    "53fb626d44fee7ebe875320ee5ffc074f825e010"
   ]
 }
