@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/03/re-releases-go-too-far-with-new-ps5-version-of-darksiders-1",
-    "https://gamerant.com/pragmata-gone-gold/",
-    "https://gamerant.com/pokemon-champions-extremely-effective/",
-    "https://www.pcgamer.com/games/fps/bungie-patches-marathons-slide-cancel-movement-tech-says-no-movement-freaks-allowed-unbounded-movement-while-expressive-and-clip-worthy-is-ultimately-unhealthy-for-the-pace-of-play/",
     "https://gamerant.com/ubisoft-sued-why-the-crew/",
     "https://www.polygon.com/super-mario-galaxy-movie-donald-glover-yoshi/",
     "https://www.pushsquare.com/news/2026/03/well-hear-from-playstation-royalty-ken-kutaragi-at-a-uk-event-later-this-year",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/09/after-a-record-breaking-state-of-play-in-june-the-latest-edition-did-disappointing-numbers",
     "https://www.polygon.com/xbox-exclusive-scalebound-still-possible-hopes-hideki-kamiya/",
     "https://gamerant.com/gundam-rogue-orbit-game-trailer/",
-    "https://www.gematsu.com/2026/09/double-fine-productions-announces-chaotic-bus-driving-game-thank-you-bus-driver-for-pc"
+    "https://www.gematsu.com/2026/09/double-fine-productions-announces-chaotic-bus-driving-game-thank-you-bus-driver-for-pc",
+    "https://www.pcgamer.com/games/the-white-house-launches-online-arcade-with-its-own-takes-on-tetris-and-other-popular-games-and-its-as-rotten-as-youd-expect/",
+    "https://www.ign.com/articles/tetris-responds-after-trump-administration-launches-build-the-wall-clone-game",
+    "https://gamerant.com/pokemon-professor-nintendo-lawsuit-dismissed/",
+    "https://www.ign.com/articles/rockstar-censors-gta-6-extended-look-trailer-for-china"
   ],
   "seen_titles": [
-    "re-releases go too far with new ps5 version of darksiders 1",
-    "pragmata has gone gold",
-    "pokemon champions makes an interesting change to super effective attacks",
-    "bungie patches marathon's slide cancel movement tech, says no movement freaks allowed: 'unbounded movement, while expressive and clip-worthy, is ultimately unhealthy for the pace of play'",
     "ubisoft is being sued",
     "donald glover reveals how he landed the yoshi role in the super mario galaxy movie",
     "we'll hear from playstation royalty ken kutaragi at a uk event later this year",
@@ -10001,13 +9997,13 @@
     "after a record breaking state of play in june, the latest edition did disappointing numbers",
     "resident evil 2 director thinks there’s a chance his canceled xbox-exclusive will still happen",
     "new official gundam release confirmed for 2027",
-    "double fine productions announces chaotic bus driving game thank you bus driver for pc"
+    "double fine productions announces chaotic bus driving game thank you bus driver for pc",
+    "the white house launches online 'arcade' with its own takes on tetris and other popular games, and it's as rotten as you'd expect",
+    "tetris responds after trump administration launches 'build the wall' clone game",
+    "judge dismisses \"absurd\" pokemon nintendo lawsuit",
+    "rockstar censors gta 6 extended look trailer for china"
   ],
   "seen_story_keys": [
-    "2c6157d18c6b2dc953084306d9f13d6b3ab37122",
-    "c8ddc103ce8905e93d88ef88552ebfefd508d90a",
-    "66518ce48d12cef4626ae871074357759bca39e9",
-    "5c212866057e660bd453d440f700c92db978daa1",
     "8d40cf22e425f70f8c2c74d83ae6c09600213431",
     "92845763f28b16b2f50811d5757a2439ffe6d930",
     "e86d13d64330869d6d9fed24d73f1c28c44a058f",
@@ -15003,6 +14999,10 @@
     "567ca86b50caf4126f4c1422cc1bf6352503f813",
     "fd152551a717ffa03a9b1fe99d8bbf0ecf6349cc",
     "972359379ebf7bf73ccf84cf023f93be3cc9604a",
-    "b988d33e762e9c087d1dfae110207a837f722472"
+    "b988d33e762e9c087d1dfae110207a837f722472",
+    "c1993a90b0c63692143b8f5ed61cf5ff6c95f294",
+    "478d3a241b42b89bf53341114c4342d710bfd7a9",
+    "a74dd8fad659282113272bd22e2da4fa4b0929af",
+    "b37ce9abe21398b9c0d6924296d247fe8a4b12a0"
   ]
 }
