@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/ubisoft-sued-why-the-crew/",
-    "https://www.polygon.com/super-mario-galaxy-movie-donald-glover-yoshi/",
-    "https://www.pushsquare.com/news/2026/03/well-hear-from-playstation-royalty-ken-kutaragi-at-a-uk-event-later-this-year",
-    "https://www.ign.com/articles/new-mindseye-mission-will-reveal-evidence-the-game-was-sabotaged-claims-ceo",
     "https://www.ign.com/articles/games-workshop-reveals-first-ever-official-artwork-of-post-ascension-perturabo-in-the-modern-warhammer-40000-universe-and-hes-absolutely-massive",
     "https://www.pushsquare.com/news/2026/03/a-significant-visual-boost-assassins-creed-shadows-will-soon-support-pssr-2-on-ps5-pro",
     "https://gamerant.com/unbound-shift-up-announcement-shinji-mikami/",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/games/the-white-house-launches-online-arcade-with-its-own-takes-on-tetris-and-other-popular-games-and-its-as-rotten-as-youd-expect/",
     "https://www.ign.com/articles/tetris-responds-after-trump-administration-launches-build-the-wall-clone-game",
     "https://gamerant.com/pokemon-professor-nintendo-lawsuit-dismissed/",
-    "https://www.ign.com/articles/rockstar-censors-gta-6-extended-look-trailer-for-china"
+    "https://www.ign.com/articles/rockstar-censors-gta-6-extended-look-trailer-for-china",
+    "https://www.eurogamer.net/after-ai-slop-accusations-humankind-2-studio-says-its-new-trailer-was-definitely-made-by-humankind-and-at-least-five-chickens",
+    "https://www.polygon.com/silo-season-4-release-date-trailer/",
+    "https://www.polygon.com/game-of-thrones-the-mad-king-play-announces-2027-london-production/",
+    "https://www.gematsu.com/2026/09/samson-a-tyndalston-story-for-ps5-xbox-series-launches-september-21"
   ],
   "seen_titles": [
-    "ubisoft is being sued",
-    "donald glover reveals how he landed the yoshi role in the super mario galaxy movie",
-    "we'll hear from playstation royalty ken kutaragi at a uk event later this year",
-    "new mindseye mission will reveal 'evidence' the game was 'sabotaged', claims ceo",
     "games workshop reveals first ever official artwork of 'post-ascension' perturabo in the 'modern' warhammer 40,000 universe — and he's absolutely massive",
     "'a significant visual boost': assassin's creed shadows will soon support pssr 2 on ps5 pro",
     "resident evil creator teasing announcement with stellar blade studio shift up",
@@ -10001,13 +9997,13 @@
     "the white house launches online 'arcade' with its own takes on tetris and other popular games, and it's as rotten as you'd expect",
     "tetris responds after trump administration launches 'build the wall' clone game",
     "judge dismisses \"absurd\" pokemon nintendo lawsuit",
-    "rockstar censors gta 6 extended look trailer for china"
+    "rockstar censors gta 6 extended look trailer for china",
+    "after ai slop accusations, humankind 2 studio says its new trailer was definitely \"made by humankind\" and at least five chickens",
+    "silo season 4 gets first trailer and surprise release date announcement",
+    "game of thrones: the mad king confirms new 2027 release",
+    "samson: a tyndalston story for ps5, xbox series launches september 21"
   ],
   "seen_story_keys": [
-    "8d40cf22e425f70f8c2c74d83ae6c09600213431",
-    "92845763f28b16b2f50811d5757a2439ffe6d930",
-    "e86d13d64330869d6d9fed24d73f1c28c44a058f",
-    "f303dcb302bdcf4003ad2f629a633dd5e36843f6",
     "00030b2a8a37aef54c3dbf50c3d7be671f3f00a9",
     "b7d1b49099d1a5b207d923a6ac23018d019d80c5",
     "c3d03e96c4b6520dfcc7472de3d2594a493a179b",
@@ -15003,6 +14999,10 @@
     "c1993a90b0c63692143b8f5ed61cf5ff6c95f294",
     "478d3a241b42b89bf53341114c4342d710bfd7a9",
     "a74dd8fad659282113272bd22e2da4fa4b0929af",
-    "b37ce9abe21398b9c0d6924296d247fe8a4b12a0"
+    "b37ce9abe21398b9c0d6924296d247fe8a4b12a0",
+    "b351c5188b005330ce777c95f9fb8382b607c45c",
+    "5abc4c21d572fc8d4a0ad9ee55e39f836c73febe",
+    "6930824805d2dbcbb0921376917608b482ce7295",
+    "c180c7af2a0e42cb021d765baa47dd64fef868bc"
   ]
 }
