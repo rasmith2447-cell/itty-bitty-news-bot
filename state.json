@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.rockpapershotgun.com/deus-ex-mankind-divided-developers-eidos-montreal-lay-off-124-staff-as-well-as-parting-ways-with-long-time-studio-head",
-    "https://www.purexbox.com/news/2026/03/fable-grounded-2-co-developer-loses-studio-head-following-mass-layoffs",
-    "https://www.pushsquare.com/news/2026/03/capcoms-promising-new-ps5-ip-pragmata-ready-to-release",
-    "https://www.pushsquare.com/news/2026/03/as-sonics-35th-anniversary-approaches-voice-actor-teases-exciting-stuff-is-coming",
     "https://www.gamespot.com/videos/zero-parades-release-date-trailer/2300-6466797/",
     "https://www.gamespot.com/articles/disco-elysium-studios-zero-parades-for-dead-spies-launches-this-may/1100-6539110/?ftag=CAD-01-10abi2f",
     "https://www.gamesindustry.biz/vr-developer-polyarc-games-facing-layoffs-unspecified-number-of-employees-affected",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/games/its-really-starting-to-look-like-a-new-starcraft-game-will-be-revealed-at-blizzcon/",
     "https://www.pushsquare.com/news/2026/09/heres-a-proper-look-at-ghost-of-yotei-dlc-echoes-of-sekigahara",
     "https://www.ign.com/articles/blizzard-might-be-teasing-a-new-starcraft-game",
-    "https://www.ign.com/articles/supergirl-hbo-max-streaming-release-date"
+    "https://www.ign.com/articles/supergirl-hbo-max-streaming-release-date",
+    "https://www.ign.com/articles/turkish-gta-6-fans-want-language-support-so-badly-they-professionally-dubbed-the-gameplay-reveal",
+    "https://www.gematsu.com/2026/09/open-world-bullet-heaven-rpg-mana-alchemy-announced-for-pc",
+    "https://www.gematsu.com/2026/09/konami-announces-dark-fantasy-roguelike-deckbuilding-card-game-project-zircon-for-pc",
+    "https://www.pushsquare.com/news/2026/09/seoul-based-studio-announces-a-new-co-op-anomaly-hunting-game-for-ps5"
   ],
   "seen_titles": [
-    "deus ex: mankind divided developers eidos montreal lay off 124 staff, as well as \"parting ways\" with long-time studio head",
-    "fable, grounded 2 co-developer loses studio head following mass layoffs",
-    "capcom's promising new ps5 ip pragmata ready to release",
-    "as sonic's 35th anniversary approaches, voice actor teases 'exciting stuff' is coming",
     "zero parades: for dead spies release date trailer",
     "disco elysium studio's zero parades: for dead spies launches this may",
     "vr developer polyarc games facing layoffs, unspecified number of employees affected",
@@ -10001,13 +9997,13 @@
     "it's really starting to look like a new starcraft game will be revealed at blizzcon",
     "here's a proper look at ghost of yotei dlc echoes of sekigahara",
     "blizzard might be teasing a new starcraft game",
-    "supergirl is coming to hbo max next week"
+    "supergirl is coming to hbo max next week",
+    "turkish gta 6 fans want language support so badly, they professionally dubbed the gameplay reveal",
+    "‘open-world bullet heaven rpg’ mana alchemy announced for pc",
+    "konami announces dark fantasy roguelike deckbuilding card game project zircon for pc",
+    "seoul-based studio announces a new co-op anomaly hunting game for ps5"
   ],
   "seen_story_keys": [
-    "5ad0fb342a3789375f7cc960dc1590481d260d26",
-    "5f4ddbd885a23a3a99d6d1bf15c30e81b593987c",
-    "7948e4eaa8a412aabd4737d7c8bf53a92a53df18",
-    "0c051ccc7e47b3a4805ab2610f0342d50b863a93",
     "16099a0eebc1b1b2cc4cad2d61b6c4f687fa61f0",
     "768cdba574c621a08c1fa2729276182ba3fae994",
     "c1bcf7359994a83f426ab9413142b0f8f1377547",
@@ -15003,6 +14999,10 @@
     "45ea0e17b7c90fa79932b30c0f17e69ded2890e7",
     "fd092570109045371ba871ef3c4eedfc141b2734",
     "87b6324326743fe51c28cdfdf986888de8771cf6",
-    "3ece0bed03ad6c030f9b732af8b4076b449fd5c2"
+    "3ece0bed03ad6c030f9b732af8b4076b449fd5c2",
+    "efc67c4f2e92a5d9ae9d65a01f9e940c71c3e93e",
+    "04b87a1158aac49f260c9f531f5dd591c276e8aa",
+    "2780e06f3fb0c485dffdda7d6a53c48d5cb4a3fd",
+    "1d28eda9ee433898e589cf792f47cd849a7cff9b"
   ]
 }
