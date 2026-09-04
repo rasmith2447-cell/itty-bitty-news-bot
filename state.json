@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/videos/zero-parades-release-date-trailer/2300-6466797/",
-    "https://www.gamespot.com/articles/disco-elysium-studios-zero-parades-for-dead-spies-launches-this-may/1100-6539110/?ftag=CAD-01-10abi2f",
-    "https://www.gamesindustry.biz/vr-developer-polyarc-games-facing-layoffs-unspecified-number-of-employees-affected",
-    "https://www.gematsu.com/2026/03/r-type-tactics-i-ii-cosmos-launches-june-18-in-the-west",
     "https://www.gematsu.com/2026/03/storybook-based-narrative-adventure-game-the-day-i-became-a-bird-launches-april-16-for-ps5-switch-and-pc",
     "https://www.videogameschronicle.com/news/eidos-montreal-announces-mass-layoffs-for-the-third-year-in-a-row-as-studio-head-leaves/",
     "https://www.eurogamer.net/epic-games-ceo-tim-sweeney-responds-after-fortnite-layoffs-include-worker-with-brain-cancer",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/turkish-gta-6-fans-want-language-support-so-badly-they-professionally-dubbed-the-gameplay-reveal",
     "https://www.gematsu.com/2026/09/open-world-bullet-heaven-rpg-mana-alchemy-announced-for-pc",
     "https://www.gematsu.com/2026/09/konami-announces-dark-fantasy-roguelike-deckbuilding-card-game-project-zircon-for-pc",
-    "https://www.pushsquare.com/news/2026/09/seoul-based-studio-announces-a-new-co-op-anomaly-hunting-game-for-ps5"
+    "https://www.pushsquare.com/news/2026/09/seoul-based-studio-announces-a-new-co-op-anomaly-hunting-game-for-ps5",
+    "https://www.gematsu.com/2026/09/square-enix-announces-tgs-2026-lineup",
+    "https://www.ign.com/articles/original-gran-turismo-circuit-returns-to-series-after-13-year-absence",
+    "https://www.eurogamer.net/lego-playstation-sony-state-of-play",
+    "https://www.pushsquare.com/news/2026/09/after-nearly-a-decade-of-delays-anime-rpg-fateextra-record-finally-releases-for-ps5-in-january-2027"
   ],
   "seen_titles": [
-    "zero parades: for dead spies release date trailer",
-    "disco elysium studio's zero parades: for dead spies launches this may",
-    "vr developer polyarc games facing layoffs, unspecified number of employees affected",
-    "r-type tactics i • ii cosmos launches june 18 in the west",
     "storybook-based narrative adventure game the day i became a bird launches april 16 for ps5, switch, and pc",
     "eidos-montréal announces mass layoffs for the third year in a row, as studio head leaves",
     "epic games ceo tim sweeney apologises and seemingly rectifies life insurance situation of laid off worker with terminal brain cancer",
@@ -10001,13 +9997,13 @@
     "turkish gta 6 fans want language support so badly, they professionally dubbed the gameplay reveal",
     "‘open-world bullet heaven rpg’ mana alchemy announced for pc",
     "konami announces dark fantasy roguelike deckbuilding card game project zircon for pc",
-    "seoul-based studio announces a new co-op anomaly hunting game for ps5"
+    "seoul-based studio announces a new co-op anomaly hunting game for ps5",
+    "square enix announces tgs 2026 lineup",
+    "original gran turismo circuit returns to series after 13-year absence",
+    "a lego replica of the original playstation will be available next month",
+    "after nearly a decade of delays, anime rpg fate/extra record finally releases for ps5 in january 2027"
   ],
   "seen_story_keys": [
-    "16099a0eebc1b1b2cc4cad2d61b6c4f687fa61f0",
-    "768cdba574c621a08c1fa2729276182ba3fae994",
-    "c1bcf7359994a83f426ab9413142b0f8f1377547",
-    "fe84ba3ca5d1e05139b72cbe398698431395a0b4",
     "ee24f36755e176c00fddaa5f2acab16741ef0bac",
     "a1f8be09783cb7186bf788c717239552b8436f95",
     "2adf27a2ee0b954748dbfb014970e79c18769c43",
@@ -15003,6 +14999,10 @@
     "efc67c4f2e92a5d9ae9d65a01f9e940c71c3e93e",
     "04b87a1158aac49f260c9f531f5dd591c276e8aa",
     "2780e06f3fb0c485dffdda7d6a53c48d5cb4a3fd",
-    "1d28eda9ee433898e589cf792f47cd849a7cff9b"
+    "1d28eda9ee433898e589cf792f47cd849a7cff9b",
+    "f3fc92f33778281385fa0f1eaf931216293e538f",
+    "c145324ba91264f056fa61621f0626066c40b0fc",
+    "34eb9bddce5ce5a2b7c885ec9f6f98bdde28e9dc",
+    "6791ba89333acaf72e781784adc7e7884c177092"
   ]
 }
