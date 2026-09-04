@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/storybook-based-narrative-adventure-game-the-day-i-became-a-bird-launches-april-16-for-ps5-switch-and-pc",
-    "https://www.videogameschronicle.com/news/eidos-montreal-announces-mass-layoffs-for-the-third-year-in-a-row-as-studio-head-leaves/",
-    "https://www.eurogamer.net/epic-games-ceo-tim-sweeney-responds-after-fortnite-layoffs-include-worker-with-brain-cancer",
-    "https://www.gematsu.com/2026/03/zero-parades-for-dead-spies-launches-may-21-for-pc-later-in-2026-for-ps5",
     "https://www.polygon.com/dice-throne-digital-slay-the-spire-campaign-mode-interview/",
     "https://www.gematsu.com/2026/03/co-op-bullet-heaven-roguelite-game-the-spell-brigade-launches-april-29-for-ps5-pc",
     "https://www.eurogamer.net/zero-parades-for-dead-spies-release-date-pc",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/square-enix-announces-tgs-2026-lineup",
     "https://www.ign.com/articles/original-gran-turismo-circuit-returns-to-series-after-13-year-absence",
     "https://www.eurogamer.net/lego-playstation-sony-state-of-play",
-    "https://www.pushsquare.com/news/2026/09/after-nearly-a-decade-of-delays-anime-rpg-fateextra-record-finally-releases-for-ps5-in-january-2027"
+    "https://www.pushsquare.com/news/2026/09/after-nearly-a-decade-of-delays-anime-rpg-fateextra-record-finally-releases-for-ps5-in-january-2027",
+    "https://www.gematsu.com/2026/09/craftopia-launches-in-2027",
+    "https://www.nintendolife.com/news/2026/09/video-monster-hunter-wilds-gets-a-new-trailer-for-its-massive-expansion",
+    "https://www.pushsquare.com/news/2026/09/hunters-moon-is-a-folk-horror-adventure-based-on-englands-real-life-witch-hunts",
+    "https://www.pushsquare.com/news/2026/09/gundam-rogue-orbit-looks-even-bigger-budget-than-expected-locks-down-march-release-on-ps5"
   ],
   "seen_titles": [
-    "storybook-based narrative adventure game the day i became a bird launches april 16 for ps5, switch, and pc",
-    "eidos-montréal announces mass layoffs for the third year in a row, as studio head leaves",
-    "epic games ceo tim sweeney apologises and seemingly rectifies life insurance situation of laid off worker with terminal brain cancer",
-    "zero parades: for dead spies launches may 21 for pc, later in 2026 for ps5",
     "dice throne digital will launch with a slay the spire-inspired roguelite mode",
     "co-op bullet heaven roguelite game the spell brigade launches april 29 for ps5, pc",
     "zero parades: for dead spies is the first disco elysium successor to get a release date, will finally be playable this summer",
@@ -10001,13 +9997,13 @@
     "square enix announces tgs 2026 lineup",
     "original gran turismo circuit returns to series after 13-year absence",
     "a lego replica of the original playstation will be available next month",
-    "after nearly a decade of delays, anime rpg fate/extra record finally releases for ps5 in january 2027"
+    "after nearly a decade of delays, anime rpg fate/extra record finally releases for ps5 in january 2027",
+    "craftopia launches in 2027",
+    "video: monster hunter wilds gets a new trailer for its \"massive expansion\"",
+    "hunter's moon is a folk horror adventure based on england's real life witch hunts",
+    "gundam rogue orbit looks even bigger budget than expected, locks down march release on ps5"
   ],
   "seen_story_keys": [
-    "ee24f36755e176c00fddaa5f2acab16741ef0bac",
-    "a1f8be09783cb7186bf788c717239552b8436f95",
-    "2adf27a2ee0b954748dbfb014970e79c18769c43",
-    "e5ef7d5602dfa0d813627b03a76cc8f65c6b356e",
     "cb0eb83d22afb18f4b93e97715d216720e78eab6",
     "30fb9f5c443358422866d014ab8c11d4577cc8c4",
     "a47808728a8f3dc0cde931c0660aef2fbcf5f7ba",
@@ -15003,6 +14999,10 @@
     "f3fc92f33778281385fa0f1eaf931216293e538f",
     "c145324ba91264f056fa61621f0626066c40b0fc",
     "34eb9bddce5ce5a2b7c885ec9f6f98bdde28e9dc",
-    "6791ba89333acaf72e781784adc7e7884c177092"
+    "6791ba89333acaf72e781784adc7e7884c177092",
+    "bf2111c3635ed0cf3016b5f1f4908363fecfc170",
+    "8ddce01a0b1c74f45c9171351051aeb363aebaca",
+    "502aac917d180026175597ea5fccbc3f2066d8d7",
+    "979a92f8160a186298dbd7fc8b5ba39c9f23f69f"
   ]
 }
