@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.rockpapershotgun.com/the-discourse-machine-whirs-to-life-as-zero-parades-for-dead-spies-gets-a-may-release-date",
-    "https://www.eurogamer.net/evercade-next-gen-retro-gaming-handheld-evercade-nexus",
-    "https://www.purexbox.com/news/2026/03/darksiders-warmastered-edition-is-getting-re-released-for-xbox-series-xs",
-    "https://gamerant.com/eidos-montreal-layoffs/",
     "https://www.nintendolife.com/news/2026/03/random-ai-has-ruined-a-classic-mario-cartoon-on-metv",
     "https://www.gamespot.com/articles/resident-evil-meets-dino-crisis-in-this-new-survival-horror-game-and-its-out-soon/1100-6538985/?ftag=CAD-01-10abi2f",
     "https://www.pushsquare.com/news/2026/03/disco-elysiums-controversial-successor-commits-to-2026-release-on-ps5",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/planted-launches-october-29",
     "https://gamerant.com/crimson-desert-september-4-update-patch-notes/",
     "https://www.rockpapershotgun.com/blood-of-dawnwalkers-first-patch-offers-relief-from-buggy-tutorials-and-tight-lipped-npcs-but-rebel-wolves-are-still-working-on-fixes-for-the-stuttering-and-shader-crash-problems",
-    "https://www.eurogamer.net/xbox-cloud-gaming-monthly-time-limits"
+    "https://www.eurogamer.net/xbox-cloud-gaming-monthly-time-limits",
+    "https://gamerant.com/gta-6-pc-release-date-update/",
+    "https://gamerant.com/ps-plus-extra-game-runescape-dragonwilds-september-15-2026/",
+    "https://www.polygon.com/harry-potter-hbo-new-cast-dobby-tom-riddle-ginny-weasley-replacement/",
+    "https://www.purexbox.com/news/2026/09/samson-gets-september-release-date-and-new-console-trailer-for-xbox-series-xs"
   ],
   "seen_titles": [
-    "the discourse machine whirs to life as zero parades: for dead spies gets a may release date",
-    "evercade unveils its next-gen retro gaming handheld nexus, with analogue sticks and banjo-kazooie 1&2 bundled in",
-    "darksiders warmastered edition is getting re-released for xbox series x|s",
-    "eidos montreal hit with more layoffs",
     "random: ai has ruined a classic mario cartoon on metv",
     "resident evil meets dino crisis in this new survival horror game, and it's out soon",
     "disco elysium's controversial successor commits to 2026 release on ps5",
@@ -10001,13 +9997,13 @@
     "planted! launches october 29",
     "crimson desert releases brand-new update you can download right now",
     "blood of dawnwalker's first patch offers relief from buggy tutorials and tight-lipped npcs, but rebel wolves are still working on fixes for the stuttering and shader crash problems",
-    "xbox places monthly time limits to its paid cloud gaming service, insists only a fraction of players will be impacted"
+    "xbox places monthly time limits to its paid cloud gaming service, insists only a fraction of players will be impacted",
+    "gta 6 pc release date gets encouraging update",
+    "ps plus extra game for september 15 officially revealed ahead of time",
+    "hbo's harry potter reveals new dobby and young voldemort replacements",
+    "samson gets september release date & new console trailer for xbox series x|s"
   ],
   "seen_story_keys": [
-    "b72f2ffd0c948324b757782e18a4f452b753d281",
-    "5a4d340f3c2c7d1fd141b40c12012e3326a8ca19",
-    "81eb8befaaccee6443eda0c3a9c8c27e124f3e01",
-    "75c75fecafe869caf269616f4216b989061f1e7b",
     "42e2351cafef094cee2d203e217a4d983e511b5d",
     "4e01c693e1d9c6c68f21105ca2facfb4896d2091",
     "36df27954862d407b1417c366b31523dce8bd537",
@@ -15003,6 +14999,10 @@
     "f6a5aa0d5fd19b8a2c495c69ab0e0bf967fb1bf8",
     "532230ba64df662df8a3f004120429452f6ec2eb",
     "a9675b92d57b4cc0fc9b57457abdc273b71ba225",
-    "e905ce32413354446a5df404883e21b8c0d0a21e"
+    "e905ce32413354446a5df404883e21b8c0d0a21e",
+    "e56189280d0a7bf848d48619c6468ace4a2b6d96",
+    "e8eda9b6b86e6af941a97468c0e1566d60be9efc",
+    "8bbdb8b13595f4ea35fd218505b701474f2340b5",
+    "9698ef1c287c8548c3108dc81566f2bd35bb9bf8"
   ]
 }
