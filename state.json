@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/dice-throne-digital-slay-the-spire-campaign-mode-interview/",
-    "https://www.gematsu.com/2026/03/co-op-bullet-heaven-roguelite-game-the-spell-brigade-launches-april-29-for-ps5-pc",
-    "https://www.eurogamer.net/zero-parades-for-dead-spies-release-date-pc",
-    "https://www.pcgamer.com/hardware/the-new-crimson-desert-patches-are-grand-and-all-but-the-ray-reconstruction-performance-and-lighting-options-are-still-all-kind-of-b0rked-on-my-machine/",
     "https://www.rockpapershotgun.com/the-discourse-machine-whirs-to-life-as-zero-parades-for-dead-spies-gets-a-may-release-date",
     "https://www.eurogamer.net/evercade-next-gen-retro-gaming-handheld-evercade-nexus",
     "https://www.purexbox.com/news/2026/03/darksiders-warmastered-edition-is-getting-re-released-for-xbox-series-xs",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/craftopia-launches-in-2027",
     "https://www.nintendolife.com/news/2026/09/video-monster-hunter-wilds-gets-a-new-trailer-for-its-massive-expansion",
     "https://www.pushsquare.com/news/2026/09/hunters-moon-is-a-folk-horror-adventure-based-on-englands-real-life-witch-hunts",
-    "https://www.pushsquare.com/news/2026/09/gundam-rogue-orbit-looks-even-bigger-budget-than-expected-locks-down-march-release-on-ps5"
+    "https://www.pushsquare.com/news/2026/09/gundam-rogue-orbit-looks-even-bigger-budget-than-expected-locks-down-march-release-on-ps5",
+    "https://www.gematsu.com/2026/09/planted-launches-october-29",
+    "https://gamerant.com/crimson-desert-september-4-update-patch-notes/",
+    "https://www.rockpapershotgun.com/blood-of-dawnwalkers-first-patch-offers-relief-from-buggy-tutorials-and-tight-lipped-npcs-but-rebel-wolves-are-still-working-on-fixes-for-the-stuttering-and-shader-crash-problems",
+    "https://www.eurogamer.net/xbox-cloud-gaming-monthly-time-limits"
   ],
   "seen_titles": [
-    "dice throne digital will launch with a slay the spire-inspired roguelite mode",
-    "co-op bullet heaven roguelite game the spell brigade launches april 29 for ps5, pc",
-    "zero parades: for dead spies is the first disco elysium successor to get a release date, will finally be playable this summer",
-    "the new crimson desert patches are grand and all, but the ray reconstruction performance and lighting options are still all kind of b0rked on my machine",
     "the discourse machine whirs to life as zero parades: for dead spies gets a may release date",
     "evercade unveils its next-gen retro gaming handheld nexus, with analogue sticks and banjo-kazooie 1&2 bundled in",
     "darksiders warmastered edition is getting re-released for xbox series x|s",
@@ -10001,13 +9997,13 @@
     "craftopia launches in 2027",
     "video: monster hunter wilds gets a new trailer for its \"massive expansion\"",
     "hunter's moon is a folk horror adventure based on england's real life witch hunts",
-    "gundam rogue orbit looks even bigger budget than expected, locks down march release on ps5"
+    "gundam rogue orbit looks even bigger budget than expected, locks down march release on ps5",
+    "planted! launches october 29",
+    "crimson desert releases brand-new update you can download right now",
+    "blood of dawnwalker's first patch offers relief from buggy tutorials and tight-lipped npcs, but rebel wolves are still working on fixes for the stuttering and shader crash problems",
+    "xbox places monthly time limits to its paid cloud gaming service, insists only a fraction of players will be impacted"
   ],
   "seen_story_keys": [
-    "cb0eb83d22afb18f4b93e97715d216720e78eab6",
-    "30fb9f5c443358422866d014ab8c11d4577cc8c4",
-    "a47808728a8f3dc0cde931c0660aef2fbcf5f7ba",
-    "0fe0a4e15501fe6fc0f1f725bfcb0a43fe2c8051",
     "b72f2ffd0c948324b757782e18a4f452b753d281",
     "5a4d340f3c2c7d1fd141b40c12012e3326a8ca19",
     "81eb8befaaccee6443eda0c3a9c8c27e124f3e01",
@@ -15003,6 +14999,10 @@
     "bf2111c3635ed0cf3016b5f1f4908363fecfc170",
     "8ddce01a0b1c74f45c9171351051aeb363aebaca",
     "502aac917d180026175597ea5fccbc3f2066d8d7",
-    "979a92f8160a186298dbd7fc8b5ba39c9f23f69f"
+    "979a92f8160a186298dbd7fc8b5ba39c9f23f69f",
+    "f6a5aa0d5fd19b8a2c495c69ab0e0bf967fb1bf8",
+    "532230ba64df662df8a3f004120429452f6ec2eb",
+    "a9675b92d57b4cc0fc9b57457abdc273b71ba225",
+    "e905ce32413354446a5df404883e21b8c0d0a21e"
   ]
 }
