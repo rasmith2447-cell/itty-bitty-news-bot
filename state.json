@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/03/the-elder-scrolls-online-reveals-2026-content-starting-with-season-zero-dawn-and-dusk-on-april-2",
-    "https://gamerant.com/2xko-akali-gameplay-trailer-release-date/",
-    "https://www.gematsu.com/2026/03/shift-up-acquires-shinji-mikami-led-studio-unbound",
-    "https://www.nintendolife.com/news/2026/04/capcom-arcade-2nd-stadium-switch-physical-release-announced-pre-orders-open-soon",
     "https://www.nintendolife.com/news/2026/04/pokemon-legends-z-a-is-getting-pokemon-home-connectivity-this-week",
     "https://www.gematsu.com/2026/03/ride-style-action-game-fruitimo-juicy-night-ride-announced-for-pc",
     "https://gamerant.com/grand-theft-auto-6-online-multiplayer-news/",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/09/telltale-brings-five-chapter-sci-fi-adventure-the-expanse-to-switch",
     "https://www.nintendolife.com/news/2026/09/final-fantasy-vii-revelation-to-offer-story-expansion-pass-with-sephiroth-turks-dlc",
     "https://www.pcgamer.com/games/final-fantasy/final-fantasy-7-revelation-gets-a-release-date-and-a-proper-look-at-its-airship-overworld-which-is-cool-if-in-danger-of-inducing-open-world-fatigue/",
-    "https://www.eurogamer.net/until-dawn-2-release-date-pre-order-details"
+    "https://www.eurogamer.net/until-dawn-2-release-date-pre-order-details",
+    "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-5th-september",
+    "https://www.eurogamer.net/crimson-desert-charting-the-unknown-dlc-date",
+    "https://www.eurogamer.net/sony-state-of-play-no-disc-no-buy-destiny-3",
+    "https://www.purexbox.com/news/2026/09/metro-2039-is-coming-to-xbox-in-february-but-could-get-lost-in-a-very-crowded-month"
   ],
   "seen_titles": [
-    "the elder scrolls online reveals 2026 content, starting with ‘season zero: dawn and dusk’ on april 2",
-    "2xko reveals akali gameplay and release date",
-    "shift up acquires shinji mikami-led studio unbound",
-    "capcom arcade 2nd stadium switch physical release announced, pre-orders open soon",
     "pokémon legends: z-a is getting pokémon home connectivity this week",
     "ride-style action game fruitimo! juicy night ride announced for pc",
     "grand theft auto 6 reveals first multiplayer details including controversial feature",
@@ -10001,13 +9997,13 @@
     "telltale brings five-chapter sci-fi adventure 'the expanse' to switch",
     "final fantasy vii revelation to offer story expansion pass with sephiroth, turks dlc",
     "final fantasy 7 revelation gets a release date and a proper look at its airship overworld, which is cool, if in danger of inducing open world fatigue",
-    "until dawn 2's sun-kissed horror gets a ps5 release date - and the studio behind last year's brilliant dispatch is involved"
+    "until dawn 2's sun-kissed horror gets a ps5 release date - and the studio behind last year's brilliant dispatch is involved",
+    "talking point: what are you playing this weekend? (5th september)",
+    "crimson desert's first dlc is called charting the unknown, and it's out next month",
+    "sony's discless playstation pr disaster isn't going away as state of play once again flooded with protests",
+    "metro 2039 is coming to xbox in february, but could get lost in a very crowded month"
   ],
   "seen_story_keys": [
-    "449bd3f9e0687265c2053bae41a7829d7138d552",
-    "f25cdeb7133311e4011cda038d6c2037d7127fe0",
-    "f13650d2125260ba44d4714a0b05086f4ba5f9c1",
-    "b95935cfa01e453ec3a441b0bd5fe2485abaa2fb",
     "3c7e9144c7b8d861f5f8c352836cf3dd19cfefaf",
     "4d853a290390bef75e176c464c68e4213f2af5aa",
     "b076946511d81496fecc772e560481e780b69ae7",
@@ -15003,6 +14999,10 @@
     "c3485d88cd6dd497d7d8c94368b0d33d9c897d37",
     "e43aaf8cade7d4bc43d48f798aab25a1fc0b088e",
     "bbc5f953b926745618ee19778fbe59f72371e4b1",
-    "2148873d967395bbd6b92982d02936eb08a4922a"
+    "2148873d967395bbd6b92982d02936eb08a4922a",
+    "515386d7aa6dd23e58c8c094cd78c9035d47631f",
+    "4633ecca1431da552ba63f8543edfeecd8a2de40",
+    "f0d4f62088d2434b188326a486a3bde420cbe8c3",
+    "097af9c85b71738b1564664bed2a7e7b8e125487"
   ]
 }
