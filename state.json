@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/marathons-latest-patch-fixes-a-move-exploit-bungie-says-is-unhealthy/",
-    "https://www.eurogamer.net/bungie-has-ripped-marathons-most-busted-movement-trick-out-of-the-game-and-brought-back-a-lucrative-loot-opportunity",
     "https://www.purexbox.com/news/2026/04/the-elder-scrolls-online-is-coming-to-pc-game-pass-with-xbox-play-anywhere-support",
     "https://www.gamesindustry.biz/stellar-blade-developer-shift-up-acquires-shinji-mikamis-new-studio",
     "https://www.eurogamer.net/stellar-blade-developer-acquires-resident-evil-creator-shinji-mikamis-new-studio-unbound",
@@ -4999,11 +4997,11 @@
     "https://www.eurogamer.net/tim-sweeney-crash-2-more-factories",
     "https://gamerant.com/blood-of-dawnwalker-pc-performance-issues-fixes/",
     "https://gamerant.com/video/predicting-major-zelda-switch-2-reveals-both-nintendo-directs/",
-    "https://www.gamesindustry.biz/peak-studio-aggro-crab-establishes-publishing-label-for-intense-stylised-games-with-an-attitude"
+    "https://www.gamesindustry.biz/peak-studio-aggro-crab-establishes-publishing-label-for-intense-stylised-games-with-an-attitude",
+    "https://www.polygon.com/double-fine-reveals-thank-you-bus-driver/",
+    "https://www.ign.com/articles/the-batman-part-2-set-photos-arkham-suit-upgrade"
   ],
   "seen_titles": [
-    "marathon’s latest patch fixes a move exploit bungie says is ‘unhealthy’",
-    "bungie has ripped marathon's most busted movement trick out of the game, and brought back a lucrative loot opportunity",
     "the elder scrolls online is coming to pc game pass with xbox play anywhere support",
     "stellar blade developer shift up acquires shinji mikami's new studio",
     "stellar blade developer acquires resident evil creator shinji mikami's new studio, unbound",
@@ -10001,11 +9999,11 @@
     "how does epic games ceo tim sweeney reckon we can fight the component crisis and industry \"crash 2.0\"? by building more factories, for one",
     "blood of dawnwalker dev issues official statement on pc issues",
     "predicting the major zelda & switch 2 reveals at both nintendo directs",
-    "peak studio aggro crab establishes publishing label for \"intense, stylised games with an attitude\""
+    "peak studio aggro crab establishes publishing label for \"intense, stylised games with an attitude\"",
+    "double fine reveals its first post-xbox game as tim schafer declares no one will shut the studio down but him",
+    "the batman part 2 set photos hint at arkham-style batsuit upgrade"
   ],
   "seen_story_keys": [
-    "c4e5632a64e240a1691be57d3084030c0b1aa5a5",
-    "8c3ba43f5f91992e4d9ea5807cc0414b77023f8e",
     "cdef30931e628b09cdc81b70a441590d95c1431a",
     "a3d7076d1bcbf6d14b7366f34c42f287eb854c0e",
     "f1a1142995006e6b47c79dd84767ad775a86eea2",
@@ -15003,6 +15001,8 @@
     "9d5c3fc228e99e88cb6eb502a1f58af8ea89dfae",
     "e24fefb71c25f9e68b539fbfb0ec509b2531db8b",
     "240699baeb2fe767635d9c7e79021db04ad095e3",
-    "786caf08c5b22202df1caabbb5b1d122f0586c3c"
+    "786caf08c5b22202df1caabbb5b1d122f0586c3c",
+    "5105fa7133eff7516c2b78ba802d0c8c2d4e4aaf",
+    "add8f3d21d882a2df1d91c9977a02f7f954a75bb"
   ]
 }
