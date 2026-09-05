@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/04/pokemon-legends-z-a-is-getting-pokemon-home-connectivity-this-week",
-    "https://www.gematsu.com/2026/03/ride-style-action-game-fruitimo-juicy-night-ride-announced-for-pc",
-    "https://gamerant.com/grand-theft-auto-6-online-multiplayer-news/",
-    "https://www.gematsu.com/2026/04/bases-loaded-based-hololive-baseball-game-holobase-announced-for-pc",
     "https://gamerant.com/bloodborne-remake-live-service-mobile-shut-down/",
     "https://www.rockpapershotgun.com/mindseyes-new-mission-will-feature-evidence-of-the-sabotage-the-studio-have-faced-ceo-claims-i-double-checked-and-the-quotes-came-before-april-fools",
     "https://www.pushsquare.com/news/2026/04/stellar-blade-dev-acquires-shinji-mikamis-new-studio-will-publish-its-games",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-5th-september",
     "https://www.eurogamer.net/crimson-desert-charting-the-unknown-dlc-date",
     "https://www.eurogamer.net/sony-state-of-play-no-disc-no-buy-destiny-3",
-    "https://www.purexbox.com/news/2026/09/metro-2039-is-coming-to-xbox-in-february-but-could-get-lost-in-a-very-crowded-month"
+    "https://www.purexbox.com/news/2026/09/metro-2039-is-coming-to-xbox-in-february-but-could-get-lost-in-a-very-crowded-month",
+    "https://www.eurogamer.net/white-house-arcade-gov-minigames-immigration-border-wall",
+    "https://www.nintendolife.com/news/2026/09/final-fantasy-vii-revelation-release-date-for-switch-2-revealed",
+    "https://www.eurogamer.net/dragons-dogma-2-dark-arisen-western-japanese-players-opposed",
+    "https://www.eurogamer.net/tim-sweeney-crash-2-more-factories"
   ],
   "seen_titles": [
-    "pokémon legends: z-a is getting pokémon home connectivity this week",
-    "ride-style action game fruitimo! juicy night ride announced for pc",
-    "grand theft auto 6 reveals first multiplayer details including controversial feature",
-    "bases loaded-based hololive baseball game holobase announced for pc",
     "bloodborne remake officially revealed and shadow dropped",
     "mindseye's new mission will feature \"evidence of the sabotage\" the studio have faced, ceo claims - i double-checked and the quotes came before april fools",
     "stellar blade dev acquires shinji mikami's new studio, will publish its games",
@@ -10001,13 +9997,13 @@
     "talking point: what are you playing this weekend? (5th september)",
     "crimson desert's first dlc is called charting the unknown, and it's out next month",
     "sony's discless playstation pr disaster isn't going away as state of play once again flooded with protests",
-    "metro 2039 is coming to xbox in february, but could get lost in a very crowded month"
+    "metro 2039 is coming to xbox in february, but could get lost in a very crowded month",
+    "white house launches arcade.gov, a minigame site parodying immigration enforcement and border security",
+    "final fantasy vii revelation release date for switch 2 revealed",
+    "dragon's dogma 2: dark arisen devs say western and japanese players want different things from the game",
+    "how does epic games ceo tim sweeney reckon we can fight the component crisis and industry \"crash 2.0\"? by building more factories, for one"
   ],
   "seen_story_keys": [
-    "3c7e9144c7b8d861f5f8c352836cf3dd19cfefaf",
-    "4d853a290390bef75e176c464c68e4213f2af5aa",
-    "b076946511d81496fecc772e560481e780b69ae7",
-    "c9c8405ce667ec7e997920d57e73c316aec262f0",
     "a2521c3a830f2d24d2062b0028ece83dd433ee82",
     "a5953e1e527ed461990e5c5a01e3a6b082053d3a",
     "42dc20c087397e11abbbe9328b204a0e6fbac179",
@@ -15003,6 +14999,10 @@
     "515386d7aa6dd23e58c8c094cd78c9035d47631f",
     "4633ecca1431da552ba63f8543edfeecd8a2de40",
     "f0d4f62088d2434b188326a486a3bde420cbe8c3",
-    "097af9c85b71738b1564664bed2a7e7b8e125487"
+    "097af9c85b71738b1564664bed2a7e7b8e125487",
+    "69e51296ace3f629faf25a2e0b6a1de25d476d3b",
+    "0d7e5b3ec11b867e672b8f2908efea151de38dcd",
+    "7d2ce118a2a9527ed416ac8ce4e17d614696633d",
+    "9d5c3fc228e99e88cb6eb502a1f58af8ea89dfae"
   ]
 }
