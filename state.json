@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/bloodborne-remake-live-service-mobile-shut-down/",
-    "https://www.rockpapershotgun.com/mindseyes-new-mission-will-feature-evidence-of-the-sabotage-the-studio-have-faced-ceo-claims-i-double-checked-and-the-quotes-came-before-april-fools",
-    "https://www.pushsquare.com/news/2026/04/stellar-blade-dev-acquires-shinji-mikamis-new-studio-will-publish-its-games",
     "https://www.videogameschronicle.com/news/marathons-latest-patch-fixes-a-move-exploit-bungie-says-is-unhealthy/",
     "https://www.eurogamer.net/bungie-has-ripped-marathons-most-busted-movement-trick-out-of-the-game-and-brought-back-a-lucrative-loot-opportunity",
     "https://www.purexbox.com/news/2026/04/the-elder-scrolls-online-is-coming-to-pc-game-pass-with-xbox-play-anywhere-support",
@@ -4999,12 +4996,12 @@
     "https://www.eurogamer.net/white-house-arcade-gov-minigames-immigration-border-wall",
     "https://www.nintendolife.com/news/2026/09/final-fantasy-vii-revelation-release-date-for-switch-2-revealed",
     "https://www.eurogamer.net/dragons-dogma-2-dark-arisen-western-japanese-players-opposed",
-    "https://www.eurogamer.net/tim-sweeney-crash-2-more-factories"
+    "https://www.eurogamer.net/tim-sweeney-crash-2-more-factories",
+    "https://gamerant.com/blood-of-dawnwalker-pc-performance-issues-fixes/",
+    "https://gamerant.com/video/predicting-major-zelda-switch-2-reveals-both-nintendo-directs/",
+    "https://www.gamesindustry.biz/peak-studio-aggro-crab-establishes-publishing-label-for-intense-stylised-games-with-an-attitude"
   ],
   "seen_titles": [
-    "bloodborne remake officially revealed and shadow dropped",
-    "mindseye's new mission will feature \"evidence of the sabotage\" the studio have faced, ceo claims - i double-checked and the quotes came before april fools",
-    "stellar blade dev acquires shinji mikami's new studio, will publish its games",
     "marathon’s latest patch fixes a move exploit bungie says is ‘unhealthy’",
     "bungie has ripped marathon's most busted movement trick out of the game, and brought back a lucrative loot opportunity",
     "the elder scrolls online is coming to pc game pass with xbox play anywhere support",
@@ -10001,12 +9998,12 @@
     "white house launches arcade.gov, a minigame site parodying immigration enforcement and border security",
     "final fantasy vii revelation release date for switch 2 revealed",
     "dragon's dogma 2: dark arisen devs say western and japanese players want different things from the game",
-    "how does epic games ceo tim sweeney reckon we can fight the component crisis and industry \"crash 2.0\"? by building more factories, for one"
+    "how does epic games ceo tim sweeney reckon we can fight the component crisis and industry \"crash 2.0\"? by building more factories, for one",
+    "blood of dawnwalker dev issues official statement on pc issues",
+    "predicting the major zelda & switch 2 reveals at both nintendo directs",
+    "peak studio aggro crab establishes publishing label for \"intense, stylised games with an attitude\""
   ],
   "seen_story_keys": [
-    "a2521c3a830f2d24d2062b0028ece83dd433ee82",
-    "a5953e1e527ed461990e5c5a01e3a6b082053d3a",
-    "42dc20c087397e11abbbe9328b204a0e6fbac179",
     "c4e5632a64e240a1691be57d3084030c0b1aa5a5",
     "8c3ba43f5f91992e4d9ea5807cc0414b77023f8e",
     "cdef30931e628b09cdc81b70a441590d95c1431a",
@@ -15003,6 +15000,9 @@
     "69e51296ace3f629faf25a2e0b6a1de25d476d3b",
     "0d7e5b3ec11b867e672b8f2908efea151de38dcd",
     "7d2ce118a2a9527ed416ac8ce4e17d614696633d",
-    "9d5c3fc228e99e88cb6eb502a1f58af8ea89dfae"
+    "9d5c3fc228e99e88cb6eb502a1f58af8ea89dfae",
+    "e24fefb71c25f9e68b539fbfb0ec509b2531db8b",
+    "240699baeb2fe767635d9c7e79021db04ad095e3",
+    "786caf08c5b22202df1caabbb5b1d122f0586c3c"
   ]
 }
