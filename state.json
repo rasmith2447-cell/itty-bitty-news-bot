@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/04/the-elder-scrolls-online-is-coming-to-pc-game-pass-with-xbox-play-anywhere-support",
-    "https://www.gamesindustry.biz/stellar-blade-developer-shift-up-acquires-shinji-mikamis-new-studio",
-    "https://www.eurogamer.net/stellar-blade-developer-acquires-resident-evil-creator-shinji-mikamis-new-studio-unbound",
-    "https://www.rockpapershotgun.com/arc-raiders-patch-protects-your-precious-custom-loadouts-by-lowering-the-odds-of-spawning-late-in-a-server-full-of-freeloaders",
     "https://www.videogameschronicle.com/news/mindseye-is-adding-a-new-mission-which-will-share-some-of-the-evidence-of-alleged-studio-sabotage-ceo-says/",
     "https://www.videogameschronicle.com/news/stellar-blade-dev-shift-up-has-acquired-resident-evil-creator-shinji-mikamis-new-studio/",
     "https://www.ign.com/articles/crimson-desert-sells-4-million-copies-in-2-weeks-as-pearl-abyss-open-world-action-adventure-continues-its-hot-streak",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/video/predicting-major-zelda-switch-2-reveals-both-nintendo-directs/",
     "https://www.gamesindustry.biz/peak-studio-aggro-crab-establishes-publishing-label-for-intense-stylised-games-with-an-attitude",
     "https://www.polygon.com/double-fine-reveals-thank-you-bus-driver/",
-    "https://www.ign.com/articles/the-batman-part-2-set-photos-arkham-suit-upgrade"
+    "https://www.ign.com/articles/the-batman-part-2-set-photos-arkham-suit-upgrade",
+    "https://gamerant.com/gta-6-release-date-ps5-xbox/",
+    "https://gamerant.com/classic-turn-based-rpgs-perfect-games/",
+    "https://www.pcgamer.com/gaming-industry/saber-cco-tim-willits-blames-layoffs-on-games-industry-overspecialization-studios-that-have-a-couple-hundred-employees-that-work-on-one-game-are-going-to-struggle/",
+    "https://www.ign.com/articles/the-blood-of-dawnwalker-passes-1-million-copies-sold-in-just-2-days"
   ],
   "seen_titles": [
-    "the elder scrolls online is coming to pc game pass with xbox play anywhere support",
-    "stellar blade developer shift up acquires shinji mikami's new studio",
-    "stellar blade developer acquires resident evil creator shinji mikami's new studio, unbound",
-    "arc raiders patch protects your precious custom loadouts by lowering the odds of spawning late in a server full of freeloaders",
     "mindseye is adding a new mission which will ‘share some of the evidence’ of alleged studio sabotage, ceo says",
     "stellar blade dev shift up has acquired resident evil creator shinji mikami’s new studio",
     "crimson desert sells 4 million copies in 2 weeks as pearl abyss' open world action adventure continues its hot streak",
@@ -10001,13 +9997,13 @@
     "predicting the major zelda & switch 2 reveals at both nintendo directs",
     "peak studio aggro crab establishes publishing label for \"intense, stylised games with an attitude\"",
     "double fine reveals its first post-xbox game as tim schafer declares no one will shut the studio down but him",
-    "the batman part 2 set photos hint at arkham-style batsuit upgrade"
+    "the batman part 2 set photos hint at arkham-style batsuit upgrade",
+    "rockstar games issues new official statement on gta 6",
+    "classic turn-based rpgs that deserve a perfect 10/10",
+    "saber cco tim willits blames layoffs on games industry overspecialization: 'studios that have a couple hundred employees that work on one game are going to struggle'",
+    "the blood of dawnwalker passes 1 million copies sold in just 2 days"
   ],
   "seen_story_keys": [
-    "cdef30931e628b09cdc81b70a441590d95c1431a",
-    "a3d7076d1bcbf6d14b7366f34c42f287eb854c0e",
-    "f1a1142995006e6b47c79dd84767ad775a86eea2",
-    "1c6b7301fa856d3040887d6c9c3e216624ad561f",
     "b04e32b0737c9b07688561b8a8f34f26456e240c",
     "1909fe0624e3d3cee24885a3ca90f54153d045a3",
     "44e4fdb9b8148de934fa467c9b1d21acc1c6bd78",
@@ -15003,6 +14999,10 @@
     "240699baeb2fe767635d9c7e79021db04ad095e3",
     "786caf08c5b22202df1caabbb5b1d122f0586c3c",
     "5105fa7133eff7516c2b78ba802d0c8c2d4e4aaf",
-    "add8f3d21d882a2df1d91c9977a02f7f954a75bb"
+    "add8f3d21d882a2df1d91c9977a02f7f954a75bb",
+    "65d29fcb97c40d32d7d1ee7087e20f522cbacf0c",
+    "3f669c50eccedd88b7c6de40f87efd4ce30894da",
+    "481acfa620c1d51f35bd73a770a38667fc5e348d",
+    "6885f40691699a208d0a7437f93eaed62ed28fe3"
   ]
 }
