@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/crimson-desert-sells-4-million-copies-in-2-weeks-as-pearl-abyss-open-world-action-adventure-continues-its-hot-streak",
-    "https://www.eurogamer.net/the-worst-launch-in-history-admits-mindseye-boss",
     "https://www.rockpapershotgun.com/resident-evil-director-shinji-mikami-partners-with-stellar-blade-devs-shift-up-to-make-smaller-experimental-titles-alongside-a-large-scale-flagship",
     "https://www.pushsquare.com/news/2026/04/no-more-delays-for-ps5-exclusive-saros-as-it-goes-gold-ahead-of-launch-later-this-month",
     "https://www.eurogamer.net/tomb-raider-1-3-remastered-patch-sorts-questionable-outfit-textures-after-fans-dubbed-challenge-mode-slop-raider",
@@ -4999,11 +4997,11 @@
     "https://www.pcgamer.com/gaming-industry/saber-cco-tim-willits-blames-layoffs-on-games-industry-overspecialization-studios-that-have-a-couple-hundred-employees-that-work-on-one-game-are-going-to-struggle/",
     "https://www.ign.com/articles/the-blood-of-dawnwalker-passes-1-million-copies-sold-in-just-2-days",
     "https://www.pushsquare.com/news/2026/09/need-more-resident-evil-this-manga-will-bring-an-all-star-ensemble-to-print",
-    "https://www.polygon.com/civilization-7-earthrise-announcement/"
+    "https://www.polygon.com/civilization-7-earthrise-announcement/",
+    "https://www.nintendolife.com/news/2026/09/tales-of-eternia-remastered-performance-and-resolution-revealed-switch-switch-2",
+    "https://www.nintendolife.com/news/2026/09/square-enix-announces-tokyo-game-show-2026-games-lineup"
   ],
   "seen_titles": [
-    "crimson desert sells 4 million copies in 2 weeks as pearl abyss' open world action adventure continues its hot streak",
-    "\"we know we had, without doubt, the worst launch in history\" admits mindseye boss as he says studio will share \"evidence of sabotage\" in-game",
     "resident evil director shinji mikami partners with stellar blade devs shift up to make \"smaller, experimental titles alongside a large-scale flagship\"",
     "no more delays for ps5 exclusive saros as it goes gold ahead of launch later this month",
     "tomb raider 1-3 remastered patch sorts questionable outfit textures after fans dubbed challenge mode \"slop raider\"",
@@ -10001,11 +9999,11 @@
     "saber cco tim willits blames layoffs on games industry overspecialization: 'studios that have a couple hundred employees that work on one game are going to struggle'",
     "the blood of dawnwalker passes 1 million copies sold in just 2 days",
     "need more resident evil? this manga will bring an all-star ensemble to print",
-    "civilization 7 officially gets a major sci-fi update for 2027"
+    "civilization 7 officially gets a major sci-fi update for 2027",
+    "tales of eternia remastered performance & resolution revealed (switch, switch 2)",
+    "square enix announces tokyo game show 2026 games lineup"
   ],
   "seen_story_keys": [
-    "44e4fdb9b8148de934fa467c9b1d21acc1c6bd78",
-    "e28ea0f524905f5aca8cb039a83ad7253ae77464",
     "a494ace6da40053e418844e262e22627a43fcb78",
     "65e85841ef960f44995f86bcdb10fb3074084556",
     "f6b81373848857393303483a4e5f7ef46b6ec31b",
@@ -15003,6 +15001,8 @@
     "481acfa620c1d51f35bd73a770a38667fc5e348d",
     "6885f40691699a208d0a7437f93eaed62ed28fe3",
     "594d498130dee0e0fe26afb36137992740251469",
-    "ee81cb3980c03fde59183f43750fe09fe1c9cc74"
+    "ee81cb3980c03fde59183f43750fe09fe1c9cc74",
+    "a41382f330628706fcc77ef1228de5b27e7b86db",
+    "cae32f51c34ce8eee242ecc8f6c7b9a65c3eb0de"
   ]
 }
