@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/playstation-plus-monthly-games-lineup-for-april-2026-announced",
-    "https://www.gematsu.com/2026/04/fate-reawakened-dlc-prometheus-announced",
-    "https://www.pcgamer.com/games/new-cozy-games-april-2026/",
-    "https://www.pcgamer.com/games/rts/stormgate-the-starcraft-like-rts-that-launched-last-summer-is-losing-online-multiplayer-support-because-its-server-partner-was-bought-by-an-ai-company/",
     "https://www.gematsu.com/2026/04/minos-launches-april-9",
     "https://www.polygon.com/steam-starlords-roguelike-guardians-of-the-galaxy-name-change-disney/",
     "https://www.pushsquare.com/news/2026/04/these-11plus-ps5-ps4-games-will-be-delisted-in-april",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/games/action/18-years-after-metal-gear-solid-4-first-launched-a-modder-has-shown-off-its-first-modded-map-mgs3s-groznyj-grad/",
     "https://gamerant.com/world-of-warcraft-wow-12-1-5-patch-sporebearer-fungal-strider/",
     "https://www.gematsu.com/2026/09/kemco-announces-tgs-2026-lineup",
-    "https://www.gematsu.com/2026/09/immersive-art-adventure-game-catharsis-the-last-of-atelier-announced-for-pc"
+    "https://www.gematsu.com/2026/09/immersive-art-adventure-game-catharsis-the-last-of-atelier-announced-for-pc",
+    "https://www.eurogamer.net/riot-games-mmo-the-grail-pax-2xko",
+    "https://www.gamespot.com/articles/see-the-ripped-game-of-thrones-actors-pitch-to-play-god-of-wars-kratos-in-role-already-cast-by-another-ripped-actor/",
+    "https://www.gematsu.com/2026/09/rain-world-anthology-physical-edition-announced-for-ps5-switch-2",
+    "https://www.gematsu.com/2026/09/airframe-ultra-launches-november-5"
   ],
   "seen_titles": [
-    "playstation plus monthly games lineup for april 2026 announced",
-    "fate: reawakened dlc ‘prometheus’ announced",
-    "our cozy games of april list is looking so chilled out that there isn't even a single farm sim on it",
-    "stormgate, the starcraft-like rts that launched last summer, is losing online multiplayer support because its server partner was bought by an ai company",
     "minos launches april 9",
     "this steam game is \"desperately\" trying to avoid a disney lawsuit",
     "these 11+ ps5, ps4 games will be delisted in april",
@@ -10001,13 +9997,13 @@
     "18 years after metal gear solid 4 first launched, a modder has shown off its first custom map, mgs3's groznyj grad",
     "super expensive, time-limited world of warcraft 12.1.5 release officially revealed",
     "kemco announces tgs 2026 lineup",
-    "immersive art adventure game catharsis: the last of atelier announced for pc"
+    "immersive art adventure game catharsis: the last of atelier announced for pc",
+    "\"many a brave knight are going to die\" - riot games head marc merrill speaks on in-development mmo after 2xko's untimely demise",
+    "see ripped game of thrones actor’s pitch to play god of war’s kratos in role already cast by another ripped actor",
+    "rain world anthology physical edition announced for ps5, switch 2",
+    "airframe ultra launches november 5"
   ],
   "seen_story_keys": [
-    "0da63ab104e231cd3baf9a86db3aa74b05e060f7",
-    "345b993d6f689b09a48451fde17c1e3fcf1efc9c",
-    "ca8495d440791f9b32878dc74ce0c6e3c34c60cd",
-    "01fe5725fc67258eb70861cf6708ce5b97d7728e",
     "9cd16e186e94edff386267ae74a03a591ccf883b",
     "2f05183963bc5df0b2cdd7d0372c6cec2fd0e9cb",
     "19c34b2c95a982a631cd5d731f06dd27f6cb139e",
@@ -15003,6 +14999,10 @@
     "9da117469358481f642a9a1697609fd61aabd384",
     "cfa0f9f69c4b02d5cac21a5e453bde17e29c3992",
     "255f711c1fa9afb3cd7f2d060c2dd11c050974de",
-    "e9bef3171237c6aaf6a0188d0b538cd5dd659342"
+    "e9bef3171237c6aaf6a0188d0b538cd5dd659342",
+    "f46d4a779986d5ee6cc73addc4b58589c84baf4f",
+    "4bfc0e38271ddc37d6eba836d8a5cea7ed066e6b",
+    "9dd2faa656a52e04b8f7eceb3c2b7b941eab5978",
+    "cfb6e0980d074a98c5db0de12d27b585a13e14f7"
   ]
 }
