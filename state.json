@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/minos-launches-april-9",
-    "https://www.polygon.com/steam-starlords-roguelike-guardians-of-the-galaxy-name-change-disney/",
-    "https://www.pushsquare.com/news/2026/04/these-11plus-ps5-ps4-games-will-be-delisted-in-april",
-    "https://www.gematsu.com/2026/04/ground-zero-launches-april-16",
     "https://www.polygon.com/playstation-plus-april-2026-essential-free-games-list-ps4-ps5/",
     "https://www.rockpapershotgun.com/nintendos-legal-fight-with-palworld-suffers-a-reversal-as-the-uspto-reject-their-patent-on-character-summoning-battle-mechanics",
     "https://www.gamespot.com/articles/world-of-warcraft-is-getting-a-fantastic-new-transmog-option-soon/1100-6539163/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/riot-games-mmo-the-grail-pax-2xko",
     "https://www.gamespot.com/articles/see-the-ripped-game-of-thrones-actors-pitch-to-play-god-of-wars-kratos-in-role-already-cast-by-another-ripped-actor/",
     "https://www.gematsu.com/2026/09/rain-world-anthology-physical-edition-announced-for-ps5-switch-2",
-    "https://www.gematsu.com/2026/09/airframe-ultra-launches-november-5"
+    "https://www.gematsu.com/2026/09/airframe-ultra-launches-november-5",
+    "https://www.gematsu.com/2026/09/fast-paced-3d-action-adventure-platformer-lightspeed-lina-announced-for-pc",
+    "https://www.gamesindustry.biz/sega-cancelled-its-risky-super-game-project-as-it-would-have-to-grow-enormously-to-match-the-scale-of-the-service",
+    "https://www.ign.com/articles/as-onimusha-way-of-the-sword-sells-over-1-million-day-one-capcom-says-its-focusing-on-re-activating-ips-that-havent-had-a-new-title-launch-recently",
+    "https://www.nintendolife.com/news/2026/09/psvr-dolphin-game-jupiter-and-mars-definitive-edition-hits-switch-this-week"
   ],
   "seen_titles": [
-    "minos launches april 9",
-    "this steam game is \"desperately\" trying to avoid a disney lawsuit",
-    "these 11+ ps5, ps4 games will be delisted in april",
-    "ground zero launches april 16",
     "playstation plus april 2026 free games announced",
     "nintendo's legal fight with palworld suffers a reversal as the uspto reject their patent on character-summoning battle mechanics",
     "world of warcraft is getting a fantastic new transmog option soon",
@@ -10001,13 +9997,13 @@
     "\"many a brave knight are going to die\" - riot games head marc merrill speaks on in-development mmo after 2xko's untimely demise",
     "see ripped game of thrones actor’s pitch to play god of war’s kratos in role already cast by another ripped actor",
     "rain world anthology physical edition announced for ps5, switch 2",
-    "airframe ultra launches november 5"
+    "airframe ultra launches november 5",
+    "fast-paced 3d action adventure platformer lightspeed lina announced for pc",
+    "sega cancelled its \"risky\" super game project as it \"would have to grow enormously to match the scale of the service\"",
+    "as onimusha: way of the sword sells over 1 million day one, capcom says it's 'focusing on re-activating ips that haven’t had a new title launch recently'",
+    "psvr dolphin game 'jupiter & mars: definitive edition' hits switch this week"
   ],
   "seen_story_keys": [
-    "9cd16e186e94edff386267ae74a03a591ccf883b",
-    "2f05183963bc5df0b2cdd7d0372c6cec2fd0e9cb",
-    "19c34b2c95a982a631cd5d731f06dd27f6cb139e",
-    "b88f4598e014f5d007e6a8b86bcaba188a81857f",
     "42dd728ce358311ea0fc488cec14f37fd91a0646",
     "829fb0c42cff5914889bd0ae4485066ef75496a2",
     "79c964ce4820d13f18ce576cb307a6971e843f8e",
@@ -15003,6 +14999,10 @@
     "f46d4a779986d5ee6cc73addc4b58589c84baf4f",
     "4bfc0e38271ddc37d6eba836d8a5cea7ed066e6b",
     "9dd2faa656a52e04b8f7eceb3c2b7b941eab5978",
-    "cfb6e0980d074a98c5db0de12d27b585a13e14f7"
+    "cfb6e0980d074a98c5db0de12d27b585a13e14f7",
+    "e3efcfc3161ec065cbe7efb262652ad5e542db6a",
+    "90082c54528b8d7c9d98c9b301fa3c46cc8b5f7d",
+    "aa2b56c36c52338d2c76c817c200728bb94c8f20",
+    "4c46bea8ba32736371ef3ad3e227db4469a15265"
   ]
 }
