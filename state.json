@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/crimson-desert-players-love-watching-npcs-work-in-real-time/1100-6539161/?ftag=CAD-01-10abi2f",
-    "https://gamerant.com/starfield-free-lanes-update-features-trailer/",
-    "https://www.gamespot.com/articles/fortnites-cultural-moment-is-starting-to-fade-expert-says/1100-6539164/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/04/mortal-shell-ii-gameplay-reveal-trailer",
     "https://www.rockpapershotgun.com/starcrafty-strategy-game-stormgate-is-about-to-lose-its-multiplayer-modes-due-to-an-ai-company-buying-up-frost-giants-server-provider",
     "https://gamerant.com/daemons-of-the-shadow-realm-release-date-where-to-watch/",
     "https://www.purexbox.com/news/2026/04/out-of-nowhere-xbox-just-announced-nba-2k26-for-game-pass",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/09/you-should-see-sonys-zelda-movie-during-tomorrows-anniversary-direct",
     "https://www.eurogamer.net/final-fantasy-resonance-mod-ariana-grande-mobile-game",
     "https://www.ign.com/articles/gta-6-will-launch-digitally-at-midnight-around-the-world-so-of-course-fans-are-already-planning-to-set-their-console-locations-to-new-zealand",
-    "https://gamerant.com/sega-super-game-cancelation-why/"
+    "https://gamerant.com/sega-super-game-cancelation-why/",
+    "https://www.ign.com/articles/forza-horizon-6s-ps5-version-still-on-track-for-2026-release-playground-says",
+    "https://www.pushsquare.com/news/2026/09/if-things-dont-turn-around-for-dont-nod-it-may-face-closure-in-a-matter-of-months",
+    "https://www.eurogamer.net/civilization-7-paid-expansion-earthrise-atomic-age-free-update",
+    "https://www.purexbox.com/news/2026/09/a-1997-sega-saturn-classic-is-making-its-xbox-debut-this-tuesday"
   ],
   "seen_titles": [
-    "crimson desert players love watching npcs work in real time",
-    "starfield reveals more details about free lanes update",
-    "\"fortnite's cultural moment is starting to fade,\" expert says",
-    "mortal shell ii ‘gameplay reveal’ trailer",
     "starcrafty strategy game stormgate is about to lose its multiplayer modes, due to an ai company buying up frost giant's server provider",
     "daemons of the shadow realm episode 1 release date and where to watch",
     "out of nowhere, xbox just announced nba 2k26 for game pass",
@@ -10001,13 +9997,13 @@
     "you should see sony's zelda movie during tomorrow's anniversary direct",
     "final fantasy resonance modders have already reinstated the original mobile game's biggest icon, ariana grande",
     "gta 6 will launch digitally at midnight around the world, so of course fans are already planning to set their console locations to new zealand",
-    "sega reveals reason for 'super game' cancelation"
+    "sega reveals reason for 'super game' cancelation",
+    "forza horizon 6's ps5 version still on track for 2026 release, playground says",
+    "if things don't turn around for don't nod, it may face closure in a matter of months",
+    "two years after its rocky launch, civilization 7's first paid expansion earthrise is on its way - but first comes the atomic age",
+    "a 1997 sega saturn 'classic' is making its xbox debut this tuesday"
   ],
   "seen_story_keys": [
-    "4ff27cc91672a505972907a67fd342a7da8b8418",
-    "f7199836a0b9fffbb88d73ffc008849b5019c369",
-    "3bad0fd425b78021e43d4d1b7488e29da890ad69",
-    "91e19601c1ec3c94edff35200d29ed9409d4eda2",
     "86bd605c2e918fffbadf77f8fef40ee2a98b13ed",
     "40c57b41d0d1543482bfb94750829f1cb2832c35",
     "cff419240a2752307f842ef5977013cec0e874ce",
@@ -15003,6 +14999,10 @@
     "2d62e53deafd93d8a2cdf831cf18f9ea3038d7f0",
     "1088f11901b3645cccb58281f6aa67c1d3910296",
     "6418acca320c00a4d23b67aa362b431c0f1d3531",
-    "d114e33bea2d64d110ce49c63df3d368832ff1fa"
+    "d114e33bea2d64d110ce49c63df3d368832ff1fa",
+    "4cba363a5fa854b444144ff788ccc9ac662eb72f",
+    "d90eb784d700a9e747bfc16fc00ef685f8ad5fe7",
+    "2b2705de5b1076f1efd5f89d7968f7bc30d4d7d1",
+    "15229d1f37725a550a95d5e4f36b5ab6db4cb2d4"
   ]
 }
