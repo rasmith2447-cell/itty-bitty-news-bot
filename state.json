@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.rockpapershotgun.com/starcrafty-strategy-game-stormgate-is-about-to-lose-its-multiplayer-modes-due-to-an-ai-company-buying-up-frost-giants-server-provider",
-    "https://gamerant.com/daemons-of-the-shadow-realm-release-date-where-to-watch/",
-    "https://www.purexbox.com/news/2026/04/out-of-nowhere-xbox-just-announced-nba-2k26-for-game-pass",
-    "https://www.purexbox.com/news/2026/04/ubisoft-teams-with-xbox-to-bring-heroes-of-might-and-magic-olden-era-to-pc-game-pass",
     "https://www.gematsu.com/2026/04/heroes-of-might-and-magic-olden-era-launches-in-early-access-on-april-30",
     "https://www.eurogamer.net/heroes-of-might-and-magic-olden-era-release-date-april-early-access",
     "https://www.rockpapershotgun.com/the-first-new-heroes-of-might-and-magic-strategy-game-in-over-10-years-will-launch-this-month",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/forza-horizon-6s-ps5-version-still-on-track-for-2026-release-playground-says",
     "https://www.pushsquare.com/news/2026/09/if-things-dont-turn-around-for-dont-nod-it-may-face-closure-in-a-matter-of-months",
     "https://www.eurogamer.net/civilization-7-paid-expansion-earthrise-atomic-age-free-update",
-    "https://www.purexbox.com/news/2026/09/a-1997-sega-saturn-classic-is-making-its-xbox-debut-this-tuesday"
+    "https://www.purexbox.com/news/2026/09/a-1997-sega-saturn-classic-is-making-its-xbox-debut-this-tuesday",
+    "https://www.gematsu.com/2026/09/street-fighter-6-dlc-character-arjun-launches-october-13",
+    "https://www.polygon.com/fortnite-mega-man-cosmetics-tournament/",
+    "https://www.gamesindustry.biz/capcom-says-it-will-focus-on-reviving-dormant-ips-after-onimusha-way-of-the-swords-breakout-launch",
+    "https://www.gematsu.com/2026/09/beyond-the-dark-nightwatch-launches-october-22"
   ],
   "seen_titles": [
-    "starcrafty strategy game stormgate is about to lose its multiplayer modes, due to an ai company buying up frost giant's server provider",
-    "daemons of the shadow realm episode 1 release date and where to watch",
-    "out of nowhere, xbox just announced nba 2k26 for game pass",
-    "ubisoft teams with xbox to bring 'heroes of might and magic: olden era' to pc game pass",
     "heroes of might and magic: olden era launches in early access on april 30",
     "heroes of might and magic: olden era finally gets a release date, as it launches into early access later this month",
     "the first new heroes of might and magic strategy game in over 10 years will launch this month",
@@ -10001,13 +9997,13 @@
     "forza horizon 6's ps5 version still on track for 2026 release, playground says",
     "if things don't turn around for don't nod, it may face closure in a matter of months",
     "two years after its rocky launch, civilization 7's first paid expansion earthrise is on its way - but first comes the atomic age",
-    "a 1997 sega saturn 'classic' is making its xbox debut this tuesday"
+    "a 1997 sega saturn 'classic' is making its xbox debut this tuesday",
+    "street fighter 6 dlc character arjun launches october 13",
+    "fortnite officially bringing mega man to the island with tournament and skins",
+    "capcom says it will focus on reviving dormant ips after onimusha: way of the sword's breakout launch",
+    "beyond the dark: nightwatch launches october 22"
   ],
   "seen_story_keys": [
-    "86bd605c2e918fffbadf77f8fef40ee2a98b13ed",
-    "40c57b41d0d1543482bfb94750829f1cb2832c35",
-    "cff419240a2752307f842ef5977013cec0e874ce",
-    "cb99eef9e884747a3fc54c3e3c44721e45a6796c",
     "f1b7f5e6c8f4c0c2a91671883dcc52b0f364f1da",
     "57bba9e8831df98e1b3f425d76cda932623af63a",
     "c2ca68d735b947f742938526e6a806aead3c8c44",
@@ -15003,6 +14999,10 @@
     "4cba363a5fa854b444144ff788ccc9ac662eb72f",
     "d90eb784d700a9e747bfc16fc00ef685f8ad5fe7",
     "2b2705de5b1076f1efd5f89d7968f7bc30d4d7d1",
-    "15229d1f37725a550a95d5e4f36b5ab6db4cb2d4"
+    "15229d1f37725a550a95d5e4f36b5ab6db4cb2d4",
+    "3c12629fd73828f6578e66c368da16b14134300a",
+    "94bb9d2ba469dce6d2a77adcd29c4be3932caae1",
+    "3e30eeca8a40f42e5c04d86ae15ffa9b47691961",
+    "40802c43c9ce861e234832c5df18035936595920"
   ]
 }
