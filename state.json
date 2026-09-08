@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/overwatch-april-fools-day-game-mode-underwatch-2026/",
-    "https://gamerant.com/jojo-steel-ball-run-sbr-episode-2-release-date-where-watch/",
-    "https://www.ign.com/articles/artemis-2-launch-11-movies-and-1-miniseries-about-missions-to-the-moon",
-    "https://www.gematsu.com/2026/04/fruit-mountain-party-launches-april-23",
     "https://www.gematsu.com/2026/04/nagi-no-koi-for-ps4-switch-launches-april-23",
     "https://gamerant.com/world-of-warcraft-midnight-patch-12-0-5-weapon-sheathe-transmog-options/",
     "https://www.nintendolife.com/news/2026/04/the-hundred-line-update-1-2-0-announced-heres-whats-included",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/09/double-fine-reveals-first-game-since-leaving-xbox-and-it-has-250kplus-views-already",
     "https://www.gamesindustry.biz/its-not-sexy-but-its-one-of-the-most-successful-genres-on-steam-stronghold-developer-firefly-steps-up-to-publisher-to-serve-the-vast-strategy-market",
     "https://www.gematsu.com/2026/09/okko-the-exiled-launches-september-30-for-pc-in-early-2027-for-ps5-xbox-series-ps4-xbox-one-and-switch",
-    "https://www.videogameschronicle.com/news/sega-president-explains-why-it-made-the-decision-to-cancel-its-much-hyped-super-game/"
+    "https://www.videogameschronicle.com/news/sega-president-explains-why-it-made-the-decision-to-cancel-its-much-hyped-super-game/",
+    "https://gamerant.com/pokemon-go-harvest-festival-taken-over-shroodle-zekrom/",
+    "https://www.purexbox.com/news/2026/09/talking-point-the-xbox-360-launched-with-12-gamerpics-do-you-remember-yours",
+    "https://www.gamesindustry.biz/the-tetris-company-says-it-was-not-involved-in-the-creation-of-white-house-parody-takes-copyright-infringement-very-seriously",
+    "https://gamerant.com/sword-art-online-genesis-maidens-eincrad-dlc-winter-2026/"
   ],
   "seen_titles": [
-    "overwatch reveals april fools' day event and patch notes",
-    "steel ball run episode 2 release date",
-    "artemis 2 launch: 11 movies and 1 miniseries about missions to the moon",
-    "fruit mountain party launches april 23",
     "nagi no koi for ps4, switch launches april 23",
     "world of warcraft adding amazing new cosmetic option in patch 12.0.5",
     "'the hundred line' update 1.2.0 announced, here's what's included",
@@ -10001,13 +9997,13 @@
     "double fine reveals first game since leaving xbox, and it has 250k+ views already",
     "\"it's not sexy, but it's one of the most successful genres on steam\" – stronghold developer firefly launches publishing label to serve the vast strategy market",
     "okko the exiled launches september 30 for pc, in early 2027 for ps5, xbox series, ps4, xbox one, and switch",
-    "sega president explains why it made the decision to cancel its much-hyped ‘super game’"
+    "sega president explains why it made the decision to cancel its much-hyped ‘super game’",
+    "pokemon go confirms gen 9 shiny debut for october 2026 event",
+    "talking point: the xbox 360 launched with 12 gamerpics, do you remember yours?",
+    "the tetris company says it was \"not involved in the creation\" of white house parody, takes \"copyright infringement very seriously\"",
+    "sword art online: genesis maidens officially revealed for winter 2026"
   ],
   "seen_story_keys": [
-    "d8f5610f0e436ef2555155c5cdee56bbcdb1ec49",
-    "c9078abac10d755d98566db75c9417c608aaed43",
-    "814b4cc0da88107e6d49ab9578bc2840cd73698b",
-    "b82e2d23d1efef58ec12a56bc7863c28551dc3dc",
     "597a90c40834ee566286c8470608a75417826c72",
     "c603b573f05423d3f24c3627e8b8781bd6e3a5ed",
     "ff56722136209a41339d693f3de2ec27e94117e7",
@@ -15003,6 +14999,10 @@
     "86fea0ae07bbf039fc5e13ea737f750216ae5f10",
     "00191bbbb7e839c6849364253a70b52ab74f8ead",
     "e735c7cafd3f2ee9e2d0b874d4fd9d4621cf2d31",
-    "ae6a8bc5a6874eefd0b898a32260325a5c56e414"
+    "ae6a8bc5a6874eefd0b898a32260325a5c56e414",
+    "44b0d39fd7deeec28410a47b2a1b0a9bc4887a50",
+    "71278adbb79dedec6493400dad74fa546ce602fd",
+    "b278d2437ce97d5731cc72224340ee65c8f16608",
+    "81dd4b77b50c9a031520d0cca6bfbf4da982cf8a"
   ]
 }
