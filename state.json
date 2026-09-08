@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/crimson-desert-players-work-out-a-way-to-fly-like-neo-from-the-matrix-but-given-pearl-abyss-previous-form-on-patches-theyre-not-sure-if-its-a-bug-or-a-feature",
-    "https://www.gematsu.com/2026/04/jaleco-sports-goal-2-announced-for-ps5-switch-now-available",
-    "https://www.gematsu.com/2026/04/jaleco-sports-bases-loaded-ii-announced-for-ps5-switch-now-available",
-    "https://www.gematsu.com/2026/04/motorslice-launches-in-may-for-ps5-xbox-series-and-pc",
     "https://www.ign.com/articles/is-the-world-falling-out-of-love-with-traditional-video-games",
     "https://www.gematsu.com/2026/04/hunter-x-hunter-nen-x-impact-dlc-character-shizuku-launches-april-16",
     "https://www.purexbox.com/news/2026/04/xbox-announces-eight-fanfest-tour-events-taking-place-across-the-world-in-2026",
@@ -4999,13 +4995,13 @@
     "https://www.gamespot.com/articles/the-internet-reacts-to-zelda-ocarina-of-times-changes/",
     "https://www.ign.com/articles/it-definitely-was-a-shock-the-legend-of-zelda-ocarina-of-time-artwork-splits-fans-following-trailer-reveal",
     "https://www.polygon.com/preorder-zelda-ocarina-of-time-switch-2-console-foil-where-how-when/",
-    "https://www.polygon.com/marvel-rivals-season-10-gorr-release-date-revealed-loki-removed/"
+    "https://www.polygon.com/marvel-rivals-season-10-gorr-release-date-revealed-loki-removed/",
+    "https://www.pcgamer.com/games/rpg/less-than-a-week-after-launch-the-blood-of-dawnwalker-developer-is-already-getting-to-work-on-the-sequel/",
+    "https://www.ign.com/articles/playstation-architect-mark-cerny-nearing-the-end-of-career-launching-fellowship-program-with-game-awards-creator-geoff-keighley",
+    "https://www.pushsquare.com/news/2026/09/you-barely-saw-sonys-zelda-movie-during-todays-anniversary-direct",
+    "https://www.ign.com/articles/trump-administration-tetris-clone-vanishes-from-white-house-website-days-after-launch"
   ],
   "seen_titles": [
-    "crimson desert players work out a way to fly like neo from the matrix, but given pearl abyss' previous form on patches, they’re not sure if it's a bug or a feature",
-    "jaleco sports: goal! 2 announced for ps5, switch; now available",
-    "jaleco sports: bases loaded ii announced for ps5, switch; now available",
-    "motorslice launches in may for ps5, xbox series, and pc",
     "is the world falling out of love with 'traditional' video games?",
     "hunter x hunter: nen x impact dlc character shizuku launches april 16",
     "xbox announces eight 'fanfest tour' events taking place across the world in 2026",
@@ -10001,13 +9997,13 @@
     "the internet reacts to zelda: ocarina of time’s changes",
     "'it definitely was a shock': the legend of zelda: ocarina of time artwork splits fans following trailer reveal",
     "'zelda: ocarina of time' remake and switch 2 console pre-orders will be a bloodbath",
-    "marvel rivals’ new character reveal explains why loki was removed from the game"
+    "marvel rivals’ new character reveal explains why loki was removed from the game",
+    "less than a week after launch, the blood of dawnwalker developer is already getting to work on the sequel",
+    "playstation architect mark cerny 'nearing the end' of career, launching fellowship program with game awards creator geoff keighley",
+    "you barely saw sony's zelda movie during today's anniversary direct",
+    "trump administration tetris clone vanishes from white house website days after launch"
   ],
   "seen_story_keys": [
-    "d7847eced3abc7f029805c536a62511b436001a4",
-    "601ec3ce4dcccb2f7f6bbd76a437a2d5a1c5d441",
-    "8239341ed03e5d191e59db7a7b625115c82858b9",
-    "8d4b0a3bb3cdf1e747627e43e81b65af363a3c6d",
     "2b315ac0b0cd8e06aee0eec86f849b32c8cb3274",
     "3c32b8f4cc14d99b9cd70d313857c4aa240b034d",
     "0c9d4e22551a6e34f3c7f96821a0ba7134fa35d7",
@@ -15003,6 +14999,10 @@
     "862e7d8a0d8731c0eb7fb8bec1bc342f90dde91e",
     "c840443185cc4125f590e8ecdc14816cfa0bbd87",
     "4b675fa31467287ccd11974cd3d4a64288f46e7d",
-    "8fdd044351a11e3b1660540bcce3f3660be9c275"
+    "8fdd044351a11e3b1660540bcce3f3660be9c275",
+    "7deb3411fa18846654cbe5424a518ccb63da1466",
+    "ab1601a65faa704874e95f492791286b5ffffb4c",
+    "b3d3b8936cb43c11827a6f188782bed059ac6400",
+    "1438abd838312a2945dc01ed0ca89be4680fe0cd"
   ]
 }
