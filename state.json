@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/jack-black-debuts-new-super-mario-song-but-why-wasnt-this-in-the-super-mario-galaxy-movie",
-    "https://www.gematsu.com/2026/04/xbox-fanfest-tour-2026-announced",
-    "https://www.gematsu.com/2026/04/teenage-mutant-ninja-turtles-empire-city-launches-april-30",
-    "https://gamerant.com/epic-games-store-april-2026-free-games/",
     "https://www.gematsu.com/2026/04/exploration-roguelite-turn-based-climbing-game-ascenders-beyond-the-peak-announced-for-consoles-pc",
     "https://www.ign.com/articles/brian-raffel-co-founder-of-call-of-duty-developer-raven-software-retires-after-36-years-at-studio",
     "https://www.gematsu.com/2026/04/ex-sanguis-launches-in-early-access-on-may-21",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/attack-on-titan-3-opening-animation-key-visual-revealed",
     "https://www.pcgamer.com/games/final-fantasy/final-fantasy-14-dawntrails-final-story-patch-is-exactly-what-the-game-needed-and-has-the-4-month-wait-for-evercold-suddenly-feeling-a-whole-lot-longer/",
     "https://www.eurogamer.net/legend-of-zelda-occarina-of-time-remake-reaction-visuals",
-    "https://www.eurogamer.net/the-legend-of-zelda-ocarina-of-time-remake-gameplay-finally-revealed-during-40th-anniversary-nintendo-direct-and-it-looks-interesting"
+    "https://www.eurogamer.net/the-legend-of-zelda-ocarina-of-time-remake-gameplay-finally-revealed-during-40th-anniversary-nintendo-direct-and-it-looks-interesting",
+    "https://www.nintendolife.com/news/2026/09/icymi-ocarina-of-time-on-switch-2-enhances-links-adventure-with-jump-and-dash-controls",
+    "https://www.gematsu.com/2026/09/survivors-like-action-game-river-city-survivors-downtown-of-the-dead-announced-for-apple-arcade",
+    "https://www.nintendolife.com/news/2026/09/zeldas-limited-edition-switch-2-and-other-40th-anniversary-items-are-already-selling-out-unsurprisingly",
+    "https://www.nintendolife.com/news/2026/09/the-legend-of-zelda-ocarina-of-time-switch-2-estimated-file-size-revealed"
   ],
   "seen_titles": [
-    "jack black debuts new super mario song — but why wasn't this in the super mario galaxy movie?",
-    "xbox fanfest tour 2026 announced",
-    "teenage mutant ninja turtles: empire city launches april 30",
-    "epic games store officially reveals its april 9 free game",
     "exploration roguelite turn-based climbing game ascenders: beyond the peak announced for consoles, pc",
     "brian raffel, co-founder of call of duty developer raven software, retires after 36 years at studio",
     "ex sanguis launches in early access on may 21",
@@ -10001,13 +9997,13 @@
     "attack on titan 3 opening animation key visual revealed",
     "final fantasy 14: dawntrail's final story patch is exactly what the game needed, and has the 4-month wait for evercold suddenly feeling a whole lot longer",
     "\"dawg it's unreal engine zelda\" - legend of zelda: ocarina of time remake's new looks receives a mixed reception online following reveal",
-    "the legend of zelda: ocarina of time remake gameplay finally revealed during 40th anniversary nintendo direct, and it looks… interesting"
+    "the legend of zelda: ocarina of time remake gameplay finally revealed during 40th anniversary nintendo direct, and it looks… interesting",
+    "icymi: ocarina of time on switch 2 enhances link's adventure with jump and dash controls",
+    "‘survivors-like’ action game river city survivors: downtown of the dead announced for apple arcade",
+    "zelda's limited-edition switch 2 and other 40th anniversary items are already selling out, unsurprisingly",
+    "the legend of zelda: ocarina of time switch 2 estimated file size revealed"
   ],
   "seen_story_keys": [
-    "986393ad45dca599cf095f150dd4edc022453731",
-    "5dccd9f974653958922e0893c1b70bc464a1884a",
-    "206b2b09d2009a2298ba6d71d5c03f9a21ff4c95",
-    "b9f613418df602620993b26afa4aff3ee9814876",
     "d6413b92e84732724302c045c3cccdde233f6c18",
     "042d53499f78c2d08acb6025cbfe8f935beeaddb",
     "1374a734e80fe59fe59f9cb6d4f2a0c79b6e555d",
@@ -15003,6 +14999,10 @@
     "c466c40560d2be485ac820b21c454f34559e25b4",
     "24c2cb170f7961176da9273a00fc7e73c53d028f",
     "b5cc3f2b43e24705823f577d30d93bc127dd5f98",
-    "dd6458afb020bb1bcfc3554a263242ae8927615e"
+    "dd6458afb020bb1bcfc3554a263242ae8927615e",
+    "3043fa089b5eb002d837848b874a6c5f76728f92",
+    "86f7ee424869f271f602bc4b42311f6771f91c61",
+    "294da968c17da37a14cc3fb473358792162da06d",
+    "2cd51d137641f7e8c5c519561ba3a859a56d254f"
   ]
 }
