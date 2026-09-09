@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/sci-fi-drone-2d-platformer-nullstar-solus-launches-april-16-for-ps5-xbox-series-switch-and-pc",
-    "https://www.gamespot.com/videos/more-games-need-to-be-honest-about-being-early-access/2300-6466802/",
-    "https://gamerant.com/amazon-prime-free-games-april-2026/",
-    "https://www.purexbox.com/news/2026/04/were-just-getting-started-xbox-employee-hypes-up-momentum-of-2026-so-far",
     "https://www.gamespot.com/articles/call-of-duty-black-ops-7-free-trial-goes-live-with-30-maps-and-double-xp/1100-6539196/?ftag=CAD-01-10abi2f",
     "https://www.pcgamer.com/games/strategy/this-new-climbing-game-is-a-bit-like-darkest-dungeon-on-a-mountain-sometimes-you-have-to-cut-the-rope-and-not-everyone-on-the-team-is-going-to-take-it-well-when-you-do/",
     "https://gamerant.com/one-piece-episode-1156-release-date-where-watch-elbaf/",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/disclosure-day-sets-streaming-release-date-on-peacock/",
     "https://gamerant.com/daemons-of-the-shadow-realm-episode-23-release-date/",
     "https://www.polygon.com/nintendo-direct-onyx-dark-grip-horror-game-bloober/",
-    "https://www.eurogamer.net/1900-blizzard-vote-historic-contract-union-layoffs-ai"
+    "https://www.eurogamer.net/1900-blizzard-vote-historic-contract-union-layoffs-ai",
+    "https://gamerant.com/dispatch-developer-next-game-adhoc-studio/",
+    "https://www.pcgamer.com/games/rpg/we-are-no-longer-using-that-one-red-pipe-asset-we-werent-supposed-to-use-the-blood-of-dawnwalker-hotfix-clears-up-one-of-the-games-more-charming-mistakes/",
+    "https://www.gamesindustry.biz/lego-digital-play-acquires-mobile-studio-offroad-games",
+    "https://www.nintendolife.com/news/2026/09/yo-kai-watch-2-haunted-domain-is-real-and-its-coming-to-switch-2"
   ],
   "seen_titles": [
-    "sci-fi drone 2d platformer nullstar: solus launches april 16 for ps5, xbox series, switch, and pc",
-    "more games need to be honest about being early access",
-    "prime gaming reveals 12 free games for april 2026",
-    "'we're just getting started' - xbox employee hypes up 'momentum' of 2026 so far",
     "call of duty: black ops 7 free trial goes live with 30+ maps and double xp",
     "this new climbing game is a bit like darkest dungeon on a mountain: sometimes you have to cut the rope, and not everyone on the team is going to take it well when you do",
     "one piece episode 1156 release date",
@@ -10001,13 +9997,13 @@
     "steven spielberg's disclosure day sets official peacock streaming release date",
     "daemons of the shadow realm episode 23 release date",
     "nintendo reveals rare switch 2 game that can't be played on a tv",
-    "almost 1,900 blizzard workers vote through a \"historic\" union contract securing protections against layoffs and gen-ai"
+    "almost 1,900 blizzard workers vote through a \"historic\" union contract securing protections against layoffs and gen-ai",
+    "dispatch studio's next game is now official",
+    "'we are no longer using that one red pipe asset we weren't supposed to use': the blood of dawnwalker hotfix clears up one of the game's more charming mistakes",
+    "lego digital play acquires mobile studio offroad games",
+    "'yo-kai watch 2: haunted domain' is real, and it's coming to switch 2"
   ],
   "seen_story_keys": [
-    "e6561944740d8e25583f9322ac7c4d4a4836fb3f",
-    "cc89a433af86fe6903feaf23d09e2d9dffddf091",
-    "234a01b3f6190a9056eb46071b972faf70f01136",
-    "ba5bb3b7be10f4ec051447be939dc7df0908a625",
     "dfe0d44da8b3e47b71c2bc56bec03eef02dacdcb",
     "60370b60a308f0c98fbae868f67c21552e7e9c15",
     "ca0bcd621532c5478687add65b6863012a66de89",
@@ -15003,6 +14999,10 @@
     "4118ba5bd6f324b079c8d807bd0237bce1759705",
     "8414aa701eda184ade9ed1499163c045f6bc7ced",
     "1f3db171837e190b5e040b8afa72bd1775987558",
-    "6c232111d2d6d71b148d36193831c8c1813c9ce1"
+    "6c232111d2d6d71b148d36193831c8c1813c9ce1",
+    "c079d136bd04611e910f808a95d921fc81d559a2",
+    "6a3562323857d477c2b7e260c8c518488caa66c2",
+    "33b1a7fd18405c1ad937f70a32de9a1e96182b82",
+    "ecc4fdbf76e78add6852f57bc1b38b4e45e6cf41"
   ]
 }
