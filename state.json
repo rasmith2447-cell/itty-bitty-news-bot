@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/call-of-duty-black-ops-7-free-trial-goes-live-with-30-maps-and-double-xp/1100-6539196/?ftag=CAD-01-10abi2f",
-    "https://www.pcgamer.com/games/strategy/this-new-climbing-game-is-a-bit-like-darkest-dungeon-on-a-mountain-sometimes-you-have-to-cut-the-rope-and-not-everyone-on-the-team-is-going-to-take-it-well-when-you-do/",
-    "https://gamerant.com/one-piece-episode-1156-release-date-where-watch-elbaf/",
-    "https://www.pushsquare.com/news/2026/04/assassins-creed-unitys-ps5-patch-is-put-to-the-test-with-some-surprising-results",
     "https://www.gematsu.com/2026/04/thrifty-business-launches-may-18",
     "https://www.nintendolife.com/news/2026/04/little-nightmares-ii-is-getting-an-enhanced-edition-on-switch-2",
     "https://www.pushsquare.com/news/2026/04/echoes-of-aincrad-is-a-totally-new-take-on-sword-art-online-as-massive-ps5-gameplay-demo-shows",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/dispatch-developer-next-game-adhoc-studio/",
     "https://www.pcgamer.com/games/rpg/we-are-no-longer-using-that-one-red-pipe-asset-we-werent-supposed-to-use-the-blood-of-dawnwalker-hotfix-clears-up-one-of-the-games-more-charming-mistakes/",
     "https://www.gamesindustry.biz/lego-digital-play-acquires-mobile-studio-offroad-games",
-    "https://www.nintendolife.com/news/2026/09/yo-kai-watch-2-haunted-domain-is-real-and-its-coming-to-switch-2"
+    "https://www.nintendolife.com/news/2026/09/yo-kai-watch-2-haunted-domain-is-real-and-its-coming-to-switch-2",
+    "https://www.polygon.com/professor-layton-new-world-of-steam-release-date-nintendo-direct-reveal/",
+    "https://www.videogameschronicle.com/news/wwe-2k26-ringside-pass-season-5-is-out-now-adds-four-new-superstars-including-danhausen/",
+    "https://www.pcgamer.com/hardware/microsofts-ai-vulnerability-detection-results-in-record-breaking-patch-tuesday-addressing-974-security-flaws/",
+    "https://www.nintendolife.com/news/2026/09/professor-layton-and-the-new-world-of-steam-finally-has-a-release-date"
   ],
   "seen_titles": [
-    "call of duty: black ops 7 free trial goes live with 30+ maps and double xp",
-    "this new climbing game is a bit like darkest dungeon on a mountain: sometimes you have to cut the rope, and not everyone on the team is going to take it well when you do",
-    "one piece episode 1156 release date",
-    "assassin's creed unity's ps5 patch is put to the test, with some surprising results",
     "thrifty business launches may 18",
     "little nightmares ii is getting an 'enhanced edition' on switch 2",
     "echoes of aincrad is a totally new take on sword art online, as massive ps5 gameplay demo shows",
@@ -10001,13 +9997,13 @@
     "dispatch studio's next game is now official",
     "'we are no longer using that one red pipe asset we weren't supposed to use': the blood of dawnwalker hotfix clears up one of the game's more charming mistakes",
     "lego digital play acquires mobile studio offroad games",
-    "'yo-kai watch 2: haunted domain' is real, and it's coming to switch 2"
+    "'yo-kai watch 2: haunted domain' is real, and it's coming to switch 2",
+    "new professor layton game finally gets a release date after years of delays",
+    "wwe 2k26 ringside pass season 5 is out now, adds four new superstars including danhausen",
+    "microsoft's ai vulnerability detection results in record-breaking patch tuesday, addressing 974 security flaws",
+    "professor layton and the new world of steam finally has a release date"
   ],
   "seen_story_keys": [
-    "dfe0d44da8b3e47b71c2bc56bec03eef02dacdcb",
-    "60370b60a308f0c98fbae868f67c21552e7e9c15",
-    "ca0bcd621532c5478687add65b6863012a66de89",
-    "4d4f8d6b5c64dff2db1dc506db7800cc73d24702",
     "a208b439098d9d9ef09cf71415e4d31050dd777d",
     "ec3eb64ae13dfb64f068fc3d0ad4648ff11fbdbb",
     "b0e92c4e262f77167d216330e98ef27dd5991107",
@@ -15003,6 +14999,10 @@
     "c079d136bd04611e910f808a95d921fc81d559a2",
     "6a3562323857d477c2b7e260c8c518488caa66c2",
     "33b1a7fd18405c1ad937f70a32de9a1e96182b82",
-    "ecc4fdbf76e78add6852f57bc1b38b4e45e6cf41"
+    "ecc4fdbf76e78add6852f57bc1b38b4e45e6cf41",
+    "b84799adca73620e059b352f1822632b1c76ab3b",
+    "d44793d292c54e6380d7cabb0ee451be18104fee",
+    "c3ff5ceb5ca771b402a3424afb0c948aae782ac3",
+    "19bd7bbf6c528c89d9c50d4c2109fc6b971e9324"
   ]
 }
