@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/exploration-roguelite-turn-based-climbing-game-ascenders-beyond-the-peak-announced-for-consoles-pc",
-    "https://www.ign.com/articles/brian-raffel-co-founder-of-call-of-duty-developer-raven-software-retires-after-36-years-at-studio",
-    "https://www.gematsu.com/2026/04/ex-sanguis-launches-in-early-access-on-may-21",
-    "https://www.pushsquare.com/news/2026/04/playstation-acquires-machine-learning-specialist-to-achieve-new-levels-of-game-visuals",
     "https://www.gematsu.com/2026/04/needy-streamer-overload-ps5-physical-subscriber-edition-announced",
     "https://www.gamespot.com/articles/more-games-need-to-be-honest-about-not-being-finished-yet/1100-6539179/?ftag=CAD-01-10abi2f",
     "https://www.nintendolife.com/news/2026/04/psa-the-super-mario-galaxy-amiibo-are-finally-out-now",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/09/icymi-ocarina-of-time-on-switch-2-enhances-links-adventure-with-jump-and-dash-controls",
     "https://www.gematsu.com/2026/09/survivors-like-action-game-river-city-survivors-downtown-of-the-dead-announced-for-apple-arcade",
     "https://www.nintendolife.com/news/2026/09/zeldas-limited-edition-switch-2-and-other-40th-anniversary-items-are-already-selling-out-unsurprisingly",
-    "https://www.nintendolife.com/news/2026/09/the-legend-of-zelda-ocarina-of-time-switch-2-estimated-file-size-revealed"
+    "https://www.nintendolife.com/news/2026/09/the-legend-of-zelda-ocarina-of-time-switch-2-estimated-file-size-revealed",
+    "https://www.gamesindustry.biz/gamescom-asia-x-thailand-game-show-announces-exhibitor-lineup-for-2026",
+    "https://www.nintendolife.com/news/2026/09/sega-announces-two-sonic-game-collections-for-switch",
+    "https://www.pcgamer.com/hardware/networking/wi-fi-8-is-upon-us-so-here-are-two-routers-we-saw-at-computex-that-should-be-hitting-the-shops-soon/",
+    "https://www.gematsu.com/2026/09/nintendo-switch-2-the-legend-of-zelda-40th-anniversary-edition-announced"
   ],
   "seen_titles": [
-    "exploration roguelite turn-based climbing game ascenders: beyond the peak announced for consoles, pc",
-    "brian raffel, co-founder of call of duty developer raven software, retires after 36 years at studio",
-    "ex sanguis launches in early access on may 21",
-    "playstation acquires machine learning specialist to achieve 'new levels' of game visuals",
     "needy streamer overload ps5 physical ‘subscriber edition’ announced",
     "more games need to be honest about not being finished yet",
     "psa: the super mario galaxy amiibo are finally out now",
@@ -10001,13 +9997,13 @@
     "icymi: ocarina of time on switch 2 enhances link's adventure with jump and dash controls",
     "‘survivors-like’ action game river city survivors: downtown of the dead announced for apple arcade",
     "zelda's limited-edition switch 2 and other 40th anniversary items are already selling out, unsurprisingly",
-    "the legend of zelda: ocarina of time switch 2 estimated file size revealed"
+    "the legend of zelda: ocarina of time switch 2 estimated file size revealed",
+    "gamescom asia x thailand game show announces exhibitor lineup for 2026",
+    "sega announces two sonic game collections for switch",
+    "wi-fi 8 is upon us, so here are two routers we saw at computex that should be hitting the shops soon",
+    "nintendo switch 2 – the legend of zelda 40th anniversary edition announced"
   ],
   "seen_story_keys": [
-    "d6413b92e84732724302c045c3cccdde233f6c18",
-    "042d53499f78c2d08acb6025cbfe8f935beeaddb",
-    "1374a734e80fe59fe59f9cb6d4f2a0c79b6e555d",
-    "157db6f7a6b6c09cf22f41e104a14dc151adef9b",
     "5706ce8b84fb93c0952ce3b0bbf88615a737cb2c",
     "d6007deb010ca52c1c18e71009572d9a757a04b1",
     "44d1f373ea5f3b76a50f0d9c4e4655310e4b8db0",
@@ -15003,6 +14999,10 @@
     "3043fa089b5eb002d837848b874a6c5f76728f92",
     "86f7ee424869f271f602bc4b42311f6771f91c61",
     "294da968c17da37a14cc3fb473358792162da06d",
-    "2cd51d137641f7e8c5c519561ba3a859a56d254f"
+    "2cd51d137641f7e8c5c519561ba3a859a56d254f",
+    "291ce7f8199a5fe58eb46ec760337cc95b371ad6",
+    "5177b6b2cb6e7834a9f87b3c1755a8d9d9b708fc",
+    "8eb4a38c0a6ebb463227f14d735c2035c91d5be0",
+    "073593150ff896fe6b67c33eb8dab22f1ed86b17"
   ]
 }
