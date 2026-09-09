@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/is-the-world-falling-out-of-love-with-traditional-video-games",
-    "https://www.gematsu.com/2026/04/hunter-x-hunter-nen-x-impact-dlc-character-shizuku-launches-april-16",
-    "https://www.purexbox.com/news/2026/04/xbox-announces-eight-fanfest-tour-events-taking-place-across-the-world-in-2026",
-    "https://www.gematsu.com/2026/04/monster-crown-sin-eater-launches-april-30",
     "https://www.ign.com/articles/jack-black-debuts-new-super-mario-song-but-why-wasnt-this-in-the-super-mario-galaxy-movie",
     "https://www.gematsu.com/2026/04/xbox-fanfest-tour-2026-announced",
     "https://www.gematsu.com/2026/04/teenage-mutant-ninja-turtles-empire-city-launches-april-30",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/games/rpg/less-than-a-week-after-launch-the-blood-of-dawnwalker-developer-is-already-getting-to-work-on-the-sequel/",
     "https://www.ign.com/articles/playstation-architect-mark-cerny-nearing-the-end-of-career-launching-fellowship-program-with-game-awards-creator-geoff-keighley",
     "https://www.pushsquare.com/news/2026/09/you-barely-saw-sonys-zelda-movie-during-todays-anniversary-direct",
-    "https://www.ign.com/articles/trump-administration-tetris-clone-vanishes-from-white-house-website-days-after-launch"
+    "https://www.ign.com/articles/trump-administration-tetris-clone-vanishes-from-white-house-website-days-after-launch",
+    "https://www.gematsu.com/2026/09/attack-on-titan-3-opening-animation-key-visual-revealed",
+    "https://www.pcgamer.com/games/final-fantasy/final-fantasy-14-dawntrails-final-story-patch-is-exactly-what-the-game-needed-and-has-the-4-month-wait-for-evercold-suddenly-feeling-a-whole-lot-longer/",
+    "https://www.eurogamer.net/legend-of-zelda-occarina-of-time-remake-reaction-visuals",
+    "https://www.eurogamer.net/the-legend-of-zelda-ocarina-of-time-remake-gameplay-finally-revealed-during-40th-anniversary-nintendo-direct-and-it-looks-interesting"
   ],
   "seen_titles": [
-    "is the world falling out of love with 'traditional' video games?",
-    "hunter x hunter: nen x impact dlc character shizuku launches april 16",
-    "xbox announces eight 'fanfest tour' events taking place across the world in 2026",
-    "monster crown: sin eater launches april 30",
     "jack black debuts new super mario song — but why wasn't this in the super mario galaxy movie?",
     "xbox fanfest tour 2026 announced",
     "teenage mutant ninja turtles: empire city launches april 30",
@@ -10001,13 +9997,13 @@
     "less than a week after launch, the blood of dawnwalker developer is already getting to work on the sequel",
     "playstation architect mark cerny 'nearing the end' of career, launching fellowship program with game awards creator geoff keighley",
     "you barely saw sony's zelda movie during today's anniversary direct",
-    "trump administration tetris clone vanishes from white house website days after launch"
+    "trump administration tetris clone vanishes from white house website days after launch",
+    "attack on titan 3 opening animation key visual revealed",
+    "final fantasy 14: dawntrail's final story patch is exactly what the game needed, and has the 4-month wait for evercold suddenly feeling a whole lot longer",
+    "\"dawg it's unreal engine zelda\" - legend of zelda: ocarina of time remake's new looks receives a mixed reception online following reveal",
+    "the legend of zelda: ocarina of time remake gameplay finally revealed during 40th anniversary nintendo direct, and it looks… interesting"
   ],
   "seen_story_keys": [
-    "2b315ac0b0cd8e06aee0eec86f849b32c8cb3274",
-    "3c32b8f4cc14d99b9cd70d313857c4aa240b034d",
-    "0c9d4e22551a6e34f3c7f96821a0ba7134fa35d7",
-    "5d1eff9ed7fb31465ff597971966b0ff1bb9efdb",
     "986393ad45dca599cf095f150dd4edc022453731",
     "5dccd9f974653958922e0893c1b70bc464a1884a",
     "206b2b09d2009a2298ba6d71d5c03f9a21ff4c95",
@@ -15003,6 +14999,10 @@
     "7deb3411fa18846654cbe5424a518ccb63da1466",
     "ab1601a65faa704874e95f492791286b5ffffb4c",
     "b3d3b8936cb43c11827a6f188782bed059ac6400",
-    "1438abd838312a2945dc01ed0ca89be4680fe0cd"
+    "1438abd838312a2945dc01ed0ca89be4680fe0cd",
+    "c466c40560d2be485ac820b21c454f34559e25b4",
+    "24c2cb170f7961176da9273a00fc7e73c53d028f",
+    "b5cc3f2b43e24705823f577d30d93bc127dd5f98",
+    "dd6458afb020bb1bcfc3554a263242ae8927615e"
   ]
 }
