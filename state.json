@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/musynx-return-now-available",
-    "https://www.gematsu.com/2026/04/game-the-strongest-job-is-apparently-not-a-hero-or-a-sage-but-an-appraiser-provisional-dungeon-and-mystery-girl-announced-for-ps5-ps4-switch-and-pc",
-    "https://www.nintendolife.com/news/2026/04/tetris-99s-new-crossover-event-celebrates-super-mario-galaxy-unlock-a-special-theme",
-    "https://www.pcgamer.com/gaming-industry/take-two-has-seemingly-laid-off-an-unspecified-portion-of-its-ai-team-including-its-head-of-artificial-intelligence/",
     "https://gamerant.com/starfield-free-lanes-update-ps5-release-date-april-7-bethesda/",
     "https://www.pushsquare.com/news/2026/04/following-ceos-ai-doubts-take-twos-ai-team-is-shrinking",
     "https://gamerant.com/take-two-interactive-layoffs-ai-team/",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/09/mario-kart-world-has-been-updated-to-version-1-8-0-here-are-the-full-patch-notes",
     "https://www.pushsquare.com/news/2026/09/goodbye-despair-danganronpa-2x2-brings-the-expanded-sequel-to-ps5-in-january",
     "https://www.videogameschronicle.com/news/nintendo-direct-heres-everything-announced-during-nintendos-presentation/",
-    "https://www.gamesindustry.biz/mark-cerny-and-geoff-keighley-launch-nova-games-foundation-to-fund-young-designers"
+    "https://www.gamesindustry.biz/mark-cerny-and-geoff-keighley-launch-nova-games-foundation-to-fund-young-designers",
+    "https://www.gematsu.com/2026/09/3d-romance-action-adventure-game-blue-bite-announced-for-ps5-pc-and-more",
+    "https://www.gematsu.com/2026/09/coming-of-age-fantasy-visual-novel-aria-blue-i-natsuoto-announced-for-ps5-switch-and-pc",
+    "https://www.nintendolife.com/news/2026/09/capcom-announces-mega-man-dual-override-amiibo-heres-a-first-look",
+    "https://www.gematsu.com/2026/09/physint-to-be-published-by-xbox-game-studios-as-sony-interactive-entertainment-steps-away"
   ],
   "seen_titles": [
-    "musynx: return now available",
-    "game the strongest job is apparently not a hero or a sage, but an appraiser (provisional)! ~dungeon and mystery girl~ announced for ps5, ps4, switch, and pc",
-    "tetris 99's new crossover event celebrates super mario galaxy, unlock a special theme",
-    "take-two has seemingly laid off an unspecified portion of its ai team, including its head of artificial intelligence",
     "april 7 is a very busy day for bethesda",
     "following ceo's ai doubts, take-two's ai team is shrinking",
     "take-two's ai team hit with layoffs",
@@ -10001,13 +9997,13 @@
     "mario kart world has been updated to version 1.8.0, here are the full patch notes",
     "goodbye despair! danganronpa 2x2 brings the expanded sequel to ps5 in january",
     "nintendo direct: here’s everything announced during nintendo’s presentation",
-    "mark cerny and geoff keighley launch nova games foundation to fund young designers"
+    "mark cerny and geoff keighley launch nova games foundation to fund young designers",
+    "3d romance action adventure game blue bite announced for ps5, pc, and more",
+    "coming-of-age fantasy visual novel aria blue i. natsuoto announced for ps5, switch, and pc",
+    "capcom announces mega man: dual override amiibo, here's a first look",
+    "physint to be published by xbox game studios as sony interactive entertainment steps away [update]"
   ],
   "seen_story_keys": [
-    "b6e9cd91d2141531acfd1c6381596949f66f478c",
-    "d07d16064d577ed2c8886867050d1495e52cb3ce",
-    "56dc92f4f92b3fee04e3b47646a8793cb800ad81",
-    "9bf87a80bff9819380ae7a6aeb996e45e52488ae",
     "9412340274a4310f851f71199560327d954cfaa1",
     "6f3a286d9a15620b56c8929c9fd491f577a92ee9",
     "7c9482d6469d5f2f053960fea118d53847c4b7a3",
@@ -15003,6 +14999,10 @@
     "e652c623d1cedb1952199970789454bcd7afb70e",
     "ab3f25263775bc416f239df2c975362f6496a234",
     "18d9c5e4541ebb42a45402bcf9e99e947ba9b684",
-    "c34198d93e446d9cb39c27039fb12745fa30438b"
+    "c34198d93e446d9cb39c27039fb12745fa30438b",
+    "89f5298dc492597bac615bdb76462021787f1ab9",
+    "d47c4d1aa941f0112ed7cd010dadba5270f2788f",
+    "b6a6e2e95344fdcff6222226b83f54fbd8243672",
+    "312a9b695018a2a047f5458fadc81328a4fa3e74"
   ]
 }
