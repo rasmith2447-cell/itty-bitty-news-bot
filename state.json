@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/thrifty-business-launches-may-18",
-    "https://www.nintendolife.com/news/2026/04/little-nightmares-ii-is-getting-an-enhanced-edition-on-switch-2",
-    "https://www.pushsquare.com/news/2026/04/echoes-of-aincrad-is-a-totally-new-take-on-sword-art-online-as-massive-ps5-gameplay-demo-shows",
-    "https://www.gamespot.com/articles/after-peaks-success-its-devs-face-burnout-and-big-decisions/1100-6539195/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/04/musynx-return-now-available",
     "https://www.gematsu.com/2026/04/game-the-strongest-job-is-apparently-not-a-hero-or-a-sage-but-an-appraiser-provisional-dungeon-and-mystery-girl-announced-for-ps5-ps4-switch-and-pc",
     "https://www.nintendolife.com/news/2026/04/tetris-99s-new-crossover-event-celebrates-super-mario-galaxy-unlock-a-special-theme",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/professor-layton-new-world-of-steam-release-date-nintendo-direct-reveal/",
     "https://www.videogameschronicle.com/news/wwe-2k26-ringside-pass-season-5-is-out-now-adds-four-new-superstars-including-danhausen/",
     "https://www.pcgamer.com/hardware/microsofts-ai-vulnerability-detection-results-in-record-breaking-patch-tuesday-addressing-974-security-flaws/",
-    "https://www.nintendolife.com/news/2026/09/professor-layton-and-the-new-world-of-steam-finally-has-a-release-date"
+    "https://www.nintendolife.com/news/2026/09/professor-layton-and-the-new-world-of-steam-finally-has-a-release-date",
+    "https://www.nintendolife.com/news/2026/09/mario-kart-world-has-been-updated-to-version-1-8-0-here-are-the-full-patch-notes",
+    "https://www.pushsquare.com/news/2026/09/goodbye-despair-danganronpa-2x2-brings-the-expanded-sequel-to-ps5-in-january",
+    "https://www.videogameschronicle.com/news/nintendo-direct-heres-everything-announced-during-nintendos-presentation/",
+    "https://www.gamesindustry.biz/mark-cerny-and-geoff-keighley-launch-nova-games-foundation-to-fund-young-designers"
   ],
   "seen_titles": [
-    "thrifty business launches may 18",
-    "little nightmares ii is getting an 'enhanced edition' on switch 2",
-    "echoes of aincrad is a totally new take on sword art online, as massive ps5 gameplay demo shows",
-    "after peak's success, its devs face burnout and big decisions",
     "musynx: return now available",
     "game the strongest job is apparently not a hero or a sage, but an appraiser (provisional)! ~dungeon and mystery girl~ announced for ps5, ps4, switch, and pc",
     "tetris 99's new crossover event celebrates super mario galaxy, unlock a special theme",
@@ -10001,13 +9997,13 @@
     "new professor layton game finally gets a release date after years of delays",
     "wwe 2k26 ringside pass season 5 is out now, adds four new superstars including danhausen",
     "microsoft's ai vulnerability detection results in record-breaking patch tuesday, addressing 974 security flaws",
-    "professor layton and the new world of steam finally has a release date"
+    "professor layton and the new world of steam finally has a release date",
+    "mario kart world has been updated to version 1.8.0, here are the full patch notes",
+    "goodbye despair! danganronpa 2x2 brings the expanded sequel to ps5 in january",
+    "nintendo direct: here’s everything announced during nintendo’s presentation",
+    "mark cerny and geoff keighley launch nova games foundation to fund young designers"
   ],
   "seen_story_keys": [
-    "a208b439098d9d9ef09cf71415e4d31050dd777d",
-    "ec3eb64ae13dfb64f068fc3d0ad4648ff11fbdbb",
-    "b0e92c4e262f77167d216330e98ef27dd5991107",
-    "7dbd2e4b2364e1cd6a66b778e95adece450c3877",
     "b6e9cd91d2141531acfd1c6381596949f66f478c",
     "d07d16064d577ed2c8886867050d1495e52cb3ce",
     "56dc92f4f92b3fee04e3b47646a8793cb800ad81",
@@ -15003,6 +14999,10 @@
     "b84799adca73620e059b352f1822632b1c76ab3b",
     "d44793d292c54e6380d7cabb0ee451be18104fee",
     "c3ff5ceb5ca771b402a3424afb0c948aae782ac3",
-    "19bd7bbf6c528c89d9c50d4c2109fc6b971e9324"
+    "19bd7bbf6c528c89d9c50d4c2109fc6b971e9324",
+    "e652c623d1cedb1952199970789454bcd7afb70e",
+    "ab3f25263775bc416f239df2c975362f6496a234",
+    "18d9c5e4541ebb42a45402bcf9e99e947ba9b684",
+    "c34198d93e446d9cb39c27039fb12745fa30438b"
   ]
 }
