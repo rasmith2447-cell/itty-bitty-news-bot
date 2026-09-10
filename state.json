@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/thick-as-thieves-now-a-single-player-and-co-op-focused-game",
-    "https://www.pcgamer.com/games/life-sim/petit-planet-the-upcoming-cozy-galactic-life-sim-from-hoyoverse-is-taking-signups-for-a-new-beta-test-happening-later-this-month/",
-    "https://www.gamespot.com/articles/why-a-switch-2-price-increase-may-be-inevitable/1100-6539210/?ftag=CAD-01-10abi2f",
-    "https://gamerant.com/upcoming-nintendo-switch-2-games-2026/",
     "https://www.gamespot.com/articles/state-of-decay-3-is-back-from-the-dead-and-you-might-be-able-to-play-it-soon/1100-6539213/?ftag=CAD-01-10abi2f",
     "https://gamerant.com/playstation-store-horror-game-uncharted-nathan-drake/",
     "https://gamerant.com/tomodachi-life-switch-2-handheld-mode-boost-no-support-why/",
@@ -4999,13 +4995,13 @@
     "https://www.rockpapershotgun.com/hideo-kojima-spy-action-game-physint-switches-publishing-allegiance-from-playstation-to-xbox-probably-increasing-the-chances-itll-hit-pc",
     "https://gamerant.com/switch-2-games-like-silent-hill-onyx-dark-grip/",
     "https://www.ign.com/articles/gta-6-developer-rockstar-says-it-will-defend-itself-vigorously-from-union-claims-as-employment-tribunal-over-the-firing-of-31-workers-gets-underway",
-    "https://www.ign.com/articles/nintendo-switch-and-switch-2-system-update-2300-released-here-are-the-full-patch-notes"
+    "https://www.ign.com/articles/nintendo-switch-and-switch-2-system-update-2300-released-here-are-the-full-patch-notes",
+    "https://www.purexbox.com/news/2026/09/xbox-reveals-more-of-what-to-expect-from-tokyo-game-show-showcase-next-week",
+    "https://www.pushsquare.com/news/2026/09/vanillawares-4k-remaster-of-stone-cold-classic-muramasa-carves-out-february-release-date-on-ps5",
+    "https://www.pushsquare.com/news/2026/09/romancing-saga-3s-ps5-remake-looks-amazing-but-its-release-date-is-a-problem",
+    "https://www.eurogamer.net/until-dawn-2-price-cheaper"
   ],
   "seen_titles": [
-    "thick as thieves now a single-player and co-op-focused game",
-    "petit planet, the upcoming 'cozy galactic life sim' from hoyoverse, is taking signups for a new beta test happening later this month",
-    "why a switch 2 price increase may be \"inevitable\"",
-    "upcoming nintendo switch 2 games release dates",
     "state of decay 3 is back from the dead, and you might be able to play it soon",
     "new horror game on playstation store has bootleg nathan drake",
     "tomodachi life reveals why handheld mode boost isn't supported on switch 2",
@@ -10001,13 +9997,13 @@
     "hideo kojima spy action game physint switches publishing allegiance from playstation to xbox, probably increasing the chances it'll hit pc",
     "new switch 2 exclusive horror game has serious silent hill vibes",
     "gta 6 developer rockstar says it will defend itself 'vigorously' from union claims as employment tribunal over the firing of 31 workers gets underway",
-    "nintendo switch and switch 2 system update 23.0.0 released — here are the full patch notes"
+    "nintendo switch and switch 2 system update 23.0.0 released — here are the full patch notes",
+    "xbox reveals more of what to expect from tokyo game show showcase next week",
+    "vanillaware's 4k remaster of stone-cold classic muramasa carves out february release date on ps5",
+    "romancing saga 3's ps5 remake looks amazing, but its release date is a problem",
+    "until dawn 2 is notably cheaper than most first-party playstation games, but is this anything to be worried about?"
   ],
   "seen_story_keys": [
-    "e48740cd9aad2f6a0c866aff05bc422d05b9396e",
-    "c94fbdf9d1e6b236294c1f0f63af1b37ff3be47f",
-    "bc0fef9a3b623b17d31e8eaf34f0d4e04ba43bcb",
-    "37266c8d12c9e8106084afadaa5f1df30d7f864f",
     "0632e30aafc14f764e0cc8acf5787ee708369d84",
     "e38399ccdee1b99bbb53a3a99b465d39a42c7a3c",
     "d44cc094e051e1491a89b30f38130804928cb8db",
@@ -15003,6 +14999,10 @@
     "58a534572d11cfc583ddf34d4227d4dbfa7d8f69",
     "10b630dd9aefb6cbad3753ca8fade0f01c3f340b",
     "6ba4a8be56e640e0c56155d3b86f31d73af62382",
-    "4fa3d90496999a200a03b24d74d45d1272ba0c5d"
+    "4fa3d90496999a200a03b24d74d45d1272ba0c5d",
+    "21a13878d3caad5784860e77ad8cf6c96e249443",
+    "6b12ab1c9b20c3fcc0c4244f71af18ed7ed51eca",
+    "97680bab57d91e199c62c46d2abb0213e5e6f269",
+    "cb2da525bf46116d1f293aecbc60e4323e32b49d"
   ]
 }
