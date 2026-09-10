@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/state-of-decay-3-is-back-from-the-dead-and-you-might-be-able-to-play-it-soon/1100-6539213/?ftag=CAD-01-10abi2f",
-    "https://gamerant.com/playstation-store-horror-game-uncharted-nathan-drake/",
-    "https://gamerant.com/tomodachi-life-switch-2-handheld-mode-boost-no-support-why/",
-    "https://www.gematsu.com/2026/04/morbid-metal-launches-in-early-access-on-april-8",
     "https://www.purexbox.com/news/2026/04/tiny-bookshop-is-fantastic-on-switch-and-its-coming-to-xbox-game-pass-next-week",
     "https://www.gematsu.com/2026/04/snap-grab-launches-april-24-for-pc-later-for-consoles",
     "https://www.polygon.com/state-of-decay-3-alpha-release-undead-labs/",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/09/xbox-reveals-more-of-what-to-expect-from-tokyo-game-show-showcase-next-week",
     "https://www.pushsquare.com/news/2026/09/vanillawares-4k-remaster-of-stone-cold-classic-muramasa-carves-out-february-release-date-on-ps5",
     "https://www.pushsquare.com/news/2026/09/romancing-saga-3s-ps5-remake-looks-amazing-but-its-release-date-is-a-problem",
-    "https://www.eurogamer.net/until-dawn-2-price-cheaper"
+    "https://www.eurogamer.net/until-dawn-2-price-cheaper",
+    "https://www.polygon.com/wardogs-steam-charts-1-million-copies-sold/",
+    "https://www.ign.com/articles/iphone-duo-animation-has-already-been-reproduced-on-the-galaxy-fold-8",
+    "https://www.rockpapershotgun.com/ubisoft-games-on-steam-may-soon-no-longer-require-the-pesky-connect-launcher-according-to-an-announcement-post-thats-weirdly-tough-to-pin-down",
+    "https://gamerant.com/resident-evil-requiem-dive-usj/"
   ],
   "seen_titles": [
-    "state of decay 3 is back from the dead, and you might be able to play it soon",
-    "new horror game on playstation store has bootleg nathan drake",
-    "tomodachi life reveals why handheld mode boost isn't supported on switch 2",
-    "morbid metal launches in early access on april 8",
     "tiny bookshop is fantastic on switch, and it's coming to xbox game pass next week",
     "snap & grab launches april 24 for pc, later for consoles",
     "state of decay 3 update reveals playtests coming in may 2026",
@@ -10001,13 +9997,13 @@
     "xbox reveals more of what to expect from tokyo game show showcase next week",
     "vanillaware's 4k remaster of stone-cold classic muramasa carves out february release date on ps5",
     "romancing saga 3's ps5 remake looks amazing, but its release date is a problem",
-    "until dawn 2 is notably cheaper than most first-party playstation games, but is this anything to be worried about?"
+    "until dawn 2 is notably cheaper than most first-party playstation games, but is this anything to be worried about?",
+    "a brand-new early access fps is topping the steam charts",
+    "the iphone duo's slick opening and closing animation has already been reproduced on the galaxy fold 8",
+    "ubisoft games on steam may soon no longer require the pesky connect launcher, according to an announcement post that's weirdly tough to pin down",
+    "resident evil requiem: the dive launching september 11"
   ],
   "seen_story_keys": [
-    "0632e30aafc14f764e0cc8acf5787ee708369d84",
-    "e38399ccdee1b99bbb53a3a99b465d39a42c7a3c",
-    "d44cc094e051e1491a89b30f38130804928cb8db",
-    "66453276907bdffcd36ac8e2c6ef19c5c7aea065",
     "d7c4338483d047d867ff9f4bc401f3e6a1c84707",
     "0e5b6068464eadebfc4b94ebef309eab91834624",
     "bafe198e13dd40f21caccb414b0803147bbf4015",
@@ -15003,6 +14999,10 @@
     "21a13878d3caad5784860e77ad8cf6c96e249443",
     "6b12ab1c9b20c3fcc0c4244f71af18ed7ed51eca",
     "97680bab57d91e199c62c46d2abb0213e5e6f269",
-    "cb2da525bf46116d1f293aecbc60e4323e32b49d"
+    "cb2da525bf46116d1f293aecbc60e4323e32b49d",
+    "5820025d8e06932dc934a3790f0875cf165f3853",
+    "1a2e6f8c6f36588f271e81b6a1dd75bbb25e1f0e",
+    "42b0c46b13a36eff2885aa1b45892ec1981cb784",
+    "ec785af2afe018e14aed8546542f2f504496b989"
   ]
 }
