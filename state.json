@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/04/tiny-bookshop-is-fantastic-on-switch-and-its-coming-to-xbox-game-pass-next-week",
-    "https://www.gematsu.com/2026/04/snap-grab-launches-april-24-for-pc-later-for-consoles",
-    "https://www.polygon.com/state-of-decay-3-alpha-release-undead-labs/",
-    "https://www.ign.com/articles/hoyoverses-cozy-sim-petit-planet-gets-closed-beta-testing-this-month",
     "https://www.ign.com/articles/gta-streamer-turned-dev-launches-cash-heist-city-in-fortnite",
     "https://gamerant.com/starfield-ps5-features/",
     "https://www.pushsquare.com/news/2026/04/for-all-the-talk-about-crimson-desert-nothing-beats-mlb-the-show-on-the-us-ps5-chart",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/wardogs-steam-charts-1-million-copies-sold/",
     "https://www.ign.com/articles/iphone-duo-animation-has-already-been-reproduced-on-the-galaxy-fold-8",
     "https://www.rockpapershotgun.com/ubisoft-games-on-steam-may-soon-no-longer-require-the-pesky-connect-launcher-according-to-an-announcement-post-thats-weirdly-tough-to-pin-down",
-    "https://gamerant.com/resident-evil-requiem-dive-usj/"
+    "https://gamerant.com/resident-evil-requiem-dive-usj/",
+    "https://www.rockpapershotgun.com/gnog-and-goodbye-volcano-high-dev-ko_op-share-that-they-are-laying-off-staff-in-the-only-remotely-good-statement-ive-seen-in-a-while",
+    "https://www.ign.com/articles/t-mobile-apple-iphone-18-on-us-deal-announced",
+    "https://www.pushsquare.com/news/2026/09/promising-detective-rpg-decapolice-officially-delayed-into-2027",
+    "https://www.gamespot.com/articles/nintendo-adds-vrr-to-docked-nintendo-switch-2-play-in-the-most-annoying-way/"
   ],
   "seen_titles": [
-    "tiny bookshop is fantastic on switch, and it's coming to xbox game pass next week",
-    "snap & grab launches april 24 for pc, later for consoles",
-    "state of decay 3 update reveals playtests coming in may 2026",
-    "hoyoverse's cozy sim petit planet gets closed beta testing this month",
     "gta streamer turned dev launches cash heist city in fortnite",
     "starfield reveals ps5 and ps5 pro exclusive features",
     "for all the talk about crimson desert, nothing beats mlb the show on the us ps5 chart",
@@ -10001,13 +9997,13 @@
     "a brand-new early access fps is topping the steam charts",
     "the iphone duo's slick opening and closing animation has already been reproduced on the galaxy fold 8",
     "ubisoft games on steam may soon no longer require the pesky connect launcher, according to an announcement post that's weirdly tough to pin down",
-    "resident evil requiem: the dive launching september 11"
+    "resident evil requiem: the dive launching september 11",
+    "gnog and goodbye volcano high dev ko_op share that they are laying off staff in the only, remotely good statement i've seen in a while",
+    "t-mobile is already teasing its apple iphone 18 \"on us\" promotion ahead of the official preorder launch",
+    "promising detective rpg decapolice officially delayed into 2027",
+    "nintendo adds vrr to docked nintendo switch 2 play in the most annoying way"
   ],
   "seen_story_keys": [
-    "d7c4338483d047d867ff9f4bc401f3e6a1c84707",
-    "0e5b6068464eadebfc4b94ebef309eab91834624",
-    "bafe198e13dd40f21caccb414b0803147bbf4015",
-    "0706bbac3110a45fec05b6830ea80c7b3d62ff59",
     "025e1ca39cee27d173602896313e87e61a38d062",
     "76d29ec1dc3de731d90c956e96ca6b46caaa122f",
     "998e1f7373dd1bf385c1351abbfa5fe2e13f083c",
@@ -15003,6 +14999,10 @@
     "5820025d8e06932dc934a3790f0875cf165f3853",
     "1a2e6f8c6f36588f271e81b6a1dd75bbb25e1f0e",
     "42b0c46b13a36eff2885aa1b45892ec1981cb784",
-    "ec785af2afe018e14aed8546542f2f504496b989"
+    "ec785af2afe018e14aed8546542f2f504496b989",
+    "943aa5d41ed4cc074e1281241f2f6bf6e707666a",
+    "e1d4a259d1c85688e1f0efcdcc8de619664b999b",
+    "31d2c76b2ad5afad541dadfdb07cf583bfad877d",
+    "364576c3a21fb4213cbd305deac424088e9fcb8e"
   ]
 }
