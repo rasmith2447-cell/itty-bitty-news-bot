@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/hiryu-no-ken-collection-announced-for-pc",
-    "https://gamerant.com/elden-ring-deleted-cutscene-miquella-haligtree/",
-    "https://www.nintendolife.com/news/2026/04/super-rare-announces-toree-and-friends-physical-switch-collection-pre-orders-open-next-week",
-    "https://gamerant.com/final-fantasy-14-letter-from-producer-live-april-2026-date/",
     "https://www.nintendolife.com/news/2026/04/another-eden-begins-brings-more-rpg-action-to-switch-1-and-2-this-september-heres-8-minutes-of-footage",
     "https://gamerant.com/sony-acquire-cinemersive-labs/",
     "https://gamerant.com/saros-returnal-how-long-to-beat-hltb/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/best-new-steam-fps-games-wardogs/",
     "https://www.purexbox.com/news/2026/09/two-xbox-game-pass-titles-have-received-new-release-windows-this-week",
     "https://www.eurogamer.net/google-fly-brain-doom-beat-saber",
-    "https://www.polygon.com/kojima-physint-why-playstation-canceled-budget-concerns-death-stranding/"
+    "https://www.polygon.com/kojima-physint-why-playstation-canceled-budget-concerns-death-stranding/",
+    "https://www.polygon.com/the-witcher-3-wild-hunt-songs-of-the-past-new-chain-weapon/",
+    "https://www.pcgamer.com/games/survival-crafting/if-you-use-devcommands-to-cheat-in-valheim-but-want-your-achievements-anyway-you-can-get-them-by-using-the-new-devcommand-yesiuseddevcommandsbutiwantmyachievementsanyway/",
+    "https://www.pushsquare.com/news/2026/09/multiplayer-shooter-wardogs-confirmed-for-ps5-as-early-access-launch-goes-nuclear",
+    "https://www.ign.com/articles/gta-6-developer-rockstar-says-it-was-forced-to-put-privacy-films-on-its-buildings-after-drones-were-used-to-snap-photos-through-office-windows"
   ],
   "seen_titles": [
-    "hiryu no ken collection announced for pc",
-    "deleted elden ring cutscene surfaces 4 years after launch",
-    "super rare announces 'toree & friends' physical switch collection, pre-orders open next week",
-    "final fantasy 14 players should circle april 17 on their calendar",
     "'another eden begins' brings more rpg action to switch 1 & 2 this september, here's 8 minutes of footage",
     "sony has acquired ai company cinemersive labs",
     "how long it takes to beat returnal ahead of saros' release date",
@@ -10001,13 +9997,13 @@
     "brand-new steam fps is already a massive hit",
     "two xbox game pass titles have received new release windows this week",
     "\"the more aroused the fly is the harder it tries to shoot\" - google's fully mapped fly brain is now playing doom, beat saber, and more",
-    "playstation's shock cancelation of kojima's new game now makes perfect sense"
+    "playstation's shock cancelation of kojima's new game now makes perfect sense",
+    "the witcher 3's new weapon was 'impossible' 11 years ago",
+    "if you use devcommands to cheat in valheim but want your achievements anyway, you can get them by using the new devcommand 'yesiuseddevcommandsbutiwantmyachievementsanyway'",
+    "multiplayer shooter wardogs confirmed for ps5 as early access launch goes nuclear",
+    "gta 6 developer rockstar says it was forced to put privacy films on its buildings after drones were used to snap photos through office windows"
   ],
   "seen_story_keys": [
-    "c93a90f8dacca939385c4d466257a0933830715f",
-    "6e0c479c500f35cf0634658cb3d88c5c683affe1",
-    "6fb93578eb35f6408195f8f0d2927964e3f6dfff",
-    "8d4b31f554a1643d973371daf0583b5cad042dd4",
     "b543b2ccf869cbce09e116cdcf5209331e567db0",
     "2ecaa9eea521bb81e3d581907e1cb339cf60847d",
     "98df3ad96dd23afb64daf58a93d0c51d679cd187",
@@ -15003,6 +14999,10 @@
     "2d8217f7c45ba60742abfc1782d41b574b8a01ae",
     "8009592dad4209bfead2550348c08b11f34eb7d8",
     "ce73a75226a0715a35ee7f05675236e2d6719744",
-    "02804d98d511321780000409d8c9362f6e6ef557"
+    "02804d98d511321780000409d8c9362f6e6ef557",
+    "4a28840865f8edd5de01d32342593e3bcae03dde",
+    "39f7eba8aefac51b3c979260d539744aa79d3772",
+    "bb013c1b83ecafa5675ca74f637a4249eb037490",
+    "72dd6bcad57ed2bc73500b5421b3e69b2793f03b"
   ]
 }
