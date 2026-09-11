@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/crimson-desert-patch-1-02-brings-big-quality-of-life-improvements-headgear-toggle-ps5-pro-upgrade-and-more",
-    "https://gamerant.com/the-darkness-sega-dreamcast/",
-    "https://gamerant.com/escape-from-tarkov-total-players-max-prestige/",
-    "https://gamerant.com/crimson-desert-april-4-update-patch-notes/",
     "https://www.gematsu.com/2026/04/another-eden-begins-launches-september-17",
     "https://www.pcgamer.com/hardware/i-bought-a-ps5-on-launch-day-but-i-wont-be-buying-a-ps6-even-though-its-exclusives-arent-coming-to-pc-anymore/",
     "https://www.rockpapershotgun.com/grand-theft-auto-6-publisher-take-two-have-seemingly-laid-off-their-head-of-ai-and-several-of-the-departments-staffers",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/09/metroid-dread-dev-mercurysteam-seemingly-confirms-work-on-ravenous-with-ninja-and-love-heart-emojis",
     "https://www.nintendolife.com/news/2026/09/nintendos-latest-system-firmware-update-resolves-switch-vulnerability",
     "https://www.eurogamer.net/ubisoft-connect-steam-launcher-requirement-update",
-    "https://www.pushsquare.com/news/2026/09/final-fantasy-7-revelation-wont-have-remake-and-rebirths-cheats-at-launch"
+    "https://www.pushsquare.com/news/2026/09/final-fantasy-7-revelation-wont-have-remake-and-rebirths-cheats-at-launch",
+    "https://www.nintendolife.com/news/2026/09/round-up-everything-announced-in-the-level-5-vision-2026-ii-showcase",
+    "https://www.gematsu.com/2026/09/professor-layton-and-the-curious-village-remake-announced-for-ps5-switch-2-switch-and-pc",
+    "https://www.gematsu.com/2026/09/level-5-announces-tgs-2026-lineup",
+    "https://www.gematsu.com/2026/09/holy-horror-mansion-launches-in-2027-for-ps5-switch-2-and-pc"
   ],
   "seen_titles": [
-    "crimson desert patch 1.02 brings big quality of life improvements, headgear toggle, ps5 pro upgrade, and more",
-    "a brand-new survival-horror game is coming to the sega dreamcast",
-    "escape from tarkov devs reveal how many total players have hit max prestige",
-    "crimson desert releases patch notes for april 3 update",
     "another eden begins launches september 17",
     "i bought a ps5 on launch day but i won't be buying a ps6, even though its exclusives aren't coming to pc anymore",
     "grand theft auto 6 publisher take-two have seemingly laid off their head of ai and several of the department's staffers",
@@ -10001,13 +9997,13 @@
     "metroid dread dev mercurysteam seemingly confirms work on ravenous with ninja and love heart emojis",
     "nintendo's latest system firmware update resolves switch vulnerability",
     "ubisoft steam games to no longer require the connect launcher, in \"initial step toward a smoother and more streamlined launch experience\"",
-    "final fantasy 7 revelation won't have remake and rebirth's 'cheats' at launch"
+    "final fantasy 7 revelation won't have remake and rebirth's 'cheats' at launch",
+    "round up: everything announced in the level-5 vision 2026 ii showcase",
+    "professor layton and the curious village remake announced for ps5, switch 2, switch, and pc",
+    "level-5 announces tgs 2026 lineup",
+    "holy horror mansion launches in 2027 for ps5, switch 2, and pc"
   ],
   "seen_story_keys": [
-    "69a9a691f841ab7c656ddf9430541d5ce145dbea",
-    "4ed93b364d99fd15cafbc54d97c0bea61a98b697",
-    "a3bba0e6bbe2e92875338b86089477db70c29242",
-    "3b571c27236de95c02a09ec9ea9e06aa62cd77eb",
     "3f68d7e18b92844d0ac6d4983426075e5d61f82d",
     "c8baec90bbb57db42424f9519466da7681c5f867",
     "ba0002f95115481916cf23b21df3f378fe1637fa",
@@ -15003,6 +14999,10 @@
     "43dd11d77a4c238c3c5343a9d2cccc7f6a3d5362",
     "00a4e6d23233cff4bd67ac1cddb3636117e62d6c",
     "73ebab6eeee6c4ebf61a1244f498e669a086ddac",
-    "7b48e32ca631e1068ea9242fc161e2c6eafd11c6"
+    "7b48e32ca631e1068ea9242fc161e2c6eafd11c6",
+    "5f718c52b58467cb64adc5e128396d4a077a68e3",
+    "40682be6cdb3823eadb88f7a739c31b95cf5a036",
+    "09fb51faa93122aa8862d69d18eb52eebdc24be6",
+    "7ae7390d4c82458c19ead2d6433ffe2f4da540a0"
   ]
 }
