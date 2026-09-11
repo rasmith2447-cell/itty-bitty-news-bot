@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/04/another-eden-begins-brings-more-rpg-action-to-switch-1-and-2-this-september-heres-8-minutes-of-footage",
-    "https://gamerant.com/sony-acquire-cinemersive-labs/",
-    "https://gamerant.com/saros-returnal-how-long-to-beat-hltb/",
-    "https://gamerant.com/starfield-ps5-free-lanes-update-release-time-terran-armada/",
     "https://gamerant.com/official-whih-console-gaming-too-most-expensive/",
     "https://gamerant.com/pokemon-tcg-30th-anniversary-set-release-date/",
     "https://www.polygon.com/crimson-desert-second-update/",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/the-witcher-3-wild-hunt-songs-of-the-past-new-chain-weapon/",
     "https://www.pcgamer.com/games/survival-crafting/if-you-use-devcommands-to-cheat-in-valheim-but-want-your-achievements-anyway-you-can-get-them-by-using-the-new-devcommand-yesiuseddevcommandsbutiwantmyachievementsanyway/",
     "https://www.pushsquare.com/news/2026/09/multiplayer-shooter-wardogs-confirmed-for-ps5-as-early-access-launch-goes-nuclear",
-    "https://www.ign.com/articles/gta-6-developer-rockstar-says-it-was-forced-to-put-privacy-films-on-its-buildings-after-drones-were-used-to-snap-photos-through-office-windows"
+    "https://www.ign.com/articles/gta-6-developer-rockstar-says-it-was-forced-to-put-privacy-films-on-its-buildings-after-drones-were-used-to-snap-photos-through-office-windows",
+    "https://www.gematsu.com/2026/09/moss-series-developer-polyarc-shuts-down",
+    "https://www.pushsquare.com/news/2026/09/moss-psvr2-dev-polyarc-closed-after-12-years-of-games",
+    "https://www.eurogamer.net/rockstar-gta-6-fired-employees-tribunal-statements",
+    "https://www.gematsu.com/2026/09/gley-lancer-overdrive-announced-for-ps5-xbox-series-ps4-switch-and-pc"
   ],
   "seen_titles": [
-    "'another eden begins' brings more rpg action to switch 1 & 2 this september, here's 8 minutes of footage",
-    "sony has acquired ai company cinemersive labs",
-    "how long it takes to beat returnal ahead of saros' release date",
-    "when does starfield come out on ps5?",
     "it's official: console gaming has become too expensive",
     "pokemon tcg confirms release date for 30th anniversary set",
     "crimson desert patch 1.02 confirms those who played at launch had it the worst",
@@ -10001,13 +9997,13 @@
     "the witcher 3's new weapon was 'impossible' 11 years ago",
     "if you use devcommands to cheat in valheim but want your achievements anyway, you can get them by using the new devcommand 'yesiuseddevcommandsbutiwantmyachievementsanyway'",
     "multiplayer shooter wardogs confirmed for ps5 as early access launch goes nuclear",
-    "gta 6 developer rockstar says it was forced to put privacy films on its buildings after drones were used to snap photos through office windows"
+    "gta 6 developer rockstar says it was forced to put privacy films on its buildings after drones were used to snap photos through office windows",
+    "moss series developer polyarc shuts down",
+    "moss psvr2 dev polyarc closed after 12 years of games",
+    "'it would have been insanity to take no action' - fiery opening statements reveal rockstar's culture of secrecy as tribunal over sacked gta 6 employees begins",
+    "gley lancer: overdrive announced for ps5, xbox series, ps4, switch, and pc"
   ],
   "seen_story_keys": [
-    "b543b2ccf869cbce09e116cdcf5209331e567db0",
-    "2ecaa9eea521bb81e3d581907e1cb339cf60847d",
-    "98df3ad96dd23afb64daf58a93d0c51d679cd187",
-    "8f31309f1003c5ac04be609e618352ad24dfacef",
     "4baa100604e114ca68999e3bfc717402334b783b",
     "ee9f9b28cc2a2317cd1a892d496d0f37a7bafee5",
     "2302044e568b8de9ec5a2e0168abcc5fe380fe2d",
@@ -15003,6 +14999,10 @@
     "4a28840865f8edd5de01d32342593e3bcae03dde",
     "39f7eba8aefac51b3c979260d539744aa79d3772",
     "bb013c1b83ecafa5675ca74f637a4249eb037490",
-    "72dd6bcad57ed2bc73500b5421b3e69b2793f03b"
+    "72dd6bcad57ed2bc73500b5421b3e69b2793f03b",
+    "d94619e7e826f22696686c82f53fc875acb25347",
+    "3de0ae93e24674f38bef94a5def07addb2af183e",
+    "a172e773651309abce28d138be59d11adbc8700c",
+    "0a8232ec033b3c2eece3529e64b318968f397a05"
   ]
 }
