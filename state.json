@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/games-you-realize-too-late-you-are-the-villain/",
-    "https://www.nintendolife.com/news/2026/04/ratatan-dev-cancels-the-switch-version",
-    "https://www.ign.com/articles/crimson-desert-gets-more-storage-space-a-headgear-visibility-option-and-even-a-toggle-for-previous-movement-controls-in-patch-10200",
-    "https://gamerant.com/ea-games-shutting-down-plants-vs-zombies-hd/",
     "https://www.pushsquare.com/news/2026/04/crimson-desert-patch-1-02-brings-big-quality-of-life-improvements-headgear-toggle-ps5-pro-upgrade-and-more",
     "https://gamerant.com/the-darkness-sega-dreamcast/",
     "https://gamerant.com/escape-from-tarkov-total-players-max-prestige/",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/gaming-industry/ubisoft-is-testing-making-its-games-far-less-annoying-to-launch-on-steam/",
     "https://www.gematsu.com/2026/09/aeterna-lucis-launches-december-3",
     "https://www.pushsquare.com/news/2026/09/first-professor-layton-game-gets-ps5-remake-curious-village-out-in-2027",
-    "https://www.gematsu.com/2026/09/dark-fantasy-rpg-under-mythos-announced-for-switch-pc"
+    "https://www.gematsu.com/2026/09/dark-fantasy-rpg-under-mythos-announced-for-switch-pc",
+    "https://www.nintendolife.com/news/2026/09/metroid-dread-dev-mercurysteam-seemingly-confirms-work-on-ravenous-with-ninja-and-love-heart-emojis",
+    "https://www.nintendolife.com/news/2026/09/nintendos-latest-system-firmware-update-resolves-switch-vulnerability",
+    "https://www.eurogamer.net/ubisoft-connect-steam-launcher-requirement-update",
+    "https://www.pushsquare.com/news/2026/09/final-fantasy-7-revelation-wont-have-remake-and-rebirths-cheats-at-launch"
   ],
   "seen_titles": [
-    "games where you realize too late that you were the villain",
-    "ratatan dev cancels the switch version",
-    "crimson desert gets more storage space, a headgear visibility option, and even a toggle for previous movement controls in patch 1.02.00",
-    "ea game is shutting down on june 24",
     "crimson desert patch 1.02 brings big quality of life improvements, headgear toggle, ps5 pro upgrade, and more",
     "a brand-new survival-horror game is coming to the sega dreamcast",
     "escape from tarkov devs reveal how many total players have hit max prestige",
@@ -10001,13 +9997,13 @@
     "ubisoft is 'testing' making its games far less annoying to launch on steam",
     "aeterna lucis launches december 3",
     "first professor layton game gets ps5 remake, curious village out in 2027",
-    "dark fantasy rpg under mythos announced for switch, pc"
+    "dark fantasy rpg under mythos announced for switch, pc",
+    "metroid dread dev mercurysteam seemingly confirms work on ravenous with ninja and love heart emojis",
+    "nintendo's latest system firmware update resolves switch vulnerability",
+    "ubisoft steam games to no longer require the connect launcher, in \"initial step toward a smoother and more streamlined launch experience\"",
+    "final fantasy 7 revelation won't have remake and rebirth's 'cheats' at launch"
   ],
   "seen_story_keys": [
-    "d3df159486381d3f592995c08985aec3efc3d97c",
-    "bfffae6aea7e01867625055546f438aa74474051",
-    "8b1b2a9eeda2d60e83992f8e228ce2aa737e8d89",
-    "9bd8a79553544c2bb05a553a69d515605a92254b",
     "69a9a691f841ab7c656ddf9430541d5ce145dbea",
     "4ed93b364d99fd15cafbc54d97c0bea61a98b697",
     "a3bba0e6bbe2e92875338b86089477db70c29242",
@@ -15003,6 +14999,10 @@
     "45efefbea46088f59d651167977d1a10863b5507",
     "771f92140bf8626a3bfaeacbc3ba810e93a1fc09",
     "5c168dfb8e850b9c1c5374da64229bab29cfe8e5",
-    "ab993dc43a6e4071a77738743a1bdc2a1e045f2b"
+    "ab993dc43a6e4071a77738743a1bdc2a1e045f2b",
+    "43dd11d77a4c238c3c5343a9d2cccc7f6a3d5362",
+    "00a4e6d23233cff4bd67ac1cddb3636117e62d6c",
+    "73ebab6eeee6c4ebf61a1244f498e669a086ddac",
+    "7b48e32ca631e1068ea9242fc161e2c6eafd11c6"
   ]
 }
