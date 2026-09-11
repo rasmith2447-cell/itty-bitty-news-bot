@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/card-games/slay-the-spire-2-adds-end-of-run-badges-to-let-you-know-what-was-unique-about-each-adventure-in-latest-beta-patch/",
-    "https://www.pcgamer.com/gaming-industry/subscription-service-for-indie-games-gets-a-rough-reception/",
-    "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-monopoly-set-is-now-officially-available",
-    "https://gamerant.com/gaming-historian-youtube-retiring-why/",
     "https://gamerant.com/games-you-realize-too-late-you-are-the-villain/",
     "https://www.nintendolife.com/news/2026/04/ratatan-dev-cancels-the-switch-version",
     "https://www.ign.com/articles/crimson-desert-gets-more-storage-space-a-headgear-visibility-option-and-even-a-toggle-for-previous-movement-controls-in-patch-10200",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/under-night-in-birth-ii-sysceles-dlc-character-zohar-launches-september-15-for-ps5-ps4-and-pc-september-23-for-switch",
     "https://www.polygon.com/sony-fairgames-ps5-project-espresso-playtest-haven-studios/",
     "https://www.gematsu.com/2026/09/project-espresso-playtest-sign-ups-open-on-player-gg-seemingly-fairgame",
-    "https://www.pcgamer.com/games/fps/wardogs-servers-go-down-as-over-300-000-people-rush-to-play-on-launch-day/"
+    "https://www.pcgamer.com/games/fps/wardogs-servers-go-down-as-over-300-000-people-rush-to-play-on-launch-day/",
+    "https://www.pcgamer.com/gaming-industry/ubisoft-is-testing-making-its-games-far-less-annoying-to-launch-on-steam/",
+    "https://www.gematsu.com/2026/09/aeterna-lucis-launches-december-3",
+    "https://www.pushsquare.com/news/2026/09/first-professor-layton-game-gets-ps5-remake-curious-village-out-in-2027",
+    "https://www.gematsu.com/2026/09/dark-fantasy-rpg-under-mythos-announced-for-switch-pc"
   ],
   "seen_titles": [
-    "slay the spire 2 adds end-of-run badges 'to let you know what was unique about each adventure' in latest beta patch",
-    "subscription service for indie games gets a rough reception",
-    "the super mario galaxy movie monopoly set is now officially available",
-    "the gaming historian is done making youtube videos",
     "games where you realize too late that you were the villain",
     "ratatan dev cancels the switch version",
     "crimson desert gets more storage space, a headgear visibility option, and even a toggle for previous movement controls in patch 1.02.00",
@@ -10001,13 +9997,13 @@
     "under night in-birth ii sys:celes dlc character zohar launches september 15 for ps5, ps4, and pc, september 23 for switch",
     "ps5 heist shooter fairgames makes surprising return under new name",
     "project espresso playtest sign-ups open on player.gg, seemingly fairgame$",
-    "wardogs servers go down as over 300,000 people rush to play on launch day [update: i think we're back]"
+    "wardogs servers go down as over 300,000 people rush to play on launch day [update: i think we're back]",
+    "ubisoft is 'testing' making its games far less annoying to launch on steam",
+    "aeterna lucis launches december 3",
+    "first professor layton game gets ps5 remake, curious village out in 2027",
+    "dark fantasy rpg under mythos announced for switch, pc"
   ],
   "seen_story_keys": [
-    "243020eaae24f5b9d785c6f8ea7c649c0a5c96f4",
-    "a4f3b0dbb8fa5d0265fb31949d12bebf32456d97",
-    "3fe7fddb221f75770400290f82c24a77f7570d38",
-    "32ae8ae7ad13069251b989e1326c43d894a263fb",
     "d3df159486381d3f592995c08985aec3efc3d97c",
     "bfffae6aea7e01867625055546f438aa74474051",
     "8b1b2a9eeda2d60e83992f8e228ce2aa737e8d89",
@@ -15003,6 +14999,10 @@
     "b1cdf1ef90a2259df0c990ca904ae8c341b7795d",
     "52097bd1a72ed2a32cf1675c1b0f8be3f5ebd9e8",
     "456894555d0e85d47405c7b38d953b5c1310af3a",
-    "76391c23168854a25990f963a6250675d8aa9c6a"
+    "76391c23168854a25990f963a6250675d8aa9c6a",
+    "45efefbea46088f59d651167977d1a10863b5507",
+    "771f92140bf8626a3bfaeacbc3ba810e93a1fc09",
+    "5c168dfb8e850b9c1c5374da64229bab29cfe8e5",
+    "ab993dc43a6e4071a77738743a1bdc2a1e045f2b"
   ]
 }
