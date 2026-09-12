@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/pokemon-champions-release-date-countdown/",
-    "https://www.pushsquare.com/news/2026/04/ni-no-kuni-dev-level-5-confirms-new-vision-showcase-for-this-week",
-    "https://www.nintendolife.com/news/2026/04/level-5-will-finally-share-news-on-its-upcoming-titles-in-vision-2026-showcase",
-    "https://www.purexbox.com/news/2026/04/heres-what-crimson-deserts-new-4k-performance-mode-looks-like-on-xbox-series-x",
     "https://www.ign.com/articles/bloodmoored-first-person-psychological-horror-game-announced-for-pc",
     "https://www.nintendolife.com/news/2026/04/holy-moly-the-eternal-life-of-goldman-is-looking-really-darn-good",
     "https://www.pushsquare.com/news/2026/04/ghost-of-yoteis-brutal-raid-will-have-no-matchmaking-at-launch-so-bring-friends",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/melty-blood-twi-lumina-launches-april-22-2027",
     "https://www.nintendolife.com/news/2026/09/nintendo-announces-switch-2-monster-hunter-wilds-bundle",
     "https://gamerant.com/kingdom-hearts-4-developer/",
-    "https://www.eurogamer.net/playstation-plus-september-2026-games"
+    "https://www.eurogamer.net/playstation-plus-september-2026-games",
+    "https://www.purexbox.com/news/2026/09/wardogs-is-coming-to-xbox-in-2028-and-is-available-today-with-steam-early-access",
+    "https://www.purexbox.com/news/2026/09/xbox-is-officially-taking-over-from-playstation-on-hideo-kojimas-new-physint-game",
+    "https://www.nintendolife.com/news/2026/09/nintendo-switch-2-system-update-23-0-0-is-now-live-here-are-the-full-patch-notes",
+    "https://www.pcgamer.com/gaming-industry/events-conferences/attendees-will-be-able-to-check-out-a-demo-of-the-witcher-3-dlc-songs-of-the-past-behind-closed-doors-at-pax-australia/"
   ],
   "seen_titles": [
-    "pokemon champions release countdown & where to play",
-    "ni no kuni dev level-5 confirms new vision showcase for this week",
-    "level-5 will finally share news on its upcoming titles in 'vision 2026' showcase",
-    "here's what crimson desert's new 4k performance mode looks like on xbox series x",
     "bloodmoored, a first-person psychological horror game set in an abandoned factory, announced for pc",
     "holy moly, the eternal life of goldman is looking really darn good",
     "ghost of yotei's brutal raid will have no matchmaking at launch, so bring friends",
@@ -10001,13 +9997,13 @@
     "melty blood: twi-lumina launches april 22, 2027",
     "nintendo announces switch 2 monster hunter wilds bundle",
     "kingdom hearts 4 developer officially revealed, and fans are loving it",
-    "here are our ps plus premium and extra games for september"
+    "here are our ps plus premium and extra games for september",
+    "wardogs is coming to xbox in 2028, and is available today with steam early access",
+    "xbox is officially taking over from playstation on hideo kojima's new 'physint' game",
+    "nintendo switch 2 system update 23.0.0 is now live, here are the full patch notes",
+    "attendees will be able to check out a demo of the witcher 3 dlc songs of the past behind closed doors at pax australia"
   ],
   "seen_story_keys": [
-    "ddcf758f27828b84a6d4ac9a7dd7ed4cff52a32b",
-    "e65f23a49a16c4b2e1c4baec5d55b54d9999661d",
-    "64490d5a6c3fffc6c313ce38483c77ea6a994ccb",
-    "86156b8bfaf3ba929da0b2aea8c76e98d8b05015",
     "77fdb58fdbbf7612db7186e795d4107604606c87",
     "d2b71e465b4c7fa2fcd703c653faa02450eff51b",
     "d9e29fe6b923ca5f39d4635fbc164ffe9ce4fd90",
@@ -15003,6 +14999,10 @@
     "5bfa74898ea1969ee8e7edc836714ba30f6439fb",
     "8f34d6861532ecd42567282026e92e2269bb2876",
     "85ae8129d46d9eb888eb4d44b6d49d18b50eb24f",
-    "439c9990feb25d68bd4fc70cad61bc96eb1f9c16"
+    "439c9990feb25d68bd4fc70cad61bc96eb1f9c16",
+    "17bbb8b321564d721c0750d8e779bfa8c143f327",
+    "e5f78f0b5e3a89220ac84a6b6d24e4c2fbcb61d2",
+    "9f2153763d780f07f8019c3559c675441657c7af",
+    "73609c83cbf6106b3d6df76bb63f216ce214bd85"
   ]
 }
