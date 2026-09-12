@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/new-rpg-games-upcoming/",
-    "https://www.purexbox.com/features/talking-point-how-many-consoles-have-you-bought-at-launch-and-were-they-worth-it",
-    "https://www.polygon.com/donkey-kong-lawsuit-king-shigeru-miyamoto-deposition/",
     "https://www.ign.com/articles/return-of-the-obra-dinn-dev-says-ai-makes-him-hesitant-to-talk-about-new-projects",
     "https://www.gematsu.com/2026/04/frostpunk-coming-to-switch",
     "https://www.gematsu.com/2026/04/frostpunk-2-dlc-breach-of-trust-announced",
@@ -4999,12 +4996,12 @@
     "https://www.polygon.com/wow-last-titan-reveal-worldsoul-saga-blizzcon-2026/",
     "https://www.polygon.com/warcraft-3-blizzcon-2026/",
     "https://www.gamespot.com/articles/warcraft-getting-its-first-new-rts-campaign-in-two-decades-and-its-playable-today/",
-    "https://www.polygon.com/hearthstone-update-monk-class-blizzcon-2026/"
+    "https://www.polygon.com/hearthstone-update-monk-class-blizzcon-2026/",
+    "https://www.nintendolife.com/news/2026/09/diablo-5-is-coming-in-spring-2029-heres-the-first-teaser-trailer",
+    "https://www.ign.com/articles/next-starcraft-game-announced-at-blizzcon-as-an-open-world-shooter-but-its-not-due-out-until-2030",
+    "https://www.gematsu.com/2026/09/story-driven-open-world-shooter-starcraft-announced"
   ],
   "seen_titles": [
-    "upcoming new rpgs for 2026 & beyond",
-    "talking point: how many consoles have you bought at launch, and were they worth it?",
-    "relive nintendo's wild donkey kong court case from 1983",
     "return of the obra dinn dev says ai makes him hesitant to talk about new projects",
     "frostpunk coming to switch",
     "frostpunk 2 dlc ‘breach of trust’ announced",
@@ -10001,12 +9998,12 @@
     "blizzard reveals first look at world of warcraft's next major expansion",
     "warcraft 3 just got its first official new campaign in 23 years",
     "warcraft getting its first new rts campaign in two decades–and it’s playable today",
-    "hearthstone's next expansion and new class officially revealed at blizzcon"
+    "hearthstone's next expansion and new class officially revealed at blizzcon",
+    "diablo 5 is coming in spring 2029, here's the first teaser trailer",
+    "next starcraft game announced at blizzcon as an open-world shooter, but it’s not due out until 2030",
+    "story-driven open-world shooter starcraft announced"
   ],
   "seen_story_keys": [
-    "03a975822931fd65904becf57e84fe733f51ffe0",
-    "f98c612650011e115abfed0343940624c0d3ba80",
-    "4e6fd72a98d63c10d96efdc07b37b8b45047dc17",
     "4036eb18914de8f197bc4a4a2cd999bfa1221770",
     "350337e83dd7a403084873449ae2c8da8d8f3652",
     "6056bd788e0e774d99da3ab64ff91f5b6dbd411f",
@@ -15003,6 +15000,9 @@
     "69c0f44020b2a155ea8d6a0bb05948e54d58b0b8",
     "b8ef5a080616513723f177734bcb125c9745b6b5",
     "3a46f3c60947d7809a1861b53ef2944690b6da64",
-    "b3e78fa5cb2f2f17166b08f48bc661b939502086"
+    "b3e78fa5cb2f2f17166b08f48bc661b939502086",
+    "cb51e040fc810fbea701386246f3139e6fe0d4d6",
+    "2d494b1bd96bc53e959c7d7e1d7c2b85792795b5",
+    "ca53888c0ea16c3858d11b1ca4610c17bc9f830a"
   ]
 }
