@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/official-whih-console-gaming-too-most-expensive/",
-    "https://gamerant.com/pokemon-tcg-30th-anniversary-set-release-date/",
-    "https://www.polygon.com/crimson-desert-second-update/",
-    "https://gamerant.com/starfield-terran-armada-dlc-achievements-features/",
     "https://www.gamespot.com/articles/limited-run-seemingly-throws-old-guard-under-the-bus-promising-no-future-delays/1100-6539221/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/04/the-detective-is-already-dead-game-announced-for-switch",
     "https://www.gematsu.com/2026/04/my-hero-academia-united-survival-announced-for-ios-android",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/moss-series-developer-polyarc-shuts-down",
     "https://www.pushsquare.com/news/2026/09/moss-psvr2-dev-polyarc-closed-after-12-years-of-games",
     "https://www.eurogamer.net/rockstar-gta-6-fired-employees-tribunal-statements",
-    "https://www.gematsu.com/2026/09/gley-lancer-overdrive-announced-for-ps5-xbox-series-ps4-switch-and-pc"
+    "https://www.gematsu.com/2026/09/gley-lancer-overdrive-announced-for-ps5-xbox-series-ps4-switch-and-pc",
+    "https://gamerant.com/black-clover-season-2-episode-count/",
+    "https://www.ign.com/articles/polyarc-dev-behind-the-critically-acclaimed-moss-series-is-shutting-down",
+    "https://www.pushsquare.com/news/2026/09/play-the-first-dragon-quest-monsters-on-playstation-in-over-20-years-with-ps5-demo",
+    "https://www.rockpapershotgun.com/as-final-hearing-over-gta-firings-begins-rockstar-reiterate-they-reject-the-claims-made-by-union-and-will-defend-themselves-vigorously"
   ],
   "seen_titles": [
-    "it's official: console gaming has become too expensive",
-    "pokemon tcg confirms release date for 30th anniversary set",
-    "crimson desert patch 1.02 confirms those who played at launch had it the worst",
-    "starfield achievements for terran armada tease unannounced features",
     "limited run seemingly throws old guard under the bus, promising no future delays",
     "the detective is already dead game announced for switch",
     "my hero academia: united survival announced for ios, android",
@@ -10001,13 +9997,13 @@
     "moss series developer polyarc shuts down",
     "moss psvr2 dev polyarc closed after 12 years of games",
     "'it would have been insanity to take no action' - fiery opening statements reveal rockstar's culture of secrecy as tribunal over sacked gta 6 employees begins",
-    "gley lancer: overdrive announced for ps5, xbox series, ps4, switch, and pc"
+    "gley lancer: overdrive announced for ps5, xbox series, ps4, switch, and pc",
+    "black clover season 2 officially announces episode count",
+    "polyarc, dev behind the critically acclaimed moss series, is shutting down",
+    "play the first dragon quest monsters on playstation in over 20 years with ps5 demo",
+    "as final hearing over gta firings begins, rockstar reiterate they \"reject the claims\" made by union and will defend themselves \"vigorously\""
   ],
   "seen_story_keys": [
-    "4baa100604e114ca68999e3bfc717402334b783b",
-    "ee9f9b28cc2a2317cd1a892d496d0f37a7bafee5",
-    "2302044e568b8de9ec5a2e0168abcc5fe380fe2d",
-    "0a44a05b5623269483fce65fd7fa151166dd221b",
     "d26f88e34d78c6f6e977be6af22203b64c2aade4",
     "410d93cb3eece5fa789bd53b7cfefe5aaeda6530",
     "f56e2339400ca81e1e932816cd8445a7e57b08fd",
@@ -15003,6 +14999,10 @@
     "d94619e7e826f22696686c82f53fc875acb25347",
     "3de0ae93e24674f38bef94a5def07addb2af183e",
     "a172e773651309abce28d138be59d11adbc8700c",
-    "0a8232ec033b3c2eece3529e64b318968f397a05"
+    "0a8232ec033b3c2eece3529e64b318968f397a05",
+    "782ae56dc544bbee460223ed7981b172f93d9cb3",
+    "e71becdc5d817b0bdd2c75ca118f63945f884372",
+    "5f79b7837fa1ebd1160cfe1da3d89842e158e0d6",
+    "7dddab697351ca4272a99d61114d1362e85598d5"
   ]
 }
