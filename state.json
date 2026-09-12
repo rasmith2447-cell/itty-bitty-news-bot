@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/bloodmoored-first-person-psychological-horror-game-announced-for-pc",
-    "https://www.nintendolife.com/news/2026/04/holy-moly-the-eternal-life-of-goldman-is-looking-really-darn-good",
-    "https://www.pushsquare.com/news/2026/04/ghost-of-yoteis-brutal-raid-will-have-no-matchmaking-at-launch-so-bring-friends",
-    "https://www.polygon.com/state-of-decay-3-xbox-pc-cgi-trailer-undead-labs/",
     "https://gamerant.com/undead-labs-state-of-decay-3-development-reveal-early/",
     "https://www.gamespot.com/articles/starfield-free-lanes-and-terran-armada-global-launch-times-confirmed/1100-6539229/?ftag=CAD-01-10abi2f",
     "https://gamerant.com/arc-raiders-trials-april-6-damage-vaporizer/",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/09/wardogs-is-coming-to-xbox-in-2028-and-is-available-today-with-steam-early-access",
     "https://www.purexbox.com/news/2026/09/xbox-is-officially-taking-over-from-playstation-on-hideo-kojimas-new-physint-game",
     "https://www.nintendolife.com/news/2026/09/nintendo-switch-2-system-update-23-0-0-is-now-live-here-are-the-full-patch-notes",
-    "https://www.pcgamer.com/gaming-industry/events-conferences/attendees-will-be-able-to-check-out-a-demo-of-the-witcher-3-dlc-songs-of-the-past-behind-closed-doors-at-pax-australia/"
+    "https://www.pcgamer.com/gaming-industry/events-conferences/attendees-will-be-able-to-check-out-a-demo-of-the-witcher-3-dlc-songs-of-the-past-behind-closed-doors-at-pax-australia/",
+    "https://www.pcgamer.com/games/fps/wardogs-sold-over-1-million-copies-in-its-first-24-hours-making-its-launch-a-bright-spot-in-an-otherwise-tough-year-for-multiplayer-shooters/",
+    "https://www.eurogamer.net/polyarc-moss-studio-closure-vr-industry-2026",
+    "https://www.rockpapershotgun.com/cult-classic-shoot-em-up-touhou-koumakyou-the-embodiment-of-scarlet-devil-has-a-remake-out-now",
+    "https://www.purexbox.com/news/2026/09/dragon-quest-gets-two-shadow-drops-on-xbox-today-including-a-new-remaster"
   ],
   "seen_titles": [
-    "bloodmoored, a first-person psychological horror game set in an abandoned factory, announced for pc",
-    "holy moly, the eternal life of goldman is looking really darn good",
-    "ghost of yotei's brutal raid will have no matchmaking at launch, so bring friends",
-    "the announcement for this xbox exclusive was kinda fake, dev reveals",
     "state of decay 3 was revealed before development even started",
     "starfield free lanes and terran armada global launch times confirmed",
     "new arc raiders trials for april 6 might include the hardest challenge to date",
@@ -10001,13 +9997,13 @@
     "wardogs is coming to xbox in 2028, and is available today with steam early access",
     "xbox is officially taking over from playstation on hideo kojima's new 'physint' game",
     "nintendo switch 2 system update 23.0.0 is now live, here are the full patch notes",
-    "attendees will be able to check out a demo of the witcher 3 dlc songs of the past behind closed doors at pax australia"
+    "attendees will be able to check out a demo of the witcher 3 dlc songs of the past behind closed doors at pax australia",
+    "wardogs sold over 1 million copies in its first 24 hours, making its launch a bright spot in an otherwise tough year for multiplayer shooters",
+    "moss studio polyarc shuts down, becoming the latest casualty of a brutal year for vr",
+    "cult classic shoot-em-up touhou koumakyou: the embodiment of scarlet devil has a remake out now",
+    "dragon quest gets two shadow drops on xbox today, including a new remaster"
   ],
   "seen_story_keys": [
-    "77fdb58fdbbf7612db7186e795d4107604606c87",
-    "d2b71e465b4c7fa2fcd703c653faa02450eff51b",
-    "d9e29fe6b923ca5f39d4635fbc164ffe9ce4fd90",
-    "3eb28c27c98aa1a936fe58f8e314fb8afc655d5b",
     "1fe27f657460533d3e2ef41fe5712b6949c04918",
     "146f94fc61c9692e53e2b8877cd5df26c21d5ad9",
     "ccd41fcb36801a4382884784644a0f98403c7da4",
@@ -15003,6 +14999,10 @@
     "17bbb8b321564d721c0750d8e779bfa8c143f327",
     "e5f78f0b5e3a89220ac84a6b6d24e4c2fbcb61d2",
     "9f2153763d780f07f8019c3559c675441657c7af",
-    "73609c83cbf6106b3d6df76bb63f216ce214bd85"
+    "73609c83cbf6106b3d6df76bb63f216ce214bd85",
+    "0ef3ff422ce5e93471939a7221139a1defb50ad5",
+    "ab7eabfb0679a58d140a15601f195754c389a708",
+    "3f4bd45bd4fd8a215e57215344f8a37399d26539",
+    "229174d23d72f11ee83d476671be8d4a4c0e2249"
   ]
 }
