@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/limited-run-seemingly-throws-old-guard-under-the-bus-promising-no-future-delays/1100-6539221/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/04/the-detective-is-already-dead-game-announced-for-switch",
-    "https://www.gematsu.com/2026/04/my-hero-academia-united-survival-announced-for-ios-android",
-    "https://gamerant.com/genshin-impact-6-5-luna-vi-release-date-time-update-maintenance-ends-countdown-linnea-banner/",
     "https://gamerant.com/pokemon-champions-release-date-countdown/",
     "https://www.pushsquare.com/news/2026/04/ni-no-kuni-dev-level-5-confirms-new-vision-showcase-for-this-week",
     "https://www.nintendolife.com/news/2026/04/level-5-will-finally-share-news-on-its-upcoming-titles-in-vision-2026-showcase",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/black-clover-season-2-episode-count/",
     "https://www.ign.com/articles/polyarc-dev-behind-the-critically-acclaimed-moss-series-is-shutting-down",
     "https://www.pushsquare.com/news/2026/09/play-the-first-dragon-quest-monsters-on-playstation-in-over-20-years-with-ps5-demo",
-    "https://www.rockpapershotgun.com/as-final-hearing-over-gta-firings-begins-rockstar-reiterate-they-reject-the-claims-made-by-union-and-will-defend-themselves-vigorously"
+    "https://www.rockpapershotgun.com/as-final-hearing-over-gta-firings-begins-rockstar-reiterate-they-reject-the-claims-made-by-union-and-will-defend-themselves-vigorously",
+    "https://www.gematsu.com/2026/09/melty-blood-twi-lumina-launches-april-22-2027",
+    "https://www.nintendolife.com/news/2026/09/nintendo-announces-switch-2-monster-hunter-wilds-bundle",
+    "https://gamerant.com/kingdom-hearts-4-developer/",
+    "https://www.eurogamer.net/playstation-plus-september-2026-games"
   ],
   "seen_titles": [
-    "limited run seemingly throws old guard under the bus, promising no future delays",
-    "the detective is already dead game announced for switch",
-    "my hero academia: united survival announced for ios, android",
-    "genshin 6.5 release date (genshin impact luna vi)",
     "pokemon champions release countdown & where to play",
     "ni no kuni dev level-5 confirms new vision showcase for this week",
     "level-5 will finally share news on its upcoming titles in 'vision 2026' showcase",
@@ -10001,13 +9997,13 @@
     "black clover season 2 officially announces episode count",
     "polyarc, dev behind the critically acclaimed moss series, is shutting down",
     "play the first dragon quest monsters on playstation in over 20 years with ps5 demo",
-    "as final hearing over gta firings begins, rockstar reiterate they \"reject the claims\" made by union and will defend themselves \"vigorously\""
+    "as final hearing over gta firings begins, rockstar reiterate they \"reject the claims\" made by union and will defend themselves \"vigorously\"",
+    "melty blood: twi-lumina launches april 22, 2027",
+    "nintendo announces switch 2 monster hunter wilds bundle",
+    "kingdom hearts 4 developer officially revealed, and fans are loving it",
+    "here are our ps plus premium and extra games for september"
   ],
   "seen_story_keys": [
-    "d26f88e34d78c6f6e977be6af22203b64c2aade4",
-    "410d93cb3eece5fa789bd53b7cfefe5aaeda6530",
-    "f56e2339400ca81e1e932816cd8445a7e57b08fd",
-    "ec0a9b188fb2c63e7813f7589531093ce863349c",
     "ddcf758f27828b84a6d4ac9a7dd7ed4cff52a32b",
     "e65f23a49a16c4b2e1c4baec5d55b54d9999661d",
     "64490d5a6c3fffc6c313ce38483c77ea6a994ccb",
@@ -15003,6 +14999,10 @@
     "782ae56dc544bbee460223ed7981b172f93d9cb3",
     "e71becdc5d817b0bdd2c75ca118f63945f884372",
     "5f79b7837fa1ebd1160cfe1da3d89842e158e0d6",
-    "7dddab697351ca4272a99d61114d1362e85598d5"
+    "7dddab697351ca4272a99d61114d1362e85598d5",
+    "5bfa74898ea1969ee8e7edc836714ba30f6439fb",
+    "8f34d6861532ecd42567282026e92e2269bb2876",
+    "85ae8129d46d9eb888eb4d44b6d49d18b50eb24f",
+    "439c9990feb25d68bd4fc70cad61bc96eb1f9c16"
   ]
 }
