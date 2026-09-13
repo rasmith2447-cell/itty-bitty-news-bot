@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/04/capcom-teases-okami-20th-anniversary-celebrations",
-    "https://www.nintendolife.com/news/2026/04/assassins-creed-shadows-title-update-1-1-10-out-this-week-on-switch-2-here-are-the-patch-notes",
-    "https://www.nintendolife.com/news/2026/04/assassins-creed-shadows-switch-2-update-adds-mouse-and-keyboard-support",
     "https://www.gamesindustry.biz/raven-software-co-founder-brian-raffel-retires",
     "https://www.eurogamer.net/state-of-decay-3-reveal-trailer-wasnt-reflective-of-actual-game-says-studio-head",
     "https://www.pcgamer.com/games/fps/overwatchs-anran-redesign-fixes-her-controversial-baby-face-in-season-2-this-process-has-really-helped-dial-in-the-next-set-of-heroes/",
@@ -4999,12 +4996,12 @@
     "https://www.gematsu.com/2026/09/the-idolmaster-sidem-game-announced-for-switch-2-switch",
     "https://gamerant.com/diablo-5-story-protagonist/",
     "https://gamerant.com/marvel-wolverine-release-date-launch-times/",
-    "https://www.ign.com/articles/the-witcher-3-geralt-skin-for-diablo-4-barbarians-revealed-but-theres-a-catch"
+    "https://www.ign.com/articles/the-witcher-3-geralt-skin-for-diablo-4-barbarians-revealed-but-theres-a-catch",
+    "https://gamerant.com/palworld-card-game-eternal-ascent-release-date/",
+    "https://gamerant.com/slow-horses-season-6-release-date-time-episode-schedule/",
+    "https://www.ign.com/articles/diablo-5-director-confirms-game-is-already-in-full-production"
   ],
   "seen_titles": [
-    "capcom teases okami 20th anniversary celebrations",
-    "assassin's creed shadows title update 1.1.10 out this week on switch 2, here are the patch notes",
-    "assassin's creed shadows switch 2 update adds mouse and keyboard support",
     "raven software co-founder brian raffel retires",
     "state of decay 3 reveal trailer wasn't reflective of the actual game, says studio head",
     "overwatch's anran redesign fixes her controversial 'baby face' in season 2: 'this process has really helped dial in the next set of heroes'",
@@ -10001,12 +9998,12 @@
     "the idolmaster sidem game announced for switch 2, switch",
     "diablo 5 reveals new story and protagonist details",
     "marvel's wolverine - global launch times & countdown",
-    "the witcher 3 geralt skin for diablo 4 barbarians revealed — but there's a catch"
+    "the witcher 3 geralt skin for diablo 4 barbarians revealed — but there's a catch",
+    "palworld card game teases third set",
+    "slow horses season 6 release date & time",
+    "diablo 5 director confirms game is already in full production"
   ],
   "seen_story_keys": [
-    "6c09ef19c8ab942864d243688704a3bed12e0e97",
-    "8589decbed7235fa987cc0fd415f2bf43c647c95",
-    "a263100c7b8ae6c7193eac28d202eef7b449b4c3",
     "19179c090940c2beb42a5496fd62dc456bd225be",
     "616e89bf6cd367131a6fe4dc6ddf49052937540f",
     "54247877d3cb45b845ef88986a92681c3f9faa94",
@@ -15003,6 +15000,9 @@
     "fdb3726ba64650631f9dd3ea59d69496afa365d3",
     "24552b511b2aa5eb8a64eac2308403b9d39de0d4",
     "60cc6bddf2f29d662f0d07e4416a81a35a674b32",
-    "8b204dc6179a398c59628e7e27b02a48e77846dc"
+    "8b204dc6179a398c59628e7e27b02a48e77846dc",
+    "9ece785a63f9679e241bb5b828dd301efd8d84b2",
+    "e5455a47f1cf77d0eb4b4bc7ce95676534fe3762",
+    "dbdf763739a1234769cc445c4936ca568dfaa205"
   ]
 }
