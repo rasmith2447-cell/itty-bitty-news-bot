@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/playstation-to-start-putting-fans-into-ps5-games-with-new-playerbase-program",
-    "https://www.eurogamer.net/xbox-game-pass-april-wave-one",
-    "https://www.gematsu.com/2026/04/kazuma-kanekos-tsukuyomi-x-devil-may-cry-5-collaboration-announced",
-    "https://www.polygon.com/triple-i-initiative-showcase-2026-when-how-to-watch/",
     "https://gamerant.com/arc-raiders-april-update-delayed/",
     "https://www.pushsquare.com/news/2026/04/the-result-is-incredible-cyberpunk-2077s-big-ps5-pro-update-arrives-tomorrow",
     "https://gamerant.com/xbox-game-pass-games-coming-soon-april-2026-cod-modern-warfare/",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/hardware/vr-hardware/the-steam-frame-launches-during-one-of-the-slowest-periods-for-vr-on-steam-but-valve-hopes-to-rekindle-the-excitement-for-pcvr/",
     "https://www.pushsquare.com/news/2026/09/rayman-legends-retold-now-out-in-december-ps5-remake-delayed-two-months",
     "https://www.pcgamer.com/games/fps/bungie-delays-next-marathon-update-and-ends-strict-seasonal-schedule-as-it-goes-all-in-on-destiny-like-features/",
-    "https://www.eurogamer.net/marathon-pve-mode-delay-bungie-major-update"
+    "https://www.eurogamer.net/marathon-pve-mode-delay-bungie-major-update",
+    "https://www.ign.com/articles/xbox-ceo-asha-sharma-may-have-personally-responded-to-your-customer-support-ticket",
+    "https://www.pcgamer.com/games/action/after-nearly-a-year-of-silence-following-its-last-minute-delay-kingmakers-resurfaces-with-an-extended-gameplay-video-and-new-playtest/",
+    "https://www.polygon.com/switch-2-zelda-ocarina-of-time-instrument-preorders-price-release-date/",
+    "https://gamerant.com/blizzard-diablo-5-starcraft-release-dates/"
   ],
   "seen_titles": [
-    "playstation to start putting fans into ps5 games with new playerbase program",
-    "the xbox game pass list for april is big and includes hades 2, fbc: firebreak, replaced, and more",
-    "kazuma kaneko’s tsukuyomi x devil may cry 5 collaboration announced",
-    "how to watch the triple-i initiative showcase this week",
     "arc raiders delays new april update",
     "'the result is incredible': cyberpunk 2077's big ps5 pro update arrives tomorrow",
     "xbox game pass reveals 10 games coming soon, including 3 day one releases and call of duty",
@@ -10001,13 +9997,13 @@
     "the steam frame launches during one of the slowest periods for vr on steam, but valve hopes to 'rekindle the excitement' for pcvr",
     "rayman legends retold now out in december, ps5 remake delayed two months",
     "bungie delays next marathon update and ends 'strict seasonal schedule' as it goes all-in on destiny-like features",
-    "marathon's permanent pve mode and next major update delayed to december days before launch, and bungie's \"moving away from a strict season schedule\""
+    "marathon's permanent pve mode and next major update delayed to december days before launch, and bungie's \"moving away from a strict season schedule\"",
+    "xbox ceo asha sharma may have personally responded to your customer support ticket",
+    "after nearly a year of silence following its last-minute delay, kingmakers resurfaces with an extended gameplay video and new playtest",
+    "nintendo opens the zelda: ocarina of time pre-orders fans were waiting for",
+    "blizzard officially comments on diablo 5, starcraft release dates"
   ],
   "seen_story_keys": [
-    "d66e667ba6f6eb068c825a9fd1b82e15a66083ab",
-    "adaffe8779f5939f4ed2d62c56a088d335d16a83",
-    "226f26d36dcb334aef0128e6436a9d482b00fcd6",
-    "dc08cb1c9d25e3331f7ed41cfae3230ba3f09077",
     "44bce6dd394e387b521f03a0b455a7a1bd558f0f",
     "fcd1fb1ab22ffb61bfda2af3ade45a57d7d5c34e",
     "54a455c8bc990a2f9621c0e37e8eca333214e27d",
@@ -15003,6 +14999,10 @@
     "bae3fba87c3ebf8df773d33c9abe3e1f5f5c3b0d",
     "7984ed558456aa44e6eb0d091b2a30056754926e",
     "c9787da62d39aeb17430e6eee2c47c80a4d9b973",
-    "f6dd428dcd9f7ba45dc33b1cbe5ee6818e9835df"
+    "f6dd428dcd9f7ba45dc33b1cbe5ee6818e9835df",
+    "b83eb7a1681fea67734d87025dda8ae63a4f8bd9",
+    "d7faae7802f7d97e0e7e8419e5c48f2ede4bea8e",
+    "baf437ba8dae07de1770b8f586ff6dee3b068955",
+    "ff16d4799c70d6ac8f05fe9c167fb10323de4bf3"
   ]
 }
