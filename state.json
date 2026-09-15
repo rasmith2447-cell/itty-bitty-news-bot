@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/industria-ii-launches-april-15",
-    "https://gamerant.com/cyberpunk-edgerunners-hunted-board-game/",
-    "https://www.gematsu.com/2026/04/sony-interactive-entertainment-announces-the-playerbase-program-to-scan-players-into-playstation-games",
-    "https://www.gematsu.com/2026/04/game-pass-adds-kiln-hades-ii-vampire-crawlers-the-turbo-wildcard-from-vampire-survivors-and-more-in-april",
     "https://www.gematsu.com/2026/04/drop-duchy-complete-edition-for-ps5-switch-launches-april-21",
     "https://gamerant.com/cyberpunk-2077-free-ps5-pro-upgrade/",
     "https://www.nintendolife.com/news/2026/04/nickelodeons-all-star-cast-returns-to-the-tennis-court-next-month",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/xbox-game-pass-september-2026-wave-2-lineup-announced",
     "https://www.ign.com/articles/aliens-fireteam-elite-2s-nintendo-switch-2-version-delayed-to-early-2027",
     "https://www.rockpapershotgun.com/skyblivions-release-is-getting-closer-as-the-massive-skyrim-mods-makers-start-recruiting-for-a-big-final-marketing-push",
-    "https://www.eurogamer.net/two-point-museum-rides-and-relics-dlc-announced"
+    "https://www.eurogamer.net/two-point-museum-rides-and-relics-dlc-announced",
+    "https://www.ign.com/articles/masahiro-sakurai-forced-to-abandon-game-designers-award-after-16-years-as-he-cant-find-a-successor",
+    "https://gamerant.com/diablo-4-error-3000006-3000008-delay/",
+    "https://gamerant.com/zelda-ocarina-of-time-remake-gta-6-release-date-players/",
+    "https://www.gamespot.com/videos/devs-explain-why-diablo-5-needed-to-be-a-new-game-instead-of-an-expansion-for-4/"
   ],
   "seen_titles": [
-    "industria ii launches april 15",
-    "cyberpunk: edgerunners is getting a game, but there's a catch",
-    "sony interactive entertainment announces the playerbase program to scan players into playstation games",
-    "game pass adds kiln, hades ii, vampire crawlers: the turbo wildcard from vampire survivors, and more in april",
     "drop duchy: complete edition for ps5, switch launches april 21",
     "cyberpunk 2077 is getting a free ps5 pro upgrade tomorrow",
     "nickelodeon's all-star cast returns to the tennis court next month",
@@ -10001,13 +9997,13 @@
     "xbox game pass september 2026 wave 2 lineup announced",
     "aliens: fireteam elite 2's nintendo switch 2 version delayed to early 2027",
     "skyblivion's release is \"getting closer\" as the massive skyrim mod's makers start recruiting for a big final marketing push",
-    "after riffing on theme hospital, two point museum studio is tipping a hat to bullfrog's classic theme park in its next dlc"
+    "after riffing on theme hospital, two point museum studio is tipping a hat to bullfrog's classic theme park in its next dlc",
+    "masahiro sakurai forced to abandon game designers award after 16 years as he can't find a successor",
+    "diablo 4 season 15 officially delayed at the last minute",
+    "zelda: ocarina of time remake players are already proving nintendo right about gta 6",
+    "devs explain why diablo 5 needed to be a new game instead of an expansion for 4"
   ],
   "seen_story_keys": [
-    "a8c8e9c5e6c2b5d3b607be3646fbe361454b4363",
-    "af8d6168d1da307c0c47a2a6f0b2b0d794758115",
-    "f72a8c9edaa7f0a7090988fe15f932c1ae5ca4eb",
-    "94f8c018c9658112757611da1a655f832a138f2d",
     "caa25e9299f3f263858ad5fb733a4cbc2a77b3bb",
     "e58f0e33294458bbd819144272a1df042427168c",
     "19e85e10562f498d9f02e3f81edf2c249d5cc75e",
@@ -15003,6 +14999,10 @@
     "a17471591e2b6cb4d9eb200eb697be240fe12f70",
     "4c1134c491e96c74e27914a0a3132280946bc3f2",
     "d7d584fbb43fb78a694ee57d1f4ef58a07dc08a3",
-    "57889024684ebdf81678c1080b2e7f583289a941"
+    "57889024684ebdf81678c1080b2e7f583289a941",
+    "0e235e1531066c80c675f6683ba44c784100e6c0",
+    "a0e4faee988202a383bfdf4c33ab176eb45591f7",
+    "f18bce51f0675c951d41fef27b1ff7c436f38b7d",
+    "d2eaff21edf988b1088aa2d0a8490ce1876a1658"
   ]
 }
