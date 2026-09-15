@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/call-of-the-elder-gods-launches-may-12",
-    "https://www.pushsquare.com/news/2026/04/can-keith-david-sell-you-starfield-on-ps5-bethesda-thinks-so",
-    "https://www.rockpapershotgun.com/the-myst-lifts-over-call-of-the-elder-gods-granting-it-a-may-release-date",
-    "https://www.pushsquare.com/news/2026/04/tetris-fans-may-want-to-check-out-this-strategy-puzzle-hybrid-when-it-comes-to-ps5-this-month",
     "https://www.ign.com/articles/warner-bros-and-hbo-announce-new-game-of-thrones-dragonfire-video-game",
     "https://www.purexbox.com/news/2026/04/starfield-free-lanes-update-out-now-on-xbox-here-are-the-full-patch-notes",
     "https://www.eurogamer.net/return-of-the-obra-dinn-developer-lucas-pope-secretive",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/pokemon-studio-game-freak-mobile-game/",
     "https://www.pushsquare.com/news/2026/09/marathons-future-questioned-as-bungie-delays-big-update-and-scraps-seasonal-schedule",
     "https://www.pushsquare.com/news/2026/09/ace-combat-8s-new-trailer-is-awesome-but-maybe-avoid-it-if-youre-already-in",
-    "https://www.eurogamer.net/sega-netflix-sonic-tv-crazy-taxi-stranger-than-heaven-film"
+    "https://www.eurogamer.net/sega-netflix-sonic-tv-crazy-taxi-stranger-than-heaven-film",
+    "https://www.gematsu.com/2026/09/jujutsu-kaisen-rumble-survivaton-delayed-to-2027",
+    "https://www.gematsu.com/2026/09/higurashi-no-naku-koro-ni-jong-remaster-announced-for-ps5-switch-and-pc",
+    "https://www.nintendolife.com/news/2026/09/sega-and-netflix-announce-new-multi-title-collaboration",
+    "https://www.gematsu.com/2026/09/psycho-sleuth-launches-november-5"
   ],
   "seen_titles": [
-    "call of the elder gods launches may 12",
-    "can keith david sell you starfield on ps5? bethesda thinks so",
-    "the myst lifts over call of the elder gods, granting it a may release date",
-    "tetris fans may want to check out this strategy puzzle hybrid when it comes to ps5 this month",
     "warner bros. and hbo announce new game of thrones: dragonfire video game",
     "starfield free lanes update out now on xbox, here are the full patch notes",
     "return of the obra dinn developer lucas pope doesn't feel comfortable talking about new projects because maybe they'll be \"slurped up by ai\"",
@@ -10001,13 +9997,13 @@
     "pokemon studio's next game is now official",
     "marathon's future questioned as bungie delays big update and scraps seasonal schedule",
     "ace combat 8's new trailer is awesome, but maybe avoid it if you're already in",
-    "sega and netflix partner for a \"cute yet cool\" sonic tv show, a crazy taxi film, and a \"badass action\" stranger than heaven adaptation"
+    "sega and netflix partner for a \"cute yet cool\" sonic tv show, a crazy taxi film, and a \"badass action\" stranger than heaven adaptation",
+    "jujutsu kaisen rumble: survivaton delayed to 2027",
+    "higurashi no naku koro ni jong remaster announced for ps5, switch, and pc",
+    "sega and netflix announce new \"multi-title collaboration\"",
+    "psycho-sleuth launches november 5"
   ],
   "seen_story_keys": [
-    "9ab0e0bf1c6f4b8e2e4888dc913c39a82d324a97",
-    "0cd0f8cec4886db18636e3f2e9b82abd1c3ba7f1",
-    "29eb65c4683a0f0909768e565fc98423dc19aef4",
-    "5ddc8e9abcc528617c9aa554ef2bf12bff070d53",
     "e6abe297cf26c3713809972a5d618529cba012ae",
     "682bba279e7157b604046872bdc239012c8b76b9",
     "e6c7b7837fbcebbf60d449bb6c7842d440b555c8",
@@ -15003,6 +14999,10 @@
     "5b5e7ebeca1dfc5353d2020da6de960cc37118ba",
     "b39d582d116352b7b393a322b414c59845f75806",
     "1a3ec91a675d12439f4fd69ed1d5010e82dbd18b",
-    "72cbc6cab919c09dbf0c5b604b321bea43fb617e"
+    "72cbc6cab919c09dbf0c5b604b321bea43fb617e",
+    "c46d53fac390c526ad1852b94ceb8ddce1c73db5",
+    "96496732d439dc3ebe686aeee7015dffac91b116",
+    "6f13af9bbb80fd195aa0d351cfc8c802c26d4959",
+    "b5adf9dd651a007d1be8402d878b9fe0b300d98c"
   ]
 }
