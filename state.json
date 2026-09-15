@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/new-game-of-thrones-game-officially-revealed-for-mobile/1100-6539233/?ftag=CAD-01-10abi2f",
-    "https://www.purexbox.com/news/2026/04/remember-call-of-the-sea-its-sequel-is-launching-on-xbox-game-pass-this-may",
-    "https://www.ign.com/articles/starfield-update-116236-patch-notes-detail-the-biggest-update-yet",
-    "https://www.pushsquare.com/news/2026/04/silent-hill-townfall-will-sound-just-as-good-as-it-looks",
     "https://www.gematsu.com/2026/04/industria-ii-launches-april-15",
     "https://gamerant.com/cyberpunk-edgerunners-hunted-board-game/",
     "https://www.gematsu.com/2026/04/sony-interactive-entertainment-announces-the-playerbase-program-to-scan-players-into-playstation-games",
@@ -4999,13 +4995,13 @@
     "https://www.gamespot.com/articles/gta-6s-stephen-root-is-the-franchises-second-ever-emmy-winning-actor/",
     "https://www.gematsu.com/2026/09/two-point-museum-dlc-rides-relics-announced",
     "https://www.purexbox.com/news/2026/09/moss-developer-polyarc-games-shutting-its-doors-after-12-years",
-    "https://gamerant.com/marvel-tokon-fighting-souls-future-updates-character-balance/"
+    "https://gamerant.com/marvel-tokon-fighting-souls-future-updates-character-balance/",
+    "https://www.ign.com/articles/xbox-game-pass-september-2026-wave-2-lineup-announced",
+    "https://www.ign.com/articles/aliens-fireteam-elite-2s-nintendo-switch-2-version-delayed-to-early-2027",
+    "https://www.rockpapershotgun.com/skyblivions-release-is-getting-closer-as-the-massive-skyrim-mods-makers-start-recruiting-for-a-big-final-marketing-push",
+    "https://www.eurogamer.net/two-point-museum-rides-and-relics-dlc-announced"
   ],
   "seen_titles": [
-    "new game of thrones game officially revealed for mobile",
-    "remember call of the sea? its sequel is launching on xbox game pass this may",
-    "starfield update 1.16.236 patch notes detail the 'biggest update yet'",
-    "silent hill: townfall will sound just as good as it looks",
     "industria ii launches april 15",
     "cyberpunk: edgerunners is getting a game, but there's a catch",
     "sony interactive entertainment announces the playerbase program to scan players into playstation games",
@@ -10001,13 +9997,13 @@
     "gta 6’s stephen root is the franchise’s second-ever emmy winning actor",
     "two point museum dlc ‘rides & relics’ announced",
     "moss developer polyarc games shutting its doors after 12 years",
-    "marvel tokon: fighting souls director apologizes for launch issues"
+    "marvel tokon: fighting souls director apologizes for launch issues",
+    "xbox game pass september 2026 wave 2 lineup announced",
+    "aliens: fireteam elite 2's nintendo switch 2 version delayed to early 2027",
+    "skyblivion's release is \"getting closer\" as the massive skyrim mod's makers start recruiting for a big final marketing push",
+    "after riffing on theme hospital, two point museum studio is tipping a hat to bullfrog's classic theme park in its next dlc"
   ],
   "seen_story_keys": [
-    "8c67267764a5239dca2487bd733b13bfe5570f64",
-    "81be79bb49c5429550316c0dc8e2e7ec9bac61ff",
-    "fb20ce80d3202a9ba181a054ab52e5621d93bb98",
-    "a2cdacc083dc463f34ac2a91a0c621e24feff2f8",
     "a8c8e9c5e6c2b5d3b607be3646fbe361454b4363",
     "af8d6168d1da307c0c47a2a6f0b2b0d794758115",
     "f72a8c9edaa7f0a7090988fe15f932c1ae5ca4eb",
@@ -15003,6 +14999,10 @@
     "be7b58ed7eb4cc758b07a2ab9864ed0e7feb3027",
     "79e630a6205935ae07f07364da152b8a437593b4",
     "5a5acd0fa2961274162d3c6650fb9440cc0dd247",
-    "8bdb89b6d9ef1468ef9c2b4243d779608fd26b03"
+    "8bdb89b6d9ef1468ef9c2b4243d779608fd26b03",
+    "a17471591e2b6cb4d9eb200eb697be240fe12f70",
+    "4c1134c491e96c74e27914a0a3132280946bc3f2",
+    "d7d584fbb43fb78a694ee57d1f4ef58a07dc08a3",
+    "57889024684ebdf81678c1080b2e7f583289a941"
   ]
 }
