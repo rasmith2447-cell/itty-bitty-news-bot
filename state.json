@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/warner-bros-and-hbo-announce-new-game-of-thrones-dragonfire-video-game",
-    "https://www.purexbox.com/news/2026/04/starfield-free-lanes-update-out-now-on-xbox-here-are-the-full-patch-notes",
-    "https://www.eurogamer.net/return-of-the-obra-dinn-developer-lucas-pope-secretive",
-    "https://www.pcgamer.com/games/fps/the-multiplayer-shooter-with-radioactive-attack-bears-and-moose-drawn-artillery-is-closing-after-less-than-a-year-in-early-access/",
     "https://www.pcgamer.com/games/rpg/avalanches-cancelled-aionguard-would-have-been-crimson-desert-but-the-publisher-broke-up-with-us-on-a-text-message/",
     "https://gamerant.com/starfield-free-lanes-update-1-16-236-patch-notes-april-2026/",
     "https://www.gamespot.com/articles/starfield-lands-on-ps5-via-update-that-adds-fallout-bobbleheads-and-finally-lets-you-fly-your-ship/1100-6539260/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/jujutsu-kaisen-rumble-survivaton-delayed-to-2027",
     "https://www.gematsu.com/2026/09/higurashi-no-naku-koro-ni-jong-remaster-announced-for-ps5-switch-and-pc",
     "https://www.nintendolife.com/news/2026/09/sega-and-netflix-announce-new-multi-title-collaboration",
-    "https://www.gematsu.com/2026/09/psycho-sleuth-launches-november-5"
+    "https://www.gematsu.com/2026/09/psycho-sleuth-launches-november-5",
+    "https://www.eurogamer.net/007-first-light-switch-2-delay",
+    "https://www.polygon.com/007-first-light-nintendo-switch-2-delayed/",
+    "https://www.nintendolife.com/news/2026/09/new-trademark-seemingly-reveals-the-title-for-lies-of-p-sequel",
+    "https://www.eurogamer.net/injustice-3-playtests-leak"
   ],
   "seen_titles": [
-    "warner bros. and hbo announce new game of thrones: dragonfire video game",
-    "starfield free lanes update out now on xbox, here are the full patch notes",
-    "return of the obra dinn developer lucas pope doesn't feel comfortable talking about new projects because maybe they'll be \"slurped up by ai\"",
-    "the multiplayer shooter with radioactive attack bears and moose-drawn artillery is closing after less than a year in early access",
     "avalanche's cancelled aionguard 'would have been crimson desert' but the publisher 'broke up with us on a text message'",
     "starfield's biggest update yet is out now, patch notes revealed",
     "starfield lands on ps5 via update that adds fallout bobbleheads and finally lets you fly your ship",
@@ -10001,13 +9997,13 @@
     "jujutsu kaisen rumble: survivaton delayed to 2027",
     "higurashi no naku koro ni jong remaster announced for ps5, switch, and pc",
     "sega and netflix announce new \"multi-title collaboration\"",
-    "psycho-sleuth launches november 5"
+    "psycho-sleuth launches november 5",
+    "007 first light catches a big delay on switch 2, pushing it into next year",
+    "007 first light significantly delayed on nintendo switch 2",
+    "new trademark seemingly reveals the title for lies of p sequel",
+    "injustice 3 is seemingly the mysterious, unannounced fighting game that's been hosting playtests in california"
   ],
   "seen_story_keys": [
-    "e6abe297cf26c3713809972a5d618529cba012ae",
-    "682bba279e7157b604046872bdc239012c8b76b9",
-    "e6c7b7837fbcebbf60d449bb6c7842d440b555c8",
-    "9291d8b4c5af78a37a4b683de8088733d4fb21af",
     "708541baf5452dcbe8b1f0ac6ba36810672c867d",
     "15814a214d5606226bb21b9ab9c9f804c5e7efca",
     "b4f6f82f515e6b6a4d92bd558a215bf8f661b800",
@@ -15003,6 +14999,10 @@
     "c46d53fac390c526ad1852b94ceb8ddce1c73db5",
     "96496732d439dc3ebe686aeee7015dffac91b116",
     "6f13af9bbb80fd195aa0d351cfc8c802c26d4959",
-    "b5adf9dd651a007d1be8402d878b9fe0b300d98c"
+    "b5adf9dd651a007d1be8402d878b9fe0b300d98c",
+    "f3920afe031531c3e0c35b29c94e9795df2cd4a6",
+    "a158b8ef3e65e5dae5f7b56171806fb51b834378",
+    "8bd118bd32d32f02f6e52c110dedf4ff7932fd2a",
+    "5b8a5f33245e26531b8ba02439bd06d45bd1a5cb"
   ]
 }
