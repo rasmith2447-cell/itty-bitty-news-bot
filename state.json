@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/rpg/avalanches-cancelled-aionguard-would-have-been-crimson-desert-but-the-publisher-broke-up-with-us-on-a-text-message/",
-    "https://gamerant.com/starfield-free-lanes-update-1-16-236-patch-notes-april-2026/",
-    "https://www.gamespot.com/articles/starfield-lands-on-ps5-via-update-that-adds-fallout-bobbleheads-and-finally-lets-you-fly-your-ship/1100-6539260/?ftag=CAD-01-10abi2f",
-    "https://www.pcgamer.com/games/survival-crafting/there-wasnt-really-a-game-or-team-when-undead-labs-made-the-now-5-year-old-state-of-decay-3-reveal-trailer-the-game-was-in-a-word-document/",
     "https://www.gamespot.com/articles/new-game-of-thrones-game-officially-revealed-for-mobile/1100-6539233/?ftag=CAD-01-10abi2f",
     "https://www.purexbox.com/news/2026/04/remember-call-of-the-sea-its-sequel-is-launching-on-xbox-game-pass-this-may",
     "https://www.ign.com/articles/starfield-update-116236-patch-notes-detail-the-biggest-update-yet",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/007-first-light-switch-2-delay",
     "https://www.polygon.com/007-first-light-nintendo-switch-2-delayed/",
     "https://www.nintendolife.com/news/2026/09/new-trademark-seemingly-reveals-the-title-for-lies-of-p-sequel",
-    "https://www.eurogamer.net/injustice-3-playtests-leak"
+    "https://www.eurogamer.net/injustice-3-playtests-leak",
+    "https://www.gamespot.com/articles/gta-6s-stephen-root-is-the-franchises-second-ever-emmy-winning-actor/",
+    "https://www.gematsu.com/2026/09/two-point-museum-dlc-rides-relics-announced",
+    "https://www.purexbox.com/news/2026/09/moss-developer-polyarc-games-shutting-its-doors-after-12-years",
+    "https://gamerant.com/marvel-tokon-fighting-souls-future-updates-character-balance/"
   ],
   "seen_titles": [
-    "avalanche's cancelled aionguard 'would have been crimson desert' but the publisher 'broke up with us on a text message'",
-    "starfield's biggest update yet is out now, patch notes revealed",
-    "starfield lands on ps5 via update that adds fallout bobbleheads and finally lets you fly your ship",
-    "'there wasn't really a game or team' when undead labs made the now-5-year-old state of decay 3 reveal trailer: 'the game was in a word document'",
     "new game of thrones game officially revealed for mobile",
     "remember call of the sea? its sequel is launching on xbox game pass this may",
     "starfield update 1.16.236 patch notes detail the 'biggest update yet'",
@@ -10001,13 +9997,13 @@
     "007 first light catches a big delay on switch 2, pushing it into next year",
     "007 first light significantly delayed on nintendo switch 2",
     "new trademark seemingly reveals the title for lies of p sequel",
-    "injustice 3 is seemingly the mysterious, unannounced fighting game that's been hosting playtests in california"
+    "injustice 3 is seemingly the mysterious, unannounced fighting game that's been hosting playtests in california",
+    "gta 6’s stephen root is the franchise’s second-ever emmy winning actor",
+    "two point museum dlc ‘rides & relics’ announced",
+    "moss developer polyarc games shutting its doors after 12 years",
+    "marvel tokon: fighting souls director apologizes for launch issues"
   ],
   "seen_story_keys": [
-    "708541baf5452dcbe8b1f0ac6ba36810672c867d",
-    "15814a214d5606226bb21b9ab9c9f804c5e7efca",
-    "b4f6f82f515e6b6a4d92bd558a215bf8f661b800",
-    "85dd480aa947627b874826fa4a63d23aaf69e5b6",
     "8c67267764a5239dca2487bd733b13bfe5570f64",
     "81be79bb49c5429550316c0dc8e2e7ec9bac61ff",
     "fb20ce80d3202a9ba181a054ab52e5621d93bb98",
@@ -15003,6 +14999,10 @@
     "f3920afe031531c3e0c35b29c94e9795df2cd4a6",
     "a158b8ef3e65e5dae5f7b56171806fb51b834378",
     "8bd118bd32d32f02f6e52c110dedf4ff7932fd2a",
-    "5b8a5f33245e26531b8ba02439bd06d45bd1a5cb"
+    "5b8a5f33245e26531b8ba02439bd06d45bd1a5cb",
+    "be7b58ed7eb4cc758b07a2ab9864ed0e7feb3027",
+    "79e630a6205935ae07f07364da152b8a437593b4",
+    "5a5acd0fa2961274162d3c6650fb9440cc0dd247",
+    "8bdb89b6d9ef1468ef9c2b4243d779608fd26b03"
   ]
 }
