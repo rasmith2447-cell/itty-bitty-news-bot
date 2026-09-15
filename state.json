@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/arc-raiders-april-update-delayed/",
-    "https://www.pushsquare.com/news/2026/04/the-result-is-incredible-cyberpunk-2077s-big-ps5-pro-update-arrives-tomorrow",
-    "https://gamerant.com/xbox-game-pass-games-coming-soon-april-2026-cod-modern-warfare/",
-    "https://www.gematsu.com/2026/04/cyberpunk-2077-ps5-pro-update-launches-april-8",
     "https://www.gematsu.com/2026/04/call-of-the-elder-gods-launches-may-12",
     "https://www.pushsquare.com/news/2026/04/can-keith-david-sell-you-starfield-on-ps5-bethesda-thinks-so",
     "https://www.rockpapershotgun.com/the-myst-lifts-over-call-of-the-elder-gods-granting-it-a-may-release-date",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/xbox-ceo-asha-sharma-may-have-personally-responded-to-your-customer-support-ticket",
     "https://www.pcgamer.com/games/action/after-nearly-a-year-of-silence-following-its-last-minute-delay-kingmakers-resurfaces-with-an-extended-gameplay-video-and-new-playtest/",
     "https://www.polygon.com/switch-2-zelda-ocarina-of-time-instrument-preorders-price-release-date/",
-    "https://gamerant.com/blizzard-diablo-5-starcraft-release-dates/"
+    "https://gamerant.com/blizzard-diablo-5-starcraft-release-dates/",
+    "https://gamerant.com/pokemon-studio-game-freak-mobile-game/",
+    "https://www.pushsquare.com/news/2026/09/marathons-future-questioned-as-bungie-delays-big-update-and-scraps-seasonal-schedule",
+    "https://www.pushsquare.com/news/2026/09/ace-combat-8s-new-trailer-is-awesome-but-maybe-avoid-it-if-youre-already-in",
+    "https://www.eurogamer.net/sega-netflix-sonic-tv-crazy-taxi-stranger-than-heaven-film"
   ],
   "seen_titles": [
-    "arc raiders delays new april update",
-    "'the result is incredible': cyberpunk 2077's big ps5 pro update arrives tomorrow",
-    "xbox game pass reveals 10 games coming soon, including 3 day one releases and call of duty",
-    "cyberpunk 2077 ps5 pro update launches april 8",
     "call of the elder gods launches may 12",
     "can keith david sell you starfield on ps5? bethesda thinks so",
     "the myst lifts over call of the elder gods, granting it a may release date",
@@ -10001,13 +9997,13 @@
     "xbox ceo asha sharma may have personally responded to your customer support ticket",
     "after nearly a year of silence following its last-minute delay, kingmakers resurfaces with an extended gameplay video and new playtest",
     "nintendo opens the zelda: ocarina of time pre-orders fans were waiting for",
-    "blizzard officially comments on diablo 5, starcraft release dates"
+    "blizzard officially comments on diablo 5, starcraft release dates",
+    "pokemon studio's next game is now official",
+    "marathon's future questioned as bungie delays big update and scraps seasonal schedule",
+    "ace combat 8's new trailer is awesome, but maybe avoid it if you're already in",
+    "sega and netflix partner for a \"cute yet cool\" sonic tv show, a crazy taxi film, and a \"badass action\" stranger than heaven adaptation"
   ],
   "seen_story_keys": [
-    "44bce6dd394e387b521f03a0b455a7a1bd558f0f",
-    "fcd1fb1ab22ffb61bfda2af3ade45a57d7d5c34e",
-    "54a455c8bc990a2f9621c0e37e8eca333214e27d",
-    "22c1de92179d4fed708af2127df082cf28a84248",
     "9ab0e0bf1c6f4b8e2e4888dc913c39a82d324a97",
     "0cd0f8cec4886db18636e3f2e9b82abd1c3ba7f1",
     "29eb65c4683a0f0909768e565fc98423dc19aef4",
@@ -15003,6 +14999,10 @@
     "b83eb7a1681fea67734d87025dda8ae63a4f8bd9",
     "d7faae7802f7d97e0e7e8419e5c48f2ede4bea8e",
     "baf437ba8dae07de1770b8f586ff6dee3b068955",
-    "ff16d4799c70d6ac8f05fe9c167fb10323de4bf3"
+    "ff16d4799c70d6ac8f05fe9c167fb10323de4bf3",
+    "5b5e7ebeca1dfc5353d2020da6de960cc37118ba",
+    "b39d582d116352b7b393a322b414c59845f75806",
+    "1a3ec91a675d12439f4fd69ed1d5010e82dbd18b",
+    "72cbc6cab919c09dbf0c5b604b321bea43fb617e"
   ]
 }
