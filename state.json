@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/supercells-ilkka-paananen-will-receive-fellowship-at-upcoming-bafta-awards/1100-6539264/?ftag=CAD-01-10abi2f",
-    "https://gamerant.com/arc-raiders-new-update-april-8-patch-notes/",
-    "https://www.eurogamer.net/cyberpunk-2077-ps5-pro-upgrade-arrives",
-    "https://www.nintendolife.com/news/2026/04/powerwash-simulator-2s-first-dlc-pack-lands-last-minute-delay-on-switch-2",
     "https://www.ign.com/articles/a-decade-on-plants-vs-zombies-3-has-now-soft-launched-for-at-least-the-third-time",
     "https://www.rockpapershotgun.com/forza-horizon-6s-full-map-has-finally-been-revealed-and-while-tokyo-doesnt-engulf-half-of-it-im-still-seeing-plenty-of-appealing-asphalt-spaghetti",
     "https://www.eurogamer.net/call-of-the-elder-gods-release-date",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/why-the-publisher-of-nintendo-life-is-launching-a-new-pc-gaming-site",
     "https://www.nintendolife.com/news/2026/09/sonic-racings-first-free-character-update-of-year-two-is-bayonetta",
     "https://www.nintendolife.com/news/2026/09/new-zelda-tears-of-the-kingdom-art-book-now-arriving-in-2027",
-    "https://www.nintendolife.com/news/2026/09/diablo-ivs-30th-anniversary-diablo-celebrations-get-off-to-a-bumpy-start"
+    "https://www.nintendolife.com/news/2026/09/diablo-ivs-30th-anniversary-diablo-celebrations-get-off-to-a-bumpy-start",
+    "https://www.rockpapershotgun.com/they-often-dont-make-it-in-the-door-wardogs-studio-bulkhead-check-for-anti-crunch-messaging-on-prospective-hires-social-media-ceo-says",
+    "https://www.eurogamer.net/xbox-game-pass-second-wave-september-gears-of-war",
+    "https://www.videogameschronicle.com/news/video-heres-a-look-at-the-wo-long-2-alpha-demo-which-is-available-today-to-mark-its-release-date-announcement/",
+    "https://www.pushsquare.com/news/2026/09/try-team-ninjas-next-ps5-action-rpg-wo-long-2-six-months-early-with-new-playable-demo"
   ],
   "seen_titles": [
-    "supercell's ilkka paananen will receive fellowship at upcoming bafta awards",
-    "arc raiders reveals patch notes for new 1.23.0 update",
-    "cyberpunk 2077 gets a free ps5 pro upgrade today that brings pssr and better ray tracing options",
-    "powerwash simulator 2's first dlc pack lands last-minute delay on switch 2",
     "a decade on, plants vs zombies 3 has now soft launched for at least the third time",
     "forza horizon 6's full map has finally been revealed, and while tokyo doesn't engulf half of it, i'm still seeing plenty of appealing asphalt spaghetti",
     "call of the sea sequel call of the elder gods gets a close-at-hand release date",
@@ -10001,13 +9997,13 @@
     "why the publisher of nintendo life is launching a new pc gaming site",
     "sonic racing's first free character update of 'year two' is bayonetta",
     "new zelda: tears of the kingdom art book now arriving in 2027",
-    "diablo iv's 30th anniversary diablo celebrations get off to a bumpy start"
+    "diablo iv's 30th anniversary diablo celebrations get off to a bumpy start",
+    "\"they often don’t make it in the door\": wardogs studio bulkhead check for \"anti-crunch messaging\" on prospective hires' social media, ceo says",
+    "here's the second wave of xbox game pass games coming in september",
+    "video: here’s a look at the wo long 2 alpha demo, which is available today to mark its release date announcement",
+    "try team ninja's next ps5 action rpg, wo long 2, six months early with new playable demo"
   ],
   "seen_story_keys": [
-    "0e926c4cd4706ec878e8056dc331f730f0f24258",
-    "d3bac48fd14d3918adf472bd071171de09c64381",
-    "ea5c0a137d83f0d21a43448a952a1508c1f31ef3",
-    "da6cd693b45a7d7759145810ac71ff0b86ff1c5e",
     "98a20a515af457c5684742975e17009d24438f9e",
     "e5d0feb4d59802c3b35c20b6fdf823c5b4629f63",
     "7a1f364dcc450d27fb011fda6d422f04c2ec9860",
@@ -15003,6 +14999,10 @@
     "12d5993476feba7429931720c6a6c873b89d0400",
     "d772d69a5758bbc350ff333a5ef3cc76abaf5b7f",
     "55efae6eb1103c92a1d989ce176519d30a9470f0",
-    "cf2af11e43d69f118ee4f2234fd8e6bdeff696ec"
+    "cf2af11e43d69f118ee4f2234fd8e6bdeff696ec",
+    "4696c9c2759c0210cac598f59b40a923917de5f2",
+    "27aac276eddda8a0c69f6e48e4e64486f93c6ad1",
+    "7b7f9f8a55053009cf7c41b8d6310d7de4c0559b",
+    "4caffdff24e5ef62ccc01aae3808e8c922213f7f"
   ]
 }
