@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/nickelodeon-extreme-tennis-next-announced-for-ps5-xbox-series-switch-and-pc",
-    "https://www.nintendolife.com/news/2026/04/f-zero-99-has-been-updated-to-version-1-7-1-here-are-the-patch-notes",
-    "https://www.gamesindustry.biz/new-matchmaking-platform-sailgame-launches-to-combat-discovery-fatigue-between-developers-and-publishers",
-    "https://www.gamesindustry.biz/netflix-launches-dedicated-app-for-kids-games",
     "https://www.gamespot.com/articles/supercells-ilkka-paananen-will-receive-fellowship-at-upcoming-bafta-awards/1100-6539264/?ftag=CAD-01-10abi2f",
     "https://gamerant.com/arc-raiders-new-update-april-8-patch-notes/",
     "https://www.eurogamer.net/cyberpunk-2077-ps5-pro-upgrade-arrives",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/time-loop-horror-action-adventure-game-noroi-ayashi-the-infinith-oddity-announced-for-switch-2-switch-and-pc",
     "https://www.ign.com/articles/wo-long-2-wings-of-ember-gets-release-date-demo-available-now",
     "https://www.gematsu.com/2026/09/wo-long-2-wings-of-ember-launches-march-4-2027-alpha-demo-now-available",
-    "https://www.nintendolife.com/news/2026/09/koei-tecmos-dark-fantasy-action-rpg-sequel-locks-in-a-switch-2-release-date"
+    "https://www.nintendolife.com/news/2026/09/koei-tecmos-dark-fantasy-action-rpg-sequel-locks-in-a-switch-2-release-date",
+    "https://www.gamesindustry.biz/why-the-publisher-of-nintendo-life-is-launching-a-new-pc-gaming-site",
+    "https://www.nintendolife.com/news/2026/09/sonic-racings-first-free-character-update-of-year-two-is-bayonetta",
+    "https://www.nintendolife.com/news/2026/09/new-zelda-tears-of-the-kingdom-art-book-now-arriving-in-2027",
+    "https://www.nintendolife.com/news/2026/09/diablo-ivs-30th-anniversary-diablo-celebrations-get-off-to-a-bumpy-start"
   ],
   "seen_titles": [
-    "nickelodeon extreme tennis: next! announced for ps5, xbox series, switch, and pc",
-    "f-zero 99 has been updated to version 1.7.1, here are the patch notes",
-    "new matchmaking platform sail.game launches to combat \"discovery fatigue\" between developers and publishers",
-    "netflix launches dedicated app for kids games",
     "supercell's ilkka paananen will receive fellowship at upcoming bafta awards",
     "arc raiders reveals patch notes for new 1.23.0 update",
     "cyberpunk 2077 gets a free ps5 pro upgrade today that brings pssr and better ray tracing options",
@@ -10001,13 +9997,13 @@
     "time-loop horror action adventure game noroi ayashi: the ∞th oddity announced for switch 2, switch, and pc",
     "wo long 2: wings of ember gets release date, demo available now",
     "wo long 2: wings of ember launches march 4, 2027, alpha demo now available",
-    "koei tecmo's dark fantasy action rpg sequel locks in a switch 2 release date"
+    "koei tecmo's dark fantasy action rpg sequel locks in a switch 2 release date",
+    "why the publisher of nintendo life is launching a new pc gaming site",
+    "sonic racing's first free character update of 'year two' is bayonetta",
+    "new zelda: tears of the kingdom art book now arriving in 2027",
+    "diablo iv's 30th anniversary diablo celebrations get off to a bumpy start"
   ],
   "seen_story_keys": [
-    "e9d9074d6ee322e28c3494bebd283602ba66207e",
-    "1d0956c6f88700c92482fdb34553f6abe0086c6d",
-    "c2ffc5ba4f2f3e8ccbd64ce65d451779f1e213cb",
-    "e9d0f920405785df73893bbcbe14753a52961eeb",
     "0e926c4cd4706ec878e8056dc331f730f0f24258",
     "d3bac48fd14d3918adf472bd071171de09c64381",
     "ea5c0a137d83f0d21a43448a952a1508c1f31ef3",
@@ -15003,6 +14999,10 @@
     "6f4c3019c3fb70a0cbe9f95c0bf0d12d08fefc3b",
     "95d0880e6f1ec369414675c6b51bf8cd7d21ceaf",
     "07c6f5d7e024b218520960613e2fc0992a0b2a67",
-    "cdd072bf75b3d8f7e6caf47ef3f3d6214754ef35"
+    "cdd072bf75b3d8f7e6caf47ef3f3d6214754ef35",
+    "12d5993476feba7429931720c6a6c873b89d0400",
+    "d772d69a5758bbc350ff333a5ef3cc76abaf5b7f",
+    "55efae6eb1103c92a1d989ce176519d30a9470f0",
+    "cf2af11e43d69f118ee4f2234fd8e6bdeff696ec"
   ]
 }
