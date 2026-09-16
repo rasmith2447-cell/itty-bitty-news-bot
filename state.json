@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/guilty-gear-creator-says-its-very-dangerous-for-developers-to-specialise-in-one-area-instead-of-trying-new-skills/",
-    "https://www.eurogamer.net/007-first-light-delayed-nintendo-switch-2",
-    "https://www.gematsu.com/2026/04/fast-paced-action-adventure-game-koshmar-the-last-reverie-announced-for-consoles-pc",
-    "https://www.pushsquare.com/news/2026/04/former-resident-evil-witcher-devs-unite-for-a-stylish-new-action-adventure-game-on-ps5",
     "https://www.ign.com/articles/james-bond-game-007-first-light-delayed-on-nintendo-switch-until-later-this-summer",
     "https://www.polygon.com/james-bond-007-first-light-nintendo-switch-2-delay/",
     "https://www.gematsu.com/2026/04/hazard-levels-launches-in-early-access-for-pc-on-april-30",
@@ -4999,13 +4995,13 @@
     "https://www.gamespot.com/articles/metroid-ravenous-logo-memes-make-phrases-like-girl-dinner-and-they-took-my-ass-look-so-metal/",
     "https://www.eurogamer.net/wardogs-ceo-new-response-crunch-backlash-social-media-monitoring-statement",
     "https://www.ign.com/articles/pirate-who-cracked-denuvo-games-like-resident-evil-requiem-plans-to-continue-doing-so-despite-being-sued",
-    "https://www.pcgamer.com/gaming-industry/mindseye-developer-build-a-rocket-boy-may-finally-be-closing/"
+    "https://www.pcgamer.com/gaming-industry/mindseye-developer-build-a-rocket-boy-may-finally-be-closing/",
+    "https://www.gematsu.com/2026/09/reverse-zombie-game-the-first-zombie-announced-for-switch-pc",
+    "https://www.gematsu.com/2026/09/heart-machine-lays-off-nearly-everyone-at-the-studio-following-cancellation-of-unannounced-title",
+    "https://www.ign.com/articles/studio-behind-hyper-light-drifter-in-peril-after-publisher-withdraws-funding-for-unannounced-project",
+    "https://www.videogameschronicle.com/news/mindseye-studio-build-a-rocket-boy-may-be-closing-down-according-to-reports/"
   ],
   "seen_titles": [
-    "guilty gear creator says it’s ‘very dangerous’ for developers to specialise in one area instead of trying new skills",
-    "james bond game 007: first light delayed a bit on nintendo switch 2",
-    "fast-paced action adventure game koshmar: the last reverie announced for consoles, pc",
-    "former resident evil, witcher devs unite for a stylish new action adventure game on ps5",
     "james bond game 007 first light delayed on nintendo switch until 'later this summer'",
     "james bond game 007 first light hit with a delay on switch 2",
     "hazard levels launches in early access for pc on april 30",
@@ -10001,13 +9997,13 @@
     "metroid ravenous logo memes make phrases like “girl dinner” and “they took my ass” look so metal",
     "wardogs studio ceo issues new statement, after backlash for saying his studio won't hire people who \"constantly tweet anti-crunch messaging\"",
     "pirate who cracked denuvo games like resident evil requiem plans to keep doing so despite being sued",
-    "mindseye developer build a rocket boy may finally be closing"
+    "mindseye developer build a rocket boy may finally be closing",
+    "‘reverse’ zombie game the first zombie announced for switch, pc",
+    "heart machine lays off “nearly everyone at the studio” following cancellation of unannounced title",
+    "studio behind hyper light drifter in peril after publisher withdraws funding for unannounced project",
+    "mindseye studio build a rocket boy may be closing down, according to reports"
   ],
   "seen_story_keys": [
-    "578c5b9936855b9db7fb111d22026d68e5599905",
-    "e354092ea04954a566c5b45abb8697349bafbff6",
-    "72cf3cda479fb5a02df91c3ad565b241d6f0c1b8",
-    "9ce8cd42d8267000ed5af2110e8adce2ff71599c",
     "ea020ec906122a94549386fc93eee232767cbbc2",
     "f297a7a3b96f4c6dec691a34285754bd995720c3",
     "850fe07e62b46195a70a4cf37a9a69ecfe7c0c60",
@@ -15003,6 +14999,10 @@
     "6c08e874562a85b15446b9f329e5b342db26524b",
     "732770875a8924844531e817dd37f12ec53ae302",
     "6ad29b3e32dd50fc366644baae822b6a8e41a5be",
-    "da39585a807e51f4c3575aeff547a1cefbdd5697"
+    "da39585a807e51f4c3575aeff547a1cefbdd5697",
+    "34b303ff521d907bcee6bc6d909cbe3fa2899482",
+    "85c1bc61fb963770cd8890a63192976e498ae9c1",
+    "027674bbfc14f3a94c5f33d3f3a5c3b62cecf87d",
+    "ecba5f576c9a9a49804aa832c845b59b4f6054bc"
   ]
 }
