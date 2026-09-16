@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/04/dragon-quest-vii-reimagined-has-received-an-update-for-switch-1-and-2-today",
-    "https://www.pcgamer.com/games/action/after-a-recent-patch-death-stranding-2-is-great-on-steam-deck/",
-    "https://www.gematsu.com/2026/04/aretha-collection-1993-1995-announced-for-ps5-ps4-and-switch",
-    "https://www.gematsu.com/2026/04/artdink-game-log-aquanauts-holiday-launches-april-23-in-japan",
     "https://www.gematsu.com/2026/04/nickelodeon-extreme-tennis-next-announced-for-ps5-xbox-series-switch-and-pc",
     "https://www.nintendolife.com/news/2026/04/f-zero-99-has-been-updated-to-version-1-7-1-here-are-the-patch-notes",
     "https://www.gamesindustry.biz/new-matchmaking-platform-sailgame-launches-to-combat-discovery-fatigue-between-developers-and-publishers",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/sonic-racing-crossworlds-free-character-update-bayonetta-announced",
     "https://gamerant.com/arc-raiders-expeditions-delay-removal/",
     "https://www.pushsquare.com/news/2026/09/new-ps5-pulse-headsets-revealed-by-sony-with-better-sound-and-comfort",
-    "https://www.ign.com/articles/former-tekken-director-katsuhiro-harada-says-his-next-game-will-be-a-surprise-but-not-outside-fans-expectations"
+    "https://www.ign.com/articles/former-tekken-director-katsuhiro-harada-says-his-next-game-will-be-a-surprise-but-not-outside-fans-expectations",
+    "https://www.gematsu.com/2026/09/time-loop-horror-action-adventure-game-noroi-ayashi-the-infinith-oddity-announced-for-switch-2-switch-and-pc",
+    "https://www.ign.com/articles/wo-long-2-wings-of-ember-gets-release-date-demo-available-now",
+    "https://www.gematsu.com/2026/09/wo-long-2-wings-of-ember-launches-march-4-2027-alpha-demo-now-available",
+    "https://www.nintendolife.com/news/2026/09/koei-tecmos-dark-fantasy-action-rpg-sequel-locks-in-a-switch-2-release-date"
   ],
   "seen_titles": [
-    "dragon quest vii: reimagined has received an update for switch 1 & 2 today",
-    "after a recent patch, death stranding 2 is great on steam deck",
-    "aretha collection 1993-1995 announced for ps5, ps4, and switch",
-    "artdink game log: aquanaut’s holiday launches april 23 in japan",
     "nickelodeon extreme tennis: next! announced for ps5, xbox series, switch, and pc",
     "f-zero 99 has been updated to version 1.7.1, here are the patch notes",
     "new matchmaking platform sail.game launches to combat \"discovery fatigue\" between developers and publishers",
@@ -10001,13 +9997,13 @@
     "sonic racing: crossworlds free character update bayonetta announced",
     "arc raiders could be removing major game feature",
     "new ps5 pulse headsets revealed by sony with better sound and comfort",
-    "former tekken director katsuhiro harada says his next game will be a ‘surprise,’ but not outside fans’ expectations"
+    "former tekken director katsuhiro harada says his next game will be a ‘surprise,’ but not outside fans’ expectations",
+    "time-loop horror action adventure game noroi ayashi: the ∞th oddity announced for switch 2, switch, and pc",
+    "wo long 2: wings of ember gets release date, demo available now",
+    "wo long 2: wings of ember launches march 4, 2027, alpha demo now available",
+    "koei tecmo's dark fantasy action rpg sequel locks in a switch 2 release date"
   ],
   "seen_story_keys": [
-    "ba1d380d6c0969ef341e1c2ff35dd915450edb28",
-    "2af1e8e145a1b257d2428cb5c6601ad00c38dcd7",
-    "1921bf604e74d3325aa0bf85feedd1084f9745c3",
-    "773b7d0abafc0f4a62733dc0bf20a38db599cc73",
     "e9d9074d6ee322e28c3494bebd283602ba66207e",
     "1d0956c6f88700c92482fdb34553f6abe0086c6d",
     "c2ffc5ba4f2f3e8ccbd64ce65d451779f1e213cb",
@@ -15003,6 +14999,10 @@
     "5f6a7496036fced7357b678f8d895700bebaf53a",
     "de077779c6bb87a2c5130d8afce305fd28ae159c",
     "cdbe16f0ed1f5377045561631605a61d83d4a541",
-    "cb09fcebe7e8a6959610f6793f1bce334c1e7731"
+    "cb09fcebe7e8a6959610f6793f1bce334c1e7731",
+    "6f4c3019c3fb70a0cbe9f95c0bf0d12d08fefc3b",
+    "95d0880e6f1ec369414675c6b51bf8cd7d21ceaf",
+    "07c6f5d7e024b218520960613e2fc0992a0b2a67",
+    "cdd072bf75b3d8f7e6caf47ef3f3d6214754ef35"
   ]
 }
