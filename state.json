@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/james-bond-game-007-first-light-delayed-on-nintendo-switch-until-later-this-summer",
-    "https://www.polygon.com/james-bond-007-first-light-nintendo-switch-2-delay/",
-    "https://www.gematsu.com/2026/04/hazard-levels-launches-in-early-access-for-pc-on-april-30",
-    "https://www.pushsquare.com/news/2026/04/we-had-everything-from-crimson-desert-just-cause-dev-recalls-cancelled-fantasy-game",
     "https://www.polygon.com/pokemon-champions-list-items/",
     "https://www.polygon.com/overwatch-hero-51-sierra-trailer-abilities-release-date/",
     "https://www.nintendolife.com/news/2026/04/icymi-next-triple-i-initiative-showcase-promises-reveals-for-castlevania-belmonts-curse-and-more",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/reverse-zombie-game-the-first-zombie-announced-for-switch-pc",
     "https://www.gematsu.com/2026/09/heart-machine-lays-off-nearly-everyone-at-the-studio-following-cancellation-of-unannounced-title",
     "https://www.ign.com/articles/studio-behind-hyper-light-drifter-in-peril-after-publisher-withdraws-funding-for-unannounced-project",
-    "https://www.videogameschronicle.com/news/mindseye-studio-build-a-rocket-boy-may-be-closing-down-according-to-reports/"
+    "https://www.videogameschronicle.com/news/mindseye-studio-build-a-rocket-boy-may-be-closing-down-according-to-reports/",
+    "https://www.gematsu.com/2026/09/unme-delayed-to-2027",
+    "https://www.gematsu.com/2026/09/pixel-art-tower-defense-game-pixelheroscramble-plus-announced-for-switch-pc",
+    "https://www.gematsu.com/2026/09/lollipop-chainsaw-2-back2back-announced-for-ps5",
+    "https://www.nintendolife.com/news/2026/09/zelda-ocarina-of-time-on-switch-2-will-support-vrr-in-docked-mode"
   ],
   "seen_titles": [
-    "james bond game 007 first light delayed on nintendo switch until 'later this summer'",
-    "james bond game 007 first light hit with a delay on switch 2",
-    "hazard levels launches in early access for pc on april 30",
-    "'we had everything from crimson desert': just cause dev recalls cancelled fantasy game",
     "pokémon champions shakes up the competitive scene with short list of items and monsters",
     "overwatch's new hero sierra revealed in first trailer",
     "icymi: next triple-i initiative showcase promises reveals for castlevania: belmont's curse & more",
@@ -10001,13 +9997,13 @@
     "‘reverse’ zombie game the first zombie announced for switch, pc",
     "heart machine lays off “nearly everyone at the studio” following cancellation of unannounced title",
     "studio behind hyper light drifter in peril after publisher withdraws funding for unannounced project",
-    "mindseye studio build a rocket boy may be closing down, according to reports"
+    "mindseye studio build a rocket boy may be closing down, according to reports",
+    "un:me delayed to 2027",
+    "pixel art tower defense game pixelheroscramble plus announced for switch, pc",
+    "lollipop chainsaw 2 back2back announced for ps5 [update: gameplay]",
+    "zelda: ocarina of time on switch 2 will support vrr in docked mode"
   ],
   "seen_story_keys": [
-    "ea020ec906122a94549386fc93eee232767cbbc2",
-    "f297a7a3b96f4c6dec691a34285754bd995720c3",
-    "850fe07e62b46195a70a4cf37a9a69ecfe7c0c60",
-    "19e10cd6623d37dd9ae99a76e533570fd132f442",
     "7eaf73533940964f78fea464f075788228579918",
     "1898c0373f069d14f3ad6629ba0429ff630521dd",
     "7395bdf92317aa19a949846ff0eab92307d141c9",
@@ -15003,6 +14999,10 @@
     "34b303ff521d907bcee6bc6d909cbe3fa2899482",
     "85c1bc61fb963770cd8890a63192976e498ae9c1",
     "027674bbfc14f3a94c5f33d3f3a5c3b62cecf87d",
-    "ecba5f576c9a9a49804aa832c845b59b4f6054bc"
+    "ecba5f576c9a9a49804aa832c845b59b4f6054bc",
+    "04bfc35c07dc570c4cdc6c3dcd2e90ab8745f290",
+    "f90116d705a124d63aaad6d04011e2c2f7d6497d",
+    "df02ab77da41878b84ccdecf573feeb5f5daf5bb",
+    "e232582f0b69d512af98834111d75137cd85c56a"
   ]
 }
