@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/co-op-party-gardening-game-planted-announced-for-ps5-xbox-series-switch-and-pc",
-    "https://gamerant.com/nickelodeon-extreme-tennis-next-trailer/",
-    "https://gamerant.com/forza-horizon-6-japan-map/",
-    "https://gamerant.com/007-first-light-release-date-delay-nintendo-switch-2/",
     "https://www.pcgamer.com/games/life-sim/the-ethically-sourced-wizard-school-life-sim-ive-been-waiting-for-finally-has-a-playable-demo-and-launches-this-year/",
     "https://gamerant.com/zelda-twilight-princess-pc-port-fps/",
     "https://www.gamespot.com/articles/pokemon-champions-players-say-content-from-trailers-isnt-in-game/1100-6539281/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/09/hideo-kojima-reveals-new-details-on-upcoming-xbox-games-including-lead-actor-for-physint",
     "https://www.eurogamer.net/hideo-kojima-bill-skarsgard-physint-mysterious-horror-game-od",
     "https://www.eurogamer.net/wardogs-marathon-revenue-arc-raiders-helldivers-2-steam",
-    "https://www.polygon.com/hunger-games-sunrise-on-the-reaping-trailer-september/"
+    "https://www.polygon.com/hunger-games-sunrise-on-the-reaping-trailer-september/",
+    "https://gamerant.com/valor-mortis-price-ps5-pc-xbox/",
+    "https://www.gematsu.com/2026/09/psikyo-memories-announced-for-ps5-switch-2",
+    "https://www.gematsu.com/2026/09/dragon-slayer-the-legend-of-heroes-i-ii-announced-for-ps5-ps4-switch-and-pc",
+    "https://www.gematsu.com/2026/09/toshinden-collection-announced-for-ps5-switch-2-and-pc"
   ],
   "seen_titles": [
-    "co-op party gardening game planted! announced for ps5, xbox series, switch, and pc",
-    "new game is like mario tennis, but with nickelodeon characters",
-    "forza horizon 6 map officially revealed",
-    "007 first light announces release date delay for one particular platform",
     "the ethically-sourced wizard school life sim i've been waiting for finally has a playable demo and launches this year",
     "zelda: twilight princess pc port runs at 60 fps",
     "pokemon champions players say content from trailers isn't in game",
@@ -10001,13 +9997,13 @@
     "hideo kojima reveals new details on upcoming xbox games, including lead actor for physint",
     "hideo kojima confirms bill skarsgård is physint's lead actor, gives production update on mysterious horror game od",
     "wardogs has already made more money than marathon, and its steam launch momentum is ahead of arc raiders and helldivers 2",
-    "new hunger games trailer reveals this will be the most brutal movie in the series"
+    "new hunger games trailer reveals this will be the most brutal movie in the series",
+    "brand-new soulslike is releasing at a budget price",
+    "psikyo memories announced for ps5, switch 2",
+    "dragon slayer: the legend of heroes i & ii announced for ps5, ps4, switch, and pc",
+    "toshinden collection announced for ps5, switch 2, and pc"
   ],
   "seen_story_keys": [
-    "52c02da880dcf7ebbd8f7d5dcb160b431eadb11e",
-    "e192aa34e1c18f8f16ffd712471cc5f0f17ef867",
-    "bd78406d52ac31eb56d4654f1ca4b0bba04bb153",
-    "3bcf703f4433014d9ed35731e5f5e21e3030f2b1",
     "7d5362cf463d83efc7cffee7fc96b5cd02b4c57d",
     "f64907de76cf3530effc1e4906b38e1e71f4cbdc",
     "fca5185f8c905b7215e3418859826a3c655c6985",
@@ -15003,6 +14999,10 @@
     "5ddbc385ed0259f780644069d282bbee0f0330e5",
     "a69da122413903fe48662ae9dbbe97592c50043e",
     "055719420f24dc638decaa4bc5496ac30d882f86",
-    "d8426f23ae09e5c346a082222b3f82b904f37cb4"
+    "d8426f23ae09e5c346a082222b3f82b904f37cb4",
+    "f5c3484382f3aaee43cb0d769852f8b0f53beaea",
+    "ada2ef8175bf4519b96bbd5430883e1e2b764d21",
+    "c36cab401498dcb60c76e8a6946a9baeab639d31",
+    "9d44cb2db0f13cc08bd2d785bd8805668c79bf59"
   ]
 }
