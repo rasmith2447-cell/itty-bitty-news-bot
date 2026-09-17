@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/life-sim/the-ethically-sourced-wizard-school-life-sim-ive-been-waiting-for-finally-has-a-playable-demo-and-launches-this-year/",
-    "https://gamerant.com/zelda-twilight-princess-pc-port-fps/",
-    "https://www.gamespot.com/articles/pokemon-champions-players-say-content-from-trailers-isnt-in-game/1100-6539281/?ftag=CAD-01-10abi2f",
-    "https://www.nintendolife.com/news/2026/04/007-first-light-shaken-by-delay-on-switch-2-now-releasing-after-other-consoles",
     "https://www.videogameschronicle.com/news/the-switch-2-version-of-007-first-light-has-been-delayed-until-this-summer/",
     "https://www.gematsu.com/2026/04/007-first-light-for-switch-2-delayed-to-later-this-summer",
     "https://www.nintendolife.com/news/2026/04/no-mans-sky-goes-full-pokemon-in-new-creature-catching-xeno-arena-update",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/valor-mortis-price-ps5-pc-xbox/",
     "https://www.gematsu.com/2026/09/psikyo-memories-announced-for-ps5-switch-2",
     "https://www.gematsu.com/2026/09/dragon-slayer-the-legend-of-heroes-i-ii-announced-for-ps5-ps4-switch-and-pc",
-    "https://www.gematsu.com/2026/09/toshinden-collection-announced-for-ps5-switch-2-and-pc"
+    "https://www.gematsu.com/2026/09/toshinden-collection-announced-for-ps5-switch-2-and-pc",
+    "https://gamerant.com/switch-2-monster-hunter-wilds-bundle/",
+    "https://www.pcgamer.com/games/grand-theft-auto/twitch-ceo-says-gta-6-multiplayer-will-launch-in-2027/",
+    "https://www.polygon.com/game-of-thrones-brandon-sanderson-defends-george-r-r-martin-winds-of-winter/",
+    "https://www.rockpapershotgun.com/nearly-everyone-laid-off-at-hyper-light-drifter-devs-heart-machine-after-publisher-drops-unannounced-game"
   ],
   "seen_titles": [
-    "the ethically-sourced wizard school life sim i've been waiting for finally has a playable demo and launches this year",
-    "zelda: twilight princess pc port runs at 60 fps",
-    "pokemon champions players say content from trailers isn't in game",
-    "007 first light shaken by delay on switch 2, now releasing after other consoles",
     "the switch 2 version of 007 first light has been delayed until this summer",
     "007 first light for switch 2 delayed to “later this summer”",
     "no man's sky goes full pokémon in new creature-catching 'xeno arena' update",
@@ -10001,13 +9997,13 @@
     "brand-new soulslike is releasing at a budget price",
     "psikyo memories announced for ps5, switch 2",
     "dragon slayer: the legend of heroes i & ii announced for ps5, ps4, switch, and pc",
-    "toshinden collection announced for ps5, switch 2, and pc"
+    "toshinden collection announced for ps5, switch 2, and pc",
+    "brand-new switch 2 console bundle revealed",
+    "twitch ceo says gta 6 multiplayer will launch in 2027",
+    "brandon sanderson reveals why he’d never take over game of thrones",
+    "\"nearly everyone\" laid off at hyper light drifter devs heart machine after publisher drops unannounced game"
   ],
   "seen_story_keys": [
-    "7d5362cf463d83efc7cffee7fc96b5cd02b4c57d",
-    "f64907de76cf3530effc1e4906b38e1e71f4cbdc",
-    "fca5185f8c905b7215e3418859826a3c655c6985",
-    "16e4fe57d2180e8fd235dfa628ef65d1d7c9be7e",
     "cd5181b321ed52a52c6f826db526b38e7ef4487b",
     "e61a3d2e71a03ea6382e03a1cbcb929c7ee54f1c",
     "b729b4e797f20fc618102f2a765feeb617bbefa9",
@@ -15003,6 +14999,10 @@
     "f5c3484382f3aaee43cb0d769852f8b0f53beaea",
     "ada2ef8175bf4519b96bbd5430883e1e2b764d21",
     "c36cab401498dcb60c76e8a6946a9baeab639d31",
-    "9d44cb2db0f13cc08bd2d785bd8805668c79bf59"
+    "9d44cb2db0f13cc08bd2d785bd8805668c79bf59",
+    "6e794b52ace86359a250a7209b46490697d74874",
+    "2bc67f25310e0273419ccec5af2eaa70421e446f",
+    "41506b53dadc662f09017cb06ad9cd4cce2cd773",
+    "ffe2545eb1328f9c64b8f895782a89fa1e7e83d6"
   ]
 }
