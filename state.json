@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/pokemon-champions-list-items/",
-    "https://www.polygon.com/overwatch-hero-51-sierra-trailer-abilities-release-date/",
-    "https://www.nintendolife.com/news/2026/04/icymi-next-triple-i-initiative-showcase-promises-reveals-for-castlevania-belmonts-curse-and-more",
-    "https://www.ign.com/articles/game-of-thrones-star-lena-headey-reveals-mcu-role-cut-from-thor-love-and-thunder",
     "https://www.gamespot.com/articles/no-mans-sky-is-adding-pokemon-style-battles-in-xeno-arena/1100-6539279/?ftag=CAD-01-10abi2f",
     "https://gamerant.com/overwatch-new-hero-sierra/",
     "https://www.ign.com/articles/whispers-of-the-tallgrass-survival-horror-game-announced-pc",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/unme-delayed-to-2027",
     "https://www.gematsu.com/2026/09/pixel-art-tower-defense-game-pixelheroscramble-plus-announced-for-switch-pc",
     "https://www.gematsu.com/2026/09/lollipop-chainsaw-2-back2back-announced-for-ps5",
-    "https://www.nintendolife.com/news/2026/09/zelda-ocarina-of-time-on-switch-2-will-support-vrr-in-docked-mode"
+    "https://www.nintendolife.com/news/2026/09/zelda-ocarina-of-time-on-switch-2-will-support-vrr-in-docked-mode",
+    "https://www.nintendolife.com/news/2026/09/mario-kart-tour-announces-final-anniversary-tour-ahead-of-shutdown",
+    "https://www.gematsu.com/2026/09/zero-parades-for-dead-spies-for-ps5-launches-november-3-alongside-directors-cut-update",
+    "https://www.gematsu.com/2026/09/earth-defense-force-6-2-invaders-from-another-world-launches-march-18-2027-in-japan",
+    "https://www.gematsu.com/2026/09/astrae-oratio-launches-in-2027-for-ios-and-android-followed-by-pc"
   ],
   "seen_titles": [
-    "pokémon champions shakes up the competitive scene with short list of items and monsters",
-    "overwatch's new hero sierra revealed in first trailer",
-    "icymi: next triple-i initiative showcase promises reveals for castlevania: belmont's curse & more",
-    "game of thrones star lena headey reveals mcu role cut from thor: love and thunder",
     "no man's sky is adding pokemon-style battles in xeno arena",
     "overwatch officially reveals new damage hero sierra",
     "whispers of the tallgrass, a creepy first-person survival horror game, announced for pc",
@@ -10001,13 +9997,13 @@
     "un:me delayed to 2027",
     "pixel art tower defense game pixelheroscramble plus announced for switch, pc",
     "lollipop chainsaw 2 back2back announced for ps5 [update: gameplay]",
-    "zelda: ocarina of time on switch 2 will support vrr in docked mode"
+    "zelda: ocarina of time on switch 2 will support vrr in docked mode",
+    "mario kart tour announces final anniversary tour ahead of shutdown",
+    "zero parades: for dead spies for ps5 launches november 3 alongside ‘director’s cut’ update",
+    "earth defense force 6.2: invaders from another world launches march 18, 2027 in japan",
+    "astrae oratio launches in 2027 for ios and android, followed by pc"
   ],
   "seen_story_keys": [
-    "7eaf73533940964f78fea464f075788228579918",
-    "1898c0373f069d14f3ad6629ba0429ff630521dd",
-    "7395bdf92317aa19a949846ff0eab92307d141c9",
-    "1014c3282e92db8babdb311b2224ed882c90180d",
     "20fee502975c403ce582cea27a7d26fdf3d648aa",
     "3d6d2ba636bf739ceb5e98b4107bc6791c40ae31",
     "dc1133838f2b63c8a11864e85fd97baf26e3d5b3",
@@ -15003,6 +14999,10 @@
     "04bfc35c07dc570c4cdc6c3dcd2e90ab8745f290",
     "f90116d705a124d63aaad6d04011e2c2f7d6497d",
     "df02ab77da41878b84ccdecf573feeb5f5daf5bb",
-    "e232582f0b69d512af98834111d75137cd85c56a"
+    "e232582f0b69d512af98834111d75137cd85c56a",
+    "93d6f7092ea23a183664895be9738885729e488a",
+    "20d7acd179c3d5218c73e94a1424856bb1d992a5",
+    "aa441a6fe42113889346df94469e8ece43ecb3d9",
+    "acbba5568b7babe0f5f7062e3411b38b1fae3a1c"
   ]
 }
