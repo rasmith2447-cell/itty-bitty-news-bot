@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/the-switch-2-version-of-007-first-light-has-been-delayed-until-this-summer/",
-    "https://www.gematsu.com/2026/04/007-first-light-for-switch-2-delayed-to-later-this-summer",
-    "https://www.nintendolife.com/news/2026/04/no-mans-sky-goes-full-pokemon-in-new-creature-catching-xeno-arena-update",
-    "https://www.pushsquare.com/news/2026/04/no-mans-sky-becomes-pokemon-in-latest-free-game-changing-update-on-ps5-ps4",
     "https://www.gematsu.com/2026/04/console-archives-seicross-launches-april-9",
     "https://www.pushsquare.com/news/2026/04/cyberpunk-2077s-acclaimed-ps5-pro-update-is-out-now",
     "https://www.gematsu.com/2026/04/dodonpachi-resurrection-reignite-announced-for-pc",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/switch-2-monster-hunter-wilds-bundle/",
     "https://www.pcgamer.com/games/grand-theft-auto/twitch-ceo-says-gta-6-multiplayer-will-launch-in-2027/",
     "https://www.polygon.com/game-of-thrones-brandon-sanderson-defends-george-r-r-martin-winds-of-winter/",
-    "https://www.rockpapershotgun.com/nearly-everyone-laid-off-at-hyper-light-drifter-devs-heart-machine-after-publisher-drops-unannounced-game"
+    "https://www.rockpapershotgun.com/nearly-everyone-laid-off-at-hyper-light-drifter-devs-heart-machine-after-publisher-drops-unannounced-game",
+    "https://gamerant.com/diablo-5-live-service-sequel-content-gap/",
+    "https://www.gematsu.com/2026/09/tropico-7-adds-switch-2-version",
+    "https://www.purexbox.com/news/2026/09/gears-of-war-e-day-has-officially-gone-gold-pre-installs-confirmed-for-this-month",
+    "https://www.ign.com/articles/gta-online-will-be-supported-beyond-gta-6-release-pc-becoming-more-and-more-important"
   ],
   "seen_titles": [
-    "the switch 2 version of 007 first light has been delayed until this summer",
-    "007 first light for switch 2 delayed to “later this summer”",
-    "no man's sky goes full pokémon in new creature-catching 'xeno arena' update",
-    "no man's sky becomes pokémon in latest free game-changing update on ps5, ps4",
     "console archives seicross launches april 9",
     "cyberpunk 2077's acclaimed ps5 pro update is out now",
     "dodonpachi resurrection reignite announced for pc",
@@ -10001,13 +9997,13 @@
     "brand-new switch 2 console bundle revealed",
     "twitch ceo says gta 6 multiplayer will launch in 2027",
     "brandon sanderson reveals why he’d never take over game of thrones",
-    "\"nearly everyone\" laid off at hyper light drifter devs heart machine after publisher drops unannounced game"
+    "\"nearly everyone\" laid off at hyper light drifter devs heart machine after publisher drops unannounced game",
+    "diablo 5 is giving diablo 4 a problem most live-service games never have to face",
+    "tropico 7 adds switch 2 version",
+    "gears of war: e-day has officially gone 'gold', pre-installs confirmed for this month",
+    "gta online will be supported 'beyond' gta 6 release, pc 'becoming more and more important'"
   ],
   "seen_story_keys": [
-    "cd5181b321ed52a52c6f826db526b38e7ef4487b",
-    "e61a3d2e71a03ea6382e03a1cbcb929c7ee54f1c",
-    "b729b4e797f20fc618102f2a765feeb617bbefa9",
-    "70006f04014de69174b214c3e2272c38e381badd",
     "e6e654257795cb9528a8d1ef13609e67468d738b",
     "3eccc485823068a804f5f079b846addc688a2bcd",
     "f63c6b65d6da346f2ee9ba9bf9b1f6311e586aed",
@@ -15003,6 +14999,10 @@
     "6e794b52ace86359a250a7209b46490697d74874",
     "2bc67f25310e0273419ccec5af2eaa70421e446f",
     "41506b53dadc662f09017cb06ad9cd4cce2cd773",
-    "ffe2545eb1328f9c64b8f895782a89fa1e7e83d6"
+    "ffe2545eb1328f9c64b8f895782a89fa1e7e83d6",
+    "de202e63c1bce3f766aa21e3c25f0aec5972e97f",
+    "9da723223255e5f34b95d14a6302f111eef34437",
+    "6fc65862257007c939dff873c513b3dd6448cc49",
+    "1b2f6d901783251fb05bf9e32a4c7638bde39a90"
   ]
 }
