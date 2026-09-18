@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.rockpapershotgun.com/samson-devs-announce-big-patch-to-start-fixing-its-unacceptable-launch-bugs-and-boy-am-i-glad-to-see-itll-add-in-multiple-saves",
-    "https://www.eurogamer.net/overwatch-hero-sierra-revealed",
-    "https://www.nintendolife.com/news/2026/04/psa-hello-yoshi-hatches-on-western-switch-eshops-today",
-    "https://www.eurogamer.net/pokemon-champions-bug-fixes-announced",
     "https://www.purexbox.com/news/2026/04/xbox-boss-reveals-new-dedicated-team-focusing-on-fan-feedback",
     "https://www.ign.com/articles/pokemon-champions-developer-sincerely-apologizes-for-launch-issues-details-list-of-bugs-to-be-fixed",
     "https://www.videogameschronicle.com/news/avalanche-co-founder-says-his-new-studios-first-game-samson-has-unacceptable-bugs-following-rough-launch/",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/black-salt-games-establishes-indie-studio-team-trifold-under-new-saltworks-entertainment-label",
     "https://www.pushsquare.com/news/2026/09/zero-parades-lands-on-ps5-in-directors-cut-form-on-3rd-november",
     "https://www.rockpapershotgun.com/twitch-ceo-expects-gta-6-online-multiplayer-will-launch-next-year-which-if-accurate-would-leave-only-the-pc-ports-arrival-point-up-in-the-air",
-    "https://www.pushsquare.com/news/2026/09/fortnites-kingdom-hearts-crossover-is-live-now-and-theres-plenty-for-fans-to-discover"
+    "https://www.pushsquare.com/news/2026/09/fortnites-kingdom-hearts-crossover-is-live-now-and-theres-plenty-for-fans-to-discover",
+    "https://gamerant.com/gears-of-war-e-day-gone-gold/",
+    "https://www.nintendolife.com/news/2026/09/disaster-very-cancels-loads-of-metroid-ravenous-special-edition-pre-orders",
+    "https://www.videogameschronicle.com/news/twitch-ceo-says-grand-theft-auto-6s-multiplayer-mode-will-launch-next-year/",
+    "https://www.polygon.com/gta-6-multiplayer-online-coming-2027-twitch-ceo/"
   ],
   "seen_titles": [
-    "samson devs announce big patch to start fixing its \"unacceptable\" launch bugs, and boy am i glad to see it'll add in multiple saves",
-    "the next new overwatch hero is sierra, and we've been given a brief look at what she can do",
-    "psa: 'hello, yoshi!' hatches on western switch eshops today",
-    "\"the gender of some pokémon in the tutorial is incorrect\" - pokémon champions bug fixes to tackle mega evolution issues and more",
     "xbox boss reveals new 'dedicated team' focusing on fan feedback",
     "pokémon champions developer 'sincerely apologizes' for launch issues, details list of bugs to be fixed",
     "avalanche co-founder says his new studio’s first game samson has ‘unacceptable’ bugs following rough launch",
@@ -10001,13 +9997,13 @@
     "dredge maker black salt games establishes indie studio team trifold under new saltworks entertainment label",
     "zero parades lands on ps5 in director's cut form on 3rd november",
     "twitch ceo expects gta 6 online multiplayer will launch next year, which if accurate would leave only the pc port's arrival point up in the air",
-    "fortnite's kingdom hearts crossover is live now, and there's plenty for fans to discover"
+    "fortnite's kingdom hearts crossover is live now, and there's plenty for fans to discover",
+    "gears of war: e-day has officially gone gold",
+    "disaster! 'very' cancels loads of metroid ravenous special edition pre-orders",
+    "twitch ceo says grand theft auto 6’s multiplayer mode will launch next year",
+    "gta 6 will get multiplayer after all, according to twitch ceo"
   ],
   "seen_story_keys": [
-    "4f2f9556f24b6439952df76e42271c9ddbe85b21",
-    "3a79d2f203e2514b72d4aecfca77a0b0525a0e0b",
-    "ee543d1467e4e729504f6af6f74da5e9c2226dca",
-    "cbaa0bdb35604660f3542914e86cda22e97800ea",
     "051cd22c94308ffe42722cd900694669af152f33",
     "aa7d76a6472898681d44be4add3c05352033bb33",
     "8996f1a2542f4c2e4c74d1467da96a5a385df9ed",
@@ -15003,6 +14999,10 @@
     "91c2c01be697a7265ad2bad1f22f0185a4f2dbaf",
     "2ae51d541a5b68baacf60c9c53f1c7984e3d11be",
     "d5fbca874f334f6d531f3aab0d0575d5823a20e2",
-    "7e5875e3895e1fe8943961bb8949f6b96a71878f"
+    "7e5875e3895e1fe8943961bb8949f6b96a71878f",
+    "8f6346791741449a9809af161a53849d4fdc27f1",
+    "868b2a210cc77966937396827d61ed486c92589d",
+    "d7025ce6b87e5d75d8f3aa1c8a82b6264258b8e8",
+    "2f1c512f955e1041e7286273c38dfc98a4de6dbd"
   ]
 }
