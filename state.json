@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/dune-3-release-date/",
-    "https://www.nintendolife.com/news/2026/04/pokemon-pokopia-updated-to-version-1-0-3-includes-improvements-and-fixes",
-    "https://www.pushsquare.com/news/2026/04/ps5-anime-rpg-nte-gets-18th-april-livestream-free-rewards-expected",
-    "https://www.gamesindustry.biz/games-london-reveals-ensemble-2026-cohort",
     "https://www.rockpapershotgun.com/samson-devs-announce-big-patch-to-start-fixing-its-unacceptable-launch-bugs-and-boy-am-i-glad-to-see-itll-add-in-multiple-saves",
     "https://www.eurogamer.net/overwatch-hero-sierra-revealed",
     "https://www.nintendolife.com/news/2026/04/psa-hello-yoshi-hatches-on-western-switch-eshops-today",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/lollipop-chainsaw-2-tokyo-game-show-2026/",
     "https://www.nintendolife.com/news/2026/09/psa-dragons-dogma-2-character-creator-and-storage-app-now-available-on-switch-2",
     "https://www.gematsu.com/2026/09/sugar-lies-launches-in-late-2026-for-pc-in-spring-2027-for-switch",
-    "https://www.nintendolife.com/news/2026/09/my-nintendo-fire-emblem-fortunes-weave-heroic-sweepstakes-announced-north-america"
+    "https://www.nintendolife.com/news/2026/09/my-nintendo-fire-emblem-fortunes-weave-heroic-sweepstakes-announced-north-america",
+    "https://www.gamesindustry.biz/black-salt-games-establishes-indie-studio-team-trifold-under-new-saltworks-entertainment-label",
+    "https://www.pushsquare.com/news/2026/09/zero-parades-lands-on-ps5-in-directors-cut-form-on-3rd-november",
+    "https://www.rockpapershotgun.com/twitch-ceo-expects-gta-6-online-multiplayer-will-launch-next-year-which-if-accurate-would-leave-only-the-pc-ports-arrival-point-up-in-the-air",
+    "https://www.pushsquare.com/news/2026/09/fortnites-kingdom-hearts-crossover-is-live-now-and-theres-plenty-for-fans-to-discover"
   ],
   "seen_titles": [
-    "dune 3 release date announced — everything we know so far",
-    "pokémon pokopia updated to version 1.0.3, includes improvements & fixes",
-    "ps5 anime rpg nte gets 18th april livestream, free rewards expected",
-    "games london reveals ensemble 2026 cohort",
     "samson devs announce big patch to start fixing its \"unacceptable\" launch bugs, and boy am i glad to see it'll add in multiple saves",
     "the next new overwatch hero is sierra, and we've been given a brief look at what she can do",
     "psa: 'hello, yoshi!' hatches on western switch eshops today",
@@ -10001,13 +9997,13 @@
     "lollipop chainsaw 2 is officially bringing back the zombie-slaying cheerleader cheesecake franchise",
     "psa: dragon's dogma 2 character creator & storage app now available on switch 2",
     "sugar lies launches in late 2026 for pc, in spring 2027 for switch",
-    "my nintendo fire emblem: fortune's weave heroic sweepstakes announced (north america)"
+    "my nintendo fire emblem: fortune's weave heroic sweepstakes announced (north america)",
+    "dredge maker black salt games establishes indie studio team trifold under new saltworks entertainment label",
+    "zero parades lands on ps5 in director's cut form on 3rd november",
+    "twitch ceo expects gta 6 online multiplayer will launch next year, which if accurate would leave only the pc port's arrival point up in the air",
+    "fortnite's kingdom hearts crossover is live now, and there's plenty for fans to discover"
   ],
   "seen_story_keys": [
-    "5f2b96bb73d7dea461695d990c2352d00f124151",
-    "ef2ee0962e2fe3c8c042eee6309975638a8780f4",
-    "b3c35c9995d1b4e0137e4abdb05702b0085f418b",
-    "818def9505dcef94a0b63a11c852a151cbbe4621",
     "4f2f9556f24b6439952df76e42271c9ddbe85b21",
     "3a79d2f203e2514b72d4aecfca77a0b0525a0e0b",
     "ee543d1467e4e729504f6af6f74da5e9c2226dca",
@@ -15003,6 +14999,10 @@
     "01de769a1731482addd3cbceec56c198e61cedcb",
     "077cfab4548a50cb5df8c3bd8b17a2dedc8be3f7",
     "cff39640d4da7ac296f86c3e0aca4f2a19ce3b61",
-    "8c20ec1ce8164a84e0e9c5e8ff2238bb691c5111"
+    "8c20ec1ce8164a84e0e9c5e8ff2238bb691c5111",
+    "91c2c01be697a7265ad2bad1f22f0185a4f2dbaf",
+    "2ae51d541a5b68baacf60c9c53f1c7984e3d11be",
+    "d5fbca874f334f6d531f3aab0d0575d5823a20e2",
+    "7e5875e3895e1fe8943961bb8949f6b96a71878f"
   ]
 }
