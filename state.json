@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/console-archives-seicross-launches-april-9",
-    "https://www.pushsquare.com/news/2026/04/cyberpunk-2077s-acclaimed-ps5-pro-update-is-out-now",
-    "https://www.gematsu.com/2026/04/dodonpachi-resurrection-reignite-announced-for-pc",
-    "https://www.eurogamer.net/frostpunk-sales-milestone-and-dlc",
     "https://www.pushsquare.com/news/2026/04/2xko-will-add-six-characters-this-year-despite-dev-scaling-down",
     "https://www.pushsquare.com/news/2026/04/saros-looks-like-pure-chaotic-bullet-hell-madness-in-latest-ps5-gameplay-clip",
     "https://www.pushsquare.com/news/2026/04/the-diablo-4-positivity-continues-with-promising-lord-of-hatred-gameplay-drop",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/diablo-5-live-service-sequel-content-gap/",
     "https://www.gematsu.com/2026/09/tropico-7-adds-switch-2-version",
     "https://www.purexbox.com/news/2026/09/gears-of-war-e-day-has-officially-gone-gold-pre-installs-confirmed-for-this-month",
-    "https://www.ign.com/articles/gta-online-will-be-supported-beyond-gta-6-release-pc-becoming-more-and-more-important"
+    "https://www.ign.com/articles/gta-online-will-be-supported-beyond-gta-6-release-pc-becoming-more-and-more-important",
+    "https://www.pcgamer.com/movies-tv/if-you-cant-get-enough-of-record-breaking-emmy-winner-matthew-rhys-his-newest-tv-series-is-based-on-an-80s-sega-game-and-is-out-now/",
+    "https://gamerant.com/silent-hill-townfall-dock-house/",
+    "https://www.gematsu.com/2026/09/ved-recure-launches-september-22",
+    "https://www.polygon.com/kojima-xbox-physint-cast-reveal-bill-skarsgard/"
   ],
   "seen_titles": [
-    "console archives seicross launches april 9",
-    "cyberpunk 2077's acclaimed ps5 pro update is out now",
-    "dodonpachi resurrection reignite announced for pc",
-    "\"it's just unreal\" - frostpunk series posts impressive player numbers as a switch version is announced and major frostpunk 2 dlc is revealed",
     "2xko will add six characters this year, despite dev scaling down",
     "saros looks like pure chaotic bullet hell madness in latest ps5 gameplay clip",
     "the diablo 4 positivity continues with promising lord of hatred gameplay drop",
@@ -10001,13 +9997,13 @@
     "diablo 5 is giving diablo 4 a problem most live-service games never have to face",
     "tropico 7 adds switch 2 version",
     "gears of war: e-day has officially gone 'gold', pre-installs confirmed for this month",
-    "gta online will be supported 'beyond' gta 6 release, pc 'becoming more and more important'"
+    "gta online will be supported 'beyond' gta 6 release, pc 'becoming more and more important'",
+    "if you can't get enough of record-breaking emmy winner matthew rhys, his newest tv series is based on an '80s sega game, and is out now",
+    "new silent hill release is out now",
+    "ved: recure launches september 22",
+    "kojima officially reveals lead actor for new xbox exclusive"
   ],
   "seen_story_keys": [
-    "e6e654257795cb9528a8d1ef13609e67468d738b",
-    "3eccc485823068a804f5f079b846addc688a2bcd",
-    "f63c6b65d6da346f2ee9ba9bf9b1f6311e586aed",
-    "9925c5010bb63fc80b10cfab56c2369acc1409f9",
     "2e86d7bd2077409c13ea0e592a9fb988425aa67d",
     "6d82a841aa312aab5c5d95ad1688487298afa74d",
     "62a1e39bddc8a312aba877da3cc9dca1ddeed421",
@@ -15003,6 +14999,10 @@
     "de202e63c1bce3f766aa21e3c25f0aec5972e97f",
     "9da723223255e5f34b95d14a6302f111eef34437",
     "6fc65862257007c939dff873c513b3dd6448cc49",
-    "1b2f6d901783251fb05bf9e32a4c7638bde39a90"
+    "1b2f6d901783251fb05bf9e32a4c7638bde39a90",
+    "6669b47f0fa51d3a5e60b225e60d83ea553a6c79",
+    "fa0cd5584fd838c3be2cd3bf2942d252247dacb4",
+    "070fffe84d843af4f46fc73766d8f1c99f8e47bf",
+    "5b21639013fa03726aba9040ab617cd7a8a02a42"
   ]
 }
