@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/04/halo-master-chief-collection-deploys-significant-ban-wave-in-latest-update",
-    "https://www.nintendolife.com/news/2026/04/rhythm-heaven-groove-drums-up-switch-release-date",
-    "https://www.gematsu.com/2026/04/rhythm-heaven-groove-launches-july-2",
-    "https://gamerant.com/crimson-desert-dispatch-conversion-bonus-church-donation/",
     "https://gamerant.com/epic-games-store-april-2026-free-games-the-stone-of-madness/",
     "https://www.polygon.com/forza-horizon-6-map-reveal-initial-d/",
     "https://www.polygon.com/rhythm-heaven-groove-nintendo-switch-release-date/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/rockstar-next-game-after-gta-6/",
     "https://gamerant.com/final-fantasy-7-revelation-file-size/",
     "https://gamerant.com/metroid-ravenous-special-edition-preorder-canceled/",
-    "https://www.purexbox.com/news/2026/09/jagex-working-flat-out-to-fix-corrupted-saves-issue-for-runescape-dragonwilds-on-consoles"
+    "https://www.purexbox.com/news/2026/09/jagex-working-flat-out-to-fix-corrupted-saves-issue-for-runescape-dragonwilds-on-consoles",
+    "https://www.gamesindustry.biz/theyve-watched-so-many-people-lose-their-jobs-that-has-an-impact-managing-morale-in-the-wake-of-layoffs",
+    "https://www.polygon.com/final-fantasy-7-revelation-hamaguchi-file-size/",
+    "https://www.nintendolife.com/news/2026/09/level-5-is-really-starting-to-panic-amidst-increasing-ai-backlash",
+    "https://www.gematsu.com/2026/09/character-driven-single-player-sci-fantasy-jrpg-kaelis-seraph-protocol-announced-for-pc"
   ],
   "seen_titles": [
-    "halo: master chief collection deploys 'significant ban wave' in latest update",
-    "rhythm heaven groove drums up switch release date",
-    "rhythm heaven groove launches july 2",
-    "should you make church donations in crimson desert?",
     "epic games store officially reveals unique free game for april 16",
     "forza horizon 6 map reveals real-world circuits and initial d touge routes",
     "nintendo reveals switch game rhythm heaven groove release date",
@@ -10001,13 +9997,13 @@
     "rockstar's next game after gta 6 is now official",
     "final fantasy 7 revelation reveals massive file size requirement",
     "metroid ravenous special edition pre-orders are being canceled",
-    "jagex working 'flat-out' to fix corrupted saves issue for runescape: dragonwilds on consoles"
+    "jagex working 'flat-out' to fix corrupted saves issue for runescape: dragonwilds on consoles",
+    "\"they've watched so many people lose their jobs, that has an impact\" – managing morale in the wake of layoffs",
+    "final fantasy 7 revelation director reveals why the game won't have a full physical release",
+    "level-5 is really starting to panic amidst increasing ai backlash",
+    "‘character-driven single-player sci-fantasy jrpg’ kaelis: seraph protocol announced for pc"
   ],
   "seen_story_keys": [
-    "07a15fd7ab077e51826c96b461934d59b9c3fb14",
-    "1e0b4fe076b49f184fd93692511a6fae7bccf5c7",
-    "55f84114898d6da2d821d0c707415a55356e395d",
-    "5fc7996cd0f5b19937b4adac291d1f4070f0dcec",
     "041db8c21637d0800e9bb35c78aefbbc3bbed2dd",
     "a4768e641f51b150b4d1dd172582ae6ba699c7f5",
     "868ce03d61b00548999d05a91fbef324009928ae",
@@ -15003,6 +14999,10 @@
     "4a96e9a8d8237463c53a2fcd36f2cee237456651",
     "624b063e9d59e49fc81e92a24d25e4d5b7d6b464",
     "fa33d09551c47e1ae2441f9c5a6384238fcc5567",
-    "ad5cb5837b30f4b8b12bbc9aafd2af2cdf34afac"
+    "ad5cb5837b30f4b8b12bbc9aafd2af2cdf34afac",
+    "12528b67fa963aa0e8085185a3b63295cb24a506",
+    "2fa581025a77d14b8c8cbc1420f6fe9bf0d85925",
+    "95190cc86c648b99fc57383b4d6e82fba01342dd",
+    "776d8260bed74ac6a77a7c3aae3b991afd47974f"
   ]
 }
