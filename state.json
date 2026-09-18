@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/2xko-will-add-six-characters-this-year-despite-dev-scaling-down",
-    "https://www.pushsquare.com/news/2026/04/saros-looks-like-pure-chaotic-bullet-hell-madness-in-latest-ps5-gameplay-clip",
-    "https://www.pushsquare.com/news/2026/04/the-diablo-4-positivity-continues-with-promising-lord-of-hatred-gameplay-drop",
-    "https://www.gematsu.com/2026/04/livestream-mystery-horror-adventure-game-red-chat-ritual-tsumimi-time-announced-for-pc",
     "https://gamerant.com/dune-3-release-date/",
     "https://www.nintendolife.com/news/2026/04/pokemon-pokopia-updated-to-version-1-0-3-includes-improvements-and-fixes",
     "https://www.pushsquare.com/news/2026/04/ps5-anime-rpg-nte-gets-18th-april-livestream-free-rewards-expected",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/movies-tv/if-you-cant-get-enough-of-record-breaking-emmy-winner-matthew-rhys-his-newest-tv-series-is-based-on-an-80s-sega-game-and-is-out-now/",
     "https://gamerant.com/silent-hill-townfall-dock-house/",
     "https://www.gematsu.com/2026/09/ved-recure-launches-september-22",
-    "https://www.polygon.com/kojima-xbox-physint-cast-reveal-bill-skarsgard/"
+    "https://www.polygon.com/kojima-xbox-physint-cast-reveal-bill-skarsgard/",
+    "https://www.polygon.com/lollipop-chainsaw-2-tokyo-game-show-2026/",
+    "https://www.nintendolife.com/news/2026/09/psa-dragons-dogma-2-character-creator-and-storage-app-now-available-on-switch-2",
+    "https://www.gematsu.com/2026/09/sugar-lies-launches-in-late-2026-for-pc-in-spring-2027-for-switch",
+    "https://www.nintendolife.com/news/2026/09/my-nintendo-fire-emblem-fortunes-weave-heroic-sweepstakes-announced-north-america"
   ],
   "seen_titles": [
-    "2xko will add six characters this year, despite dev scaling down",
-    "saros looks like pure chaotic bullet hell madness in latest ps5 gameplay clip",
-    "the diablo 4 positivity continues with promising lord of hatred gameplay drop",
-    "livestream mystery horror adventure game red chat ritual: tsumimi time announced for pc",
     "dune 3 release date announced — everything we know so far",
     "pokémon pokopia updated to version 1.0.3, includes improvements & fixes",
     "ps5 anime rpg nte gets 18th april livestream, free rewards expected",
@@ -10001,13 +9997,13 @@
     "if you can't get enough of record-breaking emmy winner matthew rhys, his newest tv series is based on an '80s sega game, and is out now",
     "new silent hill release is out now",
     "ved: recure launches september 22",
-    "kojima officially reveals lead actor for new xbox exclusive"
+    "kojima officially reveals lead actor for new xbox exclusive",
+    "lollipop chainsaw 2 is officially bringing back the zombie-slaying cheerleader cheesecake franchise",
+    "psa: dragon's dogma 2 character creator & storage app now available on switch 2",
+    "sugar lies launches in late 2026 for pc, in spring 2027 for switch",
+    "my nintendo fire emblem: fortune's weave heroic sweepstakes announced (north america)"
   ],
   "seen_story_keys": [
-    "2e86d7bd2077409c13ea0e592a9fb988425aa67d",
-    "6d82a841aa312aab5c5d95ad1688487298afa74d",
-    "62a1e39bddc8a312aba877da3cc9dca1ddeed421",
-    "849044fbc6f8e91980e480e93eb266fea38f123d",
     "5f2b96bb73d7dea461695d990c2352d00f124151",
     "ef2ee0962e2fe3c8c042eee6309975638a8780f4",
     "b3c35c9995d1b4e0137e4abdb05702b0085f418b",
@@ -15003,6 +14999,10 @@
     "6669b47f0fa51d3a5e60b225e60d83ea553a6c79",
     "fa0cd5584fd838c3be2cd3bf2942d252247dacb4",
     "070fffe84d843af4f46fc73766d8f1c99f8e47bf",
-    "5b21639013fa03726aba9040ab617cd7a8a02a42"
+    "5b21639013fa03726aba9040ab617cd7a8a02a42",
+    "01de769a1731482addd3cbceec56c198e61cedcb",
+    "077cfab4548a50cb5df8c3bd8b17a2dedc8be3f7",
+    "cff39640d4da7ac296f86c3e0aca4f2a19ce3b61",
+    "8c20ec1ce8164a84e0e9c5e8ff2238bb691c5111"
   ]
 }
