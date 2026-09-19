@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/triple-i-initiative-showcase-2026-everything-announced/",
-    "https://www.gematsu.com/2026/04/neverway-launches-in-october-prologue-demo-now-available-for-pc",
-    "https://www.gematsu.com/2026/04/temple-diving-co-op-adventure-game-too-deep-to-quit-announced-for-pc",
-    "https://www.purexbox.com/features/roundup-all-the-biggest-xbox-reveals-from-the-triple-i-initiative-showcase-2026",
     "https://www.gematsu.com/2026/04/risk-of-rain-2-dlc-hallowed-concepts-announced",
     "https://www.gematsu.com/2026/04/alabaster-dawn-launches-in-early-access-on-may-7",
     "https://www.gamespot.com/articles/one-of-the-most-stunning-looking-games-of-the-year-launches-in-may/1100-6539305/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.videogameschronicle.com/news/cd-projekt-reds-move-from-redengine-to-ue5-for-the-witcher-4-wasnt-because-of-cyberpunks-launch-co-ceo-says/",
     "https://www.gematsu.com/2026/09/kingdom-of-night-for-ps5-xbox-series-and-switch-launches-november-5",
     "https://www.pushsquare.com/news/2026/09/its-hard-to-go-back-cdpr-says-the-witcher-3-remastered-should-feel-like-a-current-release",
-    "https://www.videogameschronicle.com/news/what-time-does-ea-sports-fc-27-go-live-digital-release-time-in-your-region-and-new-zealand-trick/"
+    "https://www.videogameschronicle.com/news/what-time-does-ea-sports-fc-27-go-live-digital-release-time-in-your-region-and-new-zealand-trick/",
+    "https://www.nintendolife.com/news/2026/09/the-elder-scrolls-iv-oblivion-remastered-switch-2-update-1-1-now-live-here-are-the-full-patch-notes",
+    "https://www.eurogamer.net/gta-6-original-soundtrack-six-track-preview",
+    "https://www.pushsquare.com/news/2026/09/theres-a-new-ni-no-kuni-game-kind-of-and-its-now-confirmed-for-ps5",
+    "https://www.gematsu.com/2026/09/grand-theft-auto-vi-the-album-announced"
   ],
   "seen_titles": [
-    "the biggest announcements from the triple-i initiative showcase: castlevania, don't starve, and more",
-    "neverway launches in october; ‘prologue’ demo now available for pc",
-    "temple diving co-op adventure game too deep to quit announced for pc",
-    "roundup: all the biggest xbox reveals from the triple-i initiative showcase 2026",
     "risk of rain 2 dlc ‘hallowed concepts’ announced",
     "alabaster dawn launches in early access on may 7",
     "one of the most stunning-looking games of the year launches in may",
@@ -10001,13 +9997,13 @@
     "cd projekt red’s move from redengine to ue5 for the witcher 4 wasn’t because of cyberpunk’s launch, co-ceo says",
     "kingdom of night for ps5, xbox series, and switch launches november 5",
     "'it's hard to go back': cdpr says the witcher 3 remastered should feel like a current release",
-    "what time does ea sports fc 27 go live? digital release time in your region and new zealand trick"
+    "what time does ea sports fc 27 go live? digital release time in your region and new zealand trick",
+    "the elder scrolls iv: oblivion remastered switch 2 update 1.1 now live, here are the full patch notes",
+    "gta 6 is getting a 34-song original soundtrack, with music from multiple real-world artists - and you can stream six tracks today",
+    "there's a new ni no kuni game, kind of, and it's now confirmed for ps5",
+    "grand theft auto vi: the album announced"
   ],
   "seen_story_keys": [
-    "e39db193bbd326eb5cb7c431ba1cb75754c2a1aa",
-    "da30e2a1ea5708bd1aa5c9f925937f41348c17ac",
-    "55db5f8182741bcf2ee132b3ddbaea19f0522324",
-    "273dea94fd4db12a3041c9ead038b16e8af06c09",
     "7f7862f4143fe6c76b84d931dea1ad083b0d4f08",
     "6b61eabd396be3b5d85a3cea62b4ecd8c11f0abd",
     "b895895cb99b1e13b6d9d1cdd31bd4948750179e",
@@ -15003,6 +14999,10 @@
     "b3b2550a362c98db8abc973518250f4e41435610",
     "c5a84fcb30d5a9a18239c203662ca1f5c2e0e589",
     "6eb94ee3219ab32a04aeba05d7bb33c124a86e7c",
-    "b687d615730dde6faeba0cf414dfcf3a4fd8209b"
+    "b687d615730dde6faeba0cf414dfcf3a4fd8209b",
+    "a5be4baf100cf7430a71b4ed67c0bdb20a4989eb",
+    "567c43ed9686510c06c33bc4f9fe03a86de30d5b",
+    "3cb9b035c5db180eeb4417e653ef564bf3840351",
+    "252b70abb4264ba30fe004f92c631096105bdb83"
   ]
 }
