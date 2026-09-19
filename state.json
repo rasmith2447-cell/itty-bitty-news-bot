@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/mortal-kombat-developer-ed-boon-pours-johnny-cage-a-drink-in-surprise-mortal-kombat-2-movie-trailer-cameo-reveal",
-    "https://www.gematsu.com/2026/04/the-lift-adds-ps5-and-xbox-series-versions-delayed-to-2027",
-    "https://www.gematsu.com/2026/04/graveyard-keeper-ii-announced-for-ps5-xbox-series-switch-2-switch-and-pc",
-    "https://www.pushsquare.com/news/2026/04/warhammer-copies-vampire-survivors-homework-in-brand-new-bullet-heaven-ps5-game",
     "https://www.gematsu.com/2026/04/far-far-west-launches-in-early-access-on-april-28",
     "https://www.gematsu.com/2026/04/brotato-dlc-primal-dead-announced",
     "https://www.gematsu.com/2026/04/open-world-survival-crafting-adventure-game-temtem-pioneers-announced-for-pc",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/edge-of-memories-launches-november-5",
     "https://www.gematsu.com/2026/09/serenity-forge-announces-sci-fi-visual-novel-and-strategy-card-game-faraday-blues-for-ps5-xbox-series-and-pc",
     "https://www.gematsu.com/2026/09/bloomwalker-adds-ps5-switch-2-and-switch-versions-set-in-ni-no-kuni-universe",
-    "https://www.gematsu.com/2026/09/hope-in-the-city-launches-november-10-for-xbox-series-pc"
+    "https://www.gematsu.com/2026/09/hope-in-the-city-launches-november-10-for-xbox-series-pc",
+    "https://gamerant.com/gta-tokyo-canceled-game-details/",
+    "https://www.nintendolife.com/features/countdown-zelda-ocarina-of-time-dungeon-crawl-1-a-tree-mendous-introduction",
+    "https://www.purexbox.com/features/talking-point-so-are-you-getting-the-premium-upgrade-for-gears-of-war-e-day",
+    "https://gamerant.com/arc-raiders-frozen-trail-update-first-look-date-when/"
   ],
   "seen_titles": [
-    "mortal kombat developer ed boon pours johnny cage a drink in surprise mortal kombat 2 movie trailer cameo reveal",
-    "the lift adds ps5 and xbox series versions, delayed to 2027",
-    "graveyard keeper ii announced for ps5, xbox series, switch 2, switch, and pc",
-    "warhammer copies vampire survivors' homework in brand new bullet heaven ps5 game",
     "far far west launches in early access on april 28",
     "brotato dlc ‘primal dead’ announced",
     "open-world survival crafting adventure game temtem: pioneers announced for pc",
@@ -10001,13 +9997,13 @@
     "edge of memories launches november 5",
     "serenity forge announces sci-fi visual novel and strategy card game faraday blues for ps5, xbox series, and pc",
     "bloomwalker adds ps5, switch 2, and switch versions; set in ni no kuni universe",
-    "hope in the city launches november 10 for xbox series, pc"
+    "hope in the city launches november 10 for xbox series, pc",
+    "former rockstar dev reveals new details about canceled gta: tokyo",
+    "countdown: zelda: ocarina of time dungeon crawl #1 - a tree-mendous introduction",
+    "talking point: so, are you getting the premium upgrade for gears of war: e-day?",
+    "september 23 is suddenly a big day for arc raiders"
   ],
   "seen_story_keys": [
-    "d28faabf6f391d789df20e925eda9337c607d619",
-    "c9bade14095ac7354fb7acc102775ae8ccb8eb9d",
-    "5ac3103a8aa22feecdaf2b3f8a0ecb931a24b705",
-    "9621966fd8a3569326b79899ae81ddcda7fa245d",
     "c42203a45f9bfda414294a9cfbc491bfbb62f740",
     "a0ebbdc845820e06d9c1c81140778a9d3b0bcefb",
     "c1415bf8ac784bcf63b01161bd96a971fa9de0fe",
@@ -15003,6 +14999,10 @@
     "d4b3e5091885859bd5087fa82fd13ab052689b12",
     "fc7b2707f2345f26816f32ae53d14853863c1fb3",
     "c371e8ba398b93f3514377d3ee0f3e5fe5ef0f32",
-    "aa540886d71624804e3c500935eafcc765c945ce"
+    "aa540886d71624804e3c500935eafcc765c945ce",
+    "7d90dbf0751425d65c51eb5cc2349bbce6c0c4c6",
+    "d3ab01f62d34d8afb93a88df17607c777f55b573",
+    "7475adf32783fc85aecae10609c77b7396e3039b",
+    "e9de6c8669f55b7057147f2fe46216417e654e8b"
   ]
 }
