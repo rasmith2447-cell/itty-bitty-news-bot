@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/risk-of-rain-2-dlc-hallowed-concepts-announced",
-    "https://www.gematsu.com/2026/04/alabaster-dawn-launches-in-early-access-on-may-7",
-    "https://www.gamespot.com/articles/one-of-the-most-stunning-looking-games-of-the-year-launches-in-may/1100-6539305/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/04/death-by-scrolling-for-ps5-xbox-series-and-switch-launches-april-16",
     "https://gamerant.com/new-borderlands-game-mobile-free/",
     "https://www.pcgamer.com/games/sim/graveyard-keeper-2-is-coming-this-year-and-the-original-is-free-to-keep-on-steam-if-you-grab-it-now/",
     "https://gamerant.com/overwatch-sierra-gameplay-abilities/",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/09/the-elder-scrolls-iv-oblivion-remastered-switch-2-update-1-1-now-live-here-are-the-full-patch-notes",
     "https://www.eurogamer.net/gta-6-original-soundtrack-six-track-preview",
     "https://www.pushsquare.com/news/2026/09/theres-a-new-ni-no-kuni-game-kind-of-and-its-now-confirmed-for-ps5",
-    "https://www.gematsu.com/2026/09/grand-theft-auto-vi-the-album-announced"
+    "https://www.gematsu.com/2026/09/grand-theft-auto-vi-the-album-announced",
+    "https://www.ign.com/articles/as-fans-flood-the-world-of-warcraft-forever-beta-dev-says-its-putting-up-the-craziest-numbers-ive-seen-in-17-years-working-at-blizzard",
+    "https://www.ign.com/articles/lollipop-chainsaw-live-action-movie-revealed-by-dragami-games",
+    "https://www.nintendolife.com/news/2026/09/fire-emblem-fortunes-weave-is-getting-a-manga-series-heres-the-key-art",
+    "https://www.pushsquare.com/news/2026/09/crazy-taxi-world-tour-goes-big-in-japan-as-new-location-revealed"
   ],
   "seen_titles": [
-    "risk of rain 2 dlc ‘hallowed concepts’ announced",
-    "alabaster dawn launches in early access on may 7",
-    "one of the most stunning-looking games of the year launches in may",
-    "death by scrolling for ps5, xbox series, and switch launches april 16",
     "new borderlands game shadow dropped",
     "graveyard keeper 2 is coming this year, and the original is free to keep on steam if you grab it now",
     "overwatch reveals new hero sierra gameplay and abilities",
@@ -10001,13 +9997,13 @@
     "the elder scrolls iv: oblivion remastered switch 2 update 1.1 now live, here are the full patch notes",
     "gta 6 is getting a 34-song original soundtrack, with music from multiple real-world artists - and you can stream six tracks today",
     "there's a new ni no kuni game, kind of, and it's now confirmed for ps5",
-    "grand theft auto vi: the album announced"
+    "grand theft auto vi: the album announced",
+    "as fans flood the world of warcraft: forever beta, dev says it's putting up 'the craziest numbers i've seen in 17 years working at blizzard'",
+    "lollipop chainsaw live-action movie revealed by dragami games",
+    "fire emblem: fortune's weave is getting a manga series, here's the key art",
+    "crazy taxi: world tour goes big in japan as new location revealed"
   ],
   "seen_story_keys": [
-    "7f7862f4143fe6c76b84d931dea1ad083b0d4f08",
-    "6b61eabd396be3b5d85a3cea62b4ecd8c11f0abd",
-    "b895895cb99b1e13b6d9d1cdd31bd4948750179e",
-    "64cd1930d409184840612b90899f8ded9a28e872",
     "627adaa4caf666c811a40521132b9f7e7e4e8e4d",
     "347ca4ab0c7bc2fad5a3fb18b1fa07cdfe9655d4",
     "e6ed7c16e777dd6f53bed704078a1b8178b2f343",
@@ -15003,6 +14999,10 @@
     "a5be4baf100cf7430a71b4ed67c0bdb20a4989eb",
     "567c43ed9686510c06c33bc4f9fe03a86de30d5b",
     "3cb9b035c5db180eeb4417e653ef564bf3840351",
-    "252b70abb4264ba30fe004f92c631096105bdb83"
+    "252b70abb4264ba30fe004f92c631096105bdb83",
+    "f79d73b28c3f8f16834020604200c3315de343aa",
+    "29e2caf142a76d7303fbf8c305a3e9a570c6a92f",
+    "95435cf2d530676c5fce417af9817c12bd5f21a8",
+    "8f00c5ad57aa8df2e38c69195194cd4ead15ae30"
   ]
 }
