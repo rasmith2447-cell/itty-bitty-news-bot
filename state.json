@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/long-gone-launches-in-2027",
-    "https://www.gematsu.com/2026/04/valor-mortis-launches-this-fall",
-    "https://www.gematsu.com/2026/04/away-team-single-player-playtest-announced",
-    "https://gamerant.com/diablo-4-lord-of-hatred-intro-gameplay/",
     "https://www.pcgamer.com/gaming-industry/gunzilla-ceo-denies-delaying-payments-to-full-time-official-employees-says-contractors-complaining-about-going-months-without-being-paid-are-just-haters-who-dont-know-what-it-takes-to-run-a-business/",
     "https://www.gematsu.com/2026/04/everwind-early-access-update-the-first-ascent-launches-in-may",
     "https://www.gematsu.com/2026/04/warhammer-survivors-adds-ps5-xbox-series-switch-2-and-switch-versions",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/09/longest-ever-tokyo-game-show-curtailed-due-to-typhoon-warning-in-japan",
     "https://www.pcgamer.com/games/sim/this-unofficial-engine-patch-for-thief-the-dark-project-adds-a-huge-new-feature-that-wont-be-in-nightdives-upcoming-remaster/",
     "https://www.gematsu.com/2026/09/wuthering-waves-version-3-7-update-prisms-illusion-hearts-illumination-launches-september-30",
-    "https://www.gematsu.com/2026/09/tokyo-game-show-2026-day-five-cancelled-due-to-severe-weather-concerns"
+    "https://www.gematsu.com/2026/09/tokyo-game-show-2026-day-five-cancelled-due-to-severe-weather-concerns",
+    "https://www.pcgamer.com/games/grand-theft-auto/evidence-of-canceled-grand-theft-auto-5-liberty-city-and-agent-trevor-dlc-plus-early-version-of-gta6s-map-surface-online/",
+    "https://www.eurogamer.net/helldivers-2-horizon-forbidden-west-delisted-steam-uk-sony-valve",
+    "https://www.rockpapershotgun.com/helldivers-2-and-horizon-forbidden-west-delisted-from-steam-in-the-uk-sony-say-theyre-working-with-valve-to-address-the-issue",
+    "https://www.eurogamer.net/monster-hunter-ascendance-teostra-reveal"
   ],
   "seen_titles": [
-    "long gone launches in 2027",
-    "valor mortis launches this fall",
-    "away team single-player playtest announced",
-    "diablo 4: lord of hatred intro gameplay revealed",
     "gunzilla ceo denies delaying payments to 'full-time official employees,' denies calling unpaid contractors 'haters' (updated)",
     "everwind early access update ‘the first ascent’ launches in may",
     "warhammer survivors adds ps5, xbox series, switch 2, and switch versions",
@@ -10001,13 +9997,13 @@
     "longest-ever tokyo game show curtailed due to typhoon warning in japan",
     "this unofficial engine patch for thief: the dark project adds a huge new feature that won't be in nightdive's upcoming remaster",
     "wuthering waves version 3.7 update ‘prism’s illusion, heart’s illumination’ launches september 30",
-    "tokyo game show 2026 day five cancelled due to severe weather concerns"
+    "tokyo game show 2026 day five cancelled due to severe weather concerns",
+    "evidence of canceled grand theft auto 5 liberty city and 'agent trevor' dlc, plus early version of gta6's map surface online",
+    "helldivers 2 and horizon forbidden west mysteriously delisted from steam in the uk, sony promises to \"address the issue\" with valve",
+    "helldivers 2 and horizon forbidden west delisted from steam in the uk, sony say they're \"working with valve to address the issue\"",
+    "monster hunter wilds upcoming expansion, ascendance, reveals an infamous returning monster - and it looks like it'll address the difficulty complaints"
   ],
   "seen_story_keys": [
-    "9e2a1bc3a7bf63cadb061612ad9a5d12511c33f4",
-    "5f8a32ad08b3695730ef28ce2e7647472ddd01eb",
-    "a538b7884722075b9a26f9a87b9a272ea4ad128a",
-    "85361aa2df28222ac9865cd15a16140bce8dabaa",
     "b2a13da28d8bffe2204b88b3671b36a9b9974491",
     "212601343d622c76b05a047c0ce5ed23364de4d9",
     "8d7a8c289fe1773942fbb3a8e4c51e44a5ecfae2",
@@ -15003,6 +14999,10 @@
     "d85fd62ad7a33a1fb43763a88c5b549377a98bc1",
     "752fbd93af8d9e15790d4a4fac07f753b0e08b8c",
     "9dea97fd4bd01aebd4d5a6e6e14b2dd74a40a143",
-    "5d74cea1e0da98552ce5f199bbdf4dfac64717cd"
+    "5d74cea1e0da98552ce5f199bbdf4dfac64717cd",
+    "1204226aed80291f796937354f71776e0ec6e4a9",
+    "e473907a01081805674d0932e0f2b4836d0c0d9c",
+    "740f31e9a5741e4913e0a5aca861ed239d8dc736",
+    "02932fd5281793c1eb8a6f1582f94a7fce00b505"
   ]
 }
