@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/epic-games-store-april-2026-free-games-the-stone-of-madness/",
-    "https://www.polygon.com/forza-horizon-6-map-reveal-initial-d/",
-    "https://www.polygon.com/rhythm-heaven-groove-nintendo-switch-release-date/",
-    "https://www.gematsu.com/2026/04/dont-starve-elsewhere-announced-for-pc",
     "https://www.polygon.com/triple-i-initiative-showcase-2026-everything-announced/",
     "https://www.gematsu.com/2026/04/neverway-launches-in-october-prologue-demo-now-available-for-pc",
     "https://www.gematsu.com/2026/04/temple-diving-co-op-adventure-game-too-deep-to-quit-announced-for-pc",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/theyve-watched-so-many-people-lose-their-jobs-that-has-an-impact-managing-morale-in-the-wake-of-layoffs",
     "https://www.polygon.com/final-fantasy-7-revelation-hamaguchi-file-size/",
     "https://www.nintendolife.com/news/2026/09/level-5-is-really-starting-to-panic-amidst-increasing-ai-backlash",
-    "https://www.gematsu.com/2026/09/character-driven-single-player-sci-fantasy-jrpg-kaelis-seraph-protocol-announced-for-pc"
+    "https://www.gematsu.com/2026/09/character-driven-single-player-sci-fantasy-jrpg-kaelis-seraph-protocol-announced-for-pc",
+    "https://www.videogameschronicle.com/news/cd-projekt-reds-move-from-redengine-to-ue5-for-the-witcher-4-wasnt-because-of-cyberpunks-launch-co-ceo-says/",
+    "https://www.gematsu.com/2026/09/kingdom-of-night-for-ps5-xbox-series-and-switch-launches-november-5",
+    "https://www.pushsquare.com/news/2026/09/its-hard-to-go-back-cdpr-says-the-witcher-3-remastered-should-feel-like-a-current-release",
+    "https://www.videogameschronicle.com/news/what-time-does-ea-sports-fc-27-go-live-digital-release-time-in-your-region-and-new-zealand-trick/"
   ],
   "seen_titles": [
-    "epic games store officially reveals unique free game for april 16",
-    "forza horizon 6 map reveals real-world circuits and initial d touge routes",
-    "nintendo reveals switch game rhythm heaven groove release date",
-    "don’t starve elsewhere announced for pc",
     "the biggest announcements from the triple-i initiative showcase: castlevania, don't starve, and more",
     "neverway launches in october; ‘prologue’ demo now available for pc",
     "temple diving co-op adventure game too deep to quit announced for pc",
@@ -10001,13 +9997,13 @@
     "\"they've watched so many people lose their jobs, that has an impact\" – managing morale in the wake of layoffs",
     "final fantasy 7 revelation director reveals why the game won't have a full physical release",
     "level-5 is really starting to panic amidst increasing ai backlash",
-    "‘character-driven single-player sci-fantasy jrpg’ kaelis: seraph protocol announced for pc"
+    "‘character-driven single-player sci-fantasy jrpg’ kaelis: seraph protocol announced for pc",
+    "cd projekt red’s move from redengine to ue5 for the witcher 4 wasn’t because of cyberpunk’s launch, co-ceo says",
+    "kingdom of night for ps5, xbox series, and switch launches november 5",
+    "'it's hard to go back': cdpr says the witcher 3 remastered should feel like a current release",
+    "what time does ea sports fc 27 go live? digital release time in your region and new zealand trick"
   ],
   "seen_story_keys": [
-    "041db8c21637d0800e9bb35c78aefbbc3bbed2dd",
-    "a4768e641f51b150b4d1dd172582ae6ba699c7f5",
-    "868ce03d61b00548999d05a91fbef324009928ae",
-    "a44e12d342e79f6f87fe166d2b5adfa9bb10936b",
     "e39db193bbd326eb5cb7c431ba1cb75754c2a1aa",
     "da30e2a1ea5708bd1aa5c9f925937f41348c17ac",
     "55db5f8182741bcf2ee132b3ddbaea19f0522324",
@@ -15003,6 +14999,10 @@
     "12528b67fa963aa0e8085185a3b63295cb24a506",
     "2fa581025a77d14b8c8cbc1420f6fe9bf0d85925",
     "95190cc86c648b99fc57383b4d6e82fba01342dd",
-    "776d8260bed74ac6a77a7c3aae3b991afd47974f"
+    "776d8260bed74ac6a77a7c3aae3b991afd47974f",
+    "b3b2550a362c98db8abc973518250f4e41435610",
+    "c5a84fcb30d5a9a18239c203662ca1f5c2e0e589",
+    "6eb94ee3219ab32a04aeba05d7bb33c124a86e7c",
+    "b687d615730dde6faeba0cf414dfcf3a4fd8209b"
   ]
 }
