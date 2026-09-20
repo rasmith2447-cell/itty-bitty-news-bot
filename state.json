@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/gaming-industry/gunzilla-ceo-denies-delaying-payments-to-full-time-official-employees-says-contractors-complaining-about-going-months-without-being-paid-are-just-haters-who-dont-know-what-it-takes-to-run-a-business/",
-    "https://www.gematsu.com/2026/04/everwind-early-access-update-the-first-ascent-launches-in-may",
-    "https://www.gematsu.com/2026/04/warhammer-survivors-adds-ps5-xbox-series-switch-2-and-switch-versions",
     "https://www.gematsu.com/2026/04/solarpunk-launches-june-8",
     "https://www.rockpapershotgun.com/build-the-city-of-your-dreams-and-your-graphics-cards-nightmares-in-hyper-shiny-mayoral-sim-city-masterplan",
     "https://www.pcgamer.com/games/action/co-op-pirate-survival-game-windrose-breaks-1-5-million-steam-wishlists-and-good-news-for-everyone-whos-added-it-to-their-list-its-coming-out-next-week/",
@@ -4999,12 +4996,12 @@
     "https://www.pcgamer.com/games/grand-theft-auto/evidence-of-canceled-grand-theft-auto-5-liberty-city-and-agent-trevor-dlc-plus-early-version-of-gta6s-map-surface-online/",
     "https://www.eurogamer.net/helldivers-2-horizon-forbidden-west-delisted-steam-uk-sony-valve",
     "https://www.rockpapershotgun.com/helldivers-2-and-horizon-forbidden-west-delisted-from-steam-in-the-uk-sony-say-theyre-working-with-valve-to-address-the-issue",
-    "https://www.eurogamer.net/monster-hunter-ascendance-teostra-reveal"
+    "https://www.eurogamer.net/monster-hunter-ascendance-teostra-reveal",
+    "https://www.gematsu.com/2026/09/dynasty-warriors-3-complete-edition-remastered-demo-launches-september-24",
+    "https://www.gematsu.com/2026/09/dream-club-zero-r-announced-for-console",
+    "https://gamerant.com/palworld-official-card-game-legendary-cards/"
   ],
   "seen_titles": [
-    "gunzilla ceo denies delaying payments to 'full-time official employees,' denies calling unpaid contractors 'haters' (updated)",
-    "everwind early access update ‘the first ascent’ launches in may",
-    "warhammer survivors adds ps5, xbox series, switch 2, and switch versions",
     "solarpunk launches june 8",
     "build the city of your dreams, and your graphics card's nightmares, in hyper-shiny mayoral sim city masterplan",
     "co-op pirate survival game windrose breaks 1.5 million steam wishlists, and good news for everyone who's added it to their list: it's coming out next week",
@@ -10001,12 +9998,12 @@
     "evidence of canceled grand theft auto 5 liberty city and 'agent trevor' dlc, plus early version of gta6's map surface online",
     "helldivers 2 and horizon forbidden west mysteriously delisted from steam in the uk, sony promises to \"address the issue\" with valve",
     "helldivers 2 and horizon forbidden west delisted from steam in the uk, sony say they're \"working with valve to address the issue\"",
-    "monster hunter wilds upcoming expansion, ascendance, reveals an infamous returning monster - and it looks like it'll address the difficulty complaints"
+    "monster hunter wilds upcoming expansion, ascendance, reveals an infamous returning monster - and it looks like it'll address the difficulty complaints",
+    "dynasty warriors 3: complete edition remastered demo launches september 24",
+    "dream club zero r+ announced for console",
+    "palworld card game shows off new legendary cards"
   ],
   "seen_story_keys": [
-    "b2a13da28d8bffe2204b88b3671b36a9b9974491",
-    "212601343d622c76b05a047c0ce5ed23364de4d9",
-    "8d7a8c289fe1773942fbb3a8e4c51e44a5ecfae2",
     "8438e60b857ad0d679b494067385014030d99e45",
     "9924ff2507af93201fcbadaf9651d40619c5ee15",
     "e0f32abea699da11fb111b2380df529993a32ce8",
@@ -15003,6 +15000,9 @@
     "1204226aed80291f796937354f71776e0ec6e4a9",
     "e473907a01081805674d0932e0f2b4836d0c0d9c",
     "740f31e9a5741e4913e0a5aca861ed239d8dc736",
-    "02932fd5281793c1eb8a6f1582f94a7fce00b505"
+    "02932fd5281793c1eb8a6f1582f94a7fce00b505",
+    "3bb652c9f72572ee6fd2503ebff934f52c2e4c2a",
+    "0604b52e793623d4299447da93e58b15f46c3d05",
+    "c3aa434526d56fc4766bbdfa80ded0bbeb5a6b3e"
   ]
 }
