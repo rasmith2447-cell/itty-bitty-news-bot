@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/solarpunk-launches-june-8",
-    "https://www.rockpapershotgun.com/build-the-city-of-your-dreams-and-your-graphics-cards-nightmares-in-hyper-shiny-mayoral-sim-city-masterplan",
-    "https://www.pcgamer.com/games/action/co-op-pirate-survival-game-windrose-breaks-1-5-million-steam-wishlists-and-good-news-for-everyone-whos-added-it-to-their-list-its-coming-out-next-week/",
     "https://www.eurogamer.net/pirate-survival-game-windrose-lands-a-release-date",
     "https://www.eurogamer.net/11-bit-studios-cursed-farming-game-crop",
     "https://www.pcgamer.com/games/action/co-op-heist-em-up-thick-as-thieves-reveals-may-release-date-with-an-all-new-gameplay-trailer/",
@@ -4999,12 +4996,12 @@
     "https://www.eurogamer.net/monster-hunter-ascendance-teostra-reveal",
     "https://www.gematsu.com/2026/09/dynasty-warriors-3-complete-edition-remastered-demo-launches-september-24",
     "https://www.gematsu.com/2026/09/dream-club-zero-r-announced-for-console",
-    "https://gamerant.com/palworld-official-card-game-legendary-cards/"
+    "https://gamerant.com/palworld-official-card-game-legendary-cards/",
+    "https://www.eurogamer.net/clive-barkers-hellraiser-revival-demo-scarlet-church-trailer",
+    "https://www.purexbox.com/news/2026/09/five-games-are-confirmed-for-xbox-game-pass-over-the-next-few-days",
+    "https://www.nintendolife.com/news/2026/09/stellar-blade-gets-a-switch-2-eshop-demo-today"
   ],
   "seen_titles": [
-    "solarpunk launches june 8",
-    "build the city of your dreams, and your graphics card's nightmares, in hyper-shiny mayoral sim city masterplan",
-    "co-op pirate survival game windrose breaks 1.5 million steam wishlists, and good news for everyone who's added it to their list: it's coming out next week",
     "highly anticipated pirate survival game windrose lands a release date, and it's setting sail very, very soon",
     "frostpunk studio reveals dark and twisted farming thriller crop, which blends stardew valley with the eeriness and mystery of twin peaks",
     "co-op heist-em-up thick as thieves reveals may release date with an all-new gameplay trailer",
@@ -10001,12 +9998,12 @@
     "monster hunter wilds upcoming expansion, ascendance, reveals an infamous returning monster - and it looks like it'll address the difficulty complaints",
     "dynasty warriors 3: complete edition remastered demo launches september 24",
     "dream club zero r+ announced for console",
-    "palworld card game shows off new legendary cards"
+    "palworld card game shows off new legendary cards",
+    "clive barker's hellraiser: revival gets a playable demo and a new trailer ahead of its october launch",
+    "five games are confirmed for xbox game pass over the next few days",
+    "stellar blade gets a switch 2 eshop demo today"
   ],
   "seen_story_keys": [
-    "8438e60b857ad0d679b494067385014030d99e45",
-    "9924ff2507af93201fcbadaf9651d40619c5ee15",
-    "e0f32abea699da11fb111b2380df529993a32ce8",
     "acd1b35bf1ff09ddcdd21dcaa499acd18be08da6",
     "b247a809d94275e3aa574249a0f54761f87528af",
     "d81b8621ef0889378b1c321aa048637bd1731c2b",
@@ -15003,6 +15000,9 @@
     "02932fd5281793c1eb8a6f1582f94a7fce00b505",
     "3bb652c9f72572ee6fd2503ebff934f52c2e4c2a",
     "0604b52e793623d4299447da93e58b15f46c3d05",
-    "c3aa434526d56fc4766bbdfa80ded0bbeb5a6b3e"
+    "c3aa434526d56fc4766bbdfa80ded0bbeb5a6b3e",
+    "e7f1a022256530f51a4ae64b6b617851b5be96ec",
+    "9b852280d0c6d953833abdcf2ae6a88777689280",
+    "dc7ccae231fe6969ca0f5a437a67578718fb1d82"
   ]
 }
