@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/golf-gets-chaotic-in-ps5-party-game-with-lasers-rocket-launchers-and-runaway-carts",
-    "https://www.ign.com/articles/pragmata-preorder-deals-uk-april-2026",
-    "https://www.gamesindustry.biz/the-first-berserker-khazan-studio-neople-announces-restructure-of-dev-teams",
-    "https://www.pushsquare.com/news/2026/04/huge-crimson-desert-updates-teased-as-dev-plans-boss-fight-replays-and-difficulty-settings",
     "https://www.rockpapershotgun.com/there-is-a-new-narrative-from-haters-off-the-grid-studio-boss-says-of-accusations-gunzilla-havent-paid-workers-on-time-claims-full-timers-salaries-have-never-been-delayed-by-more-than-a-week",
     "https://www.nintendolife.com/news/2026/04/fear-not-pokemon-champions-naff-switch-2-tv-resolution-is-fixable",
     "https://www.pushsquare.com/news/2026/04/phantom-blade-zero-team-rejects-all-ai-development-as-it-finishes-making-one-of-ps5s-most-anticipated-games",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/multiplayer-action-dungeon-runner-marked-for-mayhem-announced-for-pc",
     "https://www.gematsu.com/2026/09/mycopunk-launches-october-20",
     "https://www.gematsu.com/2026/09/virtue-and-a-sledgehammer-launches-october-27",
-    "https://www.pcgamer.com/games/action/virtue-and-a-sledgehammer-announces-october-27-release-date-with-another-banger-of-a-trailer/"
+    "https://www.pcgamer.com/games/action/virtue-and-a-sledgehammer-announces-october-27-release-date-with-another-banger-of-a-trailer/",
+    "https://gamerant.com/diablo-4-amazon-gender-locked-class/",
+    "https://www.gematsu.com/2026/09/cairn-free-dlc-on-the-trail-deep-water-launches-october-29",
+    "https://www.gematsu.com/2026/09/junji-ito-inspired-cozy-paranormal-cleaning-game-dust-till-dawn-announced-for-pc",
+    "https://www.gematsu.com/2026/09/industrial-noir-occult-turn-based-rpg-wane-announced-for-pc"
   ],
   "seen_titles": [
-    "golf gets chaotic in ps5 party game with lasers, rocket launchers, and runaway carts",
-    "pragmata preorders drop to just £41.99 at amazon uk before its april 17 launch",
-    "the first berserker: khazan studio neople announces restructure of dev teams",
-    "huge crimson desert updates teased as dev plans boss fight replays and difficulty settings",
     "\"there is a new narrative from haters,\" off the grid studio boss says of accusations gunzilla haven't paid workers on time, claims full-timers' salaries \"have never been delayed by more than a week\"",
     "fear not, pokémon champions' naff switch 2 tv resolution is fixable",
     "phantom blade zero team rejects all ai development as it finishes making one of ps5's most anticipated games",
@@ -10001,13 +9997,13 @@
     "multiplayer action dungeon runner marked for mayhem announced for pc",
     "mycopunk launches october 20",
     "virtue and a sledgehammer launches october 27",
-    "virtue and a sledgehammer announces october 27 release date with another banger of a trailer"
+    "virtue and a sledgehammer announces october 27 release date with another banger of a trailer",
+    "blizzard confirms diablo 4's amazon is breaking a 4-year tradition",
+    "cairn free dlc ‘on the trail: deep water’ launches october 29",
+    "junji ito-inspired cozy paranormal cleaning game dust till dawn announced for pc",
+    "industrial noir occult turn-based rpg wane announced for pc"
   ],
   "seen_story_keys": [
-    "d7cb76a246fbdb7e0975f746d17fbad1c469792e",
-    "b8274881d97f030dad22deb3c47367defc14b3a0",
-    "2e375439558237f9ac08d3ba4234b8d2c3e2e2f6",
-    "e0a304989c22e281f5c88d45fddc724523b545ce",
     "db547681ad287add1dafe0fbf2e534a1cb7b0c7b",
     "33bd744297b907e7d57e107ea5db1764ff268490",
     "e82422ea8a814e0c71c1049e65d1b646feec9886",
@@ -15003,6 +14999,10 @@
     "5ca4c823c0163295958b818cbee66888459a9d77",
     "81cbeb3b668d59519e0ca99ec36c3896a186c232",
     "337acf5eef27c96ac7ab6a6644a34c24365df4f0",
-    "77adda8c39ace2f57ed3ff56c4f5fa899d25ab2b"
+    "77adda8c39ace2f57ed3ff56c4f5fa899d25ab2b",
+    "a95522b0b73670ae4f2001dc95eabeb6e33fa3a7",
+    "e3027905f0014d2f6cc237ce0db969aefbcf10b4",
+    "fd3601193799e3711e99489fb4b98d44f4499d37",
+    "193b333c15645ac0e740a042b1ec3ab17ea7725c"
   ]
 }
