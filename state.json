@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.rockpapershotgun.com/there-is-a-new-narrative-from-haters-off-the-grid-studio-boss-says-of-accusations-gunzilla-havent-paid-workers-on-time-claims-full-timers-salaries-have-never-been-delayed-by-more-than-a-week",
-    "https://www.nintendolife.com/news/2026/04/fear-not-pokemon-champions-naff-switch-2-tv-resolution-is-fixable",
-    "https://www.pushsquare.com/news/2026/04/phantom-blade-zero-team-rejects-all-ai-development-as-it-finishes-making-one-of-ps5s-most-anticipated-games",
-    "https://www.rockpapershotgun.com/crimson-desert-has-more-endgame-busywork-coming-with-boss-rematches-and-enemy-reinforcements-plus-pearl-abyss-are-making-pywels-distant-towers-even-sexier",
     "https://www.gematsu.com/2026/04/holovillage-our-cozy-days-launches-april-24",
     "https://www.gematsu.com/2026/04/inazuma-eleven-victory-road-nintendo-switch-2-edition-physical-edition-launches-june-11-in-japan",
     "https://www.gematsu.com/2026/04/the-last-gas-station-launches-april-28",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/diablo-4-amazon-gender-locked-class/",
     "https://www.gematsu.com/2026/09/cairn-free-dlc-on-the-trail-deep-water-launches-october-29",
     "https://www.gematsu.com/2026/09/junji-ito-inspired-cozy-paranormal-cleaning-game-dust-till-dawn-announced-for-pc",
-    "https://www.gematsu.com/2026/09/industrial-noir-occult-turn-based-rpg-wane-announced-for-pc"
+    "https://www.gematsu.com/2026/09/industrial-noir-occult-turn-based-rpg-wane-announced-for-pc",
+    "https://gamerant.com/final-fantasy-rpgs-officially-unplayable/",
+    "https://www.pcgamer.com/games/sim/command-a-legion-of-robots-in-factory-builder-brave-new-wonders-launching-tomorrow/",
+    "https://www.gematsu.com/2026/09/neon-abyss-2-launches-october-8",
+    "https://www.gematsu.com/2026/09/we-were-here-tomorrow-launches-october-20"
   ],
   "seen_titles": [
-    "\"there is a new narrative from haters,\" off the grid studio boss says of accusations gunzilla haven't paid workers on time, claims full-timers' salaries \"have never been delayed by more than a week\"",
-    "fear not, pokémon champions' naff switch 2 tv resolution is fixable",
-    "phantom blade zero team rejects all ai development as it finishes making one of ps5's most anticipated games",
-    "crimson desert has more endgame busywork coming with boss rematches and enemy reinforcements, plus pearl abyss are making pywel's distant towers even sexier",
     "holovillage: our cozy days launches april 24",
     "inazuma eleven: victory road – nintendo switch 2 edition physical edition launches june 11 in japan",
     "the last gas station launches april 28",
@@ -10001,13 +9997,13 @@
     "blizzard confirms diablo 4's amazon is breaking a 4-year tradition",
     "cairn free dlc ‘on the trail: deep water’ launches october 29",
     "junji ito-inspired cozy paranormal cleaning game dust till dawn announced for pc",
-    "industrial noir occult turn-based rpg wane announced for pc"
+    "industrial noir occult turn-based rpg wane announced for pc",
+    "final fantasy & 4 other rpgs officially unplayable today",
+    "command a legion of robots in factory builder brave new wonders, launching tomorrow",
+    "neon abyss 2 launches october 8",
+    "we were here tomorrow launches october 20"
   ],
   "seen_story_keys": [
-    "db547681ad287add1dafe0fbf2e534a1cb7b0c7b",
-    "33bd744297b907e7d57e107ea5db1764ff268490",
-    "e82422ea8a814e0c71c1049e65d1b646feec9886",
-    "8c376ff9140a3d6452bd86ba2b63fdc6d0aad920",
     "4c5a0d5f3f47caa168a7a396752d6641c129419d",
     "bf9d06f28735fe870272352393ac046cb1e2e9fa",
     "1f70903b5294f28e608ddc88a0580eb152a058fd",
@@ -15003,6 +14999,10 @@
     "a95522b0b73670ae4f2001dc95eabeb6e33fa3a7",
     "e3027905f0014d2f6cc237ce0db969aefbcf10b4",
     "fd3601193799e3711e99489fb4b98d44f4499d37",
-    "193b333c15645ac0e740a042b1ec3ab17ea7725c"
+    "193b333c15645ac0e740a042b1ec3ab17ea7725c",
+    "e0ed15f2de2de3be924df36c52a7ef1dd69da5d9",
+    "bfa6895a18b2d159fc1c0b79348d879b620dcfcb",
+    "6167a326670850105e293c1b3f4ef23e5164e795",
+    "6e75f107cd90f6245d261fb90edb974a883f07f8"
   ]
 }
