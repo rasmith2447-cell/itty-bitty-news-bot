@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/phantom-blade-zero-studio-rejects-generative-ai",
-    "https://www.pushsquare.com/news/2026/04/level-5s-snack-world-remake-drops-nintendo-exclusivity-coming-to-ps5",
-    "https://www.ign.com/articles/professor-layton-and-the-new-world-of-steam-adds-pc-and-ps5-release-to-2026-global-simultaneous-launch-but-theres-no-xbox-version",
-    "https://www.gematsu.com/2026/04/honkai-star-rail-version-4-2-update-so-laughed-the-masses-launches-april-22",
     "https://www.gematsu.com/2026/04/professor-layton-and-the-new-world-of-steam-adds-ps5-and-pc-versions-launches-in-late-2026",
     "https://www.nintendolife.com/news/2026/04/level-5s-snack-world-rpg-is-getting-a-full-blown-remake-on-switch-2",
     "https://www.purexbox.com/news/2026/04/heres-what-the-invincible-vs-open-beta-looks-like-on-xbox-series-xs",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/games/sim/videogame-development-sim-lets-build-a-dungeon-launches-into-early-access-february-11/",
     "https://www.gematsu.com/2026/09/lufia-i-ii-the-sinistrals-saga-announced-for-ps5-switch-2-switch-and-pc",
     "https://www.gematsu.com/2026/09/multiplayer-stealth-golf-game-really-illegal-golf-announced-for-pc",
-    "https://www.nintendolife.com/news/2026/09/dynasty-warriors-3-complete-edition-remastered-demo-and-online-two-player-post-launch-update-announced"
+    "https://www.nintendolife.com/news/2026/09/dynasty-warriors-3-complete-edition-remastered-demo-and-online-two-player-post-launch-update-announced",
+    "https://www.nintendolife.com/news/2026/09/some-compromises-are-inevitable-007-first-light-dev-talks-switch-2-delay-performance-and-more",
+    "https://www.eurogamer.net/marvels-wolverine-patch-fart-gas-scent-trails-crashes",
+    "https://www.gematsu.com/2026/09/honkai-star-rail-version-4-6-update-dance-with-the-beast-before-moonrise-launches-september-28",
+    "https://www.gematsu.com/2026/09/castlevania-belmonts-curse-demo-launches-october-1"
   ],
   "seen_titles": [
-    "phantom blade zero developer rejects gen-ai and promises \"every single piece of content in our game has been crafted by the hands of real artists\"",
-    "level-5's snack world remake drops nintendo exclusivity, coming to ps5",
-    "professor layton and the new world of steam adds pc and ps5 release to 2026 global simultaneous launch — but there’s no xbox version",
-    "honkai: star rail version 4.2 update ‘so laughed the masses’ launches april 22",
     "professor layton and the new world of steam adds ps5 and pc versions, launches in late 2026",
     "level-5's 'snack world' rpg is getting a full-blown remake on switch 2",
     "here's what the invincible vs open beta looks like on xbox series x|s",
@@ -10001,13 +9997,13 @@
     "videogame development sim let's build a dungeon launches into early access february 11",
     "lufia i & ii: the sinistrals saga announced for ps5, switch 2, switch, and pc",
     "multiplayer stealth golf game really illegal golf announced for pc",
-    "dynasty warriors 3: complete edition remastered demo & online two-player post-launch update announced"
+    "dynasty warriors 3: complete edition remastered demo & online two-player post-launch update announced",
+    "\"some compromises are inevitable\" - 007 first light dev talks switch 2 delay, performance & more",
+    "marvel's wolverine \"fart gas\" scent trails addressed by a surprise update",
+    "honkai: star rail version 4.6 update ‘dance with the beast before moonrise’ launches september 28",
+    "castlevania: belmont’s curse demo launches october 1"
   ],
   "seen_story_keys": [
-    "be6747211340686fee43a26d7ecbe520a162cd02",
-    "0be00308abb7b9ff4785d0bb2e6a1c12ec52084e",
-    "0a54787eaf00cb44bdd05eda263a87bc39905938",
-    "e07135233edbc0369c1a70286629d0eea34c782e",
     "7e7c45d23020213307752058c10f423fa9e85745",
     "7f3ec4fd92f5df655b9dd39a817cf8e3986b8978",
     "19576689f1c0b251fa03e8d1310a12c530f5856d",
@@ -15003,6 +14999,10 @@
     "3c583cc5b218feb0fb8e12c2e08f1e72f9668976",
     "cd510c3fc2200307bed8e00818bff3550bd01bfc",
     "ae3fe83474835e4d3188c3942329d894270a1c44",
-    "79a60968cc606a3d9759f974a821f99ead4afb60"
+    "79a60968cc606a3d9759f974a821f99ead4afb60",
+    "0fef69a48155aaffd1878a8aa1d61e23d5e9de6b",
+    "1329b12afcab086803573cf6134066eccea122fc",
+    "e83e9c2e8700110fcb9d0448c941ec03193c001c",
+    "8514c3707403bec0c0e5e4769acd8ee087013ebc"
   ]
 }
