@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/professor-layton-and-the-new-world-of-steam-adds-ps5-and-pc-versions-launches-in-late-2026",
-    "https://www.nintendolife.com/news/2026/04/level-5s-snack-world-rpg-is-getting-a-full-blown-remake-on-switch-2",
-    "https://www.purexbox.com/news/2026/04/heres-what-the-invincible-vs-open-beta-looks-like-on-xbox-series-xs",
-    "https://www.pcgamer.com/games/world-of-warcraft/wows-next-patch-drops-in-just-over-a-week-bringing-a-whole-heap-of-world-content-and-yet-another-gearing-method-from-a-deeply-suspicious-ally/",
     "https://www.rockpapershotgun.com/swashbuckling-co-op-survivor-windrose-sets-sail-into-early-access-next-week-which-means-its-time-to-battle-blackbeard-and-a-big-flower",
     "https://www.eurogamer.net/professor-layton-and-the-new-world-of-steam-pc-ps5-release-window",
     "https://www.gamespot.com/articles/after-tough-launch-samson-dev-promises-more-polish-and-refinements-this-month/1100-6539337/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/09/some-compromises-are-inevitable-007-first-light-dev-talks-switch-2-delay-performance-and-more",
     "https://www.eurogamer.net/marvels-wolverine-patch-fart-gas-scent-trails-crashes",
     "https://www.gematsu.com/2026/09/honkai-star-rail-version-4-6-update-dance-with-the-beast-before-moonrise-launches-september-28",
-    "https://www.gematsu.com/2026/09/castlevania-belmonts-curse-demo-launches-october-1"
+    "https://www.gematsu.com/2026/09/castlevania-belmonts-curse-demo-launches-october-1",
+    "https://gamerant.com/playstation-new-rewards-wallet-credit/",
+    "https://www.nintendolife.com/news/2026/09/pikachu-spent-67-days-in-space-as-part-of-pokemon-x-esa-collaboration",
+    "https://www.ign.com/articles/playstation-x-lisa-controller-collaboration-announced",
+    "https://www.gamespot.com/videos/todd-mcfarlane-talks-about-spawn-collab-in-diablo-immortal-blizzcon-2026-interview/"
   ],
   "seen_titles": [
-    "professor layton and the new world of steam adds ps5 and pc versions, launches in late 2026",
-    "level-5's 'snack world' rpg is getting a full-blown remake on switch 2",
-    "here's what the invincible vs open beta looks like on xbox series x|s",
-    "wow's next patch drops in just over a week, bringing a whole heap of world content and yet another gearing method from a deeply suspicious ally",
     "swashbuckling co-op survivor windrose sets sail into early access next week, which means it's time to battle blackbeard and a big flower",
     "professor layton and the new world of steam gets a release window and adds ps5 and pc versions",
     "after tough launch, samson dev promises more polish and refinements this month",
@@ -10001,13 +9997,13 @@
     "\"some compromises are inevitable\" - 007 first light dev talks switch 2 delay, performance & more",
     "marvel's wolverine \"fart gas\" scent trails addressed by a surprise update",
     "honkai: star rail version 4.6 update ‘dance with the beast before moonrise’ launches september 28",
-    "castlevania: belmont’s curse demo launches october 1"
+    "castlevania: belmont’s curse demo launches october 1",
+    "playstation quietly drops new unannounced rewards",
+    "pikachu spent 67 days in space as part of pokémon x esa collaboration",
+    "playstation reveals new limited-edition controller and merch collection with k-pop star lisa",
+    "todd mcfarlane talks about spawn collab in diablo immortal | blizzcon 2026 interview"
   ],
   "seen_story_keys": [
-    "7e7c45d23020213307752058c10f423fa9e85745",
-    "7f3ec4fd92f5df655b9dd39a817cf8e3986b8978",
-    "19576689f1c0b251fa03e8d1310a12c530f5856d",
-    "0c6ff9249d436c572a44a0eed85c3839b0370771",
     "78664f079ab39fc06815bc9ed0422d1126d59f83",
     "efac074ba80e8c5dbfece26dc67d7fc804b5b03f",
     "c6fb0febe5a010dd761b58df8b2aedaff2c44a47",
@@ -15003,6 +14999,10 @@
     "0fef69a48155aaffd1878a8aa1d61e23d5e9de6b",
     "1329b12afcab086803573cf6134066eccea122fc",
     "e83e9c2e8700110fcb9d0448c941ec03193c001c",
-    "8514c3707403bec0c0e5e4769acd8ee087013ebc"
+    "8514c3707403bec0c0e5e4769acd8ee087013ebc",
+    "800e258fd3360555d68cfb3f32aae41fbe4ac69e",
+    "aab8e837845d0730e715d7b42e355b249e4410cd",
+    "e7f2363f650549bd848bdae691a8896c5ce5021d",
+    "ef68b97d42d834c808d4f56624d8bb7261206988"
   ]
 }
