@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/holovillage-our-cozy-days-launches-april-24",
-    "https://www.gematsu.com/2026/04/inazuma-eleven-victory-road-nintendo-switch-2-edition-physical-edition-launches-june-11-in-japan",
-    "https://www.gematsu.com/2026/04/the-last-gas-station-launches-april-28",
-    "https://www.purexbox.com/news/2026/04/mouse-p-i-for-hire-performance-specs-revealed-120fps-confirmed-for-xbox-series-x-and-s",
     "https://www.eurogamer.net/phantom-blade-zero-studio-rejects-generative-ai",
     "https://www.pushsquare.com/news/2026/04/level-5s-snack-world-remake-drops-nintendo-exclusivity-coming-to-ps5",
     "https://www.ign.com/articles/professor-layton-and-the-new-world-of-steam-adds-pc-and-ps5-release-to-2026-global-simultaneous-launch-but-theres-no-xbox-version",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/final-fantasy-rpgs-officially-unplayable/",
     "https://www.pcgamer.com/games/sim/command-a-legion-of-robots-in-factory-builder-brave-new-wonders-launching-tomorrow/",
     "https://www.gematsu.com/2026/09/neon-abyss-2-launches-october-8",
-    "https://www.gematsu.com/2026/09/we-were-here-tomorrow-launches-october-20"
+    "https://www.gematsu.com/2026/09/we-were-here-tomorrow-launches-october-20",
+    "https://www.pcgamer.com/games/sim/videogame-development-sim-lets-build-a-dungeon-launches-into-early-access-february-11/",
+    "https://www.gematsu.com/2026/09/lufia-i-ii-the-sinistrals-saga-announced-for-ps5-switch-2-switch-and-pc",
+    "https://www.gematsu.com/2026/09/multiplayer-stealth-golf-game-really-illegal-golf-announced-for-pc",
+    "https://www.nintendolife.com/news/2026/09/dynasty-warriors-3-complete-edition-remastered-demo-and-online-two-player-post-launch-update-announced"
   ],
   "seen_titles": [
-    "holovillage: our cozy days launches april 24",
-    "inazuma eleven: victory road – nintendo switch 2 edition physical edition launches june 11 in japan",
-    "the last gas station launches april 28",
-    "mouse p.i. for hire performance specs revealed, 120fps confirmed for xbox series x and s",
     "phantom blade zero developer rejects gen-ai and promises \"every single piece of content in our game has been crafted by the hands of real artists\"",
     "level-5's snack world remake drops nintendo exclusivity, coming to ps5",
     "professor layton and the new world of steam adds pc and ps5 release to 2026 global simultaneous launch — but there’s no xbox version",
@@ -10001,13 +9997,13 @@
     "final fantasy & 4 other rpgs officially unplayable today",
     "command a legion of robots in factory builder brave new wonders, launching tomorrow",
     "neon abyss 2 launches october 8",
-    "we were here tomorrow launches october 20"
+    "we were here tomorrow launches october 20",
+    "videogame development sim let's build a dungeon launches into early access february 11",
+    "lufia i & ii: the sinistrals saga announced for ps5, switch 2, switch, and pc",
+    "multiplayer stealth golf game really illegal golf announced for pc",
+    "dynasty warriors 3: complete edition remastered demo & online two-player post-launch update announced"
   ],
   "seen_story_keys": [
-    "4c5a0d5f3f47caa168a7a396752d6641c129419d",
-    "bf9d06f28735fe870272352393ac046cb1e2e9fa",
-    "1f70903b5294f28e608ddc88a0580eb152a058fd",
-    "4b1f7bf800fa01a503bf8f72d033e129377f6afb",
     "be6747211340686fee43a26d7ecbe520a162cd02",
     "0be00308abb7b9ff4785d0bb2e6a1c12ec52084e",
     "0a54787eaf00cb44bdd05eda263a87bc39905938",
@@ -15003,6 +14999,10 @@
     "e0ed15f2de2de3be924df36c52a7ef1dd69da5d9",
     "bfa6895a18b2d159fc1c0b79348d879b620dcfcb",
     "6167a326670850105e293c1b3f4ef23e5164e795",
-    "6e75f107cd90f6245d261fb90edb974a883f07f8"
+    "6e75f107cd90f6245d261fb90edb974a883f07f8",
+    "3c583cc5b218feb0fb8e12c2e08f1e72f9668976",
+    "cd510c3fc2200307bed8e00818bff3550bd01bfc",
+    "ae3fe83474835e4d3188c3942329d894270a1c44",
+    "79a60968cc606a3d9759f974a821f99ead4afb60"
   ]
 }
