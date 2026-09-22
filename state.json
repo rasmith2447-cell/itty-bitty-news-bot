@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/04/four-games-are-confirmed-for-xbox-game-pass-in-may-2026-so-far",
-    "https://www.gematsu.com/2026/04/arknights-endfield-version-1-2-update-at-the-wake-of-spring-launches-april-17",
-    "https://www.pcgamer.com/games/revisiting-redfall-after-its-final-update-reveals-the-ghost-of-the-game-it-wanted-to-be/",
-    "https://gamerant.com/hogwarts-legacy-2-release-date-news-update-2026-community-manager/",
     "https://www.eurogamer.net/gta-6-developer-rockstar-games-hacked-once-again-but-insists-only-a-limited-amount-of-non-material-company-information-was-compromised",
     "https://gamerant.com/stardew-valley-update-1-7-future-concerned-ape/",
     "https://gamerant.com/xbox-project-helix-gift-packages/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/ninja-theory-shutting-down-why/",
     "https://www.purexbox.com/news/2026/09/heres-your-first-look-at-dune-awakening-on-xbox-series-x-and-series-s",
     "https://www.ign.com/articles/wardogs-season-2-release-date-announced-will-add-weather-including-rain",
-    "https://www.nintendolife.com/news/2026/09/want-more-lord-of-the-rings-on-switch-2-cool-two-ports-are-launching-next-week"
+    "https://www.nintendolife.com/news/2026/09/want-more-lord-of-the-rings-on-switch-2-cool-two-ports-are-launching-next-week",
+    "https://www.pushsquare.com/news/2026/09/state-of-decay-3-dev-hit-with-significant-layoffs-after-going-independent",
+    "https://gamerant.com/sega-cancel-sonic-the-hedgehog/",
+    "https://gamerant.com/monopoly-go-next-sticker-album-release-date/",
+    "https://www.ign.com/articles/halo-studios-cinematic-director-promoted-and-laid-off-within-the-same-week-as-xboxs-brutal-restructuring-continues"
   ],
   "seen_titles": [
-    "four games are confirmed for xbox game pass in may 2026 so far",
-    "arknights: endfield version 1.2 update ‘at the wake of spring’ launches april 17",
-    "revisiting redfall after its final update reveals the ghost of the game it wanted to be",
-    "exciting hogwarts legacy 2 update means release date could be sooner than expected",
     "gta 6 developer rockstar games hacked once again but insists this time only a \"limited amount of non-material company information\" was compromised",
     "stardew valley's future updates leave gamers worried",
     "xbox is already sending out project helix gift packages",
@@ -10001,13 +9997,13 @@
     "xbox may be permanently shutting down ninja theory",
     "here's your first look at dune: awakening on xbox series x and series s",
     "wardogs season 2 release date announced, will add weather including rain",
-    "want more lord of the rings on switch 2? cool, two ports are launching next week"
+    "want more lord of the rings on switch 2? cool, two ports are launching next week",
+    "state of decay 3 dev hit with 'significant' layoffs after going independent",
+    "sega once tried to cancel sonic the hedgehog",
+    "monopoly go: new sticker album release date and more",
+    "halo studios cinematic director promoted and laid off within the same week as xbox's brutal restructuring continues"
   ],
   "seen_story_keys": [
-    "3e54e867d0c68e68d817eeae3701a671739dab7f",
-    "239d89fe10b8b4009e6804023d2d4f06ae69949c",
-    "f365360eaec7c8a3466c5580fc076380b145d20b",
-    "612d8488d1c2efec25a49cf8ef307b6e16d8723f",
     "54d95c9496b5e9899a03c61a79f2f0d9a69ec264",
     "3f23f023bd96600c23db32e9c66c9d3775d2c2bc",
     "978d071ba0a4d9d52b9ca70b1f48d542453c4b3d",
@@ -15003,6 +14999,10 @@
     "2669509e597210b949bd3f2380d25a7d6f6b96cf",
     "6ff50327153aac202302d26d3f1d28fb61b62893",
     "c1295976aef3f629c85e809c522a84cf73480c95",
-    "5b4c53fc1820dcce6c8b97111ea8d42673d4df67"
+    "5b4c53fc1820dcce6c8b97111ea8d42673d4df67",
+    "0a4ad46aa89efabc5eae5323d5db2de7e558db54",
+    "08061524a29360ba9e67c5e05937f24baf3917bb",
+    "83286570f833e79c04abaa01c5dfb7d4ba479402",
+    "0df6734bee09d58adf41e01dbc20f7825748effa"
   ]
 }
