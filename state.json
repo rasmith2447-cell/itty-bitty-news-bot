@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/04/super-battle-golf-brings-absolute-chaos-to-the-switch-2-in-summer-2026",
-    "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-11th-april",
-    "https://www.ign.com/articles/new-crimson-desert-patch-just-dropped-with-many-of-the-improvements-pearl-abyss-said-were-due-in-the-coming-months-and-some-it-hadnt-mentioned-at-all",
-    "https://www.pcgamer.com/games/action/a-character-model-datamined-from-grand-theft-auto-5s-source-code-could-actually-be-agents-protagonist-according-to-online-sleuth/",
     "https://www.purexbox.com/news/2026/04/four-games-are-confirmed-for-xbox-game-pass-in-may-2026-so-far",
     "https://www.gematsu.com/2026/04/arknights-endfield-version-1-2-update-at-the-wake-of-spring-launches-april-17",
     "https://www.pcgamer.com/games/revisiting-redfall-after-its-final-update-reveals-the-ghost-of-the-game-it-wanted-to-be/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/middle-earth-shadow-bundle-announced-for-switch-2",
     "https://www.purexbox.com/news/2026/09/arkane-studios-future-with-xbox-remains-a-total-mystery",
     "https://www.polygon.com/gta-6-release-new-mod-guidelines-pc-rdr2/",
-    "https://gamerant.com/bethesda-obsidian-combined/"
+    "https://gamerant.com/bethesda-obsidian-combined/",
+    "https://gamerant.com/ninja-theory-shutting-down-why/",
+    "https://www.purexbox.com/news/2026/09/heres-your-first-look-at-dune-awakening-on-xbox-series-x-and-series-s",
+    "https://www.ign.com/articles/wardogs-season-2-release-date-announced-will-add-weather-including-rain",
+    "https://www.nintendolife.com/news/2026/09/want-more-lord-of-the-rings-on-switch-2-cool-two-ports-are-launching-next-week"
   ],
   "seen_titles": [
-    "super battle golf brings absolute chaos to the switch 2 in summer 2026",
-    "talking point: what are you playing this weekend? (11th april)",
-    "new crimson desert patch just dropped with many of the improvements pearl abyss said were due in the coming months, and some it hadn't mentioned at all",
-    "a character model datamined from grand theft auto 5's source code 'could actually be agent's protagonist', according to online sleuth",
     "four games are confirmed for xbox game pass in may 2026 so far",
     "arknights: endfield version 1.2 update ‘at the wake of spring’ launches april 17",
     "revisiting redfall after its final update reveals the ghost of the game it wanted to be",
@@ -10001,13 +9997,13 @@
     "middle-earth: shadow bundle announced for switch 2",
     "arkane studios' future with xbox remains a total mystery",
     "rockstar issues major update before 'gta 6' release",
-    "obsidian is now under the bethesda umbrella"
+    "obsidian is now under the bethesda umbrella",
+    "xbox may be permanently shutting down ninja theory",
+    "here's your first look at dune: awakening on xbox series x and series s",
+    "wardogs season 2 release date announced, will add weather including rain",
+    "want more lord of the rings on switch 2? cool, two ports are launching next week"
   ],
   "seen_story_keys": [
-    "ac7462ecf2d59d15d147f0e6972e0ffdc1b00b12",
-    "128942245ee0128efc02ad58532888e9e8ae3a2a",
-    "de98912b456cb6330d1a2aeaef0e27c19039a237",
-    "af043953c56a0cb07f3e6779e9705d86dc277b62",
     "3e54e867d0c68e68d817eeae3701a671739dab7f",
     "239d89fe10b8b4009e6804023d2d4f06ae69949c",
     "f365360eaec7c8a3466c5580fc076380b145d20b",
@@ -15003,6 +14999,10 @@
     "1f84cf4d8cd38a2ac59d1f78693a75825833fa04",
     "51461ad229b0b757aebf1f10706bcb922b59acb2",
     "7c706f743ef0195415837f7b825cbd2caeba439c",
-    "f93e2325442eeb4adc3c92d731f1d0769a0acffe"
+    "f93e2325442eeb4adc3c92d731f1d0769a0acffe",
+    "2669509e597210b949bd3f2380d25a7d6f6b96cf",
+    "6ff50327153aac202302d26d3f1d28fb61b62893",
+    "c1295976aef3f629c85e809c522a84cf73480c95",
+    "5b4c53fc1820dcce6c8b97111ea8d42673d4df67"
   ]
 }
