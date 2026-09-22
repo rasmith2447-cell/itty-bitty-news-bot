@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/snack-world-reloaded-announced-for-ps5-switch-2-and-pc",
-    "https://www.pushsquare.com/news/2026/04/industry-legend-ron-gilbert-is-bringing-his-auto-scrolling-rpg-to-ps5-next-week",
-    "https://www.nintendolife.com/news/2026/04/gallery-fangamers-ufo-50-deluxe-edition-is-packed-with-nostalgic-goodness",
-    "https://www.ign.com/articles/attack-on-titan-studio-to-redraw-opening-of-latest-anime-series-after-investigation-reveals-gen-ai-usage-apologizes-to-fans",
     "https://www.pcgamer.com/games/life-sim/pc-gamers-first-cant-miss-cozy-game-of-2026-has-gone-missing-on-steam-and-some-players-think-tetris-is-to-blame/",
     "https://gamerant.com/professor-layton-new-world-of-steam-ps5-trailer/",
     "https://www.ign.com/articles/amazon-luna-will-no-longer-allow-owners-to-buy-games-access-game-stores-or-third-party-subscriptions-starting-today",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/genshin-impact-7-1-release-date-time-maintenance-countdown-vesna-vodyanitsa-banner/",
     "https://www.ign.com/articles/the-blood-of-dawnwalker-update-to-add-easier-difficulty-setting-for-players-who-dont-want-combat",
     "https://www.pcgamer.com/games/im-taking-insomniacs-wolverine-patch-as-a-sign-this-is-as-bad-as-its-going-to-get/",
-    "https://www.eurogamer.net/blood-of-dawnwalker-budget-revealed"
+    "https://www.eurogamer.net/blood-of-dawnwalker-budget-revealed",
+    "https://www.pushsquare.com/news/2026/09/say-sawadika-to-your-new-ps5-controller-feat-lisa-from-blackpink",
+    "https://www.pcgamer.com/hardware/vr-hardware/steam-frames-odd-charging-behaviour-gets-patched-could-cut-recharge-times-in-half-in-some-instances/",
+    "https://www.purexbox.com/news/2026/09/physints-xbox-exclusivity-remains-up-in-the-air-as-kojima-discusses-new-partnership",
+    "https://www.pushsquare.com/news/2026/09/first-ps-plus-extra-game-for-october-2026-announced"
   ],
   "seen_titles": [
-    "snack world: reloaded announced for ps5, switch 2, and pc",
-    "industry legend ron gilbert is bringing his auto-scrolling rpg to ps5 next week",
-    "gallery: fangamer's ufo 50 deluxe edition is packed with nostalgic goodness",
-    "attack on titan studio to redraw opening of latest anime series after investigation reveals gen ai usage, apologizes to fans",
     "pc gamer's 'first can't-miss cozy game of 2026' has gone missing on steam, and some players think tetris is to blame",
     "professor layton and the new world of steam reveals new features and even more launch platforms",
     "amazon luna will no longer allow owners to buy games, access game stores or third-party subscriptions, starting today",
@@ -10001,13 +9997,13 @@
     "genshin 7.1 countdown (release date & time)",
     "the blood of dawnwalker update to add easier difficulty setting for players who don't want combat",
     "i'm taking insomniac's wolverine patch as a sign: this is as bad as it's going to get",
-    "the blood of dawnwalker cost less than expected to make - it's more of a double-a game than a triple-a blockbuster"
+    "the blood of dawnwalker cost less than expected to make - it's more of a double-a game than a triple-a blockbuster",
+    "say sawadika to your new ps5 controller, feat lisa from blackpink",
+    "steam frame's odd charging behaviour gets patched: cuts recharge times in half in some instances",
+    "physint's xbox exclusivity remains up in the air as kojima discusses new partnership",
+    "first ps plus extra game for october 2026 announced"
   ],
   "seen_story_keys": [
-    "c3e9634c4551be7620f326a41552f006f223627e",
-    "4565c648ef5e6ab42a36b50ffa86315540ef8fe7",
-    "e29d8e2bf9559bb2428b3b089de6022ae77d3a9b",
-    "7f3cff0b651e41d38f563427845569166d08d727",
     "f619492107916e5f1a872f02f678911296c635c8",
     "321db9c14adb99748081427831c6d1edcdc5b083",
     "6f3af6fbd5256998a1b73e0d9d56fe7eb027a60b",
@@ -15003,6 +14999,10 @@
     "874f8dfeb09d4608202199fda5c9aa07113e55ec",
     "058d3e028cf9e41926ebc1497d6599dab1649a70",
     "9f754649fac8191f1d3e4390d7e8612636394a65",
-    "c4ccf68fa3f6dc04dc1aeeaf098af9f42a07c8cf"
+    "c4ccf68fa3f6dc04dc1aeeaf098af9f42a07c8cf",
+    "fb14310c1a2e6b8c131bf7e1dcd1f681b884de1b",
+    "cae3f424c18ce8ffb18de3c3cb202d748ca50f67",
+    "86c4f51f04bc0ea0a48667f2f8603e17fb283f72",
+    "9fd40adfa15340d14c553dfcc073d562bc6572a0"
   ]
 }
