@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/elden-ring-movie-news-casting-release-date/",
-    "https://www.pcgamer.com/games/strategy/anno-117s-first-dlc-will-let-you-disregard-history-by-building-your-roman-city-next-to-a-massive-volcano/",
-    "https://www.pushsquare.com/news/2026/04/viral-rhythm-beat-em-up-dead-as-disco-is-planned-for-ps5",
-    "https://www.pcgamer.com/games/action/open-world-crime-game-samson-beats-up-a-bunch-of-bugs-in-a-new-patch-as-developer-admits-it-released-a-game-with-flaws/",
     "https://gamerant.com/hades-2-release-time-ps5-xbox-series-edt-pdt/",
     "https://www.eurogamer.net/arc-raiders-launches-map-conditions-tracker-heres-what-the-tracker-tells-us",
     "https://gamerant.com/starfield-ps5-crashing/",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/disney-launches-new-bookcessories-line-of-products",
     "https://www.polygon.com/coyote-vs-acme-streaming-release-date/",
     "https://www.gamespot.com/articles/wow-forever-doesnt-let-shamans-or-warlocks-tank-but-that-could-change/",
-    "https://www.rockpapershotgun.com/following-a-strong-start-rebel-wolves-line-up-the-blood-of-dawnwalkers-first-big-patch-for-next-month-adding-in-a-new-easier-difficulty-mode-and-more"
+    "https://www.rockpapershotgun.com/following-a-strong-start-rebel-wolves-line-up-the-blood-of-dawnwalkers-first-big-patch-for-next-month-adding-in-a-new-easier-difficulty-mode-and-more",
+    "https://www.ign.com/articles/vice-city-trademark-abandoned-by-wwe-ahead-of-gta-6-launch",
+    "https://www.rockpapershotgun.com/dark-souls-2-seamless-co-op-mod-is-out-now-in-alpha-form-paving-the-way-for-more-boss-battering-with-mates",
+    "https://www.nintendolife.com/news/2026/09/tiny-violins-at-the-ready-pokemon-scalpers-are-upset-about-new-expansions-profitability",
+    "https://www.pcgamer.com/gaming-industry/halo-studios-cinematic-director-promoted-then-laid-off-in-the-same-week/"
   ],
   "seen_titles": [
-    "a24's elden ring movie: the latest on story, casting, and release date",
-    "anno 117's first dlc will let you disregard history by building your roman city next to a massive volcano",
-    "viral rhythm beat-'em-up dead as disco is 'planned' for ps5",
-    "open-world crime game samson beats up a bunch of bugs in a new patch, as developer admits it 'released a game with flaws'",
     "what time does hades 2 release on playstation and xbox?",
     "arc raiders launches map conditions tracker - here's what the tracker tells us",
     "starfield on ps5 is running into some serious crashing problems",
@@ -10001,13 +9997,13 @@
     "disney launches new 'bookcessories' featuring iconic characters from star wars and animated classics",
     "'coyote vs. acme' officially gets streaming release date",
     "wow: forever doesn’t let shamans or warlocks tank, but that could change",
-    "following a strong start, rebel wolves line up the blood of dawnwalker's first big patch for next month, adding in a new, easier difficulty mode and more"
+    "following a strong start, rebel wolves line up the blood of dawnwalker's first big patch for next month, adding in a new, easier difficulty mode and more",
+    "‘vice city’ trademark abandoned by wwe ahead of gta 6 launch",
+    "dark souls 2 seamless co-op mod is out now in alpha form, paving the way for more boss battering with mates",
+    "tiny violins at the ready, pokémon scalpers are upset about new expansion's profitability",
+    "halo studios cinematic director promoted, then laid off in the same week"
   ],
   "seen_story_keys": [
-    "5857329ec08497a56da728685d7f59453c765af6",
-    "a478541d1d371e39aff437447231c219b02e6e41",
-    "7f14b749cf39111c08860688cc4627df58cb60da",
-    "7b95eed7a7e2bb386cfca7d762cfe4815c927430",
     "adcd42a8084a91eaea4a8d521e603b8adc75ead0",
     "c60c346d910be6732c26e7ae62c25fc2c84e6935",
     "941217ca17140b8963768a25af1465fcdef3ac0d",
@@ -15003,6 +14999,10 @@
     "23958a8ea914b396f41903d6be23c0885d78bb96",
     "885cac6a985ebde67b27f27d3e784a9df54a4567",
     "df221df44793ade8325fc95a6379a1b9e4735990",
-    "e42e7541b2cd56d92bc393bf0036a10c97cd0cb5"
+    "e42e7541b2cd56d92bc393bf0036a10c97cd0cb5",
+    "3ccf6927b8f84991b1312be4b6b9188ec84239b3",
+    "21d19ac1cb875a45013bf4082417b7fc3565c6d7",
+    "8ce9e9788e4b674863c053d5350ff31eff721032",
+    "d221ba1a89c02cb3633df4babeb78c955f8b09a5"
   ]
 }
