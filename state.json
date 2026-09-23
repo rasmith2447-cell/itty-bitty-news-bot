@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/demon-slayer-kimetsu-no-yaiba-the-hinokami-chronicles-2-dlc-character-shinobu-kocho-infinity-castle-launches-april-17",
-    "https://gamerant.com/rhythm-heaven-groove-release-date/",
-    "https://www.gamesindustry.biz/liquid-swords-ceo-christofer-sundberg-announced-as-speaker-at-nordic-game-2026",
-    "https://www.nintendolife.com/news/2026/04/random-borderlands-4-physical-switch-2-version-apparently-surfaces-in-the-wild",
     "https://www.rockpapershotgun.com/i-couldnt-protect-it-pete-hines-says-he-left-microsoft-owned-bethesda-because-he-didnt-want-to-watch-it-be-damaged-and-broken-apart-and-frankly-mistreated-abused",
     "https://www.purexbox.com/news/2026/04/xboxs-asha-sharma-speaks-on-camera-for-first-time-as-microsoft-gaming-ceo",
     "https://www.ign.com/articles/ea-follows-anthem-shutdown-with-closure-of-biowares-dragon-age-inquisition-ps3-servers",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/discord-controversial-age-verification-privacy-preserving",
     "https://www.gamespot.com/videos/control-resonant-7-things-we-wish-we-knew-before-playing/",
     "https://www.pcgamer.com/games/third-person-shooter/the-arc-raiders-frozen-trail-update-is-bigger-than-anyone-expected-new-arc-gun-upgrades-a-map-and-personal-outposts-you-can-decorate/",
-    "https://www.purexbox.com/news/2026/09/devs-from-the-coalition-worlds-edge-and-other-xbox-studios-confirm-layoffs2"
+    "https://www.purexbox.com/news/2026/09/devs-from-the-coalition-worlds-edge-and-other-xbox-studios-confirm-layoffs2",
+    "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-first-patch-will-bring-back-the-number-one-thing-seasoned-players-missed-from-the-mmos-past-storms/",
+    "https://www.pushsquare.com/news/2026/09/gundam-celebrates-40-years-of-games-with-a-dedicated-broadcast-next-month",
+    "https://www.gamesindustry.biz/age-of-empires-developer-worlds-edge-hit-with-layoffs-following-move-to-activision",
+    "https://www.eurogamer.net/halo-studios-closure-xbox-cuts-kiki-wolfkill-bonnie-ross"
   ],
   "seen_titles": [
-    "demon slayer: kimetsu no yaiba – the hinokami chronicles 2 dlc character shinobu kocho (infinity castle) launches april 17",
-    "nintendo confirms release date for upcoming switch exclusive",
-    "liquid swords ceo christofer sundberg announced as speaker at nordic game 2026",
-    "random: borderlands 4 physical switch 2 version apparently surfaces in the wild",
     "\"i couldn't protect it\" pete hines says he left microsoft-owned bethesda because he didn't want to watch it be \"damaged and broken apart and frankly mistreated, abused\"",
     "xbox's asha sharma speaks on camera for first time as microsoft gaming ceo",
     "ea follows anthem shutdown with closure of bioware's dragon age: inquisition ps3 servers",
@@ -10001,13 +9997,13 @@
     "discord launches controversial age-verification system \"using the most privacy-preserving approach we could build\" months after first delay",
     "control resonant – 7 things we wish we knew before playing",
     "the arc raiders frozen trail update is bigger than anyone expected: new arc, gun upgrades, a map, and personal outposts you can decorate",
-    "devs from the coalition, world's edge, and other xbox studios confirm layoffs"
+    "devs from the coalition, world's edge, and other xbox studios confirm layoffs",
+    "world of warcraft: forever's first patch will bring back the number one thing seasoned players missed from the mmo's past: storms",
+    "gundam celebrates 40 years of games with a dedicated broadcast next month",
+    "age of empires developer world's edge hit with layoffs following move to activision",
+    "former halo leaders lament effective closure of halo studios, as one employee finds themselves promoted and fired in same week"
   ],
   "seen_story_keys": [
-    "b501adb046d6559745b46a27ac1032209b99c709",
-    "985791b6f0ddd995e0c3506272e1a9f0b6d8f2c3",
-    "cc38c7db375e09f05bf0ac2de02c4bc001d8d866",
-    "f50b9a37cefe485f6687342af2ee7fd72101a859",
     "119641c035a130636ceb8e66cb723cd165c9876b",
     "43ce80ed0db373fe736bb7d59ac7d5263f4a0201",
     "dda157dccdf25085832ee6e1883bfb30422a0cce",
@@ -15003,6 +14999,10 @@
     "c764d70fd3f594cfdca4308d98cf2ecfecc26399",
     "3bce4171eb3022755e27a0214f23a8066621f6b0",
     "f49c74f862628f6f86c76efdb82bdd3945ae344a",
-    "ce279d53cf69a75cc2ad55e7ced2da89e89e51dd"
+    "ce279d53cf69a75cc2ad55e7ced2da89e89e51dd",
+    "afc994cdeed810e236572c3627882da952f06104",
+    "11116a83a53f8cc022807b2e4d5594f7cddaa33f",
+    "6cc23c0c6a04f4d457484af239b06837a3b99f66",
+    "4741d8b6303ef7c000d580fc16b155d6bb355504"
   ]
 }
