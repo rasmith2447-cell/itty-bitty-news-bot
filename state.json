@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/ex-bethesda-exec-pete-hines-explains-why-he-left-and-he-didnt-mince-words/1100-6539361/?ftag=CAD-01-10abi2f",
-    "https://www.pushsquare.com/news/2026/04/pokemon-palworld-rip-off-pickmon-returns-with-a-new-name-you-wont-believe-the-difference",
-    "https://www.eurogamer.net/metro-2039-announced-xbox-stream-reveal",
-    "https://www.gematsu.com/2026/04/warhammer-classics-label-announced-reviving-and-debuting-classic-games-on-steam",
     "https://www.rockpapershotgun.com/warhammer-classics-initiative-re-releases-28-vintage-warhammer-and-w40k-games-with-seven-out-on-steam-for-the-first-time",
     "https://www.gamespot.com/articles/roblox-is-rethinking-accounts-after-lawsuits-over-failing-to-protect-children/1100-6539359/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/04/metro-2039-to-be-announced-on-april-16",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/09/15plus-xbox-games-are-out-today-including-one-of-the-biggest-releases-of-the-year-september-24",
     "https://www.polygon.com/avengers-doomsday-uk-release-date-earlier/",
     "https://www.ign.com/articles/this-has-to-be-a-sick-joke-the-next-ace-attorney-game-is-a-vr-exclusive-and-fans-cant-quite-believe-it",
-    "https://www.gamesindustry.biz/microsoft-files-patent-for-ad-credit-system-to-show-ads-on-pc-and-xbox-without-disrupting-gameplay"
+    "https://www.gamesindustry.biz/microsoft-files-patent-for-ad-credit-system-to-show-ads-on-pc-and-xbox-without-disrupting-gameplay",
+    "https://www.polygon.com/counter-strike-2-update-chickens-valve-cs2/",
+    "https://www.pushsquare.com/news/2026/09/this-ultra-realistic-racing-game-will-make-its-ps5-console-exclusive-debut-next-month",
+    "https://www.gematsu.com/2026/09/deck-of-haunts-for-ps5-xbox-series-switch-2-xbox-one-and-switch-launches-october-8",
+    "https://www.gematsu.com/2026/09/beamng-drive-early-access-for-ps5-launches-october-19"
   ],
   "seen_titles": [
-    "ex-bethesda exec pete hines explains why he left, and he didn't mince words",
-    "pokémon, palworld rip-off pickmon returns with a new name, you won't believe the difference",
-    "4a games announces metro 2039, and we're getting an xbox-themed reveal stream later this week",
-    "warhammer classics label announced, reviving and debuting classic games on steam",
     "warhammer classics initiative re-releases 28 vintage warhammer and w40k games, with seven out on steam for the first time",
     "roblox is rethinking accounts after lawsuits over failing to protect children",
     "metro 2039 to be announced on april 16",
@@ -10001,13 +9997,13 @@
     "15+ xbox games are out today, including one of the biggest releases of the year (september 24)",
     "avengers: doomsday just got a big release date update",
     "'this has to be a sick joke' — the next ace attorney game is a vr exclusive and fans can't quite believe it",
-    "microsoft files patent for \"ad-credit\" system to show ads on pc and xbox without disrupting gameplay"
+    "microsoft files patent for \"ad-credit\" system to show ads on pc and xbox without disrupting gameplay",
+    "counter-strike 2’s wildest new update in years is officially live",
+    "this ultra realistic racing game will make its ps5 console exclusive debut next month",
+    "deck of haunts for ps5, xbox series, switch 2, xbox one, and switch launches october 8",
+    "beamng.drive early access for ps5 launches october 19"
   ],
   "seen_story_keys": [
-    "5c2a731f009c5d98591de4073de818e3f2aca3cd",
-    "b9ee9d6cce4befdc38ae1fc9dfd48e431ee8ff43",
-    "cc133cf322b0c5bb23f98453a9f5f4e823a37c57",
-    "35ec49d2f52625f7f10b659070e049a01602ecd4",
     "7049dbf8f1e6192d768b520897cfd81e959e5f3a",
     "a17837624534bbe16923c51df1a9057634fbf6c6",
     "aaced14fd26d19df11adf1dbf4ae8ea0598c9baf",
@@ -15003,6 +14999,10 @@
     "1ccdc8e39d8608d99995dc73ce9e64da8ac6d923",
     "7574c90d4e466f684666dbee0398e14873af3b78",
     "4aea5431c3c9b6f06306313750b2179fd11b4966",
-    "11f79da3706c1ba58d787507dd94e0e2bc396c73"
+    "11f79da3706c1ba58d787507dd94e0e2bc396c73",
+    "24724d5528532ae28c541d82b279c2a845c409f4",
+    "8b09c99aca1468cf21eb129e28edf45c0880b152",
+    "2c9ef147dd0ec3acf9f42513752c4b152c8a166e",
+    "61c843a4b984f3d0d67160809476efb6f23e8258"
   ]
 }
