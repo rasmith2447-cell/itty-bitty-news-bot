@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/overwatch-season-2-summit-start-date-skins-maps/",
-    "https://www.ign.com/articles/indie-pass-a-subscription-service-for-indie-games-launches-on-pc",
-    "https://www.purexbox.com/news/2026/04/replaced-dev-reveals-xbox-series-x-and-s-specs-ahead-of-game-pass-launch",
-    "https://www.gamesindustry.biz/roblox-launches-new-age-based-accounts-and-expanded-parental-controls-to-build-age-appropriate-experiences-for-all",
     "https://www.purexbox.com/news/2026/04/microsoft-announces-new-xbox-first-look-showcase-for-later-this-week",
     "https://www.rockpapershotgun.com/no-fables-release-window-chicken-hasnt-been-kicked-down-the-road-playground-games-say-following-report-of-potential-gta-6-related-delay",
     "https://www.pushsquare.com/news/2026/04/powerwash-simulators-final-fantasy-tomb-raider-dlc-packs-are-going-down-the-drain",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/bungie-marathon-symbiosis-changes-pve-new-modes/",
     "https://www.ign.com/articles/bungie-finally-details-radical-changes-for-marathon",
     "https://www.ign.com/articles/counter-strike-co-creator-says-gabe-newell-got-so-obsessed-with-mongolian-throat-singing-at-valve-hq-that-staff-started-closing-their-office-doors-to-escape-the-noise",
-    "https://www.polygon.com/control-resonant-remedy-day-one-patch-combat-difficulty/"
+    "https://www.polygon.com/control-resonant-remedy-day-one-patch-combat-difficulty/",
+    "https://gamerant.com/zelda-ubisoft-game-ganondorf-canceled-why/",
+    "https://www.gamespot.com/videos/saraab-beyond-the-veil-official-release-date-trailer/",
+    "https://www.polygon.com/the-division-2-echoes-of-central-park-dlc-release-date/",
+    "https://www.ign.com/articles/its-not-great-content-ex-dragon-age-exec-says-hed-now-change-or-ditch-several-key-moments-from-the-series"
   ],
   "seen_titles": [
-    "overwatch season 2 start date, skins, and new collabs revealed",
-    "indie pass, a subscription service for indie games, launches on pc",
-    "replaced dev reveals xbox series x and s specs ahead of game pass launch",
-    "roblox launches new age-based accounts and expanded parental controls \"to build age-appropriate experiences for all\"",
     "microsoft announces new 'xbox first look' showcase for later this week",
     "no, fable's release window chicken hasn't been kicked down the road, playground games say following report of potential gta 6-related delay",
     "powerwash simulator's final fantasy, tomb raider dlc packs are going down the drain",
@@ -10001,13 +9997,13 @@
     "bungie officially reveals massive marathon revamp with new pve mode",
     "bungie finally details radical changes for marathon",
     "counter-strike co-creator says gabe newell got so obsessed with mongolian throat singing at valve hq that staff started closing their office doors to escape the noise",
-    "control resonant’s day-one patch makes the game easier ‘while still providing a challenge’"
+    "control resonant’s day-one patch makes the game easier ‘while still providing a challenge’",
+    "nintendo canceled zelda ubisoft game starring ganondorf",
+    "saraab: beyond the veil – official release date trailer",
+    "the division's new release is going up against zelda",
+    "'it's not great content': ex-dragon age exec says he'd now change or ditch several key moments from the series"
   ],
   "seen_story_keys": [
-    "1805ffe67fcefb125c25d8508f7969e1b728f385",
-    "d4a60c42b460ffc6540f69592e6c35cc855f1764",
-    "b529dde1bd33957aad74c8134ca0ca50af801156",
-    "aea91c7ef71af365f28561dc9cbf1dc86bedd591",
     "1fd9a13ed974030b9070d3f953e813ebc61c7769",
     "176f6f768655532ad4b8a5cc19f7c8fcf50dbe4e",
     "a0325c5e553315916c6a8fe7e63817c15d7d17a7",
@@ -15003,6 +14999,10 @@
     "677d3f658a60aa9421a1490c544d47bc9e79e36d",
     "f68bdfbd1504c2f49570cfdfff24c069da41aa19",
     "a44ecaa3539f51e16d02ec366e9e89a7a59c52ee",
-    "bba6dcc75cfe5f286ceb13d0499d6f3ac5bfed98"
+    "bba6dcc75cfe5f286ceb13d0499d6f3ac5bfed98",
+    "764666e7bca9df8e88a9606c000826a1818f2b0b",
+    "f70aaea2dcff8558a1ccc5719a56cd165f7372ed",
+    "702ffcf91f58fc32800f7f328e1846344dc8636f",
+    "78713577c4285f377f80c3102ba7bccfd3164ee8"
   ]
 }
