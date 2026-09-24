@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.rockpapershotgun.com/i-couldnt-protect-it-pete-hines-says-he-left-microsoft-owned-bethesda-because-he-didnt-want-to-watch-it-be-damaged-and-broken-apart-and-frankly-mistreated-abused",
-    "https://www.purexbox.com/news/2026/04/xboxs-asha-sharma-speaks-on-camera-for-first-time-as-microsoft-gaming-ceo",
-    "https://www.ign.com/articles/ea-follows-anthem-shutdown-with-closure-of-biowares-dragon-age-inquisition-ps3-servers",
-    "https://www.pcgamer.com/hardware/gaming-mice/lucky-redditor-gets-hands-on-unreleased-steelseries-rival-pro-mini-revealing-another-uwb-wireless-gaming-mouse-will-soon-hit-the-market/",
     "https://www.pushsquare.com/news/2026/04/metro-2039-confirmed-for-reveal-in-xbox-livestream-this-thursday",
     "https://www.gamespot.com/articles/metro-2039-finally-emerges-with-first-look-set-for-april-16/1100-6539358/?ftag=CAD-01-10abi2f",
     "https://www.videogameschronicle.com/news/metro-2039-will-be-revealed-this-week-4a-games-confirms/",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-first-patch-will-bring-back-the-number-one-thing-seasoned-players-missed-from-the-mmos-past-storms/",
     "https://www.pushsquare.com/news/2026/09/gundam-celebrates-40-years-of-games-with-a-dedicated-broadcast-next-month",
     "https://www.gamesindustry.biz/age-of-empires-developer-worlds-edge-hit-with-layoffs-following-move-to-activision",
-    "https://www.eurogamer.net/halo-studios-closure-xbox-cuts-kiki-wolfkill-bonnie-ross"
+    "https://www.eurogamer.net/halo-studios-closure-xbox-cuts-kiki-wolfkill-bonnie-ross",
+    "https://www.gematsu.com/2026/09/phoenix-wright-ace-attorney-dual-destinies-vr-announced-for-quest-meta-vr-glasses",
+    "https://www.nintendolife.com/news/2026/09/stellar-blades-switch-2-release-will-include-a-frame-generation-toggle",
+    "https://www.ign.com/articles/youtubes-new-ab-video-test-feature-is-already-creating-fears-over-weaponized-negativity",
+    "https://www.ign.com/articles/double-fine-founder-tim-schafer-questions-economics-of-the-game-industry-amid-mass-layoffs-and-studio-closures"
   ],
   "seen_titles": [
-    "\"i couldn't protect it\" pete hines says he left microsoft-owned bethesda because he didn't want to watch it be \"damaged and broken apart and frankly mistreated, abused\"",
-    "xbox's asha sharma speaks on camera for first time as microsoft gaming ceo",
-    "ea follows anthem shutdown with closure of bioware's dragon age: inquisition ps3 servers",
-    "lucky redditor gets hands on unreleased steelseries rival pro mini, revealing another uwb wireless gaming mouse will soon hit the market",
     "metro 2039 confirmed for reveal in xbox livestream this thursday",
     "metro 2039 finally emerges with first look set for april 16",
     "metro 2039 will be revealed this week, 4a games confirms",
@@ -10001,13 +9997,13 @@
     "world of warcraft: forever's first patch will bring back the number one thing seasoned players missed from the mmo's past: storms",
     "gundam celebrates 40 years of games with a dedicated broadcast next month",
     "age of empires developer world's edge hit with layoffs following move to activision",
-    "former halo leaders lament effective closure of halo studios, as one employee finds themselves promoted and fired in same week"
+    "former halo leaders lament effective closure of halo studios, as one employee finds themselves promoted and fired in same week",
+    "phoenix wright: ace attorney – dual destinies vr announced for quest, meta vr glasses",
+    "stellar blade's switch 2 release will include a frame generation toggle",
+    "youtube's new a/b video test feature is already creating fears over weaponized negativity",
+    "double fine founder tim schafer questions economics of the game industry amid mass layoffs and studio closures"
   ],
   "seen_story_keys": [
-    "119641c035a130636ceb8e66cb723cd165c9876b",
-    "43ce80ed0db373fe736bb7d59ac7d5263f4a0201",
-    "dda157dccdf25085832ee6e1883bfb30422a0cce",
-    "97a82cdf1c5db8b6fffe52c85012be4577b3cce7",
     "77246ec8ea2da6d58d708ea5c7f41ca5853b9c21",
     "1a0fa9ddc0a7b856b2d811617c96cc8e785b2fcc",
     "7ed3495b002e7928059dc82a0bf6828948809cd4",
@@ -15003,6 +14999,10 @@
     "afc994cdeed810e236572c3627882da952f06104",
     "11116a83a53f8cc022807b2e4d5594f7cddaa33f",
     "6cc23c0c6a04f4d457484af239b06837a3b99f66",
-    "4741d8b6303ef7c000d580fc16b155d6bb355504"
+    "4741d8b6303ef7c000d580fc16b155d6bb355504",
+    "9f93a97dbcbb7a0c2eb58cbbcd0ebf073231d0b1",
+    "00f7a73425995c23c30a5ef8c15d1a9b027d8dcb",
+    "b7dbf38966afb75d422697f306d7419388c1e029",
+    "04b7184240c08bea5e249f6b19d885d5621d6b01"
   ]
 }
