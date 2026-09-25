@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/bloodborne-r-rated-animated-movie-in-development-with-jacksepticeye-producing",
-    "https://www.nintendolife.com/news/2026/04/the-legend-of-zelda-live-action-movie-has-officially-wrapped-filming",
-    "https://www.gematsu.com/2026/04/bloodborne-animated-movie-announced",
-    "https://www.nintendolife.com/news/2026/04/animal-crossing-new-horizons-has-been-updated-to-version-3-0-2-here-are-the-full-patch-notes",
     "https://www.ign.com/articles/bethesda-responds-to-starfield-ps5-crashing-issues",
     "https://www.polygon.com/resident-evil-spider-verse-zelda-sony-cinemacon-everything-announced/",
     "https://www.rockpapershotgun.com/bloodborne-on-pc-remains-a-pipe-dream-but-the-newly-announced-movie-at-least-means-taking-your-mouse-and-keyboard-to-the-cinema-is-an-option",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/09/so-long-sweet-prince-ubisofts-rogue-prince-of-persia-game-rolls-out-its-final-update",
     "https://www.gematsu.com/2026/09/unicorn-overlord-director-takafumi-noma-announces-fantasy-ip-ignisphere-and-action-rpg-dawngazer-for-ps5-switch-2-and-pc",
     "https://www.gematsu.com/2026/09/a-train-9-prime-line-announced-for-pc",
-    "https://www.gematsu.com/2026/09/kowloons-gate-suzaku-for-switch-launches-october-29"
+    "https://www.gematsu.com/2026/09/kowloons-gate-suzaku-for-switch-launches-october-29",
+    "https://www.rockpapershotgun.com/colourful-jrpg-armed-fantasia-has-been-cancelled-four-years-after-a-successful-kickstarter-campaign-descended-into-delays-and-lawsuits",
+    "https://www.gamesindustry.biz/build-a-rocket-boy-has-appointed-administrators",
+    "https://gamerant.com/bethesda-statement-fallout-obsidian-creative-integrity/",
+    "https://www.gematsu.com/2026/09/alpha-nomos-launches-october-12"
   ],
   "seen_titles": [
-    "bloodborne: r-rated animated movie in development with jacksepticeye producing",
-    "the legend of zelda live-action movie has officially wrapped filming",
-    "bloodborne animated movie announced",
-    "animal crossing: new horizons has been updated to version 3.0.2, here are the full patch notes",
     "bethesda responds to starfield ps5 crashing issues",
     "everything shown and announced at sony's cinemacon 2026 panel",
     "bloodborne on pc remains a pipe dream, but the newly announced movie at least means taking your mouse and keyboard to the cinema is an option",
@@ -10001,13 +9997,13 @@
     "\"so long, sweet prince\" - ubisoft's rogue prince of persia game rolls out its final update",
     "unicorn overlord director takafumi noma announces fantasy ip ignisphere and action rpg dawngazer for ps5, switch 2, and pc",
     "a-train 9 prime line announced for pc",
-    "kowloon’s gate: suzaku for switch launches october 29"
+    "kowloon’s gate: suzaku for switch launches october 29",
+    "colourful jrpg armed fantasia has been cancelled, four years after a successful kickstarter campaign descended into delays and lawsuits",
+    "build a rocket boy has appointed administrators",
+    "bethesda issues new official statement on fallout and obsidian",
+    "alpha nomos launches october 12"
   ],
   "seen_story_keys": [
-    "3bf63f4b7a6694636d07b3fcad5780c5f1935303",
-    "0d6175e54802f38f2868bbbe33de3089c910c570",
-    "98f0586000baef3a105e8e4db1a99818c4c40a53",
-    "94eb06bc18a892d52480c00e5625059ce82b6f50",
     "ad85af0a3074752c0ba554f37d45543a7c0b6964",
     "52e95f40f8c62eaf92e24a3712ca57e50d01a939",
     "4e04709e0eb88a3d8169dcf48a85982cd681a3ae",
@@ -15003,6 +14999,10 @@
     "1c247bd1680a5497a0690d10bf6d07ea520eb966",
     "be4014b63ff8c3c7b7dc513dafc8f6c0224ab596",
     "40e1e096fd3a7ac169e31102343a9cedc7a9a979",
-    "f7f83832a80075471ae0b263b7009fc556da4556"
+    "f7f83832a80075471ae0b263b7009fc556da4556",
+    "cd3ff18c088f7bfd0b7920a3ea6585fd335566bf",
+    "63121a9a8f7dbe2ca5f30e94bd75251cdb5f9198",
+    "b7e33c57d3ad5e4b475b1223a614019a2b8cac47",
+    "26ab5bdc92fc0a03edc8c730bc9a4ddb98e0637b"
   ]
 }
