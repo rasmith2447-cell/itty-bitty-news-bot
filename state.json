@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/04/microsoft-announces-new-xbox-first-look-showcase-for-later-this-week",
-    "https://www.rockpapershotgun.com/no-fables-release-window-chicken-hasnt-been-kicked-down-the-road-playground-games-say-following-report-of-potential-gta-6-related-delay",
-    "https://www.pushsquare.com/news/2026/04/powerwash-simulators-final-fantasy-tomb-raider-dlc-packs-are-going-down-the-drain",
-    "https://gamerant.com/overwatch-season-2-summit-release-date-time-sierra/",
     "https://www.gamesindustry.biz/esas-iicon-conference-expands-speaker-lineup-with-eas-andrew-wilson-joining-ceos-of-ubisoft-take-two-riot-savvy-games-and-more",
     "https://www.gematsu.com/2026/04/overwatch-for-switch-2-launches-april-14",
     "https://www.gematsu.com/2026/04/shikhondo-blue-pieta-for-pc-launches-may-18",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/zelda-ubisoft-game-ganondorf-canceled-why/",
     "https://www.gamespot.com/videos/saraab-beyond-the-veil-official-release-date-trailer/",
     "https://www.polygon.com/the-division-2-echoes-of-central-park-dlc-release-date/",
-    "https://www.ign.com/articles/its-not-great-content-ex-dragon-age-exec-says-hed-now-change-or-ditch-several-key-moments-from-the-series"
+    "https://www.ign.com/articles/its-not-great-content-ex-dragon-age-exec-says-hed-now-change-or-ditch-several-key-moments-from-the-series",
+    "https://www.ign.com/articles/arc-raiders-is-testing-a-pve-mode-very-soon",
+    "https://www.eurogamer.net/gta-6-collectible-suspicious-mirror-keychain-spoon",
+    "https://www.pushsquare.com/news/2026/09/this-striking-ps5-rhythm-game-promises-a-heartfelt-story-and-49-original-songs",
+    "https://www.purexbox.com/news/2026/09/xbox-studio-worlds-edge-may-have-cancelled-a-game-as-part-of-activision-shift"
   ],
   "seen_titles": [
-    "microsoft announces new 'xbox first look' showcase for later this week",
-    "no, fable's release window chicken hasn't been kicked down the road, playground games say following report of potential gta 6-related delay",
-    "powerwash simulator's final fantasy, tomb raider dlc packs are going down the drain",
-    "when does overwatch season 2: summit start? (release date & time)",
     "esa's iicon conference expands speaker lineup, with ea's andrew wilson joining ceos of ubisoft, take two, riot, savvy games and more",
     "overwatch for switch 2 launches april 14",
     "shikhondo: blue pieta for pc launches may 18",
@@ -10001,13 +9997,13 @@
     "nintendo canceled zelda ubisoft game starring ganondorf",
     "saraab: beyond the veil – official release date trailer",
     "the division's new release is going up against zelda",
-    "'it's not great content': ex-dragon age exec says he'd now change or ditch several key moments from the series"
+    "'it's not great content': ex-dragon age exec says he'd now change or ditch several key moments from the series",
+    "arc raiders is testing a pve mode very soon",
+    "rockstar reveals a £350 box of naughty gta 6 collectables you definitely wouldn't get through airport security",
+    "this striking ps5 rhythm game promises a heartfelt story and 49 original songs",
+    "xbox studio 'world's edge' may have cancelled a game as part of activision shift"
   ],
   "seen_story_keys": [
-    "1fd9a13ed974030b9070d3f953e813ebc61c7769",
-    "176f6f768655532ad4b8a5cc19f7c8fcf50dbe4e",
-    "a0325c5e553315916c6a8fe7e63817c15d7d17a7",
-    "b75df2ea6aca569c932dd91c8d9295643df5a4c6",
     "7f7c5a1183466ecf44e8061a4ba8c97e887134e3",
     "bcd22cafba704761b2ca4f9420a2775608077729",
     "d91313cf877e1b943d6ebb7263cc8a2b49b0958a",
@@ -15003,6 +14999,10 @@
     "764666e7bca9df8e88a9606c000826a1818f2b0b",
     "f70aaea2dcff8558a1ccc5719a56cd165f7372ed",
     "702ffcf91f58fc32800f7f328e1846344dc8636f",
-    "78713577c4285f377f80c3102ba7bccfd3164ee8"
+    "78713577c4285f377f80c3102ba7bccfd3164ee8",
+    "46fefb2bd30593e5c7bcdca85f12caca8d139c40",
+    "112cebd0fcbee8f7a77a183e7780655b9aa79e97",
+    "1cb2a623831d678e9b3f1a50437e35a045448535",
+    "48d17b0c270ae352cccd38f93f9088b61b8a798d"
   ]
 }
