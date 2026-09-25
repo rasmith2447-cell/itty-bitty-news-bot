@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/blizzards-overwatch-previously-known-as-overwatch-2-is-now-available-as-60fps-switch-2-version/",
-    "https://gamerant.com/helldivers-2-update-low-energy-mode-patch-notes/",
-    "https://www.gamesindustry.biz/uk-government-begins-rollout-of-30m-games-growth-package",
-    "https://www.gamespot.com/articles/bethesda-acknowledges-starfield-ps5-crashes-hotfix-coming-soon/1100-6539379/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/zach-creggers-resident-evil-movie-wants-you-to-feel-to-feel-like-youre-trapped-inside-it/1100-6539375/?ftag=CAD-01-10abi2f",
     "https://www.polygon.com/animal-crossing-new-horizons-acnh-update-25th-anniversary-gift-letter/",
     "https://www.eurogamer.net/proper-overwatch-switch-2-version-releases-today",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/control-resonant-free-updates-october-november/",
     "https://gamerant.com/witcher-3-remastered-file-sizes/",
     "https://www.ign.com/articles/microsoft-just-seemingly-killed-copilot-just-2-years-after-launch",
-    "https://www.pushsquare.com/news/2026/09/rayman-legends-retold-does-physical-media-the-right-way-on-ps5"
+    "https://www.pushsquare.com/news/2026/09/rayman-legends-retold-does-physical-media-the-right-way-on-ps5",
+    "https://www.eurogamer.net/control-resonant-post-launch-plan-new-game-plus",
+    "https://www.polygon.com/castlevania-belmonts-curse-developer-announces-rogue-prince-of-persia-final-update/",
+    "https://www.nintendolife.com/news/2026/09/soulslike-fountains-gets-a-free-switch-2-upgrade-pack-one-week-after-launch",
+    "https://www.gamespot.com/videos/dawngazer-ignisphere-teaser-trailer/"
   ],
   "seen_titles": [
-    "blizzard’s overwatch (previously known as overwatch 2) is now available as 60fps switch 2 version",
-    "helldivers 2 update adds unique new feature, but there's a catch",
-    "uk government begins rollout of £30m games growth package",
-    "bethesda acknowledges starfield ps5 crashes, hotfix coming soon",
     "zach cregger's resident evil movie wants you to feel to feel like you're trapped inside it",
     "animal crossing: new horizons update adds 25th anniversary gift",
     "a proper overwatch switch 2 version releases today, boasting 'up to' 60 fps, as reign of talon season 2 arrives",
@@ -10001,13 +9997,13 @@
     "control resonant has 2 big game-changing updates coming soon",
     "the witcher 3 remastered file sizes officially announced",
     "microsoft just seemingly killed copilot+ just 2 years after launch",
-    "rayman legends retold does physical media the right way on ps5"
+    "rayman legends retold does physical media the right way on ps5",
+    "control resonant's post-launch plan includes a photo mode and new game plus plus coming next month: \"do 665 runs if you want!\"",
+    "prince of persia dev officially confirms end of development as new game looms",
+    "soulslike 'fountains' gets a free switch 2 upgrade pack one week after launch",
+    "dawngazer – ignisphere teaser trailer"
   ],
   "seen_story_keys": [
-    "e93d5f94c53f5fbb1101a60743b3cbd8767ab955",
-    "ea6f8671137b6c848ce192c96d5238086d2786e8",
-    "c1b633ca87fd7599fa9701a3d35e89baa9bd4af7",
-    "423264ca8c464d7b3c71d137a012817cf5b9cea2",
     "c5ed576a252539154b28870957e6d1a8ad182fb2",
     "34ddb4856ccbca7dfdcc61f8301c0ede908a2a46",
     "a875727ac57c25ffa84d3a96de281b3ea5cf4623",
@@ -15003,6 +14999,10 @@
     "45fa55daf906cd9d00c27132570959368f9df080",
     "b2cc8b7344b4a81a7e107e7305d9824ee1c41998",
     "badcc6f821159a8a8ff2338a546ffa40dd6c1df4",
-    "8144b6f9895bd05c6baf936b9dc44191b21a8ea1"
+    "8144b6f9895bd05c6baf936b9dc44191b21a8ea1",
+    "6154a19a1c18bdd12b58c22d3c0833f814467e3b",
+    "f633e2be5bcad2e167fe2cd79fe5fb3d81fd00ac",
+    "d1e67bb6a5cb05234604feb95fb1985542a2bba5",
+    "f678440ff6d30497a5a4e0f5f4f531bdb1dfadc4"
   ]
 }
