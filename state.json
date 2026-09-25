@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/starfield-ps5-crashes-bethesda-responds",
-    "https://www.polygon.com/grandgear-release-date-godzilla-minus-one-takashi-yamazaki/",
-    "https://www.gematsu.com/2026/04/necrophosis-full-consciousness-launches-may-28",
-    "https://gamerant.com/tides-tomorrow-feature-list/",
     "https://www.videogameschronicle.com/news/blizzards-overwatch-previously-known-as-overwatch-2-is-now-available-as-60fps-switch-2-version/",
     "https://gamerant.com/helldivers-2-update-low-energy-mode-patch-notes/",
     "https://www.gamesindustry.biz/uk-government-begins-rollout-of-30m-games-growth-package",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/here-is-the-full-line-up-for-the-gamesindustrybiz-hr-summit-2026",
     "https://www.eurogamer.net/arc-raiders-pve-matchmaking-test",
     "https://www.pushsquare.com/news/2026/09/infinite-new-gameplus-photo-mode-on-the-way-to-contol-resonant-no-word-on-proper-ps5-dlc",
-    "https://www.polygon.com/control-resonant-post-launch-plans-new-game-plus-photo-mode/"
+    "https://www.polygon.com/control-resonant-post-launch-plans-new-game-plus-photo-mode/",
+    "https://gamerant.com/control-resonant-free-updates-october-november/",
+    "https://gamerant.com/witcher-3-remastered-file-sizes/",
+    "https://www.ign.com/articles/microsoft-just-seemingly-killed-copilot-just-2-years-after-launch",
+    "https://www.pushsquare.com/news/2026/09/rayman-legends-retold-does-physical-media-the-right-way-on-ps5"
   ],
   "seen_titles": [
-    "bethesda acknowledges starfield's ps5 crashing issues, promises hotfix soon",
-    "grandgear, a giant robot movie from godzilla minus one director, gets release date",
-    "necrophosis: full consciousness launches may 28",
-    "all features confirmed for tides of tomorrow so far",
     "blizzard’s overwatch (previously known as overwatch 2) is now available as 60fps switch 2 version",
     "helldivers 2 update adds unique new feature, but there's a catch",
     "uk government begins rollout of £30m games growth package",
@@ -10001,13 +9997,13 @@
     "here is the full line-up for the gamesindustry.biz hr summit 2026",
     "arc raiders announces a new pve \"test\" to accommodate its surprisingly friendly players",
     "infinite new game+, photo mode on the way to contol resonant, no word on proper ps5 dlc",
-    "control resonant devs officially confirm fans’ most-requested feature is coming in post-launch update"
+    "control resonant devs officially confirm fans’ most-requested feature is coming in post-launch update",
+    "control resonant has 2 big game-changing updates coming soon",
+    "the witcher 3 remastered file sizes officially announced",
+    "microsoft just seemingly killed copilot+ just 2 years after launch",
+    "rayman legends retold does physical media the right way on ps5"
   ],
   "seen_story_keys": [
-    "3136e363af84f8c0225d3f3b9af134b4ae9953bb",
-    "b9ce3003ebd535b83a4e3d7ac0a613cf691f0d5f",
-    "1b3d4fd748f0e40ddd52f49527e896f78bb17bf3",
-    "2fdc4b32437d6f267355053dad8ed105856885a5",
     "e93d5f94c53f5fbb1101a60743b3cbd8767ab955",
     "ea6f8671137b6c848ce192c96d5238086d2786e8",
     "c1b633ca87fd7599fa9701a3d35e89baa9bd4af7",
@@ -15003,6 +14999,10 @@
     "ddbf5217f0a357fd13c11f552b58801a0d85cc95",
     "1f2dff957b0237422dc51ef5e47a6737da21d2c9",
     "189cd9eeabfad640c00282dc14eafcbd6bb52a77",
-    "87084338ea45cf32d1962a111d91664236327fd4"
+    "87084338ea45cf32d1962a111d91664236327fd4",
+    "45fa55daf906cd9d00c27132570959368f9df080",
+    "b2cc8b7344b4a81a7e107e7305d9824ee1c41998",
+    "badcc6f821159a8a8ff2338a546ffa40dd6c1df4",
+    "8144b6f9895bd05c6baf936b9dc44191b21a8ea1"
   ]
 }
