@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamesindustry.biz/esas-iicon-conference-expands-speaker-lineup-with-eas-andrew-wilson-joining-ceos-of-ubisoft-take-two-riot-savvy-games-and-more",
-    "https://www.gematsu.com/2026/04/overwatch-for-switch-2-launches-april-14",
-    "https://www.gematsu.com/2026/04/shikhondo-blue-pieta-for-pc-launches-may-18",
-    "https://www.pushsquare.com/news/2026/04/seems-like-american-euro-truck-simulator-2-ps5-releases-are-gonna-be-a-while-yet",
     "https://www.ign.com/articles/bloodborne-r-rated-animated-movie-in-development-with-jacksepticeye-producing",
     "https://www.nintendolife.com/news/2026/04/the-legend-of-zelda-live-action-movie-has-officially-wrapped-filming",
     "https://www.gematsu.com/2026/04/bloodborne-animated-movie-announced",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/arc-raiders-is-testing-a-pve-mode-very-soon",
     "https://www.eurogamer.net/gta-6-collectible-suspicious-mirror-keychain-spoon",
     "https://www.pushsquare.com/news/2026/09/this-striking-ps5-rhythm-game-promises-a-heartfelt-story-and-49-original-songs",
-    "https://www.purexbox.com/news/2026/09/xbox-studio-worlds-edge-may-have-cancelled-a-game-as-part-of-activision-shift"
+    "https://www.purexbox.com/news/2026/09/xbox-studio-worlds-edge-may-have-cancelled-a-game-as-part-of-activision-shift",
+    "https://www.nintendolife.com/news/2026/09/so-long-sweet-prince-ubisofts-rogue-prince-of-persia-game-rolls-out-its-final-update",
+    "https://www.gematsu.com/2026/09/unicorn-overlord-director-takafumi-noma-announces-fantasy-ip-ignisphere-and-action-rpg-dawngazer-for-ps5-switch-2-and-pc",
+    "https://www.gematsu.com/2026/09/a-train-9-prime-line-announced-for-pc",
+    "https://www.gematsu.com/2026/09/kowloons-gate-suzaku-for-switch-launches-october-29"
   ],
   "seen_titles": [
-    "esa's iicon conference expands speaker lineup, with ea's andrew wilson joining ceos of ubisoft, take two, riot, savvy games and more",
-    "overwatch for switch 2 launches april 14",
-    "shikhondo: blue pieta for pc launches may 18",
-    "seems like american, euro truck simulator 2 ps5 releases are gonna be a while yet",
     "bloodborne: r-rated animated movie in development with jacksepticeye producing",
     "the legend of zelda live-action movie has officially wrapped filming",
     "bloodborne animated movie announced",
@@ -10001,13 +9997,13 @@
     "arc raiders is testing a pve mode very soon",
     "rockstar reveals a £350 box of naughty gta 6 collectables you definitely wouldn't get through airport security",
     "this striking ps5 rhythm game promises a heartfelt story and 49 original songs",
-    "xbox studio 'world's edge' may have cancelled a game as part of activision shift"
+    "xbox studio 'world's edge' may have cancelled a game as part of activision shift",
+    "\"so long, sweet prince\" - ubisoft's rogue prince of persia game rolls out its final update",
+    "unicorn overlord director takafumi noma announces fantasy ip ignisphere and action rpg dawngazer for ps5, switch 2, and pc",
+    "a-train 9 prime line announced for pc",
+    "kowloon’s gate: suzaku for switch launches october 29"
   ],
   "seen_story_keys": [
-    "7f7c5a1183466ecf44e8061a4ba8c97e887134e3",
-    "bcd22cafba704761b2ca4f9420a2775608077729",
-    "d91313cf877e1b943d6ebb7263cc8a2b49b0958a",
-    "b57c6709f3c0836568039fd59fbbf01a0c34ccd9",
     "3bf63f4b7a6694636d07b3fcad5780c5f1935303",
     "0d6175e54802f38f2868bbbe33de3089c910c570",
     "98f0586000baef3a105e8e4db1a99818c4c40a53",
@@ -15003,6 +14999,10 @@
     "46fefb2bd30593e5c7bcdca85f12caca8d139c40",
     "112cebd0fcbee8f7a77a183e7780655b9aa79e97",
     "1cb2a623831d678e9b3f1a50437e35a045448535",
-    "48d17b0c270ae352cccd38f93f9088b61b8a798d"
+    "48d17b0c270ae352cccd38f93f9088b61b8a798d",
+    "1c247bd1680a5497a0690d10bf6d07ea520eb966",
+    "be4014b63ff8c3c7b7dc513dafc8f6c0224ab596",
+    "40e1e096fd3a7ac169e31102343a9cedc7a9a979",
+    "f7f83832a80075471ae0b263b7009fc556da4556"
   ]
 }
