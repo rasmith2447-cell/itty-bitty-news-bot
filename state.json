@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/is-windrose-coming-to-ps5-or-xbox-heres-what-the-developers-have-said/1100-6539392/?ftag=CAD-01-10abi2f",
-    "https://www.pcgamer.com/games/fps/marathons-mid-season-patch-is-a-big-one-11-new-weapon-variants-recon-buffs-and-a-mercy-kit-for-reviving-strangers/",
-    "https://www.nintendolife.com/news/2026/04/hades-ii-bonus-content-arrives-on-switch-1-and-2-here-are-the-full-patch-notes",
-    "https://www.purexbox.com/news/2026/04/three-classic-gothic-games-have-just-been-announced-for-xbox-series-xs",
     "https://www.rockpapershotgun.com/hades-2s-second-post-launch-patch-adds-in-more-prophecy-conclusions-and-flirtier-friends",
     "https://gamerant.com/overwatch-season-2-update-patch-notes-april-2026/",
     "https://gamerant.com/marathon-patch-notes-massive-midseason-update/",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/features/anniversary-castlevania-changed-the-shape-of-gaming-40-years-ago",
     "https://www.pushsquare.com/news/2026/09/rogue-prince-of-persia-dev-now-done-with-updates-castlevania-just-weeks-away",
     "https://www.eurogamer.net/mindseye-build-a-rocket-boy-administration-insolvency",
-    "https://www.pcgamer.com/gaming-industry/events-conferences/the-pc-gaming-show-most-wanted-returns-december-3-with-20-of-the-councils-most-hotly-anticipated-games/"
+    "https://www.pcgamer.com/gaming-industry/events-conferences/the-pc-gaming-show-most-wanted-returns-december-3-with-20-of-the-councils-most-hotly-anticipated-games/",
+    "https://www.pcgamer.com/games/mmo/the-elder-scrolls-onlines-devs-are-pushing-through-hard-times-after-layoffs-and-delays-we-didnt-want-to-rush-to-just-hit-a-date/",
+    "https://www.pcgamer.com/gaming-industry/microsoft-ceo-says-xboxs-streamlining-process-is-great-to-see-following-its-most-recent-round-of-layoffs/",
+    "https://www.pushsquare.com/news/2026/09/unicorn-overlord-director-reveals-promising-new-ps5-rpg-cross-media-plans-to-include-light-novels",
+    "https://www.purexbox.com/news/2026/09/report-xbox-studio-rare-working-on-various-projects-but-activision-will-decide-their-future"
   ],
   "seen_titles": [
-    "is windrose coming to ps5 or xbox? here's what the developers have said",
-    "marathon's mid-season patch is a big one: 11 new weapon variants, recon buffs, and a 'mercy kit' for reviving strangers",
-    "hades ii bonus content arrives on switch 1 & 2, here are the full patch notes",
-    "three classic gothic games have just been announced for xbox series x|s",
     "hades 2's second post-launch patch adds in more prophecy conclusions and flirtier friends",
     "overwatch reveals hefty patch notes for april 2026",
     "marathon releases patch notes for massive midseason update",
@@ -10001,13 +9997,13 @@
     "anniversary: castlevania changed the shape of gaming 40 years ago",
     "rogue prince of persia dev now done with updates, castlevania just weeks away",
     "gta veteran's mindseye studio build a rocket boy has entered administration, following yet more reports of layoffs",
-    "the pc gaming show: most wanted returns december 3 with 20 of the council's most hotly anticipated games"
+    "the pc gaming show: most wanted returns december 3 with 20 of the council's most hotly anticipated games",
+    "the elder scrolls online's devs are pushing through hard times after layoffs and delays: 'we didn't want to rush to just hit a date'",
+    "microsoft ceo says xbox's 'streamlining' process is 'great to see' following its most recent round of layoffs",
+    "unicorn overlord director reveals promising new ps5 rpg, cross-media plans to include light novels",
+    "report: xbox studio 'rare' working on various projects, but activision will decide their future"
   ],
   "seen_story_keys": [
-    "2b69f47cfdfb1948ed370283854c3a29a94ea9e9",
-    "9fa58a009f558b24e21b9e96ebff30260414cf22",
-    "4943bb2186a2038c21d24907ac0b83f9c81b88c7",
-    "a6b384716012a03cbe4e5246ae4ba0679ed50b8b",
     "13e382597e3bc19601d05c1fc8ce4360933bac9c",
     "29010873f5047e974f6828bbaae554c35913a76c",
     "a60080e9ee40e885aad6ce8d51e9ea7be1d2120b",
@@ -15003,6 +14999,10 @@
     "a64a628271f55a323f42adfd653c9ec0dd50f88c",
     "54a70f22efca1a96c84d8f864bea0223ac54c881",
     "5ba6e8005a86fb620b54726919ebc99fc3c34e4c",
-    "2fdc5adfbc772caad0b4030373e4c42e7101e139"
+    "2fdc5adfbc772caad0b4030373e4c42e7101e139",
+    "7ccde2fa2f6cba3f77780933b611035116e36107",
+    "9f63f85e52bc62a99799866bdbbc54298e7f3ffb",
+    "d34f705c164f4b5479ee119cbe94f7b6f36b1347",
+    "fb489db4a8a1c6b50bbf496a55a16826a6e3bd8d"
   ]
 }
