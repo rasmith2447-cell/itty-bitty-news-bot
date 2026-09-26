@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/lego-batman-legacy-of-the-dark-knight-reveals-gotham-by-gaslight-batsuit",
-    "https://www.eurogamer.net/silent-hill-2-remake-developer-bloober-team-announces-leadership-expansion",
-    "https://www.gematsu.com/2026/04/roguelite-action-rpg-clockfall-announced-for-ps5-xbox-series-and-pc",
-    "https://www.gamespot.com/articles/animal-crossing-new-horizons-update-adds-anniversary-gift-and-bug-fixes/1100-6539401/?ftag=CAD-01-10abi2f",
     "https://gamerant.com/new-he-man-game-delayed/",
     "https://www.pushsquare.com/news/2026/04/he-mans-bad-ass-ps5-brawler-just-got-delayed-two-weeks-before-release",
     "https://www.gematsu.com/2026/04/dragon-quest-smash-grow-launches-april-21",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/minecraft-is-getting-its-first-new-dimension-in-over-14-years",
     "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-remake-extended-clip-reveals-closer-look-at-ganondorf",
     "https://www.nintendolife.com/features/countdown-zelda-ocarina-of-time-dungeon-crawl-2-a-sophomore-slump",
-    "https://www.rockpapershotgun.com/do-665-runs-if-you-want-control-resonant-is-getting-a-new-game-mode-next-month-and-dont-worry-you-happy-snappers-a-photo-mode-is-on-the-way-too"
+    "https://www.rockpapershotgun.com/do-665-runs-if-you-want-control-resonant-is-getting-a-new-game-mode-next-month-and-dont-worry-you-happy-snappers-a-photo-mode-is-on-the-way-too",
+    "https://gamerant.com/zelda-ocarina-of-time-remake-ubisoft-ganondorf-game-faithfulness/",
+    "https://gamerant.com/zelda-oot-remake-ganondorf/",
+    "https://www.eurogamer.net/satya-nadella-xbox-streamlining-great-to-see-layoffs",
+    "https://www.ign.com/articles/the-last-of-us-gets-animated-background-on-ps5-as-naughty-dog-teases-announcements-for-tlou-day-2026"
   ],
   "seen_titles": [
-    "lego batman: legacy of the dark knight reveals gotham by gaslight batsuit",
-    "silent hill 2 remake studio bloober team announces leadership expansion and teases seven games in development",
-    "roguelite action rpg clockfall announced for ps5, xbox series, and pc",
-    "animal crossing: new horizons update adds anniversary gift and bug fixes",
     "new he-man game delayed just weeks before planned launch",
     "he-man's bad ass ps5 brawler just got delayed two weeks before release",
     "dragon quest smash/grow launches april 21",
@@ -10001,13 +9997,13 @@
     "minecraft is getting its first new dimension in over 14 years",
     "the legend of zelda: ocarina of time remake extended clip reveals closer look at ganondorf",
     "countdown: zelda: ocarina of time dungeon crawl #2 - a sophomore slump?",
-    "\"do 665 runs if you want!\": control resonant is getting a new game++ mode next month, and don't worry you happy snappers, a photo mode is on the way too"
+    "\"do 665 runs if you want!\": control resonant is getting a new game++ mode next month, and don't worry you happy snappers, a photo mode is on the way too",
+    "ubisoft's canceled zelda game makes ocarina of time remake look even more conservative",
+    "zelda: ocarina of time remake reveals new official look at ganondorf",
+    "microsoft ceo says xbox's \"streamlining\" is \"great to see\" despite cuts and layoffs",
+    "the last of us gets animated background on ps5 as naughty dog teases announcements for tlou day 2026"
   ],
   "seen_story_keys": [
-    "b90b588fb04e772490a6d56d79f68fb353192afc",
-    "5543d0ce51e474de0309089da825e791b970bbef",
-    "1dce08c01a62e3ad0736d3263e26191c34e118a4",
-    "b72167efe9cb55bbd502e83cc0164451fb428bff",
     "9c14268a5bff2741155c30a7f7b6b452b95e44a1",
     "19b48c5711228c90d7591504a1ba4f798c7e063e",
     "6824aeeb2d968297a4a2aef44721bb85f5a52215",
@@ -15003,6 +14999,10 @@
     "adc0ecf330517910fe06940a0c992f7c6fdbb85f",
     "4f684d86dcf7eac160c736b620fdd5d2734c1f4b",
     "a1244176e50a7317bdf6955dc14d45eb87a82104",
-    "f3744d7e8f2f7f40288316452ceed11e708af896"
+    "f3744d7e8f2f7f40288316452ceed11e708af896",
+    "3c33fa80b66173efeaa9ce5a1445a38b17067c78",
+    "b8ca88e13e4eeefee059b8657bc0bd1195529436",
+    "254ef7ea850952aa55cffed673c8d6ede020ff76",
+    "67e435c1c366bb0892073f30a90c3d93881adc5b"
   ]
 }
