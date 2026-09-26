@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/new-he-man-game-delayed/",
-    "https://www.pushsquare.com/news/2026/04/he-mans-bad-ass-ps5-brawler-just-got-delayed-two-weeks-before-release",
-    "https://www.gematsu.com/2026/04/dragon-quest-smash-grow-launches-april-21",
-    "https://gamerant.com/marvel-rivals-black-cat-duelist-hero/",
     "https://www.nintendolife.com/news/2026/04/fatal-frame-ii-crimson-butterfly-remake-is-getting-another-switch-2-patch",
     "https://www.pcgamer.com/games/action/hades-2-patch-is-a-smorgasbord-of-tiny-additions-adding-more-closure-to-sidequests-an-extra-level-of-zoom-buffs-to-boons-and-more-romance/",
     "https://gamerant.com/game-of-thrones-prequel-movie-title-announced/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/zelda-ocarina-of-time-remake-ubisoft-ganondorf-game-faithfulness/",
     "https://gamerant.com/zelda-oot-remake-ganondorf/",
     "https://www.eurogamer.net/satya-nadella-xbox-streamlining-great-to-see-layoffs",
-    "https://www.ign.com/articles/the-last-of-us-gets-animated-background-on-ps5-as-naughty-dog-teases-announcements-for-tlou-day-2026"
+    "https://www.ign.com/articles/the-last-of-us-gets-animated-background-on-ps5-as-naughty-dog-teases-announcements-for-tlou-day-2026",
+    "https://www.nintendolife.com/news/2026/09/surprise-minecraft-is-getting-its-first-new-dimension-in-over-14-years",
+    "https://www.ign.com/articles/microsoft-ceo-says-streamlining-at-xbox-is-great-to-see-as-layoffs-affect-thousands",
+    "https://www.ign.com/articles/werwulf-trailer-video-game-robert-eggers",
+    "https://www.gematsu.com/2026/09/nocturnal-ii-for-pc-launches-november-10"
   ],
   "seen_titles": [
-    "new he-man game delayed just weeks before planned launch",
-    "he-man's bad ass ps5 brawler just got delayed two weeks before release",
-    "dragon quest smash/grow launches april 21",
-    "marvel rivals devs share more about the game’s newest duelist hero",
     "fatal frame ii: crimson butterfly remake is getting another switch 2 patch",
     "hades 2 patch is a smorgasbord of tiny additions, adding more closure to sidequests, an extra level of zoom, buffs to boons, and more romance",
     "game of thrones prequel movie coming soon to theaters, official title announced",
@@ -10001,13 +9997,13 @@
     "ubisoft's canceled zelda game makes ocarina of time remake look even more conservative",
     "zelda: ocarina of time remake reveals new official look at ganondorf",
     "microsoft ceo says xbox's \"streamlining\" is \"great to see\" despite cuts and layoffs",
-    "the last of us gets animated background on ps5 as naughty dog teases announcements for tlou day 2026"
+    "the last of us gets animated background on ps5 as naughty dog teases announcements for tlou day 2026",
+    "surprise! minecraft is getting its first new dimension in over 14 years",
+    "microsoft ceo says 'streamlining' at xbox is 'great to see' as layoffs affect thousands",
+    "new werwulf trailer and tie-in video game revealed",
+    "nocturnal ii for pc launches november 10"
   ],
   "seen_story_keys": [
-    "9c14268a5bff2741155c30a7f7b6b452b95e44a1",
-    "19b48c5711228c90d7591504a1ba4f798c7e063e",
-    "6824aeeb2d968297a4a2aef44721bb85f5a52215",
-    "1a1982804e48571f376d5c59f95ffb5d364c97d3",
     "20eeaa2d224939aeb325cbe44a51209a64749232",
     "a425b822f5e7b19898d2f7634e61a13710c0b5a7",
     "711b461536326733a4c688c818a8a7fa0d901d3c",
@@ -15003,6 +14999,10 @@
     "3c33fa80b66173efeaa9ce5a1445a38b17067c78",
     "b8ca88e13e4eeefee059b8657bc0bd1195529436",
     "254ef7ea850952aa55cffed673c8d6ede020ff76",
-    "67e435c1c366bb0892073f30a90c3d93881adc5b"
+    "67e435c1c366bb0892073f30a90c3d93881adc5b",
+    "70c36a6e97c61082cfd6fc29a37cf865ea91e1ce",
+    "6051cc9b293477010f3fcf9195bf6b4976dc1c82",
+    "33e4d567fe37f2a1bc20d5dcdad838dd07118a01",
+    "10c0594827b077a0231789f5e33595e77c093c03"
   ]
 }
