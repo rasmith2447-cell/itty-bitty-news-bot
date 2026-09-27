@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/04/overwatch-is-out-now-for-switch-2-but-its-got-some-performance-issues",
-    "https://www.nintendolife.com/news/2026/04/video-capcom-shares-a-big-surprise-in-its-latest-pragmata-trailer",
-    "https://www.ign.com/articles/marathon-patch-106-update-pushes-players-to-play-nice-and-brings-big-changes-to-shells-weapons-and-more",
-    "https://www.eurogamer.net/overwatch-switch-2-port-launches-without-advertised-60-fps",
     "https://www.videogameschronicle.com/news/hades-2-arrives-on-consoles-with-a-new-update-making-it-easier-to-romance-popular-character/",
     "https://www.eurogamer.net/subnautica-2-could-be-self-published-by-developer-unknown-worlds-following-legal-battle",
     "https://www.rockpapershotgun.com/krafton-no-longer-listed-as-subnautica-2-publishers-steam-epic-store-quiet-switch",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/honkai-star-rail-hsr-4-6-release-date-time-countdown-maintenance-ends-when-come-out/",
     "https://www.nintendolife.com/news/2026/09/icymi-heres-a-look-at-raymans-legends-retold-launch-edition",
     "https://www.gematsu.com/2026/09/mercenaries-grace-black-feather-and-the-golden-right-arm-announced-for-ps5-switch-and-pc",
-    "https://www.rockpapershotgun.com/warhammer-40000-rogue-traders-final-dlc-is-now-coming-in-december-with-an-unsanctioned-psyker-companion-who-cries-tears-of-blood"
+    "https://www.rockpapershotgun.com/warhammer-40000-rogue-traders-final-dlc-is-now-coming-in-december-with-an-unsanctioned-psyker-companion-who-cries-tears-of-blood",
+    "https://www.gematsu.com/2026/09/grand-theft-auto-vi-the-goodtime-state-vice-city-collection-collectible-set-announced",
+    "https://www.gematsu.com/2026/09/pixel-washer-launches-in-early-access-for-pc-on-october-15-switch-2-and-switch-in-2027",
+    "https://www.gamesindustry.biz/dutch-consumer-group-files-lawsuit-against-epic-for-misleading-young-players-on-fortnite-seeking-more-than-100m-in-compensation",
+    "https://www.gamesindustry.biz/righting-old-wrongs-mobygames-on-letting-developers-claim-games-they-werent-credited-for"
   ],
   "seen_titles": [
-    "overwatch is out now for switch 2, but it's got some performance issues",
-    "video: capcom shares a big surprise in its latest pragmata trailer",
-    "marathon patch 1.0.6 update pushes players to play nice and brings big changes to shells, weapons, and more",
-    "overwatch's switch 2 version is currently missing the promised 60 fps boost, but a fix is coming soon",
     "hades 2 arrives on consoles with a new update making it easier to romance popular character",
     "subnautica 2 steam change suggests krafton might be out as its publisher following long legal battle and reinstatement of studio leader",
     "krafton are no longer listed as subnautica 2's publishers on steam and the epic store, following a quiet switch",
@@ -10001,13 +9997,13 @@
     "hsr 4.6 release date countdown & maintenance time (honkai star rail 4.6)",
     "icymi: here's a look at rayman's legends retold launch edition",
     "mercenaries grace: black feather and the golden right arm announced for ps5, switch, and pc",
-    "warhammer 40,000: rogue trader's final dlc is now coming in december, with an \"unsanctioned psyker\" companion who cries tears of blood"
+    "warhammer 40,000: rogue trader's final dlc is now coming in december, with an \"unsanctioned psyker\" companion who cries tears of blood",
+    "grand theft auto vi: the goodtime state – vice city collection collectible set announced",
+    "pixel washer launches in early access for pc on october 15, switch 2 and switch in 2027",
+    "dutch consumer group files lawsuit against epic for misleading young players on fortnite, seeking more than €100m in compensation",
+    "righting old wrongs: mobygames on letting developers claim games they weren't credited for"
   ],
   "seen_story_keys": [
-    "2b44ed429f46e0adbbb7a0cff35710e3a9d478d0",
-    "109e48f9671c6a5801714f81498ab1629ac941e8",
-    "12ec7804e6d1cf442a66d024db43c6806dee1f5c",
-    "bc5c2eba145975f7f9c04e027b4ccafd6265ed52",
     "c206ce2e28e67ea6a9061220add0e4bf88401358",
     "078459dbb8af2ad86d9e689e107c2d0dfedd252c",
     "6c86fc0dea98b7ecfe9c723f55c45a3b8e98bcbb",
@@ -15003,6 +14999,10 @@
     "c4175421c3864a1fd390bc0a16e111188cfc880f",
     "5510e1ebd3e9fd5d37f34e82f8e30236d005b621",
     "cda629bf769b4b8973eb45b4890cda4a68ee0e46",
-    "5a99bc6a71b8f1a87b0e680d5a2dff4fff0816cd"
+    "5a99bc6a71b8f1a87b0e680d5a2dff4fff0816cd",
+    "6837800ed24390b143d13f8236a70a0876653074",
+    "21748a770e6bdf6be4da5d7438a37d05162c52da",
+    "faa4dd2ae651407cd767dfb8bc721b3d76336c6b",
+    "b1215bf94e2cd85aef4fd4b91df3d10b84367d2f"
   ]
 }
