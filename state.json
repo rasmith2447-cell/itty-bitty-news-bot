@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/04/fatal-frame-ii-crimson-butterfly-remake-is-getting-another-switch-2-patch",
-    "https://www.pcgamer.com/games/action/hades-2-patch-is-a-smorgasbord-of-tiny-additions-adding-more-closure-to-sidequests-an-extra-level-of-zoom-buffs-to-boons-and-more-romance/",
-    "https://gamerant.com/game-of-thrones-prequel-movie-title-announced/",
-    "https://gamerant.com/roblox-ps5-new-platform-app/",
     "https://www.nintendolife.com/news/2026/04/overwatch-is-out-now-for-switch-2-but-its-got-some-performance-issues",
     "https://www.nintendolife.com/news/2026/04/video-capcom-shares-a-big-surprise-in-its-latest-pragmata-trailer",
     "https://www.ign.com/articles/marathon-patch-106-update-pushes-players-to-play-nice-and-brings-big-changes-to-shells-weapons-and-more",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/09/surprise-minecraft-is-getting-its-first-new-dimension-in-over-14-years",
     "https://www.ign.com/articles/microsoft-ceo-says-streamlining-at-xbox-is-great-to-see-as-layoffs-affect-thousands",
     "https://www.ign.com/articles/werwulf-trailer-video-game-robert-eggers",
-    "https://www.gematsu.com/2026/09/nocturnal-ii-for-pc-launches-november-10"
+    "https://www.gematsu.com/2026/09/nocturnal-ii-for-pc-launches-november-10",
+    "https://gamerant.com/honkai-star-rail-hsr-4-6-release-date-time-countdown-maintenance-ends-when-come-out/",
+    "https://www.nintendolife.com/news/2026/09/icymi-heres-a-look-at-raymans-legends-retold-launch-edition",
+    "https://www.gematsu.com/2026/09/mercenaries-grace-black-feather-and-the-golden-right-arm-announced-for-ps5-switch-and-pc",
+    "https://www.rockpapershotgun.com/warhammer-40000-rogue-traders-final-dlc-is-now-coming-in-december-with-an-unsanctioned-psyker-companion-who-cries-tears-of-blood"
   ],
   "seen_titles": [
-    "fatal frame ii: crimson butterfly remake is getting another switch 2 patch",
-    "hades 2 patch is a smorgasbord of tiny additions, adding more closure to sidequests, an extra level of zoom, buffs to boons, and more romance",
-    "game of thrones prequel movie coming soon to theaters, official title announced",
-    "roblox officially makes its way to a new platform today",
     "overwatch is out now for switch 2, but it's got some performance issues",
     "video: capcom shares a big surprise in its latest pragmata trailer",
     "marathon patch 1.0.6 update pushes players to play nice and brings big changes to shells, weapons, and more",
@@ -10001,13 +9997,13 @@
     "surprise! minecraft is getting its first new dimension in over 14 years",
     "microsoft ceo says 'streamlining' at xbox is 'great to see' as layoffs affect thousands",
     "new werwulf trailer and tie-in video game revealed",
-    "nocturnal ii for pc launches november 10"
+    "nocturnal ii for pc launches november 10",
+    "hsr 4.6 release date countdown & maintenance time (honkai star rail 4.6)",
+    "icymi: here's a look at rayman's legends retold launch edition",
+    "mercenaries grace: black feather and the golden right arm announced for ps5, switch, and pc",
+    "warhammer 40,000: rogue trader's final dlc is now coming in december, with an \"unsanctioned psyker\" companion who cries tears of blood"
   ],
   "seen_story_keys": [
-    "20eeaa2d224939aeb325cbe44a51209a64749232",
-    "a425b822f5e7b19898d2f7634e61a13710c0b5a7",
-    "711b461536326733a4c688c818a8a7fa0d901d3c",
-    "702f5e8d905e4e023de49ee670f67423a9288383",
     "2b44ed429f46e0adbbb7a0cff35710e3a9d478d0",
     "109e48f9671c6a5801714f81498ab1629ac941e8",
     "12ec7804e6d1cf442a66d024db43c6806dee1f5c",
@@ -15003,6 +14999,10 @@
     "70c36a6e97c61082cfd6fc29a37cf865ea91e1ce",
     "6051cc9b293477010f3fcf9195bf6b4976dc1c82",
     "33e4d567fe37f2a1bc20d5dcdad838dd07118a01",
-    "10c0594827b077a0231789f5e33595e77c093c03"
+    "10c0594827b077a0231789f5e33595e77c093c03",
+    "c4175421c3864a1fd390bc0a16e111188cfc880f",
+    "5510e1ebd3e9fd5d37f34e82f8e30236d005b621",
+    "cda629bf769b4b8973eb45b4890cda4a68ee0e46",
+    "5a99bc6a71b8f1a87b0e680d5a2dff4fff0816cd"
   ]
 }
