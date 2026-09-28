@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/roguelike/supergiant-drops-a-hades-2-patch-with-a-bunch-of-new-dialogue-better-romances-and-buffs-to-the-games-weakest-god/",
-    "https://gamerant.com/welcome-to-demon-school-iruma-kun-season-4-episode-3-release-date-where-to-watch/",
-    "https://www.rockpapershotgun.com/euro-truck-simulator-2s-rumbling-into-the-heart-of-turkey-with-the-freshly-announced-soul-of-anatolia-expansion",
-    "https://gamerant.com/ps-plus-extra-games-april-2026-list/",
     "https://www.gematsu.com/2026/04/playstation-plus-game-catalog-and-classics-catalog-lineup-for-april-2026-announced",
     "https://gamerant.com/cookie-run-kingdom-kpop-demon-hunters-collab/",
     "https://www.pushsquare.com/news/2026/04/hades-2-gets-game-changing-free-update-following-ps5-launch-available-to-download-now",
@@ -4999,13 +4995,13 @@
     "https://www.gamespot.com/videos/the-witcher-3-remastered-side-by-side-graphics-comparison/",
     "https://www.eurogamer.net/world-of-warcraft-forever-beta-server-cap-increase",
     "https://www.eurogamer.net/marvels-wolverine-patch-turn-off-scent-trails",
-    "https://www.nintendolife.com/news/2026/09/psa-the-witcher-3-remastered-file-size-and-release-time-confirmed-separate-purchase-required"
+    "https://www.nintendolife.com/news/2026/09/psa-the-witcher-3-remastered-file-size-and-release-time-confirmed-separate-purchase-required",
+    "https://www.gamesindustry.biz/national-videogame-museum-launches-uk-wide-survey-on-game-preservation",
+    "https://www.gamesindustry.biz/its-a-nice-story-to-tell-how-dice-bounced-back-from-battlefield-2042s-disastrous-launch-to-release-the-blockbuster-battlefield-6",
+    "https://www.pcgamer.com/games/grand-theft-auto/i-have-broken-gta-5-by-installing-so-many-mods-that-the-game-only-launches-in-windowed-mode-now/",
+    "https://www.ign.com/articles/avengers-endgame-encore-cinemagoers-issue-warning-after-realizing-disney-locked-major-new-scene-behind-imax-and-infinity-vision-theaters"
   ],
   "seen_titles": [
-    "supergiant drops a hades 2 patch with a bunch of new dialogue, better romances, and buffs to the game's weakest god",
-    "welcome to demon school! iruma-kun season 4, episode 3 release date where to watch",
-    "euro truck simulator 2's rumbling into the heart of turkey with the freshly announced soul of anatolia expansion",
-    "ps plus extra games for april 2026 officially revealed",
     "playstation plus game catalog and classics catalog lineup for april 2026 announced",
     "cookie run kingdom kpop demon hunters collab is officially live now",
     "hades 2 gets game-changing free update following ps5 launch, available to download now",
@@ -10001,13 +9997,13 @@
     "the witcher 3 remastered – side by side graphics comparison",
     "as world of warcraft: forever's beta popularity grows, blizzard has yet again had to increase the server cap",
     "marvel's wolverine finally lets you turn off \"fart gas\" scent trails completely, but there's a catch",
-    "psa: the witcher 3 remastered file size and release time confirmed, separate purchase required"
+    "psa: the witcher 3 remastered file size and release time confirmed, separate purchase required",
+    "national videogame museum launches uk-wide survey on game preservation",
+    "\"it's a nice story to tell\": how dice bounced back from battlefield 2042's disastrous launch to release the blockbuster battlefield 6",
+    "i have broken gta 5 by installing so many mods that the game only launches in windowed mode now",
+    "avengers: endgame encore cinemagoers issue warning after realizing disney locked major new scene behind imax and infinity vision theaters"
   ],
   "seen_story_keys": [
-    "e5541757b5b828ade81ebf9cd0a7df9612b10bf3",
-    "6aba4212ef393bc8dc1ae2a546fe2836026d8f8f",
-    "67d25ce69484b1469a90573fe1489d06a02e6f4c",
-    "f1ba70d84dfa0d599ca606563d26ba1546f1b0e8",
     "a6f8e847da3001df101cca54ca84e0a44b32dbdb",
     "a55de96ef60355fcdcfb5d6a4429c18ee54bdd2b",
     "b28c7647bfa80b826039971d68802e6479980532",
@@ -15003,6 +14999,10 @@
     "f7e7401618dad037b4756eabb802bd0c5185b276",
     "dd9bd725811768c96d988d3fb9e8ae6eb50d2764",
     "e1c8eed95f51138cd7ff9414b8e6dcd945726733",
-    "4e0f75dfe738de820df056a0209218e998c9d46e"
+    "4e0f75dfe738de820df056a0209218e998c9d46e",
+    "79c69954d2a5bd643b60ddb853e4df2ddb877a0e",
+    "69488b2b01509c508e3958a141758275483645fa",
+    "420ca9018f5d2ba091e39901b5a74c1599ced13e",
+    "8b373cb36d667229edba3ad637fda93ae3e7b081"
   ]
 }
