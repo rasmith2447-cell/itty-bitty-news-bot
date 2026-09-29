@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/psn-down-around-the-world-but-sony-yet-to-acknowledge-outage",
-    "https://www.nintendolife.com/news/2026/04/nintendo-music-celebrates-tomodachi-life-switch-launch-with-special-update",
-    "https://gamerant.com/fable-reboot-development-blizzard-cinematics/",
-    "https://www.gematsu.com/2026/04/sonic-racing-crossworlds-angry-birds-content-drop-update-now-available",
     "https://www.nintendolife.com/news/2026/04/reminder-sonic-racing-crossworlds-adds-angry-birds-racer-red-as-free-dlc",
     "https://www.nintendolife.com/news/2026/04/psa-super-mario-bros-wonder-switch-2-edition-has-received-another-small-update",
     "https://www.gematsu.com/2026/04/ebaseball-pro-spirit-2026-announced-for-ps5-pc",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/gta-6-game-informer-weather-animals-npc-variety-gameplay-news/",
     "https://www.ign.com/articles/game-of-thrones-aegons-conquest-movie-release-date-director",
     "https://www.gematsu.com/2026/09/satisfactory-expansion-core-values-announced",
-    "https://www.gematsu.com/2026/09/muri-wildwoods-launches-december-7"
+    "https://www.gematsu.com/2026/09/muri-wildwoods-launches-december-7",
+    "https://gamerant.com/god-of-war-laufey-combat-like-devil-may-cry/",
+    "https://www.polygon.com/game-of-thrones-movie-2029-release-date-aegons-conquest/",
+    "https://www.polygon.com/xbox-mythic-achievement-announced-release-date/",
+    "https://www.gematsu.com/2026/09/lightyear-frontier-launches-november-4"
   ],
   "seen_titles": [
-    "psn down around the world, but sony yet to acknowledge outage",
-    "nintendo music celebrates tomodachi life switch launch with special update",
-    "blizzard is helping develop fable reboot",
-    "sonic racing: crossworlds ‘angry birds content drop’ update now available",
     "reminder: sonic racing: crossworlds adds angry birds racer 'red' as free dlc",
     "psa: super mario bros. wonder - switch 2 edition has received another small update",
     "ebaseball: pro spirit 2026 announced for ps5, pc",
@@ -10001,13 +9997,13 @@
     "rockstar officially reveals 3 big new 'gta 6' gameplay features",
     "game of thrones movie aegon’s conquest sets 2029 release date with director owen harris",
     "satisfactory expansion ‘core values’ announced",
-    "muri: wildwoods launches december 7"
+    "muri: wildwoods launches december 7",
+    "god of war laufey is taking the right lesson from devil may cry",
+    "'game of thrones' officially returns in 2029 with first movie",
+    "xbox’s platinum trophy equivalent officially revealed",
+    "lightyear frontier launches november 4"
   ],
   "seen_story_keys": [
-    "910da3af18e9e4df1bb9eae6556467f55be92486",
-    "af068834b6c3e4da8bb8ca93eed475c260935020",
-    "93d97a5bc01e08e14c25ae5cec188856cc531f74",
-    "35b716e826d5361c3f770fcd7fc3bf6d2526f6bb",
     "1e96cabdac6124627f62380d88bcbeb2e9ebe9d6",
     "a0be221850bd6d1837097993dc71a161c2ffa6ea",
     "7f8a52e78c887c1d63223f0f2701fef153c6cea7",
@@ -15003,6 +14999,10 @@
     "b1304e11b9012a6e0a676b574026f0ad8dc30b56",
     "800ed117d759e89a983c7b3d481011a58f6412bd",
     "e152a4f52e5f2df47d3c8cf05bf3ee26831d8560",
-    "63e13c4fafae50ad7c1da3d3844dbf4159d78ffd"
+    "63e13c4fafae50ad7c1da3d3844dbf4159d78ffd",
+    "3541cdaa73d6953430f663394ba4973cd0efa3e1",
+    "e79963ecbd7d44c88dbeef9f42b8ca4b333bd93b",
+    "642330ed6a3586949ad0c19c960c5d1eb916281a",
+    "b8e4e9330330b129284c321b6dd5296e62f5f92d"
   ]
 }
