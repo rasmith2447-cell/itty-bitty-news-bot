@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/future-gpx-cyber-formula-spiral-announced",
-    "https://gamerant.com/saros-features-second-chance-progression-ps5/",
-    "https://www.purexbox.com/news/2026/04/gears-of-war-e-day-direct-length-detailed-as-xbox-games-showcase-reveals-get-locked-in",
-    "https://www.gamespot.com/articles/cops-called-to-91-year-old-womans-home-for-welfare-check-find-her-playing-video-games/1100-6539430/?ftag=CAD-01-10abi2f",
     "https://www.purexbox.com/news/2026/04/xboxs-studios-are-working-side-by-side-with-microsoft-on-project-helix",
     "https://www.purexbox.com/news/2026/04/xbox-exec-reveals-that-blizzard-is-helping-out-with-development-on-fable",
     "https://gamerant.com/ralph-fiennes-voldemort-hbo-harry-potter-reboot/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/grand-theft-auto-5-switch-port-canceled/",
     "https://gamerant.com/pokemon-tcg-delta-reign-promo-cards/",
     "https://gamerant.com/final-fantasy-14-till-dawn-my-tears-flow-album/",
-    "https://www.nintendolife.com/news/2026/09/dynasty-warriors-3-complete-edition-remastered-switch-2-performance-and-resolution-revealed"
+    "https://www.nintendolife.com/news/2026/09/dynasty-warriors-3-complete-edition-remastered-switch-2-performance-and-resolution-revealed",
+    "https://www.polygon.com/blizzard-promises-suppport-diablo-4-after-diablo-5-release/",
+    "https://www.purexbox.com/news/2026/09/8bitdo-unleashes-new-gears-of-war-e-day-limited-edition-retro-mouse-and-keyboard",
+    "https://www.ign.com/articles/the-witcher-3-remastered-has-already-broken-steam-concurrent-player-record",
+    "https://www.polygon.com/avengers-endgame-black-widow-hawkeye-death/"
   ],
   "seen_titles": [
-    "future gpx cyber formula spiral announced",
-    "all features confirmed for saros so far",
-    "gears of war e-day direct length detailed as xbox games showcase reveals get locked in",
-    "cops called to 91-year-old woman's home for welfare check find her playing video games",
     "xbox's studios are working 'side-by-side' with microsoft on project helix",
     "xbox exec reveals that blizzard is helping out with development on fable",
     "ralph fiennes shares his pick for voldemort in hbo's harry potter reboot",
@@ -10001,13 +9997,13 @@
     "grand theft auto switch port canceled",
     "pokemon tcg reveals 4 new delta reign promo cards",
     "final fantasy 14: till dawn my tears flow officially announced",
-    "dynasty warriors 3: complete edition remastered switch 2 performance & resolution revealed"
+    "dynasty warriors 3: complete edition remastered switch 2 performance & resolution revealed",
+    "blizzard promises 'diablo 4' support even after 'diablo 5' launches",
+    "8bitdo unleashes new gears of war: e-day limited edition retro mouse & keyboard",
+    "the witcher 3 remastered has already broken steam concurrent player record",
+    "avengers: endgame writer reveals alternate fate for a major character"
   ],
   "seen_story_keys": [
-    "a9b39aae944d08c71d980d5ce1e4bc0c667a6527",
-    "a05edc734e4219ab68992e46bf794fd71cff0a6a",
-    "32a924a02a3829d4fac9e5d7b0511657e7289b63",
-    "0530d5bdb2ad90f8e9144ce67577b1dc7a507352",
     "09bd4616accc4d62daf46b722a68f08d5a51b682",
     "df6eebe8bdc392be5439344cbc258443140ba5af",
     "b6c7deef9e44b704e2e9717f83a3cb40b3c1aa79",
@@ -15003,6 +14999,10 @@
     "390e15cbce68231b6a2e2d3185fb8a73f2a3c7a1",
     "320484c7e59470a728f65d3cfa0927c5ae3e1602",
     "058b0c01753d4cc3b9b7a63fbb00d1bce9164c61",
-    "31c68ebde74aa06e967ae0f8fe8cb4456612c92b"
+    "31c68ebde74aa06e967ae0f8fe8cb4456612c92b",
+    "b8c42694a76bd8db20a8b35f4de9e5e258849789",
+    "2babebd82ba01fc9ff52b43b3654bb928a8ed89a",
+    "082d2a1c1f326b4d19aaf233932bbd4e7bfcc4cb",
+    "c60dff71582b29e4e6e135e54325dd88f3795efd"
   ]
 }
