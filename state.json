@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/04/xboxs-studios-are-working-side-by-side-with-microsoft-on-project-helix",
-    "https://www.purexbox.com/news/2026/04/xbox-exec-reveals-that-blizzard-is-helping-out-with-development-on-fable",
-    "https://gamerant.com/ralph-fiennes-voldemort-hbo-harry-potter-reboot/",
-    "https://www.gamespot.com/articles/dead-space-creator-talks-gta-6s-effect-on-other-games-you-dont-wanna-be-near-it/1100-6539432/?ftag=CAD-01-10abi2f",
     "https://www.pushsquare.com/news/2026/04/psn-down-around-the-world-but-sony-yet-to-acknowledge-outage",
     "https://www.nintendolife.com/news/2026/04/nintendo-music-celebrates-tomodachi-life-switch-launch-with-special-update",
     "https://gamerant.com/fable-reboot-development-blizzard-cinematics/",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/blizzard-promises-suppport-diablo-4-after-diablo-5-release/",
     "https://www.purexbox.com/news/2026/09/8bitdo-unleashes-new-gears-of-war-e-day-limited-edition-retro-mouse-and-keyboard",
     "https://www.ign.com/articles/the-witcher-3-remastered-has-already-broken-steam-concurrent-player-record",
-    "https://www.polygon.com/avengers-endgame-black-widow-hawkeye-death/"
+    "https://www.polygon.com/avengers-endgame-black-widow-hawkeye-death/",
+    "https://www.polygon.com/gta-6-game-informer-weather-animals-npc-variety-gameplay-news/",
+    "https://www.ign.com/articles/game-of-thrones-aegons-conquest-movie-release-date-director",
+    "https://www.gematsu.com/2026/09/satisfactory-expansion-core-values-announced",
+    "https://www.gematsu.com/2026/09/muri-wildwoods-launches-december-7"
   ],
   "seen_titles": [
-    "xbox's studios are working 'side-by-side' with microsoft on project helix",
-    "xbox exec reveals that blizzard is helping out with development on fable",
-    "ralph fiennes shares his pick for voldemort in hbo's harry potter reboot",
-    "dead space creator talks gta 6's effect on other games: \"you don't wanna be near it\"",
     "psn down around the world, but sony yet to acknowledge outage",
     "nintendo music celebrates tomodachi life switch launch with special update",
     "blizzard is helping develop fable reboot",
@@ -10001,13 +9997,13 @@
     "blizzard promises 'diablo 4' support even after 'diablo 5' launches",
     "8bitdo unleashes new gears of war: e-day limited edition retro mouse & keyboard",
     "the witcher 3 remastered has already broken steam concurrent player record",
-    "avengers: endgame writer reveals alternate fate for a major character"
+    "avengers: endgame writer reveals alternate fate for a major character",
+    "rockstar officially reveals 3 big new 'gta 6' gameplay features",
+    "game of thrones movie aegon’s conquest sets 2029 release date with director owen harris",
+    "satisfactory expansion ‘core values’ announced",
+    "muri: wildwoods launches december 7"
   ],
   "seen_story_keys": [
-    "09bd4616accc4d62daf46b722a68f08d5a51b682",
-    "df6eebe8bdc392be5439344cbc258443140ba5af",
-    "b6c7deef9e44b704e2e9717f83a3cb40b3c1aa79",
-    "dff6dd12120eb4d86e9010b176e53af284cf3386",
     "910da3af18e9e4df1bb9eae6556467f55be92486",
     "af068834b6c3e4da8bb8ca93eed475c260935020",
     "93d97a5bc01e08e14c25ae5cec188856cc531f74",
@@ -15003,6 +14999,10 @@
     "b8c42694a76bd8db20a8b35f4de9e5e258849789",
     "2babebd82ba01fc9ff52b43b3654bb928a8ed89a",
     "082d2a1c1f326b4d19aaf233932bbd4e7bfcc4cb",
-    "c60dff71582b29e4e6e135e54325dd88f3795efd"
+    "c60dff71582b29e4e6e135e54325dd88f3795efd",
+    "b1304e11b9012a6e0a676b574026f0ad8dc30b56",
+    "800ed117d759e89a983c7b3d481011a58f6412bd",
+    "e152a4f52e5f2df47d3c8cf05bf3ee26831d8560",
+    "63e13c4fafae50ad7c1da3d3844dbf4159d78ffd"
   ]
 }
