@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/04/reminder-sonic-racing-crossworlds-adds-angry-birds-racer-red-as-free-dlc",
-    "https://www.nintendolife.com/news/2026/04/psa-super-mario-bros-wonder-switch-2-edition-has-received-another-small-update",
-    "https://www.gematsu.com/2026/04/ebaseball-pro-spirit-2026-announced-for-ps5-pc",
-    "https://www.gematsu.com/2026/04/the-prince-of-tennis-sweet-school-festival-and-the-prince-of-tennis-doki-doki-survival-remasters-launch-july-30",
     "https://www.pushsquare.com/news/2026/04/psn-down-for-some-service-slowly-being-restored",
     "https://www.ign.com/articles/amazon-mgm-at-cinemacon-2026-everything-announced",
     "https://www.gematsu.com/2026/04/hatsune-miku-logic-paint-s-free-update-and-paid-dlc-sakura-miku-announced",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/god-of-war-laufey-combat-like-devil-may-cry/",
     "https://www.polygon.com/game-of-thrones-movie-2029-release-date-aegons-conquest/",
     "https://www.polygon.com/xbox-mythic-achievement-announced-release-date/",
-    "https://www.gematsu.com/2026/09/lightyear-frontier-launches-november-4"
+    "https://www.gematsu.com/2026/09/lightyear-frontier-launches-november-4",
+    "https://www.gematsu.com/2026/09/idea-factory-announces-visual-novel-brand-ifchronicle-and-crime-suspense-adventure-game-iconology-for-switch-pc",
+    "https://www.gematsu.com/2026/09/beginner-friendly-shoot-em-up-kaguya-for-pc-launches-in-2027",
+    "https://www.nintendolife.com/news/2026/09/star-fox-version-1-2-0-is-now-live-here-are-the-full-patch-notes",
+    "https://www.ign.com/articles/the-train-isnt-stopping-diablo-4-director-promises-the-game-will-still-receive-support-well-after-diablo-5-launches"
   ],
   "seen_titles": [
-    "reminder: sonic racing: crossworlds adds angry birds racer 'red' as free dlc",
-    "psa: super mario bros. wonder - switch 2 edition has received another small update",
-    "ebaseball: pro spirit 2026 announced for ps5, pc",
-    "the prince of tennis: sweet school festival and the prince of tennis: doki doki survival remasters launch july 30",
     "psn down for some, service slowly being restored",
     "amazon mgm studios at cinemacon 2026: everything announced",
     "hatsune miku logic paint s+ free update and paid dlc ‘sakura miku’ announced",
@@ -10001,13 +9997,13 @@
     "god of war laufey is taking the right lesson from devil may cry",
     "'game of thrones' officially returns in 2029 with first movie",
     "xbox’s platinum trophy equivalent officially revealed",
-    "lightyear frontier launches november 4"
+    "lightyear frontier launches november 4",
+    "idea factory announces visual novel brand ifchronicle and crime suspense adventure game iconology for switch, pc",
+    "beginner-friendly shoot ’em up kaguya for pc launches in 2027",
+    "star fox version 1.2.0 is now live, here are the full patch notes",
+    "'the train isn't stopping' — diablo 4 director promises the game will still receive support well after diablo 5 launches"
   ],
   "seen_story_keys": [
-    "1e96cabdac6124627f62380d88bcbeb2e9ebe9d6",
-    "a0be221850bd6d1837097993dc71a161c2ffa6ea",
-    "7f8a52e78c887c1d63223f0f2701fef153c6cea7",
-    "8fee1e8d6eca3cb2376962979f7c8822b8f9edcf",
     "d3e736e837d617bcfb5c60bbecd2f27b1d5ba303",
     "4d9571b0877fe9c00a02f9a673c6cf3647c26e62",
     "4e0e800137a0a6337e791d14430c4679a97d39aa",
@@ -15003,6 +14999,10 @@
     "3541cdaa73d6953430f663394ba4973cd0efa3e1",
     "e79963ecbd7d44c88dbeef9f42b8ca4b333bd93b",
     "642330ed6a3586949ad0c19c960c5d1eb916281a",
-    "b8e4e9330330b129284c321b6dd5296e62f5f92d"
+    "b8e4e9330330b129284c321b6dd5296e62f5f92d",
+    "c6059cf2c9c9cfafff08ac6af0d7c9244f956b0e",
+    "eefd868799a7d7af9849f0c0a8d73b71cce2c0d3",
+    "d41ca31ed0fbce2055d6d7f22463ce1ebacd2af6",
+    "f7ec89523cd2eb66d815ace3a1dcad2b64da298b"
   ]
 }
