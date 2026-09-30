@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/psn-down-for-some-service-slowly-being-restored",
-    "https://www.ign.com/articles/amazon-mgm-at-cinemacon-2026-everything-announced",
-    "https://www.gematsu.com/2026/04/hatsune-miku-logic-paint-s-free-update-and-paid-dlc-sakura-miku-announced",
-    "https://www.pushsquare.com/news/2026/04/even-absolute-batman-is-included-in-lego-batmans-all-encompassing-ps5-game",
     "https://www.gamesindustry.biz/jagex-to-expand-runescape-dragonwilds-into-asia-pacific-region",
     "https://www.nintendolife.com/news/2026/04/star-trek-resurgence-will-likely-be-delisted-very-soon",
     "https://www.pushsquare.com/news/2026/04/psvr2-will-take-off-again-when-microsoft-flight-sim-2024-arrives-later-this-month",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/09/idea-factory-announces-visual-novel-brand-ifchronicle-and-crime-suspense-adventure-game-iconology-for-switch-pc",
     "https://www.gematsu.com/2026/09/beginner-friendly-shoot-em-up-kaguya-for-pc-launches-in-2027",
     "https://www.nintendolife.com/news/2026/09/star-fox-version-1-2-0-is-now-live-here-are-the-full-patch-notes",
-    "https://www.ign.com/articles/the-train-isnt-stopping-diablo-4-director-promises-the-game-will-still-receive-support-well-after-diablo-5-launches"
+    "https://www.ign.com/articles/the-train-isnt-stopping-diablo-4-director-promises-the-game-will-still-receive-support-well-after-diablo-5-launches",
+    "https://www.videogameschronicle.com/news/halos-former-creative-director-urges-activision-to-hire-laid-off-bungie-halo-studios-devs/",
+    "https://gamerant.com/pokemon-firered-leafgreen-pokemon-home-release-date/",
+    "https://www.gematsu.com/2026/09/eternal-palace-sakura-launches-november-5-for-switch-pc",
+    "https://www.nintendolife.com/news/2026/09/pokemon-home-firered-and-leafgreen-compatibility-update-arrives-next-week"
   ],
   "seen_titles": [
-    "psn down for some, service slowly being restored",
-    "amazon mgm studios at cinemacon 2026: everything announced",
-    "hatsune miku logic paint s+ free update and paid dlc ‘sakura miku’ announced",
-    "even absolute batman is included in lego batman's all-encompassing ps5 game",
     "jagex to expand runescape: dragonwilds into asia-pacific region",
     "star trek: resurgence will likely be delisted very soon",
     "psvr2 will take off again when microsoft flight sim 2024 arrives later this month",
@@ -10001,13 +9997,13 @@
     "idea factory announces visual novel brand ifchronicle and crime suspense adventure game iconology for switch, pc",
     "beginner-friendly shoot ’em up kaguya for pc launches in 2027",
     "star fox version 1.2.0 is now live, here are the full patch notes",
-    "'the train isn't stopping' — diablo 4 director promises the game will still receive support well after diablo 5 launches"
+    "'the train isn't stopping' — diablo 4 director promises the game will still receive support well after diablo 5 launches",
+    "halo’s former creative director urges activision to hire laid off bungie, halo studios devs",
+    "pokemon firered and leafgreen lock in pokemon home launch",
+    "eternal palace sakura launches november 5 for switch, pc",
+    "pokémon home firered & leafgreen compatibility update arrives next week"
   ],
   "seen_story_keys": [
-    "d3e736e837d617bcfb5c60bbecd2f27b1d5ba303",
-    "4d9571b0877fe9c00a02f9a673c6cf3647c26e62",
-    "4e0e800137a0a6337e791d14430c4679a97d39aa",
-    "f9c5b4a38ba772127f1b971b9b2c725861dc9a23",
     "3a40b5927d48663abc318f8ec4a3900b68ff7c70",
     "1f6a39a2ca914fa9efce20c82c1589345822219d",
     "076fdb07da5f3b0490e39d628331409359585fae",
@@ -15003,6 +14999,10 @@
     "c6059cf2c9c9cfafff08ac6af0d7c9244f956b0e",
     "eefd868799a7d7af9849f0c0a8d73b71cce2c0d3",
     "d41ca31ed0fbce2055d6d7f22463ce1ebacd2af6",
-    "f7ec89523cd2eb66d815ace3a1dcad2b64da298b"
+    "f7ec89523cd2eb66d815ace3a1dcad2b64da298b",
+    "e241aea7bdbb4d2e8419916ac6ca74f86ee8aea9",
+    "f30007a8636fd0aabae2aacc0eafebab7aea0b72",
+    "cfbaba51a2beb953d420ffba78faf4a8af0a9371",
+    "aecd9af06fc6a70da5a686f701cd8b4619268a4c"
   ]
 }
