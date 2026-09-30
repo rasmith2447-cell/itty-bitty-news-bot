@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamesindustry.biz/jagex-to-expand-runescape-dragonwilds-into-asia-pacific-region",
-    "https://www.nintendolife.com/news/2026/04/star-trek-resurgence-will-likely-be-delisted-very-soon",
-    "https://www.pushsquare.com/news/2026/04/psvr2-will-take-off-again-when-microsoft-flight-sim-2024-arrives-later-this-month",
-    "https://www.pcgamer.com/games/horror/silent-hill-fs-director-didnt-have-a-good-nights-sleep-the-whole-way-through-the-games-production/",
     "https://www.pushsquare.com/news/2026/04/psn-down-for-some-service-mostly-now-restored",
     "https://www.pushsquare.com/news/2026/04/tekken-8s-turning-point-arrives-out-of-nowhere-devs-finally-listen-with-patch-3-00-02",
     "https://www.gamespot.com/articles/capcom-cracks-down-on-nsfw-resident-evil-requiem-mods-with-mass-takedown/1100-6539441/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.videogameschronicle.com/news/halos-former-creative-director-urges-activision-to-hire-laid-off-bungie-halo-studios-devs/",
     "https://gamerant.com/pokemon-firered-leafgreen-pokemon-home-release-date/",
     "https://www.gematsu.com/2026/09/eternal-palace-sakura-launches-november-5-for-switch-pc",
-    "https://www.nintendolife.com/news/2026/09/pokemon-home-firered-and-leafgreen-compatibility-update-arrives-next-week"
+    "https://www.nintendolife.com/news/2026/09/pokemon-home-firered-and-leafgreen-compatibility-update-arrives-next-week",
+    "https://www.polygon.com/playstation-plus-october-2026-games-announced-ps4-ps5-free-essential/",
+    "https://gamerant.com/grave-seasons-release-date-announced-2027/",
+    "https://www.nintendolife.com/news/2026/09/pokemon-legends-z-a-is-getting-a-new-switch-2-physical-release-next-month",
+    "https://www.pushsquare.com/news/2026/09/ps-plus-essential-games-for-october-2026-announced"
   ],
   "seen_titles": [
-    "jagex to expand runescape: dragonwilds into asia-pacific region",
-    "star trek: resurgence will likely be delisted very soon",
-    "psvr2 will take off again when microsoft flight sim 2024 arrives later this month",
-    "silent hill f's director 'didn't have a good night's sleep' the whole way through the game's production",
     "psn down for some, service mostly now restored",
     "tekken 8's turning point arrives out of nowhere, devs finally listen with patch 3.00.02",
     "capcom cracks down on nsfw resident evil requiem mods with mass takedown",
@@ -10001,13 +9997,13 @@
     "halo’s former creative director urges activision to hire laid off bungie, halo studios devs",
     "pokemon firered and leafgreen lock in pokemon home launch",
     "eternal palace sakura launches november 5 for switch, pc",
-    "pokémon home firered & leafgreen compatibility update arrives next week"
+    "pokémon home firered & leafgreen compatibility update arrives next week",
+    "playstation plus october 2026 free games lineup officially revealed",
+    "\"stardew valley with a serial killer game\" grave seasons finally announces release date",
+    "pokémon legends: z-a is getting a new switch 2 physical release next month",
+    "ps plus essential games for october 2026 announced"
   ],
   "seen_story_keys": [
-    "3a40b5927d48663abc318f8ec4a3900b68ff7c70",
-    "1f6a39a2ca914fa9efce20c82c1589345822219d",
-    "076fdb07da5f3b0490e39d628331409359585fae",
-    "f3087fc3d3590c5e30f526c0d9eefb4e65596af7",
     "6aa57df2b88598d4c03eda6c0c74aef832a1bc59",
     "1eea0c6e166ebcec8268622d9016a4d3ac6dcc70",
     "9d12eed0e9832db7b563b7a584e4e38d6e62c39c",
@@ -15003,6 +14999,10 @@
     "e241aea7bdbb4d2e8419916ac6ca74f86ee8aea9",
     "f30007a8636fd0aabae2aacc0eafebab7aea0b72",
     "cfbaba51a2beb953d420ffba78faf4a8af0a9371",
-    "aecd9af06fc6a70da5a686f701cd8b4619268a4c"
+    "aecd9af06fc6a70da5a686f701cd8b4619268a4c",
+    "fb5052096867464ac5d58359183659a42e0eceac",
+    "07fb4559b0a3bc57d10d94e7d1d7ae725535f6c5",
+    "f085ebe5cf16a9b837a675cd1995ea54b20b4847",
+    "751a8a52da69e91952954cbe6b1a16690558d43c"
   ]
 }
