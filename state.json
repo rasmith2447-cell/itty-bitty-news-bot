@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/psn-down-for-some-service-mostly-now-restored",
-    "https://www.pushsquare.com/news/2026/04/tekken-8s-turning-point-arrives-out-of-nowhere-devs-finally-listen-with-patch-3-00-02",
-    "https://www.gamespot.com/articles/capcom-cracks-down-on-nsfw-resident-evil-requiem-mods-with-mass-takedown/1100-6539441/?ftag=CAD-01-10abi2f",
-    "https://gamerant.com/marvel-rivals-midseason-update-patch-notes-content-roadmap/",
     "https://www.gematsu.com/2026/04/until-then-for-xbox-series-launches-april-23",
     "https://www.eurogamer.net/007-first-light-title-song-lana-del-rey-david-arnold",
     "https://www.pushsquare.com/news/2026/04/lana-del-rey-finally-gets-her-james-bond-theme-song-with-007-first-light-on-ps5",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/playstation-plus-october-2026-games-announced-ps4-ps5-free-essential/",
     "https://gamerant.com/grave-seasons-release-date-announced-2027/",
     "https://www.nintendolife.com/news/2026/09/pokemon-legends-z-a-is-getting-a-new-switch-2-physical-release-next-month",
-    "https://www.pushsquare.com/news/2026/09/ps-plus-essential-games-for-october-2026-announced"
+    "https://www.pushsquare.com/news/2026/09/ps-plus-essential-games-for-october-2026-announced",
+    "https://www.gamesindustry.biz/ubisoft-renames-creative-house-2-home-of-the-division-ghost-recon-and-splinter-cell-as-massive-entertainment",
+    "https://www.gamesindustry.biz/the-witcher-3-hits-its-highest-ever-steam-concurrent-player-count-following-remastered-launch",
+    "https://www.nintendolife.com/news/2026/09/grasshopper-manufacture-parts-ways-with-netease-and-goes-independent",
+    "https://www.ign.com/articles/playstation-plus-monthly-games-for-october-2026-announced"
   ],
   "seen_titles": [
-    "psn down for some, service mostly now restored",
-    "tekken 8's turning point arrives out of nowhere, devs finally listen with patch 3.00.02",
-    "capcom cracks down on nsfw resident evil requiem mods with mass takedown",
-    "marvel rivals releases midseason update patch notes and new content roadmap",
     "until then for xbox series launches april 23",
     "007 first light title song will be performed by lana del rey, while bond film composer david arnold returns to franchise after almost two decades",
     "lana del rey finally gets her james bond theme song with 007 first light on ps5",
@@ -10001,13 +9997,13 @@
     "playstation plus october 2026 free games lineup officially revealed",
     "\"stardew valley with a serial killer game\" grave seasons finally announces release date",
     "pokémon legends: z-a is getting a new switch 2 physical release next month",
-    "ps plus essential games for october 2026 announced"
+    "ps plus essential games for october 2026 announced",
+    "ubisoft renames creative house 2, home of the division, ghost recon and splinter cell, as massive entertainment",
+    "the witcher 3 hits its highest-ever steam concurrent player count following remastered launch",
+    "grasshopper manufacture parts ways with netease and goes independent",
+    "playstation plus monthly games for october 2026 announced"
   ],
   "seen_story_keys": [
-    "6aa57df2b88598d4c03eda6c0c74aef832a1bc59",
-    "1eea0c6e166ebcec8268622d9016a4d3ac6dcc70",
-    "9d12eed0e9832db7b563b7a584e4e38d6e62c39c",
-    "9aca50c69a6fc32a7066a5e2b9736542286bc9f7",
     "2d68b5bc862150aef56e21ae2af5eae923a26568",
     "9d7434985bc4198410381f57f5c456aa7895fc3a",
     "67586a3af00806bd447711c07c1877a087acfc14",
@@ -15003,6 +14999,10 @@
     "fb5052096867464ac5d58359183659a42e0eceac",
     "07fb4559b0a3bc57d10d94e7d1d7ae725535f6c5",
     "f085ebe5cf16a9b837a675cd1995ea54b20b4847",
-    "751a8a52da69e91952954cbe6b1a16690558d43c"
+    "751a8a52da69e91952954cbe6b1a16690558d43c",
+    "7c4188ad407ecdb215e93bddcd546bd823079d3c",
+    "4f7d99a70282392585ec5955ec7c275ff294667e",
+    "c9006fc709087e40fdcbe1d1d4a123f4b34cdf9f",
+    "05f4923931ff85be987f94dfff02f1470fe9b283"
   ]
 }
