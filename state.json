@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/until-then-for-xbox-series-launches-april-23",
-    "https://www.eurogamer.net/007-first-light-title-song-lana-del-rey-david-arnold",
-    "https://www.pushsquare.com/news/2026/04/lana-del-rey-finally-gets-her-james-bond-theme-song-with-007-first-light-on-ps5",
-    "https://www.eurogamer.net/new-starfield-hotfix-ps5-crashes-enhanced-settings",
     "https://www.pushsquare.com/news/2026/04/more-expensive-than-ever-but-saros-will-put-ps5-pro-to-work",
     "https://www.gamespot.com/articles/lego-batman-legacy-of-the-dark-knight-finally-lets-you-build-your-own-batcave/1100-6539452/?ftag=CAD-01-10abi2f",
     "https://www.nintendolife.com/features/talking-point-what-would-you-want-from-a-new-star-fox-game",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/ubisoft-renames-creative-house-2-home-of-the-division-ghost-recon-and-splinter-cell-as-massive-entertainment",
     "https://www.gamesindustry.biz/the-witcher-3-hits-its-highest-ever-steam-concurrent-player-count-following-remastered-launch",
     "https://www.nintendolife.com/news/2026/09/grasshopper-manufacture-parts-ways-with-netease-and-goes-independent",
-    "https://www.ign.com/articles/playstation-plus-monthly-games-for-october-2026-announced"
+    "https://www.ign.com/articles/playstation-plus-monthly-games-for-october-2026-announced",
+    "https://www.gamespot.com/articles/sonys-helldivers-movie-has-been-pushed-back/",
+    "https://www.ign.com/articles/24-jump-street-gets-december-2027-release-date-original-cast-returning",
+    "https://www.ign.com/articles/alan-ritchson-confirmed-to-star-in-helldivers-movie-as-release-date-pushed-back",
+    "https://www.videogameschronicle.com/news/octobers-free-playstation-plus-games-include-f1-25/"
   ],
   "seen_titles": [
-    "until then for xbox series launches april 23",
-    "007 first light title song will be performed by lana del rey, while bond film composer david arnold returns to franchise after almost two decades",
-    "lana del rey finally gets her james bond theme song with 007 first light on ps5",
-    "new starfield hotfix takes aim at those ps5 crashes that happened when players were using enhanced settings",
     "more expensive than ever, but saros will put ps5 pro to work",
     "lego batman: legacy of the dark knight finally lets you build your own batcave",
     "talking point: what would you want from a new star fox game?",
@@ -10001,13 +9997,13 @@
     "ubisoft renames creative house 2, home of the division, ghost recon and splinter cell, as massive entertainment",
     "the witcher 3 hits its highest-ever steam concurrent player count following remastered launch",
     "grasshopper manufacture parts ways with netease and goes independent",
-    "playstation plus monthly games for october 2026 announced"
+    "playstation plus monthly games for october 2026 announced",
+    "sony’s helldivers movie has been pushed back",
+    "24 jump street gets december 2027 release date, original cast returning",
+    "alan ritchson confirmed to star in helldivers movie as release date pushed back",
+    "october’s ‘free’ playstation plus games include f1 25"
   ],
   "seen_story_keys": [
-    "2d68b5bc862150aef56e21ae2af5eae923a26568",
-    "9d7434985bc4198410381f57f5c456aa7895fc3a",
-    "67586a3af00806bd447711c07c1877a087acfc14",
-    "2bb1a9d4d1584f6790eb8bf780685a3e54932299",
     "87b612d9a43df7bd9e7f1f900622c2815fd3bdbd",
     "62765188680dfcc97b49241e2d3b67c6c6a133df",
     "6c5c769b5e41e9dea0a05624a940b834700cd3e0",
@@ -15003,6 +14999,10 @@
     "7c4188ad407ecdb215e93bddcd546bd823079d3c",
     "4f7d99a70282392585ec5955ec7c275ff294667e",
     "c9006fc709087e40fdcbe1d1d4a123f4b34cdf9f",
-    "05f4923931ff85be987f94dfff02f1470fe9b283"
+    "05f4923931ff85be987f94dfff02f1470fe9b283",
+    "03f2bb68418bb9d316c0c9201689554508974192",
+    "952e56fbd4e89ebe176d4d2997cb33a4949dc7c6",
+    "43f4739f061d7fc6bb556cca1e69b80f763335b4",
+    "e96d9c50a15aca1178fa6db7438d583bef1c40f4"
   ]
 }
