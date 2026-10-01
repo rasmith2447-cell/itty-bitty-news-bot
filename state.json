@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/causal-loop-launches-april-23-for-ps5-xbox-series-and-pc",
-    "https://www.rockpapershotgun.com/infamous-keepers-is-a-reverse-dungeon-crawler-where-you-have-to-survive-after-mass-layoffs-and-oh-no-is-this-a-games-industry-metaphor",
-    "https://www.pushsquare.com/news/2026/04/lego-batman-ps5-is-looking-more-and-more-like-the-ultimate-batman-game",
-    "https://www.purexbox.com/features/roundup-all-the-xbox-reveals-from-the-galaxies-spring-showcase-2026",
     "https://www.gematsu.com/2026/04/83-launches-in-early-access-on-april-23",
     "https://www.pushsquare.com/news/2026/04/who-will-take-one-for-the-team-and-watch-the-call-of-duty-movie-in-june-2028",
     "https://www.ign.com/articles/disney-marvel-and-star-wars-at-cinemacon-2026-everything-announced",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/new-pve-co-op-games-steam-nightrunner/",
     "https://www.purexbox.com/news/2026/10/ps5s-new-qssr-ai-upscaling-tech-should-make-for-some-interesting-xbox-comparisons",
     "https://www.pushsquare.com/news/2026/10/sony-confirms-refined-version-of-acclaimed-pssr-upscaler-for-base-ps5-with-remarkable-potential",
-    "https://www.pcgamer.com/games/card-games/reigns-card-shark-studio-nerial-is-closing/"
+    "https://www.pcgamer.com/games/card-games/reigns-card-shark-studio-nerial-is-closing/",
+    "https://www.ign.com/articles/how-gta-6s-jason-and-lucia-have-evolved-since-2023-in-pictures",
+    "https://www.ign.com/articles/ahead-of-metro-2039-metro-2033-and-metro-last-light-are-getting-next-gen-updates",
+    "https://www.ign.com/articles/see-why-deicidium-returned-is-one-of-2026s-most-promising-new-graphic-novels",
+    "https://www.gematsu.com/2026/10/void-breaker-launches-november-4"
   ],
   "seen_titles": [
-    "causal loop launches april 23 for ps5, xbox series, and pc",
-    "infamous keepers is a reverse dungeon crawler where you have to survive after mass layoffs and oh no is this a games industry metaphor",
-    "lego batman ps5 is looking more and more like the ultimate batman game",
-    "roundup: all the xbox reveals from the galaxies spring showcase 2026",
     "’83 launches in early access on april 23",
     "who will take one for the team and watch the call of duty movie in june 2028?",
     "disney, marvel, and star wars at cinemacon 2026: everything announced (updating live!)",
@@ -10001,13 +9997,13 @@
     "brand-new pve co-op survival game officially unveiled",
     "ps5's new qssr ai upscaling tech should make for some interesting xbox comparisons",
     "sony confirms refined version of acclaimed pssr upscaler for base ps5, with 'remarkable' potential",
-    "reigns, card shark studio nerial is closing"
+    "reigns, card shark studio nerial is closing",
+    "how gta 6's jason and lucia have evolved since 2023 in pictures",
+    "ahead of metro 2039, metro 2033 and metro last light are getting next-gen updates",
+    "see why deicidium returned is one of 2026's most promising new graphic novels",
+    "void/breaker launches november 4"
   ],
   "seen_story_keys": [
-    "e1d88b7976a4fd72fffe248b618963ac47d5d2a5",
-    "a03e56cfb6cba8064af2adfab99939a17b3392db",
-    "2b7cd14c253566c2940ba963040cfb4c5ad412b9",
-    "d0a0109b9bb9c177e7eb7b8a6bfe2a90aa0936e9",
     "7bc6788186c4bc2ace6bd073742406ff107668a4",
     "d6e194678c82b45881c749df81ceae0685769eaa",
     "361253a52e215fefb69fd827d8efbeb6dd040a35",
@@ -15003,6 +14999,10 @@
     "c731a91398c92689a455c8c7e38fc216c6361e2c",
     "a112f57fbbe2067c5f0917c72716b4d02a11ac24",
     "4ac988f9574012e4227828865f7600e984e5fa33",
-    "e4b9af18fd6981b2708590e0d7c0072cb29a9b08"
+    "e4b9af18fd6981b2708590e0d7c0072cb29a9b08",
+    "112a1a75be1e1a1db302eb5dbbd88e28f3341e6e",
+    "20d6f0e4a977a138f8c0841041d74cb94e0647e0",
+    "5e96989b663bdef8de847b7117a501cfb5c5635f",
+    "f1b4878f329c6cb613a5e0822ca63367b7d6f34f"
   ]
 }
