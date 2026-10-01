@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/metro-2039-reveal-video-trailer-darker-tone-war/",
-    "https://www.gematsu.com/2026/04/the-caribou-trail-launches-may-14",
-    "https://www.gematsu.com/2026/04/hotel-architect-launches-may-14",
-    "https://gamerant.com/battlefield-6-updates-roadmap-2026/",
     "https://www.gematsu.com/2026/04/causal-loop-launches-april-23-for-ps5-xbox-series-and-pc",
     "https://www.rockpapershotgun.com/infamous-keepers-is-a-reverse-dungeon-crawler-where-you-have-to-survive-after-mass-layoffs-and-oh-no-is-this-a-games-industry-metaphor",
     "https://www.pushsquare.com/news/2026/04/lego-batman-ps5-is-looking-more-and-more-like-the-ultimate-batman-game",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/10/nerial-shuts-down-after-13-years",
     "https://gamerant.com/gears-of-war-e-day-post-launch-roadmap-20th-anniversary-tease/",
     "https://www.gamesindustry.biz/ubisoft-workers-of-montreal-union-petition-to-preserve-hybrid-work-secures-over-300-signatures",
-    "https://www.gematsu.com/2026/10/gaelco-sports-collection-launches-october-22"
+    "https://www.gematsu.com/2026/10/gaelco-sports-collection-launches-october-22",
+    "https://gamerant.com/new-pve-co-op-games-steam-nightrunner/",
+    "https://www.purexbox.com/news/2026/10/ps5s-new-qssr-ai-upscaling-tech-should-make-for-some-interesting-xbox-comparisons",
+    "https://www.pushsquare.com/news/2026/10/sony-confirms-refined-version-of-acclaimed-pssr-upscaler-for-base-ps5-with-remarkable-potential",
+    "https://www.pcgamer.com/games/card-games/reigns-card-shark-studio-nerial-is-closing/"
   ],
   "seen_titles": [
-    "metro 2039 trailer reveals the darkest game in the series yet",
-    "the caribou trail launches may 14",
-    "hotel architect launches may 14",
-    "battlefield 6 officially reveals its 2026 update roadmap",
     "causal loop launches april 23 for ps5, xbox series, and pc",
     "infamous keepers is a reverse dungeon crawler where you have to survive after mass layoffs and oh no is this a games industry metaphor",
     "lego batman ps5 is looking more and more like the ultimate batman game",
@@ -10001,13 +9997,13 @@
     "nerial shuts down after 13 years",
     "gears of war: e-day reveals post-launch plans and special 20th anniversary tease",
     "ubisoft workers of montreal union petition to \"preserve hybrid work\" secures over 300 signatures",
-    "gaelco sports collection launches october 22"
+    "gaelco sports collection launches october 22",
+    "brand-new pve co-op survival game officially unveiled",
+    "ps5's new qssr ai upscaling tech should make for some interesting xbox comparisons",
+    "sony confirms refined version of acclaimed pssr upscaler for base ps5, with 'remarkable' potential",
+    "reigns, card shark studio nerial is closing"
   ],
   "seen_story_keys": [
-    "c8c8f76d5c625ce755aa45621119c0346e704577",
-    "60dfe649c02215a6b81e00aa326a747009c1ea30",
-    "1dd4e8f74f50fd23aa8c04d92db6734126062d61",
-    "e83166b475e0705cbbba7775c1c7850fa1652f0f",
     "e1d88b7976a4fd72fffe248b618963ac47d5d2a5",
     "a03e56cfb6cba8064af2adfab99939a17b3392db",
     "2b7cd14c253566c2940ba963040cfb4c5ad412b9",
@@ -15003,6 +14999,10 @@
     "6375258640a08f25362aa640f30f8327a86dd26b",
     "53e1fc1430b139c64be67cde302f8220bd19126f",
     "96516813be1aa99079d43843791e36e5f1ed32d7",
-    "8e92a73b67c2c0d321fe6b4571ab02adb3cb6af6"
+    "8e92a73b67c2c0d321fe6b4571ab02adb3cb6af6",
+    "c731a91398c92689a455c8c7e38fc216c6361e2c",
+    "a112f57fbbe2067c5f0917c72716b4d02a11ac24",
+    "4ac988f9574012e4227828865f7600e984e5fa33",
+    "e4b9af18fd6981b2708590e0d7c0072cb29a9b08"
   ]
 }
