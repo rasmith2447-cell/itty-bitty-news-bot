@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/diablo-4-evil-mommy-lilith-sure-seems-a-lot-less-well-evil-now/1100-6539461/?ftag=CAD-01-10abi2f",
-    "https://www.pushsquare.com/news/2026/04/monster-crown-sin-eater-needs-to-be-on-your-retro-rpg-radar-rides-to-ps5-this-month",
-    "https://www.ign.com/articles/metro-2039-first-look-reveal-roundup",
-    "https://www.gamespot.com/articles/cod-black-ops-7-and-warzone-season-3-reloaded-release-date-and-details/1100-6539459/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/call-of-duty-movie-release-date-trailer-story-cast-director-writer/1100-6536962/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/04/trails-in-the-sky-2nd-chapter-launches-september-17",
     "https://www.gamespot.com/articles/metro-2039-will-feature-a-new-protagonist-out-this-winter/1100-6539454/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.gamespot.com/articles/gta-6-screenshot-suggests-it-wont-be-shy-about-movie-references/",
     "https://www.polygon.com/dc-studios-james-gunn-peter-safran-warner-bros-paramount-merger-skydance/",
     "https://www.pushsquare.com/news/2026/10/sony-prepping-improved-ps-app-with-expanded-social-features",
-    "https://www.purexbox.com/news/2026/10/xbox-project-helix-faces-more-challenges-as-micron-warns-of-ram-shortages-into-2028"
+    "https://www.purexbox.com/news/2026/10/xbox-project-helix-faces-more-challenges-as-micron-warns-of-ram-shortages-into-2028",
+    "https://gamerant.com/castlevania-belmonts-curse-demo-hollow-knight-silksong/",
+    "https://www.pcgamer.com/gaming-industry/game-development/valves-patch-note-supremacy/",
+    "https://www.ign.com/articles/video-game-release-dates-ps4-ps5-xbox-one-series-x-nintendo-switch",
+    "https://www.pushsquare.com/news/2026/10/the-team-behind-pixeljunk-is-partly-to-thank-for-ace-combat-8s-brilliant-cloud-tech"
   ],
   "seen_titles": [
-    "diablo 4's evil mommy lilith sure seems a lot less, well, evil now",
-    "monster crown: sin eater needs to be on your retro rpg radar, rides to ps5 this month",
-    "metro 2039 first look reveal roundup",
-    "cod: black ops 7 and warzone season 3 reloaded release date and details",
     "call of duty movie - everything we know about the activision/paramount film coming in 2028",
     "trails in the sky 2nd chapter launches september 17",
     "metro 2039 will feature a new protagonist, out this winter",
@@ -10001,13 +9997,13 @@
     "gta 6 screenshot suggests it won’t be shy about movie references",
     "dc studios' fate under paramount-warner bros. officially revealed",
     "sony prepping improved ps app with expanded social features",
-    "xbox project helix faces more challenges as micron warns of ram shortages into 2028"
+    "xbox project helix faces more challenges as micron warns of ram shortages into 2028",
+    "hollow knight: silksong fans should play castlevania: belmont's curse right now, because they can",
+    "valve's patch note supremacy",
+    "video game release dates: the biggest games coming soon",
+    "the team behind pixeljunk is partly to thank for ace combat 8's brilliant cloud tech"
   ],
   "seen_story_keys": [
-    "f522aa291598baf87a0e2bf62f0fb3f6e9c875ca",
-    "b52e601f415da81b1cb4d0284b5fa41a9c1bc392",
-    "d4b6e03bde40cb8b67ad6c121985fcf16309c2e4",
-    "21eca353d2bcdef093d032c3baccfd90edff38f1",
     "b6b9648e6e97e3c1b37d30ea50ce9155f5fd9311",
     "598dd6dd4e280834c9809e0eb8661906f0865aac",
     "abcb6459563265fee4074fabb31df295ba89bcc8",
@@ -15003,6 +14999,10 @@
     "18c60797649223b1fac75fbc6e9d7bef0415650f",
     "9f6a74996ede4bb955c04a6471b976db47be1d1c",
     "1e44b1b39150254ec6ae5d0a392d0959f15e2603",
-    "1d3ed8842a9b8141b0e21dc4d125327d47b93456"
+    "1d3ed8842a9b8141b0e21dc4d125327d47b93456",
+    "bb44d109cc6c5cc1c2a49ea24943826cb78d705f",
+    "9b92b2ec6ac8735e2c57b2e744ad3446bd28c38d",
+    "560273b1aa8b1160f434713a6e8f9d77a5ed4e55",
+    "d2010ac7cf9e0a8867325d297147f5f6adf7dc59"
   ]
 }
