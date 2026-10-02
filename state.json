@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/kitaria-fables-2-announced-for-ps5-xbox-series-switch-2-and-pc",
-    "https://www.gematsu.com/2026/04/northgard-battlegrounds-announced-for-pc",
-    "https://www.gematsu.com/2026/04/farever-launches-in-early-access-on-may-6",
-    "https://www.gematsu.com/2026/04/huntdown-overtime-launches-in-early-access-on-may-7",
     "https://www.gematsu.com/2026/04/fast-paced-multiplayer-party-game-mojo-party-announced-for-pc",
     "https://www.gematsu.com/2026/04/construction-simulator-evolution-announced-for-ps5-xbox-series-and-pc",
     "https://www.ign.com/articles/grab-a-meta-quest-3-or-3s-before-the-price-goes-up",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/ps6-price-release-date-principle/",
     "https://www.gamesindustry.biz/krafton-shuts-down-pubg-spin-off-black-budget-nine-months-after-closed-alpha-test",
     "https://www.nintendolife.com/news/2026/10/capcom-admits-its-been-a-painstaking-process-porting-monster-hunter-wilds-to-switch-2",
-    "https://www.polygon.com/critical-role-cast-payment-death-policy-revealed/"
+    "https://www.polygon.com/critical-role-cast-payment-death-policy-revealed/",
+    "https://www.pcgamer.com/games/world-of-warcraft/the-wow-forever-betas-nerf-to-dungeon-xp-isnt-nearly-as-bad-as-it-seems/",
+    "https://www.pushsquare.com/news/2026/10/limited-edition-lisa-ps5-controller-available-now-but-selling-out-fast",
+    "https://www.gamesindustry.biz/bungie-co-founder-and-destiny-2-narrative-director-launch-transmedia-studio-stone-kite",
+    "https://www.pushsquare.com/news/2026/10/signal-veil-is-a-ps5-horror-game-with-a-style-unlike-any-other"
   ],
   "seen_titles": [
-    "kitaria fables 2 announced for ps5, xbox series, switch 2, and pc",
-    "northgard battlegrounds announced for pc",
-    "farever launches in early access on may 6",
-    "huntdown: overtime launches in early access on may 7",
     "fast-paced multiplayer party game mojo party announced for pc",
     "construction simulator: evolution announced for ps5, xbox series, and pc",
     "grab a meta quest 3 or 3s before the price goes up",
@@ -10001,13 +9997,13 @@
     "sony officially comments on playstation 6 price + release date",
     "krafton shuts down pubg spin-off black budget nine months after closed alpha test",
     "capcom admits it's been a \"painstaking\" process porting monster hunter wilds to switch 2",
-    "critical role officially reveals how its players get paid if they \"die\""
+    "critical role officially reveals how its players get paid if they \"die\"",
+    "the wow: forever beta's nerf to dungeon xp isn't nearly as bad as it seems",
+    "limited edition lisa ps5 controller available now, but selling out fast",
+    "bungie co-founder and destiny 2 narrative director launch transmedia studio stone kite",
+    "signal veil is a ps5 horror game with a style unlike any other"
   ],
   "seen_story_keys": [
-    "674d9992ae18e76500b08d797291726ad150e9d0",
-    "571911db842a30fdb805de340251985e1491c5cb",
-    "56dce3ce0485ee9daf135a2667ba42539049de91",
-    "5639864e0f246ff1d3fd7d9a3464362dd33b3510",
     "49c3e944fcaa25a7a9288713bafe1c688fbf1dca",
     "80dbfae6e54f7847de2f789026fd999f3346a1b6",
     "945907927ee409b45c806896ef1ead97957a35a1",
@@ -15003,6 +14999,10 @@
     "a71f2b54821a4007944aea42ed3371ac99aa30fb",
     "a11b724ed0efde59142c38e8ee7eb939826c00ea",
     "838cbbc66cd3884e662a3a3425e931f86f35add3",
-    "be4a3dd308dec3c5e72a1d3418e22109c702e7a3"
+    "be4a3dd308dec3c5e72a1d3418e22109c702e7a3",
+    "c4e5c1a6125052f9bb9add21b74b5a88a3900c7c",
+    "78c49b4e6c9e462806d47af59523b971803b2561",
+    "26be5dda56211e7c23e91273626c399ba512da2d",
+    "9fd13ae9eb07632c39fb2d83f7562d13074fd7ec"
   ]
 }
