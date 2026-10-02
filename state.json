@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/fast-paced-multiplayer-party-game-mojo-party-announced-for-pc",
-    "https://www.gematsu.com/2026/04/construction-simulator-evolution-announced-for-ps5-xbox-series-and-pc",
-    "https://www.ign.com/articles/grab-a-meta-quest-3-or-3s-before-the-price-goes-up",
-    "https://www.pushsquare.com/news/2026/04/mlb-the-show-creators-are-eyeing-a-new-ps5-rival",
     "https://www.gamespot.com/articles/diablo-4-evil-mommy-lilith-sure-seems-a-lot-less-well-evil-now/1100-6539461/?ftag=CAD-01-10abi2f",
     "https://www.pushsquare.com/news/2026/04/monster-crown-sin-eater-needs-to-be-on-your-retro-rpg-radar-rides-to-ps5-this-month",
     "https://www.ign.com/articles/metro-2039-first-look-reveal-roundup",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/games/world-of-warcraft/the-wow-forever-betas-nerf-to-dungeon-xp-isnt-nearly-as-bad-as-it-seems/",
     "https://www.pushsquare.com/news/2026/10/limited-edition-lisa-ps5-controller-available-now-but-selling-out-fast",
     "https://www.gamesindustry.biz/bungie-co-founder-and-destiny-2-narrative-director-launch-transmedia-studio-stone-kite",
-    "https://www.pushsquare.com/news/2026/10/signal-veil-is-a-ps5-horror-game-with-a-style-unlike-any-other"
+    "https://www.pushsquare.com/news/2026/10/signal-veil-is-a-ps5-horror-game-with-a-style-unlike-any-other",
+    "https://www.gamespot.com/articles/gta-6-screenshot-suggests-it-wont-be-shy-about-movie-references/",
+    "https://www.polygon.com/dc-studios-james-gunn-peter-safran-warner-bros-paramount-merger-skydance/",
+    "https://www.pushsquare.com/news/2026/10/sony-prepping-improved-ps-app-with-expanded-social-features",
+    "https://www.purexbox.com/news/2026/10/xbox-project-helix-faces-more-challenges-as-micron-warns-of-ram-shortages-into-2028"
   ],
   "seen_titles": [
-    "fast-paced multiplayer party game mojo party announced for pc",
-    "construction simulator: evolution announced for ps5, xbox series, and pc",
-    "grab a meta quest 3 or 3s before the price goes up",
-    "mlb the show creators are eyeing a new ps5 rival",
     "diablo 4's evil mommy lilith sure seems a lot less, well, evil now",
     "monster crown: sin eater needs to be on your retro rpg radar, rides to ps5 this month",
     "metro 2039 first look reveal roundup",
@@ -10001,13 +9997,13 @@
     "the wow: forever beta's nerf to dungeon xp isn't nearly as bad as it seems",
     "limited edition lisa ps5 controller available now, but selling out fast",
     "bungie co-founder and destiny 2 narrative director launch transmedia studio stone kite",
-    "signal veil is a ps5 horror game with a style unlike any other"
+    "signal veil is a ps5 horror game with a style unlike any other",
+    "gta 6 screenshot suggests it won’t be shy about movie references",
+    "dc studios' fate under paramount-warner bros. officially revealed",
+    "sony prepping improved ps app with expanded social features",
+    "xbox project helix faces more challenges as micron warns of ram shortages into 2028"
   ],
   "seen_story_keys": [
-    "49c3e944fcaa25a7a9288713bafe1c688fbf1dca",
-    "80dbfae6e54f7847de2f789026fd999f3346a1b6",
-    "945907927ee409b45c806896ef1ead97957a35a1",
-    "120abec513142878af38f9063132c95b1279c9db",
     "f522aa291598baf87a0e2bf62f0fb3f6e9c875ca",
     "b52e601f415da81b1cb4d0284b5fa41a9c1bc392",
     "d4b6e03bde40cb8b67ad6c121985fcf16309c2e4",
@@ -15003,6 +14999,10 @@
     "c4e5c1a6125052f9bb9add21b74b5a88a3900c7c",
     "78c49b4e6c9e462806d47af59523b971803b2561",
     "26be5dda56211e7c23e91273626c399ba512da2d",
-    "9fd13ae9eb07632c39fb2d83f7562d13074fd7ec"
+    "9fd13ae9eb07632c39fb2d83f7562d13074fd7ec",
+    "18c60797649223b1fac75fbc6e9d7bef0415650f",
+    "9f6a74996ede4bb955c04a6471b976db47be1d1c",
+    "1e44b1b39150254ec6ae5d0a392d0959f15e2603",
+    "1d3ed8842a9b8141b0e21dc4d125327d47b93456"
   ]
 }
