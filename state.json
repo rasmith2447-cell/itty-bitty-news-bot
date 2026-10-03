@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/starfield-ps5-crash-patch-out-now-but-it-only-partly-fixes-ps5-pro",
-    "https://www.rockpapershotgun.com/homeworld-junkies-rejoice-brilliantly-brutal-sci-fi-strategy-sim-nebulous-is-finally-getting-its-singleplayer-campaign",
-    "https://www.pushsquare.com/news/2026/04/trails-in-the-sky-2nd-chapter-puts-the-remade-jrpg-classic-on-ps5-this-september",
-    "https://www.rockpapershotgun.com/after-a-month-of-haggling-with-players-mega-crit-make-slay-the-spire-2s-beta-patches-official-with-big-character-reworks-alongside-new-art-and-scoring-systems",
     "https://www.eurogamer.net/call-of-duty-movie-release-date-writer-director",
     "https://www.ign.com/articles/indie-racer-formula-legends-gets-officially-licensed-formula-e-expansion",
     "https://gamerant.com/saros-ps5-features-pro-enhancements/",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/capcom-announces-plans-to-transform-the-re-engine-into-an-ai-generation-game-engine-our-goal-is-a-future-where-we-create-games-together-with-ai",
     "https://www.nintendolife.com/news/2026/10/sonic-racing-crossworlds-final-content-drop-of-year-one-arrives-this-month",
     "https://www.gamesindustry.biz/reigns-developer-nerial-closes-following-significant-trading-losses-over-past-two-years",
-    "https://www.pcgamer.com/games/fighting/riots-absurd-expectations-of-player-counts-in-the-high-hundreds-of-thousands-if-not-millions-doomed-2xko-from-the-start/"
+    "https://www.pcgamer.com/games/fighting/riots-absurd-expectations-of-player-counts-in-the-high-hundreds-of-thousands-if-not-millions-doomed-2xko-from-the-start/",
+    "https://www.eurogamer.net/witcher-3-remastered-lighting-patch-pc",
+    "https://www.pushsquare.com/news/2026/10/new-ps5-firmware-update-26-06-14-10-00-available-to-download-now",
+    "https://www.gematsu.com/2026/10/surreal-narrative-adventure-game-afantasia-to-be-published-by-studio-sasanqua",
+    "https://www.gematsu.com/2026/10/the-boba-teashop-refill-announced-for-ps5-xbox-series-and-pc"
   ],
   "seen_titles": [
-    "starfield ps5 crash patch out now, but it only partly fixes ps5 pro",
-    "homeworld junkies rejoice, brilliantly brutal sci-fi strategy sim nebulous is finally getting its singleplayer campaign",
-    "trails in the sky 2nd chapter puts the remade jrpg classic on ps5 this september",
-    "after a month of haggling with players, mega crit make slay the spire 2's beta patches official, with big character reworks alongside new art and scoring systems",
     "the call of duty movie gets a release date, but can it continue the trend of popular video game adaptations?",
     "indie racer formula legends gets officially licensed formula e expansion",
     "saros confirms ps5 features and ps5 pro enhancements",
@@ -10001,13 +9997,13 @@
     "capcom announces plans to transform the re engine into an ai-generation game engine — ‘our goal is a future where we create games together with ai’",
     "sonic racing: crossworlds \"final content drop of year one\" arrives this month",
     "reigns developer nerial closes following \"significant trading losses\" over past two years",
-    "riot needed absurd player counts 'in the high hundreds of thousands, if not millions' for 2xko, dooming it from launch"
+    "riot needed absurd player counts 'in the high hundreds of thousands, if not millions' for 2xko, dooming it from launch",
+    "cd projekt red addresses divisive lighting changes in a new witcher 3 remastered pc patch",
+    "new ps5 firmware update 26.06-14.10.00 available to download now",
+    "surreal narrative adventure game [afantasia] to be published by studio sasanqua",
+    "the boba teashop: refill announced for ps5, xbox series, and pc"
   ],
   "seen_story_keys": [
-    "17169f567fa38e59060b071f5a2b6439cf2357fa",
-    "e04f716acd597a8a0279c1e7ccbc23cd2e223bb8",
-    "a99b8b7782885dcbb50ef540ca2a88b97675b703",
-    "6d83a2ef2614f8b64fcb8f590f9d6013293fcc51",
     "9fadb0ac50da1ca4b90a2ef99e9b1f6ed459b4c8",
     "efcc499d9565686ab19b3e45963223873be91a6a",
     "9bc2593947c35061a8d901cb4f7cf3f1b2104446",
@@ -15003,6 +14999,10 @@
     "a10e98d5d76dae57a5b2ecdf64e22f6ad07e4b6e",
     "04b0df29c3cf537b89687eb7de9aaff2ceff7b2e",
     "a1e0ee24349055b8a8a6a3fda71226e4a3b0e96c",
-    "c4d4229ce61353616fdbfe23115a6331c637bc97"
+    "c4d4229ce61353616fdbfe23115a6331c637bc97",
+    "c57496c45ef211ffd7b1022bff8e00edc8828c85",
+    "a11f1de0340427993f277cf7125200e136a32e56",
+    "c1ac9b2aef6b9936d63ec3187351e7f8c69c297a",
+    "6e9733950f283137fcc877b65f9025efcfa652b5"
   ]
 }
