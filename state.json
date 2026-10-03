@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/final-fantasy-xiv-patch-75-live-letter-summary-trailer-breakdown-new-dungeon-next-alliance-raid-kefka-ultimate-and-more",
-    "https://www.gematsu.com/2026/04/fatal-fury-city-of-the-wolves-dlc-character-wolfgang-krauser-launches-april-24",
-    "https://www.pushsquare.com/news/2026/04/pokemon-palworld-rip-off-in-hot-water-as-publisher-intervenes-and-takes-it-off-steam",
-    "https://www.gematsu.com/2026/04/wuthering-waves-version-3-3-update-reverbs-from-the-end-of-galaxies-launches-april-30",
     "https://www.polygon.com/pokemon-pickmon-pickmos-pc-game-removed-from-steam/",
     "https://www.nintendolife.com/news/2026/04/adorable-action-rpg-kitaria-fables-is-getting-a-switch-2-sequel",
     "https://www.purexbox.com/news/2026/04/multiple-new-screenshots-revealed-for-resonance-a-plague-tale-legacy-coming-to-xbox-game-pass",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/lord-rings-online-lotro-wolves-mordor-dlc-october-21/",
     "https://www.videogameschronicle.com/news/dan-houser-still-hasnt-seen-gta-6-i-will-try-and-avoid-it/",
     "https://www.gematsu.com/2026/10/survival-horror-game-signal-veil-announced-for-ps5-xbox-series-switch-2-and-pc",
-    "https://www.pushsquare.com/news/2026/10/yazoo-croc-2-remaster-release-date-confirmed-for-late-october-on-ps5-ps4"
+    "https://www.pushsquare.com/news/2026/10/yazoo-croc-2-remaster-release-date-confirmed-for-late-october-on-ps5-ps4",
+    "https://www.polygon.com/dan-houser-absured-ventures-open-world-game/",
+    "https://gamerant.com/lisa-playstation-controller-pre-order/",
+    "https://www.gematsu.com/2026/10/invincible-vs-dlc-character-angstrom-levy-launches-october-13",
+    "https://www.gematsu.com/2026/10/croc-2-kingdom-of-the-gobbos-remaster-launches-october-29"
   ],
   "seen_titles": [
-    "final fantasy xiv patch 7.5 live letter summary – trailer breakdown, new dungeon, next alliance raid, kefka ultimate, and more",
-    "fatal fury: city of the wolves dlc character wolfgang krauser launches april 24",
-    "pokémon, palworld rip-off in hot water as publisher intervenes and takes it off steam",
-    "wuthering waves version 3.3 update ‘reverbs from the end of galaxies’ launches april 30",
     "a blatant pokémon ripoff was just pulled from steam before launch",
     "adorable action rpg 'kitaria fables' is getting a switch 2 sequel",
     "multiple new screenshots revealed for resonance: a plague tale legacy, coming to xbox game pass",
@@ -10001,13 +9997,13 @@
     "lord of the rings: wolves of mordor offiially releasing on october 21",
     "dan houser still hasnâ€™t seen gta 6: ‘i will try and avoid it’",
     "survival horror game signal veil announced for ps5, xbox series, switch 2, and pc",
-    "yazoo! croc 2 remaster release date confirmed for late october on ps5, ps4"
+    "yazoo! croc 2 remaster release date confirmed for late october on ps5, ps4",
+    "gta creator has avoided gta 6 while making new open-world games",
+    "brand-new playstation controller available to pre-order right now",
+    "invincible vs dlc character angstrom levy launches october 13",
+    "croc 2: kingdom of the gobbos remaster launches october 29"
   ],
   "seen_story_keys": [
-    "e6b29bee1e80f82056b5663b025a4939445518fc",
-    "10ef08a79d0dbd77c6af6c1710253e0c8ff941cc",
-    "4de3f2924b3014efa788ec92cc71cfc65fc95fca",
-    "5b1b31779d6c977a4d9034b3652ae7b920d07162",
     "9d48cc8af1ddcad8fb8eeed831bb9a25aaadf100",
     "8af5a87090dbfafc0def267bb16216ed26105c45",
     "60f9d59ebabbdc411d17d505d54abbc2ed7cbc72",
@@ -15003,6 +14999,10 @@
     "bc81cd8e2433dfce4f43b0147f29f90236d8b75b",
     "8a0b1256fd3a694db43da8d7b8bc7e41e8b552da",
     "bb0310d5bb3f3d0cbca4b443ce2cbcda4be7d434",
-    "ce2ff5c99122953c2917d994f35c8ca5b0badbb2"
+    "ce2ff5c99122953c2917d994f35c8ca5b0badbb2",
+    "ab63baa07796b5a451d00733bc152d137cdb8572",
+    "a34d4838269b973604015eec75b5cc12f18c7a0a",
+    "c3da43848c2fc89fc8b6df654704e1e4d8c0cea3",
+    "bb8c207c37576550d6c97b13bf6a6b9e8a2bc1e3"
   ]
 }
