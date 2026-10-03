@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/call-of-duty-movie-release-date-trailer-story-cast-director-writer/1100-6536962/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/04/trails-in-the-sky-2nd-chapter-launches-september-17",
-    "https://www.gamespot.com/articles/metro-2039-will-feature-a-new-protagonist-out-this-winter/1100-6539454/?ftag=CAD-01-10abi2f",
-    "https://www.purexbox.com/news/2026/04/metro-2039-is-coming-to-xbox-this-winter-gorgeous-in-engine-gameplay-revealed",
     "https://www.pushsquare.com/news/2026/04/starfield-ps5-crash-patch-out-now-but-it-only-partly-fixes-ps5-pro",
     "https://www.rockpapershotgun.com/homeworld-junkies-rejoice-brilliantly-brutal-sci-fi-strategy-sim-nebulous-is-finally-getting-its-singleplayer-campaign",
     "https://www.pushsquare.com/news/2026/04/trails-in-the-sky-2nd-chapter-puts-the-remade-jrpg-classic-on-ps5-this-september",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/castlevania-belmonts-curse-demo-hollow-knight-silksong/",
     "https://www.pcgamer.com/gaming-industry/game-development/valves-patch-note-supremacy/",
     "https://www.ign.com/articles/video-game-release-dates-ps4-ps5-xbox-one-series-x-nintendo-switch",
-    "https://www.pushsquare.com/news/2026/10/the-team-behind-pixeljunk-is-partly-to-thank-for-ace-combat-8s-brilliant-cloud-tech"
+    "https://www.pushsquare.com/news/2026/10/the-team-behind-pixeljunk-is-partly-to-thank-for-ace-combat-8s-brilliant-cloud-tech",
+    "https://www.ign.com/articles/capcom-announces-plans-to-transform-the-re-engine-into-an-ai-generation-game-engine-our-goal-is-a-future-where-we-create-games-together-with-ai",
+    "https://www.nintendolife.com/news/2026/10/sonic-racing-crossworlds-final-content-drop-of-year-one-arrives-this-month",
+    "https://www.gamesindustry.biz/reigns-developer-nerial-closes-following-significant-trading-losses-over-past-two-years",
+    "https://www.pcgamer.com/games/fighting/riots-absurd-expectations-of-player-counts-in-the-high-hundreds-of-thousands-if-not-millions-doomed-2xko-from-the-start/"
   ],
   "seen_titles": [
-    "call of duty movie - everything we know about the activision/paramount film coming in 2028",
-    "trails in the sky 2nd chapter launches september 17",
-    "metro 2039 will feature a new protagonist, out this winter",
-    "metro 2039 is coming to xbox this winter, gorgeous in-engine gameplay revealed",
     "starfield ps5 crash patch out now, but it only partly fixes ps5 pro",
     "homeworld junkies rejoice, brilliantly brutal sci-fi strategy sim nebulous is finally getting its singleplayer campaign",
     "trails in the sky 2nd chapter puts the remade jrpg classic on ps5 this september",
@@ -10001,13 +9997,13 @@
     "hollow knight: silksong fans should play castlevania: belmont's curse right now, because they can",
     "valve's patch note supremacy",
     "video game release dates: the biggest games coming soon",
-    "the team behind pixeljunk is partly to thank for ace combat 8's brilliant cloud tech"
+    "the team behind pixeljunk is partly to thank for ace combat 8's brilliant cloud tech",
+    "capcom announces plans to transform the re engine into an ai-generation game engine — ‘our goal is a future where we create games together with ai’",
+    "sonic racing: crossworlds \"final content drop of year one\" arrives this month",
+    "reigns developer nerial closes following \"significant trading losses\" over past two years",
+    "riot needed absurd player counts 'in the high hundreds of thousands, if not millions' for 2xko, dooming it from launch"
   ],
   "seen_story_keys": [
-    "b6b9648e6e97e3c1b37d30ea50ce9155f5fd9311",
-    "598dd6dd4e280834c9809e0eb8661906f0865aac",
-    "abcb6459563265fee4074fabb31df295ba89bcc8",
-    "68b6e2afbaba9372617fce9c12c48024b7ea3565",
     "17169f567fa38e59060b071f5a2b6439cf2357fa",
     "e04f716acd597a8a0279c1e7ccbc23cd2e223bb8",
     "a99b8b7782885dcbb50ef540ca2a88b97675b703",
@@ -15003,6 +14999,10 @@
     "bb44d109cc6c5cc1c2a49ea24943826cb78d705f",
     "9b92b2ec6ac8735e2c57b2e744ad3446bd28c38d",
     "560273b1aa8b1160f434713a6e8f9d77a5ed4e55",
-    "d2010ac7cf9e0a8867325d297147f5f6adf7dc59"
+    "d2010ac7cf9e0a8867325d297147f5f6adf7dc59",
+    "a10e98d5d76dae57a5b2ecdf64e22f6ad07e4b6e",
+    "04b0df29c3cf537b89687eb7de9aaff2ceff7b2e",
+    "a1e0ee24349055b8a8a6a3fda71226e4a3b0e96c",
+    "c4d4229ce61353616fdbfe23115a6331c637bc97"
   ]
 }
