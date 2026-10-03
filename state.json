@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/pokemon-pickmon-pickmos-pc-game-removed-from-steam/",
-    "https://www.nintendolife.com/news/2026/04/adorable-action-rpg-kitaria-fables-is-getting-a-switch-2-sequel",
-    "https://www.purexbox.com/news/2026/04/multiple-new-screenshots-revealed-for-resonance-a-plague-tale-legacy-coming-to-xbox-game-pass",
-    "https://www.nintendolife.com/news/2026/04/trails-in-the-sky-2nd-chapter-resolves-the-cliffhanger-on-switch-1-and-2-this-september",
     "https://www.gamesindustry.biz/weak-job-security-risks-an-industry-brain-drain-opinion",
     "https://www.eurogamer.net/the-division-originally-world-of-warcraft-style-mmorpg",
     "https://www.nintendolife.com/news/2026/04/it-really-represents-what-a-super-rare-game-should-be-heres-srgs-debut-switch-2-physical",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/dan-houser-absured-ventures-open-world-game/",
     "https://gamerant.com/lisa-playstation-controller-pre-order/",
     "https://www.gematsu.com/2026/10/invincible-vs-dlc-character-angstrom-levy-launches-october-13",
-    "https://www.gematsu.com/2026/10/croc-2-kingdom-of-the-gobbos-remaster-launches-october-29"
+    "https://www.gematsu.com/2026/10/croc-2-kingdom-of-the-gobbos-remaster-launches-october-29",
+    "https://gamerant.com/runescape-mmo-4-runefest-announcement/",
+    "https://www.polygon.com/runescape-4-announcement-runefest-reveal-jagex/",
+    "https://www.rockpapershotgun.com/reigns-and-card-shark-developers-nerial-are-closing-down-laying-staff-off-while-the-founders-go-back-to-our-roots",
+    "https://www.nintendolife.com/news/2026/10/croc-2-is-getting-the-remaster-treatment-later-this-month"
   ],
   "seen_titles": [
-    "a blatant pokémon ripoff was just pulled from steam before launch",
-    "adorable action rpg 'kitaria fables' is getting a switch 2 sequel",
-    "multiple new screenshots revealed for resonance: a plague tale legacy, coming to xbox game pass",
-    "trails in the sky 2nd chapter resolves the cliffhanger on switch 1 & 2 this september",
     "weak job security risks an industry brain drain | opinion",
     "the division was originally a world of warcraft style mmo, but \"that skill component wasn't there\", says massive entertainment",
     "\"it really represents what a super rare game should be\" - here's srg's debut switch 2 physical",
@@ -10001,13 +9997,13 @@
     "gta creator has avoided gta 6 while making new open-world games",
     "brand-new playstation controller available to pre-order right now",
     "invincible vs dlc character angstrom levy launches october 13",
-    "croc 2: kingdom of the gobbos remaster launches october 29"
+    "croc 2: kingdom of the gobbos remaster launches october 29",
+    "runescape 4 officially announced",
+    "runescape 4 officially revealed by jagex",
+    "reigns and card shark developers nerial are closing down, laying staff off while the founders go \"back to our roots\"",
+    "'croc 2' is getting the remaster treatment later this month"
   ],
   "seen_story_keys": [
-    "9d48cc8af1ddcad8fb8eeed831bb9a25aaadf100",
-    "8af5a87090dbfafc0def267bb16216ed26105c45",
-    "60f9d59ebabbdc411d17d505d54abbc2ed7cbc72",
-    "eb267663a1d13a77bf664fc385e75c146efb5f1a",
     "6da1a385bcfaf7a142fe4db16365942e3579d4e4",
     "b0250a9a3c95a0b303c3e34fc90c30f044140a77",
     "886046820a5d99a84a0da4d23a3bf1fa99839b23",
@@ -15003,6 +14999,10 @@
     "ab63baa07796b5a451d00733bc152d137cdb8572",
     "a34d4838269b973604015eec75b5cc12f18c7a0a",
     "c3da43848c2fc89fc8b6df654704e1e4d8c0cea3",
-    "bb8c207c37576550d6c97b13bf6a6b9e8a2bc1e3"
+    "bb8c207c37576550d6c97b13bf6a6b9e8a2bc1e3",
+    "d6b33d9500d213a36825ad3402f76550af155c6d",
+    "a5f22468f0decfa5d967841d22cd7ac0ecfda38f",
+    "657c0927ec1350151925968519a6049f72dda839",
+    "4553494f3d0b85dab82c569d29683f36e5d10b0f"
   ]
 }
