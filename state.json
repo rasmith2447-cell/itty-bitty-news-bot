@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/pirate-city-builder-corsair-cove-announced-for-pc",
-    "https://www.polygon.com/bafta-games-awards-2026-winners/",
-    "https://www.gamespot.com/articles/please-give-my-decades-old-pokemon-something-fun-to-do/1100-6539476/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/video-game-industry-woes-continue-with-more-mass-layoffs-at-iron-galaxy/1100-6539478/?ftag=CAD-01-10abi2f",
     "https://gamerant.com/wow-midnight-patch-12-0-5-twitch-drop-murloc-plushie/",
     "https://www.ign.com/articles/arc-raiders-players-are-disappointed-in-the-new-expedition-changes",
@@ -4999,12 +4996,12 @@
     "https://www.nintendolife.com/news/2026/10/runescape-dragonwilds-reveals-multi-year-roadmap",
     "https://www.gamesindustry.biz/consumer-protection-cooperation-network-launches-coordinated-actions-against-nine-companies-on-in-game-currency",
     "https://www.gematsu.com/2026/10/kena-scars-of-kosmora-delayed-to-2027",
-    "https://www.eurogamer.net/witcher-3-lighting-brightness-patch-remastered"
+    "https://www.eurogamer.net/witcher-3-lighting-brightness-patch-remastered",
+    "https://www.eurogamer.net/runescape-reignited-launch-date-2-december-economy-reset",
+    "https://www.purexbox.com/news/2026/10/three-day-one-xbox-game-pass-titles-are-confirmed-for-the-next-few-days-october-6-8",
+    "https://www.videogameschronicle.com/news/jagex-has-officially-announced-runescape-4/"
   ],
   "seen_titles": [
-    "pirate city builder corsair cove announced for pc",
-    "bafta games awards 2026 winners announced: the full list",
-    "please give my decades-old pokemon something fun to do",
     "video game industry woes continue with more mass layoffs at iron galaxy",
     "world of warcraft reveals midnight patch 12.0.5 twitch drop",
     "arc raiders players are disappointed in the new expedition changes",
@@ -10001,12 +9998,12 @@
     "runescape: dragonwilds reveals multi-year roadmap",
     "consumer protection cooperation network launches coordinated actions against nine companies on in-game currency | opinion",
     "kena: scars of kosmora delayed to 2027",
-    "witcher 3 remastered patch addressing \"various lighting adjustments\" rolls out"
+    "witcher 3 remastered patch addressing \"various lighting adjustments\" rolls out",
+    "runescape reignited launches 2 december",
+    "three 'day one' xbox game pass titles are confirmed for the next few days (october 6-8)",
+    "jagex has officially announced runescape 4"
   ],
   "seen_story_keys": [
-    "6d8444d069f4510685e966f648fa676f38027a10",
-    "28cc74f42b90c6dbe20bf6258e04a4110e0247e5",
-    "958ec77b2f623fdb509f8716838b98736d30076b",
     "5ae515aeb49d75a3fc2b3870434419f22b2db8e8",
     "3def16d3780afca6aede67846fc222f90e34556e",
     "696f34e0752814b670ec0be89ab920494dd993df",
@@ -15003,6 +15000,9 @@
     "fa533c01a13e5ebdcb3392e2ea2a49d307f686f6",
     "09a59ba3cecb1e9db32c88243cfd407a661fe5e5",
     "868c0ae6ecbb32ef43fdef03b9ae023346633424",
-    "3e5d2ff1f34aa76098f20f09721683585aa4d008"
+    "3e5d2ff1f34aa76098f20f09721683585aa4d008",
+    "24ecb80fbecd1990d35494cd1ec01fd218f5b481",
+    "d6b087fa3d0fd26d15750f247c665300bc4162bf",
+    "2782612a071129ed9cb28ab89c6eb87575c55266"
   ]
 }
