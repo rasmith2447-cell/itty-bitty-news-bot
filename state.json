@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/arc-raiders-expedition-3-deal-damage-change/",
-    "https://gamerant.com/final-fantasy-14-dawntrail-patch-7-5-trailer-details-beastmaster-msq-fanfest/",
-    "https://gamerant.com/gta-6-release-date-update/",
-    "https://www.ign.com/articles/avengers-doomsday-cast-update",
     "https://www.gematsu.com/2026/04/pirate-city-builder-corsair-cove-announced-for-pc",
     "https://www.polygon.com/bafta-games-awards-2026-winners/",
     "https://www.gamespot.com/articles/please-give-my-decades-old-pokemon-something-fun-to-do/1100-6539476/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/bethesda-fallout-76-roadmap-2027/",
     "https://www.pcgamer.com/games/rpg/crimson-desert-dlc-delayed-by-2-weeks-please-join-me-in-wishing-the-devs-a-fond-take-your-time-please-drink-some-water/",
     "https://www.gematsu.com/2026/10/new-runescape-mmo-rs4-announced",
-    "https://www.purexbox.com/news/2026/10/two-metro-redux-games-are-getting-free-xbox-series-xs-upgrades-this-october"
+    "https://www.purexbox.com/news/2026/10/two-metro-redux-games-are-getting-free-xbox-series-xs-upgrades-this-october",
+    "https://www.nintendolife.com/news/2026/10/runescape-dragonwilds-reveals-multi-year-roadmap",
+    "https://www.gamesindustry.biz/consumer-protection-cooperation-network-launches-coordinated-actions-against-nine-companies-on-in-game-currency",
+    "https://www.gematsu.com/2026/10/kena-scars-of-kosmora-delayed-to-2027",
+    "https://www.eurogamer.net/witcher-3-lighting-brightness-patch-remastered"
   ],
   "seen_titles": [
-    "arc raiders reveals major change for third expedition",
-    "final fantasy 14 reveals final details for dawntrail patch 7.5",
-    "an official gta 6 release date update is coming soon",
-    "avengers: doomsday cast update",
     "pirate city builder corsair cove announced for pc",
     "bafta games awards 2026 winners announced: the full list",
     "please give my decades-old pokemon something fun to do",
@@ -10001,13 +9997,13 @@
     "bethesda gives official update on the future of fallout",
     "crimson desert dlc delayed by 2 weeks, please join me in wishing the devs a fond 'take your time, please drink some water'",
     "new runescape mmo ‘rs4’ announced",
-    "two metro redux games are getting free xbox series x|s upgrades this october"
+    "two metro redux games are getting free xbox series x|s upgrades this october",
+    "runescape: dragonwilds reveals multi-year roadmap",
+    "consumer protection cooperation network launches coordinated actions against nine companies on in-game currency | opinion",
+    "kena: scars of kosmora delayed to 2027",
+    "witcher 3 remastered patch addressing \"various lighting adjustments\" rolls out"
   ],
   "seen_story_keys": [
-    "0608d8b1090a2b40ebf5e032cf247c9aa9ca4eef",
-    "62b7a92bc34c28601251b28dc34c9a7b3cc9a3ba",
-    "506c160133554bd342133dca0f1ccc0861d120dc",
-    "adce87110e6cab4a1a8fa446626dee882bcc8402",
     "6d8444d069f4510685e966f648fa676f38027a10",
     "28cc74f42b90c6dbe20bf6258e04a4110e0247e5",
     "958ec77b2f623fdb509f8716838b98736d30076b",
@@ -15003,6 +14999,10 @@
     "500a425e05eeb3da81d198a148ed9c8463d71e7e",
     "6354cf2ac6abfe1acaa9190eca6a4b5cb6db7354",
     "bbfdde231dbe89399c46f40275792f3f83c03051",
-    "bd150cf32d4f15c4ab5b391d3bbcee4b3c54dd8c"
+    "bd150cf32d4f15c4ab5b391d3bbcee4b3c54dd8c",
+    "fa533c01a13e5ebdcb3392e2ea2a49d307f686f6",
+    "09a59ba3cecb1e9db32c88243cfd407a661fe5e5",
+    "868c0ae6ecbb32ef43fdef03b9ae023346633424",
+    "3e5d2ff1f34aa76098f20f09721683585aa4d008"
   ]
 }
