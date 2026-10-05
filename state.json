@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/crimson-deserts-next-ps5-patch-could-be-its-biggest-yet",
-    "https://gamerant.com/crimson-desert-next-update-details/",
-    "https://gamerant.com/overwatch-sierra-update-buffs/",
-    "https://gamerant.com/ghost-of-yotei-wolf-pet/",
     "https://www.ign.com/articles/slay-the-spire-2-roadmap-has-no-release-dates-so-dev-can-avoid-sloppy-spire-2",
     "https://gamerant.com/pokemon-winds-waves-release-date-rumor-anime/",
     "https://gamerant.com/hbo-max-india-jiohotstar/",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/10/part-1-of-gran-turismo-7s-massive-spec-4-update-is-available-very-soon-on-ps5-ps4",
     "https://www.polygon.com/kpop-demon-hunters-magic-secret-lair-expands/",
     "https://www.eurogamer.net/ace-combat-8-steam-launch-record-players",
-    "https://www.purexbox.com/news/2026/10/two-more-games-revealed-for-xbox-game-pass-in-2026-including-a-surprise-shadow-drop1"
+    "https://www.purexbox.com/news/2026/10/two-more-games-revealed-for-xbox-game-pass-in-2026-including-a-surprise-shadow-drop1",
+    "https://www.eurogamer.net/gta-6-devs-bandwagon-trends-created-slanted-versions",
+    "https://gamerant.com/baldurs-gate-3-patchy-beard-fix-live-service-rpg-long-term-support/",
+    "https://www.purexbox.com/news/2026/10/five-months-later-xbox-player-voice-feels-stuck-between-useful-and-cluttered",
+    "https://www.polygon.com/the-witcher-3-remaster-performance-fixes/"
   ],
   "seen_titles": [
-    "crimson desert's next ps5 patch could be its biggest yet",
-    "crimson desert reveals what's coming in the next update",
-    "overwatch buffs new hero sierra on her birthday",
-    "ghost of yotei wolf petting is actually a lot weirder than you realize",
     "slay the spire 2 roadmap has no release dates so dev can avoid 'sloppy spire 2'",
     "pokemon anime gives a much better idea of when to expect the winds and waves release date",
     "hbo max finally comes to india",
@@ -10001,13 +9997,13 @@
     "'part 1' of gran turismo 7's massive spec 4 update is available very soon on ps5, ps4",
     "magic is planning another kpop demon hunters collab after secret lair drop",
     "ace combat 8 is far and away the series' biggest launch on steam",
-    "two more games revealed for xbox game pass in 2026, including a surprise shadow drop"
+    "two more games revealed for xbox game pass in 2026, including a surprise shadow drop",
+    "gta 6 devs tried \"not to jump on the bandwagon\" of passing trends and instead created their \"own slanted, overblown versions\"",
+    "after 3 years, baldur's gate 3 just fixed an issue even live-service rpgs would probably let linger",
+    "five months later, xbox player voice feels stuck between useful and cluttered",
+    "cd projekt promises 'the witcher 3' remaster fixes as some players struggle"
   ],
   "seen_story_keys": [
-    "dfe9e28edaf9be8efc9f6b562c76fa1f31d71f3e",
-    "b922ad141450cdee03435357efb1945a91f40c38",
-    "5373d3c4ae2945b9629297c6a70cd577e34b92fc",
-    "ba835b84bcc40dc39c137dcc6e10c08def74d6a0",
     "4bbff0859d7b3b4608729b0fd53cee3645815a68",
     "3d13c99bae8f79a3fdc4d5eb704a23540b0e5619",
     "2185ad3f332a71be963c17f3d133a9ef8289e4f0",
@@ -15003,6 +14999,10 @@
     "6cfbbef30507b5b834ba573b2b2d21a90e6dd397",
     "2e85f35097e0f143595c09267963e1e80ee2f485",
     "6fb3401be08c97dc5c7fd0500c691a12b60b753f",
-    "6be01c17fc35254a13403d5e2adf5199b57762a9"
+    "6be01c17fc35254a13403d5e2adf5199b57762a9",
+    "5b5810174062be1804cd664019294c6da5102ecc",
+    "d2f0cab2c1160985662a99da59b55727c5a85240",
+    "5a65f5c4847204f8419c9b648989240bc03cca30",
+    "beef5694b3e6cc83547602a75a9da4c5566fa65e"
   ]
 }
