@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/04/two-long-awaited-xbox-indies-have-sadly-been-delayed-out-of-april",
-    "https://www.pcgamer.com/games/fps/last-flag-the-debut-game-from-the-studio-founded-by-imagine-dragons-lead-singer-becomes-the-latest-multiplayer-shooter-struggling-to-find-an-audience/",
-    "https://gamerant.com/phasmophobia-alan-wake-crossover-collab-event/",
     "https://www.polygon.com/slay-the-spire-2-first-roadmap/",
     "https://gamerant.com/video/everything-playstation-fix-before-ps6-under-5-minutes-save-delay/",
     "https://www.ign.com/articles/crimson-deserts-next-major-patch-adds-difficulty-settings-and-inventory-tabs-next-week",
@@ -4999,12 +4996,12 @@
     "https://www.polygon.com/saturday-night-live-zelda-vs-gta-6/",
     "https://gamerant.com/ps5-new-fps-games-metro-redux-october/",
     "https://gamerant.com/cyberpunk-2077-gears-war-e-day-steam-sales/",
-    "https://gamerant.com/pt-pc-port-hideo-kojima-silent-hills/"
+    "https://gamerant.com/pt-pc-port-hideo-kojima-silent-hills/",
+    "https://www.pcgamer.com/games/the-elder-scrolls/its-easy-to-forget-now-but-the-first-elder-scrolls-game-had-a-rough-launch-back-in-the-day-it-was-a-disaster-in-a-lot-of-ways-and-somehow-built-a-billion-dollar-franchise/",
+    "https://www.polygon.com/the-legend-of-zelda-ocarina-of-time-lego-set/",
+    "https://www.gematsu.com/2026/10/psikyo-memories-launches-february-18-2027"
   ],
   "seen_titles": [
-    "two long-awaited xbox indies have sadly been delayed out of april",
-    "last flag, the debut game from the studio founded by imagine dragons' lead singer, becomes the latest multiplayer shooter struggling to find an audience",
-    "alan wake is officially crossing over with phasmophobia",
     "slay the spire 2 dev avoids putting dates on first roadmap",
     "everything playstation needs to fix before ps6 (in under 5 minutes)",
     "crimson desert's next major patch adds difficulty settings and inventory tabs next week",
@@ -10001,12 +9998,12 @@
     "link and gta 6's jason get into a heated debate in hilarious snl weekend update bit",
     "4.6/5 post-apocalyptic fps confirmed for ps5 on october 29",
     "cyberpunk 2077 officially beats gears of war: e-day on steam",
-    "canceled hideo kojima game p.t. is making a comeback"
+    "canceled hideo kojima game p.t. is making a comeback",
+    "it's easy to forget now, but the first elder scrolls game had a rough launch back in the day: 'it was a disaster in a lot of ways and somehow built a billion-dollar franchise'",
+    "zelda: ocarina of time's link and epona get official new lego set",
+    "psikyo memories launches february 18, 2027"
   ],
   "seen_story_keys": [
-    "c7ae6a6318d9f1e5440196ce6861bdce86599987",
-    "0efa146c2d1c728f0bd27154f97e3565acdefde6",
-    "17fa8cc3307af5793b1bf7f51528bb27837344ce",
     "e6e54d58e77f46dba66531dd81af56f63b6e0800",
     "1570771d68e58b59f57603dff716fe4f526125aa",
     "99d21be742ba3fa5e391250a2d829ac132eba909",
@@ -15003,6 +15000,9 @@
     "bfc37443a1866684a53ae4f423133ffc3d8a0692",
     "8991cf7b98bd6f3bd622f528933490d910b37c35",
     "36bf75e077a802eab32e85e368bfcf7ce36908d5",
-    "785d43a9ebc75e74ee8d1778fe8909f6f914c192"
+    "785d43a9ebc75e74ee8d1778fe8909f6f914c192",
+    "0f4e1187ae286a0ea8c4396813c93c7aeb6c915d",
+    "7a83c2b5fca05d09aa5a8fe1f37462088bdf28ad",
+    "bb1762adc61f478448119af85bc0d4546df647e4"
   ]
 }
