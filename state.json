@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/crimson-desert-dev-thanks-you-for-your-patience-as-it-takes-a-little-extra-time-to-test-and-polish-its-next-big-patch",
-    "https://www.polygon.com/windrose-steam-top-trending-game/",
-    "https://gamerant.com/pokemon-tcg-live-update-patch-notes-april-2026/",
-    "https://www.eurogamer.net/surprise-nintendo-launches-new-pop-up-store-in-london",
     "https://www.ign.com/articles/windrose-celebrates-1-million-copies-sold-as-player-counts-climb",
     "https://gamerant.com/dragon-ball-super-frieza-anime/",
     "https://www.polygon.com/dragon-ball-games-battle-hour-2026-every-announcement-xenoverse-3/",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/10/nintendo-releases-hello-peach-and-hello-luigi-app-for-switch-and-mobile-devices",
     "https://www.nintendolife.com/news/2026/10/i-wanted-to-challenge-myself-former-warioware-director-talks-life-after-nintendo",
     "https://www.eurogamer.net/ninja-theory-hellblade-developers-layoffs-xbox-cuts",
-    "https://www.pushsquare.com/news/2026/10/hellblade-dev-begins-shedding-staff-months-after-revealing-new-game-at-xbox-showcase"
+    "https://www.pushsquare.com/news/2026/10/hellblade-dev-begins-shedding-staff-months-after-revealing-new-game-at-xbox-showcase",
+    "https://www.gematsu.com/2026/10/at-fates-end-delayed-to-2027-pc-demo-now-available",
+    "https://www.ign.com/articles/warhammer-survivors-release-date-revealed-alongside-a-new-demo-you-can-play-right-now",
+    "https://www.pushsquare.com/news/2026/10/warhammers-vampire-survivors-like-brings-insane-pixel-action-to-ps5-in-november",
+    "https://www.gematsu.com/2026/10/warhammer-survivors-launches-november-10"
   ],
   "seen_titles": [
-    "crimson desert dev thanks you for your patience as it takes a little extra time to \"test and polish\" its next big patch",
-    "windrose proves we don't need black flag yet as steam's trending #1 game",
-    "pokemon tcg live making big changes in upcoming april 2026 update",
-    "surprise! nintendo launches new pop-up store in london",
     "windrose celebrates 1 million copies sold as player counts climb",
     "dragon ball super: frieza anime officially coming fall 2026",
     "dragon ball xenoverse 3 and everything else announced at dragon ball games battle hour 2026",
@@ -10001,13 +9997,13 @@
     "nintendo releases 'hello, peach!' and 'hello, luigi!' app for switch & mobile devices",
     "\"i wanted to challenge myself\" - former warioware director talks life after nintendo",
     "ninja theory developers announce they are facing redundancy, as the studio starts laying off staff following widespread xbox cuts",
-    "hellblade dev begins shedding staff, months after revealing new game at xbox showcase"
+    "hellblade dev begins shedding staff, months after revealing new game at xbox showcase",
+    "at fate’s end delayed to 2027, pc demo now available",
+    "warhammer survivors release date revealed alongside a new demo you can play right now",
+    "warhammer's vampire survivors-like brings insane pixel action to ps5 in november",
+    "warhammer survivors launches november 10"
   ],
   "seen_story_keys": [
-    "47ac4eff043b3b84b9a77ebddec44fdfcb6348f1",
-    "d16e8cbefd567e5d627fbd8c30352595ae00aee7",
-    "7079fe3b2d597bc377245fcfc3a32dc59f6a84b2",
-    "9e89875c8a5d1c65aa91f6bfeeb936e69b69f843",
     "df87fdb3f181dce2934c7080ee4fe8d0bffb515d",
     "265d77730c108d0793ee964aaa31e47f4a940c00",
     "7157eddbd9c4c0ca82c3af2c70cfa404dbfc14c7",
@@ -15003,6 +14999,10 @@
     "1d8739182a59f2f39729f5cf43573707cda0c615",
     "4ac1a279458f3616ce491bd62b1f24a9ecdd3181",
     "9158973b619407673e070ac9b089639be56e5ed9",
-    "fb18fa9e045c60372ce355a76f4e9f9b11736181"
+    "fb18fa9e045c60372ce355a76f4e9f9b11736181",
+    "44d6e1ead930c5948e179a49a3990162b7f130f0",
+    "494c7999eae02ccd95f4304595d8f951a18e62de",
+    "91376e11c94c2342d3fab393a5080ee18582cee6",
+    "06a55845dfb8eabbd683d3a9f789204274a53e2f"
   ]
 }
