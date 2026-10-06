@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/windrose-celebrates-1-million-copies-sold-as-player-counts-climb",
-    "https://gamerant.com/dragon-ball-super-frieza-anime/",
-    "https://www.polygon.com/dragon-ball-games-battle-hour-2026-every-announcement-xenoverse-3/",
-    "https://gamerant.com/borderlands-mobile-full-launch-wish-list-platforms-microtransactions/",
     "https://gamerant.com/dragon-ball-xenoverse-3-age-1000/",
     "https://www.polygon.com/dragon-ball-xenoverse-3-announced/",
     "https://gamerant.com/dragon-ball-sparking-zero-super-limit-breaking-neo-new-characters-trailer/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/10/at-fates-end-delayed-to-2027-pc-demo-now-available",
     "https://www.ign.com/articles/warhammer-survivors-release-date-revealed-alongside-a-new-demo-you-can-play-right-now",
     "https://www.pushsquare.com/news/2026/10/warhammers-vampire-survivors-like-brings-insane-pixel-action-to-ps5-in-november",
-    "https://www.gematsu.com/2026/10/warhammer-survivors-launches-november-10"
+    "https://www.gematsu.com/2026/10/warhammer-survivors-launches-november-10",
+    "https://www.rockpapershotgun.com/cancelled-mmo-spin-off-borderlands-online-is-playable-once-again-and-the-team-behind-the-unofficial-project-thankfully-didnt-use-any-genai-to-get-it-running",
+    "https://www.purexbox.com/news/2026/10/xbox-boss-suggests-project-helix-wont-be-the-only-next-gen-system-from-microsoft",
+    "https://www.polygon.com/marvel-unlimited-shutting-down-webtoon-digital-comics-app/",
+    "https://www.pushsquare.com/news/2026/10/marvel-tokon-will-fully-reveal-first-dlc-fighter-phoenix-cyclops-this-week"
   ],
   "seen_titles": [
-    "windrose celebrates 1 million copies sold as player counts climb",
-    "dragon ball super: frieza anime officially coming fall 2026",
-    "dragon ball xenoverse 3 and everything else announced at dragon ball games battle hour 2026",
-    "borderlands mobile full launch wish list",
     "dragon ball xenoverse 3 officially releasing in 2027 for ps5, xbox, & steam",
     "dragon ball xenoverse 3 is finally here after a decade of waiting",
     "dragon ball: sparking! zero super limit breaking neo officially revealed",
@@ -10001,13 +9997,13 @@
     "at fate’s end delayed to 2027, pc demo now available",
     "warhammer survivors release date revealed alongside a new demo you can play right now",
     "warhammer's vampire survivors-like brings insane pixel action to ps5 in november",
-    "warhammer survivors launches november 10"
+    "warhammer survivors launches november 10",
+    "cancelled mmo spin-off borderlands online is playable once again, and the team behind the unofficial project thankfully didn't use any genai to get it running",
+    "xbox boss suggests project helix won't be the only next-gen system from microsoft",
+    "marvel unlimited is officially shutting down in 2026",
+    "marvel tokon will fully reveal first dlc fighter phoenix cyclops this week"
   ],
   "seen_story_keys": [
-    "df87fdb3f181dce2934c7080ee4fe8d0bffb515d",
-    "265d77730c108d0793ee964aaa31e47f4a940c00",
-    "7157eddbd9c4c0ca82c3af2c70cfa404dbfc14c7",
-    "bebc3e17b58eb3fb1efa2dcc4df578080d356caf",
     "a9393c8bedbaf42f717bade503cccf41536cf23b",
     "a0259e4f19f64c85825f0c26dc881103d6b471e9",
     "d56c1b4ea57981de294ed8660d922945bed77674",
@@ -15003,6 +14999,10 @@
     "44d6e1ead930c5948e179a49a3990162b7f130f0",
     "494c7999eae02ccd95f4304595d8f951a18e62de",
     "91376e11c94c2342d3fab393a5080ee18582cee6",
-    "06a55845dfb8eabbd683d3a9f789204274a53e2f"
+    "06a55845dfb8eabbd683d3a9f789204274a53e2f",
+    "ebded2c3367eef487d1cbe51dded80269b45d1e7",
+    "cf52e563c8e1fe5f7f6552657b1bb7853f4cc5ce",
+    "9141684221a42f932ddff1a065bf9e171a8e68fe",
+    "bd8093ceced8dde5f5656793b02cdc4f769e5a3b"
   ]
 }
