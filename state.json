@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/slay-the-spire-2-roadmap-has-no-release-dates-so-dev-can-avoid-sloppy-spire-2",
-    "https://gamerant.com/pokemon-winds-waves-release-date-rumor-anime/",
-    "https://gamerant.com/hbo-max-india-jiohotstar/",
-    "https://gamerant.com/scream-7-4k-bluray-release-date/",
     "https://www.nintendolife.com/news/2026/04/metroid-prime-remastered-studio-iron-galaxy-announces-more-layoffs",
     "https://www.gematsu.com/2026/04/neverness-to-everness-launch-trailer-music-collaborations-announced",
     "https://gamerant.com/iron-galaxy-layoffs-2026/",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/gta-6-devs-bandwagon-trends-created-slanted-versions",
     "https://gamerant.com/baldurs-gate-3-patchy-beard-fix-live-service-rpg-long-term-support/",
     "https://www.purexbox.com/news/2026/10/five-months-later-xbox-player-voice-feels-stuck-between-useful-and-cluttered",
-    "https://www.polygon.com/the-witcher-3-remaster-performance-fixes/"
+    "https://www.polygon.com/the-witcher-3-remaster-performance-fixes/",
+    "https://www.gematsu.com/2026/10/switch-2-japanese-language-system-choose-your-game-bundle-launches-november-12-in-japan",
+    "https://gamerant.com/gta-6-devs-cops-gang-members-florida-research/",
+    "https://www.pcgamer.com/gaming-industry/industry-layoff-watch-supermassive-ninja-theory-the-coalition-and-a-warning-from-warhorse/",
+    "https://www.gematsu.com/2026/10/work-work-work-prologue-demo-launches-october-8"
   ],
   "seen_titles": [
-    "slay the spire 2 roadmap has no release dates so dev can avoid 'sloppy spire 2'",
-    "pokemon anime gives a much better idea of when to expect the winds and waves release date",
-    "hbo max finally comes to india",
-    "scream 7 finally gets 4k blu-ray release date",
     "metroid prime remastered studio 'iron galaxy' announces more layoffs",
     "neverness to everness launch trailer; music collaborations announced",
     "iron galaxy hit with more layoffs",
@@ -10001,13 +9997,13 @@
     "gta 6 devs tried \"not to jump on the bandwagon\" of passing trends and instead created their \"own slanted, overblown versions\"",
     "after 3 years, baldur's gate 3 just fixed an issue even live-service rpgs would probably let linger",
     "five months later, xbox player voice feels stuck between useful and cluttered",
-    "cd projekt promises 'the witcher 3' remaster fixes as some players struggle"
+    "cd projekt promises 'the witcher 3' remaster fixes as some players struggle",
+    "switch 2 japanese-language system ‘choose-your-game bundle’ launches november 12 in japan",
+    "gta 6 devs traveled with cops and gang members for florida research",
+    "industry layoff watch: supermassive, ninja theory, the coalition, and a warning from warhorse",
+    "work work work ‘prologue’ demo launches october 8"
   ],
   "seen_story_keys": [
-    "4bbff0859d7b3b4608729b0fd53cee3645815a68",
-    "3d13c99bae8f79a3fdc4d5eb704a23540b0e5619",
-    "2185ad3f332a71be963c17f3d133a9ef8289e4f0",
-    "ea8d48c467ce7666f193bd0de707ac180df2f4cc",
     "f301cd01b45d084378320ea8cfbe11e0ee8ef434",
     "8cbfc9299ef4fd44dd31c1975b55ff99c1501d65",
     "aa97acd4d7d2c839ae7b5048895dc7fa3f113ef4",
@@ -15003,6 +14999,10 @@
     "5b5810174062be1804cd664019294c6da5102ecc",
     "d2f0cab2c1160985662a99da59b55727c5a85240",
     "5a65f5c4847204f8419c9b648989240bc03cca30",
-    "beef5694b3e6cc83547602a75a9da4c5566fa65e"
+    "beef5694b3e6cc83547602a75a9da4c5566fa65e",
+    "3c8df55c32d3490c55f48fec172a8666afd244c9",
+    "83322dbfc2b75e75a074543c1b98f61ecacbb144",
+    "7c09872f4394bd75636c45043c97e0edce1ee910",
+    "a4f9d3656b83e348b179873ec5bf3b37fea6a019"
   ]
 }
