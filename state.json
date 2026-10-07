@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/dragon-ball-xenoverse-2-dlc-future-saga-chapter-4-launches-this-summer",
-    "https://www.gematsu.com/2026/04/dragon-ball-sparking-zero-dlc-super-limit-breaking-neo-announced",
-    "https://www.gematsu.com/2026/04/nioh-3-update-launches-april-27-adds-multiple-high-difficulty-battle-scrolls",
-    "https://gamerant.com/zelda-movie-link-first-look/",
     "https://www.gematsu.com/2026/04/goonya-monster-spin-off-games-launch-april-27-for-switch-pc",
     "https://www.gematsu.com/2026/04/dragon-ball-xenoverse-3-announced-for-ps5-xbox-series-and-pc",
     "https://www.gamesindustry.biz/clair-obscur-expedition-33-and-dispatch-lead-at-bafta-awards-2026",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/10/sega-responds-to-sonics-wild-start-on-discord",
     "https://www.nintendolife.com/news/2026/10/konami-announces-the-composer-for-castlevania-belmonts-curse",
     "https://www.nintendolife.com/news/2026/10/rise-of-the-tomb-raider-switch-2-limited-run-physical-release-announced",
-    "https://www.nintendolife.com/news/2026/10/eb-games-is-opening-north-americas-first-ever-nintendo-store-within-a-store-experience"
+    "https://www.nintendolife.com/news/2026/10/eb-games-is-opening-north-americas-first-ever-nintendo-store-within-a-store-experience",
+    "https://www.purexbox.com/news/2026/10/three-xbox-games-are-out-today-including-a-cruise-worthy-excuse-to-draw-french-girls-october-7",
+    "https://www.ign.com/articles/perfect-dark-reboot-footage-leak",
+    "https://www.nintendolife.com/news/2026/10/pokemon-pokopias-new-mystery-gift-distribution-is-now-available",
+    "https://www.purexbox.com/news/2026/10/007-first-light-quietly-adds-60fps-mode-for-xbox-series-s-and-heres-a-first-look"
   ],
   "seen_titles": [
-    "dragon ball xenoverse 2 dlc ‘future saga chapter 4’ launches this summer",
-    "dragon ball: sparking! zero dlc ‘super limit-breaking neo’ announced",
-    "nioh 3 update launches april 27, adds multiple high-difficulty battle scrolls",
-    "zelda movie reveals first full look at link",
     "goonya monster spin-off games launch april 27 for switch, pc",
     "dragon ball xenoverse 3 announced for ps5, xbox series, and pc",
     "clair obscur: expedition 33 and dispatch lead at bafta awards 2026",
@@ -10001,13 +9997,13 @@
     "sega responds to sonic's wild start on discord",
     "konami announces the composer for castlevania: belmont's curse",
     "rise of the tomb raider switch 2 limited run physical release announced",
-    "eb games is opening north america's first-ever nintendo \"store-within-a-store\" experience"
+    "eb games is opening north america's first-ever nintendo \"store-within-a-store\" experience",
+    "three xbox games are out today, including a cruise-worthy excuse to draw french girls (october 7)",
+    "footage from canceled perfect dark reboot surfaces, showing off fruit physics and parkour",
+    "pokémon pokopia's new mystery gift distribution is now available",
+    "007 first light quietly adds 60fps mode for xbox series s, and here's a first look"
   ],
   "seen_story_keys": [
-    "85da914920c64042d43d7b927c06ffb540ab408d",
-    "2e52906704b263be8412aac242002821d518e20c",
-    "265656c80a2b7a3c78ebbe384f747b8ea180b62d",
-    "00f80ab429f842f502f923cb48b2bcc708af9c43",
     "3e45781b0388d230717e7af2e50f6d6f498295a5",
     "3dff1808884f6ed9c4334129936fcb36de2fc567",
     "6fef10007f7063bcb7780531fabae7bd621fc727",
@@ -15003,6 +14999,10 @@
     "69a7082584aa61d8689f35bacc78ef8ffb44ccc6",
     "58a0b23dc97e2490480485e1254970ae24ec81ba",
     "9742f7a5bf02f996a62284e9571579077da8bdbb",
-    "9d01d2dae51919a689d662731ab4a83322869684"
+    "9d01d2dae51919a689d662731ab4a83322869684",
+    "bc86fc7569116224fccfd5d04bf04d272422c913",
+    "66e1c4a86d1c98eab042f7774e52c898ec8771d0",
+    "a1b7f4b5983b7c823373963d6b6e43366f84da0c",
+    "d90cc59ac4a99eece9da0cd56c18bb718e01fa7a"
   ]
 }
