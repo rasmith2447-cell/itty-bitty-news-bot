@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamesindustry.biz/iron-galaxy-studios-announces-further-layoffs-unknown-number-of-staff-affected",
-    "https://www.eurogamer.net/tony-hawk-pro-skater-remaster-developer-iron-galaxy-april-2026-layoffs",
-    "https://www.eurogamer.net/dragon-ball-xenoverse-3-announced",
-    "https://www.ign.com/articles/escape-from-tarkov-update",
     "https://www.pushsquare.com/news/2026/04/we-havent-forgotten-you-no-rest-for-the-wicked-dev-teases-action-rpgs-ps5-release",
     "https://www.purexbox.com/news/2026/04/xboxs-next-first-party-game-arrives-this-week-and-preloads-have-already-begun",
     "https://www.ign.com/articles/dragon-ball-games-battle-hour-2026-everything-announced",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/10/marvel-tokon-fighting-souls-dlc-character-phoenix-cyclops-launches-november-2",
     "https://www.polygon.com/ps4-horror-game-pt-hideo-kojima-silent-hills-playable-teaser/",
     "https://www.eurogamer.net/xbox-game-pass-lineup-october-2026",
-    "https://www.purexbox.com/news/2026/10/these-nine-games-are-coming-to-xbox-game-pass-including-battlefield-6-october-8-16"
+    "https://www.purexbox.com/news/2026/10/these-nine-games-are-coming-to-xbox-game-pass-including-battlefield-6-october-8-16",
+    "https://www.gematsu.com/2026/10/crunchyroll-dedicated-hub-announced-for-ps5",
+    "https://gamerant.com/fable-reboot-peter-molyneux-playground-games-praise/",
+    "https://www.gematsu.com/2026/10/becrowned-adds-ps5-xbox-series-and-switch-2-versions-delayed-to-q1-2027",
+    "https://www.gematsu.com/2026/10/dead-of-darkness-2-announced-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc"
   ],
   "seen_titles": [
-    "iron galaxy studios announces further layoffs, unknown number of staff affected",
-    "tony hawk's pro skater 3+4 developer iron galaxy announces more layoffs after cuts in early 2025",
-    "dragon ball xenoverse 3 officially revealed, coming in 2027 to consoles and pc",
-    "escape from tarkov update",
     "'we haven't forgotten you': no rest for the wicked dev teases action rpg's ps5 release",
     "xbox's next first-party game arrives this week, and preloads have already begun",
     "dragon ball games battle hour 2026: everything announced",
@@ -10001,13 +9997,13 @@
     "marvel tokon: fighting souls dlc character phoenix cyclops launches november 2",
     "12 years later, canceled kojima game 'p.t.' makes a comeback",
     "here are our xbox game pass games for october 2026",
-    "these nine games are coming to xbox game pass, including battlefield 6 (october 8-16)"
+    "these nine games are coming to xbox game pass, including battlefield 6 (october 8-16)",
+    "crunchyroll dedicated hub announced for ps5",
+    "fable's creator just revealed something that makes playground's reboot harder to dismiss",
+    "becrowned adds ps5, xbox series, and switch 2 versions, delayed to q1 2027",
+    "dead of darkness 2 announced for ps5, xbox series, ps4, xbox one, switch, and pc"
   ],
   "seen_story_keys": [
-    "77cbe0e4a952ee19c18e789bd3fad867a3780dd1",
-    "4fafd1f226665b1951ddd66da6362a505b424f6d",
-    "bbcffca1587a5dfa2043f9054c70c22f484ce42e",
-    "53821e453c05acc26d79553b027bface9c1473ff",
     "4d2d634e81852db28eb95215f4eafc290bce93f2",
     "14d5b4be5116877de3ee9c6277e4d24998b74a2b",
     "76e04b71cf5d0df6401a7b91737fb4e1e6e1bf0b",
@@ -15003,6 +14999,10 @@
     "0ea1a8dc4c9061317706d16d2aa4066e8803cd0d",
     "9f6fa5e966d134a7f556312c6c7d1ed4aa2c8a48",
     "ecde066564cfda0892db2ade252f6a76d9806499",
-    "ff6856161efb631b86d0a384c5b62a9afe0da992"
+    "ff6856161efb631b86d0a384c5b62a9afe0da992",
+    "20be179cae7718fa2e03681f0c5bf328d8528abe",
+    "b730c83af149cce5b67a5510ea710cb4022acff9",
+    "71c43e0b0302f32c5f9e23f6a8d4b2182c635b0a",
+    "cdba42632cf1c7b90eeb7db647bc7fa5a33fef5a"
   ]
 }
