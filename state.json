@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/we-havent-forgotten-you-no-rest-for-the-wicked-dev-teases-action-rpgs-ps5-release",
-    "https://www.purexbox.com/news/2026/04/xboxs-next-first-party-game-arrives-this-week-and-preloads-have-already-begun",
-    "https://www.ign.com/articles/dragon-ball-games-battle-hour-2026-everything-announced",
-    "https://www.ign.com/articles/former-the-last-of-us-dev-hints-at-potential-future-story",
     "https://gamerant.com/demon-slayer-infinity-castle-blu-ray-dvd-release-date/",
     "https://www.pushsquare.com/news/2026/04/with-pragmata-out-this-vapourware-indie-title-is-the-only-unreleased-game-from-ps5s-reveal",
     "https://www.purexbox.com/news/2026/04/xbox-to-highlight-tons-of-games-in-idatxbox-showcase-later-this-week",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/10/crunchyroll-dedicated-hub-announced-for-ps5",
     "https://gamerant.com/fable-reboot-peter-molyneux-playground-games-praise/",
     "https://www.gematsu.com/2026/10/becrowned-adds-ps5-xbox-series-and-switch-2-versions-delayed-to-q1-2027",
-    "https://www.gematsu.com/2026/10/dead-of-darkness-2-announced-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc"
+    "https://www.gematsu.com/2026/10/dead-of-darkness-2-announced-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc",
+    "https://gamerant.com/xbox-game-pass-new-games-october-2026-list/",
+    "https://www.gamesindustry.biz/star-wars-zero-company-developer-bit-reactor-begins-bringing-furloughed-staff-back",
+    "https://www.gematsu.com/2026/10/sonic-racing-crossworlds-dlc-avatar-legends-pack-launches-october-14",
+    "https://www.eurogamer.net/star-wars-zero-company-bringing-back-furloughed-staff"
   ],
   "seen_titles": [
-    "'we haven't forgotten you': no rest for the wicked dev teases action rpg's ps5 release",
-    "xbox's next first-party game arrives this week, and preloads have already begun",
-    "dragon ball games battle hour 2026: everything announced",
-    "former the last of us dev hints at potential future story",
     "demon slayer: infinity castle can now be watched at home with new release date",
     "with pragmata out, this vapourware indie title is the only unreleased game from ps5's reveal",
     "xbox to highlight 'tons' of games in id@xbox showcase later this week",
@@ -10001,13 +9997,13 @@
     "crunchyroll dedicated hub announced for ps5",
     "fable's creator just revealed something that makes playground's reboot harder to dismiss",
     "becrowned adds ps5, xbox series, and switch 2 versions, delayed to q1 2027",
-    "dead of darkness 2 announced for ps5, xbox series, ps4, xbox one, switch, and pc"
+    "dead of darkness 2 announced for ps5, xbox series, ps4, xbox one, switch, and pc",
+    "xbox game pass officially reveals 9 games coming soon",
+    "star wars zero company developer bit reactor begins bringing furloughed staff back",
+    "sonic racing: crossworlds dlc ‘avatar legends pack’ launches october 14",
+    "star wars: zero company studio is bringing \"as many people back as possible\" after furloughing \"most\" of its developers"
   ],
   "seen_story_keys": [
-    "4d2d634e81852db28eb95215f4eafc290bce93f2",
-    "14d5b4be5116877de3ee9c6277e4d24998b74a2b",
-    "76e04b71cf5d0df6401a7b91737fb4e1e6e1bf0b",
-    "7146e162700303d45c15c96644d44b3ccfefb146",
     "32e7d534c30c8edce186aa4d80a8b0f214247e87",
     "61ed52617d8e902dbd72ec2a5984e2b4a8e8bd0e",
     "4a8d320aafb0014574bce40e9facb977d97e240e",
@@ -15003,6 +14999,10 @@
     "20be179cae7718fa2e03681f0c5bf328d8528abe",
     "b730c83af149cce5b67a5510ea710cb4022acff9",
     "71c43e0b0302f32c5f9e23f6a8d4b2182c635b0a",
-    "cdba42632cf1c7b90eeb7db647bc7fa5a33fef5a"
+    "cdba42632cf1c7b90eeb7db647bc7fa5a33fef5a",
+    "ee12e6c19672d031acd911707a4f939c45fa6bda",
+    "fc5434e393d3ffec88fae2b0c96f448c97e17f7a",
+    "f8fb65bbeff50812a5628d6e186d5264d03c2bc0",
+    "8d825d43bba9ee12449a29814e6435a5cd273367"
   ]
 }
