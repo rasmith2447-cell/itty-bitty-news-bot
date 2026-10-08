@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/demon-slayer-infinity-castle-blu-ray-dvd-release-date/",
-    "https://www.pushsquare.com/news/2026/04/with-pragmata-out-this-vapourware-indie-title-is-the-only-unreleased-game-from-ps5s-reveal",
-    "https://www.purexbox.com/news/2026/04/xbox-to-highlight-tons-of-games-in-idatxbox-showcase-later-this-week",
-    "https://www.eurogamer.net/xbox-game-pass-games-april-2026",
     "https://www.eurogamer.net/final-fantasy-14-trail-to-the-heavens-new-story-quests-raids-job",
     "https://gamerant.com/shuhei-yoshida-fired-playstation-why/",
     "https://www.ign.com/articles/pokemon-go-fans-upset-after-new-snake-goes-extinct-in-many-countries",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/xbox-game-pass-new-games-october-2026-list/",
     "https://www.gamesindustry.biz/star-wars-zero-company-developer-bit-reactor-begins-bringing-furloughed-staff-back",
     "https://www.gematsu.com/2026/10/sonic-racing-crossworlds-dlc-avatar-legends-pack-launches-october-14",
-    "https://www.eurogamer.net/star-wars-zero-company-bringing-back-furloughed-staff"
+    "https://www.eurogamer.net/star-wars-zero-company-bringing-back-furloughed-staff",
+    "https://www.eurogamer.net/gears-of-war-the-coalition-layoffs-next-game",
+    "https://www.gamesindustry.biz/fireshine-games-acquires-necesse-dev-fair-games-described-as-a-defining-moment-for-danish-indie-studio",
+    "https://www.gematsu.com/2026/10/laica-announced-for-pc-survival-horror-game-about-quiet-life-with-a-girl-in-space",
+    "https://www.ign.com/articles/star-wars-galactic-racer-multiplayer-party-limit-will-be-doubled-via-update"
   ],
   "seen_titles": [
-    "demon slayer: infinity castle can now be watched at home with new release date",
-    "with pragmata out, this vapourware indie title is the only unreleased game from ps5's reveal",
-    "xbox to highlight 'tons' of games in id@xbox showcase later this week",
-    "here's your next batch of xbox game pass games for april",
     "final fantasy 14 gets a major update announced in trail to the heavens, bringing new story quests, raids, and job",
     "former playstation exec reveals he was fired after three decades at the company",
     "pokémon go fans upset after new snake goes extinct in many countries",
@@ -10001,13 +9997,13 @@
     "xbox game pass officially reveals 9 games coming soon",
     "star wars zero company developer bit reactor begins bringing furloughed staff back",
     "sonic racing: crossworlds dlc ‘avatar legends pack’ launches october 14",
-    "star wars: zero company studio is bringing \"as many people back as possible\" after furloughing \"most\" of its developers"
+    "star wars: zero company studio is bringing \"as many people back as possible\" after furloughing \"most\" of its developers",
+    "gears of war boss says the next game won't take seven years to make as he dances around the question of layoffs",
+    "fireshine games acquires necesse dev fair games, described as a \"defining moment\" for danish indie studio",
+    "laica announced for pc – survival horror game about quiet life with a girl in space",
+    "star wars: galactic racer multiplayer party limit will be doubled via update"
   ],
   "seen_story_keys": [
-    "32e7d534c30c8edce186aa4d80a8b0f214247e87",
-    "61ed52617d8e902dbd72ec2a5984e2b4a8e8bd0e",
-    "4a8d320aafb0014574bce40e9facb977d97e240e",
-    "6db5b7caca95e8d553abc87dea4c4edd7f11ba16",
     "4d5e301c8dde506236af0c8f8b4e5d631d32472d",
     "864dc26512ce41bae3b739cb63e7e353ecef51fb",
     "b00ce3dac12a48dab0fec1e2497f365bbb93a7a0",
@@ -15003,6 +14999,10 @@
     "ee12e6c19672d031acd911707a4f939c45fa6bda",
     "fc5434e393d3ffec88fae2b0c96f448c97e17f7a",
     "f8fb65bbeff50812a5628d6e186d5264d03c2bc0",
-    "8d825d43bba9ee12449a29814e6435a5cd273367"
+    "8d825d43bba9ee12449a29814e6435a5cd273367",
+    "6cbc13dda08af6aa7375ed1ef492069a4354aa8b",
+    "c6147e092fd7d1861850372220f0765733a3e273",
+    "72590ccb051ba0134f388f36472bd74aa57e3e62",
+    "bc4aed5ebed6fc2165b5c2ad1ff4c5cdf2e78c6b"
   ]
 }
