@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/elden-ring-becomes-a-movie-in-march-2028-cast-revealed",
-    "https://www.videogameschronicle.com/news/xbox-has-revealed-the-next-10-titles-coming-to-game-pass-including-final-fantasy-5/",
-    "https://www.gamesindustry.biz/nordic-game-2026-announces-speakers-for-masterclass-friday-programme",
-    "https://www.gematsu.com/2026/04/game-pass-adds-kiln-aphelion-final-fantasy-v-and-more-in-late-april-to-early-may",
     "https://gamerant.com/dungeons-and-dragons-actual-play-series-dungeon-masters-cast/",
     "https://www.rockpapershotgun.com/the-games-industry-will-never-get-back-to-normal-lament-tony-hawk-devs-iron-galaxy-as-they-make-another-round-of-layoffs",
     "https://www.polygon.com/elden-ring-movie-release-date-cast-announced/",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/10/cd-projekt-red-delivers-the-witcher-3-remastered-fixes-improvements-in-patch-5-01",
     "https://gamerant.com/masters-universe-battle-grayskull-roblox-rpg/",
     "https://www.gematsu.com/2026/10/zenless-zone-zero-version-3-3-update-journey-to-the-sky-launches-october-21",
-    "https://gamerant.com/ubisoft-rainbow-six-mobile-shutdown-january-2027/"
+    "https://gamerant.com/ubisoft-rainbow-six-mobile-shutdown-january-2027/",
+    "https://www.polygon.com/dungeons-and-dragons-star-wars-collaboration/",
+    "https://www.pushsquare.com/news/2026/10/as-its-developer-recovers-star-wars-zero-company-reaches-one-million-copies-sold",
+    "https://www.gematsu.com/2026/10/fatal-fury-city-of-the-wolves-dlc-character-reina-from-tekken-announced",
+    "https://www.ign.com/articles/wardogs-new-rain-system-will-have-a-major-effect-on-gameplay-in-season-2"
   ],
   "seen_titles": [
-    "elden ring becomes a movie in march 2028, cast revealed",
-    "xbox has revealed the next 10 titles coming to game pass, including final fantasy 5",
-    "nordic game 2026 announces speakers for masterclass friday programme",
-    "game pass adds kiln, aphelion, final fantasy v, and more in late april to early may",
     "dungeons and dragons reveals official actual play series with baldur's gate 3, critical role, and dispatch stars",
     "the games industry will never \"get back to normal\", lament tony hawk devs iron galaxy, as they make another round of layoffs",
     "elden ring movie release date and full cast announced",
@@ -10001,13 +9997,13 @@
     "cd projekt red delivers the witcher 3 remastered fixes, improvements in patch 5.01",
     "masters of the universe: battle for grayskull officially announced",
     "zenless zone zero version 3.3 update ‘journey to the sky’ launches october 21",
-    "ubisoft game permanently shutting down in january 2027"
+    "ubisoft game permanently shutting down in january 2027",
+    "dungeons & dragons officially reveals first details on star wars collaboration",
+    "as its developer recovers, star wars zero company reaches one million copies sold",
+    "fatal fury: city of the wolves dlc character reina from tekken announced",
+    "wardogs' new rain system will have a major effect on gameplay in season 2"
   ],
   "seen_story_keys": [
-    "707678b93c919c701672e42602adfe533f50a0b6",
-    "c47dcedea0bf9127b66f432ef6ecba1ff976216c",
-    "d0c7be770399ba8f3476c05bbcb034067d066ae8",
-    "a8e3dd0058c1d0b0723a0b6f9b36a9e0caba42e4",
     "3ebd3a6a72ec2bcef7091d98abecdf602bd4d5cf",
     "e07802d8e3cc9473f0eef10eb0a99fa5f9b84dc5",
     "c9e26761c3eb513a855ae4fb0ee005f7eb554284",
@@ -15003,6 +14999,10 @@
     "b0e45db6d1feffb80130021040563accea75fc61",
     "3bd0ae38b2275ae30d671072f70411f78924ca39",
     "5eef5e7c627ec7475a6b9cd8c087aff4893108a4",
-    "5a912c2abdd95d5898b6b70a136167dcba315a79"
+    "5a912c2abdd95d5898b6b70a136167dcba315a79",
+    "39852177b03ed18f2d6c5511c884ee9167751a83",
+    "4629b93292135b53d0cb7aa21bb3903c3ceb13f4",
+    "739f4357102c949ef0e907ddc4520abc9917f082",
+    "8b9d0b1f883473d44856ab1367ce2e91c0eddd71"
   ]
 }
