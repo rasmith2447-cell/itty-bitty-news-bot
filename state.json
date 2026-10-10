@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/04/thq-nordic-website-lists-multiple-unannounced-projects-for-switch-2",
-    "https://www.gematsu.com/2026/04/super-robot-wars-y-dlc-expansion-pack-infinite-darkness-launches-april-22",
-    "https://www.nintendolife.com/news/2026/04/sanrio-party-land-announced-for-switch-1-and-2-more-sanrio-games-teased",
-    "https://www.nintendolife.com/news/2026/04/good-smile-reveals-two-stunning-fire-emblem-figures-pre-orders-now-live",
     "https://www.gamesindustry.biz/toei-company-launches-publishing-label-toei-games",
     "https://gamerant.com/ps-plus-extra-premium-new-games-april-2026/",
     "https://www.nintendolife.com/news/2026/04/ball-x-pits-second-free-content-update-arrives-next-week-heres-whats-included",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/magic-the-gathering-marvel-darkhold-destiny-preorders-are-now-live",
     "https://www.gematsu.com/2026/10/shadow-of-the-road-delayed-to-march-10-2027",
     "https://www.rockpapershotgun.com/were-not-getting-any-younger-and-the-world-seems-to-be-ending-amanita-reveal-machinarium-2-sequel-to-2009s-prettiest-robot-adventure",
-    "https://www.pushsquare.com/news/2026/10/ghost-of-yotei-gets-more-complete-with-ps5-patch-fixing-bugs-and-black-screens"
+    "https://www.pushsquare.com/news/2026/10/ghost-of-yotei-gets-more-complete-with-ps5-patch-fixing-bugs-and-black-screens",
+    "https://www.polygon.com/star-citizen-squadron-42-trailer-gameplay-cast/",
+    "https://gamerant.com/machinarium-2-sequel-announced/",
+    "https://www.pcgamer.com/games/fps/the-advent-of-first-person-shooters-introduced-a-wild-frontier-of-unregulated-video-game-level-packs-and-it-ended-in-a-lawsuit-that-changed-copyright-forever/",
+    "https://www.pushsquare.com/news/2026/10/tekken-8s-reina-officially-announced-as-fatal-fury-ps5s-next-challenger"
   ],
   "seen_titles": [
-    "thq nordic website lists multiple unannounced projects for switch 2",
-    "super robot wars y dlc ‘expansion pack: infinite darkness’ launches april 22",
-    "sanrio party land announced for switch 1 & 2, more sanrio games teased",
-    "good smile reveals two stunning fire emblem figures, pre-orders now live",
     "toei company launches publishing label toei games",
     "new ps plus extra and premium games for april 2026 are available now",
     "ball x pit's second free content update arrives next week, here's what's included",
@@ -10001,13 +9997,13 @@
     "magic: the gathering marvel: darkhold destiny preorders are now live",
     "shadow of the road delayed to march 10, 2027",
     "“we're not getting any younger, and the world seems to be ending\": amanita reveal machinarium 2, sequel to 2009's prettiest robot adventure",
-    "ghost of yotei gets more complete with ps5 patch fixing bugs and black screens"
+    "ghost of yotei gets more complete with ps5 patch fixing bugs and black screens",
+    "star citizen spinoff squadron 42 officially reveals huge cast in new look",
+    "after 17 years, classic 2d game gets an official sequel",
+    "the advent of first-person shooters introduced a wild frontier of unregulated video game level packs, and it ended in a lawsuit that changed copyright forever",
+    "tekken 8's reina officially announced as fatal fury ps5's next challenger"
   ],
   "seen_story_keys": [
-    "62fa2181fbd124a7528e5cea7daed82d73a9c03c",
-    "2b02ed3ba36d4e9fb13b3bd2f19cc577dfa57b27",
-    "0538b791dad7ae12b98ea3090ebc621d41b8c336",
-    "05b8099ac3bac1735f13df8e85b47c05775b8d8f",
     "519f4f17405914570173629f19c1dd216e98a816",
     "c50ffefc8d5bdaeee81b958bb6708d16c83debb0",
     "9431c8dfe1311261f5c15eda4a79c9c227f7379a",
@@ -15003,6 +14999,10 @@
     "b560b5d283da82cd540d10b346294955fd48c693",
     "eba962ccfcd4c827cc4d1bb3997046af0ae95ecd",
     "b474a56962bc37230f7a5ab4cec069c0b9acd7ca",
-    "ab5ce97bacd0b04914e749b8692083448a8679a2"
+    "ab5ce97bacd0b04914e749b8692083448a8679a2",
+    "7bb610101fe634d5f68b535ef189b8715721b173",
+    "a0b17e6b3bfbca60ea5ea87882eaa84450fa7898",
+    "70d5b7dedc3051c1a799e59ba73fac52c7eaaa1f",
+    "e84d06e7f63a198d18a6e8d6b95666cbe13f2fb5"
   ]
 }
