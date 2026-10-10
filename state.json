@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamesindustry.biz/toei-company-launches-publishing-label-toei-games",
-    "https://gamerant.com/ps-plus-extra-premium-new-games-april-2026/",
-    "https://www.nintendolife.com/news/2026/04/ball-x-pits-second-free-content-update-arrives-next-week-heres-whats-included",
-    "https://www.eurogamer.net/overwatch-on-nintendo-switch-2-gets-framerate-fix",
     "https://www.ign.com/articles/scrapped-the-super-mario-bros-movie-ending-revealed",
     "https://www.pcgamer.com/gaming-industry/animation-powerhouse-responsible-for-one-piece-and-dragon-ball-z-branches-into-pc-gaming-with-toei-games/",
     "https://www.pushsquare.com/news/2026/04/ps5-pro-just-made-pragmata-even-better-in-new-patch",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/star-citizen-squadron-42-trailer-gameplay-cast/",
     "https://gamerant.com/machinarium-2-sequel-announced/",
     "https://www.pcgamer.com/games/fps/the-advent-of-first-person-shooters-introduced-a-wild-frontier-of-unregulated-video-game-level-packs-and-it-ended-in-a-lawsuit-that-changed-copyright-forever/",
-    "https://www.pushsquare.com/news/2026/10/tekken-8s-reina-officially-announced-as-fatal-fury-ps5s-next-challenger"
+    "https://www.pushsquare.com/news/2026/10/tekken-8s-reina-officially-announced-as-fatal-fury-ps5s-next-challenger",
+    "https://www.eurogamer.net/gods-with-badges-strange-scaffold-narrative-tactics-police-game",
+    "https://gamerant.com/epic-games-store-free-games-october-2026-list-egs/",
+    "https://www.ign.com/articles/star-citizen-single-player-spinoff-squadron-42-reemerges-with-flashy-new-trailer-steam-wishlists-and-cast-confirmation",
+    "https://www.gematsu.com/2026/10/m2-announces-devil-blade-reboot-consumer-edition-for-consoles"
   ],
   "seen_titles": [
-    "toei company launches publishing label toei games",
-    "new ps plus extra and premium games for april 2026 are available now",
-    "ball x pit's second free content update arrives next week, here's what's included",
-    "overwatch on switch 2 works as intended now, but it's still a few big updates away from greatness",
     "scrapped the super mario bros. movie ending revealed",
     "animation powerhouse responsible for one piece and dragon ball z branches into pc gaming with toei games",
     "ps5 pro just made pragmata even better in new patch",
@@ -10001,13 +9997,13 @@
     "star citizen spinoff squadron 42 officially reveals huge cast in new look",
     "after 17 years, classic 2d game gets an official sequel",
     "the advent of first-person shooters introduced a wild frontier of unregulated video game level packs, and it ended in a lawsuit that changed copyright forever",
-    "tekken 8's reina officially announced as fatal fury ps5's next challenger"
+    "tekken 8's reina officially announced as fatal fury ps5's next challenger",
+    "strange scaffold announces gods with badges, a tactics game where you decide when to switch off your bodycam",
+    "epic games store free games for october 15 officially revealed",
+    "star citizen single-player spinoff squadron 42 reemerges with flashy new trailer, steam wishlists, and cast confirmation",
+    "m2 announces devil blade reboot consumer edition for consoles"
   ],
   "seen_story_keys": [
-    "519f4f17405914570173629f19c1dd216e98a816",
-    "c50ffefc8d5bdaeee81b958bb6708d16c83debb0",
-    "9431c8dfe1311261f5c15eda4a79c9c227f7379a",
-    "d7180471781a55e1fa33f9785e227e52ba102539",
     "b4373ac8a1865038d71a21eb435e7e19e6f1fb01",
     "0cb71daf66b810445b4537889c77604e6602508d",
     "f5d06f546fc24a97f3e005e1ab4b706fa23b0466",
@@ -15003,6 +14999,10 @@
     "7bb610101fe634d5f68b535ef189b8715721b173",
     "a0b17e6b3bfbca60ea5ea87882eaa84450fa7898",
     "70d5b7dedc3051c1a799e59ba73fac52c7eaaa1f",
-    "e84d06e7f63a198d18a6e8d6b95666cbe13f2fb5"
+    "e84d06e7f63a198d18a6e8d6b95666cbe13f2fb5",
+    "d12d2b6d22d7f8a7c2aa67f99b8b9337324df02a",
+    "440148c8837c11a4850f6cfd0d3f337ea7bbb806",
+    "4814f33c4e9c842c707b60e7da5f329965bb47c8",
+    "ce5017ac5ececba638864e7818373ca0ecf0f6dc"
   ]
 }
