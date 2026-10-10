@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/scrapped-the-super-mario-bros-movie-ending-revealed",
-    "https://www.pcgamer.com/gaming-industry/animation-powerhouse-responsible-for-one-piece-and-dragon-ball-z-branches-into-pc-gaming-with-toei-games/",
-    "https://www.pushsquare.com/news/2026/04/ps5-pro-just-made-pragmata-even-better-in-new-patch",
-    "https://www.gamesindustry.biz/sanrio-establishes-in-house-gaming-brand-sanrio-games",
     "https://www.nintendolife.com/news/2026/04/toei-company-establishes-new-gaming-publishing-brand",
     "https://www.pushsquare.com/news/2026/04/8-ps-plus-extra-game-removals-for-may-2026-confirmed",
     "https://www.ign.com/articles/clarksons-farm-season-5-release-date",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/gods-with-badges-strange-scaffold-narrative-tactics-police-game",
     "https://gamerant.com/epic-games-store-free-games-october-2026-list-egs/",
     "https://www.ign.com/articles/star-citizen-single-player-spinoff-squadron-42-reemerges-with-flashy-new-trailer-steam-wishlists-and-cast-confirmation",
-    "https://www.gematsu.com/2026/10/m2-announces-devil-blade-reboot-consumer-edition-for-consoles"
+    "https://www.gematsu.com/2026/10/m2-announces-devil-blade-reboot-consumer-edition-for-consoles",
+    "https://www.rockpapershotgun.com/gargantuan-cop-immersive-sim-militsioner-now-has-an-acrophobia-inducing-demo-and-yes-i-did-somehow-manage-to-fail-the-tutorial",
+    "https://gamerant.com/magic-the-gathering-god-packs-2027/",
+    "https://gamerant.com/lazares-sacrifice-gwent-designer-deckbuilder-card-game/",
+    "https://www.pushsquare.com/news/2026/10/sonic-racing-crossworlds-now-permanently-cheaper-and-its-going-absolutely-bananas-with-dlc-in-year-2"
   ],
   "seen_titles": [
-    "scrapped the super mario bros. movie ending revealed",
-    "animation powerhouse responsible for one piece and dragon ball z branches into pc gaming with toei games",
-    "ps5 pro just made pragmata even better in new patch",
-    "sanrio establishes in-house gaming brand sanrio games",
     "toei company establishes new gaming publishing brand",
     "8 ps plus extra game removals for may 2026 confirmed",
     "clarkson's farm season 5 release date",
@@ -10001,13 +9997,13 @@
     "strange scaffold announces gods with badges, a tactics game where you decide when to switch off your bodycam",
     "epic games store free games for october 15 officially revealed",
     "star citizen single-player spinoff squadron 42 reemerges with flashy new trailer, steam wishlists, and cast confirmation",
-    "m2 announces devil blade reboot consumer edition for consoles"
+    "m2 announces devil blade reboot consumer edition for consoles",
+    "gargantuan cop immersive sim militsioner now has an acrophobia-inducing demo, and yes, i did somehow manage to fail the tutorial",
+    "magic: the gathering is adding extremely rare new packs for 2027",
+    "the witcher 3's gwent designer just revealed a crueler card game",
+    "sonic racing: crossworlds now permanently cheaper, and it's going absolutely bananas with dlc in year 2"
   ],
   "seen_story_keys": [
-    "b4373ac8a1865038d71a21eb435e7e19e6f1fb01",
-    "0cb71daf66b810445b4537889c77604e6602508d",
-    "f5d06f546fc24a97f3e005e1ab4b706fa23b0466",
-    "973bdfd2f42631954e4ab0f30ec8ba860816b373",
     "6f9eefd9d7c6a80858c4e3a00bd1ec4461b6391a",
     "29589f268dfd31196387c02a12ed41aae8e6c57f",
     "d20a255052ec5313e9688a0a0a9679f935de13f6",
@@ -15003,6 +14999,10 @@
     "d12d2b6d22d7f8a7c2aa67f99b8b9337324df02a",
     "440148c8837c11a4850f6cfd0d3f337ea7bbb806",
     "4814f33c4e9c842c707b60e7da5f329965bb47c8",
-    "ce5017ac5ececba638864e7818373ca0ecf0f6dc"
+    "ce5017ac5ececba638864e7818373ca0ecf0f6dc",
+    "4962ad3cac37df62d013a93404788333b9c25265",
+    "41e3ebc2e836405b63a3fb4a6d85eb3603225d2f",
+    "451e5b7d356f8a7302d4f26b046db6122bb08c34",
+    "8aedbd37dd09770e8aa5165972cc886d200ec078"
   ]
 }
