@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/04/toei-company-establishes-new-gaming-publishing-brand",
-    "https://www.pushsquare.com/news/2026/04/8-ps-plus-extra-game-removals-for-may-2026-confirmed",
-    "https://www.ign.com/articles/clarksons-farm-season-5-release-date",
-    "https://www.rockpapershotgun.com/crusader-kings-3s-latest-batch-of-major-expansions-playable-popes-money-grabbing-republican-merchants",
     "https://www.pushsquare.com/news/2026/04/april-2026-ps-plus-extra-premium-games-available-to-download-now",
     "https://www.eurogamer.net/aion-2-global-release-announcement",
     "https://gamerant.com/splatoon-raiders-release-date/",
@@ -4999,13 +4995,13 @@
     "https://www.rockpapershotgun.com/gargantuan-cop-immersive-sim-militsioner-now-has-an-acrophobia-inducing-demo-and-yes-i-did-somehow-manage-to-fail-the-tutorial",
     "https://gamerant.com/magic-the-gathering-god-packs-2027/",
     "https://gamerant.com/lazares-sacrifice-gwent-designer-deckbuilder-card-game/",
-    "https://www.pushsquare.com/news/2026/10/sonic-racing-crossworlds-now-permanently-cheaper-and-its-going-absolutely-bananas-with-dlc-in-year-2"
+    "https://www.pushsquare.com/news/2026/10/sonic-racing-crossworlds-now-permanently-cheaper-and-its-going-absolutely-bananas-with-dlc-in-year-2",
+    "https://www.polygon.com/in-a-violent-nature-2-horror-movie-release-date-shudder/",
+    "https://www.eurogamer.net/forza-horizon-6-ps5-release-date-delay",
+    "https://www.nintendolife.com/news/2026/10/dave-the-divers-final-dlc-is-the-perfect-crossover",
+    "https://www.purexbox.com/news/2026/10/heres-what-the-mafia-3-upgrade-looks-like-on-xbox-series-xs"
   ],
   "seen_titles": [
-    "toei company establishes new gaming publishing brand",
-    "8 ps plus extra game removals for may 2026 confirmed",
-    "clarkson's farm season 5 release date",
-    "crusader kings 3's latest batch of major expansions invite you to choose between god and gold, with playable popes and money-grabbing republican merchants",
     "april 2026 ps plus extra, premium games available to download now",
     "aion 2, sequel to a beloved korean mmo, is getting a global release this year from publisher ncsoft",
     "splatoon raiders confirms release date",
@@ -10001,13 +9997,13 @@
     "gargantuan cop immersive sim militsioner now has an acrophobia-inducing demo, and yes, i did somehow manage to fail the tutorial",
     "magic: the gathering is adding extremely rare new packs for 2027",
     "the witcher 3's gwent designer just revealed a crueler card game",
-    "sonic racing: crossworlds now permanently cheaper, and it's going absolutely bananas with dlc in year 2"
+    "sonic racing: crossworlds now permanently cheaper, and it's going absolutely bananas with dlc in year 2",
+    "2024's most inventive slasher movie officially sets sequel release date",
+    "it's official: forza horizon 6 delayed to 2027 on ps5, and the game's first expansion has been announced",
+    "dave the diver's final dlc is the perfect crossover",
+    "here's what the mafia 3 upgrade looks like on xbox series x|s"
   ],
   "seen_story_keys": [
-    "6f9eefd9d7c6a80858c4e3a00bd1ec4461b6391a",
-    "29589f268dfd31196387c02a12ed41aae8e6c57f",
-    "d20a255052ec5313e9688a0a0a9679f935de13f6",
-    "e170fc5557a72142c9aca6fba51a9e45f9884174",
     "2493a690b48768cf9c1f8848495531ebcc5825e9",
     "97b6bd296e47538b2611250601ec952f06eccbfe",
     "c74a743ffbd9625ece628994149ce86f84cc8cd3",
@@ -15003,6 +14999,10 @@
     "4962ad3cac37df62d013a93404788333b9c25265",
     "41e3ebc2e836405b63a3fb4a6d85eb3603225d2f",
     "451e5b7d356f8a7302d4f26b046db6122bb08c34",
-    "8aedbd37dd09770e8aa5165972cc886d200ec078"
+    "8aedbd37dd09770e8aa5165972cc886d200ec078",
+    "8b1cfd01197209ffefbe6a7c05c95f3a3c487cd9",
+    "d370479fc957d1bf8e010896e505f816f8ecb5d2",
+    "fa634cbdcdf39903837d22f62c5f1fddf1996c27",
+    "c614fecc96b0417f1d5083e25383cb70d6196634"
   ]
 }
