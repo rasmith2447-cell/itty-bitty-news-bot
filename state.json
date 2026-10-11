@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.rockpapershotgun.com/call-of-duty-wont-hit-xbox-game-pass-at-launch-going-forwards-as-microsofts-subscription-service-gets-a-price-cut",
-    "https://www.rockpapershotgun.com/mythology-by-its-nature-is-told-and-retold-hades-2-dev-on-changing-its-controversial-ending",
-    "https://gamerant.com/video/assassins-creed-black-flag-resynced-needs-wants-remake-ship-stealth/",
-    "https://www.gematsu.com/2026/04/well-dweller-demo-launches-april-23",
     "https://www.gematsu.com/2026/04/motorslice-launches-may-5",
     "https://gamerant.com/pragmata-ps5-pro-update/",
     "https://www.pcgamer.com/gaming-industry/xbox-game-pass-prices-are-going-down-but-future-call-of-duty-games-wont-be-added-until-about-a-year-after-they-launch/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/gta-6-release-australia-time-off/",
     "https://gamerant.com/deadlock-concurrent-players-steam-team-fortress-2/",
     "https://www.ign.com/articles/tekken-8-yujiro-teaser-reveals-baki-reps-in-game-render-is-just-as-uncanny-as-fans-expected",
-    "https://www.polygon.com/marvel-tokon-fighting-souls-year-1-dlc-characters/"
+    "https://www.polygon.com/marvel-tokon-fighting-souls-year-1-dlc-characters/",
+    "https://gamerant.com/star-citizen-squadron-42-steam-wishlist/",
+    "https://www.ign.com/articles/marvel-tokon-dlc-roadmap-reveals-first-look-at-jane-foster-thor-venom-and-jubilee-coming-in-2027",
+    "https://www.gematsu.com/2026/10/marvel-tokon-fighting-souls-dlc-characters-thor-jane-foster-venom-and-jubilee-announced",
+    "https://www.pcgamer.com/games/sim/it-looks-like-wing-commander-3-is-getting-a-remaster-after-ea-producer-discovers-the-original-fmv-source-tapes-in-the-companys-archives/"
   ],
   "seen_titles": [
-    "call of duty won't hit xbox game pass at launch going forwards, as microsoft's subscription service gets a price cut",
-    "\"mythology, by its nature, is told and retold\": hades 2 dev on changing its controversial ending",
-    "what assassin’s creed black flag resynced needs to succeed (in under 5 minutes)",
-    "well dweller demo launches april 23",
     "motorslice launches may 5",
     "pragmata gets new update on ps5 pro",
     "xbox game pass prices are going down, but future call of duty games won't be added until 'about a year' after they launch",
@@ -10001,13 +9997,13 @@
     "australian government helps workers take time off for gta 6 launch",
     "new valve game officially beats team fortress 2",
     "tekken 8 yujiro teaser reveals baki rep's in-game render is just as uncanny as fans expected",
-    "marvel tokon: fighting souls officially adding thor, venom, and jubilee next year"
+    "marvel tokon: fighting souls officially adding thor, venom, and jubilee next year",
+    "star citizen: squadron 42 just got an encouraging update",
+    "marvel tokon dlc roadmap reveals first look at jane foster thor, venom and jubilee coming in 2027",
+    "marvel tokon: fighting souls dlc characters thor (jane foster), venom, and jubilee announced",
+    "it looks like wing commander 3 is getting a remaster, after ea producer discovers the original fmv source tapes in the company's archives"
   ],
   "seen_story_keys": [
-    "b7042935eea5a663441e3f41324102819e5565f9",
-    "6ae35e12864aced23b6f3c95f83ba9efd7810060",
-    "f0f9ce130741db8fed6b586373276f6b1b0a4606",
-    "a9d96f3389eed82f3d555c51cb5b5e43224d1cc0",
     "91c5d0190dc1cda9689dbb56f4bd2c736064bdec",
     "4fa10b62070f6bd306d7b7b63dd6a451d0fdbc0d",
     "385758d639bf2a1c1f51d85aa8e9c47606ce85fa",
@@ -15003,6 +14999,10 @@
     "8743dc1754d39fe35b481c0729c2f52177382aa0",
     "40275bd055c9b2f0f7958f7fffd075476783bacb",
     "b6e1a16672e49d0b5e0b92e92a1a1bcb0f64617c",
-    "d6d6a81209468ad359a92f5d6de877ce6d35856e"
+    "d6d6a81209468ad359a92f5d6de877ce6d35856e",
+    "f7a5ce3a35a170f8a69e43a69e87e68373b3e86c",
+    "3011c772f789092ba0c5cd5e3593c27517213237",
+    "ef8f7311c25a620aaf42cd41a27d5256ddd80e2f",
+    "9b57d6d119212ed4975aa03df5c18c4b9cdf749f"
   ]
 }
