@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/splatoon-raiders-summer-switch-2-release-date-deep-cut-amiibo",
-    "https://www.gamespot.com/articles/marvel-rivals-is-now-vampire-survivors-with-its-new-blood-hunt-pve-mode/1100-6539525/?ftag=CAD-01-10abi2f",
-    "https://gamerant.com/shonen-jump-launches-new-manga-about-demons-created-by-a-highly-acclaimed-author/",
-    "https://www.pushsquare.com/news/2026/04/ps-plus-value-called-into-question-as-xbox-slashes-game-pass-price",
     "https://www.rockpapershotgun.com/call-of-duty-wont-hit-xbox-game-pass-at-launch-going-forwards-as-microsofts-subscription-service-gets-a-price-cut",
     "https://www.rockpapershotgun.com/mythology-by-its-nature-is-told-and-retold-hades-2-dev-on-changing-its-controversial-ending",
     "https://gamerant.com/video/assassins-creed-black-flag-resynced-needs-wants-remake-ship-stealth/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/fallout-4-detour-new-quest-mod/",
     "https://www.pushsquare.com/news/2026/10/tekken-8-reveals-its-baki-the-grappler-crossover-roger-jr-out-17th-november",
     "https://gamerant.com/aion-2-concurrent-players-launch-steam/",
-    "https://www.pushsquare.com/news/2026/10/forza-horizon-6-will-have-a-physical-ps5-disc-but-theres-a-catch"
+    "https://www.pushsquare.com/news/2026/10/forza-horizon-6-will-have-a-physical-ps5-disc-but-theres-a-catch",
+    "https://gamerant.com/gta-6-release-australia-time-off/",
+    "https://gamerant.com/deadlock-concurrent-players-steam-team-fortress-2/",
+    "https://www.ign.com/articles/tekken-8-yujiro-teaser-reveals-baki-reps-in-game-render-is-just-as-uncanny-as-fans-expected",
+    "https://www.polygon.com/marvel-tokon-fighting-souls-year-1-dlc-characters/"
   ],
   "seen_titles": [
-    "splatoon raiders gets summer switch 2 release date, as well as a deep cut amiibo to add to your collection",
-    "marvel rivals is now vampire survivors with its new blood hunt pve mode",
-    "shonen jump launches new manga from legendary author",
-    "ps plus value called into question as xbox slashes game pass price",
     "call of duty won't hit xbox game pass at launch going forwards, as microsoft's subscription service gets a price cut",
     "\"mythology, by its nature, is told and retold\": hades 2 dev on changing its controversial ending",
     "what assassin’s creed black flag resynced needs to succeed (in under 5 minutes)",
@@ -10001,13 +9997,13 @@
     "fallout: detour officially announced",
     "tekken 8 reveals its baki the grappler crossover, roger jr out 17th november",
     "brand-new steam mmo game reaches almost 400,000 concurrent players on launch",
-    "forza horizon 6 will have a physical ps5 disc, but there's a catch"
+    "forza horizon 6 will have a physical ps5 disc, but there's a catch",
+    "australian government helps workers take time off for gta 6 launch",
+    "new valve game officially beats team fortress 2",
+    "tekken 8 yujiro teaser reveals baki rep's in-game render is just as uncanny as fans expected",
+    "marvel tokon: fighting souls officially adding thor, venom, and jubilee next year"
   ],
   "seen_story_keys": [
-    "dd1060d866791f8f74fef2591728e9cc91b40e19",
-    "15869a19889f8e76dba1c83c00fc3892ba415aee",
-    "f5d32b105031f0ca7505612c6eebd9d7c32f646e",
-    "d6ae9b98958740a9f93104f6a788e40f5af20251",
     "b7042935eea5a663441e3f41324102819e5565f9",
     "6ae35e12864aced23b6f3c95f83ba9efd7810060",
     "f0f9ce130741db8fed6b586373276f6b1b0a4606",
@@ -15003,6 +14999,10 @@
     "f5fd2630023d9be794bc1ef349cff53ee37e79c0",
     "20178c25c20c39eb73726c7e69bb5536b59295ac",
     "6197dd8973817b039d5579f85e73a685f2d12a75",
-    "73aabaa99e8b62ead3a88fa94a49089c27e52bb5"
+    "73aabaa99e8b62ead3a88fa94a49089c27e52bb5",
+    "8743dc1754d39fe35b481c0729c2f52177382aa0",
+    "40275bd055c9b2f0f7958f7fffd075476783bacb",
+    "b6e1a16672e49d0b5e0b92e92a1a1bcb0f64617c",
+    "d6d6a81209468ad359a92f5d6de877ce6d35856e"
   ]
 }
