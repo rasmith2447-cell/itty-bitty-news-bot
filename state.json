@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/helldivers-2-continues-its-brilliant-run-of-post-launch-content-with-another-warbond-on-ps5",
-    "https://gamerant.com/the-division-2-cherry-blossom-event-april-2026-update-patch-notes/",
-    "https://www.gamesindustry.biz/microsoft-cuts-game-pass-pricing-and-removes-call-of-duty-as-day-one-launch-title-in-response-to-a-lot-of-feedback",
-    "https://www.pcgamer.com/games/fighting/street-fighter-6-somehow-patched-its-incest-storyline-to-make-it-even-shadier-than-it-originally-was/",
     "https://www.pcgamer.com/gaming-industry/12-years-after-the-original-and-with-its-themes-more-relevant-than-ever-anti-war-game-this-war-of-mine-is-getting-a-full-remake/",
     "https://www.ign.com/articles/alienware-aw2726dm-oled-gaming-monitor-deal-new-release",
     "https://www.polygon.com/splatoon-raiders-switch-2-release-date-trailer/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/10/naruto-mobile-global-version-announced",
     "https://www.rockpapershotgun.com/forza-horizon-6s-first-major-expansion-will-pull-up-in-january-now-playground-games-just-need-to-offer-any-kind-of-hint-whatsoever-as-to-what-itll-look-like",
     "https://www.pcgamer.com/games/strategy/peter-molyneux-explains-the-origin-story-of-black-and-whites-famous-creatures-it-was-originally-a-monster-it-wasnt-a-cute-creature/",
-    "https://www.gamesindustry.biz/avalanche-studio-group-to-globally-publish-market-and-distribute-titles-from-supermassive-games"
+    "https://www.gamesindustry.biz/avalanche-studio-group-to-globally-publish-market-and-distribute-titles-from-supermassive-games",
+    "https://www.rockpapershotgun.com/valor-mortis-system-requirements-appear-to-have-been-drastically-cut-just-before-the-fpsoulslike-launches",
+    "https://www.polygon.com/he-man-masters-of-the-universe-new-game-release-date-trailer/",
+    "https://gamerant.com/runescape-4-dragonwilds-expansion-mmo/",
+    "https://www.pushsquare.com/news/2026/10/clair-obscur-expedition-33-actor-outs-mysterious-sega-game"
   ],
   "seen_titles": [
-    "helldivers 2 continues its brilliant run of post-launch content with another warbond on ps5",
-    "the division 2 launches limited time cherry blossom event in april 2026 update",
-    "microsoft cuts game pass pricing and removes call of duty as day-one launch title in response to \"a lot of feedback\"",
-    "street fighter 6 somehow patched its incest storyline to make it even shadier than it originally was",
     "12 years after the original and with its themes more relevant than ever, anti-war game this war of mine is getting a full remake",
     "the new 27\" alienware aw2726dm qhd 240hz oled monitor just launched at an unbelievably low price",
     "splatoon raiders gets nintendo switch 2 release date, new trailer",
@@ -10001,13 +9997,13 @@
     "naruto mobile global version announced",
     "forza horizon 6's first major expansion will pull up in january, now playground games just need to offer any kind of hint whatsoever as to what it'll look like",
     "peter molyneux explains the origin story of black & white's famous creatures: 'it was originally a monster. it wasn't a cute creature'",
-    "avalanche studio group to globally publish, market, and distribute titles from supermassive games"
+    "avalanche studio group to globally publish, market, and distribute titles from supermassive games",
+    "valor mortis' system requirements appear to have been drastically cut, just before the fpsoulslike launches",
+    "he-man sets official return in 2027 with 'dragon pearl of destruction'",
+    "runescape's new reveal makes dragonwilds look like a secret first chapter",
+    "clair obscur: expedition 33 actor outs mysterious sega game"
   ],
   "seen_story_keys": [
-    "55020ec04afdc241c5bf96ce863488d02b3bad73",
-    "6e82d21eff119226473da684a6ee0b6becad2a20",
-    "a3029b7291fb28acff297ebe8d13c35654ae181f",
-    "239197dffc886284598e7e306521eeb671169ef7",
     "5d61c418159bf69dfbea26de551dc8e6c25acf40",
     "beeb59b1b643308d41c354be843886bc643ae8a4",
     "f3863f0bbd32234d5ffe86dd502f09df40cad6ac",
@@ -15003,6 +14999,10 @@
     "7f291bb2fd92107b277fbed1af54a50e3263949b",
     "837e17655ce75710440444b65894767fb21e86f9",
     "e43abd1841ab78aa6b49b9f35387da14954d23a2",
-    "670aa0ef332caf63c82638610705328a869ea8be"
+    "670aa0ef332caf63c82638610705328a869ea8be",
+    "84be08f98704f32103a3f68d9abf78a63af509fb",
+    "81706df0f882c2f1024aa2c24887c6393fb125b1",
+    "f13a7dc7264e2e0268e4e46459d4394a08b755cc",
+    "90c1eeb7cae8c10b288ac1c5ca3afc6d99d4b4fc"
   ]
 }
