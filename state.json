@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/motorslice-launches-may-5",
-    "https://gamerant.com/pragmata-ps5-pro-update/",
-    "https://www.pcgamer.com/gaming-industry/xbox-game-pass-prices-are-going-down-but-future-call-of-duty-games-wont-be-added-until-about-a-year-after-they-launch/",
-    "https://www.pcgamer.com/hardware/gaming-laptops/framework-just-announced-its-own-macbook-pro-for-linux-users/",
     "https://www.gamespot.com/articles/vampire-crawlers-all-relics-and-where-to-get-them/1100-6539334/?ftag=CAD-01-10abi2f",
     "https://www.pushsquare.com/news/2026/04/helldivers-2-continues-its-brilliant-run-of-post-launch-content-with-another-warbond-on-ps5",
     "https://gamerant.com/the-division-2-cherry-blossom-event-april-2026-update-patch-notes/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/star-citizen-squadron-42-steam-wishlist/",
     "https://www.ign.com/articles/marvel-tokon-dlc-roadmap-reveals-first-look-at-jane-foster-thor-venom-and-jubilee-coming-in-2027",
     "https://www.gematsu.com/2026/10/marvel-tokon-fighting-souls-dlc-characters-thor-jane-foster-venom-and-jubilee-announced",
-    "https://www.pcgamer.com/games/sim/it-looks-like-wing-commander-3-is-getting-a-remaster-after-ea-producer-discovers-the-original-fmv-source-tapes-in-the-companys-archives/"
+    "https://www.pcgamer.com/games/sim/it-looks-like-wing-commander-3-is-getting-a-remaster-after-ea-producer-discovers-the-original-fmv-source-tapes-in-the-companys-archives/",
+    "https://www.gematsu.com/2026/10/invincible-vs-dlc-character-agent-spider-announced",
+    "https://www.gematsu.com/2026/10/naruto-mobile-global-version-announced",
+    "https://www.rockpapershotgun.com/forza-horizon-6s-first-major-expansion-will-pull-up-in-january-now-playground-games-just-need-to-offer-any-kind-of-hint-whatsoever-as-to-what-itll-look-like",
+    "https://www.pcgamer.com/games/strategy/peter-molyneux-explains-the-origin-story-of-black-and-whites-famous-creatures-it-was-originally-a-monster-it-wasnt-a-cute-creature/"
   ],
   "seen_titles": [
-    "motorslice launches may 5",
-    "pragmata gets new update on ps5 pro",
-    "xbox game pass prices are going down, but future call of duty games won't be added until 'about a year' after they launch",
-    "framework just announced its own 'macbook pro for linux users'",
     "vampire crawlers - all relics and where to get them",
     "helldivers 2 continues its brilliant run of post-launch content with another warbond on ps5",
     "the division 2 launches limited time cherry blossom event in april 2026 update",
@@ -10001,13 +9997,13 @@
     "star citizen: squadron 42 just got an encouraging update",
     "marvel tokon dlc roadmap reveals first look at jane foster thor, venom and jubilee coming in 2027",
     "marvel tokon: fighting souls dlc characters thor (jane foster), venom, and jubilee announced",
-    "it looks like wing commander 3 is getting a remaster, after ea producer discovers the original fmv source tapes in the company's archives"
+    "it looks like wing commander 3 is getting a remaster, after ea producer discovers the original fmv source tapes in the company's archives",
+    "invincible vs dlc character agent spider announced",
+    "naruto mobile global version announced",
+    "forza horizon 6's first major expansion will pull up in january, now playground games just need to offer any kind of hint whatsoever as to what it'll look like",
+    "peter molyneux explains the origin story of black & white's famous creatures: 'it was originally a monster. it wasn't a cute creature'"
   ],
   "seen_story_keys": [
-    "91c5d0190dc1cda9689dbb56f4bd2c736064bdec",
-    "4fa10b62070f6bd306d7b7b63dd6a451d0fdbc0d",
-    "385758d639bf2a1c1f51d85aa8e9c47606ce85fa",
-    "3704295df719de48366950514301ed93312065fb",
     "d5de188dea0a2b95255ad7b2c55caf0dd24bf267",
     "55020ec04afdc241c5bf96ce863488d02b3bad73",
     "6e82d21eff119226473da684a6ee0b6becad2a20",
@@ -15003,6 +14999,10 @@
     "f7a5ce3a35a170f8a69e43a69e87e68373b3e86c",
     "3011c772f789092ba0c5cd5e3593c27517213237",
     "ef8f7311c25a620aaf42cd41a27d5256ddd80e2f",
-    "9b57d6d119212ed4975aa03df5c18c4b9cdf749f"
+    "9b57d6d119212ed4975aa03df5c18c4b9cdf749f",
+    "3fbcecbd2184bef3c1df723b22d9a97d5c99b7d9",
+    "7f291bb2fd92107b277fbed1af54a50e3263949b",
+    "837e17655ce75710440444b65894767fb21e86f9",
+    "e43abd1841ab78aa6b49b9f35387da14954d23a2"
   ]
 }
