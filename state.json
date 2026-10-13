@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamesindustry.biz/firstpoint-vc-launches-with-50m-fund-to-invest-in-ai-driven-games-and-entertainment-startups",
-    "https://www.pcgamer.com/hardware/graphics-cards/pragmata-is-yet-another-launch-day-fail-for-intels-gpus-but-its-quick-response-to-game-issues-shows-its-still-working-hard-for-gamers/",
-    "https://www.rockpapershotgun.com/australian-government-steam-roblox-minecraft-fortnite-extremism-grooming-transparency-notices",
-    "https://www.ign.com/articles/marathon-changes-announced",
     "https://www.eurogamer.net/ubisoft-cancels-cozy-life-sim-alterra",
     "https://www.pcgamer.com/games/mmo/despite-microtransaction-woes-at-launch-mmo-sequel-aion-2-will-go-global-this-year/",
     "https://gamerant.com/splatoon-raiders-2026-nintendo-games-islands/",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/sifu-mobile-release-android-ios",
     "https://gamerant.com/god-of-war-laufey-collectors-edition-no-game/",
     "https://www.pushsquare.com/news/2026/10/open-world-puzzler-escape-academy-2-back-2-school-enrols-on-ps5-this-november",
-    "https://www.eurogamer.net/gta-6s-pc-release-date-is-set-for-q1-2027-per-a-new-report"
+    "https://www.eurogamer.net/gta-6s-pc-release-date-is-set-for-q1-2027-per-a-new-report",
+    "https://gamerant.com/final-fantasy-14-patch-7-57-live/",
+    "https://www.ign.com/articles/xbox-announces-xbox-labs-aimed-in-part-at-getting-improved-old-gen-games-playable-in-web-browsers",
+    "https://www.rockpapershotgun.com/echoes-of-delicious-in-dungeon-ring-out-in-deep-dish-dungeon-a-co-op-dungeon-crawler-about-making-meals-with-whatever-you-can-scrounge-up-thats-out-now",
+    "https://www.purexbox.com/news/2026/10/xbox-indie-showcase-to-highlight-18-games-this-month-including-tons-of-world-premieres"
   ],
   "seen_titles": [
-    "firstpoint vc launches with €50m fund to invest in ai-driven games and entertainment startups",
-    "pragmata is yet another launch day fail for intel's gpus, but its quick response to game issues shows it's still working hard for gamers",
-    "steam, minecraft, roblox and fortnite risk \"becoming onramps to abuse, extremist violence, radicalisation or lifelong harm\", claim australian government",
-    "marathon changes announced",
     "ubisoft cancels animal crossing and minecraft-inspired cosy life sim game alterra",
     "despite microtransaction woes at launch, mmo sequel aion 2 will go global this year",
     "splatoon raiders proves nintendo wants to make 2026 the year of island living",
@@ -10001,13 +9997,13 @@
     "sifu, the singular kung fu action game, is out now on android and ios",
     "god of war laufey collector's edition has a major catch",
     "open world puzzler escape academy 2: back 2 school enrols on ps5 this november",
-    "gta 6's pc release date is set for \"q1 2027\", per a new report"
+    "gta 6's pc release date is set for \"q1 2027\", per a new report",
+    "final fantasy 14 back online with new update after 24-hour maintenance",
+    "xbox announces xbox labs, aimed in part at getting improved old-gen games playable in web browsers",
+    "echoes of delicious in dungeon ring out in deep dish dungeon, a co-op dungeon crawler about making meals with whatever you can scrounge up that's out now",
+    "xbox indie showcase to highlight 18 games this month, including 'tons' of world premieres"
   ],
   "seen_story_keys": [
-    "6469ea6d0db0f8a2e7b719906b0d6d24df0cd1a0",
-    "c183b60ffa6f3ed29a44574f0f22f2ddd8ef0348",
-    "f279c1067030f764df6a0c057697d045866cc93d",
-    "ecdad42e46ec5f104a2e363bcecfdcffcd16a357",
     "097bdc83379ba9d9a085f73ae3c3ebcabf26a385",
     "159cef0b709456d32c56f6ef411c470b82e683a8",
     "ae31fbd139aaf1ad062f4fb3de2acc24dca9c180",
@@ -15003,6 +14999,10 @@
     "fc27a5af98d1ab3b238a6b29df5c50cf7559eebf",
     "ed885a8f06447b3fc81bd45c44e80f81e1989cb2",
     "97ce3995e2c51dc37346783a45393fc812b43e6f",
-    "5304876c631af901891ac79157af1dbb546bfa72"
+    "5304876c631af901891ac79157af1dbb546bfa72",
+    "6bd62d94123b3eb8fe1fae57177afda89f23ef8a",
+    "d1d8d9699c91da9d8214e5e62ae426a59a3bef0a",
+    "6c006acb66220f62a05b01228602cdf7ca2b4cf3",
+    "905837fc73d04f2da61ad31752cd14c9c6201a28"
   ]
 }
