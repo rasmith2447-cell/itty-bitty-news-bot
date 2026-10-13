@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/ubisoft-cancels-cozy-life-sim-alterra",
-    "https://www.pcgamer.com/games/mmo/despite-microtransaction-woes-at-launch-mmo-sequel-aion-2-will-go-global-this-year/",
-    "https://gamerant.com/splatoon-raiders-2026-nintendo-games-islands/",
-    "https://www.ign.com/articles/helldivers-2-exo-experts-warbond-revealed",
     "https://www.gematsu.com/2026/04/console-archives-ninja-gaiden-iii-the-ancient-ship-of-doom-launches-april-23",
     "https://gamerant.com/new-switch-game-like-pokemon-fear-tall-grass/",
     "https://www.purexbox.com/news/2026/04/xbox-game-pass-ultimate-gets-new-conversion-rates-following-price-decrease",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/final-fantasy-14-patch-7-57-live/",
     "https://www.ign.com/articles/xbox-announces-xbox-labs-aimed-in-part-at-getting-improved-old-gen-games-playable-in-web-browsers",
     "https://www.rockpapershotgun.com/echoes-of-delicious-in-dungeon-ring-out-in-deep-dish-dungeon-a-co-op-dungeon-crawler-about-making-meals-with-whatever-you-can-scrounge-up-thats-out-now",
-    "https://www.purexbox.com/news/2026/10/xbox-indie-showcase-to-highlight-18-games-this-month-including-tons-of-world-premieres"
+    "https://www.purexbox.com/news/2026/10/xbox-indie-showcase-to-highlight-18-games-this-month-including-tons-of-world-premieres",
+    "https://www.gematsu.com/2026/10/antonblast-for-ps5-ps4-launches-october-15",
+    "https://gamerant.com/id-xbox-showcase-october-2026/",
+    "https://www.ign.com/articles/razer-reveals-3-new-pokemon-gaming-headsets-based-on-sylveon-charizard-lucario",
+    "https://gamerant.com/steam-new-open-world-survival-games-blind-descent-release/"
   ],
   "seen_titles": [
-    "ubisoft cancels animal crossing and minecraft-inspired cosy life sim game alterra",
-    "despite microtransaction woes at launch, mmo sequel aion 2 will go global this year",
-    "splatoon raiders proves nintendo wants to make 2026 the year of island living",
-    "helldivers 2 exo experts warbond revealed",
     "console archives ninja gaiden iii: the ancient ship of doom launches april 23",
     "the nintendo switch is getting a new turn-based game inspired by pokemon",
     "xbox game pass ultimate gets new conversion rates following price decrease",
@@ -10001,13 +9997,13 @@
     "final fantasy 14 back online with new update after 24-hour maintenance",
     "xbox announces xbox labs, aimed in part at getting improved old-gen games playable in web browsers",
     "echoes of delicious in dungeon ring out in deep dish dungeon, a co-op dungeon crawler about making meals with whatever you can scrounge up that's out now",
-    "xbox indie showcase to highlight 18 games this month, including 'tons' of world premieres"
+    "xbox indie showcase to highlight 18 games this month, including 'tons' of world premieres",
+    "antonblast for ps5, ps4 launches october 15",
+    "'tons of world premieres' next xbox showcase officially confirmed",
+    "razer reveals new pokémon gaming headsets featuring sylveon, charizard, and lucario",
+    "new open-world co-op survival game officially confirmed for december 2026"
   ],
   "seen_story_keys": [
-    "097bdc83379ba9d9a085f73ae3c3ebcabf26a385",
-    "159cef0b709456d32c56f6ef411c470b82e683a8",
-    "ae31fbd139aaf1ad062f4fb3de2acc24dca9c180",
-    "e89a9c63f949c1697072450f12747b264db523d8",
     "509f399f2c74c57f10deedb63d45fb70feedb280",
     "0fd115e3b221ab010b9c019ea3e3339293897140",
     "17015c130522aa277240b07cfa533bcfa834e554",
@@ -15003,6 +14999,10 @@
     "6bd62d94123b3eb8fe1fae57177afda89f23ef8a",
     "d1d8d9699c91da9d8214e5e62ae426a59a3bef0a",
     "6c006acb66220f62a05b01228602cdf7ca2b4cf3",
-    "905837fc73d04f2da61ad31752cd14c9c6201a28"
+    "905837fc73d04f2da61ad31752cd14c9c6201a28",
+    "fe67d90a8831bf8ecdccc472a1431de7a4945ae2",
+    "8075bfa9e2fb7d0efc48a2d52cfcc95c6a3b1c64",
+    "89b32c65f36bd039a21ba24d128f4867c939c9c5",
+    "8f84a665a459a954f7ce06b8d0b19b172d4f3060"
   ]
 }
