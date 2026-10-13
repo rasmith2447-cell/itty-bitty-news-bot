@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/gaming-industry/12-years-after-the-original-and-with-its-themes-more-relevant-than-ever-anti-war-game-this-war-of-mine-is-getting-a-full-remake/",
-    "https://www.ign.com/articles/alienware-aw2726dm-oled-gaming-monitor-deal-new-release",
-    "https://www.polygon.com/splatoon-raiders-switch-2-release-date-trailer/",
-    "https://www.videogameschronicle.com/news/single-player-spin-off-splatoon-raiders-comes-to-nintendo-switch-2-this-summer/",
     "https://gamerant.com/marathon-patch-notes-april-21-update/",
     "https://www.nintendolife.com/news/2026/04/a-trio-of-new-splatoon-amiibo-are-on-the-way",
     "https://www.gematsu.com/2026/04/splatoon-raiders-launches-july-23",
@@ -4999,13 +4995,13 @@
     "https://www.rockpapershotgun.com/valor-mortis-system-requirements-appear-to-have-been-drastically-cut-just-before-the-fpsoulslike-launches",
     "https://www.polygon.com/he-man-masters-of-the-universe-new-game-release-date-trailer/",
     "https://gamerant.com/runescape-4-dragonwilds-expansion-mmo/",
-    "https://www.pushsquare.com/news/2026/10/clair-obscur-expedition-33-actor-outs-mysterious-sega-game"
+    "https://www.pushsquare.com/news/2026/10/clair-obscur-expedition-33-actor-outs-mysterious-sega-game",
+    "https://www.gamesindustry.biz/epic-games-delays-disney-game-and-tells-developers-to-go-ai-first",
+    "https://www.gematsu.com/2026/10/usual-june-delayed-to-january-20-2027",
+    "https://www.gematsu.com/2026/10/blind-descent-launches-in-early-access-for-pc-on-december-2",
+    "https://www.polygon.com/grave-seasons-release-date-trailer/"
   ],
   "seen_titles": [
-    "12 years after the original and with its themes more relevant than ever, anti-war game this war of mine is getting a full remake",
-    "the new 27\" alienware aw2726dm qhd 240hz oled monitor just launched at an unbelievably low price",
-    "splatoon raiders gets nintendo switch 2 release date, new trailer",
-    "single-player spin-off splatoon raiders comes to nintendo switch 2 this summer",
     "marathon releases patch notes for april 21 update",
     "a trio of new splatoon amiibo are on the way",
     "splatoon raiders launches july 23",
@@ -10001,13 +9997,13 @@
     "valor mortis' system requirements appear to have been drastically cut, just before the fpsoulslike launches",
     "he-man sets official return in 2027 with 'dragon pearl of destruction'",
     "runescape's new reveal makes dragonwilds look like a secret first chapter",
-    "clair obscur: expedition 33 actor outs mysterious sega game"
+    "clair obscur: expedition 33 actor outs mysterious sega game",
+    "epic games delays disney game and tells developers to go \"ai first\"",
+    "usual june delayed to january 20, 2027",
+    "blind descent launches in early access for pc on december 2",
+    "stardew valley's monster-mash cousin sets new release date"
   ],
   "seen_story_keys": [
-    "5d61c418159bf69dfbea26de551dc8e6c25acf40",
-    "beeb59b1b643308d41c354be843886bc643ae8a4",
-    "f3863f0bbd32234d5ffe86dd502f09df40cad6ac",
-    "aa5d5f064f78e4bb566d6e21351343f31f9afb4a",
     "e98eea0820e34e9872645693fb585db9ed69382e",
     "37ec0ec81ddd19b444d5712c8507ec68a67ab092",
     "b7e0448e3fbd95cb84de936f33566fba2124249c",
@@ -15003,6 +14999,10 @@
     "84be08f98704f32103a3f68d9abf78a63af509fb",
     "81706df0f882c2f1024aa2c24887c6393fb125b1",
     "f13a7dc7264e2e0268e4e46459d4394a08b755cc",
-    "90c1eeb7cae8c10b288ac1c5ca3afc6d99d4b4fc"
+    "90c1eeb7cae8c10b288ac1c5ca3afc6d99d4b4fc",
+    "3bb38112fed165f5c44d9ac95e65b6892743c1ed",
+    "1d5356c41e622aedf771e57e19f8527c7eb31b77",
+    "9d5f6eec4060b2ef86364307d66bcceefc31c6b9",
+    "8be479ceb600ec0366b86d5ef973b7cb80fd29b7"
   ]
 }
