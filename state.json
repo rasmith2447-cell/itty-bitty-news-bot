@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/d-topia-launches-july-14",
-    "https://gamerant.com/video/what-did-oblivion-remastered-accomplish-one-year-later/",
-    "https://www.videogameschronicle.com/news/ecco-the-dolphin-complete-announced-containing-the-first-two-games-and-a-new-contemporary-game/",
-    "https://www.videogameschronicle.com/news/nintendo-sued-by-players-who-say-they-should-get-any-tariff-refunds-received-by-the-us-government/",
     "https://www.nintendolife.com/news/2026/04/ecco-the-dolphin-complete-announced-includes-remasters-and-a-brand-new-game",
     "https://www.polygon.com/peach-backstory-super-mario-galaxy-movie-games-miyamoto/",
     "https://gamerant.com/dead-by-daylight-behaviour-interactive-layoffs/",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/10/toy-shooter-hypercharge-unboxed-is-getting-a-huge-and-completely-free-update-on-switch-this-week",
     "https://www.gematsu.com/2026/10/1999-tokoyo-building-launches-november-10",
     "https://www.eurogamer.net/witcher-3-remastered-ps5-pro-switch-patch",
-    "https://www.eurogamer.net/dan-houser-gta-3-boxart-9-11"
+    "https://www.eurogamer.net/dan-houser-gta-3-boxart-9-11",
+    "https://www.gamesindustry.biz/casual-game-marketplace-legacy-games-to-close-online-store-this-december",
+    "https://gamerant.com/nintendo-switch-sens-game-release-moto-x/",
+    "https://www.pcgamer.com/games/action/gta-6-was-delayed-partially-because-the-amount-of-npcs-was-horrifying-and-required-a-dedicated-studio-full-of-writers-to-handle/",
+    "https://www.gematsu.com/2026/10/dark-cosmic-fantasy-strategy-rpg-myths-from-the-maw-announced-for-pc"
   ],
   "seen_titles": [
-    "d-topia launches july 14",
-    "what did oblivion remastered accomplish, one year later?",
-    "ecco the dolphin complete announced, containing the first two games and a new ‘contemporary’ game",
-    "nintendo sued by players who say they should get any tariff refunds received by the us government",
     "ecco the dolphin: complete announced, includes remasters & a brand new game",
     "nintendo will stick to peach's mario galaxy movie backstory in future games",
     "dead by daylight developer behaviour interactive hit with layoffs",
@@ -10001,13 +9997,13 @@
     "toy shooter hypercharge: unboxed is getting a \"huge\" and \"completely free\" update on switch this week",
     "1999 tokoyo building launches november 10",
     "cd projekt red reassures players the witcher 3 switch 2 patch still due, as update rolls out for ps5 and ps5 pro",
-    "gta 3's iconic box art was changed at the last minute because of 9/11, ex-rockstar lead dan houser reveals"
+    "gta 3's iconic box art was changed at the last minute because of 9/11, ex-rockstar lead dan houser reveals",
+    "casual game marketplace legacy games to close online store this december",
+    "once canceled 1994 snes game is coming to nintendo switch",
+    "gta 6 was delayed partially because the amount of npcs was 'horrifying' and required a dedicated studio full of writers to handle",
+    "dark cosmic fantasy strategy rpg myths from the maw announced for pc"
   ],
   "seen_story_keys": [
-    "afb7949bff8bfaab9e6f0d32a07bb33cf7980a4a",
-    "1fad8b3ea1724469fc74bd50b1b27a05a64dbfa5",
-    "2322db7e0fcedc7eabe3a20e71f5952b13fe8473",
-    "2166fc4eaf74e64b47a80ceb90b32c9c991e68a0",
     "27ba83f76f8474841b012f15b3bab1dd828b4d7c",
     "e9e361a49beddc4c650cd2d8819a9d655841cdfb",
     "442c780319748fe3e66696335b9b6660cd44acea",
@@ -15003,6 +14999,10 @@
     "29f7858b664c64f437a3d829464b99182dcee159",
     "8b08fb47aa6c9e9eebdec1e52309ecfad80af487",
     "a14d416b45796db7c41788852a8e701d1dbe6f13",
-    "19e111e197428b10826ab61142b7d0ef6544560e"
+    "19e111e197428b10826ab61142b7d0ef6544560e",
+    "15311cc0e54d2b0ae792d554da91c6d83974c85d",
+    "a76149ab8e5d086f2a232ffce6d19b49df463bb4",
+    "b3d57636d3044fa1b5687e32845f7a0e47999945",
+    "bfb092ad05903eb0dbae9ce2e863357ab9e5c548"
   ]
 }
