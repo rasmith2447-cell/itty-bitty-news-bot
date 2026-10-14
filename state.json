@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/console-archives-ninja-gaiden-iii-the-ancient-ship-of-doom-launches-april-23",
-    "https://gamerant.com/new-switch-game-like-pokemon-fear-tall-grass/",
-    "https://www.purexbox.com/news/2026/04/xbox-game-pass-ultimate-gets-new-conversion-rates-following-price-decrease",
-    "https://www.gematsu.com/2026/04/the-expanse-osiris-reborn-closed-beta-now-available",
     "https://www.ign.com/articles/the-lord-of-the-rings-the-rings-of-power-season-3-debuts-in-2026",
     "https://www.eurogamer.net/ecco-the-dolphin-complete-announced",
     "https://www.gematsu.com/2026/04/hypnos-launches-in-early-access-for-pc-on-may-6",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/10/antonblast-for-ps5-ps4-launches-october-15",
     "https://gamerant.com/id-xbox-showcase-october-2026/",
     "https://www.ign.com/articles/razer-reveals-3-new-pokemon-gaming-headsets-based-on-sylveon-charizard-lucario",
-    "https://gamerant.com/steam-new-open-world-survival-games-blind-descent-release/"
+    "https://gamerant.com/steam-new-open-world-survival-games-blind-descent-release/",
+    "https://www.nintendolife.com/news/2026/10/mario-kart-8-deluxe-has-been-updated-to-version-4-0-1-here-are-the-full-patch-notes",
+    "https://gamerant.com/pokemon-30th-anniversary-beats-october-15/",
+    "https://www.polygon.com/xbox-labs-asha-sharma-ai-vibe-coding/",
+    "https://www.gematsu.com/2026/10/paranormal-legends-story-driven-adventure-game-we-dont-exist-announced-for-pc"
   ],
   "seen_titles": [
-    "console archives ninja gaiden iii: the ancient ship of doom launches april 23",
-    "the nintendo switch is getting a new turn-based game inspired by pokemon",
-    "xbox game pass ultimate gets new conversion rates following price decrease",
-    "the expanse: osiris reborn closed beta now available",
     "the lord of the rings: the rings of power season 3 debuts in 2026",
     "ecco the dolphin: complete announced, includes remasters of the first two entries and brand-new game",
     "hypnos launches in early access for pc on may 6",
@@ -10001,13 +9997,13 @@
     "antonblast for ps5, ps4 launches october 15",
     "'tons of world premieres' next xbox showcase officially confirmed",
     "razer reveals new pokémon gaming headsets featuring sylveon, charizard, and lucario",
-    "new open-world co-op survival game officially confirmed for december 2026"
+    "new open-world co-op survival game officially confirmed for december 2026",
+    "mario kart 8 deluxe has been updated to version 4.0.1, here are the full patch notes",
+    "new pokemon 30th anniversary release announced for october 15",
+    "new xbox labs team officially announced",
+    "paranormal legends story-driven adventure game we don’t exist announced for pc"
   ],
   "seen_story_keys": [
-    "509f399f2c74c57f10deedb63d45fb70feedb280",
-    "0fd115e3b221ab010b9c019ea3e3339293897140",
-    "17015c130522aa277240b07cfa533bcfa834e554",
-    "86862800ecf7907471cec4809260ca964ad9bbc3",
     "ea6110f4fe34a2e1f8d27234eb2fdc85c4444edf",
     "56b2f5651bd1f506cae12dc23a0a8dde4cd8311c",
     "54074ea24a278c5054e6cf2cf65ae911c39f62df",
@@ -15003,6 +14999,10 @@
     "fe67d90a8831bf8ecdccc472a1431de7a4945ae2",
     "8075bfa9e2fb7d0efc48a2d52cfcc95c6a3b1c64",
     "89b32c65f36bd039a21ba24d128f4867c939c9c5",
-    "8f84a665a459a954f7ce06b8d0b19b172d4f3060"
+    "8f84a665a459a954f7ce06b8d0b19b172d4f3060",
+    "2e6ee0d9ddfa830576c70691bb99f170ab805ff6",
+    "10ccc2c1379010eff25d8a525c2b2373d7e17ebb",
+    "286eebc95bc6a65879e4c0a3d51de17637fe9582",
+    "94ecab86afc5dc28e8106c157237d9a237570373"
   ]
 }
