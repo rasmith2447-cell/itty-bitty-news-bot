@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/the-lord-of-the-rings-the-rings-of-power-season-3-debuts-in-2026",
-    "https://www.eurogamer.net/ecco-the-dolphin-complete-announced",
-    "https://www.gematsu.com/2026/04/hypnos-launches-in-early-access-for-pc-on-may-6",
-    "https://www.eurogamer.net/assassins-creed-actor-abubakar-salim-warns-troy-baker-about-creating-game-studio",
     "https://www.gematsu.com/2026/04/d-topia-launches-july-14",
     "https://gamerant.com/video/what-did-oblivion-remastered-accomplish-one-year-later/",
     "https://www.videogameschronicle.com/news/ecco-the-dolphin-complete-announced-containing-the-first-two-games-and-a-new-contemporary-game/",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/10/mario-kart-8-deluxe-has-been-updated-to-version-4-0-1-here-are-the-full-patch-notes",
     "https://gamerant.com/pokemon-30th-anniversary-beats-october-15/",
     "https://www.polygon.com/xbox-labs-asha-sharma-ai-vibe-coding/",
-    "https://www.gematsu.com/2026/10/paranormal-legends-story-driven-adventure-game-we-dont-exist-announced-for-pc"
+    "https://www.gematsu.com/2026/10/paranormal-legends-story-driven-adventure-game-we-dont-exist-announced-for-pc",
+    "https://www.nintendolife.com/news/2026/10/toy-shooter-hypercharge-unboxed-is-getting-a-huge-and-completely-free-update-on-switch-this-week",
+    "https://www.gematsu.com/2026/10/1999-tokoyo-building-launches-november-10",
+    "https://www.eurogamer.net/witcher-3-remastered-ps5-pro-switch-patch",
+    "https://www.eurogamer.net/dan-houser-gta-3-boxart-9-11"
   ],
   "seen_titles": [
-    "the lord of the rings: the rings of power season 3 debuts in 2026",
-    "ecco the dolphin: complete announced, includes remasters of the first two entries and brand-new game",
-    "hypnos launches in early access for pc on may 6",
-    "assassin's creed actor abubakar salim jokingly warns troy baker about creating his own game studio: \"don't do it\"",
     "d-topia launches july 14",
     "what did oblivion remastered accomplish, one year later?",
     "ecco the dolphin complete announced, containing the first two games and a new ‘contemporary’ game",
@@ -10001,13 +9997,13 @@
     "mario kart 8 deluxe has been updated to version 4.0.1, here are the full patch notes",
     "new pokemon 30th anniversary release announced for october 15",
     "new xbox labs team officially announced",
-    "paranormal legends story-driven adventure game we don’t exist announced for pc"
+    "paranormal legends story-driven adventure game we don’t exist announced for pc",
+    "toy shooter hypercharge: unboxed is getting a \"huge\" and \"completely free\" update on switch this week",
+    "1999 tokoyo building launches november 10",
+    "cd projekt red reassures players the witcher 3 switch 2 patch still due, as update rolls out for ps5 and ps5 pro",
+    "gta 3's iconic box art was changed at the last minute because of 9/11, ex-rockstar lead dan houser reveals"
   ],
   "seen_story_keys": [
-    "ea6110f4fe34a2e1f8d27234eb2fdc85c4444edf",
-    "56b2f5651bd1f506cae12dc23a0a8dde4cd8311c",
-    "54074ea24a278c5054e6cf2cf65ae911c39f62df",
-    "3128fa99a51d9a62e7515cc14274abcc35670e19",
     "afb7949bff8bfaab9e6f0d32a07bb33cf7980a4a",
     "1fad8b3ea1724469fc74bd50b1b27a05a64dbfa5",
     "2322db7e0fcedc7eabe3a20e71f5952b13fe8473",
@@ -15003,6 +14999,10 @@
     "2e6ee0d9ddfa830576c70691bb99f170ab805ff6",
     "10ccc2c1379010eff25d8a525c2b2373d7e17ebb",
     "286eebc95bc6a65879e4c0a3d51de17637fe9582",
-    "94ecab86afc5dc28e8106c157237d9a237570373"
+    "94ecab86afc5dc28e8106c157237d9a237570373",
+    "29f7858b664c64f437a3d829464b99182dcee159",
+    "8b08fb47aa6c9e9eebdec1e52309ecfad80af487",
+    "a14d416b45796db7c41788852a8e701d1dbe6f13",
+    "19e111e197428b10826ab61142b7d0ef6544560e"
   ]
 }
