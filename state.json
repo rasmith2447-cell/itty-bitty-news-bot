@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/xbox-game-pass-could-lose-other-day-one-new-releases-beyond-call-of-duty-expert-says/1100-6539552/?ftag=CAD-01-10abi2f",
-    "https://gamerant.com/hearthstone-twist-game-mode-discontinued/",
-    "https://www.gamespot.com/articles/the-last-of-us-star-troy-baker-wants-to-start-his-own-game-studio-but-he-wont-rush-it/1100-6539520/?ftag=CAD-01-10abi2f",
-    "https://www.pushsquare.com/news/2026/04/one-of-ps5s-most-promising-rpgs-gets-a-gameplay-blowout-and-release-date-next-week",
     "https://www.gematsu.com/2026/04/the-blood-of-dawnwalker-road-to-launch-event-set-for-april-28",
     "https://www.gamesindustry.biz/gamers-sue-nintendo-over-tariff-refunds",
     "https://www.ign.com/articles/serial-killer-slasher-heart-eyes-2-gets-2028-release-date",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/007-first-light-switch-2-release-date-pre-order-bonus/",
     "https://www.pcgamer.com/games/moba/3-months-after-launch-riot-announces-league-of-legends-classic-will-be-killed-in-january-most-have-gone-back-to-other-parts-of-league/",
     "https://www.ign.com/articles/peter-safran-dc-studios-slate-post-merger",
-    "https://www.gematsu.com/2026/10/4-penny-coffins-launches-october-27"
+    "https://www.gematsu.com/2026/10/4-penny-coffins-launches-october-27",
+    "https://www.gematsu.com/2026/10/touhou-koumakyou-new-classic-the-embodiment-of-scarlet-devil-physical-edition-for-switch-2-switch-launches-december-17-in-japan",
+    "https://www.gematsu.com/2026/10/idle-simulation-game-gundam-blitz-order-announced-for-ios-android",
+    "https://www.nintendolife.com/news/2026/10/youre-late-007-first-light-has-finally-locked-in-a-switch-2-release-date",
+    "https://www.gematsu.com/2026/10/monster-hunter-wilds-prologue-demo-for-switch-2-launches-october-19"
   ],
   "seen_titles": [
-    "xbox game pass could lose other day-one new releases beyond call of duty, expert says",
-    "hearthstone is retiring another game mode",
-    "tlou star troy baker wants to start his own game studio -- \"don't do it,\" another dev says",
-    "one of ps5's most promising rpgs gets a gameplay blowout and release date next week",
     "the blood of dawnwalker ‘road to launch’ event set for april 28",
     "gamers sue nintendo over tariff refunds",
     "serial killer slasher heart eyes 2 gets 2028 release date",
@@ -10001,13 +9997,13 @@
     "007 first light reveals switch 2 release date and perfect pre-order bonus",
     "3 months after launch, riot announces league of legends classic will be killed in january: 'most have gone back to other parts of league'",
     "dc studios co-boss peter safran reaffirms franchise slate after skydance acquisition",
-    "4 penny coffins launches october 27"
+    "4 penny coffins launches october 27",
+    "touhou koumakyou: new classic – the embodiment of scarlet devil physical edition for switch 2, switch launches december 17 in japan",
+    "idle simulation game gundam blitz order announced for ios, android",
+    "\"you're late, 007\" - first light has finally locked in a switch 2 release date",
+    "monster hunter wilds prologue demo for switch 2 launches october 19"
   ],
   "seen_story_keys": [
-    "62399e5020cb7490e323a4b285694b582254ec0e",
-    "6a09bf37b21a81067e2596bc38a06c1644522b60",
-    "6e5ea1874958f20886b63c6cfa6ba895c9d8a9cf",
-    "d7dec9976a09ebce8499c2e08da1d5346d96dd85",
     "e34a0a8b0ce79682b87996873bc9782740c128f4",
     "d15e14fb1811c258a1e9c01208fce33d424cccf1",
     "f50fecdee846289471cd17468cfe587e1e39bcbb",
@@ -15003,6 +14999,10 @@
     "806bc183c38727735b4c0b0525648686530edc8e",
     "e246a42bc96d1c1c29695dd329ccf28c01990e97",
     "e0fa83a5749778ff0750cb9aa30687923cbe4618",
-    "0442cef9b1a372cacb364ec728eac1b2073359c4"
+    "0442cef9b1a372cacb364ec728eac1b2073359c4",
+    "d01e49f5f883c1898f7c5dce4bf13660d02013d1",
+    "6b62f2f4e942d05b94ecef48a23a47789f4a653b",
+    "6b3b370f908b4671e2965fe5f2427eeefc199a0c",
+    "92ff4ba4eb56af4a05530c6fadfa1a5138bcd99a"
   ]
 }
