@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/04/asha-sharma-teases-new-xbox-game-pass-and-discord-partnership",
-    "https://gamerant.com/super-mario-galaxy-movie-rosalina-peach-sister-canon/",
-    "https://www.pushsquare.com/news/2026/04/ps5s-007-first-light-shows-its-hitman-dna-in-this-great-new-overview-trailer",
-    "https://gamerant.com/nintendo-tariff-refund-lawsuit/",
     "https://www.gamespot.com/articles/xbox-game-pass-could-lose-other-day-one-new-releases-beyond-call-of-duty-expert-says/1100-6539552/?ftag=CAD-01-10abi2f",
     "https://gamerant.com/hearthstone-twist-game-mode-discontinued/",
     "https://www.gamespot.com/articles/the-last-of-us-star-troy-baker-wants-to-start-his-own-game-studio-but-he-wont-rush-it/1100-6539520/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/007-first-light-nintendo-switch-2-release-date-price-confirmed-preorder/",
     "https://www.ign.com/articles/gta-6-was-originally-meant-to-release-much-sooner-than-we-realized",
     "https://www.gematsu.com/2026/10/007-first-light-for-switch-2-launches-march-18-2027",
-    "https://www.gematsu.com/2026/10/acts-of-blood-launches-december-4-for-pc-in-2027-for-ps5-and-xbox-series"
+    "https://www.gematsu.com/2026/10/acts-of-blood-launches-december-4-for-pc-in-2027-for-ps5-and-xbox-series",
+    "https://gamerant.com/007-first-light-switch-2-release-date-pre-order-bonus/",
+    "https://www.pcgamer.com/games/moba/3-months-after-launch-riot-announces-league-of-legends-classic-will-be-killed-in-january-most-have-gone-back-to-other-parts-of-league/",
+    "https://www.ign.com/articles/peter-safran-dc-studios-slate-post-merger",
+    "https://www.gematsu.com/2026/10/4-penny-coffins-launches-october-27"
   ],
   "seen_titles": [
-    "asha sharma teases new xbox game pass & discord partnership",
-    "it's official: the super mario galaxy movie has changed the game canon",
-    "ps5's 007 first light shows its hitman dna in this great new overview trailer",
-    "nintendo is being sued over tariff refunds",
     "xbox game pass could lose other day-one new releases beyond call of duty, expert says",
     "hearthstone is retiring another game mode",
     "tlou star troy baker wants to start his own game studio -- \"don't do it,\" another dev says",
@@ -10001,13 +9997,13 @@
     "2026 goty contender officially sets nintendo switch 2 release date",
     "gta 6 was originally meant to release much sooner than we realized",
     "007 first light for switch 2 launches march 18, 2027",
-    "acts of blood launches december 4 for pc, in 2027 for ps5 and xbox series"
+    "acts of blood launches december 4 for pc, in 2027 for ps5 and xbox series",
+    "007 first light reveals switch 2 release date and perfect pre-order bonus",
+    "3 months after launch, riot announces league of legends classic will be killed in january: 'most have gone back to other parts of league'",
+    "dc studios co-boss peter safran reaffirms franchise slate after skydance acquisition",
+    "4 penny coffins launches october 27"
   ],
   "seen_story_keys": [
-    "165b0b175dbf420abd35c5edde92d0a020d56d21",
-    "acc88ce395cf62bc1c3795cee772df2f822e1bad",
-    "6adee91f7e6eabfff6db36ac2023f9f345823a56",
-    "d64091f05fe7ab8f6c0cf4ab10ebf434f26e59e7",
     "62399e5020cb7490e323a4b285694b582254ec0e",
     "6a09bf37b21a81067e2596bc38a06c1644522b60",
     "6e5ea1874958f20886b63c6cfa6ba895c9d8a9cf",
@@ -15003,6 +14999,10 @@
     "b4fe450357de6b06ca385ee284ef53b57c762cdf",
     "85656f83d1891b5be7e770161b74bd3fefd80a94",
     "69d7c9b7dacdce753ca55fd8d10461df945ba33e",
-    "8d27988b648a8f7267d637115b4a507b44088b26"
+    "8d27988b648a8f7267d637115b4a507b44088b26",
+    "806bc183c38727735b4c0b0525648686530edc8e",
+    "e246a42bc96d1c1c29695dd329ccf28c01990e97",
+    "e0fa83a5749778ff0750cb9aa30687923cbe4618",
+    "0442cef9b1a372cacb364ec728eac1b2073359c4"
   ]
 }
