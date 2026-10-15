@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/the-blood-of-dawnwalker-road-to-launch-event-set-for-april-28",
-    "https://www.gamesindustry.biz/gamers-sue-nintendo-over-tariff-refunds",
-    "https://www.ign.com/articles/serial-killer-slasher-heart-eyes-2-gets-2028-release-date",
-    "https://www.gematsu.com/2026/04/r-type-dx-music-encore-launches-april-30",
     "https://www.rockpapershotgun.com/the-next-frostpunk-game-isnt-a-city-builder-11-bit-studios-reveal-alongside-a-modern-reimagining-of-survival-game-this-war-of-mine",
     "https://www.gematsu.com/2026/04/street-fighter-6-dlc-character-ingrid-launches-may-28",
     "https://gamerant.com/world-of-warcraft-patch-12-0-5-bugs-glitches/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/10/touhou-koumakyou-new-classic-the-embodiment-of-scarlet-devil-physical-edition-for-switch-2-switch-launches-december-17-in-japan",
     "https://www.gematsu.com/2026/10/idle-simulation-game-gundam-blitz-order-announced-for-ios-android",
     "https://www.nintendolife.com/news/2026/10/youre-late-007-first-light-has-finally-locked-in-a-switch-2-release-date",
-    "https://www.gematsu.com/2026/10/monster-hunter-wilds-prologue-demo-for-switch-2-launches-october-19"
+    "https://www.gematsu.com/2026/10/monster-hunter-wilds-prologue-demo-for-switch-2-launches-october-19",
+    "https://www.eurogamer.net/007-first-light-switch-2-release-date-james-bond-game",
+    "https://www.ign.com/articles/dcs-mister-miracle-animated-series-lead-voices-confirmed",
+    "https://www.nintendolife.com/news/2026/10/fire-emblem-fortunes-weave-expansion-pass-announced-wave-1-launches-today",
+    "https://www.gematsu.com/2026/10/fire-emblem-fortunes-weave-expansion-pass-announced"
   ],
   "seen_titles": [
-    "the blood of dawnwalker ‘road to launch’ event set for april 28",
-    "gamers sue nintendo over tariff refunds",
-    "serial killer slasher heart eyes 2 gets 2028 release date",
-    "r-type dx: music encore launches april 30",
     "the next frostpunk game isn't a city builder, 11 bit studios reveal, alongside a modern \"reimagining\" of survival game this war of mine",
     "street fighter 6 dlc character ingrid launches may 28",
     "world of warcraft players are not happy with patch 12.0.5",
@@ -10001,13 +9997,13 @@
     "touhou koumakyou: new classic – the embodiment of scarlet devil physical edition for switch 2, switch launches december 17 in japan",
     "idle simulation game gundam blitz order announced for ios, android",
     "\"you're late, 007\" - first light has finally locked in a switch 2 release date",
-    "monster hunter wilds prologue demo for switch 2 launches october 19"
+    "monster hunter wilds prologue demo for switch 2 launches october 19",
+    "007 first light gets switch 2 release date, with io interactive saying time for \"optimisation and performance\" was needed",
+    "dc’s mister miracle animated series lead voices confirmed",
+    "fire emblem: fortune's weave expansion pass announced, wave 1 launches today",
+    "fire emblem: fortune’s weave expansion pass announced"
   ],
   "seen_story_keys": [
-    "e34a0a8b0ce79682b87996873bc9782740c128f4",
-    "d15e14fb1811c258a1e9c01208fce33d424cccf1",
-    "f50fecdee846289471cd17468cfe587e1e39bcbb",
-    "f6ee8be022d1c25fbe59084de5390690fe0523a5",
     "8230bf7adcb9cb5b818ca752d2c4a8b7928f90e6",
     "4f31ae27e8129cdb812ab6d038d45e35b49c1221",
     "5868d59c12fc0f382b2e1ed83a5710305533ab78",
@@ -15003,6 +14999,10 @@
     "d01e49f5f883c1898f7c5dce4bf13660d02013d1",
     "6b62f2f4e942d05b94ecef48a23a47789f4a653b",
     "6b3b370f908b4671e2965fe5f2427eeefc199a0c",
-    "92ff4ba4eb56af4a05530c6fadfa1a5138bcd99a"
+    "92ff4ba4eb56af4a05530c6fadfa1a5138bcd99a",
+    "853194df16793169695a8af7ccc364ac28bac040",
+    "f5b4bc491ec7dbecacd77670dfef20180c35b717",
+    "f9f9c749aadc703a2459eac6ddcaaf787b14200b",
+    "588bdd952c38292d59d43a0432358fd4732f7e76"
   ]
 }
