@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/infinity-nikkis-free-ps5-pro-update-poised-to-make-it-even-prettier",
-    "https://www.eurogamer.net/dead-by-daylight-behavior-interactive-layoffs-senior-animator",
-    "https://www.gematsu.com/2026/04/furyu-teases-new-game-project-alice-to-be-announced-on-april-25",
-    "https://www.nintendolife.com/news/2026/04/tomodachi-life-living-the-dream-has-received-its-first-update-on-switch",
     "https://www.nintendolife.com/news/2026/04/pokemon-pokopia-updated-to-version-1-0-4-includes-improvements-and-fixes",
     "https://www.pcgamer.com/hardware/handheld-gaming-pcs/amid-tech-shortages-and-price-hikes-the-asus-rog-xbox-ally-keeps-getting-cheaper-in-australia/",
     "https://www.gematsu.com/2026/04/brigandine-abyss-launches-august-26-in-the-west-august-27-in-japan",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/gta-6-trailer-3/",
     "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-launch-trailer/",
     "https://www.gamesindustry.biz/reforj-developer-4j-studios-announces-pc-release-date-at-game-republic-new-horizons",
-    "https://www.eurogamer.net/grand-theft-auto-6-launch-trailer"
+    "https://www.eurogamer.net/grand-theft-auto-6-launch-trailer",
+    "https://www.rockpapershotgun.com/after-almost-three-years-of-early-access-enshrouded-has-hit-10-with-a-complete-story-bigger-map-and-way-too-much-more-to-mention",
+    "https://www.ign.com/articles/new-marvels-wolverine-ps5-funko-pops-where-to-buy",
+    "https://www.polygon.com/witcher-developer-next-game-project-hadar-update/",
+    "https://www.ign.com/articles/33-new-details-from-the-gta-6-launch-trailer"
   ],
   "seen_titles": [
-    "infinity nikki's free ps5 pro update poised to make it even prettier",
-    "dead by daylight behavior interactive appears to have suffered fresh layoffs, as senior animator announces sudden departure",
-    "furyu teases new game ‘project alice’ to be announced on april 25",
-    "tomodachi life: living the dream has received its first update on switch",
     "pokémon pokopia updated to version 1.0.4, includes improvements & fixes",
     "amid tech shortages and price hikes, the asus rog xbox ally keeps getting cheaper in australia",
     "brigandine: abyss launches august 26 in the west, august 27 in japan",
@@ -10001,13 +9997,13 @@
     "gta 6 finally releases trailer 3",
     "the grand theft auto 6 launch trailer is here",
     "reforj developer 4j studios announces pc release date at game republic new horizons",
-    "grand theft auto 6 launch trailer suddenly drops, showing a saucy shower scene, a tense police chase, and high-flying heists"
+    "grand theft auto 6 launch trailer suddenly drops, showing a saucy shower scene, a tense police chase, and high-flying heists",
+    "after almost three years of early access, enshrouded has hit 1.0 with a complete story, bigger map, and way too much more to mention",
+    "new marvel's wolverine funko pops drop next april – here’s where you can preorder them",
+    "witcher developer officially gives big update on new game",
+    "33 new details from the gta 6 launch trailer"
   ],
   "seen_story_keys": [
-    "c45a75902262dead518b0be32787311f9d7134ec",
-    "dddfae6eb87cb272e9675e6571f8c5ebb2f59f12",
-    "0e0a8f294637a7274fce7bb937e445de953dc32f",
-    "e903d13ad8694d40a73f52e3333c50cfcd280487",
     "24debd7c0650f81da563a2f6ab5d2528eee4e883",
     "f55c44f1490a4fac6a0c2bae878c3ec1c29f5966",
     "26f58dfc9362d76fff2d0d479d2fc0083f98025c",
@@ -15003,6 +14999,10 @@
     "b73437789302b074b5830f805c9ce9bdb4822d84",
     "8d39622f8984bcde1e2973295b6ce198ec1badb4",
     "e693b20cf79b64fe90eab61adeead33b56155deb",
-    "a2ea3e31efbf1d254dd123f1f90783db415d9deb"
+    "a2ea3e31efbf1d254dd123f1f90783db415d9deb",
+    "3c92e863ae166168a1e67cbe86cfb80888cb25b5",
+    "459fe50855f29054c681d3c990274e2575115e35",
+    "ead552e424a2f638d4068503656987b13ad5f938",
+    "4774b4c03c432ebf2ba184619fab2cb87436a7fa"
   ]
 }
