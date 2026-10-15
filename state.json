@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/04/pokemon-pokopia-updated-to-version-1-0-4-includes-improvements-and-fixes",
-    "https://www.pcgamer.com/hardware/handheld-gaming-pcs/amid-tech-shortages-and-price-hikes-the-asus-rog-xbox-ally-keeps-getting-cheaper-in-australia/",
-    "https://www.gematsu.com/2026/04/brigandine-abyss-launches-august-26-in-the-west-august-27-in-japan",
-    "https://www.nintendolife.com/news/2026/04/mega-man-battle-network-series-bgm-free-dlc-out-now-for-mega-man-star-force-legacy-collection",
     "https://www.gematsu.com/2026/04/d3-publisher-announces-cardcasino-for-switch-2",
     "https://www.rockpapershotgun.com/crimson-deserts-latest-patch-adds-new-difficulty-options-lets-you-adopt-a-pet-bird-and-unglues-cats-from-shoulders",
     "https://www.pushsquare.com/news/2026/04/huge-and-highly-praised-crimson-desert-ps5-patch-out-now-difficulty-options-and-better-visuals-included",
@@ -4999,13 +4995,13 @@
     "https://www.rockpapershotgun.com/after-almost-three-years-of-early-access-enshrouded-has-hit-10-with-a-complete-story-bigger-map-and-way-too-much-more-to-mention",
     "https://www.ign.com/articles/new-marvels-wolverine-ps5-funko-pops-where-to-buy",
     "https://www.polygon.com/witcher-developer-next-game-project-hadar-update/",
-    "https://www.ign.com/articles/33-new-details-from-the-gta-6-launch-trailer"
+    "https://www.ign.com/articles/33-new-details-from-the-gta-6-launch-trailer",
+    "https://gamerant.com/digital-game-ownership-us/",
+    "https://www.ign.com/articles/runescape-reignited-cancelled-less-than-two-weeks-after-being-announced",
+    "https://www.gematsu.com/2026/10/guns-of-eschaton-launches-december-8",
+    "https://www.gematsu.com/2026/10/mr-records-reveals-level-editor"
   ],
   "seen_titles": [
-    "pokémon pokopia updated to version 1.0.4, includes improvements & fixes",
-    "amid tech shortages and price hikes, the asus rog xbox ally keeps getting cheaper in australia",
-    "brigandine: abyss launches august 26 in the west, august 27 in japan",
-    "\"mega man battle network series bgm\" free dlc out now for mega man star force: legacy collection",
     "d3 publisher announces card&casino for switch 2",
     "crimson desert's latest patch adds new difficulty options, lets you adopt a pet bird, and unglues cats from shoulders",
     "huge and highly praised crimson desert ps5 patch out now, difficulty options and better visuals included",
@@ -10001,13 +9997,13 @@
     "after almost three years of early access, enshrouded has hit 1.0 with a complete story, bigger map, and way too much more to mention",
     "new marvel's wolverine funko pops drop next april – here’s where you can preorder them",
     "witcher developer officially gives big update on new game",
-    "33 new details from the gta 6 launch trailer"
+    "33 new details from the gta 6 launch trailer",
+    "us politician issues new official statement on digital game ownership",
+    "runescape reignited canceled less than two weeks after being announced",
+    "guns of eschaton launches december 8",
+    "mr. records reveals level editor"
   ],
   "seen_story_keys": [
-    "24debd7c0650f81da563a2f6ab5d2528eee4e883",
-    "f55c44f1490a4fac6a0c2bae878c3ec1c29f5966",
-    "26f58dfc9362d76fff2d0d479d2fc0083f98025c",
-    "80e8f73ef70659dbc515fa668d405a110242f365",
     "4663de7966f1da136c547fedab5ef59e352d972d",
     "fb88adb64974a9f8bd83605cc4e768837890ebcb",
     "479ab2cd6e9cc806357d352230d89a7ed90ce6e1",
@@ -15003,6 +14999,10 @@
     "3c92e863ae166168a1e67cbe86cfb80888cb25b5",
     "459fe50855f29054c681d3c990274e2575115e35",
     "ead552e424a2f638d4068503656987b13ad5f938",
-    "4774b4c03c432ebf2ba184619fab2cb87436a7fa"
+    "4774b4c03c432ebf2ba184619fab2cb87436a7fa",
+    "7eea05298c66a012f27a0a2d19e82cd8f144f9b2",
+    "75f4ba83c56afcbaa8111706c2851fbf1fe70383",
+    "5f59d9311a7343428ca7c830885673ae4203b617",
+    "bfd0931a8162be274fab29c4250ee6bf1a78c79d"
   ]
 }
