@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/golf-with-your-friends-again-when-chaotic-ps5-sequel-tees-off-this-fall",
-    "https://www.gematsu.com/2026/04/golf-with-your-friends-2-launches-this-fall-for-ps5-xbox-series-switch-2-and-pc",
-    "https://www.gematsu.com/2026/04/speedrunners-2-king-of-speed-launches-in-july",
-    "https://www.nintendolife.com/news/2026/04/assassins-creed-black-flag-resynced-officially-revealed-but-itll-skip-switch-2",
     "https://www.purexbox.com/news/2026/04/xbox-leadership-issues-massive-statement-on-the-future-of-the-brand",
     "https://www.pushsquare.com/features/hands-on-the-expanses-ps5-rpg-has-serious-potential-but-its-protagonist-is-a-big-problem",
     "https://www.purexbox.com/news/2026/04/xbox-announces-10-titles-coming-to-game-pass-at-aprils-indie-showcase",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/10/the-wolf-among-us-remastered-for-switch-delayed-to-unannounced-date",
     "https://www.ign.com/articles/nvidia-app-update-adds-support-for-agent-control-but-some-users-are-warning-to-turn-it-off",
     "https://www.gematsu.com/2026/10/usual-june-adds-xbox-series-version",
-    "https://www.ign.com/articles/elon-musks-tesla-flying-car-reveal-met-with-mix-of-astonishment-and-skepticism"
+    "https://www.ign.com/articles/elon-musks-tesla-flying-car-reveal-met-with-mix-of-astonishment-and-skepticism",
+    "https://www.pushsquare.com/news/2026/10/1-0-roughly-doubles-the-size-of-the-game-no-rest-for-the-wicked-confirms-march-2027-release-on-ps5",
+    "https://www.polygon.com/blood-of-dawnwalker-rpg-patch1-1-announced-new-difficulty-mode-features-fixes/",
+    "https://www.gematsu.com/2026/10/horrorvale-deadluxe-edition-for-ps5-xbox-series-ps4-xbox-one-and-switch-launches-october-31",
+    "https://www.rockpapershotgun.com/cyberpunk-2077-movie-wont-be-a-one-to-one-translation-of-the-games-story-cd-projekt-red-boss-confirms-and-boy-do-i-think-thats-the-right-move"
   ],
   "seen_titles": [
-    "golf with your friends again when chaotic ps5 sequel tees off this fall",
-    "golf with your friends 2 launches this fall for ps5, xbox series, switch 2, and pc",
-    "speedrunners 2: king of speed launches in july",
-    "assassin's creed black flag resynced officially revealed, but it'll skip switch 2",
     "xbox leadership issues massive statement on the future of the brand",
     "hands on: the expanse's ps5 rpg has serious potential, but its protagonist is a big problem",
     "xbox announces 10 titles coming to game pass at april's indie showcase",
@@ -10001,13 +9997,13 @@
     "the wolf among us remastered for switch delayed to unannounced date",
     "nvidia app update will let ai agents tune your graphics card, but some users are warning to turn it off",
     "usual june adds xbox series version",
-    "elon musk's tesla flying car reveal met with mix of astonishment and skepticism"
+    "elon musk's tesla flying car reveal met with mix of astonishment and skepticism",
+    "'1.0 roughly doubles the size of the game': no rest for the wicked confirms march 2027 release on ps5",
+    "the blood of dawnwalker is getting huge changes next week",
+    "horrorvale: deadluxe edition for ps5, xbox series, ps4, xbox one, and switch launches october 31",
+    "cyberpunk 2077 movie \"won't be a one-to-one translation of the game's story\", cd projekt red boss confirms, and boy do i think that's the right move"
   ],
   "seen_story_keys": [
-    "db0093df0077be0502c86a112a9c14092503e59e",
-    "06be35082be5d27bc5549f28867d33523b011ef6",
-    "8a02a98d62201e92c28e1b52bc2067db6056b949",
-    "bf6baec9db599dd635156bb66796bbdb67530c1f",
     "5471469e2a7ad20df9267d9f68f1f86554f538f6",
     "24b2f242c573f969447942ec080552e377a2c5b8",
     "b5ed0295e201411e63e0c38df271a7dd59f731f6",
@@ -15003,6 +14999,10 @@
     "c4d43791e09490f3069ddc9b596751d4188063bf",
     "0c519f2801082bc887283ab9c07ba90ae5c2308d",
     "3c29b2a88b357b44d50cbcb5975fbf63a15a561b",
-    "2f55bb797ab2eb35256b72ffc56fa9ce538d1e65"
+    "2f55bb797ab2eb35256b72ffc56fa9ce538d1e65",
+    "13c6dff831221e1540bf858f5df276256787b923",
+    "4dc1a2f02209d90f50f569d56db9c87fc37b9a6c",
+    "f1e70e8ba6841e45852ad5b26f29854c350cf78a",
+    "10135dae9b5018068a2846ccf9b7c59e9134abcd"
   ]
 }
