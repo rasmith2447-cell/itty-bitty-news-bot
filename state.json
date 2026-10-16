@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/street-fighter-6-ingrid-gameplay-trailer-release-date",
-    "https://www.pcgamer.com/games/world-of-warcraft/wows-latest-patch-is-drowning-in-bugs-with-players-worried-that-blizzard-is-struggling-to-keep-its-head-above-water/",
-    "https://www.pushsquare.com/news/2026/04/are-we-ready-to-admit-horizons-online-co-op-ps5-game-looks-good-yet",
-    "https://www.purexbox.com/news/2026/04/xbox-rewards-adds-brand-new-birthday-gift-feature-with-special-benefits",
     "https://www.pushsquare.com/news/2026/04/bubsy-4ds-free-ps5-demo-will-let-you-see-for-yourself-whether-its-any-good",
     "https://www.nintendolife.com/news/2026/04/pokemon-champions-ver-1-0-3-update-is-now-live-here-are-the-full-patch-notes",
     "https://www.gamesindustry.biz/the-ivors-academy-launches-ivors-composer-awards-video-game-music-to-be-among-categories",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/the-batman-part-2-steven-soderbergh-production-update/",
     "https://www.nintendolife.com/news/2026/10/zelda-tears-of-the-kingdom-exclusive-edition-statue-officially-revealed-heres-a-look",
     "https://www.gematsu.com/2026/10/monochromatic-metroidvania-game-lelu-launches-january-21-2027-for-xbox-series-switch-2-and-pc",
-    "https://www.gematsu.com/2026/10/gravity-circuit-2-adds-switch-2-version-launches-in-spring-2027"
+    "https://www.gematsu.com/2026/10/gravity-circuit-2-adds-switch-2-version-launches-in-spring-2027",
+    "https://www.nintendolife.com/news/2026/10/zelda-ocarina-of-time-switch-2-replica-n64-box-revealed",
+    "https://www.nintendolife.com/news/2026/10/nintendo-announces-switch-2-repair-price-hike-for-japan",
+    "https://www.gematsu.com/2026/10/story-driven-driving-exploration-game-afterzero-the-last-drive-announced-for-ps5-xbox-series-and-pc",
+    "https://www.gamespot.com/videos/enshrouded-1-0-launch-trailer/"
   ],
   "seen_titles": [
-    "street fighter 6's next dlc character ingrid finally has a gameplay trailer and release date",
-    "wow's latest patch is drowning in bugs, with players worried that blizzard is struggling to keep its head above water",
-    "are we ready to admit horizon's online co-op ps5 game looks good yet?",
-    "xbox rewards adds brand-new 'birthday gift' feature with special benefits",
     "bubsy 4d's free ps5 demo will let you see for yourself whether it's any good",
     "pokémon champions ver. 1.0.3 update is now live, here are the full patch notes",
     "the ivors academy launches ivors composer awards, video game music to be among categories",
@@ -10001,13 +9997,13 @@
     "the batman part 2 to resume filming with new director",
     "zelda: tears of the kingdom \"exclusive edition\" statue officially revealed, here's a look",
     "monochromatic metroidvania game lelu launches january 21, 2027 for xbox series, switch 2, and pc",
-    "gravity circuit 2 adds switch 2 version, launches in spring 2027"
+    "gravity circuit 2 adds switch 2 version, launches in spring 2027",
+    "zelda: ocarina of time switch 2 \"replica n64 box\" revealed",
+    "nintendo announces switch 2 repair price hike for japan",
+    "story-driven driving exploration game afterzero: the last drive announced for ps5, xbox series, and pc",
+    "enshrouded 1.0 – launch trailer"
   ],
   "seen_story_keys": [
-    "e548954fea58a3ab2e7cb0dfd97d8c65d1abb097",
-    "4c09322e2010b9b22bd1dfd7f11161c9e53c10f5",
-    "c465cc58a0470c36db4698ec2c9cc0fbcce8afe3",
-    "94740deb75bfb617ab279fa65f5a32af6574c8c5",
     "d58783a070ba3054f429b1a65724c5191d31aee0",
     "12620e4deb2d533d30aa8e7f1a6310deefe54c91",
     "7585e5d8fbdb93f63b6126c3e2c88f5876566ad5",
@@ -15003,6 +14999,10 @@
     "619735dea1430197aa4de8e1c3b729642f835e12",
     "2478f6cea6f440f92d6cc3bf93060987b32e0bdd",
     "8c5445d256f1be4f644989b41f632013344e757c",
-    "4c9f4f25445efb77ca588cf7319050d17473db0b"
+    "4c9f4f25445efb77ca588cf7319050d17473db0b",
+    "b8956c371082f6c56c984cd0c109b6f5b44d789b",
+    "d67505205edc25026cba6a010f6214a702ed5602",
+    "e7dfc2c12064c64a0ec74224793096ec3d92fbdd",
+    "f2909aea559c2f57350f4dbc6a4a195bcacdc54d"
   ]
 }
