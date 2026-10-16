@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/bubsy-4ds-free-ps5-demo-will-let-you-see-for-yourself-whether-its-any-good",
-    "https://www.nintendolife.com/news/2026/04/pokemon-champions-ver-1-0-3-update-is-now-live-here-are-the-full-patch-notes",
-    "https://www.gamesindustry.biz/the-ivors-academy-launches-ivors-composer-awards-video-game-music-to-be-among-categories",
-    "https://www.gamespot.com/articles/assassins-creed-black-flag-resynced-livestream-start-time-how-to-watch-and-what-to-expect/1100-6539570/?ftag=CAD-01-10abi2f",
     "https://gamerant.com/epic-games-store-april-2026-free-games-oddsparks-automation-adventure/",
     "https://www.eurogamer.net/discord-xbox-game-pass-collaboration",
     "https://www.pushsquare.com/news/2026/04/disco-elysium-follow-up-remains-both-promising-and-controversial-in-latest-ps5-glimpse",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/10/zelda-ocarina-of-time-switch-2-replica-n64-box-revealed",
     "https://www.nintendolife.com/news/2026/10/nintendo-announces-switch-2-repair-price-hike-for-japan",
     "https://www.gematsu.com/2026/10/story-driven-driving-exploration-game-afterzero-the-last-drive-announced-for-ps5-xbox-series-and-pc",
-    "https://www.gamespot.com/videos/enshrouded-1-0-launch-trailer/"
+    "https://www.gamespot.com/videos/enshrouded-1-0-launch-trailer/",
+    "https://gamerant.com/diablo-v-5-development-update/",
+    "https://www.pushsquare.com/features/video-i-built-the-ps1-lego-set-and-nearly-lost-my-mind",
+    "https://www.eurogamer.net/cd-projekt-red-project-hadar-sirius-witcher",
+    "https://www.ign.com/articles/magic-the-gatherings-new-foundations-decks-back-in-stock"
   ],
   "seen_titles": [
-    "bubsy 4d's free ps5 demo will let you see for yourself whether it's any good",
-    "pokémon champions ver. 1.0.3 update is now live, here are the full patch notes",
-    "the ivors academy launches ivors composer awards, video game music to be among categories",
-    "assassin's creed: black flag resynced livestream - start time, how to watch, and what to expect",
     "epic games store officially reveals its final free game for april 2026",
     "new xbox boss asha sharma teases a discord partnership as part of a renewed game pass push, days after significant price cut announced",
     "disco elysium follow-up remains both promising and controversial in latest ps5 glimpse",
@@ -10001,13 +9997,13 @@
     "zelda: ocarina of time switch 2 \"replica n64 box\" revealed",
     "nintendo announces switch 2 repair price hike for japan",
     "story-driven driving exploration game afterzero: the last drive announced for ps5, xbox series, and pc",
-    "enshrouded 1.0 – launch trailer"
+    "enshrouded 1.0 – launch trailer",
+    "diablo 5 gets official new development update",
+    "video: i built the ps1 lego set, and nearly lost my mind",
+    "cd projekt red says its mysterious hadar game is its \"biggest project to date\", but even after \"several good years\" it's seemingly a long way off",
+    "mtg's new foundations commander decks return to online retailers after stock shortages"
   ],
   "seen_story_keys": [
-    "d58783a070ba3054f429b1a65724c5191d31aee0",
-    "12620e4deb2d533d30aa8e7f1a6310deefe54c91",
-    "7585e5d8fbdb93f63b6126c3e2c88f5876566ad5",
-    "f6a74b91eecb02d069a2c7db71924b0b349bbdf2",
     "bf034977ef97569a574238d5ed1c714be1f43520",
     "019e30c963a28e7bee6e9331ac9dcf5623cdbd65",
     "332297c8888f026d57c7e4081237703955cd86fe",
@@ -15003,6 +14999,10 @@
     "b8956c371082f6c56c984cd0c109b6f5b44d789b",
     "d67505205edc25026cba6a010f6214a702ed5602",
     "e7dfc2c12064c64a0ec74224793096ec3d92fbdd",
-    "f2909aea559c2f57350f4dbc6a4a195bcacdc54d"
+    "f2909aea559c2f57350f4dbc6a4a195bcacdc54d",
+    "da840e79e7e61f02830a72f05e6005f983d71576",
+    "6df21586c201e8307ebdc9b0fb993a120038d965",
+    "e434f3c196c65baad2e02cb6d8247667d7b5dccc",
+    "6f41ebf7bb0f1eb059ca21103a09f0202a348701"
   ]
 }
