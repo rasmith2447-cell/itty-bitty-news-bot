@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/epic-games-store-april-2026-free-games-oddsparks-automation-adventure/",
-    "https://www.eurogamer.net/discord-xbox-game-pass-collaboration",
-    "https://www.pushsquare.com/news/2026/04/disco-elysium-follow-up-remains-both-promising-and-controversial-in-latest-ps5-glimpse",
-    "https://gamerant.com/path-of-exile-2-expansion-reveal-when/",
     "https://gamerant.com/chainsaw-man-movie-reze-arc-crunchyroll-streaming-release-date/",
     "https://www.polygon.com/assassins-creed-black-flag-resynced-reveal-release-date/",
     "https://gamerant.com/assassins-creed-black-flag-resynced-details-release-date/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/diablo-v-5-development-update/",
     "https://www.pushsquare.com/features/video-i-built-the-ps1-lego-set-and-nearly-lost-my-mind",
     "https://www.eurogamer.net/cd-projekt-red-project-hadar-sirius-witcher",
-    "https://www.ign.com/articles/magic-the-gatherings-new-foundations-decks-back-in-stock"
+    "https://www.ign.com/articles/magic-the-gatherings-new-foundations-decks-back-in-stock",
+    "https://www.rockpapershotgun.com/we-have-reached-a-new-threshold-in-genai-gloom-with-a-game-dev-cancelling-a-demo-for-fear-of-copycats-ripping-them-off-before-release",
+    "https://www.rockpapershotgun.com/we-were-wrong-wardogs-devs-end-season-2s-team-specific-cash-and-xp-bonus-experiment-after-a-single-tumultuous-day",
+    "https://www.polygon.com/beast-of-reincarnation-game-freak-pokemon-updates-ending/",
+    "https://www.nintendolife.com/news/2026/10/zero-parades-the-successor-to-disco-elysium-has-been-confirmed-for-switch-2"
   ],
   "seen_titles": [
-    "epic games store officially reveals its final free game for april 2026",
-    "new xbox boss asha sharma teases a discord partnership as part of a renewed game pass push, days after significant price cut announced",
-    "disco elysium follow-up remains both promising and controversial in latest ps5 glimpse",
-    "path of exile 2 announces reveal date for return of the ancients expansion",
     "chainsaw man – the movie: reze arc streaming release date confirmed",
     "ubisoft reveals assassin's creed black flag resynced remaster",
     "new assassin's creed black flag resynced details, release date officially revealed",
@@ -10001,13 +9997,13 @@
     "diablo 5 gets official new development update",
     "video: i built the ps1 lego set, and nearly lost my mind",
     "cd projekt red says its mysterious hadar game is its \"biggest project to date\", but even after \"several good years\" it's seemingly a long way off",
-    "mtg's new foundations commander decks return to online retailers after stock shortages"
+    "mtg's new foundations commander decks return to online retailers after stock shortages",
+    "we have reached a new threshold in genai gloom, with a game dev cancelling a demo for fear of copycats ripping them off before release",
+    "\"we were wrong\": wardogs devs end season 2's team-specific cash and xp bonus experiment after a single, tumultuous day",
+    "game freak announces end of beast of reincarnation’s post-launch updates",
+    "zero parades, the successor to disco elysium, has been confirmed for switch 2"
   ],
   "seen_story_keys": [
-    "bf034977ef97569a574238d5ed1c714be1f43520",
-    "019e30c963a28e7bee6e9331ac9dcf5623cdbd65",
-    "332297c8888f026d57c7e4081237703955cd86fe",
-    "6038dafb0c1a7f38bdd20283dfb53942e576a88e",
     "1ecf52bb314dab0556e89d4c83ebf96a63682dc4",
     "3b40cc62a71a3279097f886f2c7c1b74563a1e93",
     "c9b953a9b11e03c09ae2caca5d236167ed364fa0",
@@ -15003,6 +14999,10 @@
     "da840e79e7e61f02830a72f05e6005f983d71576",
     "6df21586c201e8307ebdc9b0fb993a120038d965",
     "e434f3c196c65baad2e02cb6d8247667d7b5dccc",
-    "6f41ebf7bb0f1eb059ca21103a09f0202a348701"
+    "6f41ebf7bb0f1eb059ca21103a09f0202a348701",
+    "689d85494dad0c0d7967c5d03ef913000db6081e",
+    "e43057d81f40d7e605771fd83d3ad4f48fbb9eba",
+    "12cac0e6326f908304dfa40789820e38fae6de04",
+    "4d6ce27d091f29910e3e42d282c1601662ca3047"
   ]
 }
