@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/ps5-firmware-update-out-now-we-hope-you-like-emojis",
-    "https://www.purexbox.com/news/2026/04/xbox-first-party-title-kiln-is-available-today-with-game-pass-ultimate-april-23",
-    "https://www.rockpapershotgun.com/unlocked-the-toilet-door-in-the-euro-trash-mission-to-prevent-soft-locks-read-samsons-latest-patch-notes-which-also-introduce-special-drift-cars",
-    "https://www.videogameschronicle.com/news/crimson-desert-update-adds-difficulty-levels-graphical-improvements-and-new-storage-items/",
     "https://www.eurogamer.net/street-fighter-6-ingrid-gameplay-trailer-release-date",
     "https://www.pcgamer.com/games/world-of-warcraft/wows-latest-patch-is-drowning-in-bugs-with-players-worried-that-blizzard-is-struggling-to-keep-its-head-above-water/",
     "https://www.pushsquare.com/news/2026/04/are-we-ready-to-admit-horizons-online-co-op-ps5-game-looks-good-yet",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/10/animal-evolution-sim-ancestors-gets-surprise-ps5-version-free-upgrade-for-ps4-owners",
     "https://www.gamespot.com/videos/gta-6-launch-trailer-breakdown-and-theories/",
     "https://www.gematsu.com/2026/10/cinematic-first-person-psychological-horror-game-encryption-announced-for-pc",
-    "https://www.gematsu.com/2026/10/ember-blade-launches-in-early-access-for-pc-on-january-8-2027"
+    "https://www.gematsu.com/2026/10/ember-blade-launches-in-early-access-for-pc-on-january-8-2027",
+    "https://www.polygon.com/the-batman-part-2-steven-soderbergh-production-update/",
+    "https://www.nintendolife.com/news/2026/10/zelda-tears-of-the-kingdom-exclusive-edition-statue-officially-revealed-heres-a-look",
+    "https://www.gematsu.com/2026/10/monochromatic-metroidvania-game-lelu-launches-january-21-2027-for-xbox-series-switch-2-and-pc",
+    "https://www.gematsu.com/2026/10/gravity-circuit-2-adds-switch-2-version-launches-in-spring-2027"
   ],
   "seen_titles": [
-    "ps5 firmware update out now, we hope you like emojis",
-    "xbox first-party title 'kiln' is available today with game pass ultimate (april 23)",
-    "\"unlocked the toilet door in the euro trash mission to prevent soft-locks\" read samson's latest patch notes, which also introduce special drift cars",
-    "crimson desert update adds difficulty levels, graphical improvements and new storage items",
     "street fighter 6's next dlc character ingrid finally has a gameplay trailer and release date",
     "wow's latest patch is drowning in bugs, with players worried that blizzard is struggling to keep its head above water",
     "are we ready to admit horizon's online co-op ps5 game looks good yet?",
@@ -10001,13 +9997,13 @@
     "animal evolution sim ancestors gets surprise ps5 version, free upgrade for ps4 owners",
     "gta 6 launch trailer breakdown and theories",
     "cinematic first-person psychological horror game encryption announced for pc",
-    "ember & blade launches in early access for pc on january 8, 2027"
+    "ember & blade launches in early access for pc on january 8, 2027",
+    "the batman part 2 to resume filming with new director",
+    "zelda: tears of the kingdom \"exclusive edition\" statue officially revealed, here's a look",
+    "monochromatic metroidvania game lelu launches january 21, 2027 for xbox series, switch 2, and pc",
+    "gravity circuit 2 adds switch 2 version, launches in spring 2027"
   ],
   "seen_story_keys": [
-    "acb7f0a8c2bab263e530bc781dca8857f7b91ad5",
-    "35f7a46dd65cdbc2b2638d3b5b50d5fe9d3b33af",
-    "a2c28efbf9f74af63445e86d38315a677601ed9b",
-    "d166da9b5e4aec7af47d3a8f8629707529e60fe6",
     "e548954fea58a3ab2e7cb0dfd97d8c65d1abb097",
     "4c09322e2010b9b22bd1dfd7f11161c9e53c10f5",
     "c465cc58a0470c36db4698ec2c9cc0fbcce8afe3",
@@ -15003,6 +14999,10 @@
     "e1e2eaa8b05def3e2e686c276c6b63b379545ef8",
     "ccaaebb30e89411330f0af8b0f250acebb1f48f3",
     "efa5866a146430cc3c87fa8db7f96a06a2752328",
-    "a9509425d7b61f781b8ff535741286effe8f4167"
+    "a9509425d7b61f781b8ff535741286effe8f4167",
+    "619735dea1430197aa4de8e1c3b729642f835e12",
+    "2478f6cea6f440f92d6cc3bf93060987b32e0bdd",
+    "8c5445d256f1be4f644989b41f632013344e757c",
+    "4c9f4f25445efb77ca588cf7319050d17473db0b"
   ]
 }
