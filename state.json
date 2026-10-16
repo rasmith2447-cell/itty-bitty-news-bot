@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/chainsaw-man-movie-reze-arc-crunchyroll-streaming-release-date/",
-    "https://www.polygon.com/assassins-creed-black-flag-resynced-reveal-release-date/",
-    "https://gamerant.com/assassins-creed-black-flag-resynced-details-release-date/",
-    "https://www.gematsu.com/2026/04/assassins-creed-black-flag-resynced-launches-july-9-for-ps5-xbox-series-and-pc",
     "https://www.pushsquare.com/news/2026/04/golf-with-your-friends-again-when-chaotic-ps5-sequel-tees-off-this-fall",
     "https://www.gematsu.com/2026/04/golf-with-your-friends-2-launches-this-fall-for-ps5-xbox-series-switch-2-and-pc",
     "https://www.gematsu.com/2026/04/speedrunners-2-king-of-speed-launches-in-july",
@@ -4999,13 +4995,13 @@
     "https://www.rockpapershotgun.com/we-have-reached-a-new-threshold-in-genai-gloom-with-a-game-dev-cancelling-a-demo-for-fear-of-copycats-ripping-them-off-before-release",
     "https://www.rockpapershotgun.com/we-were-wrong-wardogs-devs-end-season-2s-team-specific-cash-and-xp-bonus-experiment-after-a-single-tumultuous-day",
     "https://www.polygon.com/beast-of-reincarnation-game-freak-pokemon-updates-ending/",
-    "https://www.nintendolife.com/news/2026/10/zero-parades-the-successor-to-disco-elysium-has-been-confirmed-for-switch-2"
+    "https://www.nintendolife.com/news/2026/10/zero-parades-the-successor-to-disco-elysium-has-been-confirmed-for-switch-2",
+    "https://www.gematsu.com/2026/10/the-wolf-among-us-remastered-for-switch-delayed-to-unannounced-date",
+    "https://www.ign.com/articles/nvidia-app-update-adds-support-for-agent-control-but-some-users-are-warning-to-turn-it-off",
+    "https://www.gematsu.com/2026/10/usual-june-adds-xbox-series-version",
+    "https://www.ign.com/articles/elon-musks-tesla-flying-car-reveal-met-with-mix-of-astonishment-and-skepticism"
   ],
   "seen_titles": [
-    "chainsaw man – the movie: reze arc streaming release date confirmed",
-    "ubisoft reveals assassin's creed black flag resynced remaster",
-    "new assassin's creed black flag resynced details, release date officially revealed",
-    "assassin’s creed black flag resynced launches july 9 for ps5, xbox series, and pc",
     "golf with your friends again when chaotic ps5 sequel tees off this fall",
     "golf with your friends 2 launches this fall for ps5, xbox series, switch 2, and pc",
     "speedrunners 2: king of speed launches in july",
@@ -10001,13 +9997,13 @@
     "we have reached a new threshold in genai gloom, with a game dev cancelling a demo for fear of copycats ripping them off before release",
     "\"we were wrong\": wardogs devs end season 2's team-specific cash and xp bonus experiment after a single, tumultuous day",
     "game freak announces end of beast of reincarnation’s post-launch updates",
-    "zero parades, the successor to disco elysium, has been confirmed for switch 2"
+    "zero parades, the successor to disco elysium, has been confirmed for switch 2",
+    "the wolf among us remastered for switch delayed to unannounced date",
+    "nvidia app update will let ai agents tune your graphics card, but some users are warning to turn it off",
+    "usual june adds xbox series version",
+    "elon musk's tesla flying car reveal met with mix of astonishment and skepticism"
   ],
   "seen_story_keys": [
-    "1ecf52bb314dab0556e89d4c83ebf96a63682dc4",
-    "3b40cc62a71a3279097f886f2c7c1b74563a1e93",
-    "c9b953a9b11e03c09ae2caca5d236167ed364fa0",
-    "99b93c4b7c27a03e2c31539cb10a68c9fa8bd269",
     "db0093df0077be0502c86a112a9c14092503e59e",
     "06be35082be5d27bc5549f28867d33523b011ef6",
     "8a02a98d62201e92c28e1b52bc2067db6056b949",
@@ -15003,6 +14999,10 @@
     "689d85494dad0c0d7967c5d03ef913000db6081e",
     "e43057d81f40d7e605771fd83d3ad4f48fbb9eba",
     "12cac0e6326f908304dfa40789820e38fae6de04",
-    "4d6ce27d091f29910e3e42d282c1601662ca3047"
+    "4d6ce27d091f29910e3e42d282c1601662ca3047",
+    "c4d43791e09490f3069ddc9b596751d4188063bf",
+    "0c519f2801082bc887283ab9c07ba90ae5c2308d",
+    "3c29b2a88b357b44d50cbcb5975fbf63a15a561b",
+    "2f55bb797ab2eb35256b72ffc56fa9ce538d1e65"
   ]
 }
