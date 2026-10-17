@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/stormforge-launches-in-early-access-in-2026",
-    "https://www.gematsu.com/2026/04/prelude-dark-pain-launches-in-early-access-this-summer",
-    "https://gamerant.com/xbox-game-pass-co-op-games-tears-metal/",
-    "https://gamerant.com/overwatch-diablo-4-crossover-skins/",
     "https://www.rockpapershotgun.com/shapez-2-leaves-the-factory-floor-today-as-it-launches-into-10",
     "https://www.purexbox.com/features/roundup-heres-what-was-revealed-at-the-idatxbox-april-2026-showcase",
     "https://www.ign.com/articles/warcraft-movie-10th-anniversary-limited-edition-steelbook-where-to-buy",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/10/the-wolf-among-us-remastered-has-been-delayed-for-switch",
     "https://www.nintendolife.com/news/2026/10/reminder-sonic-racing-crossworlds-final-content-drop-of-year-one-is-now-available",
     "https://www.gamesindustry.biz/gamescom-asia-x-thailand-game-show-2026-announces-four-additional-pavilions-from-indonesia-japan-malaysia-and-the-us",
-    "https://www.eurogamer.net/control-resonant-sales-remedy-entertainment"
+    "https://www.eurogamer.net/control-resonant-sales-remedy-entertainment",
+    "https://gamerant.com/pokemon-30th-anniversary-art-books-december-2026/",
+    "https://www.purexbox.com/news/2026/10/one-of-2025s-most-successful-co-op-games-is-finally-coming-to-xbox-next-week",
+    "https://www.gamesindustry.biz/fishlabs-announces-layoffs-due-to-changing-project-requirements-development-and-support-teams-affected",
+    "https://www.nintendolife.com/news/2026/10/zelda-ocarina-of-time-ad-give-us-our-first-look-at-dark-link"
   ],
   "seen_titles": [
-    "stormforge launches in early access in 2026",
-    "prelude: dark pain launches in early access this summer",
-    "new day one xbox game pass co-op game officially revealed",
-    "overwatch reveals diablo 4 crossover skins",
     "shapez 2 leaves the factory floor today as it launches into 1.0",
     "roundup: here's what was revealed at the id@xbox april 2026 showcase",
     "the warcraft movie is getting a 10th anniversary limited edition steelbook – here’s where to preorder it",
@@ -10001,13 +9997,13 @@
     "the wolf among us remastered has been delayed for switch",
     "reminder: sonic racing: crossworlds \"final content drop of year one\" is now available",
     "gamescom asia x thailand game show 2026 announces four additional pavilions from indonesia, japan, malaysia, and the us",
-    "control resonant becomes the fastest-selling game in remedy's history, outpacing alan wake 2 and the original control"
+    "control resonant becomes the fastest-selling game in remedy's history, outpacing alan wake 2 and the original control",
+    "new pokemon 30th anniversary release officially launching in december",
+    "one of 2025's most successful co-op games is finally coming to xbox next week",
+    "fishlabs announces layoffs due to \"changing project requirements,\" development and support teams affected",
+    "zelda: ocarina of time ad give us our first look at dark link"
   ],
   "seen_story_keys": [
-    "37bb66dd0989a77c353802693eaa65362c9cfcfa",
-    "b089dcc2fb9ad029d9effa7e8cbdc6353f66736e",
-    "da488f80a7279d63eb86873c2ffcd2ecd1e5f7f3",
-    "5aed10b59b266628843fe74992c7d2abb478fff3",
     "92142c6c519bdd04967f42ef66e0e0aa006eb1ce",
     "28b2a5bae2ecc5c13f11fa976110f41e790238fb",
     "9b7f2feedfc55be02c2af541246d1cce26a692a1",
@@ -15003,6 +14999,10 @@
     "b16026825fffe8a554dac878b6a3a66473764ad5",
     "59fbcbedf296c150528900962c0bae7f9cf10d0f",
     "3059e5ba5eb7f4ae2ac3bb7c9beae4e8beb69e61",
-    "76810e5b4dbf588b8109c09e401bb021a9b9221b"
+    "76810e5b4dbf588b8109c09e401bb021a9b9221b",
+    "0175ea6c1793bf8d7db0ede11c0bcb84b11e26a7",
+    "47f58c70b6cfcbb9b325a412654fea168f56677d",
+    "fafd69fed8fedcc6db4cab9783977fc1c5869d33",
+    "4aea1d02b360f31db7873cba1f11ec2403c1b7fe"
   ]
 }
