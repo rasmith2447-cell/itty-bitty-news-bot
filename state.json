@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/crimson-desert-baltheon-armor-location-stats/",
-    "https://www.gematsu.com/2026/04/pixel-art-combo-packed-character-action-game-knuckle-paradise-announced-for-pc",
-    "https://www.gematsu.com/2026/04/perfect-tides-station-to-station-for-switch-launches-may-14",
-    "https://www.gematsu.com/2026/04/beastro-launches-may-21",
     "https://gamerant.com/steam-middle-east-servers-status/",
     "https://www.pushsquare.com/news/2026/04/the-dev-behind-many-classic-games-on-ps5-and-ps-plus-just-got-bought-by-atari",
     "https://www.polygon.com/chainsaw-man-reze-arc-streaming-release-date-crunchyroll/",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/gaming-industry/game-development/developer-cancels-public-demo-of-its-upcoming-horror-drinking-game-fearing-it-will-be-instantly-cloned-by-ai-vibe-coders-we-sincerely-apologise-for-the-short-notice/",
     "https://gamerant.com/epic-games-store-october-2026-free-games-sker-ritual-home-giveaway/",
     "https://www.eurogamer.net/battlefield-6-xp-cap-season-5-reverted",
-    "https://www.rockpapershotgun.com/monumentally-expansive-roguelike-caves-of-qud-is-getting-even-bigger-in-december-with-an-early-access-expansion-that-lets-you-play-as-messed-up-dogs-and-trees"
+    "https://www.rockpapershotgun.com/monumentally-expansive-roguelike-caves-of-qud-is-getting-even-bigger-in-december-with-an-early-access-expansion-that-lets-you-play-as-messed-up-dogs-and-trees",
+    "https://gamerant.com/warrior-cats-game-clans-of-the-forest-release-date/",
+    "https://www.polygon.com/star-wars-zero-company-second-patch-reaction/",
+    "https://www.pushsquare.com/news/2026/10/jrpg-inspired-edge-of-memories-ducks-gta-6-delayed-to-a-quieter-period-on-ps5",
+    "https://www.pcgamer.com/hardware/epic-said-its-game-launcher-was-faster-than-steam-on-the-same-day-steam-got-a-speed-boost-so-ive-put-both-to-the-test/"
   ],
   "seen_titles": [
-    "baltheon armor location in crimson desert",
-    "pixel art combo-packed character action game knuckle paradise announced for pc",
-    "perfect tides: station to station for switch launches may 14",
-    "beastro launches may 21",
     "conflict in middle east impacting some steam servers",
     "the dev behind many classic games on ps5 and ps plus just got bought by atari",
     "crunchyroll finally confirms chainsaw man reze arc release date",
@@ -10001,13 +9997,13 @@
     "developer cancels public demo of its upcoming horror drinking game, fearing it will be instantly cloned by ai vibe coders: 'we sincerely apologise for the short notice'",
     "epic games store officially reveals 2 more free games for october 22",
     "controversial battlefield 6 xp changes have been reversed, with battlefield studios saying they were \"unintended\"",
-    "monumentally expansive roguelike caves of qud is getting even bigger in december with an early access expansion that lets you play as messed up dogs and trees"
+    "monumentally expansive roguelike caves of qud is getting even bigger in december with an early access expansion that lets you play as messed up dogs and trees",
+    "new official warrior cats release confirmed for october 23",
+    "star wars zero company finally makes starting a new campaign worth it",
+    "jrpg-inspired edge of memories ducks gta 6, delayed to a 'quieter period' on ps5",
+    "epic said its game launcher was faster than steam on the same day steam got a speed boost—so i've put both to the test"
   ],
   "seen_story_keys": [
-    "aad48633f7b1f6d3dcbc06e7cd6fa0d08c2009e3",
-    "1915fd1ffaf58be826e1dfcdc9e31335399b950a",
-    "dee23675425f15f6d732d4560e4e8a1440e77c69",
-    "7eda47e699146220d0f6e44220c83a8e3caaad04",
     "58078da5df9bc3e4e05f0a09992d432c4c8fa284",
     "5f721bd7e36af2fcfa684345f04086781a6f3262",
     "af2189ae1c7e319207e79d95f924ce3e8f2ad4cf",
@@ -15003,6 +14999,10 @@
     "976b1e8afe90115ae2d0d579bd4ba287249bf033",
     "c3b194bf94da5c39f312e2aec5b81f62d3628f28",
     "e36b66726af06804d425ca2a9c265b2ea1f1907c",
-    "6444936169710653543f997b0465faa675e88a6b"
+    "6444936169710653543f997b0465faa675e88a6b",
+    "c2ea43638070e59e92848b16bea52700204121da",
+    "d6b1c286dd00d75d4925606b74cf128cd88a0a9d",
+    "e6448b116dad8128d5ab4e8987ae93fcf9536c82",
+    "3de069cb1b84b6d503e26e8960c271d33d9227c8"
   ]
 }
