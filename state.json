@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/steam-middle-east-servers-status/",
-    "https://www.pushsquare.com/news/2026/04/the-dev-behind-many-classic-games-on-ps5-and-ps-plus-just-got-bought-by-atari",
-    "https://www.polygon.com/chainsaw-man-reze-arc-streaming-release-date-crunchyroll/",
     "https://www.gematsu.com/2026/04/solo-leveling-arise-overdrive-for-ps5-xbox-series-launches-in-q3-2026",
     "https://www.nintendolife.com/news/2026/04/hades-ii-is-getting-another-update-soon-here-are-the-full-patch-notes",
     "https://www.gematsu.com/2026/04/free-to-play-party-platformer-totopia-announced-for-ps5-xbox-series-pc-ios-and-android",
@@ -4999,12 +4996,12 @@
     "https://gamerant.com/warrior-cats-game-clans-of-the-forest-release-date/",
     "https://www.polygon.com/star-wars-zero-company-second-patch-reaction/",
     "https://www.pushsquare.com/news/2026/10/jrpg-inspired-edge-of-memories-ducks-gta-6-delayed-to-a-quieter-period-on-ps5",
-    "https://www.pcgamer.com/hardware/epic-said-its-game-launcher-was-faster-than-steam-on-the-same-day-steam-got-a-speed-boost-so-ive-put-both-to-the-test/"
+    "https://www.pcgamer.com/hardware/epic-said-its-game-launcher-was-faster-than-steam-on-the-same-day-steam-got-a-speed-boost-so-ive-put-both-to-the-test/",
+    "https://gamerant.com/ps6-features-ai-frame-generation/",
+    "https://www.videogameschronicle.com/news/rockstar-has-revealed-the-official-launch-trailer-for-grand-theft-auto-6/",
+    "https://www.eurogamer.net/league-of-legends-classic-ending-permanent-three-months"
   ],
   "seen_titles": [
-    "conflict in middle east impacting some steam servers",
-    "the dev behind many classic games on ps5 and ps plus just got bought by atari",
-    "crunchyroll finally confirms chainsaw man reze arc release date",
     "solo leveling: arise overdrive for ps5, xbox series launches in q3 2026",
     "hades ii is getting another update soon, here are the full patch notes",
     "free-to-play party platformer totopia announced for ps5, xbox series, pc, ios, and android",
@@ -10001,12 +9998,12 @@
     "new official warrior cats release confirmed for october 23",
     "star wars zero company finally makes starting a new campaign worth it",
     "jrpg-inspired edge of memories ducks gta 6, delayed to a 'quieter period' on ps5",
-    "epic said its game launcher was faster than steam on the same day steam got a speed boost—so i've put both to the test"
+    "epic said its game launcher was faster than steam on the same day steam got a speed boost—so i've put both to the test",
+    "official sony patent hints at ps6 feature",
+    "rockstar has revealed the official launch trailer for grand theft auto 6",
+    "riot games has announced the end league of legends classic as an on-going mode, just three months after its release"
   ],
   "seen_story_keys": [
-    "58078da5df9bc3e4e05f0a09992d432c4c8fa284",
-    "5f721bd7e36af2fcfa684345f04086781a6f3262",
-    "af2189ae1c7e319207e79d95f924ce3e8f2ad4cf",
     "ac2bd275d830e8964fd71f059646059899f2aadc",
     "a2d503684b82aaa459fb29132c8c0fad0ae4891d",
     "197c1d0f97dd1eb4de1c0e29ec303382393cac28",
@@ -15003,6 +15000,9 @@
     "c2ea43638070e59e92848b16bea52700204121da",
     "d6b1c286dd00d75d4925606b74cf128cd88a0a9d",
     "e6448b116dad8128d5ab4e8987ae93fcf9536c82",
-    "3de069cb1b84b6d503e26e8960c271d33d9227c8"
+    "3de069cb1b84b6d503e26e8960c271d33d9227c8",
+    "26a123517312d914833c32968a40c1ffacff038e",
+    "10582ae1ea98f8e622ca605ad26ec2d1c14cf170",
+    "92d2339a9c71ef079629456b98f3be6a6ae60fdb"
   ]
 }
