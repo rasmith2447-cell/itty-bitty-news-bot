@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/base-building-roguelike-tower-defense-game-hull-rupture-announced-for-pc",
-    "https://www.gematsu.com/2026/04/luna-abyss-launches-may-21",
-    "https://www.gamespot.com/articles/diablo-4-lord-of-hatred-pre-load-and-launch-times-revealed/1100-6539585/?ftag=CAD-01-10abi2f",
-    "https://www.gamespot.com/articles/diablo-4-is-invading-overwatch-once-again-with-even-more-skins/1100-6539583/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/04/stormforge-launches-in-early-access-in-2026",
     "https://www.gematsu.com/2026/04/prelude-dark-pain-launches-in-early-access-this-summer",
     "https://gamerant.com/xbox-game-pass-co-op-games-tears-metal/",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/10/over-1100-improvements-promised-in-the-blood-of-dawnwalker-patch-1-1",
     "https://www.gematsu.com/2026/10/second-stone-demo-launches-october-19",
     "https://www.eurogamer.net/fortnite-linux-easy-anti-cheat-big-development",
-    "https://www.eurogamer.net/wardogs-driver-xp-exploit-season-2-tanks"
+    "https://www.eurogamer.net/wardogs-driver-xp-exploit-season-2-tanks",
+    "https://www.nintendolife.com/news/2026/10/the-wolf-among-us-remastered-has-been-delayed-for-switch",
+    "https://www.nintendolife.com/news/2026/10/reminder-sonic-racing-crossworlds-final-content-drop-of-year-one-is-now-available",
+    "https://www.gamesindustry.biz/gamescom-asia-x-thailand-game-show-2026-announces-four-additional-pavilions-from-indonesia-japan-malaysia-and-the-us",
+    "https://www.eurogamer.net/control-resonant-sales-remedy-entertainment"
   ],
   "seen_titles": [
-    "base-building roguelike tower defense game hull rupture announced for pc",
-    "luna abyss launches may 21",
-    "diablo 4: lord of hatred pre-load and launch times revealed",
-    "diablo 4 is invading overwatch once again, with even more skins",
     "stormforge launches in early access in 2026",
     "prelude: dark pain launches in early access this summer",
     "new day one xbox game pass co-op game officially revealed",
@@ -10001,13 +9997,13 @@
     "over 1,100 improvements promised in the blood of dawnwalker patch 1.1",
     "second stone demo launches october 19",
     "fortnite is coming to linux so we may soon be able to play it and other games like apex legends on steam deck and steam machine",
-    "wardogs devs rush to fix xp exploit allowing players to quickly unlock tanks and stomp competition on season 2's first day"
+    "wardogs devs rush to fix xp exploit allowing players to quickly unlock tanks and stomp competition on season 2's first day",
+    "the wolf among us remastered has been delayed for switch",
+    "reminder: sonic racing: crossworlds \"final content drop of year one\" is now available",
+    "gamescom asia x thailand game show 2026 announces four additional pavilions from indonesia, japan, malaysia, and the us",
+    "control resonant becomes the fastest-selling game in remedy's history, outpacing alan wake 2 and the original control"
   ],
   "seen_story_keys": [
-    "3febb468fb15dbd2578c8eec90aeb93a1c4e3071",
-    "e30e67cf92f379f09ac4428e098e2a4656f2a7fd",
-    "cfcc0158b0b95e0d2e7e0056cadde15f3a9b2145",
-    "d899d5303f9c5654eb26c33043dc253a47f8f9f8",
     "37bb66dd0989a77c353802693eaa65362c9cfcfa",
     "b089dcc2fb9ad029d9effa7e8cbdc6353f66736e",
     "da488f80a7279d63eb86873c2ffcd2ecd1e5f7f3",
@@ -15003,6 +14999,10 @@
     "0b4c686a4a98c760bcda40b1a1bb485802248135",
     "a2c4b3ff2d96069f537ab275a6acc10aa42fae79",
     "99feebfcd9937f89518e75a6c800697c3bcdb193",
-    "67b34ed7a7c95de13dcf9f2679854e8a6a638fb8"
+    "67b34ed7a7c95de13dcf9f2679854e8a6a638fb8",
+    "b16026825fffe8a554dac878b6a3a66473764ad5",
+    "59fbcbedf296c150528900962c0bae7f9cf10d0f",
+    "3059e5ba5eb7f4ae2ac3bb7c9beae4e8beb69e61",
+    "76810e5b4dbf588b8109c09e401bb021a9b9221b"
   ]
 }
