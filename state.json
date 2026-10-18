@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/solo-leveling-arise-overdrive-for-ps5-xbox-series-launches-in-q3-2026",
-    "https://www.nintendolife.com/news/2026/04/hades-ii-is-getting-another-update-soon-here-are-the-full-patch-notes",
     "https://www.gematsu.com/2026/04/free-to-play-party-platformer-totopia-announced-for-ps5-xbox-series-pc-ios-and-android",
     "https://www.gematsu.com/2026/04/escape-academy-2-back-2-school-adds-xbox-series-version",
     "https://www.pushsquare.com/news/2026/04/saros-goes-all-in-on-story-and-action-for-ps5-launch-trailer",
@@ -4999,11 +4997,11 @@
     "https://www.pcgamer.com/hardware/epic-said-its-game-launcher-was-faster-than-steam-on-the-same-day-steam-got-a-speed-boost-so-ive-put-both-to-the-test/",
     "https://gamerant.com/ps6-features-ai-frame-generation/",
     "https://www.videogameschronicle.com/news/rockstar-has-revealed-the-official-launch-trailer-for-grand-theft-auto-6/",
-    "https://www.eurogamer.net/league-of-legends-classic-ending-permanent-three-months"
+    "https://www.eurogamer.net/league-of-legends-classic-ending-permanent-three-months",
+    "https://www.pushsquare.com/news/2026/10/i-dont-think-were-seeing-it-here-gta-6-launch-trailer-not-using-ps5s-new-qssr-upscaler",
+    "https://www.ign.com/articles/dev-behind-russian-roulette-drinking-game-cancels-steam-demo-plans-following-ai-copycat-concerns"
   ],
   "seen_titles": [
-    "solo leveling: arise overdrive for ps5, xbox series launches in q3 2026",
-    "hades ii is getting another update soon, here are the full patch notes",
     "free-to-play party platformer totopia announced for ps5, xbox series, pc, ios, and android",
     "escape academy 2: back 2 school adds xbox series version",
     "saros goes all-in on story and action for ps5 launch trailer",
@@ -10001,11 +9999,11 @@
     "epic said its game launcher was faster than steam on the same day steam got a speed boost—so i've put both to the test",
     "official sony patent hints at ps6 feature",
     "rockstar has revealed the official launch trailer for grand theft auto 6",
-    "riot games has announced the end league of legends classic as an on-going mode, just three months after its release"
+    "riot games has announced the end league of legends classic as an on-going mode, just three months after its release",
+    "'i don't think we're seeing it here': gta 6 launch trailer not using ps5's new qssr upscaler",
+    "dev behind russian roulette drinking game cancels steam demo plans following ai copycat concerns"
   ],
   "seen_story_keys": [
-    "ac2bd275d830e8964fd71f059646059899f2aadc",
-    "a2d503684b82aaa459fb29132c8c0fad0ae4891d",
     "197c1d0f97dd1eb4de1c0e29ec303382393cac28",
     "2ce8af0788f14e26219ba97625b4463a95ff118d",
     "06e660a4ceb362d753ac825ef524223070524a2d",
@@ -15003,6 +15001,8 @@
     "3de069cb1b84b6d503e26e8960c271d33d9227c8",
     "26a123517312d914833c32968a40c1ffacff038e",
     "10582ae1ea98f8e622ca605ad26ec2d1c14cf170",
-    "92d2339a9c71ef079629456b98f3be6a6ae60fdb"
+    "92d2339a9c71ef079629456b98f3be6a6ae60fdb",
+    "e79d32291f29a6a0838614457f554346e7843042",
+    "dab483eb33ccf30439e7b27e577c2e09ae4a578d"
   ]
 }
