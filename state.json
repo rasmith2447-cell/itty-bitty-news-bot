@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/escape-academy-2-back-2-school-adds-xbox-series-version",
-    "https://www.pushsquare.com/news/2026/04/saros-goes-all-in-on-story-and-action-for-ps5-launch-trailer",
     "https://www.gematsu.com/2026/04/toei-games-announces-first-three-published-titles-killa-hino-and-debug-nephemee",
     "https://www.rockpapershotgun.com/vampire-the-masquerade-bloodlines-2s-gun-toting-bird-flipping-violent-sheriff-featuring-dlc-gets-a-release-date",
     "https://www.pushsquare.com/news/2026/04/bethesda-issues-second-starfield-ps5-crashing-fix-live-now",
@@ -4999,11 +4997,11 @@
     "https://www.eurogamer.net/league-of-legends-classic-ending-permanent-three-months",
     "https://www.pushsquare.com/news/2026/10/i-dont-think-were-seeing-it-here-gta-6-launch-trailer-not-using-ps5s-new-qssr-upscaler",
     "https://www.ign.com/articles/dev-behind-russian-roulette-drinking-game-cancels-steam-demo-plans-following-ai-copycat-concerns",
-    "https://gamerant.com/gta-6-release-date-2026-game-awards/"
+    "https://gamerant.com/gta-6-release-date-2026-game-awards/",
+    "https://www.polygon.com/drunken-goddess-reflux-demo-canceled/",
+    "https://gamerant.com/magic-the-gathering-star-trek-reveal-october-20/"
   ],
   "seen_titles": [
-    "escape academy 2: back 2 school adds xbox series version",
-    "saros goes all-in on story and action for ps5 launch trailer",
     "toei games announces first three published titles – killa, hino, and debug nephemee",
     "vampire: the masquerade - bloodlines 2's gun toting, bird flipping, violent sheriff featuring dlc gets a release date",
     "bethesda issues second starfield ps5 crashing fix, live now",
@@ -10001,11 +9999,11 @@
     "riot games has announced the end league of legends classic as an on-going mode, just three months after its release",
     "'i don't think we're seeing it here': gta 6 launch trailer not using ps5's new qssr upscaler",
     "dev behind russian roulette drinking game cancels steam demo plans following ai copycat concerns",
-    "gta 6's release date just made the 2026 game awards a mess"
+    "gta 6's release date just made the 2026 game awards a mess",
+    "drunken goddess reflux devs cancel steam next fest demo over ai clone concerns",
+    "magic: the gathering fans should mark october 20 on their calendars"
   ],
   "seen_story_keys": [
-    "2ce8af0788f14e26219ba97625b4463a95ff118d",
-    "06e660a4ceb362d753ac825ef524223070524a2d",
     "d7267070ea8473274a59eea1a6fefa4d9a27cffe",
     "55110c10ed0d4dbf1f2c6bfdd71921aa278c90e8",
     "a4e2043964d75d501170b3fc4bcb4e16d5eaf23f",
@@ -15003,6 +15001,8 @@
     "92d2339a9c71ef079629456b98f3be6a6ae60fdb",
     "e79d32291f29a6a0838614457f554346e7843042",
     "dab483eb33ccf30439e7b27e577c2e09ae4a578d",
-    "04fa41a910f9fbf23c2377a991858a0a20d4e1f6"
+    "04fa41a910f9fbf23c2377a991858a0a20d4e1f6",
+    "f5c28913eae08a742319d68b43fa9b29cfc76816",
+    "34d5720b9ee822b3674d26fc9c66f8f9dc159000"
   ]
 }
