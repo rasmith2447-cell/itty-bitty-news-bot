@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/ps5-rpg-expedition-33-is-one-year-old-today-and-theres-a-free-content-update-to-celebrate",
-    "https://www.rockpapershotgun.com/clair-obscur-expedition-33s-first-birthday-is-here-cue-an-anniversary-patch-giving-everyone-in-the-jrpg-special-hairdos",
-    "https://www.eurogamer.net/sega-universe-retro-anniveraries-2026",
-    "https://www.nintendolife.com/news/2026/04/pokemon-pokopia-sableyes-gem-hunt-event-has-finally-been-officially-announced",
     "https://gamerant.com/hasbro-transformers-40th-anniversary-figures-fall-2026/",
     "https://www.ign.com/articles/assassins-creed-black-flag-resynced-producer-says-games-reveal-was-toned-down-after-complaints-that-ubisoft-had-removed-blood",
     "https://www.eurogamer.net/shuhei-yoshida-playstation-pc-strategy-keynote",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/moonlighter-dev-steam-playtest-revamp-ai-copycats",
     "https://gamerant.com/gta-6-launch-trailer-jason-lucia-gta-5-three-protagonists/",
     "https://www.polygon.com/mister-miracle-first-details-confirmed/",
-    "https://www.polygon.com/resident-evil-7-capcom-development-last-of-us/"
+    "https://www.polygon.com/resident-evil-7-capcom-development-last-of-us/",
+    "https://www.pushsquare.com/news/2026/10/psvr2-darling-synth-riders-dances-away-with-a-spooky-free-song-for-halloween",
+    "https://www.ign.com/articles/love-and-deepspace-launches-blade-runner-crossover-as-fans-draw-parallels-to-canceled-character-valko",
+    "https://www.gematsu.com/2026/10/payday-aces-high-launches-november-5",
+    "https://www.rockpapershotgun.com/too-big-a-risk-moonlighter-devs-delay-new-games-demo-for-fear-of-genai-cloning-calling-on-platforms-to-keep-strengthening-protections-for-original-work"
   ],
   "seen_titles": [
-    "ps5 rpg expedition 33 is one year old today, and there's a free content update to celebrate",
-    "clair obscur: expedition 33's first birthday is here, cue an anniversary patch giving everyone in the j'rpg special hairdos",
-    "outrun, streets of rage, nights, and sggg are just four of many series sega promises to revisit in 2026",
-    "pokémon pokopia 'sableye's gem hunt' event has finally been officially announced",
     "hasbro reveals 3 new transformers figures coming this fall [exclusive]",
     "assassin's creed black flag resynced producer says game's reveal was 'toned down' after complaints that ubisoft had removed blood",
     "former sony exec opens up about the idea of ps5 games coming to pc on day one: \"i don't think that's a good strategy for a platform holder like playstation\"",
@@ -10001,13 +9997,13 @@
     "moonlighter dev delays steam playtest for its \"tower defensevania\" revamp over concerns that ai copycats might clone it before launch",
     "new gta 6 trailer makes gta 5's biggest gamble look like a mistake",
     "dc studios reveals first details on new tv series",
-    "resident evil 7 dev reveals the game’s last of us inspiration and troubled development"
+    "resident evil 7 dev reveals the game’s last of us inspiration and troubled development",
+    "psvr2 darling synth riders dances away with a spooky free song for halloween",
+    "love and deepspace launches blade runner crossover as fans draw parallels to canceled character valko",
+    "payday: aces high launches november 5",
+    "\"too big a risk\": moonlighter devs delay new game's demo for fear of genai cloning, calling on platforms to \"keep strengthening protections for original work\""
   ],
   "seen_story_keys": [
-    "5fa0bcc4ae840f44c9e37dfcc76dd376eb49f90d",
-    "93253710426990d69b4d4ca6679f684ec1a59d69",
-    "418e582402f360476352b23655e1cf7cda69a4ee",
-    "34ea4230bd0d580521eddd8c7a486d1e3ae35a1a",
     "ec966f24371914651f2dfa19c45f092402efe23f",
     "eb479df7582647ef6628110e4adf2fcc5319eec8",
     "9f8e8331b671943735e5a4d527f4618d9974f6a8",
@@ -15003,6 +14999,10 @@
     "6a4ef9a969690339b5f1ae35886e7fe890a6ccb8",
     "f6a7a540e8ef978155c117038f7dc7728acab62f",
     "2a4bf62f6c34084b78185327bf1962b28910aeb5",
-    "3c459293109b78fa4d5f8cecff1f46ff061e91ec"
+    "3c459293109b78fa4d5f8cecff1f46ff061e91ec",
+    "bf7cd996e20b12d039ffdbcb9e50e522f3d55b2e",
+    "6c98216bdf789da3c0fc7564fbb5e52361d99ff4",
+    "047b9ab38aa74fe41bf16079e5c01131c85c9b8b",
+    "545ae8eeae0bb9b9655bfc8802d1f503a1d93cb5"
   ]
 }
