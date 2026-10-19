@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/sega-to-revive-old-ip-like-outrun-streets-of-rage-and-nights-in-new-sega-universe-project",
-    "https://www.gamesindustry.biz/gamescom-dev-2026-announces-first-speakers-and-sessions",
-    "https://www.pcgamer.com/hardware/graphics-cards/upscaling-issues-continue-to-plague-crimson-desert-post-patch-but-pearl-abyss-isnt-throwing-in-the-towel/",
-    "https://www.pcgamer.com/games/world-of-warcraft/blizzard-apologises-for-wows-latest-bug-ridden-patch-we-will-do-better/",
     "https://www.pushsquare.com/news/2026/04/ps5-rpg-expedition-33-is-one-year-old-today-and-theres-a-free-content-update-to-celebrate",
     "https://www.rockpapershotgun.com/clair-obscur-expedition-33s-first-birthday-is-here-cue-an-anniversary-patch-giving-everyone-in-the-jrpg-special-hairdos",
     "https://www.eurogamer.net/sega-universe-retro-anniveraries-2026",
@@ -4999,13 +4995,13 @@
     "https://www.gamespot.com/videos/faraway-official-release-date-reveal-trailer/",
     "https://www.gematsu.com/2026/10/littlelands-launches-in-early-access-on-november-16",
     "https://www.gematsu.com/2026/10/cleaner-company-launches-january-26-2027",
-    "https://www.gematsu.com/2026/10/dumpster-gang-launches-december-3"
+    "https://www.gematsu.com/2026/10/dumpster-gang-launches-december-3",
+    "https://www.eurogamer.net/moonlighter-dev-steam-playtest-revamp-ai-copycats",
+    "https://gamerant.com/gta-6-launch-trailer-jason-lucia-gta-5-three-protagonists/",
+    "https://www.polygon.com/mister-miracle-first-details-confirmed/",
+    "https://www.polygon.com/resident-evil-7-capcom-development-last-of-us/"
   ],
   "seen_titles": [
-    "sega to revive old ip like outrun, streets of rage, and nights in new sega universe project",
-    "gamescom dev 2026 announces first speakers and sessions",
-    "upscaling issues continue to plague crimson desert post-patch, but pearl abyss isn't throwing in the towel",
-    "blizzard apologises for wow's latest bug-ridden patch: 'we will do better'",
     "ps5 rpg expedition 33 is one year old today, and there's a free content update to celebrate",
     "clair obscur: expedition 33's first birthday is here, cue an anniversary patch giving everyone in the j'rpg special hairdos",
     "outrun, streets of rage, nights, and sggg are just four of many series sega promises to revisit in 2026",
@@ -10001,13 +9997,13 @@
     "faraway – official release date reveal trailer",
     "littlelands launches in early access on november 16",
     "cleaner company launches january 26, 2027",
-    "dumpster gang launches december 3"
+    "dumpster gang launches december 3",
+    "moonlighter dev delays steam playtest for its \"tower defensevania\" revamp over concerns that ai copycats might clone it before launch",
+    "new gta 6 trailer makes gta 5's biggest gamble look like a mistake",
+    "dc studios reveals first details on new tv series",
+    "resident evil 7 dev reveals the game’s last of us inspiration and troubled development"
   ],
   "seen_story_keys": [
-    "85c48a8e948d968642eff83cd312f7a1d2c05e5f",
-    "72e089248082ce95a1800237c3fbbf0b778dc8f7",
-    "37e1351c73b37b944a8cc5c59a23a2ccbd8a545f",
-    "951d665dfbc3db17d6ec6c319b68c66e9b0f0424",
     "5fa0bcc4ae840f44c9e37dfcc76dd376eb49f90d",
     "93253710426990d69b4d4ca6679f684ec1a59d69",
     "418e582402f360476352b23655e1cf7cda69a4ee",
@@ -15003,6 +14999,10 @@
     "b69b131a100948c701d8f6231a1c09c9bc6ac201",
     "2822aaf37aadb24f1b1b29b5c0f5c6ccb5b8196a",
     "9534535c9442dd807a5040a98d1f9cc31e6a10e0",
-    "96b7127a364605f2c21442237bde8aa8cb8a724d"
+    "96b7127a364605f2c21442237bde8aa8cb8a724d",
+    "6a4ef9a969690339b5f1ae35886e7fe890a6ccb8",
+    "f6a7a540e8ef978155c117038f7dc7728acab62f",
+    "2a4bf62f6c34084b78185327bf1962b28910aeb5",
+    "3c459293109b78fa4d5f8cecff1f46ff061e91ec"
   ]
 }
