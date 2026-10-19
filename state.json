@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/04/live-watch-the-idatxbox-april-2026-showcase-here",
-    "https://www.gematsu.com/2026/04/sega-universe-initiative-announced-spotlighting-legacy-ip-with-anniversary-projects",
     "https://www.gematsu.com/2026/04/witch-the-showdown-launches-in-2027-for-ps5-xbox-series-and-pc",
     "https://www.polygon.com/crimson-desert-patch-1-04-difficulty-settings-storage/",
     "https://www.nintendolife.com/news/2026/04/geometry-wars-inspired-hit-sektori-officially-announced-for-switch-2",
@@ -4999,11 +4997,11 @@
     "https://gamerant.com/magic-the-gathering-star-trek-reveal-october-20/",
     "https://gamerant.com/elder-scrolls-4-oblivion-update-gog-preservation/",
     "https://gamerant.com/wwe-2k26-street-fighter-crossover/",
-    "https://gamerant.com/beast-of-reincarnation-major-updates-ending-october-2026/"
+    "https://gamerant.com/beast-of-reincarnation-major-updates-ending-october-2026/",
+    "https://gamerant.com/co-op-games-steam-deep-dish-dungeon/",
+    "https://www.ign.com/articles/don-bradman-cricket-jr-announced-for-pc-and-consoles"
   ],
   "seen_titles": [
-    "live: watch the id@xbox april 2026 showcase here",
-    "sega universe initiative announced, spotlighting legacy ip with anniversary projects",
     "witch the showdown launches in 2027 for ps5, xbox series, and pc",
     "crimson desert patch notes add difficulty settings, extra storage, and more",
     "geometry wars-inspired hit 'sektori' officially announced for switch 2",
@@ -10001,11 +9999,11 @@
     "magic: the gathering fans should mark october 20 on their calendars",
     "the elder scrolls game gets major update after 20 years",
     "wwe 2k26 is crossing over with street fighter",
-    "pokemon developer is ending major updates for its new rpg just 2 months after launch"
+    "pokemon developer is ending major updates for its new rpg just 2 months after launch",
+    "brand-new steam game is a co-op dungeon crawler with cooking",
+    "don bradman cricket jr announced for pc and consoles"
   ],
   "seen_story_keys": [
-    "75bf9d0e6afa7cdd24845268c4331d6804d82b9a",
-    "c1522d59e5fd35f62efeab8200034b34a6224958",
     "38f978086446b7d845df587c1ae513ac36f70309",
     "2726b6e9a10c85f2c1aac449ec18f2f456826b4c",
     "d999065a414beedb1b3f95778228a25a1f3a63ea",
@@ -15003,6 +15001,8 @@
     "34d5720b9ee822b3674d26fc9c66f8f9dc159000",
     "4979457364e48306bf69fcfc496f6d0fde238448",
     "20cdd6a1814d3dd6eac15a47306ae575555b0590",
-    "b5168a65eb8b38f499bc670029202a78a926ec32"
+    "b5168a65eb8b38f499bc670029202a78a926ec32",
+    "77b26f6470cf654e1f9f84e953f06cd48fd0326a",
+    "63b563a5c731d75394aa78c6a7073701caea4296"
   ]
 }
