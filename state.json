@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/witch-the-showdown-launches-in-2027-for-ps5-xbox-series-and-pc",
-    "https://www.polygon.com/crimson-desert-patch-1-04-difficulty-settings-storage/",
-    "https://www.nintendolife.com/news/2026/04/geometry-wars-inspired-hit-sektori-officially-announced-for-switch-2",
-    "https://gamerant.com/call-of-duty-black-ops-7-warzone-season-3-reloaded-update/",
     "https://www.pushsquare.com/news/2026/04/sega-to-revive-old-ip-like-outrun-streets-of-rage-and-nights-in-new-sega-universe-project",
     "https://www.gamesindustry.biz/gamescom-dev-2026-announces-first-speakers-and-sessions",
     "https://www.pcgamer.com/hardware/graphics-cards/upscaling-issues-continue-to-plague-crimson-desert-post-patch-but-pearl-abyss-isnt-throwing-in-the-towel/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/wwe-2k26-street-fighter-crossover/",
     "https://gamerant.com/beast-of-reincarnation-major-updates-ending-october-2026/",
     "https://gamerant.com/co-op-games-steam-deep-dish-dungeon/",
-    "https://www.ign.com/articles/don-bradman-cricket-jr-announced-for-pc-and-consoles"
+    "https://www.ign.com/articles/don-bradman-cricket-jr-announced-for-pc-and-consoles",
+    "https://www.gamespot.com/videos/faraway-official-release-date-reveal-trailer/",
+    "https://www.gematsu.com/2026/10/littlelands-launches-in-early-access-on-november-16",
+    "https://www.gematsu.com/2026/10/cleaner-company-launches-january-26-2027",
+    "https://www.gematsu.com/2026/10/dumpster-gang-launches-december-3"
   ],
   "seen_titles": [
-    "witch the showdown launches in 2027 for ps5, xbox series, and pc",
-    "crimson desert patch notes add difficulty settings, extra storage, and more",
-    "geometry wars-inspired hit 'sektori' officially announced for switch 2",
-    "call of duty reveals everything coming in season 3 reloaded",
     "sega to revive old ip like outrun, streets of rage, and nights in new sega universe project",
     "gamescom dev 2026 announces first speakers and sessions",
     "upscaling issues continue to plague crimson desert post-patch, but pearl abyss isn't throwing in the towel",
@@ -10001,13 +9997,13 @@
     "wwe 2k26 is crossing over with street fighter",
     "pokemon developer is ending major updates for its new rpg just 2 months after launch",
     "brand-new steam game is a co-op dungeon crawler with cooking",
-    "don bradman cricket jr announced for pc and consoles"
+    "don bradman cricket jr announced for pc and consoles",
+    "faraway – official release date reveal trailer",
+    "littlelands launches in early access on november 16",
+    "cleaner company launches january 26, 2027",
+    "dumpster gang launches december 3"
   ],
   "seen_story_keys": [
-    "38f978086446b7d845df587c1ae513ac36f70309",
-    "2726b6e9a10c85f2c1aac449ec18f2f456826b4c",
-    "d999065a414beedb1b3f95778228a25a1f3a63ea",
-    "c3a794243802cd3eb92b636be0a2ab642e1eb8de",
     "85c48a8e948d968642eff83cd312f7a1d2c05e5f",
     "72e089248082ce95a1800237c3fbbf0b778dc8f7",
     "37e1351c73b37b944a8cc5c59a23a2ccbd8a545f",
@@ -15003,6 +14999,10 @@
     "20cdd6a1814d3dd6eac15a47306ae575555b0590",
     "b5168a65eb8b38f499bc670029202a78a926ec32",
     "77b26f6470cf654e1f9f84e953f06cd48fd0326a",
-    "63b563a5c731d75394aa78c6a7073701caea4296"
+    "63b563a5c731d75394aa78c6a7073701caea4296",
+    "b69b131a100948c701d8f6231a1c09c9bc6ac201",
+    "2822aaf37aadb24f1b1b29b5c0f5c6ccb5b8196a",
+    "9534535c9442dd807a5040a98d1f9cc31e6a10e0",
+    "96b7127a364605f2c21442237bde8aa8cb8a724d"
   ]
 }
