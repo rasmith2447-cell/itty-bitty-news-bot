@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/hasbro-transformers-40th-anniversary-figures-fall-2026/",
-    "https://www.ign.com/articles/assassins-creed-black-flag-resynced-producer-says-games-reveal-was-toned-down-after-complaints-that-ubisoft-had-removed-blood",
-    "https://www.eurogamer.net/shuhei-yoshida-playstation-pc-strategy-keynote",
-    "https://www.nintendolife.com/news/2026/04/were-sure-nintendo-will-have-no-issues-at-all-with-this-new-pc-creature-battler",
     "https://www.eurogamer.net/xbox-unveils-new-logo",
     "https://www.gematsu.com/2026/04/disgaea-mayhem-launches-july-23-in-the-west",
     "https://www.pushsquare.com/news/2026/04/toeis-trio-of-first-games-hold-little-interest-for-ps5-players",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/10/psvr2-darling-synth-riders-dances-away-with-a-spooky-free-song-for-halloween",
     "https://www.ign.com/articles/love-and-deepspace-launches-blade-runner-crossover-as-fans-draw-parallels-to-canceled-character-valko",
     "https://www.gematsu.com/2026/10/payday-aces-high-launches-november-5",
-    "https://www.rockpapershotgun.com/too-big-a-risk-moonlighter-devs-delay-new-games-demo-for-fear-of-genai-cloning-calling-on-platforms-to-keep-strengthening-protections-for-original-work"
+    "https://www.rockpapershotgun.com/too-big-a-risk-moonlighter-devs-delay-new-games-demo-for-fear-of-genai-cloning-calling-on-platforms-to-keep-strengthening-protections-for-original-work",
+    "https://www.nintendolife.com/news/2026/10/reminder-monster-hunter-wilds-switch-2-prologue-demo-now-available",
+    "https://www.pushsquare.com/news/2026/10/a-demo-for-rideshare-stimulator-sabers-ai-filled-driving-sim-is-available-now-on-ps5",
+    "https://www.gematsu.com/2026/10/faraway-launches-november-5-for-ps5-xbox-series-switch-2-switch-and-pc",
+    "https://www.pushsquare.com/news/2026/10/phantom-blade-zero-will-gobble-up-a-massive-chunk-of-your-ps5s-ssd"
   ],
   "seen_titles": [
-    "hasbro reveals 3 new transformers figures coming this fall [exclusive]",
-    "assassin's creed black flag resynced producer says game's reveal was 'toned down' after complaints that ubisoft had removed blood",
-    "former sony exec opens up about the idea of ps5 games coming to pc on day one: \"i don't think that's a good strategy for a platform holder like playstation\"",
-    "we're sure nintendo will have no issues at all with this new pc creature battler",
     "as its 'we can change' campaign continues, xbox unveils new logo, and it's an intentional blast from the past",
     "disgaea mayhem launches july 23 in the west",
     "toei's trio of first games hold little interest for ps5 players",
@@ -10001,13 +9997,13 @@
     "psvr2 darling synth riders dances away with a spooky free song for halloween",
     "love and deepspace launches blade runner crossover as fans draw parallels to canceled character valko",
     "payday: aces high launches november 5",
-    "\"too big a risk\": moonlighter devs delay new game's demo for fear of genai cloning, calling on platforms to \"keep strengthening protections for original work\""
+    "\"too big a risk\": moonlighter devs delay new game's demo for fear of genai cloning, calling on platforms to \"keep strengthening protections for original work\"",
+    "reminder: monster hunter wilds switch 2 prologue demo now available",
+    "a demo for rideshare \"stimulator\", saber's ai-filled driving sim, is available now on ps5",
+    "faraway launches november 5 for ps5, xbox series, switch 2, switch, and pc",
+    "phantom blade zero will gobble up a massive chunk of your ps5's ssd"
   ],
   "seen_story_keys": [
-    "ec966f24371914651f2dfa19c45f092402efe23f",
-    "eb479df7582647ef6628110e4adf2fcc5319eec8",
-    "9f8e8331b671943735e5a4d527f4618d9974f6a8",
-    "5aa30fb12c208e6fdea3c18229e55c632e53ba73",
     "e1972b7025517c400eff4c593ca1dfa95ff9db58",
     "954d921d4f94c941e0524d302b84f87f0f67665a",
     "6315fd8fd696587666eae8948f718ea65be9fa30",
@@ -15003,6 +14999,10 @@
     "bf7cd996e20b12d039ffdbcb9e50e522f3d55b2e",
     "6c98216bdf789da3c0fc7564fbb5e52361d99ff4",
     "047b9ab38aa74fe41bf16079e5c01131c85c9b8b",
-    "545ae8eeae0bb9b9655bfc8802d1f503a1d93cb5"
+    "545ae8eeae0bb9b9655bfc8802d1f503a1d93cb5",
+    "4284e299dbeacae714d1508901fa7e4cd022a96d",
+    "fbfe781dc921b62959667346f5e31351fcfa8940",
+    "cb641accd989eb381ad5b3cac4878376bed790f5",
+    "94ffb1b94743c7c574860a3ea53d74fbc0738714"
   ]
 }
