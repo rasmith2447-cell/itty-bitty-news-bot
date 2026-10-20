@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.rockpapershotgun.com/we-will-do-better-blizzard-are-sorry-world-of-warcrafts-prop-hunt-patch-launched-with-an-x-ray-vision-exploit-and-plenty-of-other-pesky-bugs",
-    "https://www.ign.com/articles/battlefield-6-dev-continues-communication-with-post-addressing-roadmap-feedback",
-    "https://www.gematsu.com/2026/04/house-flipper-remastered-collection-launches-june-4",
-    "https://www.ign.com/articles/next-final-fantasy-xiv-expansion-revealed-ffxiv-evercold-coming-january-2027",
     "https://www.eurogamer.net/resident-evil-requiem-another-major-milestone",
     "https://www.purexbox.com/news/2026/04/its-been-years-since-xbox-acquired-a-studio-but-it-sounds-like-theyre-considering-it-again",
     "https://www.gematsu.com/2026/04/gold-gold-adventure-gold-launches-may-15",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/players-want-to-engage-with-brands-not-just-consume-them-mattel-on-its-new-game-studios-arm-why-its-releasing-on-roblox-and-what-it-learnt-from-netease",
     "https://www.pushsquare.com/news/2026/10/ace-combat-8-carpet-bombs-a-massive-list-of-bugs-in-an-upcoming-patch-on-ps5",
     "https://www.purexbox.com/news/2026/10/new-steam-deck-project-allows-for-native-xbox-pc-support-but-with-a-few-catches",
-    "https://www.eurogamer.net/cyberpunk-2077-25-update-free-egerunners-2-release"
+    "https://www.eurogamer.net/cyberpunk-2077-25-update-free-egerunners-2-release",
+    "https://gamerant.com/steam-new-soulslike-games-nascor-descent/",
+    "https://www.purexbox.com/news/2026/10/amd-fsr-4-1-announced-for-xbox-series-xs-and-rog-xbox-handhelds",
+    "https://www.nintendolife.com/news/2026/10/pixel-art-rpg-drova-is-getting-a-switch-2-sequel-next-year",
+    "https://www.gematsu.com/2026/10/game-pass-adds-final-fantasy-vii-remake-intergrade-the-seance-of-blake-manor-and-more-in-late-october"
   ],
   "seen_titles": [
-    "\"we will do better\": blizzard are sorry world of warcraft's prop hunt patch launched with an x-ray vision exploit and plenty of other pesky bugs",
-    "battlefield 6 dev continues communication with post addressing roadmap feedback",
-    "house flipper remastered collection launches june 4",
-    "next final fantasy xiv expansion revealed, ffxiv evercold coming january 2027",
     "looks like resident evil requiem, already the fastest-selling game in the series, has smashed another milestone, and leon's all caked up to celebrate",
     "it's been years since xbox acquired a studio, but it sounds like they're considering it again",
     "gold gold adventure gold launches may 15",
@@ -10001,13 +9997,13 @@
     "\"players want to engage with brands, not just consume them\" – mattel on its new game studios arm, why it's releasing on roblox, and what it learnt from netease",
     "ace combat 8 carpet bombs a massive list of bugs in an upcoming patch on ps5",
     "new steam deck project allows for native xbox pc support, but with a few catches",
-    "cyberpunk 2077 getting a substantial update to coincide with edgerunners' netflix season 2 release"
+    "cyberpunk 2077 getting a substantial update to coincide with edgerunners' netflix season 2 release",
+    "new ps1-era soulslike game officially announced",
+    "amd fsr 4.1 announced for xbox series x|s and rog xbox handhelds",
+    "pixel art rpg 'drova' is getting a switch 2 sequel next year",
+    "game pass adds final fantasy vii remake intergrade, the seance of blake manor, and more in late october"
   ],
   "seen_story_keys": [
-    "0f6b06de29e5ad471fb766b87bfeb3da723578cc",
-    "5fd910951df78fd9394f63521ef5140a72ce45bb",
-    "f0a3b4413a4a10888fc91417136d0e84063524fa",
-    "53385792eb794385963763dd46a99da2da59c6ec",
     "31c3fbb9228e6e0c03bce8fe7bc7f9839ccd7f85",
     "675f4343e079770b4e8203c935e231cded4f3847",
     "e16018c06a8fbe54540da2e4c0e0de2b24822d05",
@@ -15003,6 +14999,10 @@
     "0e97324db0858628800bc0993de635a49dcc697a",
     "267ac77b1ff5ec0956b099993a00c23cfad01c71",
     "e32b63830b9eb891ee2d9f6f1fce5837f666d8c9",
-    "73ecdd0e3df82c46da0121f0063c88e513faf5ae"
+    "73ecdd0e3df82c46da0121f0063c88e513faf5ae",
+    "b18eba0f9af14aaa9e0866bd1f6d221fa5448037",
+    "98c65ce53159197abbab5883de5b0158fa69d9ce",
+    "65177501862ed1d1c669bd8766778b79ea093856",
+    "3e3ed849812dbff05c71533acbf8a24dbb5bc3fa"
   ]
 }
