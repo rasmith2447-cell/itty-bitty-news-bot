@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/xbox-unveils-new-logo",
-    "https://www.gematsu.com/2026/04/disgaea-mayhem-launches-july-23-in-the-west",
-    "https://www.pushsquare.com/news/2026/04/toeis-trio-of-first-games-hold-little-interest-for-ps5-players",
-    "https://www.polygon.com/bg3-baldurs-gate-3-astarion-prequel-novel-release-date/",
     "https://gamerant.com/diablo-4-lord-of-hatred-update-patch-notes/",
     "https://gamerant.com/genshin-impact-version-6-0-snezhnaya/",
     "https://www.ign.com/articles/pokemon-pokopia-event-announced",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/10/reminder-monster-hunter-wilds-switch-2-prologue-demo-now-available",
     "https://www.pushsquare.com/news/2026/10/a-demo-for-rideshare-stimulator-sabers-ai-filled-driving-sim-is-available-now-on-ps5",
     "https://www.gematsu.com/2026/10/faraway-launches-november-5-for-ps5-xbox-series-switch-2-switch-and-pc",
-    "https://www.pushsquare.com/news/2026/10/phantom-blade-zero-will-gobble-up-a-massive-chunk-of-your-ps5s-ssd"
+    "https://www.pushsquare.com/news/2026/10/phantom-blade-zero-will-gobble-up-a-massive-chunk-of-your-ps5s-ssd",
+    "https://www.nintendolife.com/news/2026/10/wow-what-a-view-shift-up-shows-off-stellar-blades-stunning-photo-mode-on-switch-2",
+    "https://gamerant.com/zenless-zone-zero-zzz-3-3-when-release-date-time-maintenance-ends-countdown/",
+    "https://www.nintendolife.com/news/2026/10/the-runtime-of-sonics-fourth-movie-outing-has-seemingly-been-revealed",
+    "https://www.nintendolife.com/news/2026/10/pokemon-pokopia-and-fire-emblem-fortunes-weave-shortlisted-for-console-game-of-the-year"
   ],
   "seen_titles": [
-    "as its 'we can change' campaign continues, xbox unveils new logo, and it's an intentional blast from the past",
-    "disgaea mayhem launches july 23 in the west",
-    "toei's trio of first games hold little interest for ps5 players",
-    "bg3 prequel novel starring astarion gets 2026 release date",
     "diablo 4 lord of hatred update patch notes revealed",
     "genshin impact reveals snezhnaya and teases version 6.0",
     "pokémon pokopia event announced",
@@ -10001,13 +9997,13 @@
     "reminder: monster hunter wilds switch 2 prologue demo now available",
     "a demo for rideshare \"stimulator\", saber's ai-filled driving sim, is available now on ps5",
     "faraway launches november 5 for ps5, xbox series, switch 2, switch, and pc",
-    "phantom blade zero will gobble up a massive chunk of your ps5's ssd"
+    "phantom blade zero will gobble up a massive chunk of your ps5's ssd",
+    "\"wow, what a view\" - shift up shows off stellar blade's stunning photo mode on switch 2",
+    "zzz 3.3 release date & time countdown (maintenance end time)",
+    "the runtime of sonic's fourth movie outing has seemingly been revealed",
+    "pokémon pokopia and fire emblem: fortune's weave shortlisted for 'console game of the year'"
   ],
   "seen_story_keys": [
-    "e1972b7025517c400eff4c593ca1dfa95ff9db58",
-    "954d921d4f94c941e0524d302b84f87f0f67665a",
-    "6315fd8fd696587666eae8948f718ea65be9fa30",
-    "1a2f6a53fd08411374d741e54f941a56f856b5ea",
     "a37cd3c60a0818ad590e15d11d4f48323817359b",
     "4540f612e6196cbb60a500468bdf14b3c580884d",
     "3a4e9e6cb1955a9e976e2f4dbffef14c6e0bfe1c",
@@ -15003,6 +14999,10 @@
     "4284e299dbeacae714d1508901fa7e4cd022a96d",
     "fbfe781dc921b62959667346f5e31351fcfa8940",
     "cb641accd989eb381ad5b3cac4878376bed790f5",
-    "94ffb1b94743c7c574860a3ea53d74fbc0738714"
+    "94ffb1b94743c7c574860a3ea53d74fbc0738714",
+    "e3240e5668a5686c5d08853adff5828152080cea",
+    "497d8050a121d1f2cd1062ed9aba0c65c1906c7d",
+    "af692211ab26d6a7c1a54c73ccc38b545a200e17",
+    "8c9539cfbf7a5c5781197f569de70cd56fc7fd73"
   ]
 }
