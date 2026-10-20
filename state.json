@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/resident-evil-requiem-another-major-milestone",
-    "https://www.purexbox.com/news/2026/04/its-been-years-since-xbox-acquired-a-studio-but-it-sounds-like-theyre-considering-it-again",
-    "https://www.gematsu.com/2026/04/gold-gold-adventure-gold-launches-may-15",
-    "https://www.polygon.com/ffxiv-8-0-release-date-evercold-trailer-ff14/",
     "https://www.pushsquare.com/news/2026/04/youll-experience-a-noticeable-leap-in-visuals-genshin-impact-outlines-big-graphical-improvements-as-it-waves-goodbye-to-ps4",
     "https://www.ign.com/articles/square-enix-cafe-set-to-open-los-angeles-shinjuku",
     "https://www.gematsu.com/2026/04/sydless-launches-may-27",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/steam-new-soulslike-games-nascor-descent/",
     "https://www.purexbox.com/news/2026/10/amd-fsr-4-1-announced-for-xbox-series-xs-and-rog-xbox-handhelds",
     "https://www.nintendolife.com/news/2026/10/pixel-art-rpg-drova-is-getting-a-switch-2-sequel-next-year",
-    "https://www.gematsu.com/2026/10/game-pass-adds-final-fantasy-vii-remake-intergrade-the-seance-of-blake-manor-and-more-in-late-october"
+    "https://www.gematsu.com/2026/10/game-pass-adds-final-fantasy-vii-remake-intergrade-the-seance-of-blake-manor-and-more-in-late-october",
+    "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028",
+    "https://www.pushsquare.com/news/2026/10/ea-boxing-series-fight-night-back-for-another-round-new-game-teased",
+    "https://www.ign.com/articles/amd-fsr-41-is-finally-coming-to-xbox-series-x-rivaling-ps5s-qssr",
+    "https://www.ign.com/articles/shrek-2-remastered-reveal-trailer-parodies-gta-6-sets-november-release-date"
   ],
   "seen_titles": [
-    "looks like resident evil requiem, already the fastest-selling game in the series, has smashed another milestone, and leon's all caked up to celebrate",
-    "it's been years since xbox acquired a studio, but it sounds like they're considering it again",
-    "gold gold adventure gold launches may 15",
-    "square enix reveals final fantasy xiv 8.0 release date",
     "'you'll experience a noticeable leap in visuals': genshin impact outlines big graphical improvements as it waves goodbye to ps4",
     "square enix cafes set to open in los angeles and shinjuku",
     "sydless launches may 27",
@@ -10001,13 +9997,13 @@
     "new ps1-era soulslike game officially announced",
     "amd fsr 4.1 announced for xbox series x|s and rog xbox handhelds",
     "pixel art rpg 'drova' is getting a switch 2 sequel next year",
-    "game pass adds final fantasy vii remake intergrade, the seance of blake manor, and more in late october"
+    "game pass adds final fantasy vii remake intergrade, the seance of blake manor, and more in late october",
+    "report: xbox to release next-gen handheld in 2027 & expensive helix console in 2028",
+    "ea boxing series fight night back for another round, new game teased",
+    "amd fsr 4.1 is finally coming to xbox series x, rivaling ps5's qssr",
+    "shrek 2 remastered reveal trailer parodies gta 6, sets november release date"
   ],
   "seen_story_keys": [
-    "31c3fbb9228e6e0c03bce8fe7bc7f9839ccd7f85",
-    "675f4343e079770b4e8203c935e231cded4f3847",
-    "e16018c06a8fbe54540da2e4c0e0de2b24822d05",
-    "7de7691004a5ebeb4de0640510ba89610800527c",
     "3112b80bfedd51716b15ff14f374ea257bb6e007",
     "fa2479d6bd85ffeb2afb55968826d430813d9bc1",
     "e53e1187aa807c96650cdb4bd462108f77a3e6f5",
@@ -15003,6 +14999,10 @@
     "b18eba0f9af14aaa9e0866bd1f6d221fa5448037",
     "98c65ce53159197abbab5883de5b0158fa69d9ce",
     "65177501862ed1d1c669bd8766778b79ea093856",
-    "3e3ed849812dbff05c71533acbf8a24dbb5bc3fa"
+    "3e3ed849812dbff05c71533acbf8a24dbb5bc3fa",
+    "a76cebee68db5133ac8b1919a6ea4768ff017cdc",
+    "44667108cc264fbe8843e12a428d9e7be488591c",
+    "3defec45c513735560e6ff4e7bbec055922f5294",
+    "f259b9b2135103833c623dddf7e5ce821ac62263"
   ]
 }
