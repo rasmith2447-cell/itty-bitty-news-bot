@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/slay-the-spire-2-patch-notes-address-base-game-difficulty-and-the-doormaker",
-    "https://www.gamespot.com/articles/gta-6-fans-are-circling-this-date-for-more-news-but-thats-probably-just-wishful-thinking/1100-6539606/?ftag=CAD-01-10abi2f",
-    "https://www.gamesindustry.biz/atari-acquires-emulation-studio-implicit-conversions",
-    "https://www.gematsu.com/2026/04/retrospace-adds-ps5-xbox-series-and-switch-2-versions",
     "https://www.gematsu.com/2026/04/final-fantasy-xiv-evercold-expansion-switch-2-version-and-evangelion-collaboration-announced",
     "https://gamerant.com/final-fantasy-14-evercold-expansion-ff14/",
     "https://www.gamespot.com/articles/final-fantasy-xiv-is-getting-a-series-of-evangelion-raids/1100-6539617/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/shrek-2-remastered-release-date-trailer-online-co-op/",
     "https://www.pushsquare.com/news/2026/10/xbox-to-slash-even-more-jobs-this-month-with-further-cuts-in-november-and-january",
     "https://www.pcgamer.com/gaming-industry/if-you-cant-show-your-game-to-the-world-without-fearing-itll-be-cloned-somethings-broken-says-moonlighter-studio-on-its-canceled-demo/",
-    "https://www.purexbox.com/news/2026/10/shrek-2-remastered-gets-official-november-release-date-for-xbox-series-xs"
+    "https://www.purexbox.com/news/2026/10/shrek-2-remastered-gets-official-november-release-date-for-xbox-series-xs",
+    "https://www.gematsu.com/2026/10/nothing-stays-oddinary-open-world-rpg-ordinary-oddness-announced-for-ps5-xbox-series-and-pc",
+    "https://www.gematsu.com/2026/10/dreamworks-shrek-2-remastered-announced-for-ps5-xbox-series-switch-2-switch-and-pc",
+    "https://www.pushsquare.com/news/2026/10/free-fallout-4-dlc-sees-modders-bring-back-original-voice-actors-for-a-spooky-adventure-on-ps5",
+    "https://www.gematsu.com/2026/10/graytail-adds-xbox-series-version"
   ],
   "seen_titles": [
-    "slay the spire 2 patch notes address base game difficulty and the doormaker",
-    "gta 6 fans are circling this date for more news, but that's probably just wishful thinking",
-    "atari acquires emulation studio implicit conversions",
-    "retrospace adds ps5, xbox series, and switch 2 versions",
     "final fantasy xiv: evercold expansion, switch 2 version, and evangelion collaboration announced",
     "final fantasy 14 reveals evercold expansion",
     "final fantasy xiv is getting a series of evangelion raids",
@@ -10001,13 +9997,13 @@
     "shrek 2 remastered officially announced with must-see gta 6-inspired trailer",
     "xbox to slash even more jobs this month, with further cuts in november and january",
     "'if you can’t show your game to the world without fearing it’ll be cloned, something’s broken' says moonlighter studio on its canceled demo",
-    "shrek 2 remastered gets official november release date for xbox series x|s"
+    "shrek 2 remastered gets official november release date for xbox series x|s",
+    "‘nothing-stays-oddinary’ open-world rpg ordinary oddness announced for ps5, xbox series, and pc",
+    "dreamworks shrek 2 remastered announced for ps5, xbox series, switch 2, switch, and pc",
+    "free fallout 4 dlc sees modders bring back original voice actors for a spooky adventure on ps5",
+    "graytail adds xbox series version"
   ],
   "seen_story_keys": [
-    "c43461fc05d4a1cbced676a283edf8c729f87c02",
-    "349fd7455ac438d79ef2bb025eb1ef997de93a58",
-    "668c946bf498fc3c173ffdd2897f20fd88c4ddc8",
-    "93b9f20a084ac6a0819fce8f73df7188b61e5d58",
     "30a1bd403190f7b92cb276ca322ce645926e6f7e",
     "b1d9a86e26fa4e403f04c2422eba5ea16f371f0a",
     "75f7bf506bb39fc19647bf1ac1c07ccf9e078051",
@@ -15003,6 +14999,10 @@
     "435b8ab543a0e2df6ab4865e48123fa587d92735",
     "863fa9534c3f8644beb844f1dfc7ef5fa2b83f22",
     "da11d590993c98657007c20341e7b99e7f0f0205",
-    "022aeedb405042bace01abfe641c807dc2d8b417"
+    "022aeedb405042bace01abfe641c807dc2d8b417",
+    "a17e24e68656eb7f60bb315a81e9a39ccc4fa475",
+    "41a696ba42acbbf154d8b72faba30322a7c470f4",
+    "e279e173b1dbd34c52fdc660a3799681d97676f4",
+    "d0542fcaaaf463fdce9d2cd968e292bb896f45a2"
   ]
 }
