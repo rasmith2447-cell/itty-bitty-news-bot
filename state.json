@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/final-fantasy-xiv-evercold-expansion-switch-2-version-and-evangelion-collaboration-announced",
-    "https://gamerant.com/final-fantasy-14-evercold-expansion-ff14/",
-    "https://www.gamespot.com/articles/final-fantasy-xiv-is-getting-a-series-of-evangelion-raids/1100-6539617/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/04/rune-dice-launches-may-19-for-ps5-xbox-series-switch-and-pc",
     "https://www.gematsu.com/2026/04/retro-soulslike-action-game-memoirium-launches-august-13",
     "https://www.gematsu.com/2026/04/the-remake-of-the-end-of-the-greatest-rpg-of-all-time-launches-may-28",
     "https://www.nintendolife.com/news/2026/04/looks-like-mina-the-hollower-will-be-getting-a-new-release-date-soon",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/10/nothing-stays-oddinary-open-world-rpg-ordinary-oddness-announced-for-ps5-xbox-series-and-pc",
     "https://www.gematsu.com/2026/10/dreamworks-shrek-2-remastered-announced-for-ps5-xbox-series-switch-2-switch-and-pc",
     "https://www.pushsquare.com/news/2026/10/free-fallout-4-dlc-sees-modders-bring-back-original-voice-actors-for-a-spooky-adventure-on-ps5",
-    "https://www.gematsu.com/2026/10/graytail-adds-xbox-series-version"
+    "https://www.gematsu.com/2026/10/graytail-adds-xbox-series-version",
+    "https://www.nintendolife.com/news/2026/10/wwe-2k26-collides-with-street-fighter-in-first-ever-collab-next-week",
+    "https://www.nintendolife.com/news/2026/10/the-legend-of-zelda-ocarina-of-time-switch-2-estimated-file-size-revealed",
+    "https://www.gematsu.com/2026/10/red-kiss-adds-xbox-series-version-launches-in-2027",
+    "https://www.gematsu.com/2026/10/rustown-launches-june-30-2027-for-xbox-series-pc"
   ],
   "seen_titles": [
-    "final fantasy xiv: evercold expansion, switch 2 version, and evangelion collaboration announced",
-    "final fantasy 14 reveals evercold expansion",
-    "final fantasy xiv is getting a series of evangelion raids",
-    "rune dice launches may 19 for ps5, xbox series, switch, and pc",
     "retro soulslike action game memoirium launches august 13",
     "the remake of the end of the greatest rpg of all time launches may 28",
     "looks like 'mina the hollower' will be getting a new release date soon",
@@ -10001,13 +9997,13 @@
     "‘nothing-stays-oddinary’ open-world rpg ordinary oddness announced for ps5, xbox series, and pc",
     "dreamworks shrek 2 remastered announced for ps5, xbox series, switch 2, switch, and pc",
     "free fallout 4 dlc sees modders bring back original voice actors for a spooky adventure on ps5",
-    "graytail adds xbox series version"
+    "graytail adds xbox series version",
+    "wwe 2k26 collides with street fighter in \"first-ever\" collab next week",
+    "the legend of zelda: ocarina of time switch 2 estimated file size revealed",
+    "red kiss adds xbox series version, launches in 2027",
+    "rustown launches june 30, 2027 for xbox series, pc"
   ],
   "seen_story_keys": [
-    "30a1bd403190f7b92cb276ca322ce645926e6f7e",
-    "b1d9a86e26fa4e403f04c2422eba5ea16f371f0a",
-    "75f7bf506bb39fc19647bf1ac1c07ccf9e078051",
-    "fbde338c44799fd98f9400ca888badd1f067a0a5",
     "f2ddfb38d28a9a0d2f4b50e89378b2ad474756a1",
     "9e7377f343988f8b23967e03d917a1c686060d8a",
     "40acd56769e1452e8606eb537eec5a2554df0e54",
@@ -15003,6 +14999,10 @@
     "a17e24e68656eb7f60bb315a81e9a39ccc4fa475",
     "41a696ba42acbbf154d8b72faba30322a7c470f4",
     "e279e173b1dbd34c52fdc660a3799681d97676f4",
-    "d0542fcaaaf463fdce9d2cd968e292bb896f45a2"
+    "d0542fcaaaf463fdce9d2cd968e292bb896f45a2",
+    "700b747842896272a545e7da2f27e000cc8860c2",
+    "2cd51d137641f7e8c5c519561ba3a859a56d254f",
+    "2eae96c36afa565600e21f34a3eb06e6f0ee0492",
+    "2fc88f382d94ef4b07c4b01ceab00031a31f3abc"
   ]
 }
