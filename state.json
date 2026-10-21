@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/the-mummy-4-moved-up-to-2027-as-miami-vice-85-is-pushed-to-2028",
-    "https://www.gematsu.com/2026/04/cursemark-launches-in-early-access-on-june-8",
-    "https://www.gematsu.com/2026/04/twin-stick-action-game-neo-titan-announced-for-pc",
-    "https://gamerant.com/world-of-warcraft-blizzard-update-apology/",
     "https://www.pushsquare.com/news/2026/04/its-been-84-years-gbc-inspired-adventure-mina-the-hollower-is-finally-ready-for-ps5-release",
     "https://www.ign.com/articles/neon-genesis-evangelion-is-coming-to-final-fantasy-xiv-with-a-crossover-raid-series-called-ghosts-of-desire",
     "https://www.pcgamer.com/games/final-fantasy/final-fantasy-14s-patch-notes-sneak-peek-is-square-enixs-classic-formula-of-exciting-quality-of-life-changes-and-weirdly-archaic-systems/",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/bioware-is-closing-after-30-years",
     "https://www.ign.com/articles/wow-forever-beta-extended-to-friday-name-reservations-go-live-tuesday",
     "https://www.gamesindustry.biz/amds-fsr-41-upscaling-is-coming-to-xbox-series-xs",
-    "https://gamerant.com/bioware-shut-down-mass-effect-cancelled-why/"
+    "https://gamerant.com/bioware-shut-down-mass-effect-cancelled-why/",
+    "https://gamerant.com/zelda-oot-remake-pre-order-bonuses-wallpaper/",
+    "https://www.pcgamer.com/games/world-of-warcraft/everyone-gets-a-free-ticket-to-world-of-warcraft-forever-today-as-blizzard-stress-tests-the-servers-ahead-of-launch-day/",
+    "https://www.polygon.com/diablo-unbound-announcement-blizzard-glass-cannon-games/",
+    "https://www.videogameschronicle.com/news/many-staff-gone-from-skate-studio-full-circle-as-part-of-ea-layoffs/"
   ],
   "seen_titles": [
-    "the mummy 4 moved up to 2027 as miami vice '85 is pushed to 2028",
-    "cursemark launches in early access on june 8",
-    "twin-stick action game neo titan announced for pc",
-    "blizzard apologizes for world of warcraft update issues",
     "it's been 84 years! gbc-inspired adventure mina the hollower is finally ready for ps5 release",
     "neon genesis evangelion is coming to final fantasy xiv with a crossover raid series called ghosts of desire",
     "final fantasy 14's patch notes sneak-peek is square enix's classic formula of exciting quality-of-life changes and weirdly archaic systems",
@@ -10001,13 +9997,13 @@
     "bioware is closing after 30 years",
     "wow forever beta extended to friday, name reservations go live tuesday",
     "amd's fsr 4.1 upscaling is coming to xbox series x|s",
-    "ea is permanently shutting down bioware, new mass effect game canceled"
+    "ea is permanently shutting down bioware, new mass effect game canceled",
+    "zelda: ocarina of time remake reveals yet another pre-order bonus",
+    "everyone gets a free ticket to world of warcraft: forever today as blizzard stress tests the servers ahead of launch day",
+    "diablo: unbound officially announced for 2027 release",
+    "‘many’ staff gone from skate studio full circle as part of ea layoffs"
   ],
   "seen_story_keys": [
-    "257daa743ed5ee1435955291b0513e88e6662724",
-    "e5ecbf8e169e29555f377af956c83369f757d047",
-    "9fd28bd93a971037e22e61b5efe3a187b4aaf133",
-    "bc8f7b1e63a3f5d8b23461eda2a39c8c1adb3dfd",
     "78f06225ed83fd2d3ce325c14d11cc466dca77e8",
     "e62b03e1c995bd05b702f624fe7d197d0447f447",
     "16b9884f9a98849460783d94d584e65ea9e5ce99",
@@ -15003,6 +14999,10 @@
     "47f8889b1e79a2fd2a5950e5fa97af113c4965a3",
     "f7bb455e8d2f3b1dafbfde578c715ca2857340ef",
     "9e57f97321ec2973a01c6e813feed17dd68bf2c9",
-    "b94c736a0abb15b543b6e968527d66e8a2619de8"
+    "b94c736a0abb15b543b6e968527d66e8a2619de8",
+    "0ec7a1cdd1b796141c582d6ade9d06ead5692f44",
+    "88fd11c264ad62765652012335665b5adb3f064d",
+    "4b9f7ce22a04afb75f511bd088b1d2244350fd00",
+    "4fb81c6ed44aa5d3f8b68a2dd94b2f9af277c286"
   ]
 }
