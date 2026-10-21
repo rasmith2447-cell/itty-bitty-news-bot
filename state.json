@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/upcoming-new-disney-and-pixar-movies",
-    "https://www.polygon.com/ffxiv-switch-2-release-date-extra-subscription/",
-    "https://www.pcgamer.com/games/rpg/the-release-date-for-path-of-exile-2s-next-expansion-couldnt-be-better-for-action-rpg-fans-planning-to-play-diablo-4-lord-of-hatred-first/",
-    "https://gamerant.com/final-fantasy-14-evercold-expansion-ff14-gameplay-changes/",
     "https://www.ign.com/articles/the-mummy-4-moved-up-to-2027-as-miami-vice-85-is-pushed-to-2028",
     "https://www.gematsu.com/2026/04/cursemark-launches-in-early-access-on-june-8",
     "https://www.gematsu.com/2026/04/twin-stick-action-game-neo-titan-announced-for-pc",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/gta-vi-6-combat-gameplay-feature-weapon-wheel/",
     "https://www.rockpapershotgun.com/i-want-room-to-make-a-wrong-turn-following-samson-devs-bankruptcy-its-founder-is-considering-how-ai-might-factor-into-new-studio-plans",
     "https://gamerant.com/animal-crossing-happy-room-miniature-set/",
-    "https://www.rockpapershotgun.com/ai-is-a-technofascist-anti-human-and-anti-art-project-says-creator-of-lefty-tech-satire-future-no-thanks-before-explaining-why-he-used-it-anyway"
+    "https://www.rockpapershotgun.com/ai-is-a-technofascist-anti-human-and-anti-art-project-says-creator-of-lefty-tech-satire-future-no-thanks-before-explaining-why-he-used-it-anyway",
+    "https://www.gamesindustry.biz/bioware-is-closing-after-30-years",
+    "https://www.ign.com/articles/wow-forever-beta-extended-to-friday-name-reservations-go-live-tuesday",
+    "https://www.gamesindustry.biz/amds-fsr-41-upscaling-is-coming-to-xbox-series-xs",
+    "https://gamerant.com/bioware-shut-down-mass-effect-cancelled-why/"
   ],
   "seen_titles": [
-    "upcoming new disney and pixar movies: 2026 release dates and beyond",
-    "square enix confirms ffxiv switch 2 release date and extra subscription",
-    "the release date for path of exile 2's next expansion couldn't be better for action rpg fans planning to play diablo 4: lord of hatred first",
-    "final fantasy 14 reveals massive gameplay changes in evercold",
     "the mummy 4 moved up to 2027 as miami vice '85 is pushed to 2028",
     "cursemark launches in early access on june 8",
     "twin-stick action game neo titan announced for pc",
@@ -10001,13 +9997,13 @@
     "rockstar officially details gta 6 combat and gameplay feature",
     "\"i want room to make a wrong turn\": following samson dev's bankruptcy, its founder is considering how ai might factor into new studio plans",
     "animal crossing: happy room officially announced",
-    "\"ai is a technofascist, anti-human and anti-art project\", says creator of lefty tech satire future? no thanks!, before explaining why he used it anyway"
+    "\"ai is a technofascist, anti-human and anti-art project\", says creator of lefty tech satire future? no thanks!, before explaining why he used it anyway",
+    "bioware is closing after 30 years",
+    "wow forever beta extended to friday, name reservations go live tuesday",
+    "amd's fsr 4.1 upscaling is coming to xbox series x|s",
+    "ea is permanently shutting down bioware, new mass effect game canceled"
   ],
   "seen_story_keys": [
-    "6a68539fff242ef81d8d17d47f79561c9e13e9ab",
-    "050d4da9c487eb850ec0805b343cf483c5efaee3",
-    "b8c5cf2c4863be313637eb499fa0265fbe2866da",
-    "0f991ac8d70e5b136087b379a5a69c6ab603643b",
     "257daa743ed5ee1435955291b0513e88e6662724",
     "e5ecbf8e169e29555f377af956c83369f757d047",
     "9fd28bd93a971037e22e61b5efe3a187b4aaf133",
@@ -15003,6 +14999,10 @@
     "677ad7b82a70af3f1239785cfce9377417d1bba8",
     "12e3d1668b28c7e32cfe48d3b975eed3d66af861",
     "c77df8b1cf0b518fdddc259d12292560fd47f67e",
-    "21ec8f6b5ce79a5b9e90bf66ba7593db2762adab"
+    "21ec8f6b5ce79a5b9e90bf66ba7593db2762adab",
+    "47f8889b1e79a2fd2a5950e5fa97af113c4965a3",
+    "f7bb455e8d2f3b1dafbfde578c715ca2857340ef",
+    "9e57f97321ec2973a01c6e813feed17dd68bf2c9",
+    "b94c736a0abb15b543b6e968527d66e8a2619de8"
   ]
 }
