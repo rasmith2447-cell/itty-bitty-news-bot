@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/atari-has-acquired-retro-emulation-studio-implicit-conversions-which-specialises-in-ps1-ports/",
-    "https://www.pushsquare.com/news/2026/04/ps-plus-retro-games-studio-snapped-up-by-atari",
-    "https://www.gematsu.com/2026/04/exstetra-remaster-announced-for-pc",
-    "https://www.gamesindustry.biz/microsoft-gaming-reverts-to-xbox-branding",
     "https://www.videogameschronicle.com/news/no-old-stay-gold-sega-launches-sega-universe-a-project-designed-to-revive-its-older-ip-beyond-games/",
     "https://www.purexbox.com/news/2026/04/xbox-engineer-hints-at-more-fun-surprises-and-features-based-on-fan-feedback",
     "https://www.nintendolife.com/news/2026/04/square-enix-announces-final-fantasy-xiv-onlines-next-expansion-evercold",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/10/limited-run-announces-hitman-absolution-switch-2-physical-release-heres-a-look",
     "https://www.gematsu.com/2026/10/phantom-blade-zero-launch-trailer-ps5-physical-editions-launch-in-2027",
     "https://www.nintendolife.com/news/2026/10/ea-shuts-down-legendary-rpg-developer-bioware",
-    "https://www.nintendolife.com/news/2026/10/cyberpunk-2077-edgerunners-2-update-2-5-officially-revealed-here-are-the-full-patch-notes"
+    "https://www.nintendolife.com/news/2026/10/cyberpunk-2077-edgerunners-2-update-2-5-officially-revealed-here-are-the-full-patch-notes",
+    "https://www.polygon.com/phantom-blade-zero-physical-release-disc/",
+    "https://gamerant.com/ps5-console-system-update-patch-notes-today/",
+    "https://www.rockpapershotgun.com/development-on-the-next-mass-effect-is-ending-ea-is-shutting-down-rpg-veteran-bioware-to-align-talent-and-investments-where-we-see-the-greatest-opportunities-for-players-and-long-term-growth",
+    "https://www.ign.com/articles/we-were-working-on-a-great-game-former-mass-effect-5-writers-speak-out-after-ea-shuts-down-bioware"
   ],
   "seen_titles": [
-    "atari has acquired retro emulation studio implicit conversions, which specialises in ps1 ports",
-    "ps plus retro games studio snapped up by atari",
-    "exstetra remaster announced for pc",
-    "microsoft gaming reverts to xbox branding as part of new mission statement",
     "‘no old, stay gold’: sega launches sega universe, a project designed to revive its older ip beyond games",
     "xbox engineer hints at more 'fun surprises' and features based on fan feedback",
     "square enix announces final fantasy xiv online's next expansion 'evercold'",
@@ -10001,13 +9997,13 @@
     "limited run announces hitman: absolution switch 2 physical release, here's a look",
     "phantom blade zero launch trailer, ps5 physical editions launch in 2027",
     "ea shuts down legendary rpg developer bioware",
-    "cyberpunk 2077: edgerunners 2 update (2.5) officially revealed, here are the full patch notes"
+    "cyberpunk 2077: edgerunners 2 update (2.5) officially revealed, here are the full patch notes",
+    "phantom blade zero will get a physical release, but there's a catch",
+    "brand-new ps5 console update is live now",
+    "ea is shutting down rpg veteran bioware \"to align talent and investments where we see the greatest opportunities for players and long-term growth\"",
+    "'we were working on a great game' — former mass effect 5 writers speak out after ea shuts down bioware"
   ],
   "seen_story_keys": [
-    "16bc1e0da3af33515c3a57004a7dc10c590e1731",
-    "b301ea682a2a70645879a255401700ec1d52aedd",
-    "5315385c9b2f7285a3ad3bbc5be53a5bf3a576e5",
-    "363809f19c301be5e10cf725e4b2df13f530a503",
     "fc4949df71109c38f608c96a1ce775c626eb3859",
     "2ac678eb97dbf990fd429381688a86a7f66ac96c",
     "8f70aec142c16bcdf5f2b3e2ba11ba64cbc39762",
@@ -15003,6 +14999,10 @@
     "6045fa634ad5d4a8734654ca8a0a98fbf0d8bee6",
     "f3e6415633a55b7fc4a49000ee5110baf2985853",
     "f964a93c187241c34fa00944f560cff637706d36",
-    "b5a78cab45b2f0eeceacbbd7bf249d848dc9bdd1"
+    "b5a78cab45b2f0eeceacbbd7bf249d848dc9bdd1",
+    "14de47868b0ad37d4a33e1ce7c2cbb2c5968eeac",
+    "8660e25b613ed7f3dc94ab57135bffb6f8d2d479",
+    "41a9eb94837afb932a83e7caa1d689f9ad88faf0",
+    "4d77126b470a777b5f0a129489828497fd977b72"
   ]
 }
