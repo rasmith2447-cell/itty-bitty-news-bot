@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/no-mortal-space-demo-launches-july-8",
-    "https://www.gematsu.com/2026/04/dodo-duckie-launches-july-23",
-    "https://www.gematsu.com/2026/04/mythmon-mythic-monsters-launches-this-summer",
-    "https://www.gematsu.com/2026/04/hyke-northern-lights-a-witchs-chill-time-update-announced",
     "https://www.gematsu.com/2026/04/furyu-announces-roguelike-action-game-crymelight-for-ps5-switch-2-and-pc",
     "https://www.gematsu.com/2026/04/sweet-hamster-days-launches-in-july",
     "https://www.gematsu.com/2026/04/bexide-announces-3d-puzzle-game-touhou-yukkuri-mountain-for-switch-2-switch-and-pc",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/ps5-gran-turismo-controller-pre-orders/",
     "https://www.pcgamer.com/gaming-industry/splash-damage-acquired-this-studio-just-3-months-after-laying-off-a-bunch-of-people-now-its-laying-them-off-too/",
     "https://gamerant.com/shadow-of-the-tomb-raider-switch-2/",
-    "https://www.gematsu.com/2026/10/katana-zero-dlc-still-coming-now-the-size-of-a-full-sequel"
+    "https://www.gematsu.com/2026/10/katana-zero-dlc-still-coming-now-the-size-of-a-full-sequel",
+    "https://www.gamespot.com/articles/why-people-think-valve-just-accidentally-confirmed-half-life-3/",
+    "https://www.gematsu.com/2026/10/order-of-the-sinking-star-physical-edition-launches-in-2027",
+    "https://www.eurogamer.net/cancelled-mass-effect-bioware-unprecedented-levels-of-autonomy",
+    "https://www.rockpapershotgun.com/resident-evil-makers-capcom-reveal-data-breach-has-affected-over-11-million-capcom-id-accounts-warn-against-potential-phishing-emails"
   ],
   "seen_titles": [
-    "no mortal space demo launches july 8",
-    "dodo duckie! launches july 23",
-    "mythmon: mythic monsters launches this summer",
-    "hyke: northern light(s) ‘a witch’s chill time’ update announced",
     "furyu announces roguelike action game crymelight for ps5, switch 2, and pc",
     "sweet hamster days launches in july",
     "bexide announces 3d puzzle game touhou yukkuri mountain for switch 2, switch, and pc",
@@ -10001,13 +9997,13 @@
     "pre-orders for brand-new ps5 controller are live now",
     "splash damage acquired this studio just 3 months after laying off a bunch of people—now it's laying them off, too",
     "tomb raider game shadow dropped for switch 2",
-    "katana zero dlc still coming, now “the size of a full sequel”"
+    "katana zero dlc still coming, now “the size of a full sequel”",
+    "why people think valve just accidentally confirmed half-life 3",
+    "order of the sinking star physical edition launches in 2027",
+    "bioware's cancelled mass effect game would've learned from baldur's gate 3 and the witcher to deliver \"a level of autonomy and choice that no other game has\"",
+    "resident evil makers capcom reveal data breach has affected over 11 million capcom id accounts, warn against potential phishing emails"
   ],
   "seen_story_keys": [
-    "a529154cbcc457cc47f2f15ed7bde0bc830e14e6",
-    "15c7953d19f9b43c75d0b8af259df422339efde0",
-    "3c6eb418e19b73e0dfba714d69db07a25977c275",
-    "a1972221d0ee780f30c347228de210f67fbad9bd",
     "e0df29d1ec10f4dc13679907543f7adedd9a1413",
     "abc39e5ff8c4aa8861862587808ac4a44d0c41a5",
     "762cd75fd441765c3793033bc1da8fb86306a307",
@@ -15003,6 +14999,10 @@
     "c1e27eb7209918cae5af372e115712709786de33",
     "44bad8a08ce93e9a4ed577ee1e13475eb37e573f",
     "a9378f6107c552bda23a89c69c4e62d5f47299b0",
-    "335f100df3600ad9f238eb2785d2eae94857e762"
+    "335f100df3600ad9f238eb2785d2eae94857e762",
+    "ef51fec8fdb9c749b770f14ac5324c0d1484be01",
+    "190331cddab986f7926f6bf3ebe2f0910580dae6",
+    "c7e59d82a0d3f9a393e30e3440b2808814b3ae49",
+    "0beac1f3608d0a8962f19657745a8265fb16703c"
   ]
 }
