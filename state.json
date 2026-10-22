@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/04/expedition-33-celebrates-one-year-anniversary-with-small-update-on-xbox-and-beyond",
-    "https://www.gematsu.com/2026/04/zenless-zone-zero-version-2-8-update-new-eridan-sunset-launches-may-6-steam-version-coming-soon",
-    "https://www.gematsu.com/2026/04/genshin-impacts-next-major-region-snezhnaya-launches-august-12",
-    "https://www.rockpapershotgun.com/a-wordless-world-that-speaks-lofsong-is-like-a-playdead-game-set-in-a-brutalist-nuclear-exclusion-zone",
     "https://www.videogameschronicle.com/news/atari-has-acquired-retro-emulation-studio-implicit-conversions-which-specialises-in-ps1-ports/",
     "https://www.pushsquare.com/news/2026/04/ps-plus-retro-games-studio-snapped-up-by-atari",
     "https://www.gematsu.com/2026/04/exstetra-remaster-announced-for-pc",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/former-bioware-executive-producer-mark-darrah-says-ea-might-be-more-likely-to-sell-ips-like-mass-effect-and-dragon-age-after-studios-closure",
     "https://www.ign.com/articles/star-wars-the-old-republic-fans-pay-their-respects-to-bioware",
     "https://www.purexbox.com/news/2026/10/mass-effect-5-cancelled-as-legendary-developer-bioware-closes-down",
-    "https://www.pushsquare.com/news/2026/10/ea-shutting-down-rpg-dev-bioware-next-mass-effect-game-cancelled"
+    "https://www.pushsquare.com/news/2026/10/ea-shutting-down-rpg-dev-bioware-next-mass-effect-game-cancelled",
+    "https://www.nintendolife.com/news/2026/10/limited-run-announces-hitman-absolution-switch-2-physical-release-heres-a-look",
+    "https://www.gematsu.com/2026/10/phantom-blade-zero-launch-trailer-ps5-physical-editions-launch-in-2027",
+    "https://www.nintendolife.com/news/2026/10/ea-shuts-down-legendary-rpg-developer-bioware",
+    "https://www.nintendolife.com/news/2026/10/cyberpunk-2077-edgerunners-2-update-2-5-officially-revealed-here-are-the-full-patch-notes"
   ],
   "seen_titles": [
-    "expedition 33 celebrates one-year anniversary with small update on xbox & beyond",
-    "zenless zone zero version 2.8 update ‘new: eridan sunset’ launches may 6; steam version coming soon",
-    "genshin impact’s next major region snezhnaya launches august 12",
-    "\"a wordless world that speaks\": lofsöng is like a playdead game set in a brutalist nuclear exclusion zone",
     "atari has acquired retro emulation studio implicit conversions, which specialises in ps1 ports",
     "ps plus retro games studio snapped up by atari",
     "exstetra remaster announced for pc",
@@ -10001,13 +9997,13 @@
     "former bioware executive producer mark darrah says ea might be 'more likely' to sell ips like mass effect and dragon age after studio’s closure",
     "star wars: the old republic fans pay their respects to bioware",
     "mass effect 5 cancelled as legendary developer bioware closes down",
-    "ea shutting down rpg dev bioware, next mass effect game cancelled"
+    "ea shutting down rpg dev bioware, next mass effect game cancelled",
+    "limited run announces hitman: absolution switch 2 physical release, here's a look",
+    "phantom blade zero launch trailer, ps5 physical editions launch in 2027",
+    "ea shuts down legendary rpg developer bioware",
+    "cyberpunk 2077: edgerunners 2 update (2.5) officially revealed, here are the full patch notes"
   ],
   "seen_story_keys": [
-    "8ad14eeb6e1f6a9f5bdde291e95b5c438cd76261",
-    "6e92210549eddb6d50afe0c7eb0fe4439b74d2ea",
-    "6cc4d6f013c801b930aa8242f26e0fbcf2373f0f",
-    "34b07ffea90f7c0539596faeffd964a7e1f172d7",
     "16bc1e0da3af33515c3a57004a7dc10c590e1731",
     "b301ea682a2a70645879a255401700ec1d52aedd",
     "5315385c9b2f7285a3ad3bbc5be53a5bf3a576e5",
@@ -15003,6 +14999,10 @@
     "587ddd9d519541539e9f698077772914b1557018",
     "527671161ba15cf36c01587c44a6c5ed900016d7",
     "af7b22654966243f38648e73951396f5c3f5b335",
-    "8778c8d079e8c31c5f7549c07fe112539117f98f"
+    "8778c8d079e8c31c5f7549c07fe112539117f98f",
+    "6045fa634ad5d4a8734654ca8a0a98fbf0d8bee6",
+    "f3e6415633a55b7fc4a49000ee5110baf2985853",
+    "f964a93c187241c34fa00944f560cff637706d36",
+    "b5a78cab45b2f0eeceacbbd7bf249d848dc9bdd1"
   ]
 }
