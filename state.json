@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-25th-april",
-    "https://gamerant.com/final-fantasy-14-ffxiv-evercold-expansion/",
-    "https://www.gematsu.com/2026/04/2d-metroidvania-platformer-moonbrella-announced-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc",
-    "https://www.gematsu.com/2026/04/stardust-wish-of-witch-launches-may-28",
     "https://www.gematsu.com/2026/04/no-mortal-space-demo-launches-july-8",
     "https://www.gematsu.com/2026/04/dodo-duckie-launches-july-23",
     "https://www.gematsu.com/2026/04/mythmon-mythic-monsters-launches-this-summer",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/gaming-industry/game-industry-legend-warren-spector-blows-up-over-biowares-closure-its-utter-bulls-t/",
     "https://gamerant.com/xbox-cloud-gaming-pay-as-you-go-pricing/",
     "https://www.eurogamer.net/video-games-down-php-vulnerability",
-    "https://www.gematsu.com/2026/10/luma-island-for-ps5-xbox-series-launches-december-2"
+    "https://www.gematsu.com/2026/10/luma-island-for-ps5-xbox-series-launches-december-2",
+    "https://gamerant.com/ps5-gran-turismo-controller-pre-orders/",
+    "https://www.pcgamer.com/gaming-industry/splash-damage-acquired-this-studio-just-3-months-after-laying-off-a-bunch-of-people-now-its-laying-them-off-too/",
+    "https://gamerant.com/shadow-of-the-tomb-raider-switch-2/",
+    "https://www.gematsu.com/2026/10/katana-zero-dlc-still-coming-now-the-size-of-a-full-sequel"
   ],
   "seen_titles": [
-    "talking point: what are you playing this weekend? (25th april)",
-    "what you need to know about ffxiv's evercold expansion",
-    "2d metroidvania platformer moonbrella announced for ps5, xbox series, ps4, xbox one, switch, and pc",
-    "stardust: wish of witch launches may 28",
     "no mortal space demo launches july 8",
     "dodo duckie! launches july 23",
     "mythmon: mythic monsters launches this summer",
@@ -10001,13 +9997,13 @@
     "game industry legend warren spector blows up over bioware's closure: 'it's utter bulls**t'",
     "xbox reveals a major change coming to cloud gaming",
     "final fantasy 14, umamusume: pretty derby, and more impacted as php vulnerability outages hit games around the globe",
-    "luma island for ps5, xbox series launches december 2"
+    "luma island for ps5, xbox series launches december 2",
+    "pre-orders for brand-new ps5 controller are live now",
+    "splash damage acquired this studio just 3 months after laying off a bunch of people—now it's laying them off, too",
+    "tomb raider game shadow dropped for switch 2",
+    "katana zero dlc still coming, now “the size of a full sequel”"
   ],
   "seen_story_keys": [
-    "649ebca04477f344991e6d78c251eb5b0515d563",
-    "fd86708da5a39013145b24be7255edbe82e575d1",
-    "f54bd224629e174707c39cbf0234840e9cfcc0ec",
-    "8260f18ff26069c69acaed8eb1dc843d8e9d449b",
     "a529154cbcc457cc47f2f15ed7bde0bc830e14e6",
     "15c7953d19f9b43c75d0b8af259df422339efde0",
     "3c6eb418e19b73e0dfba714d69db07a25977c275",
@@ -15003,6 +14999,10 @@
     "f3aa186d63fa3daf8859127650b7d66665bc2e9f",
     "c454d323b2380bfa6fe4da77e59716e91cc09ed9",
     "980fb326f8cb23112d8a75e27a4ea0718edcfa85",
-    "b02872f7ec5194a089bf6d22dfc68be4f6932006"
+    "b02872f7ec5194a089bf6d22dfc68be4f6932006",
+    "c1e27eb7209918cae5af372e115712709786de33",
+    "44bad8a08ce93e9a4ed577ee1e13475eb37e573f",
+    "a9378f6107c552bda23a89c69c4e62d5f47299b0",
+    "335f100df3600ad9f238eb2785d2eae94857e762"
   ]
 }
