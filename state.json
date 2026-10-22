@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/no-old-stay-gold-sega-launches-sega-universe-a-project-designed-to-revive-its-older-ip-beyond-games/",
-    "https://www.purexbox.com/news/2026/04/xbox-engineer-hints-at-more-fun-surprises-and-features-based-on-fan-feedback",
-    "https://www.nintendolife.com/news/2026/04/square-enix-announces-final-fantasy-xiv-onlines-next-expansion-evercold",
-    "https://www.nintendolife.com/news/2026/04/sega-universe-initiative-announced-celebrating-multiple-classics-with-anniversary-projects",
     "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-25th-april",
     "https://gamerant.com/final-fantasy-14-ffxiv-evercold-expansion/",
     "https://www.gematsu.com/2026/04/2d-metroidvania-platformer-moonbrella-announced-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/phantom-blade-zero-physical-release-disc/",
     "https://gamerant.com/ps5-console-system-update-patch-notes-today/",
     "https://www.rockpapershotgun.com/development-on-the-next-mass-effect-is-ending-ea-is-shutting-down-rpg-veteran-bioware-to-align-talent-and-investments-where-we-see-the-greatest-opportunities-for-players-and-long-term-growth",
-    "https://www.ign.com/articles/we-were-working-on-a-great-game-former-mass-effect-5-writers-speak-out-after-ea-shuts-down-bioware"
+    "https://www.ign.com/articles/we-were-working-on-a-great-game-former-mass-effect-5-writers-speak-out-after-ea-shuts-down-bioware",
+    "https://www.pcgamer.com/gaming-industry/game-industry-legend-warren-spector-blows-up-over-biowares-closure-its-utter-bulls-t/",
+    "https://gamerant.com/xbox-cloud-gaming-pay-as-you-go-pricing/",
+    "https://www.eurogamer.net/video-games-down-php-vulnerability",
+    "https://www.gematsu.com/2026/10/luma-island-for-ps5-xbox-series-launches-december-2"
   ],
   "seen_titles": [
-    "‘no old, stay gold’: sega launches sega universe, a project designed to revive its older ip beyond games",
-    "xbox engineer hints at more 'fun surprises' and features based on fan feedback",
-    "square enix announces final fantasy xiv online's next expansion 'evercold'",
-    "'sega universe' initiative announced, celebrating multiple classics with anniversary projects",
     "talking point: what are you playing this weekend? (25th april)",
     "what you need to know about ffxiv's evercold expansion",
     "2d metroidvania platformer moonbrella announced for ps5, xbox series, ps4, xbox one, switch, and pc",
@@ -10001,13 +9997,13 @@
     "phantom blade zero will get a physical release, but there's a catch",
     "brand-new ps5 console update is live now",
     "ea is shutting down rpg veteran bioware \"to align talent and investments where we see the greatest opportunities for players and long-term growth\"",
-    "'we were working on a great game' — former mass effect 5 writers speak out after ea shuts down bioware"
+    "'we were working on a great game' — former mass effect 5 writers speak out after ea shuts down bioware",
+    "game industry legend warren spector blows up over bioware's closure: 'it's utter bulls**t'",
+    "xbox reveals a major change coming to cloud gaming",
+    "final fantasy 14, umamusume: pretty derby, and more impacted as php vulnerability outages hit games around the globe",
+    "luma island for ps5, xbox series launches december 2"
   ],
   "seen_story_keys": [
-    "fc4949df71109c38f608c96a1ce775c626eb3859",
-    "2ac678eb97dbf990fd429381688a86a7f66ac96c",
-    "8f70aec142c16bcdf5f2b3e2ba11ba64cbc39762",
-    "78f8df59d5ce34559dfb204371b24d2e3753720a",
     "649ebca04477f344991e6d78c251eb5b0515d563",
     "fd86708da5a39013145b24be7255edbe82e575d1",
     "f54bd224629e174707c39cbf0234840e9cfcc0ec",
@@ -15003,6 +14999,10 @@
     "14de47868b0ad37d4a33e1ce7c2cbb2c5968eeac",
     "8660e25b613ed7f3dc94ab57135bffb6f8d2d479",
     "41a9eb94837afb932a83e7caa1d689f9ad88faf0",
-    "4d77126b470a777b5f0a129489828497fd977b72"
+    "4d77126b470a777b5f0a129489828497fd977b72",
+    "f3aa186d63fa3daf8859127650b7d66665bc2e9f",
+    "c454d323b2380bfa6fe4da77e59716e91cc09ed9",
+    "980fb326f8cb23112d8a75e27a4ea0718edcfa85",
+    "b02872f7ec5194a089bf6d22dfc68be4f6932006"
   ]
 }
