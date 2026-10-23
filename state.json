@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/furyu-announces-roguelike-action-game-crymelight-for-ps5-switch-2-and-pc",
-    "https://www.gematsu.com/2026/04/sweet-hamster-days-launches-in-july",
-    "https://www.gematsu.com/2026/04/bexide-announces-3d-puzzle-game-touhou-yukkuri-mountain-for-switch-2-switch-and-pc",
-    "https://www.gematsu.com/2026/04/magical-princess-launches-april-28",
     "https://www.gematsu.com/2026/04/45-parabellum-bloodhound-launches-around-summer",
     "https://www.gematsu.com/2026/04/alliance-arts-and-who-you-announce-yandere-demon-russian-roulette-game-drunken-goddess-reflux-for-pc",
     "https://www.gematsu.com/2026/04/neo-classic-digital-gamebook-rpg-veritas-tales-witch-of-the-dark-castle-announced-for-pc",
@@ -4999,13 +4995,13 @@
     "https://www.gamespot.com/articles/why-people-think-valve-just-accidentally-confirmed-half-life-3/",
     "https://www.gematsu.com/2026/10/order-of-the-sinking-star-physical-edition-launches-in-2027",
     "https://www.eurogamer.net/cancelled-mass-effect-bioware-unprecedented-levels-of-autonomy",
-    "https://www.rockpapershotgun.com/resident-evil-makers-capcom-reveal-data-breach-has-affected-over-11-million-capcom-id-accounts-warn-against-potential-phishing-emails"
+    "https://www.rockpapershotgun.com/resident-evil-makers-capcom-reveal-data-breach-has-affected-over-11-million-capcom-id-accounts-warn-against-potential-phishing-emails",
+    "https://www.ign.com/articles/cyberpunk-2-associate-director-says-half-of-games-quest-team-are-former-modders",
+    "https://www.eurogamer.net/ea-cuts-massive-ripple-effect-motive-full-circle-respawn",
+    "https://www.pushsquare.com/news/2026/10/cyberpunk-2077-has-over-50-mods-on-ps5-including-new-quests-improved-romance-cut-content-and-more",
+    "https://www.purexbox.com/news/2026/10/xbox-mandates-four-day-office-work-for-certain-employees-said-to-affect-thousands"
   ],
   "seen_titles": [
-    "furyu announces roguelike action game crymelight for ps5, switch 2, and pc",
-    "sweet hamster days launches in july",
-    "bexide announces 3d puzzle game touhou yukkuri mountain for switch 2, switch, and pc",
-    "magical princess launches april 28",
     ".45 parabellum bloodhound launches “around summer”",
     "alliance arts and who you announce yandere demon russian roulette game drunken goddess reflux for pc",
     "neo-classic digital gamebook rpg veritas tales: witch of the dark castle announced for pc",
@@ -10001,13 +9997,13 @@
     "why people think valve just accidentally confirmed half-life 3",
     "order of the sinking star physical edition launches in 2027",
     "bioware's cancelled mass effect game would've learned from baldur's gate 3 and the witcher to deliver \"a level of autonomy and choice that no other game has\"",
-    "resident evil makers capcom reveal data breach has affected over 11 million capcom id accounts, warn against potential phishing emails"
+    "resident evil makers capcom reveal data breach has affected over 11 million capcom id accounts, warn against potential phishing emails",
+    "cyberpunk 2 associate director says half of game's quest team are former modders",
+    "following shock bioware closure, scope of ea job cuts becomes clear as layoffs hit respawn, maxis, full circle, ea motive, and more",
+    "cyberpunk 2077 has over 50 mods on ps5, including new quests, improved romance, cut content, and more",
+    "xbox mandates four-day office work for certain employees, said to affect 'thousands'"
   ],
   "seen_story_keys": [
-    "e0df29d1ec10f4dc13679907543f7adedd9a1413",
-    "abc39e5ff8c4aa8861862587808ac4a44d0c41a5",
-    "762cd75fd441765c3793033bc1da8fb86306a307",
-    "ad156cfb324a1a4f6e428f5d5560e965eda1144a",
     "e6bd5c0415bc8bdd530c1fcd63d9117b9cd27ea7",
     "0b1cf995273668478c3478dd71813a2c25c524f7",
     "30b40b63c7d77ddacbfda56b1f595e0716009f27",
@@ -15003,6 +14999,10 @@
     "ef51fec8fdb9c749b770f14ac5324c0d1484be01",
     "190331cddab986f7926f6bf3ebe2f0910580dae6",
     "c7e59d82a0d3f9a393e30e3440b2808814b3ae49",
-    "0beac1f3608d0a8962f19657745a8265fb16703c"
+    "0beac1f3608d0a8962f19657745a8265fb16703c",
+    "b68940c6996092bac6e652bbea3ae6c4fb016c20",
+    "80415d86df3d947022cfc82ee70758bec77ffc69",
+    "24fe5d5e24b8907453d043e355c5d2ecf71d6abf",
+    "bed2738c9b3a6709892e7025dc7a88cf89f7b1a8"
   ]
 }
