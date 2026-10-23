@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/features/talking-point-do-you-still-get-excited-about-remakes-on-xbox-in-2026",
-    "https://www.gematsu.com/2026/04/the-awakener-battle-tendency-launches-may-5",
-    "https://www.gematsu.com/2026/04/better-than-dead-launches-in-early-access-on-may-12",
-    "https://www.videogameschronicle.com/news/final-fantasy-xiv-online-is-coming-to-switch-2-as-new-expansion-evercold-revealed/",
     "https://gamerant.com/xbox-game-pass-new-games-coming-soon-list-may-2026/",
     "https://gamerant.com/zenless-zone-zero-version-2-8-update/",
     "https://www.pushsquare.com/news/2026/04/ps5-players-craving-assassins-creed-black-flag-resynced-the-best-selling-pre-order-in-the-usa-uk-already",
@@ -4999,13 +4995,13 @@
     "https://www.rockpapershotgun.com/woim-is-the-earth-guzzling-self-bisecting-sokoban-pick-me-up-i-needed-after-a-week-of-games-industry-disasters",
     "https://gamerant.com/david-gaider-dragon-age-bioware-closure/",
     "https://www.pushsquare.com/news/2026/10/ac-black-flag-rescyned-wants-you-to-play-it-again-in-new-game-plus-patch-next-week",
-    "https://www.gematsu.com/2026/10/report-arkane-studios-has-until-november-13-to-find-a-buyer"
+    "https://www.gematsu.com/2026/10/report-arkane-studios-has-until-november-13-to-find-a-buyer",
+    "https://www.ign.com/articles/mass-effect-5-details-revealed-following-cancellation-including-hitman-style-freedom-in-missions",
+    "https://www.ign.com/articles/kpop-demon-hunters-is-getting-yet-another-immersive-gaming-experience-in-early-2027",
+    "https://www.rockpapershotgun.com/future-no-thanks-dev-removes-ai-generated-voices-from-game-and-offers-refunds-to-players-who-feel-betrayed",
+    "https://www.eurogamer.net/mass-effect-battlefield-6-crossover-bioware-closure"
   ],
   "seen_titles": [
-    "talking point: do you still get excited about remakes on xbox in 2026?",
-    "the awakener: battle tendency launches may 5",
-    "better than dead launches in early access on may 12",
-    "final fantasy xiv online is coming to switch 2 as new expansion evercold revealed",
     "xbox game pass already has 9 games confirmed for may 2026",
     "zenless zone zero reveals what's coming in the version 2.8 update",
     "ps5 players craving assassin's creed: black flag resynced, the best-selling pre-order in the usa, uk already",
@@ -10001,13 +9997,13 @@
     "woim is the earth-guzzling, self-bisecting sokoban pick-me-up i needed after a week of games industry disasters",
     "david gaider addresses bioware closure",
     "ac black flag rescyned wants you to play it again in new game plus patch next week",
-    "report: arkane studios has until november 13 to find a buyer"
+    "report: arkane studios has until november 13 to find a buyer",
+    "mass effect 5 details revealed following cancellation, including 'hitman-style freedom' in missions",
+    "kpop demon hunters is getting yet another immersive gaming experience in early 2027",
+    "future? no thanks! dev removes ai-generated voices from game and offers refunds to players who feel \"betrayed\"",
+    "mass effect crossover items have seemingly been removed from battlefield 6 following ea's sudden closure of bioware"
   ],
   "seen_story_keys": [
-    "899e24cdfb3ae7a624e924b11ba3eb49455a257c",
-    "42867299c47d2492f20c117b4006d267e9b0e353",
-    "603fd077ce2b33f5172f741ec914fe1c72a8b084",
-    "2e12edffe44efcb1f83f9975bdd55778ef018ade",
     "487f27cd0cd3a7a7504b6e1c3ec172a09fb8f5ff",
     "48a34877d07e6e3d0b71fab6c6aa95416ff3ca98",
     "8d6874bca84f4add69ca0c047dedeb86253db95c",
@@ -15003,6 +14999,10 @@
     "b7553904f9821afc7c855454e5eeb4e0dc251449",
     "9ad92cc6257dd467906ab7ae5ee320c99dc38071",
     "0b768d255c8912577dc700ec01f8e13bdbeb967a",
-    "666c7baa146d029dda743a502bb599aed2f54aba"
+    "666c7baa146d029dda743a502bb599aed2f54aba",
+    "99e07160f4a7e9cc9c2762384472d9c9a8aaffb7",
+    "bca313f7261f97ef19cfc68bc8a3c6d5c6bd25ed",
+    "03cff5541196077fc94df0d0841edd124348b23e",
+    "e5c71f1f82c53db1ec778ba2d3d43a1122c65e44"
   ]
 }
