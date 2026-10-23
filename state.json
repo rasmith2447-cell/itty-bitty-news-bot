@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/slay-the-spire-2-update-patch-notes-april-2026/",
-    "https://gamerant.com/hades-2-update-patch-notes-april-2026/",
-    "https://www.gematsu.com/2026/04/exorcists-vs-demons-co-op-horror-game-in-us-announced-for-pc",
-    "https://www.gematsu.com/2026/04/omega-phenex-commenced-project-six-open-beta-test-now-available",
     "https://www.purexbox.com/features/talking-point-do-you-still-get-excited-about-remakes-on-xbox-in-2026",
     "https://www.gematsu.com/2026/04/the-awakener-battle-tendency-launches-may-5",
     "https://www.gematsu.com/2026/04/better-than-dead-launches-in-early-access-on-may-12",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/hardware/a-public-outing-of-severe-and-unfixed-linux-kernel-vulnerabilities-should-have-you-thinking-of-updating-your-steamos-or-other-distros-to-beta-branches/",
     "https://www.eurogamer.net/mass-effect-universe-trailer-leak-real",
     "https://gamerant.com/blood-of-dawnwalker-update-today-patch-notes-1-1/",
-    "https://www.pushsquare.com/news/2026/10/reminder-pre-orders-go-live-today-for-gran-turismos-gorgeous-ps5-controller"
+    "https://www.pushsquare.com/news/2026/10/reminder-pre-orders-go-live-today-for-gran-turismos-gorgeous-ps5-controller",
+    "https://www.rockpapershotgun.com/woim-is-the-earth-guzzling-self-bisecting-sokoban-pick-me-up-i-needed-after-a-week-of-games-industry-disasters",
+    "https://gamerant.com/david-gaider-dragon-age-bioware-closure/",
+    "https://www.pushsquare.com/news/2026/10/ac-black-flag-rescyned-wants-you-to-play-it-again-in-new-game-plus-patch-next-week",
+    "https://www.gematsu.com/2026/10/report-arkane-studios-has-until-november-13-to-find-a-buyer"
   ],
   "seen_titles": [
-    "new slay the spire 2 update patch notes revealed",
-    "hades 2 reveals patch notes for next big update",
-    "exorcists vs. demons co-op horror game in us announced for pc",
-    "omega phenex commenced project six open beta test now available",
     "talking point: do you still get excited about remakes on xbox in 2026?",
     "the awakener: battle tendency launches may 5",
     "better than dead launches in early access on may 12",
@@ -10001,13 +9997,13 @@
     "a public outing of severe and unfixed linux kernel vulnerabilities should have you thinking of updating your steamos or other distros to beta branches",
     "flashy internal trailer for now-cancelled mass effect universe appears online, following ea's closure of bioware",
     "13gb blood of dawnwalker update 1.1 is live now",
-    "reminder: pre-orders go live today for gran turismo's gorgeous ps5 controller"
+    "reminder: pre-orders go live today for gran turismo's gorgeous ps5 controller",
+    "woim is the earth-guzzling, self-bisecting sokoban pick-me-up i needed after a week of games industry disasters",
+    "david gaider addresses bioware closure",
+    "ac black flag rescyned wants you to play it again in new game plus patch next week",
+    "report: arkane studios has until november 13 to find a buyer"
   ],
   "seen_story_keys": [
-    "b5cc8cf800c4efc6945184d8babf90e38cdd4408",
-    "8219b3e6c011adff5a3b6a24ca6d8455ab0da1f2",
-    "f039437dd401aee58b079068a03cf38e890a9f3e",
-    "2df2a44caba79832178db467b33c3940ec9cbe58",
     "899e24cdfb3ae7a624e924b11ba3eb49455a257c",
     "42867299c47d2492f20c117b4006d267e9b0e353",
     "603fd077ce2b33f5172f741ec914fe1c72a8b084",
@@ -15003,6 +14999,10 @@
     "1d8c1c28e10d711e1e769e9f017695b4c1ec1848",
     "049d6e1c46138288f590fbb52de402d67bf62e65",
     "67dd2f29bf7bde10f03f1ccf8b976a3a8227c3b9",
-    "8f25e97f10b8bcbd2fbc15198096e1cc62edf216"
+    "8f25e97f10b8bcbd2fbc15198096e1cc62edf216",
+    "b7553904f9821afc7c855454e5eeb4e0dc251449",
+    "9ad92cc6257dd467906ab7ae5ee320c99dc38071",
+    "0b768d255c8912577dc700ec01f8e13bdbeb967a",
+    "666c7baa146d029dda743a502bb599aed2f54aba"
   ]
 }
