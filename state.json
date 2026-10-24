@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/avalanche-studios-new-game/",
-    "https://gamerant.com/dragon-ball-xenoverse-3-brett-goku-descendant/",
     "https://gamerant.com/alien-isolation-2-new-trailer/",
     "https://www.ign.com/articles/assassins-creed-hexe-game-director-benoit-richer-exits-ubisoft-just-months-after-departure-of-previous-creative-director",
     "https://gamerant.com/hell-let-loose-vietnam-beta-errors/",
@@ -4999,11 +4997,11 @@
     "https://www.eurogamer.net/soulslike-valor-mortis-making-profit-seven-days",
     "https://www.eurogamer.net/cyberpunk-2077-update-edgerunners-2-mod-support",
     "https://www.eurogamer.net/xbox-game-pass-list-october-2026",
-    "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-24th-october"
+    "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-24th-october",
+    "https://gamerant.com/xbox-game-pass-day-one-games-2027-tropico-7/",
+    "https://www.rockpapershotgun.com/ive-got-egg-on-my-face-because-steams-personal-calendar-feature-has-apparently-been-a-test-this-whole-time-and-is-only-now-actually-a-fully-fledged-component"
   ],
   "seen_titles": [
-    "just cause dev working on unannounced open world game",
-    "dragon ball xenoverse 3 might feature a new goku descendant",
     "alien: isolation 2 teaser trailer reveals first look at the game",
     "assassin’s creed hexe game director benoit richer exits ubisoft just months after departure of previous creative director",
     "hell let loose: vietnam dev team address beta playtest errors",
@@ -10001,11 +9999,11 @@
     "first-person soulslike valor mortis is already making a profit after seven days, despite launching against some stiff competition",
     "cd projekt red details new cyberpunk 2077 update - adding dual-wielding, cross-platform mods, edgerunners story quests, and more",
     "here's our second wave of xbox game pass games for october 2026",
-    "talking point: what are you playing this weekend? (24th october)"
+    "talking point: what are you playing this weekend? (24th october)",
+    "brand-new day one xbox game pass game confirmed for january 27",
+    "i've got egg on my face because steam's personal calendar feature has apparently been a test this whole time and is only now actually a fully fledged component"
   ],
   "seen_story_keys": [
-    "bde5a948b02540e90d4a2ccf6561d761f8958420",
-    "fcf0a5cf8156ad47a62c71816913b7b4a1a95a70",
     "7b152402b939c90035d5f43505694280363e20c1",
     "311f2f4786ffecf2297320b65c57d2f7907eb9db",
     "1e8c520b2d2b334fbfe7e1773fd9e1c24549eefc",
@@ -15003,6 +15001,8 @@
     "33efa9f886409a7130fd7321f6811e59730b2844",
     "1d641ec323edb265193a1592910d8f0dc5035bde",
     "e65db2eba1ac7e9ae428e23d649299de62009bf3",
-    "6fd460499adff6f085674a0a74710847ed14659f"
+    "6fd460499adff6f085674a0a74710847ed14659f",
+    "bc49cb95362bbddd44c9f373c396c6e91ff32e7d",
+    "813e1416c59df36780ac47166c2c52be5779084d"
   ]
 }
