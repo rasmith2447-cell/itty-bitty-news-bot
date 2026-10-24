@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/hazbin-hotel-confirmed-to-end-with-season-5-before-season-3-even-has-a-release-date",
-    "https://gamerant.com/mina-hollower-gone-gold/",
-    "https://gamerant.com/mission-yozakura-family-season-2-episode-3-release-date-predictions/",
-    "https://www.nintendolife.com/news/2026/04/bandai-namco-reveals-digimon-story-time-stranger-switch-performance-and-resolution",
     "https://www.polygon.com/white-house-correspondents-dinner-shooting-suspect-was-a-game-developer/",
     "https://www.pushsquare.com/news/2026/04/heres-your-very-first-look-at-ps5s-new-alien-isolation-game",
     "https://www.purexbox.com/features/reaction-xbox-is-changing-for-the-better-and-now-microsoft-needs-to-be-consistent",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/fallout-shelter-the-experiment-reality-series-release-date/",
     "https://www.polygon.com/arkane-studios-potential-closure-november-2026-microsoft/",
     "https://www.videogameschronicle.com/news/arkane-has-until-november-to-find-a-buyer-or-face-closure-its-claimed/",
-    "https://www.purexbox.com/news/2026/10/xbox-rpg-exodus-alters-the-appearance-of-its-lead-character-due-to-bad-feedback"
+    "https://www.purexbox.com/news/2026/10/xbox-rpg-exodus-alters-the-appearance-of-its-lead-character-due-to-bad-feedback",
+    "https://www.ign.com/articles/indie-game-dev-takes-down-vibe-coded-zombie-shooter-after-san-francisco-officials-condemn-dehumanizing-game",
+    "https://www.gematsu.com/2026/10/genshin-impact-version-version-7-2-update-hour-of-ruin-launches-november-4",
+    "https://www.rockpapershotgun.com/helldivers-3-only-makes-sense-if-its-so-unlike-helldivers-2-that-both-games-can-exist-side-by-side-says-arrowhead-boss-discussing-their-new-prototype-game",
+    "https://www.gematsu.com/2026/10/troublemaker-3-fallen-dynasty-announced-for-pc"
   ],
   "seen_titles": [
-    "hazbin hotel confirmed to end with season 5 before season 3 even has a release date",
-    "mina the hollower has officially gone gold",
-    "mission: yozakura family season 2 episode 3 key predictions",
-    "bandai namco reveals digimon story time stranger switch performance and resolution",
     "trump dinner shooting suspect was a game developer, steam page reveals",
     "here's your very first look at ps5's new alien: isolation game",
     "reaction: xbox is changing for the better, and now microsoft needs to be consistent",
@@ -10001,13 +9997,13 @@
     "prime video's new fallout tv series sets 2027 release date",
     "beloved game studio’s fate looks grim after xbox abandons it",
     "arkane has until november to find a buyer or face closure, it’s claimed",
-    "xbox rpg 'exodus' alters the appearance of its lead character due to bad feedback"
+    "xbox rpg 'exodus' alters the appearance of its lead character due to bad feedback",
+    "indie game dev takes down vibe-coded zombie shooter after san francisco officials condemn 'dehumanizing' game",
+    "genshin impact version version 7.2 update ‘hour of ruin’ launches november 4",
+    "helldivers 3 \"only makes sense\" if it’s so unlike helldivers 2 \"that both games can exist side by side\", says arrowhead boss, discussing their new prototype game",
+    "troublemaker 3: fallen dynasty announced for pc"
   ],
   "seen_story_keys": [
-    "3a33ae2741988ca9a14c1ef6ba757e3ab328927e",
-    "1c267823298c68cbe5bfdd6524956fdc5317a796",
-    "42afd2ef9c2f6ee6fd2e36889fa5e548194644a6",
-    "923122156f2ad90af8b7de4752c1baca7de8d608",
     "6e2ebca6f002c006df6a80aa552da13c9a03a2e5",
     "c59394bc76374ee7c32165b83d94998db3b346c6",
     "fae1b5958f38e01f5176972e94529cc4fc813fd3",
@@ -15003,6 +14999,10 @@
     "a3999d7ba0538d7b2d6b69d9bc1371cc6e730ffc",
     "3ce1ccee26958c68abef7e781adec45e13c449ac",
     "44152b3f56841b5fd2d07fdbb780862b253b3031",
-    "aba030a4fef066a7ab9e72ccc86a456376272cfb"
+    "aba030a4fef066a7ab9e72ccc86a456376272cfb",
+    "ae45f2cf3897d2dba8de4573c372e590d3411d97",
+    "343442431c502b4b07487b2fb6c2413226966a43",
+    "ad6f21f7eada21dc3caaf0b30e876f319348fdc9",
+    "0bae91125297b3a8af717094aea96202f2abc176"
   ]
 }
