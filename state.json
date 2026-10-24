@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/white-house-correspondents-dinner-shooting-suspect-was-a-game-developer/",
-    "https://www.pushsquare.com/news/2026/04/heres-your-very-first-look-at-ps5s-new-alien-isolation-game",
-    "https://www.purexbox.com/features/reaction-xbox-is-changing-for-the-better-and-now-microsoft-needs-to-be-consistent",
-    "https://www.pushsquare.com/news/2026/04/this-ps5-roguelike-turns-alice-in-wonderland-into-a-gritty-poker-action-game",
     "https://gamerant.com/crimson-desert-how-where-get-golden-beer/",
     "https://gamerant.com/avalanche-studios-new-game/",
     "https://gamerant.com/dragon-ball-xenoverse-3-brett-goku-descendant/",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/indie-game-dev-takes-down-vibe-coded-zombie-shooter-after-san-francisco-officials-condemn-dehumanizing-game",
     "https://www.gematsu.com/2026/10/genshin-impact-version-version-7-2-update-hour-of-ruin-launches-november-4",
     "https://www.rockpapershotgun.com/helldivers-3-only-makes-sense-if-its-so-unlike-helldivers-2-that-both-games-can-exist-side-by-side-says-arrowhead-boss-discussing-their-new-prototype-game",
-    "https://www.gematsu.com/2026/10/troublemaker-3-fallen-dynasty-announced-for-pc"
+    "https://www.gematsu.com/2026/10/troublemaker-3-fallen-dynasty-announced-for-pc",
+    "https://www.purexbox.com/news/2026/10/10plus-xbox-games-are-out-today-including-a-new-pixel-art-jrpg-banger-october-22",
+    "https://www.eurogamer.net/soulslike-valor-mortis-making-profit-seven-days",
+    "https://www.eurogamer.net/cyberpunk-2077-update-edgerunners-2-mod-support",
+    "https://www.eurogamer.net/xbox-game-pass-list-october-2026"
   ],
   "seen_titles": [
-    "trump dinner shooting suspect was a game developer, steam page reveals",
-    "here's your very first look at ps5's new alien: isolation game",
-    "reaction: xbox is changing for the better, and now microsoft needs to be consistent",
-    "this ps5 roguelike turns alice in wonderland into a gritty poker action game",
     "crimson desert golden beer reward location",
     "just cause dev working on unannounced open world game",
     "dragon ball xenoverse 3 might feature a new goku descendant",
@@ -10001,13 +9997,13 @@
     "indie game dev takes down vibe-coded zombie shooter after san francisco officials condemn 'dehumanizing' game",
     "genshin impact version version 7.2 update ‘hour of ruin’ launches november 4",
     "helldivers 3 \"only makes sense\" if it’s so unlike helldivers 2 \"that both games can exist side by side\", says arrowhead boss, discussing their new prototype game",
-    "troublemaker 3: fallen dynasty announced for pc"
+    "troublemaker 3: fallen dynasty announced for pc",
+    "10+ xbox games are out today, including a new pixel-art jrpg banger (october 22)",
+    "first-person soulslike valor mortis is already making a profit after seven days, despite launching against some stiff competition",
+    "cd projekt red details new cyberpunk 2077 update - adding dual-wielding, cross-platform mods, edgerunners story quests, and more",
+    "here's our second wave of xbox game pass games for october 2026"
   ],
   "seen_story_keys": [
-    "6e2ebca6f002c006df6a80aa552da13c9a03a2e5",
-    "c59394bc76374ee7c32165b83d94998db3b346c6",
-    "fae1b5958f38e01f5176972e94529cc4fc813fd3",
-    "7bc145ea4d0fa4f9366f4e84691be4db1220c126",
     "a91f6922ab56d26d03aeeb63dd6fa627cbe6e3a9",
     "bde5a948b02540e90d4a2ccf6561d761f8958420",
     "fcf0a5cf8156ad47a62c71816913b7b4a1a95a70",
@@ -15003,6 +14999,10 @@
     "ae45f2cf3897d2dba8de4573c372e590d3411d97",
     "343442431c502b4b07487b2fb6c2413226966a43",
     "ad6f21f7eada21dc3caaf0b30e876f319348fdc9",
-    "0bae91125297b3a8af717094aea96202f2abc176"
+    "0bae91125297b3a8af717094aea96202f2abc176",
+    "028953ba6d9ec8a83963e0f469b6bf48218656bc",
+    "33efa9f886409a7130fd7321f6811e59730b2844",
+    "1d641ec323edb265193a1592910d8f0dc5035bde",
+    "e65db2eba1ac7e9ae428e23d649299de62009bf3"
   ]
 }
