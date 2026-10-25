@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/crimson-desert-max-trust-store-unlocks-update/",
-    "https://www.pushsquare.com/news/2026/04/these-6plus-ps5-ps4-games-will-be-delisted-in-may-and-june",
     "https://gamerant.com/assassins-creed-black-flag-resynced-combat-blood-dev-comment/",
     "https://gamerant.com/neverness-to-everness-nte-release-date-time-countdown-when-come-coming-out/",
     "https://www.gematsu.com/2026/04/river-city-saga-journey-to-the-west-launches-june-4",
@@ -4999,11 +4997,11 @@
     "https://www.rockpapershotgun.com/ive-got-egg-on-my-face-because-steams-personal-calendar-feature-has-apparently-been-a-test-this-whole-time-and-is-only-now-actually-a-fully-fledged-component",
     "https://gamerant.com/warrior-cats-clans-of-the-forest-multiplayer-game/",
     "https://www.polygon.com/nintendo-super-mario-japan-award-biggest-series-innovation/",
-    "https://www.polygon.com/the-legend-of-california-delay/"
+    "https://www.polygon.com/the-legend-of-california-delay/",
+    "https://www.pushsquare.com/news/2026/10/shenmue-3-revival-postponed-as-ps5-re-release-is-delayed-to-early-2027",
+    "https://gamerant.com/snes-new-games-eternal-hunters-branford-legacy/"
   ],
   "seen_titles": [
-    "latest crimson desert update made important quality-of-life change not mentioned in the patch notes",
-    "these 6+ ps5, ps4 games will be delisted in may and june",
     "assassin’s creed producer addresses fan concerns about lack of blood in black flag resynced reveal",
     "nte release date, time, and countdown (neverness to everness)",
     "river city saga: journey to the west launches june 4",
@@ -10001,11 +9999,11 @@
     "i've got egg on my face because steam's personal calendar feature has apparently been a test this whole time and is only now actually a fully fledged component",
     "new multiplayer warrior cats game is out now",
     "nintendo legend reveals super mario bros.' most surprising innovation",
-    "overwatch co-creator pushes the legend of california's early access release to 2027"
+    "overwatch co-creator pushes the legend of california's early access release to 2027",
+    "shenmue 3 revival postponed, as ps5 re-release is delayed to early 2027",
+    "brand-new snes rpg with co-op play officially announced"
   ],
   "seen_story_keys": [
-    "70a5cde9e5af8abc0a8b9f5c530394bc3f7ccb96",
-    "37079b22cda4f57845409146367d6692d2c2d0be",
     "737aa1cb954576bcfa2aa30623df0a379d248743",
     "761885f424470f1ea362751ee351d2ca0b364932",
     "41a206961c8d275c7911987b9add4b8588216f59",
@@ -15003,6 +15001,8 @@
     "813e1416c59df36780ac47166c2c52be5779084d",
     "654d80b58f1cd1c27758c3f783260eed6a6b2501",
     "d1fc0ab2d27afd0821e8af65148aed9eea207d01",
-    "9fc28b2a2082484e79c7ccdd223a1681244e00bc"
+    "9fc28b2a2082484e79c7ccdd223a1681244e00bc",
+    "2b1da8a929bc9b17dc1299fb34f4151033b4adeb",
+    "4e54bd1179dc5a4f53a8391e4a1467974dae556c"
   ]
 }
