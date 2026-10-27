@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/04/the-mario-galaxy-movies-digital-release-date-might-be-sooner-than-we-expected",
-    "https://www.gamesindustry.biz/call-of-duty-was-never-the-right-fit-for-game-pass-opinion",
-    "https://www.gematsu.com/2026/04/battlestar-galactica-scattered-hopes-launches-may-11",
-    "https://www.pushsquare.com/news/2026/04/the-hollow-knight-inspiration-is-blatant-in-promising-ps5-metroidvania-karma-exorcist",
     "https://www.eurogamer.net/mass-effect-andromeda-actor-reflects-on-poor-reception",
     "https://www.eurogamer.net/better-than-dead-release-date",
     "https://www.gematsu.com/2026/04/sonic-racing-crossworlds-captain-majima-content-drop-update-launches-april-29",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/emberville-release-date-delay-steam-games-like-stardew-valley-diablo-rpg/",
     "https://www.pcgamer.com/games/rpg/one-day-before-launch-arpg-emberville-gets-delayed-until-2027/",
     "https://www.ign.com/articles/composer-austin-wintory-shares-22-minutes-of-music-created-for-biowares-canceled-mass-effect-5",
-    "https://www.polygon.com/emberville-early-access-launch-delay/"
+    "https://www.polygon.com/emberville-early-access-launch-delay/",
+    "https://www.nintendolife.com/news/2026/10/zelda-ocarina-of-time-midnight-launches-announced-for-nintendo-new-york-and-san-francisco-stores",
+    "https://www.pcgamer.com/software/platforms/the-50-most-played-steam-next-fest-demos-include-7-incremental-games-4-ai-disclosures-and-only-one-instance-of-haystack-slop/",
+    "https://www.ign.com/articles/assassins-creed-black-flag-resynced-final-major-content-update-coming-this-week",
+    "https://www.rockpapershotgun.com/steams-ai-disclosures-are-akin-to-forcing-developers-to-list-their-voting-history-says-man-who-must-hate-seeing-eggs-virtue-signal-that-theyre-free-range"
   ],
   "seen_titles": [
-    "the mario galaxy movie's digital release date might be sooner than we expected",
-    "call of duty was never the right fit for game pass | opinion",
-    "battlestar galactica: scattered hopes launches may 11",
-    "the hollow knight inspiration is blatant in promising ps5 metroidvania karma exorcist",
     "mass effect: andromeda actor says the game \"was done dirty\" by ea and \"a very toxic atmosphere\" online",
     "hong kong-set ‘bodycam fps’ better than dead gets a release date",
     "sonic racing: crossworlds ‘captain majima content drop’ update launches april 29",
@@ -10001,13 +9997,13 @@
     "steam's biggest stardew valley-like rpg was just delayed to 2027, and it hurts",
     "one day before launch, arpg emberville gets delayed until 2027",
     "composer austin wintory shares 22 minutes of music created for bioware's canceled mass effect 5",
-    "stardew valley-inspired rpg gets shock last-minute delay"
+    "stardew valley-inspired rpg gets shock last-minute delay",
+    "zelda: ocarina of time midnight launches announced for nintendo new york and san francisco stores",
+    "the 50 most-played steam next fest demos include 7 incremental games, 4 ai disclosures, and only one instance of haystack slop",
+    "assassin's creed black flag resynced final major content update coming this week",
+    "steam's ai disclosures are akin to \"forcing developers to list their voting history\", says man who must hate seeing eggs virtue signal that they're free-range"
   ],
   "seen_story_keys": [
-    "433881b5204acddfae3fa0ecfaa296f31cee5221",
-    "1e4d3b17c1eae978bcc8052297cd35023247aef5",
-    "d57312ec22cf0296226664c42ba8f84c91873b6b",
-    "c6851295a05cfdb2af94f02e211432de8db110a7",
     "d7e6e285ed58642276c69e29defd5cfd51c36382",
     "b5f4d357fcb19a29c3dcaae619f9ebe4e547614a",
     "a86ff4b71bce13c6477b569e00760dd0d5a9524f",
@@ -15003,6 +14999,10 @@
     "5b20da755a386dd4ab347597b3ad03c5a39e6c45",
     "14deebfa87eacb18055ed64d7eba8212fddc025f",
     "c1db307a0adfac2240926ff084785e3097682079",
-    "f56fe192950f50476d0eb19faafc02ac7b3ff4b5"
+    "f56fe192950f50476d0eb19faafc02ac7b3ff4b5",
+    "3a004cbb30df834d34a9b85487546cdefbea53b6",
+    "d6121f921247efae152b5f25647688dc9bd1db4c",
+    "72468c138f8b6c4b3150b7434890b53c1387de9c",
+    "f7a0298c328cdb7b73b55e647a725ae72f0fcea3"
   ]
 }
