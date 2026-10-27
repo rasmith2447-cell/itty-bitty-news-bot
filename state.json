@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/rugrats-retro-rewind-collection-announced-for-ps5-switch",
-    "https://www.pcgamer.com/hardware/game-pads/valve-is-bullish-on-global-steam-controller-availability-we-have-knobs-we-can-turn-to-try-to-get-things-to-people-faster/",
-    "https://gamerant.com/expanse-osiris-reborn-characters-companions-combat-good/",
-    "https://www.gamespot.com/articles/resident-evil-leon-is-in-fact-named-after-a-1994-french-action-film/1100-6539647/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/last-flag-the-third-person-shooter-from-imagine-dragons-singer-goes-free-every-weekend-for-now/1100-6539645/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/diablo-4s-long-searched-for-cow-level-could-finally-be-real-in-lord-of-hatred/1100-6539641/?ftag=CAD-01-10abi2f",
     "https://gamerant.com/steam-controller-price-release-date-specs/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/mass-effect-5-cancelled-ubisoft-game-beyond-good-evil-2/",
     "https://gamerant.com/gta-san-andreas-destruction-mod/",
     "https://gamerant.com/castlevania-belmonts-curse-pc-black-screen-issue-patch-fix/",
-    "https://www.rockpapershotgun.com/uk-based-rockstar-devs-will-be-putting-their-union-recognition-to-a-vote-during-gta-6s-launch-next-month"
+    "https://www.rockpapershotgun.com/uk-based-rockstar-devs-will-be-putting-their-union-recognition-to-a-vote-during-gta-6s-launch-next-month",
+    "https://gamerant.com/cyberpunk-2077-update-today-patch-notes/",
+    "https://www.ign.com/articles/physical-books-but-not-physical-games-playstation-book-announcement-prompts-confusion-over-sonys-physical-media-stance",
+    "https://www.videogameschronicle.com/news/pocketpair-would-love-to-have-conversations-to-bring-palworld-to-switch-2-ceo-says/",
+    "https://www.gamespot.com/videos/world-of-warcraft-forever-warpath-amv-launch-trailer/"
   ],
   "seen_titles": [
-    "rugrats: retro rewind collection announced for ps5, switch",
-    "valve is bullish on global steam controller availability: 'we have knobs we can turn to try to get things to people faster'",
-    "the expanse: osiris reborn's greatest strength already outdoes its biggest weakness",
-    "resident evil's leon is, in fact, named after a 1994 french action film",
     "last flag, the third-person shooter from imagine dragons singer, goes free every weekend for now",
     "diablo 4's long-searched-for cow level could finally be real in lord of hatred",
     "steam controller price, release date, and specs officially revealed",
@@ -10001,13 +9997,13 @@
     "mass effect's cancellation is a massive red flag for one ubisoft game",
     "new gta san andreas release is a game-changer",
     "castlevania: belmont's curse's latest patch leaves a major pc issue unsolved",
-    "uk-based rockstar devs will be putting their union recognition to a vote during gta 6's launch next month"
+    "uk-based rockstar devs will be putting their union recognition to a vote during gta 6's launch next month",
+    "surprise new cyberpunk 2077 update quietly released",
+    "'physical books, but not physical games?' — playstation book announcement prompts confusion over sony's physical media stance",
+    "pocketpair would ‘love to have conversations’ to bring palworld to switch 2, ceo says",
+    "world of warcraft: forever – “warpath” amv launch trailer"
   ],
   "seen_story_keys": [
-    "31b6770059d8018e374c6cddf464de9d7a0838f1",
-    "03b5fc19fd6ace457add0181bf4375f5b1e9ed3e",
-    "3330aba47a0db567d7a2e8062d3c96a67c67d675",
-    "03f5ced3c1519cd3a1dd1f9cf7725e0a75dac6ed",
     "d2b60a89256c2f3ecd354455d2591797a785cb43",
     "52607b0dc819b5cd6e1d30235cc2f18a70854dba",
     "2a8a863cd5ebd0bd8fb423e1c79c4e80d9d33604",
@@ -15003,6 +14999,10 @@
     "73baba40020f9851d1a94dfb118be1bf6d35a995",
     "be67b3e3edae31f3f0b74cbfa01c32e893699311",
     "1ef86010a113c03c3900c485a11eb6e94c529d2b",
-    "c6d1005d7cc6aeae7b4f87f5ee9e9b8d5c5736a4"
+    "c6d1005d7cc6aeae7b4f87f5ee9e9b8d5c5736a4",
+    "6aff01655546bb8acb20bd24965fe1db4a0fb3b4",
+    "c066da9c8e28c27d39e078a2d313160b30c7d37b",
+    "0b8abcc27b28c5b1ce2368844d7d7a8ffa997096",
+    "edaae7569de0956462f33df0de31b8f8aca1a9d0"
   ]
 }
