@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/arc-raiders-will-soon-look-even-better-on-ps5-pro-with-new-pssr-support-in-latest-update",
-    "https://gamerant.com/attack-on-titan-hajime-isayama-note-eren-mikasa-ending/",
-    "https://www.gamespot.com/articles/is-the-new-steam-controller-worth-its-high-price/1100-6539640/?ftag=CAD-01-10abi2f",
-    "https://www.ign.com/articles/valve-confirms-steam-controller-price-and-release-date-promises-more-news-on-steam-machine-soon",
     "https://www.gematsu.com/2026/04/corebreaker-launches-in-early-access-on-may-9",
     "https://www.ign.com/articles/arc-raiders-riven-tides-trailer-reveals-massive-beach-themed-update-with-new-seaside-map-and-turbine-enemy",
     "https://www.pushsquare.com/news/2026/04/assassins-creed-hexe-development-doesnt-seem-like-its-going-too-well",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/10/pokemon-unite-ending-service-for-switch-in-march-2027",
     "https://www.nintendolife.com/news/2026/10/hori-unveils-brand-new-legend-of-zelda-switch-2-products",
     "https://www.nintendolife.com/news/2026/10/dragons-dogma-2-dark-arisen-title-update-4-1-now-live-on-switch-2-here-are-the-full-patch-notes",
-    "https://www.nintendolife.com/news/2026/10/capcom-reveals-another-robot-master-for-mega-man-dual-override"
+    "https://www.nintendolife.com/news/2026/10/capcom-reveals-another-robot-master-for-mega-man-dual-override",
+    "https://www.purexbox.com/news/2026/10/assassins-creed-black-flag-resynced-gets-new-gameplus-mode-in-final-major-update",
+    "https://www.nintendolife.com/news/2026/10/nintendo-indie-world-showcase-announced-for-tomorrow-28th-october-2026",
+    "https://www.gamespot.com/videos/drawquarium-official-release-date-trailer/",
+    "https://www.eurogamer.net/phantom-blade-zero-300gb-pre-load-space"
   ],
   "seen_titles": [
-    "arc raiders will soon look even better on ps5 pro with new pssr support in latest update",
-    "new hajime isayama note reveals secret eren and mikasa ending in attack on titan",
-    "is the new steam controller worth its high price?",
-    "valve confirms steam controller price and release date, promises more news on steam machine soon",
     "corebreaker launches in early access on may 9",
     "arc raiders riven tides trailer reveals massive beach-themed update with new seaside map and turbine enemy",
     "assassin's creed hexe development doesn't seem like it's going too well",
@@ -10001,13 +9997,13 @@
     "pokémon unite ending service for switch in march 2027",
     "hori unveils brand new legend of zelda switch 2 products",
     "dragon's dogma 2: dark arisen title update 4.1 now live on switch 2, here are the full patch notes",
-    "capcom reveals another robot master for mega man: dual override"
+    "capcom reveals another robot master for mega man: dual override",
+    "assassin's creed: black flag resynced gets new game+ mode in final major update",
+    "nintendo indie world showcase announced for tomorrow, 28th october 2026",
+    "drawquarium – official release date trailer",
+    "phantom blade zero is asking players to free up 300gb of space for pre-loading, double its actual 145gb file size"
   ],
   "seen_story_keys": [
-    "ca49a3df19a6e819a8101fdf161b05c2e223d35b",
-    "ae906781efa53945819a82deb8fab042afa7f2e8",
-    "cc9fa53d8bbab02914eeefe71067dcabf349a426",
-    "28f9ec66a703ed9e268dd694b8bd5243805c0862",
     "8cf5d584ab1df07de86bbe7ba071e82496bc01ab",
     "e945c688ce1df58325433f52e22a85e2f901d6c6",
     "65bb953c49a6f55dec00d61ad3a9e5d14954cdea",
@@ -15003,6 +14999,10 @@
     "5b117f9c57b08c5f8a1e796ac97e498a6e689a97",
     "058960e63f22f1f78076e3e966cc25cfd485568e",
     "fce7b1e749aeb3eb128d1a2a1ec4b7281c7eea74",
-    "a17a8809ecee036ce0624a8c387b42d94c0cec5e"
+    "a17a8809ecee036ce0624a8c387b42d94c0cec5e",
+    "8b1eab3376ef922f3535be5092959a2fa8a8842f",
+    "11bb13aa10502b511384e565bef372570eca3670",
+    "89e652ad35d89ae45bd107a756dd179ffee0c797",
+    "bf68476ba4ab565b1c393ea8b65be9ddf7a8dc4a"
   ]
 }
