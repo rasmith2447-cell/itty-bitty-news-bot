@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/corebreaker-launches-in-early-access-on-may-9",
-    "https://www.ign.com/articles/arc-raiders-riven-tides-trailer-reveals-massive-beach-themed-update-with-new-seaside-map-and-turbine-enemy",
-    "https://www.pushsquare.com/news/2026/04/assassins-creed-hexe-development-doesnt-seem-like-its-going-too-well",
-    "https://www.polygon.com/magic-gathering-mtg-arena-union-wizards-coast/",
     "https://www.gematsu.com/2026/04/rugrats-retro-rewind-collection-announced-for-ps5-switch",
     "https://www.pcgamer.com/hardware/game-pads/valve-is-bullish-on-global-steam-controller-availability-we-have-knobs-we-can-turn-to-try-to-get-things-to-people-faster/",
     "https://gamerant.com/expanse-osiris-reborn-characters-companions-combat-good/",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/10/assassins-creed-black-flag-resynced-gets-new-gameplus-mode-in-final-major-update",
     "https://www.nintendolife.com/news/2026/10/nintendo-indie-world-showcase-announced-for-tomorrow-28th-october-2026",
     "https://www.gamespot.com/videos/drawquarium-official-release-date-trailer/",
-    "https://www.eurogamer.net/phantom-blade-zero-300gb-pre-load-space"
+    "https://www.eurogamer.net/phantom-blade-zero-300gb-pre-load-space",
+    "https://gamerant.com/mass-effect-5-cancelled-ubisoft-game-beyond-good-evil-2/",
+    "https://gamerant.com/gta-san-andreas-destruction-mod/",
+    "https://gamerant.com/castlevania-belmonts-curse-pc-black-screen-issue-patch-fix/",
+    "https://www.rockpapershotgun.com/uk-based-rockstar-devs-will-be-putting-their-union-recognition-to-a-vote-during-gta-6s-launch-next-month"
   ],
   "seen_titles": [
-    "corebreaker launches in early access on may 9",
-    "arc raiders riven tides trailer reveals massive beach-themed update with new seaside map and turbine enemy",
-    "assassin's creed hexe development doesn't seem like it's going too well",
-    "magic: the gathering arena developers file to unionize with cwa",
     "rugrats: retro rewind collection announced for ps5, switch",
     "valve is bullish on global steam controller availability: 'we have knobs we can turn to try to get things to people faster'",
     "the expanse: osiris reborn's greatest strength already outdoes its biggest weakness",
@@ -10001,13 +9997,13 @@
     "assassin's creed: black flag resynced gets new game+ mode in final major update",
     "nintendo indie world showcase announced for tomorrow, 28th october 2026",
     "drawquarium – official release date trailer",
-    "phantom blade zero is asking players to free up 300gb of space for pre-loading, double its actual 145gb file size"
+    "phantom blade zero is asking players to free up 300gb of space for pre-loading, double its actual 145gb file size",
+    "mass effect's cancellation is a massive red flag for one ubisoft game",
+    "new gta san andreas release is a game-changer",
+    "castlevania: belmont's curse's latest patch leaves a major pc issue unsolved",
+    "uk-based rockstar devs will be putting their union recognition to a vote during gta 6's launch next month"
   ],
   "seen_story_keys": [
-    "8cf5d584ab1df07de86bbe7ba071e82496bc01ab",
-    "e945c688ce1df58325433f52e22a85e2f901d6c6",
-    "65bb953c49a6f55dec00d61ad3a9e5d14954cdea",
-    "594e4d636b6afd3da835e1e7b6a1300b580c36bc",
     "31b6770059d8018e374c6cddf464de9d7a0838f1",
     "03b5fc19fd6ace457add0181bf4375f5b1e9ed3e",
     "3330aba47a0db567d7a2e8062d3c96a67c67d675",
@@ -15003,6 +14999,10 @@
     "8b1eab3376ef922f3535be5092959a2fa8a8842f",
     "11bb13aa10502b511384e565bef372570eca3670",
     "89e652ad35d89ae45bd107a756dd179ffee0c797",
-    "bf68476ba4ab565b1c393ea8b65be9ddf7a8dc4a"
+    "bf68476ba4ab565b1c393ea8b65be9ddf7a8dc4a",
+    "73baba40020f9851d1a94dfb118be1bf6d35a995",
+    "be67b3e3edae31f3f0b74cbfa01c32e893699311",
+    "1ef86010a113c03c3900c485a11eb6e94c529d2b",
+    "c6d1005d7cc6aeae7b4f87f5ee9e9b8d5c5736a4"
   ]
 }
