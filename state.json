@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/final-fantasy-x-turns-25-this-summer-as-square-enix-opens-special-website",
-    "https://www.gematsu.com/2026/04/xbox-announces-summer-game-fest-play-days-2026-featured-games",
-    "https://www.pcgamer.com/hardware/game-pads/steam-controller-is-au-usd149-in-australia-and-launching-day-one-with-the-rest-of-the-world/",
-    "https://gamerant.com/steam-machine-release-plans-valve-update/",
     "https://www.gematsu.com/2026/04/froggy-hates-snow-launches-may-7",
     "https://www.gematsu.com/2026/04/free-to-play-unreal-engine-5-powered-cinematic-love-adventure-game-silent-whispers-announced-for-pc-ios-and-android",
     "https://www.gematsu.com/2026/04/g-mode-archives-xenosaga-pied-piper-launches-april-30-in-japan",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/witchbrook-release-date-announcement/",
     "https://gamerant.com/rockstar-games-union-vote-gta-6-pre-load-date/",
     "https://www.polygon.com/sony-ps5-dualsense-prism-collection-release-date-price/",
-    "https://www.polygon.com/mass-effect-5-ultimate-open-world-game-bioware/"
+    "https://www.polygon.com/mass-effect-5-ultimate-open-world-game-bioware/",
+    "https://www.gamesindustry.biz/pressengine-announces-the-pre-show-an-in-person-london-showcase-for-upcoming-games",
+    "https://www.pushsquare.com/news/2026/10/ps5s-most-addictive-game-since-balatro-is-right-around-the-corner",
+    "https://www.ign.com/articles/alien-isolation-2-team-confirms-physical-edition-photo-mode-and-new-gameplay-details",
+    "https://gamerant.com/dungeons-and-dragons-world-of-warcraft-delay/"
   ],
   "seen_titles": [
-    "final fantasy x turns 25 this summer, as square enix opens special website",
-    "xbox announces summer game fest: play days 2026 featured games",
-    "steam controller australian price revealed ahead of may 5 release",
-    "valve shares encouraging update on steam machine release plans",
     "froggy hates snow launches may 7",
     "free-to-play unreal engine 5-powered cinematic love adventure game silent whispers announced for pc, ios, and android",
     "g-mode archives+ xenosaga: pied piper launches april 30 in japan",
@@ -10001,13 +9997,13 @@
     "'harry potter meets stardew valley' game sets official release date",
     "rockstar games developers announce union vote on important gta 6 date",
     "playstation officially reveals gorgeous new ‘prism’ ps5 hardware",
-    "mass effect 5 would have been the 'ultimate open-world game'"
+    "mass effect 5 would have been the 'ultimate open-world game'",
+    "pressengine announces the pre-show, an in-person london showcase for upcoming games",
+    "ps5's most addictive game since balatro is right around the corner",
+    "alien: isolation 2 team confirms physical edition, photo mode, and new gameplay details",
+    "dungeons and dragons' newest release is being delayed"
   ],
   "seen_story_keys": [
-    "66882cd471b647cd336ee92a0ab6dca87bbc9a77",
-    "46e1e0c58388e6531068bd2c6e41e2e902eb3951",
-    "6386926a326b7ded84cf9963469a9cb5b80f6ec1",
-    "4afdfc220a45a984144ae4192d0353c86898b68e",
     "c37f831aee21f0cdcd640738c558ea4a8b4afb33",
     "64dcb495b0fd5d977fee88bb30404bf2d6aaf726",
     "ba0cc4276f9d9d9bdf6da6590f7f713df0929b9f",
@@ -15003,6 +14999,10 @@
     "970765f6b7335b00a550e32e6a83fe916477661f",
     "4952af48a01af735daf0504c167fb3464aa68909",
     "09282c16c103ee1181f887bd1453cbaa60e29f94",
-    "7ea5fa372204d22ead4a94d9d7269bb947922481"
+    "7ea5fa372204d22ead4a94d9d7269bb947922481",
+    "bdc83e8c56256a1b0048d81e7ff73a19a08558d2",
+    "4f31e8f2f3c264dfb7e2500d9142940e58d60e26",
+    "759c9780c313ceebf58ece30661ae0a6da8943fc",
+    "b423acf1c2adb5b38c91cc9774b0dec01ac0bc43"
   ]
 }
