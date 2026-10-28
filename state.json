@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/last-flag-the-third-person-shooter-from-imagine-dragons-singer-goes-free-every-weekend-for-now/1100-6539645/?ftag=CAD-01-10abi2f",
-    "https://www.gamespot.com/articles/diablo-4s-long-searched-for-cow-level-could-finally-be-real-in-lord-of-hatred/1100-6539641/?ftag=CAD-01-10abi2f",
-    "https://gamerant.com/steam-controller-price-release-date-specs/",
-    "https://www.pcgamer.com/games/rpg/diablo-4-lord-of-hatred-will-launch-with-a-bare-bones-new-season-to-keep-its-new-campaign-and-revolutionized-loot-chase-in-the-spotlight/",
     "https://www.pushsquare.com/news/2026/04/crimson-desert-devs-get-huge-bonuses-as-korean-pm-praises-ps5-hit",
     "https://www.polygon.com/house-of-the-dragon-season-3-release-date-trailer-hbo/",
     "https://www.pcgamer.com/movies-tv/far-cry-tv-series-showrunner-says-hes-not-specifically-adapting-any-of-the-games-and-the-creative-director-of-far-cry-4-doesnt-care-for-that-very-much/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/cyberpunk-2077-update-today-patch-notes/",
     "https://www.ign.com/articles/physical-books-but-not-physical-games-playstation-book-announcement-prompts-confusion-over-sonys-physical-media-stance",
     "https://www.videogameschronicle.com/news/pocketpair-would-love-to-have-conversations-to-bring-palworld-to-switch-2-ceo-says/",
-    "https://www.gamespot.com/videos/world-of-warcraft-forever-warpath-amv-launch-trailer/"
+    "https://www.gamespot.com/videos/world-of-warcraft-forever-warpath-amv-launch-trailer/",
+    "https://www.pcgamer.com/gaming-industry/warhammer-40-000-boltgun-studio-announces-major-layoffs-then-quickly-deletes-the-announcement/",
+    "https://www.pushsquare.com/news/2026/10/conan-exiles-enhanced-is-a-major-visual-upgrade-for-ps5-free-for-existing-players",
+    "https://www.gematsu.com/2026/10/bad-ice-cream-resort-announced-for-switch-pc",
+    "https://www.pushsquare.com/news/2026/10/new-cyberpunk-2077-ps5-patch-is-great-news-if-youre-argentinian-cdpr-clarifies-update"
   ],
   "seen_titles": [
-    "last flag, the third-person shooter from imagine dragons singer, goes free every weekend for now",
-    "diablo 4's long-searched-for cow level could finally be real in lord of hatred",
-    "steam controller price, release date, and specs officially revealed",
-    "diablo 4: lord of hatred will launch with a bare bones new season to keep its new campaign and revolutionized loot chase in the spotlight",
     "crimson desert devs get huge bonuses as korean pm praises ps5 hit",
     "house of the dragon season 3 gets official release date trailer",
     "far cry tv series showrunner says he's 'not specifically adapting any of the games,' and the creative director of far cry 4 doesn't care for that very much",
@@ -10001,13 +9997,13 @@
     "surprise new cyberpunk 2077 update quietly released",
     "'physical books, but not physical games?' — playstation book announcement prompts confusion over sony's physical media stance",
     "pocketpair would ‘love to have conversations’ to bring palworld to switch 2, ceo says",
-    "world of warcraft: forever – “warpath” amv launch trailer"
+    "world of warcraft: forever – “warpath” amv launch trailer",
+    "warhammer 40,000: boltgun studio announces major layoffs, then quickly deletes the announcement",
+    "conan exiles enhanced is a major visual upgrade for ps5, free for existing players",
+    "bad ice-cream resort announced for switch, pc",
+    "new cyberpunk 2077 ps5 patch is great news if you're argentinian, cdpr clarifies update"
   ],
   "seen_story_keys": [
-    "d2b60a89256c2f3ecd354455d2591797a785cb43",
-    "52607b0dc819b5cd6e1d30235cc2f18a70854dba",
-    "2a8a863cd5ebd0bd8fb423e1c79c4e80d9d33604",
-    "f945daa2a5c792e7f16213017b13731dbc83ccde",
     "9bc489c242bc13ff19af1827cd1adbcc0756c8e3",
     "5c6ed33b2430fe1179919fe328407da2107e00e6",
     "83a5aa6b6ac3c401bf549813a00b0677e3aabf43",
@@ -15003,6 +14999,10 @@
     "6aff01655546bb8acb20bd24965fe1db4a0fb3b4",
     "c066da9c8e28c27d39e078a2d313160b30c7d37b",
     "0b8abcc27b28c5b1ce2368844d7d7a8ffa997096",
-    "edaae7569de0956462f33df0de31b8f8aca1a9d0"
+    "edaae7569de0956462f33df0de31b8f8aca1a9d0",
+    "2e2cc76f5388dc4111709931ebd2229e87c9f5a7",
+    "67f75004c739a42427ca4a573b8a6e9bd5c490db",
+    "a87df09a75ffa3a6509cd1f731ea389e51acf6c4",
+    "a9b951154a0145ec26509fd4c74da981baad74ae"
   ]
 }
