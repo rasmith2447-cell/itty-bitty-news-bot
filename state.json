@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.rockpapershotgun.com/helldivers-2-isnt-a-cosy-game-but-the-tranquil-forests-and-beefed-up-exosuits-of-its-latest-patch-might-convince-you-it-is",
-    "https://www.videogameschronicle.com/news/a-demo-for-final-fantasy-7-rebirth-is-available-now-on-switch-2-and-xbox-series-x-s/",
-    "https://www.rockpapershotgun.com/weve-heard-a-clear-frustration-arc-raiders-update-adds-a-beach-holiday-map-while-patching-the-gun-balance-to-ensure-all-players-are-challenged-by-weapon-attrition",
-    "https://www.nintendolife.com/news/2026/04/nintendo-and-illumination-are-releasing-an-untitled-movie-in-april-2028",
     "https://www.gematsu.com/2026/04/2-5d-roguelite-fighting-game-hybrid-shot-one-fighters-announced-for-pc",
     "https://www.ign.com/articles/nintendos-next-animated-movie-gets-april-2028-release-date",
     "https://www.polygon.com/pokemon-go-fest-2026-global-event-ticket-free/",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/10/report-the-elder-scrolls-6-gets-named-ahead-of-xbox-announcement-plus-extra-details",
     "https://www.ign.com/articles/ramageddon-will-only-get-worse-in-2027-according-to-samsung",
     "https://www.gamespot.com/videos/virtua-fighter-crossroads-lionel-rafale-gameplay-reveal-trailer/",
-    "https://www.videogameschronicle.com/news/fromsoftwares-switch-2-exclusive-the-duskbloods-has-been-delayed-to-2027/"
+    "https://www.videogameschronicle.com/news/fromsoftwares-switch-2-exclusive-the-duskbloods-has-been-delayed-to-2027/",
+    "https://gamerant.com/new-open-world-mmorpgs-spirit-crossing-release-date/",
+    "https://www.pcgamer.com/gaming-industry/none-of-these-people-have-ever-made-a-game-bioware-co-founder-greg-zeschuk-says-of-game-industry-executives-they-just-dont-know-how-it-works/",
+    "https://www.ign.com/articles/james-gunn-says-it-wont-be-too-long-before-dcu-batman-is-cast-will-be-close-in-age-to-david-corenswets-superman",
+    "https://gamerant.com/xbox-console-update-patch-notes-mythic-achievements/"
   ],
   "seen_titles": [
-    "helldivers 2 isn't a cosy game, but the tranquil forests and beefed up exosuits of its latest patch might convince you it is",
-    "a demo for final fantasy 7 rebirth is available now on switch 2 and xbox series x/s",
-    "\"we've heard a clear frustration\": arc raiders update adds a beach holiday map while patching the gun balance to ensure \"all players are challenged by weapon attrition\"",
-    "nintendo & illumination are releasing an untitled movie in april 2028",
     "2.5d roguelite fighting game hybrid shot one fighters announced for pc",
     "nintendo's next animated movie gets april 2028 release date",
     "pokémon go fest 2026 global event now free for all players",
@@ -10001,13 +9997,13 @@
     "report: the elder scrolls 6 gets named ahead of xbox announcement, plus extra details",
     "ramageddon will only get worse in 2027, according to samsung",
     "virtua fighter crossroads – lionel rafale gameplay reveal trailer",
-    "fromsoftware’s switch 2 exclusive the duskbloods has been delayed to 2027"
+    "fromsoftware’s switch 2 exclusive the duskbloods has been delayed to 2027",
+    "new open-world mmorpg officially confirmed for november 16",
+    "'none of these people have ever made a game,' bioware co-founder greg zeschuk says of game industry executives: 'they just don't know how it works'",
+    "james gunn says it 'won't be too long' before dcu batman is cast, will be close in age to david corenswet's superman",
+    "brand-new xbox console update adds mythic achievements and more"
   ],
   "seen_story_keys": [
-    "18fc3d95314ac54f92593b888a8ecfe80d761ff6",
-    "d1aa61abbb6c55ea28f3bc4dabc0f9958e4db68f",
-    "a22b5e8880c083a8676d121688ff3f56f3fbf7c1",
-    "482d0cbe01870379798123ab1c4fd9df88a07f5b",
     "54f0fdd138b371ea226315a661c106ef1cb93e70",
     "b152101e3f258705059103e3bcd80660d286b908",
     "77d2f9d49802dc4854f49b56c544d7bc2f4c238c",
@@ -15003,6 +14999,10 @@
     "de68eee25178779ecb7b631e04cec493a2a6e3e9",
     "d29a03ef3b64b25bc08a7dd8355b9ff8b8c19022",
     "4c6ddca27f78a6ca7c6264ca7c528a92d7518c90",
-    "c2f4549e963d62ebc5f7a014697bf6c5c82bf714"
+    "c2f4549e963d62ebc5f7a014697bf6c5c82bf714",
+    "cdd5488e96d792e1d9e77da96fc60baba5bc7ab5",
+    "c92a76ce9170fb490a094c6f8444575f7e07405c",
+    "fe787892f5bcf37e1e4befe2a1b441b24ffb79c4",
+    "76ba859e3ed76c68d0f3eb6962b238cd8d77a534"
   ]
 }
