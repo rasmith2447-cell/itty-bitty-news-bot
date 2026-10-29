@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/wuchang-fallen-feathers-rights-digital-bros",
-    "https://www.videogameschronicle.com/news/resident-evil-requiem-producer-says-players-should-try-to-beat-the-game-next-week-to-prepare-for-dlc/",
-    "https://www.pushsquare.com/news/2026/04/resident-evil-requiems-new-mini-game-update-seemingly-imminent",
-    "https://www.purexbox.com/news/2026/04/working-on-it-asha-sharma-confirms-dynamic-background-for-new-xbox-logo-is-in-the-works",
     "https://www.rockpapershotgun.com/helldivers-2-isnt-a-cosy-game-but-the-tranquil-forests-and-beefed-up-exosuits-of-its-latest-patch-might-convince-you-it-is",
     "https://www.videogameschronicle.com/news/a-demo-for-final-fantasy-7-rebirth-is-available-now-on-switch-2-and-xbox-series-x-s/",
     "https://www.rockpapershotgun.com/weve-heard-a-clear-frustration-arc-raiders-update-adds-a-beach-holiday-map-while-patching-the-gun-balance-to-ensure-all-players-are-challenged-by-weapon-attrition",
@@ -4999,13 +4995,13 @@
     "https://www.rockpapershotgun.com/gta-6-has-a-smell-reaction-system-which-immediately-joins-red-dead-redemption-2s-dynamically-shrinking-horse-balls-on-rockstars-list-of-immersive-symbols-of-excess",
     "https://www.pcgamer.com/hardware/graphics-cards/for-the-second-time-this-year-galax-says-its-not-closing-down-palit-owned-graphics-card-brand-continues-to-operate-as-usual/",
     "https://www.pushsquare.com/news/2026/10/new-gta-6-gameplay-screenshots-details-revealed-as-ps5-launch-nears",
-    "https://www.eurogamer.net/phantom-blade-zero-steam-launch-1-million-sales"
+    "https://www.eurogamer.net/phantom-blade-zero-steam-launch-1-million-sales",
+    "https://www.purexbox.com/news/2026/10/report-the-elder-scrolls-6-gets-named-ahead-of-xbox-announcement-plus-extra-details",
+    "https://www.ign.com/articles/ramageddon-will-only-get-worse-in-2027-according-to-samsung",
+    "https://www.gamespot.com/videos/virtua-fighter-crossroads-lionel-rafale-gameplay-reveal-trailer/",
+    "https://www.videogameschronicle.com/news/fromsoftwares-switch-2-exclusive-the-duskbloods-has-been-delayed-to-2027/"
   ],
   "seen_titles": [
-    "wuchang: fallen feathers might have a future, with western publisher swooping in to buy rights after its dev was shut down",
-    "resident evil requiem producer says players should try to beat the game next week to prepare for dlc",
-    "resident evil requiem's new mini game update seemingly imminent",
-    "'working on it' - asha sharma confirms dynamic background for new xbox logo is in the works",
     "helldivers 2 isn't a cosy game, but the tranquil forests and beefed up exosuits of its latest patch might convince you it is",
     "a demo for final fantasy 7 rebirth is available now on switch 2 and xbox series x/s",
     "\"we've heard a clear frustration\": arc raiders update adds a beach holiday map while patching the gun balance to ensure \"all players are challenged by weapon attrition\"",
@@ -10001,13 +9997,13 @@
     "gta 6 has a smell reaction system, which immediately joins red dead redemption 2's dynamically shrinking horse balls on rockstar's list of immersive symbols of excess",
     "for the second time this year, galax says it's not closing down: palit-owned graphics card brand 'continues to operate as usual'",
     "new gta 6 gameplay, screenshots, details revealed as ps5 launch nears",
-    "more chinese success as phantom blade zero enjoys a big launch and becomes one of steam's most played games"
+    "more chinese success as phantom blade zero enjoys a big launch and becomes one of steam's most played games",
+    "report: the elder scrolls 6 gets named ahead of xbox announcement, plus extra details",
+    "ramageddon will only get worse in 2027, according to samsung",
+    "virtua fighter crossroads – lionel rafale gameplay reveal trailer",
+    "fromsoftware’s switch 2 exclusive the duskbloods has been delayed to 2027"
   ],
   "seen_story_keys": [
-    "3a7469687efa6e97eda27ef3c6ca2be2d0c415df",
-    "e44ae6e8efafab7d4bcf4aa98f8d7b6ce7bf7f2c",
-    "1660c760ab589d16be95c83319170ba21779908c",
-    "7e2ade8586bca5442a24df2704da1404d8488e61",
     "18fc3d95314ac54f92593b888a8ecfe80d761ff6",
     "d1aa61abbb6c55ea28f3bc4dabc0f9958e4db68f",
     "a22b5e8880c083a8676d121688ff3f56f3fbf7c1",
@@ -15003,6 +14999,10 @@
     "8d356cfac284a0beb3e67bb3614397f2f814abd3",
     "50db4c32996b6766fd9ac3f00c637e02d0866e10",
     "ee1b76dc65468da617353a3a568a6575e0745f60",
-    "8e9f5cad11e538859a004b209aab7a3b45ebf984"
+    "8e9f5cad11e538859a004b209aab7a3b45ebf984",
+    "de68eee25178779ecb7b631e04cec493a2a6e3e9",
+    "d29a03ef3b64b25bc08a7dd8355b9ff8b8c19022",
+    "4c6ddca27f78a6ca7c6264ca7c528a92d7518c90",
+    "c2f4549e963d62ebc5f7a014697bf6c5c82bf714"
   ]
 }
