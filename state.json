@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/froggy-hates-snow-launches-may-7",
-    "https://www.gematsu.com/2026/04/free-to-play-unreal-engine-5-powered-cinematic-love-adventure-game-silent-whispers-announced-for-pc-ios-and-android",
-    "https://www.gematsu.com/2026/04/g-mode-archives-xenosaga-pied-piper-launches-april-30-in-japan",
-    "https://www.pushsquare.com/news/2026/04/ufc-6-is-out-soon-on-ps5-but-eas-barely-said-anything-about-it",
     "https://www.gematsu.com/2026/04/tokoyo-the-tower-of-perpetuity-developer-announces-side-scrolling-action-adventure-game-meltmare-for-ps5-xbox-series-switch-2-and-pc",
     "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-riven-tides-update/",
     "https://www.eurogamer.net/steam-deck-2-comments-next-gen-performance",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/pressengine-announces-the-pre-show-an-in-person-london-showcase-for-upcoming-games",
     "https://www.pushsquare.com/news/2026/10/ps5s-most-addictive-game-since-balatro-is-right-around-the-corner",
     "https://www.ign.com/articles/alien-isolation-2-team-confirms-physical-edition-photo-mode-and-new-gameplay-details",
-    "https://gamerant.com/dungeons-and-dragons-world-of-warcraft-delay/"
+    "https://gamerant.com/dungeons-and-dragons-world-of-warcraft-delay/",
+    "https://www.pushsquare.com/news/2026/10/this-classic-ps1-star-wars-game-just-got-a-neat-ps5-enhancement",
+    "https://www.ign.com/articles/appreciate-the-fans-gta-5-cast-tell-jason-and-lucias-actors-the-most-important-things-they-should-know-before-gta-6-launches-them-to-fame",
+    "https://www.pcgamer.com/games/rpg/witchbrook-is-delayed-again-now-set-for-release-in-2027/",
+    "https://www.pushsquare.com/news/2026/10/as-mass-effect-expires-exodus-reveals-40-minutes-of-gameplay-with-the-protagonists-new-face"
   ],
   "seen_titles": [
-    "froggy hates snow launches may 7",
-    "free-to-play unreal engine 5-powered cinematic love adventure game silent whispers announced for pc, ios, and android",
-    "g-mode archives+ xenosaga: pied piper launches april 30 in japan",
-    "ufc 6 is out soon on ps5, but ea's barely said anything about it",
     "tokoyo: the tower of perpetuity developer announces side-scrolling action adventure game meltmare for ps5, xbox series, switch 2, and pc",
     "the next arc raiders map drops today, and so does this evil floating cone",
     "valve is \"hard at work\" on steam deck 2, but the company's idea of \"next-gen\" performance isn't possible yet",
@@ -10001,13 +9997,13 @@
     "pressengine announces the pre-show, an in-person london showcase for upcoming games",
     "ps5's most addictive game since balatro is right around the corner",
     "alien: isolation 2 team confirms physical edition, photo mode, and new gameplay details",
-    "dungeons and dragons' newest release is being delayed"
+    "dungeons and dragons' newest release is being delayed",
+    "this classic ps1 star wars game just got a neat ps5 enhancement",
+    "'appreciate the fans' — gta 5 cast tell jason and lucia’s actors the most important things they should know before gta 6 launches them to fame",
+    "witchbrook is delayed again, now set for release in 2027",
+    "as mass effect expires, exodus reveals 40 minutes of gameplay with the protagonist's new face"
   ],
   "seen_story_keys": [
-    "c37f831aee21f0cdcd640738c558ea4a8b4afb33",
-    "64dcb495b0fd5d977fee88bb30404bf2d6aaf726",
-    "ba0cc4276f9d9d9bdf6da6590f7f713df0929b9f",
-    "6e37f984ecbfb87440fdfeb17782aa72642082a0",
     "0b916f34b82fb508b8e35ca57dd13148a2da8fb5",
     "bb63a7b154c7ba20034f2838e9a66a1c96d22bcd",
     "31660eba9a9cef286c24118ca1a8a4e4e2631063",
@@ -15003,6 +14999,10 @@
     "bdc83e8c56256a1b0048d81e7ff73a19a08558d2",
     "4f31e8f2f3c264dfb7e2500d9142940e58d60e26",
     "759c9780c313ceebf58ece30661ae0a6da8943fc",
-    "b423acf1c2adb5b38c91cc9774b0dec01ac0bc43"
+    "b423acf1c2adb5b38c91cc9774b0dec01ac0bc43",
+    "87b682cbf7365f177cb8efd04482c30ee3043907",
+    "42c1a7d773c84aff2fe49c2a7a655301e9a99f25",
+    "d0d704c85ee00c3429733e2ee58e6087ff56baa0",
+    "7ca659ac694ca22af005c2f59a87023b1c5083a3"
   ]
 }
