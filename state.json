@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/wolverine-ps5-updates-still-coming-in-the-next-few-weeks",
-    "https://www.gamespot.com/articles/ff7-rebirth-demo-is-out-now-on-switch-2-and-it-plays-great/1100-6539635/?ftag=CAD-01-10abi2f",
-    "https://www.rockpapershotgun.com/as-the-steam-controller-breaks-cover-valve-say-theyre-hard-at-work-on-the-steam-deck-2-and-keeping-current-decks-in-stock",
-    "https://www.pcgamer.com/hardware/handheld-gaming-pcs/valve-is-hard-at-work-on-the-steam-deck-2-but-over-four-years-after-the-og-deck-theres-still-no-indication-of-a-launch-date/",
     "https://www.eurogamer.net/wuchang-fallen-feathers-rights-digital-bros",
     "https://www.videogameschronicle.com/news/resident-evil-requiem-producer-says-players-should-try-to-beat-the-game-next-week-to-prepare-for-dlc/",
     "https://www.pushsquare.com/news/2026/04/resident-evil-requiems-new-mini-game-update-seemingly-imminent",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/10/dokapon-kingdom-connect-2-announced-for-switch-2-switch-and-pc",
     "https://www.nintendolife.com/news/2026/10/taito-milestones-5-announced-for-switch-here-are-the-games-included",
     "https://www.gematsu.com/2026/10/taito-milestones-5-announced-for-switch",
-    "https://www.gematsu.com/2026/10/solo-leveling-arise-overdrive-for-ps5-xbox-series-launches-november-3"
+    "https://www.gematsu.com/2026/10/solo-leveling-arise-overdrive-for-ps5-xbox-series-launches-november-3",
+    "https://www.rockpapershotgun.com/gta-6-has-a-smell-reaction-system-which-immediately-joins-red-dead-redemption-2s-dynamically-shrinking-horse-balls-on-rockstars-list-of-immersive-symbols-of-excess",
+    "https://www.pcgamer.com/hardware/graphics-cards/for-the-second-time-this-year-galax-says-its-not-closing-down-palit-owned-graphics-card-brand-continues-to-operate-as-usual/",
+    "https://www.pushsquare.com/news/2026/10/new-gta-6-gameplay-screenshots-details-revealed-as-ps5-launch-nears",
+    "https://www.eurogamer.net/phantom-blade-zero-steam-launch-1-million-sales"
   ],
   "seen_titles": [
-    "wolverine ps5 updates still coming in the next few weeks",
-    "ff7 rebirth demo is out now on switch 2, and it plays great",
-    "as the steam controller breaks cover, valve say they're hard at work on the steam deck 2 and keeping current decks in stock",
-    "valve is 'hard at work' on the steam deck 2, but over four years after the og deck there's still no indication of a launch date",
     "wuchang: fallen feathers might have a future, with western publisher swooping in to buy rights after its dev was shut down",
     "resident evil requiem producer says players should try to beat the game next week to prepare for dlc",
     "resident evil requiem's new mini game update seemingly imminent",
@@ -10001,13 +9997,13 @@
     "dokapon kingdom: connect 2 announced for switch 2, switch, and pc",
     "taito milestones 5 announced for switch, here are the games included",
     "taito milestones 5 announced for switch",
-    "solo leveling: arise overdrive for ps5, xbox series launches november 3"
+    "solo leveling: arise overdrive for ps5, xbox series launches november 3",
+    "gta 6 has a smell reaction system, which immediately joins red dead redemption 2's dynamically shrinking horse balls on rockstar's list of immersive symbols of excess",
+    "for the second time this year, galax says it's not closing down: palit-owned graphics card brand 'continues to operate as usual'",
+    "new gta 6 gameplay, screenshots, details revealed as ps5 launch nears",
+    "more chinese success as phantom blade zero enjoys a big launch and becomes one of steam's most played games"
   ],
   "seen_story_keys": [
-    "aae7ff9decfdf148705ec6df420dfd8fb10dfd14",
-    "226eed003fdf98f4eaac7672fe1dea0c85ccb953",
-    "1215fe634a935f727651dfd694255947cf8797ca",
-    "cd965cd64e15d9b3175e80b88419b36cd0cec14e",
     "3a7469687efa6e97eda27ef3c6ca2be2d0c415df",
     "e44ae6e8efafab7d4bcf4aa98f8d7b6ce7bf7f2c",
     "1660c760ab589d16be95c83319170ba21779908c",
@@ -15003,6 +14999,10 @@
     "d6b05a621e1e8f1663174bcb7693ea64e2456fb0",
     "4e602203ddc9d70336037b3f20a8809870309ffe",
     "41790a4cc6ced00231c3e1df9d66f48502a32b46",
-    "bbaedee6ebaf78d49e4a8a5119df5564fcceb821"
+    "bbaedee6ebaf78d49e4a8a5119df5564fcceb821",
+    "8d356cfac284a0beb3e67bb3614397f2f814abd3",
+    "50db4c32996b6766fd9ac3f00c637e02d0866e10",
+    "ee1b76dc65468da617353a3a568a6575e0745f60",
+    "8e9f5cad11e538859a004b209aab7a3b45ebf984"
   ]
 }
