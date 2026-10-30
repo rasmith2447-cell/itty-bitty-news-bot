@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/survival-crafting/please-have-faith-in-us-once-again-says-windrose-dev-revealing-its-first-big-content-update-wont-arrive-for-at-least-6-months/",
-    "https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-pc-system-requirements/",
-    "https://gamerant.com/sims-4-major-update-tease-may-2026/",
-    "https://www.gamespot.com/articles/phasmophobia-next-update-will-remove-its-goofy-animations-even-though-some-players-love-them/1100-6539677/?ftag=CAD-01-10abi2f",
     "https://www.polygon.com/blood-of-dawnwalker-release-date-witcher-4/",
     "https://www.pushsquare.com/news/2026/04/dawnwalker-is-ps5s-most-promising-rpg-chomps-down-on-september-release-date",
     "https://www.pcgamer.com/games/action/nte-release-date-launch-times/",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/pokemon-tcg-mega-rayquaza-premium-collection/",
     "https://www.pcgamer.com/games/new-pc-games-2027/",
     "https://gamerant.com/gta-6-features-criminal-profiles-jason-lucia/",
-    "https://www.ign.com/articles/zelda-producer-nervous-about-fan-reception-to-ocarina-of-time-remake"
+    "https://www.ign.com/articles/zelda-producer-nervous-about-fan-reception-to-ocarina-of-time-remake",
+    "https://www.eurogamer.net/dark-souls-servers-temporarily-shutting-down-fromsoftware",
+    "https://www.polygon.com/petit-planet-release-date-trailer/",
+    "https://www.polygon.com/dc-my-adventures-with-green-lantern-episode-count-revealed/",
+    "https://www.pushsquare.com/news/2026/10/new-mass-effect-cancelled-so-ea-can-focus-on-star-wars-battlefront-3"
   ],
   "seen_titles": [
-    "'please have faith in us once again' says windrose dev, revealing its first big content update won't arrive for 'at least 6 months'",
-    "the blood of dawnwalker system requirements revealed",
-    "the sims 4 teases major update for next month",
-    "phasmophobia's next update will remove its goofy animations, even though some players love them",
     "ex-witcher devs' new rpg blood of dawnwalker gets 2026 release date",
     "dawnwalker is ps5's most promising rpg, chomps down on september release date",
     "here's the neverness to everness release date and time for your region",
@@ -10001,13 +9997,13 @@
     "pokemon tcg officially reveals special new rayquaza release",
     "new games in 2027: fable, final fantasy 7, and (maybe) gta 6 on pc",
     "gta 6 officially reveals new details about jason + lucia's criminal profiles",
-    "zelda producer 'nervous' about fan reception to ocarina of time remake"
+    "zelda producer 'nervous' about fan reception to ocarina of time remake",
+    "dark souls 2 and dark souls 3's online servers are temporarily going dark, fromsoftware announces",
+    "animal crossing’s biggest competitor officially launches in december",
+    "hbo’s new green lantern series officially gets an important update",
+    "new mass effect cancelled so ea can focus on star wars battlefront 3"
   ],
   "seen_story_keys": [
-    "b10c0f8d5ddd825fa826fdd3d731b8388d326a5e",
-    "49ca93029c09e305a130022f51258698193251ee",
-    "e3bf7a5022569b30ce981606479d16cf9d82c45b",
-    "d1cbc36852bb0fc704538b5670a98fca4c380d06",
     "67bf53472392d1a9d35b14fa7eb2b3b0060f42a6",
     "7369cb1fcee95b7036084022cd80821c005ccc50",
     "b5327c94c325013e444a301bf24a055f72da44ca",
@@ -15003,6 +14999,10 @@
     "5e383f98ef84df1d40572d411c01bc6280412d5e",
     "75263b82aaaec7a0dcabe2792b5a02c2fdf6fda9",
     "0eb90269a9d01308bce4ec712a702be655ce66cb",
-    "ebbd888f13dd6a3e4a395551aade0857d5d9edbc"
+    "ebbd888f13dd6a3e4a395551aade0857d5d9edbc",
+    "70c6f2b07ec9c53b775abb664612fc86523e6d7e",
+    "57be2a2598e2dfb962eae054dfde41a42e6bc788",
+    "7d657c06f5d00bbf77731ca887f1406dac037279",
+    "e0c81210e9344453356e36c73ac931bb6b1ca784"
   ]
 }
