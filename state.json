@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.rockpapershotgun.com/greedfall-and-steelrising-developer-spiders-look-set-to-close-their-doors-according-to-a-recent-report",
-    "https://www.eurogamer.net/mega-mewtwo-debut-announced-go-fest-global-free-pokemon-go",
-    "https://gamerant.com/final-fantasy-14-update-7-5-job-changes-patch-notes/",
-    "https://www.nintendolife.com/news/2026/04/elementallis-brings-a-touch-of-magic-to-gba-zelda-style-adventuring-on-switch",
     "https://www.ign.com/articles/love-and-deepspace-fans-are-reacting-to-a-new-oddly-familiar-romance-game",
     "https://gamerant.com/diablo-4-lord-of-hatred-paladin-warlock-which-class/",
     "https://www.pcgamer.com/games/final-fantasy/ffxiv-calamity-salvager-dye-exchange/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/10/seeker-eye-adds-switch-2-version-launches-february-25-2027-in-japan",
     "https://www.gematsu.com/2026/10/petit-planet-launches-december-4",
     "https://www.gematsu.com/2026/10/leaf-blower-co-for-ps5-xbox-series-launches-november-13",
-    "https://www.eurogamer.net/inside-ea-layoffs-report-bioware-morale-secrecy"
+    "https://www.eurogamer.net/inside-ea-layoffs-report-bioware-morale-secrecy",
+    "https://gamerant.com/elder-scrolls-6-tes6-creation-engine-3/",
+    "https://gamerant.com/bioware-shutdown-mass-effect-ea-statement-never-easy/",
+    "https://www.gamesindustry.biz/studio-atelico-launches-atelico-ai-engine-into-early-access",
+    "https://www.eurogamer.net/director-leaves-forza-playground-games-merge-microsoft"
   ],
   "seen_titles": [
-    "greedfall and steelrising developer spiders look set to close their doors, according to a recent report",
-    "mega mewtwo's pokémon go debut finally announced and go fest global is free for all players",
-    "final fantasy 14 reveals patch 7.5 job changes",
-    "elementallis brings a touch of magic to gba zelda-style adventuring on switch",
     "love and deepspace fans are reacting to a new oddly familiar romance game",
     "paladin or warlock: which class is better for diablo 4: lord of hatred?",
     "before doing anything else introduced in ff14 patch 7.5, i beelined it to the calamity salvager to free up inventory space with the new dye system",
@@ -10001,13 +9997,13 @@
     "seeker eye adds switch 2 version, launches february 25, 2027 in japan",
     "petit planet launches december 4",
     "leaf blower co. for ps5, xbox series launches november 13",
-    "\"a cold dead place that's slowly decaying\" - ea employees reveal a culture of secrecy and terrible morale following layoffs"
+    "\"a cold dead place that's slowly decaying\" - ea employees reveal a culture of secrecy and terrible morale following layoffs",
+    "bethesda reveals official elder scrolls 6 gameplay detail",
+    "ea issues new official statement on bioware's closure",
+    "studio atelico launches atelico ai engine into early access",
+    "forza director, who'd been with turn 10 for 27 years leaves microsoft, following studios merger with playground games"
   ],
   "seen_story_keys": [
-    "d8f7596107a7031692cf44198ec84ebdd81a0bca",
-    "2dbdaae7986c901b11b62c7a1477649908166d2b",
-    "6f93dbb94deb5efccf05519bd2d3ffb3b23d686d",
-    "76bf856f4a0f4a22350476acb6c1728fa5a5543a",
     "8ebf2d40995854e5f7a6dbd4d0d45bec67d80ce3",
     "5ea3b7b9280225fdf8b3be6d44c1d76f5aedc168",
     "a4a71f49cffa7758d10f76fbab024210310d46d7",
@@ -15003,6 +14999,10 @@
     "e1998fe58b9166c44284c6dc1a3677935c7b6567",
     "98c5d49b6448135c3fd79e00eecbc359b7bd1c51",
     "431fdb082524ccbf124474112d13b1f1a1904ff0",
-    "c5065ba740c49b284f244f5a533afb909c3ed87f"
+    "c5065ba740c49b284f244f5a533afb909c3ed87f",
+    "708e1a23ccdcd6840068c8fa5a6308387995518b",
+    "d27773f19c3f1318fa38df2745845126cb39c4c2",
+    "2d8fdfd4650302a780cb9205b1c011ae47e61e6d",
+    "c67189d73ed0eeb43990ca3ebc85897d05670d50"
   ]
 }
