@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/2-5d-roguelite-fighting-game-hybrid-shot-one-fighters-announced-for-pc",
-    "https://www.ign.com/articles/nintendos-next-animated-movie-gets-april-2028-release-date",
-    "https://www.polygon.com/pokemon-go-fest-2026-global-event-ticket-free/",
-    "https://www.eurogamer.net/blood-of-dawnwalker-release-date",
     "https://www.purexbox.com/news/2026/04/nacons-rpg-studio-seemingly-shutting-down-following-financial-troubles",
     "https://www.rockpapershotgun.com/the-blood-of-dawnwalker-gets-a-late-summer-release-date-system-requirements-and-another-very-witchery-gameplay-look-in",
     "https://www.ign.com/articles/mindseye-has-a-new-update-and-a-cheaper-price-as-developer-launches-comeback-bid",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/new-open-world-mmorpgs-spirit-crossing-release-date/",
     "https://www.pcgamer.com/gaming-industry/none-of-these-people-have-ever-made-a-game-bioware-co-founder-greg-zeschuk-says-of-game-industry-executives-they-just-dont-know-how-it-works/",
     "https://www.ign.com/articles/james-gunn-says-it-wont-be-too-long-before-dcu-batman-is-cast-will-be-close-in-age-to-david-corenswets-superman",
-    "https://gamerant.com/xbox-console-update-patch-notes-mythic-achievements/"
+    "https://gamerant.com/xbox-console-update-patch-notes-mythic-achievements/",
+    "https://www.gematsu.com/2026/10/resonance-of-fate-enhanced-remaster-now-available-for-ps5-pc",
+    "https://gamerant.com/solo-leveling-ragnarok-season-3-return/",
+    "https://www.pushsquare.com/news/2026/10/virtua-fighters-cocky-kid-lionel-rafale-returns-in-crossroads-on-ps5",
+    "https://www.purexbox.com/news/2026/10/two-metro-redux-games-receive-free-4k60fps-upgrades-for-xbox-series-xs-full-patch-notes-revealed"
   ],
   "seen_titles": [
-    "2.5d roguelite fighting game hybrid shot one fighters announced for pc",
-    "nintendo's next animated movie gets april 2028 release date",
-    "pokémon go fest 2026 global event now free for all players",
-    "dark fantasy vampire rpg the blood of dawnwalker gets a release date and an autumn showdown with fable",
     "nacon's rpg studio seemingly shutting down following financial troubles",
     "the blood of dawnwalker gets a late summer release date, system requirements, and another, very witchery, gameplay look-in",
     "mindseye has a new update and a cheaper price as developer launches comeback bid",
@@ -10001,13 +9997,13 @@
     "new open-world mmorpg officially confirmed for november 16",
     "'none of these people have ever made a game,' bioware co-founder greg zeschuk says of game industry executives: 'they just don't know how it works'",
     "james gunn says it 'won't be too long' before dcu batman is cast, will be close in age to david corenswet's superman",
-    "brand-new xbox console update adds mythic achievements and more"
+    "brand-new xbox console update adds mythic achievements and more",
+    "resonance of fate enhanced remaster now available for ps5, pc",
+    "solo leveling season 3 officially announced in new update",
+    "virtua fighter's 'cocky kid' lionel rafale returns in crossroads on ps5",
+    "two metro redux games receive free 4k/60fps upgrades for xbox series x|s, full patch notes revealed"
   ],
   "seen_story_keys": [
-    "54f0fdd138b371ea226315a661c106ef1cb93e70",
-    "b152101e3f258705059103e3bcd80660d286b908",
-    "77d2f9d49802dc4854f49b56c544d7bc2f4c238c",
-    "8413ced4cd9c6ece577f54f596703674cdb92259",
     "40087848a3281d6c04394b558081876c8b97f3ad",
     "c532b8ea2b6e41d513892c502af32930d9a5cefa",
     "e90bc68ef2301b05d8e252964dc244ca124b380a",
@@ -15003,6 +14999,10 @@
     "cdd5488e96d792e1d9e77da96fc60baba5bc7ab5",
     "c92a76ce9170fb490a094c6f8444575f7e07405c",
     "fe787892f5bcf37e1e4befe2a1b441b24ffb79c4",
-    "76ba859e3ed76c68d0f3eb6962b238cd8d77a534"
+    "76ba859e3ed76c68d0f3eb6962b238cd8d77a534",
+    "fc555451e6a80edd58d86d1dc07dd116376c4744",
+    "6a9b84575e072441fd50fe2a7c2a15e639dd0488",
+    "a206609c39c2680886ad485accad41b6d58c4b87",
+    "10e1696800ad2201a9f6ccd0a59e62d714b3731c"
   ]
 }
