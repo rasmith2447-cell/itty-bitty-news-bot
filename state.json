@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/04/resident-evil-requiems-minigame-update-may-be-just-around-the-corner",
-    "https://www.purexbox.com/news/2026/04/forza-horizon-6-dev-reveals-new-details-on-events-progression-and-post-launch-plans",
-    "https://www.gamesindustry.biz/magic-the-gathering-arena-devs-announce-plans-to-unionise",
-    "https://www.gematsu.com/2026/04/kioku-last-summer-launches-may-28",
     "https://www.gematsu.com/2026/04/shibuya-scramble-stories-main-cast-announced",
     "https://www.gamesindustry.biz/landfalls-rebecca-lautner-announced-as-speaker-at-game-republic-new-horizons-2026",
     "https://www.pcgamer.com/hardware/graphics-cards/nvidia-has-quietly-announced-the-12-gb-rtx-5070-mobile-in-a-geforce-driver-update-of-all-things/",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/nintendo-reveals-surprise-pikmin-day-direct",
     "https://www.polygon.com/final-fantasy-xiv-evercold-release-date-delayed/",
     "https://www.pushsquare.com/news/2026/10/the-scale-of-crimson-desert-just-got-even-more-absurd-after-new-ps5-dlc",
-    "https://www.purexbox.com/news/2026/10/heres-what-the-metro-redux-next-gen-upgrades-look-like-on-xbox-series-xs"
+    "https://www.purexbox.com/news/2026/10/heres-what-the-metro-redux-next-gen-upgrades-look-like-on-xbox-series-xs",
+    "https://gamerant.com/lego-ideas-21375-godzilla-set-final-design-box-leak/",
+    "https://www.purexbox.com/news/2026/10/turn-10-director-departs-microsoft-as-forza-studio-merges-with-playground-games",
+    "https://www.eurogamer.net/no-new-assassins-creed-games-in-development-ubisoft",
+    "https://www.pushsquare.com/news/2026/10/death-stranding-isolations-anime-tv-series-gets-first-trailer-out-in-2027"
   ],
   "seen_titles": [
-    "resident evil requiem's 'minigame' update may be just around the corner",
-    "forza horizon 6 dev reveals new details on events, progression & post-launch plans",
-    "magic: the gathering arena devs announce plans to unionise",
-    "kioku: last summer launches may 28",
     "shibuya scramble stories main cast announced",
     "landfall's rebecca lautner announced as speaker at game republic new horizons 2026",
     "nvidia has quietly announced the 12 gb rtx 5070 mobile in a geforce driver update, of all things",
@@ -10001,13 +9997,13 @@
     "nintendo reveals surprise pikmin day direct",
     "final fantasy xiv evercold delayed at tokyo fan fest",
     "the scale of crimson desert just got even more absurd after new ps5 dlc",
-    "here's what the metro redux next-gen upgrades look like on xbox series x|s"
+    "here's what the metro redux next-gen upgrades look like on xbox series x|s",
+    "gigantic lego set sighted in store ahead of november 2026 reveal",
+    "turn 10 director departs microsoft as forza studio merges with playground games",
+    "there are currently \"no other assassin's creed remakes actively in development\", says ubisoft",
+    "death stranding isolations anime tv series gets first trailer, out in 2027"
   ],
   "seen_story_keys": [
-    "75690032bd62fbaaf5fc081b1815fe9a9b207be0",
-    "9a1615dfc5ba25f2d689a0e7ae0bd96c443b380e",
-    "6c62dcc1fccd215d3c92b82b3f55341ec8d195dd",
-    "f9dcce9787f06ba4218a4beee78e391e60888e26",
     "bc9e6b872c8e94c6a686135c76888fef9c032459",
     "82f42bab9ab7203250879a4344aa9c4e51f23c4c",
     "47a79ee1b8005e369f86db5563c2d4046eb2ebab",
@@ -15003,6 +14999,10 @@
     "5b67212aca0a6e4592bcf06a222468d989a644f4",
     "defdc6ebbe399478c2c7473f287401e2be0d98f4",
     "1ccee1c0f01f0e7f943e060c4ec99d016cf2ccf8",
-    "ddab4b708f00597604a1471373623e480d860550"
+    "ddab4b708f00597604a1471373623e480d860550",
+    "0a5ca5f666bfc5c6a54c4535cdaec422ba2c7b86",
+    "a42cbeb0831344fbc0d1a6c309b429b28bffec36",
+    "4b1e82b2386d0d7470ff93226931e9b6c960224c",
+    "cfaa85732905ada6da3a74dfcecf70a99dca521d"
   ]
 }
