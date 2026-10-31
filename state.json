@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/ted-lasso-s4-release-date-trailer/",
-    "https://www.nintendolife.com/news/2026/04/bethesda-reminds-switch-2-fans-its-physical-code-in-box-editions-of-fallout-4-and-skyrim-are-now-available",
-    "https://www.pcgamer.com/games/third-person-shooter/a-new-game-in-the-division-series-just-shadowdropped-on-pc-and-its-free/",
-    "https://www.gematsu.com/2026/04/diorama-break-kickstarter-campaign-launched-japanese-inspired-strategy-rpg-where-you-talk-to-the-hero",
     "https://www.nintendolife.com/news/2026/04/resident-evil-requiems-minigame-update-may-be-just-around-the-corner",
     "https://www.purexbox.com/news/2026/04/forza-horizon-6-dev-reveals-new-details-on-events-progression-and-post-launch-plans",
     "https://www.gamesindustry.biz/magic-the-gathering-arena-devs-announce-plans-to-unionise",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/final-fantasy-14-evercold-zephyr-job-release-date",
     "https://www.pushsquare.com/news/2026/10/ps5-adds-another-free-open-world-game-to-your-rotation-with-surprise-silver-palace-release-date",
     "https://www.polygon.com/nintendo-hello-pikmin-direct-day-shigeru-miyamoto-switch-2/",
-    "https://www.nintendolife.com/news/2026/10/nintendo-drops-surprise-pikmin-day-direct"
+    "https://www.nintendolife.com/news/2026/10/nintendo-drops-surprise-pikmin-day-direct",
+    "https://www.ign.com/articles/nintendo-reveals-surprise-pikmin-day-direct",
+    "https://www.polygon.com/final-fantasy-xiv-evercold-release-date-delayed/",
+    "https://www.pushsquare.com/news/2026/10/the-scale-of-crimson-desert-just-got-even-more-absurd-after-new-ps5-dlc",
+    "https://www.purexbox.com/news/2026/10/heres-what-the-metro-redux-next-gen-upgrades-look-like-on-xbox-series-xs"
   ],
   "seen_titles": [
-    "appletv+ gives fans first ted lasso season 4 trailer & confirms release date",
-    "bethesda reminds switch 2 fans its \"physical code-in-box\" editions of fallout 4 and skyrim are now available",
-    "a new game in the division series just shadowdropped on pc, and it's free",
-    "diorama break kickstarter campaign launched – japanese-inspired strategy rpg where you talk to the hero",
     "resident evil requiem's 'minigame' update may be just around the corner",
     "forza horizon 6 dev reveals new details on events, progression & post-launch plans",
     "magic: the gathering arena devs announce plans to unionise",
@@ -10001,13 +9997,13 @@
     "final fantasy 14 reveals evercold’s second new job and february release date, with pre-orders opening next week",
     "ps5 adds another free open world game to your rotation with surprise silver palace release date",
     "nintendo reveals pikmin day surprise and new project hello! pikmin",
-    "nintendo drops surprise 'pikmin day' direct"
+    "nintendo drops surprise 'pikmin day' direct",
+    "nintendo reveals surprise pikmin day direct",
+    "final fantasy xiv evercold delayed at tokyo fan fest",
+    "the scale of crimson desert just got even more absurd after new ps5 dlc",
+    "here's what the metro redux next-gen upgrades look like on xbox series x|s"
   ],
   "seen_story_keys": [
-    "f1dd29c743196d56cdce1d18222cbf082f9fc41a",
-    "5cef84e3255c7968656f493bb3533f6f520e4679",
-    "313a514126a8e6cea8d54936e6dcd2b8c2d15922",
-    "23db926fbceadcea64e5f1a0c017e833779223db",
     "75690032bd62fbaaf5fc081b1815fe9a9b207be0",
     "9a1615dfc5ba25f2d689a0e7ae0bd96c443b380e",
     "6c62dcc1fccd215d3c92b82b3f55341ec8d195dd",
@@ -15003,6 +14999,10 @@
     "e5706d8b2b6465f8b9eaa18121cbb67caa29e1d4",
     "07b7cddb6cd1a364f5740c1c49d94bb36d8a62e3",
     "65e9fb802e6e8debf478173f75fc4a3a7a8cc7cf",
-    "8e5ac19439e3cfb7997a86786a907f0ec56c6790"
+    "8e5ac19439e3cfb7997a86786a907f0ec56c6790",
+    "5b67212aca0a6e4592bcf06a222468d989a644f4",
+    "defdc6ebbe399478c2c7473f287401e2be0d98f4",
+    "1ccee1c0f01f0e7f943e060c4ec99d016cf2ccf8",
+    "ddab4b708f00597604a1471373623e480d860550"
   ]
 }
