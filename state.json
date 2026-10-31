@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/blood-of-dawnwalker-release-date-witcher-4/",
-    "https://www.pushsquare.com/news/2026/04/dawnwalker-is-ps5s-most-promising-rpg-chomps-down-on-september-release-date",
-    "https://www.pcgamer.com/games/action/nte-release-date-launch-times/",
-    "https://gamerant.com/resident-evil-requiem-first-or-third-person-mode/",
     "https://www.gematsu.com/2026/04/the-blood-of-dawnwalker-launches-september-3",
     "https://www.pcgamer.com/games/fallout/fallout-co-creator-wants-to-make-one-last-game-before-he-retires-for-the-second-time/",
     "https://gamerant.com/ac-black-flag-resynced-map-assassins-creed/",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/dark-souls-servers-temporarily-shutting-down-fromsoftware",
     "https://www.polygon.com/petit-planet-release-date-trailer/",
     "https://www.polygon.com/dc-my-adventures-with-green-lantern-episode-count-revealed/",
-    "https://www.pushsquare.com/news/2026/10/new-mass-effect-cancelled-so-ea-can-focus-on-star-wars-battlefront-3"
+    "https://www.pushsquare.com/news/2026/10/new-mass-effect-cancelled-so-ea-can-focus-on-star-wars-battlefront-3",
+    "https://www.ign.com/articles/chronicles-medieval-developer-at-real-risk-of-closing-before-release-as-funding-no-longer-in-place",
+    "https://www.ign.com/articles/xboxs-doom-wolfenstein-developers-working-more-closely-than-ever-following-xbox-reset-layoffs",
+    "https://www.gematsu.com/2026/10/world-of-horror-as-below-so-above-update-now-available-for-pc-launches-in-2027-for-ps4-and-switch",
+    "https://www.nintendolife.com/news/2026/10/nintendo-cancels-kirby-air-riders-halloween-event-following-performance-woes"
   ],
   "seen_titles": [
-    "ex-witcher devs' new rpg blood of dawnwalker gets 2026 release date",
-    "dawnwalker is ps5's most promising rpg, chomps down on september release date",
-    "here's the neverness to everness release date and time for your region",
-    "resident evil requiem dev reveals player preference data for first and third-person",
     "the blood of dawnwalker launches september 3",
     "fallout co-creator wants to make one last game before he retires 'for the second time'",
     "assassin's creed black flag resynced map revealed",
@@ -10001,13 +9997,13 @@
     "dark souls 2 and dark souls 3's online servers are temporarily going dark, fromsoftware announces",
     "animal crossing’s biggest competitor officially launches in december",
     "hbo’s new green lantern series officially gets an important update",
-    "new mass effect cancelled so ea can focus on star wars battlefront 3"
+    "new mass effect cancelled so ea can focus on star wars battlefront 3",
+    "chronicles: medieval developer 'at real risk of closing' before release as funding 'no longer in place'",
+    "xbox's doom, wolfenstein developers working 'more closely than ever' following xbox 'reset' layoffs",
+    "world of horror ‘as below so above’ update now available for pc, launches in 2027 for ps4 and switch",
+    "nintendo cancels kirby air riders halloween event following performance woes"
   ],
   "seen_story_keys": [
-    "67bf53472392d1a9d35b14fa7eb2b3b0060f42a6",
-    "7369cb1fcee95b7036084022cd80821c005ccc50",
-    "b5327c94c325013e444a301bf24a055f72da44ca",
-    "80caed8d8cf71b657118914860bdd1e5498f71c0",
     "169e4cad0d91cf4ddda7a59b2ad29966e62b4cb4",
     "daf1e74df31ee0b7a972bf4541c1d065bb227368",
     "ffb6c583b54fbbd434adace4d5162fb81eb903d3",
@@ -15003,6 +14999,10 @@
     "70c6f2b07ec9c53b775abb664612fc86523e6d7e",
     "57be2a2598e2dfb962eae054dfde41a42e6bc788",
     "7d657c06f5d00bbf77731ca887f1406dac037279",
-    "e0c81210e9344453356e36c73ac931bb6b1ca784"
+    "e0c81210e9344453356e36c73ac931bb6b1ca784",
+    "56845685129a75d5cff0baf2e76269f2b5501859",
+    "65246225ff135f18e62463ea0499eb5ce81d2e13",
+    "830e0d5d3beaa7c568241d5e3addb10dd78d31a1",
+    "a9d54314a3df2f6fe920c2f75af2970d58e5cbbe"
   ]
 }
