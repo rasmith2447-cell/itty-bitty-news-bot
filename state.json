@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/the-blood-of-dawnwalker-launches-september-3",
-    "https://www.pcgamer.com/games/fallout/fallout-co-creator-wants-to-make-one-last-game-before-he-retires-for-the-second-time/",
-    "https://gamerant.com/ac-black-flag-resynced-map-assassins-creed/",
-    "https://gamerant.com/wuthering-waves-wuwa-33-release-date-time-update-maintenance-ends-countdown/",
     "https://www.nintendolife.com/news/2026/04/mortal-kombat-legacy-kollection-update-out-now-here-are-the-full-patch-notes",
     "https://www.pushsquare.com/news/2026/04/sonys-lost-soul-aside-was-rough-at-launch-but-another-impressive-ps5-patch-is-out-now",
     "https://www.gematsu.com/2026/04/co-op-roguelite-action-rpg-above-land-rhapsody-announced-for-pc",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/chronicles-medieval-developer-at-real-risk-of-closing-before-release-as-funding-no-longer-in-place",
     "https://www.ign.com/articles/xboxs-doom-wolfenstein-developers-working-more-closely-than-ever-following-xbox-reset-layoffs",
     "https://www.gematsu.com/2026/10/world-of-horror-as-below-so-above-update-now-available-for-pc-launches-in-2027-for-ps4-and-switch",
-    "https://www.nintendolife.com/news/2026/10/nintendo-cancels-kirby-air-riders-halloween-event-following-performance-woes"
+    "https://www.nintendolife.com/news/2026/10/nintendo-cancels-kirby-air-riders-halloween-event-following-performance-woes",
+    "https://www.gematsu.com/2026/10/final-fantasy-xiv-evercold-expansion-delayed-to-february-23-2027",
+    "https://www.gematsu.com/2026/10/silver-palace-launches-december-14",
+    "https://www.nintendolife.com/news/2026/10/final-fantasy-xiv-onlines-sixth-expansion-evercold-launches-february-2027",
+    "https://www.ign.com/articles/final-fantasy-xiv-evercold-delayed-new-release-date-announced-at-ffxiv-fan-fest"
   ],
   "seen_titles": [
-    "the blood of dawnwalker launches september 3",
-    "fallout co-creator wants to make one last game before he retires 'for the second time'",
-    "assassin's creed black flag resynced map revealed",
-    "wuwa 3.3 release time countdown (wuthering waves)",
     "mortal kombat: legacy kollection update out now, here are the full patch notes",
     "sony's lost soul aside was rough at launch, but another impressive ps5 patch is out now",
     "co-op roguelite action rpg above land: rhapsody announced for pc",
@@ -10001,13 +9997,13 @@
     "chronicles: medieval developer 'at real risk of closing' before release as funding 'no longer in place'",
     "xbox's doom, wolfenstein developers working 'more closely than ever' following xbox 'reset' layoffs",
     "world of horror ‘as below so above’ update now available for pc, launches in 2027 for ps4 and switch",
-    "nintendo cancels kirby air riders halloween event following performance woes"
+    "nintendo cancels kirby air riders halloween event following performance woes",
+    "final fantasy xiv: evercold expansion delayed to february 23, 2027",
+    "silver palace launches december 14",
+    "final fantasy xiv online's sixth expansion 'evercold' launches february 2027",
+    "final fantasy xiv evercold delayed, new release date announced at ffxiv fan fest"
   ],
   "seen_story_keys": [
-    "169e4cad0d91cf4ddda7a59b2ad29966e62b4cb4",
-    "daf1e74df31ee0b7a972bf4541c1d065bb227368",
-    "ffb6c583b54fbbd434adace4d5162fb81eb903d3",
-    "6730dda275e8e9c60d948758ffe73c567305d997",
     "6923eb7ec8511f00676aa9c483765278e9293305",
     "a94e95aa7de5e49ff58370d2af0ff220d139fd64",
     "81116322129fa8113121905795881e5f4149d5dc",
@@ -15003,6 +14999,10 @@
     "56845685129a75d5cff0baf2e76269f2b5501859",
     "65246225ff135f18e62463ea0499eb5ce81d2e13",
     "830e0d5d3beaa7c568241d5e3addb10dd78d31a1",
-    "a9d54314a3df2f6fe920c2f75af2970d58e5cbbe"
+    "a9d54314a3df2f6fe920c2f75af2970d58e5cbbe",
+    "065179396d7f73964442f95c1602cb2550d13e86",
+    "ffbb03e63dcad8bc774ecb6025a1c71f3ccf8e69",
+    "b34fe17ab19e4ab92dc356e4493113867bce2c86",
+    "a3e0f87a9f6334128e45402e9d70d656c5a68c6a"
   ]
 }
