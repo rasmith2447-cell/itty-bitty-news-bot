@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/04/mortal-kombat-legacy-kollection-update-out-now-here-are-the-full-patch-notes",
-    "https://www.pushsquare.com/news/2026/04/sonys-lost-soul-aside-was-rough-at-launch-but-another-impressive-ps5-patch-is-out-now",
-    "https://www.gematsu.com/2026/04/co-op-roguelite-action-rpg-above-land-rhapsody-announced-for-pc",
-    "https://gamerant.com/final-fantasy-14-graha-tia-voice-7-5-patch-change/",
     "https://gamerant.com/ted-lasso-s4-release-date-trailer/",
     "https://www.nintendolife.com/news/2026/04/bethesda-reminds-switch-2-fans-its-physical-code-in-box-editions-of-fallout-4-and-skyrim-are-now-available",
     "https://www.pcgamer.com/games/third-person-shooter/a-new-game-in-the-division-series-just-shadowdropped-on-pc-and-its-free/",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/10/final-fantasy-xiv-evercold-expansion-delayed-to-february-23-2027",
     "https://www.gematsu.com/2026/10/silver-palace-launches-december-14",
     "https://www.nintendolife.com/news/2026/10/final-fantasy-xiv-onlines-sixth-expansion-evercold-launches-february-2027",
-    "https://www.ign.com/articles/final-fantasy-xiv-evercold-delayed-new-release-date-announced-at-ffxiv-fan-fest"
+    "https://www.ign.com/articles/final-fantasy-xiv-evercold-delayed-new-release-date-announced-at-ffxiv-fan-fest",
+    "https://www.eurogamer.net/final-fantasy-14-evercold-zephyr-job-release-date",
+    "https://www.pushsquare.com/news/2026/10/ps5-adds-another-free-open-world-game-to-your-rotation-with-surprise-silver-palace-release-date",
+    "https://www.polygon.com/nintendo-hello-pikmin-direct-day-shigeru-miyamoto-switch-2/",
+    "https://www.nintendolife.com/news/2026/10/nintendo-drops-surprise-pikmin-day-direct"
   ],
   "seen_titles": [
-    "mortal kombat: legacy kollection update out now, here are the full patch notes",
-    "sony's lost soul aside was rough at launch, but another impressive ps5 patch is out now",
-    "co-op roguelite action rpg above land: rhapsody announced for pc",
-    "final fantasy 14 7.5 patch addresses recent g’raha tia controversy",
     "appletv+ gives fans first ted lasso season 4 trailer & confirms release date",
     "bethesda reminds switch 2 fans its \"physical code-in-box\" editions of fallout 4 and skyrim are now available",
     "a new game in the division series just shadowdropped on pc, and it's free",
@@ -10001,13 +9997,13 @@
     "final fantasy xiv: evercold expansion delayed to february 23, 2027",
     "silver palace launches december 14",
     "final fantasy xiv online's sixth expansion 'evercold' launches february 2027",
-    "final fantasy xiv evercold delayed, new release date announced at ffxiv fan fest"
+    "final fantasy xiv evercold delayed, new release date announced at ffxiv fan fest",
+    "final fantasy 14 reveals evercold’s second new job and february release date, with pre-orders opening next week",
+    "ps5 adds another free open world game to your rotation with surprise silver palace release date",
+    "nintendo reveals pikmin day surprise and new project hello! pikmin",
+    "nintendo drops surprise 'pikmin day' direct"
   ],
   "seen_story_keys": [
-    "6923eb7ec8511f00676aa9c483765278e9293305",
-    "a94e95aa7de5e49ff58370d2af0ff220d139fd64",
-    "81116322129fa8113121905795881e5f4149d5dc",
-    "3cdafa8d5de5de69c0c0c1811e52c55d6a9d531b",
     "f1dd29c743196d56cdce1d18222cbf082f9fc41a",
     "5cef84e3255c7968656f493bb3533f6f520e4679",
     "313a514126a8e6cea8d54936e6dcd2b8c2d15922",
@@ -15003,6 +14999,10 @@
     "065179396d7f73964442f95c1602cb2550d13e86",
     "ffbb03e63dcad8bc774ecb6025a1c71f3ccf8e69",
     "b34fe17ab19e4ab92dc356e4493113867bce2c86",
-    "a3e0f87a9f6334128e45402e9d70d656c5a68c6a"
+    "a3e0f87a9f6334128e45402e9d70d656c5a68c6a",
+    "e5706d8b2b6465f8b9eaa18121cbb67caa29e1d4",
+    "07b7cddb6cd1a364f5740c1c49d94bb36d8a62e3",
+    "65e9fb802e6e8debf478173f75fc4a3a7a8cc7cf",
+    "8e5ac19439e3cfb7997a86786a907f0ec56c6790"
   ]
 }
