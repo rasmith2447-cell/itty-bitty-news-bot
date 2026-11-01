@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/over-requiemz-launches-august-20-in-the-west",
-    "https://www.eurogamer.net/windrose-first-content-update-details",
-    "https://www.rockpapershotgun.com/were-a-number-on-a-ledger-ex-elder-scrolls-online-studio-head-says-microsoft-cancelling-project-blackbird-was-a-missed-opportunity",
     "https://www.purexbox.com/news/2026/04/former-eso-lead-speaks-out-on-xboxs-decision-to-cancel-new-zenimax-mmo",
     "https://gamerant.com/windrose-updates-when-roadmap-ashlands/",
     "https://www.polygon.com/steam-mewgenics-patch-notes-tinkerer-mage-buff-changes/",
@@ -4999,12 +4996,12 @@
     "https://www.gematsu.com/2026/10/the-grimm-reapress-and-the-drearytale-monster-launches-may-13-2027-in-the-west",
     "https://www.purexbox.com/news/2026/11/blizzard-is-getting-our-hopes-up-again-for-world-of-warcraft-on-xbox",
     "https://www.eurogamer.net/pikmin-4-switch-2-edition-release-date-demo",
-    "https://www.nintendolife.com/news/2026/11/capcom-officially-reveals-fourth-mega-man-dual-override-robot-master"
+    "https://www.nintendolife.com/news/2026/11/capcom-officially-reveals-fourth-mega-man-dual-override-robot-master",
+    "https://www.polygon.com/john-romero-game-new-publisher/",
+    "https://www.pcgamer.com/games/sim/chronicles-medieval-developer-faces-imminent-closure-after-losing-funding-what-makes-it-hurt-is-how-close-we-are-early-access-is-in-reach/",
+    "https://www.polygon.com/itch-io-doubled-game-pages-ai-slop/"
   ],
   "seen_titles": [
-    "over requiemz launches august 20 in the west",
-    "windrose studio outlines pirate survival hit's eagerly awaited first major content update, but it sounds like there'll be a bit of a wait",
-    "“we’re a number on a ledger\": ex-elder scrolls online studio head says microsoft cancelling project blackbird was a \"missed opportunity\"",
     "former eso lead speaks out on xbox's decision to cancel new zenimax mmo",
     "windrose reveals 2026 roadmap, confirms first major update is called ashlands",
     "this steam cat game just got 2026's most unhinged patch notes",
@@ -10001,12 +9998,12 @@
     "the grimm reapress and the drearytale monster launches may 13, 2027 in the west",
     "blizzard is getting our hopes up again for world of warcraft on xbox",
     "pikmin 4 nintendo switch 2 edition launches 12th november and a demo is out tomorrow",
-    "capcom officially reveals fourth mega man: dual override robot master"
+    "capcom officially reveals fourth mega man: dual override robot master",
+    "doom creator john romero revives xbox-canceled game at new publisher",
+    "chronicles: medieval developer faces imminent closure after losing funding: 'what makes it hurt is how close we are. early access is in reach'",
+    "itch.io reveals just how much ai slop is flooding gaming storefronts"
   ],
   "seen_story_keys": [
-    "8e48c40faebc2af15bf411e7f5a658fc97ea3a27",
-    "a08f6deedf80c386ef4f4e3cc3e6f97a4706e195",
-    "7bee7b30dd314ccff4c4f23c61bcd930cb48e76c",
     "da61be0388654672d06fb6bc415e0daa8c9d73db",
     "78d108914585d8936c5205634ab9fbe916ecd18c",
     "2ee1d1fcbd57fbcdf59e66d340c2d8b34c861115",
@@ -15003,6 +15000,9 @@
     "ae78a9e9613a54f86ed37ad7a6204a2ef438f5f2",
     "7ac99efb85dca50252e7c3d08c01eb5b38bb15b4",
     "1a2dd05105587a6923a6e95b7016398e2b031bf2",
-    "b89972ceb98bc8a9190c9d3371134bad821e7b4f"
+    "b89972ceb98bc8a9190c9d3371134bad821e7b4f",
+    "979e5e5ba63ed982e28305c4e8fac342ca4b5a9a",
+    "57ab2d2b482ebf24fdd902374a0df968762a43be",
+    "6fa09c6610961fe1be2b89fdd6300a810c0f835e"
   ]
 }
