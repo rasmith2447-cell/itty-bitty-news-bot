@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/warhammer-40000-speed-freeks-for-ps5-xbox-series-launches-may-21",
-    "https://www.pushsquare.com/news/2026/04/final-fantasy-7-remake-part-3-reveal-being-prepared-says-square-enix",
-    "https://www.pcgamer.com/games/resident-evil/resident-evil-9s-director-reveals-there-was-a-phantom-chapter-2-that-was-cut-in-the-process-of-finalising-the-games-structure/",
     "https://www.gematsu.com/2026/04/over-requiemz-launches-august-20-in-the-west",
     "https://www.eurogamer.net/windrose-first-content-update-details",
     "https://www.rockpapershotgun.com/were-a-number-on-a-ledger-ex-elder-scrolls-online-studio-head-says-microsoft-cancelling-project-blackbird-was-a-missed-opportunity",
@@ -4999,12 +4996,12 @@
     "https://www.gematsu.com/2026/10/the-duskbloods-delayed-to-2027",
     "https://www.gematsu.com/2026/10/grand-theft-auto-vi-original-score-launches-december-11",
     "https://www.nintendolife.com/news/2026/11/watch-nintendo-treehouse-play-pikmin-4-nintendo-switch-2-edition-plus-dandori-academy",
-    "https://www.gematsu.com/2026/10/the-grimm-reapress-and-the-drearytale-monster-launches-may-13-2027-in-the-west"
+    "https://www.gematsu.com/2026/10/the-grimm-reapress-and-the-drearytale-monster-launches-may-13-2027-in-the-west",
+    "https://www.purexbox.com/news/2026/11/blizzard-is-getting-our-hopes-up-again-for-world-of-warcraft-on-xbox",
+    "https://www.eurogamer.net/pikmin-4-switch-2-edition-release-date-demo",
+    "https://www.nintendolife.com/news/2026/11/capcom-officially-reveals-fourth-mega-man-dual-override-robot-master"
   ],
   "seen_titles": [
-    "warhammer 40,000: speed freeks for ps5, xbox series launches may 21",
-    "final fantasy 7 remake part 3 reveal being prepared, says square enix",
-    "resident evil 9's director reveals there was a 'phantom chapter 2' that was cut 'in the process of finalising the game's structure'",
     "over requiemz launches august 20 in the west",
     "windrose studio outlines pirate survival hit's eagerly awaited first major content update, but it sounds like there'll be a bit of a wait",
     "“we’re a number on a ledger\": ex-elder scrolls online studio head says microsoft cancelling project blackbird was a \"missed opportunity\"",
@@ -10001,12 +9998,12 @@
     "the duskbloods delayed to 2027",
     "grand theft auto vi: original score launches december 11",
     "watch: nintendo treehouse play pikmin 4 - nintendo switch 2 edition + dandori academy",
-    "the grimm reapress and the drearytale monster launches may 13, 2027 in the west"
+    "the grimm reapress and the drearytale monster launches may 13, 2027 in the west",
+    "blizzard is getting our hopes up again for world of warcraft on xbox",
+    "pikmin 4 nintendo switch 2 edition launches 12th november and a demo is out tomorrow",
+    "capcom officially reveals fourth mega man: dual override robot master"
   ],
   "seen_story_keys": [
-    "a4047b04a9da0c986505dd13424f6d22cccdc1d6",
-    "2fe8add5a9d1e82440f009499a37827ddfb4f99e",
-    "48f389b877c25b35c9df4bcb6bf16fd1ced9379c",
     "8e48c40faebc2af15bf411e7f5a658fc97ea3a27",
     "a08f6deedf80c386ef4f4e3cc3e6f97a4706e195",
     "7bee7b30dd314ccff4c4f23c61bcd930cb48e76c",
@@ -15003,6 +15000,9 @@
     "a4ff6a527088ea0cb8be9ac3af67e22619e2ce7d",
     "fe99ab8499132cecb9c4087c80d9491a0c214117",
     "53ab96101a36b7f494c5d16470978082429ba578",
-    "ae78a9e9613a54f86ed37ad7a6204a2ef438f5f2"
+    "ae78a9e9613a54f86ed37ad7a6204a2ef438f5f2",
+    "7ac99efb85dca50252e7c3d08c01eb5b38bb15b4",
+    "1a2dd05105587a6923a6e95b7016398e2b031bf2",
+    "b89972ceb98bc8a9190c9d3371134bad821e7b4f"
   ]
 }
