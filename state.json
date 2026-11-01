@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/shibuya-scramble-stories-main-cast-announced",
-    "https://www.gamesindustry.biz/landfalls-rebecca-lautner-announced-as-speaker-at-game-republic-new-horizons-2026",
-    "https://www.pcgamer.com/hardware/graphics-cards/nvidia-has-quietly-announced-the-12-gb-rtx-5070-mobile-in-a-geforce-driver-update-of-all-things/",
-    "https://gamerant.com/directive-8020-how-many-endings-character-deaths/",
     "https://www.rockpapershotgun.com/a-next-gen-steam-deck-would-do-the-same-valve-are-already-eyeing-steam-controller-hardware-upgrades-to-reuse-in-future-handhelds",
     "https://www.pushsquare.com/news/2026/04/mortal-kombat-legacy-kollection-adds-crossplay-ps5-vrr-support-more-in-massive-free-update",
     "https://www.gematsu.com/2026/04/warhammer-40000-speed-freeks-for-ps5-xbox-series-launches-may-21",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/lego-ideas-21375-godzilla-set-final-design-box-leak/",
     "https://www.purexbox.com/news/2026/10/turn-10-director-departs-microsoft-as-forza-studio-merges-with-playground-games",
     "https://www.eurogamer.net/no-new-assassins-creed-games-in-development-ubisoft",
-    "https://www.pushsquare.com/news/2026/10/death-stranding-isolations-anime-tv-series-gets-first-trailer-out-in-2027"
+    "https://www.pushsquare.com/news/2026/10/death-stranding-isolations-anime-tv-series-gets-first-trailer-out-in-2027",
+    "https://gamerant.com/pokemon-tcg-mcdonalds-promo-2027-early/",
+    "https://www.gamesindustry.biz/why-asking-whats-the-budget-for-your-game-doesnt-make-sense-in-2026-opinion",
+    "https://www.gematsu.com/2026/10/the-duskbloods-delayed-to-2027",
+    "https://www.gematsu.com/2026/10/grand-theft-auto-vi-original-score-launches-december-11"
   ],
   "seen_titles": [
-    "shibuya scramble stories main cast announced",
-    "landfall's rebecca lautner announced as speaker at game republic new horizons 2026",
-    "nvidia has quietly announced the 12 gb rtx 5070 mobile in a geforce driver update, of all things",
-    "directive 8020 features supermassive's most lethal finale yet",
     "\"a next-gen steam deck would do the same\": valve are already eyeing steam controller hardware upgrades to reuse in future handhelds",
     "mortal kombat legacy kollection adds crossplay, ps5 vrr support, more in massive free update",
     "warhammer 40,000: speed freeks for ps5, xbox series launches may 21",
@@ -10001,13 +9997,13 @@
     "gigantic lego set sighted in store ahead of november 2026 reveal",
     "turn 10 director departs microsoft as forza studio merges with playground games",
     "there are currently \"no other assassin's creed remakes actively in development\", says ubisoft",
-    "death stranding isolations anime tv series gets first trailer, out in 2027"
+    "death stranding isolations anime tv series gets first trailer, out in 2027",
+    "pokemon tcg reveals new promo cards a year before release",
+    "why asking \"what's the budget for your game?\" doesn't make sense in 2026 | opinion",
+    "the duskbloods delayed to 2027",
+    "grand theft auto vi: original score launches december 11"
   ],
   "seen_story_keys": [
-    "bc9e6b872c8e94c6a686135c76888fef9c032459",
-    "82f42bab9ab7203250879a4344aa9c4e51f23c4c",
-    "47a79ee1b8005e369f86db5563c2d4046eb2ebab",
-    "61de90ed0e371bb930f2e920f070aa16e3e811a2",
     "5cd8a725e8af7b6450b0a388ae8dea9fe34908a6",
     "44633097f164dcde37e4d53079c514cdda6f0ad9",
     "a4047b04a9da0c986505dd13424f6d22cccdc1d6",
@@ -15003,6 +14999,10 @@
     "0a5ca5f666bfc5c6a54c4535cdaec422ba2c7b86",
     "a42cbeb0831344fbc0d1a6c309b429b28bffec36",
     "4b1e82b2386d0d7470ff93226931e9b6c960224c",
-    "cfaa85732905ada6da3a74dfcecf70a99dca521d"
+    "cfaa85732905ada6da3a74dfcecf70a99dca521d",
+    "ee47214fdcb6aa10dfd8c628afd1fd20c9e6a2a5",
+    "eb87cfef7ae03d47a97d8795a599e5fba6a622bd",
+    "a4ff6a527088ea0cb8be9ac3af67e22619e2ce7d",
+    "fe99ab8499132cecb9c4087c80d9491a0c214117"
   ]
 }
