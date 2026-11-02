@@ -28,6 +28,7 @@ YOUTUBE_URL         = env("YOUTUBE_URL", "https://www.youtube.com/@smitty-2447")
 PODCAST_URL         = env("PODCAST_URL", "https://podcasts.apple.com/us/podcast/itty-bitty-gaming-news/id1711880008")
 LOGO_URL            = env("LOGO_URL", "https://raw.githubusercontent.com/rasmith2447-cell/itty-bitty-news-bot/main/Itty%20Bitty%20Gaming%20News%20Logo%20V.2.png")
 TAGLINE             = "And that's your Itty Bitty Gaming News!"
+WEBSITE_URL         = env("WEBSITE_URL", "https://hubworld.tv")
 
 # IGDB config
 IGDB_CLIENT_ID      = env("IGDB_CLIENT_ID")
@@ -697,6 +698,21 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
             </td>
           </tr>
 
+          <!-- HUBWORLD CTA -->
+          <tr>
+            <td style="background:#0f0f24;padding:0 30px 28px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td align="center" style="background:#1a1a2e;border:1px solid #1e3a8a;border-left:4px solid #4A9EFF;border-radius:10px;padding:22px 20px;">
+                    <p style="margin:0 0 6px;font-family:'Courier New',monospace;font-size:12px;color:#4A9EFF;letter-spacing:2px;text-transform:uppercase;">📺 Now Streaming</p>
+                    <p style="margin:0 0 14px;font-family:Arial,sans-serif;font-size:16px;color:#ffffff;line-height:1.5;">Watch Itty Bitty Gaming News anytime on <strong>HubWorld.tv</strong></p>
+                    <a href="{WEBSITE_URL}" style="display:inline-block;background:#4A9EFF;border-radius:8px;padding:12px 26px;font-family:'Courier New',monospace;font-size:13px;font-weight:bold;color:#080812;text-decoration:none;letter-spacing:1px;" target="_blank">▶ Watch on HubWorld.tv</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
           {youtube_section}
 
           {gotw_section}
@@ -751,6 +767,9 @@ def build_html_email(stories: list, date_str: str, latest_yt_url: str = None) ->
                   <td align="center">
                     <table cellpadding="0" cellspacing="0" border="0">
                       <tr>
+                        <td style="padding:0 8px;">
+                          <a href="{WEBSITE_URL}" style="display:inline-block;background:#1e1e3f;border:1px solid #1e3a8a;border-radius:8px;padding:10px 18px;font-family:'Courier New',monospace;font-size:12px;color:#ffffff;text-decoration:none;letter-spacing:1px;" target="_blank">📺 HubWorld.tv</a>
+                        </td>
                         <td style="padding:0 8px;">
                           <a href="{yt_link}" style="display:inline-block;background:#1e1e3f;border:1px solid #1e3a8a;border-radius:8px;padding:10px 18px;font-family:'Courier New',monospace;font-size:12px;color:#ffffff;text-decoration:none;letter-spacing:1px;" target="_blank">🎬 Latest Video</a>
                         </td>
