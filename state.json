@@ -1,6 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/steam-mewgenics-patch-notes-tinkerer-mage-buff-changes/",
     "https://www.pcgamer.com/gaming-industry/6-weeks-after-releasing-greedfall-the-dying-world-famed-eurojank-studio-spiders-is-closing/",
     "https://www.pcgamer.com/games/roguelike/mewgenics-biggest-patch-yet-is-on-the-way-with-a-huge-balance-overhaul-changes-to-the-breeding-system-and-hitlers-suicide-can-no-longer-miss-which-is-a-relief/",
     "https://www.purexbox.com/news/2026/04/wasteland-remastered-dev-promises-to-reward-xbox-fans-for-error-that-made-it-free",
@@ -4999,10 +4998,10 @@
     "https://www.pcgamer.com/games/sim/chronicles-medieval-developer-faces-imminent-closure-after-losing-funding-what-makes-it-hurt-is-how-close-we-are-early-access-is-in-reach/",
     "https://www.polygon.com/itch-io-doubled-game-pages-ai-slop/",
     "https://www.rockpapershotgun.com/dune-awakenings-seasonally-appropriate-blood-and-ice-expansion-gets-a-december-release-date-and-in-a-plus-for-preservation-an-offline-mode-this-month",
-    "https://gamerant.com/official-zelda-switch-2-console-restocks-have-a-release-date/"
+    "https://gamerant.com/official-zelda-switch-2-console-restocks-have-a-release-date/",
+    "https://www.polygon.com/pokemon-bank-shutting-down-end-date-2027/"
   ],
   "seen_titles": [
-    "this steam cat game just got 2026's most unhinged patch notes",
     "6 weeks after releasing greedfall: the dying world, famed eurojank studio spiders is closing",
     "mewgenics' biggest patch yet is on the way with a huge balance overhaul, changes to the breeding system, and 'hitler's suicide can no longer miss', which is a relief",
     "wasteland remastered dev promises to reward xbox fans for 'error' that made it free",
@@ -10001,10 +10000,10 @@
     "chronicles: medieval developer faces imminent closure after losing funding: 'what makes it hurt is how close we are. early access is in reach'",
     "itch.io reveals just how much ai slop is flooding gaming storefronts",
     "dune: awakening's seasonally appropriate blood and ice expansion gets a december release date, and in a plus for preservation, an offline mode this month",
-    "official zelda switch 2 console restocks have a release date"
+    "official zelda switch 2 console restocks have a release date",
+    "pokémon bank service is shutting down in 2027"
   ],
   "seen_story_keys": [
-    "2ee1d1fcbd57fbcdf59e66d340c2d8b34c861115",
     "96d3795375fecd4060213955c654d1f52fd5f4ed",
     "eb3ceb47e18ebc33f24823c016033d7f9cef1354",
     "1e53246d300785d6b8e08c607c7d1151c54cf6a4",
@@ -15003,6 +15002,7 @@
     "57ab2d2b482ebf24fdd902374a0df968762a43be",
     "6fa09c6610961fe1be2b89fdd6300a810c0f835e",
     "192eb584b7ec1fb8f9224e9adf5e7bb3ed6d4c82",
-    "85743a8fb9777e2ed2c1d36fdd61315947c698a0"
+    "85743a8fb9777e2ed2c1d36fdd61315947c698a0",
+    "0b93511b782309ab2f118c2b3bd394b67439a57d"
   ]
 }
