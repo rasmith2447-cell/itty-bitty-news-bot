@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/roguelike/mewgenics-biggest-patch-yet-is-on-the-way-with-a-huge-balance-overhaul-changes-to-the-breeding-system-and-hitlers-suicide-can-no-longer-miss-which-is-a-relief/",
-    "https://www.purexbox.com/news/2026/04/wasteland-remastered-dev-promises-to-reward-xbox-fans-for-error-that-made-it-free",
-    "https://www.pushsquare.com/news/2026/04/ex-witcher-devs-dawnwalker-rpg-is-55-70-hours-long-despite-the-games-time-limit",
-    "https://gamerant.com/grounded-2-update-patch-notes-april-2026/",
     "https://www.pushsquare.com/news/2026/04/steelrising-greedfall-ps5-dev-spiders-confirms-its-closing-its-doors",
     "https://www.gematsu.com/2026/04/nba-the-run-launches-in-june",
     "https://gamerant.com/new-romance-games-silent-whispers/",
@@ -4999,13 +4995,13 @@
     "https://www.rockpapershotgun.com/dune-awakenings-seasonally-appropriate-blood-and-ice-expansion-gets-a-december-release-date-and-in-a-plus-for-preservation-an-offline-mode-this-month",
     "https://gamerant.com/official-zelda-switch-2-console-restocks-have-a-release-date/",
     "https://www.polygon.com/pokemon-bank-shutting-down-end-date-2027/",
-    "https://www.nintendolife.com/news/2026/11/hoyoverse-announces-cosy-galactic-life-sim-petit-planet-for-switch-2"
+    "https://www.nintendolife.com/news/2026/11/hoyoverse-announces-cosy-galactic-life-sim-petit-planet-for-switch-2",
+    "https://www.purexbox.com/news/2026/11/too-big-a-risk-game-developer-sparks-debate-after-delaying-playtest-due-to-ai-concerns",
+    "https://www.pcgamer.com/games/new-cozy-games-november-2026/",
+    "https://www.polygon.com/legend-of-zelda-ocarina-of-time-remake-studio-revealed/",
+    "https://www.gematsu.com/2026/11/ova-magica-for-ps5-xbox-series-switch-2-ps4-xbox-one-and-switch-launches-november-10"
   ],
   "seen_titles": [
-    "mewgenics' biggest patch yet is on the way with a huge balance overhaul, changes to the breeding system, and 'hitler's suicide can no longer miss', which is a relief",
-    "wasteland remastered dev promises to reward xbox fans for 'error' that made it free",
-    "ex-witcher dev's dawnwalker rpg is 55-70 hours long, despite the game's 'time limit'",
-    "grounded 2 releases patch notes for april update",
     "steelrising, greedfall ps5 dev spiders confirms it's closing its doors",
     "nba the run launches in june",
     "new romance game silent whispers is already blowing up",
@@ -10001,13 +9997,13 @@
     "dune: awakening's seasonally appropriate blood and ice expansion gets a december release date, and in a plus for preservation, an offline mode this month",
     "official zelda switch 2 console restocks have a release date",
     "pokémon bank service is shutting down in 2027",
-    "hoyoverse announces cosy galactic life sim 'petit planet' for switch 2"
+    "hoyoverse announces cosy galactic life sim 'petit planet' for switch 2",
+    "'too big a risk' - game developer sparks debate after delaying playtest due to ai concerns",
+    "the 28 cozy game launches in november technically include 3 horse games, which is actually a lot for the eternally underserved horse gamers",
+    "the legend of zelda: ocarina of time remake studio officially revealed",
+    "ova magica for ps5, xbox series, switch 2, ps4, xbox one, and switch launches november 10"
   ],
   "seen_story_keys": [
-    "eb3ceb47e18ebc33f24823c016033d7f9cef1354",
-    "1e53246d300785d6b8e08c607c7d1151c54cf6a4",
-    "6145ed7837f1cb8d464f1142d56b4d013af59c67",
-    "623229a2ebffe75072996904459804e8b1d30b18",
     "6f074882770c1521d55f819d076f54b158328fa0",
     "01fe2501101a33ee1d6a0cc494336a93f2da78d7",
     "fab29bb89fae2f399da0905b7ec3618646aa28ee",
@@ -15003,6 +14999,10 @@
     "192eb584b7ec1fb8f9224e9adf5e7bb3ed6d4c82",
     "85743a8fb9777e2ed2c1d36fdd61315947c698a0",
     "0b93511b782309ab2f118c2b3bd394b67439a57d",
-    "d0f232ced8040c15ee186c3ee2089ffc18110322"
+    "d0f232ced8040c15ee186c3ee2089ffc18110322",
+    "79829c6a41b59fba9a4a648df23eb553c8f3c7c0",
+    "52d602bdc58c7f6033380f991dd7a52802977566",
+    "34e232957cfb1fb7cbeb994602f8ce822558323d",
+    "deaed74741dc4da84017eb1a74f1ddc238d3dc4f"
   ]
 }
