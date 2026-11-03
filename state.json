@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/nacons-collapse-claims-first-closure-as-rpg-studio-confirms-it-no-longer-exists/",
-    "https://www.gamespot.com/articles/a-new-the-division-pc-game-is-out-right-now-and-its-free/1100-6539705/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/04/tales-of-eternia-remastered-rated-in-europe",
-    "https://www.gematsu.com/2026/04/playstation-plus-monthly-games-lineup-for-may-2026-announced",
     "https://www.gamespot.com/articles/playstation-plus-essential-free-games-for-may-2026/1100-6539631/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/you-can-play-this-unforgiving-zombie-game-for-free-before-its-1-0-launch-this-summer/1100-6539696/?ftag=CAD-01-10abi2f",
     "https://www.eurogamer.net/thick-as-thieves-price-low",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/itch-io-storefront-removes-ai-slop/",
     "https://www.gematsu.com/2026/11/popucom-for-ps5-launches-november-17",
     "https://www.pushsquare.com/news/2026/11/south-of-midnights-director-wouldnt-have-funded-it-says-xboxs-approach-was-unsustainable",
-    "https://www.purexbox.com/news/2026/11/xbox-ceo-congratulates-bethesda-as-the-elder-scrolls-6-gets-official-name-reveal-trailer"
+    "https://www.purexbox.com/news/2026/11/xbox-ceo-congratulates-bethesda-as-the-elder-scrolls-6-gets-official-name-reveal-trailer",
+    "https://gamerant.com/barbie-rewind-game-list-release-date/",
+    "https://www.videogameschronicle.com/news/xboxs-first-wave-of-november-game-pass-releases-includes-vampire-crawlers/",
+    "https://www.ign.com/articles/police-mock-car-chase-criminal-for-being-arrested-during-gta-6-release",
+    "https://www.ign.com/articles/xbox-made-an-alligator-shaped-series-x-and-you-can-win-it-before-gta-6-launches"
   ],
   "seen_titles": [
-    "naconâ€™s collapse claims first closure as rpg studio confirms it ‘no longer exists’",
-    "a new the division pc game is out right now, and it's free",
-    "tales of eternia remastered rated in europe",
-    "playstation plus monthly games lineup for may 2026 announced",
     "playstation plus free games for may 2026 revealed",
     "you can play this unforgiving zombie game for free before its 1.0 launch this summer",
     "after ditching pvp for solo and co-op, legendary designer warren spector's stealthy thick as thieves reveals a price so low i thought it was a typo",
@@ -10001,13 +9997,13 @@
     "pc games storefront does what valve won’t, takes action against ai slop",
     "popucom for ps5 launches november 17",
     "south of midnight's director wouldn't have funded it, says xbox's approach was unsustainable",
-    "xbox ceo congratulates bethesda as the elder scrolls 6 gets 'official name reveal' trailer"
+    "xbox ceo congratulates bethesda as the elder scrolls 6 gets 'official name reveal' trailer",
+    "new official barbie release confirmed for november 12",
+    "xbox’s first wave of november game pass releases includes vampire crawlers",
+    "police mock car chase criminal for getting arrested right before gta 6 release",
+    "xbox made an alligator-shaped series x, and you can win it before gta 6 launches"
   ],
   "seen_story_keys": [
-    "93c35e0f78f3aff9a0c50c14e6b952dffe80c934",
-    "4ed5d65469378ba5ae6fd824296084eef25a1e8b",
-    "cbcca79143284afe018c8b9542719750f3dead03",
-    "d2f437a9fcd61262c84ecfbc30ccf1bf75b59aea",
     "63433514c533942b3640642b9a778e5626497096",
     "8736171cfd5923370eaa1d207c4978b286d9f7c6",
     "955e8d73bf48900c6c804f92baecb1e3e454b804",
@@ -15003,6 +14999,10 @@
     "cb377f6a212a3fc5c6ad9cec5849975190b6b106",
     "433117b117b304144928f26f8b98d1ee43088b44",
     "e3f4f66e0e1e8cad68d9a1aaf86c01a535d6a0ec",
-    "12740f3ec8ee732e6256c78ce6e5eb65d24c2050"
+    "12740f3ec8ee732e6256c78ce6e5eb65d24c2050",
+    "1e0c584f478e835bd81173c73f697c79548b090f",
+    "644994d6fa28102ab674be161257c8fb0cffef85",
+    "a40780d95e5ed5f686caff99955f44c0c7c6ba17",
+    "c83cfc067e8df6b2dbdd2eb097133b6507286b32"
   ]
 }
