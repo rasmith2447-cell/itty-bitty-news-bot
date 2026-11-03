@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/roguelike/slay-the-spire-2-devs-werent-going-to-make-a-sequel-but-then-the-publisher-handling-the-first-games-ports-shut-down-and-things-got-very-murky/",
-    "https://www.gamespot.com/articles/microsoft-responds-to-xbox-backwards-compatibility-issues-after-fans-complain-for-weeks/1100-6539695/?ftag=CAD-01-10abi2f",
-    "https://gamerant.com/blood-dawnwalker-how-long-beat-hltb-cyberpunk-witcher/",
-    "https://www.pushsquare.com/news/2026/04/warhammers-twisted-metal-style-speed-freeks-roars-onto-ps5-next-month",
     "https://www.videogameschronicle.com/news/nacons-collapse-claims-first-closure-as-rpg-studio-confirms-it-no-longer-exists/",
     "https://www.gamespot.com/articles/a-new-the-division-pc-game-is-out-right-now-and-its-free/1100-6539705/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/04/tales-of-eternia-remastered-rated-in-europe",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/11/tales-of-tuscany-launches-february-22-2027",
     "https://www.gematsu.com/2026/11/the-backworld-launches-in-q2-2027",
     "https://www.gematsu.com/2026/11/harma-launches-in-early-access-on-november-17",
-    "https://www.pcgamer.com/gaming-industry/yakuza-creators-studio-and-the-game-it-was-working-on-are-now-officially-gone/"
+    "https://www.pcgamer.com/gaming-industry/yakuza-creators-studio-and-the-game-it-was-working-on-are-now-officially-gone/",
+    "https://www.polygon.com/itch-io-storefront-removes-ai-slop/",
+    "https://www.gematsu.com/2026/11/popucom-for-ps5-launches-november-17",
+    "https://www.pushsquare.com/news/2026/11/south-of-midnights-director-wouldnt-have-funded-it-says-xboxs-approach-was-unsustainable",
+    "https://www.purexbox.com/news/2026/11/xbox-ceo-congratulates-bethesda-as-the-elder-scrolls-6-gets-official-name-reveal-trailer"
   ],
   "seen_titles": [
-    "slay the spire 2 devs weren't going to make a sequel, but then the publisher handling the first game's ports shut down and things got 'very murky'",
-    "microsoft responds to xbox backwards compatibility issues after fans complain for weeks",
-    "blood of dawnwalker takes longer to beat than the witcher 3, cyberpunk 2077",
-    "warhammer's twisted metal-style speed freeks roars onto ps5 next month",
     "naconâ€™s collapse claims first closure as rpg studio confirms it ‘no longer exists’",
     "a new the division pc game is out right now, and it's free",
     "tales of eternia remastered rated in europe",
@@ -10001,13 +9997,13 @@
     "tales of tuscany launches february 22, 2027",
     "the backworld launches in q2 2027",
     "harma launches in early access on november 17",
-    "yakuza creator's studio, and the game it was working on, are now officially gone"
+    "yakuza creator's studio, and the game it was working on, are now officially gone",
+    "pc games storefront does what valve won’t, takes action against ai slop",
+    "popucom for ps5 launches november 17",
+    "south of midnight's director wouldn't have funded it, says xbox's approach was unsustainable",
+    "xbox ceo congratulates bethesda as the elder scrolls 6 gets 'official name reveal' trailer"
   ],
   "seen_story_keys": [
-    "cb3845ccc7d3edc6474de5355d8850bc6c37ce09",
-    "bc67f7f13f9574405f4762732fe477a4cb4ea895",
-    "2fb7152df54d53b4eff8ce2b62b635b64eb56310",
-    "2019b2bff77a48fa727c542fa343b5a076d39683",
     "93c35e0f78f3aff9a0c50c14e6b952dffe80c934",
     "4ed5d65469378ba5ae6fd824296084eef25a1e8b",
     "cbcca79143284afe018c8b9542719750f3dead03",
@@ -15003,6 +14999,10 @@
     "ccf9ac1f95c37728d3289d9e63bc98c451783140",
     "31fc6fcbe68eb67af621a6c5f84f1330b21308ce",
     "0b6ef142722d203d8d4fa91bac2fcb920dc4ee50",
-    "629572eadad9b16637310ac5b8bd5e9479905585"
+    "629572eadad9b16637310ac5b8bd5e9479905585",
+    "cb377f6a212a3fc5c6ad9cec5849975190b6b106",
+    "433117b117b304144928f26f8b98d1ee43088b44",
+    "e3f4f66e0e1e8cad68d9a1aaf86c01a535d6a0ec",
+    "12740f3ec8ee732e6256c78ce6e5eb65d24c2050"
   ]
 }
