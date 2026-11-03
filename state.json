@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/when-will-the-super-mario-galaxy-movie-be-available-to-watch-on-your-couch-it-could-be-soon/1100-6539701/?ftag=CAD-01-10abi2f",
-    "https://www.polygon.com/playstation-plus-may-2026-games-announced-ps4-ps5-free-essentials/",
-    "https://www.gamespot.com/articles/karl-urbans-kids-had-very-blunt-advice-for-him-in-mortal-kombat-2/1100-6539707/?ftag=CAD-01-10abi2f",
-    "https://www.eurogamer.net/here-are-our-ps-plus-monthly-games-for-may",
     "https://www.pcgamer.com/games/roguelike/slay-the-spire-2-devs-werent-going-to-make-a-sequel-but-then-the-publisher-handling-the-first-games-ports-shut-down-and-things-got-very-murky/",
     "https://www.gamespot.com/articles/microsoft-responds-to-xbox-backwards-compatibility-issues-after-fans-complain-for-weeks/1100-6539695/?ftag=CAD-01-10abi2f",
     "https://gamerant.com/blood-dawnwalker-how-long-beat-hltb-cyberpunk-witcher/",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/terminally-ill-gta-6-fan-dies-three-weeks-before-games-launch-fans-pay-their-respects",
     "https://www.gamesindustry.biz/saudi-backed-kingdom-of-gaming-event-delayed-to-2027",
     "https://www.eurogamer.net/yakuza-creator-new-studio-closed-netease",
-    "https://www.gamesindustry.biz/astragon-closes-independent-arts-successor-studio-astragon-development"
+    "https://www.gamesindustry.biz/astragon-closes-independent-arts-successor-studio-astragon-development",
+    "https://www.gematsu.com/2026/11/tales-of-tuscany-launches-february-22-2027",
+    "https://www.gematsu.com/2026/11/the-backworld-launches-in-q2-2027",
+    "https://www.gematsu.com/2026/11/harma-launches-in-early-access-on-november-17",
+    "https://www.pcgamer.com/gaming-industry/yakuza-creators-studio-and-the-game-it-was-working-on-are-now-officially-gone/"
   ],
   "seen_titles": [
-    "when will the super mario galaxy movie be available to watch on your couch? it could be soon",
-    "playstation plus may 2026 free games lineup announced",
-    "karl urban's kids had very blunt advice for him in mortal kombat 2",
-    "here are our ps plus monthly games for may",
     "slay the spire 2 devs weren't going to make a sequel, but then the publisher handling the first game's ports shut down and things got 'very murky'",
     "microsoft responds to xbox backwards compatibility issues after fans complain for weeks",
     "blood of dawnwalker takes longer to beat than the witcher 3, cyberpunk 2077",
@@ -10001,13 +9997,13 @@
     "terminally ill gta 6 fan dies 3 weeks before game's launch, fans pay their respects",
     "saudi-backed kingdom of gaming event delayed to 2027",
     "yakuza creator's new studio and its debut game gang of dragon are no more after losing funding from netease",
-    "astragon closes independent arts successor studio astragon development"
+    "astragon closes independent arts successor studio astragon development",
+    "tales of tuscany launches february 22, 2027",
+    "the backworld launches in q2 2027",
+    "harma launches in early access on november 17",
+    "yakuza creator's studio, and the game it was working on, are now officially gone"
   ],
   "seen_story_keys": [
-    "34eff3f45139a1ef9d66f98c9be5afee78387d2f",
-    "200f6160e92919cfb3d12b2d3909d3f9672745e3",
-    "0136d364212bf938dfb90dbb3c1bcbc7c568f68d",
-    "b6115ced6209fe0b933fff172a81d8f37c184c32",
     "cb3845ccc7d3edc6474de5355d8850bc6c37ce09",
     "bc67f7f13f9574405f4762732fe477a4cb4ea895",
     "2fb7152df54d53b4eff8ce2b62b635b64eb56310",
@@ -15003,6 +14999,10 @@
     "1ec39343c656a222489f9efbf3bda1ae36963531",
     "c88473a5275c448088dddd9865d26fdd1c36da3e",
     "00eb52860f28c8055e9fca27da4920a42cd516a6",
-    "844d9f5575998c479c6062d8a88a13c2085320c6"
+    "844d9f5575998c479c6062d8a88a13c2085320c6",
+    "ccf9ac1f95c37728d3289d9e63bc98c451783140",
+    "31fc6fcbe68eb67af621a6c5f84f1330b21308ce",
+    "0b6ef142722d203d8d4fa91bac2fcb920dc4ee50",
+    "629572eadad9b16637310ac5b8bd5e9479905585"
   ]
 }
