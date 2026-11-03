@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/steelrising-greedfall-ps5-dev-spiders-confirms-its-closing-its-doors",
-    "https://www.gematsu.com/2026/04/nba-the-run-launches-in-june",
-    "https://gamerant.com/new-romance-games-silent-whispers/",
-    "https://www.pcgamer.com/games/fps/starbreeze-hasnt-declared-payday-3-dead-yet-but-its-launching-yet-another-spin-off-this-year-this-time-on-roblox/",
     "https://www.gamespot.com/articles/when-will-the-super-mario-galaxy-movie-be-available-to-watch-on-your-couch-it-could-be-soon/1100-6539701/?ftag=CAD-01-10abi2f",
     "https://www.polygon.com/playstation-plus-may-2026-games-announced-ps4-ps5-free-essentials/",
     "https://www.gamespot.com/articles/karl-urbans-kids-had-very-blunt-advice-for-him-in-mortal-kombat-2/1100-6539707/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/11/too-big-a-risk-game-developer-sparks-debate-after-delaying-playtest-due-to-ai-concerns",
     "https://www.pcgamer.com/games/new-cozy-games-november-2026/",
     "https://www.polygon.com/legend-of-zelda-ocarina-of-time-remake-studio-revealed/",
-    "https://www.gematsu.com/2026/11/ova-magica-for-ps5-xbox-series-switch-2-ps4-xbox-one-and-switch-launches-november-10"
+    "https://www.gematsu.com/2026/11/ova-magica-for-ps5-xbox-series-switch-2-ps4-xbox-one-and-switch-launches-november-10",
+    "https://www.ign.com/articles/terminally-ill-gta-6-fan-dies-three-weeks-before-games-launch-fans-pay-their-respects",
+    "https://www.gamesindustry.biz/saudi-backed-kingdom-of-gaming-event-delayed-to-2027",
+    "https://www.eurogamer.net/yakuza-creator-new-studio-closed-netease",
+    "https://www.gamesindustry.biz/astragon-closes-independent-arts-successor-studio-astragon-development"
   ],
   "seen_titles": [
-    "steelrising, greedfall ps5 dev spiders confirms it's closing its doors",
-    "nba the run launches in june",
-    "new romance game silent whispers is already blowing up",
-    "starbreeze hasn't declared payday 3 dead yet, but it's launching yet another spin-off this year—this time on roblox",
     "when will the super mario galaxy movie be available to watch on your couch? it could be soon",
     "playstation plus may 2026 free games lineup announced",
     "karl urban's kids had very blunt advice for him in mortal kombat 2",
@@ -10001,13 +9997,13 @@
     "'too big a risk' - game developer sparks debate after delaying playtest due to ai concerns",
     "the 28 cozy game launches in november technically include 3 horse games, which is actually a lot for the eternally underserved horse gamers",
     "the legend of zelda: ocarina of time remake studio officially revealed",
-    "ova magica for ps5, xbox series, switch 2, ps4, xbox one, and switch launches november 10"
+    "ova magica for ps5, xbox series, switch 2, ps4, xbox one, and switch launches november 10",
+    "terminally ill gta 6 fan dies 3 weeks before game's launch, fans pay their respects",
+    "saudi-backed kingdom of gaming event delayed to 2027",
+    "yakuza creator's new studio and its debut game gang of dragon are no more after losing funding from netease",
+    "astragon closes independent arts successor studio astragon development"
   ],
   "seen_story_keys": [
-    "6f074882770c1521d55f819d076f54b158328fa0",
-    "01fe2501101a33ee1d6a0cc494336a93f2da78d7",
-    "fab29bb89fae2f399da0905b7ec3618646aa28ee",
-    "4c5338dc6a315d680dfbf9d6786e876b657bba53",
     "34eff3f45139a1ef9d66f98c9be5afee78387d2f",
     "200f6160e92919cfb3d12b2d3909d3f9672745e3",
     "0136d364212bf938dfb90dbb3c1bcbc7c568f68d",
@@ -15003,6 +14999,10 @@
     "79829c6a41b59fba9a4a648df23eb553c8f3c7c0",
     "52d602bdc58c7f6033380f991dd7a52802977566",
     "34e232957cfb1fb7cbeb994602f8ce822558323d",
-    "deaed74741dc4da84017eb1a74f1ddc238d3dc4f"
+    "deaed74741dc4da84017eb1a74f1ddc238d3dc4f",
+    "1ec39343c656a222489f9efbf3bda1ae36963531",
+    "c88473a5275c448088dddd9865d26fdd1c36da3e",
+    "00eb52860f28c8055e9fca27da4920a42cd516a6",
+    "844d9f5575998c479c6062d8a88a13c2085320c6"
   ]
 }
