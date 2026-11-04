@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/no-more-room-in-hell-2-launches-this-summer-for-ps5-xbox-series-and-pc",
-    "https://www.gematsu.com/2026/04/console-archives-rohga-armor-force-launches-april-30",
-    "https://www.nintendolife.com/news/2026/04/animal-crossing-new-horizons-3-0-3-patch-notes-switch-2-and-switch-updates-and-fixes",
-    "https://www.nintendolife.com/news/2026/04/super-mario-galaxy-2-updated-to-version-1-4-0-here-are-the-full-patch-notes",
     "https://www.pushsquare.com/news/2026/04/arcade-basketball-is-back-on-ps5-with-nba-street-style-revival-featuring-rollback-netcode",
     "https://www.nintendolife.com/news/2026/04/tales-of-eternia-remastered-switch-rating-surfaces-online",
     "https://www.gematsu.com/2026/04/sunsoft-announces-car-chase-action-revival-route-16r-for-switch-pc-alongside-classic-re-releases",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/11/sonic-racing-crossworlds-year-two-2-0-0-patch-now-live-new-additions-changes-and-improvements",
     "https://gamerant.com/mass-effect-youtooz-release-confirmed/",
     "https://www.purexbox.com/news/2026/11/report-xbox-has-had-multiple-offers-for-arkane-studios-marvels-blade-close-to-completion",
-    "https://www.polygon.com/xbox-game-pass-escape-academy-2-warhammer-survivors-november-2026/"
+    "https://www.polygon.com/xbox-game-pass-escape-academy-2-warhammer-survivors-november-2026/",
+    "https://www.nintendolife.com/news/2026/11/the-legend-of-zelda-ocarina-of-time-on-switch-2-has-been-updated",
+    "https://www.gematsu.com/2026/11/catharsis-the-last-of-atelier-launches-december-1",
+    "https://www.nintendolife.com/news/2026/11/dragons-dogma-2-dark-arisen-new-update-and-anime-collab-announced-here-are-the-full-patch-notes",
+    "https://www.gematsu.com/2026/11/brigandine-abyss-first-update-now-available-updates-roadmap-announced"
   ],
   "seen_titles": [
-    "no more room in hell 2 launches this summer for ps5, xbox series, and pc",
-    "console archives rohga: armor force launches april 30",
-    "animal crossing: new horizons 3.0.3 patch notes - switch 2 and switch updates and fixes",
-    "super mario galaxy 2 updated to version 1.4.0, here are the full patch notes",
     "arcade basketball is back on ps5 with nba street-style revival, featuring rollback netcode",
     "tales of eternia remastered switch rating surfaces online",
     "sunsoft announces car chase action revival route-16r for switch, pc alongside classic re-releases",
@@ -10001,13 +9997,13 @@
     "sonic racing: crossworlds - year two 2.0.0 patch now live - new additions, changes & improvements",
     "new official mass effect release confirmed",
     "report: xbox has had multiple offers for arkane studios, marvel's blade close to completion",
-    "xbox game pass november 2026 lineup announced"
+    "xbox game pass november 2026 lineup announced",
+    "the legend of zelda: ocarina of time on switch 2 has been updated",
+    "catharsis: the last of atelier launches december 1",
+    "dragon's dogma 2: dark arisen new update & anime collab announced, here are the full patch notes",
+    "brigandine: abyss first update now available; updates roadmap announced"
   ],
   "seen_story_keys": [
-    "fa29d6d4140f8c5b1761cd3d94e8a92992f3b1d0",
-    "a50ffbccb8e7d4b95d77c83778748ac934b3fa38",
-    "5ee2bf96f0917e658b155dadb1faa3e295cca2d0",
-    "65490909f423d82dd8f47514c922e23fff9a122e",
     "21969945fb487bd20af13ac092600aa338de751b",
     "f6a326a6760e0ad18290f24dd4a04ef825fe84df",
     "02917eab105eca3472e81ed2fa6ca68260396187",
@@ -15003,6 +14999,10 @@
     "81a50ef1477309dd9f03badc2f1997b79b147c3d",
     "bced3a6ef94579c102838e84ea4ef1e6395b16aa",
     "6a70cffd89cd062ec9ae5e5ce0f30a5c7e610686",
-    "46d583dfab801f241d5c383efae4c4f8724c28c9"
+    "46d583dfab801f241d5c383efae4c4f8724c28c9",
+    "1542ce25de65665bfba16a0d2fe594992de49bd5",
+    "f3d2fed3a8d6ac93f25eb863c20ac590b0f8f5f2",
+    "3d6f3ec862615db8ac1d7bf0a6314fba168097ed",
+    "cf780acf0356f3bbe56ecc41cecf35b8dcc4a5db"
   ]
 }
