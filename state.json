@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/arcade-basketball-is-back-on-ps5-with-nba-street-style-revival-featuring-rollback-netcode",
-    "https://www.nintendolife.com/news/2026/04/tales-of-eternia-remastered-switch-rating-surfaces-online",
-    "https://www.gematsu.com/2026/04/sunsoft-announces-car-chase-action-revival-route-16r-for-switch-pc-alongside-classic-re-releases",
-    "https://www.pushsquare.com/news/2026/04/you-can-now-install-linux-on-your-ps5-transforming-it-into-a-steam-machine",
     "https://www.gematsu.com/2026/04/cel-shaded-co-op-first-person-shooter-all-eyes-above-announced-for-pc",
     "https://www.gematsu.com/2026/04/arcade-archives-cyber-commando-launches-april-30",
     "https://www.rockpapershotgun.com/american-truck-simulator-cruises-into-illinois-with-a-fresh-expansion-releasing-mid-may-as-scs-also-tease-a-new-truck",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/11/the-legend-of-zelda-ocarina-of-time-on-switch-2-has-been-updated",
     "https://www.gematsu.com/2026/11/catharsis-the-last-of-atelier-launches-december-1",
     "https://www.nintendolife.com/news/2026/11/dragons-dogma-2-dark-arisen-new-update-and-anime-collab-announced-here-are-the-full-patch-notes",
-    "https://www.gematsu.com/2026/11/brigandine-abyss-first-update-now-available-updates-roadmap-announced"
+    "https://www.gematsu.com/2026/11/brigandine-abyss-first-update-now-available-updates-roadmap-announced",
+    "https://www.polygon.com/brandon-sanderson-stormlight-archive-6-mistborn-movie-update/",
+    "https://www.nintendolife.com/news/2026/11/video-heres-12-minutes-of-brand-new-zelda-ocarina-of-time-switch-2-gameplay-footage",
+    "https://www.polygon.com/phantom-blade-zero-early-game-boss-nerf-hua/",
+    "https://gamerant.com/pokemon-pokopia-dlc-2-expansion-release-date/"
   ],
   "seen_titles": [
-    "arcade basketball is back on ps5 with nba street-style revival, featuring rollback netcode",
-    "tales of eternia remastered switch rating surfaces online",
-    "sunsoft announces car chase action revival route-16r for switch, pc alongside classic re-releases",
-    "you can now install linux on your ps5, transforming it into a steam machine",
     "cel-shaded co-op first-person shooter all eyes above announced for pc",
     "arcade archives cyber commando launches april 30",
     "american truck simulator cruises into illinois with a fresh expansion releasing mid-may, as scs also tease a new truck",
@@ -10001,13 +9997,13 @@
     "the legend of zelda: ocarina of time on switch 2 has been updated",
     "catharsis: the last of atelier launches december 1",
     "dragon's dogma 2: dark arisen new update & anime collab announced, here are the full patch notes",
-    "brigandine: abyss first update now available; updates roadmap announced"
+    "brigandine: abyss first update now available; updates roadmap announced",
+    "stormlight archive 6 gets a major official update from brandon sanderson",
+    "video: here's 12 minutes of brand new zelda: ocarina of time switch 2 gameplay footage",
+    "phantom blade zero’s toughest early boss gets big nerf in new update",
+    "pokemon pokopia dlc 2 release date officially confirmed"
   ],
   "seen_story_keys": [
-    "21969945fb487bd20af13ac092600aa338de751b",
-    "f6a326a6760e0ad18290f24dd4a04ef825fe84df",
-    "02917eab105eca3472e81ed2fa6ca68260396187",
-    "cef9d341ddd7b2c8515fc8a1617922f1be067239",
     "c25244e36031f1c4c63859edc3ed0391ea181a17",
     "a1a345edc90dbabb8762fbdbbed658fb0f97c21d",
     "6df7e0dd0060556b4d7ea864d203f783dd20540c",
@@ -15003,6 +14999,10 @@
     "1542ce25de65665bfba16a0d2fe594992de49bd5",
     "f3d2fed3a8d6ac93f25eb863c20ac590b0f8f5f2",
     "3d6f3ec862615db8ac1d7bf0a6314fba168097ed",
-    "cf780acf0356f3bbe56ecc41cecf35b8dcc4a5db"
+    "cf780acf0356f3bbe56ecc41cecf35b8dcc4a5db",
+    "020af51c431f02125ae0560c5a761d7feaa78373",
+    "4c170a59ddca3ba137523c9dfe67670d04364106",
+    "87d7b29640875f37d4bf6125a1d64bab5df02861",
+    "cc3d1f1e697be5697f3863418e60825a1992c753"
   ]
 }
