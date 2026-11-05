@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/star-wars-galactic-racer-launches-october-6",
-    "https://www.gematsu.com/2026/04/atmosfar-launches-in-early-access-on-may-20",
-    "https://www.gematsu.com/2026/04/dark-fantasy-roguelike-deckbuilder-rogue-reigns-announced-for-ps5-xbox-series-switch-pc-ios-and-android",
-    "https://www.rockpapershotgun.com/from-space-warlord-baby-trading-simulators-devs-comes-a-game-with-a-giant-screaming-man-whose-meat-you-can-legally-drive-through",
     "https://www.pcgamer.com/games/sim/subnautica-2-now-has-a-firm-early-access-launch-date-and-its-really-soon/",
     "https://gamerant.com/star-wars-galactic-racer-release-date-collectors-edition-ce/",
     "https://www.gematsu.com/2026/04/subnautica-2-launches-in-early-access-on-may-14",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/11/nintendo-celebrates-zeldas-40th-anniversary-with-an-exclusive-pin-set-us",
     "https://gamerant.com/elder-scrolls-6-sentinel-battlespire-hidden-secrets/",
     "https://www.videogameschronicle.com/news/canadian-bioware-fans-are-calling-on-the-government-to-fund-the-studio/",
-    "https://www.gamesindustry.biz/arkane-union-accuses-microsoft-of-sabotaging-marvels-blade-with-19-month-hiring-freeze"
+    "https://www.gamesindustry.biz/arkane-union-accuses-microsoft-of-sabotaging-marvels-blade-with-19-month-hiring-freeze",
+    "https://www.gematsu.com/2026/11/damon-and-baby-free-update-rise-of-the-oracle-announced-alongside-switch-2-version",
+    "https://www.gematsu.com/2026/11/honkai-nexus-anima-launches-in-spring-2027-final-closed-beta-test-begins-november-25",
+    "https://www.nintendolife.com/news/2026/11/reminder-zelda-ocarina-of-time-playable-ocarina-available-now-on-the-nintendo-store",
+    "https://www.gamespot.com/articles/gta-6-is-a-massive-download-but-you-may-qualify-for-a-free-speed-boost-to-download-it-faster/"
   ],
   "seen_titles": [
-    "star wars: galactic racer launches october 6",
-    "atmosfar launches in early access on may 20",
-    "dark fantasy roguelike deckbuilder rogue reigns announced for ps5, xbox series, switch, pc, ios, and android",
-    "from space warlord baby trading simulator's devs comes a game with \"a giant, screaming man whose meat you can legally drive through\"",
     "subnautica 2 now has a firm early access launch date, and it's really soon",
     "star wars: galactic racer release date and collector's edition officially revealed",
     "subnautica 2 launches in early access on may 14",
@@ -10001,13 +9997,13 @@
     "nintendo celebrates zelda's 40th anniversary with an exclusive pin set (us)",
     "the elder scrolls 6: sentinel needs secrets players won't find for years",
     "canadian bioware fans are calling on the government to fund the studio",
-    "arkane union accuses microsoft of \"sabotaging\" marvel's blade with 19-month hiring freeze"
+    "arkane union accuses microsoft of \"sabotaging\" marvel's blade with 19-month hiring freeze",
+    "damon and baby free update ‘rise of the oracle’ announced alongside switch 2 version",
+    "honkai: nexus anima launches in spring 2027; final closed beta test begins november 25",
+    "reminder: zelda: ocarina of time - playable ocarina available now on the nintendo store",
+    "gta 6 is a massive download, but you may qualify for a free speed boost to download it faster"
   ],
   "seen_story_keys": [
-    "6bb1e25a1ce533f03ff6734b524ddd57f36c535b",
-    "2649491b4790f1e895fcb89e3140f564150e6d7d",
-    "e76d0aed6baf0ee1c67f45f965fa7c49ef9fb22c",
-    "419548f3d366dadde0c2926ede1dc12edd22961d",
     "ea80ae848ca2e1e058ef6c201e39bd354b84354a",
     "42b4da1ceca1d83f66745331c8d3d09b2884f7fe",
     "96e6079d3f8849bd1b486b18382a5f17634a65a1",
@@ -15003,6 +14999,10 @@
     "59b52b74860081d4450360cf78dbb395d8edf33b",
     "9b8526e46e88868edd49940b9ee90e99a27d6033",
     "d62b9f6ff32fab7ae6819e7963365ec128afce8e",
-    "60b8046505c166b78a777672e2719bc37aa001d0"
+    "60b8046505c166b78a777672e2719bc37aa001d0",
+    "616a2fc1aeb459dad35d007e51ff79c6bab221e6",
+    "b61010bc1b747e2fb139cb61c6b4e65273df51b8",
+    "3be7d2dcf224038b034656d146607622369abf92",
+    "e2a095d4f2bd2b46280d157d5cc74ac879dd85a1"
   ]
 }
