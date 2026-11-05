@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/ps5s-plague-tale-prequel-still-set-for-2026-story-details-revealed",
-    "https://www.eurogamer.net/sony-comment-playstation-30-day-drm",
-    "https://www.videogameschronicle.com/news/the-release-is-almost-here-plague-tale-studio-suggests-third-game-resonance-is-only-months-away/",
-    "https://gamerant.com/arc-raiders-new-update-crossplay-fix/",
     "https://www.gematsu.com/2026/04/star-wars-galactic-racer-launches-october-6",
     "https://www.gematsu.com/2026/04/atmosfar-launches-in-early-access-on-may-20",
     "https://www.gematsu.com/2026/04/dark-fantasy-roguelike-deckbuilder-rogue-reigns-announced-for-ps5-xbox-series-switch-pc-ios-and-android",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/fragmentary-order-escape-from-tarkov-creator-new-sci-fi-shooter/",
     "https://www.ign.com/articles/world-of-warcraft-forever-launch-live-blog",
     "https://www.pcgamer.com/gaming-industry/french-game-union-accuses-microsoft-of-sabotaging-blade-and-then-using-the-fallout-to-justify-closing-arkane/",
-    "https://www.eurogamer.net/arkane-union-xbox-more-expensive-marvels-blade"
+    "https://www.eurogamer.net/arkane-union-xbox-more-expensive-marvels-blade",
+    "https://www.nintendolife.com/news/2026/11/nintendo-celebrates-zeldas-40th-anniversary-with-an-exclusive-pin-set-us",
+    "https://gamerant.com/elder-scrolls-6-sentinel-battlespire-hidden-secrets/",
+    "https://www.videogameschronicle.com/news/canadian-bioware-fans-are-calling-on-the-government-to-fund-the-studio/",
+    "https://www.gamesindustry.biz/arkane-union-accuses-microsoft-of-sabotaging-marvels-blade-with-19-month-hiring-freeze"
   ],
   "seen_titles": [
-    "ps5's plague tale prequel still set for 2026, story details revealed",
-    "sony confirms it's added \"one-time\" drm to digital playstation games requiring you to go online to avoid losing access, but doesn't comment on \"cbomb\" issue",
-    "‘the release is almost here’: plague tale studio suggests third game resonance is only months away",
-    "arc raiders fixes crossplay issues with new update for april 30",
     "star wars: galactic racer launches october 6",
     "atmosfar launches in early access on may 20",
     "dark fantasy roguelike deckbuilder rogue reigns announced for ps5, xbox series, switch, pc, ios, and android",
@@ -10001,13 +9997,13 @@
     "escape from tarkov creator reveals new hardcore sci-fi shooter",
     "world of warcraft forever launch live blog",
     "french game union accuses microsoft of 'sabotaging' blade and then using the fallout to justify closing arkane",
-    "arkane union says closing the studio \"would probably be more expensive\" for xbox than simply finishing marvel's blade"
+    "arkane union says closing the studio \"would probably be more expensive\" for xbox than simply finishing marvel's blade",
+    "nintendo celebrates zelda's 40th anniversary with an exclusive pin set (us)",
+    "the elder scrolls 6: sentinel needs secrets players won't find for years",
+    "canadian bioware fans are calling on the government to fund the studio",
+    "arkane union accuses microsoft of \"sabotaging\" marvel's blade with 19-month hiring freeze"
   ],
   "seen_story_keys": [
-    "5b9b4d6a2c351dcfb515aa9eccd3017a552061f5",
-    "a85942f306e46daec23b2f1da57a1ed8ea1be22d",
-    "7357cfe8924eb3e59c4381a7d181f14f393accc0",
-    "e869bea268101609f1d3fdbbf0a41aa9133deef2",
     "6bb1e25a1ce533f03ff6734b524ddd57f36c535b",
     "2649491b4790f1e895fcb89e3140f564150e6d7d",
     "e76d0aed6baf0ee1c67f45f965fa7c49ef9fb22c",
@@ -15003,6 +14999,10 @@
     "36fef4b2b72a4f136ce5ea8d3d3c76d8aeb0d4ab",
     "46a76d83f390975237050ca52248abdf235ec830",
     "c896e74c51fb1d91e16c7278581c6a3e4f2f0cc6",
-    "8dc1666288ce2f576255a01b29695347f007d483"
+    "8dc1666288ce2f576255a01b29695347f007d483",
+    "59b52b74860081d4450360cf78dbb395d8edf33b",
+    "9b8526e46e88868edd49940b9ee90e99a27d6033",
+    "d62b9f6ff32fab7ae6819e7963365ec128afce8e",
+    "60b8046505c166b78a777672e2719bc37aa001d0"
   ]
 }
