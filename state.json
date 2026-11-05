@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/sim/subnautica-2-now-has-a-firm-early-access-launch-date-and-its-really-soon/",
-    "https://gamerant.com/star-wars-galactic-racer-release-date-collectors-edition-ce/",
-    "https://www.gematsu.com/2026/04/subnautica-2-launches-in-early-access-on-may-14",
-    "https://www.nintendolife.com/news/2026/04/the-immortal-john-triptych-looks-utterly-absurd-and-were-here-for-it",
     "https://www.eurogamer.net/spectrum-commodore-64-handhelds-october",
     "https://www.rockpapershotgun.com/after-a-year-of-messy-legal-shenanigans-subnautica-2-has-an-early-access-release-date",
     "https://www.gematsu.com/2026/04/enter-the-chronosphere-launches-in-early-access-on-may-14",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/11/damon-and-baby-free-update-rise-of-the-oracle-announced-alongside-switch-2-version",
     "https://www.gematsu.com/2026/11/honkai-nexus-anima-launches-in-spring-2027-final-closed-beta-test-begins-november-25",
     "https://www.nintendolife.com/news/2026/11/reminder-zelda-ocarina-of-time-playable-ocarina-available-now-on-the-nintendo-store",
-    "https://www.gamespot.com/articles/gta-6-is-a-massive-download-but-you-may-qualify-for-a-free-speed-boost-to-download-it-faster/"
+    "https://www.gamespot.com/articles/gta-6-is-a-massive-download-but-you-may-qualify-for-a-free-speed-boost-to-download-it-faster/",
+    "https://www.polygon.com/mass-effect-bioware-studio-closure/",
+    "https://www.nintendolife.com/news/2026/11/we-have-so-many-questions-about-this-stellar-blade-launch-trailer",
+    "https://www.polygon.com/nintendo-switch-2-price-increase-november-2026/",
+    "https://www.polygon.com/gta-6-launch-update-screenshots-rockstar-games-nov-5/"
   ],
   "seen_titles": [
-    "subnautica 2 now has a firm early access launch date, and it's really soon",
-    "star wars: galactic racer release date and collector's edition officially revealed",
-    "subnautica 2 launches in early access on may 14",
-    "'the immortal john triptych' looks utterly absurd, and we're here for it",
     "two computer giants of the 80s - the spectrum and c64 - are being turned into pocket-sized handhelds by the makers of evercade",
     "after a year of messy legal shenanigans, subnautica 2 has an early access release date",
     "enter the chronosphere launches in early access on may 14",
@@ -10001,13 +9997,13 @@
     "damon and baby free update ‘rise of the oracle’ announced alongside switch 2 version",
     "honkai: nexus anima launches in spring 2027; final closed beta test begins november 25",
     "reminder: zelda: ocarina of time - playable ocarina available now on the nintendo store",
-    "gta 6 is a massive download, but you may qualify for a free speed boost to download it faster"
+    "gta 6 is a massive download, but you may qualify for a free speed boost to download it faster",
+    "mass effect studio’s closure is getting its own movie",
+    "we have so many questions about this stellar blade launch trailer",
+    "nintendo officially addresses switch 2 price hike concerns",
+    "gta 6 officially drops 36 new screenshots ahead of launch"
   ],
   "seen_story_keys": [
-    "ea80ae848ca2e1e058ef6c201e39bd354b84354a",
-    "42b4da1ceca1d83f66745331c8d3d09b2884f7fe",
-    "96e6079d3f8849bd1b486b18382a5f17634a65a1",
-    "771d2425f5021ae1daa9a33f93f1e2dd0195c2a0",
     "97315b3e017fe917e5522cad2ab929bacaaadf54",
     "9211160486365caba6184032cc1811d3885a6d98",
     "86b051b7113342d7026f11142cf413ab562dec9d",
@@ -15003,6 +14999,10 @@
     "616a2fc1aeb459dad35d007e51ff79c6bab221e6",
     "b61010bc1b747e2fb139cb61c6b4e65273df51b8",
     "3be7d2dcf224038b034656d146607622369abf92",
-    "e2a095d4f2bd2b46280d157d5cc74ac879dd85a1"
+    "e2a095d4f2bd2b46280d157d5cc74ac879dd85a1",
+    "41e40bb88b49bd91b8d5c0069ab05d02d2f71828",
+    "1e09dd6d11f0665b155cad1fc5d38b0ec60498a3",
+    "fa7c2d7ddacf7d85e98508ff814bd1e5db4c4336",
+    "32789dabafbcf31e42cfd2be5390e386d794a576"
   ]
 }
