@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/spectrum-commodore-64-handhelds-october",
-    "https://www.rockpapershotgun.com/after-a-year-of-messy-legal-shenanigans-subnautica-2-has-an-early-access-release-date",
-    "https://www.gematsu.com/2026/04/enter-the-chronosphere-launches-in-early-access-on-may-14",
-    "https://www.ign.com/articles/assassins-creed-black-flag-resynced-will-see-return-of-whaling-legendary-ships",
     "https://www.gamespot.com/articles/resident-evil-movies-giant-creature-sure-looks-like-he-came-from-dune/1100-6539726/?ftag=CAD-01-10abi2f",
     "https://www.pushsquare.com/news/2026/04/steams-most-wishlisted-game-is-skipping-ps5-for-now",
     "https://www.gamespot.com/articles/after-30-years-in-development-magic-the-gathering-legend-reveals-his-next-card-game/1100-6539723/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/mass-effect-bioware-studio-closure/",
     "https://www.nintendolife.com/news/2026/11/we-have-so-many-questions-about-this-stellar-blade-launch-trailer",
     "https://www.polygon.com/nintendo-switch-2-price-increase-november-2026/",
-    "https://www.polygon.com/gta-6-launch-update-screenshots-rockstar-games-nov-5/"
+    "https://www.polygon.com/gta-6-launch-update-screenshots-rockstar-games-nov-5/",
+    "https://www.pcgamer.com/gaming-industry/richard-garriott-on-the-state-of-the-games-industry-the-bells-and-whistles-are-no-longer-whats-important/",
+    "https://www.rockpapershotgun.com/ablahshikar-is-a-maximalist-sickos-only-salvage-survival-crpg-about-ripping-organs-out-of-warships-and-pawning-off-strange-goods-thats-now-out-in-early-access",
+    "https://www.polygon.com/pokemon-center-track-check-order-delta-reign-etb-delay-release-date/",
+    "https://www.gematsu.com/2026/11/hard-west-ii-for-ps5-xbox-series-launches-november-10"
   ],
   "seen_titles": [
-    "two computer giants of the 80s - the spectrum and c64 - are being turned into pocket-sized handhelds by the makers of evercade",
-    "after a year of messy legal shenanigans, subnautica 2 has an early access release date",
-    "enter the chronosphere launches in early access on may 14",
-    "assassin's creed black flag resynced will see return of whaling, legendary ships",
     "resident evil movie's giant creature sure looks like he came from dune",
     "steam's most wishlisted game is skipping ps5 for now",
     "after 30 years in development, magic: the gathering legend reveals his next card game",
@@ -10001,13 +9997,13 @@
     "mass effect studio’s closure is getting its own movie",
     "we have so many questions about this stellar blade launch trailer",
     "nintendo officially addresses switch 2 price hike concerns",
-    "gta 6 officially drops 36 new screenshots ahead of launch"
+    "gta 6 officially drops 36 new screenshots ahead of launch",
+    "richard garriott on the state of the games industry: 'the bells and whistles are no longer what's important'",
+    "ablahshikar is a maximalist, sickos only salvage-survival crpg about ripping organs out of warships and pawning off strange goods that's now out in early access",
+    "major pokémon center tcg orders delayed at the last minute",
+    "hard west ii for ps5, xbox series launches november 10"
   ],
   "seen_story_keys": [
-    "97315b3e017fe917e5522cad2ab929bacaaadf54",
-    "9211160486365caba6184032cc1811d3885a6d98",
-    "86b051b7113342d7026f11142cf413ab562dec9d",
-    "e60a2961d187d9124faca028440783e75b4e016d",
     "61db46ae033a43063c34e5a72c4c69c1391ad45b",
     "8361a2c53f79d3dd330fee6c364702a44d12b249",
     "3946dc0b20ddaed8d0f835c900cb2c7f06b91b2a",
@@ -15003,6 +14999,10 @@
     "41e40bb88b49bd91b8d5c0069ab05d02d2f71828",
     "1e09dd6d11f0665b155cad1fc5d38b0ec60498a3",
     "fa7c2d7ddacf7d85e98508ff814bd1e5db4c4336",
-    "32789dabafbcf31e42cfd2be5390e386d794a576"
+    "32789dabafbcf31e42cfd2be5390e386d794a576",
+    "bb19f8f7dbdcafcbc62aa9461256b33759904299",
+    "4941215feeea891e1ad5fd97eef9b1f6d5f66799",
+    "6527c00ca4410f30952d5b3cb859a119d1648801",
+    "1a93a7e4fe51130716b8ca07e3ca4a6b983bf445"
   ]
 }
