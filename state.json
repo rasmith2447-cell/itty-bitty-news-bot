@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/resident-evil-movies-giant-creature-sure-looks-like-he-came-from-dune/1100-6539726/?ftag=CAD-01-10abi2f",
-    "https://www.pushsquare.com/news/2026/04/steams-most-wishlisted-game-is-skipping-ps5-for-now",
-    "https://www.gamespot.com/articles/after-30-years-in-development-magic-the-gathering-legend-reveals-his-next-card-game/1100-6539723/?ftag=CAD-01-10abi2f",
-    "https://gamerant.com/subnautica-2-early-access-release-date/",
     "https://www.ign.com/articles/ffxiv-final-fantasy-xiv-director-explains-plans-to-sunset-ps4-version-through-patch-8-3",
     "https://www.purexbox.com/news/2026/04/the-next-plague-tale-release-is-almost-here-launches-on-xbox-game-pass-in-2026",
     "https://www.gamespot.com/articles/subnautica-2-release-times-for-pc-and-xbox-series-x-s-revealed/1100-6539731/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/gaming-industry/richard-garriott-on-the-state-of-the-games-industry-the-bells-and-whistles-are-no-longer-whats-important/",
     "https://www.rockpapershotgun.com/ablahshikar-is-a-maximalist-sickos-only-salvage-survival-crpg-about-ripping-organs-out-of-warships-and-pawning-off-strange-goods-thats-now-out-in-early-access",
     "https://www.polygon.com/pokemon-center-track-check-order-delta-reign-etb-delay-release-date/",
-    "https://www.gematsu.com/2026/11/hard-west-ii-for-ps5-xbox-series-launches-november-10"
+    "https://www.gematsu.com/2026/11/hard-west-ii-for-ps5-xbox-series-launches-november-10",
+    "https://www.ign.com/articles/nier-automata-dev-working-on-fix-patch-that-bloated-game-size-366gb",
+    "https://www.eurogamer.net/bioware-closure-warren-spector-comments-accountability",
+    "https://www.eurogamer.net/remakes-and-new-games-both-have-a-place-in-the-stable-says-nintendo-boss-buoyed-by-the-success-of-star-fox-and-ocarina-of-time",
+    "https://www.pcgamer.com/games/grand-theft-auto/rockstar-drops-a-pile-of-new-gta-6-launch-screenshots-featuring-dancers-combat-dogs-and-so-many-pores/"
   ],
   "seen_titles": [
-    "resident evil movie's giant creature sure looks like he came from dune",
-    "steam's most wishlisted game is skipping ps5 for now",
-    "after 30 years in development, magic: the gathering legend reveals his next card game",
-    "subnautica 2 early access release date is now official",
     "ffxiv director explains plans to sunset ps4 version, estimated to last through patch 8.3",
     "the next plague tale release 'is almost here', launches on xbox game pass in 2026",
     "subnautica 2 release times for pc and xbox series x|s revealed",
@@ -10001,13 +9997,13 @@
     "richard garriott on the state of the games industry: 'the bells and whistles are no longer what's important'",
     "ablahshikar is a maximalist, sickos only salvage-survival crpg about ripping organs out of warships and pawning off strange goods that's now out in early access",
     "major pokémon center tcg orders delayed at the last minute",
-    "hard west ii for ps5, xbox series launches november 10"
+    "hard west ii for ps5, xbox series launches november 10",
+    "nier: automata dev working on fix for patch that accidentally bloated the game size to 366gb on pc",
+    "\"is there any accountability left in this world?\" warren spector pops off at ea executives and their massive payouts as bioware shuts down",
+    "remakes and new games \"both have a place in the stable\" says nintendo boss, buoyed by the success of star fox and ocarina of time",
+    "rockstar drops a pile of new gta 6 launch screenshots featuring dancers, combat dogs, and so many pores"
   ],
   "seen_story_keys": [
-    "61db46ae033a43063c34e5a72c4c69c1391ad45b",
-    "8361a2c53f79d3dd330fee6c364702a44d12b249",
-    "3946dc0b20ddaed8d0f835c900cb2c7f06b91b2a",
-    "900014804c6a4729bebce4fbf0933fa88c5c712b",
     "9540d73a78fcbc3510c6a66ff6268a51e59236f5",
     "971f00ae755af595b0ed2ed29cc4c1adaaf41f8a",
     "8dee325c6e0f437e5b2a1e110093b82a3bcd07a9",
@@ -15003,6 +14999,10 @@
     "bb19f8f7dbdcafcbc62aa9461256b33759904299",
     "4941215feeea891e1ad5fd97eef9b1f6d5f66799",
     "6527c00ca4410f30952d5b3cb859a119d1648801",
-    "1a93a7e4fe51130716b8ca07e3ca4a6b983bf445"
+    "1a93a7e4fe51130716b8ca07e3ca4a6b983bf445",
+    "9909c72f1c950943ac799fe25e1a5aee420859d3",
+    "d204efeae0af432bf1e6a01b0a50e5783ea9c315",
+    "ea36ed990e9312a1d0cb60cb28178c0533e79d68",
+    "66182ef18d4f502f7d6f51433bdcca455cc23783"
   ]
 }
