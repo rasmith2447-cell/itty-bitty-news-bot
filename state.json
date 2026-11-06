@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/04/as-ps5-exclusive-saros-launches-its-eclipse-looks-terrifying-against-our-planets-skylines",
-    "https://www.gematsu.com/2026/04/railway-management-simulation-game-steam-to-electric-announced-for-pc",
-    "https://www.gematsu.com/2026/04/joe-richardson-adventure-games-anthology-the-immortal-john-triptych-announced-for-ps5-xbox-series-switch-2-xbox-one-switch-and-pc",
-    "https://gamerant.com/steam-management-game-like-dispatch-global-rescue/",
     "https://www.pcgamer.com/games/action/cyberpunk-bartending-sim-va-11-hall-a-devs-first-game-in-10-years-finally-launches-this-summer/",
     "https://www.ign.com/articles/subnautica-2-finally-gets-early-access-release-date",
     "https://www.pushsquare.com/news/2026/04/zenless-zone-zero-fires-back-at-nte-with-stunning-season-3-reveal-trailer",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/11/heres-a-closer-look-at-marvel-cosmic-invasions-new-dlc-game-mode",
     "https://gamerant.com/bioware-movie-documentary-release-2027/",
     "https://www.ign.com/articles/ratchet-clank-ranger-rumble-shutting-down",
-    "https://www.polygon.com/ratchet-and-clank-ranger-rumble-canceled-delisted/"
+    "https://www.polygon.com/ratchet-and-clank-ranger-rumble-canceled-delisted/",
+    "https://www.ign.com/articles/gta-6-players-in-germany-can-legally-take-time-off-work-to-play-the-game-on-launch-but-theres-a-catch",
+    "https://www.polygon.com/end-of-oak-street-anne-hathaway-hbo-max-streaming-date/",
+    "https://www.gematsu.com/2026/11/hozy-for-ps5-xbox-series-launches-november-9",
+    "https://www.ign.com/articles/blizzard-reveals-what-made-it-finally-pull-the-trigger-on-wow-forever"
   ],
   "seen_titles": [
-    "as ps5 exclusive saros launches, its eclipse looks terrifying against our planet's skylines",
-    "railway management simulation game steam to electric announced for pc",
-    "joe richardson adventure games anthology the immortal john triptych announced for ps5, xbox series, switch 2, xbox one, switch, and pc",
-    "new management game on steam turns dispatch's gameplay loop up to 11",
     "cyberpunk bartending sim va-11 hall-a devs' first game in 10 years finally launches this summer",
     "subnautica 2 finally gets early access release date",
     "zenless zone zero fires back at nte with stunning season 3 reveal trailer",
@@ -10001,13 +9997,13 @@
     "here's a closer look at marvel cosmic invasion's new dlc game mode",
     "a new bioware documentary will release in 2027",
     "ratchet & clank: ranger rumble shutting down less than a year after launch",
-    "new ratchet & clank game officially cancelled by sony"
+    "new ratchet & clank game officially cancelled by sony",
+    "gta 6 players in germany can legally take time off work to play the game on launch, but there's a catch",
+    "anne hathaway and jj abrams sci-fi thriller sets official hbo max streaming date",
+    "hozy for ps5, xbox series launches november 9",
+    "blizzard reveals what made it finally pull the trigger on wow forever"
   ],
   "seen_story_keys": [
-    "3e3d9944df9924f04668ec2bb72c07da525c00e4",
-    "fca3e71bea5844839ed0fc16e04f932673e28c83",
-    "e8dd7bf8df2276044c1135b5b0efa2eca41680f6",
-    "8438fdd1421c69c76bbe832233f7315845d61645",
     "bd8be2712061b06842161103981a2777bcc01432",
     "9f4354dc23f51327348aafbc48a485a4a236cc06",
     "437ac999d4065079a00a0bfea2a86656853197c8",
@@ -15003,6 +14999,10 @@
     "68f8c7dd38f29527b8e2f5868b28691bb37bfc70",
     "f499e5892a5bd713acfd9b68a4d7e6a376187bbd",
     "ab807bad8fc939ee26971eeefcb9c5e7983ea8c9",
-    "8fe5022a29572c1ed502d52ee1b5b81f29128f7e"
+    "8fe5022a29572c1ed502d52ee1b5b81f29128f7e",
+    "b1ad91c009d730d9822e83afecdd93d46c9589ab",
+    "497cfd9a96b72d3825c114615f42a01bbe785345",
+    "c1f58b09d5b1efabe9697f8c68c24d59aa6b9f0c",
+    "0a429b3956b3a4c515a63b0309e94063bcc6fc3c"
   ]
 }
