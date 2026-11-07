@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/05/planet-coaster-2s-major-free-ps5-update-lets-you-make-arcades-complete-with-official-atari-games",
-    "https://www.purexbox.com/news/2026/04/star-wars-galactic-racer-brings-its-high-stakes-reinvention-of-racing-to-xbox-in-october-2026",
-    "https://www.gematsu.com/2026/04/dinosaur-stealth-survival-horror-game-wilderdark-announced-for-pc",
-    "https://gamerant.com/where-winds-meet-season-3-update-patch-notes/",
     "https://gamerant.com/resonance-a-plague-tale-release-tease/",
     "https://gamerant.com/james-gunn-reveals-lanterns-release-date-on-hbo-max/",
     "https://www.nintendolife.com/news/2026/05/final-fantasy-xiv-online-director-confirms-mouse-and-keyboard-support-for-switch-2-version",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/paramount-gi-joe-release-date-paranormal-activity-delay/",
     "https://www.pcgamer.com/games/mass-effect/mass-effect-composer-sam-hulick-releases-his-re-scored-trailer-for-n7-day-my-way-of-saying-goodbye-at-least-for-now/",
     "https://gamerant.com/nintendo-switch-2-microphone-games-zelda-pikmin/",
-    "https://www.pcgamer.com/games/strategy/after-furloughing-its-developers-and-then-hiring-some-of-them-back-star-wars-zero-company-developer-has-laid-off-an-unspecified-number-of-staff/"
+    "https://www.pcgamer.com/games/strategy/after-furloughing-its-developers-and-then-hiring-some-of-them-back-star-wars-zero-company-developer-has-laid-off-an-unspecified-number-of-staff/",
+    "https://www.eurogamer.net/playstation-pulse-elevate-speakers-delayed-indefinitely-production-issue",
+    "https://www.ign.com/articles/sony-announces-indefinite-delay-for-playstations-pulse-elevate-wireless-speakers-days-before-launch",
+    "https://www.rockpapershotgun.com/path-of-exile-2s-10-version-is-out-this-year-after-all-arriving-in-december-with-a-full-campaign-two-neat-new-classes-and-more",
+    "https://www.polygon.com/path-of-exile-2-launch-update/"
   ],
   "seen_titles": [
-    "planet coaster 2's major free ps5 update lets you make arcades complete with official atari games",
-    "star wars galactic racer brings its 'high-stakes reinvention of racing' to xbox in october 2026",
-    "dinosaur stealth survival horror game wilderdark announced for pc",
-    "where winds meet launches major seasonal update",
     "a plague tale developer provides new details on third game and teases upcoming launch",
     "james gunn reveals lanterns release date on hbo max",
     "final fantasy xiv online director confirms mouse and keyboard support for switch 2 version",
@@ -10001,13 +9997,13 @@
     "gi joe and paranormal activity get new official release dates from paramount",
     "mass effect composer sam hulick releases his 're-scored' trailer for n7 day, 'my way of saying goodbye… at least for now'",
     "switch 2's most overlooked feature is finally getting its moment",
-    "after furloughing its developers and then hiring some of them back, star wars zero company developer has laid off an unspecified number of staff"
+    "after furloughing its developers and then hiring some of them back, star wars zero company developer has laid off an unspecified number of staff",
+    "sony delays playstation's pulse elevate speakers indefinitely, less than a week before launch",
+    "sony announces indefinite delay for playstation's pulse elevate wireless speakers days before launch",
+    "path of exile 2's 1.0 version is out this year after all, arriving in december with a full campaign, two neat new classes, and more",
+    "path of exile 2 sets the stage for massive update alongside december launch"
   ],
   "seen_story_keys": [
-    "3c9b68731c4449829c42d71f8221a5f7016e5a50",
-    "dcdee858d1fe75b8e834ea7115bccbb6f2945cc4",
-    "27763152ad9026faa1a0a00f43b02cf431af6495",
-    "3274334b8da7abf8d2176542623804a011b52892",
     "25fab4e8693924917049d94ab7a15069a892becf",
     "b3d0a646ba56f61719729902582f94de10515163",
     "e300e149260afbbb94da4266cd07b97731240bbb",
@@ -15003,6 +14999,10 @@
     "c13afd34e0388186298e1a33680b421dad1c00c1",
     "df5905ce572852f31d8679b4a91129a23faab570",
     "de569ccd5d5e05f5257fa9e7ada74d504f035340",
-    "33c1e23b52f771a94bd22580c64b65cd81770f4f"
+    "33c1e23b52f771a94bd22580c64b65cd81770f4f",
+    "3bae0f919029b3778e5cd5cb1c2b3aa12a8ce70d",
+    "d3d251180bc913532b1cb13e16960b0045d2a29f",
+    "18aa97f77b583f9e154906225b9e913a930f5c57",
+    "7b20fd1d58ae3cc34fac5943e8213e33a9767749"
   ]
 }
