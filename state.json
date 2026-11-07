@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/04/xbox-mode-has-officially-arrived-aiming-to-bring-a-console-inspired-experience-to-pc-users",
-    "https://www.polygon.com/pokemon-tcg-mega-evolution-pitch-black-legends-za/",
-    "https://www.gematsu.com/2026/04/blood-refreshed-supply-for-switch-2-launches-may-7",
-    "https://www.pushsquare.com/news/2026/05/no-need-to-brick-it-lego-batman-primed-for-ps5-release-as-it-goes-gold",
     "https://www.gematsu.com/2026/04/gravelord-launches-may-21",
     "https://www.gematsu.com/2026/04/extremely-ok-games-announces-platform-adventure-game-city-of-none-for-pc",
     "https://www.rockpapershotgun.com/greedfall-studio-spiders-liquidation-is-a-premeditated-and-deliberate-choice-by-nacons-management-claim-union-as-they-call-for-a-boycott",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/ananta-anime-gta-pc-ps5-release-date-2027-netease-games/",
     "https://gamerant.com/solo-leveling-sequel-seasons-announced-update/",
     "https://www.pushsquare.com/news/2026/11/following-bioware-closure-a-documentary-about-the-legendary-studio-has-been-announced",
-    "https://www.gematsu.com/2026/11/ratchet-clank-ranger-rumble-canceled"
+    "https://www.gematsu.com/2026/11/ratchet-clank-ranger-rumble-canceled",
+    "https://www.ign.com/articles/world-of-warcraft-forever-world-first-level-60-character-hits-cap-three-days-after-launch",
+    "https://www.gamesindustry.biz/sag-aftra-launches-new-video-game-agreement-enabling-devs-to-hire-professional-actors-for-demos-and-vertical-slices",
+    "https://www.videogameschronicle.com/news/sonys-free-to-play-mobile-ratchet-clank-multiplayer-shooter-has-been-cancelled/",
+    "https://www.pushsquare.com/news/2026/11/heres-what-the-expanse-osiris-reborns-recast-main-character-looks-and-sounds-like"
   ],
   "seen_titles": [
-    "xbox mode has officially arrived, aiming to bring a 'console-inspired experience' to pc users",
-    "new pokemon tcg expansion mega evolution—pitch black announced",
-    "blood: refreshed supply for switch 2 launches may 7",
-    "no need to brick it, lego batman primed for ps5 release as it goes gold",
     "gravelord launches may 21",
     "extremely ok games announces platform adventure game city of none for pc",
     "greedfall studio spiders' liquidation is a \"premeditated and deliberate choice by nacon’s management\" claim union as they call for a boycott",
@@ -10001,13 +9997,13 @@
     "gta 6's biggest competition officially arrives on pc in 2027",
     "new solo leveling sequel seasons officially announced in latest update",
     "following bioware closure, a documentary about the legendary studio has been announced",
-    "ratchet & clank: ranger rumble canceled"
+    "ratchet & clank: ranger rumble canceled",
+    "world of warcraft forever world first level 60 character hits cap three days after launch",
+    "sag-aftra launches new video game agreement enabling devs to hire professional actors for demos and vertical slices",
+    "sony’s free-to-play mobile ratchet & clank multiplayer shooter has been cancelled",
+    "here's what the expanse: osiris reborn's recast main character looks and sounds like"
   ],
   "seen_story_keys": [
-    "270f28b6c54cfa915cb558c43300e6c9a77a1bf0",
-    "b6e886ee261b1feb1b52256a61c63158afbaa05d",
-    "77200b5c1eb62e7e18e3aa6cd9abb83387ed83de",
-    "3818de6b9fc6add0bd03a5975128508194d4e8f6",
     "d33a99436a804bdeb6aae9e232218dace5c511e9",
     "fbcbf8a9be65c7fbe1b9b71fd576fb84ff5d66a5",
     "05db8f091111747173a99f122839c2dedfcfb5a3",
@@ -15003,6 +14999,10 @@
     "f8e96f72af2a723e752c4a3c2825bb0bb61b289d",
     "91558b93d8f83efd9957c91b7edd2baa50e1079e",
     "4ab02d311133ca35e7a631d4aebce9d7f9f35994",
-    "65ccb2dd622fecd83e3015ca9a2d90545c994e39"
+    "65ccb2dd622fecd83e3015ca9a2d90545c994e39",
+    "ad4f5213959e995f8f2509be068b409b0ebd6d26",
+    "9bf2b36d42a5e5792b07eebea95cf31411dbfe31",
+    "b62fafc5baa48b96220358cd5772ad2e8b5ec6d9",
+    "598ae040375cdf22dc89fe53e998c403434b1c46"
   ]
 }
