@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/04/gravelord-launches-may-21",
-    "https://www.gematsu.com/2026/04/extremely-ok-games-announces-platform-adventure-game-city-of-none-for-pc",
-    "https://www.rockpapershotgun.com/greedfall-studio-spiders-liquidation-is-a-premeditated-and-deliberate-choice-by-nacons-management-claim-union-as-they-call-for-a-boycott",
-    "https://www.pcgamer.com/gaming-industry/subnautica-2-is-the-latest-behemoth-to-mess-with-other-games-launch-plans-at-the-last-minute-we-need-to-dodge-the-leviathan/",
     "https://www.pushsquare.com/news/2026/05/planet-coaster-2s-major-free-ps5-update-lets-you-make-arcades-complete-with-official-atari-games",
     "https://www.purexbox.com/news/2026/04/star-wars-galactic-racer-brings-its-high-stakes-reinvention-of-racing-to-xbox-in-october-2026",
     "https://www.gematsu.com/2026/04/dinosaur-stealth-survival-horror-game-wilderdark-announced-for-pc",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/world-of-warcraft-forever-world-first-level-60-character-hits-cap-three-days-after-launch",
     "https://www.gamesindustry.biz/sag-aftra-launches-new-video-game-agreement-enabling-devs-to-hire-professional-actors-for-demos-and-vertical-slices",
     "https://www.videogameschronicle.com/news/sonys-free-to-play-mobile-ratchet-clank-multiplayer-shooter-has-been-cancelled/",
-    "https://www.pushsquare.com/news/2026/11/heres-what-the-expanse-osiris-reborns-recast-main-character-looks-and-sounds-like"
+    "https://www.pushsquare.com/news/2026/11/heres-what-the-expanse-osiris-reborns-recast-main-character-looks-and-sounds-like",
+    "https://www.polygon.com/paramount-gi-joe-release-date-paranormal-activity-delay/",
+    "https://www.pcgamer.com/games/mass-effect/mass-effect-composer-sam-hulick-releases-his-re-scored-trailer-for-n7-day-my-way-of-saying-goodbye-at-least-for-now/",
+    "https://gamerant.com/nintendo-switch-2-microphone-games-zelda-pikmin/",
+    "https://www.pcgamer.com/games/strategy/after-furloughing-its-developers-and-then-hiring-some-of-them-back-star-wars-zero-company-developer-has-laid-off-an-unspecified-number-of-staff/"
   ],
   "seen_titles": [
-    "gravelord launches may 21",
-    "extremely ok games announces platform adventure game city of none for pc",
-    "greedfall studio spiders' liquidation is a \"premeditated and deliberate choice by nacon’s management\" claim union as they call for a boycott",
-    "subnautica 2 is the latest behemoth to mess with other games' launch plans at the last minute: 'we need to dodge the leviathan'",
     "planet coaster 2's major free ps5 update lets you make arcades complete with official atari games",
     "star wars galactic racer brings its 'high-stakes reinvention of racing' to xbox in october 2026",
     "dinosaur stealth survival horror game wilderdark announced for pc",
@@ -10001,13 +9997,13 @@
     "world of warcraft forever world first level 60 character hits cap three days after launch",
     "sag-aftra launches new video game agreement enabling devs to hire professional actors for demos and vertical slices",
     "sony’s free-to-play mobile ratchet & clank multiplayer shooter has been cancelled",
-    "here's what the expanse: osiris reborn's recast main character looks and sounds like"
+    "here's what the expanse: osiris reborn's recast main character looks and sounds like",
+    "gi joe and paranormal activity get new official release dates from paramount",
+    "mass effect composer sam hulick releases his 're-scored' trailer for n7 day, 'my way of saying goodbye… at least for now'",
+    "switch 2's most overlooked feature is finally getting its moment",
+    "after furloughing its developers and then hiring some of them back, star wars zero company developer has laid off an unspecified number of staff"
   ],
   "seen_story_keys": [
-    "d33a99436a804bdeb6aae9e232218dace5c511e9",
-    "fbcbf8a9be65c7fbe1b9b71fd576fb84ff5d66a5",
-    "05db8f091111747173a99f122839c2dedfcfb5a3",
-    "e5b64b666ebc4f5209e964098fd1569f5c233540",
     "3c9b68731c4449829c42d71f8221a5f7016e5a50",
     "dcdee858d1fe75b8e834ea7115bccbb6f2945cc4",
     "27763152ad9026faa1a0a00f43b02cf431af6495",
@@ -15003,6 +14999,10 @@
     "ad4f5213959e995f8f2509be068b409b0ebd6d26",
     "9bf2b36d42a5e5792b07eebea95cf31411dbfe31",
     "b62fafc5baa48b96220358cd5772ad2e8b5ec6d9",
-    "598ae040375cdf22dc89fe53e998c403434b1c46"
+    "598ae040375cdf22dc89fe53e998c403434b1c46",
+    "c13afd34e0388186298e1a33680b421dad1c00c1",
+    "df5905ce572852f31d8679b4a91129a23faab570",
+    "de569ccd5d5e05f5257fa9e7ada74d504f035340",
+    "33c1e23b52f771a94bd22580c64b65cd81770f4f"
   ]
 }
