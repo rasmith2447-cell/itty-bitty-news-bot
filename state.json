@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/action/cyberpunk-bartending-sim-va-11-hall-a-devs-first-game-in-10-years-finally-launches-this-summer/",
-    "https://www.ign.com/articles/subnautica-2-finally-gets-early-access-release-date",
-    "https://www.pushsquare.com/news/2026/04/zenless-zone-zero-fires-back-at-nte-with-stunning-season-3-reveal-trailer",
-    "https://gamerant.com/witch-hat-atelier-episode-6-release-date/",
     "https://www.purexbox.com/news/2026/04/xbox-mode-has-officially-arrived-aiming-to-bring-a-console-inspired-experience-to-pc-users",
     "https://www.polygon.com/pokemon-tcg-mega-evolution-pitch-black-legends-za/",
     "https://www.gematsu.com/2026/04/blood-refreshed-supply-for-switch-2-launches-may-7",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/gta-6-players-in-germany-can-legally-take-time-off-work-to-play-the-game-on-launch-but-theres-a-catch",
     "https://www.polygon.com/end-of-oak-street-anne-hathaway-hbo-max-streaming-date/",
     "https://www.gematsu.com/2026/11/hozy-for-ps5-xbox-series-launches-november-9",
-    "https://www.ign.com/articles/blizzard-reveals-what-made-it-finally-pull-the-trigger-on-wow-forever"
+    "https://www.ign.com/articles/blizzard-reveals-what-made-it-finally-pull-the-trigger-on-wow-forever",
+    "https://www.polygon.com/ananta-anime-gta-pc-ps5-release-date-2027-netease-games/",
+    "https://gamerant.com/solo-leveling-sequel-seasons-announced-update/",
+    "https://www.pushsquare.com/news/2026/11/following-bioware-closure-a-documentary-about-the-legendary-studio-has-been-announced",
+    "https://www.gematsu.com/2026/11/ratchet-clank-ranger-rumble-canceled"
   ],
   "seen_titles": [
-    "cyberpunk bartending sim va-11 hall-a devs' first game in 10 years finally launches this summer",
-    "subnautica 2 finally gets early access release date",
-    "zenless zone zero fires back at nte with stunning season 3 reveal trailer",
-    "witch hat atelier episode 6 release date",
     "xbox mode has officially arrived, aiming to bring a 'console-inspired experience' to pc users",
     "new pokemon tcg expansion mega evolution—pitch black announced",
     "blood: refreshed supply for switch 2 launches may 7",
@@ -10001,13 +9997,13 @@
     "gta 6 players in germany can legally take time off work to play the game on launch, but there's a catch",
     "anne hathaway and jj abrams sci-fi thriller sets official hbo max streaming date",
     "hozy for ps5, xbox series launches november 9",
-    "blizzard reveals what made it finally pull the trigger on wow forever"
+    "blizzard reveals what made it finally pull the trigger on wow forever",
+    "gta 6's biggest competition officially arrives on pc in 2027",
+    "new solo leveling sequel seasons officially announced in latest update",
+    "following bioware closure, a documentary about the legendary studio has been announced",
+    "ratchet & clank: ranger rumble canceled"
   ],
   "seen_story_keys": [
-    "bd8be2712061b06842161103981a2777bcc01432",
-    "9f4354dc23f51327348aafbc48a485a4a236cc06",
-    "437ac999d4065079a00a0bfea2a86656853197c8",
-    "da4ee110d9e23ec7c2d0e10c594fa54eb6631b4a",
     "270f28b6c54cfa915cb558c43300e6c9a77a1bf0",
     "b6e886ee261b1feb1b52256a61c63158afbaa05d",
     "77200b5c1eb62e7e18e3aa6cd9abb83387ed83de",
@@ -15003,6 +14999,10 @@
     "b1ad91c009d730d9822e83afecdd93d46c9589ab",
     "497cfd9a96b72d3825c114615f42a01bbe785345",
     "c1f58b09d5b1efabe9697f8c68c24d59aa6b9f0c",
-    "0a429b3956b3a4c515a63b0309e94063bcc6fc3c"
+    "0a429b3956b3a4c515a63b0309e94063bcc6fc3c",
+    "f8e96f72af2a723e752c4a3c2825bb0bb61b289d",
+    "91558b93d8f83efd9957c91b7edd2baa50e1079e",
+    "4ab02d311133ca35e7a631d4aebce9d7f9f35994",
+    "65ccb2dd622fecd83e3015ca9a2d90545c994e39"
   ]
 }
