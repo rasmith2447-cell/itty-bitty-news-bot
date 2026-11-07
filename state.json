@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/resonance-a-plague-tale-release-tease/",
-    "https://gamerant.com/james-gunn-reveals-lanterns-release-date-on-hbo-max/",
-    "https://www.nintendolife.com/news/2026/05/final-fantasy-xiv-online-director-confirms-mouse-and-keyboard-support-for-switch-2-version",
-    "https://www.gamesindustry.biz/epic-games-store-launches-on-iphone-in-japan",
     "https://www.pushsquare.com/news/2026/05/never-before-seen-shenmue-concept-art-unearthed-and-shared-online",
     "https://www.nintendolife.com/news/2026/05/tomodachi-life-living-the-dream-welcome-version-demo-receives-another-update",
     "https://www.gematsu.com/2026/04/world-heroes-perfect-neo-geo-premium-selection-edition-announced-for-pc",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/playstation-pulse-elevate-speakers-delayed-indefinitely-production-issue",
     "https://www.ign.com/articles/sony-announces-indefinite-delay-for-playstations-pulse-elevate-wireless-speakers-days-before-launch",
     "https://www.rockpapershotgun.com/path-of-exile-2s-10-version-is-out-this-year-after-all-arriving-in-december-with-a-full-campaign-two-neat-new-classes-and-more",
-    "https://www.polygon.com/path-of-exile-2-launch-update/"
+    "https://www.polygon.com/path-of-exile-2-launch-update/",
+    "https://www.eurogamer.net/star-wars-zero-company-bit-reactor-layoffs",
+    "https://www.gematsu.com/2026/11/aniplex-and-cybird-announce-dark-fantasy-visual-novel-lunareverse-for-switch-pc",
+    "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-7th-november",
+    "https://www.eurogamer.net/square-enix-nier-automata-update-required-file-size-366gb"
   ],
   "seen_titles": [
-    "a plague tale developer provides new details on third game and teases upcoming launch",
-    "james gunn reveals lanterns release date on hbo max",
-    "final fantasy xiv online director confirms mouse and keyboard support for switch 2 version",
-    "epic games store launches on iphone in japan",
     "never-before-seen shenmue concept art unearthed and shared online",
     "tomodachi life: living the dream 'welcome version' demo receives another update",
     "world heroes perfect ‘neo geo premium selection’ edition announced for pc",
@@ -10001,13 +9997,13 @@
     "sony delays playstation's pulse elevate speakers indefinitely, less than a week before launch",
     "sony announces indefinite delay for playstation's pulse elevate wireless speakers days before launch",
     "path of exile 2's 1.0 version is out this year after all, arriving in december with a full campaign, two neat new classes, and more",
-    "path of exile 2 sets the stage for massive update alongside december launch"
+    "path of exile 2 sets the stage for massive update alongside december launch",
+    "star wars zero company studio bit reactor lays off staff, a month after bringing furloughed developers back",
+    "aniplex and cybird announce dark fantasy visual novel lunareverse for switch, pc",
+    "talking point: what are you playing this weekend? (7th november)",
+    "square enix accidentally botches a nier: automata update, balloons required file size from 50gb to 366gb on pc"
   ],
   "seen_story_keys": [
-    "25fab4e8693924917049d94ab7a15069a892becf",
-    "b3d0a646ba56f61719729902582f94de10515163",
-    "e300e149260afbbb94da4266cd07b97731240bbb",
-    "6c8e3f5a2bd6f5eb8834a84d781228be2b3bac9d",
     "f0c850b7a500be98b2c8a646297fa73be7c59301",
     "0ff5069098e85cf3757be0e2a336c9d1d8de1b10",
     "1d7b0e0eb101273eb740cb0b4ea54eddc176d590",
@@ -15003,6 +14999,10 @@
     "3bae0f919029b3778e5cd5cb1c2b3aa12a8ce70d",
     "d3d251180bc913532b1cb13e16960b0045d2a29f",
     "18aa97f77b583f9e154906225b9e913a930f5c57",
-    "7b20fd1d58ae3cc34fac5943e8213e33a9767749"
+    "7b20fd1d58ae3cc34fac5943e8213e33a9767749",
+    "dbcd54caa9d360b1302ca6c77a783551d960a06c",
+    "4daf8a4c53375c574bebf56da06a1eeee438a980",
+    "eb629a121671b10123aca41eb75a3549043f3eaa",
+    "44e5e93237d3ad95c96fabca016b09591619372e"
   ]
 }
