@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/05/never-before-seen-shenmue-concept-art-unearthed-and-shared-online",
-    "https://www.nintendolife.com/news/2026/05/tomodachi-life-living-the-dream-welcome-version-demo-receives-another-update",
-    "https://www.gematsu.com/2026/04/world-heroes-perfect-neo-geo-premium-selection-edition-announced-for-pc",
-    "https://www.rockpapershotgun.com/subnautica-2s-early-access-will-introduce-you-to-a-massive-squid-monster-before-the-first-post-launch-update-sends-you-into-its-lair",
     "https://www.ign.com/articles/warhammer-40000-space-marine-2-has-done-so-well-live-support-has-been-officially-extended-into-a-third-year",
     "https://www.pushsquare.com/news/2026/04/just-hours-after-closing-its-rpg-studio-nacon-confirms-showcase-date-for-next-week",
     "https://www.gematsu.com/2026/04/vehicular-action-game-truck-kun-is-supporting-me-from-another-world-announced-for-xbox-series-pc",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/star-wars-zero-company-bit-reactor-layoffs",
     "https://www.gematsu.com/2026/11/aniplex-and-cybird-announce-dark-fantasy-visual-novel-lunareverse-for-switch-pc",
     "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-7th-november",
-    "https://www.eurogamer.net/square-enix-nier-automata-update-required-file-size-366gb"
+    "https://www.eurogamer.net/square-enix-nier-automata-update-required-file-size-366gb",
+    "https://www.polygon.com/hogwarts-legacy-2-harry-potter-game-warner-bros/",
+    "https://gamerant.com/black-clover-season-3-officially-cancelled-in-new-update/",
+    "https://www.gematsu.com/2026/11/wuthering-waves-version-3-8-update-lilies-in-a-dying-dream-launches-november-12",
+    "https://www.purexbox.com/news/2026/11/xbox-series-x-bite-alligator-console-returns-with-a-new-video-and-multiple-new-images"
   ],
   "seen_titles": [
-    "never-before-seen shenmue concept art unearthed and shared online",
-    "tomodachi life: living the dream 'welcome version' demo receives another update",
-    "world heroes perfect ‘neo geo premium selection’ edition announced for pc",
-    "subnautica 2‘s early access will introduce you to a massive squid monster, before the first post-launch update sends you into its lair",
     "warhammer 40,000: space marine 2 has done so well, live support has been officially extended into a third year",
     "just hours after closing its rpg studio, nacon confirms showcase date for next week",
     "vehicular action game truck-kun is supporting me from another world?! announced for xbox series, pc",
@@ -10001,13 +9997,13 @@
     "star wars zero company studio bit reactor lays off staff, a month after bringing furloughed developers back",
     "aniplex and cybird announce dark fantasy visual novel lunareverse for switch, pc",
     "talking point: what are you playing this weekend? (7th november)",
-    "square enix accidentally botches a nier: automata update, balloons required file size from 50gb to 366gb on pc"
+    "square enix accidentally botches a nier: automata update, balloons required file size from 50gb to 366gb on pc",
+    "hogwarts legacy 2 is officially confirmed",
+    "black clover season 3 officially cancelled in new update",
+    "wuthering waves version 3.8 update ‘lilies in a dying dream’ launches november 12",
+    "xbox series x-bite alligator console returns with a new video and multiple new images"
   ],
   "seen_story_keys": [
-    "f0c850b7a500be98b2c8a646297fa73be7c59301",
-    "0ff5069098e85cf3757be0e2a336c9d1d8de1b10",
-    "1d7b0e0eb101273eb740cb0b4ea54eddc176d590",
-    "4672dc16508c9f4e0792690072727b05cec4648e",
     "fa669b34d5fe3d1c945ca8ee99087b92c7c40247",
     "f60a07a88b946220b2b72d2bf45d1ca093285dee",
     "5d5cf9dec65dcce3b5305bd0e750762d0ea1bd2e",
@@ -15003,6 +14999,10 @@
     "dbcd54caa9d360b1302ca6c77a783551d960a06c",
     "4daf8a4c53375c574bebf56da06a1eeee438a980",
     "eb629a121671b10123aca41eb75a3549043f3eaa",
-    "44e5e93237d3ad95c96fabca016b09591619372e"
+    "44e5e93237d3ad95c96fabca016b09591619372e",
+    "0c5c2dd86d65fbe0334ff44a459730a22f8cf6a3",
+    "6e7983eca31b1bde474c68908d54e39d5a8c3e13",
+    "17d4e4693aac617850338bb29a8fc9befa19e8a4",
+    "d5f885171a5815b7b412bda75b4c47628d88beb8"
   ]
 }
