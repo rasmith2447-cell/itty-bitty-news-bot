@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/05/sonys-ps5-pc-fighting-game-marvel-tokon-is-teasing-a-surprise-at-evo-japan",
-    "https://www.purexbox.com/news/2026/05/forza-horizon-6-download-sizes-revealed-on-xbox-and-pc-and-theyre-huge",
     "https://gamerant.com/arc-raiders-weapon-durability-change-controversy/",
     "https://www.pcgamer.com/hardware/handheld-gaming-pcs/if-the-rampocalypse-doesnt-price-them-into-oblivion-the-next-generation-of-hot-handheld-gaming-pcs-could-well-be-intel-powered/",
     "https://www.pushsquare.com/news/2026/05/ps-studios-celebrates-the-launch-of-ps5-exclusive-saros-with-brilliant-artwork",
@@ -4999,11 +4997,11 @@
     "https://www.pushsquare.com/news/2026/11/god-of-war-spin-off-game-seemingly-getting-surprise-ps4-port",
     "https://www.eurogamer.net/wow-forever-biggest-launch-world-of-warcraft-history-concurrent-players",
     "https://gamerant.com/baldurs-gate-3-feast-for-tenday-worldwide-release-editions-prices/",
-    "https://gamerant.com/switch-2-guardians-of-the-galaxy-marvel/"
+    "https://gamerant.com/switch-2-guardians-of-the-galaxy-marvel/",
+    "https://www.ign.com/articles/nvidia-launches-investigation-into-ceo-jensen-huang-following-affair-with-alleged-chinese-spy",
+    "https://www.pcgamer.com/gaming-industry/nvidia-ceo-jensen-huang-admits-to-affair-with-alleged-chinese-spy-as-company-board-launches-investigation/"
   ],
   "seen_titles": [
-    "sony's ps5, pc fighting game marvel tokon is teasing a 'surprise' at evo japan",
-    "forza horizon 6 download sizes revealed on xbox & pc, and they're huge",
     "arc raiders fans petition to revert a major change from the riven tides update",
     "if the rampocalypse doesn't price them into oblivion, the next generation of hot handheld gaming pcs could well be intel-powered",
     "ps studios celebrates the launch of ps5 exclusive saros with brilliant artwork",
@@ -10001,11 +9999,11 @@
     "god of war spin-off game seemingly getting surprise ps4 port",
     "wow: forever is the biggest launch in world of warcraft history, says blizzard",
     "baldur’s gate 3: a feast for a tenday officially released",
-    "new official nintendo switch 2 game available now"
+    "new official nintendo switch 2 game available now",
+    "nvidia launches investigation into ceo jensen huang following affair with alleged chinese spy",
+    "nvidia ceo jensen huang admits to affair with alleged chinese spy as company board launches investigation"
   ],
   "seen_story_keys": [
-    "06bc060eca0c92b664e72ec151f93cef2aa1381c",
-    "fcfa2ba82f6075dd0da7b38cb78fa9115d90f99a",
     "99e9e3300b3d8b1cd4ed0a88d85d5137894b1dda",
     "a9f46c21cfa9712c9f0415273fcc40d0b977fc8a",
     "a0b51b08ec032da4cde4c1b4c6fd844a08123e0a",
@@ -15003,6 +15001,8 @@
     "f3b07cc5a8ee275aa2cd550d9978c48a1f5b30bc",
     "e4d7dd897042ac133cfbbfc11708cd004ea64059",
     "e5d5b53f4bde442a77f58a76dbe62d224af99eec",
-    "13354a2ec586ecc7844305c9ab1e9b87972d86f4"
+    "13354a2ec586ecc7844305c9ab1e9b87972d86f4",
+    "35d83f819265d1f1aa47ef160128eeda9ce8d201",
+    "e5cbddef26ebc741de6dec09af3a56f67de8bc47"
   ]
 }
