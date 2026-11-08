@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/warhammer-40000-space-marine-2-has-done-so-well-live-support-has-been-officially-extended-into-a-third-year",
-    "https://www.pushsquare.com/news/2026/04/just-hours-after-closing-its-rpg-studio-nacon-confirms-showcase-date-for-next-week",
-    "https://www.gematsu.com/2026/04/vehicular-action-game-truck-kun-is-supporting-me-from-another-world-announced-for-xbox-series-pc",
-    "https://www.polygon.com/maul-shadow-lord-season-2-release-date-soon/",
     "https://www.eurogamer.net/diablo-4-dye-demand",
     "https://www.gematsu.com/2026/04/culdcept-the-first-saturn-tribute-launches-july-30-for-pc-worldwide-september-8-for-ps5-xbox-series-and-switch-in-the-west",
     "https://www.rockpapershotgun.com/subnautica-2s-early-access-has-chased-a-campervanning-game-about-starting-fires-and-hacking-pcs-into-an-earlier-release",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/hogwarts-legacy-2-harry-potter-game-warner-bros/",
     "https://gamerant.com/black-clover-season-3-officially-cancelled-in-new-update/",
     "https://www.gematsu.com/2026/11/wuthering-waves-version-3-8-update-lilies-in-a-dying-dream-launches-november-12",
-    "https://www.purexbox.com/news/2026/11/xbox-series-x-bite-alligator-console-returns-with-a-new-video-and-multiple-new-images"
+    "https://www.purexbox.com/news/2026/11/xbox-series-x-bite-alligator-console-returns-with-a-new-video-and-multiple-new-images",
+    "https://www.ign.com/articles/epic-reveals-drop-rate-for-fortnites-pirate-token-following-pressure-from-fans",
+    "https://www.pcgamer.com/games/grand-theft-auto/zelnick-doesnt-regret-gta-6s-delay-because-shipping-an-unfinished-game-rarely-ends-well-there-was-a-very-high-profile-release-that-fell-into-this-category/",
+    "https://www.gematsu.com/2026/11/acornia-mirror-worlds-launches-in-spring-2027",
+    "https://www.rockpapershotgun.com/goddess-of-victory-nikkes-pc-launcher-suffers-potential-malware-infection-with-its-publishers-suggesting-folks-whove-booted-since-late-september-do-a-security-check"
   ],
   "seen_titles": [
-    "warhammer 40,000: space marine 2 has done so well, live support has been officially extended into a third year",
-    "just hours after closing its rpg studio, nacon confirms showcase date for next week",
-    "vehicular action game truck-kun is supporting me from another world?! announced for xbox series, pc",
-    "star wars - maul shadow lord season 2 release date is closer than you think",
     "diablo 4 die-hards desperate for dyes, following launch of lord of hatred expansion",
     "culdcept the first saturn tribute launches july 30 for pc worldwide, september 8 for ps5, xbox series, and switch in the west",
     "subnautica 2's early access has chased a campervanning game about starting fires and hacking pcs into an earlier release",
@@ -10001,13 +9997,13 @@
     "hogwarts legacy 2 is officially confirmed",
     "black clover season 3 officially cancelled in new update",
     "wuthering waves version 3.8 update ‘lilies in a dying dream’ launches november 12",
-    "xbox series x-bite alligator console returns with a new video and multiple new images"
+    "xbox series x-bite alligator console returns with a new video and multiple new images",
+    "epic reveals drop rate for fortnite's pirate token following pressure from fans",
+    "zelnick doesn't regret gta 6's delay because shipping an unfinished game rarely ends well: 'there was a very high profile release that fell into this category'",
+    "acornia: mirror worlds launches in spring 2027",
+    "goddess of victory: nikke's pc launcher suffers potential malware infection, with its publishers suggesting folks who've booted since late september do a security check"
   ],
   "seen_story_keys": [
-    "fa669b34d5fe3d1c945ca8ee99087b92c7c40247",
-    "f60a07a88b946220b2b72d2bf45d1ca093285dee",
-    "5d5cf9dec65dcce3b5305bd0e750762d0ea1bd2e",
-    "fa19e60cf10d81edf9af6af19c30c64c5a525de8",
     "8f0012690231c8000f47416016c00226e2ec99e8",
     "17633a6796a206e9821e3b4a09ecbaaf1fe840fa",
     "f4af4e29a643a2f67d88279cdce6c8159300ac75",
@@ -15003,6 +14999,10 @@
     "0c5c2dd86d65fbe0334ff44a459730a22f8cf6a3",
     "6e7983eca31b1bde474c68908d54e39d5a8c3e13",
     "17d4e4693aac617850338bb29a8fc9befa19e8a4",
-    "d5f885171a5815b7b412bda75b4c47628d88beb8"
+    "d5f885171a5815b7b412bda75b4c47628d88beb8",
+    "021f8d2f4fb6d84c64b5726498f24bbc06ac5f32",
+    "630d082571633b808a1400530f0072836390e41a",
+    "311ef2983265bae08138235b45be715d9f4733b3",
+    "006ccf87c2f48304fc111477cdc5a9e25eb11c38"
   ]
 }
