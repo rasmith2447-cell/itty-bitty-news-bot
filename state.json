@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/arc-raiders-weapon-durability-change-controversy/",
-    "https://www.pcgamer.com/hardware/handheld-gaming-pcs/if-the-rampocalypse-doesnt-price-them-into-oblivion-the-next-generation-of-hot-handheld-gaming-pcs-could-well-be-intel-powered/",
     "https://www.pushsquare.com/news/2026/05/ps-studios-celebrates-the-launch-of-ps5-exclusive-saros-with-brilliant-artwork",
     "https://www.purexbox.com/news/2026/05/the-outer-worlds-to-be-partially-delisted-free-spacers-choice-edition-for-those-affected",
     "https://www.gematsu.com/2026/05/backtrace-mechanisms-for-forgetting-announced-for-pc-pixel-art-yuri-mystery-and-puzzle-game-inside-a-retro-computer",
@@ -4999,11 +4997,11 @@
     "https://gamerant.com/baldurs-gate-3-feast-for-tenday-worldwide-release-editions-prices/",
     "https://gamerant.com/switch-2-guardians-of-the-galaxy-marvel/",
     "https://www.ign.com/articles/nvidia-launches-investigation-into-ceo-jensen-huang-following-affair-with-alleged-chinese-spy",
-    "https://www.pcgamer.com/gaming-industry/nvidia-ceo-jensen-huang-admits-to-affair-with-alleged-chinese-spy-as-company-board-launches-investigation/"
+    "https://www.pcgamer.com/gaming-industry/nvidia-ceo-jensen-huang-admits-to-affair-with-alleged-chinese-spy-as-company-board-launches-investigation/",
+    "https://www.polygon.com/the-witcher-4-release-date-window-cd-projekt-red/",
+    "https://www.gematsu.com/2026/11/playstation-portal-midnight-black-japan-only-model-announced"
   ],
   "seen_titles": [
-    "arc raiders fans petition to revert a major change from the riven tides update",
-    "if the rampocalypse doesn't price them into oblivion, the next generation of hot handheld gaming pcs could well be intel-powered",
     "ps studios celebrates the launch of ps5 exclusive saros with brilliant artwork",
     "the outer worlds to be partially delisted, free 'spacer's choice edition' for those affected",
     "backtrace: mechanisms for forgetting announced for pc – pixel art yuri mystery and puzzle game inside a retro computer",
@@ -10001,11 +9999,11 @@
     "baldur’s gate 3: a feast for a tenday officially released",
     "new official nintendo switch 2 game available now",
     "nvidia launches investigation into ceo jensen huang following affair with alleged chinese spy",
-    "nvidia ceo jensen huang admits to affair with alleged chinese spy as company board launches investigation"
+    "nvidia ceo jensen huang admits to affair with alleged chinese spy as company board launches investigation",
+    "the witcher 4 sets official release window",
+    "playstation portal midnight black japan-only model announced"
   ],
   "seen_story_keys": [
-    "99e9e3300b3d8b1cd4ed0a88d85d5137894b1dda",
-    "a9f46c21cfa9712c9f0415273fcc40d0b977fc8a",
     "a0b51b08ec032da4cde4c1b4c6fd844a08123e0a",
     "8b7be5cb7061405434d0b9bf1f909d546422a767",
     "0db4bc04799dc22ceab9ace4aab43a4e0e67ba02",
@@ -15003,6 +15001,8 @@
     "e5d5b53f4bde442a77f58a76dbe62d224af99eec",
     "13354a2ec586ecc7844305c9ab1e9b87972d86f4",
     "35d83f819265d1f1aa47ef160128eeda9ce8d201",
-    "e5cbddef26ebc741de6dec09af3a56f67de8bc47"
+    "e5cbddef26ebc741de6dec09af3a56f67de8bc47",
+    "1709ac77053e854ca4f6e0a8e10cced61de8cbc7",
+    "cd863eb7618fd9a3f12fb26e5d9017ac13eb90c6"
   ]
 }
