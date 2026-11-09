@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/video/star-wars-knights-of-the-old-republic-remake-needs-to-succeed-under-5-minutes/",
-    "https://www.gamespot.com/articles/resident-evil-movie-director-reveals-the-scariest-scene-in-the-series-that-made-him-nope-out/1100-6539739/?ftag=CAD-01-10abi2f",
-    "https://gamerant.com/animal-crossing-new-horizons-update-3-0-3-patch-notes/",
-    "https://www.purexbox.com/news/2026/05/asha-sharma-comments-on-ai-use-as-upscaling-tech-rolls-out-to-rog-xbox-ally",
     "https://www.pcgamer.com/hardware/gaming-pcs/valve-on-the-steam-machine-delays-obviously-were-bummed-that-this-is-the-state-of-things/",
     "https://www.ign.com/articles/subnautica-2-release-date-announcement-forces-outbound-dev-to-bring-its-game-launch-forward",
     "https://gamerant.com/gta-6-price-update/",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/selfridges-gta-6-collab-takeover",
     "https://www.purexbox.com/news/2026/11/halo-2-is-22-years-old-today-and-im-gutted-the-remake-isnt-happening",
     "https://gamerant.com/gta-6-strip-clubs/",
-    "https://www.gamesindustry.biz/star-wars-zero-company-developer-bit-reactor-has-laid-off-an-unspecified-number-of-people"
+    "https://www.gamesindustry.biz/star-wars-zero-company-developer-bit-reactor-has-laid-off-an-unspecified-number-of-people",
+    "https://www.polygon.com/hbo-max-paramount-plus-streaming-bundle-launching-2027/",
+    "https://www.gamesindustry.biz/theres-no-such-thing-as-easy-money-in-our-business-strauss-zelnick-on-gta-6-bioshock-take-twos-acquisition-plans-and-reviving-old-ip",
+    "https://www.ign.com/articles/skydance-games-confirms-layoffs-following-warner-bros-paramount-merger",
+    "https://www.gamesindustry.biz/tripwire-interactive-lays-off-36"
   ],
   "seen_titles": [
-    "what the star wars knights of the old republic remake needs to succeed (in under 5 minutes)",
-    "resident evil movie director reveals the scariest scene in the series that made him \"nope out\"",
-    "animal crossing: new horizons gets brand-new update",
-    "asha sharma comments on ai use as upscaling tech rolls out to rog xbox ally",
     "valve on the steam machine delays: 'obviously we're bummed that this is the state of things'",
     "subnautica 2 release date announcement forces outbound dev to bring its game launch forward",
     "gta 6 boss comments on the game's price",
@@ -10001,13 +9997,13 @@
     "london department store selfridges launches sizeable gta 6 takeover, featuring a varsity jacket that costs an eye-watering £2,500",
     "halo 2 is 22 years old today, and i'm gutted the remake isn't happening",
     "gta 6 officially reveals new look at strip clubs ahead of november 19 release",
-    "star wars zero company developer bit reactor has laid off an unspecified number of people"
+    "star wars zero company developer bit reactor has laid off an unspecified number of people",
+    "hbo max-paramount plus bundle officially confirmed for 2027",
+    "\"there's no such thing as easy money in our business\" – strauss zelnick on gta 6, bioshock, take-two's acquisition plans, and reviving old ip",
+    "skydance games confirms layoffs following warner bros.-paramount merger",
+    "tripwire interactive lays off 36"
   ],
   "seen_story_keys": [
-    "1cf246fd86617a01894257403219b9bc5d831341",
-    "c01998b69835bdce79d193c6de2a173540a9b86e",
-    "765ac082c0e9c669cf4d17efcfce1f3aec68a5fd",
-    "dc010790d5dc9aa65c667644f151768e8eb28cb8",
     "5007cd73626f6a4bacefdc9b394039ba33b95280",
     "bbe4860a2ec481e018fc54e75578b80e8dcfe313",
     "17ef9abd40fb1c5a92880c75c2edaff5bf3b1aed",
@@ -15003,6 +14999,10 @@
     "ed8ab0fafe8d400e0510b2adc25f5b4f28d77f66",
     "3d9a8205857e73e6966120e503d238096b016000",
     "bc8847e3b51f288575bcf3900b6fab9ae06c84ed",
-    "d46a3ca47ba81defec30920d215b09b732b60ab4"
+    "d46a3ca47ba81defec30920d215b09b732b60ab4",
+    "e81a3591d5a8b03ecfa4a5f8456c61a707ce9799",
+    "c59bef083850657a15ad07c1d52acbe4edf24e9b",
+    "e155f9aff74650443a0798c6c7d0d25e28d81b42",
+    "bc858de8c09ba079db949e0001d90eb8eae5a766"
   ]
 }
