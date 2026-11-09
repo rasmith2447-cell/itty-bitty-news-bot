@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/05/ps-studios-celebrates-the-launch-of-ps5-exclusive-saros-with-brilliant-artwork",
-    "https://www.purexbox.com/news/2026/05/the-outer-worlds-to-be-partially-delisted-free-spacers-choice-edition-for-those-affected",
-    "https://www.gematsu.com/2026/05/backtrace-mechanisms-for-forgetting-announced-for-pc-pixel-art-yuri-mystery-and-puzzle-game-inside-a-retro-computer",
-    "https://www.pushsquare.com/news/2026/05/star-wars-invades-fortnite-on-ps5-ps4-with-three-new-game-modes-and-plenty-more",
     "https://gamerant.com/video/star-wars-knights-of-the-old-republic-remake-needs-to-succeed-under-5-minutes/",
     "https://www.gamespot.com/articles/resident-evil-movie-director-reveals-the-scariest-scene-in-the-series-that-made-him-nope-out/1100-6539739/?ftag=CAD-01-10abi2f",
     "https://gamerant.com/animal-crossing-new-horizons-update-3-0-3-patch-notes/",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/nvidia-launches-investigation-into-ceo-jensen-huang-following-affair-with-alleged-chinese-spy",
     "https://www.pcgamer.com/gaming-industry/nvidia-ceo-jensen-huang-admits-to-affair-with-alleged-chinese-spy-as-company-board-launches-investigation/",
     "https://www.polygon.com/the-witcher-4-release-date-window-cd-projekt-red/",
-    "https://www.gematsu.com/2026/11/playstation-portal-midnight-black-japan-only-model-announced"
+    "https://www.gematsu.com/2026/11/playstation-portal-midnight-black-japan-only-model-announced",
+    "https://www.eurogamer.net/selfridges-gta-6-collab-takeover",
+    "https://www.purexbox.com/news/2026/11/halo-2-is-22-years-old-today-and-im-gutted-the-remake-isnt-happening",
+    "https://gamerant.com/gta-6-strip-clubs/",
+    "https://www.gamesindustry.biz/star-wars-zero-company-developer-bit-reactor-has-laid-off-an-unspecified-number-of-people"
   ],
   "seen_titles": [
-    "ps studios celebrates the launch of ps5 exclusive saros with brilliant artwork",
-    "the outer worlds to be partially delisted, free 'spacer's choice edition' for those affected",
-    "backtrace: mechanisms for forgetting announced for pc – pixel art yuri mystery and puzzle game inside a retro computer",
-    "star wars invades fortnite on ps5, ps4 with three new game modes and plenty more",
     "what the star wars knights of the old republic remake needs to succeed (in under 5 minutes)",
     "resident evil movie director reveals the scariest scene in the series that made him \"nope out\"",
     "animal crossing: new horizons gets brand-new update",
@@ -10001,13 +9997,13 @@
     "nvidia launches investigation into ceo jensen huang following affair with alleged chinese spy",
     "nvidia ceo jensen huang admits to affair with alleged chinese spy as company board launches investigation",
     "the witcher 4 sets official release window",
-    "playstation portal midnight black japan-only model announced"
+    "playstation portal midnight black japan-only model announced",
+    "london department store selfridges launches sizeable gta 6 takeover, featuring a varsity jacket that costs an eye-watering £2,500",
+    "halo 2 is 22 years old today, and i'm gutted the remake isn't happening",
+    "gta 6 officially reveals new look at strip clubs ahead of november 19 release",
+    "star wars zero company developer bit reactor has laid off an unspecified number of people"
   ],
   "seen_story_keys": [
-    "a0b51b08ec032da4cde4c1b4c6fd844a08123e0a",
-    "8b7be5cb7061405434d0b9bf1f909d546422a767",
-    "0db4bc04799dc22ceab9ace4aab43a4e0e67ba02",
-    "94c0f5709738b940424196d97d6e6064013f5170",
     "1cf246fd86617a01894257403219b9bc5d831341",
     "c01998b69835bdce79d193c6de2a173540a9b86e",
     "765ac082c0e9c669cf4d17efcfce1f3aec68a5fd",
@@ -15003,6 +14999,10 @@
     "35d83f819265d1f1aa47ef160128eeda9ce8d201",
     "e5cbddef26ebc741de6dec09af3a56f67de8bc47",
     "1709ac77053e854ca4f6e0a8e10cced61de8cbc7",
-    "cd863eb7618fd9a3f12fb26e5d9017ac13eb90c6"
+    "cd863eb7618fd9a3f12fb26e5d9017ac13eb90c6",
+    "ed8ab0fafe8d400e0510b2adc25f5b4f28d77f66",
+    "3d9a8205857e73e6966120e503d238096b016000",
+    "bc8847e3b51f288575bcf3900b6fab9ae06c84ed",
+    "d46a3ca47ba81defec30920d215b09b732b60ab4"
   ]
 }
