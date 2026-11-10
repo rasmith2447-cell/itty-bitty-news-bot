@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/hardware/gaming-pcs/valve-on-the-steam-machine-delays-obviously-were-bummed-that-this-is-the-state-of-things/",
-    "https://www.ign.com/articles/subnautica-2-release-date-announcement-forces-outbound-dev-to-bring-its-game-launch-forward",
-    "https://gamerant.com/gta-6-price-update/",
-    "https://www.ign.com/articles/imax-dismisses-disney-infinity-vision-as-a-marketing-play-to-boost-avengers-doomsday",
     "https://www.pcgamer.com/games/new-cozy-games-may-2026/",
     "https://www.ign.com/articles/total-war-warhammer-40000-devs-reveal-huge-battle-maps-planets-and-region-scale",
     "https://gamerant.com/last-flag-imagine-dragons-steam-player-count/",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/hbo-max-paramount-plus-streaming-bundle-launching-2027/",
     "https://www.gamesindustry.biz/theres-no-such-thing-as-easy-money-in-our-business-strauss-zelnick-on-gta-6-bioshock-take-twos-acquisition-plans-and-reviving-old-ip",
     "https://www.ign.com/articles/skydance-games-confirms-layoffs-following-warner-bros-paramount-merger",
-    "https://www.gamesindustry.biz/tripwire-interactive-lays-off-36"
+    "https://www.gamesindustry.biz/tripwire-interactive-lays-off-36",
+    "https://www.nintendolife.com/news/2026/11/nintendo-switch-2-system-update-23-5-0-is-now-live-here-are-the-full-patch-notes",
+    "https://www.pcgamer.com/games/grand-theft-auto/the-experiences-on-console-and-pc-tend-to-be-roughly-the-same-says-take-two-ceo-in-response-to-question-about-gta-roleplaying/",
+    "https://gamerant.com/gta-6-preload-how-when-ps5-xbox/",
+    "https://www.ign.com/articles/take-two-enhancing-technical-defenses-and-legal-activities-to-combat-gta-6-ai-reverse-engineering-threat"
   ],
   "seen_titles": [
-    "valve on the steam machine delays: 'obviously we're bummed that this is the state of things'",
-    "subnautica 2 release date announcement forces outbound dev to bring its game launch forward",
-    "gta 6 boss comments on the game's price",
-    "imax dismisses disney infinity vision as a 'marketing play' to boost avengers: doomsday",
     "the cozy game launches of may are dominated by a bunch of hotly-anticipated sims",
     "total war: warhammer 40,000 devs reveal huge battle maps, planets, and region scale",
     "new steam game from imagine dragons lead singer sees player count plummet",
@@ -10001,13 +9997,13 @@
     "hbo max-paramount plus bundle officially confirmed for 2027",
     "\"there's no such thing as easy money in our business\" – strauss zelnick on gta 6, bioshock, take-two's acquisition plans, and reviving old ip",
     "skydance games confirms layoffs following warner bros.-paramount merger",
-    "tripwire interactive lays off 36"
+    "tripwire interactive lays off 36",
+    "nintendo switch 2 system update 23.5.0 is now live, here are the full patch notes",
+    "'the experiences on console and pc tend to be roughly the same,' says take-two ceo in response to question about gta roleplaying",
+    "gta 6 pre-loads officially available now",
+    "take-two 'enhancing' technical defenses and legal activities to combat gta 6 ai reverse-engineering threat"
   ],
   "seen_story_keys": [
-    "5007cd73626f6a4bacefdc9b394039ba33b95280",
-    "bbe4860a2ec481e018fc54e75578b80e8dcfe313",
-    "17ef9abd40fb1c5a92880c75c2edaff5bf3b1aed",
-    "f16cc5708f8579911ac397e4fcb1bbc5a9ed0b20",
     "1b3df75c6e7f44944effaa9d0112c6d5b8e2ecd9",
     "e25fce288d7287865442589764a86f0030b3ec55",
     "5106e7469e316d745f4edaa57bbbc1395c5e39c2",
@@ -15003,6 +14999,10 @@
     "e81a3591d5a8b03ecfa4a5f8456c61a707ce9799",
     "c59bef083850657a15ad07c1d52acbe4edf24e9b",
     "e155f9aff74650443a0798c6c7d0d25e28d81b42",
-    "bc858de8c09ba079db949e0001d90eb8eae5a766"
+    "bc858de8c09ba079db949e0001d90eb8eae5a766",
+    "21f378d4a027fc2e1d3baeba14c09c5919b0163d",
+    "bffe23ec5e3be7ae1dee6337a2ddff18b6e03a52",
+    "eec2a7865242c5df0b5cb8e9c7638f883e9cd794",
+    "81cc8f4c88880d07e2702607c1fe8d3168680a5b"
   ]
 }
