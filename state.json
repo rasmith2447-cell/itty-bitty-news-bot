@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/games/new-cozy-games-may-2026/",
-    "https://www.ign.com/articles/total-war-warhammer-40000-devs-reveal-huge-battle-maps-planets-and-region-scale",
-    "https://gamerant.com/last-flag-imagine-dragons-steam-player-count/",
-    "https://www.gematsu.com/2026/05/gurei-launches-july-23-for-pc-later-for-consoles",
     "https://gamerant.com/wistoria-season-2-episode-4-release-date-where-to-watch/",
     "https://www.gamespot.com/articles/alysa-lius-olympic-skating-routine-is-now-in-fortnite-as-an-emote-and-its-very-impressive/1100-6539743/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/05/top-down-action-adventure-game-magical-blush-launches-this-summer-for-pc-later-for-ps5-xbox-series-switch-2-and-switch",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/11/nintendo-switch-2-system-update-23-5-0-is-now-live-here-are-the-full-patch-notes",
     "https://www.pcgamer.com/games/grand-theft-auto/the-experiences-on-console-and-pc-tend-to-be-roughly-the-same-says-take-two-ceo-in-response-to-question-about-gta-roleplaying/",
     "https://gamerant.com/gta-6-preload-how-when-ps5-xbox/",
-    "https://www.ign.com/articles/take-two-enhancing-technical-defenses-and-legal-activities-to-combat-gta-6-ai-reverse-engineering-threat"
+    "https://www.ign.com/articles/take-two-enhancing-technical-defenses-and-legal-activities-to-combat-gta-6-ai-reverse-engineering-threat",
+    "https://www.gematsu.com/2026/11/hunger-launches-in-early-access-on-december-3",
+    "https://www.pcgamer.com/games/grand-theft-auto/rockstar-is-putting-on-a-last-minute-live-music-festival-featuring-travis-scott-and-cardi-b-to-celebrate-gta-6s-launch/",
+    "https://www.pushsquare.com/news/2026/11/gta-6-wont-have-any-last-minute-delays-as-its-officially-gone-gold",
+    "https://www.rockpapershotgun.com/skydance-games-lay-off-an-undisclosed-number-of-staff-in-the-wake-of-paramount-warner-bros-merger-in-latest-case-of-consolidation-killing-livelihoods"
   ],
   "seen_titles": [
-    "the cozy game launches of may are dominated by a bunch of hotly-anticipated sims",
-    "total war: warhammer 40,000 devs reveal huge battle maps, planets, and region scale",
-    "new steam game from imagine dragons lead singer sees player count plummet",
-    "gurei launches july 23 for pc, later for consoles",
     "wistoria: wand and sword season 2 episode 4 release date & where to watch",
     "alysa liu's olympic skating routine is now in fortnite as an emote, and it's very impressive",
     "top-down action adventure game magical blush launches this summer for pc, later for ps5, xbox series, switch 2, and switch",
@@ -10001,13 +9997,13 @@
     "nintendo switch 2 system update 23.5.0 is now live, here are the full patch notes",
     "'the experiences on console and pc tend to be roughly the same,' says take-two ceo in response to question about gta roleplaying",
     "gta 6 pre-loads officially available now",
-    "take-two 'enhancing' technical defenses and legal activities to combat gta 6 ai reverse-engineering threat"
+    "take-two 'enhancing' technical defenses and legal activities to combat gta 6 ai reverse-engineering threat",
+    "hunger launches in early access on december 3",
+    "rockstar is putting on a last-minute live music festival featuring travis scott and cardi b to celebrate gta 6's launch",
+    "gta 6 won't have any last minute delays, as it's officially gone gold",
+    "skydance games lay off an undisclosed number of staff in the wake of paramount-warner bros. merger, in latest case of consolidation killing livelihoods"
   ],
   "seen_story_keys": [
-    "1b3df75c6e7f44944effaa9d0112c6d5b8e2ecd9",
-    "e25fce288d7287865442589764a86f0030b3ec55",
-    "5106e7469e316d745f4edaa57bbbc1395c5e39c2",
-    "10255cade5846c35ae47983cbd86d853b28c57cf",
     "6916ebbeac4e7ae8031acf02cd4b241fdb27eb77",
     "e9e829894a7d2882fd9583486b693b20519f0f7f",
     "5fe4cb40660077fb89a0c2b31f77e6082c0d4e4d",
@@ -15003,6 +14999,10 @@
     "21f378d4a027fc2e1d3baeba14c09c5919b0163d",
     "bffe23ec5e3be7ae1dee6337a2ddff18b6e03a52",
     "eec2a7865242c5df0b5cb8e9c7638f883e9cd794",
-    "81cc8f4c88880d07e2702607c1fe8d3168680a5b"
+    "81cc8f4c88880d07e2702607c1fe8d3168680a5b",
+    "33bf2435c3836f149528328e52a80efaffdaf83d",
+    "3270d69942099be258337fb2ecd4fc14677636ea",
+    "e88507692d1c1de8ad8f26978088102dbaf2dbec",
+    "3a940292bc58e39cca00faba7313cd87d289dde3"
   ]
 }
