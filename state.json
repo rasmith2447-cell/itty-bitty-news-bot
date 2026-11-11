@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/world-of-warcraft-patch-12-0-7-reveal-ula-tek-darkspear-dash/",
-    "https://www.ign.com/articles/battlefield-6-players-battle-pass-pre-orders",
-    "https://gamerant.com/grand-theft-auto-6-gta-6-release-date-delay-polymarket/",
-    "https://www.pushsquare.com/news/2026/05/snks-mai-kula-diamond-return-in-dead-or-alive-6-ps5-but-youll-need-to-buy-them-again",
     "https://www.gamespot.com/articles/007-first-lights-controller-doesnt-match-the-iconic-barrel-design-and-wasnt-meant-to/1100-6539751/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/05/under-night-in-birth-ii-sysceles-dlc-character-zohar-announced",
     "https://gamerant.com/onimusha-way-of-the-sword-teases-release-date-tease-pragmata/",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/gaming-industry/sony-cancels-another-live-service-game-ahead-of-release-but-at-least-there-wont-be-any-layoffs-this-time/",
     "https://gamerant.com/ps-plus-extra-premium-games-november-2026-full-list/",
     "https://www.polygon.com/the-odyssey-christopher-nolan-home-release-date/",
-    "https://gamerant.com/reflector-entertainment-shutting-down/"
+    "https://gamerant.com/reflector-entertainment-shutting-down/",
+    "https://www.gematsu.com/2026/11/the-legend-of-heroes-trails-beyond-the-horizon-sequel-to-launch-by-september-2027-in-japan",
+    "https://www.nintendolife.com/news/2026/11/psa-nintendo-ending-google-and-apple-sign-ins-on-nintendo-accounts-in-2027",
+    "https://www.ign.com/articles/fortis-games-closes-with-over-400-jobs-impacted",
+    "https://www.ign.com/articles/dcu-man-of-tomorrow-leadership-flash-comparison"
   ],
   "seen_titles": [
-    "world of warcraft reveals patch 12.0.7, all but confirms patch 12.1",
-    "battlefield 6 players divided after ea opens the door to battle pass pre-orders",
-    "grand theft auto 6 fans are betting on another release date delay",
-    "snk's mai, kula diamond return in dead or alive 6 ps5, but you'll need to buy them again",
     "007 first light's controller doesn't match the iconic barrel design and wasn't meant to",
     "under night in-birth ii sys:celes dlc character zohar announced",
     "onimusha: way of the sword teases release date announcement",
@@ -10001,13 +9997,13 @@
     "sony cancels another live service game ahead of release, but at least there won't be any layoffs this time",
     "ps plus extra and premium games for november 2026 officially revealed",
     "christopher nolan's the odyssey officially sets home release date",
-    "bandai namco studio is permanently shutting down"
+    "bandai namco studio is permanently shutting down",
+    "the legend of heroes: trails beyond the horizon sequel to launch by september 2027 in japan",
+    "psa: nintendo ending google and apple sign-ins on nintendo accounts in 2027",
+    "fortis games closes with over 400 jobs impacted",
+    "the dcu regime change threatens to turn man of tomorrow into 2027’s answer to the flash"
   ],
   "seen_story_keys": [
-    "0135472c425504ca8acd7a2b797882c497cc0c43",
-    "4ea0e6459d184a3cef99884c57b148473c82680c",
-    "64ec19da89407efe860925b0f79432fc95ed346a",
-    "b09bcf396ee4e24ca189829d67b3cfc2fb08ab2d",
     "da2d56a9136e54914b46888d9cddb96fbaf8fdc4",
     "236547abbc15679069c8795d566498b9a47cd111",
     "5a49e39dcc2d083ad9ee8e9bce108471a09c66ec",
@@ -15003,6 +14999,10 @@
     "da25b7c34e3e2d3e431a707f78aa36255d816784",
     "4b38e7bc152652e1fd443a34d7768875650ff5f6",
     "fcdb34b4d85f4e92b13c721c16bf230bd50cb02f",
-    "ef2a67c5efb7d61c9e90f0d28075482e38dea878"
+    "ef2a67c5efb7d61c9e90f0d28075482e38dea878",
+    "f9e32e717fe7f8fab6ee48083a7ff86949ed2c8c",
+    "971e5f8a60ba006d4d9f6caecec2a8a2783ddb09",
+    "cbdea871432ecb3b59daf319c42b3439253c3958",
+    "4ba25e4527699a395660f9cab8e874b6cb69b86d"
   ]
 }
