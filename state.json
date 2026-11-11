@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/007-first-lights-controller-doesnt-match-the-iconic-barrel-design-and-wasnt-meant-to/1100-6539751/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/05/under-night-in-birth-ii-sysceles-dlc-character-zohar-announced",
-    "https://gamerant.com/onimusha-way-of-the-sword-teases-release-date-tease-pragmata/",
-    "https://www.ign.com/articles/greta-gerwig-narnia-movie-lands-wide-theatrical-premiere-from-netflix-with-early-2027-release-date",
     "https://www.ign.com/articles/academy-awards-rule-updates-tackle-ai-multiple-nominations-for-the-same-actor-and-more-ahead-of-99th-oscars",
     "https://gamerant.com/lego-sega-genesis-console-set-reveal-details/",
     "https://www.ign.com/articles/tech-experts-say-the-elder-scrolls-iv-oblivion-remastered-still-suffers-from-issues-that-plagued-it-at-launch",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/11/the-legend-of-heroes-trails-beyond-the-horizon-sequel-to-launch-by-september-2027-in-japan",
     "https://www.nintendolife.com/news/2026/11/psa-nintendo-ending-google-and-apple-sign-ins-on-nintendo-accounts-in-2027",
     "https://www.ign.com/articles/fortis-games-closes-with-over-400-jobs-impacted",
-    "https://www.ign.com/articles/dcu-man-of-tomorrow-leadership-flash-comparison"
+    "https://www.ign.com/articles/dcu-man-of-tomorrow-leadership-flash-comparison",
+    "https://www.gamesindustry.biz/lego-digital-play-acquires-forthstar-games-to-bring-lego-to-the-prominence-it-truly-deserves-on-mobile",
+    "https://www.videogameschronicle.com/news/nintendo-absolutely-hated-this-two-unrelated-games-called-piece-by-piece-are-launching-together-in-a-switch-bundle/",
+    "https://www.eurogamer.net/world-of-warcraft-forever-secret-dawn-walker-sword",
+    "https://www.nintendolife.com/news/2026/11/what-happens-when-two-games-have-the-same-title-indie-publisher-reveals-heartwarming-answer"
   ],
   "seen_titles": [
-    "007 first light's controller doesn't match the iconic barrel design and wasn't meant to",
-    "under night in-birth ii sys:celes dlc character zohar announced",
-    "onimusha: way of the sword teases release date announcement",
-    "greta gerwig narnia movie lands wide theatrical premiere from netflix with early 2027 release date",
     "academy awards rule updates tackle ai, multiple nominations for the same actor, and more ahead of 99th oscars",
     "lego sega genesis console set officially revealed",
     "tech experts say the elder scrolls iv: oblivion remastered still suffers from issues that plagued it at launch",
@@ -10001,13 +9997,13 @@
     "the legend of heroes: trails beyond the horizon sequel to launch by september 2027 in japan",
     "psa: nintendo ending google and apple sign-ins on nintendo accounts in 2027",
     "fortis games closes with over 400 jobs impacted",
-    "the dcu regime change threatens to turn man of tomorrow into 2027’s answer to the flash"
+    "the dcu regime change threatens to turn man of tomorrow into 2027’s answer to the flash",
+    "lego digital play acquires forthstar games \"to bring lego to the prominence it truly deserves on mobile\"",
+    "‘nintendo absolutely hated this’: two unrelated games called piece by piece are launching together in a switch bundle",
+    "world of warcraft: forever secret hunters have found the mmo's first hidden treasure",
+    "what happens when two games have the same title? indie publisher reveals heartwarming answer"
   ],
   "seen_story_keys": [
-    "da2d56a9136e54914b46888d9cddb96fbaf8fdc4",
-    "236547abbc15679069c8795d566498b9a47cd111",
-    "5a49e39dcc2d083ad9ee8e9bce108471a09c66ec",
-    "a2530d0f49cf759bd4c2b6f1d4aede2a66b5a89d",
     "b599fba46a9edea7fd135314d6e1036d743ada2d",
     "d4727186cd492510abca85d5ef1460ad57005d16",
     "d70540b64cb63363e8174da576737ff0ea30b064",
@@ -15003,6 +14999,10 @@
     "f9e32e717fe7f8fab6ee48083a7ff86949ed2c8c",
     "971e5f8a60ba006d4d9f6caecec2a8a2783ddb09",
     "cbdea871432ecb3b59daf319c42b3439253c3958",
-    "4ba25e4527699a395660f9cab8e874b6cb69b86d"
+    "4ba25e4527699a395660f9cab8e874b6cb69b86d",
+    "5a708a4ed3cf7427ea4bf2c5f86857883347dc66",
+    "0255dba467457391bdf3f28eb1c7ec6ced06da6e",
+    "9080beec1b1e6a1c5cc25105346fd08c8ae38608",
+    "efcc774659524eb9bb4c984548e1086d58e1c278"
   ]
 }
