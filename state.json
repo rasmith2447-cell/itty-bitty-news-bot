@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/academy-awards-rule-updates-tackle-ai-multiple-nominations-for-the-same-actor-and-more-ahead-of-99th-oscars",
-    "https://gamerant.com/lego-sega-genesis-console-set-reveal-details/",
-    "https://www.ign.com/articles/tech-experts-say-the-elder-scrolls-iv-oblivion-remastered-still-suffers-from-issues-that-plagued-it-at-launch",
-    "https://gamerant.com/refurbished-ps5-consoles-price-hike/",
     "https://www.nintendolife.com/news/2026/05/sega-genesis-mega-drive-lego-console-set-launches-june-2026",
     "https://www.nintendolife.com/news/2026/05/melty-blood-twi-lumina-announced-for-switch-1-and-2-out-early-2027",
     "https://www.pushsquare.com/news/2026/05/snk-icon-mr-karate-unmasked-for-ps5-ps4s-fatal-fury-city-of-the-wolves",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/lego-digital-play-acquires-forthstar-games-to-bring-lego-to-the-prominence-it-truly-deserves-on-mobile",
     "https://www.videogameschronicle.com/news/nintendo-absolutely-hated-this-two-unrelated-games-called-piece-by-piece-are-launching-together-in-a-switch-bundle/",
     "https://www.eurogamer.net/world-of-warcraft-forever-secret-dawn-walker-sword",
-    "https://www.nintendolife.com/news/2026/11/what-happens-when-two-games-have-the-same-title-indie-publisher-reveals-heartwarming-answer"
+    "https://www.nintendolife.com/news/2026/11/what-happens-when-two-games-have-the-same-title-indie-publisher-reveals-heartwarming-answer",
+    "https://www.pcgamer.com/gaming-industry/former-id-software-developers-form-their-own-employee-owned-shooter-studio-in-the-wake-of-microsofts-mass-layoffs/",
+    "https://www.gematsu.com/2026/11/the-road-of-dust-and-sorrow-delayed-to-february-19-2027",
+    "https://www.rockpapershotgun.com/after-being-laid-off-by-microsoft-former-doom-devs-found-new-smash-tv-influenced-fps-studio-that-isnt-subject-to-investor-demands",
+    "https://www.gematsu.com/2026/11/roguelite-action-rpg-conan-the-black-pyramid-announced-for-pc"
   ],
   "seen_titles": [
-    "academy awards rule updates tackle ai, multiple nominations for the same actor, and more ahead of 99th oscars",
-    "lego sega genesis console set officially revealed",
-    "tech experts say the elder scrolls iv: oblivion remastered still suffers from issues that plagued it at launch",
-    "some ps5 consoles get hit with yet another price hike",
     "sega genesis / mega drive lego console set launches june 2026",
     "melty blood: ﻿twi-lumina announced for switch 1 & 2, out \"early 2027\"",
     "snk icon mr. karate unmasked for ps5, ps4's fatal fury: city of the wolves",
@@ -10001,13 +9997,13 @@
     "lego digital play acquires forthstar games \"to bring lego to the prominence it truly deserves on mobile\"",
     "‘nintendo absolutely hated this’: two unrelated games called piece by piece are launching together in a switch bundle",
     "world of warcraft: forever secret hunters have found the mmo's first hidden treasure",
-    "what happens when two games have the same title? indie publisher reveals heartwarming answer"
+    "what happens when two games have the same title? indie publisher reveals heartwarming answer",
+    "former id software developers form their own employee-owned shooter studio in the wake of microsoft's mass layoffs",
+    "the road of dust and sorrow delayed to february 19, 2027",
+    "after being laid off by microsoft, former doom devs found new smash tv-influenced fps studio that isn't \"subject to investor demands\"",
+    "roguelite action rpg conan: the black pyramid announced for pc"
   ],
   "seen_story_keys": [
-    "b599fba46a9edea7fd135314d6e1036d743ada2d",
-    "d4727186cd492510abca85d5ef1460ad57005d16",
-    "d70540b64cb63363e8174da576737ff0ea30b064",
-    "b13010ddff4f8f826eccbc053e985c97d17450a5",
     "1b15cf3fdd2e9c6885a4f25842168a463f35eccc",
     "cf925a7cd739eabc3b966b0681895eae3b78ace0",
     "c5820c8239aebee16819071dcf39ef271caa1ad0",
@@ -15003,6 +14999,10 @@
     "5a708a4ed3cf7427ea4bf2c5f86857883347dc66",
     "0255dba467457391bdf3f28eb1c7ec6ced06da6e",
     "9080beec1b1e6a1c5cc25105346fd08c8ae38608",
-    "efcc774659524eb9bb4c984548e1086d58e1c278"
+    "efcc774659524eb9bb4c984548e1086d58e1c278",
+    "fbfcb5404e79650f742f50e0ea2e499e8056e4f8",
+    "db329b40a64783f142d3dd9990d969bd02233d1a",
+    "83568f11c2cd52337d0f0c1af8c9479e6bc7afd0",
+    "6f95752dd510ae9b41a11462fc53e684d0e776a0"
   ]
 }
