@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/05/melty-blood-twi-lumina-announced-for-ps5-switch-2-ps4-xbox-one-switch-and-pc",
-    "https://www.nintendolife.com/news/2026/05/the-live-action-zelda-movie-is-coming-to-imax",
-    "https://www.ign.com/articles/crimson-desert-gets-major-patch-designed-for-players-whod-made-pywel-too-peaceful-because-theyd-killed-all-the-enemies",
-    "https://gamerant.com/one-piece-episode-1160-release-date-where-watch/",
     "https://www.videogameschronicle.com/news/lego-reveals-sega-genesis-mega-drive-console-bringing-479-of-retro-charm-this-summer/",
     "https://gamerant.com/escape-from-tarkov-killa-tagilla-factory/",
     "https://gamerant.com/resident-evil-requiem-leon-ring-married/",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/11/laras-new-tomb-raider-game-is-apparently-on-its-way-to-switch-2",
     "https://www.gematsu.com/2026/11/dont-fret-launches-december-8",
     "https://www.pushsquare.com/news/2026/11/gta-6-preloading-is-causing-major-download-traffic-spikes-in-europe",
-    "https://www.videogameschronicle.com/news/fan-mod-beyond-skyrim-bruma-gets-huge-update-and-playstation-port/"
+    "https://www.videogameschronicle.com/news/fan-mod-beyond-skyrim-bruma-gets-huge-update-and-playstation-port/",
+    "https://www.gamesindustry.biz/laid-off-id-software-devs-form-employee-owned-studio-hidden-horses",
+    "https://gamerant.com/gta-6-new-trailer-miami-cars-only-dade/",
+    "https://www.gematsu.com/2026/11/romancing-saga-3-destinies-united-release-date-moved-up-to-february-4-2027",
+    "https://www.nintendolife.com/news/2026/11/witcher-3s-new-expansion-pairs-geralts-polish-voice-actor-with-ai-but-its-a-special-case"
   ],
   "seen_titles": [
-    "melty blood: twi-lumina announced for ps5, switch 2, ps4, xbox one, switch, and pc",
-    "the live-action zelda movie is coming to imax",
-    "crimson desert gets major patch designed for players who'd made pywel too peaceful because they'd killed all the enemies",
-    "one piece episode 1160 release date",
     "lego reveals sega genesis / mega drive console, bringing 479 of retro charm this summer",
     "escape from tarkov launches new in-game event on the smallest map",
     "resident evil requiem director comments on surprise leon reveal",
@@ -10001,13 +9997,13 @@
     "lara's new tomb raider game is apparently on its way to switch 2",
     "don’t fret launches december 8",
     "gta 6 preloading is causing major download traffic spikes in europe",
-    "fan mod beyond skyrim: bruma gets huge update and playstation port"
+    "fan mod beyond skyrim: bruma gets huge update and playstation port",
+    "laid-off id software devs form employee-owned studio hidden horses",
+    "brand-new gta 6 footage released",
+    "romancing saga 3: destinies united release date moved up to february 4, 2027",
+    "witcher 3's new expansion pairs geralt's polish voice actor with ai, but it's a \"special case\""
   ],
   "seen_story_keys": [
-    "bb1047a40a993904630f3f2699952e38652fccdf",
-    "09ae05b4e6c337a76619175992be2ca10f269bd8",
-    "60e7a3788bd1ba61f70355856011051b4cd88a11",
-    "b4f52f3b94a352b694b13cc07594faf8b2a41d12",
     "29a3780e5141ccd102dbaa615e6ed7b587b30bb8",
     "5f51220117bec79338331bc66c2583b2aec95e12",
     "d75d9873fb64b76afad9247cb58bd42c4bde3709",
@@ -15003,6 +14999,10 @@
     "2b738af390755c14d01e92bff372078d2583c871",
     "c536dd9ef46163dccac5d2ec30cd2742b926e1b1",
     "93830e9145d76272716d0ed2bfa749a5dce12bf2",
-    "9436a743c0ca4d97cbadb6b240630720f1741921"
+    "9436a743c0ca4d97cbadb6b240630720f1741921",
+    "45d7b8a7e2f218579882e96690b18667ce07414d",
+    "9508b053c4672d8849236fbffad153499fb8aad3",
+    "5ed7425b61bd8cdb0f74ee98152a09d4b6d1e685",
+    "21f381451b6294c698d07ab2b8b342d0e20fd002"
   ]
 }
