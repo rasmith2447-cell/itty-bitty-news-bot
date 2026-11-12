@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/lego-reveals-sega-genesis-mega-drive-console-bringing-479-of-retro-charm-this-summer/",
-    "https://gamerant.com/escape-from-tarkov-killa-tagilla-factory/",
-    "https://gamerant.com/resident-evil-requiem-leon-ring-married/",
-    "https://www.purexbox.com/news/2026/05/five-games-are-leaving-xbox-game-pass-in-early-may-2026",
     "https://gamerant.com/nte-neverness-to-everness-hotori-nanally-banners-may-12/",
     "https://www.pushsquare.com/news/2026/05/this-new-ps5-ps4-jrpg-was-written-by-a-5-year-old",
     "https://gamerant.com/gta-6-release-date-expected-pre-order-period-rdr2-comparison/",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/laid-off-id-software-devs-form-employee-owned-studio-hidden-horses",
     "https://gamerant.com/gta-6-new-trailer-miami-cars-only-dade/",
     "https://www.gematsu.com/2026/11/romancing-saga-3-destinies-united-release-date-moved-up-to-february-4-2027",
-    "https://www.nintendolife.com/news/2026/11/witcher-3s-new-expansion-pairs-geralts-polish-voice-actor-with-ai-but-its-a-special-case"
+    "https://www.nintendolife.com/news/2026/11/witcher-3s-new-expansion-pairs-geralts-polish-voice-actor-with-ai-but-its-a-special-case",
+    "https://www.gematsu.com/2026/11/cook-serve-delicious-re-mustard-launches-january-18-2027-for-pc-later-in-2027-for-consoles",
+    "https://www.pushsquare.com/news/2026/11/xbox-wants-you-to-revisit-halo-campaign-evolved-on-ps5-as-free-co-op-mode-update-is-announced",
+    "https://www.purexbox.com/news/2026/11/hang-on-firefight-is-coming-to-halo-campaign-evolved",
+    "https://www.gematsu.com/2026/11/halo-campaign-evolved-firefight-update-announced"
   ],
   "seen_titles": [
-    "lego reveals sega genesis / mega drive console, bringing 479 of retro charm this summer",
-    "escape from tarkov launches new in-game event on the smallest map",
-    "resident evil requiem director comments on surprise leon reveal",
-    "five games are leaving xbox game pass in early may 2026",
     "nte may 12 end of the launch era: roll nanally or hotori?",
     "this new ps5, ps4 jrpg was written by a 5-year-old",
     "it's officially time to start worrying about grand theft auto 6's release date",
@@ -10001,13 +9997,13 @@
     "laid-off id software devs form employee-owned studio hidden horses",
     "brand-new gta 6 footage released",
     "romancing saga 3: destinies united release date moved up to february 4, 2027",
-    "witcher 3's new expansion pairs geralt's polish voice actor with ai, but it's a \"special case\""
+    "witcher 3's new expansion pairs geralt's polish voice actor with ai, but it's a \"special case\"",
+    "cook, serve, delicious: re-mustard! launches january 18, 2027 for pc, later in 2027 for consoles",
+    "xbox wants you to revisit halo: campaign evolved on ps5 as free co-op mode update is announced",
+    "hang on, firefight is coming to halo: campaign evolved",
+    "halo: campaign evolved ‘firefight’ update announced"
   ],
   "seen_story_keys": [
-    "29a3780e5141ccd102dbaa615e6ed7b587b30bb8",
-    "5f51220117bec79338331bc66c2583b2aec95e12",
-    "d75d9873fb64b76afad9247cb58bd42c4bde3709",
-    "517c736b6407e747b3b88913e87bc004fbd08d2a",
     "a7e34bc506a174d693264083322013a02eaff083",
     "83ede843850e4d7148b4bf8a20db6cbc20494cb0",
     "281f6b575cf9853c9b475a4a91cb181de43734a4",
@@ -15003,6 +14999,10 @@
     "45d7b8a7e2f218579882e96690b18667ce07414d",
     "9508b053c4672d8849236fbffad153499fb8aad3",
     "5ed7425b61bd8cdb0f74ee98152a09d4b6d1e685",
-    "21f381451b6294c698d07ab2b8b342d0e20fd002"
+    "21f381451b6294c698d07ab2b8b342d0e20fd002",
+    "d4e6bccd17eedc2a99bf21b7ccfd0c7a975094ad",
+    "6e4f61d7aee4c26d5c38d75506c995ee93cb63c2",
+    "d41c0adc052e0644d20bf5acf5828c5963ef9b0d",
+    "b4b8aef611eecb6124093869182ad277500e0b80"
   ]
 }
