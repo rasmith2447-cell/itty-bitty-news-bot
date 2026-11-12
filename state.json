@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/05/sega-genesis-mega-drive-lego-console-set-launches-june-2026",
-    "https://www.nintendolife.com/news/2026/05/melty-blood-twi-lumina-announced-for-switch-1-and-2-out-early-2027",
-    "https://www.pushsquare.com/news/2026/05/snk-icon-mr-karate-unmasked-for-ps5-ps4s-fatal-fury-city-of-the-wolves",
-    "https://www.gematsu.com/2026/05/fatal-fury-city-of-the-wolves-dlc-character-mr-karate-announced",
     "https://www.gematsu.com/2026/05/melty-blood-twi-lumina-announced-for-ps5-switch-2-ps4-xbox-one-switch-and-pc",
     "https://www.nintendolife.com/news/2026/05/the-live-action-zelda-movie-is-coming-to-imax",
     "https://www.ign.com/articles/crimson-desert-gets-major-patch-designed-for-players-whod-made-pywel-too-peaceful-because-theyd-killed-all-the-enemies",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/gaming-industry/former-id-software-developers-form-their-own-employee-owned-shooter-studio-in-the-wake-of-microsofts-mass-layoffs/",
     "https://www.gematsu.com/2026/11/the-road-of-dust-and-sorrow-delayed-to-february-19-2027",
     "https://www.rockpapershotgun.com/after-being-laid-off-by-microsoft-former-doom-devs-found-new-smash-tv-influenced-fps-studio-that-isnt-subject-to-investor-demands",
-    "https://www.gematsu.com/2026/11/roguelite-action-rpg-conan-the-black-pyramid-announced-for-pc"
+    "https://www.gematsu.com/2026/11/roguelite-action-rpg-conan-the-black-pyramid-announced-for-pc",
+    "https://www.nintendolife.com/news/2026/11/laras-new-tomb-raider-game-is-apparently-on-its-way-to-switch-2",
+    "https://www.gematsu.com/2026/11/dont-fret-launches-december-8",
+    "https://www.pushsquare.com/news/2026/11/gta-6-preloading-is-causing-major-download-traffic-spikes-in-europe",
+    "https://www.videogameschronicle.com/news/fan-mod-beyond-skyrim-bruma-gets-huge-update-and-playstation-port/"
   ],
   "seen_titles": [
-    "sega genesis / mega drive lego console set launches june 2026",
-    "melty blood: ﻿twi-lumina announced for switch 1 & 2, out \"early 2027\"",
-    "snk icon mr. karate unmasked for ps5, ps4's fatal fury: city of the wolves",
-    "fatal fury: city of the wolves dlc character mr. karate announced",
     "melty blood: twi-lumina announced for ps5, switch 2, ps4, xbox one, switch, and pc",
     "the live-action zelda movie is coming to imax",
     "crimson desert gets major patch designed for players who'd made pywel too peaceful because they'd killed all the enemies",
@@ -10001,13 +9997,13 @@
     "former id software developers form their own employee-owned shooter studio in the wake of microsoft's mass layoffs",
     "the road of dust and sorrow delayed to february 19, 2027",
     "after being laid off by microsoft, former doom devs found new smash tv-influenced fps studio that isn't \"subject to investor demands\"",
-    "roguelite action rpg conan: the black pyramid announced for pc"
+    "roguelite action rpg conan: the black pyramid announced for pc",
+    "lara's new tomb raider game is apparently on its way to switch 2",
+    "don’t fret launches december 8",
+    "gta 6 preloading is causing major download traffic spikes in europe",
+    "fan mod beyond skyrim: bruma gets huge update and playstation port"
   ],
   "seen_story_keys": [
-    "1b15cf3fdd2e9c6885a4f25842168a463f35eccc",
-    "cf925a7cd739eabc3b966b0681895eae3b78ace0",
-    "c5820c8239aebee16819071dcf39ef271caa1ad0",
-    "97c4b6ca379c17bbc9c91524290f3ee051a21c10",
     "bb1047a40a993904630f3f2699952e38652fccdf",
     "09ae05b4e6c337a76619175992be2ca10f269bd8",
     "60e7a3788bd1ba61f70355856011051b4cd88a11",
@@ -15003,6 +14999,10 @@
     "fbfcb5404e79650f742f50e0ea2e499e8056e4f8",
     "db329b40a64783f142d3dd9990d969bd02233d1a",
     "83568f11c2cd52337d0f0c1af8c9479e6bc7afd0",
-    "6f95752dd510ae9b41a11462fc53e684d0e776a0"
+    "6f95752dd510ae9b41a11462fc53e684d0e776a0",
+    "2b738af390755c14d01e92bff372078d2583c871",
+    "c536dd9ef46163dccac5d2ec30cd2742b926e1b1",
+    "93830e9145d76272716d0ed2bfa749a5dce12bf2",
+    "9436a743c0ca4d97cbadb6b240630720f1741921"
   ]
 }
