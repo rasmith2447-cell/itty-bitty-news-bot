@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/05/tekken-8-dlc-character-kunimitsu-launches-may-27-for-season-3-character-pass-owners-june-1-for-all",
-    "https://www.pushsquare.com/news/2026/05/marvel-tokons-fighting-avengers-squad-adds-two-more-characters-to-sonys-ps5-pc-brawler",
-    "https://www.purexbox.com/news/2026/05/four-xbox-games-are-currently-set-to-be-delisted-in-may-and-june-2026",
-    "https://www.eurogamer.net/crimson-desert-rolls-out-huge-patch-to-address-end-game-combat-heres-whats-new",
     "https://www.polygon.com/imagine-dragons-last-flag-future-updates/",
     "https://www.rockpapershotgun.com/wolfenstein-meets-metroidvania-in-wolfhound-an-8-bit-ode-to-yesteryear-with-zombies-and-nazi-mechs",
     "https://www.polygon.com/marvel-tokon-fighting-souls-black-panther-shuri/",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/wolfenstein-3-new-id-software-game-announced-xbox",
     "https://gamerant.com/tes6-sentinel-xbox-statement-incredible-next-chapter/",
     "https://www.gamesindustry.biz/steams-submission-and-approval-backlog-is-forcing-indie-devs-to-delay-game-launches",
-    "https://www.polygon.com/wolfenstein-doom-bethesda-new-game-announced/"
+    "https://www.polygon.com/wolfenstein-doom-bethesda-new-game-announced/",
+    "https://www.pushsquare.com/news/2026/11/star-wars-galactic-racer-reaches-1-5-million-players-teases-future-updates",
+    "https://www.eurogamer.net/crimson-desert-ai-pipeline-dokev-2028",
+    "https://www.ign.com/articles/25-years-ago-kojima-made-the-perfect-metal-gear-solid-for-the-2020s",
+    "https://www.pushsquare.com/news/2026/11/play-the-blood-of-dawnwalker-again-in-new-gameplus-part-of-ps5-patch-1-2"
   ],
   "seen_titles": [
-    "tekken 8 dlc character kunimitsu launches may 27 for season 3 character pass owners, june 1 for all",
-    "marvel tokon's fighting avengers squad adds two more characters to sony's ps5, pc brawler",
-    "four xbox games are currently set to be delisted in may & june 2026",
-    "crimson desert rolls out huge patch to address end-game combat – here's what's new",
     "imagine dragons lead singer's multiplayer game underperformed, but it isn't shutting down",
     "wolfenstein meets metroidvania in wolfhound, an 8-bit ode to yesteryear with zombies and nazi mechs",
     "the black panther in marvel tokon: fighting souls is not the one you expect",
@@ -10001,13 +9997,13 @@
     "xbox boss announces wolfenstein 3 and confirms new game in development at idsoftware despite reported job cut \"bloodbath\"",
     "xbox ceo asha sharma issues new official statement on the elder scrolls 6: sentinel",
     "steam's submission and approval backlog is forcing indie devs to delay game launches",
-    "new game from doom studio and new wolfenstein announced"
+    "new game from doom studio and new wolfenstein announced",
+    "star wars: galactic racer reaches 1.5 million players, teases future updates",
+    "crimson desert studio is implementing ai \"throughout our entire development pipeline,\" and expects dokev to launch in 2028",
+    "25 years ago, kojima made the perfect metal gear solid for the 2020s",
+    "play the blood of dawnwalker again in new game+, part of ps5 patch 1.2"
   ],
   "seen_story_keys": [
-    "ec021726e98a99e58332426d93e21cd2358266c1",
-    "27723fe54b880006200bef7a34c13a556cb13bb2",
-    "424fe7256eb86fbaff0e7c1858f25ef6d446b040",
-    "32ababbf87824cb2f394c454e25a8e76174ecb82",
     "5d9cf519f30f707d57e803ecd7d9662a7d257267",
     "9c4e07404a8b75becb06519eb406f238293db11a",
     "02fc376c94346e30c0e54058a9b82e71fa44a874",
@@ -15003,6 +14999,10 @@
     "a81fa90f60bdc5301f98d3a5ef3548d66b4fbe30",
     "77b97311d0a70e168ba16faa947dfc984e5180bb",
     "f9e4c157bc2ee5673cde2908e8d5fc38786b717c",
-    "8a14b05da04a39163bced20c49113d8b7c3f796e"
+    "8a14b05da04a39163bced20c49113d8b7c3f796e",
+    "fa8c0bf5706955c965474d0360deaeb663d50900",
+    "39864d200816a91f6dfad82e4eba5e49d42b439b",
+    "08ae58625cf3adbae6149fd39120d481d9b26e14",
+    "c7debbd301689bb7c97b60a4cc875bf505f4aff1"
   ]
 }
