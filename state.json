@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/nte-neverness-to-everness-taygedo-worst-character-why/",
-    "https://www.ign.com/articles/we-dont-want-to-kill-our-game-imagine-dragons-singers-last-flag-is-ending-post-launch-support-weeks-after-launch",
-    "https://www.gematsu.com/2026/05/reverse-collapse-f-announced-for-ps5-xbox-series-pc-ios-and-android",
-    "https://www.gematsu.com/2026/05/girls-frontline-blue-butterfly-contract-announced-for-ios-android",
     "https://www.gematsu.com/2026/05/tekken-8-dlc-character-kunimitsu-launches-may-27-for-season-3-character-pass-owners-june-1-for-all",
     "https://www.pushsquare.com/news/2026/05/marvel-tokons-fighting-avengers-squad-adds-two-more-characters-to-sonys-ps5-pc-brawler",
     "https://www.purexbox.com/news/2026/05/four-xbox-games-are-currently-set-to-be-delisted-in-may-and-june-2026",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/11/girls-und-panzer-all-star-tank-carnival-adds-ps5-and-pc-versions-launches-march-25-2027-in-japan",
     "https://www.pushsquare.com/news/2026/11/wolfenstein-3-announced-now-in-the-works-at-machinegames",
     "https://www.purexbox.com/news/2026/11/xbox-ceo-announces-major-new-bethesda-games-in-the-works-including-wolfenstein-3",
-    "https://www.gematsu.com/2026/11/wolfenstein-3-announced"
+    "https://www.gematsu.com/2026/11/wolfenstein-3-announced",
+    "https://www.eurogamer.net/wolfenstein-3-new-id-software-game-announced-xbox",
+    "https://gamerant.com/tes6-sentinel-xbox-statement-incredible-next-chapter/",
+    "https://www.gamesindustry.biz/steams-submission-and-approval-backlog-is-forcing-indie-devs-to-delay-game-launches",
+    "https://www.polygon.com/wolfenstein-doom-bethesda-new-game-announced/"
   ],
   "seen_titles": [
-    "is taygedo the worst nte character? yes. here’s why in too many words",
-    "'we don't want to kill our game' — imagine dragons singer's last flag is ending post-launch support weeks after launch",
-    "reverse collapse: f announced for ps5, xbox series, pc, ios, and android",
-    "girls’ frontline: blue butterfly contract announced for ios, android",
     "tekken 8 dlc character kunimitsu launches may 27 for season 3 character pass owners, june 1 for all",
     "marvel tokon's fighting avengers squad adds two more characters to sony's ps5, pc brawler",
     "four xbox games are currently set to be delisted in may & june 2026",
@@ -10001,13 +9997,13 @@
     "girls und panzer: all-star tank carnival adds ps5 and pc versions, launches march 25, 2027 in japan",
     "wolfenstein 3 announced, now in the works at machinegames",
     "xbox ceo announces major new bethesda games in the works, including wolfenstein 3",
-    "wolfenstein 3 announced"
+    "wolfenstein 3 announced",
+    "xbox boss announces wolfenstein 3 and confirms new game in development at idsoftware despite reported job cut \"bloodbath\"",
+    "xbox ceo asha sharma issues new official statement on the elder scrolls 6: sentinel",
+    "steam's submission and approval backlog is forcing indie devs to delay game launches",
+    "new game from doom studio and new wolfenstein announced"
   ],
   "seen_story_keys": [
-    "945938cbe85ccc979a4fde7abd71239fe60031c9",
-    "a52be1525cc2c9dc0a4fd8788634c3ef88ea399d",
-    "20ead655bcef560d57b61d836be8177c6c3b9238",
-    "5d67e86cae17f242b196d55193c8ebe2514db99f",
     "ec021726e98a99e58332426d93e21cd2358266c1",
     "27723fe54b880006200bef7a34c13a556cb13bb2",
     "424fe7256eb86fbaff0e7c1858f25ef6d446b040",
@@ -15003,6 +14999,10 @@
     "7c26fe1e963cc89d3d9ade92240a065d70213748",
     "174d79b9a034645d5c4853317f85d8598cf3d4a5",
     "40e1ee6b0afa546a5a6ad5517361ebb19475e08e",
-    "f129f79e37a429783f2eafdcc1835bbf22b40ecd"
+    "f129f79e37a429783f2eafdcc1835bbf22b40ecd",
+    "a81fa90f60bdc5301f98d3a5ef3548d66b4fbe30",
+    "77b97311d0a70e168ba16faa947dfc984e5180bb",
+    "f9e4c157bc2ee5673cde2908e8d5fc38786b717c",
+    "8a14b05da04a39163bced20c49113d8b7c3f796e"
   ]
 }
