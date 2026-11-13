@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/how-007-first-lights-quips-and-quick-wits-make-bond-stand-apart-from-agent-47",
-    "https://www.eurogamer.net/hero-shooter-last-flag-halts-production-just-2-weeks-after-launch-but-vows-to-make-sure-that-the-game-doesnt-disappear",
-    "https://gamerant.com/gta-6-online-multiplayer-launch-day-problems/",
-    "https://www.pushsquare.com/news/2026/05/sonys-aniplex-announces-ps5-ps4-re-release-of-melty-blood-type-lumina-for-2027",
     "https://gamerant.com/nte-neverness-to-everness-taygedo-worst-character-why/",
     "https://www.ign.com/articles/we-dont-want-to-kill-our-game-imagine-dragons-singers-last-flag-is-ending-post-launch-support-weeks-after-launch",
     "https://www.gematsu.com/2026/05/reverse-collapse-f-announced-for-ps5-xbox-series-pc-ios-and-android",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/11/doom-the-dark-ages-and-horde-mode-is-a-match-made-in-heaven",
     "https://www.rockpapershotgun.com/slay-the-spire-2s-biggest-beta-patch-yet-adds-its-first-new-early-access-and-foolish-character-two-game-modes-and-more-tweaks-than-you-can-shake-a-stick-at",
     "https://gamerant.com/fable-gameplay-combat/",
-    "https://www.gematsu.com/2026/11/shikhondo-blue-pieta-for-ps5-switch-2-and-switch-launches-december-10"
+    "https://www.gematsu.com/2026/11/shikhondo-blue-pieta-for-ps5-switch-2-and-switch-launches-december-10",
+    "https://www.gematsu.com/2026/11/girls-und-panzer-all-star-tank-carnival-adds-ps5-and-pc-versions-launches-march-25-2027-in-japan",
+    "https://www.pushsquare.com/news/2026/11/wolfenstein-3-announced-now-in-the-works-at-machinegames",
+    "https://www.purexbox.com/news/2026/11/xbox-ceo-announces-major-new-bethesda-games-in-the-works-including-wolfenstein-3",
+    "https://www.gematsu.com/2026/11/wolfenstein-3-announced"
   ],
   "seen_titles": [
-    "how 007 first light's quips and quick wits make bond stand apart from agent 47",
-    "hero shooter last flag halts production just 2 weeks after launch, but vows to \"make sure that the game doesn't disappear\"",
-    "why gta 6’s biggest launch day fear is actually a non-issue",
-    "sony's aniplex announces ps5, ps4 re-release of melty blood: type lumina for 2027",
     "is taygedo the worst nte character? yes. here’s why in too many words",
     "'we don't want to kill our game' — imagine dragons singer's last flag is ending post-launch support weeks after launch",
     "reverse collapse: f announced for ps5, xbox series, pc, ios, and android",
@@ -10001,13 +9997,13 @@
     "doom: the dark ages and horde mode is a match made in heaven",
     "slay the spire 2's \"biggest\" beta patch yet adds its first new early access and foolish character, two game modes, and more tweaks than you can shake a stick at",
     "fable reveals four full minutes of gameplay",
-    "shikhondo: blue pieta for ps5, switch 2, and switch launches december 10"
+    "shikhondo: blue pieta for ps5, switch 2, and switch launches december 10",
+    "girls und panzer: all-star tank carnival adds ps5 and pc versions, launches march 25, 2027 in japan",
+    "wolfenstein 3 announced, now in the works at machinegames",
+    "xbox ceo announces major new bethesda games in the works, including wolfenstein 3",
+    "wolfenstein 3 announced"
   ],
   "seen_story_keys": [
-    "5d8838bb3f27dcfaaeb93fbbf08dbc9fcb942cf5",
-    "781ed5826cfeaa0e258f404e8efd6bf93d6f75cc",
-    "bcec61b7f60a8d8f652823d72bf124e33d61bfb5",
-    "7ef9334146bd03104d7598e775998a33c1eb506e",
     "945938cbe85ccc979a4fde7abd71239fe60031c9",
     "a52be1525cc2c9dc0a4fd8788634c3ef88ea399d",
     "20ead655bcef560d57b61d836be8177c6c3b9238",
@@ -15003,6 +14999,10 @@
     "a23ff0aa27b50ced0d3360e5712e456c5b26e4df",
     "67176bb7569c2ffd2d0a567add9ebb1eb426d893",
     "2d2d82b27cd7730885dea23e75f6af76de7c5632",
-    "3033c1764d11045a463cc967bc91894983824bdb"
+    "3033c1764d11045a463cc967bc91894983824bdb",
+    "7c26fe1e963cc89d3d9ade92240a065d70213748",
+    "174d79b9a034645d5c4853317f85d8598cf3d4a5",
+    "40e1ee6b0afa546a5a6ad5517361ebb19475e08e",
+    "f129f79e37a429783f2eafdcc1835bbf22b40ecd"
   ]
 }
