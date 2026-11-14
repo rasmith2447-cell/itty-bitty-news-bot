@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/zenless-zone-zero-zzz-2-8-when-release-date-time-update-maintenance-ends-countdown/",
-    "https://www.rockpapershotgun.com/crimson-deserts-latest-patch-will-help-with-your-post-game-buff-build-boredom-through-boss-fight-do-overs-and-more",
-    "https://www.nintendolife.com/news/2026/05/we-might-never-see-the-conclusion-to-alien-rogue-incursion",
-    "https://www.purexbox.com/news/2026/05/two-more-day-one-game-pass-titles-quietly-announced-for-2026",
     "https://www.rockpapershotgun.com/it-meant-we-got-the-design-right-resident-evil-requiems-producer-on-the-dlss5-grace-ashcroft-debacle",
     "https://www.eurogamer.net/the-super-mario-galaxy-movie-digital-release-date-estimate-slips-to-mid-may",
     "https://www.gematsu.com/2026/05/smalland-survive-the-wilds-for-switch-2-launches-may-14",
@@ -4999,13 +4995,13 @@
     "https://www.purexbox.com/news/2026/11/three-classic-startup-animations-are-set-to-arrive-on-xbox-very-soon",
     "https://www.polygon.com/the-game-awards-2026-nominees-announcement-date/",
     "https://www.rockpapershotgun.com/crusader-kings-publishers-paradox-announce-ceo-swap-say-theyre-in-a-strong-position-at-a-time-when-much-of-the-industry-is-facing-major-challenges",
-    "https://www.pushsquare.com/news/2026/11/god-of-war-sons-of-sparta-really-will-be-ported-backwards-to-ps4"
+    "https://www.pushsquare.com/news/2026/11/god-of-war-sons-of-sparta-really-will-be-ported-backwards-to-ps4",
+    "https://www.pcgamer.com/games/halo/halo-campaign-evolved-is-getting-firefight-as-a-free-update-though-im-not-sure-itll-do-much-to-change-the-remakes-fortunes/",
+    "https://www.eurogamer.net/slay-the-spire-2-biggest-update-new-character-the-fool",
+    "https://www.pushsquare.com/news/2026/11/gta-6s-in-game-animated-tv-series-macca-and-friends-hints-at-the-games-absurd-scope",
+    "https://www.pushsquare.com/news/2026/11/base-ps5s-qssr-enhancer-coming-to-6-more-games-in-spider-man-2-now"
   ],
   "seen_titles": [
-    "zzz 2.8 release date & time countdown (maintenance end time)",
-    "crimson desert's latest patch will help with your post-game buff build boredom through boss fight do-overs and more",
-    "we might never see the conclusion to alien: rogue incursion",
-    "two more 'day one' game pass titles quietly announced for 2026",
     "\"it meant we got the design right\": resident evil requiem's producer on the dlss5 grace ashcroft debacle",
     "the super mario galaxy movie digital release date estimate slips to mid-may",
     "smalland: survive the wilds for switch 2 launches may 14",
@@ -10001,13 +9997,13 @@
     "three classic startup animations are set to arrive on xbox very soon",
     "the game awards 2026 nominees announcement confirmed for nov. 17",
     "crusader kings publishers paradox announce ceo swap, say they're \"in a strong position at a time when much of the industry is facing major challenges\"",
-    "god of war: sons of sparta really will be ported backwards to ps4"
+    "god of war: sons of sparta really will be ported backwards to ps4",
+    "halo: campaign evolved is getting firefight as a free update, though i'm not sure it'll do much to change the remake's fortunes",
+    "slay the spire 2 gets its first new character since its massively successful launch in march as part of \"biggest\" beta patch yet",
+    "gta 6's in-game animated tv series, macca & friends, hints at the game's absurd scope",
+    "base ps5's qssr enhancer coming to 6 more games, in spider-man 2 now"
   ],
   "seen_story_keys": [
-    "c032b468606537d767000e3d468d1ac11084ae6b",
-    "178e6ab0b2e3a1400be8bf388f36ea9f21e0d2c6",
-    "79c9a9fd15065f98d01bfcd79b5ae938b99af263",
-    "2b2fde8dff024eb5fd103ff41ee31a27bc5a86e3",
     "d4ef504c01290cece7e767d3812db172a3fc9b4d",
     "d2041c6e305dabf02caa58f5a92b47eca478ea37",
     "fa6b46e00b2f1573925e551466ea393beb1d2d77",
@@ -15003,6 +14999,10 @@
     "d4120f813f2b849e69a97bcd3da0f53a91c7daea",
     "dc16e81b300e9d66ce83036ece1923420594688f",
     "276d0d0ca4e2ed29212efb3aaf440a264d7158cf",
-    "c8a9e65b0eb74b56b551f4ac5b32aeff580c45ef"
+    "c8a9e65b0eb74b56b551f4ac5b32aeff580c45ef",
+    "64b038ddbe9d11bc10425e31b9bc58a8580cce7f",
+    "aa7a338092e612ad96140f743c98d8d51d462e2e",
+    "fb7a4b4a7020a1a560043b4b34e1c93bf7f33449",
+    "071fa0709cc0258b65e6af9aec2251395361be4b"
   ]
 }
