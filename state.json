@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.polygon.com/imagine-dragons-last-flag-future-updates/",
-    "https://www.rockpapershotgun.com/wolfenstein-meets-metroidvania-in-wolfhound-an-8-bit-ode-to-yesteryear-with-zombies-and-nazi-mechs",
-    "https://www.polygon.com/marvel-tokon-fighting-souls-black-panther-shuri/",
-    "https://www.pushsquare.com/news/2026/05/tekken-8-brings-back-kunimitsu-on-ps5-with-a-fiery-twist",
     "https://www.pcgamer.com/games/roguelike/nearly-40-years-after-launch-nethack-just-got-a-5-0-0-release-with-over-3-000-patch-notes/",
     "https://gamerant.com/tekken-8-dlc-character-kunimitsu-release-date/",
     "https://gamerant.com/oblivion-remastered-abandoned-no-updates/",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/11/star-wars-galactic-racer-reaches-1-5-million-players-teases-future-updates",
     "https://www.eurogamer.net/crimson-desert-ai-pipeline-dokev-2028",
     "https://www.ign.com/articles/25-years-ago-kojima-made-the-perfect-metal-gear-solid-for-the-2020s",
-    "https://www.pushsquare.com/news/2026/11/play-the-blood-of-dawnwalker-again-in-new-gameplus-part-of-ps5-patch-1-2"
+    "https://www.pushsquare.com/news/2026/11/play-the-blood-of-dawnwalker-again-in-new-gameplus-part-of-ps5-patch-1-2",
+    "https://www.polygon.com/fallout-5-fo3-remaster-new-games-bethesda-softworks/",
+    "https://www.nintendolife.com/news/2026/11/metaphor-refantazio-switch-2-patch-to-resolve-colour-glitch",
+    "https://www.ign.com/articles/ps5-qssr-updates-revealed-for-marvels-spider-man-2-arc-raiders-and-more",
+    "https://www.pcgamer.com/games/yes-some-brave-games-are-still-launching-on-steam-during-gta-6-launch-week/"
   ],
   "seen_titles": [
-    "imagine dragons lead singer's multiplayer game underperformed, but it isn't shutting down",
-    "wolfenstein meets metroidvania in wolfhound, an 8-bit ode to yesteryear with zombies and nazi mechs",
-    "the black panther in marvel tokon: fighting souls is not the one you expect",
-    "tekken 8 brings back kunimitsu on ps5 with a fiery twist",
     "nearly 40 years after launch, nethack just got a 5.0.0 release with over 3,000 patch notes",
     "tekken reveals release date for next dlc character",
     "oblivion remastered fans think the game has been abandoned",
@@ -10001,13 +9997,13 @@
     "star wars: galactic racer reaches 1.5 million players, teases future updates",
     "crimson desert studio is implementing ai \"throughout our entire development pipeline,\" and expects dokev to launch in 2028",
     "25 years ago, kojima made the perfect metal gear solid for the 2020s",
-    "play the blood of dawnwalker again in new game+, part of ps5 patch 1.2"
+    "play the blood of dawnwalker again in new game+, part of ps5 patch 1.2",
+    "fallout 5 and fallout remasters officially announced",
+    "metaphor: refantazio switch 2 patch to resolve colour glitch",
+    "ps5 qssr updates revealed for marvel's spider-man 2, arc raiders, and more",
+    "yes, some brave games are still launching on steam during gta 6 week"
   ],
   "seen_story_keys": [
-    "5d9cf519f30f707d57e803ecd7d9662a7d257267",
-    "9c4e07404a8b75becb06519eb406f238293db11a",
-    "02fc376c94346e30c0e54058a9b82e71fa44a874",
-    "d9a6f4f0118c766247394fd8292207f3b5c0a9ae",
     "dd09a2837b0e1eded7f0478f0e39493d07b11c15",
     "7f8411939cd584e6bbe2edf83376bc78666dd3dd",
     "a3101cbcb52ec98b732fed2147e0c88e1aaf1616",
@@ -15003,6 +14999,10 @@
     "fa8c0bf5706955c965474d0360deaeb663d50900",
     "39864d200816a91f6dfad82e4eba5e49d42b439b",
     "08ae58625cf3adbae6149fd39120d481d9b26e14",
-    "c7debbd301689bb7c97b60a4cc875bf505f4aff1"
+    "c7debbd301689bb7c97b60a4cc875bf505f4aff1",
+    "b3306c7c5cc03a87f74026c2ef211af7414062c6",
+    "1033069ab96297dbc4350b0a9388104fecdff7c3",
+    "69321f78a8b02cff1fcc798ac133dc2f9027042c",
+    "56d790e42a33f44435d293b433536ba97cc755b3"
   ]
 }
