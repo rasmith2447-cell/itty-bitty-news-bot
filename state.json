@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/bethesda-fallout-nuka-girl-statue-gaming-heads-preorder-selling-out/",
-    "https://gamerant.com/black-clover-official-romantic-endgame-asta-noelle/",
-    "https://www.gamespot.com/articles/witcher-devs-latest-nomination-is-for-its-hq-in-warsaw/1100-6539770/?ftag=CAD-01-10abi2f",
-    "https://www.pushsquare.com/news/2026/05/sonys-superhero-ps5-pc-fighter-entering-the-final-stages-of-development",
     "https://gamerant.com/marathon-director-julia-nardin-bungie-story-plans/",
     "https://www.gamespot.com/articles/blizzard-sure-is-dragging-out-diablo-4s-secret-cow-level-reveal/1100-6539774/?ftag=CAD-01-10abi2f",
     "https://www.gamespot.com/articles/call-of-duty-patch-notes-are-longer-than-the-entire-us-constitution/1100-6539773/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/hardware/graphics-cards/amd-has-patched-its-ssd-eating-gpu-driver-bug-with-an-optional-adrenalin-update-for-rx-7000-series-graphics-cards-and-above/",
     "https://www.rockpapershotgun.com/wolfenstein-3-and-new-id-software-game-confirmed-as-xbox-boss-somehow-unrelatedly-shouts-about-one-person-soon-wieldling-capabilities-that-once-required-entire-nations",
     "https://www.eurogamer.net/halo-campaign-evovled-firefight-mode",
-    "https://www.pcgamer.com/games/grand-theft-auto/palworld-developer-pocketpair-gives-employees-time-off-for-a-5-day-business-trip-in-vice-city-when-gta-6-launches/"
+    "https://www.pcgamer.com/games/grand-theft-auto/palworld-developer-pocketpair-gives-employees-time-off-for-a-5-day-business-trip-in-vice-city-when-gta-6-launches/",
+    "https://www.pcgamer.com/games/rts/this-rts-inspired-by-star-wars-empire-at-war-promises-colossal-space-encounters-and-planetary-battles-with-hundreds-of-thousands-of-units/",
+    "https://www.purexbox.com/news/2026/11/youtubers-share-their-amazing-home-videos-from-the-most-important-day-in-xbox-history",
+    "https://www.videogameschronicle.com/news/id-software-confirms-its-working-on-a-new-game-after-layoffs/",
+    "https://www.purexbox.com/news/2026/11/21-original-xbox-games-are-coming-to-pc-via-backwards-compatibility-today-november-12"
   ],
   "seen_titles": [
-    "fallout nuka girl statue reissued, selling out fast",
-    "black clover reveals the official romantic endgame of asta and noelle after 11 years",
-    "witcher dev's latest nomination is for its hq in warsaw",
-    "sony's superhero ps5, pc fighter entering the 'final stages' of development",
     "marathon director says bungie has 'years-long' story plans",
     "blizzard sure is dragging out diablo 4's secret cow level reveal",
     "these days, call of duty patch notes are longer than the entire us constitution",
@@ -10001,13 +9997,13 @@
     "amd has patched its ssd-eating gpu driver bug with an optional adrenalin update for rx 7000-series graphics cards and above",
     "wolfenstein 3 and new id software game confirmed, as xbox boss somehow unrelatedly shouts about one person soon wielding \"capabilities that once required entire nations\"",
     "halo: campaign evolved is getting its own four-player version of the series' staple firefight mode, for free, \"this winter\"",
-    "palworld developer pocketpair gives employees time off for 'a 5-day business trip in vice city when gta 6 launches'"
+    "palworld developer pocketpair gives employees time off for 'a 5-day business trip in vice city when gta 6 launches'",
+    "this rts inspired by star wars: empire at war promises colossal space encounters and planetary battles with 'hundreds of thousands of units'",
+    "youtubers share their amazing home videos from the most important day in xbox history",
+    "id software confirms it’s working on a new game after layoffs",
+    "21 original xbox games are coming to pc via backwards compatibility today (november 12)"
   ],
   "seen_story_keys": [
-    "db8a1fd5b8f9cf792377071cda43c9b8cbb4053b",
-    "fc9757e165ef91358ac175f37438cad8bd720186",
-    "3f37e8873f1548a92d8117ff2cdd7fcbff70bc7d",
-    "41aa32300744c10333056815c17fa746d2e06969",
     "368f0ed5fed617bc4b8240086dba3bc77cd8da0b",
     "04af0e13f4143b15fce8c777250d277a99c3e814",
     "610c36b5da64c6c647c855a887b702c7ebd9128f",
@@ -15003,6 +14999,10 @@
     "a8f73f597b565d0bdefb9886af57e214bdcc02a6",
     "d614c22af27b2988c680e868d3351dc45076a32e",
     "3b0cc0380d2b31caa07f6e3d5bea1db7f8673f36",
-    "d4894aeac0ac2c2858046ab01b7b8bf2d556da0c"
+    "d4894aeac0ac2c2858046ab01b7b8bf2d556da0c",
+    "01a8ae82d33f129b7a9f9d99b5a83edda94a9995",
+    "b0e7c53811d0847e1ee36c2bc9e276f472a3b4c9",
+    "be291d70db8f26dcdb46e41e1a15d1650356954b",
+    "ccb7699399c638db1bbea8abb027933e6594cf9c"
   ]
 }
