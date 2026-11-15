@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/steam-machine-delay-reason-valve/",
-    "https://www.polygon.com/lego-sega-genesis-set-release-date-photos/",
-    "https://www.gamespot.com/articles/steam-controller-quickly-goes-out-of-stock-after-payment-processing-issues-plague-release/1100-6539769/?ftag=CAD-01-10abi2f",
-    "https://www.pushsquare.com/news/2026/05/ps5s-007-first-light-will-see-you-embody-the-charismatic-james-bond-for-20plus-hours",
     "https://gamerant.com/bethesda-fallout-nuka-girl-statue-gaming-heads-preorder-selling-out/",
     "https://gamerant.com/black-clover-official-romantic-endgame-asta-noelle/",
     "https://www.gamespot.com/articles/witcher-devs-latest-nomination-is-for-its-hq-in-warsaw/1100-6539770/?ftag=CAD-01-10abi2f",
@@ -4999,13 +4995,13 @@
     "https://www.polygon.com/kirby-world-beyond-nintendo-switch-2-2027/",
     "https://gamerant.com/gta-6-burger-shot-real-world-locations/",
     "https://www.gematsu.com/2026/11/lucky-luke-the-lonesome-cowboy-collection-announced-for-ps5-xbox-series-switch-2-ps4-xbox-one-switch-and-pc",
-    "https://www.pushsquare.com/news/2026/11/lucky-luke-retro-collection-brings-several-games-to-the-us-for-the-very-first-time"
+    "https://www.pushsquare.com/news/2026/11/lucky-luke-retro-collection-brings-several-games-to-the-us-for-the-very-first-time",
+    "https://www.pcgamer.com/hardware/graphics-cards/amd-has-patched-its-ssd-eating-gpu-driver-bug-with-an-optional-adrenalin-update-for-rx-7000-series-graphics-cards-and-above/",
+    "https://www.rockpapershotgun.com/wolfenstein-3-and-new-id-software-game-confirmed-as-xbox-boss-somehow-unrelatedly-shouts-about-one-person-soon-wieldling-capabilities-that-once-required-entire-nations",
+    "https://www.eurogamer.net/halo-campaign-evovled-firefight-mode",
+    "https://www.pcgamer.com/games/grand-theft-auto/palworld-developer-pocketpair-gives-employees-time-off-for-a-5-day-business-trip-in-vice-city-when-gta-6-launches/"
   ],
   "seen_titles": [
-    "valve explains why the steam machine is taking so long",
-    "lego announces sega genesis console set coming in june: first photos",
-    "steam controller quickly goes out of stock after payment processing issues plague release",
-    "ps5's 007 first light will see you embody the charismatic james bond for 20+ hours",
     "fallout nuka girl statue reissued, selling out fast",
     "black clover reveals the official romantic endgame of asta and noelle after 11 years",
     "witcher dev's latest nomination is for its hq in warsaw",
@@ -10001,13 +9997,13 @@
     "nintendo officially reveals new kirby game for switch 2",
     "gta 6's burger shot is expanding to more real-world locations",
     "lucky luke: the lonesome cowboy collection announced for ps5, xbox series, switch 2, ps4, xbox one, switch, and pc",
-    "lucky luke retro collection brings several games to the us for the very first time"
+    "lucky luke retro collection brings several games to the us for the very first time",
+    "amd has patched its ssd-eating gpu driver bug with an optional adrenalin update for rx 7000-series graphics cards and above",
+    "wolfenstein 3 and new id software game confirmed, as xbox boss somehow unrelatedly shouts about one person soon wielding \"capabilities that once required entire nations\"",
+    "halo: campaign evolved is getting its own four-player version of the series' staple firefight mode, for free, \"this winter\"",
+    "palworld developer pocketpair gives employees time off for 'a 5-day business trip in vice city when gta 6 launches'"
   ],
   "seen_story_keys": [
-    "f8febded9cb5f369742bb1399a75eec7491cc5d2",
-    "c4e6e4afc4af4c6486235d0d323b27e7ca12b9e7",
-    "667bd9d4466215ae2464a874e04d1b6c41ef7e2a",
-    "82ef0e0a633ade73863513986428762f8028cfbf",
     "db8a1fd5b8f9cf792377071cda43c9b8cbb4053b",
     "fc9757e165ef91358ac175f37438cad8bd720186",
     "3f37e8873f1548a92d8117ff2cdd7fcbff70bc7d",
@@ -15003,6 +14999,10 @@
     "e3935f1e8447f62f11d0e8d48ab83eb4a3e60b04",
     "a9549961c229f90040dfcf0b3ab56997ff14da21",
     "2c607343e9ff65346b6db9d716d0e1c0638bfca0",
-    "4e04c620dc107a07f64c8881d25b906e46754539"
+    "4e04c620dc107a07f64c8881d25b906e46754539",
+    "a8f73f597b565d0bdefb9886af57e214bdcc02a6",
+    "d614c22af27b2988c680e868d3351dc45076a32e",
+    "3b0cc0380d2b31caa07f6e3d5bea1db7f8673f36",
+    "d4894aeac0ac2c2858046ab01b7b8bf2d556da0c"
   ]
 }
