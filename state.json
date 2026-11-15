@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/marathon-director-julia-nardin-bungie-story-plans/",
-    "https://www.gamespot.com/articles/blizzard-sure-is-dragging-out-diablo-4s-secret-cow-level-reveal/1100-6539774/?ftag=CAD-01-10abi2f",
-    "https://www.gamespot.com/articles/call-of-duty-patch-notes-are-longer-than-the-entire-us-constitution/1100-6539773/?ftag=CAD-01-10abi2f",
-    "https://www.polygon.com/resident-evil-requiem-producer-ai-grace-criticisms/",
     "https://www.gamespot.com/articles/blizzard-no-longer-forces-warcraft-3-fans-to-launch-a-worse-version/1100-6539768/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/05/forza-horizon-6-goes-gold",
     "https://gamerant.com/gta-6-console-first-release-take-two-ceo-comment/",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/games/rts/this-rts-inspired-by-star-wars-empire-at-war-promises-colossal-space-encounters-and-planetary-battles-with-hundreds-of-thousands-of-units/",
     "https://www.purexbox.com/news/2026/11/youtubers-share-their-amazing-home-videos-from-the-most-important-day-in-xbox-history",
     "https://www.videogameschronicle.com/news/id-software-confirms-its-working-on-a-new-game-after-layoffs/",
-    "https://www.purexbox.com/news/2026/11/21-original-xbox-games-are-coming-to-pc-via-backwards-compatibility-today-november-12"
+    "https://www.purexbox.com/news/2026/11/21-original-xbox-games-are-coming-to-pc-via-backwards-compatibility-today-november-12",
+    "https://gamerant.com/nintendo-switch-2-tanuki-pons-summer/",
+    "https://www.purexbox.com/news/2026/11/three-classic-startup-animations-are-rolling-out-today-on-xbox-november-15",
+    "https://www.purexbox.com/news/2026/11/the-ultimate-gaming-machine-xbox-reveals-tons-of-new-project-helix-information",
+    "https://www.pcgamer.com/gaming-industry/youtuber-and-comedian-ashens-has-1-000-hours-in-baldurs-gate-3-and-reveals-the-worst-retro-game-hes-ever-played-by-the-time-youve-hacked-it-to-work-its-just-no-fun-whatsoever/"
   ],
   "seen_titles": [
-    "marathon director says bungie has 'years-long' story plans",
-    "blizzard sure is dragging out diablo 4's secret cow level reveal",
-    "these days, call of duty patch notes are longer than the entire us constitution",
-    "resident evil requiem producer seems glad you rejected the nvidia ai version of grace",
     "blizzard no longer forces warcraft 3 fans to launch a worse version",
     "forza horizon 6 goes gold",
     "take-two ceo reveals why gta 6 is coming to consoles before pc",
@@ -10001,13 +9997,13 @@
     "this rts inspired by star wars: empire at war promises colossal space encounters and planetary battles with 'hundreds of thousands of units'",
     "youtubers share their amazing home videos from the most important day in xbox history",
     "id software confirms it’s working on a new game after layoffs",
-    "21 original xbox games are coming to pc via backwards compatibility today (november 12)"
+    "21 original xbox games are coming to pc via backwards compatibility today (november 12)",
+    "new open-world adventure game launching on nintendo switch 2",
+    "three classic startup animations are rolling out today on xbox (november 15)",
+    "'the ultimate gaming machine' - xbox reveals tons of new project helix information",
+    "youtuber and comedian ashens has 1,000 hours in baldur's gate 3 and reveals the worst retro game he's ever played: 'by the time you've hacked it to work, it's just no fun whatsoever'"
   ],
   "seen_story_keys": [
-    "368f0ed5fed617bc4b8240086dba3bc77cd8da0b",
-    "04af0e13f4143b15fce8c777250d277a99c3e814",
-    "610c36b5da64c6c647c855a887b702c7ebd9128f",
-    "e31cebcfae6fd2f1c0be9fb98a31a59018308e09",
     "7de8a81118708dcfdb4d93ba1256047d72bbb608",
     "e2ea07ff65002bbcc45a0426b028814e71f80d5e",
     "9990a27c445201575e45ca263a9db0749ac13fa9",
@@ -15003,6 +14999,10 @@
     "01a8ae82d33f129b7a9f9d99b5a83edda94a9995",
     "b0e7c53811d0847e1ee36c2bc9e276f472a3b4c9",
     "be291d70db8f26dcdb46e41e1a15d1650356954b",
-    "ccb7699399c638db1bbea8abb027933e6594cf9c"
+    "ccb7699399c638db1bbea8abb027933e6594cf9c",
+    "36dda536152f111a4cac85332938d03252729de4",
+    "004f953c1407903f0ae6313d1a25b54bbb147b39",
+    "9e69c2312b51c38e3c33757e6df678037c07acb3",
+    "e9dbbbd719132264217ae5cdc47c0040eb0e5506"
   ]
 }
