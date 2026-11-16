@@ -1,8 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/blizzard-no-longer-forces-warcraft-3-fans-to-launch-a-worse-version/1100-6539768/?ftag=CAD-01-10abi2f",
-    "https://www.gematsu.com/2026/05/forza-horizon-6-goes-gold",
-    "https://gamerant.com/gta-6-console-first-release-take-two-ceo-comment/",
     "https://www.nintendolife.com/news/2026/05/open-world-survival-smalland-survive-the-wilds-announced-for-switch-2",
     "https://www.nintendolife.com/news/2026/05/gallery-sega-shares-early-sonic-adventure-concept-art-heres-a-look",
     "https://www.gamesindustry.biz/remedy-reports-stable-q1-performance-despite-decreases-in-revenue-and-operating-profit",
@@ -4999,12 +4996,12 @@
     "https://gamerant.com/nintendo-switch-2-tanuki-pons-summer/",
     "https://www.purexbox.com/news/2026/11/three-classic-startup-animations-are-rolling-out-today-on-xbox-november-15",
     "https://www.purexbox.com/news/2026/11/the-ultimate-gaming-machine-xbox-reveals-tons-of-new-project-helix-information",
-    "https://www.pcgamer.com/gaming-industry/youtuber-and-comedian-ashens-has-1-000-hours-in-baldurs-gate-3-and-reveals-the-worst-retro-game-hes-ever-played-by-the-time-youve-hacked-it-to-work-its-just-no-fun-whatsoever/"
+    "https://www.pcgamer.com/gaming-industry/youtuber-and-comedian-ashens-has-1-000-hours-in-baldurs-gate-3-and-reveals-the-worst-retro-game-hes-ever-played-by-the-time-youve-hacked-it-to-work-its-just-no-fun-whatsoever/",
+    "https://gamerant.com/madden-nfl-27-dont-delete-ea-gta-6-launch/",
+    "https://www.gematsu.com/2026/11/netcode-warriors-adds-ps5-version-launches-in-2027",
+    "https://www.ign.com/articles/xbox-reveals-original-and-360-boot-up-options-for-25th-anniversary"
   ],
   "seen_titles": [
-    "blizzard no longer forces warcraft 3 fans to launch a worse version",
-    "forza horizon 6 goes gold",
-    "take-two ceo reveals why gta 6 is coming to consoles before pc",
     "open-world survival 'smalland: survive the wilds' announced for switch 2",
     "gallery: sega shares early sonic adventure concept art, here's a look",
     "remedy reports \"stable\" q1 performance despite decreases in revenue and operating profit",
@@ -10001,12 +9998,12 @@
     "new open-world adventure game launching on nintendo switch 2",
     "three classic startup animations are rolling out today on xbox (november 15)",
     "'the ultimate gaming machine' - xbox reveals tons of new project helix information",
-    "youtuber and comedian ashens has 1,000 hours in baldur's gate 3 and reveals the worst retro game he's ever played: 'by the time you've hacked it to work, it's just no fun whatsoever'"
+    "youtuber and comedian ashens has 1,000 hours in baldur's gate 3 and reveals the worst retro game he's ever played: 'by the time you've hacked it to work, it's just no fun whatsoever'",
+    "big ea game asks players not to delete it before gta 6 launches",
+    "netcode warriors adds ps5 version, launches in 2027",
+    "xbox reveals original and 360 boot-up options for 25th anniversary"
   ],
   "seen_story_keys": [
-    "7de8a81118708dcfdb4d93ba1256047d72bbb608",
-    "e2ea07ff65002bbcc45a0426b028814e71f80d5e",
-    "9990a27c445201575e45ca263a9db0749ac13fa9",
     "9017bb4abe426356718c429cf8c9f481ac20d087",
     "2f7fe180de2370d61833b0f8e44a6861edcf0f37",
     "9f5a30e9cf9434b483df73a07dd3056a0b3f0084",
@@ -15003,6 +15000,9 @@
     "36dda536152f111a4cac85332938d03252729de4",
     "004f953c1407903f0ae6313d1a25b54bbb147b39",
     "9e69c2312b51c38e3c33757e6df678037c07acb3",
-    "e9dbbbd719132264217ae5cdc47c0040eb0e5506"
+    "e9dbbbd719132264217ae5cdc47c0040eb0e5506",
+    "862c4a775fd3c8bb96c11d0457b366ae1cb57c97",
+    "2e60ef8f25afea24774c319539eaea7ec31b79f2",
+    "5c7f535cb213d934d56015b66c589e2cf0f16d2c"
   ]
 }
