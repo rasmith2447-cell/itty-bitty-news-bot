@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/05/into-the-slimy-mines-launches-may-29",
-    "https://www.gematsu.com/2026/05/game-pass-adds-forza-horizon-6-mixtape-subnautica-2-early-access-and-more-in-early-to-mid-may",
-    "https://www.pcgamer.com/games/assassins-creed/assassins-creed-black-flag-resynced-combat-will-be-more-demanding-than-the-original/",
-    "https://gamerant.com/forza-horizon-6-loyalty-rewards-cars/",
     "https://www.nintendolife.com/news/2026/05/r-type-dimensions-iii-switch-1-and-2-physical-release-hit-with-delay",
     "https://www.rockpapershotgun.com/phasmophobias-latest-update-is-live-now-taking-the-horror-out-of-the-character-models-and-leaving-it-in-the-ghosts",
     "https://www.rockpapershotgun.com/steam-controller-ran-out-faster-than-we-anticipated-valve-say-surprising-no-one-promising-to-get-more-stock-in",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/11/splatoon-3-version-12-0-0-update-launches-november-17",
     "https://www.gematsu.com/2026/11/splatoon-raiders-demo-now-available",
     "https://www.pushsquare.com/news/2026/11/gta-6s-unpredictable-microclimate-revealed-by-the-weather-channel-with-new-ps5-screenshots",
-    "https://www.gematsu.com/2026/11/high-roller-penny-launches-january-12-2027"
+    "https://www.gematsu.com/2026/11/high-roller-penny-launches-january-12-2027",
+    "https://www.gamesindustry.biz/unity-acquires-3d-asset-creator-synty-studios-artist-created-content-to-be-integrated-into-ai-game-creation-platform-unity-spark",
+    "https://www.gamesindustry.biz/lisbon-based-studio-bravarda-closes-down-after-failing-to-recoup-dev-costs-on-its-most-recent-title-extremely-powerful-capybaras",
+    "https://www.gematsu.com/2026/11/multi-ending-visual-novel-attention-addicted-neet-announced-for-pc",
+    "https://www.gematsu.com/2026/11/rpg-maker-u2u-launches-january-28-2027"
   ],
   "seen_titles": [
-    "into the slimy mines launches may 29",
-    "game pass adds forza horizon 6, mixtape, subnautica 2 early access, and more in early to mid may",
-    "assassin's creed black flag resynced combat will be 'more demanding' than the original",
-    "forza horizon 6 loyalty rewards revealed",
     "r-type dimensions iii switch 1 & 2 physical release hit with delay",
     "phasmophobia's latest update is live now, taking the horror out of the character models and leaving it in the ghosts",
     "\"steam controller ran out faster than we anticipated\" valve say, surprising no one, promising to get more stock in",
@@ -10001,13 +9997,13 @@
     "splatoon 3 version 12.0.0 update launches november 17",
     "splatoon raiders demo now available",
     "gta 6's 'unpredictable' microclimate revealed by the weather channel, with new ps5 screenshots",
-    "high roller penny launches january 12, 2027"
+    "high roller penny launches january 12, 2027",
+    "unity acquires 3d asset creator synty studios; artist-created content to be integrated into ai game-creation platform unity spark",
+    "lisbon-based studio bravarda closes down after failing to recoup dev costs on its most recent title, extremely powerful capybaras",
+    "multi-ending visual novel attention addicted neet announced for pc",
+    "rpg maker u2u launches january 28, 2027"
   ],
   "seen_story_keys": [
-    "3e97629590dc2ac6fafa5023d65240857455ec1a",
-    "a8369a61ad8496237c6b94f3ec240770de20af06",
-    "c64925b4d62bb3408757941bcd7bf15c790e9e53",
-    "4e42c90e6ec823ee7f9f07e9d93c0268ed3dd56d",
     "09dda28669729b38c58615c28d85251c93b9fd16",
     "fa3e260f60c25034de63857c396c031cb1568140",
     "c56b09a2ee5aa967b5cd17e07b2ea6b318ba8c2f",
@@ -15003,6 +14999,10 @@
     "39eb05a34741506e090cd08b87916136e8d70c44",
     "62ddcf13fe206c2cb507a93434a10527d67534b7",
     "334f6025aefc2daa500b5517b347a1b93b4248ff",
-    "648dfaebe342e096a3613d9636ce0338b622f9eb"
+    "648dfaebe342e096a3613d9636ce0338b622f9eb",
+    "28455cd6be909b688aae9d5112debc4f8973f85d",
+    "b64259d32ee5d5e8c53ea615a3eb449f37aef86c",
+    "d0d3dcdc14fc382bcf7bb6aff2f8b3018ba1a1db",
+    "56ab271a8b0b859b1775b15480a4cce30c09a956"
   ]
 }
