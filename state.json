@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/05/two-games-are-available-today-with-xbox-game-pass-may-5",
-    "https://www.nintendolife.com/news/2026/05/the-mario-galaxy-movies-digital-release-date-may-be-a-little-later-than-we-first-thought",
-    "https://gamerant.com/nintendo-switch-2-pokemon-pokopia-bundle/",
-    "https://www.pushsquare.com/news/2026/05/sonys-not-pulling-the-plug-on-horizon-hunters-gathering-new-ps5-and-pc-beta-test-announced",
     "https://www.gematsu.com/2026/05/into-the-slimy-mines-launches-may-29",
     "https://www.gematsu.com/2026/05/game-pass-adds-forza-horizon-6-mixtape-subnautica-2-early-access-and-more-in-early-to-mid-may",
     "https://www.pcgamer.com/games/assassins-creed/assassins-creed-black-flag-resynced-combat-will-be-more-demanding-than-the-original/",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/11/shigeru-miyamoto-to-receive-the-inaugural-legend-award-at-the-30th-d-i-c-e-awards",
     "https://www.eurogamer.net/world-of-warcraft-forever-toy-pouch-of-violent-dust",
     "https://www.gematsu.com/2026/11/nba-2k27-x-grand-theft-auto-vi-collaboration-announced",
-    "https://www.gematsu.com/2026/11/bad-house-launches-january-11-2027"
+    "https://www.gematsu.com/2026/11/bad-house-launches-january-11-2027",
+    "https://www.gematsu.com/2026/11/splatoon-3-version-12-0-0-update-launches-november-17",
+    "https://www.gematsu.com/2026/11/splatoon-raiders-demo-now-available",
+    "https://www.pushsquare.com/news/2026/11/gta-6s-unpredictable-microclimate-revealed-by-the-weather-channel-with-new-ps5-screenshots",
+    "https://www.gematsu.com/2026/11/high-roller-penny-launches-january-12-2027"
   ],
   "seen_titles": [
-    "two games are available today with xbox game pass (may 5)",
-    "the mario galaxy movie's digital release date may be a little later than we first thought",
-    "nintendo announces switch 2 pokemon pokopia bundle, but there's a catch",
-    "sony's not pulling the plug on horizon hunters gathering, new ps5 and pc beta test announced",
     "into the slimy mines launches may 29",
     "game pass adds forza horizon 6, mixtape, subnautica 2 early access, and more in early to mid may",
     "assassin's creed black flag resynced combat will be 'more demanding' than the original",
@@ -10001,13 +9997,13 @@
     "shigeru miyamoto to receive the inaugural 'legend award' at the 30th d.i.c.e. awards",
     "world of warcraft: forever completionists push back as blizzard gives them a powerful toy and then prepares to take it away",
     "nba 2k27 x grand theft auto vi collaboration announced",
-    "bad house launches january 11, 2027"
+    "bad house launches january 11, 2027",
+    "splatoon 3 version 12.0.0 update launches november 17",
+    "splatoon raiders demo now available",
+    "gta 6's 'unpredictable' microclimate revealed by the weather channel, with new ps5 screenshots",
+    "high roller penny launches january 12, 2027"
   ],
   "seen_story_keys": [
-    "840ff844579a6d5fccfdc6e08540e9980208fb0e",
-    "5cbd58294f27ea6d15e12012f437cce08d2f5afb",
-    "4149810b402423865f7930d9e20cea2340ad2c9d",
-    "69b5db7510eedc9b28cd35e7b1f951c4a82f7eb1",
     "3e97629590dc2ac6fafa5023d65240857455ec1a",
     "a8369a61ad8496237c6b94f3ec240770de20af06",
     "c64925b4d62bb3408757941bcd7bf15c790e9e53",
@@ -15003,6 +14999,10 @@
     "c51cf2799677750ab5cb33cfb77bb12da8996f73",
     "bdac444356d308b903dcb59ea851929e12bd8a41",
     "4084b381cdf2da28ae4aa358d8ad0319480f1fab",
-    "f93e6a2c089547e1009be184cc5711043d67a104"
+    "f93e6a2c089547e1009be184cc5711043d67a104",
+    "39eb05a34741506e090cd08b87916136e8d70c44",
+    "62ddcf13fe206c2cb507a93434a10527d67534b7",
+    "334f6025aefc2daa500b5517b347a1b93b4248ff",
+    "648dfaebe342e096a3613d9636ce0338b622f9eb"
   ]
 }
