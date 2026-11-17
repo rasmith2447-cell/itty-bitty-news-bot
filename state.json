@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/05/r-type-dimensions-iii-switch-1-and-2-physical-release-hit-with-delay",
-    "https://www.rockpapershotgun.com/phasmophobias-latest-update-is-live-now-taking-the-horror-out-of-the-character-models-and-leaving-it-in-the-ghosts",
-    "https://www.rockpapershotgun.com/steam-controller-ran-out-faster-than-we-anticipated-valve-say-surprising-no-one-promising-to-get-more-stock-in",
-    "https://www.gamespot.com/articles/the-next-assassins-creed-sure-isnt-what-we-expected/1100-6539790/?ftag=CAD-01-10abi2f",
     "https://www.ign.com/articles/xbox-boss-asha-sharma-announces-leadership-reshuffle-in-bid-to-move-faster-bringing-in-former-microsoft-ai-colleagues",
     "https://www.ign.com/articles/gta-6-fan-spends-3-months-charting-the-planetary-positions-for-every-rockstar-trailer-drop-since-2007-to-predict-trailer-3-release-date",
     "https://gamerant.com/xbox-game-pass-may-2026-games/",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/unity-acquires-3d-asset-creator-synty-studios-artist-created-content-to-be-integrated-into-ai-game-creation-platform-unity-spark",
     "https://www.gamesindustry.biz/lisbon-based-studio-bravarda-closes-down-after-failing-to-recoup-dev-costs-on-its-most-recent-title-extremely-powerful-capybaras",
     "https://www.gematsu.com/2026/11/multi-ending-visual-novel-attention-addicted-neet-announced-for-pc",
-    "https://www.gematsu.com/2026/11/rpg-maker-u2u-launches-january-28-2027"
+    "https://www.gematsu.com/2026/11/rpg-maker-u2u-launches-january-28-2027",
+    "https://www.gematsu.com/2026/11/game-pass-adds-hela-of-mice-magic-the-outlast-trials-sniper-ghost-warrior-contracts-2-and-more-in-late-november",
+    "https://www.eurogamer.net/gta-6-lucia-actress-manni-l-perez-confirmed",
+    "https://www.gematsu.com/2026/11/calame-launches-in-february-2027",
+    "https://www.gematsu.com/2026/11/the-game-awards-2026-nominees-announced"
   ],
   "seen_titles": [
-    "r-type dimensions iii switch 1 & 2 physical release hit with delay",
-    "phasmophobia's latest update is live now, taking the horror out of the character models and leaving it in the ghosts",
-    "\"steam controller ran out faster than we anticipated\" valve say, surprising no one, promising to get more stock in",
-    "the next assassin's creed sure isn't what we expected",
     "xbox boss asha sharma announces leadership reshuffle in bid to 'move faster,' bringing in former microsoft ai colleagues",
     "gta 6 fan spends 3 months charting the planetary positions for every rockstar trailer drop since 2007 to predict trailer 3 release date",
     "xbox game pass reveals massive lineup for may 2026",
@@ -10001,13 +9997,13 @@
     "unity acquires 3d asset creator synty studios; artist-created content to be integrated into ai game-creation platform unity spark",
     "lisbon-based studio bravarda closes down after failing to recoup dev costs on its most recent title, extremely powerful capybaras",
     "multi-ending visual novel attention addicted neet announced for pc",
-    "rpg maker u2u launches january 28, 2027"
+    "rpg maker u2u launches january 28, 2027",
+    "game pass adds hela: of mice & magic, the outlast trials, sniper ghost warrior contracts 2, and more in late november",
+    "the game awards just confirmed who plays gta 6's lucia",
+    "calame launches in february 2027",
+    "the game awards 2026 nominees announced"
   ],
   "seen_story_keys": [
-    "09dda28669729b38c58615c28d85251c93b9fd16",
-    "fa3e260f60c25034de63857c396c031cb1568140",
-    "c56b09a2ee5aa967b5cd17e07b2ea6b318ba8c2f",
-    "b31851d8ddee24e107634ade6ede230b6bcf77e5",
     "3549d4bc66fbfd7e64bcd94a0c2bfdb7ea7005a0",
     "d475f25e6fff7f6cb8c995751c6602bb80fe43c7",
     "c4669bec250a69287c5445a2dc1822df59c69e6f",
@@ -15003,6 +14999,10 @@
     "28455cd6be909b688aae9d5112debc4f8973f85d",
     "b64259d32ee5d5e8c53ea615a3eb449f37aef86c",
     "d0d3dcdc14fc382bcf7bb6aff2f8b3018ba1a1db",
-    "56ab271a8b0b859b1775b15480a4cce30c09a956"
+    "56ab271a8b0b859b1775b15480a4cce30c09a956",
+    "7de043168d92ccfc08c61397fb32cc1dd1015ccb",
+    "3216a8308bad12f515b93f2b1ab7ea2e2b253e31",
+    "a3515737e85619cb15aa30f26577b6a616cf2a2f",
+    "f45556d72d96d56fa818b69d4051789d891aece9"
   ]
 }
