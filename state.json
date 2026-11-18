@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/xbox-boss-asha-sharma-announces-leadership-reshuffle-in-bid-to-move-faster-bringing-in-former-microsoft-ai-colleagues",
-    "https://www.ign.com/articles/gta-6-fan-spends-3-months-charting-the-planetary-positions-for-every-rockstar-trailer-drop-since-2007-to-predict-trailer-3-release-date",
-    "https://gamerant.com/xbox-game-pass-may-2026-games/",
-    "https://gamerant.com/neverness-to-everness-nte-anime-game-like-gta/",
     "https://www.pushsquare.com/news/2026/05/myst-riven-remakes-officially-confirmed-for-ps5-with-full-psvr2-support",
     "https://www.eurogamer.net/resident-evil-requiem-director-dlss5-grace-got-it-right",
     "https://www.gematsu.com/2026/05/multiplayer-kaiju-action-game-beastlink-announced-for-ps5-xbox-series-and-pc",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/11/game-pass-adds-hela-of-mice-magic-the-outlast-trials-sniper-ghost-warrior-contracts-2-and-more-in-late-november",
     "https://www.eurogamer.net/gta-6-lucia-actress-manni-l-perez-confirmed",
     "https://www.gematsu.com/2026/11/calame-launches-in-february-2027",
-    "https://www.gematsu.com/2026/11/the-game-awards-2026-nominees-announced"
+    "https://www.gematsu.com/2026/11/the-game-awards-2026-nominees-announced",
+    "https://gamerant.com/sony-playstation-game-awards-record-broke/",
+    "https://gamerant.com/ps5-console-update-patch-notes/",
+    "https://www.nintendolife.com/news/2026/11/splatoon-3-version-12-0-0-update-out-now-here-are-the-full-patch-notes",
+    "https://www.pcgamer.com/games/live/news/grand-theft-auto-6-live-launch-coverage/"
   ],
   "seen_titles": [
-    "xbox boss asha sharma announces leadership reshuffle in bid to 'move faster,' bringing in former microsoft ai colleagues",
-    "gta 6 fan spends 3 months charting the planetary positions for every rockstar trailer drop since 2007 to predict trailer 3 release date",
-    "xbox game pass reveals massive lineup for may 2026",
-    "does neverness to everness hold up to its 'anime gta' moniker?",
     "myst, riven remakes officially confirmed for ps5, with full psvr2 support",
     "after dlss 5 furore, resident evil requiem director says fan criticism of grace ashcroft's ai-powered makeover means team 'got her design right'",
     "multiplayer kaiju action game beastlink announced for ps5, xbox series, and pc",
@@ -10001,13 +9997,13 @@
     "game pass adds hela: of mice & magic, the outlast trials, sniper ghost warrior contracts 2, and more in late november",
     "the game awards just confirmed who plays gta 6's lucia",
     "calame launches in february 2027",
-    "the game awards 2026 nominees announced"
+    "the game awards 2026 nominees announced",
+    "sony just broke a game awards record, but not the good kind",
+    "ps5 releases brand-new required console update for november 2026",
+    "splatoon 3 version 12.0.0 update out now, here are the full patch notes",
+    "grand theft auto 6 live launch coverage: how the biggest game of the decade is landing"
   ],
   "seen_story_keys": [
-    "3549d4bc66fbfd7e64bcd94a0c2bfdb7ea7005a0",
-    "d475f25e6fff7f6cb8c995751c6602bb80fe43c7",
-    "c4669bec250a69287c5445a2dc1822df59c69e6f",
-    "6e02483ac3c025a2ff09f5dd0101e07ff4e11d9d",
     "b04831dcc74d7f08b75382b0c3b5302cc1084702",
     "60cee4ca9005b0748553927dd4635a0da5ed78a2",
     "c52d07c04bff76024713b4ddec419cc11b2f1665",
@@ -15003,6 +14999,10 @@
     "7de043168d92ccfc08c61397fb32cc1dd1015ccb",
     "3216a8308bad12f515b93f2b1ab7ea2e2b253e31",
     "a3515737e85619cb15aa30f26577b6a616cf2a2f",
-    "f45556d72d96d56fa818b69d4051789d891aece9"
+    "f45556d72d96d56fa818b69d4051789d891aece9",
+    "1bb52bc7c24b355e368a210ecf52e8cc353ca70e",
+    "e2e7d683a31c3fc5ccb6ec8433e6e4e4ef4908fe",
+    "91c50ab1e1a04480fcef168e40d7e848ce60c8ac",
+    "80038fce68f19f484392e8c3be477c68101fa220"
   ]
 }
