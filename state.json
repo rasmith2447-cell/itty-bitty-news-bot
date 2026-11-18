@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/05/myst-riven-remakes-officially-confirmed-for-ps5-with-full-psvr2-support",
-    "https://www.eurogamer.net/resident-evil-requiem-director-dlss5-grace-got-it-right",
-    "https://www.gematsu.com/2026/05/multiplayer-kaiju-action-game-beastlink-announced-for-ps5-xbox-series-and-pc",
-    "https://www.gamespot.com/articles/diablo-4s-cow-level-found-at-last-and-it-rewards-the-most-ludicrous-item-in-diablo-history/1100-6539788/?ftag=CAD-01-10abi2f",
     "https://www.gematsu.com/2026/05/dark-scrolls-launches-may-28",
     "https://www.nintendolife.com/news/2026/05/devolvers-dark-scrolls-mixes-roguelike-fantasy-and-shmup-chaos-on-switch-this-month",
     "https://www.pushsquare.com/news/2026/05/incredible-rpgs-trails-from-zero-trails-to-azure-announced-for-4k-120fps-ps5-release-this-fall",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/sony-playstation-game-awards-record-broke/",
     "https://gamerant.com/ps5-console-update-patch-notes/",
     "https://www.nintendolife.com/news/2026/11/splatoon-3-version-12-0-0-update-out-now-here-are-the-full-patch-notes",
-    "https://www.pcgamer.com/games/live/news/grand-theft-auto-6-live-launch-coverage/"
+    "https://www.pcgamer.com/games/live/news/grand-theft-auto-6-live-launch-coverage/",
+    "https://www.nintendolife.com/news/2026/11/spyros-new-adventure-seemingly-teased-for-the-game-awards-2026",
+    "https://www.nintendolife.com/news/2026/11/avatar-fighting-games-new-update-improves-performance-on-switch-2",
+    "https://www.nintendolife.com/news/2026/11/pokemon-champions-is-getting-a-balance-patch-next-month",
+    "https://www.gematsu.com/2026/11/hakoniwa-electric-launches-november-30"
   ],
   "seen_titles": [
-    "myst, riven remakes officially confirmed for ps5, with full psvr2 support",
-    "after dlss 5 furore, resident evil requiem director says fan criticism of grace ashcroft's ai-powered makeover means team 'got her design right'",
-    "multiplayer kaiju action game beastlink announced for ps5, xbox series, and pc",
-    "diablo 4's cow level found at last, and it rewards the most ludicrous item in diablo history",
     "dark scrolls launches may 28",
     "devolver's 'dark scrolls' mixes roguelike fantasy and shmup chaos on switch this month",
     "incredible rpgs trails from zero, trails to azure announced for 4k, 120fps ps5 release this fall",
@@ -10001,13 +9997,13 @@
     "sony just broke a game awards record, but not the good kind",
     "ps5 releases brand-new required console update for november 2026",
     "splatoon 3 version 12.0.0 update out now, here are the full patch notes",
-    "grand theft auto 6 live launch coverage: how the biggest game of the decade is landing"
+    "grand theft auto 6 live launch coverage: how the biggest game of the decade is landing",
+    "spyro's new adventure seemingly teased for the game awards 2026",
+    "avatar fighting game's new update improves performance on switch 2",
+    "pokémon champions is getting a balance patch next month",
+    "hakoniwa electric launches november 30"
   ],
   "seen_story_keys": [
-    "b04831dcc74d7f08b75382b0c3b5302cc1084702",
-    "60cee4ca9005b0748553927dd4635a0da5ed78a2",
-    "c52d07c04bff76024713b4ddec419cc11b2f1665",
-    "064e8e7b8612d449413d451e11d06db9d63ef6c0",
     "74bf99bbc20d118a4977ed4cdbadefee283ec29d",
     "4656c82ce69a59d2ab962bd980647584ef36f26a",
     "12c24f4b4b0131c177aef3525587cad20e4ec3f1",
@@ -15003,6 +14999,10 @@
     "1bb52bc7c24b355e368a210ecf52e8cc353ca70e",
     "e2e7d683a31c3fc5ccb6ec8433e6e4e4ef4908fe",
     "91c50ab1e1a04480fcef168e40d7e848ce60c8ac",
-    "80038fce68f19f484392e8c3be477c68101fa220"
+    "80038fce68f19f484392e8c3be477c68101fa220",
+    "c24906b8fda6280c05902386dcb0ec234ce6ff9d",
+    "4c422381ba49d109944ba7c0b123edb0d0393bcb",
+    "41d4ce33676f104a441236d32f6be1e5f79b6457",
+    "6ce6ff7ce9b94ba9daaff4c8b2dd9de50af421b8"
   ]
 }
