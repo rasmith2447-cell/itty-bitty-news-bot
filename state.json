@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/bond-has-a-special-place-on-nintendo-io-ceo-says-hell-do-everything-to-make-007-first-light-run-well-on-switch-2/",
-    "https://www.nintendolife.com/features/talking-point-do-you-prefer-big-directs-or-a-steady-flow-of-news-from-nintendo-today",
-    "https://www.pushsquare.com/news/2026/05/if-this-ps5-kaiju-game-doesnt-drop-to-10fps-then-frankly-the-dev-has-failed",
-    "https://www.ign.com/articles/is-valve-finally-getting-ready-to-launch-the-steam-machine",
     "https://www.gamespot.com/articles/hitman-dev-talks-gta-6-delay-first-light-for-switch-2-and-whats-up-with-its-fantasy-game/1100-6539782/?ftag=CAD-01-10abi2f",
     "https://www.pcgamer.com/hardware/ssds/windrose-should-no-longer-threaten-to-significantly-reduce-your-ssds-lifespan-thanks-to-a-fresh-patch/",
     "https://gamerant.com/xbox-game-pass-day-one-games-2026-corsair-cove-mariachi-legends/",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/11/rayman-legends-retold-reveals-another-musical-level-and-uhh-just-watch",
     "https://www.polygon.com/new-jason-movie-friday-the-13th-cast-release-date/",
     "https://gamerant.com/persona-4-revival-release-date-february-2027/",
-    "https://gamerant.com/gta-6-ps5-pro-performance-60fps-statement/"
+    "https://gamerant.com/gta-6-ps5-pro-performance-60fps-statement/",
+    "https://gamerant.com/animal-crossing-lego-sets-retiring-soon/",
+    "https://www.ign.com/articles/gta-6-doesnt-let-players-pick-up-prostitutes-but-rockstar-has-a-logical-reason-for-it",
+    "https://www.gematsu.com/2026/11/the-first-zombie-launches-december-16",
+    "https://www.pcgamer.com/games/grand-theft-auto/devolvers-not-just-launching-a-game-on-the-same-day-as-gta-6-its-using-a-shot-by-shot-remake-of-the-gta-6-launch-trailer-too/"
   ],
   "seen_titles": [
-    "‘bond has a special place on nintendo’: io ceo says he’ll ‘do everything’ to make 007 first light run well on switch 2",
-    "talking point: do you prefer big directs or a steady flow of news from nintendo today?",
-    "if this ps5 kaiju game doesn't drop to 10fps, then frankly the dev has failed",
-    "is valve finally getting ready to launch the steam machine?",
     "hitman dev talks gta 6 delay, first light for switch 2, and what's up with its fantasy game",
     "windrose should no longer threaten to significantly reduce your ssd's lifespan thanks to a fresh patch",
     "xbox game pass has locked down 2 more day one games for 2026",
@@ -10001,13 +9997,13 @@
     "rayman legends retold reveals another musical level, and uhh... just watch",
     "new friday the 13th movie reveals all-new jason, dutton ranch star for cast",
     "persona 4 revival launches february 18, and atlus still has a remake to sell before persona 6",
-    "rockstar issues new official statement on gta 6 ps5 pro performance"
+    "rockstar issues new official statement on gta 6 ps5 pro performance",
+    "lego confirms new video game sets that are retiring soon",
+    "gta 6 doesn't let players pick up prostitutes, but rockstar has a logical reason for it",
+    "the first zombie launches december 16",
+    "devolver's not just launching a game on the same day as gta 6, it's using a shot-by-shot remake of the gta 6 launch trailer too"
   ],
   "seen_story_keys": [
-    "1444e953f39d6b32aeaf4efa1464943f589156bf",
-    "bc8b89fd9b5de700e3ac043347bd4aab92941149",
-    "d6b364a6038b606c7fc3ccb31b5e65af0e267ef0",
-    "db7cd654d9d4a80f62982318659f5039a688c724",
     "bdd87ef6918aff5f387ecc7a9e48ec17159ca5de",
     "7f4eb609c727566fbf32166547f45f9f49efb158",
     "783e51f47f30f21f107d6a88aba15c1caad26ab6",
@@ -15003,6 +14999,10 @@
     "007e5a23a115ab97eea2fa2fd85323af37d66c7a",
     "1bec24b2ac1cbb5536b74515cc4a3bc40838dd67",
     "75dcee70484d84d18f1dfd8b6d8724f58993c767",
-    "69c384f4b3bd3adef809bc19506242099bda6b46"
+    "69c384f4b3bd3adef809bc19506242099bda6b46",
+    "382972a62680a9581e9a594787a687968b016b98",
+    "bdc0459ef24fcbec86d4629dcaadc943a0373b12",
+    "d987b0ffc9fcced014cb3c285c3ad0988b9fbbba",
+    "c154e0ec7e1af7d71e227a0ac70441ce2669c720"
   ]
 }
