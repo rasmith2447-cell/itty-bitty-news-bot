@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/05/dark-scrolls-launches-may-28",
-    "https://www.nintendolife.com/news/2026/05/devolvers-dark-scrolls-mixes-roguelike-fantasy-and-shmup-chaos-on-switch-this-month",
-    "https://www.pushsquare.com/news/2026/05/incredible-rpgs-trails-from-zero-trails-to-azure-announced-for-4k-120fps-ps5-release-this-fall",
-    "https://www.eurogamer.net/horizon-hunters-gathering-sets-may-2026-playtest",
     "https://www.videogameschronicle.com/news/bond-has-a-special-place-on-nintendo-io-ceo-says-hell-do-everything-to-make-007-first-light-run-well-on-switch-2/",
     "https://www.nintendolife.com/features/talking-point-do-you-prefer-big-directs-or-a-steady-flow-of-news-from-nintendo-today",
     "https://www.pushsquare.com/news/2026/05/if-this-ps5-kaiju-game-doesnt-drop-to-10fps-then-frankly-the-dev-has-failed",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/11/spyros-new-adventure-seemingly-teased-for-the-game-awards-2026",
     "https://www.nintendolife.com/news/2026/11/avatar-fighting-games-new-update-improves-performance-on-switch-2",
     "https://www.nintendolife.com/news/2026/11/pokemon-champions-is-getting-a-balance-patch-next-month",
-    "https://www.gematsu.com/2026/11/hakoniwa-electric-launches-november-30"
+    "https://www.gematsu.com/2026/11/hakoniwa-electric-launches-november-30",
+    "https://www.nintendolife.com/news/2026/11/rayman-legends-retold-reveals-another-musical-level-and-uhh-just-watch",
+    "https://www.polygon.com/new-jason-movie-friday-the-13th-cast-release-date/",
+    "https://gamerant.com/persona-4-revival-release-date-february-2027/",
+    "https://gamerant.com/gta-6-ps5-pro-performance-60fps-statement/"
   ],
   "seen_titles": [
-    "dark scrolls launches may 28",
-    "devolver's 'dark scrolls' mixes roguelike fantasy and shmup chaos on switch this month",
-    "incredible rpgs trails from zero, trails to azure announced for 4k, 120fps ps5 release this fall",
-    "horizon hunters gathering sets second ps5 and pc playtest for late may with new hunters, narrative episode, and region",
     "‘bond has a special place on nintendo’: io ceo says he’ll ‘do everything’ to make 007 first light run well on switch 2",
     "talking point: do you prefer big directs or a steady flow of news from nintendo today?",
     "if this ps5 kaiju game doesn't drop to 10fps, then frankly the dev has failed",
@@ -10001,13 +9997,13 @@
     "spyro's new adventure seemingly teased for the game awards 2026",
     "avatar fighting game's new update improves performance on switch 2",
     "pokémon champions is getting a balance patch next month",
-    "hakoniwa electric launches november 30"
+    "hakoniwa electric launches november 30",
+    "rayman legends retold reveals another musical level, and uhh... just watch",
+    "new friday the 13th movie reveals all-new jason, dutton ranch star for cast",
+    "persona 4 revival launches february 18, and atlus still has a remake to sell before persona 6",
+    "rockstar issues new official statement on gta 6 ps5 pro performance"
   ],
   "seen_story_keys": [
-    "74bf99bbc20d118a4977ed4cdbadefee283ec29d",
-    "4656c82ce69a59d2ab962bd980647584ef36f26a",
-    "12c24f4b4b0131c177aef3525587cad20e4ec3f1",
-    "ccdd1eda880cd3ddea4e0910af79f5980cdd58e1",
     "1444e953f39d6b32aeaf4efa1464943f589156bf",
     "bc8b89fd9b5de700e3ac043347bd4aab92941149",
     "d6b364a6038b606c7fc3ccb31b5e65af0e267ef0",
@@ -15003,6 +14999,10 @@
     "c24906b8fda6280c05902386dcb0ec234ce6ff9d",
     "4c422381ba49d109944ba7c0b123edb0d0393bcb",
     "41d4ce33676f104a441236d32f6be1e5f79b6457",
-    "6ce6ff7ce9b94ba9daaff4c8b2dd9de50af421b8"
+    "6ce6ff7ce9b94ba9daaff4c8b2dd9de50af421b8",
+    "007e5a23a115ab97eea2fa2fd85323af37d66c7a",
+    "1bec24b2ac1cbb5536b74515cc4a3bc40838dd67",
+    "75dcee70484d84d18f1dfd8b6d8724f58993c767",
+    "69c384f4b3bd3adef809bc19506242099bda6b46"
   ]
 }
