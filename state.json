@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/05/fallout-co-creator-thinks-gamers-are-letting-influencers-tell-them-what-to-think",
-    "https://www.gematsu.com/2026/05/blood-west-dlc-scavengers-launches-june-3",
-    "https://www.nintendolife.com/news/2026/05/alien-rogue-incursion-part-i-evolved-edition-is-getting-a-switch-2-physical-release",
-    "https://www.pushsquare.com/news/2026/05/a-new-saros-ps5-update-is-available-to-download-now",
     "https://www.purexbox.com/news/2026/05/these-13-games-are-coming-to-xbox-game-pass-may-6-19",
     "https://www.gamesindustry.biz/epic-and-disney-launch-largest-ip-toolset-to-date-allowing-devs-to-create-star-wars-games-in-fortnite",
     "https://www.nintendolife.com/news/2026/05/under-night-in-birth-ii-sysceles-announces-major-game-update-releasing-alongside-new-dlc-fighter",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/11/the-detective-is-already-dead-game-launches-in-2027-in-japan",
     "https://www.nintendolife.com/news/2026/11/the-cosy-coastal-farming-sim-coral-island-is-officially-on-its-way-to-switch-2-this-december",
     "https://www.ign.com/articles/gta-6-launch-causes-massive-spike-in-traffic-for-internet-provider-xfinity",
-    "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-is-huge-players-have-created-over-15-million-characters-so-far/"
+    "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-is-huge-players-have-created-over-15-million-characters-so-far/",
+    "https://www.purexbox.com/news/2026/11/xbox-remote-play-has-been-incredible-gta-6-players-are-giving-this-xbox-feature-its-flowers",
+    "https://www.pushsquare.com/news/2026/11/gta-6-takes-over-ps5s-welcome-page-including-a-new-set-of-wallpapers",
+    "https://www.nintendolife.com/news/2026/11/round-up-spare-a-thought-for-these-games-launching-on-gta-6-day",
+    "https://www.ign.com/articles/gta-6-estimated-to-have-reached-20-million-preorders-ahead-of-launch"
   ],
   "seen_titles": [
-    "fallout co-creator thinks gamers are letting influencers tell them what to think",
-    "blood west dlc ‘scavengers’ launches june 3",
-    "alien: rogue incursion - part i: evolved edition is getting a switch 2 physical release",
-    "a new saros ps5 update is available to download now",
     "these 13 games are coming to xbox game pass (may 6-19)",
     "epic and disney launch largest ip toolset to date, allowing creators to build star wars games in fortnite",
     "under night in-birth ii sys:celes announces major game update, releasing alongside new dlc fighter",
@@ -10001,13 +9997,13 @@
     "the detective is already dead game launches in 2027 in japan",
     "the cosy coastal farming sim coral island is officially on its way to switch 2 this december",
     "gta 6 launch causes massive spike in traffic for internet provider xfinity",
-    "wow: forever is huge: players have created over 15 million characters so far"
+    "wow: forever is huge: players have created over 15 million characters so far",
+    "'xbox remote play has been incredible' - gta 6 players are giving this xbox feature its flowers",
+    "gta 6 takes over ps5's welcome page, including a new set of wallpapers",
+    "round up: spare a thought for these games launching on 'gta 6 day'",
+    "gta 6 estimated to have reached 20 million preorders ahead of launch"
   ],
   "seen_story_keys": [
-    "c31bafa397152d9d85b61bce929aa116885efb58",
-    "8fc93832d2f2c072dfecda9945b4b7ad8ab5584d",
-    "ede05242e813918658ca9d0f990daa5947572531",
-    "dc33356adca43b6783d66ee21c06a73f1b7081a1",
     "3a9e737041f33703c3a2b95970c5d353c72fbce5",
     "589a6ed2a231ed70d73ca3353f4f67ca7fda4d21",
     "5fea1fdc290134da3936f44297d934d087ee443b",
@@ -15003,6 +14999,10 @@
     "8411d65c7984644400a82f5acc13f14e44f8283f",
     "d9a089f32265e361c59ca964379717e814287196",
     "f766d489abdba0d3291d0224637b8f605079437a",
-    "28b4bf9435b4128af833d9217e29b16e9956c694"
+    "28b4bf9435b4128af833d9217e29b16e9956c694",
+    "f32159c18da0db104e2f3d1e366dbbc882f61c5b",
+    "29f0ebdb519212fbb6cdbfc87680023faf6aefbb",
+    "c946af96328f0a6b5bd345c2caac037cd36ba639",
+    "2aec5ab9ee88f33f78217ae2c9752128929175a3"
   ]
 }
