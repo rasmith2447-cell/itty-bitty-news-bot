@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/hitman-dev-talks-gta-6-delay-first-light-for-switch-2-and-whats-up-with-its-fantasy-game/1100-6539782/?ftag=CAD-01-10abi2f",
-    "https://www.pcgamer.com/hardware/ssds/windrose-should-no-longer-threaten-to-significantly-reduce-your-ssds-lifespan-thanks-to-a-fresh-patch/",
-    "https://gamerant.com/xbox-game-pass-day-one-games-2026-corsair-cove-mariachi-legends/",
-    "https://www.nintendolife.com/news/2026/05/video-final-fantasy-vii-rebirth-side-by-side-graphics-comparison-switch-2-xbox-series-s-ps5",
     "https://www.pushsquare.com/news/2026/05/fallout-co-creator-thinks-gamers-are-letting-influencers-tell-them-what-to-think",
     "https://www.gematsu.com/2026/05/blood-west-dlc-scavengers-launches-june-3",
     "https://www.nintendolife.com/news/2026/05/alien-rogue-incursion-part-i-evolved-edition-is-getting-a-switch-2-physical-release",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/animal-crossing-lego-sets-retiring-soon/",
     "https://www.ign.com/articles/gta-6-doesnt-let-players-pick-up-prostitutes-but-rockstar-has-a-logical-reason-for-it",
     "https://www.gematsu.com/2026/11/the-first-zombie-launches-december-16",
-    "https://www.pcgamer.com/games/grand-theft-auto/devolvers-not-just-launching-a-game-on-the-same-day-as-gta-6-its-using-a-shot-by-shot-remake-of-the-gta-6-launch-trailer-too/"
+    "https://www.pcgamer.com/games/grand-theft-auto/devolvers-not-just-launching-a-game-on-the-same-day-as-gta-6-its-using-a-shot-by-shot-remake-of-the-gta-6-launch-trailer-too/",
+    "https://www.gematsu.com/2026/11/the-detective-is-already-dead-game-launches-in-2027-in-japan",
+    "https://www.nintendolife.com/news/2026/11/the-cosy-coastal-farming-sim-coral-island-is-officially-on-its-way-to-switch-2-this-december",
+    "https://www.ign.com/articles/gta-6-launch-causes-massive-spike-in-traffic-for-internet-provider-xfinity",
+    "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-is-huge-players-have-created-over-15-million-characters-so-far/"
   ],
   "seen_titles": [
-    "hitman dev talks gta 6 delay, first light for switch 2, and what's up with its fantasy game",
-    "windrose should no longer threaten to significantly reduce your ssd's lifespan thanks to a fresh patch",
-    "xbox game pass has locked down 2 more day one games for 2026",
-    "video: final fantasy vii rebirth side-by-side graphics comparison (switch 2, xbox series s, ps5)",
     "fallout co-creator thinks gamers are letting influencers tell them what to think",
     "blood west dlc ‘scavengers’ launches june 3",
     "alien: rogue incursion - part i: evolved edition is getting a switch 2 physical release",
@@ -10001,13 +9997,13 @@
     "lego confirms new video game sets that are retiring soon",
     "gta 6 doesn't let players pick up prostitutes, but rockstar has a logical reason for it",
     "the first zombie launches december 16",
-    "devolver's not just launching a game on the same day as gta 6, it's using a shot-by-shot remake of the gta 6 launch trailer too"
+    "devolver's not just launching a game on the same day as gta 6, it's using a shot-by-shot remake of the gta 6 launch trailer too",
+    "the detective is already dead game launches in 2027 in japan",
+    "the cosy coastal farming sim coral island is officially on its way to switch 2 this december",
+    "gta 6 launch causes massive spike in traffic for internet provider xfinity",
+    "wow: forever is huge: players have created over 15 million characters so far"
   ],
   "seen_story_keys": [
-    "bdd87ef6918aff5f387ecc7a9e48ec17159ca5de",
-    "7f4eb609c727566fbf32166547f45f9f49efb158",
-    "783e51f47f30f21f107d6a88aba15c1caad26ab6",
-    "6112a2801bcc69bf72da7b9e361d569f71f4c137",
     "c31bafa397152d9d85b61bce929aa116885efb58",
     "8fc93832d2f2c072dfecda9945b4b7ad8ab5584d",
     "ede05242e813918658ca9d0f990daa5947572531",
@@ -15003,6 +14999,10 @@
     "382972a62680a9581e9a594787a687968b016b98",
     "bdc0459ef24fcbec86d4629dcaadc943a0373b12",
     "d987b0ffc9fcced014cb3c285c3ad0988b9fbbba",
-    "c154e0ec7e1af7d71e227a0ac70441ce2669c720"
+    "c154e0ec7e1af7d71e227a0ac70441ce2669c720",
+    "8411d65c7984644400a82f5acc13f14e44f8283f",
+    "d9a089f32265e361c59ca964379717e814287196",
+    "f766d489abdba0d3291d0224637b8f605079437a",
+    "28b4bf9435b4128af833d9217e29b16e9956c694"
   ]
 }
