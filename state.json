@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.rockpapershotgun.com/xbox-boss-bumps-some-of-her-microsoft-coreai-buddies-up-into-leadership-jobs-but-hey-at-least-theyre-stopping-some-of-their-copilot-gubbins",
-    "https://www.purexbox.com/news/2026/05/halo-infinite-adds-new-game-mode-six-months-after-its-last-major-content-update",
-    "https://www.gamesindustry.biz/xbox-announces-leadership-changes-as-it-stops-development-of-gaming-copilot-for-console",
-    "https://www.eurogamer.net/halo-infinite-fireteam-gauntlet-pve-mode-update",
     "https://www.gematsu.com/2026/05/my-hero-academia-alls-justice-dlc-character-nana-shimura-launches-may-7",
     "https://gamerant.com/mindseye-build-a-rocket-boy-mass-layoffs-may-2026/",
     "https://www.gematsu.com/2026/05/transport-fever-3-to-be-published-by-paradox-interactive",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/11/caladrius-2-dark-element-delayed-to-january-27-2027",
     "https://gamerant.com/the-promised-neverland-new-sequel-novel-update/",
     "https://www.gematsu.com/2026/11/goodbye-seoul-launches-in-early-2027",
-    "https://www.purexbox.com/news/2026/11/gta-6-first-person-glitch-discovered-and-it-works-on-xbox-and-ps5"
+    "https://www.purexbox.com/news/2026/11/gta-6-first-person-glitch-discovered-and-it-works-on-xbox-and-ps5",
+    "https://www.gamesindustry.biz/ubisoft-launches-motherbrain-a-new-subsidiary-focused-on-ai-driven-gameplay-innovation",
+    "https://www.eurogamer.net/grand-theft-auto-6-doja-cat-gutted-not-in-soundtrack",
+    "https://www.gematsu.com/2026/11/dual-orb-collection-announced-for-switch",
+    "https://www.gematsu.com/2026/11/saihate-station-twilight-edition-announced-for-switch"
   ],
   "seen_titles": [
-    "xbox boss bumps some of her microsoft coreai buddies up into leadership jobs, but hey, at least they're stopping some of their copilot gubbins",
-    "halo infinite adds new game mode, six months after its 'last' major content update",
-    "xbox announces leadership changes as it stops development of gaming copilot for console",
-    "halo infinite gets surprise gauntlet pve mode six months after the last planned content update",
     "my hero academia: all’s justice dlc character nana shimura launches may 7",
     "mindseye studio hit with mass layoffs days after dlc launches",
     "transport fever 3 to be published by paradox interactive",
@@ -10001,13 +9997,13 @@
     "caladrius 2/dark element delayed to january 27, 2027",
     "legendary shonen 'the promised neverland' reveals new sequel update",
     "goodbye seoul launches in early 2027",
-    "gta 6 first-person glitch discovered, and it works on xbox & ps5"
+    "gta 6 first-person glitch discovered, and it works on xbox & ps5",
+    "ubisoft launches motherbrain, a new subsidiary focused on ai-driven \"gameplay innovation\"",
+    "\"you broke my heart\" - popular artist doja cat gutted to not have her music in grand theft auto 6",
+    "dual orb collection announced for switch",
+    "saihate station: twilight edition announced for switch"
   ],
   "seen_story_keys": [
-    "29a89278ea8a9d0b65b61d0e4803b4cf0f23e907",
-    "6cccc55a4feae42cbef322075e7e9b52cff4f0df",
-    "697cb9e00ac5e05e42ccc9a28bf78130a259b2ee",
-    "9adebf5a20f75a1a91acf87fab715a69e94d408c",
     "c7eb899fa672ba2e2f2ced7a64e9cf336e85385e",
     "c6795c33575a9c4d264e1a10ce41bbdf5484337a",
     "c9acf5d98ab7a7d9675fc480066c794b25b9a450",
@@ -15003,6 +14999,10 @@
     "ce3eb1f0bda2c5a1716f6dd16a2ca5ff02e646b4",
     "d7ef45734075bbd4bedf6137f3d93e855c965472",
     "226db44226fb0ceaca07c6ee44920dd38c907142",
-    "6d801a6cbcff4e50faa761525429c615ec8c3177"
+    "6d801a6cbcff4e50faa761525429c615ec8c3177",
+    "25274c59abed4ca61ee991f9e41f6f0db99aa57a",
+    "733ed92a85a9b22aeeb64e547a99e75b55ed50fe",
+    "95dd9d1f7e6e679af2210ab45a069070cc629c6d",
+    "3955c8dd0b447cbe3f6f60ca239bc0039e029ec5"
   ]
 }
