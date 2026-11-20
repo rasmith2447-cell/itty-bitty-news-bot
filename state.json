@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gematsu.com/2026/05/my-hero-academia-alls-justice-dlc-character-nana-shimura-launches-may-7",
-    "https://gamerant.com/mindseye-build-a-rocket-boy-mass-layoffs-may-2026/",
-    "https://www.gematsu.com/2026/05/transport-fever-3-to-be-published-by-paradox-interactive",
-    "https://www.gematsu.com/2026/05/sid-meiers-civilization-vii-test-of-time-update-launches-may-19",
     "https://www.purexbox.com/news/2026/05/xbox-ceo-reveals-new-start-up-animation-coming-to-consoles-next-week",
     "https://www.gamespot.com/articles/new-xbox-boot-up-sequence-goes-green/1100-6539810/?ftag=CAD-01-10abi2f",
     "https://www.eurogamer.net/battlefield-6-season-3-trailer",
@@ -4999,13 +4995,13 @@
     "https://www.gamesindustry.biz/ubisoft-launches-motherbrain-a-new-subsidiary-focused-on-ai-driven-gameplay-innovation",
     "https://www.eurogamer.net/grand-theft-auto-6-doja-cat-gutted-not-in-soundtrack",
     "https://www.gematsu.com/2026/11/dual-orb-collection-announced-for-switch",
-    "https://www.gematsu.com/2026/11/saihate-station-twilight-edition-announced-for-switch"
+    "https://www.gematsu.com/2026/11/saihate-station-twilight-edition-announced-for-switch",
+    "https://www.ign.com/articles/gta-6-has-only-been-out-for-a-day-and-people-are-already-asking-take-twos-boss-about-gta-7",
+    "https://www.nintendolife.com/news/2026/11/persona-6-doesnt-have-a-date-yet-but-atlus-says-you-wont-have-to-wait-as-long-for-persona-7",
+    "https://www.pushsquare.com/news/2026/11/atlus-doesnt-want-you-to-wait-yet-another-10-years-for-persona-7",
+    "https://www.gamesindustry.biz/ampere-analysis-over-1m-uk-and-us-xbox-players-accessed-gta-6-before-official-launch-by-switching-location-to-new-zealand"
   ],
   "seen_titles": [
-    "my hero academia: all’s justice dlc character nana shimura launches may 7",
-    "mindseye studio hit with mass layoffs days after dlc launches",
-    "transport fever 3 to be published by paradox interactive",
-    "sid meier’s civilization vii ‘test of time’ update launches may 19",
     "xbox ceo reveals new start-up animation coming to consoles next week",
     "new xbox boot-up sequence goes green",
     "battlefield 6 season 3 kicks off next week, and its gameplay trailer bets big on battlefield 4 nostalgia",
@@ -10001,13 +9997,13 @@
     "ubisoft launches motherbrain, a new subsidiary focused on ai-driven \"gameplay innovation\"",
     "\"you broke my heart\" - popular artist doja cat gutted to not have her music in grand theft auto 6",
     "dual orb collection announced for switch",
-    "saihate station: twilight edition announced for switch"
+    "saihate station: twilight edition announced for switch",
+    "gta 6 has only been out for a day and people are already asking take-two's boss about gta 7",
+    "persona 6 doesn't have a date yet, but atlus says you won't have to wait as long for persona 7",
+    "atlus doesn't want you to wait yet another 10 years for persona 7",
+    "ampere analysis: over 1m uk and us xbox players accessed gta 6 before official launch by switching location to new zealand"
   ],
   "seen_story_keys": [
-    "c7eb899fa672ba2e2f2ced7a64e9cf336e85385e",
-    "c6795c33575a9c4d264e1a10ce41bbdf5484337a",
-    "c9acf5d98ab7a7d9675fc480066c794b25b9a450",
-    "56daf343b8173fa8c868917d221054de372c78bb",
     "d67aad12f99e58ffd28d2e21d8c733590e0313a7",
     "fd38f49b44c585a9cfb0a5f096b1e04fb000560d",
     "9b242f7d7a0d0d483b16cd1da6bc6b2673e0c56e",
@@ -15003,6 +14999,10 @@
     "25274c59abed4ca61ee991f9e41f6f0db99aa57a",
     "733ed92a85a9b22aeeb64e547a99e75b55ed50fe",
     "95dd9d1f7e6e679af2210ab45a069070cc629c6d",
-    "3955c8dd0b447cbe3f6f60ca239bc0039e029ec5"
+    "3955c8dd0b447cbe3f6f60ca239bc0039e029ec5",
+    "2b63601bd7c985780994f1bfdcdaddf85198b812",
+    "206919ccf233b930450b857d6fde10144410c1f9",
+    "4e6b84b8bacb93f4f027f0c582044ad8727d3102",
+    "725054e388ed6328a692ea3d024e2c3c9f2f0a0c"
   ]
 }
