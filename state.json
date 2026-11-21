@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/we-got-it-wrong-with-civilization-vii-says-boss-as-major-update-announced/",
-    "https://gamerant.com/amd-had-best-quarter-ever-what-it-means-for-the-playstation6-next-xbox-nintendo-switch-2/",
-    "https://www.gamespot.com/articles/forget-the-cow-level-diablo-4-players-are-now-searching-for-cow-god/1100-6539822/?ftag=CAD-01-10abi2f",
-    "https://www.ign.com/articles/take-two-ceo-is-deeply-disappointed-by-bioshock-4s-delays",
     "https://www.pcgamer.com/gaming-industry/far-cry-2-and-assassins-creed-hexe-creative-director-launches-a-new-studio-a-few-months-after-surprise-exit-from-ubisoft/",
     "https://www.gamespot.com/articles/borderlands-4-on-switch-2-is-doable-take-two-says-after-gearbox-said-platform-was-perfect-for-it/1100-6539825/?ftag=CAD-01-10abi2f",
     "https://www.pushsquare.com/news/2026/05/im-tired-of-games-that-are-too-big-open-world-rpg-dawnwalker-doesnt-want-to-waste-your-time",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/11/the-wolf-among-us-remastered-has-been-delayed-for-switch",
     "https://www.gematsu.com/2026/11/third-person-survival-horror-game-ugly-within-to-be-published-by-serafini-productions-for-ps5-xbox-series-switch-2-and-pc",
     "https://www.gematsu.com/2026/11/psycho-dead-launches-april-15-2027",
-    "https://www.gematsu.com/2026/11/mr-magpies-harmless-card-game-launches-february-18-2027"
+    "https://www.gematsu.com/2026/11/mr-magpies-harmless-card-game-launches-february-18-2027",
+    "https://www.pushsquare.com/news/2026/11/ps5-survives-gta-6s-unfathomably-humongous-launch-without-a-hitch",
+    "https://www.gematsu.com/2026/11/arknights-endfield-version-update-meeting-you-in-the-world-oshrooms-launches-november-25",
+    "https://www.nintendolife.com/news/2026/11/sakurai-celebrates-kirby-air-riders-first-anniversary-and-seemingly-ponders-his-future-as-a-game-creator",
+    "https://www.gematsu.com/2026/11/baptiste-delayed-to-march-25-2027"
   ],
   "seen_titles": [
-    "‘we got it wrong’ with civilization vii, says boss, as major update announced",
-    "amd's record q1 drives next-gen console power",
-    "forget the cow level, diablo 4 players are now searching for cow god",
-    "take-two ceo is 'deeply disappointed' by bioshock 4's delays",
     "far cry 2 and assassin's creed hexe creative director launches a new studio, a few months after surprise exit from ubisoft",
     "borderlands 4 on switch 2 is \"doable,\" take-two says after gearbox said platform was \"perfect\" for it",
     "'i'm tired of games that are too big': open world rpg dawnwalker doesn't want to waste your time",
@@ -10001,13 +9997,13 @@
     "the wolf among us remastered has been delayed for switch",
     "third-person survival horror game ugly within to be published by serafini productions for ps5, xbox series, switch 2, and pc",
     "psycho dead launches april 15, 2027",
-    "mr. magpie’s harmless card game launches february 18, 2027"
+    "mr. magpie’s harmless card game launches february 18, 2027",
+    "ps5 survives gta 6's unfathomably humongous launch without a hitch",
+    "arknights: endfield version update ‘meeting you in the world o’shrooms’ launches november 25",
+    "sakurai celebrates kirby air riders' first anniversary and seemingly ponders his future as a game creator",
+    "baptiste delayed to march 25, 2027"
   ],
   "seen_story_keys": [
-    "ff0788dfd8fb256af7104a951d8b4e5976e17e34",
-    "4331d93b3c96e718eea9116eb6064b192114fb5d",
-    "68b87fd49dba37f29dd7c43fa1b9e7373791af21",
-    "fe5c640b972cf5d31f92a18f3ef7b89d59d42e91",
     "16f47e68d3b0513478e70246916769f20effa16d",
     "38d5a7852ec63facdd9f575ccddf4848af98cd6d",
     "23b2ea2dd2b93e17dad7fd6947fc121a3cd9d3d1",
@@ -15003,6 +14999,10 @@
     "b16026825fffe8a554dac878b6a3a66473764ad5",
     "69870ba3240e5c4edb3a6915d3583ae0235f341a",
     "73fab53fc177d6229d67524fd932b188eb57ceb3",
-    "00100ae8fe3998c850d0b6f4f4ec13027f43e498"
+    "00100ae8fe3998c850d0b6f4f4ec13027f43e498",
+    "83ccbad9817ff7967aa71dd246bf088740dd2c3f",
+    "0f0a226932b300205a7c3da5a28f5bae8c4ff35d",
+    "d88d8bce511972f370a6205d2157e2e68059b41e",
+    "eaa7f60cc32494c66df1aad356435e9610ab3b38"
   ]
 }
