@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/news/2026/05/xbox-ceo-reveals-new-start-up-animation-coming-to-consoles-next-week",
-    "https://www.gamespot.com/articles/new-xbox-boot-up-sequence-goes-green/1100-6539810/?ftag=CAD-01-10abi2f",
-    "https://www.eurogamer.net/battlefield-6-season-3-trailer",
-    "https://www.gematsu.com/2026/05/mina-the-hollower-launches-may-29",
     "https://www.videogameschronicle.com/news/asha-sharmas-xbox-overhaul-continues-as-revamped-series-xs-bootup-revealed/",
     "https://gamerant.com/open-world-game-like-red-dead-2-satisfactory-westlanders/",
     "https://www.ign.com/articles/ed-boon-would-love-to-see-a-street-fighter-character-in-mortal-kombat-plays-down-rivalry",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/gta-6-has-only-been-out-for-a-day-and-people-are-already-asking-take-twos-boss-about-gta-7",
     "https://www.nintendolife.com/news/2026/11/persona-6-doesnt-have-a-date-yet-but-atlus-says-you-wont-have-to-wait-as-long-for-persona-7",
     "https://www.pushsquare.com/news/2026/11/atlus-doesnt-want-you-to-wait-yet-another-10-years-for-persona-7",
-    "https://www.gamesindustry.biz/ampere-analysis-over-1m-uk-and-us-xbox-players-accessed-gta-6-before-official-launch-by-switching-location-to-new-zealand"
+    "https://www.gamesindustry.biz/ampere-analysis-over-1m-uk-and-us-xbox-players-accessed-gta-6-before-official-launch-by-switching-location-to-new-zealand",
+    "https://www.ign.com/articles/actor-who-plays-mandy-in-gta-6-excitedly-speaks-out-after-character-goes-viral",
+    "https://www.ign.com/articles/gta-6-triggers-busiest-traffic-day-in-comcast-history",
+    "https://www.polygon.com/gta-6-playtime-stats-launch-day-ps5-xbox-series-x/",
+    "https://www.gematsu.com/2026/11/1666-amsterdam-early-access-first-major-update-launches-in-december"
   ],
   "seen_titles": [
-    "xbox ceo reveals new start-up animation coming to consoles next week",
-    "new xbox boot-up sequence goes green",
-    "battlefield 6 season 3 kicks off next week, and its gameplay trailer bets big on battlefield 4 nostalgia",
-    "mina the hollower launches may 29",
     "asha sharma’s xbox overhaul continues, as revamped series x|s bootup revealed",
     "new 2026 open-world rpg is the red dead 2 x satisfactory hybrid i didn't know i needed",
     "ed boon would love to see a street fighter character in mortal kombat, plays down rivalry",
@@ -10001,13 +9997,13 @@
     "gta 6 has only been out for a day and people are already asking take-two's boss about gta 7",
     "persona 6 doesn't have a date yet, but atlus says you won't have to wait as long for persona 7",
     "atlus doesn't want you to wait yet another 10 years for persona 7",
-    "ampere analysis: over 1m uk and us xbox players accessed gta 6 before official launch by switching location to new zealand"
+    "ampere analysis: over 1m uk and us xbox players accessed gta 6 before official launch by switching location to new zealand",
+    "actor who plays mandy in gta 6 excitedly speaks out after character goes viral",
+    "gta 6 triggers busiest traffic day in comcast history",
+    "gta 6 players are officially spending an ‘absolutely bonkers’ amount of time with the game",
+    "1666: amsterdam early access first major update launches in december"
   ],
   "seen_story_keys": [
-    "d67aad12f99e58ffd28d2e21d8c733590e0313a7",
-    "fd38f49b44c585a9cfb0a5f096b1e04fb000560d",
-    "9b242f7d7a0d0d483b16cd1da6bc6b2673e0c56e",
-    "6698f8b61277b1d0a2190ec9954cb5bf657af5f6",
     "7645a20a780191dde01e17b44208a32658cc4884",
     "7d3c6b05aa5dbbc38ff9aef5f0816f602b4f199d",
     "2c483b41da4160c9083314d1dc7e45504e68104f",
@@ -15003,6 +14999,10 @@
     "2b63601bd7c985780994f1bfdcdaddf85198b812",
     "206919ccf233b930450b857d6fde10144410c1f9",
     "4e6b84b8bacb93f4f027f0c582044ad8727d3102",
-    "725054e388ed6328a692ea3d024e2c3c9f2f0a0c"
+    "725054e388ed6328a692ea3d024e2c3c9f2f0a0c",
+    "a33f2b4bee32df3f4f8f8f1204d5839531fc350d",
+    "be5feb98a6f6b76f83fdb0e86f1bbe499704ad6c",
+    "77b0e78fe72cf071296fc2a3f48236676a2ebf36",
+    "ce1830b678ce2e919b7bb994ca2dd4e525199b1a"
   ]
 }
