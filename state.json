@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/gaming-industry/far-cry-2-and-assassins-creed-hexe-creative-director-launches-a-new-studio-a-few-months-after-surprise-exit-from-ubisoft/",
-    "https://www.gamespot.com/articles/borderlands-4-on-switch-2-is-doable-take-two-says-after-gearbox-said-platform-was-perfect-for-it/1100-6539825/?ftag=CAD-01-10abi2f",
-    "https://www.pushsquare.com/news/2026/05/im-tired-of-games-that-are-too-big-open-world-rpg-dawnwalker-doesnt-want-to-waste-your-time",
-    "https://www.ign.com/articles/mortal-kombat-ii-looks-set-to-launch-big-at-the-box-office-with-mortal-kombat-iii-already-in-development",
     "https://www.pcgamer.com/hardware/graphics-cards/palit-clarifies-galax-closure-claims-were-simply-a-miscommunication-and-it-is-already-working-on-the-next-generations-of-graphics-cards/",
     "https://www.eurogamer.net/marathon-grenade-stack-reduction",
     "https://www.pushsquare.com/news/2026/05/mindseye-saga-hits-a-new-low-as-mass-layoffs-cripple-ps5-flops-comeback",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/11/ps5-survives-gta-6s-unfathomably-humongous-launch-without-a-hitch",
     "https://www.gematsu.com/2026/11/arknights-endfield-version-update-meeting-you-in-the-world-oshrooms-launches-november-25",
     "https://www.nintendolife.com/news/2026/11/sakurai-celebrates-kirby-air-riders-first-anniversary-and-seemingly-ponders-his-future-as-a-game-creator",
-    "https://www.gematsu.com/2026/11/baptiste-delayed-to-march-25-2027"
+    "https://www.gematsu.com/2026/11/baptiste-delayed-to-march-25-2027",
+    "https://www.eurogamer.net/nioh-3-complete-edition-rated-korea",
+    "https://www.polygon.com/gta-6-impact-on-steam-roblox/",
+    "https://www.pushsquare.com/news/2026/11/these-7-ps5-games-launched-on-the-same-day-as-gta-6-like-mad-men",
+    "https://www.nintendolife.com/news/2026/11/pokemon-like-temtems-bullet-heaven-spin-off-arrives-on-switch-next-year"
   ],
   "seen_titles": [
-    "far cry 2 and assassin's creed hexe creative director launches a new studio, a few months after surprise exit from ubisoft",
-    "borderlands 4 on switch 2 is \"doable,\" take-two says after gearbox said platform was \"perfect\" for it",
-    "'i'm tired of games that are too big': open world rpg dawnwalker doesn't want to waste your time",
-    "mortal kombat ii looks set to launch big at the box office with mortal kombat iii already in development",
     "palit clarifies galax closure claims were simply a 'miscommunication', and it is 'already working on the next generations' of graphics cards",
     "are marathon's grenade-spamming woes fixed with its latest update?",
     "mindseye saga hits a new low as mass layoffs cripple ps5 flop's 'comeback'",
@@ -10001,13 +9997,13 @@
     "ps5 survives gta 6's unfathomably humongous launch without a hitch",
     "arknights: endfield version update ‘meeting you in the world o’shrooms’ launches november 25",
     "sakurai celebrates kirby air riders' first anniversary and seemingly ponders his future as a game creator",
-    "baptiste delayed to march 25, 2027"
+    "baptiste delayed to march 25, 2027",
+    "unannounced nioh 3 complete edition has been rated in korea",
+    "gta 6's impact on steam and roblox after record-breaking launch revealed",
+    "these 7 ps5 games launched on the same day as gta 6 like mad men",
+    "pokémon-like temtem's bullet heaven spin-off arrives on switch next year"
   ],
   "seen_story_keys": [
-    "16f47e68d3b0513478e70246916769f20effa16d",
-    "38d5a7852ec63facdd9f575ccddf4848af98cd6d",
-    "23b2ea2dd2b93e17dad7fd6947fc121a3cd9d3d1",
-    "09b4ea7751a0b61c57a7510f026bf4a29bf01c75",
     "e6ed5c782d707995441b2f2d8d99f282cbdbb7ef",
     "9fbf79244e97e1b3b36ddb49bf703d8e8850b099",
     "72d152f05350a1db122c880079d457586b441d1d",
@@ -15003,6 +14999,10 @@
     "83ccbad9817ff7967aa71dd246bf088740dd2c3f",
     "0f0a226932b300205a7c3da5a28f5bae8c4ff35d",
     "d88d8bce511972f370a6205d2157e2e68059b41e",
-    "eaa7f60cc32494c66df1aad356435e9610ab3b38"
+    "eaa7f60cc32494c66df1aad356435e9610ab3b38",
+    "24b1d1622ee4258db6a1991c248dce67307a1f8d",
+    "eb285013c75db3ecb12c58b26bc94971cb9924ba",
+    "9a764a9f320967ce331957ba0a1fe6da71d14cb3",
+    "6a6f5daa11bc313caa7f75de9494ed1f5304a8f6"
   ]
 }
