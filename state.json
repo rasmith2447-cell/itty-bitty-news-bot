@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.eurogamer.net/a-remake-of-star-fox-64-is-coming-to-switch-2-this-june",
-    "https://www.gamespot.com/articles/star-fox-for-nintendo-switch-2-announced/1100-6539827/?ftag=CAD-01-10abi2f",
-    "https://www.polygon.com/star-fox-2026-game-nintendo-switch-2/",
-    "https://www.polygon.com/stranger-than-heaven-xbox-showcase/",
     "https://www.videogameschronicle.com/news/nintendos-switch-2-star-fox-game-is-a-remake-of-star-fox-64/",
     "https://www.nintendolife.com/news/2026/05/star-fox-is-finally-getting-another-game-out-june-2026-exclusively-on-switch-2",
     "https://www.ign.com/articles/star-fox-remake-announced-for-nintendo-switch-2",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/gta-6-uk-prime-minister-andy-burnham",
     "https://www.gematsu.com/2026/11/zenless-zone-zero-version-3-4-update-the-finality-of-the-day-launches-december-2",
     "https://www.gematsu.com/2026/11/temtem-swarm-for-switch-launches-january-21-2027",
-    "https://www.rockpapershotgun.com/akira-kurabayashi-company-director-at-arika-and-developer-on-street-fighter-ex-tetris-99-fighting-ex-layer-and-more-has-sadly-passed-away-due-to-heart-failure"
+    "https://www.rockpapershotgun.com/akira-kurabayashi-company-director-at-arika-and-developer-on-street-fighter-ex-tetris-99-fighting-ex-layer-and-more-has-sadly-passed-away-due-to-heart-failure",
+    "https://www.nintendolife.com/news/2026/11/katsuhiro-harada-reveals-the-pokemon-he-wanted-to-add-to-pokken-tournament",
+    "https://www.purexbox.com/news/2026/11/report-xboxs-new-zealand-trick-has-been-used-by-crazy-numbers-of-people-this-week",
+    "https://www.pcgamer.com/games/grand-theft-auto/the-actress-who-plays-mandy-in-gta-6-has-revealed-herself-if-you-play-the-game-let-me-know-if-you-find-me/",
+    "https://www.rockpapershotgun.com/amid-a-year-of-layoffs-ubisoft-yank-the-cover-off-motherbrain-their-new-studio-focused-on-ai-for-gameplay-innovation"
   ],
   "seen_titles": [
-    "a remake of star fox 64 is coming to switch 2 this june",
-    "star fox for nintendo switch 2 announced",
-    "nintendo announces new star fox for nintendo switch 2",
-    "stranger than heaven release date narrows down in new xbox showcase",
     "nintendo’s switch 2 star fox game is a remake of star fox 64",
     "star fox is finally getting another game, out june 2026 exclusively on switch 2",
     "star fox remake announced for nintendo switch 2",
@@ -10001,13 +9997,13 @@
     "uk prime minister won't be playing gta 6, government says, while hailing rockstar games a \"british success story\"",
     "zenless zone zero version 3.4 update ‘the finality of the day’ launches december 2",
     "temtem: swarm for switch launches january 21, 2027",
-    "akira kurabayashi, company director at arika and developer on street fighter ex, tetris 99, fighting ex layer and more, has sadly passed away due to heart failure"
+    "akira kurabayashi, company director at arika and developer on street fighter ex, tetris 99, fighting ex layer and more, has sadly passed away due to heart failure",
+    "katsuhiro harada reveals the pokémon he wanted to add to pokken tournament",
+    "report: xbox's new zealand trick has been used by crazy numbers of people this week",
+    "the actress who plays mandy in gta 6 has revealed herself: 'if you play the game, let me know if you find me'",
+    "amid a year of layoffs, ubisoft yank the cover off motherbrain, their new studio \"focused on ai for gameplay innovation\""
   ],
   "seen_story_keys": [
-    "0fff1992d0e492f07f0a1643d2356e606ff781c0",
-    "fa65290483acce841006946832959a42e0001b9f",
-    "52db4b65acfd3ad74c8ea25054e1b83d066c323d",
-    "6cb37465f8a74f01c6d0ad546c3c2d3386ddb033",
     "a25763827e279cca454396b9ca38f094fb43668a",
     "1adeb951e5c4fb1d0b3ff3b32b02ca367495dc93",
     "1ca56a8be0bf0c3799302747198dd54770bd5e16",
@@ -15003,6 +14999,10 @@
     "cb1f92e667da165582a7c6e479eb2355378c2b0c",
     "5d27d4b158df6db76e56824b8784d787e08c3970",
     "2e6fbfc1fe8f45c205aa53c55ee4910f1d3df8ae",
-    "2fab578750228b33b337e8071fada6958857d57a"
+    "2fab578750228b33b337e8071fada6958857d57a",
+    "831dfd7c97c9b79ab52db3603ee5526eab658059",
+    "ab3ca1bcb6e356a16a743c3da4713a6443680f3d",
+    "c8fee98151328570274a4dfe035ef25ec6ceeed7",
+    "80b93408a36a718b34eca0fcb7ebbac4bab22e19"
   ]
 }
