@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.videogameschronicle.com/news/nintendos-switch-2-star-fox-game-is-a-remake-of-star-fox-64/",
-    "https://www.nintendolife.com/news/2026/05/star-fox-is-finally-getting-another-game-out-june-2026-exclusively-on-switch-2",
-    "https://www.ign.com/articles/star-fox-remake-announced-for-nintendo-switch-2",
-    "https://www.gematsu.com/2026/05/studio-ricochet-established-by-former-gearbox-studio-quebec-leadership",
     "https://gamerant.com/borderlands-4-switch-2-port-take-two-ceo-comment/",
     "https://www.gematsu.com/2026/05/atari-acquires-wizardry-ip",
     "https://www.nintendolife.com/news/2026/05/starfoxs-official-switch-2-box-art-price-and-estimated-file-size-revealed",
@@ -4999,13 +4995,13 @@
     "https://www.nintendolife.com/news/2026/11/katsuhiro-harada-reveals-the-pokemon-he-wanted-to-add-to-pokken-tournament",
     "https://www.purexbox.com/news/2026/11/report-xboxs-new-zealand-trick-has-been-used-by-crazy-numbers-of-people-this-week",
     "https://www.pcgamer.com/games/grand-theft-auto/the-actress-who-plays-mandy-in-gta-6-has-revealed-herself-if-you-play-the-game-let-me-know-if-you-find-me/",
-    "https://www.rockpapershotgun.com/amid-a-year-of-layoffs-ubisoft-yank-the-cover-off-motherbrain-their-new-studio-focused-on-ai-for-gameplay-innovation"
+    "https://www.rockpapershotgun.com/amid-a-year-of-layoffs-ubisoft-yank-the-cover-off-motherbrain-their-new-studio-focused-on-ai-for-gameplay-innovation",
+    "https://www.gematsu.com/2026/11/chasing-kaleidorider-closed-doki-test-begins-december-17",
+    "https://www.nintendolife.com/news/2026/11/xenoblade-chronicles-3-version-3-0-0-is-now-live-here-are-the-patch-notes",
+    "https://www.rockpapershotgun.com/ignore-that-other-game-about-crime-thats-out-and-burgle-some-ugly-farmhouses-in-keepsake-county-a-midwestern-stealth-game-with-a-2000s-cartoon-network-vibe",
+    "https://www.rockpapershotgun.com/ubisoft-lay-off-166-more-staff-this-time-at-their-montreal-and-quebec-city-studios-while-mumbling-about-current-production-priorities-and-business-needs"
   ],
   "seen_titles": [
-    "nintendo’s switch 2 star fox game is a remake of star fox 64",
-    "star fox is finally getting another game, out june 2026 exclusively on switch 2",
-    "star fox remake announced for nintendo switch 2",
-    "studio ricochet established by former gearbox studio quebec leadership",
     "take-two ceo comments on borderlands 4 switch 2 port status",
     "atari acquires wizardry ip",
     "starfox's official switch 2 box art, price and estimated file size revealed",
@@ -10001,13 +9997,13 @@
     "katsuhiro harada reveals the pokémon he wanted to add to pokken tournament",
     "report: xbox's new zealand trick has been used by crazy numbers of people this week",
     "the actress who plays mandy in gta 6 has revealed herself: 'if you play the game, let me know if you find me'",
-    "amid a year of layoffs, ubisoft yank the cover off motherbrain, their new studio \"focused on ai for gameplay innovation\""
+    "amid a year of layoffs, ubisoft yank the cover off motherbrain, their new studio \"focused on ai for gameplay innovation\"",
+    "chasing kaleidorider closed ‘doki test’ begins december 17",
+    "xenoblade chronicles 3 version 3.0.0 is now live, here are the patch notes",
+    "ignore that other game about crime that's out and burgle some ugly farmhouses in keepsake county, a \"midwestern stealth game\" with a 2000s cartoon network vibe",
+    "ubisoft lay off 166 more staff, this time at their montreal and quebec city studios, while mumbling about \"current production priorities and business needs\""
   ],
   "seen_story_keys": [
-    "a25763827e279cca454396b9ca38f094fb43668a",
-    "1adeb951e5c4fb1d0b3ff3b32b02ca367495dc93",
-    "1ca56a8be0bf0c3799302747198dd54770bd5e16",
-    "6cb30edae428ab08a2e25e53e6a2a412bbb8c5d4",
     "0f0051bd2226a3e2f565ec33c65793fd31b480b2",
     "283cbdca3c10129750c12a15c01e34f1c19a1aa4",
     "4103168a100186f344c3103045dea9b6ced71259",
@@ -15003,6 +14999,10 @@
     "831dfd7c97c9b79ab52db3603ee5526eab658059",
     "ab3ca1bcb6e356a16a743c3da4713a6443680f3d",
     "c8fee98151328570274a4dfe035ef25ec6ceeed7",
-    "80b93408a36a718b34eca0fcb7ebbac4bab22e19"
+    "80b93408a36a718b34eca0fcb7ebbac4bab22e19",
+    "d8c0d774feb675eae7e18c99de2bb858acdc047f",
+    "ceb7e24e431b376d83f1944ccb48e96dcc3788f4",
+    "997b0c8b4e53863a5e4b0bca7786a14697235e56",
+    "278dac356a3d4f16e68e870b81d9e329eb7ad2a8"
   ]
 }
