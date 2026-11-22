@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pcgamer.com/hardware/graphics-cards/palit-clarifies-galax-closure-claims-were-simply-a-miscommunication-and-it-is-already-working-on-the-next-generations-of-graphics-cards/",
-    "https://www.eurogamer.net/marathon-grenade-stack-reduction",
-    "https://www.pushsquare.com/news/2026/05/mindseye-saga-hits-a-new-low-as-mass-layoffs-cripple-ps5-flops-comeback",
-    "https://www.gematsu.com/2026/05/star-fox-announced-for-switch-2",
     "https://www.eurogamer.net/a-remake-of-star-fox-64-is-coming-to-switch-2-this-june",
     "https://www.gamespot.com/articles/star-fox-for-nintendo-switch-2-announced/1100-6539827/?ftag=CAD-01-10abi2f",
     "https://www.polygon.com/star-fox-2026-game-nintendo-switch-2/",
@@ -4999,13 +4995,13 @@
     "https://www.eurogamer.net/nioh-3-complete-edition-rated-korea",
     "https://www.polygon.com/gta-6-impact-on-steam-roblox/",
     "https://www.pushsquare.com/news/2026/11/these-7-ps5-games-launched-on-the-same-day-as-gta-6-like-mad-men",
-    "https://www.nintendolife.com/news/2026/11/pokemon-like-temtems-bullet-heaven-spin-off-arrives-on-switch-next-year"
+    "https://www.nintendolife.com/news/2026/11/pokemon-like-temtems-bullet-heaven-spin-off-arrives-on-switch-next-year",
+    "https://www.eurogamer.net/gta-6-uk-prime-minister-andy-burnham",
+    "https://www.gematsu.com/2026/11/zenless-zone-zero-version-3-4-update-the-finality-of-the-day-launches-december-2",
+    "https://www.gematsu.com/2026/11/temtem-swarm-for-switch-launches-january-21-2027",
+    "https://www.rockpapershotgun.com/akira-kurabayashi-company-director-at-arika-and-developer-on-street-fighter-ex-tetris-99-fighting-ex-layer-and-more-has-sadly-passed-away-due-to-heart-failure"
   ],
   "seen_titles": [
-    "palit clarifies galax closure claims were simply a 'miscommunication', and it is 'already working on the next generations' of graphics cards",
-    "are marathon's grenade-spamming woes fixed with its latest update?",
-    "mindseye saga hits a new low as mass layoffs cripple ps5 flop's 'comeback'",
-    "star fox announced for switch 2",
     "a remake of star fox 64 is coming to switch 2 this june",
     "star fox for nintendo switch 2 announced",
     "nintendo announces new star fox for nintendo switch 2",
@@ -10001,13 +9997,13 @@
     "unannounced nioh 3 complete edition has been rated in korea",
     "gta 6's impact on steam and roblox after record-breaking launch revealed",
     "these 7 ps5 games launched on the same day as gta 6 like mad men",
-    "pokémon-like temtem's bullet heaven spin-off arrives on switch next year"
+    "pokémon-like temtem's bullet heaven spin-off arrives on switch next year",
+    "uk prime minister won't be playing gta 6, government says, while hailing rockstar games a \"british success story\"",
+    "zenless zone zero version 3.4 update ‘the finality of the day’ launches december 2",
+    "temtem: swarm for switch launches january 21, 2027",
+    "akira kurabayashi, company director at arika and developer on street fighter ex, tetris 99, fighting ex layer and more, has sadly passed away due to heart failure"
   ],
   "seen_story_keys": [
-    "e6ed5c782d707995441b2f2d8d99f282cbdbb7ef",
-    "9fbf79244e97e1b3b36ddb49bf703d8e8850b099",
-    "72d152f05350a1db122c880079d457586b441d1d",
-    "1727f479acb90f715183a46391b73ebd561d0b5d",
     "0fff1992d0e492f07f0a1643d2356e606ff781c0",
     "fa65290483acce841006946832959a42e0001b9f",
     "52db4b65acfd3ad74c8ea25054e1b83d066c323d",
@@ -15003,6 +14999,10 @@
     "24b1d1622ee4258db6a1991c248dce67307a1f8d",
     "eb285013c75db3ecb12c58b26bc94971cb9924ba",
     "9a764a9f320967ce331957ba0a1fe6da71d14cb3",
-    "6a6f5daa11bc313caa7f75de9494ed1f5304a8f6"
+    "6a6f5daa11bc313caa7f75de9494ed1f5304a8f6",
+    "cb1f92e667da165582a7c6e479eb2355378c2b0c",
+    "5d27d4b158df6db76e56824b8784d787e08c3970",
+    "2e6fbfc1fe8f45c205aa53c55ee4910f1d3df8ae",
+    "2fab578750228b33b337e8071fada6958857d57a"
   ]
 }
