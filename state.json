@@ -1,7 +1,5 @@
 {
   "seen_urls": [
-    "https://gamerant.com/borderlands-4-switch-2-port-take-two-ceo-comment/",
-    "https://www.gematsu.com/2026/05/atari-acquires-wizardry-ip",
     "https://www.nintendolife.com/news/2026/05/starfoxs-official-switch-2-box-art-price-and-estimated-file-size-revealed",
     "https://www.gamesindustry.biz/founders-of-gearbox-quebec-announce-new-studio-to-create-original-premium-games-on-our-own-terms",
     "https://www.eurogamer.net/stranger-than-heaven-release-window",
@@ -4999,11 +4997,11 @@
     "https://www.gematsu.com/2026/11/chasing-kaleidorider-closed-doki-test-begins-december-17",
     "https://www.nintendolife.com/news/2026/11/xenoblade-chronicles-3-version-3-0-0-is-now-live-here-are-the-patch-notes",
     "https://www.rockpapershotgun.com/ignore-that-other-game-about-crime-thats-out-and-burgle-some-ugly-farmhouses-in-keepsake-county-a-midwestern-stealth-game-with-a-2000s-cartoon-network-vibe",
-    "https://www.rockpapershotgun.com/ubisoft-lay-off-166-more-staff-this-time-at-their-montreal-and-quebec-city-studios-while-mumbling-about-current-production-priorities-and-business-needs"
+    "https://www.rockpapershotgun.com/ubisoft-lay-off-166-more-staff-this-time-at-their-montreal-and-quebec-city-studios-while-mumbling-about-current-production-priorities-and-business-needs",
+    "https://gamerant.com/pokemon-tcg-release-flowing-fists-saturday/",
+    "https://www.pcgamer.com/hardware/graphics-cards/nvidia-released-a-hotfix-for-its-driver-hammering-your-ssd-but-it-doesnt-actually-work/"
   ],
   "seen_titles": [
-    "take-two ceo comments on borderlands 4 switch 2 port status",
-    "atari acquires wizardry ip",
     "starfox's official switch 2 box art, price and estimated file size revealed",
     "founders of gearbox quebec announce new studio to \"create original, premium games on our own terms\"",
     "yakuza and like a dragon developer rgg studio finally gives stranger than heaven a release window",
@@ -10001,11 +9999,11 @@
     "chasing kaleidorider closed ‘doki test’ begins december 17",
     "xenoblade chronicles 3 version 3.0.0 is now live, here are the patch notes",
     "ignore that other game about crime that's out and burgle some ugly farmhouses in keepsake county, a \"midwestern stealth game\" with a 2000s cartoon network vibe",
-    "ubisoft lay off 166 more staff, this time at their montreal and quebec city studios, while mumbling about \"current production priorities and business needs\""
+    "ubisoft lay off 166 more staff, this time at their montreal and quebec city studios, while mumbling about \"current production priorities and business needs\"",
+    "the pokémon company officially confirms pokémon tcg releases are changing",
+    "nvidia released a hotfix for its driver hammering your ssd, but it doesn't actually work"
   ],
   "seen_story_keys": [
-    "0f0051bd2226a3e2f565ec33c65793fd31b480b2",
-    "283cbdca3c10129750c12a15c01e34f1c19a1aa4",
     "4103168a100186f344c3103045dea9b6ced71259",
     "5d17c19328e29cb27a26fd0e25658cb0727d21c4",
     "46f77954d301cec88ec9cb74b95d11fb40be7260",
@@ -15003,6 +15001,8 @@
     "d8c0d774feb675eae7e18c99de2bb858acdc047f",
     "ceb7e24e431b376d83f1944ccb48e96dcc3788f4",
     "997b0c8b4e53863a5e4b0bca7786a14697235e56",
-    "278dac356a3d4f16e68e870b81d9e329eb7ad2a8"
+    "278dac356a3d4f16e68e870b81d9e329eb7ad2a8",
+    "71edfaaf3294dbe460f3f90547f4cb5b590577c2",
+    "3f4d8fbb9c41d2763b222b53da116a8f6ccd4243"
   ]
 }
