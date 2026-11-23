@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/05/starfoxs-official-switch-2-box-art-price-and-estimated-file-size-revealed",
-    "https://www.gamesindustry.biz/founders-of-gearbox-quebec-announce-new-studio-to-create-original-premium-games-on-our-own-terms",
-    "https://www.eurogamer.net/stranger-than-heaven-release-window",
-    "https://www.gematsu.com/2026/05/fitness-boxing-3-your-personal-trainer-nintendo-switch-2-edition-announced",
     "https://www.nintendolife.com/news/2026/05/nintendo-reveals-star-fox-gamechat-character-avatars-and-ar-filters",
     "https://www.gematsu.com/2026/05/steinsgate-reboot-launches-august-20-for-ps5-xbox-series-switch-2-ps4-switch-and-pc",
     "https://www.nintendolife.com/news/2026/05/star-fox-is-getting-an-adorable-new-plush-line-in-japan",
@@ -4999,13 +4995,13 @@
     "https://www.rockpapershotgun.com/ignore-that-other-game-about-crime-thats-out-and-burgle-some-ugly-farmhouses-in-keepsake-county-a-midwestern-stealth-game-with-a-2000s-cartoon-network-vibe",
     "https://www.rockpapershotgun.com/ubisoft-lay-off-166-more-staff-this-time-at-their-montreal-and-quebec-city-studios-while-mumbling-about-current-production-priorities-and-business-needs",
     "https://gamerant.com/pokemon-tcg-release-flowing-fists-saturday/",
-    "https://www.pcgamer.com/hardware/graphics-cards/nvidia-released-a-hotfix-for-its-driver-hammering-your-ssd-but-it-doesnt-actually-work/"
+    "https://www.pcgamer.com/hardware/graphics-cards/nvidia-released-a-hotfix-for-its-driver-hammering-your-ssd-but-it-doesnt-actually-work/",
+    "https://www.pcgamer.com/games/cyberpunk-2-creative-director-says-hes-suffering-from-gta-6-induced-open-world-game-dev-depression-jokes-that-cyberpunk-2-is-cancelled/",
+    "https://www.ign.com/articles/dangelos-estate-speaks-out-after-late-artists-unreleased-song-kamikaze-discovered-in-gta-6",
+    "https://www.pcgamer.com/games/grand-theft-auto/gta-6-players-swore-the-weather-system-was-broken-and-the-latest-patch-has-confirmed-those-suspicions/",
+    "https://www.gamespot.com/articles/deborah-ann-woll-reprising-role-as-god-of-wars-faye-in-prime-videos-tv-show/"
   ],
   "seen_titles": [
-    "starfox's official switch 2 box art, price and estimated file size revealed",
-    "founders of gearbox quebec announce new studio to \"create original, premium games on our own terms\"",
-    "yakuza and like a dragon developer rgg studio finally gives stranger than heaven a release window",
-    "fitness boxing 3: your personal trainer – nintendo switch 2 edition announced",
     "nintendo reveals star fox gamechat character avatars and ar filters",
     "steins;gate re:boot launches august 20 for ps5, xbox series, switch 2, ps4, switch, and pc",
     "star fox is getting an adorable new plush line in japan",
@@ -10001,13 +9997,13 @@
     "ignore that other game about crime that's out and burgle some ugly farmhouses in keepsake county, a \"midwestern stealth game\" with a 2000s cartoon network vibe",
     "ubisoft lay off 166 more staff, this time at their montreal and quebec city studios, while mumbling about \"current production priorities and business needs\"",
     "the pokémon company officially confirms pokémon tcg releases are changing",
-    "nvidia released a hotfix for its driver hammering your ssd, but it doesn't actually work"
+    "nvidia released a hotfix for its driver hammering your ssd, but it doesn't actually work",
+    "cyberpunk 2 creative director says he's suffering from 'gta 6-induced-open-world-game-dev-depression,' jokes that 'cyberpunk 2 is cancelled'",
+    "d'angelo's estate speaks out after late artist's unreleased song, kamikaze, discovered in gta 6",
+    "gta 6 players swore the weather system was broken and the latest patch has confirmed those suspicions",
+    "deborah ann woll reprising role as god of war’s faye in prime video’s tv show"
   ],
   "seen_story_keys": [
-    "4103168a100186f344c3103045dea9b6ced71259",
-    "5d17c19328e29cb27a26fd0e25658cb0727d21c4",
-    "46f77954d301cec88ec9cb74b95d11fb40be7260",
-    "eca5a0f52d476794b54ed9b7db1b2ae5bea9f2aa",
     "53ab45e789a3e904538cc9ed5732d2c131659343",
     "211ec05618a8db6b915e4644872a20fdf8396562",
     "dd91a95c4108400ae156d9ade6f0e3f3afa8ef03",
@@ -15003,6 +14999,10 @@
     "997b0c8b4e53863a5e4b0bca7786a14697235e56",
     "278dac356a3d4f16e68e870b81d9e329eb7ad2a8",
     "71edfaaf3294dbe460f3f90547f4cb5b590577c2",
-    "3f4d8fbb9c41d2763b222b53da116a8f6ccd4243"
+    "3f4d8fbb9c41d2763b222b53da116a8f6ccd4243",
+    "9009b3db5b71c790d63ff5c4663ba540f89ec22d",
+    "cd3d868801f72c8361a2454e7cff4a7dc8b88384",
+    "6680259abce41e796fdf1cbfb36547492ce64374",
+    "0bd294033719392fed4c5353fd18479119d84769"
   ]
 }
