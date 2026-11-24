@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.nintendolife.com/news/2026/05/nintendo-reveals-star-fox-gamechat-character-avatars-and-ar-filters",
-    "https://www.gematsu.com/2026/05/steinsgate-reboot-launches-august-20-for-ps5-xbox-series-switch-2-ps4-switch-and-pc",
-    "https://www.nintendolife.com/news/2026/05/star-fox-is-getting-an-adorable-new-plush-line-in-japan",
-    "https://www.nintendolife.com/news/2026/05/borderlands-4-switch-2-port-could-still-happen-but-its-not-a-priority-right-now",
     "https://www.nintendolife.com/news/2026/05/psa-you-can-play-star-foxs-switch-2-game-with-a-nintendo-64-controller",
     "https://gamerant.com/ea-game-shutting-down-fc-tactical-may-2026/",
     "https://www.rockpapershotgun.com/who-owns-the-wizardry-rpgs-we-do-say-both-drecom-and-atari-as-an-unusual-ip-acquisition-splits-custody-of-the-genre-forming-series",
@@ -4999,13 +4995,13 @@
     "https://www.pcgamer.com/games/cyberpunk-2-creative-director-says-hes-suffering-from-gta-6-induced-open-world-game-dev-depression-jokes-that-cyberpunk-2-is-cancelled/",
     "https://www.ign.com/articles/dangelos-estate-speaks-out-after-late-artists-unreleased-song-kamikaze-discovered-in-gta-6",
     "https://www.pcgamer.com/games/grand-theft-auto/gta-6-players-swore-the-weather-system-was-broken-and-the-latest-patch-has-confirmed-those-suspicions/",
-    "https://www.gamespot.com/articles/deborah-ann-woll-reprising-role-as-god-of-wars-faye-in-prime-videos-tv-show/"
+    "https://www.gamespot.com/articles/deborah-ann-woll-reprising-role-as-god-of-wars-faye-in-prime-videos-tv-show/",
+    "https://www.nintendolife.com/news/2026/11/heres-another-look-at-the-zelda-ocarina-of-time-amiibo-for-switch-2",
+    "https://www.nintendolife.com/news/2026/11/pikmin-4-switch-2-edition-plus-dandori-academy-x-tetris-99-event-announced-unlock-a-special-theme",
+    "https://www.gematsu.com/2026/11/vtuber-visual-novels-rabbitfoot-gakuen-tokimeki-no-oto-and-rabbitfoot-gakuen-yasuragi-no-koe-announced-for-ps4-switch-pc-ios-and-android",
+    "https://www.gematsu.com/2026/11/kendo-rage-1-2-announced-for-ps5-switch-and-pc"
   ],
   "seen_titles": [
-    "nintendo reveals star fox gamechat character avatars and ar filters",
-    "steins;gate re:boot launches august 20 for ps5, xbox series, switch 2, ps4, switch, and pc",
-    "star fox is getting an adorable new plush line in japan",
-    "borderlands 4 switch 2 port could still happen, but it's not a priority right now",
     "psa: you can play star fox's switch 2 game with a nintendo 64 controller",
     "ea game has officially shut down",
     "who owns the wizardry rpgs? we do, say both drecom and atari as an unusual ip acquisition splits custody of the genre-forming series",
@@ -10001,13 +9997,13 @@
     "cyberpunk 2 creative director says he's suffering from 'gta 6-induced-open-world-game-dev-depression,' jokes that 'cyberpunk 2 is cancelled'",
     "d'angelo's estate speaks out after late artist's unreleased song, kamikaze, discovered in gta 6",
     "gta 6 players swore the weather system was broken and the latest patch has confirmed those suspicions",
-    "deborah ann woll reprising role as god of war’s faye in prime video’s tv show"
+    "deborah ann woll reprising role as god of war’s faye in prime video’s tv show",
+    "here's another look at the zelda: ocarina of time amiibo for switch 2",
+    "pikmin 4 switch 2 edition + dandori academy x tetris 99 event announced, unlock a special theme",
+    "vtuber visual novels rabbitfoot gakuen: tokimeki no oto and rabbitfoot gakuen: yasuragi no koe announced for ps4, switch, pc, ios, and android",
+    "kendo rage 1&2 announced for ps5, switch, and pc"
   ],
   "seen_story_keys": [
-    "53ab45e789a3e904538cc9ed5732d2c131659343",
-    "211ec05618a8db6b915e4644872a20fdf8396562",
-    "dd91a95c4108400ae156d9ade6f0e3f3afa8ef03",
-    "892b98ec6f87fa7c6c1df5a0eb050098c2b8f411",
     "d11dcf45256c1ea458f17652ce47e2f7dd6ce8d1",
     "163ab9a879bcfea3057046e5c085392b27886be1",
     "12f9e5b3449a50b0c5b875acb3477c7fb34b1410",
@@ -15003,6 +14999,10 @@
     "9009b3db5b71c790d63ff5c4663ba540f89ec22d",
     "cd3d868801f72c8361a2454e7cff4a7dc8b88384",
     "6680259abce41e796fdf1cbfb36547492ce64374",
-    "0bd294033719392fed4c5353fd18479119d84769"
+    "0bd294033719392fed4c5353fd18479119d84769",
+    "92b2956fcd96288c31c4c799c3eaed5cb479a206",
+    "e7766384759b90dff9de63cd897fed4387a460f5",
+    "982e65e74122879b24129aeab6e485647593d7fd",
+    "d6985742a3e077973e20b2b8ac38080d5ad77449"
   ]
 }
