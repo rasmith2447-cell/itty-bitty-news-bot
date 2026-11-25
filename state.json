@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/star-fox-fans-cant-believe-nintendo-is-remaking-the-same-game-yet-again",
-    "https://gamerant.com/007-first-light-no-new-game-plus/",
-    "https://gamerant.com/gta-6-may-2026-release-date-007-lego-batman/",
-    "https://www.gematsu.com/2026/05/the-sinking-city-2-launches-this-summer",
     "https://www.ign.com/articles/star-fox-creator-prefers-characters-movie-design-following-mixed-response-to-nintendo-switch-2-game-reveal",
     "https://gamerant.com/pokemon-summer-2026-releases-lego-pogo-worlds/",
     "https://www.gematsu.com/2026/05/town-to-city-launches-may-26",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/max-verstappen-spent-40-hours-playing-gta-6-and-still-won-the-las-vegas-grand-prix",
     "https://www.rockpapershotgun.com/im-not-smart-enough-for-the-blocky-factorio-esque-spaceship-and-station-building-sim-astario-but-now-that-its-out-in-early-access-maybe-you-could-be",
     "https://www.pcgamer.com/hardware/graphics-cards/nvidia-patch-finally-eradicates-the-ssd-hammering-bug-its-last-hotfix-didnt-actually-fix/",
-    "https://www.ign.com/articles/crazy-secretive-gta-6-voice-actor-reveals-details-of-rockstars-humongous-nda"
+    "https://www.ign.com/articles/crazy-secretive-gta-6-voice-actor-reveals-details-of-rockstars-humongous-nda",
+    "https://www.pushsquare.com/news/2026/11/another-big-ps5-game-will-be-delisted-in-the-coming-months",
+    "https://www.eurogamer.net/exo-primal-shutting-down-2027",
+    "https://www.gematsu.com/2026/11/surviving-mars-relaunched-dlc-machine-utopia-announced",
+    "https://www.nintendolife.com/news/2026/11/pokemon-champions-is-adding-four-more-mega-evolutions-in-a-new-update-next-week"
   ],
   "seen_titles": [
-    "star fox fans can't believe nintendo is remaking the same game yet again",
-    "007 first light won't include this popular feature",
-    "it's a good thing grand theft auto 6 didn't release in may",
-    "the sinking city 2 launches this summer",
     "star fox creator prefers character's movie design, following mixed response to nintendo switch 2 game reveal",
     "i think pokemon is going to dominate this summer for 3 massive reasons",
     "town to city launches may 26",
@@ -10001,13 +9997,13 @@
     "max verstappen spent 40 hours playing gta 6 and still won the las vegas grand prix",
     "i'm not smart enough for the blocky, factorio-esque spaceship and -station building sim astario, but now that it's out in early access maybe you could be",
     "nvidia patch finally eradicates the ssd-hammering bug its last hotfix didn't actually fix",
-    "'crazy secretive' — gta 6 voice actor reveals details of rockstar's 'humongous' nda"
+    "'crazy secretive' — gta 6 voice actor reveals details of rockstar's 'humongous' nda",
+    "another big ps5 game will be delisted in the coming months",
+    "capcom's sci-fi dinosaur shooter exoprimal is shutting down next year",
+    "surviving mars: relaunched dlc ‘machine utopia’ announced",
+    "pokémon champions is adding four more mega evolutions in a new update next week"
   ],
   "seen_story_keys": [
-    "fb89c08c3f8627db7f85d547793382a243dc4a98",
-    "c15272603990aa1f9b23dba3ca2403766ac0effa",
-    "b3d0fa7d79366c4a69b3557791051bd97a25da26",
-    "d6edd924215989be1392b17f25db2a3181b63580",
     "2ddf82f821bb6ae7e8e0e19c00cf7112e75ed641",
     "6f11f3421b5dcb6977ba0ccf1360734259c557fd",
     "451d6c00a7388515ac4b82ef3777eeaaecd502f0",
@@ -15003,6 +14999,10 @@
     "f9871fc6439d4bd673e8c5178bfdedadb021ca5e",
     "44aa6405bc6927bc78db5fce291ed3ff28ddd7c8",
     "2f3cbf57486832124c3078145804f0b9e75f053c",
-    "a1f4391aeb8d323750502ccc7bb52509ff033b08"
+    "a1f4391aeb8d323750502ccc7bb52509ff033b08",
+    "5a7e5caef1aa724e85070949b25a2a45a8701829",
+    "2ea4b0ad9ed7947f9a4519422ea6c869b0e4837b",
+    "2a5f04c9d5f7d86bc5b2c1ca2fe43909bc54e805",
+    "20838d61b83bba925ef44be5fd42e0f831cf9a42"
   ]
 }
