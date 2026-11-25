@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/star-fox-creator-prefers-characters-movie-design-following-mixed-response-to-nintendo-switch-2-game-reveal",
-    "https://gamerant.com/pokemon-summer-2026-releases-lego-pogo-worlds/",
-    "https://www.gematsu.com/2026/05/town-to-city-launches-may-26",
-    "https://www.rockpapershotgun.com/yacht-club-games-make-or-break-moment-mina-the-hollower-gets-a-may-release-date",
     "https://www.ign.com/articles/dick-tracy-1961-1964-graphic-novel-clover-press",
     "https://www.gematsu.com/2026/05/gear-club-unlimited-3-for-ps5-xbox-series-and-pc-launches-in-october",
     "https://gamerant.com/subnautica-2-buyers-guide/",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/11/another-big-ps5-game-will-be-delisted-in-the-coming-months",
     "https://www.eurogamer.net/exo-primal-shutting-down-2027",
     "https://www.gematsu.com/2026/11/surviving-mars-relaunched-dlc-machine-utopia-announced",
-    "https://www.nintendolife.com/news/2026/11/pokemon-champions-is-adding-four-more-mega-evolutions-in-a-new-update-next-week"
+    "https://www.nintendolife.com/news/2026/11/pokemon-champions-is-adding-four-more-mega-evolutions-in-a-new-update-next-week",
+    "https://www.gematsu.com/2026/11/incremental-mining-and-blacksmithing-game-mello-omega-announced-for-pc",
+    "https://www.pushsquare.com/news/2026/11/hollow-knight-silksong-dlc-news-and-exciting-reveals-from-dev-team-cherry-coming-this-week",
+    "https://www.pushsquare.com/news/2026/11/yooka-laylee-and-the-impossible-lair-gets-a-ps5-definitive-edition-out-this-december",
+    "https://www.gematsu.com/2026/11/yooka-laylee-and-the-impossible-lair-definitive-edition-announced-for-ps5-switch-2-and-pc"
   ],
   "seen_titles": [
-    "star fox creator prefers character's movie design, following mixed response to nintendo switch 2 game reveal",
-    "i think pokemon is going to dominate this summer for 3 massive reasons",
-    "town to city launches may 26",
-    "yacht club games \"make-or-break\" moment mina the hollower gets a may release date",
     "dick tracy: 1961-1964 graphic novel collection announced by clover press",
     "gear.club unlimited 3 for ps5, xbox series, and pc launches in october",
     "subnautica 2 early access price, game pass, platforms & what’s included",
@@ -10001,13 +9997,13 @@
     "another big ps5 game will be delisted in the coming months",
     "capcom's sci-fi dinosaur shooter exoprimal is shutting down next year",
     "surviving mars: relaunched dlc ‘machine utopia’ announced",
-    "pokémon champions is adding four more mega evolutions in a new update next week"
+    "pokémon champions is adding four more mega evolutions in a new update next week",
+    "incremental mining and blacksmithing game mello & omega announced for pc",
+    "hollow knight: silksong dlc news and 'exciting' reveals from dev team cherry coming this week",
+    "yooka-laylee and the impossible lair gets a ps5 definitive edition, out this december",
+    "yooka-laylee and the impossible lair: definitive edition announced for ps5, switch 2, and pc"
   ],
   "seen_story_keys": [
-    "2ddf82f821bb6ae7e8e0e19c00cf7112e75ed641",
-    "6f11f3421b5dcb6977ba0ccf1360734259c557fd",
-    "451d6c00a7388515ac4b82ef3777eeaaecd502f0",
-    "f07e55d6e4311967cf4f895af12fb4e857851c06",
     "d3a23776d68881afe618f01782980571d26151f0",
     "ab1c95737bf2e26ad22b8bed0c267ab57994b35b",
     "1f53b1a28cfe6e3da039488be8d58a633db9b37a",
@@ -15003,6 +14999,10 @@
     "5a7e5caef1aa724e85070949b25a2a45a8701829",
     "2ea4b0ad9ed7947f9a4519422ea6c869b0e4837b",
     "2a5f04c9d5f7d86bc5b2c1ca2fe43909bc54e805",
-    "20838d61b83bba925ef44be5fd42e0f831cf9a42"
+    "20838d61b83bba925ef44be5fd42e0f831cf9a42",
+    "2b8a3f20cfebf6c05392a63289907e789375b034",
+    "930779932db78a67a62916990c0fa34853df7e60",
+    "fd1d48f432174a17018da6107586fc77ce283024",
+    "6aba3fe988e9d6c9c9b29dceb1b4dfa2b0275adb"
   ]
 }
