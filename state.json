@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.rockpapershotgun.com/civilization-7-devs-firaxis-finally-slap-a-release-date-on-the-test-of-time-update-acting-on-over-a-years-worth-of-listening-to-moans-about-the-age-system",
-    "https://www.eurogamer.net/xbox-will-offer-a-closer-look-at-project-helix-the-successor-to-its-series-xs-consoles-later-today",
-    "https://www.purexbox.com/news/2026/05/free-play-days-try-these-xbox-games-for-free-may-7-10",
-    "https://www.nintendolife.com/news/2026/05/atari-acquires-the-rights-to-the-wizardry-rpg-series",
     "https://www.ign.com/articles/star-fox-fans-cant-believe-nintendo-is-remaking-the-same-game-yet-again",
     "https://gamerant.com/007-first-light-no-new-game-plus/",
     "https://gamerant.com/gta-6-may-2026-release-date-007-lego-batman/",
@@ -4999,13 +4995,13 @@
     "https://www.pushsquare.com/news/2026/11/youve-basically-got-to-wait-an-entire-year-to-play-showa-american-story",
     "https://www.gematsu.com/2026/11/paper-shredder-launches-january-12-2027",
     "https://gamerant.com/escape-from-tarkov-november-update-unity-6/",
-    "https://www.pushsquare.com/news/2026/11/mandalorian-and-han-solo-vehicles-in-star-wars-galactic-racer-next-month"
+    "https://www.pushsquare.com/news/2026/11/mandalorian-and-han-solo-vehicles-in-star-wars-galactic-racer-next-month",
+    "https://www.ign.com/articles/max-verstappen-spent-40-hours-playing-gta-6-and-still-won-the-las-vegas-grand-prix",
+    "https://www.rockpapershotgun.com/im-not-smart-enough-for-the-blocky-factorio-esque-spaceship-and-station-building-sim-astario-but-now-that-its-out-in-early-access-maybe-you-could-be",
+    "https://www.pcgamer.com/hardware/graphics-cards/nvidia-patch-finally-eradicates-the-ssd-hammering-bug-its-last-hotfix-didnt-actually-fix/",
+    "https://www.ign.com/articles/crazy-secretive-gta-6-voice-actor-reveals-details-of-rockstars-humongous-nda"
   ],
   "seen_titles": [
-    "civilization 7 devs firaxis finally slap a release date on the test of time update, acting on \"over a year's worth of listening\" to moans about the age system",
-    "xbox will \"offer a closer look at project helix\", the successor to its series x/s consoles, later today",
-    "free play days: try these xbox games for free (may 7-10)",
-    "atari acquires the rights to the 'wizardry' rpg series",
     "star fox fans can't believe nintendo is remaking the same game yet again",
     "007 first light won't include this popular feature",
     "it's a good thing grand theft auto 6 didn't release in may",
@@ -10001,13 +9997,13 @@
     "you've basically got to wait an entire year to play showa american story",
     "paper shredder launches january 12, 2027",
     "new escape from tarkov update is a game-changer",
-    "mandalorian and han solo vehicles in star wars: galactic racer next month"
+    "mandalorian and han solo vehicles in star wars: galactic racer next month",
+    "max verstappen spent 40 hours playing gta 6 and still won the las vegas grand prix",
+    "i'm not smart enough for the blocky, factorio-esque spaceship and -station building sim astario, but now that it's out in early access maybe you could be",
+    "nvidia patch finally eradicates the ssd-hammering bug its last hotfix didn't actually fix",
+    "'crazy secretive' — gta 6 voice actor reveals details of rockstar's 'humongous' nda"
   ],
   "seen_story_keys": [
-    "9ad95c8eb39b5e3882cb883dc511601507b30042",
-    "3a6a67014520ac2ed6715160c0c8f1d009ff59ef",
-    "331d44df4af73f6f4484737ac60cebc9b2933fd2",
-    "133106b4916a2f6d9ffd637572a082d3d29affc7",
     "fb89c08c3f8627db7f85d547793382a243dc4a98",
     "c15272603990aa1f9b23dba3ca2403766ac0effa",
     "b3d0fa7d79366c4a69b3557791051bd97a25da26",
@@ -15003,6 +14999,10 @@
     "d347cf33db6731332847308519abc3ac8531ae84",
     "6f1f2a87605ef8888a54fa8381bbb5d775a7eef9",
     "fed8c597b37ba35b1ccf26bb90be90b9dd5add09",
-    "352485592c5cc41cafbaddacc94ab40e2c91cd7c"
+    "352485592c5cc41cafbaddacc94ab40e2c91cd7c",
+    "f9871fc6439d4bd673e8c5178bfdedadb021ca5e",
+    "44aa6405bc6927bc78db5fce291ed3ff28ddd7c8",
+    "2f3cbf57486832124c3078145804f0b9e75f053c",
+    "a1f4391aeb8d323750502ccc7bb52509ff033b08"
   ]
 }
