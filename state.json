@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.ign.com/articles/dick-tracy-1961-1964-graphic-novel-clover-press",
-    "https://www.gematsu.com/2026/05/gear-club-unlimited-3-for-ps5-xbox-series-and-pc-launches-in-october",
-    "https://gamerant.com/subnautica-2-buyers-guide/",
-    "https://gamerant.com/fallout-76-rip-daring-vs-aliens-camp-design-contest-winners/",
     "https://www.pushsquare.com/news/2026/05/lego-batmans-ps5-launch-trailer-is-stuffed-with-references-right-down-to-the-music",
     "https://www.gematsu.com/2026/05/paranormal-activity-threshold-canceled",
     "https://www.rockpapershotgun.com/with-mixtape-out-today-the-tiny-number-of-coming-of-age-games-gets-just-that-little-bit-bigger",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/11/incremental-mining-and-blacksmithing-game-mello-omega-announced-for-pc",
     "https://www.pushsquare.com/news/2026/11/hollow-knight-silksong-dlc-news-and-exciting-reveals-from-dev-team-cherry-coming-this-week",
     "https://www.pushsquare.com/news/2026/11/yooka-laylee-and-the-impossible-lair-gets-a-ps5-definitive-edition-out-this-december",
-    "https://www.gematsu.com/2026/11/yooka-laylee-and-the-impossible-lair-definitive-edition-announced-for-ps5-switch-2-and-pc"
+    "https://www.gematsu.com/2026/11/yooka-laylee-and-the-impossible-lair-definitive-edition-announced-for-ps5-switch-2-and-pc",
+    "https://gamerant.com/the-pitt-season-3-release-date-revealed/",
+    "https://www.videogameschronicle.com/news/playstation-plus-games-for-december-include-tony-hawks-pro-skater-34/",
+    "https://www.polygon.com/exoprimal-capcom-shutting-down-2027/",
+    "https://www.ign.com/articles/gta-6-animation-director-reveals-rockstar-made-3-animations-for-each-item-interaction"
   ],
   "seen_titles": [
-    "dick tracy: 1961-1964 graphic novel collection announced by clover press",
-    "gear.club unlimited 3 for ps5, xbox series, and pc launches in october",
-    "subnautica 2 early access price, game pass, platforms & what’s included",
-    "fallout 76 reveals dazzling winners of 'rip daring vs aliens showdown' contest [exclusive]",
     "lego batman's ps5 launch trailer is stuffed with references, right down to the music",
     "paranormal activity: threshold canceled",
     "with mixtape out today, the tiny number of coming of age games gets just that little bit bigger",
@@ -10001,13 +9997,13 @@
     "incremental mining and blacksmithing game mello & omega announced for pc",
     "hollow knight: silksong dlc news and 'exciting' reveals from dev team cherry coming this week",
     "yooka-laylee and the impossible lair gets a ps5 definitive edition, out this december",
-    "yooka-laylee and the impossible lair: definitive edition announced for ps5, switch 2, and pc"
+    "yooka-laylee and the impossible lair: definitive edition announced for ps5, switch 2, and pc",
+    "hbo max finally reveals the pitt season 3 release date",
+    "playstation plus games for december include tony hawk’s pro skater 3+4",
+    "capcom is officially killing its 'jurassic world meets overwatch' shooter",
+    "gta 6 animation director reveals rockstar made 3 animations for each item interaction"
   ],
   "seen_story_keys": [
-    "d3a23776d68881afe618f01782980571d26151f0",
-    "ab1c95737bf2e26ad22b8bed0c267ab57994b35b",
-    "1f53b1a28cfe6e3da039488be8d58a633db9b37a",
-    "c5c6c588fac07de21c5b6ec3b24a96c929858944",
     "5b74e4e4049be34d9a937c5c63cf59bc100dff73",
     "43504a66192c2c0d1d2faaab58ce0af22831037e",
     "c697a3354a95c1d17b3fe393e47e90ed3a2390a9",
@@ -15003,6 +14999,10 @@
     "2b8a3f20cfebf6c05392a63289907e789375b034",
     "930779932db78a67a62916990c0fa34853df7e60",
     "fd1d48f432174a17018da6107586fc77ce283024",
-    "6aba3fe988e9d6c9c9b29dceb1b4dfa2b0275adb"
+    "6aba3fe988e9d6c9c9b29dceb1b4dfa2b0275adb",
+    "8a1d466fc94c5c6bb765c04b9214a452d6ae2d3a",
+    "d9e68e77287598616ce1c1972475d50229ec0c86",
+    "c52b7a16e5056b7d9b25a26d39af70944bd4add6",
+    "50449eea3e52b86d30f7ad150f7fc0119e8f1f43"
   ]
 }
