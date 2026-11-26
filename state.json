@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/05/lego-batmans-ps5-launch-trailer-is-stuffed-with-references-right-down-to-the-music",
-    "https://www.gematsu.com/2026/05/paranormal-activity-threshold-canceled",
-    "https://www.rockpapershotgun.com/with-mixtape-out-today-the-tiny-number-of-coming-of-age-games-gets-just-that-little-bit-bigger",
-    "https://gamerant.com/amazon-prime-free-games-may-2026/",
     "https://www.purexbox.com/features/roundup-all-the-biggest-xbox-reveals-from-the-nacon-connect-showcase-2026",
     "https://gamerant.com/star-fox-switch-2-team-star-wolf-reveal/",
     "https://www.rockpapershotgun.com/the-world-of-darkness-grows-bigger-with-a-first-look-at-hunter-the-reckoning-deathwish-and-a-werewolf-the-apocalypse-rageborn-reveal",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/the-pitt-season-3-release-date-revealed/",
     "https://www.videogameschronicle.com/news/playstation-plus-games-for-december-include-tony-hawks-pro-skater-34/",
     "https://www.polygon.com/exoprimal-capcom-shutting-down-2027/",
-    "https://www.ign.com/articles/gta-6-animation-director-reveals-rockstar-made-3-animations-for-each-item-interaction"
+    "https://www.ign.com/articles/gta-6-animation-director-reveals-rockstar-made-3-animations-for-each-item-interaction",
+    "https://www.ign.com/articles/warhammer-40000-space-marine-2-patch-160-goes-live-expands-vanguard-class-makes-big-balance-changes-and-much-more",
+    "https://www.gamesindustry.biz/gta-6-launch-drives-combined-23m-downloads-of-franchises-mobile-ports-according-to-appmagic",
+    "https://gamerant.com/gta-6-patch-jason-grayed-out-cant-switch-bug/",
+    "https://gamerant.com/gta-6-pc-port-progress-tracker-24-fps/"
   ],
   "seen_titles": [
-    "lego batman's ps5 launch trailer is stuffed with references, right down to the music",
-    "paranormal activity: threshold canceled",
-    "with mixtape out today, the tiny number of coming of age games gets just that little bit bigger",
-    "prime gaming reveals 11 free games for may 2026",
     "roundup: all the biggest xbox reveals from the nacon connect showcase 2026",
     "switch 2 star fox game reveals first official look at team star wolf",
     "the world of darkness grows bigger with a first look at hunter: the reckoning - deathwish and a werewolf: the apocalypse - rageborn reveal",
@@ -10001,13 +9997,13 @@
     "hbo max finally reveals the pitt season 3 release date",
     "playstation plus games for december include tony hawk’s pro skater 3+4",
     "capcom is officially killing its 'jurassic world meets overwatch' shooter",
-    "gta 6 animation director reveals rockstar made 3 animations for each item interaction"
+    "gta 6 animation director reveals rockstar made 3 animations for each item interaction",
+    "warhammer 40,000: space marine 2 patch 16.0 goes live, expands vanguard class, makes big balance changes, and much more",
+    "gta 6 launch drives combined 2.3m downloads of franchise's mobile ports, according to appmagic",
+    "gta 6's first patch fixes story-blocking phone calls, but players say one problem is still there",
+    "gta 6 pc port already runs at 24 fps, uses 10 gb of ram"
   ],
   "seen_story_keys": [
-    "5b74e4e4049be34d9a937c5c63cf59bc100dff73",
-    "43504a66192c2c0d1d2faaab58ce0af22831037e",
-    "c697a3354a95c1d17b3fe393e47e90ed3a2390a9",
-    "d62e37ae18feef0dbcd21262e0c8c9e6f2ea0af4",
     "5be35157a0bb08074641e215cd9505eb9c7707b8",
     "e19988865c018457f74f6257ae8f3a4865a67bc5",
     "f03754a3043899d48518fd434f5f4be582c4212b",
@@ -15003,6 +14999,10 @@
     "8a1d466fc94c5c6bb765c04b9214a452d6ae2d3a",
     "d9e68e77287598616ce1c1972475d50229ec0c86",
     "c52b7a16e5056b7d9b25a26d39af70944bd4add6",
-    "50449eea3e52b86d30f7ad150f7fc0119e8f1f43"
+    "50449eea3e52b86d30f7ad150f7fc0119e8f1f43",
+    "39802baad2df4beca36864d6df6f5f369ba8a292",
+    "2b01c3110414193cb859f72cc9ef5b9928528270",
+    "a73c1b111164d49de90179a320842f11449300ae",
+    "91612090d11f78b7be8e58fc9ef9a403a839d440"
   ]
 }
