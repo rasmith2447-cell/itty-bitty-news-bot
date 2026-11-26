@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.purexbox.com/features/roundup-all-the-biggest-xbox-reveals-from-the-nacon-connect-showcase-2026",
-    "https://gamerant.com/star-fox-switch-2-team-star-wolf-reveal/",
-    "https://www.rockpapershotgun.com/the-world-of-darkness-grows-bigger-with-a-first-look-at-hunter-the-reckoning-deathwish-and-a-werewolf-the-apocalypse-rageborn-reveal",
-    "https://www.ign.com/articles/new-paranormal-activity-game-from-the-mortuary-assistant-developer-has-been-cancelled",
     "https://gamerant.com/crimson-desert-no-post-launch-roadmap-why/",
     "https://www.pushsquare.com/news/2026/05/another-viral-roguelike-hit-is-coming-to-ps5-very-soon",
     "https://www.rockpapershotgun.com/still-hoping-to-snag-a-steam-controller-after-it-sold-out-youll-have-to-literally-join-a-queue-to-get-one",
@@ -4999,13 +4995,13 @@
     "https://www.ign.com/articles/warhammer-40000-space-marine-2-patch-160-goes-live-expands-vanguard-class-makes-big-balance-changes-and-much-more",
     "https://www.gamesindustry.biz/gta-6-launch-drives-combined-23m-downloads-of-franchises-mobile-ports-according-to-appmagic",
     "https://gamerant.com/gta-6-patch-jason-grayed-out-cant-switch-bug/",
-    "https://gamerant.com/gta-6-pc-port-progress-tracker-24-fps/"
+    "https://gamerant.com/gta-6-pc-port-progress-tracker-24-fps/",
+    "https://gamerant.com/horror-games-like-resident-evil-silent-hill-ugly-within/",
+    "https://www.nintendolife.com/news/2026/11/ubisoft-wants-rayman-to-become-a-huge-transmedia-star",
+    "https://www.pcgamer.com/games/action/dev-team-who-delayed-their-game-a-year-to-avoid-silksong-says-they-wont-do-it-again-for-whatever-team-cherry-announces-tomorrow-this-time-were-staying-put/",
+    "https://www.videogameschronicle.com/news/ubisoft-defends-calling-skull-bones-a-quadruple-a-game-in-lawsuit/"
   ],
   "seen_titles": [
-    "roundup: all the biggest xbox reveals from the nacon connect showcase 2026",
-    "switch 2 star fox game reveals first official look at team star wolf",
-    "the world of darkness grows bigger with a first look at hunter: the reckoning - deathwish and a werewolf: the apocalypse - rageborn reveal",
-    "new paranormal activity game from the mortuary assistant developer has been cancelled",
     "crimson desert dev explains why there isn't a post-launch roadmap",
     "another viral roguelike hit is coming to ps5 very soon",
     "still hoping to snag a steam controller after it sold out? you'll have to literally join a queue to get one",
@@ -10001,13 +9997,13 @@
     "warhammer 40,000: space marine 2 patch 16.0 goes live, expands vanguard class, makes big balance changes, and much more",
     "gta 6 launch drives combined 2.3m downloads of franchise's mobile ports, according to appmagic",
     "gta 6's first patch fixes story-blocking phone calls, but players say one problem is still there",
-    "gta 6 pc port already runs at 24 fps, uses 10 gb of ram"
+    "gta 6 pc port already runs at 24 fps, uses 10 gb of ram",
+    "new horror game is like resident evil meets silent hill",
+    "ubisoft wants rayman to become a huge, transmedia star",
+    "dev team who delayed their game a year to avoid silksong says they won't do it again for whatever team cherry announces tomorrow: 'this time we're staying put'",
+    "ubisoft defends calling skull & bones a ‘quadruple-a’ game in lawsuit"
   ],
   "seen_story_keys": [
-    "5be35157a0bb08074641e215cd9505eb9c7707b8",
-    "e19988865c018457f74f6257ae8f3a4865a67bc5",
-    "f03754a3043899d48518fd434f5f4be582c4212b",
-    "02003140490ebbd02ec90345b9bfe1d19c8b5964",
     "dc4b5a0e16c24d73ed77f1fc75760e1bfdb4e5af",
     "89eb8ab278be5fc18dcd8c0ff5603e9af34cdc17",
     "e07eb745492ab4346b353a2083398d9bc9eec0c9",
@@ -15003,6 +14999,10 @@
     "39802baad2df4beca36864d6df6f5f369ba8a292",
     "2b01c3110414193cb859f72cc9ef5b9928528270",
     "a73c1b111164d49de90179a320842f11449300ae",
-    "91612090d11f78b7be8e58fc9ef9a403a839d440"
+    "91612090d11f78b7be8e58fc9ef9a403a839d440",
+    "252a0faf99bb70e3c1483bf7a8884774e51d1d36",
+    "5be722adbd48a7325c201df86359a31afa062b6a",
+    "367ae3ecce72fcf7d13ce6645b73a1334ea8ec1d",
+    "dd72f07736d4f0ce58a4ee259b93f4fba5f371e3"
   ]
 }
