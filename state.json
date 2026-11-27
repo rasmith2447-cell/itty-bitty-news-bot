@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.gamespot.com/articles/star-fox-is-back-so-whats-nintendos-excuse-for-other-abandoned-franchises/1100-6539845/?ftag=CAD-01-10abi2f",
-    "https://gamerant.com/paranormal-activity-threshold-canceled-why/",
-    "https://gamerant.com/pokemon-pokopia-update-patch-notes-pokemon-center/",
-    "https://www.gematsu.com/2026/05/nacon-and-crea-ture-studios-announce-werewolf-the-apocalypse-rageborn-for-ps5-xbox-series-switch-2-and-pc",
     "https://www.pushsquare.com/news/2026/05/dracula-the-disciple-may-be-the-ps5s-first-puzzlevania",
     "https://gamerant.com/resident-evil-requiem-dlc-leon-must-die-forever/",
     "https://www.nintendolife.com/news/2026/05/resident-evil-requiem-update-adds-new-minigame-mode-leon-must-die-forever",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/simpsons-hit-run-remaster-canceled-radical/",
     "https://www.eurogamer.net/gta-6-rockstar-debated-changing-jason-lucias-big-secret",
     "https://www.eurogamer.net/marvelous-developer-volentary-redundancy-amidst-console-business-restructuring",
-    "https://www.pcgamer.com/games/the-witcher/witcher-3-remastered-patch-has-lighting-fixes-sign-nerfs-and-gets-rid-of-a-nasty-werewolf-bug/"
+    "https://www.pcgamer.com/games/the-witcher/witcher-3-remastered-patch-has-lighting-fixes-sign-nerfs-and-gets-rid-of-a-nasty-werewolf-bug/",
+    "https://gamerant.com/yooka-laylee-impossible-lair-definitive-edition-skipping-xbox/",
+    "https://www.eurogamer.net/dragon-age-mass-effect-bioware-closure-ea-new-merchandise",
+    "https://www.polygon.com/new-pokemon-anime/",
+    "https://www.nintendolife.com/news/2026/11/team-cherry-uses-the-pull-of-silksong-to-highlight-a-trio-of-wonderful-looking-indies"
   ],
   "seen_titles": [
-    "star fox is back, so what's nintendo's excuse for other abandoned franchises?",
-    "paranormal activity game has been canceled",
-    "pokemon pokopia update adds highly requested feature",
-    "nacon and crea-ture studios announce werewolf: the apocalypse – rageborn for ps5, xbox series, switch 2, and pc",
     "dracula: the disciple may be the ps5's first puzzlevania",
     "new resident evil requiem dlc shadow dropped",
     "resident evil requiem update adds new minigame mode 'leon must die forever'",
@@ -10001,13 +9997,13 @@
     "simpsons hit & run maker's unannounced game canceled",
     "rockstar boss \"so grateful\" to have kept gta 6's big prologue twist a secret - and reveals tomás' story could have been very different",
     "marvelous, developer of the story of seasons series, opens up voluntary redundancy scheme as it seeks to reduce headcount by 65 employees",
-    "witcher 3 remastered patch has lighting fixes, sign nerfs, and gets rid of a nasty werewolf bug"
+    "witcher 3 remastered patch has lighting fixes, sign nerfs, and gets rid of a nasty werewolf bug",
+    "new game is skipping xbox entirely",
+    "after drawing ire for selling new mass effect merch following bioware closure, ea is now flogging new dragon age tat too",
+    "pokémon officially sets 2027 anime comeback to launch with winds and waves",
+    "team cherry uses the pull of silksong to highlight a trio of wonderful-looking indies"
   ],
   "seen_story_keys": [
-    "118e029515eb36f739ea87787515871d206cb653",
-    "345490d46719dcb3e8cdca06ae66df511f192f47",
-    "f6664b9e9eafe42e2facb0d011c91a12cc3bac65",
-    "b01be606bd12952978d3e24e223fe5a20368e117",
     "eb7f090be791a303399c060ee84e0650b3e7ec5f",
     "65a04ec65fa7a71176ed49af8751302e2814f8fa",
     "0a517856e00f3f9df7835c3ef7209c18902e9636",
@@ -15003,6 +14999,10 @@
     "7718023c76817cbda3cb712dcb27bf5ea5dbec3e",
     "785085964360d0e19c0b60a1b08f150f373f702b",
     "83263f05a67598d01ba33bf418974ff6449c586c",
-    "29f11c90ab1847a44327e43e481e50c93d902ea1"
+    "29f11c90ab1847a44327e43e481e50c93d902ea1",
+    "a71b0fea0425ce3c9fce9fc2c74d854f91707ace",
+    "5cb6a7fbc55ddff966e75cc34e1278ebab1a94ac",
+    "ee8e7a2f21c7fcdd637caace04f087ea0a4ae795",
+    "aca621bc97654de8e12b8cc9e7745e01d696f046"
   ]
 }
