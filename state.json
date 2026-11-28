@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/05/ps5s-stranger-than-heaven-somehow-got-snoop-dogg-and-ado-on-the-same-song",
-    "https://www.gamesindustry.biz/2k-lays-off-staff-working-on-free-to-play-shooter-project-ethos-while-hinting-at-new-direction-and-focus",
-    "https://www.gematsu.com/2026/05/hunting-simulator-3-launches-this-fall",
-    "https://www.gematsu.com/2026/05/endurance-motorsport-series-launches-this-summer",
     "https://www.gematsu.com/2026/05/ravenswatch-coming-to-switch-2-this-fall-song-of-thieves-update-launches-may-27",
     "https://www.nintendolife.com/news/2026/05/nintendo-announces-sweeping-price-hikes-for-switch-2",
     "https://www.gematsu.com/2026/05/switch-2-switch-and-nintendo-switch-online-price-increases-announced",
@@ -4999,13 +4995,13 @@
     "https://www.gematsu.com/2026/11/hollow-knight-silksong-free-expansion-sea-of-sorrow-launches-december-11",
     "https://www.pushsquare.com/news/2026/11/life-has-been-a-whirlwind-gta-6s-lucia-actress-says-thank-you-to-fans",
     "https://www.gematsu.com/2026/11/the-streamers-alt-account-labyrinth-launches-january-29-2027-for-pc-later-for-switch",
-    "https://www.videogameschronicle.com/news/story-of-seasons-and-rune-factory-developer-marvelous-is-offering-early-retirement-as-it-tries-to-cut-65-jobs/"
+    "https://www.videogameschronicle.com/news/story-of-seasons-and-rune-factory-developer-marvelous-is-offering-early-retirement-as-it-tries-to-cut-65-jobs/",
+    "https://www.pcgamer.com/games/fps/the-cancelled-doom-4-was-actually-a-fun-game-according-to-a-former-id-software-developer-but-it-had-one-big-problem/",
+    "https://www.purexbox.com/news/2026/11/analyst-suggests-console-prices-wont-drop-until-at-least-2028",
+    "https://www.gematsu.com/2026/11/hark-the-ghoul-launches-january-21-2027-for-ps5-xbox-series-switch-2-switch-and-pc",
+    "https://www.rockpapershotgun.com/ubisoft-now-require-their-devs-to-explain-why-they-arent-using-genai-in-game-pitches-claims-report-though-the-assassins-creed-publishers-deny-theyre-mandating-it"
   ],
   "seen_titles": [
-    "ps5's stranger than heaven somehow got snoop dogg and ado on the same song",
-    "2k lays off staff working on free-to-play shooter project ethos, while hinting at \"new direction and focus\"",
-    "hunting simulator 3 launches this fall",
-    "endurance motorsport series launches this summer",
     "ravenswatch coming to switch 2 this fall; ‘song of thieves’ update launches may 27",
     "nintendo announces sweeping price hikes for switch 2",
     "switch 2, switch, and nintendo switch online price increases announced",
@@ -10001,13 +9997,13 @@
     "hollow knight: silksong free expansion ‘sea of sorrow’ launches december 11",
     "'life has been a whirlwind': gta 6's lucia actress says thank you to fans",
     "the streamer’s alt account labyrinth launches january 29, 2027 for pc, later for switch",
-    "story of seasons and rune factory developer marvelous is offering early retirement as it tries to cut 65 jobs"
+    "story of seasons and rune factory developer marvelous is offering early retirement as it tries to cut 65 jobs",
+    "the cancelled doom 4 was 'actually a fun game', according to a former id software developer, but it had one big problem",
+    "analyst suggests console prices won't drop until at least 2028",
+    "hark the ghoul launches january 21, 2027 for ps5, xbox series, switch 2, switch, and pc",
+    "ubisoft now require their devs to explain why they aren't using genai in game pitches, claims report, though the assassin's creed publishers deny they're mandating it"
   ],
   "seen_story_keys": [
-    "322caed295c597c823f5db919c08433d018325ba",
-    "00b1509067eb48b6c07cfb68ef0dd074409b9248",
-    "44b08c4c65ad9d52e73077ec0ef93c419ef6110a",
-    "f8d7370662d7153c1ad773a605e044066bf7a964",
     "416e9f5c4e90c589463b11a4ad6cf37edc8cf8bd",
     "8334d5ad332a83e22535eacf5c4130db0b0dfa43",
     "c7d50e1be34c65c909c8feee8cec4740dbd18ca4",
@@ -15003,6 +14999,10 @@
     "74a91838bc15d31a61464816a953b362becd7c67",
     "034734763a9574cbfad4d6fb56d68cfbcc93bd0c",
     "df431f1c7c462d22cce6b631813dd49f617a47c6",
-    "d8c47bfb84acd6715f710de2fa45b0e12153e3e7"
+    "d8c47bfb84acd6715f710de2fa45b0e12153e3e7",
+    "5d8c0b0fbc673faef675ad36b03b8023dc007b3a",
+    "6d621ee08eaf4338185b36c36056b232848047a0",
+    "00f829910fbd5e848dd0d149772d209316b6c894",
+    "a45612158e6c516e25db50ad68f4448397ca943d"
   ]
 }
