@@ -1,9 +1,5 @@
 {
   "seen_urls": [
-    "https://www.pushsquare.com/news/2026/05/dracula-the-disciple-may-be-the-ps5s-first-puzzlevania",
-    "https://gamerant.com/resident-evil-requiem-dlc-leon-must-die-forever/",
-    "https://www.nintendolife.com/news/2026/05/resident-evil-requiem-update-adds-new-minigame-mode-leon-must-die-forever",
-    "https://www.pushsquare.com/news/2026/05/nte-is-built-on-human-creativity-dev-to-rework-generative-ai-assets-in-ps5-open-world",
     "https://www.pushsquare.com/news/2026/05/ps5s-stranger-than-heaven-somehow-got-snoop-dogg-and-ado-on-the-same-song",
     "https://www.gamesindustry.biz/2k-lays-off-staff-working-on-free-to-play-shooter-project-ethos-while-hinting-at-new-direction-and-focus",
     "https://www.gematsu.com/2026/05/hunting-simulator-3-launches-this-fall",
@@ -4999,13 +4995,13 @@
     "https://gamerant.com/yooka-laylee-impossible-lair-definitive-edition-skipping-xbox/",
     "https://www.eurogamer.net/dragon-age-mass-effect-bioware-closure-ea-new-merchandise",
     "https://www.polygon.com/new-pokemon-anime/",
-    "https://www.nintendolife.com/news/2026/11/team-cherry-uses-the-pull-of-silksong-to-highlight-a-trio-of-wonderful-looking-indies"
+    "https://www.nintendolife.com/news/2026/11/team-cherry-uses-the-pull-of-silksong-to-highlight-a-trio-of-wonderful-looking-indies",
+    "https://www.gematsu.com/2026/11/hollow-knight-silksong-free-expansion-sea-of-sorrow-launches-december-11",
+    "https://www.pushsquare.com/news/2026/11/life-has-been-a-whirlwind-gta-6s-lucia-actress-says-thank-you-to-fans",
+    "https://www.gematsu.com/2026/11/the-streamers-alt-account-labyrinth-launches-january-29-2027-for-pc-later-for-switch",
+    "https://www.videogameschronicle.com/news/story-of-seasons-and-rune-factory-developer-marvelous-is-offering-early-retirement-as-it-tries-to-cut-65-jobs/"
   ],
   "seen_titles": [
-    "dracula: the disciple may be the ps5's first puzzlevania",
-    "new resident evil requiem dlc shadow dropped",
-    "resident evil requiem update adds new minigame mode 'leon must die forever'",
-    "'nte is built on human creativity': dev to rework generative ai assets in ps5 open world",
     "ps5's stranger than heaven somehow got snoop dogg and ado on the same song",
     "2k lays off staff working on free-to-play shooter project ethos, while hinting at \"new direction and focus\"",
     "hunting simulator 3 launches this fall",
@@ -10001,13 +9997,13 @@
     "new game is skipping xbox entirely",
     "after drawing ire for selling new mass effect merch following bioware closure, ea is now flogging new dragon age tat too",
     "pokémon officially sets 2027 anime comeback to launch with winds and waves",
-    "team cherry uses the pull of silksong to highlight a trio of wonderful-looking indies"
+    "team cherry uses the pull of silksong to highlight a trio of wonderful-looking indies",
+    "hollow knight: silksong free expansion ‘sea of sorrow’ launches december 11",
+    "'life has been a whirlwind': gta 6's lucia actress says thank you to fans",
+    "the streamer’s alt account labyrinth launches january 29, 2027 for pc, later for switch",
+    "story of seasons and rune factory developer marvelous is offering early retirement as it tries to cut 65 jobs"
   ],
   "seen_story_keys": [
-    "eb7f090be791a303399c060ee84e0650b3e7ec5f",
-    "65a04ec65fa7a71176ed49af8751302e2814f8fa",
-    "0a517856e00f3f9df7835c3ef7209c18902e9636",
-    "0889bd5e3927e7ed6ec052a7394dc40c0a161d2b",
     "322caed295c597c823f5db919c08433d018325ba",
     "00b1509067eb48b6c07cfb68ef0dd074409b9248",
     "44b08c4c65ad9d52e73077ec0ef93c419ef6110a",
@@ -15003,6 +14999,10 @@
     "a71b0fea0425ce3c9fce9fc2c74d854f91707ace",
     "5cb6a7fbc55ddff966e75cc34e1278ebab1a94ac",
     "ee8e7a2f21c7fcdd637caace04f087ea0a4ae795",
-    "aca621bc97654de8e12b8cc9e7745e01d696f046"
+    "aca621bc97654de8e12b8cc9e7745e01d696f046",
+    "74a91838bc15d31a61464816a953b362becd7c67",
+    "034734763a9574cbfad4d6fb56d68cfbcc93bd0c",
+    "df431f1c7c462d22cce6b631813dd49f617a47c6",
+    "d8c47bfb84acd6715f710de2fa45b0e12153e3e7"
   ]
 }
